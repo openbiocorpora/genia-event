@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/12/16" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7635985" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7635985</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="interleukin_4">Interleukin 4</term> activates a <term sem="Protein_family_or_group" id="T4" lex="signal_transducer_and_activator_of_transcription_(Stat)_protein">signal transducer and activator of transcription (<term sem="Protein_family_or_group" id="A10">Stat</term>) protein</term> which interacts with an <term sem="DNA_domain_or_region" id="A109"><term sem="DNA_domain_or_region" id="T5" lex="interferon-gamma_activation_site-like_sequence">interferon-gamma activation site-like sequence</term> upstream of the <term sem="DNA_domain_or_region" id="T6" lex="I_epsilon_exon">I epsilon exon</term></term> in a <term sem="Cell_cultured" id="T7" lex="human_B_cell_line">human B cell line</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="A10" />
+<cause idref="T1" />
+<clue>Interleukin 4 <clueType>activates</clueType> a signal transducer and activator of transcription (Stat) protein which interacts with an interferon-gamma activation site-like sequence upstream of the I epsilon exon in a human B cell line.</clue>
+<comment>NER: T2, T3 del &quot;signal transducer&quot; &quot;activator&quot;: NER: T4 mod &quot;transcription (Stat) protein&quot;-&gt;&quot;signal transducer and activator of transcription (Stat) protein&quot;</comment>
+</event>
+<event id="E5">
+<type class="Binding" />
+<theme idref="A10" />
+<theme idref="A109" />
+<clue>Interleukin 4 activates a signal transducer and activator of transcription (Stat) protein which <clueType>interacts</clueType> <linkTheme>with</linkTheme> an interferon-gamma activation site-like sequence upstream of the I epsilon exon <clueLoc>in a human B cell line</clueLoc>.</clue>
+<comment>TPS A109</comment>
+</event>
+<sentence id="S2">Evidence for the involvement of <term sem="Protein_molecule" id="T8" lex="Janus_kinase_3">Janus kinase 3</term> and <term sem="Protein_molecule" id="T9" lex="interleukin-4_Stat">interleukin-4 Stat</term>.</sentence>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T8" />
+<clue>Evidence for the <clueType>involvement</clueType> <linkCause>of</linkCause> Janus kinase 3 and interleukin-4 Stat.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T9" />
+<clue>Evidence for the <clueType>involvement</clueType> <linkCause>of</linkCause> Janus kinase 3 and interleukin-4 Stat.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="RNA_family_or_group" id="T10" lex="germ_line_C_transcript"><term sem="DNA_domain_or_region" id="A2">Germ line C</term> transcripts</term> can be induced by <term sem="Protein_molecule" id="T11" lex="IL-4">IL-4</term> in the <term sem="Cell_cultured" id="T12" lex="human_B_cell_line">human B cell line</term>, <term sem="Cell_cultured" id="T13" lex="BL-2">BL-2</term>.</sentence>
+<event id="E11">
+<type class="Transcription" />
+<theme idref="A2" />
+<clue>Germ line C <clueType>transcripts</clueType> can be induced by IL-4 <clueLoc>in the human B cell line, BL-2</clueLoc>.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T11" />
+<clue>Germ line C transcripts can be <clueType>induced</clueType> <linkCause>by</linkCause> IL-4 <clueLoc>in the human B cell line, BL-2</clueLoc>.</clue>
+</event>
+<sentence id="S4">Utilizing a <term sem="DNA_domain_or_region" id="T14" lex="IFN-gamma_activation_site-like_DNA_sequence_element">IFN-gamma activation site-like DNA sequence element</term> located upstream of the <term sem="DNA_domain_or_region" id="T15" lex="I_epsilon_exon">I epsilon exon</term>, we demonstrated by <term sem="Other" id="T16" lex="gel_mobility_shift_assay">gel mobility shift assays</term> that <term sem="Protein_molecule" id="T17" lex="IL-4">IL-4</term> induced a <term sem="Other" id="A3">binding activity</term> in the <term sem="Cell_component" id="T18" lex="cytosol">cytosol</term> and <term sem="Cell_component" id="T19" lex="nucleus">nucleus</term> of <term sem="Cell_cultured" id="T20" lex="BL-2_cell">BL-2 cells</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T17" />
+<clue>Utilizing a IFN-gamma activation site-like DNA sequence element located upstream of the I epsilon exon, we demonstrated <clueExperiment>by gel mobility shift assays</clueExperiment> that IL-4 <clueType>induced</clueType> a binding activity <clueLoc>in the cytosol</clueLoc> and nucleus <clueLoc>of BL-2 cells</clueLoc>.</clue>
+</event>
+<event id="E130">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T17" />
+<clue>Utilizing a IFN-gamma activation site-like DNA sequence element located upstream of the I epsilon exon, we demonstrated <clueExperiment>by gel mobility shift assays</clueExperiment> that IL-4 <clueType>induced</clueType> a binding activity <clueLoc>in</clueLoc> the cytosol and <clueLoc>nucleus of BL-2 cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">This factor was designated <term sem="Protein_molecule" id="T21" lex="IL-4_NAF"><term sem="Protein_molecule" id="T22" lex="IL-4">IL-4</term> NAF</term> (<term sem="Protein_molecule" id="T23" lex="IL-4-induced_nuclear-activating_factor"><term sem="Protein_molecule" id="T24" lex="IL-4">IL-4</term>-induced nuclear-activating factors</term>) and was identified as a <term sem="Protein_family_or_group" id="T25" lex="tyrosine_phosphoprotein"><term sem="Amino_acid_monomer" id="A4">tyrosine</term> phosphoprotein</term>, which translocates from the <term sem="Cell_component" id="T26" lex="cytosol">cytosol</term> to the <term sem="Cell_component" id="T27" lex="nucleus">nucleus</term> upon <term sem="Other" id="T28" lex="IL-4_treatment"><term sem="Protein_molecule" id="T29" lex="IL-4">IL-4</term> treatment</term>.</sentence>
+<event id="E14">
+<type class="Localization" />
+<theme idref="T21" />
+<clue>This factor was designated IL-4 NAF (IL-4-induced nuclear-activating factors) and was identified as a tyrosine phosphoprotein, <corefTheme>which</corefTheme> <clueType>translocates</clueType> <clueLoc>from the cytosol to the nucleus</clueLoc> upon IL-4 treatment.</clue>
+</event>
+<event id="E140">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T29" />
+<clue>This factor was designated IL-4 NAF (IL-4-induced nuclear-activating factors) and was identified as a tyrosine phosphoprotein, which translocates from the cytosol to the nucleus <linkCause>upon</linkCause> IL-4 treatment.</clue>
+</event>
+<sentence id="S6">Because these are the characteristics of a <term sem="Protein_family_or_group" id="T30" lex="signal_transducer_and_activator_of_transcription_(Stat)_protein">signal transducer and activator of transcription <term sem="Protein_family_or_group" id="A5">(Stat) protein</term></term>, we determined whether <term sem="Protein_family_or_group" id="T31" lex="antibodies_to_Stat_protein">antibodies to Stat proteins</term> will interfere with <term sem="Other" id="T32" lex="gel_mobility_shift">gel mobility shift</term> and found that <term sem="Protein_family_or_group" id="T33" lex="antibodies_to_IL-4_Stat">antibodies to <term sem="Protein_molecule" id="T34" lex="IL-4_Stat"><term sem="Protein_molecule" id="T35" lex="IL-4">IL-4</term> Stat</term></term>, also known as <term sem="Protein_molecule" id="T36" lex="Stat6">Stat6</term>, but not <term sem="Protein_family_or_group" id="A1"><term sem="Protein_family_or_group" id="T37" lex="antibody">antibodies</term> to other <term sem="Protein_family_or_group" id="T38" lex="Stat_protein">Stat proteins</term></term>, interfere with the formation of the <term sem="Protein_complex" id="T39" lex="IL-4_NAF_complex"><term sem="Protein_molecule" id="A6"><term sem="Protein_molecule" id="T40" lex="IL-4">IL-4</term> NAF</term> complex</term>.</sentence>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T36" />
+<clue>Because these are the characteristics of a signal transducer and activator of transcription (Stat) protein, we determined whether <clueExperiment>antibodies to Stat proteins will interfere with gel mobility shift</clueExperiment> and found that antibodies to IL-4 Stat, also known as Stat6, but not antibodies to other Stat proteins, <clueType>interfere</clueType> <linkTheme>with</linkTheme> the formation of the IL-4 NAF complex.</clue>
+</event>
+<event assertion="non-exist" id="E200">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="A1" />
+<clue>Because these are the characteristics of a signal transducer and activator of transcription (Stat) protein, we determined whether <clueExperiment>antibodies to Stat proteins will interfere with gel mobility shift</clueExperiment> and found that antibodies to IL-4 Stat, also known as Stat6, but not antibodies to other Stat proteins, <clueType>interfere</clueType> <linkTheme>with</linkTheme> the formation of the IL-4 NAF complex.</clue>
+</event>
+<event id="E21">
+<type class="Binding" />
+<theme idref="T40" />
+<theme idref="A6" />
+<clue>Because these are the characteristics of a signal transducer and activator of transcription (Stat) protein, we determined whether antibodies to Stat proteins will interfere with gel mobility shift and found that antibodies to IL-4 Stat, also known as Stat6, but not antibodies to other Stat proteins, interfere with the <clueType>formation</clueType> <linkTheme>of</linkTheme> the IL-4 NAF complex.</clue>
+</event>
+<sentence id="S7">Congruous with the involvement of a <term sem="Protein_family_or_group" id="T41" lex="Stat_protein">Stat protein</term>, <term sem="Protein_molecule" id="T42" lex="IL-4">IL-4</term> induced robust <term sem="Other" id="T43" lex="Janus_kinase_3_(JAK3)_activity"><term sem="Protein_molecule" id="T44" lex="Janus_kinase_3">Janus kinase 3</term> (<term sem="Protein_molecule" id="T45" lex="JAK3">JAK3</term>) activity</term> in <term sem="Cell_cultured" id="T46" lex="BL-2_cell">BL-2 cells</term>.</sentence>
+<event id="E22">
+<type class="Regulation" />
+<cause idref="T41" />
+<clue>Congruous with the <clueType>involvement</clueType> <linkCause>of</linkCause> a Stat protein, IL-4 induced robust Janus kinase 3 (JAK3) activity in BL-2 cells.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T45" />
+<cause idref="T42" />
+<clue>Congruous with the involvement of a Stat protein, IL-4 <clueType>induced</clueType> robust Janus kinase 3 (JAK3) activity <clueLoc>in BL-2 cells</clueLoc>.</clue>
+</event>
+<sentence id="S8">Cotransfection of <term sem="Protein_molecule" id="T47" lex="JAK3">JAK3</term> with <term sem="Protein_molecule" id="T48" lex="IL-4_Stat"><term sem="Protein_molecule" id="T49" lex="IL-4">IL-4</term> Stat</term> into <term sem="Cell_cultured" id="T50" lex="COS-7_cell">COS-7 cells</term> produced an <term sem="Protein_molecule" id="A7">intracellular activity</term> which bound the same <term sem="DNA_domain_or_region" id="T51" lex="IFN-gamma_activation_site-like_sequence">IFN-gamma activation site-like sequence</term> and comigrated with <term sem="Protein_complex" id="T52" lex="IL-4_NAF"><term sem="Protein_molecule" id="T53" lex="IL-4">IL-4</term> NAF</term> in <term sem="Other" id="T54" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assay</term>.</sentence>
+<event id="E2">
+<type class="Artificial_process" />
+<theme idref="T47" />
+<theme idref="T48" />
+<theme idref="T50" />
+<clue><clueType>Cotransfection</clueType> <linkTheme>of</linkTheme> JAK3 <linkTheme>with</linkTheme> IL-4 Stat <linkTheme>into</linkTheme> COS-7 cells produced an intracellular activity which bound the same IFN-gamma activation site-like sequence and comigrated with IL-4 NAF in electrophoretic mobility shift assay.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression" />
+<theme idref="T47" />
+<clue><clueType>Cotransfection</clueType> <linkTheme>of</linkTheme> JAK3 with IL-4 Stat <clueLoc>into COS-7 cells</clueLoc> produced an intracellular activity which bound the same IFN-gamma activation site-like sequence and comigrated with IL-4 NAF in electrophoretic mobility shift assay.</clue>
+</event>
+<event id="E240">
+<type class="Gene_expression" />
+<theme idref="T48" />
+<clue><clueType>Cotransfection</clueType> <linkTheme>of</linkTheme> JAK3 with IL-4 Stat <clueLoc>into COS-7 cells</clueLoc> produced an intracellular activity which bound the same IFN-gamma activation site-like sequence and comigrated with IL-4 NAF in electrophoretic mobility shift assay.</clue>
+</event>
+<event id="E241">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E2" />
+<clue><clueType>Cotransfection</clueType> of JAK3 with IL-4 Stat <clueLoc>into COS-7 cells</clueLoc> produced an intracellular activity which bound the same IFN-gamma activation site-like sequence and comigrated with IL-4 NAF in electrophoretic mobility shift assay.</clue>
+</event>
+<event id="E242">
+<type class="Positive_regulation" />
+<theme idref="E240" />
+<cause idref="E2" />
+<clue><clueType>Cotransfection</clueType> of JAK3 with IL-4 Stat <clueLoc>into COS-7 cells</clueLoc> produced an intracellular activity which bound the same IFN-gamma activation site-like sequence and comigrated with IL-4 NAF in electrophoretic mobility shift assay.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="E241" />
+<cause idref="E242" />
+<clue>Cotransfection of JAK3 with IL-4 Stat <clueLoc>into COS-7 cells</clueLoc> <clueType>produced</clueType> an intracellular activity which bound the same IFN-gamma activation site-like sequence and comigrated with IL-4 NAF in electrophoretic mobility shift assay.</clue>
+</event>
+<event id="E26">
+<type class="Binding" />
+<theme idref="A7" />
+<theme idref="T51" />
+<clue>Cotransfection of JAK3 with IL-4 Stat into COS-7 cells produced an intracellular activity which <clueType>bound</clueType> the same IFN-gamma activation site-like sequence and comigrated with IL-4 NAF in electrophoretic mobility shift assay.</clue>
+</event>
+<event id="E27">
+<type class="Binding" />
+<theme idref="A7" />
+<theme idref="T52" />
+<clue>Cotransfection of JAK3 with IL-4 Stat into COS-7 cells produced an intracellular activity which bound the same IFN-gamma activation site-like sequence and <clueType>comigrated</clueType> <linkTheme>with</linkTheme> IL-4 NAF <clueExperiment>in electrophoretic mobility shift assay</clueExperiment>.</clue>
+<comment>CAUSION</comment>
+</event>
+<sentence id="S9">These results show that <term sem="Protein_complex" id="T55" lex="IL-4_NAF"><term sem="Protein_molecule" id="T56" lex="IL-4">IL-4</term> NAF</term> is <term sem="Protein_molecule" id="T57" lex="IL-4_Stat"><term sem="Protein_molecule" id="T58" lex="IL-4">IL-4</term> Stat</term>, which is activated by <term sem="Protein_molecule" id="T59" lex="JAK3">JAK3</term> in response to <term sem="Other" id="T60" lex="IL-4_receptor_engagement"><term sem="Protein_family_or_group" id="A9"><term sem="Protein_molecule" id="T61" lex="IL-4">IL-4</term> receptor</term> engagement</term>.</sentence>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T55" />
+<cause idref="T59" />
+<clue>These results show that IL-4 NAF is IL-4 Stat, which is <clueType>activated</clueType> <linkCause>by</linkCause> JAK3 <clueTime>in response to IL-4 receptor engagement</clueTime>.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="A9" />
+<clue>These results show that IL-4 NAF is IL-4 Stat, which is activated by JAK3 <linkCause>in response to</linkCause> IL-4 receptor engagement.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

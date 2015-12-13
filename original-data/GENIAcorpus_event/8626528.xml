@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="17/05/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8626528">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8626528</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Nuclear appearance of a <term sem="Other" id="A1">factor</term> that binds the <term sem="DNA_domain_or_region" id="T1" lex="CD28_response_element">CD28 response element</term> within the <term sem="DNA_domain_or_region" id="T2" lex="interleukin-2_enhancer">interleukin-2 enhancer</term> correlates with <term sem="Other" id="T3" lex="interleukin-2_production"><term sem="Protein_molecule" id="T4" lex="interleukin-2">interleukin-2</term> production</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>Nuclear appearance of a factor that binds the CD28 response element within the interleukin-2 enhancer correlates with interleukin-2 <clueType>production</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T1" />
+<clue>Nuclear appearance of a factor that <clueType>binds</clueType> the CD28 response element within the interleukin-2 enhancer correlates with interleukin-2 production.</clue>
+</event>
+<event id="E3">
+<type class="Localization" />
+<theme idref="A1" />
+<clue><clueLoc>Nuclear</clueLoc> <clueType>appearance</clueType> <linkTheme>of</linkTheme> a factor that binds the CD28 response element within the interleukin-2 enhancer correlates with interleukin-2 production.</clue>
+</event>
+<event id="E4">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="E1" />
+<clue>Nuclear appearance of a factor that binds the CD28 response element within the interleukin-2 enhancer <clueType>correlates</clueType> <linkTheme>with</linkTheme> interleukin-2 production.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Activation of <term sem="Cell_natural" id="T5" lex="T_lymphocyte">T lymphocytes</term> requires the combined signaling of the <term sem="Protein_family_or_group" id="T6" lex="T_cell_receptor">T cell receptor</term> and <term sem="Protein_family_or_group" id="T7" lex="costimulatory_molecule">costimulatory molecules</term> such as <term sem="Protein_molecule" id="T8" lex="CD28">CD28</term>.</sentence>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="T5" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> T lymphocytes requires the combined signaling of the T cell receptor and costimulatory molecules such as CD28.</clue>
+</event>
+<event id="E6">
+<type class="Cell_communication" />
+<theme idref="T6" />
+<clue>Activation of T lymphocytes requires the combined <clueType>signaling</clueType> <linkTheme>of</linkTheme> the T cell receptor and costimulatory molecules such as CD28.</clue>
+</event>
+<event id="E50">
+<type class="Cell_communication" />
+<theme idref="T8" />
+<clue>Activation of T lymphocytes requires the combined <clueType>signaling</clueType> <linkTheme>of</linkTheme> the T cell receptor and <corefTheme>costimulatory molecules</corefTheme> such as CD28.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E6" />
+<cause idref="E50" />
+<clue>Activation of T lymphocytes <clueType>requires</clueType> the combined signaling of the T cell receptor and costimulatory molecules such as CD28.</clue>
+</event>
+<sentence id="S3">The ability of <term sem="Cell_natural" id="T9" lex="T_cell">T cells</term> to produce <term sem="Protein_molecule" id="T10" lex="interleukin-2">interleukin-2</term> (<term sem="Protein_molecule" id="T11" lex="IL-2">IL-2</term>) is a critical control point in <term sem="Other" id="T12" lex="T_lymphocyte_activation"><term sem="Cell_natural" id="A2">T lymphocyte</term> activation</term>.</sentence>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>The ability of <clueLoc>T cells</clueLoc> to <clueType>produce</clueType> interleukin-2 (IL-2) is a critical control point in T lymphocyte activation.</clue>
+</event>
+<event id="E9">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<clue>The ability of T cells to produce interleukin-2 (IL-2) is a critical control point in T lymphocyte <clueType>activation</clueType>.</clue>
+</event>
+<event id="E51">
+<type class="Correlation" />
+<theme idref="E8" />
+<theme idref="E9" />
+<clue>The ability of T cells to produce interleukin-2 (IL-2) <clueType>is a critical control point</clueType> <linkTheme>in</linkTheme> T lymphocyte activation.</clue>
+</event>
+<sentence id="S4">The <term sem="Protein_molecule" id="T13" lex="IL-2">IL-2</term> enhancer contains a functional motif named <term sem="DNA_domain_or_region" id="T14" lex="CD28_response_element"><term sem="Protein_molecule" id="T15" lex="CD28">CD28</term> response element</term> (<term sem="DNA_domain_or_region" id="T16" lex="CD28RE">CD28RE</term>) that serves a role as a target for <term sem="Other" id="T17" lex="mitogenic_T_cell_activation_signal"><term sem="Protein_family_or_group" id="A21">mitogenic</term> <term sem="Cell_natural" id="A22">T cell</term> activation signals</term>.</sentence>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="T16" />
+<cause idref="T17" />
+<clue>The IL-2 enhancer contains a functional motif named CD28 response element (CD28RE) that <clueType>serves a role as a target</clueType> <linkCause>for</linkCause> mitogenic T cell activation signals.</clue>
+</event>
+<event id="E53">
+<type class="Physiological_process" />
+<theme idref="A22" />
+<cause idref="A21" />
+<clue>The IL-2 enhancer contains a functional motif named CD28 response element (CD28RE) that serves a role as a target for mitogenic T cell <clueType>activation</clueType> signals.</clue>
+</event>
+<sentence id="S5">The <term sem="DNA_domain_or_region" id="T18" lex="CD28RE">CD28RE</term> sequence reveals similarity to the <term sem="DNA_domain_or_region" id="T19" lex="consensus_kappaB_binding_motif">consensus kappaB binding motif</term>.</sentence>
+<sentence id="S6">Here we demonstrate that <term sem="DNA_domain_or_region" id="T20" lex="CD28RE">CD28RE</term> binds an inducible protein with a molecular mass of approximately 35 kDa called <term sem="Protein_molecule" id="T21" lex="nuclear_factor_of_mitogenic-activated_T_cells">nuclear factor of mitogenic-activated <term sem="Cell_natural" id="T22" lex="T_cell">T cells</term></term> (<term sem="Protein_molecule" id="T23" lex="NF-MATp35">NF-MATp35</term>) that is clearly different from the known <term sem="Protein_family_or_group" id="T24" lex="NF-_kappaB/Rel_family_member">NF- kappaB/<term sem="Protein_family_or_group" id="T25" lex="Rel">Rel</term> family members</term>.</sentence>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T20" />
+<theme idref="T23" />
+<clue>Here we demonstrate that CD28RE <clueType>binds</clueType> an inducible protein with a molecular mass of approximately 35 kDa called nuclear factor of mitogenic-activated T cells (NF-MATp35) that is clearly different from the known NF- kappaB/Rel family members.</clue>
+</event>
+<sentence id="S7">Induction of <term sem="Protein_molecule" id="T26" lex="NF-MATp35">NF-MATp35</term> was shown to depend on <term sem="Other" id="T27" lex="de_novo_protein_synthesis">de novo protein synthesis</term> and was restricted to <term sem="Cell_natural" id="T28" lex="T_cell">T cells</term> that received a <term sem="Protein_family_or_group" id="A24">mitogenic</term> combination of <term sem="Protein_family_or_group" id="T29" lex="T_cell_stimuli">T cell stimuli</term>, not necessarily including <term sem="Protein_molecule" id="T30" lex="CD28">CD28</term> signaling.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> NF-MATp35 was shown to depend on de novo protein synthesis and was restricted to <clueLoc>T cells that received a mitogenic combination of T cell stimuli, not necessarily including CD28 signaling.</clueLoc></clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T27" />
+<clue>Induction of NF-MATp35 was shown to <clueType>depend</clueType> <linkCause>on</linkCause> de novo protein synthesis and was restricted to T cells that received a mitogenic combination of T cell stimuli, not necessarily including CD28 signaling.</clue>
+</event>
+<event id="E54">
+<type class="Artificial_process" />
+<theme idref1="T29" idref="A24" />
+<theme idref="T28" />
+<clue>Induction of NF-MATp35 was shown to depend on de novo protein synthesis and was restricted to T cells that <clueType>received</clueType> a mitogenic combination of T cell stimuli, not necessarily including CD28 signaling.</clue>
+<comment>NER: T29 MOD</comment>
+</event>
+<sentence id="S8">Nonmitogenic <term sem="Cell_natural" id="A3">T cell</term> stimulation did not result in appearance of <term sem="Protein_molecule" id="T31" lex="NF-MATp35">NF-MATp35</term>.</sentence>
+<event id="E14">
+<type class="Physiological_process" />
+<theme idref="A3" />
+<clue><clueType>Nonmitogenic</clueType> T cell <clueType>stimulation</clueType> did not result in appearance of NF-MATp35.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T31" />
+<clue>Nonmitogenic T cell stimulation did not result in <clueType>appearance</clueType> <linkTheme>of</linkTheme> NF-MATp35.</clue>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E14" />
+<clue>Nonmitogenic T cell stimulation did not <clueType>result</clueType> <linkTheme>in</linkTheme> appearance of NF-MATp35.</clue>
+</event>
+<sentence id="S9">These results indicate that <term sem="Protein_family_or_group" id="A25">mitogenic</term> combinations of <term sem="Other" id="T32" lex="T_cell_activation_signal">T cell activation signals</term> are integrated at the level of <term sem="Other" id="T33" lex="NF-MATp35_induction"><term sem="Protein_molecule" id="T34" lex="NF-MATp35">NF-MATp35</term> induction</term>.</sentence>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<clue>These results indicate that mitogenic combinations of T cell activation signals are integrated at the level of NF-MATp35 <clueType>induction</clueType>.</clue>
+</event>
+<sentence id="S10">Similar to its effect on <term sem="Other" id="T35" lex="IL-2_production"><term sem="Protein_molecule" id="T36" lex="IL-2">IL-2</term> production</term>, <term sem="Organic_compound_other" id="T37" lex="cyclosporin_A">cyclosporin A</term> inhibited the induction of <term sem="Protein_molecule" id="T38" lex="NF-MATp35">NF-MATp35</term>.</sentence>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T36" />
+<clue>Similar to its effect on IL-2 <clueType>production</clueType>, cyclosporin A inhibited the induction of NF-MATp35.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<clue>Similar to its effect on IL-2 production, cyclosporin A inhibited the <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-MATp35.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="T37" />
+<clue>Similar to its effect on IL-2 production, cyclosporin A <clueType>inhibited</clueType> the induction of NF-MATp35.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="T37" />
+<clue>Similar to its effect <linkTheme>on</linkTheme> IL-2 production, cyclosporin A <clueType>inhibited</clueType> the induction of NF-MATp35.</clue>
+</event>
+<sentence id="S11">Taken together, these data demonstrate that the nuclear appearance of <term sem="Protein_molecule" id="T39" lex="NF-MATp35">NF-MATp35</term> shows excellent correlation with <term sem="Protein_molecule" id="T40" lex="IL-2">IL-2</term> production, which is a unique characteristic among nuclear factors implicated in the control of <term sem="Other" id="T41" lex="IL-2_gene_expression"><term sem="Protein_molecule" id="T42" lex="IL-2">IL-2</term> gene expression</term>.</sentence>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref="T39" />
+<clue>Taken together, these data demonstrate that the <clueLoc>nuclear</clueLoc> <clueType>appearance</clueType> <linkTheme>of</linkTheme> NF-MATp35 shows excellent correlation with IL-2 production, which is a unique characteristic among nuclear factors implicated in the control of IL-2 gene expression.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="T42" />
+<clue>Taken together, these data demonstrate that the nuclear appearance of NF-MATp35 shows excellent correlation with IL-2 <clueType>production</clueType>, which is a unique characteristic among nuclear factors implicated in the control of IL-2 gene expression.</clue>
+</event>
+<event id="E24">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E23" />
+<clue>Taken together, these data demonstrate that the nuclear appearance of NF-MATp35 shows excellent <clueType>correlation</clueType> <linkTheme>with</linkTheme> IL-2 production, which is a unique characteristic among nuclear factors implicated in the control of IL-2 gene expression.</clue>
+</event>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref="T42" />
+<clue>Taken together, these data demonstrate that the nuclear appearance of NF-MATp35 shows excellent correlation with IL-2 production, which is a unique characteristic among nuclear factors implicated in the control of IL-2 gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E26">
+<type class="Regulation" />
+<theme idref="E25" />
+<clue>Taken together, these data demonstrate that the nuclear appearance of NF-MATp35 shows excellent correlation with IL-2 production, which is a unique characteristic among nuclear factors implicated in the <clueType>control</clueType> <linkTheme>of</linkTheme> IL-2 gene expression.</clue>
+</event>
+<event id="E27">
+<type class="Correlation" />
+<theme idref="T39" />
+<theme idref="E26" />
+<clue>Taken together, these data demonstrate that the nuclear appearance of NF-MATp35 shows excellent correlation with IL-2 production, which is a unique characteristic among nuclear factors <clueType>implicated</clueType> <linkTheme>in</linkTheme> the control of IL-2 gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

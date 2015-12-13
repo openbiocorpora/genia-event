@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="29/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9175835" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9175835</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="Tap">Tap</term>: a novel <term sem="Protein_family_or_group" id="T2" lex="cellular_protein">cellular protein</term> that interacts with <term sem="Protein_family_or_group" id="A1">tip</term> of <term sem="Virus" id="T3" lex="herpesvirus_saimiri">herpesvirus saimiri</term> and induces <term sem="Other" id="T4" lex="lymphocyte_aggregation"><term sem="Cell_natural" id="T5" lex="lymphocyte">lymphocyte</term> aggregation</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T1" />
+<theme idref="A1" />
+<clue>Tap: a novel cellular protein that <clueType>interacts</clueType> <linkTheme>with</linkTheme> tip of herpesvirus saimiri and induces lymphocyte aggregation.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T1" />
+<clue>Tap: a novel cellular protein that interacts with tip of herpesvirus saimiri and <clueType>induces</clueType> lymphocyte aggregation.</clue>
+</event>
+<event id="E3">
+<type class="Cell_adhesion" />
+<theme idref="T5" />
+<clue>Tap: a novel cellular protein that interacts with tip of herpesvirus saimiri and induces lymphocyte <clueType>aggregation</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_family_or_group" id="A2">Tip</term> of <term sem="Virus" id="T6" lex="herpesvirus_saimiri">herpesvirus saimiri</term> associates with <term sem="Protein_molecule" id="T7" lex="Lck">Lck</term> and down-regulates <term sem="Protein_molecule" id="T9" lex="Lck">Lck</term>-mediated <term sem="Other" id="A5">activation</term>.</sentence>
+<event id="E4">
+<type class="Binding" />
+<theme idref="A2" />
+<theme idref="T7" />
+<clue>Tip of herpesvirus saimiri <clueType>associates</clueType> <linkTheme>with</linkTheme> Lck and down-regulates Lck-mediated activation.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="A2" />
+<clue>Tip of herpesvirus saimiri associates with Lck and <clueType>down-regulates</clueType> Lck-mediated activation.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="T9" />
+<clue>Tip of herpesvirus saimiri associates with Lck and down-regulates Lck-<clueType>mediated</clueType> activation.</clue>
+</event>
+<sentence id="S3">We identified a novel cellular <term sem="Protein_molecule" id="T10" lex="Tip-associated_protein">Tip-associated protein</term> (<term sem="Protein_molecule" id="T11" lex="Tap">Tap</term>) by a <term sem="Other" id="T12" lex="yeast_two-hybrid_screen">yeast two-hybrid screen</term>.</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>We <clueType>identified</clueType> a novel <clueLoc>cellular</clueLoc> Tip-associated protein (Tap) <clueExperiment>by a yeast two-hybrid screen</clueExperiment>.</clue>
+<comment>CAUTION, identified</comment>
+</event>
+<sentence id="S4"><term sem="Protein_molecule" id="T13" lex="Tap">Tap</term> associated with <term sem="Protein_molecule" id="T14" lex="Tip">Tip</term> following transient expression in <term sem="Cell_cultured" id="T15" lex="COS-1_cell">COS-1 cells</term> and stable <term sem="Other" id="T33">expression</term> in <term sem="Cell_cultured" id="T16" lex="human_Jurkat-T_cell"><term sem="Multicellular_organism_natural" id="T8">human</term> Jurkat-T cells</term>.</sentence>
+<event id="E8">
+<type class="Binding" />
+<theme idref="T13" />
+<theme idref="T14" />
+<clue>Tap <clueType>associated</clueType> <linkTheme>with</linkTheme> Tip <clueTime>following</clueTime> transient expression <clueLoc>in COS-1 cells</clueLoc> and stable expression <clueLoc>in human Jurkat-T cells</clueLoc>.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>Tap associated with Tip following transient <clueType>expression</clueType> <clueLoc>in COS-1 cells</clueLoc> and stable expression in human Jurkat-T cells.</clue>
+</event>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>Tap associated with Tip following transient expression in COS-1 cells and stable <clueType>expression</clueType> <clueLoc>in human Jurkat-T cells</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term sem="Other" id="T34">Expression</term> of <term sem="Protein_molecule" id="T17" lex="Tip">Tip</term> and <term sem="Protein_molecule" id="T18" lex="Tap">Tap</term> in <term sem="Cell_cultured" id="T19" lex="Jurkat-T_cell">Jurkat-T cells</term> induced dramatic <term sem="Other" id="T35">cell aggregation</term>.</sentence>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> Tip and Tap <clueLoc>in Jurkat-T cells</clueLoc> induced dramatic cell aggregation.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T18" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> Tip and Tap <clueLoc>in Jurkat-T cells</clueLoc> induced dramatic cell aggregation.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E13" />
+<cause idref="E14" />
+<clue>Expression of Tip and Tap in Jurkat-T cells <clueType>induced</clueType> dramatic cell aggregation.</clue>
+</event>
+<event id="E17">
+<type class="Cell_adhesion" />
+<theme idref="T19" />
+<clue>Expression of Tip and Tap in Jurkat-T cells induced dramatic cell <clueType>aggregation</clueType>.</clue>
+</event>
+<sentence id="S6"><term sem="Other" id="A3">Aggregation</term> was likely caused by the up-regulated surface expression of <term sem="Protein_molecule" id="T20" lex="adhesion_molecule">adhesion molecules</term> including <term sem="Protein_molecule" id="T21" lex="integrin_alpha">integrin alpha</term>, <term sem="Protein_molecule" id="T22" lex="L-selectin">L-selectin</term>, <term sem="Protein_molecule" id="T23" lex="ICAM-3">ICAM-3</term>, and <term sem="Protein_molecule" id="T24" lex="H-CAM">H-CAM</term>.</sentence>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>Aggregation was likely caused by the up-regulated <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>adhesion molecules</corefTheme> including integrin alpha, L-selectin, ICAM-3, and H-CAM.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>Aggregation was likely caused by the up-regulated <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>adhesion molecules</corefTheme> including integrin alpha, L-selectin, ICAM-3, and H-CAM.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue>Aggregation was likely caused by the up-regulated <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>adhesion molecules</corefTheme> including integrin alpha, L-selectin, ICAM-3, and H-CAM.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>Aggregation was likely caused by the up-regulated <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>adhesion molecules</corefTheme> including integrin alpha, L-selectin, ICAM-3, and H-CAM.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<clue>Aggregation was likely caused by the <clueType>up-regulated</clueType> surface expression of adhesion molecules including integrin alpha, L-selectin, ICAM-3, and H-CAM.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<clue>Aggregation was likely caused by the <clueType>up-regulated</clueType> surface expression of adhesion molecules including integrin alpha, L-selectin, ICAM-3, and H-CAM.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<clue>Aggregation was likely caused by the <clueType>up-regulated</clueType> surface expression of adhesion molecules including integrin alpha, L-selectin, ICAM-3, and H-CAM.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<clue>Aggregation was likely caused by the <clueType>up-regulated</clueType> surface expression of adhesion molecules including integrin alpha, L-selectin, ICAM-3, and H-CAM.</clue>
+</event>
+<event uncertainty="probable" id="E26">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="E22" />
+<clue>Aggregation was likely <clueType>caused</clueType> <linkCause>by</linkCause> the up-regulated surface expression of adhesion molecules including integrin alpha, L-selectin, ICAM-3, and H-CAM.</clue>
+</event>
+<event uncertainty="probable" id="E27">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="E23" />
+<clue>Aggregation was likely <clueType>caused</clueType> <linkCause>by</linkCause> the up-regulated surface expression of adhesion molecules including integrin alpha, L-selectin, ICAM-3, and H-CAM.</clue>
+</event>
+<event uncertainty="probable" id="E28">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="E24" />
+<clue>Aggregation was likely <clueType>caused</clueType> <linkCause>by</linkCause> the up-regulated surface expression of adhesion molecules including integrin alpha, L-selectin, ICAM-3, and H-CAM.</clue>
+</event>
+<event uncertainty="probable" id="E29">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="E25" />
+<clue>Aggregation was likely <clueType>caused</clueType> <linkCause>by</linkCause> the up-regulated surface expression of adhesion molecules including integrin alpha, L-selectin, ICAM-3, and H-CAM.</clue>
+</event>
+<sentence id="S7">Furthermore, <term sem="Protein_complex" id="T25" lex="NF-kappaB_transcriptional_factor">NF-kappaB transcriptional factor</term> of aggregated <term sem="Cell_natural" id="A6">cells</term> had approximately 40-fold higher activity than that of <term sem="Cell_natural" id="T27" lex="parental_cell">parental cells</term>.</sentence>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<clue>Furthermore, NF-kappaB transcriptional factor <clueLoc>of aggregated cells</clueLoc> <clueType>had</clueType> approximately 40-fold higher <clueType>activity</clueType> than that of parental cells.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<clue>Furthermore, NF-kappaB transcriptional factor <clueLoc>of aggregated cells</clueLoc> had approximately 40-fold <clueType>higher</clueType> activity than that of parental cells.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<clue>Furthermore, NF-kappaB transcriptional factor of aggregated cells <clueType>had</clueType> approximately 40-fold higher <clueType>activity</clueType> than that of <clueLoc>parental cells</clueLoc>.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E34">
+<type class="Cell_adhesion" />
+<theme idref="A6" />
+<clue>Furthermore, NF-kappaB transcriptional factor of <clueType>aggregated</clueType> cells had approximately 40-fold higher activity than that of parental cells.</clue>
+</event>
+<sentence id="S8">Thus, <term sem="Protein_molecule" id="T28" lex="Tap">Tap</term> is likely to be an important cellular mediator of <term sem="Other" id="T29" lex="Tip_function"><term sem="Protein_molecule" id="T30" lex="Tip">Tip</term> function</term> in <term sem="Other" id="T31" lex="T_cell_transformation"><term sem="Cell_natural" id="A4">T cell</term> transformation</term> by <term sem="Virus" id="T32" lex="herpesvirus_saimiri">herpesvirus saimiri</term>.</sentence>
+<event uncertainty="probable" id="E31">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<cause idref="T28" />
+<clue>Thus, Tap is likely to be an <clueType>important</clueType> <clueLoc>cellular</clueLoc> <clueType>mediator</clueType> <linkTheme>of</linkTheme> Tip function in T cell transformation by herpesvirus saimiri.</clue>
+</event>
+<event id="E32">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="T30" />
+<clue>Thus, Tap is likely to be an important cellular mediator of Tip <clueType>function</clueType> <linkTheme>in</linkTheme> T cell transformation by herpesvirus saimiri.</clue>
+</event>
+<event id="E33">
+<type class="Biological_process" />
+<theme idref="A4" />
+<clue>Thus, Tap is likely to be an important cellular mediator of Tip function in T cell <clueType>transformation</clueType> by herpesvirus saimiri.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="T32" />
+<clue>Thus, Tap is likely to be an important cellular mediator of Tip function in T cell <clueType>transformation</clueType> <linkCause>by</linkCause> herpesvirus saimiri.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

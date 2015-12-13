@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="23/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10232385" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10232385</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Resistance to <term sem="Protein_family_or_group" id="T2" lex="tumor_necrosis_factor">tumor necrosis factor</term> induced <term sem="Other" id="T3" lex="apoptosis">apoptosis</term> in vitro correlates with <term sem="Other" id="T4" lex="high_metastatic_capacity">high metastatic capacity</term> of <term sem="Cell_natural" id="A1">cells</term> in vivo.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T3" />
+<cause idref="T2" />
+<clue>Resistance to tumor necrosis factor <clueType>induced</clueType> apoptosis in vitro correlates with high metastatic capacity of cells in vivo.</clue>
+</event>
+<event id="E2">
+<type />
+<theme idref="E1" />
+<clue><clueType>Resistance</clueType> <linkTheme>to</linkTheme> tumor necrosis factor induced apoptosis in vitro correlates with high metastatic capacity of cells in vivo.</clue>
+<comment>RESISTANCE</comment>
+</event>
+<event id="E101">
+<type class="Cellular_physiological_process" />
+<theme idref="A1" />
+<clue>Resistance to tumor necrosis factor induced apoptosis in vitro correlates with high <clueType>metastatic capacity</clueType> <linkTheme>of</linkTheme> cells in vivo.</clue>
+</event>
+<event id="E102">
+<type class="Positive_regulation" />
+<theme idref="E101" />
+<clue>Resistance to tumor necrosis factor induced apoptosis in vitro correlates with <clueType>high</clueType> metastatic capacity of cells in vivo.</clue>
+</event>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="E2" />
+<theme idref="E102" />
+<clue>Resistance to tumor necrosis factor induced apoptosis in vitro <clueType>correlates</clueType> <linkTheme>with</linkTheme> high metastatic capacity of cells in vivo.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_family_or_group" id="T5" lex="TNF">TNF</term> is one of the <term sem="Protein_family_or_group" id="T6" lex="cytokine">cytokines</term> secreted by the <term sem="Cell_natural" id="A2">cells of the <term sem="Body_region" id="T7" lex="immune_system">immune system</term>.</term></sentence>
+<event id="E4">
+<type class="Localization" />
+<theme idref="T5" />
+<clue>TNF is one of the cytokines <clueType>secreted</clueType> <clueLoc>by the cells of the immune system</clueLoc>.</clue>
+<comment>TPS A2</comment>
+</event>
+<sentence id="S3">Our data demonstrate that those <term sem="Cell_cultured" id="T8" lex="cell_line">cell lines</term> lacking capability to form <term sem="Tissue_natural" id="T9" lex="metastatic_tumor">metastatic tumors</term> in vivo are susceptible to <term sem="Protein_family_or_group" id="T10" lex="TNF">TNF</term> induced <term sem="Other" id="T11" lex="apoptosis">apoptosis</term> in vitro.</sentence>
+<event id="E5">
+<type />
+<theme idref="T9" />
+<clue>Our data demonstrate that those cell lines lacking capability to <clueType>form</clueType> metastatic tumors in vivo are susceptible to TNF induced apoptosis in vitro.</clue>
+<comment>SOO</comment>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<clue>Our data demonstrate that <clueLoc>those cell lines</clueLoc> <clueType>lacking capability</clueType> <linkTheme>to</linkTheme> form metastatic tumors in vivo are susceptible to TNF induced apoptosis in vitro.</clue>
+</event>
+<event id="E7">
+<type class="Cellular_physiological_process" />
+<theme idref="A2" />
+<clue>Our data demonstrate that <corefTheme>those cell lines</corefTheme> lacking capability to form metastatic tumors in vivo are susceptible to TNF induced <clueType>apoptosis</clueType> in vitro.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T10" />
+<clue>Our data demonstrate that those cell lines lacking capability to form metastatic tumors in vivo are susceptible to TNF <clueType>induced</clueType> apoptosis in vitro.</clue>
+</event>
+<sentence id="S4">However, <term sem="Cell_natural" id="A3"><term sem="Cell_cultured" id="T12" lex="cell_line">cell lines</term> with <term sem="Other" id="T13" lex="high_metastatic_potential">high metastatic potential</term></term> are resistant to <term sem="Protein_family_or_group" id="T14" lex="TNF">TNF</term> in vitro.</sentence>
+<event assertion="non-exist" id="E9">
+<type class="Regulation" />
+<cause idref="T14" />
+<clue>However, <clueLoc>cell lines with high metastatic potential</clueLoc> are <clueType>resistant</clueType> <linkCause>to</linkCause> TNF in vitro.</clue>
+<comment>TPS A3, RESISTANCE</comment>
+</event>
+<sentence id="S5">Furthermore, the same <term sem="Cell_cultured" id="T15" lex="cell_line">cell lines</term> were resistant to <term sem="Other" id="T16" lex="cytolytic_action">cytolytic action</term> of other <term sem="Protein_family_or_group" id="T17" lex="cytotoxic_protein">cytotoxic proteins</term> secreted by <term sem="Cell_cultured" id="T18" lex="LAK_cell">LAK cells</term>.</sentence>
+<event id="E10">
+<type class="Localization" />
+<theme idref="T17" />
+<clue>Furthermore, the same cell lines were resistant to cytolytic action of other cytotoxic proteins <clueType>secreted</clueType> <clueLoc>by LAK cells</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E11">
+<type class="Cellular_physiological_process" />
+<theme idref="A3" />
+<cause idref="T17" />
+<clue>Furthermore, <corefTheme>the same cell lines</corefTheme> were <clueType>resistant to cytolytic action</clueType> <linkCause>of</linkCause> other cytotoxic proteins secreted by LAK cells.</clue>
+<comment>RESISTANCE</comment>
+</event>
+<sentence id="S6">Our data showed that <term sem="Protein_family_or_group" id="T19" lex="TNF">TNF</term> resistance in vitro correlates with the increased level of <term sem="Protein_family_or_group" id="T20" lex="transcription_factor">transcription factor</term> <term sem="Protein_complex" id="T21" lex="NF-kappaB">NF-kappaB</term>.</sentence>
+<event assertion="non-exist" id="E12">
+<type />
+<cause idref="T19" />
+<clue>Our data showed that TNF <clueType>resistance</clueType> in vitro correlates with the increased level of transcription factor NF-kappaB.</clue>
+<comment>RESISTANCE</comment>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<clue>Our data showed that TNF resistance in vitro correlates with the <clueType>increased</clueType> level <linkTheme>of</linkTheme> transcription factor NF-kappaB.</clue>
+</event>
+<event id="E14">
+<type class="Correlation" />
+<theme idref="E12" />
+<theme idref="E13" />
+<clue>Our data showed that TNF resistance in vitro <clueType>correlates</clueType> <linkTheme>with</linkTheme> the increased level of transcription factor NF-kappaB.</clue>
+</event>
+<sentence id="S7">This finding may provide a tool to improve current protocols of <term sem="Other" id="T22" lex="immunotherapy">immunotherapy</term> and insights to how <term sem="Cell_natural" id="T23" lex="tumor_cell">tumor cells</term> are or are not killed by <term sem="Cell_cultured" id="T24" lex="LAK_cell">LAK cells</term>.</sentence>
+<event uncertainty="doubtful" id="E15">
+<type class="Cellular_physiological_process" />
+<theme idref="T23" />
+<cause idref="T24" />
+<clue>This finding may provide a tool to improve current protocols of immunotherapy and insights to how tumor cells are or are not <clueType>killed</clueType> <linkCause>by</linkCause> LAK cells.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

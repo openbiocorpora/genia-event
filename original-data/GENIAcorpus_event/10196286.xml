@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="16/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10196286" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10196286</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Role of <term sem="Protein_family_or_group" id="T1" lex="cellular_tumor_necrosis_factor_receptor-associated_factor">cellular tumor necrosis factor receptor-associated factors</term> in <term sem="Protein_complex" id="T2" lex="NF-kappaB">NF-kappaB</term> activation and <term sem="Cell_natural" id="T3" lex="lymphocyte">lymphocyte</term> transformation by <term sem="Virus" id="T4" lex="herpesvirus_Saimiri">herpesvirus Saimiri <term sem="Protein_family_or_group" id="T5" lex="STP">STP</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<cause idref="T5" />
+<clue>Role of cellular tumor necrosis factor receptor-associated factors in NF-kappaB <clueType>activation</clueType> and lymphocyte transformation <linkCause>by</linkCause> herpesvirus Saimiri STP.</clue>
+</event>
+<event id="E2">
+<type class="Biological_process" />
+<theme idref="T3" />
+<clue>Role of cellular tumor necrosis factor receptor-associated factors in NF-kappaB activation and lymphocyte <clueType>transformation</clueType> by herpesvirus Saimiri STP.</clue>
+</event>
+<event id="E102">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T5" />
+<clue>Role of cellular tumor necrosis factor receptor-associated factors in NF-kappaB activation and lymphocyte <clueType>transformation</clueType> <linkCause>by</linkCause> herpesvirus Saimiri STP.</clue>
+</event>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="E1" />
+<theme idref="T1" />
+<clue><clueType>Role</clueType> <linkCause>of</linkCause> cellular tumor necrosis factor receptor-associated factors <linkTheme>in</linkTheme> NF-kappaB activation and lymphocyte transformation by herpesvirus Saimiri STP.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue><clueType>Role</clueType> <linkCause>of</linkCause> cellular tumor necrosis factor receptor-associated factors <linkTheme>in</linkTheme> NF-kappaB activation and lymphocyte transformation by herpesvirus Saimiri STP.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_family_or_group" id="T6" lex="STP_oncoprotein">STP oncoproteins</term> of the <term sem="Virus" id="T7" lex="herpesvirus_saimiri_(HVS)_subgroup_A_strain_11">herpesvirus saimiri (<term sem="Virus" id="T8" lex="HVS">HVS</term>) subgroup A strain 11</term> and <term sem="Virus" id="T9" lex="HVS_subgroup_C_strain_488">subgroup C strain 488</term> are now found to be stably associated with <cons sem="(OR Protein_molecule Protein_molecule Protein_molecule)" id="T10" lex="(OR tumor_necrosis_factor_receptor-associated_factor_(TRAF)_1 tumor_necrosis_factor_receptor-associated_factor_(TRAF)_2 tumor_necrosis_factor_receptor-associated_factor_(TRAF)_3)"><frag id="F1"><term sem="Protein_family_or_group" id="T11" lex="tumor_necrosis_factor_receptor-associated_factor">tumor necrosis factor receptor-associated factor</term> (<term sem="Protein_molecule" id="T12" lex="TRAF">TRAF</term>)</frag> <frag id="F2"><term sem="Protein_molecule" id="A1">1</term></frag>, <frag id="F3"><term sem="Protein_molecule" id="A2">2</term></frag>, or <frag id="F4"><term sem="Protein_molecule" id="A3">3</term></frag></cons>.</sentence>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T6" />
+<theme idref1="A1" idref="T12" />
+<clue>The STP oncoproteins of the herpesvirus saimiri (HVS) subgroup A strain 11 and subgroup C strain 488 are now found to be stably <clueType>associated</clueType> <linkTheme>with</linkTheme> tumor necrosis factor receptor-associated factor (TRAF) 1, 2, or 3.</clue>
+</event>
+<event id="E6">
+<type class="Binding" />
+<theme idref="T6" />
+<theme idref1="A2" idref="T12" />
+<clue>The STP oncoproteins of the herpesvirus saimiri (HVS) subgroup A strain 11 and subgroup C strain 488 are now found to be stably <clueType>associated</clueType> <linkTheme>with</linkTheme> tumor necrosis factor receptor-associated factor (TRAF) 1, 2, or 3.</clue>
+</event>
+<event id="E7">
+<type class="Binding" />
+<theme idref="T6" />
+<theme idref1="A3" idref="T12" />
+<clue>The STP oncoproteins of the herpesvirus saimiri (HVS) subgroup A strain 11 and subgroup C strain 488 are now found to be stably <clueType>associated</clueType> <linkTheme>with</linkTheme> tumor necrosis factor receptor-associated factor (TRAF) 1, 2, or 3.</clue>
+</event>
+<sentence id="S3">Mutational analyses identified residues of <term sem="Protein_complex" id="T13" lex="PXQXT/S">PXQXT/S</term> in <term sem="Protein_molecule" id="T14" lex="STP-A11">STP-A11</term> as critical for <term sem="Protein_family_or_group" id="T15" lex="TRAF">TRAF</term> association.</sentence>
+<event id="E8">
+<type class="Binding" />
+<theme idref="T14" />
+<theme idref="T15" />
+<clue>Mutational analyses identified residues of PXQXT/S in STP-A11 as critical for TRAF <clueType>association</clueType>.</clue>
+</event>
+<event id="E9">
+<type class="Correlation" />
+<theme idref="T13" />
+<theme idref="E8" />
+<clue><clueExperiment>Mutational analyses</clueExperiment> identified residues of PXQXT/S in STP-A11 as <clueType>critical</clueType> <linkTheme>for</linkTheme> TRAF association.</clue>
+</event>
+<sentence id="S4">In addition, a somewhat <term sem="DNA_domain_or_region" id="A4">divergent region</term> of <term sem="Protein_molecule" id="T16" lex="STP-C488">STP-C488</term> is critical for <term sem="Other" id="T17" lex="TRAF_association"><term sem="Protein_family_or_group" id="T18" lex="TRAF">TRAF</term> association</term>.</sentence>
+<event id="E10">
+<type class="Binding" />
+<theme idref="T16" />
+<theme idref="T18" />
+<clue>In addition, a somewhat divergent region of STP-C488 is critical for TRAF <clueType>association</clueType>.</clue>
+</event>
+<event id="E11">
+<type class="Correlation" />
+<theme idref="A4" />
+<theme idref="E10" />
+<clue>In addition, a somewhat divergent region of STP-C488 is <clueType>critical</clueType> <linkTheme>for</linkTheme> TRAF association.</clue>
+</event>
+<sentence id="S5">Mutational analysis also revealed that <term sem="Protein_molecule" id="T19" lex="STP-C488">STP-C488</term> induced <term sem="Other" id="T20" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T21" lex="NF-kappaB">NF-kappaB</term> activation</term> that was correlated with its ability to associate with <term sem="Protein_family_or_group" id="T22" lex="TRAF">TRAFs</term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<clue>Mutational analysis also revealed that STP-C488 induced NF-kappaB <clueType>activation</clueType> that was correlated with its ability to associate with TRAFs.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T19" />
+<clue><clueExperiment>Mutational analysis</clueExperiment> also revealed that STP-C488 <clueType>induced</clueType> NF-kappaB activation that was correlated with its ability to associate with TRAFs.</clue>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref="T22" />
+<clue>Mutational analysis also revealed that STP-C488 induced NF-kappaB activation that was correlated with <corefTheme>its</corefTheme> ability to <clueType>associate</clueType> <linkTheme>with</linkTheme> TRAFs.</clue>
+</event>
+<event id="E15">
+<type class="Correlation" />
+<theme idref="E13" />
+<theme idref="E14" />
+<clue>Mutational analysis also revealed that STP-C488 induced NF-kappaB activation <corefTheme>that</corefTheme> was <clueType>correlated</clueType> <linkTheme>with</linkTheme> its ability to associate with TRAFs.</clue>
+</event>
+<sentence id="S6">The <term sem="Virus" id="T23" lex="HVS">HVS</term> <term sem="Protein_molecule" id="T24" lex="STP-C488"><term sem="Protein_molecule" id="A36">STP-C488</term> P10--&gt;R mutant</term> was deficient in <term sem="Cell_natural" id="A5">human T-lymphocyte</term> transformation to <term sem="Protein_molecule" id="A6">interleukin-2</term>-independent <term sem="Other" id="A7">growth</term> but showed wild-type phenotype for <term sem="Cell_natural" id="A8">marmoset T-lymphocyte</term> transformation in vitro and in vivo.</sentence>
+<event assertion="non-exist" id="E16">
+<type class="Biological_process" />
+<theme idref="A5" />
+<clue>The HVS STP-C488 P10--&gt;R mutant was deficient in human T-lymphocyte <clueType>transformation</clueType> to interleukin-2-independent growth but showed wild-type phenotype for marmoset T-lymphocyte transformation in vitro and in vivo.</clue>
+</event>
+<event assertion="non-exist" id="E116">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T24" />
+<clue>The HVS STP-C488 P10--&gt;R mutant was <clueType>deficient</clueType> <linkTheme>in</linkTheme> human T-lymphocyte transformation to interleukin-2-independent growth but showed wild-type phenotype for marmoset T-lymphocyte transformation in vitro and in vivo.</clue>
+<comment>NER T24 mod</comment>
+</event>
+<event id="E17">
+<type class="Biological_process" />
+<theme idref="A8" />
+<clue>The HVS STP-C488 P10--&gt;R mutant was deficient in human T-lymphocyte transformation to interleukin-2-independent growth but showed wild-type phenotype for marmoset T-lymphocyte <clueType>transformation</clueType> in vitro and in vivo.</clue>
+</event>
+<event id="E117">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="A36" />
+<clue>The HVS STP-C488 P10--&gt;R mutant was deficient in human T-lymphocyte transformation to interleukin-2-independent growth but showed <corefCause>wild-type</corefCause> phenotype <linkTheme>for</linkTheme> marmoset T-lymphocyte <clueType>transformation</clueType> in vitro and in vivo.</clue>
+</event>
+<event id="E118">
+<type class="Cellular_physiological_process" />
+<theme idref="A5" />
+<clue>The HVS STP-C488 P10--&gt;R mutant was deficient in human T-lymphocyte transformation to interleukin-2-independent <clueType>growth</clueType> but showed wild-type phenotype for marmoset T-lymphocyte transformation in vitro and in vivo.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event assertion="non-exist" id="E119">
+<type class="Positive_regulation" />
+<theme idref="E118" />
+<cause idref="A6" />
+<clue>The HVS STP-C488 P10--&gt;R mutant was deficient in human T-lymphocyte transformation to interleukin-2-<clueType>independent</clueType> growth but showed wild-type phenotype for marmoset T-lymphocyte transformation in vitro and in vivo.</clue>
+</event>
+<event assertion="non-exist" id="E120">
+<type class="Positive_regulation" />
+<theme idref="E119" />
+<cause idref="T24" />
+<clue>The HVS STP-C488 P10--&gt;R mutant was deficient <clueLoc>in human T-lymphocyte</clueLoc> <clueType>transformation</clueType> <linkTheme>to</linkTheme> interleukin-2-independent growth but showed wild-type phenotype for marmoset T-lymphocyte transformation in vitro and in vivo.</clue>
+</event>
+<sentence id="S7">The <term sem="Protein_molecule" id="T25" lex="STP-C488_P10--&gt;R_mutant">STP-C488 P10--&gt;R mutant</term> was also defective in <term sem="Cell_cultured" id="A9">Rat-1 fibroblast</term> transformation, and <term sem="Cell_natural" id="A10">fibroblast cell</term> transformation was blocked by a <term sem="Protein_molecule" id="A11"><term sem="Protein_family_or_group" id="T26" lex="TRAF2">TRAF2</term> dominant-negative mutant</term>.</sentence>
+<event assertion="non-exist" id="E18">
+<type class="Biological_process" />
+<theme idref="A9" />
+<clue>The STP-C488 P10--&gt;R mutant was also defective in Rat-1 fibroblast <clueType>transformation</clueType>, and fibroblast cell transformation was blocked by a TRAF2 dominant-negative mutant.</clue>
+</event>
+<event assertion="non-exist" id="E121">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T25" />
+<clue>The STP-C488 P10--&gt;R mutant was also defective in Rat-1 fibroblast <clueType>transformation</clueType>, and fibroblast cell transformation was blocked by a TRAF2 dominant-negative mutant.</clue>
+</event>
+<event id="E19">
+<type class="Biological_process" />
+<theme idref="A10" />
+<clue>The STP-C488 P10--&gt;R mutant was also defective in Rat-1 fibroblast transformation, and fibroblast cell <clueType>transformation</clueType> was blocked by a TRAF2 dominant-negative mutant.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="A11" />
+<clue>The STP-C488 P10--&gt;R mutant was also defective in Rat-1 fibroblast transformation, and fibroblast cell transformation was <clueType>blocked</clueType> <linkCause>by</linkCause> a TRAF2 dominant-negative mutant.</clue>
+</event>
+<sentence id="S8">These data implicate <term sem="Protein_family_or_group" id="T27" lex="TRAF">TRAFs</term> in <term sem="Protein_molecule" id="T29" lex="STP-C488">STP-C488</term>-mediated <term sem="Other" id="T36">transformation</term> of <term sem="Cell_natural" id="T30" lex="human_lymphocyte">human lymphocytes</term> and <term sem="Cell_natural" id="T31" lex="fibroblast">rodent fibroblasts</term>.</sentence>
+<event id="E21">
+<type class="Biological_process" />
+<theme idref="T30" />
+<clue>These data implicate TRAFs in STP-C488-mediated <clueType>transformation</clueType> <linkTheme>of</linkTheme> human lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event id="E122">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T29" />
+<clue>These data implicate TRAFs in STP-C488-<clueType>mediated</clueType> transformation of human lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event id="E22">
+<type class="Biological_process" />
+<theme idref="T31" />
+<clue>These data implicate TRAFs in STP-C488-mediated <clueType>transformation</clueType> <linkTheme>of</linkTheme> human lymphocytes and rodent fibroblasts.</clue>
+<comment>NER T31 mod</comment>
+</event>
+<event id="E123">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="T29" />
+<clue>These data implicate TRAFs in STP-C488-<clueType>mediated</clueType> transformation of human lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event id="E23">
+<type class="Correlation" />
+<theme idref="T27" />
+<theme idref="E122" />
+<clue>These data <clueType>implicate</clueType> TRAFs <linkTheme>in</linkTheme> STP-C488-mediated transformation of human lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event id="E24">
+<type class="Correlation" />
+<theme idref="T27" />
+<theme idref="E22" />
+<clue>These data <clueType>implicate</clueType> TRAFs <linkTheme>in</linkTheme> STP-C488-mediated transformation of human lymphocytes and rodent fibroblasts.</clue>
+</event>
+<sentence id="S9"><term sem="Protein_family_or_group" id="A12">Other factors</term> are implicated in immortalization of <term sem="Cell_natural" id="T32" lex="common_marmoset_T_lymphocyte">common marmoset T lymphocytes</term> and may also be critical in the transformation of <term sem="Cell_natural" id="T33" lex="human_lymphocyte">human lymphocytes</term> and <term sem="Cell_natural" id="T34" lex="rodent_fibroblast">rodent <term sem="Cell_natural" id="T35" lex="fibroblast">fibroblasts</term></term>.</sentence>
+<event id="E25">
+<type class="Cellular_physiological_process" />
+<theme idref="T32" />
+<clue>Other factors are implicated in <clueType>immortalization</clueType> <linkTheme>of</linkTheme> common marmoset T lymphocytes and may also be critical in the transformation of human lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="A12" />
+<clue>Other factors are <clueType>implicated</clueType> <linkTheme>in</linkTheme> immortalization of common marmoset T lymphocytes and may also be critical in the transformation of human lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event id="E27">
+<type class="Biological_process" />
+<theme idref="T33" />
+<clue>Other factors are implicated in immortalization of common marmoset T lymphocytes and may also be critical in the <clueType>transformation</clueType> <linkTheme>of</linkTheme> human lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event id="E28">
+<type class="Biological_process" />
+<theme idref="T34" />
+<clue>Other factors are implicated in immortalization of common marmoset T lymphocytes and may also be critical in the <clueType>transformation</clueType> <linkTheme>of</linkTheme> human lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event uncertainty="probable" id="E29">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="A12" />
+<clue>Other factors are implicated in immortalization of common marmoset T lymphocytes and may also be <clueType>critical</clueType> <linkTheme>in</linkTheme> the transformation of human lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event uncertainty="probable" id="E30">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="A12" />
+<clue>Other factors are implicated in immortalization of common marmoset T lymphocytes and may also be <clueType>critical</clueType> <linkTheme>in</linkTheme> the transformation of human lymphocytes and rodent fibroblasts.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

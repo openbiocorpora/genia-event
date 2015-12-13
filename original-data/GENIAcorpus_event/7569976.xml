@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="15/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7569976" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7569976</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="immunosuppression">Immunosuppression</term> by <term sem="Lipid" id="T2" lex="glucocorticoid">glucocorticoids</term>: inhibition of <term sem="Other" id="T3" lex="NF-kappa_B_activity"><term sem="Protein_molecule" id="T4" lex="NF-kappa_B">NF-kappa B</term> activity</term> through induction of <term sem="Other" id="T5" lex="I_kappa_B_synthesis"><term sem="Protein_molecule" id="T6" lex="I_kappa_B">I kappa B</term> synthesis</term> [see comments]</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<cause idref="T2" />
+<clue><clueType>Immunosuppression</clueType> <linkCause>by</linkCause> glucocorticoids: inhibition of NF-kappa B activity through induction of I kappa B synthesis [see comments]</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="T4" />
+<cause idref="E3" />
+<clue>Immunosuppression by glucocorticoids: <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B activity <linkCause>through</linkCause> induction of I kappa B synthesis [see comments]</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T2" />
+<clue>Immunosuppression by glucocorticoids: inhibition of NF-kappa B activity through <clueType>induction</clueType> <linkTheme>of</linkTheme> I kappa B synthesis [see comments]</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Immunosuppression by glucocorticoids: inhibition of NF-kappa B activity through induction of I kappa B <clueType>synthesis</clueType> [see comments]</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Lipid" id="T7" lex="glucocorticoid">Glucocorticoids</term> are among the most potent <cons sem="(AND Organic_compound_other Organic_compound_other)" id="T8" lex="(AND anti-inflammatory_agent immunosuppressive_agent)"><frag id="F1">anti-inflammatory</frag> and <frag id="F2">immunosuppressive</frag> <frag id="F3">agents</frag></cons>.</sentence>
+<sentence id="S3">They inhibit synthesis of almost all known <term sem="Protein_family_or_group" id="T9" lex="cytokine">cytokines</term> and of several <term sem="Protein_family_or_group" id="T10" lex="cell_surface_molecule">cell surface molecules</term> required for <term sem="Other" id="T11" lex="immune_function">immune function</term>, but the mechanism underlying this activity has been unclear.</sentence>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="E7" />
+<cause idref="T7" />
+<clue><corefCause>They</corefCause> <clueType>inhibit</clueType> synthesis of almost all known cytokines and of several cell surface molecules required for immune function, but the mechanism underlying this activity has been unclear.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<cause idref="T7" />
+<clue><corefCause>They</corefCause> <clueType>inhibit</clueType> synthesis of almost all known cytokines and of several cell surface molecules required for immune function, but the mechanism underlying this activity has been unclear.</clue>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>They inhibit <clueType>synthesis</clueType> <linkTheme>of</linkTheme> almost all known cytokines and of several cell surface molecules required for immune function, but the mechanism underlying this activity has been unclear.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>They inhibit <clueType>synthesis</clueType> of almost all known cytokines and <linkTheme>of</linkTheme> several cell surface molecules required for immune function, but the mechanism underlying this activity has been unclear.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="T11" />
+<cause idref="T10" />
+<clue>They inhibit synthesis of almost all known cytokines and of several cell surface molecules <clueType>required</clueType> <linkTheme>for</linkTheme> immune function, but the mechanism underlying this activity has been unclear.</clue>
+</event>
+<sentence id="S4">Here it is shown that <term sem="Lipid" id="T12" lex="glucocorticoid">glucocorticoids</term> are potent <term sem="Other" id="T13" lex="inhibitor">inhibitors</term> of <term sem="Other" id="T14" lex="nuclear_factor_kappa_B_(NF-kappa_B)_activation"><term sem="Protein_molecule" id="T15" lex="nuclear_factor_kappa_B">nuclear factor kappa B</term> (<term sem="Protein_molecule" id="T16" lex="NF_kappa_B">NF-kappa B</term>) activation</term> in <term sem="Multicellular_organism_natural" id="T17" lex="mice">mice</term> and <term sem="Cell_cultured" id="T18" lex="cultured_cell">cultured cells</term>.</sentence>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="T12" />
+<clue>Here it is shown that glucocorticoids are potent <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> nuclear factor kappa B (NF-kappa B) activation in mice and cultured cells.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<clue>Here it is shown that glucocorticoids are potent inhibitors of nuclear factor kappa B (NF-kappa B) <clueType>activation</clueType> <clueLoc>in mice and cultured cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">This inhibition is mediated by induction of the <term sem="Protein_molecule" id="T19" lex="I_kappa_B">I kappa B</term> alpha inhibitory protein, which traps activated <term sem="Protein_molecule" id="T20" lex="NF-kappa_B">NF-kappa B</term> in <term sem="Protein_complex" id="T21" lex="inactive_cytoplasmic_complex">inactive cytoplasmic complexes</term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="E13" />
+<clue><corefTheme>This inhibition</corefTheme> is <clueType>mediated</clueType> <linkCause>by</linkCause> induction of the I kappa B alpha inhibitory protein, which traps activated NF-kappa B in inactive cytoplasmic complexes.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T19" />
+<clue>This inhibition is mediated by <clueType>induction</clueType> <linkTheme>of</linkTheme> the I kappa B alpha inhibitory protein, which traps activated NF-kappa B in inactive cytoplasmic complexes.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T19" />
+<clue>This inhibition is mediated by induction of the I kappa B alpha inhibitory protein, which <clueType>traps</clueType> activated NF-kappa B <clueLoc>in inactive cytoplasmic complexes</clueLoc>.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<clue>This inhibition is mediated by induction of the I kappa B alpha inhibitory protein, which traps <clueType>activated</clueType> NF-kappa B in inactive cytoplasmic complexes.</clue>
+</event>
+<sentence id="S6">Because <term sem="Protein_molecule" id="T22" lex="NF-kappa_B">NF-kappa B</term> activates many <term sem="DNA_domain_or_region" id="T23" lex="immunoregulatory_gene">immunoregulatory genes</term> in response to <term sem="Other" id="A1">pro-inflammatory stimuli</term>, the inhibition of its activity can be a major component of the <term sem="Other" id="T24" lex="anti-inflammatory_activity">anti-inflammatory activity</term> of <term sem="Lipid" id="T25" lex="glucocorticoid">glucocorticoids</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="T22" />
+<clue>Because NF-kappa B <clueType>activates</clueType> many immunoregulatory genes in response to pro-inflammatory stimuli, the inhibition of its activity can be a major component of the anti-inflammatory activity of glucocorticoids.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="A1" />
+<clue>Because NF-kappa B activates many immunoregulatory genes <linkCause>in response to</linkCause> pro-inflammatory stimuli, the inhibition of its activity can be a major component of the anti-inflammatory activity of glucocorticoids.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T25" />
+<clue>Because NF-kappa B activates many immunoregulatory genes in response to pro-inflammatory stimuli, the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> <corefTheme>its activity</corefTheme> can be a major component of the anti-inflammatory activity of glucocorticoids.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<cause idref="T25" />
+<clue>Because NF-kappa B activates many immunoregulatory genes in response to pro-inflammatory stimuli, the inhibition of its activity can be a major component of the <clueType>anti-inflammatory</clueType> activity <linkCause>of</linkCause> glucocorticoids.</clue>
+<comment>NO THEME</comment>
+</event>
+<event uncertainty="probable" id="E20">
+<type class="Correlation" />
+<theme idref="E18" />
+<theme idref="E19" />
+<clue>Because NF-kappa B activates many immunoregulatory genes in response to pro-inflammatory stimuli, the inhibition of its activity can be a major <clueType>component</clueType> <linkTheme>of</linkTheme> the anti-inflammatory activity of glucocorticoids.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

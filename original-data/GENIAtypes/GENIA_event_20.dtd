@@ -1,0 +1,161 @@
+<!-- ============================================================ -->
+<!-- DTD for Genia corpus with term&event annotation              -->
+<!-- written by Jin-Dong KIM <jdkim@tsujii.is.s.u-tokyo.ac.jp>    -->
+<!-- Date of last modification: 9 January 2008                    -->
+<!-- ============================================================ -->
+
+<!-- ============================================================ -->
+<!-- Labels for term&event annotation                             -->
+<!-- ============================================================ -->
+<!ENTITY % term.class "(
+Element | Inorganic_compound | Organic_compound_other |
+Amino_acid_monomer | Peptide | Carbohydrate | Lipid |
+Protein_complex | Protein_domain_or_region | Protein_family_or_group |
+Protein_molecule | Protein_substructure |
+DNA_domain_or_region | DNA_family_or_group | DNA_molecule | DNA_substructure |
+RNA_domain_or_region | RNA_family_or_group | RNA_molecule | RNA_substructure |
+Nucleotide | Polynucleotide |
+Cell_component | Cell_cultured | Cell_natural |
+Body_region | Tissue_cultured | Tissue_natural |
+Multicellular_organism_natural | Multicellular_organism_genetically_modified |
+Unicellular_organism | Virus | Other
+)">
+
+<!-- ============================================================ -->
+<!-- HIERARCHICAL ELEMENTS                                        -->
+<!-- ============================================================ -->
+<!ELEMENT Annotation (PubmedArticleSet)>
+<!ATTLIST Annotation
+		annotates CDATA #REQUIRED
+		creator   CDATA #IMPLIED
+		created   CDATA #IMPLIED
+>
+
+<!ELEMENT PubmedArticleSet (PubmedArticle)>
+<!ELEMENT PubmedArticle (MedlineCitation)>
+<!ELEMENT MedlineCitation (PMID, Article)>
+<!ELEMENT Article (ArticleTitle, Abstract)>
+<!ELEMENT Abstract (AbstractText)>
+
+<!-- ============================================================ -->
+<!-- BLOCK ELEMENTS                                               -->
+<!-- ============================================================ -->
+<!ELEMENT ArticleTitle (sentence | event)+>
+<!ELEMENT AbstractText (sentence | event)+>
+<!ELEMENT PMID (#PCDATA)>
+
+<!-- ============================================================ -->
+<!-- LINGUISTIC ELEMENTS                                          -->
+<!-- ============================================================ -->
+<!ELEMENT sentence	(#PCDATA | cons | term | frag)*>
+<!ATTLIST sentence	id ID	#REQUIRED>
+
+<!ELEMENT cons		(#PCDATA | cons | term | frag)*>
+<!ATTLIST cons 
+		sem CDATA #REQUIRED
+		lex CDATA #REQUIRED
+		id  ID    #REQUIRED
+>
+
+<!ELEMENT term		(#PCDATA | term | frag)*>
+<!ATTLIST term
+		sem %term.class;	#IMPLIED
+		lex CDATA		#IMPLIED
+		id  ID			#REQUIRED
+>
+
+<!ELEMENT frag		(#PCDATA | term)*>
+<!ATTLIST frag
+		id  ID		#REQUIRED
+>
+<!-- ============================================================ -->
+<!-- ELEMENTS FOR EVENT ANNOTATION                                -->
+<!-- ============================================================ -->
+<!ELEMENT event (type, theme*, site*, product*, cause*, clue, comment?)>
+<!ATTLIST event
+		id		ID				#REQUIRED
+		assertion	(exist|non-exist)		"exist"
+		uncertainty 	(certain|probable|doubtful)	"certain"
+>
+
+<!ELEMENT type EMPTY>
+<!ATTLIST type class		CDATA	"UNCLASSIFIED">
+
+<!ELEMENT theme EMPTY>
+<!ATTLIST theme
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+>
+
+<!ELEMENT site EMPTY>
+<!ATTLIST site
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+>
+
+<!ELEMENT product EMPTY>
+<!ATTLIST product
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+>
+
+<!ELEMENT cause EMPTY>
+<!ATTLIST cause
+		idref		IDREF	#REQUIRED
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+>
+
+<!ELEMENT clue  (#PCDATA | clueType | linkTheme | linkCause | clueTime | clueLoc | corefTheme | corefSite | corefProduct | corefCause | clueExperiment)*>
+
+<!ELEMENT clueType		(#PCDATA)>
+<!ELEMENT linkTheme		(#PCDATA)>
+<!ELEMENT linkCause		(#PCDATA)>
+<!ELEMENT clueTime		(#PCDATA)>
+<!ELEMENT clueLoc		(#PCDATA)>
+<!ELEMENT clueExperiment	(#PCDATA)>
+
+<!ELEMENT corefTheme		(#PCDATA)>
+<!ATTLIST corefTheme
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+>
+
+<!ELEMENT corefCause		(#PCDATA)>
+<!ATTLIST corefCause
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+>
+
+<!ELEMENT corefSite		(#PCDATA)>
+<!ATTLIST corefSite
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+>
+
+<!ELEMENT corefProduct		(#PCDATA)>
+<!ATTLIST corefProduct
+		idref1		IDREF	#IMPLIED
+		idref2		IDREF	#IMPLIED
+		idref3		IDREF	#IMPLIED
+		idref4		IDREF	#IMPLIED
+		idref5		IDREF	#IMPLIED
+>
+
+<!ELEMENT comment		(#PCDATA)>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="10/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7890777" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7890777</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Mapping of the <term sem="Protein_domain_or_region" id="T1" lex="interaction_site">interaction site</term> of the <term sem="Protein_family_or_group" id="T2" lex="defective_transcription_factor">defective <term sem="Protein_family_or_group" id="T3" lex="transcription_factor">transcription factor</term></term> in the <term sem="Cell_cultured" id="T4" lex="class_II_major_histocompatibility_complex_mutant_cell_line_clone-13">class II major histocompatibility complex mutant cell line clone-13</term> to the <term sem="DNA_domain_or_region" id="T5" lex="divergent_X2-box">divergent X2-box</term>.</sentence>
+<event uncertainty="doubtful" id="E1">
+<type class="Binding" />
+<theme idref="T2" />
+<theme idref="T5" />
+<clue>Mapping of the <clueType>interaction</clueType> site <linkTheme>of</linkTheme> the defective transcription factor <clueLoc>in the class II major histocompatibility complex mutant cell line clone-13</clueLoc> <linkTheme>to</linkTheme> the divergent X2-box.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We have previously described a <term sem="Cell_cultured" id="T6" lex="mutant_B_lymphoblastoid_cell_line">mutant B lymphoblastoid cell line</term>, <term sem="Cell_cultured" id="T7" lex="Clone-13">Clone-13,</term> that expresses <term sem="Protein_molecule" id="T8" lex="HLA-DQ">HLA-DQ</term> in the absence of <cons sem="(AND Protein_molecule Protein_molecule)" id="T9" lex="(AND HLA-DR HLA-DP)"><frag id="F1"><term sem="Protein_molecule" id="A1">HLA</term></frag><frag id="F2"><term sem="Protein_molecule" id="A2">-DR</term></frag> and <frag id="F3"><term sem="Protein_molecule" id="A3">-DP</term></frag></cons>.</sentence>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>We have previously described a <clueLoc>mutant B lymphoblastoid cell line, Clone-13</clueLoc>, that <clueType>expresses</clueType> HLA-DQ in the absence of HLA-DR and -DP.</clue>
+</event>
+<event assertion="non-exist" id="E3">
+<type class="Gene_expression" />
+<theme idref1="A3" idref="A1" />
+<clue>We have previously described a <clueLoc>mutant B lymphoblastoid cell line, Clone-13</clueLoc>, that expresses HLA-DQ in the <clueType>absence</clueType> <linkTheme>of</linkTheme> HLA-DR and -DP.</clue>
+</event>
+<event assertion="non-exist" id="E4">
+<type class="Gene_expression" />
+<theme idref1="A3" idref="A2" />
+<clue>We have previously described a <clueLoc>mutant B lymphoblastoid cell line, Clone-13</clueLoc>, that expresses HLA-DQ in the <clueType>absence</clueType> <linkTheme>of</linkTheme> HLA-DR and -DP.</clue>
+</event>
+<sentence id="S3">Several criteria indicated that the defect in this cell line influences the activity of an <term sem="Protein_family_or_group" id="T10" lex="isotype-specific_transcription_factor">isotype-specific transcription factor</term>.</sentence>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="T10" />
+<cause idref="E3" />
+<clue>Several criteria indicated that <corefCause>the defect in this cell line</corefCause> <clueType>influences</clueType> the activity of an isotype-specific transcription factor.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="T10" />
+<cause idref="E4" />
+<clue>Several criteria indicated that <corefCause>the defect in this cell line</corefCause> <clueType>influences</clueType> the activity of an isotype-specific transcription factor.</clue>
+</event>
+<sentence id="S4">Indeed, transient transfection of <cons sem="(AND DNA_molecule DNA_molecule)" id="T11" lex="(AND HLA-DRA_reporter_construct DQB_reporter_construct)"><frag id="F4"><term sem="DNA_domain_or_region" id="A5"><term sem="DNA_domain_or_region" id="A4">HLA-</term>DRA</term></frag> and <frag id="F5"><term sem="DNA_domain_or_region" id="A6">DQB</term></frag> <frag id="F6">reporter constructs</frag></cons> indicated that the affected factor operates via <term sem="DNA_domain_or_region" id="A7"><term sem="DNA_family_or_group" id="T12" lex="cis-element">cis-elements</term> located between <term sem="DNA_domain_or_region" id="T13" lex="-141_base_pairs">-141 base pairs</term> and the <term sem="DNA_domain_or_region" id="T14" lex="transcription_initiation_site">transcription initiation site</term>.</term></sentence>
+<event id="E7">
+<type class="Artificial_process" />
+<theme idref1="A5" idref="A4" />
+<clue>Indeed, transient <clueType>transfection</clueType> <linkTheme>of</linkTheme> HLA-DRA and DQB reporter constructs indicated that the affected factor operates via cis-elements located between -141 base pairs and the transcription initiation site.</clue>
+</event>
+<event id="E8">
+<type class="Artificial_process" />
+<theme idref1="A6" idref="A4" />
+<clue>Indeed, transient <clueType>transfection</clueType> <linkTheme>of</linkTheme> HLA-DRA and DQB reporter constructs indicated that the affected factor operates via cis-elements located between -141 base pairs and the transcription initiation site.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="A7" />
+<cause idref="E7" />
+<clue>Indeed, transient transfection of HLA-DRA and DQB reporter constructs indicated that the <clueType>affected</clueType> factor operates <linkTheme>via</linkTheme> cis-elements located between -141 base pairs and the transcription initiation site.</clue>
+<comment>TPS: A7</comment>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="A7" />
+<cause idref="E8" />
+<clue>Indeed, transient transfection of HLA-DRA and DQB reporter constructs indicated that the <clueType>affected</clueType> factor operates <linkTheme>via</linkTheme> cis-elements located between -141 base pairs and the transcription initiation site.</clue>
+</event>
+<sentence id="S5">A series of <term sem="DNA_family_or_group" id="T15" lex="hybrid_DRA/DQB_reporter_construct">hybrid DRA/DQB <term sem="DNA_family_or_group" id="T16" lex="reporter_construct">reporter constructs</term></term> was generated to further map the relevant <term sem="DNA_family_or_group" id="T17" lex="cis-element">cis-elements</term> in this system.</sentence>
+<sentence id="S6">Insertion of <term sem="Polynucleotide" id="T18" lex="oligonucleotide">oligonucleotides</term> <term sem="Polynucleotide" id="A9">spanning</term> the <term sem="DNA_domain_or_region" id="T19" lex="DQB_X-box">DQB X-box</term> (but not the <term sem="DNA_domain_or_region" id="T20" lex="DQB-W_region">DQB-W region</term> or the <term sem="DNA_domain_or_region" id="T21" lex="DQB_Y-box">DQB Y-box</term>) <term sem="DNA_domain_or_region" id="T22" lex="upstream_of_-141">upstream of -141</term> in a <term sem="DNA_molecule" id="T23" lex="DRA_reporter_plasmid">DRA reporter plasmid</term> rescued expression to nearly <term sem="Other" id="T24" lex="wild-type_level">wild-type levels</term>.</sentence>
+<event id="E11">
+<type class="Mutagenesis" />
+<theme idref1="A9" idref2="T19" idref="T18" />
+<theme idref="T23" />
+<clue><clueType>Insertion</clueType> <linkTheme>of</linkTheme> oligonucleotides spanning the DQB X-box (but not the DQB-W region or the DQB Y-box) upstream of -141 <linkTheme>in</linkTheme> a DRA reporter plasmid rescued expression to nearly wild-type levels.</clue>
+<comment>Artificial</comment>
+</event>
+<event id="E12">
+<type class="Mutagenesis" />
+<theme idref1="A9" idref2="T20" idref="T18" />
+<theme idref="T23" />
+<clue><clueType>Insertion</clueType> <linkTheme>of</linkTheme> oligonucleotides spanning the DQB X-box (but not the DQB-W region or the DQB Y-box) upstream of -141 <linkTheme>in</linkTheme> a DRA reporter plasmid rescued expression to nearly wild-type levels.</clue>
+<comment>Artificial</comment>
+</event>
+<event id="E13">
+<type class="Mutagenesis" />
+<theme idref1="A9" idref2="T21" idref="T18" />
+<theme idref="T23" />
+<clue><clueType>Insertion</clueType> <linkTheme>of</linkTheme> oligonucleotides spanning the DQB X-box (but not the DQB-W region or the DQB Y-box) upstream of -141 <linkTheme>in</linkTheme> a DRA reporter plasmid rescued expression to nearly wild-type levels.</clue>
+<comment>Artificial</comment>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="E12" />
+<clue>Insertion of oligonucleotides spanning the DQB X-box (but not the DQB-W region or the DQB Y-box) upstream of -141 in a DRA reporter plasmid <clueType>rescued</clueType> <linkTheme>expression</linkTheme> to nearly wild-type levels.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="E12" />
+<clue>Insertion of oligonucleotides spanning the DQB X-box (but not the DQB-W region or the DQB Y-box) upstream of -141 in a DRA reporter plasmid <clueType>rescued</clueType> <linkTheme>expression</linkTheme> to nearly wild-type levels.</clue>
+</event>
+<sentence id="S7">Substitution promoters were then generated where the entire <term sem="DNA_domain_or_region" id="T25" lex="X-box">X-box</term>, or only the <cons sem="(OR DNA_domain_or_region DNA_domain_or_region)" id="T26" lex="(OR X1-box X2-box)"><frag id="F7"><term sem="DNA_domain_or_region" id="A50">X1-</term></frag> or <frag id="F8"><term sem="DNA_domain_or_region" id="A51">X2-</term></frag><frag id="F9"><term sem="DNA_domain_or_region" id="A52">boxes</term></frag></cons> <term sem="DNA_domain_or_region" id="A55">of</term> <term sem="DNA_domain_or_region" id="T27" lex="HLA-DRA">HLA-DRA</term> were replaced with the analogous regions of <term sem="DNA_domain_or_region" id="T28" lex="HLA-DQB">HLA-DQB</term>.</sentence>
+<event id="E100">
+<type class="Mutagenesis" />
+<theme idref1="A55" idref2="T27" idref="T25" />
+<clue>Substitution promoters were then generated where the entire X-box, or only the X1- or X2-boxes of HLA-DRA were <clueType>replaced</clueType> <linkTheme>with</linkTheme> the analogous regions of HLA-DQB.</clue>
+<comment>Artificial</comment>
+</event>
+<event id="E101">
+<type class="Mutagenesis" />
+<theme idref1="A52" idref2="A55" idref3="T27" idref="A50" />
+<clue>Substitution promoters were then generated where the entire X-box, or only the X1- or X2-boxes of HLA-DRA were <clueType>replaced</clueType> <linkTheme>with</linkTheme> the analogous regions of HLA-DQB.</clue>
+<comment>Artificial</comment>
+</event>
+<event id="E102">
+<type class="Mutagenesis" />
+<theme idref1="A52" idref2="A55" idref3="T27" idref="A51" />
+<clue>Substitution promoters were then generated where the entire X-box, or only the X1- or X2-boxes of HLA-DRA were <clueType>replaced</clueType> <linkTheme>with</linkTheme> the analogous regions of HLA-DQB.</clue>
+<comment>Artificial</comment>
+</event>
+<sentence id="S8">The <term sem="DNA_domain_or_region" id="T29" lex="DQB_X2-box">DQB X2-box</term> was able to restore expression to the <term sem="DNA_molecule" id="T30" lex="silent_DRA_reporter_construct">silent DRA reporter construct</term>.</sentence>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T29" />
+<clue>The DQB X2-box was able to <clueType>restore</clueType> <corefTheme>expression</corefTheme> <clueType>to the silent</clueType> DRA reporter construct.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T29" />
+<clue>The DQB X2-box was able to <clueType>restore</clueType> <corefTheme>expression</corefTheme> <clueType>to the silent</clueType> DRA reporter construct.</clue>
+</event>
+<sentence id="S9">Moreover, replacement of the <term sem="DNA_domain_or_region" id="T31" lex="DQB_X2-box">DQB X2-box</term> with the <term sem="DNA_domain_or_region" id="T32" lex="DRA_X2-box">DRA X2-box</term> markedly diminished the activity of the <term sem="DNA_domain_or_region" id="T33" lex="DQB_promoter">DQB promoter</term> in the <term sem="Cell_cultured" id="T34" lex="mutant_cell">mutant cell</term>.</sentence>
+<event id="E19">
+<type class="Mutagenesis" />
+<theme idref="T31" />
+<theme idref="T32" />
+<clue>Moreover, <clueType>replacement</clueType> <linkTheme>of</linkTheme> the DQB X2-box <linkTheme>with</linkTheme> the DRA X2-box markedly diminished the activity of the DQB promoter in the mutant cell.</clue>
+<comment>Artificial</comment>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="T33" />
+<cause idref="E19" />
+<clue>Moreover, replacement of the DQB X2-box with the DRA X2-box markedly <clueType>diminished</clueType> the activity of the DQB promoter <clueLoc>in the mutant cell</clueLoc>.</clue>
+</event>
+<sentence id="S10">None of the <term sem="DNA_family_or_group" id="T35" lex="hybrid_reporter_construct">hybrid <term sem="DNA_family_or_group" id="T36" lex="reporter_construct">reporter constructs</term></term> were defective when transfected into the <term sem="Protein_family_or_group" id="T37" lex="wild-type">wild-type</term>, <term sem="Cell_cultured" id="T38" lex="HLA-DR/-DQ_positive_parental_cell_line">HLA-DR/-DQ positive parental cell line</term>, <term sem="Cell_cultured" id="T39" lex="Jijoye">Jijoye</term>.</sentence>
+<event id="E21">
+<type class="Artificial_process" />
+<theme idref="T15" />
+<theme idref="T39" />
+<clue>None of the <corefTheme idref1="T15">hybrid reporter constructs</corefTheme> were defective when <clueType>transfected</clueType> <linkTheme>into</linkTheme> <corefTheme idref1="T39">the wild-type, HLA-DR/-DQ positive parental cell line</corefTheme>, Jijoye.</clue>
+</event>
+<sentence id="S11">These studies suggest that the <term sem="DNA_domain_or_region" id="T40" lex="divergent_X2-box">divergent X2-box</term> of the <term sem="DNA_family_or_group" id="T41" lex="class_II_major_histocompatibility_complex_promoter"><term sem="Protein_complex" id="T42" lex="class_II_major_histocompatibility_complex">class II major histocompatibility complex</term> promoters</term> plays an important role in influencing <term sem="Other" id="T43" lex="differential_expression">differential expression</term> of the <term sem="DNA_family_or_group" id="T44" lex="human_class_II_isotype">human class II isotypes</term>.</sentence>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>These studies suggest that the divergent X2-box of the class II major histocompatibility complex promoters plays an important role in influencing differential <clueType>expression</clueType> <linkTheme>of</linkTheme> the human class II isotypes.</clue>
+</event>
+<event id="E23">
+<type class="Regulation" />
+<theme idref="E22" />
+<clue>These studies suggest that the divergent X2-box of the class II major histocompatibility complex promoters plays an important role in <clueType>influencing</clueType> differential expression of the human class II isotypes.</clue>
+</event>
+<event uncertainty="probable" id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T40" />
+<clue>These studies suggest that the divergent X2-box of the class II major histocompatibility complex promoters <clueType>plays an important role</clueType> <linkTheme>in</linkTheme> influencing differential expression of the human class II isotypes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

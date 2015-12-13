@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="30/01/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10497131" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10497131</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="affinity-driven_peptide_selection">Affinity-driven peptide selection</term> of an <term sem="Organic_compound_other" id="T2" lex="NFAT_inhibitor">NFAT inhibitor</term> more selective than <term sem="Organic_compound_other" id="T3" lex="cyclosporin_A">cyclosporin A</term> [see comments]</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The flow of information from <term sem="Protein_family_or_group" id="T4" lex="calcium-mobilizing_receptor">calcium-mobilizing receptors</term> to <term sem="DNA_family_or_group" id="T5" lex="nuclear_factor_of_activated_T_cells_(NFAT)-dependent_gene"><term sem="Protein_molecule" id="T6" lex="nuclear_factor_of_activated_T_cells">nuclear factor of activated T cells</term> (<term sem="Protein_molecule" id="T7" lex="NFAT">NFAT</term>)-dependent genes</term> is critically dependent on interaction between the <term sem="Protein_family_or_group" id="T8" lex="phosphatase">phosphatase</term> <term sem="Protein_molecule" id="T9" lex="calcineurin">calcineurin</term> and the <term sem="Protein_family_or_group" id="T10" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T11" lex="NFAT">NFAT</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T9" />
+<theme idref="T11" />
+<clue>The flow of information from calcium-mobilizing receptors to nuclear factor of activated T cells (NFAT)-dependent genes is critically dependent on <clueType>interaction</clueType> <linkTheme>between</linkTheme> the phosphatase calcineurin and the transcription factor NFAT.</clue>
+</event>
+<event id="E2">
+<type class="Cell_communication" />
+<theme idref="T5" />
+<theme idref="T4" />
+<clue>The <clueType>flow of information</clueType> <linkTheme>from</linkTheme> calcium-mobilizing receptors <linkTheme>to</linkTheme> nuclear factor of activated T cells (NFAT)-dependent genes is critically dependent on interaction between the phosphatase calcineurin and the transcription factor NFAT.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue>The flow of information from calcium-mobilizing receptors to nuclear factor of activated T cells (NFAT)-dependent genes is critically <clueType>dependent</clueType> <linkTheme>on</linkTheme> interaction between the phosphatase calcineurin and the transcription factor NFAT.</clue>
+</event>
+<sentence id="S3">A <term sem="Peptide" id="T12" lex="high-affinity_calcineurin-binding_peptide">high-affinity <term sem="Protein_molecule" id="T13" lex="calcineurin">calcineurin</term>-binding peptide</term> was selected from combinatorial <term sem="Peptide" id="T14" lex="peptide_library">peptide libraries</term> based on the <term sem="Protein_substructure" id="T15" lex="calcineurin_docking_motif"><term sem="Protein_molecule" id="T16" lex="calcineurin">calcineurin</term> docking motif</term> of <term sem="Protein_molecule" id="T17" lex="NFAT">NFAT</term>.</sentence>
+<sentence id="S4">This peptide potently inhibited <term sem="Protein_molecule" id="T18" lex="NFAT">NFAT</term> activation and <term sem="Other" id="T19" lex="NFAT-dependent_expression"><term sem="Protein_molecule" id="T20" lex="NFAT">NFAT</term>-dependent expression</term> of <term sem="DNA_family_or_group" id="T21" lex="endogenous_cytokine_gene">endogenous cytokine genes</term> in <term sem="Cell_natural" id="T22" lex="T_cell">T cells</term>, without affecting the expression of other <term sem="Protein_family_or_group" id="A1"><term sem="Protein_family_or_group" id="T23" lex="cytokine">cytokines</term> that require <term sem="Protein_molecule" id="T24" lex="calcineurin">calcineurin</term></term> but not <term sem="Protein_molecule" id="T25" lex="NFAT">NFAT</term>.</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T18" />
+<clue>This peptide potently inhibited NFAT <clueType>activation</clueType> and NFAT-dependent expression of endogenous cytokine genes in T cells, without affecting the expression of other cytokines that require calcineurin but not NFAT.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>This peptide potently inhibited NFAT activation and NFAT-dependent <clueType>expression</clueType> <linkTheme>of</linkTheme> endogenous cytokine genes in T cells, without affecting the expression of other cytokines that require calcineurin but not NFAT.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<clue>This peptide potently inhibited NFAT activation and NFAT-<clueType>dependent</clueType> expression of endogenous cytokine genes in T cells, without affecting the expression of other cytokines that require calcineurin but not NFAT.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="T12" />
+<clue><corefCause>This peptide</corefCause> potently <clueType>inhibited</clueType> NFAT activation and NFAT-dependent expression of endogenous cytokine genes <clueLoc>in T cells</clueLoc>, without affecting the expression of other cytokines that require calcineurin but not NFAT.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="T12" />
+<clue><corefCause>This peptide</corefCause> potently <clueType>inhibited</clueType> NFAT activation and NFAT-dependent expression of endogenous cytokine genes <clueLoc>in T cells</clueLoc>, without affecting the expression of other cytokines that require calcineurin but not NFAT.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>This peptide potently inhibited NFAT activation and NFAT-dependent expression of endogenous cytokine genes in T cells, without affecting the <clueType>expression</clueType> <linkTheme>of</linkTheme> other cytokines that require calcineurin but not NFAT.</clue>
+<comment>TPS: A1</comment>
+</event>
+<event assertion="non-exist" id="E10">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="T12" />
+<clue><corefCause>This peptide</corefCause> potently inhibited NFAT activation and NFAT-dependent expression of endogenous cytokine genes in T cells, without <clueType>affecting</clueType> the expression of other cytokines that require calcineurin but not NFAT.</clue>
+</event>
+<event assertion="non-exist" id="E11">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="T25" />
+<clue>This peptide potently inhibited NFAT activation and NFAT-dependent expression of endogenous cytokine genes in T cells, without affecting the expression of other cytokines that <clueType>require</clueType> calcineurin but not NFAT.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="T24" />
+<clue>This peptide potently inhibited NFAT activation and NFAT-dependent expression of endogenous cytokine genes in T cells, without affecting the expression of other cytokines that <clueType>require</clueType> calcineurin but not NFAT.</clue>
+</event>
+<sentence id="S5">Substitution of the optimized <term sem="Peptide" id="T26" lex="peptide_sequence">peptide sequence</term> into the natural <term sem="Protein_domain_or_region" id="T27" lex="calcineurin_docking_site"><term sem="Protein_molecule" id="T28" lex="calcineurin">calcineurin</term> docking site</term> increased the <term sem="Protein_molecule" id="T29" lex="calcineurin">calcineurin</term> responsiveness of <term sem="Protein_molecule" id="T30" lex="NFAT">NFAT</term>.</sentence>
+<event id="E13">
+<type class="Mutagenesis" />
+<theme idref="T26" />
+<theme idref="T27" />
+<clue><clueType>Substitution</clueType> <linkTheme>of</linkTheme> the optimized peptide sequence <linkTheme>into</linkTheme> the natural calcineurin docking site increased the calcineurin responsiveness of NFAT.</clue>
+<comment>Artificial</comment>
+</event>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="T30" />
+<cause idref="T29" />
+<clue>Substitution of the optimized peptide sequence into the natural calcineurin docking site increased the calcineurin <clueType>responsiveness</clueType> <linkTheme>of</linkTheme> NFAT.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E13" />
+<clue>Substitution of the optimized peptide sequence into the natural calcineurin docking site <clueType>increased</clueType> the calcineurin responsiveness of NFAT.</clue>
+</event>
+<sentence id="S6"><term sem="Other" id="A3">Compounds</term> that interfere selectively with the <term sem="Other" id="T31" lex="calcineurin-NFAT_interaction"><term sem="Protein_molecule" id="T32" lex="calcineurin">calcineurin</term><term sem="Protein_molecule" id="T33" lex="NFAT">-NFAT</term> interaction</term> without affecting <term sem="Other" id="T34" lex="calcineurin_phosphatase_activity"><term sem="Protein_molecule" id="T35" lex="calcineurin">calcineurin</term> <term sem="Protein_family_or_group" id="T36" lex="phosphatase">phosphatase</term> activity</term> may be useful as <term sem="Other" id="T37" lex="therapeutic_agent">therapeutic agents</term> that are less toxic than current drugs.</sentence>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T32" />
+<theme idref="T33" />
+<clue>Compounds that interfere selectively with the calcineurin-NFAT <clueType>interaction</clueType> without affecting calcineurin phosphatase activity may be useful as therapeutic agents that are less toxic than current drugs.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="A3" />
+<clue>Compounds that <clueType>interfere</clueType> selectively <linkTheme>with</linkTheme> the calcineurin-NFAT interaction without affecting calcineurin phosphatase activity may be useful as therapeutic agents that are less toxic than current drugs.</clue>
+</event>
+<event id="E19">
+<type class="Regulation" />
+<theme idref="T34" />
+<cause idref="A3" />
+<clue>Compounds that interfere selectively with the calcineurin-NFAT interaction <clueType>without affecting</clueType> calcineurin phosphatase activity may be useful as therapeutic agents that are less toxic than current drugs.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

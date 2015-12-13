@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="15/05/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10092801"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10092801</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Impaired <term sem="Other" id="T1" lex="fetal_thymocyte_development"><term sem="Cell_natural" id="T2" lex="fetal_thymocyte">fetal thymocyte</term> development</term> after efficient <term sem="Virus" id="T4" lex="adenovirus">adenovirus</term>-mediated <term sem="Other" id="T34">inhibition</term> of <term sem="Other" id="T5" lex="NF-kappa_B_activation"><term sem="Protein_molecule" id="T6" lex="NF-kappa_B">NF-kappa B</term> activation</term>.</sentence>
+<event id="E1">
+<type class="Cell_differentiation" />
+<theme idref="T2" />
+<clue>Impaired fetal thymocyte <clueType>development</clueType> after efficient adenovirus-mediated inhibition of NF-kappa B activation.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<clue><clueType>Impaired</clueType> fetal thymocyte development after efficient adenovirus-mediated inhibition of NF-kappa B activation.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<clue>Impaired fetal thymocyte development after efficient adenovirus-mediated inhibition of NF-kappa B <clueType>activation</clueType>.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="T4" />
+<clue>Impaired fetal thymocyte development after efficient adenovirus-<linkCause>mediated</linkCause> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B activation.</clue>
+</event>
+<event id="E101">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E4" />
+<clue>Impaired fetal thymocyte development <clueType>after</clueType> efficient adenovirus-mediated inhibition of NF-kappa B activation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We introduce a new <term sem="Other" id="T7" lex="experimental_system">experimental system</term> combining <term sem="Virus" id="T9" lex="adenovirus">adenovirus</term>-mediated <term sem="Other" id="T3">gene transfer</term> and <term sem="Tissue_cultured" id="T10" lex="fetal_thymic_organ_culture">fetal thymic organ culture</term> (<term sem="Tissue_cultured" id="T11" lex="FTOC">FTOC</term>).</sentence>
+<sentence id="S3">This system allowed us to efficiently express in developing thymocytes a mutant form of the <term sem="Protein_complex" id="T12" lex="NF-kappa_B">NF-kappa B</term> inhibitor <term sem="Protein_molecule" id="T13" lex="I_kappa_B_alpha">I kappa B alpha</term> (<term sem="Protein_molecule" id="T14" lex="mut-I_kappa_B">mut-I kappa B</term>) and to study the maturation defects occurring when <term sem="Other" id="T15" lex="NF-kappa_B_activation"><term sem="Protein_complex" id="T16" lex="NF-kappa_B">NF-kappa B</term> activation</term> is inhibited during fetal development.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<clue>This system allowed us to efficiently express in developing thymocytes a mutant form of the NF-kappa B inhibitor I kappa B alpha (mut-I kappa B) and to study the maturation defects occurring when NF-kappa B <clueType>activation</clueType> is inhibited during fetal development.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<clue>This system allowed us to efficiently express in developing thymocytes a mutant form of the NF-kappa B inhibitor I kappa B alpha (mut-I kappa B) and to study the maturation defects occurring when NF-kappa B activation is <clueType>inhibited</clueType> <clueTime>during fetal development</clueTime>.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<clue>This system allowed us to efficiently express in developing thymocytes a mutant form of the NF-kappa B inhibitor I kappa B alpha (mut-I kappa B) and to study <corefTheme>the maturation</corefTheme> <clueType>defects</clueType> occurring when NF-kappa B activation is inhibited during fetal development.</clue>
+</event>
+<event uncertainty="doubtful" id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E6" />
+<clue>This system allowed us to efficiently express in developing thymocytes a mutant form of the NF-kappa B inhibitor I kappa B alpha (mut-I kappa B) and to study the maturation defects <clueType>occurring</clueType> <linkCause>when</linkCause> NF-kappa B activation is inhibited during fetal development.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>This system allowed us to efficiently <clueType>express</clueType> <clueLoc>in developing thymocytes</clueLoc> a mutant form of the NF-kappa B inhibitor I kappa B alpha (mut-I kappa B) and to study the maturation defects occurring when NF-kappa B activation is inhibited during fetal development.</clue>
+</event>
+<sentence id="S4"><term sem="Cell_natural" id="T17" lex="fetal_thymocyte">Fetal thymocytes</term> infected with <term sem="Virus" id="T18" lex="adenovirus">adenovirus</term> containing <term sem="Protein_molecule" id="T19" lex="mut-I_kappa_B">mut-I kappa B</term> were found to develop normally until the <term sem="Other" id="T20" lex="CD44-CD25+,_CD4-CD8-_double-negative_stage"><term sem="Protein_molecule" id="T21" lex="CD44">CD44</term>-CD25+, <term sem="Protein_molecule" id="T22" lex="CD4">CD4</term>-<term sem="Protein_molecule" id="T23" lex="CD8">CD8</term>- double-negative stage</term>, while production of <term sem="Cell_natural" id="A1">more <term sem="Other" id="T24" lex="mature_double-positive">mature double-positive</term> and <term sem="Other" id="T25" lex="single-positive_population">single-positive populations</term></term> was strongly decreased.</sentence>
+<event id="E10">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T17" />
+<theme idref="T18" />
+<clue>Fetal thymocytes <clueType>infected</clueType> <linkTheme>with</linkTheme> adenovirus containing mut-I kappa B were found to develop normally until the CD44-CD25+, CD4-CD8- double-negative stage, while production of more mature double-positive and single-positive populations was strongly decreased.</clue>
+</event>
+<event id="E11">
+<type class="Cell_differentiation" />
+<theme idref="T17" />
+<clue>Fetal thymocytes infected with adenovirus containing mut-I kappa B were found to <clueType>develop</clueType> normally <clueTime>until the CD44-CD25+, CD4-CD8- double-negative stage</clueTime>, while production of more mature double-positive and single-positive populations was strongly decreased.</clue>
+</event>
+<event id="E12">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>Fetal thymocytes infected with adenovirus containing mut-I kappa B were found to develop normally until the CD44-CD25+, CD4-CD8- double-negative stage, while <clueType>production</clueType> <linkTheme>of</linkTheme> more mature double-positive and single-positive populations was strongly decreased.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<clue>Fetal thymocytes infected with adenovirus containing mut-I kappa B were found to develop normally until the CD44-CD25+, CD4-CD8- double-negative stage, while production of more mature double-positive and single-positive populations was strongly <clueType>decreased</clueType>.</clue>
+</event>
+<sentence id="S5"><term sem="Other" id="A4">Proliferation</term>, as measured by the percentage of cells in cycle appeared normal, as did rearrangement and expression of the <term sem="Protein_molecule" id="T26" lex="TCR_beta-chain">TCR beta-chain</term>.</sentence>
+<event assertion="non-exist" id="E50">
+<type class="Regulation" />
+<theme idref="A4" />
+<clue>Proliferation, as measured by the percentage of cells in cycle <clueType>appeared normal</clueType>, as did rearrangement and expression of the TCR beta-chain.</clue>
+</event>
+<event id="E14">
+<type class="DNA_recombination" />
+<theme idref="T26" />
+<clue>Proliferation, as measured by the percentage of cells in cycle appeared normal, as did <clueType>rearrangement</clueType> and expression <linkTheme>of</linkTheme> the TCR beta-chain.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>Proliferation, as measured by the percentage of cells in cycle appeared normal, as did rearrangement and <clueType>expression</clueType> <linkTheme>of</linkTheme> the TCR beta-chain.</clue>
+</event>
+<event assertion="non-exist" id="E51">
+<type class="Regulation" />
+<theme idref="E14" />
+<clue>Proliferation, as measured by the percentage of cells in cycle <clueType>appeared normal</clueType>, as did rearrangement and expression of the TCR beta-chain.</clue>
+</event>
+<event assertion="non-exist" id="E52">
+<type class="Regulation" />
+<theme idref="E15" />
+<clue>Proliferation, as measured by the percentage of cells in cycle <clueType>appeared normal</clueType>, as did rearrangement and expression of the TCR beta-chain.</clue>
+</event>
+<sentence id="S6">However, <term sem="Other" id="A3">apoptosis</term> was much higher in <term sem="Tissue_cultured" id="T27" lex="FTOC">FTOC</term> infected with <term sem="Virus" id="A2"><term sem="Virus" id="T28" lex="adenovirus">adenovirus</term> containing <term sem="Protein_molecule" id="T29" lex="mut-I_kappa_B">mut-I kappa B</term></term> than in <term sem="Tissue_cultured" id="T30" lex="FTOC">FTOC</term> infected with a <term sem="Virus" id="T31" lex="control_virus">control virus</term>.</sentence>
+<event id="E16">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A2" />
+<theme idref="T27" />
+<clue>However, apoptosis was much higher in FTOC <clueType>infected</clueType> <linkTheme>with</linkTheme> adenovirus containing mut-I kappa B than in FTOC infected with a control virus.</clue>
+<comment>TPS A2</comment></event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="E16" />
+<clue>However, apoptosis was much <clueType>higher</clueType> <linkCause>in</linkCause> FTOC infected with adenovirus containing mut-I kappa B than in FTOC infected with a control virus.</clue>
+</event>
+<sentence id="S7">Taken together, these results suggest that <term sem="Protein_complex" id="T32" lex="NF-kappa_B">NF-kappa B</term> plays a crucial role in ensuring the differentiation and survival of <term sem="Cell_natural" id="T33" lex="thymocyte">thymocytes</term> in the early stages of their development.</sentence>
+<event id="E18">
+<type class="Cell_differentiation" />
+<theme idref="T33" />
+<clue>Taken together, these results suggest that NF-kappa B plays a crucial role in ensuring the <clueType>differentiation</clueType> and survival <linkTheme>of</linkTheme> thymocytes in the early stages of their development.</clue>
+</event>
+<event id="E19">
+<type class="Cellular_physiological_process" />
+<theme idref="T33" />
+<clue>Taken together, these results suggest that NF-kappa B plays a crucial role in ensuring the differentiation and <clueType>survival</clueType> <linkTheme>of</linkTheme> thymocytes in the early stages of their development.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<clue>Taken together, these results suggest that NF-kappa B plays a crucial role in <clueType>ensuring</clueType> the differentiation and survival of thymocytes in the early stages of their development.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<clue>Taken together, these results suggest that NF-kappa B plays a crucial role in <clueType>ensuring</clueType> the differentiation and survival of thymocytes in the early stages of their development.</clue>
+</event>
+<event uncertainty="probable" id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T32" />
+<clue>Taken together, these results suggest that NF-kappa B <clueType>plays</clueType> a crucial <clueType>role</clueType> <linkTheme>in</linkTheme> ensuring the differentiation and survival of thymocytes in the early stages of their development.</clue>
+</event>
+<event uncertainty="probable" id="E23">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T32" />
+<clue>Taken together, these results suggest that NF-kappa B <clueType>plays</clueType> a crucial <clueType>role</clueType> <linkTheme>in</linkTheme> ensuring the differentiation and survival of thymocytes in the early stages of their development.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

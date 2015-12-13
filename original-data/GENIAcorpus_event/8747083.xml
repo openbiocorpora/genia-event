@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="21/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8747083" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8747083</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="Diagnosis">Transcription specific differences</term> visualized by <term sem="Other" id="T2" lex="fluorescence_in_situ_hubridization_pattern">fluorescence in situ hybridization pattern</term> on <term sem="Cell_component" id="T4" lex="interphase_nuclei">interphase nuclei</term> of different cell types.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Application of a &quot;formamide free&quot; and thus &quot;material preserving&quot; <term sem="Other" id="T3" lex="in situ hybridization technique">in situ hybridization technique</term> using the <term sem="DNA_family_or_group" id="T6" lex="cDNA">cDNA</term> of the <term sem="DNA_domain_or_region" id="T7" lex="myf3_gene">myf3 gene</term> revealed the following results: <term sem="Cell_natural" id="T8" lex="human_rhabdomyosarcoma_cell">Human rhabdomyosarcoma cells</term>, characterized by a high expression of <term sem="DNA_domain_or_region" id="T9" lex="myf3">myf3</term> show intensive <term sem="Other" id="T10" lex="hybridization_signal">hybridization signals</term> in their <term sem="Other" id="T11" lex="interphase">interphase</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue><clueExperiment>Application of a &quot;formamide free&quot; and thus &quot;material preserving&quot; in situ hybridization technique using the cDNA of the myf3 gene</clueExperiment> revealed the following results: <clueLoc>Human rhabdomyosarcoma cells</clueLoc>, characterized by a high expression of myf3 show intensive <clueType>hybridization signals</clueType> in their interphase.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue><clueExperiment>Application of a &quot;formamide free&quot; and thus &quot;material preserving&quot; in situ hybridization technique using the cDNA of the myf3 gene</clueExperiment> revealed the following results: <clueLoc>Human rhabdomyosarcoma cells</clueLoc>, characterized by a high expression of myf3 show <clueType>intensive</clueType> hybridization signals <clueTime>in their interphase.</clueTime></clue>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue><clueExperiment>Application of a &quot;formamide free&quot; and thus &quot;material preserving&quot; in situ hybridization technique using the cDNA of the myf3 gene</clueExperiment> revealed the following results: <clueLoc>Human rhabdomyosarcoma cells</clueLoc>, characterized by a high <clueType>expression</clueType> <linkTheme>of</linkTheme> myf3 show intensive hybridization signals in their interphase.</clue>
+</event>
+<sentence id="S3"><term sem="Other" id="T12" lex="RNase_treatment"><term sem="Protein_molecule" id="T13" lex="RNase">RNase</term> treatment</term> prior to <term sem="Other" id="T14" lex="hybridization">hybridization</term> considerably reduces the size of this signals.</sentence>
+<event id="E4">
+<type class="Artificial_process" />
+<theme idref="T13" />
+<theme idref="T8" />
+<clue>RNase <clueType>treatment</clueType> <clueTime>prior to hybridization</clueTime> considerably reduces the size of this signals.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="T10" />
+<cause idref="E4" />
+<clue>RNase treatment prior to hybridization considerably <clueType>reduces</clueType> the size of <corefTheme>this signals</corefTheme>.</clue>
+</event>
+<sentence id="S4">In comparison, <term sem="Cell_component" id="T15" lex="isolated_nuclei">isolated nuclei</term> of <term sem="Cell_natural" id="T16" lex="human_lymphocyte">human lymphocytes</term> in which no need for the expression of this gene exists, show barely <term sem="Other" id="T17" lex="hybridization_signal"><term sem="Other" id="T18" lex="hybridization">hybridization</term> signals</term>.</sentence>
+<event assertion="non-exist" id="E6">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>In comparison, <clueLoc>isolated nuclei of human lymphocytes</clueLoc> in which no need for the <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>this gene</corefTheme> exists, show barely hybridization signals.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="T17" />
+<clue>In comparison, <clueLoc>isolated nuclei of human lymphocytes</clueLoc> in which no need for the expression of this gene exists, show <clueType>barely</clueType> hybridization signals.</clue>
+</event>
+<sentence id="S5">Correspondingly, <term sem="Other" id="T19" lex="RNase_treatment"><term sem="Protein_molecule" id="T20" lex="RNase">RNase</term> treatment</term> had no effect on <term sem="Other" id="T21" lex="hybridization_pattern">hybridization pattern</term> at all.</sentence>
+<event id="E8">
+<type class="Artificial_process" />
+<theme idref="T20" />
+<theme idref="T16" />
+<clue>Correspondingly, RNase <clueType>treatment</clueType> had no effect on hybridization pattern at all.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event assertion="non-exist" id="E9">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="E8" />
+<clue>Correspondingly, RNase treatment had no <clueType>effect</clueType> <linkTheme>on</linkTheme> <corefTheme>hybridization pattern</corefTheme> at all.</clue>
+</event>
+<sentence id="S6">In conclusion an increased <term sem="Other" id="T23" lex="transcription_efficiency">transcription efficiency</term> of a <term sem="DNA_domain_or_region" id="A1">cell type specific gene</term> is accompanied by a higher <term sem="Other" id="T24" lex="hybridization_accessibility">hybridization accessibility</term> in the corresponding <term sem="Cell_component" id="T26" lex="cell_nuclei">cell nuclei</term>.</sentence>
+<event id="E10">
+<type class="Transcription" />
+<theme idref="A1" />
+<clue>In conclusion an increased <clueType>transcription efficiency</clueType> <linkTheme>of</linkTheme> a cell type specific gene is accompanied by a higher hybridization accessibility in the corresponding cell nuclei.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<clue>In conclusion an <clueType>increased</clueType> transcription efficiency of a cell type specific gene is accompanied by a higher hybridization accessibility in the corresponding <clueLoc>cell nuclei</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

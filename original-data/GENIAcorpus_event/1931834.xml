@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/03/2006" creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1931834">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1931834</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Synergism between two distinct elements of the <term sem="DNA_domain_or_region" id="T1" lex="HTLV-I_enhancer">HTLV-I enhancer</term> during activation by the <term sem="Protein_family_or_group" id="T2" lex="trans-activator">trans-activator</term> of <term sem="Virus" id="T3" lex="HTLV-I">HTLV-I</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We have conducted functional studies of the <term sem="DNA_domain_or_region" id="T4" lex="enhancer_element">enhancer elements</term> of <term sem="Virus" id="T5" lex="human_T-cell_leukemia_virus_type_I">human T-cell leukemia virus type I</term> (<term sem="Virus" id="T6" lex="HTLV-I">HTLV-I</term>) using the <term sem="Cell_cultured" id="T7" lex="human_T-cell_line">human T-cell lines</term> <term sem="Cell_cultured" id="T8" lex="Jurkat">Jurkat</term> and <term sem="Cell_cultured" id="T9" lex="MOLT_4">MOLT 4</term>, which are negative for <term sem="Virus" id="T10" lex="HTLV-I">HTLV-I</term>, and <term sem="Virus" id="T11" lex="MT-2">MT-2</term> and <term sem="Virus" id="T12" lex="TL-Mor">TL-Mor</term>, which carry the proviral genome of <term sem="Virus" id="T13" lex="HTLV-I">HTLV-I</term>.</sentence>
+<sentence id="S3">Two distinct elements have been implicated in function of the <term sem="DNA_domain_or_region" id="T14" lex="HTLV-I_enhancer"><term sem="Virus" id="T15" lex="HTLV-I">HTLV-I</term> enhancer</term>.</sentence>
+<sentence id="S4">One is the <term sem="DNA_domain_or_region" id="T16" lex="21-base-pair_(bp)_core_element"><term sem="DNA_domain_or_region" id="A2">21-</term>base-pair (<term sem="DNA_domain_or_region" id="A8">bp</term>) <term sem="DNA_domain_or_region" id="A3">core element</term></term> that is responsible for <term sem="Other" id="T17" lex="trans-activation">trans-activation</term> by the <term sem="Virus" id="T18" lex="HTLV-I">HTLV-I</term> <term sem="Protein_family_or_group" id="T19" lex="trans-activator">trans-activator</term> <term sem="Protein_molecule" id="T20" lex="p40tax">p40tax</term> and that has the ability to bind to <term sem="Protein_family_or_group" id="T21" lex="cyclic-AMP_responsive_element_binding_factor_(CREB)-like_factor"><term sem="Protein_molecule" id="T22" lex="cyclic-AMP_responsive_element_binding_factor">cyclic-AMP responsive element binding factor</term> (<term sem="Protein_molecule" id="A1"><term sem="Protein_molecule" id="T23" lex="CREB">CREB</term>)-like factor</term></term>(s).</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<cause idref="T20" />
+<clue>One is the 21-base-pair (bp) core element that is responsible for <clueType>trans-activation</clueType> <linkCause>by</linkCause> the HTLV-I trans-activator p40tax and that has the ability to bind to cyclic-AMP responsive element binding factor (CREB)-like factor(s).</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref1="A8" idref2="A3" idref="A2" />
+<clue>One is the 21-base-pair (bp) core element that is <clueType>responsible</clueType> <linkTheme>for</linkTheme> trans-activation by the HTLV-I trans-activator p40tax and that has the ability to bind to cyclic-AMP responsive element binding factor (CREB)-like factor(s).</clue>
+</event>
+<event id="E3">
+<type class="Binding" />
+<theme idref1="A8" idref2="A3" idref="A2" />
+<theme idref="A1" />
+<clue>One is the 21-base-pair (bp) core element that is responsible for trans-activation by the HTLV-I trans-activator p40tax and that <linkTheme>has the ability to</linkTheme> <clueType>bind</clueType> <linkTheme>to</linkTheme> cyclic-AMP responsive element binding factor (CREB)-like factor(s).</clue>
+</event>
+<sentence id="S5">The other is a region interposed between the <term sem="DNA_domain_or_region" id="T24" lex="21-bp_element">21-bp elements</term>.</sentence>
+<sentence id="S6">In this study we demonstrate that a subfragment (<term sem="DNA_domain_or_region" id="A104">C26</term>) in the region between the <term sem="DNA_domain_or_region" id="T25" lex="21-bp_elements">21-bp elements</term> is involved in <term sem="Other" id="T26" lex="trans-activation">trans-activation</term> by <term sem="Protein_molecule" id="T27" lex="p40tax">p40tax</term>, possibly through binding to an <term sem="Protein_molecule" id="T28" lex="NF-kappa_B-like_nuclear_factor"><term sem="Protein_family_or_group" id="A4"><term sem="Protein_molecule" id="T29" lex="NF-kappa_B">NF-kappa B</term>-like nuclear</term> factor</term> or <term sem="Protein_family_or_group" id="A5">factors</term>.</sentence>
+<event uncertainty="probable" id="E4">
+<type class="Binding" />
+<theme idref="A104" />
+<theme idref="T28" />
+<clue>In this study we demonstrate that a subfragment (C26) in the region between the 21-bp elements is involved in trans-activation by p40tax, possibly through <clueType>binding</clueType> <linkTheme>to</linkTheme> an NF-kappa B-like nuclear factor or factors.</clue>
+</event>
+<event uncertainty="probable" id="E5">
+<type class="Binding" />
+<theme idref="A104" />
+<theme idref1="A5" idref="A4" />
+<clue>In this study we demonstrate that a subfragment (C26) in the region between the 21-bp elements is involved in trans-activation by p40tax, possibly through <clueType>binding</clueType> <linkTheme>to</linkTheme> an NF-kappa B-like nuclear factor or factors.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<cause idref="T27" />
+<clue>In this study we demonstrate that a subfragment (C26) in the region between the 21-bp elements is involved in <clueType>trans-activation</clueType> <linkCause>by</linkCause> p40tax, possibly through binding to an NF-kappa B-like nuclear factor or factors.</clue>
+</event>
+<event uncertainty="probable" id="E7">
+<type class="Correlation" />
+<theme idref="E6" />
+<theme idref="E4" />
+<clue>In this study we demonstrate that a subfragment (C26) in the region between the 21-bp elements is <clueType>involved</clueType> <linkTheme>in</linkTheme> trans-activation by p40tax, possibly <linkTheme>through</linkTheme> binding to an NF-kappa B-like nuclear factor or factors.</clue>
+</event>
+<event uncertainty="probable" id="E8">
+<type class="Correlation" />
+<theme idref="E6" />
+<theme idref="E5" />
+<clue>In this study we demonstrate that a subfragment (C26) in the region between the 21-bp elements is <clueType>involved</clueType> <linkTheme>in</linkTheme> trans-activation by p40tax, possibly <linkTheme>through</linkTheme> binding to an NF-kappa B-like nuclear factor or factors.</clue>
+</event>
+<sentence id="S7">Formation of the <term sem="Protein_complex" id="T30" lex="protein-DNA_complex">protein-<term sem="DNA_domain_or_region" id="A6">DNA</term> complex</term> with the <term sem="Protein_molecule" id="T31" lex="C26_subfragment">C26 subfragment</term> was positively affected by <term sem="Protein_molecule" id="T32" lex="p40tax">p40tax</term>.</sentence>
+<event id="E9">
+<type class="Binding" />
+<theme idref="A6" />
+<theme idref="T31" />
+<clue><clueType>Formation</clueType> <linkTheme>of</linkTheme> the <corefTheme>protein</corefTheme>-DNA <clueType>complex</clueType> <linkTheme>with</linkTheme> the C26 subfragment was positively affected by p40tax.</clue>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T32" />
+<clue>Formation of the protein-DNA complex with the C26 subfragment was <clueType>positively affected</clueType> <linkCause>by</linkCause> p40tax.</clue>
+</event>
+<sentence id="S8">The <term sem="DNA_domain_or_region" id="T33" lex="C26_element">C26 element</term> conferred partial responsiveness to <term sem="Protein_molecule" id="T34" lex="p40tax">p40tax</term> when linked to one copy of the <term sem="DNA_domain_or_region" id="T35" lex="21-bp_element">21-bp element</term> that, by itself, showed little activation in response to <term sem="Protein_molecule" id="T36" lex="p40tax">p40tax</term>.</sentence>
+<event assertion="non-exist" id="E13">
+<type class="Positive_regulation" />
+<theme idref="T35" />
+<cause idref="T36" />
+<clue>The C26 element conferred partial responsiveness to p40tax when linked to one copy of the 21-bp element that, by itself, <linkTheme>showed</linkTheme> little a<clueType>ctivation</clueType> <linkCause>in response to</linkCause> p40tax.</clue>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T35" />
+<theme idref="T33" />
+<clue>The C26 element conferred partial responsiveness to p40tax when <clueType>linked</clueType> <linkTheme>to</linkTheme> one copy of the 21-bp element that, by itself, showed little activation in response to p40tax.</clue>
+<comment>OKAP not bind "T33 is a part of T35"</comment>
+</event>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="E14" />
+<cause idref="T34" />
+<clue>The C26 element <clueType>conferred</clueType> partial <clueType>responsiveness</clueType> <linkCause>to</linkCause> p40tax <linkTheme>when</linkTheme> linked to one copy of the 21-bp element that, by itself, showed little activation in response to p40tax.</clue>
+</event>
+<sentence id="S9">However, the <term sem="DNA_domain_or_region" id="T37" lex="C26_element">C26 element</term> alone, even when repeated, could not be activated by <term sem="Protein_molecule" id="T38" lex="p40tax">p40tax</term>, unlike <term sem="Protein_family_or_group" id="A105">other <term sem="DNA_domain_or_region" id="T39" lex="NF-kappa_B-binding_elements"><term sem="Protein_molecule" id="T40" lex="NF-kappa_B">NF-kappa B</term>-binding elements</term></term>.</sentence>
+<event assertion="non-exist" id="E16">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<cause idref="T38" />
+<clue>However, the C26 element alone, even when repeated, could not be <clueType>activated</clueType> <linkCause>by</linkCause> p40tax, unlike other NF-kappa B-binding elements.</clue>
+</event>
+<event id="E100">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<cause idref="A105" />
+<clue>However, the C26 element alone, even when repeated, could not be <clueType>activated</clueType> <linkCause>by</linkCause> p40tax, unlike other NF-kappa B-binding elements.</clue>
+</event>
+<sentence id="S10">In contrast, the <term sem="DNA_domain_or_region" id="T41" lex="C26_element">C26 element</term> itself was profoundly activated upon stimulation with <term sem="Organic_compound_other" id="T42" lex="12-O-tetradecanoylphorbol-13-acetate">12-O-tetradecanoylphorbol-13-acetate</term>.</sentence>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<cause idref="T42" />
+<clue>In contrast, the C26 element itself was profoundly <clueType>activated</clueType> <linkCause>upon</linkCause> stimulation with 12-O-tetradecanoylphorbol-13-acetate.</clue>
+</event>
+<sentence id="S11">These findings therefore suggest that the <term sem="DNA_domain_or_region" id="T43" lex="HTLV-I_enhancer"><term sem="Virus" id="T44" lex="HTLV-I">HTLV-I</term> enhancer</term> contains <term sem="DNA_domain_or_region" id="T45" lex="multiple_functional_element">multiple functional elements</term>, including binding sites for at least <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T46" lex="(AND CREB-like_factor NF-kappa_B-like_factor)"><frag id="F1">CREB-</frag> and <frag id="F2">NF-kappa B-</frag><frag id="F3">like factors</frag></cons>, which synergistically cooperate in activation of the <term sem="DNA_domain_or_region" id="T47" lex="HTLV-I_enhancer"><term sem="Virus" id="T48" lex="HTLV-I">HTLV-I</term> enhancer</term> in response to <term sem="Protein_molecule" id="T49" lex="p40tax">p40tax</term>.</sentence>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T47" />
+<cause idref="T49" />
+<clue>These findings therefore suggest that the HTLV-I enhancer contains multiple functional elements, including binding sites for at least CREB- and NF-kappa B-like factors, which synergistically cooperate in <clueType>activation</clueType> <linkTheme>of</linkTheme> the HTLV-I enhancer <linkCause>in response to</linkCause> p40tax.</clue>
+</event>
+<event uncertainty="probable" id="E21">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="T43" />
+<clue>These findings therefore suggest that the HTLV-I enhancer contains multiple functional elements, including binding sites for at least CREB- and NF-kappa B-like factors, which synergistically <clueType>cooperate</clueType> <linkTheme>in</linkTheme> activation of the HTLV-I enhancer in response to p40tax.</clue>
+</event>
+<sentence id="S12">Our results also demonstrate that <term sem="Other" id="T50" lex="TPA-dependent_activation"><term sem="Organic_compound_other" id="A7">TPA</term>-dependent activation</term> of the <term sem="DNA_domain_or_region" id="T51" lex="HTLV-I_enhancer"><term sem="Virus" id="T52" lex="HTLV-I">HTLV-I</term> enhancer</term> may be mediated through the <term sem="DNA_domain_or_region" id="T53" lex="C26_element">C26 element</term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T51" />
+<clue>Our results also demonstrate that TPA-dependent <clueType>activation</clueType> <linkTheme>of</linkTheme> the HTLV-I enhancer may be mediated through the C26 element.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="A7" />
+<clue>Our results also demonstrate that TPA-<clueType>dependent</clueType> activation of the HTLV-I enhancer may be mediated through the C26 element.</clue>
+</event>
+<event uncertainty="probable" id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T53" />
+<clue>Our results also demonstrate that TPA-dependent activation of the HTLV-I enhancer may be <clueType>mediated</clueType> <linkCause>through</linkCause> the C26 element.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

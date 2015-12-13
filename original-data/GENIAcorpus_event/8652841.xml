@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="31/01/2007" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8652841"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8652841</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="BCL-6_expression"><term sem="Protein_molecule" id="T2" lex="BCL-6">BCL-6</term> expression</term> during <term sem="Cell_natural" id="A1">B-cell</term> activation.</sentence>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>BCL-6 <clueType>expression</clueType> <clueTime>during B-cell activation</clueTime>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<clue>BCL-6 expression during B-cell <clueType>activation</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Translocations involving the <term sem="DNA_domain_or_region" id="T3" lex="BCL-6_gene"><term sem="Protein_molecule" id="T4" lex="BCL-6">BCL-6</term> gene</term> are common in the diffuse large cell subtype of <term sem="Other" id="T5" lex="non-Hodgkin&apos;s_lymphoma">non-Hodgkin&apos;s lymphoma</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="DNA_metabolism" />
+<theme idref="T3" />
+<clue><clueType>Translocations</clueType> <linkTheme>involving</linkTheme> the BCL-6 gene are common <clueLoc>in the diffuse large cell subtype of non-Hodgkin&apos;s lymphoma</clueLoc>.</clue>
+</event>
+<sentence id="S3">Invariably, the <term sem="DNA_domain_or_region" id="A3"><term sem="Protein_molecule" id="T6" lex="BCL-6">BCL-6</term></term> coding region is intact, but its <term sem="DNA_domain_or_region" id="T7" lex="5&apos;_untranslated_region">5&apos; untranslated region</term> is replaced with <term sem="DNA_domain_or_region" id="A4">sequences from the <term sem="DNA_domain_or_region" id="T8" lex="translocation_partner">translocation partner</term></term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E4">
+<type class="DNA_recombination" />
+<theme idref1="T7" idref="A3" />
+<theme idref="A4" />
+<clue>Invariably, the BCL-6 coding region is intact, but <corefTheme>its</corefTheme> 5&apos; untranslated region is <clueType>replaced</clueType> <linkTheme>with</linkTheme> sequences from the translocation partner.</clue>
+<comment>TPS: A4</comment></event>
+<sentence id="S4">The present study shows that <term sem="Other" id="T9" lex="BCL-6_expression"><term sem="Protein_molecule" id="T10" lex="BCL-6">BCL-6</term> expression</term> is regulated in <term sem="Cell_natural" id="T11" lex="lymphocyte">lymphocytes</term> during <term sem="Other" id="T12" lex="mitogenic_stimulation">mitogenic stimulation</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E5">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>The present study shows that BCL-6 <clueType>expression</clueType> is regulated in lymphocytes during mitogenic stimulation.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="E7" />
+<clue>The present study shows that BCL-6 expression is <clueType>regulated</clueType> <clueLoc>in lymphocytes</clueLoc> <linkCause>during</linkCause> mitogenic stimulation.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E7">
+<type class="Physiological_process" />
+<theme idref="T11" />
+<clue>The present study shows that BCL-6 expression is regulated in lymphocytes during <clueType>mitogenic stimulation</clueType>.</clue>
+</event>
+<sentence id="S5"><cons sem="(AND Cell_natural Cell_natural)" id="T13" lex="(AND resting_B_lymphocyte resting_T_lymphocyte)"><frag id="F1">Resting</frag> <frag id="F2">B</frag> and <frag id="F3">T</frag> <frag id="F4">lymphocytes</frag></cons> contain high levels of <term sem="RNA_molecule" id="T14" lex="BCL-6_mRNA"><term sem="Protein_molecule" id="T15" lex="BCL-6">BCL-6</term> mRNA</term>.</sentence>
+<sentence id="S6">Stimulation of <term sem="Cell_natural" id="T16" lex="mouse_B_cell">mouse B cells</term> with <cons sem="(OR Protein_family_or_group Protein_family_or_group)" id="T17" lex="(OR anti-IgM_antibody anti-IgD_antibody)"><frag id="F5"><term sem="Protein_molecule" id="A6">anti-</term></frag><frag id="F6"><term sem="Protein_molecule" id="A7">IgM</term></frag> or <frag id="F7"><term sem="Protein_molecule" id="A8">IgD</term></frag> <frag id="F8"><term sem="Protein_molecule" id="A9">antibodies</term></frag></cons>, <term sem="Lipid" id="T18" lex="bacterial_lipopolysaccharide">bacterial lipopolysaccharide</term>, <term sem="Lipid" id="T19" lex="phorbol_12-myristate_13-acetate">phorbol 12-myristate 13-acetate</term> plus <term sem="Organic_compound_other" id="T20" lex="ionomycin">ionomycin</term>, or <term sem="Protein_molecule" id="T21" lex="CD40_ligand">CD40 ligand</term> led to a five-fold to 35-fold decrease in <term sem="Other" id="T22" lex="BCL-6_mRNA_level"><term sem="RNA_molecule" id="T23" lex="BCL-6_mRNA">BCL-6 mRNA</term> levels</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E10">
+<type class="Physiological_process" />
+<theme idref="T16" />
+<cause idref1="A7" idref2="A9" idref="A6" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> mouse B cells <linkCause>with</linkCause> anti-IgM or IgD antibodies, bacterial lipopolysaccharide, phorbol 12-myristate 13-acetate plus ionomycin, or CD40 ligand led to a five-fold to 35-fold decrease in BCL-6 mRNA levels.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E11">
+<type class="Physiological_process" />
+<theme idref="T16" />
+<cause idref1="A8" idref2="A9" idref="A6" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> mouse B cells <linkCause>with</linkCause> anti-IgM or IgD antibodies, bacterial lipopolysaccharide, phorbol 12-myristate 13-acetate plus ionomycin, or CD40 ligand led to a five-fold to 35-fold decrease in BCL-6 mRNA levels.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="Physiological_process" />
+<theme idref="T16" />
+<cause idref="T18" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> mouse B cells <linkCause>with</linkCause> anti-IgM or IgD antibodies, bacterial lipopolysaccharide, phorbol 12-myristate 13-acetate plus ionomycin, or CD40 ligand led to a five-fold to 35-fold decrease in BCL-6 mRNA levels.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Physiological_process" />
+<theme idref="T16" />
+<cause idref="T19" />
+<cause idref="T20" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> mouse B cells <linkCause>with</linkCause> anti-IgM or IgD antibodies, bacterial lipopolysaccharide, phorbol 12-myristate 13-acetate plus ionomycin, or CD40 ligand led to a five-fold to 35-fold decrease in BCL-6 mRNA levels.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E14">
+<type class="Physiological_process" />
+<theme idref="T16" />
+<cause idref="T21" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> mouse B cells <linkCause>with</linkCause> anti-IgM or IgD antibodies, bacterial lipopolysaccharide, phorbol 12-myristate 13-acetate plus ionomycin, or CD40 ligand led to a five-fold to 35-fold decrease in BCL-6 mRNA levels.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E15">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<cause idref="E10" />
+<clue>Stimulation of mouse B cells with anti-IgM or IgD antibodies, bacterial lipopolysaccharide, phorbol 12-myristate 13-acetate plus ionomycin, or CD40 ligand led to a five-fold to 35-fold <clueType>decrease</clueType> <linkTheme>in</linkTheme> BCL-6 mRNA <clueType>levels</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E16">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<cause idref="E11" />
+<clue>Stimulation of mouse B cells with anti-IgM or IgD antibodies, bacterial lipopolysaccharide, phorbol 12-myristate 13-acetate plus ionomycin, or CD40 ligand led to a five-fold to 35-fold <clueType>decrease</clueType> <linkTheme>in</linkTheme> BCL-6 mRNA <clueType>levels</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E17">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<cause idref="E12" />
+<clue>Stimulation of mouse B cells with anti-IgM or IgD antibodies, bacterial lipopolysaccharide, phorbol 12-myristate 13-acetate plus ionomycin, or CD40 ligand led to a five-fold to 35-fold <clueType>decrease</clueType> <linkTheme>in</linkTheme> BCL-6 mRNA <clueType>levels</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E18">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<cause idref="E13" />
+<clue>Stimulation of mouse B cells with anti-IgM or IgD antibodies, bacterial lipopolysaccharide, phorbol 12-myristate 13-acetate plus ionomycin, or CD40 ligand led to a five-fold to 35-fold <clueType>decrease</clueType> <linkTheme>in</linkTheme> BCL-6 mRNA <clueType>levels</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E19">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<cause idref="E14" />
+<clue>Stimulation of mouse B cells with anti-IgM or IgD antibodies, bacterial lipopolysaccharide, phorbol 12-myristate 13-acetate plus ionomycin, or CD40 ligand led to a five-fold to 35-fold <clueType>decrease</clueType> <linkTheme>in</linkTheme> BCL-6 mRNA <clueType>levels</clueType>.</clue>
+</event>
+<sentence id="S7">Similar downregulation of <term sem="RNA_molecule" id="T24" lex="BCL-6_mRNA"><term sem="Protein_molecule" id="T25" lex="BCL-6">BCL-6</term> mRNA</term> was seen in <term sem="Cell_natural" id="T26" lex="human_B_cell">human B cells</term> stimulated with <term sem="Unicellular_organism" id="T27" lex="Staphylococcus_aureus">Staphylococcus aureus</term> plus <term sem="Protein_molecule" id="T28" lex="interleukin-2">interleukin-2</term> or <term sem="Protein_family_or_group" id="T29" lex="anti-IgM_antibody">anti-IgM antibodies</term> and in <term sem="Cell_natural" id="T30" lex="human_T_lymphocyte">human T lymphocytes</term> stimulated with <term sem="Protein_molecule" id="T31" lex="phytohemagglutinin">phytohemagglutinin</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E20">
+<type class="Negative_regulation" />
+<theme idref="T24" />
+<clue>Similar <clueType>downregulation</clueType> <linkTheme>of</linkTheme> BCL-6 mRNA was seen <clueLoc>in human B cells stimulated with Staphylococcus aureus plus interleukin-2</clueLoc> or anti-IgM antibodies and in human T lymphocytes stimulated with phytohemagglutinin.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E8">
+<type class="Negative_regulation" />
+<theme idref="T24" />
+<clue>Similar <clueType>downregulation</clueType> <linkTheme>of</linkTheme> BCL-6 mRNA was seen <clueLoc>in human B cells stimulated with</clueLoc> Staphylococcus aureus plus interleukin-2 or <clueLoc>anti-IgM antibodies</clueLoc> and in human T lymphocytes stimulated with phytohemagglutinin.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E42">
+<type class="Negative_regulation" />
+<theme idref="T24" />
+<clue>Similar <clueType>downregulation</clueType> <linkTheme>of</linkTheme> BCL-6 mRNA was seen in human B cells stimulated with Staphylococcus aureus plus interleukin-2 or anti-IgM antibodies and <clueLoc>in human T lymphocytes stimulated with phytohemagglutinin</clueLoc>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E21">
+<type class="Physiological_process" />
+<theme idref="T26" />
+<cause idref="T27" />
+<cause idref="T28" />
+<clue>Similar downregulation of BCL-6 mRNA was seen in human B cells <clueType>stimulated</clueType> <linkCause>with</linkCause> Staphylococcus aureus plus interleukin-2 or anti-IgM antibodies and in human T lymphocytes stimulated with phytohemagglutinin.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E23">
+<type class="Physiological_process" />
+<theme idref="T26" />
+<cause idref="T29" />
+<clue>Similar downregulation of BCL-6 mRNA was seen in human B cells <clueType>stimulated</clueType> <linkCause>with</linkCause> Staphylococcus aureus plus interleukin-2 or anti-IgM antibodies and in human T lymphocytes stimulated with phytohemagglutinin.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E22">
+<type class="Physiological_process" />
+<theme idref="T30" />
+<cause idref="T31" />
+<clue>Similar downregulation of BCL-6 mRNA was seen in human B cells stimulated with Staphylococcus aureus plus interleukin-2 or anti-IgM antibodies and in human T lymphocytes <clueType>stimulated</clueType> <linkCause>with</linkCause> phytohemagglutinin.</clue>
+</event>
+<sentence id="S8"><term sem="Other" id="T32" lex="BCL-6_mRNA_level"><term sem="RNA_molecule" id="T33" lex="BCL-6_mRNA"><term sem="Protein_molecule" id="T34" lex="BCL-6">BCL-6</term> mRNA</term> levels</term> began to decrease 8 to 16 hours after <term sem="Other" id="A10">stimulation</term>, before cells entered <term sem="Other" id="T35" lex="S_phase">S phase</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E24">
+<type class="Negative_regulation" />
+<theme idref="T33" />
+<cause idref="A10" />
+<clue>BCL-6 mRNA <clueType>levels</clueType> began to <clueType>decrease</clueType> <clueTime>8 to 16 hours after stimulation</clueTime>, <clueTime>before cells entered S phase</clueTime>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E9">
+<type class="Cellular_physiological_process" />
+<theme idref="T26" />
+<clue>BCL-6 mRNA levels began to decrease 8 to 16 hours after stimulation, before <corefTheme>cells</corefTheme> <clueType>entered S phase</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E43">
+<type class="Cellular_physiological_process" />
+<theme idref="T30" />
+<clue>BCL-6 mRNA levels began to decrease 8 to 16 hours after stimulation, before <corefTheme>cells</corefTheme> <clueType>entered S phase</clueType>.</clue>
+</event>
+<sentence id="S9">Although <term sem="Other" id="T36" lex="polyclonal_activation">polyclonal activation</term> of <term sem="Cell_natural" id="T37" lex="B_cell">B cells</term> in vitro invariably decreased <term sem="RNA_molecule" id="A11"><term sem="Protein_molecule" id="T38" lex="BCL-6">BCL-6</term> MRNA</term> expression, <term sem="Cell_natural" id="T39" lex="activated_B_cell">activated <term sem="Cell_natural" id="A13">B cells</term></term> from human germinal centers expressed <term sem="RNA_molecule" id="A12">BCL-6 mRNA</term> at levels comparable to the levels in resting B cells.</sentence>
+<event assertion="exist" uncertainty="certain" id="E25">
+<type class="Physiological_process" />
+<theme idref="T37" />
+<clue>Although <clueType>polyclonal activation</clueType> <linkTheme>of</linkTheme> B cells in vitro invariably decreased BCL-6 MRNA expression, activated B cells from human germinal centers expressed BCL-6 mRNA at levels comparable to the levels in resting B cells.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E26">
+<type class="Negative_regulation" />
+<theme idref="E27" />
+<cause idref="E25" />
+<clue>Although polyclonal activation of B cells in vitro invariably <clueType>decreased</clueType> BCL-6 MRNA expression, activated B cells from human germinal centers expressed BCL-6 mRNA at levels comparable to the levels in resting B cells.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E27">
+<type class="Transcription" />
+<theme idref="A11" />
+<clue>Although polyclonal activation of B cells in vitro invariably decreased BCL-6 MRNA <clueType>expression</clueType>, activated B cells from human germinal centers expressed BCL-6 mRNA at levels comparable to the levels in resting B cells.</clue>
+<comment>CAUTION, mRNA</comment></event>
+<event assertion="exist" uncertainty="certain" id="E28">
+<type class="Transcription" />
+<theme idref="A12" />
+<clue>Although polyclonal activation of B cells in vitro invariably decreased BCL-6 MRNA expression, <clueLoc>activated B cells from human germinal centers</clueLoc> <clueType>expressed</clueType> BCL-6 mRNA at levels comparable to the levels in resting B cells.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E29">
+<type class="Transcription" />
+<theme idref="A12" />
+<clue>Although polyclonal activation of B cells in vitro invariably decreased BCL-6 MRNA expression, activated B cells from human germinal centers <clueType>expressed</clueType> BCL-6 mRNA at levels comparable to the levels <clueLoc>in resting B cells</clueLoc>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E30">
+<type class="Physiological_process" />
+<theme idref="A13" />
+<clue>Although polyclonal activation of B cells in vitro invariably decreased BCL-6 MRNA expression, <clueType>activated</clueType> B cells from human germinal centers expressed BCL-6 mRNA at levels comparable to the levels in resting B cells.</clue>
+</event>
+<sentence id="S10">Despite these similar mRNA levels, <term sem="Protein_molecule" id="T40" lex="BCL-6">BCL-6</term> protein expression was threefold to 34-fold higher in <term sem="Cell_natural" id="T41" lex="germinal_center_B_cell">germinal center B cells</term> than in <term sem="Cell_natural" id="T42" lex="resting_B_cell">resting B cells</term>, suggesting that <term sem="Other" id="T43" lex="BCL-6_protein_level"><term sem="Protein_molecule" id="T44" lex="BCL-6">BCL-6</term> protein levels</term> are controlled by <term sem="Other" id="A14">translational</term> or <term sem="Other" id="T45" lex="posttranslational_mechanism">posttranslational <term sem="Other" id="A15">mechanisms</term></term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E31">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>Despite these similar mRNA levels, BCL-6 protein <clueType>expression</clueType> was threefold to 34-fold higher <clueLoc>in germinal center B cells</clueLoc> than in resting B cells, suggesting that BCL-6 protein levels are controlled by translational or posttranslational mechanisms.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E32">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>Despite these similar mRNA levels, BCL-6 protein <clueType>expression</clueType> was threefold to 34-fold higher in germinal center B cells than <clueLoc>in resting B cells</clueLoc>, suggesting that BCL-6 protein levels are controlled by translational or posttranslational mechanisms.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E34">
+<type class="Regulation" />
+<theme idref="T44" />
+<cause idref1="A15" idref="A14" />
+<clue>Despite these similar mRNA levels, BCL-6 protein expression was threefold to 34-fold higher in germinal center B cells than in resting B cells, suggesting that BCL-6 protein <clueType>levels</clueType> are <clueType>controlled</clueType> <linkCause>by</linkCause> translational or posttranslational mechanisms.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E35">
+<type class="Regulation" />
+<theme idref="T44" />
+<cause idref="T45" />
+<clue>Despite these similar mRNA levels, BCL-6 protein expression was threefold to 34-fold higher in germinal center B cells than in resting B cells, suggesting that BCL-6 protein <clueType>levels</clueType> are <clueType>controlled</clueType> <linkCause>by</linkCause> translational or posttranslational mechanisms.</clue>
+</event>
+<sentence id="S11">These observations suggest that the <term sem="Other" id="T46" lex="germinal_center_reaction">germinal center reaction</term> provides unique activation signals to <term sem="Cell_natural" id="T47" lex="B_cell">B cells</term> that allow for continued, high-level <term sem="Other" id="T48" lex="BCL-6_expression"><term sem="Protein_molecule" id="T49" lex="BCL-6">BCL-6</term> expression</term>.</sentence>
+<event assertion="exist" uncertainty="probable" id="E36">
+<type class="Cell_communication" />
+<theme idref="T46" />
+<theme idref="T47" />
+<clue>These observations suggest that the germinal center reaction <clueType>provides</clueType> unique activation <clueType>signals</clueType> <linkTheme>to</linkTheme> B cells that allow for continued, high-level BCL-6 expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E37">
+<type class="Physiological_process" />
+<theme idref="T47" />
+<clue>These observations suggest that the germinal center reaction provides unique <clueType>activation</clueType> signals to B cells that allow for continued, high-level BCL-6 expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E38">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref="E36" />
+<clue>These observations suggest that the germinal center reaction provides unique activation signals to B cells that <clueType>allow</clueType> <linkTheme>for</linkTheme> continued, high-level BCL-6 expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E41">
+<type class="Positive_regulation" />
+<theme idref="E40" />
+<cause idref="E36" />
+<clue>These observations suggest that the germinal center reaction provides unique activation signals to B cells that <clueType>allow</clueType> <linkTheme>for</linkTheme> continued, high-level BCL-6 expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E39">
+<type class="Gene_expression" />
+<theme idref="T49" />
+<clue>These observations suggest that the germinal center reaction provides unique activation signals to B cells that allow for continued, high-level BCL-6 <clueType>expression</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E40">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<clue>These observations suggest that the germinal center reaction provides unique activation signals to B cells that allow for continued, <clueType>high-level</clueType> BCL-6 expression.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

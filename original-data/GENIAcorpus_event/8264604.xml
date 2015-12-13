@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="30/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8264604" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8264604</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term sem="Protein_family_or_group" id="T1" lex="macrophage_transcription_factor">macrophage transcription factor</term> <term sem="Protein_molecule" id="T2" lex="PU.1">PU.1</term> directs tissue-specific expression of the <term sem="Protein_molecule" id="T3" lex="macrophage_colony-stimulating_factor_receptor">macrophage colony-stimulating factor receptor</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>The macrophage transcription factor PU.1 directs <clueLoc>tissue-specific</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> the macrophage colony-stimulating factor receptor.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T2" />
+<clue>The macrophage transcription factor PU.1 <clueType>directs</clueType> tissue-specific expression of the macrophage colony-stimulating factor receptor.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_molecule" id="T4" lex="macrophage_colony-stimulating_factor_(M-CSF)_receptor"><term sem="Protein_molecule" id="T5" lex="macrophage_colony-stimulating_factor">macrophage colony-stimulating factor</term> (<term sem="Protein_molecule" id="T6" lex="M-CSF">M-CSF</term>) receptor</term> is expressed in a tissue-specific fashion from two distinct <term sem="DNA_domain_or_region" id="T7" lex="promoter">promoters</term> in <term sem="Cell_natural" id="T8" lex="monocytes/macrophage">monocytes/macrophages</term> and the <term sem="Body_region" id="T9" lex="placenta">placenta</term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>The macrophage colony-stimulating factor (M-CSF) receptor is <clueType>expressed</clueType> in a tissue-specific fashion from two distinct promoters <clueLoc>in monocytes</clueLoc>/macrophages and the placenta.</clue>
+</event>
+<event id="E103">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>The macrophage colony-stimulating factor (M-CSF) receptor is <clueType>expressed</clueType> in a tissue-specific fashion from two distinct promoters <clueLoc>in</clueLoc> monocytes/<clueLoc>macrophages</clueLoc> and the placenta.</clue>
+</event>
+<event id="E203">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>The macrophage colony-stimulating factor (M-CSF) receptor is <clueType>expressed</clueType> in a tissue-specific fashion from two distinct promoters <clueLoc>in</clueLoc> monocytes/macrophages and <clueLoc>the placenta</clueLoc>.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="T7" />
+<clue>The macrophage colony-stimulating factor (M-CSF) receptor is expressed in a tissue-specific fashion <linkCause>from</linkCause> two distinct promoters in monocytes/macrophages and the placenta.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S3">In order to further understand the <term sem="Protein_family_or_group" id="A1">transcription factors</term> which play a role in the commitment of <term sem="Cell_natural" id="T10" lex="multipotential_progenitor">multipotential progenitors</term> to the <term sem="Cell_cultured" id="A2">monocyte/macrophage lineage</term>, we have initiated an investigation of the <term sem="Protein_family_or_group" id="A3">factors</term> which activate the <term sem="Protein_molecule" id="T11" lex="M-CSF_receptor"><term sem="Protein_molecule" id="T12" lex="M-CSF">M-CSF</term> receptor</term> very early during the <term sem="Other" id="T13" lex="monocyte_differentiation_process"><term sem="Cell_natural" id="A4">monocyte</term> differentiation process</term>.</sentence>
+<event id="E5">
+<type class="Cell_differentiation" />
+<theme idref="T10" />
+<theme idref="A2" />
+<clue>In order to further understand the transcription factors which play a role in the <clueType>commitment</clueType> <linkTheme>of</linkTheme> multipotential progenitors <linkTheme>to</linkTheme> the monocyte/macrophage lineage, we have initiated an investigation of the factors which activate the M-CSF receptor very early during the monocyte differentiation process.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="A1" />
+<clue>In order to further understand the transcription factors which <clueType>play a role</clueType> <linkTheme>in</linkTheme> the commitment of multipotential progenitors to the monocyte/macrophage lineage, we have initiated an investigation of the factors which activate the M-CSF receptor very early during the monocyte differentiation process.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<cause idref="A3" />
+<clue>In order to further understand the transcription factors which play a role in the commitment of multipotential progenitors to the monocyte/macrophage lineage, we have initiated an investigation of the factors which <clueType>activate</clueType> the M-CSF receptor <clueTime>very early during the monocyte differentiation process</clueTime>.</clue>
+</event>
+<event id="E8">
+<type class="Cell_differentiation" />
+<theme idref="A4" />
+<clue>In order to further understand the transcription factors which play a role in the commitment of multipotential progenitors to the monocyte/macrophage lineage, we have initiated an investigation of the factors which activate the M-CSF receptor very early during the monocyte <clueType>differentiation process</clueType>.</clue>
+</event>
+<sentence id="S4">Here we demonstrate that the <term sem="DNA_domain_or_region" id="T14" lex="human_monocytic_M-CSF_receptor_promoter">human monocytic <term sem="Protein_molecule" id="T15" lex="M-CSF_receptor"><term sem="Protein_molecule" id="T16" lex="M-CSF">M-CSF</term> receptor</term> promoter</term> directs <term sem="DNA_domain_or_region" id="A101">reporter gene</term> activity in a <term sem="Other" id="T17" lex="tissue-specific_fashion">tissue-specific fashion</term>.</sentence>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="A101" />
+<cause idref="T14" />
+<clue>Here we demonstrate that the human monocytic M-CSF receptor promoter <clueType>directs</clueType> reporter gene activity in a tissue-specific fashion.</clue>
+</event>
+<sentence id="S5">Since one of the few <term sem="Protein_family_or_group" id="T18" lex="transcription_factor">transcription factors</term> which have been implicated in the regulation of <term sem="DNA_family_or_group" id="T19" lex="monocyte_gene">monocyte genes</term> is the <term sem="Protein_molecule" id="T20" lex="macrophage-_and_B-cell-specific_PU.1">macrophage- and B-cell-specific <term sem="Protein_molecule" id="T21" lex="PU.1">PU.1</term></term> <term sem="Protein_family_or_group" id="T22" lex="transcription_factor">transcription factor</term>, we investigated whether <term sem="Protein_molecule" id="T23" lex="PU.1">PU.1</term> binds and activates the <term sem="DNA_domain_or_region" id="T24" lex="M-CSF_receptor_promoter"><term sem="Protein_molecule" id="T25" lex="M-CSF_receptor"><term sem="Protein_molecule" id="T26" lex="M-CSF">M-CSF</term> receptor</term> promoter</term>.</sentence>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="T19" />
+<clue>Since one of the few transcription factors which have been implicated in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> monocyte genes is the macrophage- and B-cell-specific PU.1 transcription factor, we investigated whether PU.1 binds and activates the M-CSF receptor promoter.</clue>
+</event>
+<event id="E12">
+<type class="Correlation" />
+<theme idref="T18" />
+<theme idref="E11" />
+<clue>Since one of the few transcription factors which have been <clueType>implicated</clueType> <linkTheme>in</linkTheme> the regulation of monocyte genes is the macrophage- and B-cell-specific PU.1 transcription factor, we investigated whether PU.1 binds and activates the M-CSF receptor promoter.</clue>
+</event>
+<event id="E13">
+<type class="Correlation" />
+<theme idref="T21" />
+<theme idref="E11" />
+<clue>Since <corefCause>one of the few transcription factors</corefCause> which have been <clueType>implicated</clueType> <linkTheme>in</linkTheme> the regulation of monocyte genes is the macrophage- and B-cell-specific PU.1 transcription factor, we investigated whether PU.1 binds and activates the M-CSF receptor promoter.</clue>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Binding" />
+<theme idref="T23" />
+<theme idref="T24" />
+<clue>Since one of the few transcription factors which have been implicated in the regulation of monocyte genes is the macrophage- and B-cell-specific PU.1 transcription factor, we investigated whether PU.1 <clueType>binds</clueType> and activates the M-CSF receptor promoter.</clue>
+</event>
+<event uncertainty="doubtful" id="E15">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="T23" />
+<clue>Since one of the few transcription factors which have been implicated in the regulation of monocyte genes is the macrophage- and B-cell-specific PU.1 transcription factor, we investigated whether PU.1 binds and <clueType>activates</clueType> the M-CSF receptor promoter.</clue>
+</event>
+<sentence id="S6">Here we demonstrate that both in vitro-translated <term sem="Protein_molecule" id="T28" lex="PU.1">PU.1</term> and <term sem="Protein_molecule" id="T29" lex="PU.1">PU.1</term> from <term sem="Cell_component" id="T30" lex="nuclear_extract">nuclear extracts</term> bind to a <term sem="DNA_domain_or_region" id="A7">specific site in the <term sem="DNA_domain_or_region" id="T31" lex="M-CSF_receptor_promoter"><term sem="Protein_molecule" id="T32" lex="M-CSF_receptor"><term sem="Protein_molecule" id="T33" lex="M-CSF">M-CSF</term> receptor</term> promoter</term></term> just upstream from the <term sem="DNA_domain_or_region" id="T34" lex="major_transcription_initiation_site">major transcription initiation site</term>.</sentence>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T28" />
+<theme idref="A7" />
+<clue>Here we demonstrate that both in vitro-translated PU.1 and PU.1 from nuclear extracts <clueType>bind</clueType> <linkTheme>to</linkTheme> a specific site in the M-CSF receptor promoter just upstream from the major transcription initiation site.</clue>
+<comment>TPS A7</comment>
+</event>
+<event id="E17">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="A7" />
+<clue>Here we demonstrate that both in vitro-translated PU.1 and PU.1 from nuclear extracts <clueType>bind</clueType> <linkTheme>to</linkTheme> a specific site in the M-CSF receptor promoter just upstream from the major transcription initiation site.</clue>
+</event>
+<event id="E117">
+<type class="Translation" />
+<theme idref="T28" />
+<clue>Here we demonstrate that both in vitro-<clueType>translated</clueType> PU.1 and PU.1 from nuclear extracts bind to a specific site in the M-CSF receptor promoter just upstream from the major transcription initiation site.</clue>
+</event>
+<sentence id="S7">Mutations in this site which eliminate <term sem="Protein_molecule" id="T35" lex="PU.1">PU.1</term> binding decrease <term sem="DNA_domain_or_region" id="A6"><term sem="Protein_molecule" id="T36" lex="M-CSF_receptor"><term sem="Protein_molecule" id="T37" lex="M-CSF">M-CSF</term> receptor</term> promoter</term> activity significantly in <term sem="Cell_cultured" id="T38" lex="macrophage_cell_line">macrophage cell lines</term> only.</sentence>
+<event id="E18">
+<type class="Mutagenesis" />
+<theme idref="A7" />
+<clue><clueType>Mutations</clueType> <linkTheme>in</linkTheme> <corefTheme>this site</corefTheme> which eliminate PU.1 binding decrease M-CSF receptor promoter activity significantly in macrophage cell lines only.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T35" />
+<theme idref="A7" />
+<clue>Mutations in this site which eliminate PU.1 <clueType>binding</clueType> decrease M-CSF receptor promoter activity significantly in macrophage cell lines only.</clue>
+<comment>NO COREFTEHEM FOR A7</comment>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="E18" />
+<clue>Mutations in this site which <clueType>eliminate</clueType> PU.1 binding decrease M-CSF receptor promoter activity significantly <clueLoc>in macrophage cell lines</clueLoc> only.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="A6" />
+<cause idref="E20" />
+<clue>Mutations in this site which eliminate PU.1 binding <clueType>decrease</clueType> M-CSF receptor promoter activity significantly <clueLoc>in macrophage cell lines</clueLoc> only.</clue>
+</event>
+<sentence id="S8">Furthermore, <term sem="Protein_molecule" id="T39" lex="PU.1">PU.1</term> transactivates the <term sem="DNA_domain_or_region" id="T40" lex="M-CSF_receptor_promoter"><term sem="Protein_molecule" id="T41" lex="M-CSF_receptor"><term sem="Protein_molecule" id="T42" lex="M-CSF">M-CSF</term> receptor</term> promoter</term> in <term sem="Cell_natural" id="T43" lex="nonmacrophage_cell">nonmacrophage cells</term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<cause idref="T39" />
+<clue>Furthermore, PU.1 <clueType>transactivates</clueType> the M-CSF receptor promoter <clueLoc>in nonmacrophage cells</clueLoc>.</clue>
+</event>
+<sentence id="S9">These results suggest that <term sem="Protein_molecule" id="T44" lex="PU.1">PU.1</term> plays a major role in <term sem="Other" id="T45" lex="macrophage_gene_regulation"><term sem="DNA_family_or_group" id="A8"><term sem="Cell_natural" id="A10">macrophage</term> gene</term> regulation</term> and development by directing the expression of a <term sem="Protein_molecule" id="A9">receptor for a <term sem="Protein_family_or_group" id="T46" lex="key_macrophage_growth_factor">key macrophage growth factor</term></term>.</sentence>
+<event id="E23">
+<type class="Regulation" />
+<theme idref="A8" />
+<clue>These results suggest that PU.1 plays a major role in macrophage gene <clueType>regulation</clueType> and development by directing the expression of a receptor for a key macrophage growth factor.</clue>
+<comment>TPS A9</comment>
+</event>
+<event id="E24">
+<type class="Cell_differentiation" />
+<theme idref="A10" />
+<clue>These results suggest that PU.1 plays a major role in macrophage gene regulation and <clueType>development</clueType> by directing the expression of a receptor for a key macrophage growth factor.</clue>
+</event>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref="A9" />
+<clue>These results suggest that PU.1 plays a major role in macrophage gene regulation and development by directing the <clueType>expression</clueType> <linkTheme>of</linkTheme> a receptor for a key macrophage growth factor.</clue>
+</event>
+<event uncertainty="probable" id="E26">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="T44" />
+<clue>These results suggest that PU.1 plays a major role in macrophage gene regulation and development by <clueType>directing</clueType> the expression of a receptor for a key macrophage growth factor.</clue>
+</event>
+<event uncertainty="probable" id="E27">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="E26" />
+<clue>These results suggest that PU.1 <clueType>plays a major role</clueType> <linkTheme>in</linkTheme> macrophage gene regulation and development <linkCause>by</linkCause> directing the expression of a receptor for a key macrophage growth factor.</clue>
+</event>
+<event uncertainty="probable" id="E28">
+<type class="Regulation" />
+<theme idref="E24" />
+<cause idref="E26" />
+<clue>These results suggest that PU.1 <clueType>plays a major role</clueType> <linkTheme>in</linkTheme> macrophage gene regulation and development <linkCause>by</linkCause> directing the expression of a receptor for a key macrophage growth factor.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

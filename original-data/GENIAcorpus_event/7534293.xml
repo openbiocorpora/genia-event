@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/12/27" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7534293" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7534293</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="E2F-1">E2F-1</term> and a <term sem="Protein_family_or_group" id="T2" lex="cyclin-like_DNA_repair_enzyme">cyclin-like DNA repair enzyme</term>, <term sem="Protein_molecule" id="T3" lex="uracil-DNA_glycosylase">uracil-DNA glycosylase</term>, provide evidence for an autoregulatory mechanism for <term sem="Other" id="A100">transcription</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="E100" />
+<cause idref="T1" />
+<clue>E2F-1 and a cyclin-like DNA repair enzyme, uracil-DNA glycosylase, provide <clueType>evidence</clueType> <linkTheme>for</linkTheme> an autoregulatory mechanism for transcription.</clue>
+<comment>CAUSION</comment>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E100" />
+<cause idref="T3" />
+<clue>E2F-1 and a cyclin-like DNA repair enzyme, uracil-DNA glycosylase, provide <clueType>evidence</clueType> <linkTheme>for</linkTheme> an autoregulatory mechanism for transcription.</clue>
+<comment>CAUSION</comment>
+</event>
+<event id="E100">
+<type class="Regulation" />
+<theme idref="A100" />
+<clue>E2F-1 and a cyclin-like DNA repair enzyme, uracil-DNA glycosylase, provide evidence for an <clueType>autoregulatory mechanism</clueType> <linkTheme>for</linkTheme> transcription.</clue>
+<comment>NER: T4 del &quot;autoregulatory mechanism for transcription&quot;</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_family_or_group" id="T5" lex="cell_cycle-dependent_transcription_factor">cell cycle-dependent transcription factor</term>, <term sem="Protein_molecule" id="T6" lex="E2F-1">E2F-1</term>, regulates the <term sem="Protein_family_or_group" id="T7" lex="cyclin">cyclin</term>-like species of the <term sem="Protein_family_or_group" id="T8" lex="DNA_repair_enzyme">DNA repair enzyme</term> <term sem="DNA_domain_or_region" id="T9" lex="uracil-DNA_glycosylase_(UDG)_gene"><term sem="Protein_molecule" id="T10" lex="uracil-DNA_glycosylase">uracil-DNA glycosylase</term> (<term sem="Protein_molecule" id="T11" lex="UDG">UDG</term>) gene</term> in <term sem="Cell_cultured" id="T12" lex="human_osteosarcoma_(Saos-2)_cell">human osteosarcoma (<term sem="Cell_cultured" id="T13" lex="Saos-2">Saos-2</term>) cells</term>.</sentence>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="T9" />
+<cause idref="T6" />
+<clue>The cell cycle-dependent transcription factor, E2F-1, <clueType>regulates</clueType> the cyclin-like species of the DNA repair enzyme uracil-DNA glycosylase (UDG) gene <clueLoc>in human osteosarcoma (Saos-2) cells</clueLoc>.</clue>
+</event>
+<sentence id="S3">We demonstrate, through the deletion of the <term sem="DNA_domain_or_region" id="T14" lex="human_UDG_promoter_sequence">human <term sem="Protein_molecule" id="T15" lex="UDG">UDG</term> promoter sequences</term>, that expression of <term sem="Protein_molecule" id="T16" lex="E2F-1">E2F-1</term> activates the <term sem="DNA_domain_or_region" id="T17" lex="UDG_promoter"><term sem="Protein_molecule" id="T18" lex="UDG">UDG</term> promoter</term> through several <term sem="DNA_domain_or_region" id="T19" lex="E2F_site"><term sem="Protein_family_or_group" id="T20" lex="E2F">E2F</term> sites</term>.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>We demonstrate, through the deletion of the human UDG promoter sequences, that <clueType>expression</clueType> <linkTheme>of</linkTheme> E2F-1 activates the UDG promoter through several E2F sites.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="E4" />
+<clue>We demonstrate, <clueExperiment>through the deletion of the human UDG promoter sequences</clueExperiment>, that expression of E2F-1 <clueType>activates</clueType> the UDG promoter through several E2F sites.</clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T19" />
+<clue>We demonstrate, through the deletion of the human UDG promoter sequences, that expression of E2F-1 activates the UDG promoter <linkCause>through</linkCause> several E2F sites.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S4">The <term sem="DNA_domain_or_region" id="A109"><term sem="DNA_domain_or_region" id="T21" lex="major_putative_downstream_site">major putative downstream site</term> for <term sem="Protein_family_or_group" id="T22" lex="E2F">E2F</term></term>, located in the <term sem="DNA_domain_or_region" id="T23" lex="first_exon">first exon</term>, serves as a target for <term sem="Protein_complex" id="T24" lex="E2F-1/DP1_complex"><term sem="Protein_family_or_group" id="A1">E2F-1</term>/<term sem="Protein_family_or_group" id="A2">DP1</term> complex</term> binding in vitro.</sentence>
+<event id="E14">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="A2" />
+<clue>The major putative downstream site for E2F, located in the first exon, serves as a target for E2F-1/DP1 <clueType>complex binding</clueType> in vitro.</clue>
+<comment>TPS A109</comment>
+</event>
+<event id="E6">
+<type class="Binding" />
+<theme idref="A109" />
+<theme idref="A2" />
+<clue>The major putative downstream site for E2F, located in the first exon, serves as a <clueType>target</clueType> <linkTheme>for</linkTheme> E2F-1/DP1 complex binding in vitro.</clue>
+</event>
+<event id="E7">
+<type class="Binding" />
+<theme idref="A109" />
+<theme idref="A1" />
+<clue>The major putative downstream site for E2F, located in the first exon, serves as a <clueType>target</clueType> <linkTheme>for</linkTheme> E2F-1/DP1 complex binding in vitro.</clue>
+</event>
+<sentence id="S5">We also provide evidence for the functional relationship between the <term sem="Protein_molecule" id="T25" lex="cyclin-like_UDG_gene_product">cyclin-like <term sem="Protein_molecule" id="T26" lex="UDG">UDG</term> gene product</term> and <term sem="Protein_family_or_group" id="T27" lex="E2F">E2F</term>.</sentence>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>We also provide evidence for the functional relationship between the cyclin-like UDG gene <clueType>product</clueType> and E2F.</clue>
+</event>
+<event id="E9">
+<type class="Correlation" />
+<theme idref="T25" />
+<theme idref="T27" />
+<clue>We also provide evidence for the <clueType>functional relationship</clueType> <linkTheme>between</linkTheme> the cyclin-like UDG gene product and E2F.</clue>
+</event>
+<sentence id="S6">High levels of <term sem="Other" id="T28" lex="UDG_expression"><term sem="Protein_molecule" id="T29" lex="UDG">UDG</term> expression</term> in a <term sem="Other" id="T30" lex="transient_transfection_assay">transient transfection assay</term> result in the <term sem="Other" id="T31" lex="down-regulation">down-regulation</term> of <term sem="Other" id="T32" lex="transcriptional_activity">transcriptional activity</term> through <term sem="DNA_domain_or_region" id="A101"><term sem="DNA_domain_or_region" id="T33" lex="elements">elements</term> specific for <term sem="Protein_family_or_group" id="T35" lex="E2F">E2F</term>-mediated <term sem="Other" id="A3">transcription</term></term>.</sentence>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>High levels of UDG <clueType>expression</clueType> in a transient transfection assay result in the down-regulation of transcriptional activity through elements specific for E2F-mediated transcription.</clue>
+</event>
+<event id="E101">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<clue><clueType>High levels</clueType> <linkTheme>of</linkTheme> UDG expression <clueExperiment>in a transient transfection assay</clueExperiment> result in the down-regulation of transcriptional activity through elements specific for E2F-mediated transcription.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="A101" />
+<clue>High levels of UDG expression <clueExperiment>in a transient transfection assay</clueExperiment> result in the down-regulation of transcriptional activity <linkCause>through</linkCause> elements specific for E2F-mediated transcription.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<cause idref="E101" />
+<clue>High levels of UDG expression <clueExperiment>in a transient transfection assay</clueExperiment> result in the <clueType>down-regulation</clueType> <linkTheme>of</linkTheme> transcriptional activity through elements specific for E2F-mediated transcription.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T35" />
+<clue>High levels of UDG expression in a transient transfection assay result in the down-regulation of transcriptional activity through elements specific for E2F-<clueType>mediated</clueType> transcription.</clue>
+<comment>NER: T34 del &quot;E2F-mediated transcription&quot;</comment>
+</event>
+<sentence id="S7"><term sem="Other" id="T36" lex="Overexpression">Overexpression</term> of <term sem="Protein_molecule" id="T37" lex="UDG">UDG</term> in <term sem="Cell_cultured" id="T38" lex="Saos_2_cell">Saos 2 cells</term> was observed to delay growth late in <term sem="Other" id="T39" lex="G1_phase">G1 phase</term> and transiently arrest these cells from progressing into the <term sem="Other" id="T40" lex="S_phase">S phase</term>.</sentence>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T37" />
+<clue><clueType>Overexpression</clueType> <linkTheme>of</linkTheme> UDG <clueLoc>in Saos 2 cells</clueLoc> was observed to delay growth late in G1 phase and transiently arrest these cells from progressing into the S phase.</clue>
+</event>
+<event id="E150">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<clue><clueType>Overexpression</clueType> of UDG <clueLoc>in Saos 2 cells</clueLoc> was observed to delay growth late in G1 phase and transiently arrest these cells from progressing into the S phase.</clue>
+</event>
+<event id="E151">
+<type class="Cellular_physiological_process" />
+<theme idref="T38" />
+<clue>Overexpression of UDG in Saos 2 cells was observed to delay <clueType>growth</clueType> late in G1 phase and transiently arrest these cells from progressing into the S phase.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E151" />
+<cause idref="E150" />
+<clue>Overexpression of UDG in Saos 2 cells was observed to <clueType>delay</clueType> growth late <clueTime>in G1 phase</clueTime> and transiently arrest these cells from progressing into the S phase.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="E150" />
+<clue>Overexpression of UDG in Saos 2 cells was observed to delay growth late in G1 phase and transiently <clueType>arrest</clueType> <clueLoc>these cells</clueLoc> <linkTheme>from</linkTheme> progressing into the S phase.</clue>
+</event>
+<event id="E18">
+<type class="Cellular_physiological_process" />
+<theme idref="T38" />
+<clue>Overexpression of UDG in Saos 2 cells was observed to delay growth late in G1 phase and transiently arrest <corefTheme>these cells</corefTheme> from <clueType>progressing into the S phase</clueType>.</clue>
+</event>
+<sentence id="S8">This hypothetical model integrates one mechanism of <term sem="Other" id="T41" lex="DNA_repair">DNA repair</term> with the <term sem="Other" id="A10">cell cycle</term> <term sem="Other" id="T4" lex="control">control</term> of <term sem="Other" id="T43" lex="gene_transcription">gene transcription</term>, likely through <term sem="Protein_family_or_group" id="T44" lex="E2F">E2F</term>.</sentence>
+<event uncertainty="probable" id="E19">
+<type class="Regulation" />
+<theme idref="A10" />
+<cause idref="T43" />
+<clue>This hypothetical model integrates one mechanism of DNA repair with the cell cycle <clueType>control</clueType> <linkCause>of</linkCause> gene transcription, likely through E2F.</clue>
+<comment>NER: T42 mod</comment>
+</event>
+<event uncertainty="probable" id="E20">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<cause idref="E21" />
+<clue>This hypothetical model integrates one mechanism of DNA repair <linkTheme>with</linkTheme> the cell cycle control of gene transcription, likely through E2F.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event uncertainty="probable" id="E21">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="T44" />
+<clue>This hypothetical model integrates one mechanism of DNA repair with the cell cycle control of gene transcription, likely <linkCause>through</linkCause> E2F.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S9">This implicates <term sem="Protein_family_or_group" id="T45" lex="E2F">E2F</term> as a multifunctional target for proteins and enzymes, possibly, responsive to <term sem="Other" id="T46" lex="DNA_damage">DNA damage</term> through the negative effect of <term sem="Protein_molecule" id="T47" lex="UDG">UDG</term> on <term sem="Other" id="T48" lex="E2F-mediated_transcriptional_activity"><term sem="Protein_family_or_group" id="T49" lex="E2F">E2F</term>-mediated <term sem="Other" id="A11">transcriptional activity</term></term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="A11" />
+<cause idref="T49" />
+<clue>This implicates E2F as a multifunctional target for proteins and enzymes, possibly, responsive to DNA damage through the negative effect of UDG on E2F-<clueType>mediated</clueType> transcriptional activity.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<cause idref="T47" />
+<clue>This implicates E2F as a multifunctional target for proteins and enzymes, possibly, responsive to DNA damage through the <clueType>negative effect</clueType> <linkCause>of</linkCause> UDG <linkTheme>on</linkTheme> E2F-mediated transcriptional activity.</clue>
+</event>
+<event id="E24">
+<type class="Regulation" />
+<theme idref="T46" />
+<cause idref="T45" />
+<clue>This implicates E2F as a multifunctional target for proteins and enzymes, possibly, <clueType>responsive</clueType> <linkTheme>to</linkTheme> DNA damage through the negative effect of UDG on E2F-mediated transcriptional activity.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E23" />
+<clue>This implicates E2F as a multifunctional target for proteins and enzymes, possibly, responsive to DNA damage <linkCause>through</linkCause> the negative effect of UDG on E2F-mediated transcriptional activity.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

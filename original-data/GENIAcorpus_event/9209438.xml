@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9209438" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9209438</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Of the <term sem="Protein_family_or_group" id="T1" lex="GATA-binding_protein">GATA-binding proteins</term>, only <term sem="Protein_molecule" id="T2" lex="GATA-4">GATA-4</term> selectively regulates the <term sem="DNA_domain_or_region" id="T3" lex="human_IL-5_gene_promoter">human IL-5 gene promoter</term> in <term sem="Cell_natural" id="T4" lex="IL-5_producing_cell"><term sem="Protein_molecule" id="A1">IL-5</term> producing cells</term> which express <term sem="Protein_family_or_group" id="T5" lex="multiple_GATA-binding_protein">multiple <term sem="Protein_family_or_group" id="T6" lex="GATA-binding_protein">GATA-binding proteins</term></term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T3" />
+<cause idref="T2" />
+<clue>Of the GATA-binding proteins, only GATA-4 selectively <clueType>regulates</clueType> the human IL-5 gene promoter <clueLoc>in IL-5 producing cells which express multiple GATA-binding proteins</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Of the GATA-binding proteins, only GATA-4 selectively regulates the human IL-5 gene promoter in IL-5 <clueType>producing</clueType> <clueLoc>cells</clueLoc> which express multiple GATA-binding proteins.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>Of the GATA-binding proteins, only GATA-4 selectively regulates the human IL-5 gene promoter in <clueLoc>IL-5 producing cells</clueLoc> which <clueType>express</clueType> multiple GATA-binding proteins.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T7" lex="interleukin-5">Interleukin-5</term> (<term sem="Protein_molecule" id="T8" lex="IL-5">IL-5</term>) is produced by <term sem="Cell_natural" id="T9" lex="T_lymphocyte">T lymphocytes</term> and known to support <term sem="Other" id="T10" lex="B_cell_growth"><term sem="Cell_natural" id="A2">B cell</term> growth</term> and <term sem="Other" id="T11" lex="eosinophilic_differentiation"><term sem="Cell_natural" id="A3">eosinophilic</term> differentiation</term> of the <term sem="Cell_natural" id="T12" lex="progenitor_cell">progenitor cells</term>.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>Interleukin-5 (IL-5) is <clueType>produced</clueType> <clueLoc>by T lymphocytes</clueLoc> and known to support B cell growth and eosinophilic differentiation of the progenitor cells.</clue>
+</event>
+<event id="E5">
+<type class="Cellular_physiological_process" />
+<theme idref="A2" />
+<clue>Interleukin-5 (IL-5) is produced by T lymphocytes and known to support B cell <clueType>growth</clueType> and eosinophilic differentiation of the progenitor cells.</clue>
+</event>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="T12" />
+<theme idref="A3" />
+<clue>Interleukin-5 (IL-5) is produced by T lymphocytes and known to support B cell growth and eosinophilic <clueType>differentiation</clueType> <linkTheme>of</linkTheme> the progenitor cells.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T8" />
+<clue>Interleukin-5 (IL-5) is produced by T lymphocytes and known to <clueType>support</clueType> B cell growth and eosinophilic differentiation of the progenitor cells.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T8" />
+<clue>Interleukin-5 (IL-5) is produced by T lymphocytes and known to <clueType>support</clueType> B cell growth and eosinophilic differentiation of the progenitor cells.</clue>
+</event>
+<sentence id="S3">Using <term sem="Cell_cultured" id="T13" lex="ATL-16T_cell">ATL-16T cells</term> which express <term sem="RNA_molecule" id="T14" lex="IL-5_mRNA"><term sem="Protein_molecule" id="T15" lex="IL-5">IL-5</term> mRNA</term>, we have identified a <term sem="DNA_domain_or_region" id="A4">region</term>, within the <term sem="DNA_domain_or_region" id="T16" lex="human_IL-5_gene_promoter">human <term sem="Protein_molecule" id="T17" lex="IL-5">IL-5</term> gene promoter</term>, that regulates <term sem="Other" id="T18" lex="IL-5_gene_transcription"><term sem="DNA_domain_or_region" id="T19" lex="IL-5_gene"><term sem="Protein_molecule" id="T20" lex="IL-5">IL-5</term> gene</term> transcription</term>.</sentence>
+<event id="E9">
+<type class="Transcription" />
+<theme idref="T19" />
+<clue>Using ATL-16T cells which express IL-5 mRNA, we have identified a region, within the human IL-5 gene promoter, that regulates IL-5 gene <clueType>transcription</clueType>.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="A4" />
+<clue>Using <clueLoc>ATL-16T cells which express IL-5 mRNA</clueLoc>, we have identified a region, within the human IL-5 gene promoter, that <clueType>regulates</clueType> IL-5 gene transcription.</clue>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<theme idref="T14" />
+<clue>Using <clueLoc>ATL-16T cells</clueLoc> which <clueType>express</clueType> IL-5 mRNA, we have identified a region, within the human IL-5 gene promoter, that regulates IL-5 gene transcription.</clue>
+</event>
+<sentence id="S4">This <term sem="DNA_family_or_group" id="T21" lex="cis-acting_sequence">cis-acting sequence</term> contains the <term sem="DNA_domain_or_region" id="T22" lex="core_binding_motif">core binding motif</term>, <term sem="Polynucleotide" id="T23" lex="(A/T)GATA(A/G)">(A/T)GATA(A/G)</term>, for <term sem="Protein_family_or_group" id="T24" lex="GATA-binding_family_protein">GATA-binding family proteins</term> and thus suggests the involvement of these family members.</sentence>
+<event uncertainty="probable" id="E12">
+<type class="Correlation" />
+<theme idref="T21" />
+<theme idref="T24" />
+<clue>This cis-acting sequence contains the core binding motif, (A/T)GATA(A/G), for GATA-binding family proteins and thus suggests the <clueType>involvement</clueType> <linkTheme>of</linkTheme> <corefTheme>these family members</corefTheme>.</clue>
+<comment>NO COREFETHEME FOR T21</comment>
+</event>
+<sentence id="S5">In this report, we describe the cloning of <term sem="Protein_molecule" id="T25" lex="human_GATA-4">human <term sem="Protein_molecule" id="T26" lex="GATA-4">GATA-4</term></term> (<term sem="Protein_molecule" id="T27" lex="hGATA-4">hGATA-4</term>) and show that <term sem="Protein_molecule" id="T28" lex="hGATA-4">hGATA-4</term> selectively interacts with the <term sem="DNA_domain_or_region" id="T29" lex="-70_GATA_site">-70 GATA site</term> within the <term sem="DNA_domain_or_region" id="T30" lex="IL-5_proximal_promoter_region"><term sem="Protein_molecule" id="T31" lex="IL-5">IL-5</term> proximal promoter region</term>.</sentence>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T28" />
+<theme idref="T29" />
+<clue>In this report, we describe the cloning of human GATA-4 (hGATA-4) and show that hGATA-4 selectively <clueType>interacts</clueType> <linkTheme>with</linkTheme> the -70 GATA site within the IL-5 proximal promoter region.</clue>
+</event>
+<sentence id="S6">By <term sem="Other" id="T32" lex="promoter_deletion">promoter deletion</term> and <term sem="Other" id="T33" lex="mutation_analysis">mutation analyses</term>, we established this region as a <term sem="DNA_family_or_group" id="T34" lex="positive_regulatory_element">positive regulatory element</term>.</sentence>
+<event id="E14">
+<type class="Positive_regulation" />
+<cause idref="T29" />
+<clue><clueExperiment>By promoter deletion and mutation analyses</clueExperiment>, we established <corefCause>this region</corefCause> as a <clueType>positive regulatory element</clueType>.</clue>
+</event>
+<sentence id="S7"><term sem="Other" id="T35" lex="cotransfection_experiment">Cotransfection experiments</term> revealed that both <term sem="Protein_molecule" id="T36" lex="hGATA-4">hGATA-4</term> and <term sem="Other" id="T37" lex="PMA/A23187_stimulation"><term sem="Organic_compound_other" id="T38" lex="PMA">PMA</term>/<term sem="Organic_compound_other" id="T39" lex="A23187">A23187</term> stimulation</term> are necessary for the <term sem="Other" id="T40" lex="IL-5_promoter_activation"><term sem="DNA_domain_or_region" id="T41" lex="IL-5_promoter"><term sem="Protein_molecule" id="T42" lex="IL-5">IL-5</term> promoter</term> activation</term>.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<clue>Cotransfection experiments revealed that both hGATA-4 and PMA/A23187 stimulation are necessary for the IL-5 promoter <clueType>activation</clueType>.</clue>
+<comment>NER T39 MOD</comment>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<cause idref="T38" />
+<cause idref="T39" />
+<clue>Cotransfection experiments revealed that both hGATA-4 and PMA/A23187 <clueType>stimulation</clueType> are necessary for the IL-5 promoter activation.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="T36" />
+<cause idref="E16" />
+<clue><clueExperiment>Cotransfection experiments</clueExperiment> revealed that <linkCause>both</linkCause> hGATA-4 and PMA/A23187 stimulation are <clueType>necessary</clueType> <linkTheme>for</linkTheme> the IL-5 promoter activation.</clue>
+</event>
+<sentence id="S8">The requirement of another <term sem="DNA_family_or_group" id="T43" lex="regulatory_element">regulatory element</term> called <term sem="DNA_family_or_group" id="T44" lex="CLE0">CLE0</term>, which lies downstream of the <term sem="DNA_domain_or_region" id="T45" lex="-70_GATA_site">-70 GATA site</term>, was also demonstrated.</sentence>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="T44" />
+<clue>The <clueType>requirement</clueType> <linkTheme>of</linkTheme> another regulatory element called CLE0, which lies downstream of the -70 GATA site, was also demonstrated.</clue>
+<comment>NO COREFETHEME</comment>
+</event>
+<sentence id="S9"><term sem="Cell_cultured" id="T46" lex="ATL-16T_cell">ATL-16T cells</term> express <term sem="RNA_family_or_group" id="T47" lex="mRNA">mRNA</term> <term sem="RNA_molecule" id="A5">of</term> three <term sem="Protein_family_or_group" id="T48" lex="GATA-binding_protein">GATA-binding proteins</term>, <term sem="Protein_molecule" id="T49" lex="hGATA-2">hGATA-2</term>, <term sem="Protein_molecule" id="T50" lex="hGATA-3">hGATA-3</term> and <term sem="Protein_molecule" id="T51" lex="hGATA-4">hGATA-4</term>, and each of them has a potential to bind to the <term sem="DNA_domain_or_region" id="T52" lex="consensus_(A/T)GATA(G/_A)_motif">consensus (A/T)GATA(G/ A) motif</term>.</sentence>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref1="A5" idref2="T49" idref="T47" />
+<clue><clueLoc>ATL-16T cells</clueLoc> <clueType>express</clueType> mRNA of three GATA-binding proteins, hGATA-2, hGATA-3 and hGATA-4, and each of them has a potential to bind to the consensus (A/T)GATA(G/ A) motif.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref1="A5" idref2="T50" idref="T47" />
+<clue><clueLoc>ATL-16T cells</clueLoc> <clueType>express</clueType> mRNA of three GATA-binding proteins, hGATA-2, hGATA-3 and hGATA-4, and each of them has a potential to bind to the consensus (A/T)GATA(G/ A) motif.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref1="A5" idref2="T51" idref="T47" />
+<clue><clueLoc>ATL-16T cells</clueLoc> <clueType>express</clueType> mRNA of three GATA-binding proteins, hGATA-2, hGATA-3 and hGATA-4, and each of them has a potential to bind to the consensus (A/T)GATA(G/ A) motif.</clue>
+</event>
+<event id="E22">
+<type class="Binding" />
+<theme idref="T49" />
+<theme idref="T52" />
+<clue>ATL-16T cells express mRNA of three GATA-binding proteins, hGATA-2, hGATA-3 and hGATA-4, and <corefTheme>each of them</corefTheme> has a potential to <clueType>bind</clueType> <linkTheme>to</linkTheme> the consensus (A/T)GATA(G/ A) motif.</clue>
+</event>
+<event id="E23">
+<type class="Binding" />
+<theme idref="T50" />
+<theme idref="T52" />
+<clue>ATL-16T cells express mRNA of three GATA-binding proteins, hGATA-2, hGATA-3 and hGATA-4, and <corefTheme>each of them</corefTheme> has a potential to <clueType>bind</clueType> <linkTheme>to</linkTheme> the consensus (A/T)GATA(G/ A) motif.</clue>
+</event>
+<event id="E24">
+<type class="Binding" />
+<theme idref="T51" />
+<theme idref="T52" />
+<clue>ATL-16T cells express mRNA of three GATA-binding proteins, hGATA-2, hGATA-3 and hGATA-4, and <corefTheme>each of them</corefTheme> has a potential to <clueType>bind</clueType> <linkTheme>to</linkTheme> the consensus (A/T)GATA(G/ A) motif.</clue>
+</event>
+<sentence id="S10">However, using <term sem="Cell_component" id="T53" lex="ATL-16T_nuclear_extract">ATL-16T nuclear extract</term>, we demonstrated that <term sem="Protein_molecule" id="T54" lex="GATA-4">GATA-4</term> is the only <term sem="Protein_family_or_group" id="T55" lex="GATA-binding_protein">GATA-binding protein</term> that forms specific <term sem="Protein_complex" id="T56" lex="DNA-protein_complex">DNA-protein complex</term> with the <term sem="DNA_domain_or_region" id="T57" lex="-70_GATA_site">-70 GATA site</term>.</sentence>
+<event id="E25">
+<type class="Binding" />
+<theme idref="T54" />
+<theme idref="T57" />
+<clue>However, using ATL-16T nuclear extract, we demonstrated that GATA-4 is <corefTheme>the only GATA-binding protein</corefTheme> that <clueType>forms specific DNA-protein complex</clueType> <linkTheme>with</linkTheme> the -70 GATA site.</clue>
+</event>
+<sentence id="S11">The <term sem="Other" id="T58" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assay</term> with extracts of <term sem="Cell_cultured" id="T59" lex="COS_cell">COS cells</term> expressing <term sem="Protein_family_or_group" id="T60" lex="GATA-binding_protein">GATA-binding proteins</term> showed that <term sem="Protein_molecule" id="T61" lex="GATA-4">GATA-4</term> has the highest binding affinity to the <term sem="DNA_domain_or_region" id="T62" lex="-70_GATA_site">-70 GATA site</term> among the three <term sem="Protein_family_or_group" id="T63" lex="GATA-binding_protein">GATA-binding proteins</term>.</sentence>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T60" />
+<clue>The electrophoretic mobility shift assay with extracts of <clueLoc>COS cells</clueLoc> <clueType>expressing</clueType> GATA-binding proteins showed that GATA-4 has the highest binding affinity to the -70 GATA site among the three GATA-binding proteins.</clue>
+</event>
+<event id="E27">
+<type class="Binding" />
+<theme idref="T61" />
+<theme idref="T62" />
+<clue><clueExperiment>The electrophoretic mobility shift assay with extracts of COS cells expressing GATA-binding proteins</clueExperiment> showed that GATA-4 <clueType>has the highest binding affinity</clueType> <linkTheme>to</linkTheme> the -70 GATA site among the three GATA-binding proteins.</clue>
+</event>
+<sentence id="S12">When the <term sem="Other" id="T64" lex="transactivation_ability">transactivation ability</term> was compared among the three, <term sem="Protein_molecule" id="T65" lex="GATA-4">GATA-4</term> showed the highest activity.</sentence>
+<event id="E28">
+<type class="Positive_regulation" />
+<cause idref="T65" />
+<clue>When the transactivation ability was compared among the three, GATA-4 <clueType>showed the highest activity</clueType>.</clue>
+<comment>CAUTION: activity=transactivation ability</comment>
+</event>
+<sentence id="S13">These results demonstrate the selective role of <term sem="Protein_molecule" id="T66" lex="GATA-4">GATA-4</term> in the <term sem="Other" id="T67" lex="transcriptional_regulation">transcriptional regulation</term> of the <term sem="DNA_domain_or_region" id="T68" lex="IL-5_gene"><term sem="Protein_molecule" id="T69" lex="IL-5">IL-5</term> gene</term> in a circumstance where multiple members of the <term sem="Protein_family_or_group" id="T70" lex="GATA-binding_protein">GATA-binding proteins</term> are expressed.</sentence>
+<event id="E29">
+<type class="Regulation" />
+<theme idref="T68" />
+<clue>These results demonstrate the selective role of GATA-4 in the <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> the IL-5 gene in a circumstance where multiple members of the GATA-binding proteins are expressed.</clue>
+</event>
+<event id="E30">
+<type class="Regulation" />
+<theme idref="E29" />
+<cause idref="T66" />
+<clue>These results demonstrate the selective <clueType>role</clueType> <linkCause>of</linkCause> GATA-4 <linkTheme>in</linkTheme> the transcriptional regulation of the IL-5 gene <clueLoc>in a circumstance where multiple members of the GATA-binding proteins are expressed</clueLoc>.</clue>
+</event>
+<event id="E31">
+<type class="Gene_expression" />
+<theme idref="T70" />
+<clue>These results demonstrate the selective role of GATA-4 in the transcriptional regulation of the IL-5 gene in a circumstance where multiple members of the GATA-binding proteins are <clueType>expressed</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

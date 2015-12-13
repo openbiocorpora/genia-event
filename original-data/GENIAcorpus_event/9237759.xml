@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="20/03/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9237759" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9237759</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A <term sem="Protein_family_or_group" id="A1">human homologue of the <term sem="Protein_molecule" id="T1" lex="Drosophila_Toll_protein">Drosophila Toll protein</term></term> signals activation of <term sem="Other" id="A2">adaptive immunity</term> [see comments]</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<clue>A human homologue of the Drosophila Toll protein signals <clueType>activation</clueType> <linkTheme>of</linkTheme> adaptive immunity [see comments]</clue>
+</event>
+<event id="E2">
+<type class="Cell_communication" />
+<theme idref="E1" />
+<theme idref="A1" />
+<clue>A human homologue of the Drosophila Toll protein <clueType>signals</clueType> activation of adaptive immunity [see comments]</clue>
+<comment>TPS: A1</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Induction of the <term sem="Other" id="T2" lex="adaptive_immune_response">adaptive immune response</term> depends on the expression of <term sem="Protein_family_or_group" id="T3" lex="co-stimulatory_molecule">co-stimulatory molecules</term> and <term sem="Protein_family_or_group" id="T4" lex="cytokine">cytokines</term> by <term sem="Cell_natural" id="T5" lex="antigen-presenting_cell">antigen-presenting cells</term>.</sentence>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> the adaptive immune response depends on the expression of co-stimulatory molecules and cytokines by antigen-presenting cells.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>Induction of the adaptive immune response depends on the <clueType>expression</clueType> <linkTheme>of</linkTheme> co-stimulatory molecules and cytokines <clueLoc>by antigen-presenting cells</clueLoc>.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>Induction of the adaptive immune response depends on the <clueType>expression</clueType> <linkTheme>of</linkTheme> co-stimulatory molecules and cytokines <clueLoc>by antigen-presenting cells</clueLoc>.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="E4" />
+<clue>Induction of the adaptive immune response <clueType>depends</clueType> <linkCause>on</linkCause> the expression of co-stimulatory molecules and cytokines by antigen-presenting cells.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="E5" />
+<clue>Induction of the adaptive immune response <clueType>depends</clueType> <linkCause>on</linkCause> the expression of co-stimulatory molecules and cytokines by antigen-presenting cells.</clue>
+</event>
+<sentence id="S3">The mechanisms that control the initial induction of these signals upon infection are poorly understood.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T3" />
+<clue>The mechanisms that control the initial <clueType>induction</clueType> <linkTheme>of</linkTheme> <corefTheme>these signals</corefTheme> <clueTime>upon infection</clueTime> are poorly understood.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<clue>The mechanisms that control the initial <clueType>induction</clueType> <linkTheme>of</linkTheme> <corefTheme>these signals</corefTheme> <clueTime>upon infection</clueTime> are poorly understood.</clue>
+</event>
+<sentence id="S4">It has been proposed that their expression is controlled by the <term sem="Body_region" id="A3">non-clonal, or innate, component of immunity</term> that preceded in evolution the development of an <term sem="Body_region" id="T6" lex="adaptive_immune_system">adaptive immune system</term> in <term sem="Multicellular_organism_natural" id="T7" lex="vertebrate">vertebrates</term>.</sentence>
+<event uncertainty="probable" id="E10">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="A3" />
+<clue>It has been proposed that <corefTheme>their expression</corefTheme> is <clueType>controlled</clueType> <linkCause>by</linkCause> the non-clonal, or innate, component of immunity that preceded in evolution the development of an adaptive immune system in vertebrates.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event uncertainty="probable" id="E11">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="A3" />
+<clue>It has been proposed that <corefTheme>their expression</corefTheme> is <clueType>controlled</clueType> <linkCause>by</linkCause> the non-clonal, or innate, component of immunity that preceded in evolution the development of an adaptive immune system in vertebrates.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event id="E12">
+<type class="Correlation" />
+<theme idref="E13" />
+<theme idref="A3" />
+<clue>It has been proposed that their expression is controlled by the non-clonal, or innate, component of immunity that <clueType>preceded</clueType> <clueTime>in evolution</clueTime> the development of an adaptive immune system in vertebrates.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<clue>It has been proposed that their expression is controlled by the non-clonal, or innate, component of immunity that preceded in evolution the <clueType>development</clueType> <linkTheme>of</linkTheme> an adaptive immune system <clueLoc>in vertebrates</clueLoc>.</clue>
+</event>
+<sentence id="S5">We report here the cloning and characterization of a <term sem="Protein_family_or_group" id="T8" lex="human_homologue">human homologue</term> of the <term sem="Protein_molecule" id="T9" lex="Drosophila_toll_protein">Drosophila toll protein</term> (<term sem="Protein_molecule" id="T10" lex="Toll">Toll</term>) which has been shown to induce the <term sem="Other" id="A5">innate immune response</term> in adult <term sem="Multicellular_organism_natural" id="T11" lex="Drosophila">Drosophila</term>.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="T10" />
+<clue>We report here the cloning and characterization of a human homologue of the Drosophila toll protein (Toll) which has been shown to <clueType>induce</clueType> the innate immune response <clueLoc>in adult Drosophila</clueLoc>.</clue>
+</event>
+<sentence id="S6">Like <term sem="Multicellular_organism_natural" id="T12" lex="Drosophila">Drosophila</term> <term sem="Protein_molecule" id="T13" lex="Toll">Toll</term>, <term sem="Protein_molecule" id="T14" lex="human_Toll">human Toll</term> is a type I transmembrane protein with an extracellular domain consisting of a <term sem="Protein_domain_or_region" id="T15" lex="leucine-rich_repeat_(LRR)_domain">leucine-rich repeat (<term sem="Protein_domain_or_region" id="T16" lex="LRR">LRR</term>) domain</term>, and a cytoplasmic domain homologous to the <term sem="Protein_domain_or_region" id="T17" lex="cytoplasmic_domain">cytoplasmic domain</term> of the <term sem="Protein_molecule" id="T18" lex="human_interleukin_(IL)-1_receptor">human interleukin (IL)-1 receptor</term>.</sentence>
+<sentence id="S7">Both <term sem="Multicellular_organism_natural" id="T19" lex="Drosophila">Drosophila</term> <term sem="Protein_molecule" id="T20" lex="Toll">Toll</term> and the <term sem="Protein_molecule" id="A6">IL-1 receptor</term> are known to signal through the <term sem="Other" id="T21" lex="NF-kappaB_pathway"><term sem="Protein_complex" id="T22" lex="NF-kappaB">NF-kappaB</term> pathway</term>.</sentence>
+<event id="E18">
+<type class="Cell_communication" />
+<theme idref="T20" />
+<theme idref="T22" />
+<clue>Both Drosophila Toll and the IL-1 receptor are known to <clueType>signal</clueType> <linkTheme>through</linkTheme> the NF-kappaB pathway.</clue>
+</event>
+<event id="E19">
+<type class="Cell_communication" />
+<theme idref="A6" />
+<theme idref="T22" />
+<clue>Both Drosophila Toll and the IL-1 receptor are known to <clueType>signal</clueType> <linkTheme>through</linkTheme> the NF-kappaB pathway.</clue>
+</event>
+<sentence id="S8">We show that a constitutively active <term sem="DNA_domain_or_region" id="A8">mutant of <term sem="Protein_molecule" id="T23" lex="human_Toll">human <term sem="Protein_molecule" id="T24" lex="Toll">Toll</term></term></term> transfected into <term sem="Cell_cultured" id="A4">human cell lines</term> can induce the activation of <term sem="Protein_complex" id="T25" lex="NF-kappaB">NF-kappaB</term> and the expression of <term sem="DNA_family_or_group" id="T26" lex="NF-kappaB-controlled_gene"><term sem="Protein_complex" id="T27" lex="NF-kappaB">NF-kappaB</term>-controlled <term sem="DNA_domain_or_region" id="A7">genes</term></term> for the <term sem="Protein_family_or_group" id="T28" lex="inflammatory_cytokine">inflammatory <term sem="Protein_family_or_group" id="T29" lex="cytokine">cytokines</term></term> <term sem="Protein_molecule" id="T30" lex="IL-1">IL-1</term>, <term sem="Protein_molecule" id="T31" lex="IL-6">IL-6</term> and <term sem="Protein_molecule" id="T32" lex="IL-8">IL-8</term>, as well as the expression of the <term sem="Protein_family_or_group" id="T33" lex="co-stimulatory_molecule">co-stimulatory molecule</term> <term sem="Protein_molecule" id="T34" lex="B7.1">B7.1</term>, which is required for the activation of <term sem="Cell_natural" id="T35" lex="naive_T_cell">naive <term sem="Cell_natural" id="T36" lex="T_cell">T cells</term></term>.</sentence>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="A8" />
+<clue>We show that a constitutively active mutant of human Toll <clueType>transfected</clueType> <clueLoc>into human cell lines</clueLoc> can induce the activation of NF-kappaB and the expression of NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is required for the activation of naive T cells.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue>We show that a constitutively active mutant of human Toll <clueType>transfected</clueType> <clueLoc>into human cell lines</clueLoc> can induce the activation of NF-kappaB and the expression of NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is required for the activation of naive T cells.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<clue>We show that a constitutively active mutant of human Toll transfected into human cell lines can induce the <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB and the expression of NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is required for the activation of naive T cells.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E16" />
+<clue>We show that a constitutively active mutant of human Toll transfected into human cell lines can <clueType>induce</clueType> the activation of NF-kappaB and the expression of NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is required for the activation of naive T cells.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E16" />
+<clue>We show that a constitutively active mutant of human Toll transfected into human cell lines can <clueType>induce</clueType> the activation of NF-kappaB and the expression of NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is required for the activation of naive T cells.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="E16" />
+<clue>We show that a constitutively active mutant of human Toll transfected into human cell lines can <clueType>induce</clueType> the activation of NF-kappaB and the expression of NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is required for the activation of naive T cells.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="E16" />
+<clue>We show that a constitutively active mutant of human Toll transfected into human cell lines can <clueType>induce</clueType> the activation of NF-kappaB and the expression of NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is required for the activation of naive T cells.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="E16" />
+<clue>We show that a constitutively active mutant of human Toll transfected into human cell lines can <clueType>induce</clueType> the activation of NF-kappaB and the expression of NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is required for the activation of naive T cells.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression" />
+<theme idref1="T30" idref="T26" />
+<clue>We show that a constitutively active mutant of human Toll transfected into human cell lines can induce the activation of NF-kappaB and the <clueType>expression</clueType> <linkTheme>of</linkTheme> NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is required for the activation of naive T cells.</clue>
+</event>
+<event id="E33">
+<type class="Gene_expression" />
+<theme idref1="T31" idref="T26" />
+<clue>We show that a constitutively active mutant of human Toll transfected into human cell lines can induce the activation of NF-kappaB and the <clueType>expression</clueType> <linkTheme>of</linkTheme> NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is required for the activation of naive T cells.</clue>
+</event>
+<event id="E34">
+<type class="Gene_expression" />
+<theme idref1="T32" idref="T26" />
+<clue>We show that a constitutively active mutant of human Toll transfected into human cell lines can induce the activation of NF-kappaB and the <clueType>expression</clueType> <linkTheme>of</linkTheme> NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is required for the activation of naive T cells.</clue>
+</event>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref="T34" />
+<clue>We show that a constitutively active mutant of human Toll transfected into human cell lines can induce the activation of NF-kappaB and the expression of NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the <clueType>expression</clueType> <linkTheme>of</linkTheme> the co-stimulatory molecule B7.1, which is required for the activation of naive T cells.</clue>
+</event>
+<event id="E26">
+<type class="Physiological_process" />
+<theme idref="T36" />
+<clue>We show that a constitutively active mutant of human Toll transfected into human cell lines can induce the activation of NF-kappaB and the expression of NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is required for the <clueType>activation</clueType> <linkTheme>of</linkTheme> naive T cells.</clue>
+</event>
+<event id="E27">
+<type class="Regulation" />
+<theme idref="E26" />
+<cause idref="E25" />
+<clue>We show that a constitutively active mutant of human Toll transfected into human cell lines can induce the activation of NF-kappaB and the expression of NF-kappaB-controlled genes for the inflammatory cytokines IL-1, IL-6 and IL-8, as well as the expression of the co-stimulatory molecule B7.1, which is <clueType>required</clueType> <linkTheme>for</linkTheme> the activation of naive T cells.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

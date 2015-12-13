@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7739562" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7739562</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Coupling of a <term sem="Protein_domain_or_region" id="A1"><term sem="Protein_domain_or_region" id="T1" lex="signal_response_domain">signal response domain</term> in <term sem="Protein_molecule" id="T2" lex="I_kappa_B_alpha">I kappa B alpha</term></term> to <term sem="Other" id="T3" lex="multiple_pathway">multiple pathways</term> for <term sem="Other" id="T4" lex="NF-kappa_B_activation"><term sem="Protein_molecule" id="T5" lex="NF-kappa_B">NF-kappa B</term> activation</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T5" />
+<cause idref="T3" />
+<clue>Coupling of a signal response domain in I kappa B alpha to multiple pathways <linkTheme>for</linkTheme> NF-kappa B <clueType>activation</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Correlation" />
+<theme idref="A1" />
+<theme idref="T3" />
+<clue><clueType>Coupling</clueType> <linkTheme>of</linkTheme> a signal response domain in I kappa B alpha to multiple pathways for NF-kappa B activation.</clue>
+<comment>TPS: A1</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_family_or_group" id="T6" lex="eukaryotic_transcription_factor">eukaryotic transcription factor</term> <term sem="Protein_molecule" id="T7" lex="NF-kappa_B">NF-kappa B</term> plays a central role in the induced expression of <term sem="Virus" id="T8" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> and in many aspects of the <term sem="Other" id="A3">genetic program</term> mediating <term sem="Other" id="T9" lex="normal_T-cell_activation">normal <term sem="Cell_natural" id="A2">T-cell</term> activation</term> and <term sem="Other" id="T10" lex="T_cell_growth">growth</term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>The eukaryotic transcription factor NF-kappa B plays a central role in the induced <clueType>expression</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus type 1 and in many aspects of the genetic program mediating normal T-cell activation and growth.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T7" />
+<clue>The eukaryotic transcription factor NF-kappa B <clueType>plays a central role</clueType> <linkTheme>in</linkTheme> the induced expression of human immunodeficiency virus type 1 and in many aspects of the genetic program mediating normal T-cell activation and growth.</clue>
+</event>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<clue>The eukaryotic transcription factor NF-kappa B plays a central role in the induced expression of human immunodeficiency virus type 1 and in many aspects of the genetic program mediating normal T-cell <clueType>activation</clueType> and growth.</clue>
+</event>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="A2" />
+<clue>The eukaryotic transcription factor NF-kappa B plays a central role in the induced expression of human immunodeficiency virus type 1 and in many aspects of the genetic program mediating normal T-cell activation and <clueType>growth</clueType>.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="A3" />
+<clue>The eukaryotic transcription factor NF-kappa B plays a central role in the induced expression of human immunodeficiency virus type 1 and in many aspects of the genetic program <clueType>mediating</clueType> normal T-cell activation and growth.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="A3" />
+<clue>The eukaryotic transcription factor NF-kappa B plays a central role in the induced expression of human immunodeficiency virus type 1 and in many aspects of the genetic program <clueType>mediating</clueType> normal T-cell activation and growth.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T7" />
+<clue>The eukaryotic transcription factor NF-kappa B <clueType>plays a central role</clueType> in the induced expression of human immunodeficiency virus type 1 and in many aspects of the genetic program mediating normal T-cell activation and growth.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T7" />
+<clue>The eukaryotic transcription factor NF-kappa B <clueType>plays a central role</clueType> in the induced expression of human immunodeficiency virus type 1 and in many aspects of the genetic program mediating normal T-cell activation and growth.</clue>
+</event>
+<sentence id="S3">The <term sem="Other" id="T11" lex="nuclear_activity">nuclear activity</term> of <term sem="Protein_molecule" id="T12" lex="NF-kappa_B">NF-kappa B</term> is tightly regulated from the <term sem="Cell_component" id="T13" lex="cytoplasmic_compartment">cytoplasmic compartment</term> by an <term sem="Protein_molecule" id="T14" lex="inhibitory_subunit">inhibitory subunit</term> called <term sem="Protein_molecule" id="T15" lex="I_kappa_B_alpha">I kappa B alpha</term>.</sentence>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="T12" />
+<cause idref="T15" />
+<clue>The nuclear activity of NF-kappa B is tightly <clueType>regulated</clueType> <clueLoc>from the cytoplasmic compartment</clueLoc> <linkCause>by</linkCause> an inhibitory subunit called I kappa B alpha.</clue>
+</event>
+<sentence id="S4">This cytoplasmic inhibitor is rapidly phosphorylated and degraded in response to a diverse set of <term sem="Protein_family_or_group" id="T16" lex="NF-kappa_B-inducing_agent"><term sem="Protein_molecule" id="T17" lex="NF-kappa_B">NF-kappa B</term>-inducing agents</term>, including <term sem="Protein_family_or_group" id="T18" lex="T-cell_mitogen">T-cell mitogens,</term> <term sem="Protein_family_or_group" id="T19" lex="proinflammatory_cytokine">proinflammatory cytokines</term>, and <term sem="Protein_family_or_group" id="T20" lex="viral_transactivator">viral transactivators</term> such as the <term sem="Protein_molecule" id="T21" lex="Tax_protein">Tax protein</term> of <term sem="Virus" id="T22" lex="human_T-cell_leukemia_virus_type_1">human T-cell leukemia virus type 1</term>.</sentence>
+<event id="E12">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T15" />
+<clue><corefTheme>This cytoplasmic inhibitor</corefTheme> is rapidly <clueType>phosphorylated</clueType> and degraded in response to a diverse set of NF-kappa B-inducing agents, including T-cell mitogens, proinflammatory cytokines, and viral transactivators such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+</event>
+<event id="E13">
+<type class="Protein_catabolism" />
+<theme idref="T15" />
+<clue><corefTheme>This cytoplasmic inhibitor</corefTheme> is rapidly phosphorylated and <clueType>degraded</clueType> in response to a diverse set of NF-kappa B-inducing agents, including T-cell mitogens, proinflammatory cytokines, and viral transactivators such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T16" />
+<clue>This cytoplasmic inhibitor is rapidly phosphorylated and degraded <clueType>in response to</clueType> a diverse set of NF-kappa B-inducing agents, including T-cell mitogens, proinflammatory cytokines, and viral transactivators such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T16" />
+<clue>This cytoplasmic inhibitor is rapidly phosphorylated and degraded <clueType>in response to</clueType> a diverse set of NF-kappa B-inducing agents, including T-cell mitogens, proinflammatory cytokines, and viral transactivators such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T18" />
+<clue>This cytoplasmic inhibitor is rapidly phosphorylated and degraded <clueType>in response to</clueType> a diverse set of <corefCause>NF-kappa B-inducing agents</corefCause>, including T-cell mitogens, proinflammatory cytokines, and viral transactivators such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T19" />
+<clue>This cytoplasmic inhibitor is rapidly phosphorylated and degraded <clueType>in response to</clueType> a diverse set of <corefCause>NF-kappa B-inducing agents</corefCause>, including T-cell mitogens, proinflammatory cytokines, and viral transactivators such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T21" />
+<clue>This cytoplasmic inhibitor is rapidly phosphorylated and degraded <clueType>in response to</clueType> a diverse set of <corefCause idref1="T20">NF-kappa B-inducing agents</corefCause>, including T-cell mitogens, proinflammatory cytokines, and <corefCause idref1="T21">viral transactivators</corefCause> such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+<comment>corefCause=multilayer</comment>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T18" />
+<clue>This cytoplasmic inhibitor is rapidly phosphorylated and degraded <clueType>in response to</clueType> a diverse set of <corefCause>NF-kappa B-inducing agents</corefCause>, including T-cell mitogens, proinflammatory cytokines, and viral transactivators such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T19" />
+<clue>This cytoplasmic inhibitor is rapidly phosphorylated and degraded <clueType>in response to</clueType> a diverse set of <corefCause>NF-kappa B-inducing agents</corefCause>, including T-cell mitogens, proinflammatory cytokines, and viral transactivators such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T21" />
+<clue>This cytoplasmic inhibitor is rapidly phosphorylated and degraded <clueType>in response to</clueType> a diverse set of <corefCause idref1="T20">NF-kappa B-inducing agents</corefCause>, including T-cell mitogens, proinflammatory cytokines, and <corefCause idref1="T21">viral transactivators</corefCause> such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+<comment>corefCause=multilayer</comment>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="T18" />
+<clue>This cytoplasmic inhibitor is rapidly phosphorylated and degraded in response to a diverse set of NF-kappa B-<clueType>inducing</clueType> agents, including T-cell mitogens, proinflammatory cytokines, and viral transactivators such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="T19" />
+<clue>This cytoplasmic inhibitor is rapidly phosphorylated and degraded in response to a diverse set of NF-kappa B-<clueType>inducing</clueType> agents, including T-cell mitogens, proinflammatory cytokines, and viral transactivators such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="T21" />
+<clue>This cytoplasmic inhibitor is rapidly phosphorylated and degraded in response to a diverse set of NF-kappa B-<clueType>inducing</clueType> agents, including T-cell mitogens, proinflammatory cytokines, and viral transactivators such as the Tax protein of human T-cell leukemia virus type 1.</clue>
+</event>
+<sentence id="S5">To explore these <term sem="Other" id="T23" lex="I_kappa_B_alpha-dependent_mechanism"><term sem="Protein_molecule" id="T24" lex="I_kappa_B_alpha">I kappa B alpha</term>-dependent mechanisms</term> for <term sem="Other" id="T25" lex="NF-kappa_B_induction"><term sem="Protein_molecule" id="T26" lex="NF-kappa_B">NF-kappa B</term> induction</term>, we identified novel <term sem="Protein_molecule" id="A4">mutants of <term sem="Protein_molecule" id="T27" lex="I_kappa_B_alpha">I kappa B alpha</term></term> that uncouple its <cons sem="(AND Other Other)" id="C1" lex="(AND inhibitory_function signal-transducing_function)"><frag id="F1">inhibitory</frag> and <frag id="F2">signal-transducing</frag> <frag id="F3">functions</frag></cons> in <term sem="Cell_natural" id="T28" lex="human_T_lymphocyte">human <term sem="Cell_natural" id="T29" lex="T_lymphocyte">T lymphocytes</term></term>.</sentence>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<cause idref="T24" />
+<clue>To explore these I kappa B alpha-<linkCause>dependent</linkCause> mechanisms for NF-kappa B <clueType>induction</clueType>, we identified novel mutants of I kappa B alpha that uncouple its inhibitory and signal-transducing functions in human T lymphocytes.</clue>
+</event>
+<event assertion="non-exist" id="E26">
+<type class="Correlation" />
+<theme idref="A4" />
+<theme idref1="F3" idref="F1" />
+<clue>To explore these I kappa B alpha-dependent mechanisms for NF-kappa B induction, we identified novel mutants of I kappa B alpha that <clueType>uncouple</clueType> its inhibitory and signal-transducing functions in human T lymphocytes.</clue>
+<comment>TPS: A4</comment>
+</event>
+<event assertion="non-exist" id="E27">
+<type class="Correlation" />
+<theme idref="A4" />
+<theme idref1="F3" idref="F2" />
+<clue>To explore these I kappa B alpha-dependent mechanisms for NF-kappa B induction, we identified novel mutants of I kappa B alpha that <clueType>uncouple</clueType> its inhibitory and signal-transducing functions in human T lymphocytes.</clue>
+</event>
+<sentence id="S6">Specifically, removal of the <term sem="Protein_domain_or_region" id="T30" lex="N-terminal_36_amino_acid">N-terminal 36 amino acids</term> of <term sem="Protein_molecule" id="T31" lex="I_kappa_B_alpha">I kappa B alpha</term> failed to disrupt its ability to form latent complexes with <term sem="Protein_molecule" id="T32" lex="NF-kappa_B">NF-kappa B</term> in the <term sem="Cell_component" id="T33" lex="cytoplasm">cytoplasm</term>.</sentence>
+<sentence id="S7">However, this deletion <term sem="Other" id="T34" lex="mutation">mutation</term> prevented the induced <term sem="Other" id="T35" lex="phosphorylation">phosphorylation</term>, <term sem="Other" id="T36" lex="degradative_loss">degradative loss</term>, and functional release of <term sem="Protein_molecule" id="T37" lex="I_kappa_B_alpha">I kappa B alpha</term> from <term sem="Protein_molecule" id="T38" lex="NF-kappa_B">NF-kappa B</term> in <term sem="Cell_cultured" id="T39" lex="Tax-expressing_cell"><term sem="Protein_molecule" id="T40" lex="Tax">Tax</term>-expressing cells</term>.</sentence>
+<event id="E28">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T37" />
+<clue>However, this deletion mutation prevented the induced <clueType>phosphorylation</clueType>, degradative loss, and functional release <linkTheme>of</linkTheme> I kappa B alpha from NF-kappa B in Tax-expressing cells.</clue>
+</event>
+<event id="E29">
+<type class="Protein_catabolism" />
+<theme idref="T37" />
+<clue>However, this deletion mutation prevented the induced phosphorylation, <clueType>degradative loss</clueType>, and functional release <linkTheme>of</linkTheme> I kappa B alpha from NF-kappa B in Tax-expressing cells.</clue>
+</event>
+<event id="E30">
+<type />
+<theme idref="T37" />
+<clue>However, this deletion mutation prevented the induced phosphorylation, degradative loss, and functional <clueType>release</clueType> <linkTheme>of</linkTheme> I kappa B alpha <clueLoc>from NF-kappa B</clueLoc> in Tax-expressing cells.</clue>
+<comment>SOO: &quot;release&quot;=&quot;dissociation&quot;</comment>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<clue>However, this deletion mutation prevented the <clueType>induced</clueType> phosphorylation, degradative loss, and functional release of I kappa B alpha from NF-kappa B <clueLoc>in Tax-expressing cells.</clueLoc></clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<clue>However, this deletion mutation prevented the <clueType>induced</clueType> phosphorylation, degradative loss, and functional release of I kappa B alpha from NF-kappa B <clueLoc>in Tax-expressing cells.</clueLoc></clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<clue>However, this deletion mutation prevented the <clueType>induced</clueType> phosphorylation, degradative loss, and functional release of I kappa B alpha from NF-kappa B <clueLoc>in Tax-expressing cells.</clueLoc></clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E31" />
+<cause idref="A4" />
+<clue>However, <corefCause>this deletion mutation</corefCause> <clueType>prevented</clueType> the induced phosphorylation, degradative loss, and functional release of I kappa B alpha from NF-kappa B in Tax-expressing cells.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="A4" />
+<clue>However, <corefCause>this deletion mutation</corefCause> <clueType>prevented</clueType> the induced phosphorylation, degradative loss, and functional release of I kappa B alpha from NF-kappa B in Tax-expressing cells.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="A4" />
+<clue>However, <corefCause>this deletion mutation</corefCause> <clueType>prevented</clueType> the induced phosphorylation, degradative loss, and functional release of I kappa B alpha from NF-kappa B in Tax-expressing cells.</clue>
+</event>
+<sentence id="S8">Alanine substitutions introduced at two <term sem="Amino_acid_monomer" id="T41" lex="serine_residue">serine residues</term> positioned within this <term sem="Protein_domain_or_region" id="T42" lex="N-terminal_regulatory_region">N-terminal regulatory region</term> of <term sem="Protein_molecule" id="T43" lex="I_kappa_B_alpha">I kappa B alpha</term> also yielded constitutive repressors that escaped from <term sem="Protein_molecule" id="T45" lex="Tax">Tax</term>-induced <term sem="Other" id="A8">turnover</term> and that potently inhibited <term sem="Other" id="T46" lex="immune_activation_pathway">immune activation pathways</term> for <term sem="Other" id="T47" lex="NF-kappa_B_induction"><term sem="Protein_molecule" id="T48" lex="NF-kappa_B">NF-kappa B</term> induction</term>, including those initiated from <term sem="Protein_molecule" id="A9">antigen</term> and <term sem="Protein_molecule" id="A10">cytokine</term> <term sem="Protein_molecule" id="A11">receptors</term>.</sentence>
+<event id="E37">
+<type class="Mutagenesis" />
+<theme idref="T43" />
+<clue><clueType>Alanine substitutions introduced</clueType> at two serine residues positioned <linkTheme>within</linkTheme> this N-terminal regulatory region of I kappa B alpha also yielded constitutive repressors that escaped from Tax-induced turnover and that potently inhibited immune activation pathways for NF-kappa B induction, including those initiated from antigen and cytokine receptors.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<cause idref="T45" />
+<clue>Alanine substitutions introduced at two serine residues positioned within this N-terminal regulatory region of I kappa B alpha also yielded constitutive repressors that escaped from Tax-<clueType>induced</clueType> turnover and that potently inhibited immune activation pathways for NF-kappa B induction, including those initiated from antigen and cytokine receptors.</clue>
+<comment>NER: T44 del &quot;Tax-induced turnover&quot;</comment>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="T47" />
+<cause idref="T46" />
+<clue>Alanine substitutions introduced at two serine residues positioned within this N-terminal regulatory region of I kappa B alpha also yielded constitutive repressors that escaped from Tax-induced turnover and that potently inhibited immune activation pathways <linkTheme>for</linkTheme> NF-kappa B <clueType>induction</clueType>, including those initiated from antigen and cytokine receptors.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref1="A11" idref="A9" />
+<clue>Alanine substitutions introduced at two serine residues positioned within this N-terminal regulatory region of I kappa B alpha also yielded constitutive repressors that escaped from Tax-induced turnover and that potently inhibited immune activation pathways <linkTheme>for</linkTheme> NF-kappa B <clueType>induction</clueType>, including those <linkCause>initiated from</linkCause> antigen and cytokine receptors.</clue>
+<comment>NER: T49 DEL</comment>
+</event>
+<event id="E41">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref1="A11" idref="A10" />
+<clue>Alanine substitutions introduced at two serine residues positioned within this N-terminal regulatory region of I kappa B alpha also yielded constitutive repressors that escaped from Tax-induced turnover and that potently inhibited immune activation pathways <linkTheme>for</linkTheme> NF-kappa B <clueType>induction</clueType>, including those <linkCause>initiated from</linkCause> antigen and cytokine receptors.</clue>
+</event>
+<event id="E42">
+<type class="Negative_regulation" />
+<theme idref="E39" />
+<cause idref="E37" />
+<clue>Alanine substitutions introduced at two serine residues positioned within this N-terminal regulatory region of I kappa B alpha also yielded constitutive repressors that escaped from Tax-induced turnover and that potently <clueType>inhibited</clueType> immune activation pathways for NF-kappa B induction, including those initiated from antigen and cytokine receptors.</clue>
+</event>
+<event id="E70">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="E37" />
+<clue>Alanine substitutions introduced at two serine residues positioned within this N-terminal regulatory region of I kappa B alpha also <clueType>yielded constitutive repressors that escaped</clueType> <linkTheme>from</linkTheme> <corefTheme>Tax-induced turnover</corefTheme> and that potently inhibited immune activation pathways for NF-kappa B induction, including those initiated from antigen and cytokine receptors.</clue>
+<comment>CAUTION</comment>
+</event>
+<event id="E71">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="E37" />
+<clue>Alanine substitutions introduced at two serine residues positioned within this N-terminal regulatory region of I kappa B alpha also <clueType>yielded constitutive repressors that escaped</clueType> <linkTheme>from</linkTheme> <corefTheme>Tax-induced turnover</corefTheme> and that potently inhibited immune activation pathways for NF-kappa B induction, including those initiated from antigen and cytokine receptors.</clue>
+<comment>CAUTION</comment>
+</event>
+<event id="E72">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="E37" />
+<clue>Alanine substitutions introduced at two serine residues positioned within this N-terminal regulatory region of I kappa B alpha also <clueType>yielded constitutive repressors that escaped</clueType> <linkTheme>from</linkTheme> <corefTheme>Tax-induced turnover</corefTheme> and that potently inhibited immune activation pathways for NF-kappa B induction, including those initiated from antigen and cytokine receptors.</clue>
+<comment>CAUTION</comment>
+</event>
+<sentence id="S9">In contrast, introduction of a <term sem="Amino_acid_monomer" id="T50" lex="phosphoserine_mimetic">phosphoserine mimetic</term> at these sites rectified this functional defect, a finding consistent with a causal linkage between the <term sem="Other" id="T51" lex="phosphorylation_status">phosphorylation status</term> and <term sem="Other" id="T52" lex="proteolytic_stability">proteolytic stability</term> of this <term sem="Protein_family_or_group" id="T53" lex="cytoplasmic_inhibitor">cytoplasmic inhibitor</term>.</sentence>
+<event id="E45">
+<type class="Artificial_process" />
+<theme idref="T50" />
+<theme idref="T42" />
+<clue>In contrast, <clueType>introduction</clueType> <linkTheme>of</linkTheme> a phosphoserine mimetic at <corefTheme idref1="T42">these sites</corefTheme> rectified this functional defect, a finding consistent with a causal linkage between the phosphorylation status and proteolytic stability of this cytoplasmic inhibitor.</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation" />
+<theme idref="E42" />
+<cause idref="E45" />
+<clue>In contrast, introduction of a phosphoserine mimetic at these sites <clueType>rectified</clueType> <linkTheme>this functional defect</linkTheme>, a finding consistent with a causal linkage between the phosphorylation status and proteolytic stability of this cytoplasmic inhibitor.</clue>
+</event>
+<event id="E50">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T37" />
+<clue>In contrast, introduction of a phosphoserine mimetic at these sites rectified this functional defect, a finding consistent with a causal linkage between the <clueType>phosphorylation</clueType> status and proteolytic stability <linkTheme>of</linkTheme> <corefTheme>this cytoplasmic inhibitor</corefTheme>.</clue>
+</event>
+<event id="E51">
+<type class="Protein_catabolism" />
+<theme idref="T37" />
+<clue>In contrast, introduction of a phosphoserine mimetic at these sites rectified this functional defect, a finding consistent with a causal linkage between the phosphorylation status and <clueType>proteolytic</clueType> stability <linkTheme>of</linkTheme> <corefTheme>this cytoplasmic inhibitor</corefTheme>.</clue>
+</event>
+<event id="E52">
+<type class="Correlation" />
+<theme idref="E50" />
+<theme idref="E51" />
+<clue>In contrast, introduction of a phosphoserine mimetic at these sites rectified this functional defect, a finding consistent with a causal <clueType>linkage</clueType> <linkTheme>between</linkTheme> the phosphorylation status and proteolytic stability of this cytoplasmic inhibitor.</clue>
+</event>
+<event id="E53">
+<type class="Correlation" />
+<theme idref="E46" />
+<theme idref="E52" />
+<clue>In contrast, introduction of a phosphoserine mimetic at these sites rectified this functional defect, a finding <clueType>consistent</clueType> <linkTheme>with</linkTheme> a causal linkage between the phosphorylation status and proteolytic stability of this cytoplasmic inhibitor.</clue>
+</event>
+<sentence id="S10">Together, these in vivo studies define a <term sem="Protein_domain_or_region" id="A13">critical signal response domain in <term sem="Protein_molecule" id="T54" lex="I_kappa_B_alpha">I kappa B alpha</term></term> that coordinately controls the biologic activities of <term sem="Protein_molecule" id="T55" lex="I_kappa_B_alpha">I kappa B alpha</term> and <term sem="Protein_molecule" id="T56" lex="NF-kappa_B">NF-kappa B</term> in response to <cons sem="(AND Other Other)" id="C2" lex="(AND viral_simulus immune_stimulus)"><frag id="F4"><term sem="Virus" id="A14">viral</term></frag> and <frag id="F5">immune</frag> <frag id="F6">stimuli</frag></cons>.</sentence>
+<event id="E57">
+<type class="Regulation" />
+<theme idref="T55" />
+<cause idref="A13" />
+<clue>Together, these in vivo studies define a critical signal response domain in I kappa B alpha that coordinately <clueType>controls</clueType> the biologic activities of I kappa B alpha and NF-kappa B in response to viral and immune stimuli.</clue>
+<comment>TPS: A13</comment>
+</event>
+<event id="E58">
+<type class="Regulation" />
+<theme idref="T56" />
+<cause idref="A13" />
+<clue>Together, these in vivo studies define a critical signal response domain in I kappa B alpha that coordinately <clueType>controls</clueType> the biologic activities of I kappa B alpha and NF-kappa B in response to viral and immune stimuli.</clue>
+</event>
+<event id="E59">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref1="F6" idref="A14" />
+<clue>Together, these in vivo studies define a critical signal response domain in I kappa B alpha that coordinately controls the biologic activities of I kappa B alpha and NF-kappa B <linkCause>in response to</linkCause> viral and immune stimuli.</clue>
+<comment>NO CLUETYPE, NER: T57 DEL</comment>
+</event>
+<event id="E60">
+<type class="Positive_regulation" />
+<theme idref="E58" />
+<cause idref1="F6" idref="A14" />
+<clue>Together, these in vivo studies define a critical signal response domain in I kappa B alpha that coordinately controls the biologic activities of I kappa B alpha and NF-kappa B <linkCause>in response to</linkCause> viral and immune stimuli.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E61">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref1="F6" idref="F5" />
+<clue>Together, these in vivo studies define a critical signal response domain in I kappa B alpha that coordinately controls the biologic activities of I kappa B alpha and NF-kappa B <linkCause>in response to</linkCause> viral and immune stimuli.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E62">
+<type class="Positive_regulation" />
+<theme idref="E58" />
+<cause idref1="F6" idref="F5" />
+<clue>Together, these in vivo studies define a critical signal response domain in I kappa B alpha that coordinately controls the biologic activities of I kappa B alpha and NF-kappa B <linkCause>in response to</linkCause> viral and immune stimuli.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="20/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1956769" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1956769</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification of <term sem="Protein_family_or_group" id="T1" lex="transcriptional_suppressor_protein">transcriptional suppressor proteins</term> that bind to the <term sem="DNA_domain_or_region" id="T2" lex="negative_regulatory_element">negative regulatory element</term> of the <term sem="Virus" id="T3" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T1" />
+<theme idref="T2" />
+<clue>Identification of transcriptional suppressor proteins that <clueType>bind</clueType> <linkTheme>to</linkTheme> the negative regulatory element of the human immunodeficiency virus type 1.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Two different <term sem="Protein_molecule" id="A1">proteins</term> which independently bound to <term sem="DNA_domain_or_region" id="T4" lex="neighboring_sequence">neighboring sequences</term> <term sem="DNA_domain_or_region" id="A20">within the</term> <term sem="DNA_domain_or_region" id="T5" lex="negative_regulatory_element">negative regulatory element</term> (<term sem="DNA_domain_or_region" id="A21"><term sem="DNA_domain_or_region" id="T6" lex="NRE">NRE</term>) of</term> <term sem="Virus" id="T7" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> (<term sem="DNA_domain_or_region" id="A22"><term sem="Virus" id="T8" lex="HIV-1">HIV-1</term></term>) were detected in the nuclear extract of a <term sem="Cell_cultured" id="T9" lex="virus-infected_human_T_cell_line">virus-infected <term sem="Cell_cultured" id="A2">human T cell line</term></term>.</sentence>
+<event id="E2">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref1="A20" idref2="A21" idref3="A22" idref="T4" />
+<clue>Two different proteins which independently <clueType>bound</clueType> <linkTheme>to</linkTheme> neighboring sequences within the negative regulatory element (NRE) of human immunodeficiency virus type 1 (HIV-1) were detected in the nuclear extract of a virus-infected human T cell line.</clue>
+<comment>NER: T4 sem mod, Other_name -&gt; DNA_domain_or_region; TPS: A21</comment>
+</event>
+<event id="E3">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A2" />
+<theme idref="T8" />
+<clue>Two different proteins which independently bound to neighboring sequences within the negative regulatory element (NRE) of human immunodeficiency virus type 1 (HIV-1) were detected in the nuclear extract of a <clueType>virus-infected</clueType> human T cell line.</clue>
+</event>
+<sentence id="S3">One of the <term sem="Protein_molecule" id="A3">factors</term> bound to a <term sem="DNA_domain_or_region" id="T10" lex="novel_dyad_symmetrical_sequence">novel dyad symmetrical sequence</term>.</sentence>
+<event id="E4">
+<type class="Binding" />
+<theme idref="A3" />
+<theme idref="T10" />
+<clue>One of the factors <clueType>bound</clueType> to a novel dyad symmetrical sequence.</clue>
+</event>
+<sentence id="S4">This sequence is well conserved in various <term sem="Virus" id="T11" lex="HIV-1_isolate"><term sem="Virus" id="T12" lex="HIV-1">HIV-1</term> isolates</term> and partial homology was found with the <term sem="DNA_domain_or_region" id="T13" lex="promoter_region">promoter region</term> of the <term sem="DNA_domain_or_region" id="T14" lex="human_retinoblastoma_gene">human retinoblastoma gene</term>.</sentence>
+<sentence id="S5">Similar <term sem="Other" id="T15" lex="DNA_binding_activity">DNA binding activity</term> was detected in a variety of <term sem="Cell_cultured" id="T16" lex="virus-uninfected_human_T_cell_line">virus-uninfected human T cell lines</term> and <term sem="Cell_cultured" id="T17" lex="HeLa_cell">HeLa cells</term> by means of a <term sem="Other" id="T18" lex="gel_mobility_shift_assay">gel mobility shift assay</term>.</sentence>
+<event id="E5">
+<type class="Binding" />
+<theme idref="A3" />
+<theme idref="T10" />
+<clue>Similar <corefTheme>DNA</corefTheme> <clueType>binding</clueType> activity was detected <clueLoc>in a variety of virus-uninfected human T cell lines</clueLoc> and HeLa cells by means of a <clueExperiment>gel mobility shift assay</clueExperiment>.</clue>
+<comment>NO COREFTHEME for A3</comment>
+</event>
+<event id="E15">
+<type class="Binding" />
+<theme idref="A3" />
+<theme idref="T10" />
+<clue>Similar <corefTheme>DNA</corefTheme> <clueType>binding</clueType> activity was detected <clueLoc>in</clueLoc> a variety of virus-uninfected human T cell lines and <clueLoc>HeLa cells</clueLoc> by means of a <clueExperiment>gel mobility shift assay</clueExperiment>.</clue>
+<comment>NO COREFTHEME for A3</comment>
+</event>
+<sentence id="S6">The other <term sem="Protein_molecule" id="A4">factor</term> bound to a <term sem="DNA_domain_or_region" id="T19" lex="putative_AP-1_recognition_sequence">putative AP-1 recognition sequence</term> predicted for the <term sem="Virus" id="T20" lex="HIV-1">HIV-1</term> <term sem="DNA_domain_or_region" id="T21" lex="NRE">NRE</term>.</sentence>
+<event id="E6">
+<type class="Binding" />
+<theme idref="A4" />
+<theme idref="T19" />
+<clue>The other factor <clueType>bound</clueType> <linkTheme>to</linkTheme> a putative AP-1 recognition sequence predicted for the HIV-1 NRE.</clue>
+</event>
+<event id="E7">
+<type class="Binding" />
+<theme idref="A4" />
+<theme idref="T21" />
+<clue>The other factor <clueType>bound</clueType> <linkTheme>to</linkTheme> a putative AP-1 recognition sequence predicted for the HIV-1 NRE.</clue>
+</event>
+<sentence id="S7">However, this factor did not bind to a typical <term sem="DNA_domain_or_region" id="T22" lex="AP-1_site">AP-1 site</term>.</sentence>
+<event assertion="non-exist" id="E8">
+<type class="Binding" />
+<theme idref="A4" />
+<theme idref="T22" />
+<clue>However, <corefTheme>this factor</corefTheme> did not <clueType>bind</clueType> <linkTheme>to</linkTheme> a typical AP-1 site.</clue>
+</event>
+<sentence id="S8">The insertion of multiple copies of the <term sem="DNA_domain_or_region" id="T23" lex="binding_site">binding site</term> <term sem="DNA_domain_or_region" id="A5">for the</term> <term sem="DNA_domain_or_region" id="A6">former</term> or <term sem="DNA_domain_or_region" id="A7">latter</term> <term sem="DNA_domain_or_region" id="A8">factor</term> into a <term sem="DNA_domain_or_region" id="T24" lex="heterologous_promoter">heterologous promoter</term> reduced the <term sem="Other" id="T25" lex="Molecular_function">promoter activity</term> to one-tenth or one-third, respectively.</sentence>
+<event id="E9">
+<type class="Mutagenesis" />
+<theme idref1="A5" idref2="A6" idref3="A8" idref="T23" />
+<theme idref="T24" />
+<clue>The <clueType>insertion</clueType> <linkTheme>of</linkTheme> multiple copies of the binding site for the former or latter factor <linkTheme>into</linkTheme> a heterologous promoter reduced the promoter activity to one-tenth or one-third, respectively.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E10">
+<type class="Mutagenesis" />
+<theme idref1="A5" idref2="A7" idref3="A8" idref="T23" />
+<cause idref="T24" />
+<clue>The <clueType>insertion</clueType> <linkTheme>of</linkTheme> multiple copies of the binding site for the former or latter factor <linkTheme>into</linkTheme> a heterologous promoter reduced the promoter activity to one-tenth or one-third, respectively.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="T24" />
+<cause idref="E9" />
+<clue>The insertion of multiple copies of the binding site for the former or latter factor into a heterologous promoter <clueType>reduced</clueType> the <corefTheme>promoter</corefTheme> activity to one-tenth or one-third, respectively.</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="T24" />
+<cause idref="E10" />
+<clue>The insertion of multiple copies of the binding site for the former or latter factor into a heterologous promoter <clueType>reduced</clueType> the <corefTheme>promoter</corefTheme> activity to one-tenth or one-third, respectively.</clue>
+</event>
+<sentence id="S9">Thus, each factor may function as a <term sem="Protein_family_or_group" id="T26" lex="novel_negative_regulator">novel negative regulator</term> of <term sem="Other" id="T27" lex="transcription">transcription</term>.</sentence>
+<event uncertainty="probable" id="E13">
+<type class="Negative_regulation" />
+<theme idref="T27" />
+<cause idref="A3" />
+<clue>Thus, <corefCause>each factor</corefCause> may <clueType>function as</clueType> a novel <clueType>negative regulator</clueType> <linkTheme>of</linkTheme> transcription.</clue>
+</event>
+<event uncertainty="probable" id="E14">
+<type class="Negative_regulation" />
+<theme idref="T27" />
+<cause idref="A4" />
+<clue>Thus, <corefCause>each factor</corefCause> may <clueType>function as</clueType> a novel <clueType>negative regulator</clueType> <linkTheme>of</linkTheme> transcription.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

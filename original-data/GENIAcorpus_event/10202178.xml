@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="18/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10202178" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10202178</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="differential_induction">Differential induction</term> of <term sem="Protein_molecule" id="T2" lex="interferon_(IFN)-inducible_protein_10">interferon (IFN)-inducible protein 10</term> following differentiation of a <term sem="Cell_natural" id="T4" lex="macrophage_cell_lineage"><term sem="Cell_natural" id="T3" lex="monocyte">monocyte</term>, <term sem="Cell_natural" id="T5" lex="macrophage_cell">macrophage</term> cell lineage</term> is related to the changes of <term sem="Protein_family_or_group" id="T6" lex="nuclear_protein">nuclear proteins</term> bound to <term sem="DNA_domain_or_region" id="T7" lex="IFN_stimulus_response_element">IFN stimulus response element</term> and <term sem="DNA_domain_or_region" id="T8" lex="kappaB_site">kappaB sites</term>.</sentence>
+<event id="E1">
+<type class="Cell_differentiation" />
+<theme idref="T4" />
+<clue>Differential induction of interferon (IFN)-inducible protein 10 following <clueType>differentiation</clueType> <linkTheme>of</linkTheme> a monocyte, macrophage cell lineage is related to the changes of nuclear proteins bound to IFN stimulus response element and kappaB sites.</clue>
+<comment>NER T4, T5 mod</comment>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>Differential <clueType>induction</clueType> <linkTheme>of</linkTheme> interferon (IFN)-inducible protein 10 following differentiation of a monocyte, macrophage cell lineage is related to the changes of nuclear proteins bound to IFN stimulus response element and kappaB sites.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue>Differential induction of interferon (IFN)-inducible protein 10 <clueType>following</clueType> differentiation of a monocyte, macrophage cell lineage is related to the changes of nuclear proteins bound to IFN stimulus response element and kappaB sites.</clue>
+</event>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T6" />
+<theme idref="T7" />
+<clue>Differential induction of interferon (IFN)-inducible protein 10 following differentiation of a monocyte, macrophage cell lineage is related to the changes of nuclear proteins <clueType>bound</clueType> <linkTheme>to</linkTheme> IFN stimulus response element and kappaB sites.</clue>
+</event>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T6" />
+<theme idref="T8" />
+<clue>Differential induction of interferon (IFN)-inducible protein 10 following differentiation of a monocyte, macrophage cell lineage is related to the changes of nuclear proteins <clueType>bound</clueType> <linkTheme>to</linkTheme> IFN stimulus response element and kappaB sites.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E4" />
+<clue>Differential induction of interferon (IFN)-inducible protein 10 following differentiation of a monocyte, macrophage cell lineage is related to the <clueType>changes</clueType> <linkTheme>of</linkTheme> nuclear proteins bound to IFN stimulus response element and kappaB sites.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="E5" />
+<clue>Differential induction of interferon (IFN)-inducible protein 10 following differentiation of a monocyte, macrophage cell lineage is related to the <clueType>changes</clueType> <linkTheme>of</linkTheme> nuclear proteins bound to IFN stimulus response element and kappaB sites.</clue>
+</event>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="E2" />
+<theme idref="E6" />
+<clue>Differential induction of interferon (IFN)-inducible protein 10 following differentiation of a monocyte, macrophage cell lineage is <clueType>related</clueType> <linkTheme>to</linkTheme> the changes of nuclear proteins bound to IFN stimulus response element and kappaB sites.</clue>
+</event>
+<event id="E9">
+<type class="Correlation" />
+<theme idref="E2" />
+<theme idref="E7" />
+<clue>Differential induction of interferon (IFN)-inducible protein 10 following differentiation of a monocyte, macrophage cell lineage is <clueType>related</clueType> <linkTheme>to</linkTheme> the changes of nuclear proteins bound to IFN stimulus response element and kappaB sites.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We examined <term sem="Other" id="T10" lex="chemokine_gene_expression"><term sem="DNA_family_or_group" id="T11" lex="chemokine">chemokine gene</term> expression</term> following the differentiation of a <term sem="Cell_cultured" id="T13" lex="macrophage_cell_lineage"><term sem="Cell_natural" id="T12" lex="monocyte">monocyte</term>, <term sem="Cell_natural" id="T14" lex="macrophage">macrophage</term> cell lineage</term>.</sentence>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>We examined chemokine gene <clueType>expression</clueType> following the differentiation of a monocyte, macrophage cell lineage.</clue>
+<comment>NER T11 mod</comment>
+</event>
+<event id="E11">
+<type class="Cell_differentiation" />
+<theme idref="T13" />
+<clue>We examined chemokine gene expression following the <clueType>differentiation</clueType> <linkTheme>of</linkTheme> a monocyte, macrophage cell lineage.</clue>
+<comment>NER T13 mod</comment>
+</event>
+<event uncertainty="doubtful" id="E12">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="E11" />
+<clue>We examined chemokine gene expression <clueType>following</clueType> the differentiation of a monocyte, macrophage cell lineage.</clue>
+</event>
+<sentence id="S3">The <term sem="Cell_cultured" id="T15" lex="human_monoblastic_cell_line">human monoblastic cell line</term>, <term sem="Cell_cultured" id="T16" lex="U937">U937</term> was differentiated to <term sem="Cell_natural" id="T17" lex="macrophage">macrophages</term> by the treatment with either <term sem="Organic_compound_other" id="T18" lex="phorbol_12-myristate_13-acetate_(PMA)"><term sem="Organic_compound_other" id="T19" lex="phorbol_12-myristate_13-acetate">phorbol 12-myristate 13-acetate</term> (<term sem="Organic_compound_other" id="T20" lex="PMA">PMA</term>)</term>, <term sem="Organic_compound_other" id="T21" lex="retinoic_acid_(RA)"><term sem="Organic_compound_other" id="T22" lex="retinoic_acid">retinoic acid</term> (<term sem="Organic_compound_other" id="T23" lex="RA">RA</term>)</term>, or <term sem="Lipid" id="T24" lex="vitamin_D3_(VitD3)">vitamin D3 (<term sem="Lipid" id="T25" lex="VitD3">VitD3</term>)</term>.</sentence>
+<event id="E13">
+<type class="Cell_differentiation" />
+<theme idref="T16" />
+<theme idref="T17" />
+<clue>The human monoblastic cell line, U937 was <clueType>differentiated</clueType> <linkTheme>to</linkTheme> macrophages by the treatment with either phorbol 12-myristate 13-acetate (PMA), retinoic acid (RA), or vitamin D3 (VitD3).</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T20" />
+<clue>The human monoblastic cell line, U937 was differentiated to macrophages <clueType>by the treatment with</clueType> either phorbol 12-myristate 13-acetate (PMA), retinoic acid (RA), or vitamin D3 (VitD3).</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T23" />
+<clue>The human monoblastic cell line, U937 was differentiated to macrophages <clueType>by the treatment with</clueType> either phorbol 12-myristate 13-acetate (PMA), retinoic acid (RA), or vitamin D3 (VitD3).</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T25" />
+<clue>The human monoblastic cell line, U937 was differentiated to macrophages <clueType>by the treatment with</clueType> either phorbol 12-myristate 13-acetate (PMA), retinoic acid (RA), or vitamin D3 (VitD3).</clue>
+</event>
+<sentence id="S4">The gene expression of <term sem="Protein_molecule" id="T26" lex="interferon_(IFN)-inducible_protein_10">interferon (IFN)-inducible protein 10</term> (<term sem="Protein_molecule" id="T27" lex="IP-10">IP-10</term>) (a <term sem="Protein_family_or_group" id="T28" lex="CXC_chemokine">CXC chemokine</term>) was markedly augmented by the <term sem="Protein_molecule" id="T29" lex="IFNgamma">IFNgamma</term> treatment in <term sem="Cell_natural" id="A1"><term sem="Organic_compound_other" id="T30" lex="PMA">PMA</term>- or <term sem="Organic_compound_other" id="T31" lex="RA">RA</term>-differentiated <term sem="Cell_cultured" id="T32" lex="U937_cell">U937 cells</term>,</term> but only marginally in undifferentiated or <term sem="Cell_cultured" id="T33" lex="VitD3-treated_cell"><term sem="Lipid" id="T34" lex="VitD3">VitD3</term>-treated cells</term>.</sentence>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="T27" />
+<clue>The gene <clueType>expression</clueType> <linkTheme>of</linkTheme> interferon (IFN)-inducible protein 10 (IP-10) (a CXC chemokine) was markedly augmented by the IFNgamma treatment in PMA- or RA-differentiated U937 cells, but only marginally in undifferentiated or VitD3-treated cells.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T29" />
+<clue>The gene expression of interferon (IFN)-inducible protein 10 (IP-10) (a CXC chemokine) was markedly <clueType>augmented</clueType> <linkCause>by</linkCause> the IFNgamma treatment i<clueLoc>n PMA-</clueLoc> or RA-<clueLoc>differentiated U937 cells</clueLoc>, but only marginally in undifferentiated or VitD3-treated cells.</clue>
+</event>
+<event id="E121">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T29" />
+<clue>The gene expression of interferon (IFN)-inducible protein 10 (IP-10) (a CXC chemokine) was markedly <clueType>augmented</clueType> <linkCause>by</linkCause> the IFNgamma treatment <clueLoc>in</clueLoc> PMA- or <clueLoc>RA-differentiated U937 cells</clueLoc>, but only marginally in undifferentiated or VitD3-treated cells.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T29" />
+<clue>The gene expression of interferon (IFN)-inducible protein 10 (IP-10) (a CXC chemokine) was markedly <clueType>augmented</clueType> <linkCause>by</linkCause> the IFNgamma treatment in PMA- or RA-differentiated U937 cells, but only marginally <clueLoc>in undifferentiated</clueLoc> or VitD3-treated <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E122">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T29" />
+<clue>The gene expression of interferon (IFN)-inducible protein 10 (IP-10) (a CXC chemokine) was markedly <clueType>augmented</clueType> <linkCause>by</linkCause> the IFNgamma treatment in PMA- or RA-differentiated U937 cells, but only marginally <clueLoc>in</clueLoc> undifferentiated or <clueLoc>VitD3-treated cells</clueLoc>.</clue>
+</event>
+<event id="E222">
+<type class="Cell_differentiation" />
+<theme idref="T32" />
+<clue>The gene expression of interferon (IFN)-inducible protein 10 (IP-10) (a CXC chemokine) was markedly augmented by the IFNgamma treatment in PMA- or RA-<clueType>differentiated</clueType> U937 cells, but only marginally in undifferentiated or VitD3-treated cells.</clue>
+</event>
+<event id="E223">
+<type class="Positive_regulation" />
+<theme idref="E222" />
+<cause idref="T30" />
+<clue>The gene expression of interferon (IFN)-inducible protein 10 (IP-10) (a CXC chemokine) was markedly augmented by the IFNgamma treatment in PMA- or RA-differentiated U937 cells, but only marginally in undifferentiated or VitD3-treated cells.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E224">
+<type class="Positive_regulation" />
+<theme idref="E222" />
+<cause idref="T31" />
+<clue>The gene expression of interferon (IFN)-inducible protein 10 (IP-10) (a CXC chemokine) was markedly augmented by the IFNgamma treatment in PMA- or RA-differentiated U937 cells, but only marginally in undifferentiated or VitD3-treated cells.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event assertion="non-exist" id="E225">
+<type class="Cell_differentiation" />
+<theme idref="T32" />
+<clue>The gene expression of interferon (IFN)-inducible protein 10 (IP-10) (a CXC chemokine) was markedly augmented by the IFNgamma treatment in PMA- or RA-differentiated U937 cells, but only marginally in <clueType>undifferentiated</clueType> or VitD3-treated <corefTheme>cells</corefTheme>.</clue>
+</event>
+<event id="E226">
+<type class="Artificial_process" />
+<theme idref="T32" />
+<theme idref="T34" />
+<clue>The gene expression of interferon (IFN)-inducible protein 10 (IP-10) (a CXC chemokine) was markedly augmented by the IFNgamma treatment in PMA- or RA-differentiated U937 cells, but only marginally in undifferentiated or VitD3-<clueType>treated</clueType> <corefTheme>cells</corefTheme>.</clue>
+</event>
+<sentence id="S5">In contrast, another inducible gene expression of <term sem="Protein_molecule" id="T35" lex="monocyte_chemotactic_protein-1">monocyte chemotactic protein-1</term> (a <term sem="Protein_family_or_group" id="T36" lex="CC_chemokine">CC chemokine</term>) and the activation of the <term sem="Protein_family_or_group" id="T37" lex="transcriptional_factor">transcriptional factor</term> (<term sem="Protein_molecule" id="T38" lex="FcRFgamma">FcRFgamma</term>) bound to the <term sem="DNA_domain_or_region" id="T39" lex="gamma_response_region">gamma response region</term> were similarly or less abundantly induced by <term sem="Protein_molecule" id="T40" lex="IFNgamma">IFNgamma</term> treatment in <term sem="Organic_compound_other" id="T41" lex="PMA">PMA</term>- or <term sem="Organic_compound_other" id="T42" lex="RA">RA</term>-differentiated <term sem="Cell_cultured" id="T43" lex="U937_cell">U937 cells</term>, indicating that increased <term sem="RNA_molecule" id="T44" lex="IP-10_mRNA"><term sem="Protein_molecule" id="T45" lex="IP-10">IP-10</term> mRNA</term> induction was not due to the augmented ability of the cells to respond to the presence of <term sem="Protein_molecule" id="T46" lex="IFNgamma">IFNgamma</term>.</sentence>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>In contrast, another inducible gene <clueType>expression</clueType> <linkTheme>of</linkTheme> monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly induced by IFNgamma treatment in PMA- or RA-differentiated U937 cells, indicating that increased IP-10 mRNA induction was not due to the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+</event>
+<event id="E24">
+<type class="Binding" />
+<theme idref="T38" />
+<theme idref="T39" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) <clueType>bound</clueType> <linkTheme>to</linkTheme> the gamma response region were similarly or less abundantly induced by IFNgamma treatment in PMA- or RA-differentiated U937 cells, indicating that increased IP-10 mRNA induction was not due to the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the <clueType>activation</clueType> <linkTheme>of</linkTheme> the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly induced by IFNgamma treatment in PMA- or RA-differentiated U937 cells, indicating that increased IP-10 mRNA induction was not due to the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="T40" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly <clueType>induced</clueType> <linkCause>by</linkCause> IFNgamma treatment <clueLoc>in PMA-</clueLoc> or RA-<clueLoc>differentiated U937 cells</clueLoc>, indicating that increased IP-10 mRNA induction was not due to the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+</event>
+<event id="E126">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="T40" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly <clueType>induced</clueType> <linkCause>by</linkCause> IFNgamma treatment <clueLoc>in</clueLoc> PMA- or <clueLoc>RA-differentiated U937 cells</clueLoc>, indicating that increased IP-10 mRNA induction was not due to the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T40" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly <clueType>induced</clueType> <linkCause>by</linkCause> IFNgamma treatment <clueLoc>in PMA-</clueLoc> or RA-<clueLoc>differentiated U937 cells</clueLoc>, indicating that increased IP-10 mRNA induction was not due to the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+</event>
+<event id="E127">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T40" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly <clueType>induced</clueType> <linkCause>by</linkCause> IFNgamma treatment <clueLoc>in</clueLoc> PMA- or <clueLoc>RA-differentiated U937 cells</clueLoc>, indicating that increased IP-10 mRNA induction was not due to the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T44" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly induced by IFNgamma treatment in PMA- or RA-differentiated U937 cells, indicating that increased IP-10 mRNA <clueType>induction</clueType> was not due to the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly induced by IFNgamma treatment in PMA- or RA-differentiated U937 cells, indicating that <clueType>increased</clueType> IP-10 mRNA induction was not due to the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+</event>
+<event id="E30">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<cause idref="T46" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly induced by IFNgamma treatment in PMA- or RA-differentiated U937 cells, indicating that increased IP-10 mRNA induction was not due to the augmented ability of the <corefTheme>cells</corefTheme> to <clueType>respond</clueType> <linkCause>to</linkCause> the presence of IFNgamma.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly induced by IFNgamma treatment in PMA- or RA-differentiated U937 cells, indicating that increased IP-10 mRNA induction was not due to the <clueType>augmented</clueType> ability of the cells to respond to the presence of IFNgamma.</clue>
+</event>
+<event assertion="non-exist" id="E32">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="E31" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly induced by IFNgamma treatment in PMA- or RA-differentiated U937 cells, indicating that increased IP-10 mRNA induction was not <clueType>due</clueType> <linkTheme>to</linkTheme> the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+</event>
+<event id="E132">
+<type class="Cell_differentiation" />
+<theme idref="T43" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly induced by IFNgamma treatment in PMA- or RA-<clueType>differentiated</clueType> U937 cells, indicating that increased IP-10 mRNA induction was not due to the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+</event>
+<event id="E133">
+<type class="Positive_regulation" />
+<theme idref="E132" />
+<cause idref="T41" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly induced by IFNgamma treatment in PMA- or RA-differentiated U937 cells, indicating that increased IP-10 mRNA induction was not due to the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E134">
+<type class="Positive_regulation" />
+<theme idref="E132" />
+<cause idref="T42" />
+<clue>In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly induced by IFNgamma treatment in PMA- or RA-differentiated U937 cells, indicating that increased IP-10 mRNA induction was not due to the augmented ability of the cells to respond to the presence of IFNgamma.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S6">Increased expression of <term sem="Protein_molecule" id="T47" lex="IFNgamma">IFNgamma</term>-induced <term sem="RNA_molecule" id="T48" lex="IP-10_mRNA"><term sem="Protein_molecule" id="T49" lex="IP-10">IP-10</term> mRNA</term> following the differentiation of <term sem="Cell_cultured" id="T50" lex="U937_cell">U937 cells</term> was mediated largely by augmented <term sem="Other" id="T9">transcriptional activity</term> of the gene and was related to differentiation-dependent changes of the <term sem="Protein_family_or_group" id="A101"><term sem="Protein_family_or_group" id="A3">proteins</term> bound to <term sem="DNA_domain_or_region" id="T51" lex="IFN_stimulus_response_element_(ISRE)">IFN stimulus response element (<term sem="DNA_domain_or_region" id="T52" lex="ISRE">ISRE</term>)</term> and <term sem="DNA_domain_or_region" id="T53" lex="kB_site">kB sites</term></term>, suggesting that these <term sem="Protein_family_or_group" id="T54" lex="nuclear_protein">nuclear proteins</term> may determine the <term sem="RNA_molecule" id="T55" lex="IP-10_mRNA"><term sem="Protein_molecule" id="T56" lex="IP-10">IP-10</term> mRNA</term> inducibility by <term sem="Protein_molecule" id="T57" lex="IFNgamma">IFNgamma</term>.</sentence>
+<event id="E33">
+<type class="Transcription" />
+<theme idref="T48" />
+<clue>Increased <clueType>expression</clueType> <linkTheme>of</linkTheme> IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to differentiation-dependent changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+<comment>TPS A101</comment>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="T47" />
+<clue>Increased expression of IFNgamma-<clueType>induced</clueType> IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to differentiation-dependent changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E36">
+<type class="Cell_differentiation" />
+<theme idref="T50" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the <clueType>differentiation</clueType> <linkTheme>of</linkTheme> U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to differentiation-dependent changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="E36" />
+<clue><clueType>Increased</clueType> expression of IFNgamma-induced IP-10 mRNA <linkCause>following</linkCause> the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to differentiation-dependent changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E138">
+<type class="Positive_regulation" />
+<theme idref="T49" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented <clueType>transcriptional activity</clueType> <linkTheme>of</linkTheme> <corefTheme>the gene</corefTheme> and was related to differentiation-dependent changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E138" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by <clueType>augmented</clueType> transcriptional activity of the gene and was related to differentiation-dependent changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="E38" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was <clueType>mediated</clueType> largely <linkCause>by</linkCause> augmented transcriptional activity of the gene and was related to differentiation-dependent changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E40">
+<type class="Binding" />
+<theme idref="A3" />
+<theme idref="T52" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to differentiation-dependent changes of the proteins <clueType>bound</clueType> <linkTheme>to</linkTheme> IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E101">
+<type class="Binding" />
+<theme idref="A3" />
+<theme idref="T53" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to differentiation-dependent changes of the proteins <clueType>bound</clueType> <linkTheme>to</linkTheme> IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E41">
+<type class="Regulation" />
+<theme idref="E40" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to differentiation-dependent <clueType>changes</clueType> <linkTheme>of</linkTheme> the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E102">
+<type class="Regulation" />
+<theme idref="E101" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to differentiation-dependent <clueType>changes</clueType> <linkTheme>of</linkTheme> the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E42">
+<type class="Regulation" />
+<theme idref="E41" />
+<cause idref="E36" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to <corefCause>differentiation</corefCause>-<clueType>dependent</clueType> changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E103">
+<type class="Regulation" />
+<theme idref="E102" />
+<cause idref="E36" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to <corefCause>differentiation</corefCause>-<clueType>dependent</clueType> changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E43">
+<type class="Correlation" />
+<theme idref="E35" />
+<theme idref="E42" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was <clueType>related</clueType> <linkTheme>to</linkTheme> differentiation-dependent changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E104">
+<type class="Correlation" />
+<theme idref="E35" />
+<theme idref="E103" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was <clueType>related</clueType> <linkTheme>to</linkTheme> differentiation-dependent changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="T57" />
+<cause idref="T55" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to differentiation-dependent changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA <clueType>inducibility</clueType> <linkCause>by</linkCause> IFNgamma.</clue>
+</event>
+<event uncertainty="probable" id="E45">
+<type class="Regulation" />
+<theme idref="E44" />
+<cause idref="A101" />
+<clue>Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to differentiation-dependent changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that <corefCause>these nuclear proteins</corefCause> may <clueType>determine</clueType> the IP-10 mRNA inducibility by IFNgamma.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

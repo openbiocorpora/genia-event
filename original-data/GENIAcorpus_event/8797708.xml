@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="17/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8797708" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8797708</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Interaction of <term sem="Protein_molecule" id="T1" lex="HTLV-I_Tax">HTLV-I Tax</term> with the <term sem="Protein_complex" id="T2" lex="human_proteasome">human <term sem="Protein_complex" id="T3" lex="proteasome">proteasome</term></term>: implications for <term sem="Protein_complex" id="T4" lex="NF-kappa_B">NF-kappa B</term> induction.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T1" />
+<theme idref="T3" />
+<clue><clueType>Interaction</clueType> <linkTheme>of</linkTheme> HTLV-I Tax <linkTheme>with</linkTheme> the human proteasome: implications for NF-kappa B induction.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<clue>Interaction of HTLV-I Tax with the human proteasome: implications for NF-kappa B <clueType>induction</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The human <term sem="Virus" id="T5" lex="T-cell_leukemia_virus_type_I">T-cell leukemia virus type I</term> (<term sem="Virus" id="T6" lex="HTLV-I">HTLV-I</term>) has been etiologically associated with the development of the <term sem="Other" id="T7" lex="adult_T-cell_leukemia">adult T-cell leukemia</term> (<term sem="Other" id="T8" lex="ATL">ATL</term>) as well as degenerative neurologic syndrome termed <term sem="Other" id="T9" lex="tropical_spastic_paraparesis">tropical spastic paraparesis</term> (<term sem="Other" id="T10" lex="TSP">TSP</term>).</sentence>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="T6" />
+<theme idref="T8" />
+<clue>The human T-cell leukemia virus type I (HTLV-I) has been etiologically <clueType>associated</clueType> <linkTheme>with</linkTheme> the development of the adult T-cell leukemia (ATL) as well as degenerative neurologic syndrome termed tropical spastic paraparesis (TSP).</clue>
+</event>
+<event id="E4">
+<type class="Correlation" />
+<theme idref="T6" />
+<theme idref="T10" />
+<clue>The human T-cell leukemia virus type I (HTLV-I) has been etiologically <clueType>associated</clueType> <linkTheme>with</linkTheme> the development of the adult T-cell leukemia (ATL) as well as degenerative neurologic syndrome termed tropical spastic paraparesis (TSP).</clue>
+</event>
+<sentence id="S3"><term sem="Virus" id="T11" lex="HTLV-I">HTLV-I</term> encodes a potent <term sem="Protein_family_or_group" id="T12" lex="transactivator">transactivator</term> protein termed <term sem="Protein_molecule" id="T13" lex="Tax">Tax</term> that appears to play an important role in the process of <term sem="Other" id="T14" lex="T-cell_immortalization"><term sem="Cell_natural" id="A1">T-cell</term> immortalization</term>.</sentence>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<clue>HTLV-I encodes a potent transactivator protein termed Tax that appears to play an important role in the process of T-cell <clueType>immortalization</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T13" />
+<clue>HTLV-I encodes a potent transactivator protein termed Tax that appears to <clueType>play</clueType> an <clueType>important role</clueType> <linkTheme>in</linkTheme> the process of T-cell immortalization.</clue>
+</event>
+<sentence id="S4">Even though the mechanisms by which <term sem="Protein_molecule" id="T15" lex="Tax">Tax</term> induces <term sem="Other" id="A2">transformation</term> are still unknown, it seems likely that the ability of <term sem="Protein_molecule" id="T16" lex="Tax">Tax</term> to alter the expression of many <term sem="DNA_family_or_group" id="T17" lex="cellular_gene">cellular genes</term> plays an important part in this process.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T15" />
+<clue>Even though the mechanisms by which Tax <clueType>induces</clueType> transformation are still unknown, it seems likely that the ability of Tax to alter the expression of many cellular genes plays an important part in this process.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>Even though the mechanisms by which Tax induces transformation are still unknown, it seems likely that the ability of Tax to alter the <clueType>expression</clueType> <linkTheme>of</linkTheme> many cellular genes plays an important part in this process.</clue>
+</event>
+<event uncertainty="probable" id="E9">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="T16" />
+<clue>Even though the mechanisms by which Tax induces transformation are still unknown, it seems likely that the ability of Tax to <clueType>alter</clueType> the expression of many cellular genes plays an important part in this process.</clue>
+</event>
+<event uncertainty="probable" id="E61">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T17" />
+<clue>Even though the mechanisms by which Tax induces transformation are still unknown, it seems likely that the ability of Tax to alter the expression of many cellular genes <clueType>plays</clueType> an <clueType>important part</clueType> <linkTheme>in</linkTheme> <corefTheme>this process</corefTheme>.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T18" lex="Tax">Tax</term> does not bind directly to <term sem="DNA_molecule" id="A3">DNA</term> but rather deregulates the activity of <term sem="Protein_family_or_group" id="T19" lex="cellular_transcription_factor">cellular transcription factors</term>.</sentence>
+<event assertion="non-exist" id="E10">
+<type class="Binding" />
+<theme idref="T18" />
+<theme idref="A3" />
+<clue>Tax does not <clueType>bind</clueType> directly to DNA but rather deregulates the activity of cellular transcription factors.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="T19" />
+<cause idref="T18" />
+<clue>Tax does not bind directly to DNA but rather <clueType>deregulates</clueType> the activity of cellular transcription factors.</clue>
+</event>
+<sentence id="S6">One family of <term sem="Protein_family_or_group" id="T20" lex="host_transcription_factor">host <term sem="Protein_family_or_group" id="T21" lex="transcription_factor">transcription factors</term></term> whose activity is altered by <term sem="Protein_molecule" id="T22" lex="Tax">Tax</term> includes <term sem="Protein_family_or_group" id="T23" lex="NF-kappa_B/Rel">NF-kappa B/Rel</term>.</sentence>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="T23" />
+<cause idref="T22" />
+<clue>One family of host transcription factors whose activity is <clueType>altered</clueType> <linkCause>by</linkCause> Tax includes NF-kappa B/Rel.</clue>
+<comment>NER: T23 MOD</comment>
+</event>
+<sentence id="S7">These <term sem="Protein_family_or_group" id="T24" lex="transcription_factor">transcription factors</term> are post-transcriptionally regulated by their assembly with a second family of <term sem="Protein_family_or_group" id="T25" lex="inhibitory_protein">inhibitory proteins</term> termed <term sem="Protein_family_or_group" id="T26" lex="I_kappa_B">I kappa B</term> that serve to sequester the <term sem="Protein_complex" id="T27" lex="NF-kappa_B/Rel_complex"><term sem="Protein_family_or_group" id="T28" lex="NF-kappa_B/Rel">NF-kappa B/Rel</term> complexes</term> in the <term sem="Cell_component" id="T29" lex="cytoplasm">cytoplasm</term>.</sentence>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="T28" />
+<clue>These transcription factors are post-transcriptionally regulated by their <clueType>assembly</clueType> <linkTheme>with</linkTheme> a second family of inhibitory proteins termed I kappa B that serve to sequester the NF-kappa B/Rel complexes in the cytoplasm.</clue>
+<comment>NER: T28 MOD</comment>
+</event>
+<event id="E114">
+<type class="Localization" />
+<theme idref="T27" />
+<clue>These transcription factors are post-transcriptionally regulated by their assembly with a second family of inhibitory proteins termed I kappa B that serve to <clueType>sequester</clueType> the NF-kappa B/Rel complexes <clueLoc>in the cytoplasm</clueLoc>.</clue>
+</event>
+<event id="E115">
+<type class="Positive_regulation" />
+<theme idref="E114" />
+<cause idref="E13" />
+<clue>These transcription factors are post-transcriptionally regulated by their assembly with a second family of inhibitory proteins termed I kappa B that <clueType>serve</clueType> <linkTheme>to</linkTheme> sequester the NF-kappa B/Rel complexes <clueLoc>in the cytoplasm</clueLoc>.</clue>
+</event>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="T28" />
+<cause idref="E115" />
+<clue><corefTheme>These transcription factors</corefTheme> are <clueType>post-transcriptionally regulated</clueType> <linkCause>by</linkCause> their assembly with a second family of inhibitory proteins termed I kappa B that serve to sequester the NF-kappa B/Rel complexes in the cytoplasm.</clue>
+</event>
+<sentence id="S8">Upon <term sem="Other" id="A4">cellular activation</term>, <term sem="Protein_molecule" id="T30" lex="I_kappa_B_alpha">I kappa B alpha</term> is phosphorylated, polyubiquitinated, and degraded in the <term sem="Protein_complex" id="T31" lex="proteasome">proteasome</term>.</sentence>
+<event id="E16">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T30" />
+<clue>Upon cellular activation, I kappa B alpha is <clueType>phosphorylated</clueType>, polyubiquitinated, and degraded in the proteasome.</clue>
+</event>
+<event id="E17">
+<type class="Protein_ubiquitination" />
+<theme idref="T30" />
+<clue>Upon cellular activation, I kappa B alpha is phosphorylated, <clueType>polyubiquitinated</clueType>, and degraded in the proteasome.</clue>
+</event>
+<event id="E18">
+<type class="Protein_catabolism" />
+<theme idref="T30" />
+<clue>Upon cellular activation, I kappa B alpha is phosphorylated, polyubiquitinated, and <clueType>degraded</clueType> <clueLoc>in the proteasome.</clueLoc></clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="A4" />
+<clue><linkCause>Upon</linkCause> cellular activation, I kappa B alpha is phosphorylated, polyubiquitinated, and degraded in the proteasome.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="A4" />
+<clue><linkCause>Upon</linkCause> cellular activation, I kappa B alpha is phosphorylated, polyubiquitinated, and degraded in the proteasome.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="A4" />
+<clue><linkCause>Upon</linkCause> cellular activation, I kappa B alpha is phosphorylated, polyubiquitinated, and degraded in the proteasome.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S9">This proteolytic event liberates <term sem="Protein_complex" id="T32" lex="NF-kappa_B">NF-kappa B</term>, permitting its rapid translocation into the <term sem="Cell_component" id="T33" lex="nucleus">nucleus</term> where it binds to its <term sem="DNA_domain_or_region" id="T34" lex="cognate_enhancer_element">cognate enhancer elements</term>.</sentence>
+<event id="E122">
+<type />
+<theme idref="T32" />
+<clue>This proteolytic event <clueType>liberates</clueType> NF-kappa B, permitting its rapid translocation into the nucleus where it binds to its cognate enhancer elements.</clue>
+<comment>SOO</comment>
+</event>
+<event id="E123">
+<type class="Positive_regulation" />
+<theme idref="E122" />
+<cause idref="E21" />
+<clue><linkCause>This proteolytic event</linkCause> liberates NF-kappa B, permitting its rapid translocation into the nucleus where it binds to its cognate enhancer elements.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E23">
+<type class="Localization" />
+<theme idref="T32" />
+<clue>This proteolytic event liberates NF-kappa B, permitting its rapid <clueType>translocation</clueType> <clueLoc>into the nucleus</clueLoc> where it binds to its cognate enhancer elements.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E123" />
+<clue>This proteolytic event liberates NF-kappa B, <clueType>permitting</clueType> its rapid translocation into the nucleus where it binds to its cognate enhancer elements.</clue>
+</event>
+<event id="E25">
+<type class="Binding" />
+<theme idref="T32" />
+<theme idref="T34" />
+<clue>This proteolytic event liberates NF-kappa B, permitting its rapid translocation into the <clueLoc>nucleus</clueLoc> where it <clueType>binds</clueType> to its cognate enhancer elements.</clue>
+</event>
+<sentence id="S10">Similarly, the <term sem="Protein_molecule" id="T35" lex="p105_precursor">p105 precursor</term> of the <term sem="Protein_complex" id="T36" lex="NF-kappa_B">NF-kappa B</term> <term sem="Protein_molecule" id="T37" lex="p50_subunit">p50 subunit</term> is also post-translationally processed in the <term sem="Protein_complex" id="T38" lex="proteasome">proteasome</term>.</sentence>
+<event id="E26">
+<type class="Protein_processing" />
+<theme idref="T35" />
+<clue>Similarly, the p105 precursor of the NF-kappa B p50 subunit is also <clueType>post-translationally processed</clueType> <clueLoc>in the proteasome</clueLoc>.</clue>
+</event>
+<sentence id="S11">The mechanisms by which <term sem="Protein_molecule" id="T39" lex="Tax">Tax</term> activates <term sem="Protein_complex" id="T40" lex="NF-kappa_B">NF-kappa B</term> remain unclear, and findings presented in the literature are often controversial.</sentence>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<cause idref="T39" />
+<clue>The mechanisms by which Tax <clueType>activates</clueType> NF-kappa B remain unclear, and findings presented in the literature are often controversial.</clue>
+</event>
+<sentence id="S12">We identified a physical interaction between <term sem="Protein_molecule" id="T41" lex="Tax">Tax</term> and the <term sem="Protein_molecule" id="T42" lex="HsN3_subunit">HsN3 subunit</term> of the <term sem="Protein_complex" id="T43" lex="human_proteasome">human <term sem="Protein_complex" id="T44" lex="proteasome">proteasome</term></term>.</sentence>
+<event id="E28">
+<type class="Binding" />
+<theme idref="T41" />
+<theme idref="T44" />
+<clue>We identified a <clueType>physical interaction</clueType> <linkTheme>between</linkTheme> Tax and the HsN3 subunit of the human proteasome.</clue>
+</event>
+<sentence id="S13">This raises the intriguing possibility that physical association of the <term sem="Protein_molecule" id="T45" lex="HsN3_proteasome_subuni">HsN3 <term sem="Protein_complex" id="T46" lex="proteasome">proteasome</term> subunit</term> with <term sem="Protein_molecule" id="T47" lex="HTLV-I_Tax"><term sem="Virus" id="T48" lex="HTLV-I">HTLV-I</term> <term sem="Protein_molecule" id="T49" lex="Tax">Tax</term></term> coupled with the independent interaction of <term sem="Protein_molecule" id="T50" lex="Tax">Tax</term> with either <term sem="Protein_molecule" id="A5">p100</term> or <term sem="Protein_molecule" id="A6">p65</term>-<term sem="Protein_molecule" id="T51" lex="I_kappa_B_alpha">I kappa B alpha</term> targets these <term sem="Protein_complex" id="T52" lex="cytoplasmic_NF-kappa_B/Rel_complex">cytoplasmic <term sem="Protein_complex" id="T53" lex="NF-kappa_B/Rel">NF-kappa B/Rel</term> complexes</term> to the <term sem="Protein_complex" id="T54" lex="proteasome">proteasome</term> for processing.</sentence>
+<event id="E29">
+<type class="Binding" />
+<theme idref="T45" />
+<theme idref="T49" />
+<clue>This raises the intriguing possibility that <clueType>physical association</clueType> <linkTheme>of</linkTheme> the HsN3 proteasome subunit <linkTheme>with</linkTheme> HTLV-I Tax coupled with the independent interaction of Tax with either p100 or p65-I kappa B alpha targets these cytoplasmic NF-kappa B/Rel complexes to the proteasome for processing.</clue>
+</event>
+<event id="E30">
+<type class="Binding" />
+<theme idref="T50" />
+<theme idref="T51" />
+<theme idref="A5" />
+<clue>This raises the intriguing possibility that physical association of the HsN3 proteasome subunit with HTLV-I Tax coupled with the independent <clueType>interaction</clueType> <linkTheme>of</linkTheme> Tax <linkTheme>with</linkTheme> either p100 or p65-I kappa B alpha targets these cytoplasmic NF-kappa B/Rel complexes to the proteasome for processing.</clue>
+</event>
+<event id="E31">
+<type class="Binding" />
+<theme idref="T50" />
+<theme idref="T51" />
+<theme idref="A6" />
+<clue>This raises the intriguing possibility that physical association of the HsN3 proteasome subunit with HTLV-I Tax coupled with the independent <clueType>interaction</clueType> <linkTheme>of</linkTheme> Tax <linkTheme>with</linkTheme> either p100 or p65-I kappa B alpha targets these cytoplasmic NF-kappa B/Rel complexes to the proteasome for processing.</clue>
+</event>
+<event id="E32">
+<type class="Localization" />
+<theme idref="T52" />
+<clue>This raises the intriguing possibility that physical association of the HsN3 proteasome subunit with HTLV-I Tax coupled with the independent interaction of Tax with either p100 or p65-I kappa B alpha <clueType>targets</clueType> these cytoplasmic NF-kappa B/Rel complexes <clueLoc>to the proteasome</clueLoc> for processing.</clue>
+</event>
+<event uncertainty="probable" id="E33">
+<type class="Positive_regulation" />
+<theme idref="T52" />
+<cause idref="E30" />
+<cause idref="E29" />
+<clue>This raises the intriguing possibility that physical association of the HsN3 proteasome subunit with HTLV-I Tax <linkCause>coupled with</linkCause> the independent interaction of Tax with either p100 or p65-I kappa B alpha targets these cytoplasmic NF-kappa B/Rel complexes to the proteasome for processing.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event uncertainty="probable" id="E34">
+<type class="Positive_regulation" />
+<theme idref="T52" />
+<cause idref="E31" />
+<cause idref="E29" />
+<clue>This raises the intriguing possibility that physical association of the HsN3 proteasome subunit with HTLV-I Tax <linkCause>coupled with</linkCause> the independent interaction of Tax with either p100 or p65-I kappa B alpha targets these cytoplasmic NF-kappa B/Rel complexes to the proteasome for processing.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

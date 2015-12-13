@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="16/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1763325" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1763325</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Characterization of a <term sem="Protein_family_or_group" id="T1" lex="cofactor">cofactor</term> that regulates <term sem="Other" id="T2" lex="dimerization">dimerization</term> of a <term sem="Protein_family_or_group" id="T3" lex="mammalian_homeodomain_protein">mammalian homeodomain protein</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Characterization of a cofactor that <clueType>regulates</clueType> dimerization of a mammalian homeodomain protein.</clue>
+<comment>NER: T1 sem mod, Protein_family_or_group -&gt; Protein_molecule</comment>
+</event>
+<event id="E2">
+<type class="Binding" />
+<theme idref="T3" />
+<clue>Characterization of a cofactor that regulates <clueType>dimerization</clueType> <linkTheme>of</linkTheme> a mammalian homeodomain protein.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T4" lex="dimerization">Dimerization</term> among <term sem="Protein_family_or_group" id="T5" lex="transcription_factor">transcription factors</term> has become a recurrent theme in the regulation of eukaryotic <term sem="Other" id="A2">gene expression</term>.</sentence>
+<event id="E3">
+<type class="Binding" />
+<theme idref="T5" />
+<clue><clueType>Dimerization</clueType> <linkTheme>among</linkTheme> transcription factors has become a recurrent theme in the regulation of eukaryotic gene expression.</clue>
+</event>
+<event uncertainty="doubtful" id="E4">
+<type class="Regulation" />
+<theme idref="A2" />
+<cause idref="E3" />
+<clue>Dimerization among transcription factors has become a recurrent theme in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> <clueLoc>eukaryotic</clueLoc> gene expression.</clue>
+<comment>NER: T6 del &quot;eukaryotic gene expression&quot;</comment>
+</event>
+<sentence id="S3"><term sem="Protein_molecule" id="T7" lex="hepatocyte_nuclear_factor-1_alpha">Hepatocyte nuclear factor-1 alpha</term> (<term sem="Protein_molecule" id="T8" lex="HNF-1_alpha">HNF-1 alpha</term>) is a <term sem="Protein_family_or_group" id="T9" lex="homeodomain-containing_protein">homeodomain-containing protein</term> that functions as a <term sem="Protein_complex" id="T10" lex="dimer">dimer</term>.</sentence>
+<sentence id="S4">A <term sem="Protein_family_or_group" id="T11" lex="dimerization_cofactor">dimerization <term sem="Protein_family_or_group" id="T12" lex="cofactor">cofactor</term></term> of <term sem="Protein_molecule" id="T13" lex="HNF-1_alpha">HNF-1 alpha</term> (<term sem="Protein_molecule" id="T14" lex="DCoH">DCoH</term>) was identified that displayed a restricted tissue distribution and did not bind to <term sem="DNA_domain_or_region" id="A4">DNA</term>, but, rather, selectively stabilized <term sem="Protein_complex" id="T15" lex="HNF-1_alpha_dimer"><term sem="Protein_molecule" id="T16" lex="HNF-1_alpha">HNF-1 alpha</term> dimers</term>.</sentence>
+<event id="E7">
+<type class="Localization" />
+<theme idref="T14" />
+<clue>A dimerization cofactor of HNF-1 alpha (DCoH) was identified that displayed a <clueType>restricted</clueType> <clueLoc>tissue</clueLoc> <clueType>distribution</clueType> and did not bind to DNA, but, rather, selectively stabilized HNF-1 alpha dimers.</clue>
+</event>
+<event assertion="non-exist" id="E8">
+<type class="Binding" />
+<theme idref="T14" />
+<theme idref="A4" />
+<clue>A dimerization cofactor of HNF-1 alpha (DCoH) was identified that displayed a restricted tissue distribution and did not <clueType>bind</clueType> <linkTheme>to</linkTheme> DNA, but, rather, selectively stabilized HNF-1 alpha dimers.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<cause idref="T14" />
+<clue>A dimerization cofactor of HNF-1 alpha (DCoH) was identified that displayed a restricted tissue distribution and did not bind to DNA, but, rather, selectively <clueType>stabilized</clueType> HNF-1 alpha dimers.</clue>
+<comment>NER: T10 in S4 sem mod, Protein_family_or_group -&gt; Protein_complex</comment>
+</event>
+<sentence id="S5">The formation of a stable <term sem="Protein_complex" id="T17" lex="tetrameric_DCoH-HNF-1_alpha_complex">tetrameric <term sem="Protein_molecule" id="A5">DCoH</term>-<term sem="Protein_molecule" id="A10">HNF-1 alpha</term> complex</term>, which required the <term sem="Protein_domain_or_region" id="A6"><term sem="Protein_domain_or_region" id="T18" lex="dimerization_domain">dimerization domain</term> of <term sem="Protein_molecule" id="T19" lex="HNF-1_alpha">HNF-1 alpha</term></term>, did not change the <term sem="Other" id="T20" lex="DNA_binding_characteristic"><term sem="DNA_domain_or_region" id="A7">DNA</term> binding characteristics</term> of <term sem="Protein_molecule" id="T21" lex="HNF-1_alpha">HNF-1 alpha</term>, but enhanced its <term sem="Other" id="T22" lex="transcriptional_activity">transcriptional activity</term>.</sentence>
+<event id="E12">
+<type class="Binding" />
+<theme idref="A5" />
+<theme idref="A10" />
+<clue>The <clueType>formation</clueType> <linkTheme>of</linkTheme> a stable <clueType>tetrameric</clueType> DCoH-HNF-1 alpha <clueType>complex</clueType>, which required the dimerization domain of HNF-1 alpha, did not change the DNA binding characteristics of HNF-1 alpha, but enhanced its transcriptional activity.</clue>
+</event>
+<event id="E5">
+<type class="Protein_metabolism" />
+<theme idref="T17" />
+<clue>The <clueType>formation</clueType> <linkTheme>of</linkTheme> a stable tetrameric DCoH-HNF-1 alpha complex, which required the dimerization domain of HNF-1 alpha, did not change the DNA binding characteristics of HNF-1 alpha, but enhanced its transcriptional activity.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="A6" />
+<clue>The formation of a stable tetrameric DCoH-HNF-1 alpha complex, which <clueType>required</clueType> the dimerization domain of HNF-1 alpha, did not change the DNA binding characteristics of HNF-1 alpha, but enhanced its transcriptional activity.</clue>
+<comment>TPS: A6</comment>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="E12" />
+<clue>The formation of a stable tetrameric DCoH-HNF-1 alpha complex, which required the dimerization domain of HNF-1 alpha, did not <clueType>change</clueType> the DNA binding characteristics of HNF-1 alpha, but enhanced its transcriptional activity.</clue>
+</event>
+<event id="E15">
+<type class="Binding" />
+<theme idref="A7" />
+<theme idref="T21" />
+<clue>The formation of a stable tetrameric DCoH-HNF-1 alpha complex, which required the dimerization domain of HNF-1 alpha, did not change the DNA <clueType>binding</clueType> characteristics <linkTheme>of</linkTheme> HNF-1 alpha, but enhanced its transcriptional activity.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E12" />
+<clue>The formation of a stable tetrameric DCoH-HNF-1 alpha complex, which required the dimerization domain of HNF-1 alpha, did not change the DNA binding characteristics of HNF-1 alpha, but <clueType>enhanced</clueType> its transcriptional activity.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<cause idref="T21" />
+<clue>The formation of a stable tetrameric DCoH-HNF-1 alpha complex, which required the dimerization domain of HNF-1 alpha, did not change the DNA binding characteristics of HNF-1 alpha, but enhanced <corefCause>its</corefCause> <clueType>transcriptional activity</clueType>.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S6">However, <term sem="Protein_molecule" id="T23" lex="DCoH">DCoH</term> did not confer <term sem="Other" id="T24" lex="transcriptional_activation">transcriptional activation</term> to the <term sem="Protein_domain_or_region" id="T25" lex="GAL4_DNA_binding_domain">GAL4 DNA binding domain</term>.</sentence>
+<event assertion="non-exist" id="E18">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T23" />
+<clue>However, DCoH did not <clueType>confer</clueType> transcriptional activation to the GAL4 DNA binding domain.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<cause idref="T25" />
+<clue>However, DCoH did not confer <clueType>transcriptional activation</clueType> <linkCause>to</linkCause> the GAL4 DNA binding domain.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S7">These results indicate that <term sem="Protein_molecule" id="T26" lex="DCoH">DCoH</term> regulates formation of transcriptionally active <term sem="Protein_complex" id="T27" lex="tetrameric_complex">tetrameric complexes</term> and may contribute to the <term sem="Other" id="T28" lex="developmental_specificity">developmental specificity</term> of the <term sem="Protein_complex" id="T29" lex="complex">complex</term>.</sentence>
+<event id="E20">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="T26" />
+<clue>These results indicate that DCoH <clueType>regulates</clueType> formation of transcriptionally active tetrameric complexes and may contribute to the developmental specificity of the complex.</clue>
+</event>
+<event id="E23">
+<type class="Protein_metabolism" />
+<theme idref="T27" />
+<clue>These results indicate that DCoH regulates <clueType>formation</clueType> <linkTheme>of</linkTheme> transcriptionally active tetrameric complexes and may contribute to the developmental specificity of the complex.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<cause idref="T27" />
+<clue>These results indicate that DCoH regulates formation of <clueType>transcriptionally active</clueType> tetrameric complexes and may contribute to the developmental specificity of the complex.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T26" />
+<clue>These results indicate that DCoH regulates formation of transcriptionally active tetrameric complexes and may <clueType>contribute</clueType> <linkTheme>to</linkTheme> the developmental specificity of the complex.</clue>
+</event>
+<event id="E26">
+<type class="Correlation" />
+<theme idref="T27" />
+<clue>These results indicate that DCoH regulates formation of transcriptionally active tetrameric complexes and may contribute to the <clueType>developmental specificity</clueType> <linkTheme>of</linkTheme> the complex.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

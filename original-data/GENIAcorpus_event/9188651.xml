@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/04/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9188651">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9188651</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Virus" id="T1" lex="Human_cytomegalovirus">Human cytomegalovirus</term> induces <term sem="Other" id="T2" lex="interleukin-8_production"><term sem="Protein_molecule" id="T3" lex="interleukin-8">interleukin-8</term> production</term> by a <term sem="Cell_cultured" id="T4" lex="human_monocytic_cell_line">human monocytic cell line</term>, <term sem="Cell_cultured" id="T5" lex="THP-1">THP-1</term>, through acting concurrently on <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T6" lex="(AND AP-1-binding_site NF-kappaB-binding_site)"><frag id="F1"><term sem="DNA_domain_or_region" id="A1">AP-1-</term></frag> and <frag id="F2"><term sem="DNA_domain_or_region" id="A2">NF-kappaB-</term></frag><frag id="F3"><term sem="DNA_domain_or_region" id="A3">binding sites</term></frag></cons> of the <term sem="DNA_domain_or_region" id="T7" lex="interleukin-8_gene"><term sem="Protein_molecule" id="T8" lex="interleukin-8">interleukin-8</term> gene</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>Human cytomegalovirus induces interleukin-8 <clueType>production</clueType> <clueLoc>by a human monocytic cell line, THP-1</clueLoc>, through acting concurrently on AP-1- and NF-kappaB-binding sites of the interleukin-8 gene.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref1="A3" idref="A1" />
+<cause idref="T1" />
+<clue>Human cytomegalovirus induces interleukin-8 production by a human monocytic cell line, THP-1, through <clueType>acting</clueType> concurrently <linkTheme>on</linkTheme> AP-1- and NF-kappaB-binding sites of the interleukin-8 gene.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref1="A3" idref="A2" />
+<cause idref="T1" />
+<clue>Human cytomegalovirus induces interleukin-8 production by a human monocytic cell line, THP-1, through <clueType>acting</clueType> concurrently <linkTheme>on</linkTheme> AP-1- and NF-kappaB-binding sites of the interleukin-8 gene.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="E2" />
+<clue>Human cytomegalovirus <clueType>induces</clueType> interleukin-8 production by a human monocytic cell line, THP-1, <linkCause>through</linkCause> acting concurrently on AP-1- and NF-kappaB-binding sites of the interleukin-8 gene.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="E3" />
+<clue>Human cytomegalovirus <clueType>induces</clueType> interleukin-8 production by a human monocytic cell line, THP-1, <linkCause>through</linkCause> acting concurrently on AP-1- and NF-kappaB-binding sites of the interleukin-8 gene.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T9" lex="cytomegalovirus_(CMV)_infection"><term sem="Virus" id="T10" lex="cytomegalovirus">Cytomegalovirus</term> (<term sem="Virus" id="A4">CMV</term>) infection</term> induced <term sem="Other" id="T11" lex="interleukin-8_(IL-8)_gene_transcription"><term sem="DNA_domain_or_region" id="A5"><term sem="Protein_molecule" id="T12" lex="interleukin-8">interleukin-8</term> (<term sem="Protein_molecule" id="T13" lex="IL-8">IL-8</term>) gene</term> transcription</term> in a <term sem="Cell_cultured" id="T14" lex="human_monocytic_cell_line">human monocytic cell line</term>, <term sem="Cell_cultured" id="T15" lex="THP-1_cell">THP-1 cells</term>, leading to <term sem="Other" id="T16" lex="IL-8_secretion"><term sem="Protein_molecule" id="T17" lex="IL-8">IL-8</term> secretion</term>.</sentence>
+<event id="E6">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T10" />
+<clue>Cytomegalovirus (CMV) <clueType>infection</clueType> induced interleukin-8 (IL-8) gene transcription in a human monocytic cell line, THP-1 cells, leading to IL-8 secretion.</clue>
+</event>
+<event id="E7">
+<type class="Transcription" />
+<theme idref="A5" />
+<clue>Cytomegalovirus (CMV) infection induced interleukin-8 (IL-8) gene <clueType>transcription</clueType> in a human monocytic cell line, THP-1 cells, leading to IL-8 secretion.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E6" />
+<clue>Cytomegalovirus (CMV) infection <clueType>induced</clueType> interleukin-8 (IL-8) gene transcription <clueLoc>in a human monocytic cell line, THP-1 cells</clueLoc>, leading to IL-8 secretion.</clue>
+</event>
+<event id="E9">
+<type class="Localization" />
+<theme idref="T17" />
+<clue>Cytomegalovirus (CMV) infection induced interleukin-8 (IL-8) gene transcription in a human monocytic cell line, THP-1 cells, leading to IL-8 <clueType>secretion</clueType>.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E8" />
+<clue>Cytomegalovirus (CMV) infection induced interleukin-8 (IL-8) gene transcription in a human monocytic cell line, THP-1 cells, <clueType>leading</clueType> <linkTheme>to</linkTheme> IL-8 secretion.</clue>
+</event>
+<sentence id="S3">The functional analysis of the <term sem="DNA_domain_or_region" id="T18" lex="IL-8_gene"><term sem="Protein_molecule" id="T19" lex="IL-8">IL-8</term> gene</term> revealed that both <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T20" lex="(AND AP-1-binding_element NF-kappaB_factor-binding_element)"><frag id="F4"><term sem="DNA_domain_or_region" id="A6">AP-1-</term></frag> and <frag id="F5"><term sem="DNA_domain_or_region" id="A7">NF-kappaB factor-</term></frag><frag id="F6"><term sem="DNA_domain_or_region" id="A8">binding elements</term></frag></cons> were involved in conferring the responsiveness to <term sem="Virus" id="T21" lex="CMV">CMV</term>.</sentence>
+<event id="E11">
+<type class="Physiological_process" />
+<cause idref="T21" />
+<clue>The functional analysis of the IL-8 gene revealed that both AP-1- and NF-kappaB factor-binding elements were involved in conferring the <clueType>responsiveness</clueType> <linkCause>to</linkCause> CMV.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref1="A8" idref="A6" />
+<clue>The functional analysis of the IL-8 gene revealed that both AP-1- and NF-kappaB factor-binding elements were <clueType>involved in conferring</clueType> the responsiveness to CMV.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref1="A8" idref="A7" />
+<clue>The functional analysis of the IL-8 gene revealed that both AP-1- and NF-kappaB factor-binding elements were <clueType>involved in conferring</clueType> the responsiveness to CMV.</clue>
+</event>
+<sentence id="S4">Moreover, <term sem="Other" id="T22" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assays</term> demonstrated that <term sem="Virus" id="T23" lex="CMV">CMV</term> induced the formation of <term sem="Protein_complex" id="T24" lex="NF-kappaB">NF-kappaB</term> and <term sem="Protein_complex" id="T25" lex="AP-1_complex">AP-1 <term sem="Protein_complex" id="A9">complexes</term></term>.</sentence>
+<event id="E14">
+<type class="Binding" />
+<theme idref1="A9" idref="T24" />
+<clue>Moreover, electrophoretic mobility shift assays demonstrated that CMV induced the <clueType>formation</clueType> <linkTheme>of</linkTheme> NF-kappaB and AP-1 complexes.</clue>
+</event>
+<event id="E15">
+<type class="Binding" />
+<theme idref="T25" />
+<clue>Moreover, electrophoretic mobility shift assays demonstrated that CMV induced the <clueType>formation</clueType> <linkTheme>of</linkTheme> NF-kappaB and AP-1 complexes.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T23" />
+<clue>Moreover, <clueExperiment>electrophoretic mobility shift assays</clueExperiment> demonstrated that CMV <clueType>induced</clueType> the formation of NF-kappaB and AP-1 complexes.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="T23" />
+<clue>Moreover, <clueExperiment>electrophoretic mobility shift assays</clueExperiment> demonstrated that CMV <clueType>induced</clueType> the formation of NF-kappaB and AP-1 complexes.</clue>
+</event>
+<sentence id="S5">These results suggest that <term sem="Virus" id="T26" lex="CMV">CMV</term> activates these <term sem="Protein_family_or_group" id="T27" lex="transcriptional_factor">transcriptional factors</term>, resulting in <term sem="Other" id="T28" lex="IL-8_gene_expression"><term sem="DNA_domain_or_region" id="A10"><term sem="Protein_molecule" id="T29" lex="IL-8">IL-8</term> gene</term> expression</term>.</sentence>
+<event uncertainty="probable" id="E18">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="T26" />
+<clue>These results suggest that CMV <clueType>activates</clueType> <corefTheme>these transcriptional factors</corefTheme>, resulting in IL-8 gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E19">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<cause idref="T26" />
+<clue>These results suggest that CMV <clueType>activates</clueType> <corefTheme>these transcriptional factors</corefTheme>, resulting in IL-8 gene expression.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="A10" />
+<clue>These results suggest that CMV activates these transcriptional factors, resulting in IL-8 gene <clueType>expression</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E18" />
+<clue>These results suggest that CMV activates these transcriptional factors, <clueType>resulting</clueType> <linkTheme>in</linkTheme> IL-8 gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E19" />
+<clue>These results suggest that CMV activates these transcriptional factors, <clueType>resulting</clueType> <linkTheme>in</linkTheme> IL-8 gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

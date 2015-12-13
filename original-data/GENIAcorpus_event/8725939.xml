@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/01/07" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8725939" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8725939</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of <term sem="Other" id="T1" lex="gene_expression">gene expression</term> at early stages of <cons sem="(AND Other Other)" id="T2" lex="(AND B-cell_differentiation T-cell_differentiation)"><frag id="F1"><term sem="Cell_natural" id="A1">B-cell</term></frag> and <frag id="F2"><term sem="Cell_natural" id="A2">T-cell</term></frag> <frag id="F3">differentiation</frag></cons>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T1" />
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> gene expression <clueTime>at early stages of B-cell and T-cell differentiation</clueTime>.</clue>
+</event>
+<event id="E2">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>Regulation of gene expression at early stages of B-cell and T-cell <clueType>differentiation</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Cell_differentiation" />
+<theme idref="A2" />
+<clue>Regulation of gene expression at early stages of B-cell and T-cell <clueType>differentiation</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The expression of distinct sets of <term sem="DNA_domain_or_region" id="A3">genes</term> at different stages of <cons sem="(AND Other Other)" id="T3" lex="(AND B-lymphocyte_differentiation T-lymphocyte_differentiation)"><frag id="F4"><term sem="Cell_natural" id="A4">B-lymphocyte</term></frag> and <frag id="F5"><term sem="Cell_natural" id="A5">T-lymphocyte</term></frag> <frag id="F6">differentiation</frag></cons> is controlled at the level of transcription.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="A3" />
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> distinct sets of genes <clueTime>at different stages of B-lymphocyte and T-lymphocyte differentiation</clueTime> is controlled at the level of transcription.</clue>
+</event>
+<event id="E5">
+<type class="Cell_differentiation" />
+<theme idref="A4" />
+<clue>The expression of distinct sets of genes at different stages of B-lymphocyte and T-lymphocyte <clueType>differentiation</clueType> is controlled at the level of transcription.</clue>
+</event>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="A5" />
+<clue>The expression of distinct sets of genes at different stages of B-lymphocyte and T-lymphocyte <clueType>differentiation</clueType> is controlled at the level of transcription.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="E9" />
+<clue>The expression of distinct sets of genes at different stages of B-lymphocyte and T-lymphocyte differentiation is <clueType>controlled</clueType> <linkCause>at</linkCause> the level of transcription.</clue>
+</event>
+<event id="E8">
+<type class="Transcription" />
+<theme idref="A3" />
+<clue>The expression of distinct sets of genes at different stages of B-lymphocyte and T-lymphocyte differentiation is controlled at the level of <clueType>transcription</clueType>.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="E8" />
+<clue>The expression of distinct sets of genes at different stages of B-lymphocyte and T-lymphocyte differentiation is controlled at the <clueType>level</clueType> <linkTheme>of</linkTheme> transcription.</clue>
+</event>
+<sentence id="S3">A number of recent studies have described interactions between <term sem="Protein_family_or_group" id="T4" lex="transcription_factor">transcription factors</term> in <term sem="Tissue_natural" id="T5" lex="lymphocyte">lymphocytes</term> that provide new insights into <term sem="Other" id="A6">mechanisms</term> regulating <term sem="Other" id="T6" lex="gene_expression">gene expression</term>.</sentence>
+<event id="E10">
+<type class="Correlation" />
+<theme idref="T4" />
+<clue>A number of recent studies have described <clueType>interactions</clueType> <linkTheme>between</linkTheme> transcription factors <clueLoc>in lymphocytes</clueLoc> that provide new insights into mechanisms regulating gene expression.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="T6" />
+<cause idref="A6" />
+<clue>A number of recent studies have described interactions between transcription factors in lymphocytes that provide new insights into mechanisms <clueType>regulating</clueType> gene expression.</clue>
+</event>
+<sentence id="S4">These mechanisms include the assembly of <term sem="Protein_complex" id="T7" lex="higher_order_nucleoprotein_complex">higher order nucleoprotein complexes</term> and other <term sem="Other" id="T8" lex="protein-protein_interaction"><term sem="Protein_molecule" id="A7">protein</term>-<term sem="Protein_molecule" id="A8">protein</term> interactions</term> that enhance the <term sem="Other" id="A9">functional specificity of <term sem="Protein_family_or_group" id="T9" lex="transcriptional_regulator">transcriptional regulators</term></term> in <term sem="Tissue_natural" id="T10" lex="lymphocyte">lymphocytes</term>.</sentence>
+<event id="E12">
+<type class="Protein_metabolism" />
+<theme idref="T7" />
+<clue>These mechanisms include the <clueType>assembly</clueType> <linkTheme>of</linkTheme> higher order nucleoprotein complexes and other protein-protein interactions that enhance the functional specificity of transcriptional regulators in lymphocytes.</clue>
+</event>
+<event id="E17">
+<type class="Binding" />
+<theme idref="A7" />
+<theme idref="A8" />
+<clue>These mechanisms include the assembly of higher order nucleoprotein complexes and other protein-protein <clueType>interactions</clueType> that enhance the functional specificity of transcriptional regulators in lymphocytes.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="A9" />
+<cause idref="E17" />
+<clue>These mechanisms include the assembly of higher order nucleoprotein complexes and other protein-protein interactions that <clueType>enhance</clueType> the functional specificity of transcriptional regulators <clueLoc>in lymphocytes</clueLoc>.</clue>
+<comment>TPS A9</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

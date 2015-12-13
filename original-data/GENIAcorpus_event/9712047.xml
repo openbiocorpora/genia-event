@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="23/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9712047" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9712047</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T2" lex="cyclosporin_A">Cyclosporin A</term>-resistant <term sem="Other" id="T1">transactivation</term> of the <term sem="DNA_domain_or_region" id="T3" lex="IL-2_promoter"><term sem="Protein_molecule" id="T4" lex="IL-2">IL-2</term> promoter</term> requires activity of <term sem="Protein_family_or_group" id="T5" lex="okadaic_acid-sensitive_serine/threonine_phosphatase"><term sem="Organic_compound_other" id="A5">okadaic acid</term>-sensitive <term sem="Protein_family_or_group" id="A3"><term sem="Amino_acid_monomer" id="T6" lex="serine">serine</term><term sem="Amino_acid_monomer" id="T7" lex="threonine">/threonine</term> phosphatases</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T3" />
+<clue>Cyclosporin A-resistant <clueType>transactivation</clueType> <linkTheme>of</linkTheme> the IL-2 promoter requires activity of okadaic acid-sensitive serine/threonine phosphatases.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="A3" />
+<clue>Cyclosporin A-resistant transactivation of the IL-2 promoter <clueType>requires</clueType> activity of okadaic acid-sensitive serine/threonine phosphatases.</clue>
+</event>
+<event assertion="non-exist" id="E3">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T2" />
+<clue>Cyclosporin A-<clueType>resistant</clueType> transactivation of the IL-2 promoter requires activity of okadaic acid-sensitive serine/threonine phosphatases.</clue>
+</event>
+<event id="E32">
+<type class="Regulation" />
+<theme idref="A3" />
+<cause idref="A5" />
+<clue>Cyclosporin A-resistant transactivation of the IL-2 promoter requires activity of okadaic acid-<clueType>sensitive</clueType> serine/threonine phosphatases.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Expression of the <term sem="DNA_domain_or_region" id="T8" lex="IL-2_gene"><term sem="Protein_molecule" id="T9" lex="IL-2">IL-2</term> gene</term> requires activation of <term sem="Cell_natural" id="T10" lex="T_cell">T cells</term> through stimulation of the <term sem="Protein_molecule" id="T11" lex="TCR">TCR</term> and costimulation through <term sem="Protein_family_or_group" id="T12" lex="accessory_receptor">accessory receptors</term>.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue><clueType>Expression</clueType> of the IL-2 gene requires activation of T cells through stimulation of the TCR and costimulation through accessory receptors.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E7" />
+<clue>Expression of the IL-2 gene <clueType>requires</clueType> activation of T cells through stimulation of the TCR and costimulation through accessory receptors.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E9" />
+<clue>Expression of the IL-2 gene <clueType>requires</clueType> activation of T cells through stimulation of the TCR and costimulation through accessory receptors.</clue>
+</event>
+<event id="E7">
+<type class="Physiological_process" />
+<theme idref="T10" />
+<cause idref="E8" />
+<clue>Expression of the IL-2 gene requires <clueType>activation</clueType> <linkTheme>of</linkTheme> T cells through stimulation of the TCR and costimulation through accessory receptors.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E8" />
+<clue>Expression of the IL-2 gene requires activation of T cells <linkCause>through</linkCause> stimulation of the TCR and costimulation through accessory receptors.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E9" />
+<clue>Expression of the IL-2 gene requires activation of T cells <linkCause>through</linkCause> stimulation of the TCR and costimulation through accessory receptors.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<clue>Expression of the IL-2 gene requires activation of T cells through <clueType>stimulation</clueType> <linkTheme>of</linkTheme> the TCR and costimulation through accessory receptors.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<clue>Expression of the IL-2 gene requires activation of T cells through stimulation of the TCR and <clueType>costimulation</clueType> <linkTheme>through</linkTheme> accessory receptors.</clue>
+</event>
+<sentence id="S3">We have found recently that <term sem="Protein_family_or_group" id="T13" lex="okadaic_acid-sensitive_Ser/Thr_phosphatase"><term sem="Organic_compound_other" id="A6">okadaic acid</term>-sensitive <term sem="Protein_family_or_group" id="A4"><term sem="Amino_acid_monomer" id="T14" lex="Ser">Ser</term><term sem="Amino_acid_monomer" id="T15" lex="Thr">/Thr</term> phosphatases</term></term> are involved in a <term sem="Organic_compound_other" id="T17" lex="cyclosporin_A">cyclosporin A</term>-insensitive <term sem="Other" id="T35">pathway</term> that selectively transmits <term sem="Other" id="A20">costimulatory signals</term>.</sentence>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="T35" />
+<cause idref="T13" />
+<clue>We have found recently that okadaic acid-sensitive Ser/Thr phosphatases are <clueType>involved</clueType> <linkTheme>in</linkTheme> a cyclosporin A-insensitive pathway that selectively transmits costimulatory signals.</clue>
+</event>
+<event id="E17">
+<type class="Cell_communication" />
+<theme idref="A20" />
+<clue>We have found recently that okadaic acid-sensitive Ser/Thr phosphatases are involved in a cyclosporin A-insensitive pathway that selectively <clueType>transmits</clueType> costimulatory signals.</clue>
+</event>
+<event assertion="non-exist" id="E11">
+<type class="Regulation" />
+<theme idref="E17" />
+<cause idref="T17" />
+<clue>We have found recently that okadaic acid-sensitive Ser/Thr phosphatases are involved in a cyclosporin A-<clueType>insensitive</clueType> pathway that selectively transmits costimulatory signals.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="A6" />
+<cause idref="A4" />
+<clue>We have found recently that okadaic acid-<clueType>sensitive</clueType> Ser/Thr phosphatases are involved in a cyclosporin A-insensitive pathway that selectively transmits costimulatory signals.</clue>
+</event>
+<sentence id="S4">In this study, we analyzed whether activities of these phosphatases are necessary for the expression of the <term sem="DNA_domain_or_region" id="T18" lex="IL-2_gene"><term sem="Protein_molecule" id="T19" lex="IL-2">IL-2</term> gene</term>.</sentence>
+<event uncertainty="doubtful" id="E12">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<clue>In this study, we analyzed whether <clueType>activities</clueType> <linkTheme>of</linkTheme> <corefTheme>these phosphatases</corefTheme> are necessary for the expression of the IL-2 gene.</clue>
+</event>
+<event uncertainty="doubtful" id="E13">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E12" />
+<clue>In this study, we analyzed whether activities of these phosphatases are <clueType>necessary</clueType> <linkTheme>for</linkTheme> the expression of the IL-2 gene.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>In this study, we analyzed whether activities of these phosphatases are necessary for the <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL-2 gene.</clue>
+</event>
+<sentence id="S5">In both <term sem="Cell_natural" id="T20" lex="activated_peripheral_blood_T_lymphocyte">activated peripheral blood <term sem="Cell_natural" id="T21" lex="T_lymphocyte">T lymphocytes</term></term> and <term sem="Cell_cultured" id="T22" lex="activated_tumorigenic_T_cell_line">activated <term sem="Cell_cultured" id="A7">tumorigenic T cell lines</term></term>, <term sem="DNA_domain_or_region" id="A10"><term sem="Protein_molecule" id="T23" lex="IL-2">IL-2</term> gene</term> expression was blocked at the <term sem="Other" id="T24" lex="transcriptional_level">transcriptional level</term> by <term sem="Organic_compound_other" id="T25" lex="okadaic_acid">okadaic acid</term>.</sentence>
+<event id="E15">
+<type class="Transcription" />
+<theme idref="A10" />
+<clue>In both activated peripheral blood T lymphocytes and activated tumorigenic T cell lines, IL-2 gene <clueType>expression</clueType> was blocked <clueType>at the transcriptional level</clueType> by okadaic acid.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T25" />
+<clue><clueLoc>In both activated peripheral blood T lymphocytes</clueLoc> and activated tumorigenic T cell lines, IL-2 gene expression was <clueType>blocked</clueType> at the transcriptional level <linkCause>by</linkCause> okadaic acid.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T25" />
+<clue><clueLoc>In</clueLoc> both activated peripheral blood T lymphocytes and <clueLoc>activated tumorigenic T cell lines</clueLoc>, IL-2 gene expression was <clueType>blocked</clueType> at the transcriptional level <linkCause>by</linkCause> okadaic acid.</clue>
+</event>
+<event id="E33">
+<type class="Physiological_process" />
+<theme idref="T21" />
+<clue>In both <clueType>activated</clueType> <clueLoc>peripheral blood</clueLoc> T lymphocytes and activated tumorigenic T cell lines, IL-2 gene expression was blocked at the transcriptional level by okadaic acid.</clue>
+</event>
+<event id="E34">
+<type class="Physiological_process" />
+<theme idref="A7" />
+<clue>In both activated peripheral blood T lymphocytes and <clueType>activated</clueType> tumorigenic T cell lines, IL-2 gene expression was blocked at the transcriptional level by okadaic acid.</clue>
+</event>
+<sentence id="S6">The <term sem="Protein_family_or_group" id="T26" lex="transcription_factor">transcription factors</term> active at the <term sem="DNA_domain_or_region" id="T27" lex="IL-2_promoter"><term sem="Protein_molecule" id="T28" lex="IL-2">IL-2</term> promoter</term> were differentially influenced: upon down-modulation of <term sem="Protein_family_or_group" id="T29" lex="okadaic_acid-sensitive_phosphatase"><term sem="Organic_compound_other" id="T30" lex="okadaic_acid">okadaic acid</term>-sensitive <term sem="Protein_family_or_group" id="A8">phosphatases</term></term>, transactivation by <term sem="Protein_family_or_group" id="A1">octamer</term>, <term sem="Protein_complex" id="T31" lex="NF-kappa_B">NF-kappa B</term>, and <term sem="Protein_family_or_group" id="T32" lex="NF_of_activated_T_cells_protein"><term sem="Protein_molecule" id="A2">NF</term> of activated <term sem="Cell_natural" id="A9">T cells</term> proteins</term> was abrogated, while transactivation by <term sem="Protein_family_or_group" id="T33" lex="AP-1_protein"><term sem="Protein_molecule" id="T34" lex="AP-1">AP-1</term> proteins was even enhanced</term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="T27" />
+<clue>The transcription factors active <linkTheme>at</linkTheme> the IL-2 promoter were differentially influenced: upon down-modulation of okadaic acid-sensitive phosphatases, transactivation by octamer, NF-kappa B, and NF of activated T cells proteins was abrogated, while transactivation by AP-1 proteins was even enhanced.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<clue>The transcription factors <clueType>active</clueType> at the IL-2 promoter were differentially influenced: upon down-modulation of okadaic acid-sensitive phosphatases, transactivation by octamer, NF-kappa B, and NF of activated T cells proteins was abrogated, while transactivation by AP-1 proteins was even enhanced.</clue>
+</event>
+<event id="E21">
+<type class="Regulation" />
+<theme idref="E20" />
+<clue>The transcription factors active at the IL-2 promoter were differentially <clueType>influenced</clueType>: upon down-modulation of okadaic acid-sensitive phosphatases, transactivation by octamer, NF-kappa B, and NF of activated T cells proteins was abrogated, while transactivation by AP-1 proteins was even enhanced.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="A8" />
+<clue>The transcription factors active at the IL-2 promoter were differentially influenced: upon <clueType>down-modulation</clueType> <linkTheme>of</linkTheme> okadaic acid-sensitive phosphatases, transactivation by octamer, NF-kappa B, and NF of activated T cells proteins was abrogated, while transactivation by AP-1 proteins was even enhanced.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="A8" />
+<cause idref="T30" />
+<clue>The transcription factors active at the IL-2 promoter were differentially influenced: upon down-modulation of okadaic acid-<clueType>sensitive</clueType> phosphatases, transactivation by octamer, NF-kappa B, and NF of activated T cells proteins was abrogated, while transactivation by AP-1 proteins was even enhanced.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="A1" />
+<clue>The transcription factors active at the IL-2 promoter were differentially influenced: upon down-modulation of okadaic acid-sensitive phosphatases, <clueType>transactivation</clueType> <linkCause>by</linkCause> octamer, NF-kappa B, and NF <clueLoc>of activated T cells</clueLoc> proteins was abrogated, while transactivation by AP-1 proteins was even enhanced.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="T31" />
+<clue>The transcription factors active at the IL-2 promoter were differentially influenced: upon down-modulation of okadaic acid-sensitive phosphatases, <clueType>transactivation</clueType> <linkCause>by</linkCause> octamer, NF-kappa B, and NF <clueLoc>of activated T cells</clueLoc> proteins was abrogated, while transactivation by AP-1 proteins was even enhanced.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="A2" />
+<clue>The transcription factors active at the IL-2 promoter were differentially influenced: upon down-modulation of okadaic acid-sensitive phosphatases, <clueType>transactivation</clueType> <linkCause>by</linkCause> octamer, NF-kappa B, and NF <clueLoc>of activated T cells</clueLoc> proteins was abrogated, while transactivation by AP-1 proteins was even enhanced.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="E22" />
+<clue>The transcription factors active at the IL-2 promoter were differentially influenced: <linkCause>upon</linkCause> down-modulation of okadaic acid-sensitive phosphatases, transactivation by octamer, NF-kappa B, and NF of activated T cells proteins was <clueType>abrogated</clueType>, while transactivation by AP-1 proteins was even enhanced.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="E22" />
+<clue>The transcription factors active at the IL-2 promoter were differentially influenced: <linkCause>upon</linkCause> down-modulation of okadaic acid-sensitive phosphatases, transactivation by octamer, NF-kappa B, and NF of activated T cells proteins was <clueType>abrogated</clueType>, while transactivation by AP-1 proteins was even enhanced.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="E22" />
+<clue>The transcription factors active at the IL-2 promoter were differentially influenced: <linkCause>upon</linkCause> down-modulation of okadaic acid-sensitive phosphatases, transactivation by octamer, NF-kappa B, and NF of activated T cells proteins was <clueType>abrogated</clueType>, while transactivation by AP-1 proteins was even enhanced.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="T34" />
+<clue>The transcription factors active at the IL-2 promoter were differentially influenced: upon down-modulation of okadaic acid-sensitive phosphatases, transactivation by octamer, NF-kappa B, and NF of activated T cells proteins was abrogated, while <clueType>transactivation</clueType> <linkCause>by</linkCause> AP-1 proteins was even enhanced.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="E22" />
+<clue>The transcription factors active at the IL-2 promoter were differentially influenced: <linkCause>upon</linkCause> down-modulation of okadaic acid-sensitive phosphatases, transactivation by octamer, NF-kappa B, and NF of activated T cells proteins was abrogated, while transactivation by AP-1 proteins was even <clueType>enhanced</clueType>.</clue>
+</event>
+<event id="E36">
+<type class="Physiological_process" />
+<theme idref="A9" />
+<clue>The transcription factors active at the IL-2 promoter were differentially influenced: upon down-modulation of okadaic acid-sensitive phosphatases, transactivation by octamer, NF-kappa B, and NF of <clueType>activated</clueType> T cells proteins was abrogated, while transactivation by AP-1 proteins was even enhanced.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

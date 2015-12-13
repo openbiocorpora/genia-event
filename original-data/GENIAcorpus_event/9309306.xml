@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="24/03/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9309306">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9309306</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="alcohol-induced_regulation"><term sem="Organic_compound_other" id="A1">Alcohol</term>-induced regulation</term> of <term sem="Protein_complex" id="T2" lex="nuclear_regulatory_factor-kappa_beta">nuclear regulatory factor-kappa beta</term> in <term sem="Cell_natural" id="T3" lex="human_monocyte">human monocytes</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T2" />
+<cause idref="A1" />
+<clue>Alcohol<linkCause>-induced</linkCause> <clueType>regulation</clueType> <linkTheme>of</linkTheme> nuclear regulatory factor-kappa beta <clueLoc>in human monocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Acute <term sem="Organic_compound_other" id="A2">ethanol</term> exposure has the capacity to modulate <term sem="Other" id="T4" lex="immune_function">immune functions</term>, particularly, to down regulate <term sem="Other" id="T5" lex="monocyte_production"><term sem="Cell_natural" id="A3">monocyte</term> production</term> of <term sem="Protein_family_or_group" id="T6" lex="inflammatory_cytokine">inflammatory <term sem="Protein_family_or_group" id="T7" lex="cytokine">cytokines</term></term>.</sentence>
+<event id="E27">
+<type class="Artificial_process" />
+<theme idref="A2" />
+<theme idref="A3" />
+<clue>Acute ethanol <clueType>exposure</clueType> has the capacity to modulate immune functions, particularly, to down regulate monocyte production of inflammatory cytokines.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="T4" />
+<cause idref="E27" />
+<clue>Acute ethanol exposure has the capacity to <clueType>modulate</clueType> immune functions, particularly, to down regulate monocyte production of inflammatory cytokines.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="A2" />
+<clue>Acute ethanol exposure has the capacity to modulate immune functions, particularly, to <clueType>down regulate</clueType> monocyte production of inflammatory cytokines.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Acute ethanol exposure has the capacity to modulate immune functions, particularly, to down regulate <clueLoc>monocyte</clueLoc> <clueType>production</clueType> <linkTheme>of</linkTheme> inflammatory cytokines.</clue>
+</event>
+<sentence id="S3">However, the <term sem="Other" id="T8" lex="intracellular_mechanism">intracellular mechanisms</term> for these effects of <term sem="Organic_compound_other" id="T9" lex="ethanol">ethanol</term> are yet to be understood.</sentence>
+<sentence id="S4">Considering that <term sem="Protein_complex" id="T10" lex="nuclear_regulatory_factor-kappa_beta">nuclear regulatory factor-kappa beta</term> <term sem="Protein_complex" id="T11" lex="(NF-kappa_B)/Rel">(<term sem="Protein_complex" id="A9">NF-kappa B</term>)<term sem="Protein_complex" id="A10">/Rel</term></term> is a common <term sem="Protein_family_or_group" id="T12" lex="regulatory_element">regulatory element</term> of the <term sem="DNA_domain_or_region" id="T13" lex="promoter_region">promoter region</term> of the <term sem="DNA_family_or_group" id="T14" lex="inflammatory_cytokine_gene">inflammatory cytokine genes</term>, herein, we tested the hypothesis that acute <term sem="Organic_compound_other" id="T15" lex="ethanol">ethanol</term> affects <term sem="Other" id="T16" lex="NF-kappa_B_activation"><term sem="Protein_complex" id="T17" lex="NF-kappa_B">NF-kappa B</term> activation</term> in <term sem="Cell_natural" id="T18" lex="human_monocyte">human monocytes</term>.</sentence>
+<event id="E28">
+<type class="Regulation" />
+<theme idref1="T14" idref="T13" />
+<cause idref1="A10" idref="A9" />
+<clue>Considering that nuclear regulatory factor-kappa beta (NF-kappa B)/Rel is a common <clueType>regulatory</clueType> element of the promoter region of the inflammatory cytokine genes, herein, we tested the hypothesis that acute ethanol affects NF-kappa B activation in human monocytes.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<clue>Considering that nuclear regulatory factor-kappa beta (NF-kappa B)/Rel is a common regulatory element of the promoter region of the inflammatory cytokine genes, herein, we tested the hypothesis that acute ethanol affects NF-kappa B <clueType>activation</clueType> in human monocytes.</clue>
+</event>
+<event uncertainty="doubtful" id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T15" />
+<clue>Considering that nuclear regulatory factor-kappa beta (NF-kappa B)/Rel is a common regulatory element of the promoter region of the inflammatory cytokine genes, herein, we tested the hypothesis that acute ethanol <clueType>affects</clueType> NF-kappa B activation <clueLoc>in human monocytes</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term sem="Cell_cultured" id="T19" lex="adherence-isolated_monocyte">Adherence-isolated monocytes</term> showed constitutive <term sem="Other" id="T20" lex="DNA_binding_activity"><term sem="DNA_domain_or_region" id="A11">DNA</term> binding activity</term> of <term sem="Protein_complex" id="T21" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E26">
+<type class="Binding" />
+<theme idref="T21" />
+<theme idref="A11" />
+<clue><clueLoc>Adherence-isolated monocytes</clueLoc> showed constitutive <clueType>DNA binding</clueType> activity <linkTheme>of</linkTheme> NF-kappa B.</clue>
+</event>
+<sentence id="S6">A clinically relevant dose (25 mM) of <term sem="Other" id="T22" lex="acute_ethanol_treatment">acute <term sem="Organic_compound_other" id="T23" lex="ethanol">ethanol</term> treatment</term> in vitro increased <term sem="Other" id="T24" lex="NF-kappa_B_binding_activity"><term sem="Protein_complex" id="T25" lex="NF-kappa_B">NF-kappa B</term> binding activity</term> in <term sem="Cell_natural" id="T26" lex="monocyte">monocytes</term> with a preferential induction of the inhibitory, <term sem="Protein_complex" id="T27" lex="p50/p50"><term sem="Protein_molecule" id="T28" lex="p50">p50</term><term sem="Protein_molecule" id="T29" lex="p50">/p50</term></term>, <term sem="Protein_complex" id="T30" lex="NF-kappa_B/Rel_homodimer"><term sem="Protein_complex" id="A4"><term sem="Protein_complex" id="T31" lex="NF-kappa_B">NF-kappa B</term>/Rel</term> <term sem="Protein_complex" id="A5">homodimer</term></term>, and resulted in no induction of the <term sem="Protein_complex" id="T32" lex="p65/p50_heterodimer"><term sem="Protein_complex" id="A6"><term sem="Protein_molecule" id="T33" lex="p65">p65</term><term sem="Protein_molecule" id="T34" lex="p50">/p50</term></term> <term sem="Protein_complex" id="A7">heterodimer</term></term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="T23" />
+<clue>A clinically relevant dose (25 mM) of acute ethanol treatment in vitro <clueType>increased</clueType> NF-kappa B binding activity in monocytes with a preferential induction of the inhibitory, p50/p50, NF-kappa B/Rel homodimer, and resulted in no induction of the p65/p50 heterodimer.</clue>
+</event>
+<event id="E29">
+<type class="Binding" />
+<theme idref="T25" />
+<clue>A clinically relevant dose (25 mM) of acute ethanol treatment in vitro increased NF-kappa B <clueType>binding activity</clueType> <clueLoc>in monocytes</clueLoc> with a preferential induction of the inhibitory, p50/p50, NF-kappa B/Rel homodimer, and resulted in no induction of the p65/p50 heterodimer.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref1="A4" idref2="A5" idref="T27" />
+<cause idref="T23" />
+<clue>A clinically relevant dose (25 mM) of acute ethanol treatment in vitro increased NF-kappa B binding activity in monocytes with a preferential <clueType>induction</clueType> <linkTheme>of</linkTheme> the inhibitory, p50/p50, NF-kappa B/Rel homodimer, and resulted in no induction of the p65/p50 heterodimer.</clue>
+</event>
+<event id="E30">
+<type class="Correlation" />
+<theme idref="E7" />
+<theme idref="E8" />
+<clue>A clinically relevant dose (25 mM) of acute ethanol treatment in vitro increased NF-kappa B binding activity in monocytes <linkTheme>with</linkTheme> a preferential induction of the inhibitory, p50/p50, NF-kappa B/Rel homodimer, and resulted in no induction of the p65/p50 heterodimer.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event assertion="non-exist" id="E9">
+<type class="Positive_regulation" />
+<theme idref1="A4" idref2="A7" idref="A6" />
+<cause idref="E8" />
+<clue>A clinically relevant dose (25 mM) of acute ethanol treatment in vitro increased NF-kappa B binding activity in monocytes with a preferential induction of the inhibitory, p50/p50, NF-kappa B/Rel homodimer, and resulted in no <clueType>induction</clueType> <linkTheme>of</linkTheme> the p65/p50 heterodimer.</clue>
+</event>
+<sentence id="S7">In contrast, <term sem="Other" id="T35" lex="lipopolysaccharide_stimulation"><term sem="Lipid" id="T36" lex="lipopolysaccharide">lipopolysaccharide</term> stimulation</term> primarily induced the <term sem="Protein_complex" id="T37" lex="p65/p50_heterodimer"><term sem="Protein_molecule" id="T38" lex="p65">p65</term><term sem="Protein_molecule" id="T39" lex="p50">/p50</term> heterodimer</term> that has been shown to result in <term sem="Other" id="T40" lex="gene_activation">gene activation</term>.</sentence>
+<event id="E31">
+<type class="Positive_regulation" />
+<cause idref="T36" />
+<clue>In contrast, lipopolysaccharide <clueType>stimulation</clueType> primarily induced the p65/p50 heterodimer that has been shown to result in gene activation.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<cause idref="E31" />
+<clue>In contrast, lipopolysaccharide stimulation primarily <clueType>induced</clueType> the p65/p50 heterodimer that has been shown to result in gene activation.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<cause idref="E10" />
+<clue>In contrast, lipopolysaccharide stimulation primarily induced the p65/p50 heterodimer that has been shown to <clueType>result</clueType> <linkTheme>in</linkTheme> gene activation.</clue>
+</event>
+<sentence id="S8">Thus, such unique activation of the <term sem="Protein_complex" id="T41" lex="inhibitory_p50/p50_homodimer">inhibitory <term sem="Protein_molecule" id="T42" lex="p50">p50</term><term sem="Protein_molecule" id="T43" lex="p50">/p50</term> homodimer</term> by acute <term sem="Other" id="T44" lex="ethanol_treatment"><term sem="Organic_compound_other" id="T45" lex="ethanol">ethanol</term> treatment</term> may result in inhibition rather than activation of <term sem="DNA_family_or_group" id="T46" lex="NF-kappa_B-regulated_inflammatory_cytokine_gene"><term sem="Protein_complex" id="T47" lex="NF-kappa_B">NF-kappa B</term>-regulated <term sem="DNA_family_or_group" id="T48" lex="inflammatory_cytokine_gene">inflammatory cytokine genes</term></term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<cause idref="T45" />
+<clue>Thus, such unique <clueType>activation</clueType> <linkTheme>of</linkTheme> the inhibitory p50/p50 homodimer <linkCause>by</linkCause> acute ethanol treatment may result in inhibition rather than activation of NF-kappa B-regulated inflammatory cytokine genes.</clue>
+</event>
+<event uncertainty="probable" id="E13">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="E12" />
+<clue>Thus, such unique activation of the inhibitory p50/p50 homodimer by acute ethanol treatment may result in <clueType>inhibition</clueType> rather than activation <linkTheme>of</linkTheme> NF-kappa B-regulated inflammatory cytokine genes.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E12" />
+<clue>Thus, such unique activation of the inhibitory p50/p50 homodimer by acute ethanol treatment may result in inhibition <clueType>rather than activation</clueType> <linkTheme>of</linkTheme> NF-kappa B-regulated inflammatory cytokine genes.</clue>
+</event>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="T48" />
+<cause idref="T47" />
+<clue>Thus, such unique activation of the inhibitory p50/p50 homodimer by acute ethanol treatment may result in inhibition rather than activation of NF-kappa B-<clueType>regulated</clueType> inflammatory cytokine genes.</clue>
+</event>
+<sentence id="S9">Consequently, these results suggest that <term sem="Other" id="T49" lex="physiologically_relevant_concentration">physiologically relevant concentrations</term> of <term sem="Organic_compound_other" id="T50" lex="ethanol">ethanol</term> may affect production of <term sem="Protein_family_or_group" id="T51" lex="inflammatory_cytokine">inflammatory <term sem="Protein_family_or_group" id="T52" lex="cytokine">cytokines</term></term>, such as <term sem="Protein_molecule" id="T53" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term>, <term sem="Protein_family_or_group" id="T54" lex="interleukin-1_beta">interleukin-1 beta</term>, and <term sem="Protein_molecule" id="T55" lex="interleukin-6">interleukin-6</term> by disrupting <term sem="Other" id="T56" lex="NF-kappa_B_signaling"><term sem="Protein_complex" id="T57" lex="NF-kappa_B">NF-kappa B</term> signaling</term> in <term sem="Cell_natural" id="T58" lex="monocyte">monocytes</term>.</sentence>
+<event uncertainty="probable" id="E16">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="T50" />
+<clue>Consequently, these results suggest that physiologically relevant concentrations of ethanol may affect production of inflammatory cytokines, such as tumor necrosis factor-alpha, interleukin-1 beta, and interleukin-6 by <clueType>disrupting</clueType> NF-kappa B signaling in monocytes.</clue>
+</event>
+<event id="E32">
+<type class="Cell_communication" />
+<theme idref="T57" />
+<clue>Consequently, these results suggest that physiologically relevant concentrations of ethanol may affect production of inflammatory cytokines, such as tumor necrosis factor-alpha, interleukin-1 beta, and interleukin-6 by disrupting NF-kappa B <clueType>signaling</clueType> <clueLoc>in monocytes</clueLoc>.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="T53" />
+<clue>Consequently, these results suggest that physiologically relevant concentrations of ethanol may affect <clueType>production</clueType> <linkTheme>of</linkTheme> <corefTheme>inflammatory cytokines</corefTheme>, such as tumor necrosis factor-alpha, interleukin-1 beta, and interleukin-6 by disrupting NF-kappa B signaling in monocytes.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T54" />
+<clue>Consequently, these results suggest that physiologically relevant concentrations of ethanol may affect <clueType>production</clueType> <linkTheme>of</linkTheme> <corefTheme>inflammatory cytokines</corefTheme>, such as tumor necrosis factor-alpha, interleukin-1 beta, and interleukin-6 by disrupting NF-kappa B signaling in monocytes.</clue>
+</event>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref="T55" />
+<clue>Consequently, these results suggest that physiologically relevant concentrations of ethanol may affect <clueType>production</clueType> <linkTheme>of</linkTheme> <corefTheme>inflammatory cytokines</corefTheme>, such as tumor necrosis factor-alpha, interleukin-1 beta, and interleukin-6 by disrupting NF-kappa B signaling in monocytes.</clue>
+</event>
+<event uncertainty="probable" id="E23">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="E16" />
+<clue>Consequently, these results suggest that physiologically relevant concentrations of ethanol may <clueType>affect</clueType> production of inflammatory cytokines, such as tumor necrosis factor-alpha, interleukin-1 beta, and interleukin-6 <linkCause>by</linkCause> disrupting NF-kappa B signaling in monocytes.</clue>
+</event>
+<event uncertainty="probable" id="E24">
+<type class="Regulation" />
+<theme idref="E21" />
+<cause idref="E16" />
+<clue>Consequently, these results suggest that physiologically relevant concentrations of ethanol may <clueType>affect</clueType> production of inflammatory cytokines, such as tumor necrosis factor-alpha, interleukin-1 beta, and interleukin-6 <linkCause>by</linkCause> disrupting NF-kappa B signaling in monocytes.</clue>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Regulation" />
+<theme idref="E22" />
+<cause idref="E16" />
+<clue>Consequently, these results suggest that physiologically relevant concentrations of ethanol may <clueType>affect</clueType> production of inflammatory cytokines, such as tumor necrosis factor-alpha, interleukin-1 beta, and interleukin-6 <linkCause>by</linkCause> disrupting NF-kappa B signaling in monocytes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

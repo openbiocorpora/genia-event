@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="05/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10485906" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10485906</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="A1">Interferons</term> inhibit activation of <term sem="Protein_molecule" id="T1" lex="STAT6">STAT6</term> by <term sem="Protein_molecule" id="T2" lex="interleukin_4">interleukin 4</term> in <term sem="Cell_natural" id="T3" lex="human_monocyte">human monocytes</term> by inducing <term sem="Other" id="T4" lex="SOCS-1_gene_expression"><term sem="DNA_domain_or_region" id="T5" lex="SOCS-1_gene">SOCS-1 gene</term> expression</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="E3" />
+<clue>Interferons <clueType>inhibit</clueType> activation of STAT6 by interleukin 4 in human monocytes <linkCause>by</linkCause> inducing SOCS-1 gene expression.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<cause idref="T2" />
+<clue>Interferons inhibit <clueType>activation</clueType> <linkTheme>of</linkTheme> STAT6 <linkCause>by</linkCause> interleukin 4 <clueLoc>in human monocytes</clueLoc> by inducing SOCS-1 gene expression.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="A1" />
+<clue>Interferons inhibit activation of STAT6 by interleukin 4 in human monocytes by <clueType>inducing</clueType> SOCS-1 gene expression.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>Interferons inhibit activation of STAT6 by interleukin 4 in human monocytes by inducing SOCS-1 gene <clueType>expression</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_family_or_group" id="T6" lex="interferon">Interferons</term> (<term sem="Protein_family_or_group" id="T7" lex="IFN">IFNs</term>) inhibit induction by <term sem="Protein_molecule" id="T8" lex="IL-4">IL-4</term> of multiple <term sem="DNA_family_or_group" id="A2">genes</term> in <term sem="Cell_natural" id="T9" lex="human_monocyte">human monocytes</term>.</sentence>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="T7" />
+<clue>Interferons (IFNs) <clueType>inhibit</clueType> induction by IL-4 of multiple genes in human monocytes.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T8" />
+<clue>Interferons (IFNs) inhibit <clueType>induction</clueType> <linkCause>by</linkCause> IL-4 <linkTheme>of</linkTheme> multiple genes <clueLoc>in human monocytes</clueLoc>.</clue>
+</event>
+<sentence id="S3">However, the mechanism by which <term sem="Protein_family_or_group" id="T10" lex="IFN">IFNs</term> mediate this inhibition has not been defined.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T10" />
+<clue>However, the mechanism by which IFNs <clueType>mediate</clueType> <corefTheme>this inhibition</corefTheme> has not been defined.</clue>
+</event>
+<sentence id="S4"><term sem="Protein_molecule" id="T11" lex="IL-4">IL-4</term> activates <term sem="Other" id="T12" lex="gene_expression">gene expression</term> by inducing <term sem="Other" id="T13" lex="tyrosine_phosphorylation"><term sem="Amino_acid_monomer" id="T14" lex="tyrosine">tyrosine</term> phosphorylation</term>, <term sem="Other" id="T15" lex="homodimerization">homodimerization</term>, and <term sem="Other" id="T16" lex="nuclear_translocation"><term sem="Cell_component" id="T69" lex="nuclear">nuclear</term> translocation</term> of the <term sem="Protein_family_or_group" id="T17" lex="latent_transcription_factor">latent transcription factor</term>, <term sem="Protein_molecule" id="T18" lex="STAT6">STAT6</term> (<term sem="Protein_molecule" id="T19" lex="signal_transducer_and_activator_of_transcription-6">signal transducer and activator of transcription-6</term>).</sentence>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E10" />
+<clue>IL-4 <clueType>activates</clueType> gene expression <linkCause>by</linkCause> inducing tyrosine phosphorylation, homodimerization, and nuclear translocation of the latent transcription factor, STAT6 (signal transducer and activator of transcription-6).</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E11" />
+<clue>IL-4 <clueType>activates</clueType> gene expression <linkCause>by</linkCause> inducing tyrosine phosphorylation, homodimerization, and nuclear translocation of the latent transcription factor, STAT6 (signal transducer and activator of transcription-6).</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E12" />
+<clue>IL-4 <clueType>activates</clueType> gene expression <linkCause>by</linkCause> inducing tyrosine phosphorylation, homodimerization, and nuclear translocation of the latent transcription factor, STAT6 (signal transducer and activator of transcription-6).</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T11" />
+<clue>IL-4 activates gene expression by <clueType>inducing</clueType> tyrosine phosphorylation, homodimerization, and nuclear translocation of the latent transcription factor, STAT6 (signal transducer and activator of transcription-6).</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T11" />
+<clue>IL-4 activates gene expression by <clueType>inducing</clueType> tyrosine phosphorylation, homodimerization, and nuclear translocation of the latent transcription factor, STAT6 (signal transducer and activator of transcription-6).</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="T11" />
+<clue>IL-4 activates gene expression by <clueType>inducing</clueType> tyrosine phosphorylation, homodimerization, and nuclear translocation of the latent transcription factor, STAT6 (signal transducer and activator of transcription-6).</clue>
+</event>
+<event id="E13">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T18" />
+<site idref="T14" /><clue>IL-4 activates gene expression by inducing tyrosine <clueType>phosphorylation</clueType>, homodimerization, and nuclear translocation <linkTheme>of</linkTheme> the latent transcription factor, STAT6 (signal transducer and activator of transcription-6).</clue>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T18" />
+<clue>IL-4 activates gene expression by inducing tyrosine phosphorylation, <clueType>homodimerization</clueType>, and nuclear translocation <linkTheme>of</linkTheme> the latent transcription factor, STAT6 (signal transducer and activator of transcription-6).</clue>
+</event>
+<event id="E15">
+<type class="Localization" />
+<theme idref="T18" />
+<clue>IL-4 activates gene expression by inducing tyrosine phosphorylation, homodimerization, and <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> the latent transcription factor, STAT6 (signal transducer and activator of transcription-6).</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T20" lex="STAT6">STAT6</term>-responsive <term sem="DNA_domain_or_region" id="A3">elements</term> are characteristically present in the <term sem="DNA_domain_or_region" id="T21" lex="promoter">promoters</term> of <term sem="DNA_family_or_group" id="T22" lex="IL-4-inducible_gene"><term sem="Protein_molecule" id="T23" lex="IL-4">IL-4</term>-inducible <term sem="DNA_family_or_group" id="A4">genes</term></term>.</sentence>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="A3" />
+<cause idref="T20" />
+<clue>STAT6-<clueType>responsive</clueType> elements are characteristically present in the promoters of IL-4-inducible genes.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="T23" />
+<clue>STAT6-responsive elements are characteristically present in the promoters of IL-4-<clueType>inducible</clueType> genes.</clue>
+</event>
+<sentence id="S6">Because <term sem="Protein_molecule" id="T24" lex="STAT6">STAT6</term> activation is essential for <term sem="Protein_molecule" id="T26" lex="IL-4">IL-4</term>-induced <term sem="Other" id="T27" lex="gene_expression">gene expression</term>, we examined the ability of <term sem="Protein_family_or_group" id="A5">type I</term> and <term sem="Protein_family_or_group" id="A6">type II</term> <term sem="Protein_family_or_group" id="T28" lex="IFN">IFNs</term> to regulate activation of <term sem="Protein_molecule" id="T29" lex="STAT6">STAT6</term> by <term sem="Protein_molecule" id="T30" lex="IL-4">IL-4</term> in <term sem="Cell_natural" id="T31" lex="primary_human_monocyte">primary <term sem="Cell_natural" id="T32" lex="human_monocyte">human monocytes</term></term>.</sentence>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<clue>Because STAT6 <clueType>activation</clueType> is essential for IL-4-induced gene expression, we examined the ability of type I and type II IFNs to regulate activation of STAT6 by IL-4 in primary human monocytes.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E18" />
+<clue>Because STAT6 activation is <clueType>essential</clueType> <linkTheme>for</linkTheme> IL-4-induced gene expression, we examined the ability of type I and type II IFNs to regulate activation of STAT6 by IL-4 in primary human monocytes.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="T26" />
+<clue>Because STAT6 activation is essential for IL-4-<clueType>induced</clueType> gene expression, we examined the ability of type I and type II IFNs to regulate activation of STAT6 by IL-4 in primary human monocytes.</clue>
+</event>
+<event uncertainty="doubtful" id="E21">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref1="T28" idref="A5" />
+<clue>Because STAT6 activation is essential for IL-4-induced gene expression, we examined the ability <linkCause>of</linkCause> type I and type II IFNs to <clueType>regulate</clueType> activation of STAT6 by IL-4 in primary human monocytes.</clue>
+</event>
+<event uncertainty="doubtful" id="E22">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref1="T28" idref="A6" />
+<clue>Because STAT6 activation is essential for IL-4-induced gene expression, we examined the ability <linkCause>of</linkCause> type I and type II IFNs to <clueType>regulate</clueType> activation of STAT6 by IL-4 in primary human monocytes.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="T30" />
+<clue>Because STAT6 activation is essential for IL-4-induced gene expression, we examined the ability of type I and type II IFNs to regulate <clueType>activation</clueType> <linkTheme>of</linkTheme> STAT6 <linkCause>by</linkCause> IL-4 <clueLoc>in primary human monocytes</clueLoc>.</clue>
+</event>
+<sentence id="S7">Pretreatment of <term sem="Cell_natural" id="T33" lex="monocyte">monocytes</term> with <term sem="Protein_molecule" id="T34" lex="IFN-beta">IFN-beta</term> or <term sem="Protein_molecule" id="T35" lex="IFN-gamma">IFN-gamma</term>, but not <term sem="Protein_molecule" id="T36" lex="IL-1">IL-1</term>, <term sem="Protein_molecule" id="T37" lex="IL-2">IL-2</term>, <term sem="Protein_family_or_group" id="T38" lex="macrophage_colony-stimulating_factor">macrophage colony-stimulating factor</term>, <term sem="Protein_family_or_group" id="T39" lex="granulocyte/macrophage_colony-stimulating_factor">granulocyte/macrophage colony-stimulating factor</term>, <term sem="Protein_molecule" id="T40" lex="IL-6">IL-6</term>, or <term sem="Protein_molecule" id="A7">transforming growth factor beta</term> suppressed activation of <term sem="Protein_molecule" id="T41" lex="STAT6">STAT6</term> by <term sem="Protein_molecule" id="T42" lex="IL-4">IL-4</term>.</sentence>
+<event id="E24">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="T34" />
+<clue><clueType>Pretreatment</clueType> <linkTheme>of</linkTheme> monocytes <linkTheme>with</linkTheme> IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta suppressed activation of STAT6 by IL-4.</clue>
+</event>
+<event id="E25">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="T35" />
+<clue><clueType>Pretreatment</clueType> <linkTheme>of</linkTheme> monocytes <linkTheme>with</linkTheme> IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta suppressed activation of STAT6 by IL-4.</clue>
+</event>
+<event id="E26">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="T36" />
+<clue><clueType>Pretreatment</clueType> <linkTheme>of</linkTheme> monocytes <linkTheme>with</linkTheme> IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta suppressed activation of STAT6 by IL-4.</clue>
+</event>
+<event id="E27">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="T37" />
+<clue><clueType>Pretreatment</clueType> <linkTheme>of</linkTheme> monocytes <linkTheme>with</linkTheme> IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta suppressed activation of STAT6 by IL-4.</clue>
+</event>
+<event id="E28">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="T38" />
+<clue><clueType>Pretreatment</clueType> <linkTheme>of</linkTheme> monocytes <linkTheme>with</linkTheme> IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta suppressed activation of STAT6 by IL-4.</clue>
+</event>
+<event id="E29">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="T39" />
+<clue><clueType>Pretreatment</clueType> <linkTheme>of</linkTheme> monocytes <linkTheme>with</linkTheme> IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta suppressed activation of STAT6 by IL-4.</clue>
+</event>
+<event id="E30">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="T40" />
+<clue><clueType>Pretreatment</clueType> <linkTheme>of</linkTheme> monocytes <linkTheme>with</linkTheme> IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta suppressed activation of STAT6 by IL-4.</clue>
+</event>
+<event id="E31">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="A7" />
+<clue><clueType>Pretreatment</clueType> <linkTheme>of</linkTheme> monocytes <linkTheme>with</linkTheme> IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta suppressed activation of STAT6 by IL-4.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<cause idref="T42" />
+<clue>Pretreatment of monocytes with IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta suppressed <clueType>activation</clueType> <linkTheme>of</linkTheme> STAT6 <linkCause>by</linkCause> IL-4.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E24" />
+<clue>Pretreatment of monocytes with IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta <clueType>suppressed</clueType> activation of STAT6 by IL-4.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E25" />
+<clue>Pretreatment of monocytes with IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta <clueType>suppressed</clueType> activation of STAT6 by IL-4.</clue>
+</event>
+<event assertion="non-exist" id="E35">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E26" />
+<clue>Pretreatment of monocytes with IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta <clueType>suppressed</clueType> activation of STAT6 by IL-4.</clue>
+</event>
+<event assertion="non-exist" id="E36">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E27" />
+<clue>Pretreatment of monocytes with IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta <clueType>suppressed</clueType> activation of STAT6 by IL-4.</clue>
+</event>
+<event assertion="non-exist" id="E37">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E28" />
+<clue>Pretreatment of monocytes with IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta <clueType>suppressed</clueType> activation of STAT6 by IL-4.</clue>
+</event>
+<event assertion="non-exist" id="E38">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E29" />
+<clue>Pretreatment of monocytes with IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta <clueType>suppressed</clueType> activation of STAT6 by IL-4.</clue>
+</event>
+<event assertion="non-exist" id="E39">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E30" />
+<clue>Pretreatment of monocytes with IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta <clueType>suppressed</clueType> activation of STAT6 by IL-4.</clue>
+</event>
+<event assertion="non-exist" id="E40">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E31" />
+<clue>Pretreatment of monocytes with IFN-beta or IFN-gamma, but not IL-1, IL-2, macrophage colony-stimulating factor, granulocyte/macrophage colony-stimulating factor, IL-6, or transforming growth factor beta <clueType>suppressed</clueType> activation of STAT6 by IL-4.</clue>
+</event>
+<sentence id="S8">This inhibition was associated with decreased <term sem="Other" id="T43" lex="tyrosine_phosphorylation"><term sem="Amino_acid_monomer" id="T44" lex="tyrosine">tyrosine</term> phosphorylation</term> and <term sem="Other" id="T45" lex="nuclear_translocation"><term sem="Cell_component" id="T25" lex="nuclear">nuclear</term> translocation</term> of <term sem="Protein_molecule" id="T46" lex="STAT6">STAT6</term> and was not evident unless the <term sem="Cell_natural" id="A8">cells</term> were preincubated with <term sem="Protein_family_or_group" id="T47" lex="IFN">IFN</term> for at least 1 hr before <term sem="Other" id="T48" lex="IL-4_stimulation"><term sem="Protein_molecule" id="T49" lex="IL-4">IL-4</term> stimulation</term>.</sentence>
+<event id="E41">
+<type class="Correlation" />
+<theme idref="E33" />
+<theme idref="E45" />
+<clue><corefTheme>This inhibition</corefTheme> was <clueType>associated</clueType> <linkTheme>with</linkTheme> decreased tyrosine phosphorylation and nuclear translocation of STAT6 and was not evident unless the cells were preincubated with IFN for at least 1 hr before IL-4 stimulation.</clue>
+</event>
+<event id="E42">
+<type class="Correlation" />
+<theme idref="E33" />
+<theme idref="E46" />
+<clue><corefTheme>This inhibition</corefTheme> was <clueType>associated</clueType> <linkTheme>with</linkTheme> decreased tyrosine phosphorylation and nuclear translocation of STAT6 and was not evident unless the cells were preincubated with IFN for at least 1 hr before IL-4 stimulation.</clue>
+</event>
+<event id="E43">
+<type class="Correlation" />
+<theme idref="E34" />
+<theme idref="E45" />
+<clue><corefTheme>This inhibition</corefTheme> was <clueType>associated</clueType> <linkTheme>with</linkTheme> decreased tyrosine phosphorylation and nuclear translocation of STAT6 and was not evident unless the cells were preincubated with IFN for at least 1 hr before IL-4 stimulation.</clue>
+</event>
+<event id="E44">
+<type class="Correlation" />
+<theme idref="E34" />
+<theme idref="E46" />
+<clue><corefTheme>This inhibition</corefTheme> was <clueType>associated</clueType> <linkTheme>with</linkTheme> decreased tyrosine phosphorylation and nuclear translocation of STAT6 and was not evident unless the cells were preincubated with IFN for at least 1 hr before IL-4 stimulation.</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation" />
+<theme idref="E47" />
+<clue>This inhibition was associated with <clueType>decreased</clueType> tyrosine phosphorylation and nuclear translocation of STAT6 and was not evident unless the cells were preincubated with IFN for at least 1 hr before IL-4 stimulation.</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation" />
+<theme idref="E48" />
+<clue>This inhibition was associated with <clueType>decreased</clueType> tyrosine phosphorylation and nuclear translocation of STAT6 and was not evident unless the cells were preincubated with IFN for at least 1 hr before IL-4 stimulation.</clue>
+</event>
+<event id="E47">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T46" />
+<site idref="T44" /><clue>This inhibition was associated with decreased tyrosine <clueType>phosphorylation</clueType> and nuclear translocation <linkTheme>of</linkTheme> STAT6 and was not evident unless the cells were preincubated with IFN for at least 1 hr before IL-4 stimulation.</clue>
+</event>
+<event id="E48">
+<type class="Localization" />
+<theme idref="T46" />
+<clue>This inhibition was associated with decreased tyrosine phosphorylation and <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> STAT6 and was not evident unless the cells were preincubated with IFN for at least 1 hr before IL-4 stimulation.</clue>
+</event>
+<event id="E49">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="E51" />
+<clue><corefTheme>This inhibition</corefTheme> was associated with decreased tyrosine phosphorylation and nuclear translocation of STAT6 and was <linkCause>not</linkCause> <clueType>evident</clueType> <linkCause>unless</linkCause> the cells were preincubated with IFN for at least 1 hr before IL-4 stimulation.</clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="E51" />
+<clue><corefTheme>This inhibition</corefTheme> was associated with decreased tyrosine phosphorylation and nuclear translocation of STAT6 and was <linkCause>not</linkCause> <clueType>evident</clueType> <linkCause>unless</linkCause> the cells were preincubated with IFN for at least 1 hr before IL-4 stimulation.</clue>
+</event>
+<event id="E51">
+<type class="Artificial_process" />
+<theme idref="A8" />
+<theme idref="T47" />
+<clue>This inhibition was associated with decreased tyrosine phosphorylation and nuclear translocation of STAT6 and was not evident unless the cells were <clueType>preincubated</clueType> <linkTheme>with</linkTheme> IFN for <clueTime>at least 1 hr before IL-4 stimulation</clueTime>.</clue>
+</event>
+<event id="E53">
+<type class="Positive_regulation" />
+<cause idref="T49" />
+<clue>This inhibition was associated with decreased tyrosine phosphorylation and nuclear translocation of STAT6 and was not evident unless the cells were preincubated with IFN for at least 1 hr before IL-4 <clueType>stimulation</clueType>.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S9">Furthermore, inhibition by <term sem="Protein_family_or_group" id="T50" lex="IFN">IFN</term> could be blocked by cotreatment with <term sem="Organic_compound_other" id="T51" lex="actinomycin_D">actinomycin D</term> and correlated temporally with induction of the <term sem="DNA_family_or_group" id="T52" lex="JAK/STAT_inhibitory_gene">JAK/STAT inhibitory gene</term>, <term sem="DNA_domain_or_region" id="T53" lex="SOCS-1">SOCS-1</term>.</sentence>
+<event id="E54">
+<type class="Negative_regulation" />
+<cause idref="T50" />
+<clue>Furthermore, <clueType>inhibition</clueType> <linkCause>by</linkCause> IFN could be blocked by cotreatment with actinomycin D and correlated temporally with induction of the JAK/STAT inhibitory gene, SOCS-1.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E55">
+<type class="Negative_regulation" />
+<theme idref="E54" />
+<cause idref="E56" />
+<clue>Furthermore, inhibition by IFN could be <clueType>blocked</clueType> <linkCause>by</linkCause> cotreatment with actinomycin D and correlated temporally with induction of the JAK/STAT inhibitory gene, SOCS-1.</clue>
+</event>
+<event id="E56">
+<type class="Artificial_process" />
+<theme idref="A8" />
+<theme idref="T50" />
+<theme idref="T51" />
+<clue>Furthermore, inhibition by IFN could be blocked by <clueType>cotreatment</clueType> <linkTheme>with</linkTheme> actinomycin D and correlated temporally with induction of the JAK/STAT inhibitory gene, SOCS-1.</clue>
+</event>
+<event id="E57">
+<type class="Correlation" />
+<theme idref="E54" />
+<theme idref="E58" />
+<clue>Furthermore, inhibition by IFN could be blocked by cotreatment with actinomycin D and <clueType>correlated</clueType> temporally <linkTheme>with</linkTheme> induction of the JAK/STAT inhibitory gene, SOCS-1.</clue>
+</event>
+<event id="E58">
+<type class="Positive_regulation" />
+<theme idref="T53" />
+<clue>Furthermore, inhibition by IFN could be blocked by cotreatment with actinomycin D and correlated temporally with <clueType>induction</clueType> <linkTheme>of</linkTheme> the <corefTheme>JAK/STAT inhibitory gene</corefTheme>, SOCS-1.</clue>
+</event>
+<sentence id="S10">Forced expression of <term sem="DNA_domain_or_region" id="T54" lex="SOCS-1">SOCS-1</term> in a <term sem="Cell_cultured" id="T55" lex="macrophage_cell_line">macrophage cell line</term>, <term sem="Cell_cultured" id="T56" lex="RAW264">RAW264</term>, markedly suppressed <term sem="Other" id="T57" lex="trans-activation">trans-activation</term> of an <term sem="DNA_domain_or_region" id="T58" lex="IL-4-inducible_reporter"><term sem="Protein_molecule" id="T59" lex="IL-4">IL-4</term>-inducible <term sem="DNA_domain_or_region" id="A12">reporter</term></term> as well as <cons sem="(AND Other Other)" id="T60" lex="(AND IL-6-induced_reporter_gene_activity IFN-gamma-induced_reporter_gene_activity)"><frag id="F1"><term sem="DNA_domain_or_region" id="A13"><term sem="Protein_molecule" id="A9">IL-6</term></term>-</frag> and <frag id="F2"><term sem="DNA_domain_or_region" id="A14"><term sem="Protein_molecule" id="A10">IFN-gamma</term></term>-</frag><frag id="F3"><term sem="DNA_domain_or_region" id="A15">induced <term sem="DNA_domain_or_region" id="A11">reporter gene</term></term> activity</frag></cons>.</sentence>
+<event id="E59">
+<type class="Gene_expression" />
+<theme idref="T54" />
+<clue>Forced <clueType>expression</clueType> <linkTheme>of</linkTheme> SOCS-1 <clueLoc>in a macrophage cell line, RAW264</clueLoc>, markedly suppressed trans-activation of an IL-4-inducible reporter as well as IL-6- and IFN-gamma-induced reporter gene activity.</clue>
+</event>
+<event id="E60">
+<type class="Negative_regulation" />
+<theme idref="E63" />
+<cause idref="E59" />
+<clue>Forced expression of SOCS-1 in a macrophage cell line, RAW264, markedly <clueType>suppressed</clueType> trans-activation of an IL-4-inducible reporter as well as IL-6- and IFN-gamma-induced reporter gene activity.</clue>
+</event>
+<event id="E61">
+<type class="Negative_regulation" />
+<theme idref="E64" />
+<cause idref="E59" />
+<clue>Forced expression of SOCS-1 in a macrophage cell line, RAW264, markedly <clueType>suppressed</clueType> trans-activation of an IL-4-inducible reporter as well as IL-6- and IFN-gamma-induced reporter gene activity.</clue>
+</event>
+<event id="E62">
+<type class="Negative_regulation" />
+<theme idref="E65" />
+<cause idref="E59" />
+<clue>Forced expression of SOCS-1 in a macrophage cell line, RAW264, markedly <clueType>suppressed</clueType> trans-activation of an IL-4-inducible reporter as well as IL-6- and IFN-gamma-induced reporter gene activity.</clue>
+</event>
+<event id="E63">
+<type class="Positive_regulation" />
+<theme idref="T58" />
+<clue>Forced expression of SOCS-1 in a macrophage cell line, RAW264, markedly suppressed <clueType>trans-activation</clueType> <linkTheme>of</linkTheme> an IL-4-inducible reporter as well as IL-6- and IFN-gamma-induced reporter gene activity.</clue>
+</event>
+<event id="E64">
+<type class="Positive_regulation" />
+<theme idref1="A15" idref="A13" />
+<clue>Forced expression of SOCS-1 in a macrophage cell line, RAW264, markedly suppressed <clueType>trans-activation</clueType> <linkTheme>of</linkTheme> an IL-4-inducible reporter as well as IL-6- and IFN-gamma-induced reporter gene activity.</clue>
+</event>
+<event id="E65">
+<type class="Positive_regulation" />
+<theme idref1="A15" idref="A14" />
+<clue>Forced expression of SOCS-1 in a macrophage cell line, RAW264, markedly suppressed <clueType>trans-activation</clueType> <linkTheme>of</linkTheme> an IL-4-inducible reporter as well as IL-6- and IFN-gamma-induced reporter gene activity.</clue>
+</event>
+<event id="E66">
+<type class="Positive_regulation" />
+<theme idref="A12" />
+<cause idref="T59" />
+<clue>Forced expression of SOCS-1 in a macrophage cell line, RAW264, markedly suppressed trans-activation of an IL-4-<clueType>inducible</clueType> reporter as well as IL-6- and IFN-gamma-induced reporter gene activity.</clue>
+</event>
+<event id="E67">
+<type class="Positive_regulation" />
+<theme idref="A11" />
+<cause idref="A9" />
+<clue>Forced expression of SOCS-1 in a macrophage cell line, RAW264, markedly suppressed trans-activation of an IL-4-inducible reporter as well as IL-6- and IFN-gamma-<clueType>induced</clueType> reporter gene activity.</clue>
+</event>
+<event id="E68">
+<type class="Positive_regulation" />
+<theme idref="A11" />
+<cause idref="A10" />
+<clue>Forced expression of SOCS-1 in a macrophage cell line, RAW264, markedly suppressed trans-activation of an IL-4-inducible reporter as well as IL-6- and IFN-gamma-<clueType>induced</clueType> reporter gene activity.</clue>
+</event>
+<sentence id="S11">These findings demonstrate that <term sem="Protein_family_or_group" id="T61" lex="IFN">IFNs</term> inhibit <term sem="Protein_molecule" id="T63" lex="IL-4">IL-4</term>-induced <term sem="Other" id="T70">activation</term> of <term sem="Protein_molecule" id="T64" lex="STAT6">STAT6</term> and <term sem="Protein_molecule" id="T66" lex="STAT6">STAT6</term>-dependent <term sem="Other" id="T67" lex="gene_expression">gene expression</term>, at least in part, by inducing expression of <term sem="DNA_domain_or_region" id="T68" lex="SOCS-1">SOCS-1</term>.</sentence>
+<event id="E69">
+<type class="Negative_regulation" />
+<theme idref="E70" />
+<cause idref="E72" />
+<clue>These findings demonstrate that IFNs <clueType>inhibit</clueType> IL-4-induced activation of STAT6 and STAT6-dependent gene expression, at least in part, <linkCause>by</linkCause> inducing expression of SOCS-1.</clue>
+</event>
+<event id="E74">
+<type class="Negative_regulation" />
+<theme idref="E71" />
+<cause idref="E72" />
+<clue>These findings demonstrate that IFNs <clueType>inhibit</clueType> IL-4-induced activation of STAT6 and STAT6-dependent gene expression, at least in part, <linkCause>by</linkCause> inducing expression of SOCS-1.</clue>
+</event>
+<event id="E70">
+<type class="Positive_regulation" />
+<theme idref="T64" />
+<cause idref="T63" />
+<clue>These findings demonstrate that IFNs inhibit IL-4-<linkCause>induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> STAT6 and STAT6-dependent gene expression, at least in part, by inducing expression of SOCS-1.</clue>
+</event>
+<event id="E71">
+<type class="Regulation" />
+<theme idref="T67" />
+<cause idref="T66" />
+<clue>These findings demonstrate that IFNs inhibit IL-4-induced activation of STAT6 and STAT6-<clueType>dependent</clueType> gene expression, at least in part, by inducing expression of SOCS-1.</clue>
+</event>
+<event id="E72">
+<type class="Positive_regulation" />
+<theme idref="E73" />
+<clue>These findings demonstrate that IFNs inhibit IL-4-induced activation of STAT6 and STAT6-dependent gene expression, at least in part, by <clueType>inducing</clueType> expression of SOCS-1.</clue>
+</event>
+<event id="E73">
+<type class="Gene_expression" />
+<theme idref="T68" />
+<clue>These findings demonstrate that IFNs inhibit IL-4-induced activation of STAT6 and STAT6-dependent gene expression, at least in part, by inducing <clueType>expression</clueType> <linkTheme>of</linkTheme> SOCS-1.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

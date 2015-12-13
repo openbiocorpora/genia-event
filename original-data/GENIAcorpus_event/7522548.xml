@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="23/04/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7522548">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7522548</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="antioxidant">Antioxidants</term> inhibit <term sem="Other" id="T2" lex="monocyte_adhesion"><term sem="Cell_natural" id="T3" lex="monocyte">monocyte</term> adhesion</term> by suppressing <term sem="Other" id="T4" lex="nuclear_factor-kappa_B_mobilization"><term sem="Protein_molecule" id="T5" lex="nuclear_factor-kappa_B">nuclear factor-kappa B</term> mobilization</term> and induction of <term sem="Protein_molecule" id="T6" lex="vascular_cell_adhesion_molecule-1">vascular cell adhesion molecule-1</term> in <term sem="Cell_natural" id="T7" lex="endothelial_cell">endothelial cells</term> stimulated to generate <term sem="Inorganic_compound" id="T8" lex="radical">radicals</term>.</sentence>
+<event id="E1">
+<type class="Localization" />
+<theme idref="T5" />
+<clue>Antioxidants inhibit monocyte adhesion by suppressing nuclear factor-kappa B <clueType>mobilization</clueType> and induction of vascular cell adhesion molecule-1 in endothelial cells stimulated to generate radicals.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<clue>Antioxidants inhibit monocyte adhesion by suppressing nuclear factor-kappa B mobilization and <clueType>induction</clueType> <linkTheme>of</linkTheme> vascular cell adhesion molecule-1 <clueLoc>in endothelial cells stimulated to generate radicals</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Antioxidants inhibit monocyte adhesion by <clueType>suppressing</clueType> nuclear factor-kappa B mobilization and induction of vascular cell adhesion molecule-1 in endothelial cells stimulated to generate radicals.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Antioxidants inhibit monocyte adhesion by <clueType>suppressing</clueType> nuclear factor-kappa B mobilization and induction of vascular cell adhesion molecule-1 in endothelial cells stimulated to generate radicals.</clue>
+</event>
+<event id="E5">
+<type class="Cell_adhesion" />
+<theme idref="T3" />
+<clue>Antioxidants inhibit monocyte <clueType>adhesion</clueType> by suppressing nuclear factor-kappa B mobilization and induction of vascular cell adhesion molecule-1 in endothelial cells stimulated to generate radicals.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="E3" />
+<clue>Antioxidants <clueType>inhibit</clueType> monocyte adhesion <linkCause>by</linkCause> suppressing nuclear factor-kappa B mobilization and induction of vascular cell adhesion molecule-1 in endothelial cells stimulated to generate radicals.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="E4" />
+<clue>Antioxidants <clueType>inhibit</clueType> monocyte adhesion <linkCause>by</linkCause> suppressing nuclear factor-kappa B mobilization and induction of vascular cell adhesion molecule-1 in endothelial cells stimulated to generate radicals.</clue>
+</event>
+<event id="E8">
+<type class="Physiological_process" />
+<theme idref="T7" />
+<clue>Antioxidants inhibit monocyte adhesion by suppressing nuclear factor-kappa B mobilization and induction of vascular cell adhesion molecule-1 in endothelial cells <clueType>stimulated</clueType> to generate radicals.</clue>
+</event>
+<event id="E9">
+<type class="Metabolism" />
+<theme idref="T8" />
+<clue>Antioxidants inhibit monocyte adhesion by suppressing nuclear factor-kappa B mobilization and induction of vascular cell adhesion molecule-1 in endothelial cells stimulated to <clueType>generate</clueType> radicals.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T9" lex="cell_adhesion"><term sem="Cell_natural" id="A1">Cell</term> adhesion</term> to <term sem="Cell_cultured" id="A20"><term sem="Cell_natural" id="T10" lex="endothelial_cell">endothelial cells</term></term> <term sem="Protein_molecule" id="T11" lex="stimulated_by_tumor_necrosis_factor-alpha"><term sem="Cell_cultured" id="A21">stimulated by</term> tumor necrosis factor-alpha</term> (<term sem="Cell_cultured" id="A22"><term sem="Protein_molecule" id="T12" lex="TNF">TNF</term></term>) is due to induction of <term sem="Protein_family_or_group" id="T13" lex="surface_receptor">surface receptors</term>, such as <term sem="Protein_molecule" id="T14" lex="vascular_cell_adhesion_molecule-1">vascular cell adhesion molecule-1</term> (<term sem="Protein_molecule" id="T15" lex="VCAM-1">VCAM-1</term>).</sentence>
+<event id="E10">
+<type class="Cell_adhesion" />
+<theme idref="A1" />
+<theme idref1="A21" idref2="A22" idref="A20" />
+<clue>Cell <clueType>adhesion</clueType> <linkTheme>to</linkTheme> endothelial cells stimulated by tumor necrosis factor-alpha (TNF) is due to induction of surface receptors, such as vascular cell adhesion molecule-1 (VCAM-1).</clue>
+<comment>TPS: A21</comment>
+</event>
+<event id="E11">
+<type class="Physiological_process" />
+<theme idref="T10" />
+<cause idref="T12" />
+<clue>Cell adhesion to endothelial cells <clueType>stimulated</clueType> <linkCause>by</linkCause> tumor necrosis factor-alpha (TNF) is due to induction of surface receptors, such as vascular cell adhesion molecule-1 (VCAM-1).</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="E13" />
+<clue>Cell adhesion to endothelial cells stimulated by tumor necrosis factor-alpha (TNF) is <clueType>due</clueType> <linkCause>to</linkCause> induction of surface receptors, such as vascular cell adhesion molecule-1 (VCAM-1).</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<clue>Cell adhesion to endothelial cells stimulated by tumor necrosis factor-alpha (TNF) is due to <clueType>induction</clueType> <linkTheme>of</linkTheme> <corefTheme>surface receptors</corefTheme>, such as vascular cell adhesion molecule-1 (VCAM-1).</clue>
+</event>
+<sentence id="S3">The antioxidant <term sem="Organic_compound_other" id="T16" lex="pyrrolidine_dithiocarbamate">pyrrolidine dithiocarbamate</term> (<term sem="Organic_compound_other" id="T17" lex="PDTC">PDTC</term>) specifically inhibits activation of <term sem="Protein_molecule" id="T18" lex="nuclear_factor-kappa_B">nuclear factor-kappa B</term> (<term sem="Protein_molecule" id="T19" lex="NF-kappa_B">NF-kappa B</term>).</sentence>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T19" />
+<clue>The antioxidant pyrrolidine dithiocarbamate (PDTC) specifically inhibits <clueType>activation</clueType> <linkTheme>of</linkTheme> nuclear factor-kappa B (NF-kappa B).</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T17" />
+<clue>The antioxidant pyrrolidine dithiocarbamate (PDTC) specifically <clueType>inhibits</clueType> activation of nuclear factor-kappa B (NF-kappa B).</clue>
+</event>
+<sentence id="S4">Since <term sem="DNA_domain_or_region" id="T20" lex="kappa_B_motif">kappa B motifs</term> are present in <term sem="DNA_domain_or_region" id="T21" lex="VCAM-1_and_intercellular_adhesion_molecule-1_(ICAM-1)_promoter"><term sem="Protein_molecule" id="T22" lex="VCAM-1"><term sem="DNA_domain_or_region" id="T23" lex="VCAM-1_promotor">VCAM-1</term></term> and <term sem="DNA_domain_or_region" id="T24" lex="intercellular_adhesion_molecule-1_(ICAM-1)_promoter"><term sem="Protein_molecule" id="T25" lex="intercellular_adhesion_molecule-1">intercellular adhesion molecule-1</term> (<term sem="Protein_molecule" id="T26" lex="ICAM-1">ICAM-1</term>) promoters</term></term>, we used <term sem="Organic_compound_other" id="T27" lex="PDTC">PDTC</term> to study the regulatory mechanisms of <term sem="Protein_molecule" id="T28" lex="VCAM-1">VCAM-1</term> and <term sem="Protein_molecule" id="T29" lex="ICAM-1">ICAM-1</term> induction and subsequent <term sem="Other" id="T30" lex="monocyte_adhesion"><term sem="Cell_natural" id="T31" lex="monocyte">monocyte</term> adhesion</term> in <term sem="Cell_cultured" id="T32" lex="TNF-treated_human_umbilical_vein_endothelial_cell"><term sem="Cell_cultured" id="A23"><term sem="Protein_molecule" id="A2">TNF</term>-treated</term> human umbilical vein <term sem="Cell_natural" id="T33" lex="endothelial_cell">endothelial cells</term></term> (<term sem="Cell_cultured" id="T34" lex="HUVEC">HUVECs</term>).</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref="A2" />
+<clue>Since kappa B motifs are present in VCAM-1 and intercellular adhesion molecule-1 (ICAM-1) promoters, we used PDTC to study the regulatory mechanisms of VCAM-1 and ICAM-1 <clueType>induction</clueType> and subsequent monocyte adhesion <clueLoc>in TNF-treated human umbilical vein endothelial cells (HUVECs)</clueLoc>.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="A2" />
+<clue>Since kappa B motifs are present in VCAM-1 and intercellular adhesion molecule-1 (ICAM-1) promoters, we used PDTC to study the regulatory mechanisms of VCAM-1 and ICAM-1 <clueType>induction</clueType> and subsequent monocyte adhesion <clueLoc>in TNF-treated human umbilical vein endothelial cells (HUVECs)</clueLoc>.</clue>
+</event>
+<event id="E18">
+<type class="Cell_adhesion" />
+<theme idref="T31" />
+<theme idref1="T34" idref="A23" />
+<clue>Since kappa B motifs are present in VCAM-1 and intercellular adhesion molecule-1 (ICAM-1) promoters, we used PDTC to study the regulatory mechanisms of VCAM-1 and ICAM-1 induction and <clueTime>subsequent</clueTime> monocyte <clueType>adhesion</clueType> <linkTheme>in</linkTheme> TNF-treated human umbilical vein endothelial cells (HUVECs).</clue>
+</event>
+<event id="E66">
+<type class="Artificial_process" />
+<theme idref="T34" />
+<theme idref="A2" />
+<clue>Since kappa B motifs are present in VCAM-1 and intercellular adhesion molecule-1 (ICAM-1) promoters, we used PDTC to study the regulatory mechanisms of VCAM-1 and ICAM-1 induction and subsequent monocyte adhesion in TNF-<clueType>treated</clueType> human umbilical vein endothelial cells (HUVECs).</clue>
+</event>
+<event uncertainty="doubtful" id="E19">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="T27" />
+<clue>Since kappa B motifs are present in VCAM-1 and intercellular adhesion molecule-1 (ICAM-1) promoters, we used PDTC to study the <clueType>regulatory</clueType> mechanisms of VCAM-1 and ICAM-1 induction and subsequent monocyte adhesion in TNF-treated human umbilical vein endothelial cells (HUVECs).</clue>
+</event>
+<event uncertainty="doubtful" id="E20">
+<type class="Regulation" />
+<theme idref="E17" />
+<cause idref="T27" />
+<clue>Since kappa B motifs are present in VCAM-1 and intercellular adhesion molecule-1 (ICAM-1) promoters, we used PDTC to study the <clueType>regulatory</clueType> mechanisms of VCAM-1 and ICAM-1 induction and subsequent monocyte adhesion in TNF-treated human umbilical vein endothelial cells (HUVECs).</clue>
+</event>
+<event uncertainty="doubtful" id="E21">
+<type class="Regulation" />
+<theme idref="E17" />
+<cause idref="T27" />
+<clue>Since kappa B motifs are present in VCAM-1 and intercellular adhesion molecule-1 (ICAM-1) promoters, we used PDTC to study the <clueType>regulatory</clueType> mechanisms of VCAM-1 and ICAM-1 induction and subsequent monocyte adhesion in TNF-treated human umbilical vein endothelial cells (HUVECs).</clue>
+</event>
+<sentence id="S5"><term sem="Organic_compound_other" id="T35" lex="PDTC">PDTC</term> or <term sem="Amino_acid_monomer" id="A3">N-acetylcysteine</term> dose dependently reduced <term sem="Protein_molecule" id="T36" lex="TNF-induced_VCAM-1"><term sem="Protein_molecule" id="A5">TNF</term>-induced <term sem="Protein_molecule" id="T37" lex="VCAM-1"><term sem="RNA_molecule" id="A11">VCAM-1</term></term></term> but not <term sem="Protein_molecule" id="T38" lex="ICAM-1_surface_protein"><term sem="Protein_molecule" id="T39" lex="ICAM-1"><term sem="RNA_molecule" id="A12">ICAM-1</term></term> surface protein</term> (also in <term sem="Cell_natural" id="T40" lex="human_umbilical_arterial_endothelial_cell">human umbilical arterial <term sem="Cell_natural" id="T41" lex="endothelial_cell">endothelial cells</term></term>) and <term sem="Other" id="T42" lex="mRNA_expression"><term sem="RNA_family_or_group" id="A4">mRNA</term> expression</term> (by 70% at 100 mumol/L <term sem="Organic_compound_other" id="T43" lex="PDTC">PDTC</term>) in <term sem="Cell_cultured" id="T44" lex="HUVEC">HUVECs</term> as assessed by <term sem="Other" id="T45" lex="flow_cytometry">flow cytometry</term> and <term sem="Other" id="T46" lex="polymerase_chain_reaction">polymerase chain reaction</term>.</sentence>
+<event id="E61">
+<type class="Gene_expression" />
+<theme idref="T37" />
+<clue>PDTC or N-acetylcysteine dose dependently reduced TNF-induced VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA <clueType>expression</clueType> (by 70% at 100 mumol/L PDTC) in HUVECs as assessed by flow cytometry and polymerase chain reaction.</clue>
+</event>
+<event id="E62">
+<type class="Gene_expression" />
+<theme idref="T39" />
+<clue>PDTC or N-acetylcysteine dose dependently reduced TNF-induced VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA <clueType>expression</clueType> (by 70% at 100 mumol/L PDTC) in HUVECs as assessed by flow cytometry and polymerase chain reaction.</clue>
+</event>
+<event id="E22">
+<type class="Transcription" />
+<theme idref1="A4" idref="A11" />
+<clue>PDTC or N-acetylcysteine dose dependently reduced TNF-induced VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA <clueType>expression</clueType> (by 70% at 100 mumol/L PDTC) in HUVECs as assessed by flow cytometry and polymerase chain reaction.</clue>
+</event>
+<event id="E63">
+<type class="Transcription" />
+<theme idref1="A4" idref="A12" />
+<clue>PDTC or N-acetylcysteine dose dependently reduced TNF-induced VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA <clueType>expression</clueType> (by 70% at 100 mumol/L PDTC) in HUVECs as assessed by flow cytometry and polymerase chain reaction.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="T35" />
+<clue>PDTC or N-acetylcysteine <clueExperiment>dose dependently</clueExperiment> <clueType>reduced</clueType> TNF-induced VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA expression (by 70% at 100 mumol/L PDTC) <clueLoc>in HUVECs</clueLoc> as assessed <clueExperiment>by flow cytometry and polymerase chain reaction</clueExperiment>.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="A3" />
+<clue>PDTC or N-acetylcysteine <clueExperiment>dose dependently</clueExperiment> <clueType>reduced</clueType> TNF-induced VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA expression (by 70% at 100 mumol/L PDTC) <clueLoc>in HUVECs</clueLoc> as assessed <clueExperiment>by flow cytometry and polymerase chain reaction</clueExperiment>.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E61" />
+<cause idref="A5" />
+<clue>PDTC or N-acetylcysteine dose dependently reduced TNF-<clueType>induced</clueType> VCAM-1 but not ICAM-1 <clueLoc>surface</clueLoc> protein (also in human umbilical arterial endothelial cells) and mRNA expression (by 70% at 100 mumol/L PDTC) in HUVECs as assessed by flow cytometry and polymerase chain reaction.</clue>
+</event>
+<event assertion="non-exist" id="E26">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<cause idref="T35" />
+<clue>PDTC or N-acetylcysteine dose dependently <clueType>reduced</clueType> TNF-induced VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA expression (by 70% at 100 mumol/L PDTC) <clueLoc>in HUVECs</clueLoc> as assessed <clueExperiment>by flow cytometry and polymerase chain reaction</clueExperiment>.</clue>
+</event>
+<event assertion="non-exist" id="E27">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<cause idref="A3" />
+<clue>PDTC or N-acetylcysteine dose dependently <clueType>reduced</clueType> TNF-induced VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA expression (by 70% at 100 mumol/L PDTC) <clueLoc>in HUVECs</clueLoc> as assessed <clueExperiment>by flow cytometry and polymerase chain reaction</clueExperiment>.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E62" />
+<cause idref="A5" />
+<clue>PDTC or N-acetylcysteine dose dependently reduced TNF-<clueType>induced</clueType> VCAM-1 but not ICAM-1 <clueLoc>surface</clueLoc> protein (also in human umbilical arterial endothelial cells) and mRNA expression (by 70% at 100 mumol/L PDTC) in HUVECs as assessed by flow cytometry and polymerase chain reaction.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="E31" />
+<cause idref="T35" />
+<clue>PDTC or N-acetylcysteine <clueExperiment>dose dependently</clueExperiment> <clueType>reduced</clueType> TNF-induced VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA expression (by 70% at 100 mumol/L PDTC) <clueLoc>in HUVECs</clueLoc> as assessed <clueExperiment>by flow cytometry and polymerase chain reaction</clueExperiment>.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation" />
+<theme idref="E31" />
+<cause idref="A3" />
+<clue>PDTC or N-acetylcysteine <clueExperiment>dose dependently</clueExperiment> <clueType>reduced</clueType> TNF-induced VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA expression (by 70% at 100 mumol/L PDTC) <clueLoc>in HUVECs</clueLoc> as assessed <clueExperiment>by flow cytometry and polymerase chain reaction</clueExperiment>.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="A5" />
+<clue>PDTC or N-acetylcysteine dose dependently reduced TNF-<clueType>induced</clueType> VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA expression (by 70% at 100 mumol/L PDTC) in HUVECs as assessed by flow cytometry and polymerase chain reaction.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="E64" />
+<cause idref="T35" />
+<clue>PDTC or N-acetylcysteine <clueExperiment>dose dependently</clueExperiment> <clueType>reduced</clueType> TNF-induced VCAM-1 but not ICAM-1 surface protein (also <clueLoc>in human umbilical arterial endothelial cells</clueLoc>) and mRNA expression (by 70% at 100 mumol/L PDTC) in HUVECs as assessed <clueExperiment>by flow cytometry and polymerase chain reaction</clueExperiment>.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E64" />
+<cause idref="A3" />
+<clue>PDTC or N-acetylcysteine <clueExperiment>dose dependently</clueExperiment> <clueType>reduced</clueType> TNF-induced VCAM-1 but not ICAM-1 surface protein (also <clueLoc>in human umbilical arterial endothelial cells</clueLoc>) and mRNA expression (by 70% at 100 mumol/L PDTC) in HUVECs as assessed <clueExperiment>by flow cytometry and polymerase chain reaction</clueExperiment>.</clue>
+</event>
+<event id="E64">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="A5" />
+<clue>PDTC or N-acetylcysteine dose dependently reduced TNF-<clueType>induced</clueType> VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA expression (by 70% at 100 mumol/L PDTC) in HUVECs as assessed by flow cytometry and polymerase chain reaction.</clue>
+</event>
+<event assertion="non-exist" id="E34">
+<type class="Negative_regulation" />
+<theme idref="E65" />
+<cause idref="T35" />
+<clue>PDTC or N-acetylcysteine dose dependently <clueType>reduced</clueType> TNF-induced VCAM-1 but not ICAM-1 surface protein (also <clueLoc>in human umbilical arterial endothelial cells</clueLoc>) and mRNA expression (by 70% at 100 mumol/L PDTC) in HUVECs as assessed <clueExperiment>by flow cytometry and polymerase chain reaction</clueExperiment>.</clue>
+</event>
+<event assertion="non-exist" id="E35">
+<type class="Negative_regulation" />
+<theme idref="E65" />
+<cause idref="A3" />
+<clue>PDTC or N-acetylcysteine dose dependently <clueType>reduced</clueType> TNF-induced VCAM-1 but not ICAM-1 surface protein (also <clueLoc>in human umbilical arterial endothelial cells</clueLoc>) and mRNA expression (by 70% at 100 mumol/L PDTC) in HUVECs as assessed <clueExperiment>by flow cytometry and polymerase chain reaction</clueExperiment>.</clue>
+</event>
+<event id="E65">
+<type class="Positive_regulation" />
+<theme idref="E63" />
+<cause idref="A5" />
+<clue>PDTC or N-acetylcysteine dose dependently reduced TNF-<clueType>induced</clueType> VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA expression (by 70% at 100 mumol/L PDTC) in HUVECs as assessed by flow cytometry and polymerase chain reaction.</clue>
+</event>
+<sentence id="S6">Gel-shift analysis in <term sem="Cell_cultured" id="T47" lex="HUVEC">HUVECs</term> demonstrated that <term sem="Organic_compound_other" id="T48" lex="PDTC">PDTC</term> prevented <term sem="Protein_molecule" id="T49" lex="NF-kappa_B">NF-kappa B</term> mobilization by <term sem="Protein_family_or_group" id="T50" lex="TNF">TNF</term>, suggesting that only <term sem="Other" id="T51" lex="VCAM-1_induction"><term sem="Protein_molecule" id="T52" lex="VCAM-1">VCAM-1</term> induction</term> was controlled by <term sem="Protein_molecule" id="T53" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E36">
+<type class="Localization" />
+<theme idref="T49" />
+<clue>Gel-shift analysis in HUVECs demonstrated that PDTC prevented NF-kappa B <clueType>mobilization</clueType> by TNF, suggesting that only VCAM-1 induction was controlled by NF-kappa B.</clue>
+</event>
+<event id="E67">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="T50" />
+<clue>Gel-shift analysis in HUVECs demonstrated that PDTC prevented NF-kappa B mobilization <linkCause>by</linkCause> TNF, suggesting that only VCAM-1 induction was controlled by NF-kappa B.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E37">
+<type class="Negative_regulation" />
+<theme idref="E36" />
+<cause idref="T48" />
+<clue><clueExperiment>Gel-shift analysis</clueExperiment> <clueLoc>in HUVECs</clueLoc> demonstrated that PDTC <clueType>prevented</clueType> NF-kappa B mobilization by TNF, suggesting that only VCAM-1 induction was controlled by NF-kappa B.</clue>
+</event>
+<event uncertainty="probable" id="E38">
+<type class="Regulation" />
+<theme idref="E39" />
+<cause idref="T53" />
+<clue>Gel-shift analysis <clueLoc>in HUVECs</clueLoc> demonstrated that PDTC prevented NF-kappa B mobilization by TNF, suggesting that only VCAM-1 induction was <clueType>controlled</clueType> <linkCause>by</linkCause> NF-kappa B.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="T52" />
+<clue>Gel-shift analysis in HUVECs demonstrated that PDTC prevented NF-kappa B mobilization by TNF, suggesting that only VCAM-1 <clueType>induction</clueType> was controlled by NF-kappa B.</clue>
+</event>
+<sentence id="S7">Since <term sem="Cell_cultured" id="T54" lex="HUVEC">HUVECs</term> released <term sem="Inorganic_compound" id="T55" lex="superoxide_anion">superoxide anions</term> in response to <term sem="Protein_molecule" id="A6">TNF</term>, and <term sem="Inorganic_compound" id="A7">H2O2</term> induces <term sem="Protein_molecule" id="T56" lex="VCAM-1">VCAM-1</term>, <term sem="Organic_compound_other" id="T57" lex="PDTC">PDTC</term> may act as a <term sem="Other" id="T58" lex="radical_scavenger"><term sem="Element" id="A8">radical</term> scavenger</term>.</sentence>
+<event id="E40">
+<type class="Localization" />
+<theme idref="T55" />
+<clue>Since <clueLoc>HUVECs</clueLoc> <clueType>released</clueType> superoxide anions in response to TNF, and H2O2 induces VCAM-1, PDTC may act as a radical scavenger.</clue>
+</event>
+<event id="E68">
+<type class="Positive_regulation" />
+<theme idref="E40" />
+<cause idref="A6" />
+<clue>Since HUVECs released superoxide anions <linkCause>in response to</linkCause> TNF, and H2O2 induces VCAM-1, PDTC may act as a radical scavenger.</clue>
+</event>
+<event id="E41">
+<type class="Positive_regulation" />
+<theme idref="T56" />
+<cause idref="A7" />
+<clue>Since HUVECs released superoxide anions in response to TNF, and H2O2 <clueType>induces</clueType> VCAM-1, PDTC may act as a radical scavenger.</clue>
+</event>
+<event uncertainty="probable" id="E42">
+<type class="Negative_regulation" />
+<theme idref="A8" />
+<cause idref="T57" />
+<clue>Since <clueLoc>HUVECs</clueLoc> released superoxide anions in response to TNF, and H2O2 induces VCAM-1, PDTC may act as a radical <clueType>scavenger</clueType>.</clue>
+</event>
+<sentence id="S8">Although <term sem="Protein_molecule" id="T59" lex="ICAM-1">ICAM-1</term> induction was unaffected, inhibitors of <term sem="Protein_molecule" id="T60" lex="NADPH_oxidase">NADPH oxidase</term> (<term sem="Organic_compound_other" id="T61" lex="apocynin">apocynin</term>) or <term sem="Protein_molecule" id="T62" lex="cytochrome_P-450">cytochrome P-450</term> (<term sem="Organic_compound_other" id="T63" lex="SKF525a">SKF525a</term>) suppressed <term sem="Protein_molecule" id="T64" lex="VCAM-1">VCAM-1</term> induction by <term sem="Protein_molecule" id="A9">TNF</term>, revealing that several <term sem="Other" id="T65" lex="radical-generating_system">radical-generating systems</term> are involved in its regulation.</sentence>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="T59" />
+<cause idref="A5" />
+<clue>Although ICAM-1 <clueType>induction</clueType> was unaffected, inhibitors of NADPH oxidase (apocynin) or cytochrome P-450 (SKF525a) suppressed VCAM-1 induction by TNF, revealing that several radical-generating systems are involved in its regulation.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<event assertion="non-exist" id="E44">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="T35" />
+<clue>Although ICAM-1 induction was <clueType>unaffected</clueType>, inhibitors of NADPH oxidase (apocynin) or cytochrome P-450 (SKF525a) suppressed VCAM-1 induction by TNF, revealing that several radical-generating systems are involved in its regulation.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="T64" />
+<cause idref="A9" />
+<clue>Although ICAM-1 induction was unaffected, inhibitors of NADPH oxidase (apocynin) or cytochrome P-450 (SKF525a) suppressed VCAM-1 <clueType>induction</clueType> <linkCause>by</linkCause> TNF, revealing that several radical-generating systems are involved in its regulation.</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation" />
+<theme idref="E45" />
+<cause idref="T61" />
+<clue>Although ICAM-1 induction was unaffected, inhibitors of NADPH oxidase (apocynin) or cytochrome P-450 (SKF525a) <clueType>suppressed</clueType> VCAM-1 induction by TNF, revealing that several radical-generating systems are involved in its regulation.</clue>
+</event>
+<event id="E47">
+<type class="Negative_regulation" />
+<theme idref="E45" />
+<cause idref="T63" />
+<clue>Although ICAM-1 induction was unaffected, inhibitors of NADPH oxidase (apocynin) or cytochrome P-450 (SKF525a) <clueType>suppressed</clueType> VCAM-1 induction by TNF, revealing that several radical-generating systems are involved in its regulation.</clue>
+</event>
+<event id="E48">
+<type class="Regulation" />
+<theme idref="E45" />
+<cause idref="T65" />
+<clue>Although ICAM-1 induction was unaffected, inhibitors of NADPH oxidase (apocynin) or cytochrome P-450 (SKF525a) suppressed VCAM-1 induction by TNF, revealing that several radical-generating systems are involved in <corefTheme>its</corefTheme> <clueType>regulation</clueType>.</clue>
+</event>
+<sentence id="S9"><term sem="Organic_compound_other" id="T66" lex="PDTC">PDTC</term>, <term sem="Organic_compound_other" id="T67" lex="apocynin">apocynin</term>, or <term sem="Organic_compound_other" id="T68" lex="SKF525a">SKF525a</term> decreased adhesion of <term sem="Cell_cultured" id="T69" lex="monocytic_U937_cell">monocytic U937 cells</term> to <term sem="Cell_cultured" id="T70" lex="TNF-treated_HUVEC"><term sem="Protein_molecule" id="A10">TNF</term>-treated <term sem="Cell_cultured" id="T71" lex="HUVEC">HUVECs</term></term> (by 75% at 100 mumol/L <term sem="Organic_compound_other" id="T72" lex="PDTC">PDTC</term>).</sentence>
+<event id="E49">
+<type class="Cell_adhesion" />
+<theme idref="T69" />
+<theme idref="T70" />
+<clue>PDTC, apocynin, or SKF525a decreased <clueType>adhesion</clueType> <linkTheme>of</linkTheme> monocytic U937 cells <linkTheme>to</linkTheme> TNF-treated HUVECs (by 75% at 100 mumol/L PDTC).</clue>
+</event>
+<event id="E50">
+<type class="Artificial_process" />
+<theme idref="T71" />
+<theme idref="A10" />
+<clue>PDTC, apocynin, or SKF525a decreased adhesion of monocytic U937 cells to TNF-<clueType>treated</clueType> HUVECs (by 75% at 100 mumol/L PDTC).</clue>
+</event>
+<event id="E51">
+<type class="Negative_regulation" />
+<theme idref="E49" />
+<cause idref="T66" />
+<clue>PDTC, apocynin, or SKF525a <clueType>decreased</clueType> adhesion of monocytic U937 cells to TNF-treated HUVECs (by 75% at 100 mumol/L PDTC).</clue>
+</event>
+<event id="E52">
+<type class="Negative_regulation" />
+<theme idref="E49" />
+<cause idref="T67" />
+<clue>PDTC, apocynin, or SKF525a <clueType>decreased</clueType> adhesion of monocytic U937 cells to TNF-treated HUVECs (by 75% at 100 mumol/L PDTC).</clue>
+</event>
+<event id="E53">
+<type class="Negative_regulation" />
+<theme idref="E49" />
+<cause idref="T68" />
+<clue>PDTC, apocynin, or SKF525a <clueType>decreased</clueType> adhesion of monocytic U937 cells to TNF-treated HUVECs (by 75% at 100 mumol/L PDTC).</clue>
+</event>
+<sentence id="S10">Inhibition by <term sem="Protein_molecule" id="T73" lex="anti-VCAM-1_monoclonal_antibody">anti-<term sem="Protein_molecule" id="T74" lex="VCAM-1">VCAM-1</term> monoclonal antibody</term> <term sem="Protein_molecule" id="T75" lex="1G11">1G11</term> indicated that <term sem="Other" id="T76" lex="U937_adhesion"><term sem="Cell_cultured" id="T77" lex="U937">U937</term> adhesion</term> was <term sem="Other" id="T78" lex="VCAM-1_dependent"><term sem="Protein_molecule" id="T79" lex="VCAM-1">VCAM-1</term> dependent</term> and suppression by <term sem="Other" id="T80" lex="antioxidant">antioxidants</term> was due to reduced <term sem="Other" id="T81" lex="VCAM-1_induction"><term sem="Protein_molecule" id="T82" lex="VCAM-1">VCAM-1</term> induction</term>.</sentence>
+<event id="E54">
+<type class="Negative_regulation" />
+<theme idref="E55" />
+<cause idref="T75" />
+<clue><clueType>Inhibition</clueType> <linkCause>by</linkCause> anti-VCAM-1 monoclonal antibody 1G11 indicated that U937 adhesion was VCAM-1 dependent and suppression by antioxidants was due to reduced VCAM-1 induction.</clue>
+</event>
+<event id="E55">
+<type class="Cell_adhesion" />
+<theme idref="T77" />
+<clue>Inhibition by anti-VCAM-1 monoclonal antibody 1G11 indicated that U937 <clueType>adhesion</clueType> was VCAM-1 dependent and suppression by antioxidants was due to reduced VCAM-1 induction.</clue>
+</event>
+<event id="E56">
+<type class="Positive_regulation" />
+<theme idref="E55" />
+<cause idref="T79" />
+<clue>Inhibition by anti-VCAM-1 monoclonal antibody 1G11 indicated that U937 adhesion was VCAM-1 <clueType>dependent</clueType> and suppression by antioxidants was due to reduced VCAM-1 induction.</clue>
+</event>
+<event id="E57">
+<type class="Negative_regulation" />
+<theme idref="E55" />
+<cause idref="T80" />
+<clue>Inhibition by anti-VCAM-1 monoclonal antibody 1G11 indicated that U937 adhesion was VCAM-1 dependent and <clueType>suppression</clueType> <linkCause>by</linkCause> antioxidants was due to reduced VCAM-1 induction.</clue>
+</event>
+<event id="E58">
+<type class="Positive_regulation" />
+<theme idref="T82" />
+<cause idref="A5" />
+<clue>Inhibition by anti-VCAM-1 monoclonal antibody 1G11 indicated that U937 adhesion was VCAM-1 dependent and suppression by antioxidants was due to reduced VCAM-1 <clueType>induction</clueType>.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<event id="E59">
+<type class="Negative_regulation" />
+<theme idref="E58" />
+<clue>Inhibition by anti-VCAM-1 monoclonal antibody 1G11 indicated that U937 adhesion was VCAM-1 dependent and suppression by antioxidants was due to <clueType>reduced</clueType> VCAM-1 induction.</clue>
+</event>
+<event id="E60">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref="E59" />
+<clue>Inhibition by anti-VCAM-1 monoclonal antibody 1G11 indicated that U937 adhesion was VCAM-1 dependent and suppression by antioxidants was <clueType>due</clueType> <linkCause>to</linkCause> reduced VCAM-1 induction.</clue>
+</event>
+<sentence id="S11">(ABSTRACT TRUNCATED AT 250 WORDS)</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/02/22" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9078381" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9078381</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Differentiation of <term sem="Cell_natural" id="T1" lex="T-helper_lymphocyte">T-helper lymphocytes</term>: selective regulation by members of the <term sem="Protein_family_or_group" id="T2" lex="STAT_family">STAT family</term> of <term sem="Protein_family_or_group" id="T3" lex="transcription_factor">transcription factors</term>.</sentence>
+<event id="E1">
+<type class="Cell_differentiation" />
+<theme idref="T1" />
+<clue><clueType>Differentiation</clueType> <linkTheme>of</linkTheme> T-helper lymphocytes: selective regulation by members of the STAT family of transcription factors.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T2" />
+<clue>Differentiation of T-helper lymphocytes: selective <clueType>regulation</clueType> <linkCause>by</linkCause> members of the STAT family of transcription factors.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T4" lex="interleukin-4">Interleukin-4</term> (<term sem="Protein_molecule" id="T5" lex="IL-4">IL-4</term>) and <term sem="Protein_molecule" id="T6" lex="interleukin-12">interleukin-12</term> (<term sem="Protein_molecule" id="T7" lex="IL-12">IL-12</term>) control the differentiation of <term sem="Cell_natural" id="T8" lex="T-helper_cell">T-helper cells</term>.</sentence>
+<event id="E3">
+<type class="Cell_differentiation" />
+<theme idref="T8" />
+<clue>Interleukin-4 (IL-4) and interleukin-12 (IL-12) control the <clueType>differentiation</clueType> <linkTheme>of</linkTheme> T-helper cells.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="T5" />
+<clue>Interleukin-4 (IL-4) and interleukin-12 (IL-12) <clueType>control</clueType> the differentiation of T-helper cells.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="T7" />
+<clue>Interleukin-4 (IL-4) and interleukin-12 (IL-12) <clueType>control</clueType> the differentiation of T-helper cells.</clue>
+</event>
+<sentence id="S3">Here we summarize studies which investigate the mechanism by which these <term sem="Protein_family_or_group" id="T9" lex="cytokine">cytokines</term> selectively reprogramme <term sem="Other" id="T10" lex="gene_expression">gene expression</term> in <term sem="Cell_natural" id="T11" lex="T-lymphocyte">T-lymphocytes</term>.</sentence>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="T10" />
+<cause idref="T5" />
+<clue>Here we summarize studies which investigate the mechanism by which <corefCause>these cytokines</corefCause> selectively <clueType>reprogramme</clueType> gene expression <clueLoc>in T-lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="T10" />
+<cause idref="T7" />
+<clue>Here we summarize studies which investigate the mechanism by which <corefCause>these cytokines</corefCause> selectively <clueType>reprogramme</clueType> gene expression <clueLoc>in T-lymphocytes</clueLoc>.</clue>
+</event>
+<sentence id="S4"><term sem="Other" id="T12" lex="cytokine_stimulation"><term sem="Protein_family_or_group" id="T13" lex="cytokine">Cytokine</term> stimulation</term> leads to the phosphorylation of specific <term sem="Amino_acid_monomer" id="T14" lex="tyrosine_residue">tyrosine residues</term> within the <term sem="Protein_domain_or_region" id="T15" lex="intracellular_domain">intracellular domain</term> of the corresponding <term sem="Protein_family_or_group" id="T16" lex="cytokine_receptor">cytokine receptor</term>.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<cause idref="T13" />
+<clue>Cytokine <clueType>stimulation</clueType> leads to the phosphorylation of specific tyrosine residues within the intracellular domain of the corresponding cytokine receptor.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E9">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T16" />
+<site idref="T14" /><clue>Cytokine stimulation leads to the <clueType>phosphorylation</clueType> of specific tyrosine residues <linkTheme>within</linkTheme> the intracellular domain of the corresponding cytokine receptor.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E8" />
+<clue>Cytokine stimulation <clueType>leads</clueType> <linkTheme>to</linkTheme> the phosphorylation of specific tyrosine residues within the intracellular domain of the corresponding cytokine receptor.</clue>
+</event>
+<sentence id="S5">These <term sem="Amino_acid_monomer" id="T17" lex="phosphotyrosine">phosphotyrosines</term> serve as <term sem="Protein_domain_or_region" id="T18" lex="docking_site">docking sites</term> for latent, <term sem="Protein_family_or_group" id="T19" lex="cytoplasmic_transcription_factor">cytoplasmic <term sem="Protein_family_or_group" id="T20" lex="transcription_factor">transcription factors</term></term> known as <term sem="Protein_family_or_group" id="T21" lex="signal_transducers_and_activators_of_transcription_(Stat)_protein">signal transducers and activators of transcription (<term sem="Protein_family_or_group" id="A1">Stat</term>) proteins</term>.</sentence>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T17" />
+<theme idref="A1" />
+<clue>These phosphotyrosines serve as <clueType>docking</clueType> sites <linkTheme>for</linkTheme> latent, <clueLoc>cytoplasmic</clueLoc> transcription factors known as signal transducers and activators of transcription (Stat) proteins.</clue>
+</event>
+<sentence id="S6"><term sem="Protein_family_or_group" id="A2">Receptor</term>/<term sem="Protein_family_or_group" id="A3">Stat</term> interaction is mediated by the <term sem="Protein_domain_or_region" id="T22" lex="src_homology_2_(SH2)_domain">src homology 2 (<term sem="Protein_domain_or_region" id="A4">SH2</term>) <term sem="Protein_domain_or_region" id="A5">domain</term></term> of the corresponding <term sem="Protein_family_or_group" id="T23" lex="Stat_protein">Stat protein</term>.</sentence>
+<event id="E12">
+<type class="Binding" />
+<theme idref="A2" />
+<theme idref="A3" />
+<clue>Receptor/Stat <clueType>interaction</clueType> is mediated by the src homology 2 (SH2) domain of the corresponding Stat protein.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref1="A5" idref="A4" />
+<clue>Receptor/Stat interaction is <clueType>mediated</clueType> <linkCause>by</linkCause> the src homology 2 (SH2) domain of the corresponding Stat protein.</clue>
+</event>
+<sentence id="S7">Although <term sem="Protein_family_or_group" id="A6">Stat</term> binding to the <term sem="Protein_domain_or_region" id="A7"><term sem="Protein_domain_or_region" id="T24" lex="intracellular_domain">intracellular domain</term> of the <term sem="Protein_family_or_group" id="T25" lex="cytokine_receptor">cytokine receptor</term></term> strongly depends on the <term sem="Amino_acid_monomer" id="T26" lex="phosphotyrosine_residue">phosphotyrosine residue</term>, the recruitment of a specific <term sem="Protein_family_or_group" id="T27" lex="Stat_protein">Stat protein</term> is dictated by <term sem="Amino_acid_monomer" id="A8"><term sem="Amino_acid_monomer" id="T28" lex="amino_acid_residue">amino acid residues</term> C-terminal to the <term sem="Amino_acid_monomer" id="T29" lex="phosphotyrosine">phosphotyrosine</term></term>.</sentence>
+<event id="E14">
+<type class="Binding" />
+<theme idref="A6" />
+<theme idref="A7" />
+<clue>Although Stat <clueType>binding</clueType> <linkTheme>to</linkTheme> the intracellular domain of the cytokine receptor strongly depends on the phosphotyrosine residue, the recruitment of a specific Stat protein is dictated by amino acid residues C-terminal to the phosphotyrosine.</clue>
+<comment>TPS A7</comment>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T26" />
+<clue>Although Stat binding to the intracellular domain of the cytokine receptor strongly <clueType>depends</clueType> <linkCause>on</linkCause> the phosphotyrosine residue, the recruitment of a specific Stat protein is dictated by amino acid residues C-terminal to the phosphotyrosine.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="T27" />
+<cause idref="A8" />
+<clue>Although Stat binding to the intracellular domain of the cytokine receptor strongly depends on the phosphotyrosine residue, the recruitment of a specific Stat protein is <clueType>dictated</clueType> <linkCause>by</linkCause> amino acid residues C-terminal to the phosphotyrosine.</clue>
+<comment>TPS A8</comment>
+</event>
+<sentence id="S8">Specific <term sem="Protein_domain_or_region" id="T30" lex="docking_site">docking sites</term> within individual <term sem="Protein_family_or_group" id="T31" lex="cytokine_receptor">cytokine receptors</term> have been identified for almost all <term sem="Protein_family_or_group" id="T32" lex="Stat_protein">Stat proteins</term>.</sentence>
+<sentence id="S9">The direct coupling between <term sem="Protein_family_or_group" id="T33" lex="cytokine_receptor">cytokine receptor</term> and <term sem="Protein_family_or_group" id="T34" lex="transcription_factor">transcription factor</term> helps to explain how different <term sem="Protein_family_or_group" id="T35" lex="cytokine">cytokines</term> elicit distinct patterns of <term sem="Other" id="T36" lex="gene_expression">gene expression</term>.</sentence>
+<event id="E17">
+<type class="Binding" />
+<theme idref="T33" />
+<theme idref="T34" />
+<clue>The direct <clueType>coupling</clueType> <linkTheme>between</linkTheme> cytokine receptor and transcription factor helps to explain how different cytokines elicit distinct patterns of gene expression.</clue>
+</event>
+<event uncertainty="doubtful" id="E18">
+<type class="Regulation" />
+<theme idref="T36" />
+<cause idref="T35" />
+<clue>The direct coupling between cytokine receptor and transcription factor helps to explain how different cytokines <clueType>elicit</clueType> distinct patterns of gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

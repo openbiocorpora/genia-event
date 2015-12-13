@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="02/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8473495" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8473495</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="negative_transcriptional_regulation">Negative transcriptional regulation</term> of <term sem="DNA_domain_or_region" id="T2" lex="human_interleukin_2_(IL-2)_gene"><term sem="Protein_molecule" id="T3" lex="human_interleukin_2">human interleukin 2</term> (<term sem="Protein_molecule" id="T4" lex="IL-2">IL-2</term>) gene</term> by <term sem="Lipid" id="T5" lex="glucocorticoid">glucocorticoids</term> through interference with <term sem="Protein_family_or_group" id="T6" lex="nuclear_transcription_factor">nuclear transcription factors</term> <term sem="Protein_molecule" id="T7" lex="AP-1">AP-1</term> and <term sem="Protein_molecule" id="T8" lex="NF-AT">NF-AT</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="T7" />
+<cause idref="T5" />
+<clue>Negative transcriptional <clueType>regulation</clueType> of human interleukin 2 (IL-2) gene <linkCause>by</linkCause> glucocorticoids <clueType>through interference</clueType> <linkTheme>with</linkTheme> nuclear transcription factors AP-1 and NF-AT.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="T8" />
+<cause idref="T5" />
+<clue>Negative transcriptional <clueType>regulation</clueType> of human interleukin 2 (IL-2) gene <linkCause>by</linkCause> glucocorticoids <clueType>through interference</clueType> <linkTheme>with</linkTheme> nuclear transcription factors AP-1 and NF-AT.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="T2" />
+<cause idref="E1" />
+<clue><clueType>Negative transcriptional regulation</clueType> <linkTheme>of</linkTheme> human interleukin 2 (IL-2) gene by glucocorticoids <linkCause>through</linkCause> interference with nuclear transcription factors AP-1 and NF-AT.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="T2" />
+<cause idref="E2" />
+<clue><clueType>Negative transcriptional regulation</clueType> <linkTheme>of</linkTheme> human interleukin 2 (IL-2) gene by glucocorticoids <linkCause>through</linkCause> interference with nuclear transcription factors AP-1 and NF-AT.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T9" lex="IL-2_gene_transcription"><term sem="DNA_domain_or_region" id="T10" lex="IL-2_gene">IL-2 gene</term> transcription</term> is affected by several <term sem="Protein_family_or_group" id="T11" lex="nuclear_protein">nuclear proteins</term>.</sentence>
+<event id="E5">
+<type class="Transcription" />
+<theme idref="T10" />
+<clue>IL-2 gene <clueType>transcription</clueType> is affected by several nuclear proteins.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T11" />
+<clue>IL-2 gene transcription is <clueType>affected</clueType> <linkCause>by</linkCause> several nuclear proteins.</clue>
+</event>
+<sentence id="S3">We asked whether <term sem="Lipid" id="T12" lex="dexamethasone">dexamethasone</term> (<term sem="Lipid" id="T13" lex="Dex">Dex</term>) and <term sem="Organic_compound_other" id="T14" lex="cyclosporin_A">cyclosporin A</term> (<term sem="Organic_compound_other" id="T15" lex="CsA">CsA</term>) inhibit <term sem="Other" id="T16" lex="IL-2_gene_transcription"><term sem="DNA_domain_or_region" id="T17" lex="IL-2_gene">IL-2 gene</term> transcription</term> by interfering with the activity of <term sem="Protein_family_or_group" id="T18" lex="nuclear_protein">nuclear proteins</term> that bind to the <term sem="DNA_domain_or_region" id="A1">IL-2 promoter</term>.</sentence>
+<event uncertainty="doubtful" id="E7">
+<type class="Negative_regulation" />
+<theme idref="T18" />
+<cause idref="T13" />
+<clue>We asked whether dexamethasone (Dex) and cyclosporin A (CsA) <clueType>inhibit</clueType> IL-2 gene transcription <clueType>by interfering</clueType> <linkTheme>with</linkTheme> the activity of nuclear proteins that bind to the IL-2 promoter.</clue>
+</event>
+<event uncertainty="doubtful" id="E8">
+<type class="Negative_regulation" />
+<theme idref="T18" />
+<cause idref="T15" />
+<clue>We asked whether dexamethasone (Dex) and cyclosporin A (CsA) <clueType>inhibit</clueType> IL-2 gene transcription <clueType>by interfering</clueType> <linkTheme>with</linkTheme> the activity of nuclear proteins that bind to the IL-2 promoter.</clue>
+</event>
+<event id="E9">
+<type class="Transcription" />
+<theme idref="T17" />
+<clue>We asked whether dexamethasone (Dex) and cyclosporin A (CsA) inhibit IL-2 gene <clueType>transcription</clueType> by interfering with the activity of nuclear proteins that bind to the IL-2 promoter.</clue>
+</event>
+<event uncertainty="doubtful" id="E10">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="E7" />
+<clue>We asked whether dexamethasone (Dex) and cyclosporin A (CsA) <clueType>inhibit</clueType> IL-2 gene transcription <linkCause>by</linkCause> interfering with the activity of nuclear proteins that bind to the IL-2 promoter.</clue>
+</event>
+<event uncertainty="doubtful" id="E11">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="E8" />
+<clue>We asked whether dexamethasone (Dex) and cyclosporin A (CsA) <clueType>inhibit</clueType> IL-2 gene transcription <linkCause>by</linkCause> interfering with the activity of nuclear proteins that bind to the IL-2 promoter.</clue>
+</event>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T18" />
+<theme idref="A1" />
+<clue>We asked whether dexamethasone (Dex) and cyclosporin A (CsA) inhibit IL-2 gene transcription by interfering with the activity of nuclear proteins that <clueType>bind</clueType> to the IL-2 promoter.</clue>
+</event>
+<sentence id="S4">Nuclear extracts from <term sem="Cell_natural" id="T19" lex="primary_human_T_lymphocyte">primary human T lymphocytes</term> were analyzed by <term sem="Other" id="T20" lex="electrophoretic_DNA_mobility_shift_assay">electrophoretic DNA mobility shift assays</term>.</sentence>
+<sentence id="S5">Both <term sem="Lipid" id="T21" lex="Dex">Dex</term> and <term sem="Organic_compound_other" id="T22" lex="CsA">CsA</term> inhibited the binding of transcription factors <term sem="Protein_molecule" id="T23" lex="AP-1">AP-1</term> and <term sem="Protein_molecule" id="T24" lex="NF-AT">NF-AT</term>, but not of <term sem="Protein_family_or_group" id="T25" lex="NF-kB">NF-kB</term> and <term sem="Protein_molecule" id="T26" lex="OCT-1/OAF">OCT-1/OAF</term>, to <term sem="DNA_domain_or_region" id="A2">their corresponding sites on the <term sem="DNA_domain_or_region" id="T27" lex="IL-2_gene_promoter">IL-2 gene promoter</term></term>.</sentence>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T23" />
+<theme idref="A2" />
+<clue>Both Dex and CsA inhibited the <clueType>binding</clueType> <linkTheme>of</linkTheme> transcription factors AP-1 and NF-AT, but not of NF-kB and OCT-1/OAF, <linkTheme>to</linkTheme> their corresponding sites on the IL-2 gene promoter.</clue>
+<comment>TPS A2</comment>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T24" />
+<theme idref="A2" />
+<clue>Both Dex and CsA inhibited the <clueType>binding</clueType> <linkTheme>of</linkTheme> transcription factors AP-1 and NF-AT, but not of NF-kB and OCT-1/OAF, <linkTheme>to</linkTheme> their corresponding sites on the IL-2 gene promoter.</clue>
+</event>
+<event id="E15">
+<type class="Binding" />
+<theme idref="T25" />
+<theme idref="A2" />
+<clue>Both Dex and CsA inhibited the <clueType>binding</clueType> of transcription factors AP-1 and NF-AT, but not <linkTheme>of</linkTheme> NF-kB and OCT-1/OAF, <linkTheme>to</linkTheme> their corresponding sites on the IL-2 gene promoter.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="A2" />
+<clue>Both Dex and CsA inhibited the <clueType>binding</clueType> of transcription factors AP-1 and NF-AT, but not <linkTheme>of</linkTheme> NF-kB and OCT-1/OAF, <linkTheme>to</linkTheme> their corresponding sites on the IL-2 gene promoter.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="T21" />
+<clue>Both Dex and CsA <clueType>inhibited</clueType> the binding of transcription factors AP-1 and NF-AT, but not of NF-kB and OCT-1/OAF, to their corresponding sites on the IL-2 gene promoter.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T21" />
+<clue>Both Dex and CsA <clueType>inhibited</clueType> the binding of transcription factors AP-1 and NF-AT, but not of NF-kB and OCT-1/OAF, to their corresponding sites on the IL-2 gene promoter.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="T22" />
+<clue>Both Dex and CsA <clueType>inhibited</clueType> the binding of transcription factors AP-1 and NF-AT, but not of NF-kB and OCT-1/OAF, to their corresponding sites on the IL-2 gene promoter.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T22" />
+<clue>Both Dex and CsA <clueType>inhibited</clueType> the binding of transcription factors AP-1 and NF-AT, but not of NF-kB and OCT-1/OAF, to their corresponding sites on the IL-2 gene promoter.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T21" />
+<clue>Both Dex and CsA <clueType>inhibited</clueType> the binding of transcription factors AP-1 and NF-AT, but not of NF-kB and OCT-1/OAF, to their corresponding sites on the IL-2 gene promoter.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T21" />
+<clue>Both Dex and CsA <clueType>inhibited</clueType> the binding of transcription factors AP-1 and NF-AT, but not of NF-kB and OCT-1/OAF, to their corresponding sites on the IL-2 gene promoter.</clue>
+</event>
+<event assertion="non-exist" id="E23">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T22" />
+<clue>Both Dex and CsA <clueType>inhibited</clueType> the binding of transcription factors AP-1 and NF-AT, but not of NF-kB and OCT-1/OAF, to their corresponding sites on the IL-2 gene promoter.</clue>
+</event>
+<event assertion="non-exist" id="E24">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T22" />
+<clue>Both Dex and CsA <clueType>inhibited</clueType> the binding of transcription factors AP-1 and NF-AT, but not of NF-kB and OCT-1/OAF, to their corresponding sites on the IL-2 gene promoter.</clue>
+</event>
+<sentence id="S6">To correlate changes in <term sem="Protein_family_or_group" id="A3">nuclear factor</term> binding in vitro with transcriptional activity in vivo and define the structural requirements for <term sem="Other" id="T28" lex="IL-2_promoter_repression"><term sem="DNA_domain_or_region" id="T29" lex="IL-2_promoter">IL-2 promoter</term> repression</term>, we used transient DNA transfections.</sentence>
+<event id="E25">
+<type class="Binding" />
+<theme idref="A3" />
+<clue>To correlate changes in nuclear factor <clueType>binding</clueType> in vitro with transcriptional activity in vivo and define the structural requirements for IL-2 promoter repression, we used transient DNA transfections.</clue>
+</event>
+<event id="E26">
+<type class="Regulation" />
+<theme idref="E25" />
+<clue>To correlate <clueType>changes</clueType> in nuclear factor binding in vitro with transcriptional activity in vivo and define the structural requirements for IL-2 promoter repression, we used transient DNA transfections.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<cause idref="A3" />
+<clue>To correlate changes in nuclear factor binding in vitro with <clueType>transcriptional activity</clueType> in vivo and define the structural requirements for IL-2 promoter repression, we used transient DNA transfections.</clue>
+</event>
+<event uncertainty="doubtful" id="E28">
+<type class="Correlation" />
+<theme idref="E26" />
+<theme idref="E27" />
+<clue>To <clueType>correlate</clueType> changes in nuclear factor binding in vitro <linkTheme>with</linkTheme> transcriptional activity in vivo and define the structural requirements for IL-2 promoter repression, we used transient DNA transfections.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="T29" />
+<clue>To correlate changes in nuclear factor binding in vitro with transcriptional activity in vivo and define the structural requirements for IL-2 promoter <clueType>repression</clueType>, we used transient DNA transfections.</clue>
+</event>
+<event uncertainty="doubtful" id="E30">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="A3" />
+<clue>To correlate changes in nuclear factor binding in vitro with transcriptional activity in vivo and define the structural <clueType>requirements</clueType> <linkTheme>for</linkTheme> IL-2 promoter repression, we used transient DNA transfections.</clue>
+</event>
+<sentence id="S7"><term sem="Cell_cultured" id="T30" lex="Jurkat_cell">Jurkat cells</term> were transfected with <term sem="DNA_molecule" id="T31" lex="plasmid">plasmids</term> containing either the intact <term sem="DNA_domain_or_region" id="T32" lex="IL-2_promoter">IL-2 promoter</term> or its <cons sem="(AND DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region)" id="T33" lex="(AND AP-1_motif NF-AT_motif NF-kB_motif)"><frag id="F1"><term sem="Protein_complex" id="A5">AP-1</term></frag>, <frag id="F2"><term sem="Protein_family_or_group" id="A6">NF-AT</term></frag>, and <frag id="F3"><term sem="Protein_complex" id="A7">NF-kB</term></frag> <frag id="F4">motifs</frag></cons>.</sentence>
+<sentence id="S8"><term sem="Lipid" id="A4">Dex</term> inhibited the <term sem="DNA_molecule" id="T34" lex="IL-2_promoter">IL-2 promoter</term> and the <term sem="DNA_molecule" id="T35" lex="AP-1_plasmid">AP-1</term>, but not the <term sem="DNA_molecule" id="T36" lex="NF-AT_plasmid">NF-AT</term> and <term sem="DNA_molecule" id="T37" lex="NF-kB_plasmid">NF-kB</term> <term sem="DNA_molecule" id="A9">plasmids</term>.</sentence>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref1="A9" idref="T34" />
+<cause idref="A4" />
+<clue>Dex <clueType>inhibited</clueType> the IL-2 promoter and the AP-1, but not the NF-AT and NF-kB plasmids.</clue>
+<comment>NER T34,T37 MOD</comment>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref1="A9" idref="T35" />
+<cause idref="A4" />
+<clue>Dex <clueType>inhibited</clueType> the IL-2 promoter and the AP-1, but not the NF-AT and NF-kB plasmids.</clue>
+</event>
+<event assertion="non-exist" id="E33">
+<type class="Negative_regulation" />
+<theme idref1="A9" idref="T36" />
+<cause idref="A4" />
+<clue>Dex <clueType>inhibited</clueType> the IL-2 promoter and the AP-1, but not the NF-AT and NF-kB plasmids.</clue>
+</event>
+<event assertion="non-exist" id="E34">
+<type class="Negative_regulation" />
+<theme idref1="A9" idref="T37" />
+<cause idref="A4" />
+<clue>Dex <clueType>inhibited</clueType> the IL-2 promoter and the AP-1, but not the NF-AT and NF-kB plasmids.</clue>
+</event>
+<sentence id="S9">In contrast, <term sem="Organic_compound_other" id="T38" lex="CsA">CsA</term> inhibited the <term sem="DNA_molecule" id="T39" lex="IL-2_promoter">IL-2 promoter</term> and the <term sem="DNA_molecule" id="T40" lex="NF-AT_plasmid">NF-AT</term>, but not the <term sem="DNA_molecule" id="T41" lex="AP-1_plasmid">AP-1</term> and <term sem="DNA_molecule" id="T42" lex="NF-kB_plasmid">NF-kB</term> <term sem="DNA_molecule" id="A10">plasmids</term>.</sentence>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref1="A10" idref="T39" />
+<cause idref="T38" />
+<clue>In contrast, CsA <clueType>inhibited</clueType> the IL-2 promoter and the NF-AT, but not the AP-1 and NF-kB plasmids.</clue>
+<comment>NER T39,T42 MOD</comment>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref1="A10" idref="T40" />
+<cause idref="T38" />
+<clue>In contrast, CsA <clueType>inhibited</clueType> the IL-2 promoter and the NF-AT, but not the AP-1 and NF-kB plasmids.</clue>
+</event>
+<event assertion="non-exist" id="E37">
+<type class="Negative_regulation" />
+<theme idref1="A10" idref="T41" />
+<cause idref="T38" />
+<clue>In contrast, CsA <clueType>inhibited</clueType> the IL-2 promoter and the NF-AT, but not the AP-1 and NF-kB plasmids.</clue>
+</event>
+<event assertion="non-exist" id="E38">
+<type class="Negative_regulation" />
+<theme idref1="A10" idref="T42" />
+<cause idref="T38" />
+<clue>In contrast, CsA <clueType>inhibited</clueType> the IL-2 promoter and the NF-AT, but not the AP-1 and NF-kB plasmids.</clue>
+</event>
+<sentence id="S10">These results suggest that in <term sem="Cell_natural" id="T43" lex="human_T_lymphocyte">human T lymphocytes</term> both <term sem="Lipid" id="T44" lex="Dex">Dex</term> and <term sem="Organic_compound_other" id="T45" lex="CsA">CsA</term> inhibited <term sem="Other" id="T46" lex="IL-2_gene_transcription"><term sem="DNA_domain_or_region" id="T47" lex="IL-2_gene">IL-2 gene</term> transcription</term> through interference with <term sem="Protein_family_or_group" id="T48" lex="transcription_factor">transcription factors</term> <term sem="Protein_molecule" id="T49" lex="AP-1">AP-1</term> and <term sem="Protein_molecule" id="T50" lex="NF-AT">NF-AT</term>.</sentence>
+<event uncertainty="probable" id="E39">
+<type class="Negative_regulation" />
+<theme idref="T49" />
+<cause idref="T44" />
+<clue>These results suggest that in human T lymphocytes both Dex and CsA <clueType>inhibited</clueType> IL-2 gene transcription <clueType>through interference</clueType> <linkTheme>with</linkTheme> transcription factors AP-1 and NF-AT.</clue>
+</event>
+<event uncertainty="probable" id="E40">
+<type class="Negative_regulation" />
+<theme idref="T50" />
+<cause idref="T44" />
+<clue>These results suggest that in human T lymphocytes both Dex and CsA <clueType>inhibited</clueType> IL-2 gene transcription <clueType>through interference</clueType> <linkTheme>with</linkTheme> transcription factors AP-1 and NF-AT.</clue>
+</event>
+<event uncertainty="probable" id="E41">
+<type class="Negative_regulation" />
+<theme idref="T49" />
+<cause idref="T45" />
+<clue>These results suggest that in human T lymphocytes both Dex and CsA <clueType>inhibited</clueType> IL-2 gene transcription <clueType>through interference</clueType> <linkTheme>with</linkTheme> transcription factors AP-1 and NF-AT.</clue>
+</event>
+<event uncertainty="probable" id="E42">
+<type class="Negative_regulation" />
+<theme idref="T50" />
+<cause idref="T45" />
+<clue>These results suggest that in human T lymphocytes both Dex and CsA <clueType>inhibited</clueType> IL-2 gene transcription <clueType>through interference</clueType> <linkTheme>with</linkTheme> transcription factors AP-1 and NF-AT.</clue>
+</event>
+<event id="E43">
+<type class="Transcription" />
+<theme idref="T27" />
+<clue>These results suggest that in human T lymphocytes both Dex and CsA inhibited IL-2 gene <clueType>transcription</clueType> through interference with transcription factors AP-1 and NF-AT.</clue>
+</event>
+<event uncertainty="probable" id="E44">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="E39" />
+<clue>These results suggest that in human T lymphocytes both Dex and CsA <clueType>inhibited</clueType> IL-2 gene transcription <linkCause>through</linkCause> interference with transcription factors AP-1 and NF-AT.</clue>
+</event>
+<event uncertainty="probable" id="E45">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="E40" />
+<clue>These results suggest that in human T lymphocytes both Dex and CsA <clueType>inhibited</clueType> IL-2 gene transcription <linkCause>through</linkCause> interference with transcription factors AP-1 and NF-AT.</clue>
+</event>
+<event uncertainty="probable" id="E46">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="E41" />
+<clue>These results suggest that in human T lymphocytes both Dex and CsA <clueType>inhibited</clueType> IL-2 gene transcription <linkCause>through</linkCause> interference with transcription factors AP-1 and NF-AT.</clue>
+</event>
+<event uncertainty="probable" id="E47">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="E42" />
+<clue>These results suggest that in human T lymphocytes both Dex and CsA <clueType>inhibited</clueType> IL-2 gene transcription <linkCause>through</linkCause> interference with transcription factors AP-1 and NF-AT.</clue>
+</event>
+<sentence id="S11">We propose that, while maximum inhibition may involve interaction with both <term sem="Protein_family_or_group" id="T51" lex="transcription_factor">transcription factors</term>, <term sem="Protein_molecule" id="T52" lex="AP-1">AP-1</term> is the primary target of <term sem="Lipid" id="T53" lex="Dex">Dex</term>.</sentence>
+<event id="E48">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<clue>We propose that, while maximum <clueType>inhibition</clueType> may involve interaction with both transcription factors, AP-1 is the primary target of Dex.</clue>
+<comment>NO COREFTEHEME</comment>
+</event>
+<event id="E49">
+<type class="Binding" />
+<theme idref="T49" />
+<theme idref="T53" />
+<clue>We propose that, while maximum inhibition may involve <clueType>interaction</clueType> <linkTheme>with</linkTheme> <corefTheme>both transcription factors</corefTheme>, AP-1 is the primary target of Dex.</clue>
+<comment>NO COREFTHEME FOR T53</comment>
+</event>
+<event id="E50">
+<type class="Binding" />
+<theme idref="T50" />
+<theme idref="T53" />
+<clue>We propose that, while maximum inhibition may involve <clueType>interaction</clueType> <linkTheme>with</linkTheme> <corefTheme>both transcription factors</corefTheme>, AP-1 is the primary target of Dex.</clue>
+<comment>NO COREFTHEME FOR T53</comment>
+</event>
+<event id="E51">
+<type class="Positive_regulation" />
+<theme idref="E48" />
+<cause idref="E49" />
+<cause idref="E50" />
+<clue>We propose that, while maximum inhibition may <clueType>involve</clueType> interaction with both transcription factors, AP-1 is the primary target of Dex.</clue>
+</event>
+<event id="E52">
+<type class="Regulation" />
+<theme idref="T52" />
+<cause idref="T53" />
+<clue>We propose that, while maximum inhibition may involve interaction with both transcription factors, AP-1 <clueType>is the primary target</clueType> <linkCause>of</linkCause> Dex.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

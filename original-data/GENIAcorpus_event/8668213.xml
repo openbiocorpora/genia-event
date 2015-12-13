@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="18/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8668213" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8668213</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Recombinant <term sem="Protein_molecule" id="T1" lex="NFAT1">NFAT1</term> (NFATp) is regulated by <term sem="Protein_molecule" id="A1">calcineurin</term> in <term sem="Cell_natural" id="T2" lex="T_cell">T cells</term> and mediates transcription of several <term sem="DNA_family_or_group" id="T3" lex="cytokine_gene">cytokine genes</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T1" />
+<cause idref="A1" />
+<clue>Recombinant NFAT1 (NFATp) is <clueType>regulated</clueType> <linkCause>by</linkCause> calcineurin <clueLoc>in T cells</clueLoc> and mediates transcription of several cytokine genes.</clue>
+</event>
+<event id="E2">
+<type class="Transcription" />
+<theme idref="T3" />
+<clue>Recombinant NFAT1 (NFATp) is regulated by calcineurin in T cells and mediates <clueType>transcription</clueType> <linkTheme>of</linkTheme> several cytokine genes.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Recombinant NFAT1 (NFATp) is regulated by calcineurin in T cells and <clueType>mediates</clueType> transcription of several cytokine genes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_family_or_group" id="T4" lex="transcription_factor">Transcription factors</term> of the <term sem="Protein_family_or_group" id="T5" lex="NFAT_family">NFAT family</term> play a key role in the transcription of <term sem="DNA_family_or_group" id="T6" lex="cytokine_gene">cytokine genes</term> and other <term sem="DNA_domain_or_region" id="A2">genes</term> during the <term sem="Other" id="T7" lex="immune_response">immune response</term>.</sentence>
+<event id="E4">
+<type class="Transcription" />
+<theme idref="T6" />
+<clue>Transcription factors of the NFAT family play a key role in the <clueType>transcription</clueType> <linkTheme>of</linkTheme> cytokine genes and other genes <clueTime>during the immune response</clueTime>.</clue>
+</event>
+<event id="E5">
+<type class="Transcription" />
+<theme idref="A2" />
+<clue>Transcription factors of the NFAT family play a key role in the <clueType>transcription</clueType> <linkTheme>of</linkTheme> cytokine genes and other genes <clueTime>during the immune response</clueTime>.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T5" />
+<clue>Transcription factors of the NFAT family <clueType>play a key role</clueType> <linkTheme>in</linkTheme> the transcription of cytokine genes and other genes during the immune response.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T5" />
+<clue>Transcription factors of the NFAT family <clueType>play a key role</clueType> <linkTheme>in</linkTheme> the transcription of cytokine genes and other genes during the immune response.</clue>
+</event>
+<sentence id="S3">We have identified two new isoforms of the <term sem="Protein_family_or_group" id="T8" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T9" lex="NFAT1">NFAT1</term> (previously termed <term sem="Protein_molecule" id="T10" lex="NFATp">NFATp</term>) that are the predominant isoforms expressed in <cons sem="(AND Cell_natural Cell_natural)" id="T11" lex="(AND murine_T_cell human_T_cell)"><frag id="F1">murine</frag> and <frag id="F2">human</frag> <frag id="F3">T cells</frag></cons>.</sentence>
+<event id="E300">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>We have identified two new isoforms of the transcription factor NFAT1 (previously termed NFATp) that are the predominant isoforms <clueType>expressed</clueType> <clueLoc>in murine</clueLoc> and human <clueLoc>T cells</clueLoc>.</clue>
+</event>
+<event id="E301">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>We have identified two new isoforms of the transcription factor NFAT1 (previously termed NFATp) that are the predominant isoforms <clueType>expressed</clueType> <clueLoc>in</clueLoc> murine and <clueLoc>human T cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">When expressed in <term sem="Cell_cultured" id="T12" lex="Jurkat_T_cell">Jurkat T cells</term>, recombinant <term sem="Protein_molecule" id="T13" lex="NFAT1">NFAT1</term> is regulated, as expected, by the <term sem="Protein_family_or_group" id="T14" lex="calmodulin-dependent_phosphatase"><term sem="Protein_molecule" id="A3">calmodulin</term>-dependent <term sem="Protein_family_or_group" id="A4">phosphatase</term></term> <term sem="Protein_molecule" id="T15" lex="calcineurin">calcineurin</term>, and its function is inhibited by the <term sem="Organic_compound_other" id="T16" lex="immunosuppressive_agent">immunosuppressive agent</term> <term sem="Organic_compound_other" id="T17" lex="cyclosporin_A">cyclosporin A</term> (<term sem="Organic_compound_other" id="T18" lex="CsA">CsA</term>).</sentence>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>When <clueType>expressed</clueType> <clueLoc>in Jurkat T cells</clueLoc>, recombinant NFAT1 is regulated, as expected, by the calmodulin-dependent phosphatase calcineurin, and its function is inhibited by the immunosuppressive agent cyclosporin A (CsA).</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="T13" />
+<cause idref="T14" />
+<clue>When expressed in Jurkat T cells, recombinant NFAT1 is <clueType>regulated</clueType>, as expected, <linkCause>by</linkCause> the calmodulin-dependent phosphatase calcineurin, and its function is inhibited by the immunosuppressive agent cyclosporin A (CsA).</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="T13" />
+<cause idref="T15" />
+<clue>When expressed in Jurkat T cells, recombinant NFAT1 is <clueType>regulated</clueType>, as expected, <linkCause>by</linkCause> the <corefTheme>calmodulin-dependent phosphatase</corefTheme> calcineurin, and its function is inhibited by the immunosuppressive agent cyclosporin A (CsA).</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="A3" />
+<clue>When expressed in Jurkat T cells, recombinant NFAT1 is regulated, as expected, by the calmodulin-<clueType>dependent</clueType> phosphatase calcineurin, and its function is inhibited by the immunosuppressive agent cyclosporin A (CsA).</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<cause idref="A3" />
+<clue>When expressed in Jurkat T cells, recombinant NFAT1 is regulated, as expected, by the calmodulin-<clueType>dependent</clueType> <corefTheme>phosphatase</corefTheme> calcineurin, and its function is inhibited by the immunosuppressive agent cyclosporin A (CsA).</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="T13" />
+<cause idref="T18" />
+<clue>When expressed in Jurkat T cells, recombinant NFAT1 is regulated, as expected, by the calmodulin-dependent phosphatase calcineurin, and its function is <clueType>inhibited</clueType> <linkCause>by</linkCause> the immunosuppressive agent cyclosporin A (CsA).</clue>
+</event>
+<sentence id="S5"><term sem="Other" id="A6">Transactivation</term> by recombinant <term sem="Protein_molecule" id="T19" lex="NFAT1">NFAT1</term> in <term sem="Cell_cultured" id="T20" lex="Jurkat_T_cell">Jurkat T cells</term> requires dual stimulation with <term sem="Organic_compound_other" id="T21" lex="ionomycin">ionomycin</term> and <term sem="Organic_compound_other" id="T22" lex="phorbol_12-myristate_13-acetate">phorbol 12-myristate 13-acetate</term>; this activity is potentiated by coexpression of constitutively active <term sem="Protein_molecule" id="T23" lex="calcineurin">calcineurin</term> and is inhibited by <term sem="Organic_compound_other" id="T24" lex="CsA">CsA</term>.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="T19" />
+<clue>Transactivation <linkCause>by</linkCause> recombinant NFAT1 <clueLoc>in Jurkat T cells</clueLoc> requires dual stimulation with ionomycin and phorbol 12-myristate 13-acetate; this activity is potentiated by coexpression of constitutively active calcineurin and is inhibited by CsA.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E16">
+<type class="Physiological_process" />
+<theme idref="T20" />
+<cause idref="T21" />
+<clue>Transactivation by recombinant NFAT1 in Jurkat T cells requires dual <clueType>stimulation</clueType> <linkCause>with</linkCause> ionomycin and phorbol 12-myristate 13-acetate; this activity is potentiated by coexpression of constitutively active calcineurin and is inhibited by CsA.</clue>
+</event>
+<event id="E17">
+<type class="Physiological_process" />
+<theme idref="T20" />
+<cause idref="T22" />
+<clue>Transactivation by recombinant NFAT1 in Jurkat T cells requires dual <clueType>stimulation</clueType> <linkCause>with</linkCause> ionomycin and phorbol 12-myristate 13-acetate; this activity is potentiated by coexpression of constitutively active calcineurin and is inhibited by CsA.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E16" />
+<cause idref="E17" />
+<clue>Transactivation by recombinant NFAT1 in Jurkat T cells <clueType>requires</clueType> dual stimulation with ionomycin and phorbol 12-myristate 13-acetate; this activity is potentiated by coexpression of constitutively active calcineurin and is inhibited by CsA.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue>Transactivation by recombinant NFAT1 in Jurkat T cells requires dual stimulation with ionomycin and phorbol 12-myristate 13-acetate; this activity is potentiated by <clueType>coexpression</clueType> <linkTheme>of</linkTheme> constitutively active calcineurin and is inhibited by CsA.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E19" />
+<clue>Transactivation by recombinant NFAT1 in Jurkat T cells requires dual stimulation with ionomycin and phorbol 12-myristate 13-acetate; <corefTheme>this activity</corefTheme> is <clueType>potentiated</clueType> <linkCause>by</linkCause> coexpression of constitutively active calcineurin and is inhibited by CsA.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T24" />
+<clue>Transactivation by recombinant NFAT1 in Jurkat T cells requires dual stimulation with ionomycin and phorbol 12-myristate 13-acetate; this activity is potentiated by coexpression of constitutively active calcineurin and is <clueType>inhibited</clueType> <linkCause>by</linkCause> CsA.</clue>
+</event>
+<sentence id="S6"><term sem="Other" id="T25" lex="immunocytochemical_analysis">Immunocytochemical analysis</term> indicates that recombinant <term sem="Protein_molecule" id="T26" lex="NFAT1">NFAT1</term> localizes in the <term sem="Cell_component" id="T27" lex="cytoplasm">cytoplasm</term> of <term sem="Cell_natural" id="T28" lex="transiently_transfected_T_cell">transiently transfected <term sem="Cell_natural" id="A7">T cells</term></term> and translocates into the <term sem="Cell_component" id="T29" lex="nucleus">nucleus</term> in a <term sem="Other" id="T30" lex="CsA-sensitive_manner"><term sem="Organic_compound_other" id="T31" lex="CsA">CsA</term>-sensitive manner</term> following <term sem="Other" id="T32" lex="ionomycin_stimulation"><term sem="Organic_compound_other" id="T33" lex="ionomycin">ionomycin</term> stimulation</term>.</sentence>
+<event id="E22">
+<type class="Artificial_process" />
+<theme idref="T26" />
+<theme idref="A7" />
+<clue>Immunocytochemical analysis indicates that recombinant NFAT1 localizes in the cytoplasm of <clueType>transiently transfected</clueType> T cells and translocates into the nucleus in a CsA-sensitive manner following ionomycin stimulation.</clue>
+</event>
+<event id="E23">
+<type class="Localization" />
+<theme idref="T26" />
+<clue><clueExperiment>Immunocytochemical analysis</clueExperiment> indicates that recombinant NFAT1 <clueType>localizes</clueType> <clueLoc>in the cytoplasm of transiently transfected T cells</clueLoc> and translocates into the nucleus in a CsA-sensitive manner following ionomycin stimulation.</clue>
+</event>
+<event id="E24">
+<type class="Physiological_process" />
+<theme idref="T28" />
+<cause idref="T33" />
+<clue>Immunocytochemical analysis indicates that recombinant NFAT1 localizes in the cytoplasm of transiently transfected T cells and translocates into the nucleus in a CsA-sensitive manner following ionomycin <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E125">
+<type class="Localization" />
+<theme idref="T26" />
+<clue>Immunocytochemical analysis indicates that recombinant NFAT1 localizes in the cytoplasm of transiently transfected T cells and <clueType>translocates</clueType> <clueLoc>into the nucleus</clueLoc> in a CsA-sensitive manner following ionomycin stimulation.</clue>
+</event>
+<event id="E126">
+<type class="Positive_regulation" />
+<theme idref="E125" />
+<cause idref="E24" />
+<clue><clueExperiment>Immunocytochemical analysis</clueExperiment> indicates that recombinant NFAT1 localizes in the cytoplasm of transiently transfected T cells and translocates into the nucleus in a CsA-sensitive manner <linkCause>following</linkCause> ionomycin stimulation.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E26">
+<type />
+<theme idref="E126" />
+<cause idref="T31" />
+<clue>Immunocytochemical analysis indicates that recombinant NFAT1 localizes in the cytoplasm of transiently transfected T cells and translocates into the nucleus in a CsA-<clueType>sensitive</clueType> manner following ionomycin stimulation.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<sentence id="S7">When expressed in <term sem="Cell_cultured" id="T34" lex="COS_cell">COS cells</term>, however, <term sem="Protein_molecule" id="T35" lex="NFAT1">NFAT1</term> is capable of <term sem="Other" id="A8">transactivation</term>, but it is not regulated correctly: its <term sem="Other" id="T36" lex="subcellular_localization">subcellular localization</term> and <term sem="Other" id="T37" lex="transcriptional_function">transcriptional function</term> are not affected by stimulation of the <term sem="Cell_cultured" id="T38" lex="COS_cell">COS cells</term> with <term sem="Organic_compound_other" id="T39" lex="ionomycin">ionomycin</term> and <term sem="Organic_compound_other" id="T40" lex="phorbol_12-myristate_13-acetate">phorbol 12-myristate 13-acetate</term>.</sentence>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>When <clueType>expressed</clueType> <clueLoc>in COS cells</clueLoc>, however, NFAT1 is capable of transactivation, but it is not regulated correctly: its subcellular localization and transcriptional function are not affected by stimulation of the COS cells with ionomycin and phorbol 12-myristate 13-acetate.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<cause idref="T35" />
+<clue>When expressed in COS cells, however, NFAT1 is <clueType>capable</clueType> <linkTheme>of</linkTheme> transactivation, but it is not regulated correctly: its subcellular localization and transcriptional function are not affected by stimulation of the COS cells with ionomycin and phorbol 12-myristate 13-acetate.</clue>
+</event>
+<event id="E29">
+<type class="Regulation" />
+<theme idref="A8" />
+<cause idref="T35" />
+<clue>When expressed in COS cells, however, NFAT1 is capable of transactivation, but <corefTheme>it</corefTheme> is <clueType>not regulated correctly</clueType>: its subcellular localization and transcriptional function are not affected by stimulation of the COS cells with ionomycin and phorbol 12-myristate 13-acetate.</clue>
+<comment>CAUTION: not regulated correctly</comment>
+</event>
+<event id="E30">
+<type class="Physiological_process" />
+<theme idref="T38" />
+<cause idref="T39" />
+<clue>When expressed in COS cells, however, NFAT1 is capable of transactivation, but it is not regulated correctly: its subcellular localization and transcriptional function are not affected by <clueType>stimulation</clueType> <linkTheme>of</linkTheme> the COS cells <linkCause>with</linkCause> ionomycin and phorbol 12-myristate 13-acetate.</clue>
+</event>
+<event id="E31">
+<type class="Physiological_process" />
+<theme idref="T38" />
+<cause idref="T40" />
+<clue>When expressed in COS cells, however, NFAT1 is capable of transactivation, but it is not regulated correctly: its subcellular localization and transcriptional function are not affected by <clueType>stimulation</clueType> <linkTheme>of</linkTheme> the COS cells <linkCause>with</linkCause> ionomycin and phorbol 12-myristate 13-acetate.</clue>
+</event>
+<event assertion="non-exist" id="E32">
+<type class="Regulation" />
+<theme idref="T36" />
+<cause idref="E30" />
+<clue>When expressed in COS cells, however, NFAT1 is capable of transactivation, but it is not regulated correctly: its subcellular localization and transcriptional function are not <clueType>affected</clueType> <linkCause>by</linkCause> stimulation of the COS cells with ionomycin and phorbol 12-myristate 13-acetate.</clue>
+<comment>CAUTION: theme = subsellular localization of NFAT1</comment>
+</event>
+<event assertion="non-exist" id="E33">
+<type class="Regulation" />
+<theme idref="T36" />
+<cause idref="E31" />
+<clue>When expressed in COS cells, however, NFAT1 is capable of transactivation, but it is not regulated correctly: its subcellular localization and transcriptional function are not <clueType>affected</clueType> <linkCause>by</linkCause> stimulation of the COS cells with ionomycin and phorbol 12-myristate 13-acetate.</clue>
+<comment>CAUTION: theme = subsellular localization of NFAT1</comment>
+</event>
+<event assertion="non-exist" id="E34">
+<type class="Regulation" />
+<theme idref="T37" />
+<cause idref="E30" />
+<clue>When expressed in COS cells, however, NFAT1 is capable of transactivation, but it is not regulated correctly: its subcellular localization and transcriptional function are not <clueType>affected</clueType> <linkCause>by</linkCause> stimulation of the COS cells with ionomycin and phorbol 12-myristate 13-acetate.</clue>
+<comment>CAUTION: theme = transcriptional function of NFAT1</comment>
+</event>
+<event assertion="non-exist" id="E35">
+<type class="Regulation" />
+<theme idref="T36" />
+<cause idref="E31" />
+<clue>When expressed in COS cells, however, NFAT1 is capable of transactivation, but it is not regulated correctly: its subcellular localization and transcriptional function are not <clueType>affected</clueType> <linkCause>by</linkCause> stimulation of the COS cells with ionomycin and phorbol 12-myristate 13-acetate.</clue>
+<comment>CAUTION: theme = transcriptional function of NFAT1</comment>
+</event>
+<sentence id="S8">Recombinant <term sem="Protein_molecule" id="T41" lex="NFAT1">NFAT1</term> can mediate transcription of the <term sem="Protein_molecule" id="T42" lex="interleukin-2">interleukin-2</term>, <term sem="Protein_molecule" id="A9">interleukin-4</term>, <term sem="Protein_molecule" id="T43" lex="tumor_necrosis_factor_alpha">tumor necrosis factor alpha</term>, and <term sem="DNA_domain_or_region" id="T44" lex="granulocyte-macrophage_colony-stimulating_factor_promoter"><term sem="Protein_molecule" id="T45" lex="granulocyte-macrophage_colony-stimulating_factor">granulocyte-macrophage colony-stimulating factor</term> <term sem="DNA_domain_or_region" id="T46" lex="promoter">promoters</term></term> in <term sem="Cell_natural" id="T47" lex="T_cell">T cells</term>, suggesting that <term sem="Protein_molecule" id="T48" lex="NFAT1">NFAT1</term> contributes to the <term sem="Other" id="T49" lex="CsA-sensitive_transcription"><term sem="Organic_compound_other" id="T50" lex="CsA">CsA</term>-sensitive transcription</term> of these <term sem="DNA_family_or_group" id="T51" lex="gene">genes</term> during the <term sem="Other" id="T52" lex="immune_response">immune response</term>.</sentence>
+<event id="E36">
+<type class="Transcription" />
+<theme idref="T42" />
+<clue>Recombinant NFAT1 can mediate <clueType>transcription</clueType> <linkTheme>of</linkTheme> the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters <clueLoc>in T cells</clueLoc>, suggesting that NFAT1 contributes to the CsA-sensitive transcription of these genes during the immune response.</clue>
+</event>
+<event id="E37">
+<type class="Transcription" />
+<theme idref="A9" />
+<clue>Recombinant NFAT1 can mediate <clueType>transcription</clueType> <linkTheme>of</linkTheme> the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters <clueLoc>in T cells</clueLoc>, suggesting that NFAT1 contributes to the CsA-sensitive transcription of these genes during the immune response.</clue>
+</event>
+<event id="E38">
+<type class="Transcription" />
+<theme idref="T43" />
+<clue>Recombinant NFAT1 can mediate <clueType>transcription</clueType> <linkTheme>of</linkTheme> the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters <clueLoc>in T cells</clueLoc>, suggesting that NFAT1 contributes to the CsA-sensitive transcription of these genes during the immune response.</clue>
+</event>
+<event id="E39">
+<type class="Transcription" />
+<theme idref="T45" />
+<clue>Recombinant NFAT1 can mediate <clueType>transcription</clueType> <linkTheme>of</linkTheme> the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters <clueLoc>in T cells</clueLoc>, suggesting that NFAT1 contributes to the CsA-sensitive transcription of these genes during the immune response.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="T41" />
+<clue>Recombinant NFAT1 can <clueType>mediate</clueType> transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-sensitive transcription of these genes during the immune response.</clue>
+</event>
+<event id="E41">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T41" />
+<clue>Recombinant NFAT1 can <clueType>mediate</clueType> transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-sensitive transcription of these genes during the immune response.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="T41" />
+<clue>Recombinant NFAT1 can <clueType>mediate</clueType> transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-sensitive transcription of these genes during the immune response.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref="T41" />
+<clue>Recombinant NFAT1 can <clueType>mediate</clueType> transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-sensitive transcription of these genes during the immune response.</clue>
+</event>
+<event id="E44">
+<type class="Transcription" />
+<theme idref="T42" />
+<clue>Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-sensitive <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme> <clueTime>during the immune response.</clueTime></clue>
+</event>
+<event id="E45">
+<type class="Transcription" />
+<theme idref="A9" />
+<clue>Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-sensitive <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme> <clueTime>during the immune response.</clueTime></clue>
+</event>
+<event id="E46">
+<type class="Transcription" />
+<theme idref="T43" />
+<clue>Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-sensitive <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme> <clueTime>during the immune response.</clueTime></clue>
+</event>
+<event id="E47">
+<type class="Transcription" />
+<theme idref="T45" />
+<clue>Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-sensitive <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme> <clueTime>during the immune response.</clueTime></clue>
+</event>
+<event uncertainty="probable" id="E48">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<cause idref="T48" />
+<clue>Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 <clueType>contributes</clueType> <linkTheme>to</linkTheme> the CsA-sensitive transcription of these genes during the immune response.</clue>
+</event>
+<event uncertainty="probable" id="E49">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="T48" />
+<clue>Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 <clueType>contributes</clueType> <linkTheme>to</linkTheme> the CsA-sensitive transcription of these genes during the immune response.</clue>
+</event>
+<event uncertainty="probable" id="E50">
+<type class="Positive_regulation" />
+<theme idref="E46" />
+<cause idref="T48" />
+<clue>Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 <clueType>contributes</clueType> <linkTheme>to</linkTheme> the CsA-sensitive transcription of these genes during the immune response.</clue>
+</event>
+<event uncertainty="probable" id="E51">
+<type class="Positive_regulation" />
+<theme idref="E47" />
+<cause idref="T48" />
+<clue>Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 <clueType>contributes</clueType> <linkTheme>to</linkTheme> the CsA-sensitive transcription of these genes during the immune response.</clue>
+</event>
+<event id="E52">
+<type />
+<theme idref="E44" />
+<cause idref="T50" />
+<clue>Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-<clueType>sensitive</clueType> transcription of these genes during the immune response.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E53">
+<type />
+<theme idref="E45" />
+<cause idref="T50" />
+<clue>Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-<clueType>sensitive</clueType> transcription of these genes during the immune response.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E54">
+<type />
+<theme idref="E46" />
+<cause idref="T50" />
+<clue>Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-<clueType>sensitive</clueType> transcription of these genes during the immune response.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E55">
+<type />
+<theme idref="E47" />
+<cause idref="T50" />
+<clue>Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-<clueType>sensitive</clueType> transcription of these genes during the immune response.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

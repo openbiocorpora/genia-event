@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="11/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7927175" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7927175</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">[An overexpression of <term sem="Protein_molecule" id="T1" lex="retinoic_acid_receptor_alpha">retinoic acid receptor alpha</term> blocks <term sem="Other" id="T2" lex="myeloid_cell_differentiation"><term sem="Cell_natural" id="T3" lex="myeloid_cell">myeloid cell</term> differentiation</term> at the <term sem="Other" id="T4" lex="promyelocyte_stage">promyelocyte stage</term>]</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T1" />
+<clue>[An <clueType>overexpression</clueType> <linkTheme>of</linkTheme> retinoic acid receptor alpha blocks myeloid cell differentiation at the promyelocyte stage]</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue>[An <clueType>overexpression</clueType> of retinoic acid receptor alpha blocks myeloid cell differentiation at the promyelocyte stage]</clue>
+</event>
+<event id="E3">
+<type class="Cell_differentiation" />
+<theme idref="T3" />
+<clue>[An overexpression of retinoic acid receptor alpha blocks myeloid cell <clueType>differentiation</clueType> <clueTime>at the promyelocyte stage</clueTime>]</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="E2" />
+<clue>[An overexpression of retinoic acid receptor alpha <clueType>blocks</clueType> myeloid cell differentiation at the promyelocyte stage]</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Retinoic acid (<term sem="Organic_compound_other" id="T5" lex="RA">RA</term>), a <term sem="Organic_compound_other" id="T6" lex="vitamin_A_derivative"><term sem="Lipid" id="T7" lex="vitamin_A">vitamin A</term> derivative</term>, exerts a wide range of biological effects related to <term sem="Other" id="T8" lex="cell_proliferation">cell proliferation</term> and <term sem="Other" id="T9" lex="differentiation">differentiation</term>.</sentence>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="T8" />
+<cause idref="T5" />
+<clue>Retinoic acid (RA), a vitamin A derivative, exerts a wide range of biological <clueType>effects</clueType> related to cell proliferation and differentiation.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="T9" />
+<cause idref="T5" />
+<clue>Retinoic acid (RA), a vitamin A derivative, exerts a wide range of biological <clueType>effects</clueType> related to cell proliferation and differentiation.</clue>
+</event>
+<sentence id="S3">The <term sem="Other" id="T10" lex="pleiotropic_effect">pleiotropic effects</term> of <term sem="Organic_compound_other" id="T11" lex="RA">RA</term> are thought to be mediated through specific nuclear <term sem="Protein_family_or_group" id="T12" lex="RA_receptor"><term sem="Organic_compound_other" id="T13" lex="RA">RA</term> receptors</term> (<term sem="Protein_family_or_group" id="T14" lex="RAR">RARs</term>).</sentence>
+<event id="E7">
+<type class="Regulation" />
+<cause idref="T11" />
+<clue>The pleiotropic <clueType>effects</clueType> <linkCause>of</linkCause> RA are thought to be mediated through specific nuclear RA receptors (RARs).</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T14" />
+<clue>The pleiotropic effects of RA are thought to be <clueType>mediated</clueType> <linkCause>through</linkCause> specific nuclear RA receptors (RARs).</clue>
+</event>
+<sentence id="S4"><term sem="Protein_family_or_group" id="T15" lex="RAR">RARs</term> are members of the <term sem="Protein_family_or_group" id="T16" lex="steroid/thyroid_hormone_receptor_superfamily">steroid/thyroid hormone receptor superfamily</term> and exhibit a molecular structure that possess discrete DNA-binding and <term sem="Protein_domain_or_region" id="T17" lex="RA_(ligand)-binding_domain"><term sem="Organic_compound_other" id="T18" lex="RA">RA</term> (ligand)-binding domains</term>.</sentence>
+<sentence id="S5">In hematopoietic system, <term sem="Organic_compound_other" id="T19" lex="RA">RA</term> and <term sem="Protein_family_or_group" id="T20" lex="RAR">RARs</term>, predominantly <term sem="Protein_molecule" id="T21" lex="RAR_alpha">RAR alpha</term> may play key roles for the proliferation and <term sem="Other" id="T22" lex="differentiation">differentiation</term> of <term sem="Cell_natural" id="T23" lex="hematopoietic_progenitor">hematopoietic progenitors</term>.</sentence>
+<event id="E9">
+<type class="Cellular_physiological_process" />
+<theme idref="T23" />
+<clue>In hematopoietic system, RA and RARs, predominantly RAR alpha may play key roles for the <clueType>proliferation</clueType> and differentiation <linkTheme>of</linkTheme> hematopoietic progenitors.</clue>
+</event>
+<event id="E10">
+<type class="Cell_differentiation" />
+<theme idref="T23" />
+<clue>In hematopoietic system, RA and RARs, predominantly RAR alpha may play key roles for the proliferation and <clueType>differentiation</clueType> <linkTheme>of</linkTheme> hematopoietic progenitors.</clue>
+</event>
+<event uncertainty="probable" id="E11">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T19" />
+<clue>In hematopoietic system, RA and RARs, predominantly RAR alpha may <clueType>play key roles</clueType> <linkTheme>for</linkTheme> the proliferation and differentiation of hematopoietic progenitors.</clue>
+</event>
+<event uncertainty="probable" id="E12">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T19" />
+<clue>In hematopoietic system, RA and RARs, predominantly RAR alpha may <clueType>play key roles</clueType> <linkTheme>for</linkTheme> the proliferation and differentiation of hematopoietic progenitors.</clue>
+</event>
+<event uncertainty="probable" id="E13">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T20" />
+<clue>In hematopoietic system, RA and RARs, predominantly RAR alpha may <clueType>play key roles</clueType> <linkTheme>for</linkTheme> the proliferation and differentiation of hematopoietic progenitors.</clue>
+</event>
+<event uncertainty="probable" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T20" />
+<clue>In hematopoietic system, RA and RARs, predominantly RAR alpha may <clueType>play key roles</clueType> <linkTheme>for</linkTheme> the proliferation and differentiation of hematopoietic progenitors.</clue>
+</event>
+<event uncertainty="probable" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T21" />
+<clue>In hematopoietic system, RA and <corefTheme>RARs</corefTheme>, predominantly RAR alpha may <clueType>play key roles</clueType> <linkTheme>for</linkTheme> the proliferation and differentiation of hematopoietic progenitors.</clue>
+</event>
+<event uncertainty="probable" id="E16">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T21" />
+<clue>In hematopoietic system, RA and <corefTheme>RARs</corefTheme>, predominantly RAR alpha may <clueType>play key roles</clueType> <linkTheme>for</linkTheme> the proliferation and differentiation of hematopoietic progenitors.</clue>
+</event>
+<sentence id="S6">However, it is currently unknown how <term sem="Organic_compound_other" id="T24" lex="RA">RA</term> and <term sem="Protein_family_or_group" id="T25" lex="RAR">RARs</term> are involved in regulating normal <term sem="Other" id="T26" lex="hematopoietic_differentiation"><term sem="Cell_natural" id="A30">hematopoietic</term> differentiation</term>.</sentence>
+<event id="E100">
+<type class="Cell_differentiation" />
+<theme idref="A30" />
+<clue>However, it is currently unknown how RA and RARs are involved in regulating normal hematopoietic <clueType>differentiation</clueType>.</clue>
+</event>
+<event id="E17">
+<type class="Regulation" />
+<theme idref="E100" />
+<clue>However, it is currently unknown how RA and RARs are involved in <clueType>regulating</clueType> normal hematopoietic differentiation.</clue>
+</event>
+<event id="E18">
+<type class="Correlation" />
+<theme idref="T24" />
+<theme idref="E17" />
+<clue>However, it is currently unknown how RA and RARs are <clueType>involved</clueType> <linkTheme>in</linkTheme> regulating normal hematopoietic differentiation.</clue>
+</event>
+<event id="E19">
+<type class="Correlation" />
+<theme idref="T25" />
+<theme idref="E17" />
+<clue>However, it is currently unknown how RA and RARs are <clueType>involved</clueType> <linkTheme>in</linkTheme> regulating normal hematopoietic differentiation.</clue>
+</event>
+<sentence id="S7">To make clear the roles of <term sem="Organic_compound_other" id="T27" lex="RA">RA</term> and <term sem="Protein_molecule" id="T28" lex="RAR_alpha">RAR alpha</term> in the normal <term sem="Other" id="T29" lex="hematopoiesis">hematopoiesis</term>, I have introduced the construct of <term sem="Protein_molecule" id="T30" lex="human_RAR_alpha">human <term sem="Protein_molecule" id="T31" lex="RAR_alpha">RAR alpha</term></term> (<term sem="Protein_molecule" id="T32" lex="hRAR_alpha">hRAR alpha</term>) into <term sem="Cell_natural" id="T33" lex="murine_bone_marrow_cell">murine <term sem="Tissue_natural" id="T34" lex="bone_marrow">bone marrow</term> cells</term> with <term sem="Virus" id="T35" lex="retroviral_vector">retroviral vector</term>, and selected infected cells with <term sem="DNA_domain_or_region" id="T36" lex="drug_resistant_marker">drug resistant marker</term> (<term sem="DNA_domain_or_region" id="T37" lex="Neo(r)">Neo(r)</term>) cultured on the <term sem="Cell_cultured" id="T38" lex="stroma_cell_line">stroma cell line</term> (<term sem="Cell_cultured" id="T39" lex="PA6-neo">PA6-neo</term>), and analyzed the behavior of <term sem="Cell_natural" id="T40" lex="infected_cell">infected cells</term>.</sentence>
+<event uncertainty="doubtful" id="E20">
+<type class="Regulation" />
+<theme idref="T29" />
+<cause idref="T27" />
+<clue>To make clear the <clueType>roles</clueType> <linkCause>of</linkCause> RA and RAR alpha <linkTheme>in</linkTheme> the normal hematopoiesis, I have introduced the construct of human RAR alpha (hRAR alpha) into murine bone marrow cells with retroviral vector, and selected infected cells with drug resistant marker (Neo(r)) cultured on the stroma cell line (PA6-neo), and analyzed the behavior of infected cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E21">
+<type class="Regulation" />
+<theme idref="T29" />
+<cause idref="T28" />
+<clue>To make clear the <clueType>roles</clueType> <linkCause>of</linkCause> RA and RAR alpha <linkTheme>in</linkTheme> the normal hematopoiesis, I have introduced the construct of human RAR alpha (hRAR alpha) into murine bone marrow cells with retroviral vector, and selected infected cells with drug resistant marker (Neo(r)) cultured on the stroma cell line (PA6-neo), and analyzed the behavior of infected cells.</clue>
+</event>
+<event id="E22">
+<type class="Artificial_process" />
+<theme idref="T32" />
+<theme idref="T33" />
+<clue>To make clear the roles of RA and RAR alpha in the normal hematopoiesis, I have <clueType>introduced</clueType> the construct of human RAR alpha (hRAR alpha) <linkTheme>into</linkTheme> murine bone marrow cells <clueExperiment>with retroviral vector</clueExperiment>, and selected infected cells with drug resistant marker (Neo(r)) cultured on the stroma cell line (PA6-neo), and analyzed the behavior of infected cells.</clue>
+</event>
+<sentence id="S8">All of procedure were done in vitro.</sentence>
+<sentence id="S9"><term sem="Cell_natural" id="A3">Most cells infected with <term sem="Protein_molecule" id="T41" lex="hRAR_alpha">hRAR alpha</term></term> exhibited <term sem="Cell_natural" id="T42" lex="promyelocytic_morphology">promyelocytic morphology</term> and were thought to be blocked at the promyelocytic stage in their <term sem="Other" id="T43" lex="myeloid_differentiation"><term sem="Cell_natural" id="A31">myeloid</term> differentiation</term>.</sentence>
+<event id="E23">
+<type class="Cell_differentiation" />
+<theme idref="A3" />
+<theme idref="A31" />
+<clue>Most cells infected with hRAR alpha exhibited promyelocytic morphology and were thought to be blocked at the promyelocytic stage in <corefTheme idref1="A3">their</corefTheme> myeloid <clueType>differentiation</clueType>.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="E22" />
+<clue>Most cells infected with hRAR alpha exhibited promyelocytic morphology and were thought to be <clueType>blocked</clueType> at the promyelocytic stage in their myeloid differentiation.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<sentence id="S10">Furthermore, these <term sem="Cell_natural" id="T44" lex="immature_cell">immature cells</term> differentiated terminally into mature <term sem="Cell_natural" id="A4">granulocytes</term> by adding with <term sem="Organic_compound_other" id="T45" lex="RA">RA</term> (10(-6) M).</sentence>
+<event id="E25">
+<type class="Cell_differentiation" />
+<theme idref="T44" />
+<theme idref="A4" />
+<clue>Furthermore, these immature cells <clueType>differentiated</clueType> terminally <linkTheme>into</linkTheme> mature granulocytes by adding with RA (10(-6) M).</clue>
+</event>
+<event id="E125">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="T1" />
+<clue>Furthermore, these immature cells differentiated terminally into mature granulocytes <linkCause>by</linkCause> adding with RA (10(-6) M).</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S11"><term sem="Cell_natural" id="A5"><term sem="Protein_molecule" id="T46" lex="RAR_alpha">RAR alpha</term> <term sem="Cell_natural" id="T47" lex="infected_cell">infected cells</term></term> were also able to differentiate into <term sem="Cell_natural" id="T48" lex="mature_macrophage">mature macrophages</term> in the both of long term culture and <term sem="Cell_cultured" id="T49" lex="IL3_colony">IL3 colony</term>.</sentence>
+<event id="E26">
+<type class="Artificial_process" />
+<theme idref="T46" />
+<clue>RAR alpha <clueType>infected</clueType> cells were also able to differentiate into mature macrophages in the both of long term culture and IL3 colony.</clue>
+</event>
+<event id="E27">
+<type class="Cell_differentiation" />
+<theme idref="A5" />
+<theme idref="T48" />
+<clue>RAR alpha infected cells were also able to <clueType>differentiate</clueType> <linkTheme>into</linkTheme> mature macrophages in the both of long term culture and IL3 colony.</clue>
+<comment>TPS: A5</comment>
+</event>
+<sentence id="S12">These observations suggest that an <term sem="Other" id="T50" lex="overexpression">overexpression</term> of <term sem="Protein_molecule" id="T51" lex="RAR_alpha">RAR alpha</term> alone is effective to suppress <term sem="Other" id="T52" lex="myeloid_cell_differentiation"><term sem="Cell_natural" id="T53" lex="myeloid_cell">myeloid cell</term> differentiation</term> and <term sem="Protein_molecule" id="T54" lex="RAR_alpha">RAR alpha</term> plays a crucial role in the <term sem="Other" id="T55" lex="terminal_differentiation">terminal differentiation</term> of <term sem="Cell_natural" id="A6">myeloid precursors</term>.</sentence>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="T51" />
+<clue>These observations suggest that an <clueType>overexpression</clueType> <linkTheme>of</linkTheme> RAR alpha alone is effective to suppress myeloid cell differentiation and RAR alpha plays a crucial role in the terminal differentiation of myeloid precursors.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<clue>These observations suggest that an <clueType>overexpression</clueType> of RAR alpha alone is effective to suppress myeloid cell differentiation and RAR alpha plays a crucial role in the terminal differentiation of myeloid precursors.</clue>
+</event>
+<event id="E30">
+<type class="Cell_differentiation" />
+<theme idref="T53" />
+<clue>These observations suggest that an overexpression of RAR alpha alone is effective to suppress myeloid cell <clueType>differentiation</clueType> and RAR alpha plays a crucial role in the terminal differentiation of myeloid precursors.</clue>
+</event>
+<event uncertainty="probable" id="E31">
+<type class="Negative_regulation" />
+<theme idref="E30" />
+<cause idref="E29" />
+<clue>These observations suggest that an overexpression of RAR alpha alone is effective to <clueType>suppress</clueType> myeloid cell differentiation and RAR alpha plays a crucial role in the terminal differentiation of myeloid precursors.</clue>
+</event>
+<event id="E32">
+<type class="Cell_differentiation" />
+<theme idref="A6" />
+<clue>These observations suggest that an overexpression of RAR alpha alone is effective to suppress myeloid cell differentiation and RAR alpha plays a crucial role in the <clueType>terminal differentiation</clueType> <linkTheme>of</linkTheme> myeloid precursors.</clue>
+</event>
+<event uncertainty="probable" id="E33">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="T54" />
+<clue>These observations suggest that an overexpression of RAR alpha alone is effective to suppress myeloid cell differentiation and RAR alpha <clueType>plays a crucial role</clueType> <linkTheme>in</linkTheme> the terminal differentiation of myeloid precursors.</clue>
+</event>
+<sentence id="S13">The system described here may serve as a model for studying the the <term sem="DNA_family_or_group" id="T56" lex="essential_gene">essential genes</term> for <term sem="Other" id="T57" lex="differentiation">differentiation</term> of <term sem="Cell_natural" id="T58" lex="normal_bone_marrow_cell">normal <term sem="Tissue_natural" id="T59" lex="bone_marrow">bone marrow</term> cells</term>.</sentence>
+<event id="E34">
+<type class="Cell_differentiation" />
+<theme idref="T58" />
+<clue>The system described here may serve as a model for studying the the essential genes for <clueType>differentiation</clueType> <linkTheme>of</linkTheme> normal bone marrow cells.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

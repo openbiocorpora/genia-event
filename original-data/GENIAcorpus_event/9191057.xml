@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/03/11" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9191057" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9191057</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Relief of <term sem="Other" id="T1" lex="cyclin_A_gene_transcriptional_inhibition"><term sem="DNA_domain_or_region" id="A1"><term sem="Protein_molecule" id="T2" lex="cyclin_A">cyclin A</term> gene</term> transcriptional inhibition</term> during activation of <term sem="Cell_natural" id="T3" lex="human_primary_T_lymphocyte">human <term sem="Cell_natural" id="A101">primary T lymphocytes</term></term> via <term sem="Protein_molecule" id="T4" lex="CD2">CD2</term> and <term sem="Protein_molecule" id="T5" lex="CD28">CD28</term> <term sem="Protein_molecule" id="T6" lex="adhesion_molecule">adhesion molecules</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="A1" />
+<clue>Relief of cyclin A gene <clueType>transcriptional inhibition</clueType> <clueTime>during activation of human primary T lymphocytes via CD2 and CD28 adhesion molecules</clueTime>.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<clue><clueType>Relief</clueType> <linkTheme>of</linkTheme> cyclin A gene transcriptional inhibition <clueTime>during activation of human primary T lymphocytes via CD2 and CD28 adhesion molecules</clueTime>.</clue>
+</event>
+<event id="E3">
+<type class="Physiological_process" />
+<theme idref="A101" />
+<cause idref1="T6" idref="T4" />
+<clue>Relief of cyclin A gene transcriptional inhibition during <clueType>activation</clueType> <linkTheme>of</linkTheme> human primary T lymphocytes <linkCause>via</linkCause> CD2 and CD28 adhesion molecules.</clue>
+<comment>NER T6 MOD</comment>
+</event>
+<event id="E4">
+<type class="Physiological_process" />
+<theme idref="A101" />
+<cause idref1="T6" idref="T5" />
+<clue>Relief of cyclin A gene transcriptional inhibition during <clueType>activation</clueType> <linkTheme>of</linkTheme> human primary T lymphocytes <linkCause>via</linkCause> CD2 and CD28 adhesion molecules.</clue>
+<comment>NER T6 MOD</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T7" lex="cyclin_A_transcription"><term sem="Protein_molecule" id="T8" lex="cyclin_A">Cyclin A</term> transcription</term> is <term sem="Other" id="A2">cell cycle</term> regulated and induced by <term sem="Other" id="T9" lex="cell_proliferative_signal">cell proliferative signals</term>.</sentence>
+<event id="E8">
+<type class="Transcription" />
+<theme idref="T8" />
+<clue>Cyclin A <clueType>transcription</clueType> is cell cycle regulated and induced by cell proliferative signals.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="A2" />
+<clue>Cyclin A transcription is cell cycle <clueType>regulated</clueType> and induced by cell proliferative signals.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T9" />
+<clue>Cyclin A transcription is cell cycle regulated and <clueType>induced</clueType> <linkCause>by</linkCause> cell proliferative signals.</clue>
+</event>
+<sentence id="S3">To understand the mechanisms underlined in this regulation in normal human cells, we have analysed in vivo <term sem="Other" id="T10" lex="protein-DNA_interaction">protein-<term sem="DNA_molecule" id="A3">DNA</term> interactions</term> at the <term sem="Protein_molecule" id="T11" lex="cyclin_A">Cyclin A</term> locus in <term sem="Cell_natural" id="T12" lex="primary_T_lymphocyte">primary T lymphocytes</term>.</sentence>
+<event uncertainty="doubtful" id="E5">
+<type class="Binding" />
+<theme idref="A3" />
+<theme idref="T11" />
+<clue>To understand the mechanisms underlined in this regulation in normal human cells, we have analysed in vivo protein-DNA <clueType>interactions</clueType> at the Cyclin A locus <clueLoc>in primary T lymphocytes</clueLoc>.</clue>
+</event>
+<sentence id="S4">Stimulation of <term sem="Cell_natural" id="A4">purified T lymphocytes</term> by a combination of <term sem="Protein_family_or_group" id="T13" lex="monoclonal_antibody">monoclonal antibodies</term> directed at <term sem="Protein_molecule" id="T14" lex="CD2">CD2</term> and <term sem="Protein_molecule" id="T15" lex="CD28">CD28</term> <term sem="Protein_molecule" id="T16" lex="adhesion_molecule">adhesion molecules</term> gives rise to a long lasting proliferation in the absence of <term sem="Cell_natural" id="T17" lex="accessory_cell">accessory cells</term>.</sentence>
+<event id="E100">
+<type class="Correlation" />
+<theme idref="T13" />
+<theme idref1="T16" idref="T14" />
+<clue>Stimulation of purified T lymphocytes by a combination of monoclonal antibodies <clueType>directed</clueType> <linkTheme>at</linkTheme> CD2 and CD28 adhesion molecules gives rise to a long lasting proliferation in the absence of accessory cells.</clue>
+</event>
+<event id="E101">
+<type class="Correlation" />
+<theme idref="T13" />
+<theme idref1="T16" idref="T15" />
+<clue>Stimulation of purified T lymphocytes by a combination of monoclonal antibodies <clueType>directed</clueType> <linkTheme>at</linkTheme> CD2 and CD28 adhesion molecules gives rise to a long lasting proliferation in the absence of accessory cells.</clue>
+<comment>NER T16 MOD</comment>
+</event>
+<event id="E7">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<cause idref="E100" />
+<cause idref="E101" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> purified T lymphocytes <linkCause>by</linkCause> a combination of monoclonal antibodies directed at CD2 and CD28 adhesion molecules gives rise to a long lasting proliferation in the absence of accessory cells.</clue>
+</event>
+<event id="E12">
+<type class="Cellular_physiological_process" />
+<theme idref="A4" />
+<clue>Stimulation of purified T lymphocytes by a combination of monoclonal antibodies directed at CD2 and CD28 adhesion molecules gives rise to a <clueType>long lasting proliferation</clueType> in the absence of accessory cells.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="T17" />
+<clue>Stimulation of purified T lymphocytes by a combination of monoclonal antibodies directed at CD2 and CD28 adhesion molecules gives rise to a long lasting proliferation in the <clueType>absence</clueType> <linkTheme>of</linkTheme> accessory cells.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E13" />
+<clue>Stimulation of purified T lymphocytes by a combination of monoclonal antibodies directed at CD2 and CD28 adhesion molecules gives <clueType>rise</clueType> <linkTheme>to</linkTheme> a long lasting proliferation <linkCause>in</linkCause> the absence of accessory cells.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T18" lex="cyclin_A">Cyclin A</term> was observed after 4 days of costimulation with <term sem="Protein_family_or_group" id="T19" lex="anti_CD2"><term sem="Protein_molecule" id="A5">anti</term> <term sem="Protein_molecule" id="T20" lex="CD2">CD2</term></term> + <term sem="Protein_molecule" id="T21" lex="CD28">CD28</term> whereas stimulation by <term sem="Protein_family_or_group" id="T22" lex="anti_CD2">anti <term sem="Protein_molecule" id="T23" lex="CD2">CD2</term></term> or <term sem="Protein_family_or_group" id="T24" lex="anti_CD28">anti <term sem="Protein_molecule" id="T25" lex="CD28">CD28</term></term> alone was not effective.</sentence>
+<event id="E15">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<cause idref1="T20" idref="A5" />
+<cause idref1="T21" idref="A5" />
+<clue>Cyclin A was observed after 4 days of <clueType>costimulation</clueType> <linkCause>with</linkCause> anti CD2 + CD28 whereas stimulation by anti CD2 or anti CD28 alone was not effective.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E16">
+<type class="Transcription" />
+<theme idref="T18" />
+<clue>Cyclin A was <clueType>observed</clueType> <clueTime>after 4 days of costimulation with anti CD2 + CD28</clueTime> whereas stimulation by anti CD2 or anti CD28 alone was not effective.</clue>
+</event>
+<event id="E17">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<cause idref="T22" />
+<clue>Cyclin A was observed after 4 days of costimulation with anti CD2 + CD28 whereas <clueType>stimulation</clueType> <linkCause>by</linkCause> anti CD2 or anti CD28 alone was not effective.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E18">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<cause idref="T24" />
+<clue>Cyclin A was observed after 4 days of costimulation with anti CD2 + CD28 whereas <clueType>stimulation</clueType> <linkCause>by</linkCause> anti CD2 or anti CD28 alone was not effective.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E17" />
+<clue>Cyclin A was observed after 4 days of costimulation with anti CD2 + CD28 whereas stimulation by anti CD2 or anti CD28 alone was not <clueType>effective</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E20">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E18" />
+<clue>Cyclin A was observed after 4 days of costimulation with anti CD2 + CD28 whereas stimulation by anti CD2 or anti CD28 alone was not <clueType>effective</clueType>.</clue>
+</event>
+<sentence id="S6"><term sem="Other" id="T26" lex="In_vivo_genomic_DMS_footprinting">In vivo genomic DMS footprinting</term> revealed <term sem="DNA_domain_or_region" id="A7">upstream of the major <term sem="DNA_domain_or_region" id="T27" lex="transcription_initiation_site">transcription initiation sites</term></term>, the presence of at least three <term sem="DNA_domain_or_region" id="T28" lex="protein_binding_site">protein binding sites</term>, two of which were constitutively occupied.</sentence>
+<sentence id="S7">They bind in vitro respectively <term sem="Protein_molecule" id="T29" lex="ATF-1">ATF-1</term> and <term sem="Protein_molecule" id="T30" lex="NF-Y_protein">NF-Y proteins</term>.</sentence>
+<event id="E21">
+<type class="Binding" />
+<theme idref="A7" />
+<theme idref="T29" />
+<clue><corefTheme idref1="A7">They</corefTheme> <clueType>bind</clueType> in vitro respectively ATF-1 and NF-Y proteins.</clue>
+<comment>TPS A7</comment>
+</event>
+<event id="E22">
+<type class="Binding" />
+<theme idref="A7" />
+<theme idref="T30" />
+<clue><corefTheme idref1="A7">They</corefTheme> <clueType>bind</clueType> in vitro respectively ATF-1 and NF-Y proteins.</clue>
+</event>
+<sentence id="S8">The third site was occupied in quiescent cells or in <term sem="Cell_natural" id="A6">cells</term> stimulated by <term sem="Protein_family_or_group" id="T31" lex="anti_CD2">anti <term sem="Protein_molecule" id="T32" lex="CD2">CD2</term></term> or <term sem="Protein_family_or_group" id="T33" lex="anti_CD28">anti <term sem="Protein_molecule" id="T34" lex="CD28">CD28</term></term> alone.</sentence>
+<event id="E23">
+<type class="Physiological_process" />
+<theme idref="A6" />
+<cause idref="T31" />
+<clue>The third site was occupied in quiescent cells or in cells <clueType>stimulated</clueType> <linkCause>by</linkCause> anti CD2 or anti CD28 alone.</clue>
+</event>
+<event id="E24">
+<type class="Physiological_process" />
+<theme idref="A6" />
+<cause idref="T33" />
+<clue>The third site was occupied in quiescent cells or in cells <clueType>stimulated</clueType> <linkCause>by</linkCause> anti CD2 or anti CD28 alone.</clue>
+</event>
+<sentence id="S9">The mitogenic combination of <term sem="Protein_family_or_group" id="T35" lex="anti_CD2">anti <term sem="Protein_molecule" id="T36" lex="CD2">CD2</term></term> + <term sem="Protein_family_or_group" id="T37" lex="anti_CD28">anti <term sem="Protein_molecule" id="T38" lex="CD28">CD28</term></term> released the footprint as <term sem="Cell_natural" id="A8">cells</term> were committed to proliferation.</sentence>
+<event id="E26">
+<type class="Cellular_physiological_process" />
+<theme idref="A8" />
+<clue>The mitogenic combination of anti CD2 + anti CD28 released the footprint as cells were committed to <clueType>proliferation</clueType>.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T35" />
+<cause idref="T37" />
+<clue>The mitogenic <linkCause>combination of</linkCause> anti CD2 + anti CD28 released the <clueExperiment>footprint</clueExperiment> as cells were <clueType>committed</clueType> <linkTheme>to</linkTheme> proliferation.</clue>
+</event>
+<sentence id="S10">Consistent with theses results, <term sem="Cell_component" id="A11"><term sem="Cell_component" id="T39" lex="nuclear_extract">nuclear extracts</term> prepared from quiescent cells</term> formed a specific complex with this element, whereas <term sem="Cell_component" id="A12">extracts prepared from <term sem="Cell_natural" id="A13">cells</term> treated with <term sem="Protein_family_or_group" id="T40" lex="anti_CD2">anti <term sem="Protein_molecule" id="T41" lex="CD2">CD2</term></term> + <term sem="Protein_family_or_group" id="T42" lex="anti_CD28">anti <term sem="Protein_molecule" id="T43" lex="CD28">CD28</term></term></term> failed to do so after <term sem="Cell_natural" id="A10">cells</term> entered a <term sem="Other" id="T44" lex="proliferative_state">proliferative state</term>.</sentence>
+<event id="E28">
+<type class="Binding" />
+<theme idref="A11" />
+<theme idref="A7" />
+<clue>Consistent with theses results, nuclear extracts prepared from quiescent cells <clueType>formed a specific complex</clueType> <linkTheme>with</linkTheme> <corefTheme idref1="A7">this element</corefTheme>, whereas extracts prepared from cells treated with anti CD2 + anti CD28 failed to do so after cells entered a proliferative state.</clue>
+<comment>TPS A11</comment>
+</event>
+<event id="E29">
+<type class="Artificial_process" />
+<theme idref="T40" />
+<theme idref="A11" />
+<clue>Consistent with theses results, nuclear extracts prepared from quiescent cells formed a specific complex with this element, whereas extracts prepared from cells <clueType>treated</clueType> <linkTheme>with</linkTheme> anti CD2 + anti CD28 failed to do so after cells entered a proliferative state.</clue>
+<comment>TPS A12</comment>
+</event>
+<event id="E30">
+<type class="Artificial_process" />
+<theme idref="T42" />
+<theme idref="A11" />
+<clue>Consistent with theses results, nuclear extracts prepared from quiescent cells formed a specific complex with this element, whereas extracts prepared from cells <clueType>treated</clueType> <linkTheme>with</linkTheme> anti CD2 + anti CD28 failed to do so after cells entered a proliferative state.</clue>
+</event>
+<event assertion="non-exist" id="E31">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E29" />
+<clue>Consistent with theses results, nuclear extracts prepared from quiescent cells formed a specific complex with this element, whereas extracts prepared from cells treated with anti CD2 + anti CD28 failed to <clueType>do</clueType> so <clueTime>after cells entered a proliferative state</clueTime>.</clue>
+</event>
+<event assertion="non-exist" id="E32">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E30" />
+<clue>Consistent with theses results, nuclear extracts prepared from quiescent cells formed a specific complex with this element, whereas extracts prepared from cells treated with anti CD2 + anti CD28 failed to <clueType>do</clueType> so <clueTime>after cells entered a proliferative state</clueTime>.</clue>
+</event>
+<event id="E33">
+<type class="Cellular_physiological_process" />
+<theme idref="A10" />
+<clue>Consistent with theses results, nuclear extracts prepared from quiescent cells formed a specific complex with this element, whereas extracts prepared from cells treated with anti CD2 + anti CD28 failed to do so after cells <clueType>entered a proliferative state</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

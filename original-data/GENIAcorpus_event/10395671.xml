@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="01/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10395671" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10395671</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Activation of the <term sem="Other" id="T1" lex="Janus_kinase_3-STAT5a_pathway"><term sem="Protein_molecule" id="T2" lex="Janus_kinase_3">Janus kinase 3</term><term sem="Protein_molecule" id="T3" lex="STAT5a">-STAT5a</term> pathway</term> after <term sem="Other" id="T4" lex="CD40_triggering"><term sem="Protein_molecule" id="T5" lex="CD40">CD40</term> triggering</term> of <term sem="Cell_natural" id="T6" lex="human_monocyte">human <term sem="Cell_natural" id="A1">monocytes</term></term> but not of <term sem="Cell_natural" id="T7" lex="resting_B_cell">resting B cells</term>.</sentence>
+<event id="E1">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<cause idref="T5" />
+<clue>Activation of the Janus kinase 3-STAT5a pathway after CD40 <clueType>triggering</clueType> <linkTheme>of</linkTheme> human monocytes but not of resting B cells.</clue>
+</event>
+<event id="E2">
+<type class="Physiological_process" />
+<theme idref="T7" />
+<cause idref="T5" />
+<clue>Activation of the Janus kinase 3-STAT5a pathway after CD40 <clueType>triggering</clueType> <linkTheme>of</linkTheme> human monocytes but not of resting B cells.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<cause idref="E1" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> the Janus kinase 3-STAT5a pathway <linkCause>after</linkCause> CD40 triggering of human monocytes but not of resting B cells.</clue>
+</event>
+<event assertion="non-exist" id="E4">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<cause idref="E2" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> the Janus kinase 3-STAT5a pathway <linkCause>after</linkCause> CD40 triggering of human monocytes but not of resting B cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T8" lex="CD40">CD40</term>/<term sem="Protein_molecule" id="A2">CD40 ligand</term> interactions play a key role in the <term sem="Other" id="T10" lex="immune_response">immune responses</term> of <term sem="Cell_natural" id="T11" lex="B_lymphocyte">B lymphocytes</term>, <term sem="Cell_natural" id="T12" lex="monocyte">monocytes</term>, and <term sem="Cell_natural" id="T13" lex="dendritic_cell">dendritic cells</term>.</sentence>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T8" />
+<theme idref="A2" />
+<clue>CD40/CD40 ligand <clueType>interactions</clueType> play a key role in the immune responses of B lymphocytes, monocytes, and dendritic cells.</clue>
+<comment>NER: T9 del &quot;/CD40&quot;</comment>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E30" />
+<cause idref="E5" />
+<clue>CD40/CD40 ligand interactions <clueType>play a key role</clueType> <linkTheme>in</linkTheme> the immune responses of B lymphocytes, monocytes, and dendritic cells.</clue>
+</event>
+<event id="E36">
+<type class="Regulation" />
+<theme idref="E34" />
+<cause idref="E5" />
+<clue>CD40/CD40 ligand interactions <clueType>play a key role</clueType> <linkTheme>in</linkTheme> the immune responses of B lymphocytes, monocytes, and dendritic cells.</clue>
+</event>
+<event id="E37">
+<type class="Regulation" />
+<theme idref="E35" />
+<cause idref="E5" />
+<clue>CD40/CD40 ligand interactions <clueType>play a key role</clueType> <linkTheme>in</linkTheme> the immune responses of B lymphocytes, monocytes, and dendritic cells.</clue>
+</event>
+<event id="E30">
+<type class="Physiological_process" />
+<theme idref="T11" />
+<clue>CD40/CD40 ligand interactions play a key role in the <clueType>immune responses</clueType> <linkTheme>of</linkTheme> B lymphocytes, monocytes, and dendritic cells.</clue>
+</event>
+<event id="E34">
+<type class="Physiological_process" />
+<theme idref="T12" />
+<clue>CD40/CD40 ligand interactions play a key role in the <clueType>immune responses</clueType> <linkTheme>of</linkTheme> B lymphocytes, monocytes, and dendritic cells.</clue>
+</event>
+<event id="E35">
+<type class="Physiological_process" />
+<theme idref="T13" />
+<clue>CD40/CD40 ligand interactions play a key role in the <clueType>immune responses</clueType> <linkTheme>of</linkTheme> B lymphocytes, monocytes, and dendritic cells.</clue>
+</event>
+<sentence id="S3">The <term sem="Other" id="T14" lex="signal_transduction_event">signal transduction events</term> triggered by cross-linking of the <term sem="Protein_molecule" id="T15" lex="CD40_receptor"><term sem="Protein_molecule" id="T16" lex="CD40">CD40</term> receptor</term> have been widely studied in <term sem="Cell_cultured" id="T17" lex="B_cell_line">B cell lines</term>, but little is known about <term sem="Other" id="A3">signaling</term> following <term sem="Other" id="T18" lex="CD40_stimulation"><term sem="Protein_molecule" id="T19" lex="CD40">CD40</term> stimulation</term> of <term sem="Cell_natural" id="T20" lex="monocyte">monocytes</term> and <term sem="Cell_cultured" id="T21" lex="resting_tonsillar_B_cell">resting tonsillar B cells</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<cause idref="E8" />
+<clue>The signal transduction events <clueType>triggered</clueType> <linkCause>by</linkCause> cross-linking of the CD40 receptor have been widely studied <clueLoc>in B cell lines</clueLoc>, but little is known about signaling following CD40 stimulation of monocytes and resting tonsillar B cells.</clue>
+</event>
+<event id="E8">
+<type class="Binding" />
+<theme idref="T15" />
+<clue>The signal transduction events triggered by <clueType>cross-linking</clueType> <linkTheme>of</linkTheme> the CD40 receptor have been widely studied in B cell lines, but little is known about signaling following CD40 stimulation of monocytes and resting tonsillar B cells.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="E11" />
+<clue>The signal transduction events triggered by cross-linking of the CD40 receptor have been widely studied in B cell lines, but little is known about signaling <linkCause>following</linkCause> CD40 stimulation of monocytes and resting tonsillar B cells.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="E12" />
+<clue>The signal transduction events triggered by cross-linking of the CD40 receptor have been widely studied in B cell lines, but little is known about signaling <linkCause>following</linkCause> CD40 stimulation of monocytes and resting tonsillar B cells.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E11">
+<type class="Physiological_process" />
+<theme idref="T20" />
+<cause idref="T19" />
+<clue>The signal transduction events triggered by cross-linking of the CD40 receptor have been widely studied in B cell lines, but little is known about signaling following CD40 <clueType>stimulation</clueType> <linkTheme>of</linkTheme> monocytes and resting tonsillar B cells.</clue>
+</event>
+<event id="E12">
+<type class="Physiological_process" />
+<theme idref="T21" />
+<cause idref="T19" />
+<clue>The signal transduction events triggered by cross-linking of the CD40 receptor have been widely studied in B cell lines, but little is known about signaling following CD40 <clueType>stimulation</clueType> <linkTheme>of</linkTheme> monocytes and resting tonsillar B cells.</clue>
+</event>
+<sentence id="S4">Therefore, we studied the <term sem="Other" id="T22" lex="CD40_pathway"><term sem="Protein_molecule" id="T23" lex="CD40">CD40</term> pathway</term> in highly purified <term sem="Cell_natural" id="T24" lex="human_monocyte">human monocytes</term> and <term sem="Cell_natural" id="T25" lex="resting_B_cell">resting B cells</term>.</sentence>
+<sentence id="S5">After <term sem="Other" id="T26" lex="CD40_triggering"><term sem="Protein_molecule" id="T27" lex="CD40">CD40</term> triggering</term>, a similar activation of the <term sem="Protein_complex" id="T28" lex="NF-kappaB">NF-kappaB</term> (but not of the <term sem="Protein_complex" id="T29" lex="AP-1">AP-1</term>) <term sem="Protein_complex" id="T30" lex="transcription_factor_complex">transcription factor complex</term> occurred in both cell preparations.</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<cause idref="T26" />
+<clue>After CD40 <clueType>triggering</clueType>, a similar activation of the NF-kappaB (but not of the AP-1) transcription factor complex occurred in both cell preparations.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref="E13" />
+<clue><linkCause>After</linkCause> CD40 triggering, a similar <clueType>activation</clueType> <linkTheme>of</linkTheme> the NF-kappaB (but not of the AP-1) transcription factor complex occurred <clueLoc>in both cell preparations</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="E13" />
+<clue><linkCause>After</linkCause> CD40 triggering, a similar <clueType>activation</clueType> of the NF-kappaB (but not <linkTheme>of</linkTheme> the AP-1) transcription factor complex occurred <clueLoc>in both cell preparations</clueLoc>.</clue>
+</event>
+<sentence id="S6">However, the components of the <term sem="Protein_complex" id="T31" lex="NF-kappaB_complex"><term sem="Protein_complex" id="T32" lex="NF-kappaB">NF-kappaB</term> complexes</term> were different in <term sem="Cell_natural" id="T33" lex="monocyte">monocytes</term> and B cells, because <term sem="Protein_molecule" id="T34" lex="p50">p50</term> is part of the <term sem="Protein_complex" id="T35" lex="NF-kappaB_complex"><term sem="Protein_complex" id="T36" lex="NF-kappaB">NF-kappaB</term> complex</term> induced by <term sem="Other" id="T37" lex="CD40_triggering"><term sem="Protein_molecule" id="T38" lex="CD40">CD40</term> triggering</term> in both <term sem="Cell_natural" id="T39" lex="monocyte">monocytes</term> and <term sem="Cell_natural" id="T40" lex="B_cell">B cells</term>, whereas <term sem="Protein_molecule" id="T41" lex="p65">p65</term> was only induced in <term sem="Cell_natural" id="T42" lex="B_cell">B cells</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<cause idref="E18" />
+<clue>However, the components of the NF-kappaB complexes were different in monocytes and B cells, because p50 is part of the NF-kappaB complex <clueType>induced</clueType> <linkCause>by</linkCause> CD40 triggering <clueLoc>in</clueLoc> both <clueLoc>monocytes</clueLoc> and B cells, whereas p65 was only induced in B cells.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<cause idref="E18" />
+<clue>However, the components of the NF-kappaB complexes were different in monocytes and B cells, because p50 is part of the NF-kappaB complex <clueType>induced</clueType> <linkCause>by</linkCause> CD40 triggering <clueLoc>in</clueLoc> both monocytes and <clueLoc>B cells</clueLoc>, whereas p65 was only induced in B cells.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<cause idref="E18" />
+<clue>However, the components of the NF-kappaB complexes were different in monocytes and B cells, because p50 is part of the NF-kappaB complex induced <linkCause>by</linkCause> CD40 triggering in both monocytes and B cells, whereas p65 was only <clueType>induced</clueType> <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<cause idref="T38" />
+<clue>However, the components of the NF-kappaB complexes were different in monocytes and B cells, because p50 is part of the NF-kappaB complex induced by CD40 <clueType>triggering</clueType> in both monocytes and B cells, whereas p65 was only induced in B cells.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S7">In contrast, although the <term sem="Protein_molecule" id="T43" lex="Janus_kinase_3_tyrosine_kinase"><term sem="Protein_molecule" id="T44" lex="Janus_kinase_3">Janus kinase 3</term> <term sem="Amino_acid_monomer" id="T45" lex="tyrosine">tyrosine</term> kinase</term> was associated with <term sem="Protein_molecule" id="T46" lex="CD40">CD40</term> molecules in both <term sem="Cell_natural" id="T47" lex="monocyte">monocytes</term> and <term sem="Cell_natural" id="T48" lex="resting_B_cell">resting B cells</term>, <term sem="Protein_molecule" id="T49" lex="Janus_kinase_3">Janus kinase 3</term> phosphorylation induction was observed only in <term sem="Cell_cultured" id="T50" lex="CD40-activated_monocyte"><term sem="Protein_molecule" id="T51" lex="CD40">CD40</term>-activated <term sem="Cell_natural" id="A4">monocytes</term></term>, with subsequent induction of <term sem="Other" id="T52" lex="STAT5a_DNA_binding_activity"><term sem="Protein_molecule" id="T53" lex="STAT5a">STAT5a</term> <term sem="DNA_domain_or_region" id="A8">DNA</term> binding activity</term> in the <term sem="Cell_component" id="T54" lex="nucleus">nucleus</term>.</sentence>
+<event id="E20">
+<type class="Binding" />
+<theme idref="T43" />
+<theme idref="T46" />
+<clue>In contrast, although the Janus kinase 3 tyrosine kinase was <clueType>associated</clueType> <linkTheme>with</linkTheme> CD40 molecules <clueLoc>in</clueLoc> both <clueLoc>monocytes</clueLoc> and resting B cells, Janus kinase 3 phosphorylation induction was observed only in CD40-activated monocytes, with subsequent induction of STAT5a DNA binding activity in the nucleus.</clue>
+</event>
+<event id="E38">
+<type class="Binding" />
+<theme idref="T43" />
+<theme idref="T46" />
+<clue>In contrast, although the Janus kinase 3 tyrosine kinase was <clueType>associated</clueType> <linkTheme>with</linkTheme> CD40 molecules <clueLoc>in</clueLoc> both monocytes and <clueLoc>resting B cells</clueLoc>, Janus kinase 3 phosphorylation induction was observed only in CD40-activated monocytes, with subsequent induction of STAT5a DNA binding activity in the nucleus.</clue>
+</event>
+<event id="E21">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T49" />
+<clue>In contrast, although the Janus kinase 3 tyrosine kinase was associated with CD40 molecules in both monocytes and resting B cells, Janus kinase 3 <clueType>phosphorylation</clueType> induction was observed only in CD40-activated monocytes, with subsequent induction of STAT5a DNA binding activity in the nucleus.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<clue>In contrast, although the Janus kinase 3 tyrosine kinase was associated with CD40 molecules in both monocytes and resting B cells, Janus kinase 3 phosphorylation <clueType>induction</clueType> was observed only <clueLoc>in CD40-activated monocytes</clueLoc>, with subsequent induction of STAT5a DNA binding activity in the nucleus.</clue>
+</event>
+<event id="E23">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<cause idref="T51" />
+<clue>In contrast, although the Janus kinase 3 tyrosine kinase was associated with CD40 molecules in both monocytes and resting B cells, Janus kinase 3 phosphorylation induction was observed only in CD40-<clueType>activated</clueType> monocytes, with subsequent induction of STAT5a DNA binding activity in the nucleus.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<clue>In contrast, although the Janus kinase 3 tyrosine kinase was associated with CD40 molecules in both monocytes and resting B cells, Janus kinase 3 phosphorylation induction was observed only <clueLoc>in CD40-activated monocytes</clueLoc>, with <clueTime>subsequent</clueTime> <clueType>induction</clueType> <linkTheme>of</linkTheme> STAT5a DNA binding activity <clueLoc>in the nucleus</clueLoc>.</clue>
+</event>
+<event id="E25">
+<type class="Binding" />
+<theme idref="T53" />
+<theme idref="A8" />
+<clue>In contrast, although the Janus kinase 3 tyrosine kinase was associated with CD40 molecules in both monocytes and resting B cells, Janus kinase 3 phosphorylation induction was observed only in CD40-activated monocytes, with subsequent induction of STAT5a DNA <clueType>binding</clueType> activity in the nucleus.</clue>
+</event>
+<sentence id="S8">These results suggest that the <term sem="Other" id="A5">activation signals</term> in <term sem="Cell_natural" id="T55" lex="human_B_cell">human B cells</term> and <term sem="Cell_natural" id="T56" lex="monocyte">monocytes</term> differ following <term sem="Other" id="T57" lex="CD40_stimulation"><term sem="Protein_molecule" id="T58" lex="CD40">CD40</term> stimulation</term>.</sentence>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="E27" />
+<clue>These results suggest that the activation signals <clueLoc>in human B cells</clueLoc> and monocytes differ <linkCause>following</linkCause> CD40 stimulation.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="E32" />
+<clue>These results suggest that the activation signals <clueLoc>in</clueLoc> human B cells and <clueLoc>monocytes</clueLoc> differ <linkCause>following</linkCause> CD40 stimulation.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E27">
+<type class="Physiological_process" />
+<theme idref="T55" />
+<cause idref="T58" />
+<clue>These results suggest that the activation signals in human B cells and monocytes differ following CD40 <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E32">
+<type class="Physiological_process" />
+<theme idref="T56" />
+<cause idref="T58" />
+<clue>These results suggest that the activation signals in human B cells and monocytes differ following CD40 <clueType>stimulation</clueType>.</clue>
+</event>
+<sentence id="S9">This observation is consistent with the detection of <term sem="Other" id="T59" lex="normal_CD40-induced_monocyte_activation">normal <term sem="Protein_molecule" id="T60" lex="CD40">CD40</term>-induced <term sem="Cell_natural" id="A6">monocyte</term> activation</term> in <term sem="Multicellular_organism_natural" id="T61" lex="patient">patients</term> with <term sem="Other" id="T62" lex="CD40_ligand+_hyper_IgM_syndrome"><term sem="Protein_molecule" id="T63" lex="CD40">CD40</term> ligand+ hyper <term sem="Protein_family_or_group" id="T64" lex="IgM">IgM</term> syndrome</term> in whom a defect in <term sem="Other" id="T65" lex="CD40-induced_B_cell_activation"><term sem="Protein_molecule" id="T66" lex="CD40">CD40</term>-induced <term sem="Cell_natural" id="A7">B cell</term> activation</term> has been reported.</sentence>
+<event id="E28">
+<type class="Physiological_process" />
+<theme idref="A6" />
+<cause idref="T60" />
+<clue>This observation is consistent with the detection of normal CD40<linkCause>-induced</linkCause> monocyte <clueType>activation</clueType> <clueLoc>in patients with CD40 ligand+ hyper IgM syndrome</clueLoc> in whom a defect in CD40-induced B cell activation has been reported.</clue>
+</event>
+<event id="E29">
+<type class="Physiological_process" />
+<theme idref="A7" />
+<cause idref="T66" />
+<clue>This observation is consistent with the detection of normal CD40-induced monocyte activation in patients with CD40 ligand+ hyper IgM syndrome in whom a defect in CD40<linkCause>-induced</linkCause> B cell <clueType>activation</clueType> has been reported.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<clue>This observation is consistent with the detection of normal CD40-induced monocyte activation <clueLoc>in patients with CD40 ligand+ hyper IgM syndrome</clueLoc> in whom a <clueType>defect</clueType> <linkTheme>in</linkTheme> CD40-induced B cell activation has been reported.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

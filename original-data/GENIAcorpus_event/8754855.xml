@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="2007/05/10" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8754855" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8754855</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Precise <term sem="DNA_domain_or_region" id="T1" lex="alignment_of_site">alignment of sites</term> required for <term sem="DNA_domain_or_region" id="T2" lex="mu_enhancer">mu enhancer</term> activation in <term sem="Cell_natural" id="T3" lex="B_cell">B cells</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>Precise alignment of sites required for mu enhancer <clueType>activation</clueType> <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Precise alignment of sites <clueType>required</clueType> <linkTheme>for</linkTheme> mu enhancer activation <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="DNA_domain_or_region" id="T4" lex="lymphocyte-specific_immunoglobulin_mu_heavy-chain_gene_intronic_enhancer">lymphocyte-specific <term sem="Protein_molecule" id="T5" lex="immunoglobulin_mu_heavy-chain">immunoglobulin mu heavy-chain</term> gene intronic enhancer</term> is regulated by multiple <term sem="Protein_family_or_group" id="T6" lex="nuclear_factor">nuclear factors</term>.</sentence>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="T4" />
+<cause idref="T6" />
+<clue>The lymphocyte-specific immunoglobulin mu heavy-chain gene intronic enhancer is <clueType>regulated</clueType> <linkCause>by</linkCause> multiple nuclear factors.</clue>
+</event>
+<sentence id="S3">The previously defined <term sem="DNA_domain_or_region" id="A60"><term sem="DNA_domain_or_region" id="T7" lex="minimal_enhancer">minimal enhancer</term> containing the muA, muE3, and muB sites</term> is transactivated by a combination of the <term sem="Protein_family_or_group" id="T9" lex="ETS-domain_protein">ETS-domain proteins</term> <term sem="Protein_molecule" id="T10" lex="PU.1">PU.1</term> and <term sem="Protein_molecule" id="T11" lex="Ets-1">Ets-1</term> in <term sem="Cell_natural" id="T12" lex="nonlymphoid_cell">nonlymphoid cells</term>.</sentence>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T10" />
+<theme idref="T11" />
+<clue>The previously defined minimal enhancer containing the muA, muE3, and muB sites is transactivated by a <clueType>combination</clueType> <linkTheme>of</linkTheme> the ETS-domain proteins PU.1 and Ets-1 <clueLoc>in nonlymphoid cells</clueLoc>.</clue>
+<comment>NER T8 DEL</comment>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="A60" />
+<cause idref="E4" />
+<clue>The previously defined minimal enhancer containing the muA, muE3, and muB sites is <clueType>transactivated</clueType> <linkCause>by</linkCause> a combination of the ETS-domain proteins PU.1 and Ets-1 <clueLoc>in nonlymphoid cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">The core <term sem="Polynucleotide" id="T13" lex="GGAA">GGAAs</term> of the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T14" lex="(AND muA_site muB_site)"><frag id="F1"><term sem="DNA_domain_or_region" id="A1">muA</term></frag> and <frag id="F2"><term sem="DNA_domain_or_region" id="A2">muB</term></frag> <frag id="F3"><term sem="DNA_domain_or_region" id="A3">sites</term></frag></cons> are separated by <term sem="Polynucleotide" id="T15" lex="30_nucleotide">30 nucleotides</term>, suggesting that <term sem="Protein_family_or_group" id="T16" lex="ETS_protein">ETS proteins</term> bind to these sites from these same side of the <term sem="DNA_substructure" id="T17" lex="DNA_helix">DNA helix</term>.</sentence>
+<event uncertainty="probable" id="E6">
+<type class="Binding" />
+<theme idref="T16" />
+<theme idref1="A3" idref="A1" />
+<clue>The core GGAAs of the muA and muB sites are separated by 30 nucleotides, suggesting that ETS proteins <clueType>bind</clueType> <linkTheme>to</linkTheme> <corefTheme idref1="A1" idref2="A3">these sites</corefTheme> <clueLoc>from these same side of the DNA helix</clueLoc>.</clue>
+</event>
+<event uncertainty="probable" id="E7">
+<type class="Binding" />
+<theme idref="T16" />
+<theme idref1="A3" idref="A2" />
+<clue>The core GGAAs of the muA and muB sites are separated by 30 nucleotides, suggesting that ETS proteins <clueType>bind</clueType> <linkTheme>to</linkTheme> <corefTheme idref1="A2" idref2="A3">these sites</corefTheme> <clueLoc>from these same side of the DNA helix</clueLoc>.</clue>
+</event>
+<sentence id="S5">We tested the necessity for appropriate <term sem="Other" id="T18" lex="spatial_alignment">spatial alignment</term> of these <term sem="DNA_family_or_group" id="T19" lex="element">elements</term> by using <term sem="DNA_family_or_group" id="T20" lex="mutated_enhancer">mutated enhancers</term> with altered spacings.</sentence>
+<sentence id="S6">A <cons sem="(OR Polynucleotide Polynucleotide)" id="T21" lex="(OR 4-bp_insertion 10-bp_insertion)"><frag id="F4"><term sem="Nucleotide" id="A4">4-</term></frag> or <frag id="F5"><term sem="Nucleotide" id="A5">10-</term></frag><frag id="F6"><term sem="Nucleotide" id="A6">bp</term> insertion</frag></cons> between <term sem="DNA_domain_or_region" id="T22" lex="muE3">muE3</term> and <term sem="DNA_domain_or_region" id="T23" lex="muB">muB</term> inactivated the <term sem="DNA_domain_or_region" id="T24" lex="mu_enhancer">mu enhancer</term> in <term sem="Cell_cultured" id="T25" lex="S194_plasma_cell">S194 plasma cells</term> but did not affect in vitro binding of <term sem="Protein_molecule" id="A7">Ets-1</term>, <term sem="Protein_molecule" id="T26" lex="PU.1">PU.1</term>, or the <term sem="Protein_family_or_group" id="T27" lex="muE3-binding_protein"><term sem="DNA_domain_or_region" id="T28" lex="muE3">muE3</term>-binding protein</term> <term sem="Protein_molecule" id="T29" lex="TFE3">TFE3</term>, alone or in pairwise combinations.</sentence>
+<event id="E8">
+<type class="Mutagenesis" />
+<theme idref1="A6" idref="A4" />
+<clue>A 4- or 10-bp <clueType>insertion</clueType> <clueLoc>between muE3 and muB</clueLoc> inactivated the mu enhancer in S194 plasma cells but did not affect in vitro binding of Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.</clue>
+<comment>CLUE_LOC=LOCATION, ARTIFICIAL</comment>
+</event>
+<event id="E9">
+<type class="Mutagenesis" />
+<theme idref1="A6" idref="A5" />
+<clue>A 4- or 10-bp <clueType>insertion</clueType> <clueLoc>between muE3 and muB</clueLoc> inactivated the mu enhancer in S194 plasma cells but did not affect in vitro binding of Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.</clue>
+<comment>CLUE_LOC=LOCATION, ARTIFICIAL</comment>
+</event>
+<event assertion="non-exist" id="E10">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="E8" />
+<clue>A 4- or 10-bp insertion between muE3 and muB <clueType>inactivated</clueType> the mu enhancer <clueLoc>in S194 plasma cells</clueLoc> but did not affect in vitro binding of Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.</clue>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="E9" />
+<clue>A 4- or 10-bp insertion between muE3 and muB <clueType>inactivated</clueType> the mu enhancer <clueLoc>in S194 plasma cells</clueLoc> but did not affect in vitro binding of Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.</clue>
+</event>
+<event id="E11">
+<type class="Binding" />
+<theme idref="A7" />
+<clue>A 4- or 10-bp insertion between muE3 and muB inactivated the mu enhancer in S194 plasma cells but did not affect in vitro <clueType>binding</clueType> <linkTheme>of</linkTheme> Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.</clue>
+</event>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T26" />
+<clue>A 4- or 10-bp insertion between muE3 and muB inactivated the mu enhancer in S194 plasma cells but did not affect in vitro <clueType>binding</clueType> <linkTheme>of</linkTheme> Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.</clue>
+</event>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T28" />
+<theme idref="T29" />
+<clue>A 4- or 10-bp insertion between muE3 and muB inactivated the mu enhancer in S194 plasma cells but did not affect in vitro binding of Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise <clueType>combinations</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="E8" />
+<clue>A 4- or 10-bp insertion between muE3 and muB inactivated the mu enhancer in S194 plasma cells but did not <clueType>affect</clueType> in vitro binding of Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.</clue>
+</event>
+<event assertion="non-exist" id="E17">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="E8" />
+<clue>A 4- or 10-bp insertion between muE3 and muB inactivated the mu enhancer in S194 plasma cells but did not <clueType>affect</clueType> in vitro binding of Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Regulation" />
+<theme idref="E13" />
+<cause idref="E8" />
+<clue>A 4- or 10-bp insertion between muE3 and muB inactivated the mu enhancer in S194 plasma cells but did not <clueType>affect</clueType> in vitro binding of Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="E9" />
+<clue>A 4- or 10-bp insertion between muE3 and muB inactivated the mu enhancer in S194 plasma cells but did not <clueType>affect</clueType> in vitro binding of Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="E9" />
+<clue>A 4- or 10-bp insertion between muE3 and muB inactivated the mu enhancer in S194 plasma cells but did not <clueType>affect</clueType> in vitro binding of Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.</clue>
+</event>
+<event assertion="non-exist" id="E23">
+<type class="Regulation" />
+<theme idref="E13" />
+<cause idref="E9" />
+<clue>A 4- or 10-bp insertion between muE3 and muB inactivated the mu enhancer in S194 plasma cells but did not <clueType>affect</clueType> in vitro binding of Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.</clue>
+</event>
+<sentence id="S7">Circular permutation and phasing analyses demonstrated that <term sem="Other" id="T30" lex="PU.1_binding"><term sem="Protein_molecule" id="T31" lex="PU.1">PU.1</term> binding</term> but not <term sem="Protein_molecule" id="T32" lex="TFE3">TFE3</term> or <term sem="Protein_molecule" id="T33" lex="Ets-1">Ets-1</term> bends <term sem="DNA_domain_or_region" id="T34" lex="mu_enhancer_DNA"><term sem="DNA_domain_or_region" id="T35" lex="mu_enhancer">mu enhancer</term> DNA</term> toward the <term sem="DNA_substructure" id="T36" lex="major_groove">major groove</term>.</sentence>
+<event id="E26">
+<type class="Binding" />
+<theme idref="T31" />
+<clue><clueExperiment>Circular permutation and phasing analyses</clueExperiment> demonstrated that PU.1 <clueType>binding</clueType> but not TFE3 or Ets-1 bends mu enhancer DNA toward the major groove.</clue>
+</event>
+<event id="E27">
+<type class="Binding" />
+<theme idref="T32" />
+<clue><clueExperiment>Circular permutation and phasing analyses</clueExperiment> demonstrated that PU.1 <clueType>binding</clueType> but not TFE3 or Ets-1 bends mu enhancer DNA toward the major groove.</clue>
+</event>
+<event id="E28">
+<type class="Binding" />
+<theme idref="T33" />
+<clue><clueExperiment>Circular permutation and phasing analyses</clueExperiment> demonstrated that PU.1 <clueType>binding</clueType> but not TFE3 or Ets-1 bends mu enhancer DNA toward the major groove.</clue>
+</event>
+<event id="E29">
+<type class="DNA_metabolism" />
+<theme idref="T34" />
+<cause idref="E26" />
+<clue><clueExperiment>Circular permutation and phasing analyses</clueExperiment> demonstrated that PU.1 binding but not TFE3 or Ets-1 <clueType>bends</clueType> mu enhancer DNA toward the major groove.</clue>
+</event>
+<event assertion="non-exist" id="E30">
+<type class="DNA_metabolism" />
+<theme idref="T34" />
+<cause idref="E27" />
+<clue><clueExperiment>Circular permutation and phasing analyses</clueExperiment> demonstrated that PU.1 binding but not TFE3 or Ets-1 <clueType>bends</clueType> mu enhancer DNA toward the major groove.</clue>
+</event>
+<event assertion="non-exist" id="E31">
+<type class="DNA_metabolism" />
+<theme idref="T34" />
+<cause idref="E28" />
+<clue><clueExperiment>Circular permutation and phasing analyses</clueExperiment> demonstrated that PU.1 binding but not TFE3 or Ets-1 <clueType>bends</clueType> mu enhancer DNA toward the major groove.</clue>
+</event>
+<sentence id="S8">We propose that the requirement for precise spacing of the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T37" lex="(AND muA_element muB_element)"><frag id="F7"><term sem="DNA_domain_or_region" id="A30">muA</term></frag> and <frag id="F8"><term sem="DNA_domain_or_region" id="A31">muB</term></frag> <frag id="F9"><term sem="DNA_domain_or_region" id="A32">elements</term></frag></cons> is due in part to a directed <term sem="DNA_substructure" id="T38" lex="DNA_bend">DNA bend</term> induced by <term sem="Protein_molecule" id="T39" lex="PU.1">PU.1</term>.</sentence>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<cause idref="T39" />
+<clue>We propose that the requirement for precise spacing of the muA and muB elements is due in part to a directed DNA bend <clueType>induced</clueType> <linkCause>by</linkCause> PU.1.</clue>
+</event>
+<event id="E33">
+<type class="Regulation" />
+<theme idref="T38" />
+<cause idref1="A32" idref="A30" />
+<clue>We propose that the requirement for precise spacing of the muA and muB elements is <clueType>due</clueType> in part <linkTheme>to</linkTheme> a directed DNA bend induced by PU.1.</clue>
+</event>
+<event id="E34">
+<type class="Regulation" />
+<theme idref="T38" />
+<cause idref1="A32" idref="A31" />
+<clue>We propose that the requirement for precise spacing of the muA and muB elements is <clueType>due</clueType> in part <linkTheme>to</linkTheme> a directed DNA bend induced by PU.1.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/12/18" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7670114" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7670114</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term sem="Protein_family_or_group" id="T1" lex="hematopoietic_transcription_factor">hematopoietic transcription factor</term> <term sem="Protein_molecule" id="T2" lex="PU.1">PU.1</term> is downregulated in <term sem="Cell_cultured" id="T3" lex="human_multiple_myeloma_cell_line">human multiple myeloma cell lines</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="T2" />
+<clue>The hematopoietic transcription factor PU.1 is <clueType>downregulated</clueType> <clueLoc>in human multiple myeloma cell lines</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T4" lex="PU.1">PU.1</term> is a <term sem="Protein_family_or_group" id="T5" lex="hematopoietic_transcription_factor">hematopoietic transcription factor</term> belonging to the <term sem="Protein_family_or_group" id="T6" lex="Ets-family">Ets-family</term>.</sentence>
+<sentence id="S3">It is identical to the <term sem="DNA_domain_or_region" id="T7" lex="Spi-1_oncogene">Spi-1 oncogene</term>, which is implicated in <term sem="Body_region" id="T9" lex="spleen">spleen</term> <term sem="Virus" id="A8">focus-forming virus</term>-induced <term sem="Other" id="A9">murine erythroleukemias</term>.</sentence>
+<event id="E2">
+<type />
+<theme idref="A9" />
+<cause idref="A8" />
+<clue>It is identical to the Spi-1 oncogene, which is implicated in spleen focus-forming virus-<clueType>induced</clueType> murine erythroleukemias.</clue>
+<comment>SOO; NER: T8 del &quot;spleen focus-forming virus-induced murine erythroleukemias&quot;</comment>
+</event>
+<sentence id="S4"><term sem="Protein_molecule" id="T10" lex="PU.1">PU.1</term> seems to be required for early development of <term sem="Cell_natural" id="T11" lex="multiple_hematopoietic_lineage">multiple hematopoietic lineages</term>, but its expression in <term sem="Cell_natural" id="T12" lex="mature_cell">mature cells</term> is preferentially observed in cells of the <term sem="Cell_natural" id="T13" lex="B-cell-and_monocyte/macrophage-differentiation_lineage"><term sem="Cell_natural" id="A101">B-cell</term>-and <term sem="Cell_natural" id="A1">monocyte</term>/<term sem="Cell_natural" id="A2">macrophage</term>-<term sem="Other" id="T14" lex="differentiation">differentiation</term> lineage</term>.</sentence>
+<event id="E3">
+<type class="Cell_differentiation" />
+<theme idref="T11" />
+<clue>PU.1 seems to be required for early <clueType>development</clueType> <linkTheme>of</linkTheme> multiple hematopoietic lineages, but its expression in mature cells is preferentially observed in cells of the B-cell-and monocyte/macrophage-differentiation lineage.</clue>
+</event>
+<event uncertainty="probable" id="E4">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T10" />
+<clue>PU.1 seems to be <clueType>required</clueType> <linkTheme>for</linkTheme> early development of multiple hematopoietic lineages, but its expression in mature cells is preferentially observed in cells of the B-cell-and monocyte/macrophage-differentiation lineage.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>PU.1 seems to be required for early development of multiple hematopoietic lineages, but <corefTheme>its</corefTheme> <clueType>expression</clueType> in mature cells is preferentially observed <clueLoc>in cells of the B-cell-</clueLoc>and monocyte/macrophage-<clueLoc>differentiation lineage</clueLoc>.</clue>
+</event>
+<event id="E500">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>PU.1 seems to be required for early development of multiple hematopoietic lineages, but <corefTheme>its</corefTheme> <clueType>expression</clueType> in mature cells is preferentially observed <clueLoc>in cells of</clueLoc> the B-cell-and <clueLoc>monocyte/macrophage-differentiation lineage</clueLoc>.</clue>
+</event>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<theme idref="A2" />
+<clue>PU.1 seems to be required for early development of multiple hematopoietic lineages, but its expression in mature cells is preferentially observed in cells of the B-cell-and monocyte/macrophage-<clueType>differentiation</clueType> lineage.</clue>
+</event>
+<event id="E7">
+<type class="Cell_differentiation" />
+<theme idref="A101" />
+<theme idref="A2" />
+<clue>PU.1 seems to be required for early development of multiple hematopoietic lineages, but its expression in mature cells is preferentially observed in cells of the B-cell-and monocyte/macrophage-<clueType>differentiation</clueType> lineage.</clue>
+</event>
+<sentence id="S5">It binds the so-called <term sem="DNA_domain_or_region" id="T15" lex="Pu_box">Pu box</term>, an important <term sem="DNA_family_or_group" id="T16" lex="tissue-specific_regulatory_DNA_element">tissue-specific regulatory DNA element</term> present in <term sem="DNA_domain_or_region" id="A3">a number of genes</term> expressed in these <term sem="Cell_natural" id="T17" lex="cell_lineage">cell lineages</term>.</sentence>
+<event id="E8">
+<type class="Binding" />
+<theme idref="T10" />
+<theme idref="T15" />
+<clue><corefTheme idref1="T10">It</corefTheme> <clueType>binds</clueType> the so-called Pu box, an important tissue-specific regulatory DNA element present in a number of genes expressed in these cell lineages.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="A3" />
+<clue>It binds the so-called Pu box, an important tissue-specific regulatory DNA element present in a number of genes <clueType>expressed</clueType> <clueLoc>in these cell lineages</clueLoc>.</clue>
+<comment>TPS A3</comment>
+</event>
+<sentence id="S6">We have analyzed the expression and activity of <term sem="Protein_molecule" id="T18" lex="PU.1">PU.1</term> during <term sem="Other" id="T19" lex="human_B-cell_development">human <term sem="Cell_natural" id="A4">B-cell</term> development</term> using a panel of <term sem="Cell_cultured" id="T20" lex="B-cell_line">B-cell lines</term> representing different stages of maturation, from <term sem="Cell_cultured" id="T21" lex="early_precursor">early precursors</term> to <term sem="Cell_cultured" id="T22" lex="differentiated_plasma_cell">differentiated <term sem="Cell_natural" id="A100">plasma cells</term></term>.</sentence>
+<event id="E10">
+<type class="Cell_differentiation" />
+<theme idref="A4" />
+<clue>We have analyzed the expression and activity of PU.1 during human B-cell <clueType>development</clueType> using a panel of B-cell lines representing different stages of maturation, from early precursors to differentiated plasma cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E11">
+<type class="Gene_expression" />
+<theme idref="T18" />
+<clue>We have analyzed the <clueType>expression</clueType> and activity <linkTheme>of</linkTheme> PU.1 <clueTime>during human B-cell development</clueTime> using a panel of B-cell lines representing different stages of maturation, from early precursors to differentiated plasma cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E12">
+<type class="Positive_regulation" />
+<theme idref="T18" />
+<clue>We have analyzed the expression and <clueType>activity</clueType> <linkTheme>of</linkTheme> PU.1 <clueTime>during human B-cell development</clueTime> using a panel of B-cell lines representing different stages of maturation, from early precursors to differentiated plasma cells.</clue>
+</event>
+<event id="E120">
+<type class="Cell_differentiation" />
+<theme idref="T20" />
+<clue>We have analyzed the expression and activity of PU.1 during human B-cell development using a panel of B-cell lines representing different stages of <clueType>maturation</clueType>, from early precursors to differentiated plasma cells.</clue>
+</event>
+<event id="E121">
+<type class="Cell_differentiation" />
+<theme idref="A100" />
+<clue>We have analyzed the expression and activity of PU.1 during human B-cell development using a panel of B-cell lines representing different stages of maturation, from early precursors to <clueType>differentiated</clueType> plasma cells.</clue>
+</event>
+<sentence id="S7"><term sem="Other" id="T23" lex="PU.1_mRNA_expression"><term sem="RNA_molecule" id="T24" lex="PU.1_mRNA"><term sem="Protein_molecule" id="T25" lex="PU.1">PU.1</term> mRNA</term> expression</term> and <term sem="Other" id="T26" lex="PU.1_DNA_binding_activity"><term sem="Protein_molecule" id="T27" lex="PU.1">PU.1</term> <term sem="DNA_domain_or_region" id="A7">DNA</term> binding activity</term>, as measured by <term sem="Other" id="T28" lex="Northern_blot_analysis">Northern blot analysis</term> and <term sem="Other" id="T29" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assay</term>, respectively, were evident in <term sem="Cell_cultured" id="T30" lex="cell_line">cell lines</term> representing <cons sem="(AND Cell_cultured Cell_cultured Cell_cultured)" id="T31" lex="(AND pro-B_cell pre-B_cell mature_B_cell)"><frag id="F1">pro-B</frag>, <frag id="F2">pre-B</frag>, and <frag id="F3">mature B</frag> <frag id="F4">cells</frag></cons>.</sentence>
+<event id="E13">
+<type class="Transcription" />
+<theme idref="T24" />
+<clue>PU.1 mRNA <clueType>expression</clueType> and PU.1 DNA binding activity, as measured <clueExperiment>by Northern blot analysis</clueExperiment> and electrophoretic mobility shift assay, respectively, were evident <clueLoc>in cell lines representing pro-B, pre-B, and mature B cells</clueLoc>.</clue>
+<comment>EXP</comment>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T27" />
+<theme idref="A7" />
+<clue>PU.1 mRNA expression and PU.1 DNA <clueType>binding activity</clueType>, as measured by Northern blot analysis and <clueExperiment>electrophoretic mobility shift assay</clueExperiment>, respectively, were evident <clueLoc>in cell lines representing pro-B, pre-B, and mature B cells</clueLoc>.</clue>
+<comment>EXP</comment>
+</event>
+<sentence id="S8">We could also show <term sem="Other" id="T32" lex="Pu_box-dependent_transactivation"><term sem="DNA_domain_or_region" id="T33" lex="Pu_box">Pu box</term>-dependent transactivation</term> of a <term sem="DNA_family_or_group" id="A6">reporter gene</term> in transient transfections in these <term sem="Cell_cultured" id="T34" lex="cell_line">cell lines</term>.</sentence>
+<event id="E140">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="T33" />
+<clue>We could also show Pu box-<linkCause>dependent</linkCause> <clueType>transactivation</clueType> <linkTheme>of</linkTheme> a reporter gene <clueExperiment>in transient transfections in these cell lines</clueExperiment>.</clue>
+</event>
+<sentence id="S9">In contrast, in a number of <term sem="Cell_cultured" id="T35" lex="multiple_myeloma_cell_line">multiple myeloma cell lines</term>, representing <term sem="Cell_natural" id="T36" lex="differentiated,_plasma_cell-like_B_cell">differentiated, plasma cell-like <term sem="Cell_natural" id="A10">B cells</term></term>, <term sem="Other" id="T37" lex="PU.1_DNA_binding_activity"><term sem="Protein_molecule" id="T38" lex="PU.1">PU.1</term> <term sem="DNA_domain_or_region" id="A11">DNA</term> binding activity</term>, <term sem="Other" id="T39" lex="PU.1_mRNA_expression">mRNA expression</term>, and <term sem="Other" id="T40" lex="Pu_box-dependent_transactivation"><term sem="DNA_domain_or_region" id="T41" lex="Pu_box">Pu box</term>-dependent transactivation</term> were absent or detectable at a very low level.</sentence>
+<event id="E16">
+<type class="Cell_differentiation" />
+<theme idref="A10" />
+<clue>In contrast, in a number of multiple myeloma cell lines, representing <clueType>differentiated</clueType>, plasma cell-like B cells, PU.1 DNA binding activity, mRNA expression, and Pu box-dependent transactivation were absent or detectable at a very low level.</clue>
+</event>
+<event assertion="non-exist" id="E17">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<clue>In contrast, <clueLoc>in a number of multiple myeloma cell lines</clueLoc>, representing differentiated, plasma cell-like B cells, <corefTheme>PU.1 DNA binding</corefTheme> activity, mRNA expression, and Pu box-dependent transactivation were <clueType>absent or detectable at a very low level</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<clue>In contrast, <clueLoc>in a number of multiple myeloma cell lines</clueLoc>, representing differentiated, plasma cell-like B cells, PU.1 DNA binding activity, <corefTheme>mRNA expression</corefTheme>, and Pu box-dependent transactivation were <clueType>absent or detectable at a very low level</clueType>.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E140" />
+<clue>In contrast, <clueLoc>in a number of multiple myeloma cell lines</clueLoc>, representing differentiated, plasma cell-like B cells, PU.1 DNA binding activity, mRNA expression, and Pu box-dependent <corefTheme>transactivation</corefTheme> were <clueType>absent or detectable at a very low level</clueType>.</clue>
+</event>
+<sentence id="S10">In <term sem="Cell_cultured" id="T42" lex="lymphoblastoid_cell_line">lymphoblastoid cell lines</term>, which exemplify an intermediate stage of <term sem="Other" id="T43" lex="B-cell_differentiation"><term sem="Cell_natural" id="A12">B-cell</term> differentiation</term>, a reduced <term sem="Other" id="T45" lex="expression">expression</term> and activity were observed.</sentence>
+<event id="E21">
+<type class="Cell_differentiation" />
+<theme idref="A12" />
+<clue><clueLoc>In lymphoblastoid cell lines</clueLoc>, which exemplify an intermediate stage of B-cell <clueType>differentiation</clueType>, a reduced expression and activity were observed.</clue>
+<comment>NER: T44 del &quot;differentiation&quot;</comment>
+</event>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref="T38" />
+<clue><clueLoc>In lymphoblastoid cell lines</clueLoc>, which exemplify an intermediate stage of B-cell differentiation, a reduced <clueType>expression</clueType> and activity were observed.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<clue><clueLoc>In lymphoblastoid cell lines</clueLoc>, which exemplify an intermediate stage of B-cell differentiation, a reduced expression and <clueType>activity</clueType> were observed.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<clue><clueLoc>In lymphoblastoid cell lines</clueLoc>, which exemplify an <clueTime>intermediate stage of B-cell differentiation</clueTime>, a <clueType>reduced</clueType> expression and activity were observed.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<clue><clueLoc>In lymphoblastoid cell lines</clueLoc>, which exemplify an <clueTime>intermediate stage of B-cell differentiation</clueTime>, a <clueType>reduced</clueType> expression and activity were observed.</clue>
+</event>
+<sentence id="S11">The findings in the <term sem="Cell_cultured" id="T46" lex="human_multiple_myeloma_cell_line">human <term sem="Cell_cultured" id="T47" lex="multiple_myeloma_cell_line">multiple myeloma cell lines</term></term> represent the first examples of <term sem="Cell_natural" id="T48" lex="B_cell">B cells</term> with <term sem="Other" id="T49" lex="downregulated_PU.1_expression">downregulated <term sem="Protein_molecule" id="T50" lex="PU.1">PU.1</term> expression</term> and apparently contradict observations in the <term sem="Other" id="T51" lex="murine_system">murine system</term> in which <term sem="Protein_molecule" id="T52" lex="PU.1">PU.1</term> is expressed and active in <term sem="Cell_cultured" id="T53" lex="plasmacytoma_cell_line">plasmacytoma cell lines</term>.</sentence>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T52" />
+<clue>The findings in the human multiple myeloma cell lines represent the first examples of B cells with downregulated PU.1 expression and apparently contradict observations <clueLoc>in the murine system</clueLoc> in which PU.1 is <clueType>expressed</clueType> and active <clueLoc>in plasmacytoma cell lines</clueLoc>.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T52" />
+<clue>The findings in the human multiple myeloma cell lines represent the first examples of B cells with downregulated PU.1 expression and apparently contradict observations <clueLoc>in the murine system</clueLoc> in which PU.1 is expressed and <clueType>active</clueType> <clueLoc>in plasmacytoma cell lines</clueLoc>.</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="T50" />
+<clue>The findings <clueLoc>in the human multiple myeloma cell lines</clueLoc> represent the first examples of <clueLoc>B cells</clueLoc> with downregulated PU.1 <clueType>expression</clueType> and apparently contradict observations in the murine system in which PU.1 is expressed and active in plasmacytoma cell lines.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<clue>The findings <clueLoc>in the human multiple myeloma cell lines</clueLoc> represent the first examples of <clueLoc>B cells</clueLoc> with <clueType>downregulated</clueType> PU.1 expression and apparently contradict observations in the murine system in which PU.1 is expressed and active in plasmacytoma cell lines.</clue>
+</event>
+<sentence id="S12">At present, it is unclear whether the lack of <term sem="Protein_molecule" id="T54" lex="PU.1">PU.1</term> expression and activity in <term sem="Cell_cultured" id="T55" lex="human_multiple_myeloma_cell_line">human <term sem="Cell_cultured" id="T56" lex="multiple_myeloma_cell_line">multiple myeloma cell lines</term></term> represents a <term sem="Other" id="A13">malignancy</term>-associated defect in these cells or exemplifies a normal developmental regulation in <term sem="Cell_natural" id="T57" lex="terminally_differentiated_B_cell">terminally differentiated <term sem="Cell_natural" id="T58" lex="B_cell">B cells</term></term>.</sentence>
+<event uncertainty="doubtful" id="E30">
+<type class="Gene_expression" />
+<theme idref="T54" />
+<clue>At present, it is unclear whether the lack of PU.1 <clueType>expression</clueType> and activity <clueLoc>in human multiple myeloma cell lines</clueLoc> represents a malignancy-associated defect in these cells or exemplifies a normal developmental regulation in terminally differentiated B cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E31">
+<type class="Positive_regulation" />
+<theme idref="T54" />
+<clue>At present, it is unclear whether the lack of PU.1 expression and <clueType>activity</clueType> <clueLoc>in human multiple myeloma cell lines</clueLoc> represents a malignancy-associated defect in these cells or exemplifies a normal developmental regulation in terminally differentiated B cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E32">
+<type class="Negative_regulation" />
+<theme idref="E30" />
+<clue>At present, it is unclear whether the <clueType>lack</clueType> of PU.1 expression and activity <clueLoc>in human multiple myeloma cell lines</clueLoc> represents a malignancy-associated defect in these cells or exemplifies a normal developmental regulation in terminally differentiated B cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E33">
+<type class="Negative_regulation" />
+<theme idref="E31" />
+<clue>At present, it is unclear whether the <clueType>lack</clueType> of PU.1 expression and activity <clueLoc>in human multiple myeloma cell lines</clueLoc> represents a malignancy-associated defect in these cells or exemplifies a normal developmental regulation in terminally differentiated B cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E34">
+<type class="Regulation" />
+<theme idref="E32" />
+<cause idref="A13" />
+<clue>At present, it is unclear whether the lack of PU.1 expression and activity in human multiple myeloma cell lines represents a malignancy-<clueType>associated</clueType> <corefTheme>defect</corefTheme> in these cells or exemplifies a normal developmental regulation in terminally differentiated B cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E35">
+<type class="Regulation" />
+<theme idref="E33" />
+<cause idref="A12" />
+<clue>At present, it is unclear whether the lack of PU.1 expression and activity in human multiple myeloma cell lines represents a malignancy-<clueType>associated</clueType> <corefTheme>defect</corefTheme> in these cells or exemplifies a normal developmental regulation in terminally differentiated B cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E36">
+<type class="Cell_differentiation" />
+<theme idref="T58" />
+<clue>At present, it is unclear whether the lack of PU.1 expression and activity in human multiple myeloma cell lines represents a malignancy-associated defect in these cells or exemplifies a normal developmental regulation in terminally <clueType>differentiated</clueType> B cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E37">
+<type class="Regulation" />
+<theme idref="E32" />
+<clue>At present, it is unclear whether the lack of PU.1 expression and activity in human multiple myeloma cell lines represents a malignancy-associated defect in these cells or exemplifies a normal <clueType>developmental regulation</clueType> <clueLoc>in terminally differentiated B cells</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E38">
+<type class="Regulation" />
+<theme idref="E33" />
+<clue>At present, it is unclear whether the lack of PU.1 expression and activity in human multiple myeloma cell lines represents a malignancy-associated defect in these cells or exemplifies a normal <clueType>developmental regulation</clueType> <clueLoc>in terminally differentiated B cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

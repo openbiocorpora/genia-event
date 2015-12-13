@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="27/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8925904" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8925904</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T25"><term sem="Other" id="A1">Second messenger</term> up-regulation</term> of <term sem="Other" id="T1" lex="androgen_receptor_gene_transcription"><term sem="DNA_domain_or_region" id="T2" lex="androgen_receptor_gene">androgen receptor gene</term> transcription</term> is absent in <term sem="Lipid" id="A2">androgen</term> insensitive <term sem="Cell_cultured" id="T3"><term sem="Multicellular_organism_natural" id="T26">human</term> prostatic carcinoma cell lines</term>, <term sem="Cell_cultured" id="T4" lex="PC-3">PC-3</term> and <term sem="Cell_cultured" id="T5" lex="DU-145">DU-145</term>.</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T2" />
+<clue>Second messenger up-regulation of androgen receptor gene <clueType>transcription</clueType> is absent in androgen insensitive human prostatic carcinoma cell lines, PC-3 and DU-145.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="A1" />
+<clue>Second messenger <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> androgen receptor gene transcription is absent in androgen insensitive human prostatic carcinoma cell lines, PC-3 and DU-145.</clue>
+</event>
+<event id="E300">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<clue>Second messenger up-regulation of androgen receptor gene transcription is <clueType>absent</clueType> <clueLoc>in androgen insensitive human prostatic carcinoma cell lines, PC-3</clueLoc> and DU-145.</clue>
+</event>
+<event id="E301">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<clue>Second messenger up-regulation of androgen receptor gene transcription is <clueType>absent</clueType> <clueLoc>in androgen insensitive human prostatic carcinoma cell lines,</clueLoc> PC-3 and <clueLoc>DU-145</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E4">
+<type />
+<theme idref="T4" />
+<cause idref="A2" />
+<clue>Second messenger up-regulation of androgen receptor gene transcription is absent in androgen <clueType>insensitive</clueType> human prostatic carcinoma cell lines, PC-3 and DU-145.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event assertion="non-exist" id="E5">
+<type />
+<theme idref="T4" />
+<cause idref="A2" />
+<clue>Second messenger up-regulation of androgen receptor gene transcription is absent in androgen <clueType>insensitive</clueType> human prostatic carcinoma cell lines, PC-3 and DU-145.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A theoretical pathway of <term sem="Other" id="T6" lex="transcriptional_regulation">transcriptional regulation</term> of the <term sem="DNA_domain_or_region" id="T7" lex="androgen_receptor_(AR)_gene">androgen receptor (AR) gene</term> is via a <term sem="DNA_domain_or_region" id="T8" lex="cAMP_response_element">cAMP response element</term> (<term sem="DNA_domain_or_region" id="T9" lex="CRE">CRE</term>) present in its <term sem="DNA_domain_or_region" id="T10" lex="promoter_region">promoter region</term> (-508 to -501).</sentence>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="T7" />
+<clue>A theoretical pathway of <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> the androgen receptor (AR) gene is via a cAMP response element (CRE) present in its promoter region (-508 to -501).</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T9" />
+<clue>A theoretical pathway of transcriptional regulation of the androgen receptor (AR) gene is <linkCause>via</linkCause> a cAMP response element (CRE) present in its promoter region (-508 to -501).</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S3">After 20 h of stimulation with <term sem="Nucleotide" id="T11" lex="8-bromo-cAMP">8-bromo-cAMP</term>, <term sem="RNA_molecule" id="T12" lex="AR_mRNA">AR mRNA</term> was upregulated in <term sem="Cell_cultured" id="T13" lex="LNCaP">LNCaP</term> but not in either <term sem="Cell_cultured" id="T14" lex="PC-3">PC-3</term> or <term sem="Cell_cultured" id="T15" lex="DU-145_cell_line">DU-145 cell lines</term>.</sentence>
+<event id="E8">
+<type class="Physiological_process" />
+<theme idref="T11" />
+<theme idref="T13" />
+<clue>After 20 h of <clueType>stimulation</clueType> <linkTheme>with</linkTheme> 8-bromo-cAMP, AR mRNA was upregulated in LNCaP but not in either PC-3 or DU-145 cell lines.</clue>
+</event>
+<event id="E9">
+<type class="Physiological_process" />
+<theme idref="T11" />
+<theme idref="T14" />
+<clue>After 20 h of <clueType>stimulation</clueType> <linkTheme>with</linkTheme> 8-bromo-cAMP, AR mRNA was upregulated in LNCaP but not in either PC-3 or DU-145 cell lines.</clue>
+</event>
+<event id="E10">
+<type class="Physiological_process" />
+<theme idref="T11" />
+<theme idref="T15" />
+<clue>After 20 h of <clueType>stimulation</clueType> <linkTheme>with</linkTheme> 8-bromo-cAMP, AR mRNA was upregulated in LNCaP but not in either PC-3 or DU-145 cell lines.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E8" />
+<clue><clueTime>After 20 h</clueTime> of stimulation with 8-bromo-cAMP, AR mRNA was <clueType>upregulated</clueType> <clueLoc>in LNCaP</clueLoc> but not in either PC-3 or DU-145 cell lines.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E9" />
+<clue><clueTime>After 20 h</clueTime> of stimulation with 8-bromo-cAMP, AR mRNA was <clueType>upregulated</clueType> <clueLoc>in LNCaP</clueLoc> but not in either PC-3 or DU-145 cell lines.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E10" />
+<clue><clueTime>After 20 h</clueTime> of stimulation with 8-bromo-cAMP, AR mRNA was <clueType>upregulated</clueType> <clueLoc>in LNCaP</clueLoc> but not in either PC-3 or DU-145 cell lines.</clue>
+</event>
+<event assertion="non-exist" id="E310">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E8" />
+<clue><clueTime>After 20 h</clueTime> of stimulation with 8-bromo-cAMP, AR mRNA was <clueType>upregulated</clueType> in LNCaP but not <clueLoc>in</clueLoc> either <clueLoc>PC-3</clueLoc> or DU-145 <clueLoc>cell lines.</clueLoc></clue>
+</event>
+<event assertion="non-exist" id="E311">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E8" />
+<clue><clueTime>After 20 h</clueTime> of stimulation with 8-bromo-cAMP, AR mRNA was <clueType>upregulated</clueType> in LNCaP but not <clueLoc>in</clueLoc> either PC-3 or <clueLoc>DU-145 cell lines</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E312">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E9" />
+<clue><clueTime>After 20 h</clueTime> of stimulation with 8-bromo-cAMP, AR mRNA was <clueType>upregulated</clueType> in LNCaP but not <clueLoc>in</clueLoc> either <clueLoc>PC-3</clueLoc> or DU-145 <clueLoc>cell lines.</clueLoc></clue>
+</event>
+<event assertion="non-exist" id="E313">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E9" />
+<clue><clueTime>After 20 h</clueTime> of stimulation with 8-bromo-cAMP, AR mRNA was <clueType>upregulated</clueType> in LNCaP but not <clueLoc>in</clueLoc> either PC-3 or <clueLoc>DU-145 cell lines</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E314">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E10" />
+<clue><clueTime>After 20 h</clueTime> of stimulation with 8-bromo-cAMP, AR mRNA was <clueType>upregulated</clueType> in LNCaP but not <clueLoc>in</clueLoc> either <clueLoc>PC-3</clueLoc> or DU-145 <clueLoc>cell lines.</clueLoc></clue>
+</event>
+<event assertion="non-exist" id="E315">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E10" />
+<clue><clueTime>After 20 h</clueTime> of stimulation with 8-bromo-cAMP, AR mRNA was <clueType>upregulated</clueType> in LNCaP but not <clueLoc>in</clueLoc> either PC-3 or <clueLoc>DU-145 cell lines</clueLoc>.</clue>
+</event>
+<sentence id="S4">We have demonstrated that the level of <term sem="Protein_molecule" id="T16" lex="CRE_binding_protein">CRE binding protein</term> (<term sem="Protein_molecule" id="T17" lex="CREB">CREB</term>) was the same in all cell lines and that the putative <term sem="DNA_domain_or_region" id="T18" lex="AR-CRE">AR-CRE</term> forms specific and compatible protein interactions with <term sem="Protein_molecule" id="T19" lex="CREB">CREB</term>.</sentence>
+<event id="E17">
+<type class="Binding" />
+<theme idref="T18" />
+<theme idref="T19" />
+<clue>We have demonstrated that the level of CRE binding protein (CREB) was the same in all cell lines and that the putative AR-CRE forms specific and compatible protein <clueType>interactions</clueType> <linkTheme>with</linkTheme> CREB.</clue>
+<comment>NER: T18 MOD</comment>
+</event>
+<sentence id="S5">The ability to regulate <term sem="Other" id="T20" lex="AR_gene_transcription"><term sem="DNA_domain_or_region" id="T21" lex="AR_gene">AR gene</term> transcription</term> via the <term sem="Other" id="A3">second messenger pathway</term> is lost in the <cons sem="(AND Cell_cultured Cell_cultured)" id="T22" lex="(AND PC-3_cell_line DU-145_cell_line)"><frag id="F1">PC-3</frag> and <frag id="F2">DU-145</frag> <frag id="F3">cell lines</frag></cons>.</sentence>
+<event id="E18">
+<type class="Transcription" />
+<theme idref="T21" />
+<clue>The ability to regulate AR gene <clueType>transcription</clueType> via the second messenger pathway is lost in the PC-3 and DU-145 cell lines.</clue>
+</event>
+<event id="E19">
+<type class="Regulation" />
+<theme idref="E18" />
+<cause idref="A3" />
+<clue>The ability to <clueType>regulate</clueType> AR gene transcription <linkCause>via</linkCause> the second messenger pathway is lost in the PC-3 and DU-145 cell lines.</clue>
+</event>
+<event id="E320">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<clue>The ability to regulate AR gene transcription via the second messenger pathway is <clueType>lost</clueType> <clueLoc>in the PC-3</clueLoc> and DU-145 <clueLoc>cell lines</clueLoc>.</clue>
+</event>
+<event id="E321">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<clue>The ability to regulate AR gene transcription via the second messenger pathway is <clueType>lost</clueType> <clueLoc>in</clueLoc> the PC-3 and <clueLoc>DU-145 cell lines</clueLoc>.</clue>
+</event>
+<sentence id="S6">This may be an important primary mechanism of <term sem="Other" id="T23" lex="androgen_insensitivity"><term sem="Lipid" id="A4">androgen</term> insensitivity</term> in <term sem="Other" id="T24" lex="prostate_cancer">prostate cancer</term>.</sentence>
+<event assertion="non-exist" id="E21">
+<type />
+<cause idref="A4" />
+<clue>This may be an important primary mechanism of androgen <clueType>insensitivity</clueType> <clueLoc>in prostate cancer</clueLoc>.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event uncertainty="probable" id="E323">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="E320" />
+<clue><corefCause>This</corefCause> may be an <clueType>important</clueType> primary mechanism of androgen insensitivity in prostate cancer.</clue>
+</event>
+<event uncertainty="probable" id="E324">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="E321" />
+<clue><corefCause>This</corefCause> may be an <clueType>important</clueType> primary mechanism of androgen insensitivity in prostate cancer.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

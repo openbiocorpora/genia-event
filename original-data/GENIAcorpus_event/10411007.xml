@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="02/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10411007" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10411007</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="T1" lex="ETS_transcription_factor">ETS transcription factors</term> regulate an <term sem="Other" id="T2" lex="enhancer_activity"><term sem="DNA_domain_or_region" id="A1">enhancer</term> activity</term> in the <term sem="DNA_domain_or_region" id="A5"><term sem="DNA_domain_or_region" id="T3" lex="third_intron">third intron</term> of <term sem="Protein_molecule" id="T4" lex="TNF-alpha">TNF-alpha</term>.</term></sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="A5" />
+<cause idref="T1" />
+<clue>ETS transcription factors <clueType>regulate</clueType> an enhancer activity <linkTheme>in</linkTheme> the third intron of TNF-alpha.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We describe an enhancer site in the <term sem="DNA_domain_or_region" id="T5" lex="third_intron">third intron</term> of <term sem="Protein_molecule" id="T6" lex="tumor_necrosis_factor_alpha"><term sem="Tissue_natural" id="T7" lex="tumor">tumor</term> necrosis factor alpha</term> (<term sem="Protein_molecule" id="T8" lex="TNF-alpha">TNF-alpha</term>).</sentence>
+<sentence id="S3">A <term sem="DNA_molecule" id="A2"><term sem="DNA_molecule" id="T9" lex="reporter_construct">reporter construct</term> containing the <term sem="DNA_domain_or_region" id="T10" lex="5&apos;-flanking_region">5&apos;-flanking region</term> of the mouse <term sem="DNA_domain_or_region" id="T11" lex="TNF-alpha_gene"><term sem="Protein_molecule" id="T12" lex="TNF-alpha">TNF-alpha</term> gene</term></term> displayed weak activity when transfected into <term sem="Cell_cultured" id="T13" lex="RAW264.7_macrophage-like_cell">RAW264.7 macrophage-like cells</term>.</sentence>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref1="T11" idref="T10" />
+<clue>A reporter construct containing the 5&apos;-flanking region of the mouse TNF-alpha gene <clueType>displayed</clueType> weak <clueType>activity</clueType> when transfected into <clueLoc>RAW264.7 macrophage-like cells</clueLoc>.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E20" />
+<clue>A reporter construct containing the 5&apos;-flanking region of the mouse TNF-alpha gene displayed weak activity <linkCause>when</linkCause> transfected into RAW264.7 macrophage-like cells.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>A reporter construct containing the 5&apos;-flanking region of the mouse TNF-alpha gene displayed weak activity when <clueType>transfected</clueType> <clueLoc>into RAW264.7 macrophage-like cells</clueLoc>.</clue>
+<comment>TPS: A2</comment>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<clue>A reporter construct containing the 5&apos;-flanking region of the mouse TNF-alpha gene displayed weak activity when <clueType>transfected</clueType> <clueLoc>into RAW264.7 macrophage-like cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">The addition of the <term sem="DNA_domain_or_region" id="A3"><term sem="DNA_domain_or_region" id="T14" lex="third_intron">third intron</term> of <term sem="Protein_molecule" id="T15" lex="TNF-alpha">TNF-alpha</term></term> to this construct resulted in an enhancement of <term sem="Protein_family_or_group" id="T16" lex="CAT_protein">CAT protein</term>.</sentence>
+<event id="E4">
+<type class="Artificial_process" />
+<theme idref="A3" />
+<clue>The <clueType>addition</clueType> <linkTheme>of</linkTheme> the third intron of TNF-alpha <linkTheme>to</linkTheme> <corefTheme>this construct</corefTheme> resulted in an enhancement of CAT protein.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<cause idref="E4" />
+<clue>The addition of the third intron of TNF-alpha to this construct <clueType>resulted in an enhancement</clueType> <linkTheme>of</linkTheme> CAT protein.</clue>
+</event>
+<sentence id="S5">This enhancement was eliminated if a <term sem="DNA_domain_or_region" id="T17" lex="conserved_20-bp_sequence">conserved 20-bp sequence</term> was removed from the <term sem="DNA_domain_or_region" id="T18" lex="intron">intron</term> or if a <term sem="DNA_molecule" id="A4"><term sem="Protein_family_or_group" id="T19" lex="dominant-negative_ets-binding_factor">dominant-negative ets-binding factor</term></term> was co-transfected with the <term sem="DNA_family_or_group" id="T20" lex="reporter_gene">reporter gene</term>.</sentence>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="E7" />
+<clue><corefTheme>This enhancement</corefTheme> was <clueType>eliminated</clueType> <linkCause>if</linkCause> a conserved 20-bp sequence was removed from the intron or if a dominant-negative ets-binding factor was co-transfected with the reporter gene.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="E19" />
+<cause idref="E21" />
+<clue><corefTheme>This enhancement</corefTheme> was <clueType>eliminated</clueType> if a conserved 20-bp sequence was removed from the intron or <linkCause>if</linkCause> a dominant-negative ets-binding factor was co-transfected with the reporter gene.</clue>
+</event>
+<event id="E7">
+<type class="Mutagenesis" />
+<theme idref="T17" />
+<theme idref="A3" />
+<clue>This enhancement was eliminated if a conserved 20-bp sequence was <clueType>removed</clueType> <linkTheme>from</linkTheme> <corefTheme>the intron</corefTheme> or if a dominant-negative ets-binding factor was co-transfected with the reporter gene.</clue>
+<comment>TPS: A3; ARTIFICIAL</comment>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>This enhancement was eliminated if a conserved 20-bp sequence was removed from the intron or if a dominant-negative ets-binding factor was <clueType>co-transfected</clueType> with the reporter gene.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<clue>This enhancement was eliminated if a conserved 20-bp sequence was removed from the intron or if a dominant-negative ets-binding factor was <clueType>co-transfected</clueType> with the reporter gene.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue>This enhancement was eliminated if a conserved 20-bp sequence was removed from the intron or if a dominant-negative ets-binding factor was <clueType>co-transfected</clueType> with the reporter gene.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<clue>This enhancement was eliminated if a conserved 20-bp sequence was removed from the intron or if a dominant-negative ets-binding factor was <clueType>co-transfected</clueType> with the reporter gene.</clue>
+</event>
+<sentence id="S6">Mutations of this site that destroyed potential <term sem="DNA_domain_or_region" id="T21" lex="ets_transcription_factor_binding_site"><term sem="Protein_family_or_group" id="T22" lex="ets_transcription_factor">ets transcription factor</term> binding sites</term> had reduced <term sem="Other" id="T23" lex="transcriptional_activity">transcriptional activity</term>.</sentence>
+<event id="E10">
+<type class="Mutagenesis" />
+<theme idref="T17" />
+<clue><clueType>Mutations</clueType> <linkTheme>of</linkTheme> <corefTheme>this site</corefTheme> that destroyed potential ets transcription factor binding sites had reduced transcriptional activity.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="T21" />
+<cause idref="E10" />
+<clue>Mutations of this site that <clueType>destroyed</clueType> potential ets transcription factor binding sites had reduced transcriptional activity.</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<cause idref="E10" />
+<clue>Mutations of this site that destroyed potential ets transcription factor binding sites had <clueType>reduced</clueType> transcriptional activity.</clue>
+</event>
+<sentence id="S7">The major transcription factor that bound to the <term sem="Polynucleotide" id="T24" lex="oligonucleotide">oligonucleotide</term> was confirmed to be <term sem="Protein_molecule" id="T25" lex="GABP">GABP</term> by <term sem="Other" id="T26" lex="supershift">supershift</term> and <term sem="Other" id="T27" lex="competition_analysis">competition analysis</term>.</sentence>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T24" />
+<theme idref="T25" />
+<clue>The major transcription factor that <clueType>bound</clueType> <linkTheme>to</linkTheme> the oligonucleotide was confirmed to be GABP <clueExperiment>by supershift and competition analysis</clueExperiment>.</clue>
+<comment>OK</comment>
+</event>
+<sentence id="S8">In <term sem="Cell_cultured" id="T28" lex="RAW264.7_cell">RAW264.7 cells</term>, the binding was constitutive, however, in <term sem="Cell_cultured" id="T29" lex="bone_marrow-derived_macrophage">bone marrow-derived <term sem="Cell_natural" id="T30" lex="macrophage">macrophages</term></term> binding activity was shown to be <term sem="Protein_molecule" id="T32" lex="interferon-gamma">interferon-gamma</term> inducible.</sentence>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T32" />
+<clue>In RAW264.7 cells, the binding was constitutive, however, <clueLoc>in bone marrow-derived macrophages</clueLoc> <corefTheme>binding activity</corefTheme> was shown to be interferon-gamma <clueType>inducible</clueType>.</clue>
+<comment>NER: T31 del &quot;interferon-gamma inducible&quot;</comment>
+</event>
+<sentence id="S9">This may imply a role for <term sem="Protein_family_or_group" id="T33" lex="ets_transcription_factor">ets transcription factors</term> in the production of <term sem="Protein_molecule" id="T34" lex="TNF-alpha">TNF-alpha</term>.</sentence>
+<event uncertainty="probable" id="E15">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="T33" />
+<clue>This may imply a <clueType>role</clueType> <linkCause>for</linkCause> ets transcription factors <linkTheme>in</linkTheme> the production of TNF-alpha.</clue>
+</event>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T34" />
+<clue>This may imply a role for ets transcription factors in the <clueType>production</clueType> <linkTheme>of</linkTheme> TNF-alpha.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

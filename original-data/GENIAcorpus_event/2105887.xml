@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="2006/10/30" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2105887" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2105887</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A factor known to bind to <term sem="DNA_domain_or_region" id="T1" lex="endogenous_Ig_heavy_chain_enhancer">endogenous Ig heavy chain enhancer</term> only in <term sem="Cell_natural" id="T2" lex="lymphocyte">lymphocytes</term> is a <term sem="Protein_family_or_group" id="T3" lex="ubiquitously_active_transcription_factor">ubiquitously active <term sem="Protein_family_or_group" id="A1">transcription factor</term></term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T3" />
+<theme idref="T1" />
+<clue><corefTheme idref1="T3">A factor</corefTheme> known to <clueType>bind</clueType> <linkTheme>to</linkTheme> endogenous Ig heavy chain enhancer only <clueLoc>in lymphocytes</clueLoc> is a ubiquitously active transcription factor.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<clue>A factor known to bind to endogenous Ig heavy chain enhancer only in lymphocytes is a ubiquitously <clueType>active</clueType> transcription factor.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="DNA_domain_or_region" id="A109"><term sem="DNA_domain_or_region" id="T4" lex="transcriptional_enhancer">transcriptional enhancer</term> located in the first intron of the <term sem="DNA_domain_or_region" id="T5" lex="immunoglobulin_heavy_chain_constant_region">immunoglobulin heavy chain constant region</term></term> is a major determinant of <term sem="Other" id="T6" lex="B-cell-specific_expression">B-cell-specific <term sem="Other" id="T7" lex="expression">expression</term></term> of <term sem="DNA_family_or_group" id="T8" lex="immunoglobulin_gene">immunoglobulin genes</term>.</sentence>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="A109" />
+<clue>The transcriptional enhancer located in the first intron of the immunoglobulin heavy chain constant region is a major <clueType>determinant</clueType> <linkTheme>of</linkTheme> B-cell-specific expression of immunoglobulin genes.</clue>
+<comment>TPS A109</comment>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>The transcriptional enhancer located in the first intron of the immunoglobulin heavy chain constant region is a major determinant of <clueLoc>B-cell</clueLoc>-specific <clueType>expression</clueType> <linkTheme>of</linkTheme> immunoglobulin genes.</clue>
+</event>
+<sentence id="S3">Like other <term sem="DNA_domain_or_region" id="T9" lex="enhancer">enhancers</term>, the <term sem="DNA_domain_or_region" id="T10" lex="Ig_heavy_chain_enhancer">Ig heavy chain enhancer</term> contains several short <term sem="DNA_family_or_group" id="T11" lex="sequence_motif">sequence motifs</term> that bind <term sem="Protein_family_or_group" id="T12" lex="specific_transcription_factor">specific transcription factors</term>.</sentence>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T11" />
+<theme idref="T12" />
+<clue>Like other enhancers, the Ig heavy chain enhancer contains several short sequence motifs that <clueType>bind</clueType> specific transcription factors.</clue>
+</event>
+<sentence id="S4">Each <term sem="DNA_domain_or_region" id="T13" lex="binding_site">binding site</term> contributes to the overall activity of the <term sem="DNA_domain_or_region" id="T14" lex="enhancer">enhancer</term>, however no <term sem="DNA_domain_or_region" id="A2">single element</term> seems absolutely required for activity.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="T13" />
+<clue>Each binding site <clueType>contributes</clueType> <linkTheme>to</linkTheme> the overall activity of <corefTheme>the enhancer</corefTheme>, however no single element seems absolutely required for activity.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E8">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="A2" />
+<clue>Each binding site contributes to the overall activity of the enhancer, however no single element seems absolutely <clueType>required</clueType> <linkTheme>for</linkTheme> <corefTheme>activity</corefTheme>.</clue>
+</event>
+<sentence id="S5">For a better understanding of the <term sem="DNA_domain_or_region" id="T15" lex="Ig_heavy_chain_enhancer_components"><term sem="DNA_domain_or_region" id="T16" lex="Ig_heavy_chain_enhancer">Ig heavy chain enhancer</term> components</term>, we have cloned and analyzed individual <term sem="DNA_family_or_group" id="T17" lex="sequence_element">sequence elements</term>.</sentence>
+<sentence id="S6">We find that the factor that binds to the <term sem="DNA_domain_or_region" id="T18" lex="E3_enhancer_motif">E3 enhancer motif</term>, <term sem="Polynucleotide" id="T19" lex="CATGTGGC">CATGTGGC</term>, is a <term sem="Protein_family_or_group" id="T20" lex="ubiquitous_transcription_factor">ubiquitous transcription factor</term>.</sentence>
+<event id="E9">
+<type class="Binding" />
+<theme idref="T20" />
+<theme idref="T18" />
+<clue>We find that <corefTheme idref1="T20">the factor</corefTheme> that <clueType>binds</clueType> <linkTheme>to</linkTheme> the E3 enhancer motif, CATGTGGC, is a ubiquitous transcription factor.</clue>
+</event>
+<sentence id="S7">It is present in an active form in both <term sem="Cell_natural" id="T21" lex="B_cell">B cells</term> and <term sem="Cell_natural" id="T22" lex="non-B_cell">non-<term sem="Cell_natural" id="T23" lex="B_cell">B cells</term></term>, where it can mediate <term sem="Other" id="T24" lex="transcriptional_activation"><term sem="Other" id="A70" lex="transcriptional">transcriptional</term> activation</term> in vitro and in vivo.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<clue><corefTheme>It</corefTheme> is present in an <clueType>active</clueType> form <clueLoc>in</clueLoc> both <clueLoc>B cells</clueLoc> and non-B cells, where it can mediate transcriptional activation in vitro and in vivo.</clue>
+</event>
+<event id="E101">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<clue><corefTheme>It</corefTheme> is present in an <clueType>active</clueType> form <clueLoc>in</clueLoc> both B cells and <clueLoc>non-B cells</clueLoc>, where it can mediate transcriptional activation in vitro and in vivo.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E70" />
+<cause idref="T20" />
+<clue>It is present in an active form in both B cells and non-B cells, where <corefCause>it</corefCause> can <clueType>mediate</clueType> transcriptional activation in vitro and in vivo.</clue>
+</event>
+<event id="E70">
+<type class="Positive_regulation" />
+<theme idref="A70" />
+<clue>It is present in an active form in both B cells and non-B cells, where it can mediate transcriptional <clueType>activation</clueType> in vitro and in vivo.</clue>
+</event>
+<sentence id="S8">However, despite its ability to activate <term sem="Other" id="T25" lex="transcription">transcription</term> of a <term sem="DNA_family_or_group" id="T26" lex="transfected_reporter_gene">transfected reporter gene</term>, the factor is apparently unable to bind to the <term sem="DNA_domain_or_region" id="T27" lex="endogenous_Ig_heavy_chain_enhancer">endogenous <term sem="DNA_domain_or_region" id="T28" lex="Ig_heavy_chain_enhancer">Ig heavy chain enhancer</term></term> in <term sem="Cell_natural" id="T29" lex="non-lymphoid_cell">non-<term sem="Cell_natural" id="T30" lex="lymphoid_cell">lymphoid cells</term></term>: In previous experiments by others, the characteristic in vivo footprint of this factor, designated <term sem="Protein_molecule" id="T31" lex="NF-muE3">NF-muE3</term>, was detected in <term sem="Cell_natural" id="T32" lex="B_cell">B cells</term> but not in <term sem="Cell_natural" id="T33" lex="non-B_cell">non-B cells</term>.</sentence>
+<event id="E12">
+<type class="Transcription" />
+<theme idref="T26" />
+<clue>However, despite its ability to activate <clueType>transcription</clueType> <linkTheme>of</linkTheme> a transfected reporter gene, the factor is apparently unable to bind to the endogenous Ig heavy chain enhancer in non-lymphoid cells: In previous experiments by others, the characteristic in vivo footprint of this factor, designated NF-muE3, was detected in B cells but not in non-B cells.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T20" />
+<clue>However, despite <corefCause>its</corefCause> ability to <clueType>activate</clueType> transcription of a transfected reporter gene, the factor is apparently unable to bind to the endogenous Ig heavy chain enhancer in non-lymphoid cells: In previous experiments by others, the characteristic in vivo footprint of this factor, designated NF-muE3, was detected in B cells but not in non-B cells.</clue>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Binding" />
+<theme idref="T28" />
+<theme idref="T20" />
+<clue>However, despite its ability to activate transcription of a transfected reporter gene, <corefTheme idref1="T20">the factor</corefTheme> is apparently unable to <clueType>bind</clueType> <linkTheme>to</linkTheme> the endogenous Ig heavy chain enhancer <clueLoc>in non-lymphoid cells</clueLoc>: In previous experiments by others, the characteristic in vivo footprint of this factor, designated NF-muE3, was detected in B cells but not in non-B cells.</clue>
+</event>
+<sentence id="S9">From this and other findings the picture emerges that there are at least three categories of <term sem="Protein_family_or_group" id="A3">factors</term> which mediate <term sem="Other" id="T34" lex="cell-type-specific_transcription">cell-type-specific <term sem="Other" id="T35" lex="transcription">transcription</term></term> in <term sem="Cell_natural" id="T36" lex="B_lymphocyte">B <term sem="Cell_natural" id="T37" lex="lymphocyte">lymphocytes</term></term>: (a) <term sem="Protein_family_or_group" id="T38" lex="cell-specific_factor">cell-specific factors</term> such as <term sem="Protein_molecule" id="T39" lex="Oct-2A">Oct-2A</term> and <term sem="Protein_molecule" id="T40" lex="Oct-2B">Oct-2B</term> that are not expressed in most other cell types: (b) <term sem="Protein_family_or_group" id="T41" lex="ubiquitous_factor">ubiquitous factors</term> such as <term sem="Protein_molecule" id="T42" lex="NF-kappa_B">NF-kappa B</term> that are constitutively active in <term sem="Cell_natural" id="T43" lex="B_cell">B cells</term> but are sequestered in an inactive form in other cells; (c) <term sem="Protein_family_or_group" id="T44" lex="ubiquitously_active_factor">ubiquitously active factors</term>, exemplified by the one binding to the <term sem="DNA_domain_or_region" id="T45" lex="E3_sequence_motif">E3 sequence motif</term>.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T35" />
+<cause idref="A3" />
+<clue>From this and other findings the picture emerges that there are at least three categories of factors which <clueType>mediate</clueType> cell-type-specific transcription <clueLoc>in B lymphocytes</clueLoc>: (a) cell-specific factors such as Oct-2A and Oct-2B that are not expressed in most other cell types: (b) ubiquitous factors such as NF-kappa B that are constitutively active in B cells but are sequestered in an inactive form in other cells; (c) ubiquitously active factors, exemplified by the one binding to the E3 sequence motif.</clue>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Gene_expression" />
+<theme idref="T39" />
+<clue>From this and other findings the picture emerges that there are at least three categories of factors which mediate cell-type-specific transcription in B lymphocytes: (a) <corefTheme>cell-specific factors</corefTheme> such as Oct-2A and Oct-2B that are not <clueType>expressed</clueType> <clueLoc>in most other cell types</clueLoc>: (b) ubiquitous factors such as NF-kappa B that are constitutively active in B cells but are sequestered in an inactive form in other cells; (c) ubiquitously active factors, exemplified by the one binding to the E3 sequence motif.</clue>
+</event>
+<event assertion="non-exist" id="E17">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>From this and other findings the picture emerges that there are at least three categories of factors which mediate cell-type-specific transcription in B lymphocytes: (a) <corefTheme>cell-specific factors</corefTheme> such as Oct-2A and Oct-2B that are not <clueType>expressed</clueType> <clueLoc>in most other cell types</clueLoc>: (b) ubiquitous factors such as NF-kappa B that are constitutively active in B cells but are sequestered in an inactive form in other cells; (c) ubiquitously active factors, exemplified by the one binding to the E3 sequence motif.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<clue>From this and other findings the picture emerges that there are at least three categories of factors which mediate cell-type-specific transcription in B lymphocytes: (a) cell-specific factors such as Oct-2A and Oct-2B that are not expressed in most other cell types: (b) <corefTheme>ubiquitous factors</corefTheme> such as NF-kappa B that are constitutively <clueType>active</clueType> <clueLoc>in B cells</clueLoc> but are sequestered in an inactive form in other cells; (c) ubiquitously active factors, exemplified by the one binding to the E3 sequence motif.</clue>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<clue>From this and other findings the picture emerges that there are at least three categories of factors which mediate cell-type-specific transcription in B lymphocytes: (a) cell-specific factors such as Oct-2A and Oct-2B that are not expressed in most other cell types: (b) <corefTheme>ubiquitous factors</corefTheme> such as NF-kappa B that are constitutively active in B cells but are sequestered in an <clueType>inactive</clueType> form <clueLoc>in other cells</clueLoc>; (c) ubiquitously active factors, exemplified by the one binding to the E3 sequence motif.</clue>
+</event>
+<event id="E20">
+<type class="Binding" />
+<theme idref="T45" />
+<theme idref="T44" />
+<clue>From this and other findings the picture emerges that there are at least three categories of factors which mediate cell-type-specific transcription in B lymphocytes: (a) cell-specific factors such as Oct-2A and Oct-2B that are not expressed in most other cell types: (b) ubiquitous factors such as NF-kappa B that are constitutively active in B cells but are sequestered in an inactive form in other cells; (c) ubiquitously active factors, exemplified by <corefTheme idref1="T44">the one</corefTheme> <clueType>binding</clueType> <linkTheme>to</linkTheme> the E3 sequence motif.</clue>
+</event>
+<sentence id="S10">This factor is present in an active form in a variety of cell types but is apparently unable to bind to the <term sem="DNA_domain_or_region" id="T46" lex="endogenous_Ig_heavy_chain_enhancer">endogenous <term sem="DNA_domain_or_region" id="T47" lex="Ig_heavy_chain_enhancer">Ig heavy chain enhancer</term></term> in <term sem="Cell_natural" id="T48" lex="non-B_cell">non-B cells</term>, perhaps due to a <term sem="Other" id="T49" lex="non-permissive_chromatin_structure">non-permissive <term sem="DNA_family_or_group" id="T50" lex="chromatin">chromatin</term> structure</term> of the <term sem="DNA_domain_or_region" id="T51" lex="Ig_heavy_chain_locus">Ig heavy chain locus</term>.</sentence>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T31" />
+<clue><corefTheme>This factor</corefTheme> is present in an <clueType>active</clueType> form <clueLoc>in a variety of cell types</clueLoc> but is apparently unable to bind to the endogenous Ig heavy chain enhancer in non-B cells, perhaps due to a non-permissive chromatin structure of the Ig heavy chain locus.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Binding" />
+<theme idref="T47" />
+<theme idref="T31" />
+<clue><corefTheme idref1="T31">This factor</corefTheme> is present in an active form in a variety of cell types but is apparently unable to <clueType>bind</clueType> <linkTheme>to</linkTheme> the endogenous Ig heavy chain enhancer <clueLoc>in non-B cells</clueLoc>, perhaps due to a non-permissive chromatin structure of the Ig heavy chain locus.</clue>
+</event>
+<event uncertainty="probable" id="E23">
+<type class="Regulation" />
+<theme idref="T49" />
+<cause idref="E22" />
+<clue>This factor is present in an active form in a variety of cell types but is apparently unable to bind to the endogenous Ig heavy chain enhancer in non-B cells, perhaps <clueType>due</clueType> <linkTheme>to</linkTheme> a non-permissive chromatin structure of the Ig heavy chain locus.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

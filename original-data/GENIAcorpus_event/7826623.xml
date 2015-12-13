@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="08/12/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7826623" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7826623</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="DNA_domain_or_region" id="T1" lex="T-cell_functional_region">T-cell functional regions</term> of the <term sem="DNA_domain_or_region" id="T2" lex="human_IL-3_proximal_promoter">human IL-3 proximal promoter</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="DNA_domain_or_region" id="T3" lex="human_interleukin-3_(IL-3)_gene">human interleukin-3 (<term sem="DNA_domain_or_region" id="A1"><term sem="Protein_molecule" id="T4" lex="IL-3">IL-3</term>) gene</term></term> is expressed almost exclusively in activated <term sem="Cell_natural" id="T5" lex="T_cell">T cells</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>The human interleukin-3 (IL-3) gene is <clueType>expressed</clueType> almost exclusively <clueLoc>in activated T cells</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Physiological_process" />
+<theme idref="T5" />
+<clue>The human interleukin-3 (IL-3) gene is expressed almost exclusively in <clueType>activated</clueType> T cells.</clue>
+</event>
+<sentence id="S3">Its expression is regulated at both the transcriptional and post-transcriptional level.</sentence>
+<event id="E3">
+<type class="Transcription" />
+<theme idref="A1" />
+<clue><corefTheme>Its</corefTheme> <clueType>expression</clueType> is regulated at both the <clueType>transcriptional</clueType> and post-transcriptional level.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue><corefTheme>Its</corefTheme> <clueType>expression</clueType> is regulated at both the transcriptional and <clueType>post-transcriptional</clueType> level.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E3" />
+<clue>Its expression is <clueType>regulated</clueType> at both the transcriptional and post-transcriptional level.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E4" />
+<clue>Its expression is <clueType>regulated</clueType> at both the transcriptional and post-transcriptional level.</clue>
+</event>
+<sentence id="S4">We have previously shown that treatment of <term sem="Cell_cultured" id="T6" lex="Jurkat_T_cell">Jurkat <term sem="Cell_natural" id="T7" lex="T_cell">T cells</term></term> with <term sem="Protein_molecule" id="T8" lex="phytohemaglutinin">phytohemaglutinin</term> (<term sem="Protein_molecule" id="T9" lex="PHA">PHA</term>) and the <term sem="Organic_compound_other" id="T10" lex="phorbol_ester">phorbol ester</term>, <term sem="Organic_compound_other" id="T11" lex="PMA">PMA</term>, activated transcription initiation from the <term sem="DNA_domain_or_region" id="T12" lex="IL-3_gene">IL-3 gene</term>.</sentence>
+<event id="E7">
+<type class="Transcription" />
+<theme idref="T12" />
+<clue>We have previously shown that treatment of Jurkat T cells with phytohemaglutinin (PHA) and the phorbol ester, PMA, activated <clueType>transcription initiation</clueType> <linkTheme>from</linkTheme> the IL-3 gene.</clue>
+</event>
+<event id="E8">
+<type class="Artificial_process" />
+<theme idref="T6" />
+<theme idref="T9" />
+<clue>We have previously shown that <clueType>treatment</clueType> <linkTheme>of</linkTheme> Jurkat T cells <linkTheme>with</linkTheme> phytohemaglutinin (PHA) and the phorbol ester, PMA, activated transcription initiation from the IL-3 gene.</clue>
+</event>
+<event id="E11">
+<type class="Artificial_process" />
+<theme idref="T6" />
+<theme idref="T11" />
+<clue>We have previously shown that <clueType>treatment</clueType> <linkTheme>of</linkTheme> Jurkat T cells <linkTheme>with</linkTheme> phytohemaglutinin (PHA) and the phorbol ester, PMA, activated transcription initiation from the IL-3 gene.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E8" />
+<clue>We have previously shown that treatment of Jurkat T cells with phytohemaglutinin (PHA) and the phorbol ester, PMA, <clueType>activated</clueType> transcription initiation from the IL-3 gene.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E11" />
+<clue>We have previously shown that treatment of Jurkat T cells with phytohemaglutinin (PHA) and the phorbol ester, PMA, <clueType>activated</clueType> transcription initiation from the IL-3 gene.</clue>
+</event>
+<sentence id="S5">To define the <term sem="DNA_domain_or_region" id="A2">regions</term> of the gene required for transcription activation, we generated a series of reporter constructs containing different regions of the <term sem="DNA_domain_or_region" id="T13" lex="IL-3_gene_5&apos;_and_3&apos;_flanking_sequence"><term sem="DNA_domain_or_region" id="T14" lex="IL-3_gene">IL-3 gene</term> 5&apos; and 3&apos; flanking sequences</term>.</sentence>
+<event uncertainty="doubtful" id="E12">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref1="T14" idref="A2" />
+<clue>To define the regions of the gene <clueType>required</clueType> <linkTheme>for</linkTheme> <corefTheme>transcription activation</corefTheme>, we generated a series of reporter constructs containing different regions of the IL-3 gene 5&apos; and 3&apos; flanking sequences.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref1="T14" idref="A2" />
+<clue>To define the regions of the gene <clueType>required</clueType> <linkTheme>for</linkTheme> <corefTheme>transcription activation</corefTheme>, we generated a series of reporter constructs containing different regions of the IL-3 gene 5&apos; and 3&apos; flanking sequences.</clue>
+</event>
+<sentence id="S6">Both <cons sem="(AND DNA_family_or_group DNA_family_or_group)" id="T15" lex="(AND positive_regulatory_element negative_regulatory_element)"><frag id="F1">positive</frag> and <frag id="F2">negative</frag> <frag id="F3">regulatory elements</frag></cons> were identified in the <term sem="DNA_domain_or_region" id="T16" lex="proximal_5&apos;_flanking_region">proximal 5&apos; flanking region</term> of the <term sem="DNA_domain_or_region" id="T17" lex="IL-3_gene">IL-3 gene</term>.</sentence>
+<sentence id="S7">The <term sem="DNA_domain_or_region" id="T18" lex="promoter_region">promoter region</term> between <term sem="DNA_domain_or_region" id="T19" lex="-173_and_-60">-173 and -60</term> contained the strongest <term sem="DNA_domain_or_region" id="T20" lex="activating_element">activating elements</term>.</sentence>
+<sentence id="S8">The <term sem="Protein_family_or_group" id="T21" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T22" lex="AP-1">AP-1</term> could bind to this positive activator region of the promoter.</sentence>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T22" />
+<theme idref1="T19" idref="T18" />
+<clue>The transcription factor AP-1 could <clueType>bind</clueType> <linkTheme>to</linkTheme> <corefTheme>this positive activator region of the promoter</corefTheme>.</clue>
+</event>
+<sentence id="S9">We also examined the function of the <term sem="DNA_domain_or_region" id="T23" lex="IL-3_CK-1/CK-2_element">IL-3 CK-1/CK-2 elements</term> that are present in many <term sem="DNA_family_or_group" id="T24" lex="cytokine_gene">cytokine genes</term> and found that they acted as a repressor of <term sem="Other" id="T25" lex="basal_level_expression">basal level expression</term> when cloned upstream of a <term sem="DNA_domain_or_region" id="T26" lex="heterologous_promoter">heterologous promoter</term> but were also inducible by <term sem="Organic_compound_other" id="T27" lex="PMA">PMA</term><term sem="Protein_molecule" id="T28" lex="PHA">/PHA</term>.</sentence>
+<event uncertainty="doubtful" id="E14">
+<type class="Regulation" />
+<cause idref="T23" />
+<clue>We also examined the <clueType>function</clueType> <linkCause>of</linkCause> the IL-3 CK-1/CK-2 elements that are present in many cytokine genes and found that they acted as a repressor of basal level expression when cloned upstream of a heterologous promoter but were also inducible by PMA/PHA.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="T25" />
+<cause idref="T23" />
+<clue>We also examined the function of the IL-3 CK-1/CK-2 elements that are present in many cytokine genes and found that they <clueType>acted as a repressor</clueType> <linkTheme>of</linkTheme> basal level expression when cloned upstream of a heterologous promoter but were also inducible by PMA/PHA.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="T27" />
+<clue>We also examined the function of the IL-3 CK-1/CK-2 elements that are present in many cytokine genes and found that they acted as a repressor of basal level expression when cloned upstream of a heterologous promoter but were also <clueType>inducible</clueType> <linkCause>by</linkCause> PMA/PHA.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="T28" />
+<clue>We also examined the function of the IL-3 CK-1/CK-2 elements that are present in many cytokine genes and found that they acted as a repressor of basal level expression when cloned upstream of a heterologous promoter but were also <clueType>inducible</clueType> <linkCause>by</linkCause> PMA/PHA.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

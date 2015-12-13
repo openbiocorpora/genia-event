@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="18/03/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8098881">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8098881</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Synergism between the <cons sem="(AND Other Other)" id="T1" lex="(AND CD3_antigen-derived_signal CD2_antigen-derived_signal)"><frag id="F1">CD3 antigen-</frag> and <frag id="F2">CD2 antigen-</frag><frag id="F3">derived signals</frag></cons>.</sentence>
+<sentence id="S2">Exploration at the level of induction of <term sem="Protein_family_or_group" id="T2" lex="DNA-binding_protein">DNA-binding proteins</term> and characterization of the inhibitory activity of <term sem="Organic_compound_other" id="T3" lex="cyclosporine">cyclosporine</term>.</sentence>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>Exploration at the level of <clueType>induction</clueType> <linkTheme>of</linkTheme> DNA-binding proteins and characterization of the inhibitory activity of cyclosporine.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<cause idref="T3" />
+<clue>Exploration at the level of induction of DNA-binding proteins and characterization of the <clueType>inhibitory</clueType> activity <linkTheme>of</linkTheme> cyclosporine.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We have demonstrated earlier that the crosslinkage of the <term sem="Protein_complex" id="T4" lex="CD3/TCR_complex">CD3/TCR complex</term> with the <term sem="Protein_family_or_group" id="T5" lex="CD2_antigen">CD2 antigen</term> results in the proliferation of <term sem="Cell_natural" id="T6" lex="normal_human_T_cell">normal human T cells</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T4" />
+<theme idref="T5" />
+<clue>We have demonstrated earlier that the <clueType>crosslinkage</clueType> <linkTheme>of</linkTheme> the CD3/TCR complex <linkTheme>with</linkTheme> the CD2 antigen results in the proliferation of normal human T cells.</clue>
+</event>
+<event id="E2">
+<type class="Cellular_physiological_process" />
+<theme idref="T6" />
+<clue>We have demonstrated earlier that the crosslinkage of the CD3/TCR complex with the CD2 antigen results in the <clueType>proliferation</clueType> <linkTheme>of</linkTheme> normal human T cells.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue>We have demonstrated earlier that the crosslinkage of the CD3/TCR complex with the CD2 antigen <clueType>results</clueType> in the proliferation of normal human T cells.</clue>
+</event>
+<sentence id="S4">The effect of this synergism was perceptible at the level of induction of the <term sem="DNA_domain_or_region" id="T7" lex="IL-2_gene"><term sem="Protein_molecule" id="T8" lex="IL-2">IL-2</term> gene</term>, a process critical for <term sem="Other" id="T9" lex="T_cell_growth"><term sem="Cell_natural" id="A11">T cell</term> growth</term>.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>The effect of this synergism was perceptible at the level of <clueType>induction</clueType> <linkTheme>of</linkTheme> the IL-2 gene, a process critical for T cell growth.</clue>
+</event>
+<event id="E70">
+<type class="Cellular_physiological_process" />
+<theme idref="A11" />
+<clue>The effect of this synergism was perceptible at the level of induction of the IL-2 gene, a process critical for T cell <clueType>growth</clueType>.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E70" />
+<cause idref="E4" />
+<clue>The effect of this synergism was perceptible at the level of induction of the IL-2 gene, a process <clueType>critical</clueType> <linkTheme>for</linkTheme> T cell growth.</clue>
+</event>
+<sentence id="S5">To further understand the molecular and nuclear basis for this synergism, we have explored the induction of <term sem="Protein_family_or_group" id="T10" lex="DNA-binding_protein">DNA-binding proteins</term> in highly purified <term sem="Cell_natural" id="T11" lex="normal_human_T_cell">normal human T cells</term> signaled via the <term sem="Protein_molecule" id="T12" lex="CD3">CD3</term> and/or <term sem="Protein_molecule" id="T13" lex="CD2_protein">CD2 proteins</term>.</sentence>
+<event id="E33">
+<type class="Physiological_process" />
+<theme idref="T11" />
+<cause idref="T12" />
+<cause idref="T13" />
+<clue>To further understand the molecular and nuclear basis for this synergism, we have explored the induction of DNA-binding proteins in highly purified normal human T cells <clueType>signaled</clueType> <linkCause>via</linkCause> the CD3 and/or CD2 proteins.</clue>
+</event>
+<event id="E34">
+<type class="Physiological_process" />
+<theme idref="T11" />
+<cause idref="T13" />
+<clue>To further understand the molecular and nuclear basis for this synergism, we have explored the induction of DNA-binding proteins in highly purified normal human T cells <clueType>signaled</clueType> <linkCause>via</linkCause> the CD3 and/or CD2 proteins.</clue>
+</event>
+<event id="E35">
+<type class="Physiological_process" />
+<theme idref="T11" />
+<cause idref="T12" />
+<clue>To further understand the molecular and nuclear basis for this synergism, we have explored the induction of DNA-binding proteins in highly purified normal human T cells <clueType>signaled</clueType> <linkCause>via</linkCause> the CD3 and/or CD2 proteins.</clue>
+</event>
+<event uncertainty="doubtful" id="E36">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="E33" />
+<clue>To further understand the molecular and nuclear basis for this synergism, we have explored the <clueType>induction</clueType> <linkTheme>of</linkTheme> DNA-binding proteins in highly purified normal human T cells signaled via the CD3 and/or CD2 proteins.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="E34" />
+<clue>To further understand the molecular and nuclear basis for this synergism, we have explored the <clueType>induction</clueType> <linkTheme>of</linkTheme> DNA-binding proteins in highly purified normal human T cells signaled via the CD3 and/or CD2 proteins.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="E35" />
+<clue>To further understand the molecular and nuclear basis for this synergism, we have explored the <clueType>induction</clueType> <linkTheme>of</linkTheme> DNA-binding proteins in highly purified normal human T cells signaled via the CD3 and/or CD2 proteins.</clue>
+</event>
+<sentence id="S6">The effect of transmembrane signaling of <term sem="Cell_natural" id="T14" lex="T_cell">T cells</term> with <term sem="Organic_compound_other" id="T15" lex="ionomycin">ionomycin</term>, and/or <term sem="Organic_compound_other" id="T16" lex="sn-1,2_dioctanoyl_glycerol">sn-1,2 dioctanoyl glycerol</term>, was also determined.</sentence>
+<event uncertainty="doubtful" id="E12">
+<type class="Cell_communication" />
+<theme idref="T14" />
+<theme idref="T15" />
+<clue>The effect of <clueType>transmembrane signaling</clueType> <linkTheme>of</linkTheme> T cells <linkTheme>with</linkTheme> ionomycin, and/or sn-1,2 dioctanoyl glycerol, was also determined.</clue>
+</event>
+<event uncertainty="doubtful" id="E13">
+<type class="Cell_communication" />
+<theme idref="T14" />
+<theme idref="T16" />
+<clue>The effect of <clueType>transmembrane signaling</clueType> <linkTheme>of</linkTheme> T cells <linkTheme>with</linkTheme> ionomycin, and/or sn-1,2 dioctanoyl glycerol, was also determined.</clue>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Cell_communication" />
+<theme idref="T14" />
+<theme idref="T15" />
+<theme idref="T16" />
+<clue>The effect of <clueType>transmembrane signaling</clueType> <linkTheme>of</linkTheme> T cells <linkTheme>with</linkTheme> ionomycin, and/or sn-1,2 dioctanoyl glycerol, was also determined.</clue>
+</event>
+<sentence id="S7">The emergence of <term sem="Protein_family_or_group" id="T17" lex="nuclear_binding_protein">nuclear binding proteins</term> was investigated using <term sem="DNA_family_or_group" id="T18" lex="interleukin-2_sequence_specific_oligonucleotide_probe"><term sem="Protein_molecule" id="T19" lex="interleukin-2">interleukin-2</term> sequence specific oligonucleotide probes</term> in the <term sem="Other" id="T20" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assay</term>.</sentence>
+<event uncertainty="doubtful" id="E15">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>The <clueType>emergence</clueType> <linkTheme>of</linkTheme> nuclear binding proteins was investigated <clueExperiment>using interleukin-2 sequence specific oligonucleotide probes in the electrophoretic mobility shift assay.</clueExperiment></clue>
+</event>
+<sentence id="S8">Our studies demonstrate for the first time that <term sem="Other" id="T21" lex="CD3_antigen-derived_signal"><term sem="Protein_molecule" id="T22" lex="CD3">CD3</term> antigen-derived signals</term> and <term sem="Other" id="T23" lex="CD2_antigen-derived_signal"><term sem="Protein_family_or_group" id="T24" lex="CD2_antigen">CD2 antigen</term>-derived signals</term> are synergistic in inducing the emergence of <term sem="Protein_family_or_group" id="T25" lex="transcription_factor">transcription factors</term> that bind to the <term sem="DNA_domain_or_region" id="A4">NF-AT1</term>, <term sem="DNA_domain_or_region" id="A5">AP-1</term>, and <term sem="DNA_domain_or_region" id="A6">NF-kB</term> <term sem="DNA_domain_or_region" id="A7">sites</term> <term sem="DNA_domain_or_region" id="A8">located in the <term sem="DNA_domain_or_region" id="T27" lex="promoter/enhancer_region">promoter/enhancer region</term> of the <term sem="Protein_molecule" id="T28" lex="IL-2">IL-2</term> gene.</term></sentence>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue>Our studies demonstrate for the first time that CD3 antigen-derived signals and CD2 antigen-derived signals are synergistic in inducing the <clueType>emergence</clueType> <linkTheme>of</linkTheme> transcription factors that bind to the NF-AT1, AP-1, and NF-kB sites located in the promoter/enhancer region of the IL-2 gene.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T21" />
+<cause idref="T22" />
+<clue>Our studies demonstrate for the first time that CD3 antigen-derived signals and CD2 antigen-derived signals are <clueType>synergistic</clueType> in <clueType>inducing</clueType> the emergence of transcription factors that bind to the NF-AT1, AP-1, and NF-kB sites located in the promoter/enhancer region of the IL-2 gene.</clue>
+</event>
+<event id="E21">
+<type class="Binding" />
+<theme idref="T25" />
+<theme idref1="A7" idref2="A8" idref="A4" />
+<clue>Our studies demonstrate for the first time that CD3 antigen-derived signals and CD2 antigen-derived signals are synergistic in inducing the emergence of transcription factors that <clueType>bind</clueType> <linkTheme>to</linkTheme> the NF-AT1, AP-1, and NF-kB sites located in the promoter/enhancer region of the IL-2 gene.</clue>
+<comment>NER: T26 DEL, TPS: A8</comment>
+</event>
+<event id="E39">
+<type class="Binding" />
+<theme idref="T25" />
+<theme idref1="A7" idref2="A8" idref="A5" />
+<clue>Our studies demonstrate for the first time that CD3 antigen-derived signals and CD2 antigen-derived signals are synergistic in inducing the emergence of transcription factors that <clueType>bind</clueType> <linkTheme>to</linkTheme> the NF-AT1, AP-1, and NF-kB sites located in the promoter/enhancer region of the IL-2 gene.</clue>
+</event>
+<event id="E40">
+<type class="Binding" />
+<theme idref="T25" />
+<theme idref1="A7" idref2="A8" idref="A6" />
+<clue>Our studies demonstrate for the first time that CD3 antigen-derived signals and CD2 antigen-derived signals are synergistic in inducing the emergence of transcription factors that <clueType>bind</clueType> <linkTheme>to</linkTheme> the NF-AT1, AP-1, and NF-kB sites located in the promoter/enhancer region of the IL-2 gene.</clue>
+</event>
+<sentence id="S9">Moreover, <term sem="Organic_compound_other" id="T29" lex="cyclosporine">cyclosporine</term>, at concentrations readily accomplished in clinical practice, was found to inhibit the emergence of these <term sem="Protein_family_or_group" id="T30" lex="DNA-binding_protein">DNA-binding proteins</term> in <term sem="Cell_natural" id="T31" lex="normal_human_T_cell">normal human <term sem="Cell_natural" id="T32" lex="T_cell">T cells</term></term> signaled via <term sem="Protein_family_or_group" id="A1">cell surface proteins</term> implicated in <term sem="Other" id="T33" lex="antigen-dependent_T_cell_activation"><term sem="Protein_molecule" id="A2">antigen</term>-dependent <term sem="Cell_natural" id="A3">T cell</term> activation</term> and in <term sem="Cell_natural" id="T34" lex="T_cell">T cells</term> stimulated by mobilization of <term sem="Element" id="T35" lex="cellular_calcium">cellular calcium</term> and activation of <term sem="Protein_molecule" id="T36" lex="protein_kinase_C">protein kinase C</term>.</sentence>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T30" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to inhibit the <clueType>emergence</clueType> <linkTheme>of</linkTheme> these DNA-binding proteins in normal human T cells signaled via cell surface proteins implicated in antigen-dependent T cell activation and in T cells stimulated by mobilization of cellular calcium and activation of protein kinase C.</clue>
+</event>
+<event id="E41">
+<type class="Cell_communication" />
+<theme idref="T31" />
+<theme idref="A1" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to inhibit the emergence of these DNA-binding proteins in normal human T cells <clueType>signaled</clueType> <linkTheme>via</linkTheme> cell surface proteins implicated in antigen-dependent T cell activation and in T cells stimulated by mobilization of cellular calcium and activation of protein kinase C.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="E41" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to inhibit the emergence of these DNA-binding proteins <linkCause>in</linkCause> normal human T cells signaled via cell surface proteins implicated in antigen-dependent T cell activation and in T cells stimulated by mobilization of cellular calcium and activation of protein kinase C.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E60">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="T29" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to <clueType>inhibit</clueType> the emergence of these DNA-binding proteins in normal human T cells signaled via cell surface proteins implicated in antigen-dependent T cell activation and in T cells stimulated by mobilization of cellular calcium and activation of protein kinase C.</clue>
+</event>
+<event id="E22">
+<type class="Physiological_process" />
+<theme idref="A3" />
+<cause idref="A2" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to inhibit the emergence of these DNA-binding proteins in normal human T cells signaled via cell surface proteins implicated in antigen-<linkCause>dependent</linkCause> T cell <clueType>activation</clueType> and in T cells stimulated by mobilization of cellular calcium and activation of protein kinase C.</clue>
+</event>
+<event id="E23">
+<type class="Correlation" />
+<theme idref="A1" />
+<theme idref="E22" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to inhibit the emergence of these DNA-binding proteins in normal human T cells signaled via cell surface proteins <clueType>implicated</clueType> <linkTheme>in</linkTheme> antigen-dependent T cell activation and in T cells stimulated by mobilization of cellular calcium and activation of protein kinase C.</clue>
+</event>
+<event id="E43">
+<type class="Localization" />
+<theme idref="T35" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to inhibit the emergence of these DNA-binding proteins in normal human T cells signaled via cell surface proteins implicated in antigen-dependent T cell activation and in T cells stimulated by <clueType>mobilization</clueType> <linkTheme>of</linkTheme> cellular calcium and activation of protein kinase C.</clue>
+</event>
+<event id="E24">
+<type class="Physiological_process" />
+<theme idref="T34" />
+<cause idref="E43" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to inhibit the emergence of these DNA-binding proteins in normal human T cells signaled via cell surface proteins implicated in antigen-dependent T cell activation and in T cells <clueType>stimulated</clueType> <linkCause>by</linkCause> mobilization of cellular calcium and activation of protein kinase C.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to inhibit the emergence of these DNA-binding proteins in normal human T cells signaled via cell surface proteins implicated in antigen-dependent T cell activation and in T cells stimulated by mobilization of cellular calcium and <clueType>activation</clueType> <linkTheme>of</linkTheme> protein kinase C.</clue>
+</event>
+<event id="E26">
+<type class="Physiological_process" />
+<theme idref="T34" />
+<cause idref="E25" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to inhibit the emergence of these DNA-binding proteins in normal human T cells signaled via cell surface proteins implicated in antigen-dependent T cell activation and in T cells <clueType>stimulated</clueType> <linkCause>by</linkCause> mobilization of cellular calcium and activation of protein kinase C.</clue>
+</event>
+<event id="E62">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="E24" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to inhibit the emergence of these DNA-binding proteins <linkCause>in</linkCause> normal human T cells signaled via cell surface proteins implicated in antigen-dependent T cell activation and in T cells stimulated by mobilization of cellular calcium and activation of protein kinase C.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E63">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="E26" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to inhibit the emergence of these DNA-binding proteins <linkCause>in</linkCause> normal human T cells signaled via cell surface proteins implicated in antigen-dependent T cell activation and in T cells stimulated by mobilization of cellular calcium and activation of protein kinase C.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E64">
+<type class="Negative_regulation" />
+<theme idref="E62" />
+<cause idref="T29" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to <clueType>inhibit</clueType> the emergence of these DNA-binding proteins in normal human T cells signaled via cell surface proteins implicated in antigen-dependent T cell activation and in T cells stimulated by mobilization of cellular calcium and activation of protein kinase C.</clue>
+</event>
+<event id="E65">
+<type class="Negative_regulation" />
+<theme idref="E63" />
+<cause idref="T29" />
+<clue>Moreover, cyclosporine, at concentrations readily accomplished in clinical practice, was found to <clueType>inhibit</clueType> the emergence of these DNA-binding proteins in normal human T cells signaled via cell surface proteins implicated in antigen-dependent T cell activation and in T cells stimulated by mobilization of cellular calcium and activation of protein kinase C.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

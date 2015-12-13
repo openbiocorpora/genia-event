@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8634413" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8634413</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="A1">STAT-related <term sem="Protein_family_or_group" id="T1" lex="transcription_factor">transcription factors</term></term> are constitutively activated in <term sem="Cell_natural" id="T2" lex="peripheral_blood_cell">peripheral blood cells</term> from <term sem="Multicellular_organism_natural" id="T3" lex="acute_leukemia_patient">acute leukemia patients</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<clue>STAT-related transcription factors are constitutively <clueType>activated</clueType> <clueLoc>in peripheral blood cells from acute leukemia patients.</clueLoc></clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A <term sem="Other" id="T4" lex="signal_transduction_pathway">signal transduction pathway</term> activated by many <term sem="Protein_family_or_group" id="T5" lex="cytokine">cytokines</term> has recently been elaborated.</sentence>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<cause idref="T5" />
+<clue>A signal transduction pathway <clueType>activated</clueType> <linkCause>by</linkCause> many cytokines has recently been elaborated.</clue>
+</event>
+<sentence id="S3">The <term sem="Protein_family_or_group" id="T6" lex="JAK_kinase">JAK kinases</term> and the <term sem="Protein_family_or_group" id="T7" lex="signal_transducers_and_activators_of_transcription_(STAT)_factor">signal transducers and activators of transcription (STAT) factors</term> have been found to be essential components.</sentence>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T6" />
+<clue>The JAK kinases and the signal transducers and activators of transcription (STAT) factors have been found to be <clueType>essential</clueType> components.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T7" />
+<clue>The JAK kinases and the signal transducers and activators of transcription (STAT) factors have been found to be <clueType>essential</clueType> components.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<sentence id="S4">In this report, we describe the presence of constitutively activated <term sem="Protein_family_or_group" id="T8" lex="STAT_factor">STAT factors</term> in <term sem="Cell_natural" id="T9" lex="peripheral_blood_cell">peripheral blood cells</term> from <term sem="Multicellular_organism_natural" id="T10" lex="patient">patients</term> with <term sem="Other" id="T11" lex="acute_leukemia">acute leukemia</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<clue>In this report, we describe the presence of constitutively <clueType>activated</clueType> STAT factors <clueLoc>in peripheral blood cells from patients with acute leukemia.</clueLoc></clue>
+</event>
+<sentence id="S5">We used <term sem="Polynucleotide" id="T12" lex="oligonucleotide_probe">oligonucleotide probes</term> from the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T13" lex="(AND beta-casein_gene_promoter IRF-1_gene_promoter)"><frag id="F1">beta-casein</frag> and <frag id="F2">IRF-1</frag> <frag id="F3">gene promoters</frag></cons> and the <term sem="Polynucleotide" id="T14" lex="ISRE_probe">ISRE probe</term> to detect <term sem="Protein_family_or_group" id="T15" lex="STAT_protein">STAT proteins</term> in <term sem="Cell_component" id="T16" lex="nuclear_extract">nuclear extracts</term> from <term sem="Cell_natural" id="T17" lex="acute_leukemia_cell"><term sem="Other" id="T18" lex="acute_leukemia">acute leukemia</term> cells</term> in <term sem="Other" id="T19" lex="bandshift_assay">bandshift assays</term>.</sentence>
+<sentence id="S6">Specific <term sem="Other" id="T20" lex="DNA_protein_complex_formation"><term sem="DNA_molecule" id="A3">DNA</term> <term sem="Protein_complex" id="T21" lex="protein_complex">protein complex</term> formation</term> was observed with the probes from the <term sem="DNA_domain_or_region" id="A30">beta-casein</term> and <term sem="DNA_domain_or_region" id="T22" lex="IRF-1_gene_promoter">IRF-1 <term sem="DNA_domain_or_region" id="A31">gene promoters</term></term>, but not with the <term sem="Polynucleotide" id="T23" lex="ISRE_oligonucleotide_probe"><term sem="Polynucleotide" id="A32">ISRE oligonucleotide</term> probe</term>, when <term sem="Cell_component" id="T24" lex="cell_extract">cell extracts</term> from <term sem="Other" id="T25" lex="acute_lymphoblastic_leukemia">acute lymphoblastic leukemia</term> (<term sem="Other" id="T26" lex="ALL">ALL</term>) and <term sem="Other" id="T27" lex="acute_myeloid_leukemia">acute myeloid leukemia</term> (<term sem="Other" id="T28" lex="AML">AML</term>) were investigated.</sentence>
+<event id="E300">
+<type class="Binding" />
+<theme idref1="A31" idref="A30" />
+<theme idref="T15" />
+<clue>Specific <corefTheme idref1="A30">DNA</corefTheme> <corefTheme idref1="T15">protein</corefTheme> <clueType>complex formation</clueType> was observed <linkTheme>with</linkTheme> the probes from the beta-casein and IRF-1 gene promoters, but not with the ISRE oligonucleotide probe, when <clueLoc>cell extracts from acute lymphoblastic leukemia (ALL)</clueLoc> and acute myeloid leukemia (AML) were investigated.</clue>
+</event>
+<event id="E301">
+<type class="Binding" />
+<theme idref1="A31" idref="A30" />
+<theme idref="T15" />
+<clue>Specific <corefTheme idref1="A30">DNA</corefTheme> <corefTheme idref1="T15">protein</corefTheme> <clueType>complex formation</clueType> was observed <linkTheme>with</linkTheme> the probes from the beta-casein and IRF-1 gene promoters, but not with the ISRE oligonucleotide probe, when <clueLoc>cell extracts from</clueLoc> acute lymphoblastic leukemia (ALL) and <clueLoc>acute myeloid leukemia (AML)</clueLoc> were investigated.</clue>
+</event>
+<event id="E302">
+<type class="Binding" />
+<theme idref="T22" />
+<theme idref="T15" />
+<clue>Specific <corefTheme idref1="T22">DNA</corefTheme> <corefTheme idref1="T15">protein</corefTheme> <clueType>complex formation</clueType> was observed <linkTheme>with</linkTheme> the probes from the beta-casein and IRF-1 gene promoters, but not with the ISRE oligonucleotide probe, when <clueLoc>cell extracts from acute lymphoblastic leukemia (ALL)</clueLoc> and acute myeloid leukemia (AML) were investigated.</clue>
+</event>
+<event id="E303">
+<type class="Binding" />
+<theme idref="T22" />
+<theme idref="T15" />
+<clue>Specific <corefTheme idref1="T22">DNA</corefTheme> <corefTheme idref1="T15">protein</corefTheme> <clueType>complex formation</clueType> was observed <linkTheme>with</linkTheme> the probes from the beta-casein and IRF-1 gene promoters, but not with the ISRE oligonucleotide probe, when <clueLoc>cell extracts from</clueLoc> acute lymphoblastic leukemia (ALL) and <clueLoc>acute myeloid leukemia (AML)</clueLoc> were investigated.</clue>
+</event>
+<event assertion="non-exist" id="E304">
+<type class="Binding" />
+<theme idref="A32" />
+<theme idref="T15" />
+<clue>Specific <corefTheme idref1="A32">DNA</corefTheme> <corefTheme idref1="T15">protein</corefTheme> <clueType>complex formation</clueType> was observed <linkTheme>with</linkTheme> the probes from the beta-casein and IRF-1 gene promoters, but not with the ISRE oligonucleotide probe, when <clueLoc>cell extracts from acute lymphoblastic leukemia (ALL)</clueLoc> and acute myeloid leukemia (AML) were investigated.</clue>
+</event>
+<event assertion="non-exist" id="E305">
+<type class="Binding" />
+<theme idref="A32" />
+<theme idref="T15" />
+<clue>Specific <corefTheme idref1="A32">DNA</corefTheme> <corefTheme idref1="T15">protein</corefTheme> <clueType>complex formation</clueType> was observed <linkTheme>with</linkTheme> the probes from the beta-casein and IRF-1 gene promoters, but not with the ISRE oligonucleotide probe, when <clueLoc>cell extracts from</clueLoc> acute lymphoblastic leukemia (ALL) and <clueLoc>acute myeloid leukemia (AML)</clueLoc> were investigated.</clue>
+</event>
+<sentence id="S7">We used <term sem="Polynucleotide" id="T29" lex="nonradioactive_oligonucleotide">nonradioactive oligonucleotides</term> as competitors to show the specificity of the <term sem="Other" id="T30" lex="complex_formation">complex formation</term>.</sentence>
+<sentence id="S8">Specific <term sem="Protein_family_or_group" id="T31" lex="antibody">antibodies</term> directed against the individual <term sem="Protein_family_or_group" id="T32" lex="STAT_protein">STAT proteins</term> were used in <term sem="Other" id="T33" lex="supershift_experiment">supershift experiments</term>.</sentence>
+<sentence id="S9"><cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T34" lex="(AND STAT5-related_factor STAT1-related_factor)"><frag id="F4"><term sem="Protein_molecule" id="A4">STAT5-</term></frag> and <frag id="F5"><term sem="Protein_molecule" id="A5">STAT1-</term></frag><frag id="F6"><term sem="Protein_molecule" id="A6">related factors</term></frag></cons> were detected in <term sem="Other" id="T35" lex="ALL">ALL</term> and <cons sem="(AND Protein_family_or_group Protein_family_or_group Protein_family_or_group)" id="T36" lex="(AND STAT1-related_factor STAT3-related_factor STAT5-related_protein)"><frag id="F7"><term sem="Protein_molecule" id="A7">STAT1-</term></frag>, <frag id="F8"><term sem="Protein_molecule" id="A8">STAT3-</term></frag>, and <frag id="F9"><term sem="Protein_molecule" id="A9">STAT5-</term></frag><frag id="F10"><term sem="Protein_molecule" id="A10">related proteins</term></frag></cons> were present in <term sem="Cell_component" id="T37" lex="nuclear_cell_extract">nuclear cell extracts</term> from <term sem="Other" id="T38" lex="AML">AML</term>.</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref1="A6" idref="A4" />
+<clue>STAT5- and STAT1-related factors were <clueType>detected</clueType> <clueLoc>in ALL</clueLoc> and STAT1-, STAT3-, and STAT5-related proteins were present in <clueLoc>nuclear cell extracts</clueLoc> from AML.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref1="A6" idref="A5" />
+<clue>STAT5- and STAT1-related factors were <clueType>detected</clueType> <clueLoc>in ALL</clueLoc> and STAT1-, STAT3-, and STAT5-related proteins were present in <clueLoc>nuclear cell extracts</clueLoc> from AML.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref1="A10" idref="A7" />
+<clue>STAT5- and STAT1-related factors were detected in ALL and STAT1-, STAT3-, and STAT5-related proteins were <clueType>present</clueType> <clueLoc>in nuclear cell extracts from AML</clueLoc>.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref1="A10" idref="A8" />
+<clue>STAT5- and STAT1-related factors were detected in ALL and STAT1-, STAT3-, and STAT5-related proteins were <clueType>present</clueType> <clueLoc>in nuclear cell extracts from AML</clueLoc>.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref1="A10" idref="A9" />
+<clue>STAT5- and STAT1-related factors were detected in ALL and STAT1-, STAT3-, and STAT5-related proteins were <clueType>present</clueType> <clueLoc>in nuclear cell extracts from AML</clueLoc>.</clue>
+</event>
+<sentence id="S10">Since the cells were not treated with <term sem="Protein_family_or_group" id="T39" lex="cytokine">cytokines</term> before the <term sem="Protein_family_or_group" id="T40" lex="nuclear_protein">nuclear proteins</term> were extracted, we conclude that these factors are constitutively activated <term sem="Other" id="T41" lex="in_vivo">in vivo</term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref1="A6" idref="A4" />
+<clue>Since the cells were not treated with cytokines before the nuclear proteins were extracted, we conclude that <corefTheme>these factors</corefTheme> are constitutively <clueType>activated</clueType> in vivo.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref1="A6" idref="A5" />
+<clue>Since the cells were not treated with cytokines before the nuclear proteins were extracted, we conclude that <corefTheme>these factors</corefTheme> are constitutively <clueType>activated</clueType> in vivo.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref1="A10" idref="A7" />
+<clue>Since the cells were not treated with cytokines before the nuclear proteins were extracted, we conclude that <corefTheme>these factors</corefTheme> are constitutively <clueType>activated</clueType> in vivo.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref1="A10" idref="A8" />
+<clue>Since the cells were not treated with cytokines before the nuclear proteins were extracted, we conclude that <corefTheme>these factors</corefTheme> are constitutively <clueType>activated</clueType> in vivo.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref1="A10" idref="A9" />
+<clue>Since the cells were not treated with cytokines before the nuclear proteins were extracted, we conclude that <corefTheme>these factors</corefTheme> are constitutively <clueType>activated</clueType> in vivo.</clue>
+</event>
+<sentence id="S11">It is likely that the constitutive activation of <term sem="Protein_family_or_group" id="T42" lex="STAT_protein">STAT proteins</term> is a part of the events of <term sem="Other" id="T43" lex="leukemogenesis">leukemogenesis</term>.</sentence>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<clue>It is likely that the constitutive <clueType>activation</clueType> <linkTheme>of</linkTheme> STAT proteins is a part of the events of leukemogenesis.</clue>
+</event>
+<event id="E18">
+<type class="Correlation" />
+<theme idref="E17" />
+<theme idref="T43" />
+<clue>It is likely that the constitutive activation of STAT proteins is a <clueType>part of the events</clueType> <linkTheme>of</linkTheme> leukemogenesis.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

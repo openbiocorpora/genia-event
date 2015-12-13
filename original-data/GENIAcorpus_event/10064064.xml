@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="13/01/2007" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10064064"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10064064</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T1" lex="(AND AML_protein Ets_protein)"><frag id="F1"><term sem="Protein_molecule" id="A1">AML</term></frag> and <frag id="F2"><term sem="Protein_molecule" id="A2">Ets</term></frag> <frag id="F3">proteins</frag></cons> regulate the <term sem="DNA_domain_or_region" id="T2" lex="I_alpha1_germ-line_promoter">I alpha1 germ-line promoter</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T2" />
+<cause idref="A1" />
+<clue>AML and Ets proteins <clueType>regulate</clueType> the I alpha1 germ-line promoter.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="T2" />
+<cause idref="A2" />
+<clue>AML and Ets proteins <clueType>regulate</clueType> the I alpha1 germ-line promoter.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Other" id="T3" lex="_switch_recombination"><term sem="Protein_family_or_group" id="T4" lex="immunoglobulin_heavy_chain">immunoglobulin heavy chain</term> (<term sem="Protein_family_or_group" id="T5" lex="IgH">IgH</term>) class switch recombination</term> of <term sem="Cell_natural" id="T6" lex="B_lymphocyte">B lymphocytes</term> preferentially targets <term sem="DNA_domain_or_region" id="A3">unrearranged <term sem="DNA_family_or_group" id="T7" lex="IgH_gene">IgH genes</term></term> that have already been rendered transcriptionally active.</sentence>
+<event id="E3">
+<type class="DNA_recombination" />
+<theme idref="T5" />
+<clue>The immunoglobulin heavy chain (IgH) <clueType>class switch recombination</clueType> <clueLoc>of B lymphocytes</clueLoc> preferentially targets unrearranged IgH genes that have already been rendered transcriptionally active.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<clue>The immunoglobulin heavy chain (IgH) class switch recombination of B lymphocytes preferentially targets unrearranged IgH genes that have already been <clueType>rendered transcriptionally active</clueType>.</clue>
+</event>
+<event id="E105">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E3" />
+<clue>The immunoglobulin heavy chain (IgH) class switch recombination of B lymphocytes preferentially <clueType>targets</clueType> unrearranged IgH genes that have already been rendered transcriptionally active.</clue>
+</event>
+<sentence id="S3">Transcription of the <term sem="DNA_family_or_group" id="T9" lex="germ-line_IgH_gene">germ-line <term sem="DNA_family_or_group" id="T10" lex="IgH_gene">IgH genes</term></term> is controlled by <term sem="DNA_domain_or_region" id="T11" lex="intervening_(I)_region">intervening (I) regions</term> upstream of their switch regions.</sentence>
+<event id="E5">
+<type class="Transcription" />
+<theme idref="T9" />
+<clue><clueType>Transcription</clueType> <linkTheme>of</linkTheme> the germ-line IgH genes is controlled by intervening (I) regions upstream of their switch regions.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T11" />
+<clue>Transcription of the germ-line IgH genes is <clueType>controlled</clueType> <linkCause>by</linkCause> intervening (I) regions upstream of their switch regions.</clue>
+</event>
+<sentence id="S4">The <term sem="DNA_domain_or_region" id="A4">I alpha1 promoter</term> activates transcription of the <term sem="DNA_domain_or_region" id="T12" lex="human_germ-line_C_alpha1_gene">human germ-line C alpha1 gene</term> for <term sem="Protein_molecule" id="T13" lex="IgA1">IgA1</term> and mediates the <term sem="Other" id="T14" lex="transforming_growth_factor_(TGF)-beta1_responsiveness"><term sem="Protein_molecule" id="T15" lex="transforming_growth_factor_(TGF)-beta1">transforming growth factor (TGF)-beta1</term> responsiveness</term> of this locus.</sentence>
+<event id="E7">
+<type class="Transcription" />
+<theme idref="T12" />
+<clue>The I alpha1 promoter activates <clueType>transcription</clueType> <linkTheme>of</linkTheme> the human germ-line C alpha1 gene for IgA1 and mediates the transforming growth factor (TGF)-beta1 responsiveness of this locus.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="A4" />
+<clue>The I alpha1 promoter <clueType>activates</clueType> transcription of the human germ-line C alpha1 gene for IgA1 and mediates the transforming growth factor (TGF)-beta1 responsiveness of this locus.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="T11" />
+<cause idref="T15" />
+<clue>The I alpha1 promoter activates transcription of the human germ-line C alpha1 gene for IgA1 and mediates the transforming growth factor (TGF)-beta1 <clueType>responsiveness</clueType> <linkTheme>of</linkTheme> <corefTheme>this locus.</corefTheme></clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="A4" />
+<clue>The I alpha1 promoter activates transcription of the human germ-line C alpha1 gene for IgA1 and <clueType>mediates</clueType> the transforming growth factor (TGF)-beta1 responsiveness of this locus.</clue>
+</event>
+<sentence id="S5">Here we show that the <term sem="DNA_domain_or_region" id="A7">I alpha1 promoter</term> contains several binding sites for the <term sem="Protein_family_or_group" id="T16" lex="AML/PEBP2/CBF_family_of_transcription_factor"><term sem="Protein_family_or_group" id="T17" lex="AML">AML</term>/PEBP2/CBF family of <term sem="Protein_family_or_group" id="T18" lex="transcription_factor">transcription factors</term></term> and that <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T19" lex="(AND AML_protein Ets_protein)"><frag id="F4"><term sem="Protein_molecule" id="A5">AML</term></frag> and <frag id="F5"><term sem="Protein_molecule" id="A6">Ets</term></frag> <frag id="F6">proteins</frag></cons> are major regulators of the <cons sem="(AND Other Other)" id="T20" lex="(AND basal_promoter_activity TGF-beta-inducible_promoter_activity)"><frag id="F7">basal</frag> and <frag id="F8"><term sem="Protein_molecule" id="A9">TGF-beta</term>-inducible</frag> <frag id="F9">promoter activity</frag></cons>.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="A9" />
+<clue>Here we show that the I alpha1 promoter contains several binding sites for the AML/PEBP2/CBF family of transcription factors and that AML and Ets proteins are major regulators of the basal and TGF-beta-<clueType>inducible</clueType> <corefTheme>promoter</corefTheme> activity.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="A7" />
+<cause idref="A5" />
+<clue>Here we show that the I alpha1 promoter contains several binding sites for the AML/PEBP2/CBF family of transcription factors and that AML and Ets proteins are major <clueType>regulators</clueType> <linkTheme>of</linkTheme> the basal and TGF-beta-inducible promoter activity.</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="A5" />
+<clue>Here we show that the I alpha1 promoter contains several binding sites for the AML/PEBP2/CBF family of transcription factors and that AML and Ets proteins are major <clueType>regulators</clueType> <linkTheme>of</linkTheme> the basal and TGF-beta-inducible promoter activity.</clue>
+</event>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="A7" />
+<cause idref="A6" />
+<clue>Here we show that the I alpha1 promoter contains several binding sites for the AML/PEBP2/CBF family of transcription factors and that AML and Ets proteins are major <clueType>regulators</clueType> <linkTheme>of</linkTheme> the basal and TGF-beta-inducible promoter activity.</clue>
+</event>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="A6" />
+<clue>Here we show that the I alpha1 promoter contains several binding sites for the AML/PEBP2/CBF family of transcription factors and that AML and Ets proteins are major <clueType>regulators</clueType> <linkTheme>of</linkTheme> the basal and TGF-beta-inducible promoter activity.</clue>
+</event>
+<sentence id="S6">Our data constitute a starting point for studies to elucidate the molecular mechanism by which <term sem="Protein_molecule" id="T21" lex="TGF-beta">TGF-beta</term> regulates <term sem="Other" id="T22" lex="IgA_production"><term sem="Protein_family_or_group" id="T23" lex="IgA">IgA</term> production</term>.</sentence>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue>Our data constitute a starting point for studies to elucidate the molecular mechanism by which TGF-beta regulates IgA <clueType>production</clueType>.</clue>
+</event>
+<event id="E17">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="T21" />
+<clue>Our data constitute a starting point for studies to elucidate the molecular mechanism by which TGF-beta <clueType>regulates</clueType> IgA production.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

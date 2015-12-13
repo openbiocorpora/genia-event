@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="26/04/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8163658">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8163658</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="A1">Hypoxic</term> induction of <term sem="Other" id="T1" lex="interleukin-8_gene_expression"><term sem="DNA_domain_or_region" id="T2" lex="interleukin-8_gene"><term sem="Protein_molecule" id="T3" lex="interleukin-8">interleukin-8</term> gene</term> expression</term> in <term sem="Cell_natural" id="T4" lex="human_endothelial_cell">human endothelial cells</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Hypoxic induction of interleukin-8 gene <clueType>expression</clueType> in human endothelial cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="A1" />
+<clue>Hypoxic <clueType>induction</clueType> <linkTheme>of</linkTheme> interleukin-8 gene expression <clueLoc>in human endothelial cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Because <term sem="Other" id="T5" lex="leukocyte-mediated_tissue_damage">leukocyte-mediated tissue damage</term> is an important component of the pathologic picture in <term sem="Other" id="T6" lex="ischemia/reperfusion">ischemia/reperfusion</term>, we have sought mechanisms by which <term sem="Cell_natural" id="T7" lex="PMN">PMNs</term> are directed into <term sem="Tissue_natural" id="T8" lex="hypoxic_tissue">hypoxic tissue</term>.</sentence>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="T5" />
+<theme idref="T6" />
+<clue>Because leukocyte-mediated tissue damage is an <clueType>important component</clueType> <linkTheme>of</linkTheme> the pathologic picture in ischemia/reperfusion, we have sought mechanisms by which PMNs are directed into hypoxic tissue.</clue>
+</event>
+<event id="E4">
+<type class="Correlation" />
+<theme idref="T7" />
+<theme idref="T8" />
+<clue>Because leukocyte-mediated tissue damage is an important component of the pathologic picture in ischemia/reperfusion, we have sought mechanisms by which PMNs are <clueType>directed</clueType> <linkTheme>into</linkTheme> hypoxic tissue.</clue>
+</event>
+<sentence id="S3">Incubation of <term sem="Cell_natural" id="T9" lex="human_endothelial_cell">human endothelial cells</term> (<term sem="Cell_natural" id="T10" lex="EC">ECs</term>) in <term sem="Other" id="T11" lex="hypoxia">hypoxia</term>, PO2 approximately 14-18 Torr, led to <term sem="Other" id="T12" lex="time-dependent_release">time-dependent release</term> of <term sem="Protein_molecule" id="T13" lex="IL-8">IL-8</term> antigen into the conditioned medium; this was accompanied by increased <term sem="Other" id="A2">chemotactic activity for <term sem="Cell_natural" id="T14" lex="PMN">PMNs</term></term>, blocked by <term sem="Protein_family_or_group" id="A3">antibody to <term sem="Protein_molecule" id="T15" lex="IL-8">IL-8</term>.</term></sentence>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="T10" />
+<clue>Incubation <linkTheme>of</linkTheme> human endothelial cells (ECs) in <clueType>hypoxia</clueType>, PO2 approximately 14-18 Torr, led to time-dependent release of IL-8 antigen into the conditioned medium; this was accompanied by increased chemotactic activity for PMNs, blocked by antibody to IL-8.</clue>
+</event>
+<event id="E6">
+<type class="Localization" />
+<theme idref="T13" />
+<clue>Incubation of human endothelial cells (ECs) in hypoxia, PO2 approximately 14-18 Torr, led to time-dependent <clueType>release</clueType> <linkTheme>of</linkTheme> IL-8 antigen <clueLoc>into the conditioned medium</clueLoc>; this was accompanied by increased chemotactic activity for PMNs, blocked by antibody to IL-8.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="E5" />
+<clue>Incubation of human endothelial cells (ECs) in hypoxia, PO2 approximately 14-18 Torr, <clueType>led</clueType> <linkTheme>to</linkTheme> time-dependent release of IL-8 antigen into the conditioned medium; this was accompanied by increased chemotactic activity for PMNs, blocked by antibody to IL-8.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="E7" />
+<clue>Incubation of human endothelial cells (ECs) in hypoxia, PO2 approximately 14-18 Torr, led to time-dependent release of IL-8 antigen into the conditioned medium; this was accompanied by <clueType>increased</clueType> chemotactic activity for PMNs, blocked by antibody to IL-8.</clue>
+<comment>TPS: A2</comment>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="A2" />
+<cause idref="A3" />
+<clue>Incubation of human endothelial cells (ECs) in hypoxia, PO2 approximately 14-18 Torr, led to time-dependent release of IL-8 antigen into the conditioned medium; this was accompanied by increased chemotactic activity for PMNs, <clueType>blocked</clueType> <linkCause>by</linkCause> antibody to IL-8.</clue>
+<comment>TPS: A3</comment>
+</event>
+<sentence id="S4">Production of <term sem="Protein_molecule" id="T16" lex="IL-8">IL-8</term> by hypoxic <term sem="Cell_natural" id="T17" lex="EC">ECs</term> occurred concomitantly with both increased levels of <term sem="RNA_molecule" id="T18" lex="IL-8_mRNA"><term sem="Protein_molecule" id="T19" lex="IL-8">IL-8</term> mRNA</term>, based on <term sem="Other" id="T20" lex="polymerase_chain_reaction_analysis">polymerase chain reaction analysis</term>, and increased <term sem="Other" id="T21" lex="IL-8_transcription"><term sem="Protein_molecule" id="T22" lex="IL-8">IL-8</term> transcription</term>, based on <term sem="Other" id="T23" lex="nuclear_run-on_assay">nuclear run-on assays</term>.</sentence>
+<event id="E10">
+<type class="Physiological_process" />
+<theme idref="T17" />
+<clue>Production of IL-8 by <clueType>hypoxic</clueType> ECs occurred concomitantly with both increased levels of IL-8 mRNA, based on polymerase chain reaction analysis, and increased IL-8 transcription, based on nuclear run-on assays.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<cause idref="E10" />
+<clue><clueType>Production</clueType> <linkTheme>of</linkTheme> IL-8 <linkCause>by</linkCause> hypoxic ECs occurred concomitantly with both increased levels of IL-8 mRNA, based on polymerase chain reaction analysis, and increased IL-8 transcription, based on nuclear run-on assays.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T18" />
+<clue>Production of IL-8 by hypoxic ECs occurred concomitantly with both <clueType>increased</clueType> levels <linkTheme>of</linkTheme> IL-8 mRNA, based on polymerase chain reaction analysis, and increased IL-8 transcription, based on nuclear run-on assays.</clue>
+</event>
+<event id="E13">
+<type class="Correlation" />
+<theme idref="E11" />
+<theme idref="E12" />
+<clue>Production of IL-8 by hypoxic ECs <clueType>occurred concomitantly</clueType> <linkTheme>with</linkTheme> both increased levels of IL-8 mRNA, <clueExperiment>based on polymerase chain reaction analysis</clueExperiment>, and increased IL-8 transcription, based on nuclear run-on assays.</clue>
+</event>
+<event id="E14">
+<type class="Transcription" />
+<theme idref="T22" />
+<clue>Production of IL-8 by hypoxic ECs occurred concomitantly with both increased levels of IL-8 mRNA, based on polymerase chain reaction analysis, and increased IL-8 <clueType>transcription</clueType>, based on nuclear run-on assays.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue>Production of IL-8 by hypoxic ECs occurred concomitantly with both increased levels of IL-8 mRNA, based on polymerase chain reaction analysis, and <clueType>increased</clueType> IL-8 transcription, based on nuclear run-on assays.</clue>
+</event>
+<event id="E16">
+<type class="Correlation" />
+<theme idref="E11" />
+<theme idref="E15" />
+<clue>Production of IL-8 by hypoxic ECs <clueType>occurred concomitantly</clueType> <linkTheme>with</linkTheme> both increased levels of IL-8 mRNA, based on polymerase chain reaction analysis, and increased IL-8 transcription, <clueExperiment>based on nuclear run-on assays</clueExperiment>.</clue>
+</event>
+<sentence id="S5">Northern analysis of mRNA from hypoxic <term sem="Cell_natural" id="T24" lex="EC">ECs</term> also demonstrated increased levels of <term sem="RNA_molecule" id="T25" lex="mRNA">mRNA</term> <term sem="RNA_molecule" id="A4">for</term> <term sem="RNA_molecule" id="T26" lex="macrophage_chemotactic_protein-1">macrophage chemotactic protein-1</term>, another member of the <term sem="Protein_family_or_group" id="T27" lex="chemokine_superfamily">chemokine superfamily</term> of <term sem="Protein_family_or_group" id="T28" lex="proinflammatory_cytokine">proinflammatory cytokines</term>.</sentence>
+<event id="E17">
+<type class="Physiological_process" />
+<theme idref="T24" />
+<clue>Northern analysis of mRNA from <clueType>hypoxic</clueType> ECs also demonstrated increased levels of mRNA for macrophage chemotactic protein-1, another member of the chemokine superfamily of proinflammatory cytokines.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref1="A4" idref2="T26" idref="T25" />
+<cause idref="E17" />
+<clue><clueExperiment>Northern analysis of mRNA</clueExperiment> from hypoxic ECs also demonstrated <clueType>increased</clueType> levels of mRNA for macrophage chemotactic protein-1, <corefTheme>another member of the chemokine superfamily of proinflammatory cytokines.</corefTheme></clue>
+<comment>NER: T25 MOD, T26 MOD</comment>
+</event>
+<sentence id="S6"><term sem="DNA_domain_or_region" id="T29" lex="IL-8_gene"><term sem="Protein_molecule" id="T30" lex="IL-8">IL-8</term> gene</term> induction was associated with the presence of increased binding activity in <term sem="Cell_component" id="T31" lex="nuclear_extract">nuclear extracts</term> from <term sem="Cell_natural" id="T32" lex="hypoxic_EC">hypoxic <term sem="Cell_natural" id="T33" lex="EC">ECs</term></term> for the <term sem="DNA_domain_or_region" id="A5">NF-kB site</term>.</sentence>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<clue>IL-8 gene <clueType>induction</clueType> was associated with the presence of increased binding activity in nuclear extracts from hypoxic ECs for the NF-kB site.</clue>
+</event>
+<event id="E20">
+<type class="Binding" />
+<theme idref="A5" />
+<clue>IL-8 gene induction was associated with the presence of increased <clueType>binding activity</clueType> in nuclear extracts from hypoxic ECs <linkTheme>for</linkTheme> the NF-kB site.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<clue>IL-8 gene induction was associated with the presence of <clueType>increased</clueType> binding activity in nuclear extracts from hypoxic ECs for the NF-kB site.</clue>
+</event>
+<event id="E22">
+<type class="Correlation" />
+<theme idref="E21" />
+<theme idref="E19" />
+<clue>IL-8 gene induction was <clueType>associated</clueType> <linkTheme>with</linkTheme> the presence of increased binding activity in nuclear extracts from hypoxic ECs for the NF-kB site.</clue>
+</event>
+<sentence id="S7">Studies with <term sem="Tissue_natural" id="T34" lex="human_umbilical_vein_segment">human umbilical vein segments</term> exposed to <term sem="Other" id="T35" lex="hypoxia">hypoxia</term> also demonstrated increased elaboration of <term sem="Protein_molecule" id="T36" lex="IL-8_antigen"><term sem="Protein_molecule" id="T37" lex="IL-8">IL-8</term> antigen</term> compared with normoxic controls.</sentence>
+<event id="E23">
+<type class="Physiological_process" />
+<theme idref="T34" />
+<clue>Studies with human umbilical vein segments exposed to <clueType>hypoxia</clueType> also demonstrated increased elaboration of IL-8 antigen compared with normoxic controls.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<cause idref="E23" />
+<clue>Studies with human umbilical vein segments exposed to hypoxia also demonstrated <clueType>increased</clueType> elaboration <linkTheme>of</linkTheme> IL-8 antigen compared with normoxic controls.</clue>
+</event>
+<sentence id="S8">In <term sem="Multicellular_organism_natural" id="A8">mice</term> exposed to <term sem="Other" id="T38" lex="hypoxia">hypoxia</term> (PO2 approximately 30-40 Torr), there was increased <term sem="Other" id="A9">pulmonary leukostasis</term>, as evidenced by increased <term sem="Other" id="T39" lex="myeloperoxidase_activity"><term sem="Protein_molecule" id="T40" lex="myeloperoxidase">myeloperoxidase</term> activity</term> in <term sem="Other" id="T41" lex="tissue_homogenate">tissue homogenates</term>.</sentence>
+<event id="E25">
+<type class="Physiological_process" />
+<theme idref="A8" />
+<clue>In mice exposed to <clueType>hypoxia</clueType> (PO2 approximately 30-40 Torr), there was increased pulmonary leukostasis, as evidenced by increased myeloperoxidase activity in tissue homogenates.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="A9" />
+<cause idref="E25" />
+<clue>In mice exposed to hypoxia (PO2 approximately 30-40 Torr), there was <clueType>increased</clueType> pulmonary leukostasis, as evidenced by increased myeloperoxidase activity in tissue homogenates.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<cause idref="E25" />
+<clue>In mice exposed to hypoxia (PO2 approximately 30-40 Torr), there was increased pulmonary leukostasis, as evidenced by <clueType>increased</clueType> myeloperoxidase activity <clueLoc>in tissue homogenates</clueLoc>.</clue>
+</event>
+<sentence id="S9">In parallel, increased levels of <term sem="RNA_molecule" id="A50">transcripts for <term sem="Protein_molecule" id="T42" lex="IP-10">IP-10</term></term>, a murine homologue in the <term sem="Protein_family_or_group" id="T43" lex="chemokine_family">chemokine family</term> related to <term sem="Protein_molecule" id="T44" lex="IL-8">IL-8</term>, were observed in <term sem="Tissue_natural" id="T45" lex="hypoxic_lung_tissue">hypoxic <term sem="Tissue_natural" id="A10">lung tissue</term></term>.</sentence>
+<event id="E28">
+<type class="Physiological_process" />
+<theme idref="A10" />
+<clue>In parallel, increased levels of transcripts for IP-10, a murine homologue in the chemokine family related to IL-8, were observed in <clueType>hypoxic</clueType> lung tissue.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="A50" />
+<cause idref="E28" />
+<clue>In parallel, <clueType>increased</clueType> levels of transcripts for IP-10, <corefTheme>a murine homologue in the chemokine family related to IL-8</corefTheme>, were observed in hypoxic lung tissue.</clue>
+<comment>TPS: A50</comment>
+</event>
+<sentence id="S10">Taken together, these data suggest that <term sem="Other" id="T46" lex="hypoxia">hypoxia</term> constitutes a stimulus for <term sem="Other" id="T47" lex="leukocyte_chemotaxis">leukocyte chemotaxis</term> and <term sem="Other" id="T48" lex="tissue_leukostasis">tissue leukostasis</term>.</sentence>
+<event uncertainty="probable" id="E30">
+<type class="Positive_regulation" />
+<theme idref="T47" />
+<cause idref="T46" />
+<clue>Taken together, these data suggest that hypoxia <clueType>constitutes a stimulus</clueType> <linkTheme>for</linkTheme> leukocyte chemotaxis and tissue leukostasis.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="T48" />
+<cause idref="T46" />
+<clue>Taken together, these data suggest that hypoxia <clueType>constitutes a stimulus</clueType> <linkTheme>for</linkTheme> leukocyte chemotaxis and tissue leukostasis.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

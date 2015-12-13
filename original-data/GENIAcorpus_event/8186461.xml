@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="27/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8186461" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8186461</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="calcineurin">Calcineurin</term> potentiates activation of the <term sem="DNA_domain_or_region" id="T2" lex="granulocyte-macrophage_colony-stimulating_factor_gene">granulocyte-macrophage colony-stimulating factor gene</term> in <term sem="Cell_natural" id="T3" lex="T_cell">T cells</term>: involvement of the <term sem="DNA_domain_or_region" id="T4" lex="conserved_lymphokine_element_0">conserved lymphokine element 0</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>Calcineurin potentiates <clueType>activation</clueType> <linkTheme>of</linkTheme> the granulocyte-macrophage colony-stimulating factor gene in T cells: involvement of the conserved lymphokine element 0.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Calcineurin <clueType>potentiates</clueType> activation of the granulocyte-macrophage colony-stimulating factor gene <clueLoc>in T cells</clueLoc>: involvement of the conserved lymphokine element 0.</clue>
+</event>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="E2" />
+<theme idref="T4" />
+<clue>Calcineurin potentiates activation of the granulocyte-macrophage colony-stimulating factor gene in T cells: <clueType>involvement</clueType> <linkCause>of</linkCause> the conserved lymphokine element 0.</clue>
+<comment>NO COREFTHEME FOR E2</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T5" lex="granulocyte-macrophage_colony-stimulating_factor">Granulocyte-macrophage colony-stimulating factor</term> (<term sem="Protein_molecule" id="T6" lex="GM-CSF">GM-CSF</term>) and <term sem="Protein_molecule" id="T7" lex="interleukin-2">interleukin-2</term> (<term sem="Protein_molecule" id="T8" lex="IL-2">IL-2</term>) are produced by stimulation with <term sem="Organic_compound_other" id="T9" lex="phorbol-12-myristate_acetate">phorbol-12-myristate acetate</term> (<term sem="Organic_compound_other" id="T10" lex="PMA">PMA</term>) and <term sem="Organic_compound_other" id="T11" lex="calcium_ionophore"><term sem="Element" id="T12" lex="calcium">calcium</term> ionophore</term> (<term sem="Organic_compound_other" id="A1">A23187</term>) in <term sem="Cell_cultured" id="T13" lex="human_T_cell_leukemia_Jurkat_cell">human T cell leukemia <term sem="Cell_cultured" id="T14" lex="Jurkat_cell">Jurkat cells</term></term>.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Granulocyte-macrophage colony-stimulating factor (GM-CSF) and interleukin-2 (IL-2) are <clueType>produced</clueType> by stimulation with phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) in human T cell leukemia Jurkat cells.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>Granulocyte-macrophage colony-stimulating factor (GM-CSF) and interleukin-2 (IL-2) are <clueType>produced</clueType> by stimulation with phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) in human T cell leukemia Jurkat cells.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T10" />
+<clue>Granulocyte-macrophage colony-stimulating factor (GM-CSF) and interleukin-2 (IL-2) are produced <linkCause>by stimulation with</linkCause> phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) <clueLoc>in human T cell leukemia Jurkat cells</clueLoc>.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T10" />
+<clue>Granulocyte-macrophage colony-stimulating factor (GM-CSF) and interleukin-2 (IL-2) are produced <linkCause>by stimulation with</linkCause> phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) <clueLoc>in human T cell leukemia Jurkat cells</clueLoc>.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="A1" />
+<clue>Granulocyte-macrophage colony-stimulating factor (GM-CSF) and interleukin-2 (IL-2) are produced <linkCause>by stimulation with</linkCause> phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) <clueLoc>in human T cell leukemia Jurkat cells</clueLoc>.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="A1" />
+<clue>Granulocyte-macrophage colony-stimulating factor (GM-CSF) and interleukin-2 (IL-2) are produced <linkCause>by stimulation with</linkCause> phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) <clueLoc>in human T cell leukemia Jurkat cells</clueLoc>.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S3">The expression of <term sem="Protein_molecule" id="T15" lex="GM-CSF">GM-CSF</term> and <term sem="Protein_molecule" id="T16" lex="IL-2">IL-2</term> is inhibited by <term sem="Organic_compound_other" id="T17" lex="immunosuppressive_drug">immunosuppressive drugs</term> such as <term sem="Organic_compound_other" id="T18" lex="cyclosporin_A">cyclosporin A</term> (<term sem="Organic_compound_other" id="T19" lex="CsA">CsA</term>) and <term sem="Organic_compound_other" id="T20" lex="FK506">FK506</term>.</sentence>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> GM-CSF and IL-2 is inhibited by immunosuppressive drugs such as cyclosporin A (CsA) and FK506.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> GM-CSF and IL-2 is inhibited by immunosuppressive drugs such as cyclosporin A (CsA) and FK506.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="T17" />
+<clue>The expression of GM-CSF and IL-2 is <clueType>inhibited</clueType> <linkCause>by</linkCause> immunosuppressive drugs such as cyclosporin A (CsA) and FK506.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="T19" />
+<clue>The expression of GM-CSF and IL-2 is <clueType>inhibited</clueType> <linkCause>by</linkCause> <corefCause>immunosuppressive drugs</corefCause> such as cyclosporin A (CsA) and FK506.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="T20" />
+<clue>The expression of GM-CSF and IL-2 is <clueType>inhibited</clueType> <linkCause>by</linkCause> <corefCause>immunosuppressive drugs</corefCause> such as cyclosporin A (CsA) and FK506.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="T17" />
+<clue>The expression of GM-CSF and IL-2 is <clueType>inhibited</clueType> <linkCause>by</linkCause> immunosuppressive drugs such as cyclosporin A (CsA) and FK506.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="T19" />
+<clue>The expression of GM-CSF and IL-2 is <clueType>inhibited</clueType> <linkCause>by</linkCause> <corefCause>immunosuppressive drugs</corefCause> such as cyclosporin A (CsA) and FK506.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="T20" />
+<clue>The expression of GM-CSF and IL-2 is <clueType>inhibited</clueType> <linkCause>by</linkCause> <corefCause>immunosuppressive drugs</corefCause> such as cyclosporin A (CsA) and FK506.</clue>
+</event>
+<sentence id="S4">Earlier studies on the <term sem="Other" id="T21" lex="IL-2_gene_expression"><term sem="DNA_domain_or_region" id="T22" lex="IL-2">IL-2 gene</term> expression</term> showed that overexpression of <term sem="Protein_molecule" id="T23" lex="calcineurin">calcineurin</term> (<term sem="Protein_molecule" id="T24" lex="CN">CN</term>), a <term sem="Protein_family_or_group" id="T25" lex="Ca2+/calmodulin-dependent_protein_phosphatase">Ca2+/calmodulin-dependent protein phosphatase</term>, can stimulate <term sem="Other" id="T26" lex="transcription">transcription</term> from the <term sem="DNA_domain_or_region" id="T27" lex="IL-2_promoter"><term sem="Protein_molecule" id="T28" lex="IL-2">IL-2</term> promoter</term> through the <term sem="DNA_domain_or_region" id="T29" lex="NF-AT-binding_site">NF-AT-binding site</term>.</sentence>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>Earlier studies on the IL-2 gene <clueType>expression</clueType> showed that overexpression of calcineurin (CN), a Ca2+/calmodulin-dependent protein phosphatase, can stimulate transcription from the IL-2 promoter through the NF-AT-binding site.</clue>
+<comment>NER T22 MOD</comment>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>Earlier studies on the IL-2 gene expression showed that <clueType>overexpression</clueType> <linkTheme>of</linkTheme> calcineurin (CN), a Ca2+/calmodulin-dependent protein phosphatase, can stimulate transcription from the IL-2 promoter through the NF-AT-binding site.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<clue>Earlier studies on the IL-2 gene expression showed that <clueType>overexpression</clueType> of calcineurin (CN), a Ca2+/calmodulin-dependent protein phosphatase, can stimulate transcription from the IL-2 promoter through the NF-AT-binding site.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="E22" />
+<clue>Earlier studies on the IL-2 gene expression showed that overexpression of calcineurin (CN), a Ca2+/calmodulin-dependent protein phosphatase, can <clueType>stimulate</clueType> transcription from the IL-2 promoter <linkTheme>through</linkTheme> the NF-AT-binding site.</clue>
+</event>
+<event id="E24">
+<type class="Transcription" />
+<theme idref="T27" />
+<clue>Earlier studies on the IL-2 gene expression showed that overexpression of calcineurin (CN), a Ca2+/calmodulin-dependent protein phosphatase, can stimulate <clueType>transcription</clueType> <linkTheme>from</linkTheme> the IL-2 promoter through the NF-AT-binding site.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E23" />
+<clue>Earlier studies on the IL-2 gene expression showed that overexpression of calcineurin (CN), a Ca2+/calmodulin-dependent protein phosphatase, can <clueType>stimulate</clueType> transcription from the IL-2 promoter <linkCause>through</linkCause> the NF-AT-binding site.</clue>
+</event>
+<sentence id="S5">In this study, we obtained evidence that transfection of the <term sem="DNA_family_or_group" id="T30" lex="cDNA">cDNAs</term> <term sem="DNA_molecule" id="A7">for</term> <cons sem="(AND Protein_molecule Protein_molecule)" id="T31" lex="(AND CN_A_(catalytic)_subunit CN_B_(regulatory)_subunit)"><frag id="F1"><term sem="Protein_molecule" id="A4">CN A</term> (catalytic)</frag> and <frag id="F2"><term sem="Protein_molecule" id="A5">CN B</term> (regulatory)</frag> <frag id="F3"><term sem="Protein_molecule" id="A6">subunits</term></frag></cons> also augments transcription from the <term sem="DNA_domain_or_region" id="T32" lex="GM-CSF_promoter"><term sem="Protein_molecule" id="T33" lex="GM-CSF">GM-CSF</term> promoter</term> and recovers the transcription inhibited by <term sem="Organic_compound_other" id="T34" lex="CsA">CsA</term>.</sentence>
+<event id="E126">
+<type class="Gene_expression" />
+<theme idref1="A6" idref="A5" />
+<clue>In this study, we obtained evidence that <clueType>transfection</clueType> <linkTheme>of</linkTheme> the cDNAs for CN A (catalytic) and CN B (regulatory) subunits also augments transcription from the GM-CSF promoter and recovers the transcription inhibited by CsA.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E127">
+<type class="Positive_regulation" />
+<theme idref="E126" />
+<clue>In this study, we obtained evidence that <clueType>transfection</clueType> of the cDNAs for CN A (catalytic) and CN B (regulatory) subunits also augments transcription from the GM-CSF promoter and recovers the transcription inhibited by CsA.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E128">
+<type class="Gene_expression" />
+<theme idref1="A6" idref="A4" />
+<clue>In this study, we obtained evidence that <clueType>transfection</clueType> <linkTheme>of</linkTheme> the cDNAs for CN A (catalytic) and CN B (regulatory) subunits also augments transcription from the GM-CSF promoter and recovers the transcription inhibited by CsA.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E129">
+<type class="Positive_regulation" />
+<theme idref="E128" />
+<clue>In this study, we obtained evidence that <clueType>transfection</clueType> of the cDNAs for CN A (catalytic) and CN B (regulatory) subunits also augments transcription from the GM-CSF promoter and recovers the transcription inhibited by CsA.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E28">
+<type class="Transcription" />
+<theme idref="T32" />
+<clue>In this study, we obtained evidence that transfection of the cDNAs for CN A (catalytic) and CN B (regulatory) subunits also augments <clueType>transcription</clueType> <linkTheme>from</linkTheme> the GM-CSF promoter and recovers the transcription inhibited by CsA.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E127" />
+<clue>In this study, we obtained evidence that transfection of the cDNAs for CN A (catalytic) and CN B (regulatory) subunits also <clueType>augments</clueType> transcription from the GM-CSF promoter and recovers the transcription inhibited by CsA.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E129" />
+<clue>In this study, we obtained evidence that transfection of the cDNAs for CN A (catalytic) and CN B (regulatory) subunits also <clueType>augments</clueType> transcription from the GM-CSF promoter and recovers the transcription inhibited by CsA.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<cause idref="T34" />
+<clue>In this study, we obtained evidence that transfection of the cDNAs for CN A (catalytic) and CN B (regulatory) subunits also augments transcription from the GM-CSF promoter and recovers <corefTheme>the transcription</corefTheme> <clueType>inhibited</clueType> <linkCause>by</linkCause> CsA.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="E31" />
+<cause idref="E127" />
+<clue>In this study, we obtained evidence that transfection of the cDNAs for CN A (catalytic) and CN B (regulatory) subunits also augments transcription from the GM-CSF promoter and <clueType>recovers</clueType> the transcription inhibited by CsA.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E31" />
+<cause idref="E129" />
+<clue>In this study, we obtained evidence that transfection of the cDNAs for CN A (catalytic) and CN B (regulatory) subunits also augments transcription from the GM-CSF promoter and <clueType>recovers</clueType> the transcription inhibited by CsA.</clue>
+</event>
+<sentence id="S6"><term sem="Protein_molecule" id="A101">The constitutively active type of the <term sem="Protein_molecule" id="T35" lex="CN_A_subunit">CN A subunit</term></term>, which lacks the <term sem="Protein_domain_or_region" id="T36" lex="auto-inhibitory_domain">auto-inhibitory</term> and <term sem="Protein_domain_or_region" id="T37" lex="calmodulin-binding_domain">calmodulin-binding domains</term>, acts in synergy with <term sem="Organic_compound_other" id="T38" lex="PMA">PMA</term> to activate transcription from the <term sem="DNA_domain_or_region" id="T39" lex="GM-CSF_promoter">GM-CSF promoter</term>.</sentence>
+<event id="E34">
+<type class="Transcription" />
+<theme idref="T39" />
+<clue>The constitutively active type of the CN A subunit, which lacks the auto-inhibitory and calmodulin-binding domains, acts in synergy with PMA to activate <clueType>transcription</clueType> <linkTheme>from</linkTheme> the GM-CSF promoter.</clue>
+<comment>TPS A101</comment>
+</event>
+<event id="E35">
+<type class="Correlation" />
+<theme idref="A101" />
+<theme idref="T38" />
+<clue>The constitutively active type of the CN A subunit, which lacks the auto-inhibitory and calmodulin-binding domains, <clueType>acts in synergy</clueType> <linkTheme>with</linkTheme> PMA to activate transcription from the GM-CSF promoter.</clue>
+</event>
+<event id="E135">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="E35" />
+<clue>The constitutively active type of the CN A subunit, which lacks the auto-inhibitory and calmodulin-binding domains, acts in synergy with PMA <clueType>to activate</clueType> transcription from the GM-CSF promoter.</clue>
+</event>
+<sentence id="S7">We also found that the active <term sem="Protein_molecule" id="T40" lex="CN">CN</term> partially replaces <term sem="Organic_compound_other" id="T41" lex="calcium_ionophore"><term sem="Element" id="T42" lex="calcium">calcium</term> ionophore</term> in synergy with <term sem="Organic_compound_other" id="T43" lex="PMA">PMA</term> to induce expression of endogenous <term sem="Protein_molecule" id="T44" lex="GM-CSF">GM-CSF</term> and <term sem="Protein_molecule" id="T45" lex="IL-2">IL-2</term>.</sentence>
+<event id="E36">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>We also found that the active CN partially replaces calcium ionophore in synergy with PMA to induce <clueType>expression</clueType> <linkTheme>of</linkTheme> endogenous GM-CSF and IL-2.</clue>
+</event>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="T45" />
+<clue>We also found that the active CN partially replaces calcium ionophore in synergy with PMA to induce <clueType>expression</clueType> <linkTheme>of</linkTheme> endogenous GM-CSF and IL-2.</clue>
+</event>
+<event id="E138">
+<type class="Correlation" />
+<theme idref="A101" />
+<theme idref="T43" />
+<clue>We also found that <corefCause>the active CN</corefCause> partially <clueType>replaces</clueType> calcium ionophore <clueType>in synergy</clueType> <linkTheme>with</linkTheme> PMA to induce expression of endogenous GM-CSF and IL-2.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="E138" />
+<clue>We also found that the active CN partially replaces calcium ionophore in synergy with PMA <clueType>to induce</clueType> expression of endogenous GM-CSF and IL-2.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="E138" />
+<clue>We also found that the active CN partially replaces calcium ionophore in synergy with PMA <clueType>to induce</clueType> expression of endogenous GM-CSF and IL-2.</clue>
+</event>
+<sentence id="S8">By multimerizing the <term sem="DNA_family_or_group" id="T46" lex="regulatory_element">regulatory elements</term> of the <term sem="DNA_domain_or_region" id="T47" lex="GM-CSF_promoter"><term sem="Protein_molecule" id="T48" lex="GM-CSF">GM-CSF</term> promoter</term>, we found that one of the <term sem="DNA_domain_or_region" id="T49" lex="target_site">target sites</term> for the <term sem="Protein_molecule" id="T50" lex="CN">CN</term> action is the <term sem="DNA_domain_or_region" id="T51" lex="conserved_lymphokine_element_0">conserved lymphokine element 0</term> (<term sem="DNA_domain_or_region" id="T52" lex="CLE0">CLE0</term>), located at positions between <term sem="DNA_substructure" id="T53" lex="-54_and_-40">-54 and -40</term>.</sentence>
+<event id="E41">
+<type class="Regulation" />
+<theme idref="T52" />
+<cause idref="T50" />
+<clue><clueExperiment>By multimerizing the regulatory elements of the GM-CSF promoter</clueExperiment>, we found that one of the <clueType>target sites</clueType> <linkCause>for</linkCause> the CN action is the conserved lymphokine element 0 (CLE0), located at positions between -54 and -40.</clue>
+</event>
+<sentence id="S9"><term sem="Other" id="T54" lex="mobility_shift_assay">Mobility shift assays</term> showed that the <term sem="DNA_domain_or_region" id="T55" lex="CLE0">CLE0</term> sequence has an <term sem="DNA_domain_or_region" id="T56" lex="AP1-binding_site"><term sem="Protein_complex" id="A201">AP1</term>-binding site</term> and is associated with an <term sem="Protein_family_or_group" id="T57" lex="NF-AT-like_factor">NF-AT-like factor</term>, termed <term sem="Protein_molecule" id="T58" lex="NF-CLE0_gamma">NF-<term sem="DNA_domain_or_region" id="T59" lex="CLE0">CLE0</term> gamma</term>.</sentence>
+<event id="E42">
+<type class="Binding" />
+<theme idref="T55" />
+<theme idref="T58" />
+<clue><clueExperiment>Mobility shift assays</clueExperiment> showed that the CLE0 sequence has an AP1-binding site and is <clueType>associated</clueType> <linkTheme>with</linkTheme> <corefTheme>an NF-AT-like factor</corefTheme>, termed NF-CLE0 gamma.</clue>
+</event>
+<event id="E142">
+<type class="Binding" />
+<theme idref="T55" />
+<theme idref="A201" />
+<clue><clueExperiment>Mobility shift assays</clueExperiment> showed that the CLE0 sequence <clueType>has</clueType> an AP1-<clueType>binding site</clueType> and is associated with an NF-AT-like factor, termed NF-CLE0 gamma.</clue>
+</event>
+<sentence id="S10"><term sem="Protein_molecule" id="A102">NF-<term sem="DNA_domain_or_region" id="T60" lex="CLE0">CLE0</term> gamma</term> binding is induced by <term sem="Organic_compound_other" id="T61" lex="PMA">PMA</term>/<term sem="Organic_compound_other" id="A103">A23187</term> and is inhibited by treatment with <term sem="Organic_compound_other" id="T62" lex="CsA">CsA</term>.</sentence>
+<event id="E43">
+<type class="Binding" />
+<theme idref="A102" />
+<theme idref="T55" />
+<clue>NF-CLE0 gamma <clueType>binding</clueType> is induced by PMA/A23187 and is inhibited by treatment with CsA.</clue>
+<comment>NO COREFTHEME FOR T55</comment>
+</event>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="E43" />
+<cause idref="A103" />
+<cause idref="T61" />
+<clue>NF-CLE0 gamma binding is <clueType>induced</clueType> <linkCause>by</linkCause> PMA/A23187 and is inhibited by treatment with CsA.</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="T62" />
+<clue>NF-CLE0 gamma binding is induced by PMA/A23187 and is <clueType>inhibited</clueType> <linkCause>by treatment with</linkCause> CsA.</clue>
+</event>
+<sentence id="S11">These results suggest that <term sem="Protein_molecule" id="T63" lex="CN">CN</term> is involved in the coordinated induction of the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T64" lex="(AND GM-CSF_gene IL-2_gene)"><frag id="F4">GM-CSF</frag> and <frag id="F5">IL-2</frag> <frag id="F6">genes</frag></cons> and that the <term sem="DNA_domain_or_region" id="T65" lex="CLE0_sequence"><term sem="DNA_domain_or_region" id="T66" lex="CLE0">CLE0</term> sequence</term> of the <term sem="DNA_domain_or_region" id="T67" lex="GM-CSF_gene"><term sem="Protein_molecule" id="T68" lex="GM-CSF">GM-CSF</term> gene</term> is a functional analogue of the <term sem="DNA_domain_or_region" id="T69" lex="NF-AT-binding_site">NF-AT-binding site</term> in the <term sem="DNA_domain_or_region" id="T70" lex="IL-2_promoter"><term sem="Protein_molecule" id="T71" lex="IL-2">IL-2</term> promoter</term>, which mediates signals downstream of <term sem="Other" id="T72" lex="T_cell_activation"><term sem="Cell_natural" id="A107">T cell</term> activation</term>.</sentence>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref1="F6" idref="F4" />
+<clue>These results suggest that CN is involved in the coordinated <clueType>induction</clueType> <linkTheme>of</linkTheme> the GM-CSF and IL-2 genes and that the CLE0 sequence of the GM-CSF gene is a functional analogue of the NF-AT-binding site in the IL-2 promoter, which mediates signals downstream of T cell activation.</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref1="F6" idref="F5" />
+<clue>These results suggest that CN is involved in the coordinated <clueType>induction</clueType> <linkTheme>of</linkTheme> the GM-CSF and IL-2 genes and that the CLE0 sequence of the GM-CSF gene is a functional analogue of the NF-AT-binding site in the IL-2 promoter, which mediates signals downstream of T cell activation.</clue>
+</event>
+<event id="E48">
+<type class="Correlation" />
+<theme idref="E46" />
+<theme idref="E47" />
+<clue>These results suggest that CN is involved in the <clueType>coordinated</clueType> induction of the GM-CSF and IL-2 genes and that the CLE0 sequence of the GM-CSF gene is a functional analogue of the NF-AT-binding site in the IL-2 promoter, which mediates signals downstream of T cell activation.</clue>
+</event>
+<event uncertainty="probable" id="E49">
+<type class="Positive_regulation" />
+<theme idref="E48" />
+<cause idref="T63" />
+<clue>These results suggest that CN is <clueType>involved</clueType> <linkTheme>in</linkTheme> the coordinated induction of the GM-CSF and IL-2 genes and that the CLE0 sequence of the GM-CSF gene is a functional analogue of the NF-AT-binding site in the IL-2 promoter, which mediates signals downstream of T cell activation.</clue>
+</event>
+<event id="E50">
+<type class="Physiological_process" />
+<theme idref="A107" />
+<clue>These results suggest that CN is involved in the coordinated induction of the GM-CSF and IL-2 genes and that the CLE0 sequence of the GM-CSF gene is a functional analogue of the NF-AT-binding site in the IL-2 promoter, which mediates signals downstream of T cell <clueType>activation</clueType>.</clue>
+</event>
+<event id="E51">
+<type class="Cell_communication" />
+<theme idref="E49" />
+<clue>These results suggest that CN is involved in the coordinated induction of the GM-CSF and IL-2 genes and that the CLE0 sequence of the GM-CSF gene is a functional analogue of the NF-AT-binding site in the IL-2 promoter, which mediates <clueType>signals</clueType> <linkTheme>downstream of</linkTheme> T cell activation.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation" />
+<theme idref="E51" />
+<cause idref="T66" />
+<clue>These results suggest that CN is involved in the coordinated induction of the GM-CSF and IL-2 genes and that the CLE0 sequence of the GM-CSF gene is a functional analogue of the NF-AT-binding site in the IL-2 promoter, which <clueType>mediates</clueType> signals downstream of T cell activation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="21/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9697844" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9697844</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Targeted disruption of the <term sem="DNA_domain_or_region" id="T1" lex="MyD88_gene">MyD88 gene</term> results in loss of <cons sem="(AND Other Other)" id="T2" lex="(AND IL-1-mediated_function IL-18-mediated_function)"><frag id="F1"><term sem="Protein_molecule" id="A1">IL-1</term>-</frag> and <frag id="F2"><term sem="Protein_molecule" id="A2">IL-18</term>-</frag><frag id="F3">mediated function</frag></cons>.</sentence>
+<event id="E1">
+<type class="Mutagenesis" />
+<theme idref="T1" />
+<clue><clueType>Targeted disruption</clueType> <linkTheme>of</linkTheme> the MyD88 gene results in loss of IL-1- and IL-18-mediated function.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<cause idref="E1" />
+<clue>Targeted disruption of the MyD88 gene results in <clueType>loss</clueType> <linkTheme>of</linkTheme> IL-1- and IL-18-mediated function.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref="E1" />
+<clue>Targeted disruption of the MyD88 gene results in <clueType>loss</clueType> <linkTheme>of</linkTheme> IL-1- and IL-18-mediated function.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<cause idref="A1" />
+<clue>Targeted disruption of the MyD88 gene results in loss of IL-1- and IL-18-<clueType>mediated</clueType> function.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<cause idref="A2" />
+<clue>Targeted disruption of the MyD88 gene results in loss of IL-1- and IL-18-<clueType>mediated</clueType> function.</clue>
+<comment>NO THEME</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T3" lex="MyD88">MyD88</term>, originally isolated as a <term sem="Other" id="T4" lex="myeloid_differentiation">myeloid differentiation</term> <term sem="DNA_domain_or_region" id="T5" lex="primary_response_gene">primary response gene</term>, is shown to act as an adaptor in <term sem="Other" id="T6" lex="interleukin-1_(IL-1)_signaling"><term sem="Protein_molecule" id="T7" lex="interleukin-1">interleukin-1</term> (<term sem="Protein_molecule" id="T8" lex="IL-1">IL-1</term>) signaling</term> by interacting with both the <term sem="Protein_complex" id="T9" lex="IL-1_receptor_complex"><term sem="Protein_molecule" id="T10" lex="IL-1">IL-1</term> receptor complex</term> and <term sem="Protein_molecule" id="T11" lex="IL-1_receptor-associated_kinase"><term sem="Protein_molecule" id="T12" lex="IL-1">IL-1</term> receptor-associated kinase</term> (<term sem="Protein_molecule" id="T13" lex="IRAK">IRAK</term>).</sentence>
+<event id="E4">
+<type class="Cell_communication" />
+<theme idref="T3" />
+<theme idref="T8" />
+<clue>MyD88, originally isolated as a myeloid differentiation primary response gene, is shown to <clueType>act as an adaptor</clueType> <linkTheme>in</linkTheme> interleukin-1 (IL-1) signaling by interacting with both the IL-1 receptor complex and IL-1 receptor-associated kinase (IRAK).</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E6" />
+<clue>MyD88, originally isolated as a myeloid differentiation primary response gene, is shown to act as an adaptor in interleukin-1 (IL-1) signaling <linkCause>by</linkCause> interacting with both the IL-1 receptor complex and IL-1 receptor-associated kinase (IRAK).</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E7" />
+<clue>MyD88, originally isolated as a myeloid differentiation primary response gene, is shown to act as an adaptor in interleukin-1 (IL-1) signaling <linkCause>by</linkCause> interacting with both the IL-1 receptor complex and IL-1 receptor-associated kinase (IRAK).</clue>
+</event>
+<event id="E6">
+<type class="Binding" />
+<theme idref="T3" />
+<theme idref="T9" />
+<clue>MyD88, originally isolated as a myeloid differentiation primary response gene, is shown to act as an adaptor in interleukin-1 (IL-1) signaling by <clueType>interacting</clueType> <linkTheme>with</linkTheme> both the IL-1 receptor complex and IL-1 receptor-associated kinase (IRAK).</clue>
+</event>
+<event id="E7">
+<type class="Binding" />
+<theme idref="T3" />
+<theme idref="T13" />
+<clue>MyD88, originally isolated as a myeloid differentiation primary response gene, is shown to act as an adaptor in interleukin-1 (IL-1) signaling by <clueType>interacting</clueType> <linkTheme>with</linkTheme> both the IL-1 receptor complex and IL-1 receptor-associated kinase (IRAK).</clue>
+</event>
+<sentence id="S3">Mice generated by gene targeting to lack <term sem="Protein_molecule" id="T14" lex="MyD88">MyD88</term> have defects in <term sem="Other" id="T15" lex="T_cell_proliferation"><term sem="Cell_natural" id="A5">T cell</term> proliferation</term> as well as induction of <term sem="Protein_family_or_group" id="A6">acute phase proteins</term> and <term sem="Protein_family_or_group" id="T16" lex="cytokine">cytokines</term> in response to <term sem="Protein_molecule" id="T17" lex="IL-1">IL-1</term>.</sentence>
+<event id="E8">
+<type class="Mutagenesis" />
+<theme idref="T14" />
+<clue><clueLoc>Mice</clueLoc> generated by <clueType>gene targeting to lack</clueType> MyD88 have defects in T cell proliferation as well as induction of acute phase proteins and cytokines in response to IL-1.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E9">
+<type class="Cellular_physiological_process" />
+<theme idref="A5" />
+<clue>Mice generated by gene targeting to lack MyD88 have defects in T cell <clueType>proliferation</clueType> as well as induction of acute phase proteins and cytokines in response to IL-1.</clue>
+</event>
+<event assertion="non-exist" id="E31">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<clue><clueLoc>Mice generated by gene targeting to lack MyD88</clueLoc> have defects in T cell proliferation as well as induction of acute phase proteins and cytokines <linkCause>in response to</linkCause> IL-1.</clue>
+</event>
+<event assertion="non-exist" id="E10">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="T17" />
+<clue><clueLoc>Mice generated by gene targeting to lack MyD88</clueLoc> have defects in T cell proliferation as well as <clueType>induction</clueType> <linkTheme>of</linkTheme> acute phase proteins and cytokines <linkCause>in response to</linkCause> IL-1.</clue>
+</event>
+<event assertion="non-exist" id="E11">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<cause idref="T17" />
+<clue><clueLoc>Mice generated by gene targeting to lack MyD88</clueLoc> have defects in T cell proliferation as well as <clueType>induction</clueType> <linkTheme>of</linkTheme> acute phase proteins and cytokines <linkCause>in response to</linkCause> IL-1.</clue>
+</event>
+<sentence id="S4">Increases in <term sem="Other" id="T18" lex="interferon-gamma_production"><term sem="Protein_molecule" id="T19" lex="interferon-gamma">interferon-gamma</term> production</term> and <term sem="Other" id="T20" lex="natural_killer_cell_activity"><term sem="Cell_natural" id="A7">natural killer cell</term> activity</term> in response to <term sem="Protein_molecule" id="T21" lex="IL-18">IL-18</term> are abrogated.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T21" />
+<clue><clueType>Increases</clueType> <linkTheme>in</linkTheme> interferon-gamma production and natural killer cell activity <linkCause>in response to</linkCause> IL-18 are abrogated.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>Increases in interferon-gamma <clueType>production</clueType> and natural killer cell activity in response to IL-18 are abrogated.</clue>
+</event>
+<event id="E14">
+<type class="Physiological_process" />
+<theme idref="A7" />
+<cause idref="T21" />
+<clue><clueType>Increases</clueType> in interferon-gamma production and natural killer cell <clueType>activity</clueType> <linkCause>in response to</linkCause> IL-18 are abrogated.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<clue>Increases in interferon-gamma production and natural killer cell activity in response to IL-18 are <clueType>abrogated</clueType>.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<clue>Increases in interferon-gamma production and natural killer cell activity in response to IL-18 are <clueType>abrogated</clueType>.</clue>
+</event>
+<sentence id="S5">In vivo <term sem="Other" id="A8"><term sem="Cell_cultured" id="T36">Th1</term> response</term> is also impaired.</sentence>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="A8" />
+<clue>In vivo Th1 response is also <clueType>impaired</clueType>.</clue>
+</event>
+<sentence id="S6">Furthermore, <term sem="Protein_molecule" id="T23" lex="IL-18">IL-18</term>-induced <term sem="Other" id="T22">activation</term> of <term sem="Protein_complex" id="T24" lex="NF-kappaB">NF-kappaB</term> and <term sem="Protein_molecule" id="T25" lex="c-Jun_N-terminal_kinase">c-Jun N-terminal kinase</term> (<term sem="Protein_molecule" id="T26" lex="JNK">JNK</term>) is blocked in <term sem="Cell_cultured" id="T27" lex="MyD88-/-_Th1-developing_cell"><term sem="Protein_molecule" id="T28" lex="MyD88">MyD88</term>-/- Th1-developing cells</term>.</sentence>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="T23" />
+<clue>Furthermore, IL-18<linkCause>-induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB and c-Jun N-terminal kinase (JNK) is blocked in MyD88-/- Th1-developing cells.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<cause idref="T23" />
+<clue>Furthermore, IL-18<linkCause>-induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB and c-Jun N-terminal kinase (JNK) is blocked in MyD88-/- Th1-developing cells.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<clue>Furthermore, IL-18-induced activation of NF-kappaB and c-Jun N-terminal kinase (JNK) is <clueType>blocked</clueType> <clueLoc>in MyD88-/- Th1-developing cells</clueLoc>.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<clue>Furthermore, IL-18-induced activation of NF-kappaB and c-Jun N-terminal kinase (JNK) is <clueType>blocked</clueType> <clueLoc>in MyD88-/- Th1-developing cells</clueLoc>.</clue>
+</event>
+<sentence id="S7">Taken together, these results demonstrate that <term sem="Protein_molecule" id="T29" lex="MyD88">MyD88</term> is a critical component in the <term sem="Other" id="T30" lex="signaling_cascade">signaling cascade</term> that is mediated by <term sem="Protein_molecule" id="T31" lex="IL-1_receptor"><term sem="Protein_molecule" id="T32" lex="IL-1">IL-1</term> receptor</term> as well as <term sem="Protein_molecule" id="T33" lex="IL-18_receptor"><term sem="Protein_molecule" id="T34" lex="IL-18">IL-18</term> receptor</term>.</sentence>
+<event id="E24">
+<type class="Regulation" />
+<theme idref="E26" />
+<cause idref="T29" />
+<clue>Taken together, these results demonstrate that MyD88 is a <clueType>critical component</clueType> <linkTheme>in</linkTheme> the signaling cascade that is mediated by IL-1 receptor as well as IL-18 receptor.</clue>
+</event>
+<event id="E25">
+<type class="Regulation" />
+<theme idref="E27" />
+<cause idref="T29" />
+<clue>Taken together, these results demonstrate that MyD88 is a <clueType>critical component</clueType> <linkTheme>in</linkTheme> the signaling cascade that is mediated by IL-1 receptor as well as IL-18 receptor.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<cause idref="T31" />
+<clue>Taken together, these results demonstrate that MyD88 is a critical component in the signaling cascade that is <clueType>mediated</clueType> <linkCause>by</linkCause> IL-1 receptor as well as IL-18 receptor.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<cause idref="T33" />
+<clue>Taken together, these results demonstrate that MyD88 is a critical component in the signaling cascade that is <clueType>mediated</clueType> <linkCause>by</linkCause> IL-1 receptor as well as IL-18 receptor.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="23/05/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8642282">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8642282</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A <term sem="DNA_family_or_group" id="A1"><term sem="DNA_family_or_group" id="T1" lex="cell_type-specific_enhancer">cell type-specific enhancer</term> in the <term sem="DNA_domain_or_region" id="T2" lex="human_B7.1_gene">human B7.1 gene</term></term> regulated by <term sem="Protein_complex" id="T3" lex="NF-kappaB">NF-kappaB</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="A1" />
+<cause idref="T3" />
+<clue>A cell type-specific enhancer in the human B7.1 gene <clueType>regulated</clueType> <linkCause>by</linkCause> NF-kappaB.</clue>
+<comment>TPS: A1</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_molecule" id="T4" lex="costimulatory_molecule_B7.1">costimulatory molecule B7.1</term> provides a <term sem="Other" id="A50"><term sem="Other" id="A51">second signal</term> critical for <term sem="Other" id="T5" lex="T_cell_activation"><term sem="Cell_natural" id="A2">T cell</term> activation</term>.</term></sentence>
+<event id="E2">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<clue>The costimulatory molecule B7.1 provides a second signal critical for T cell <clueType>activation</clueType>.</clue>
+</event>
+<event id="E20">
+<type class="Cell_communication" />
+<theme idref="A50" />
+<clue>The costimulatory molecule B7.1 <clueType>provides</clueType> a second <clueType>signal</clueType> critical <linkTheme>for</linkTheme> T cell activation.</clue>
+<comment>TPS: A50</comment>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="A51" />
+<clue>The costimulatory molecule B7.1 provides a second signal <clueType>critical</clueType> <linkTheme>for</linkTheme> T cell activation.</clue>
+</event>
+<sentence id="S3">The distribution of this <term sem="Protein_family_or_group" id="T6" lex="integral_membrane_protein">integral membrane protein</term> is restricted to certain tissues where its level of expression is modulated by <term sem="Other" id="T7" lex="multiple_exogenous_stimuli">multiple exogenous stimuli</term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>The <clueType>distribution</clueType> <linkTheme>of</linkTheme> <corefTheme>this integral membrane protein</corefTheme> is restricted to certain tissues where its level of expression is modulated by multiple exogenous stimuli.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>The distribution of this integral membrane protein is restricted to certain tissues where <corefTheme>its</corefTheme> level of <clueType>expression</clueType> is modulated by multiple exogenous stimuli.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="T7" />
+<clue>The distribution of this integral membrane protein is restricted to certain tissues where its level of expression is <clueType>modulated</clueType> <linkCause>by</linkCause> multiple exogenous stimuli.</clue>
+</event>
+<sentence id="S4">To identify the molecular basis for specificity and inducibility, the <term sem="Other" id="T8" lex="chromatin_configuration"><term sem="DNA_family_or_group" id="T9" lex="chromatin">chromatin</term> configuration</term> of the <term sem="DNA_domain_or_region" id="T10" lex="human_B7.1_gene">human B7.1 gene</term> was examined in intact <term sem="Cell_component" id="T11" lex="nuclei">nuclei</term> from various cell types.</sentence>
+<sentence id="S5">The identification of a tissue-specific <term sem="DNA_domain_or_region" id="A3"><term sem="DNA_domain_or_region" id="T12" lex="deoxyribonuclease_I_hypersensitive_site"><term sem="Protein_molecule" id="T13" lex="deoxyribonuclease_I">deoxyribonuclease I</term> hypersensitive site</term> approximately <term sem="DNA_domain_or_region" id="T14" lex="3kb_upstream">3kb upstream</term> of the <term sem="DNA_domain_or_region" id="T15" lex="transcription_start_site">transcription start site</term></term> led to the characterization of a <term sem="DNA_domain_or_region" id="T16" lex="cell_type-specific_enhancer_region"><term sem="DNA_family_or_group" id="T17" lex="cell_type-specific_enhancer">cell type-specific enhancer</term> region</term>.</sentence>
+<sentence id="S6">This <term sem="DNA_domain_or_region" id="T18" lex="183-bp_region">183-bp region</term> was both cell type specific and responsive to two distinct stimuli, <term sem="Lipid" id="T19" lex="lipopolysaccharide">lipopolysaccharide</term> and <term sem="Nucleotide" id="T20" lex="dibutyryl_cAMP">dibutyryl cAMP</term>, known to regulate <term sem="Other" id="T21" lex="B7.1_expression"><term sem="Protein_molecule" id="T22" lex="B7.1">B7.1</term> expression</term>.</sentence>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>This 183-bp region was both cell type specific and responsive to two distinct stimuli, lipopolysaccharide and dibutyryl cAMP, known to regulate B7.1 <clueType>expression</clueType>.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="T19" />
+<clue>This 183-bp region was both cell type specific and responsive to two distinct stimuli, lipopolysaccharide and dibutyryl cAMP, known to <clueType>regulate</clueType> B7.1 expression.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="T20" />
+<clue>This 183-bp region was both cell type specific and responsive to two distinct stimuli, lipopolysaccharide and dibutyryl cAMP, known to <clueType>regulate</clueType> B7.1 expression.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="A3" />
+<cause idref="T19" />
+<clue><corefTheme>This 183-bp region</corefTheme> was both cell type specific and <clueType>responsive</clueType> <linkCause>to</linkCause> two distinct stimuli, lipopolysaccharide and dibutyryl cAMP, known to regulate B7.1 expression.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="A3" />
+<cause idref="T20" />
+<clue><corefTheme>This 183-bp region</corefTheme> was both cell type specific and <clueType>responsive</clueType> <linkCause>to</linkCause> two distinct stimuli, lipopolysaccharide and dibutyryl cAMP, known to regulate B7.1 expression.</clue>
+</event>
+<sentence id="S7"><term sem="Other" id="T23" lex="deletional_mutagenesis">Deletional</term> and <term sem="Other" id="T24" lex="site-directed_mutagenesis">site-directed mutagenesis</term> revealed the presence of multiple functionally critical <term sem="DNA_family_or_group" id="T25" lex="cis_element">cis elements</term> within this region, one of which was a <term sem="DNA_domain_or_region" id="T26" lex="nuclear_factor_(NF)-kappaB_consensus_sequence">nuclear factor (NF)-kappaB consensus sequence</term>.</sentence>
+<sentence id="S8">In <term sem="Cell_natural" id="T27" lex="B7.1-positive_B_cell"><term sem="Protein_molecule" id="T28" lex="B7.1">B7.1</term>-positive B cells</term>, this element bound several <term sem="Protein_family_or_group" id="A5">members of the <term sem="Protein_family_or_group" id="T29" lex="NF-kappaB_family">NF-kappaB family</term></term>, <term sem="Protein_family_or_group" id="T30" lex="transcription_factor">transcription factors</term> already implicated in <term sem="Other" id="T31" lex="signal_transduction_pathway">signal transduction pathways</term> relevant to <term sem="Other" id="T32" lex="B7.1_expression"><term sem="Protein_molecule" id="T33" lex="B7.1">B7.1</term> expression</term>.</sentence>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="A5" />
+<clue><clueLoc>In B7.1-positive B cells</clueLoc>, <corefTheme idref1="T26">this element</corefTheme> <clueType>bound</clueType> several members of the NF-kappaB family, transcription factors already implicated in signal transduction pathways relevant to B7.1 expression.</clue>
+<comment>TPS: A5</comment>
+</event>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>In B7.1-positive B cells, this element bound several members of the NF-kappaB family, transcription factors already implicated in signal transduction pathways relevant to B7.1 <clueType>expression</clueType>.</clue>
+</event>
+<event id="E13">
+<type class="Correlation" />
+<theme idref="E12" />
+<theme idref="T31" />
+<clue>In B7.1-positive B cells, this element bound several members of the NF-kappaB family, transcription factors already implicated in signal transduction pathways <clueType>relevant</clueType> <linkTheme>to</linkTheme> B7.1 expression.</clue>
+</event>
+<event id="E14">
+<type class="Correlation" />
+<theme idref="A5" />
+<theme idref="T31" />
+<clue>In B7.1-positive B cells, this element bound several members of the NF-kappaB family, transcription factors already <clueType>implicated</clueType> <linkTheme>in</linkTheme> signal transduction pathways relevant to B7.1 expression.</clue>
+</event>
+<event id="E51">
+<type class="Gene_expression" />
+<theme idref="T28" />
+<clue>In B7.1-<clueType>positive</clueType> <clueLoc>B cells</clueLoc>, this element bound several members of the NF-kappaB family, transcription factors already implicated in signal transduction pathways relevant to B7.1 expression.</clue>
+</event>
+<sentence id="S9">This is the first description, to our knowledge, of <term sem="DNA_family_or_group" id="T34" lex="regulatory_element">regulatory elements</term> that control expression of a gene encoding a <term sem="Protein_family_or_group" id="T35" lex="B7_costimulatory_molecule">B7 costimulatory molecule</term>.</sentence>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>This is the first description, to our knowledge, of regulatory elements that control <clueType>expression</clueType> <linkTheme>of</linkTheme> a gene encoding a B7 costimulatory molecule.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="T34" />
+<clue>This is the first description, to our knowledge, of regulatory elements that <clueType>control</clueType> expression of a gene encoding a B7 costimulatory molecule.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

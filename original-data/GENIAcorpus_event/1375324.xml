@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1375324" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1375324</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term sem="DNA_domain_or_region" id="A1"><term sem="DNA_domain_or_region" id="T1" lex="promoter">promoter</term> of the <term sem="DNA_domain_or_region" id="T2" lex="CD19_gene">CD19 gene</term></term> is a target for the <term sem="Protein_family_or_group" id="T3" lex="B-cell-specific_transcription_factor">B-cell-specific transcription factor</term> <term sem="Protein_molecule" id="T4" lex="BSAP">BSAP</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T4" />
+<clue>The promoter of the CD19 gene is a <clueType>target</clueType> <linkTheme>for</linkTheme> the B-cell-specific transcription factor BSAP.</clue>
+<comment>TPS: A1</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_molecule" id="T5" lex="CD19_protein">CD19 protein</term> is expressed on the surface of all <term sem="Cell_natural" id="T6" lex="B-lymphoid_cell">B-lymphoid cells</term> with the exception of <term sem="Cell_natural" id="T7" lex="terminally_differentiated_plasma_cell">terminally differentiated <term sem="Cell_natural" id="A4">plasma cells</term></term> and has been implicated as a signal-transducing receptor in the control of <term sem="Other" id="A2" lex="proliferation">proliferation</term> and <term sem="Other" id="A3" lex="differentiation">differentiation</term>.</sentence>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>The CD19 protein is <clueType>expressed</clueType> <clueLoc>on the surface of all B-lymphoid cells</clueLoc> with the exception of terminally differentiated plasma cells and has been implicated as a signal-transducing receptor in the control of proliferation and differentiation.</clue>
+</event>
+<event assertion="non-exist" id="E3">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>The CD19 protein is <clueType>expressed</clueType> on the surface of all B-lymphoid cells <clueType>with the exception</clueType> <clueLoc>of terminally differentiated plasma cells</clueLoc> and has been implicated as a signal-transducing receptor in the control of proliferation and differentiation.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="T5" />
+<clue>The CD19 protein is expressed on the surface of all B-lymphoid cells with the exception of terminally differentiated plasma cells and has been <clueType>implicated</clueType> as a signal-transducing receptor <linkTheme>in</linkTheme> the control of proliferation and differentiation.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="T5" />
+<clue>The CD19 protein is expressed on the surface of all B-lymphoid cells with the exception of terminally differentiated plasma cells and has been <clueType>implicated</clueType> as a signal-transducing receptor <linkTheme>in</linkTheme> the control of proliferation and differentiation.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="A2" />
+<clue>The CD19 protein is expressed on the surface of all B-lymphoid cells with the exception of terminally differentiated plasma cells and has been implicated as a signal-transducing receptor in the <clueType>control</clueType> <linkTheme>of</linkTheme> proliferation and differentiation.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="A3" />
+<clue>The CD19 protein is expressed on the surface of all B-lymphoid cells with the exception of terminally differentiated plasma cells and has been implicated as a signal-transducing receptor in the <clueType>control</clueType> <linkTheme>of</linkTheme> proliferation and differentiation.</clue>
+</event>
+<event id="E8">
+<type class="Cell_differentiation" />
+<theme idref="A4" />
+<clue>The CD19 protein is expressed on the surface of all B-lymphoid cells with the exception of terminally <clueType>differentiated</clueType> plasma cells and has been implicated as a signal-transducing receptor in the control of proliferation and differentiation.</clue>
+</event>
+<sentence id="S3">Here we demonstrate complete correlation between the expression pattern of the <term sem="DNA_domain_or_region" id="T8" lex="CD19_gene">CD19 gene</term> and the <term sem="Protein_family_or_group" id="T9" lex="B-cell-specific_transcription_factor">B-cell-specific transcription factor</term> <term sem="Protein_molecule" id="T10" lex="BSAP">BSAP</term> in a large panel of <term sem="Cell_cultured" id="T11" lex="B-lymphoid_cell_line">B-lymphoid cell lines</term>.</sentence>
+<event id="E9">
+<type class="Correlation" />
+<theme idref="E10" />
+<theme idref="T10" />
+<clue>Here we demonstrate complete <clueType>correlation</clueType> <linkTheme>between</linkTheme> the expression pattern of the CD19 gene and the B-cell-specific transcription factor BSAP <clueLoc>in a large panel of B-lymphoid cell lines</clueLoc>.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>Here we demonstrate complete correlation between the <clueType>expression</clueType> pattern <linkTheme>of</linkTheme> the CD19 gene and the B-cell-specific transcription factor BSAP in a large panel of B-lymphoid cell lines.</clue>
+</event>
+<sentence id="S4">The <term sem="DNA_domain_or_region" id="T12" lex="human_CD19_gene">human <term sem="DNA_domain_or_region" id="T13" lex="CD19_gene">CD19 gene</term></term> has been cloned, and several <term sem="DNA_domain_or_region" id="T14" lex="BSAP-binding_site"><term sem="Protein_molecule" id="T15" lex="BSAP">BSAP</term>-binding sites</term> have been mapped by in vitro protein-DNA binding studies.</sentence>
+<sentence id="S5">In particular, a <term sem="DNA_domain_or_region" id="T17" lex="high-affinity_BSAP-binding_site">high-affinity BSAP-binding site</term> instead of a <term sem="DNA_domain_or_region" id="T18" lex="TATA_sequence">TATA sequence</term> is located in the <term sem="DNA_domain_or_region" id="T19" lex="-30_promoter_region">-30 promoter region</term> upstream of a cluster of <term sem="DNA_substructure" id="T20" lex="heterogeneous_transcription_start_site">heterogeneous transcription start sites</term>.</sentence>
+<sentence id="S6">Moreover, this site is occupied by <term sem="Protein_molecule" id="T21" lex="BSAP">BSAP</term> in vivo in a <term sem="Cell_cultured" id="T22" lex="CD19-expressing_B-cell_line">CD19-expressing <term sem="Cell_cultured" id="T23" lex="B-cell_line">B-cell line</term></term> but not in <term sem="Cell_natural" id="T24" lex="plasma_cell">plasma</term> or <term sem="Cell_cultured" id="T25" lex="HeLa_cell">HeLa cells</term>.</sentence>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T17" />
+<theme idref="T21" />
+<clue>Moreover, <corefTheme>this site</corefTheme> is <clueType>occupied</clueType> <linkTheme>by</linkTheme> BSAP in vivo <clueLoc>in a CD19-expressing B-cell line</clueLoc> but not in plasma or HeLa cells.</clue>
+</event>
+<event assertion="non-exist" id="E12">
+<type class="Binding" />
+<theme idref="T17" />
+<theme idref="T21" />
+<clue>Moreover, <corefTheme>this site</corefTheme> is <clueType>occupied</clueType> <linkTheme>by</linkTheme> BSAP in vivo in a CD19-expressing B-cell line but not <clueLoc>in plasma</clueLoc> or HeLa <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E13">
+<type class="Binding" />
+<theme idref="T17" />
+<theme idref="T21" />
+<clue>Moreover, <corefTheme>this site</corefTheme> is <clueType>occupied</clueType> <linkTheme>by</linkTheme> BSAP in vivo in a CD19-expressing B-cell line but not <clueLoc>in</clueLoc> plasma or <clueLoc>HeLa cells</clueLoc>.</clue>
+</event>
+<sentence id="S7">This <term sem="DNA_domain_or_region" id="T26" lex="high-affinity_site">high-affinity site</term> has been conserved in the <term sem="DNA_domain_or_region" id="T27" lex="promoters">promoters</term> of both <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T28" lex="(AND human_CD19_gene mouse_CD19_gene)"><frag id="F1">human</frag> and <frag id="F2">mouse</frag> <frag id="F3">CD19 genes</frag></cons> and was furthermore shown to confer <term sem="Other" id="T29" lex="B-cell_specificity">B-cell specificity</term> to a <term sem="DNA_domain_or_region" id="A5">beta-globin reporter gene</term> in <term sem="Other" id="T30" lex="transient_transfection_experiment">transient transfection experiments</term>.</sentence>
+<sentence id="S8">In addition, <term sem="Protein_molecule" id="T31" lex="BSAP">BSAP</term> was found to be the only abundant <term sem="Other" id="T32" lex="DNA-binding_activity"><term sem="DNA_domain_or_region" id="A6" lex="DNA">DNA</term>-binding activity</term> of <term sem="Cell_component" id="T33" lex="B-cell_nuclear_extract">B-cell nuclear extracts</term> that interacts with the <term sem="DNA_domain_or_region" id="T34" lex="CD19_promoter">CD19 promoter</term>.</sentence>
+<event id="E15">
+<type class="Binding" />
+<theme idref="T31" />
+<theme idref="A6" />
+<clue>In addition, BSAP was found to be the only abundant DNA-<clueType>binding</clueType> activity of B-cell nuclear extracts that interacts with the CD19 promoter.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T31" />
+<theme idref="T34" />
+<clue>In addition, BSAP was found to be the only abundant DNA-binding activity of B-cell nuclear extracts that <clueType>interacts</clueType> <linkTheme>with</linkTheme> the CD19 promoter.</clue>
+</event>
+<sentence id="S9">Together, this evidence strongly implicates <term sem="Protein_molecule" id="T35" lex="BSAP">BSAP</term> in the regulation of the <term sem="DNA_domain_or_region" id="T36" lex="CD19_gene">CD19 gene</term>.</sentence>
+<event uncertainty="probable" id="E17">
+<type class="Regulation" />
+<theme idref="T36" />
+<cause idref="T35" />
+<clue>Together, this evidence strongly implicates BSAP in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> the CD19 gene.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

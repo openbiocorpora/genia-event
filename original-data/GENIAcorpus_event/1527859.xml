@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="03/04/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1527859">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1527859</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="human_immunodeficiency_virus_type_1_Nef_protein"><term sem="Virus" id="T2" lex="human_immunodeficiency_virus_type_1">Human immunodeficiency virus type 1</term> Nef protein</term> inhibits <term sem="Other" id="T3" lex="NF-kappa_B_induction"><term sem="Protein_molecule" id="T4" lex="NF-kappa_B">NF-kappa B</term> induction</term> in <term sem="Cell_natural" id="T5" lex="human_T_cells">human T cells</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<cause idref="T4" />
+<clue>Human immunodeficiency virus type 1 Nef protein inhibits NF-kappa B <clueType>induction</clueType> in human T cells.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Human immunodeficiency virus type 1 Nef protein <clueType>inhibits</clueType> NF-kappa B induction <clueLoc>in human T cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Virus" id="T6" lex="human_immunodeficiency_virus_type_1">Human immunodeficiency virus type 1</term> (<term sem="Virus" id="T7" lex="HIV-1">HIV-1</term>) can establish a persistent and latent infection in <term sem="Cell_natural" id="T8" lex="CD4+_T_lymphocyte">CD4+ T lymphocytes</term> (W.C.Greene, N.Engl.J. Med.324:308-317, 1991; S.M.Schnittman, M.C.Psallidopoulos, H.C. Lane, L.Thompson, M.Baseler, F.Massari, C.H.Fox, N.P.Salzman, and A.S.Fauci, Science 245:305-308, 1989).</sentence>
+<event id="E3">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T8" />
+<theme idref="T7" />
+<clue>Human immunodeficiency virus type 1 (HIV-1) can <clueType>establish</clueType> a persistent and latent <clueType>infection</clueType> <clueLoc>in CD4+ T lymphocytes</clueLoc> (W.C.Greene, N.Engl.J. Med.324:308-317, 1991; S.M.Schnittman, M.C.Psallidopoulos, H.C. Lane, L.Thompson, M.Baseler, F.Massari, C.H.Fox, N.P.Salzman, and A.S.Fauci, Science 245:305-308, 1989).</clue>
+</event>
+<sentence id="S3">Production of <term sem="Virus" id="T9" lex="HIV-1">HIV-1</term> from latently infected cells requires <term sem="Cell_natural" id="A1">host cell</term> activation by <term sem="Protein_family_or_group" id="T10" lex="T-cell_mitogen">T-cell mitogens</term> (T.Folks, D.M.Powell, M.M.Lightfoote, S.Benn, M.A. Martin, and A.S.Fauci, Science 231:600-602, 1986; D.Zagury, J. Bernard, R.Leonard, R.Cheynier, M.Feldman, P.S.Sarin, and R.C. Gallo, Science 231:850-853, 1986).</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue><clueType>Production</clueType> of HIV-1 <clueLoc>from latently infected cells</clueLoc> requires host cell activation by T-cell mitogens (T.Folks, D.M.Powell, M.M.Lightfoote, S.Benn, M.A. Martin, and A.S.Fauci, Science 231:600-602, 1986; D.Zagury, J. Bernard, R.Leonard, R.Cheynier, M.Feldman, P.S.Sarin, and R.C. Gallo, Science 231:850-853, 1986).</clue>
+</event>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<cause idref="T10" />
+<clue>Production of HIV-1 from latently infected cells requires host cell <clueType>activation</clueType> <linkTheme>by</linkTheme> T-cell mitogens (T.Folks, D.M.Powell, M.M.Lightfoote, S.Benn, M.A. Martin, and A.S.Fauci, Science 231:600-602, 1986; D.Zagury, J. Bernard, R.Leonard, R.Cheynier, M.Feldman, P.S.Sarin, and R.C. Gallo, Science 231:850-853, 1986).</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E5" />
+<clue>Production of HIV-1 from latently infected cells <clueType>requires</clueType> host cell activation by T-cell mitogens (T.Folks, D.M.Powell, M.M.Lightfoote, S.Benn, M.A. Martin, and A.S.Fauci, Science 231:600-602, 1986; D.Zagury, J. Bernard, R.Leonard, R.Cheynier, M.Feldman, P.S.Sarin, and R.C. Gallo, Science 231:850-853, 1986).</clue>
+</event>
+<sentence id="S4">This activation is mediated by the <term sem="Protein_family_or_group" id="T11" lex="host_transcription_factor">host transcription factor</term> <term sem="Protein_molecule" id="T12" lex="NF-kappa_B">NF-kappa B</term> [G.Nabel and D.Baltimore, Nature (London) 326:711-717, 1987].</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T12" />
+<clue><corefTheme>This activation</corefTheme> is <clueType>mediated</clueType> <linkTheme>by</linkTheme> the host transcription factor NF-kappa B [G.Nabel and D.Baltimore, Nature (London) 326:711-717, 1987].</clue>
+</event>
+<sentence id="S5">We report here that the <term sem="Protein_molecule" id="T13" lex="HIV-1-encoded_Nef_protein"><term sem="Virus" id="T14" lex="HIV-1">HIV-1</term>-encoded Nef protein</term> inhibits the induction of <term sem="Other" id="T15" lex="NF-kappa_B_DNA-binding_activity"><term sem="Protein_molecule" id="T16" lex="NF-kappa_B">NF-kappa B</term> <term sem="DNA_domain_or_region" id="A2">DNA</term>-binding activity</term> by <term sem="Protein_family_or_group" id="T17" lex="T-_cell_mitogen">T- cell mitogens</term>.</sentence>
+<event id="E8">
+<type class="Binding" />
+<theme idref="T16" />
+<theme idref="A2" />
+<clue>We report here that the HIV-1-encoded Nef protein inhibits the induction of NF-kappa B DNA-<clueType>binding</clueType> activity by T- cell mitogens.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T17" />
+<clue>We report here that the HIV-1-encoded Nef protein inhibits the <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-kappa B DNA-binding activity <linkCause>by</linkCause> T- cell mitogens.</clue>
+</event>
+<event id="E41">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="T13" />
+<clue>We report here that the HIV-1-encoded Nef protein <clueType>inhibits</clueType> the induction of NF-kappa B DNA-binding activity by T- cell mitogens.</clue>
+</event>
+<sentence id="S6">However, <term sem="Protein_molecule" id="T18" lex="Nef">Nef</term> does not affect the <term sem="DNA_domain_or_region" id="A3">DNA</term>-binding activity of other <term sem="Protein_family_or_group" id="T19" lex="transcription_factor">transcription factors</term> implicated in <term sem="Other" id="T20" lex="HIV-1_regulation"><term sem="Virus" id="T21" lex="HIV-1">HIV-1</term> regulation</term>, including <term sem="Protein_molecule" id="T22" lex="SP-1">SP-1</term>, <term sem="Protein_molecule" id="T23" lex="USF">USF</term>, <term sem="Protein_molecule" id="T24" lex="URS">URS</term>, and <term sem="Protein_molecule" id="T25" lex="NF-AT">NF-AT</term>.</sentence>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="T21" />
+<clue>However, Nef does not affect the DNA-binding activity of other transcription factors implicated in HIV-1 <clueType>regulation</clueType>, including SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T22" />
+<clue>However, Nef does not affect the DNA-binding activity of other <corefCause>transcription factors</corefCause> <clueType>implicated</clueType> <linkTheme>in</linkTheme> HIV-1 regulation, <linkCause>including</linkCause> SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T23" />
+<clue>However, Nef does not affect the DNA-binding activity of other <corefCause>transcription factors</corefCause> <clueType>implicated</clueType> <linkTheme>in</linkTheme> HIV-1 regulation, <linkCause>including</linkCause> SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T24" />
+<clue>However, Nef does not affect the DNA-binding activity of other <corefCause>transcription factors</corefCause> <clueType>implicated</clueType> <linkTheme>in</linkTheme> HIV-1 regulation, <linkCause>including</linkCause> SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T25" />
+<clue>However, Nef does not affect the DNA-binding activity of other <corefCause>transcription factors</corefCause> <clueType>implicated</clueType> <linkTheme>in</linkTheme> HIV-1 regulation, <linkCause>including</linkCause> SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<event id="E15">
+<type class="Binding" />
+<theme idref="A3" />
+<theme idref="T22" />
+<clue>However, Nef does not affect the DNA-<clueType>binding</clueType> activity <linkTheme>of</linkTheme> <corefTheme>other transcription factors</corefTheme> implicated in HIV-1 regulation, including SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="A3" />
+<theme idref="T23" />
+<clue>However, Nef does not affect the DNA-<clueType>binding</clueType> activity <linkTheme>of</linkTheme> <corefTheme>other transcription factors</corefTheme> implicated in HIV-1 regulation, including SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<event id="E17">
+<type class="Binding" />
+<theme idref="A3" />
+<theme idref="T24" />
+<clue>However, Nef does not affect the DNA-<clueType>binding</clueType> activity <linkTheme>of</linkTheme> <corefTheme>other transcription factors</corefTheme> implicated in HIV-1 regulation, including SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<event id="E18">
+<type class="Binding" />
+<theme idref="A3" />
+<theme idref="T25" />
+<clue>However, Nef does not affect the DNA-<clueType>binding</clueType> activity <linkTheme>of</linkTheme> <corefTheme>other transcription factors</corefTheme> implicated in HIV-1 regulation, including SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="T18" />
+<clue>However, Nef does not <clueType>affect</clueType> the DNA-binding activity of other transcription factors implicated in HIV-1 regulation, including SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<event assertion="non-exist" id="E20">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="T18" />
+<clue>However, Nef does not <clueType>affect</clueType> the DNA-binding activity of other transcription factors implicated in HIV-1 regulation, including SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Regulation" />
+<theme idref="E17" />
+<cause idref="T18" />
+<clue>However, Nef does not <clueType>affect</clueType> the DNA-binding activity of other transcription factors implicated in HIV-1 regulation, including SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Regulation" />
+<theme idref="E18" />
+<cause idref="T18" />
+<clue>However, Nef does not <clueType>affect</clueType> the DNA-binding activity of other transcription factors implicated in HIV-1 regulation, including SP-1, USF, URS, and NF-AT.</clue>
+</event>
+<sentence id="S7">Additionally, <term sem="Protein_molecule" id="T26" lex="Nef">Nef</term> inhibits the induction of <cons sem="(AND Other Other)" id="T27" lex="(AND HIV-1-directed_gene_expression interleukin_2-directed_gene_expression)"><frag id="F1"><term sem="Virus" id="A4">HIV-1</term>-</frag> and <frag id="F2"><term sem="Protein_molecule" id="A5">interleukin 2</term>-</frag><frag id="F3">directed <term sem="Other" id="A6">gene expression</term></frag></cons>, and the effect on <term sem="Other" id="T28" lex="HIV-1_transcription"><term sem="Virus" id="T29" lex="HIV-1">HIV-1</term> transcription</term> depends on an intact <term sem="DNA_domain_or_region" id="T30" lex="NF-kappa_B-binding_site"><term sem="Protein_molecule" id="T31" lex="NF-kappa_B">NF-kappa B</term>-binding site</term>.</sentence>
+<event id="E24">
+<type class="Regulation" />
+<theme idref="A6" />
+<cause idref="A4" />
+<clue>Additionally, Nef inhibits the induction of HIV-1- and interleukin 2-<clueType>directed</clueType> gene expression, and the effect on HIV-1 transcription depends on an intact NF-kappa B-binding site.</clue>
+</event>
+<event id="E25">
+<type class="Regulation" />
+<theme idref="A6" />
+<cause idref="A5" />
+<clue>Additionally, Nef inhibits the induction of HIV-1- and interleukin 2-<clueType>directed</clueType> gene expression, and the effect on HIV-1 transcription depends on an intact NF-kappa B-binding site.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<clue>Additionally, Nef inhibits the <clueType>induction</clueType> <linkTheme>of</linkTheme> HIV-1- and interleukin 2-directed gene expression, and the effect on HIV-1 transcription depends on an intact NF-kappa B-binding site.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<clue>Additionally, Nef inhibits the <clueType>induction</clueType> <linkTheme>of</linkTheme> HIV-1- and interleukin 2-directed gene expression, and the effect on HIV-1 transcription depends on an intact NF-kappa B-binding site.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="E26" />
+<cause idref="T26" />
+<clue>Additionally, Nef <clueType>inhibits</clueType> the induction of HIV-1- and interleukin 2-directed gene expression, and the effect on HIV-1 transcription depends on an intact NF-kappa B-binding site.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="E27" />
+<cause idref="T26" />
+<clue>Additionally, Nef <clueType>inhibits</clueType> the induction of HIV-1- and interleukin 2-directed gene expression, and the effect on HIV-1 transcription depends on an intact NF-kappa B-binding site.</clue>
+</event>
+<event id="E30">
+<type class="Transcription" />
+<theme idref="T29" />
+<clue>Additionally, Nef inhibits the induction of HIV-1- and interleukin 2-directed gene expression, and the effect on HIV-1 <clueType>transcription</clueType> depends on an intact NF-kappa B-binding site.</clue>
+</event>
+<event id="E31">
+<type class="Regulation" />
+<theme idref="E30" />
+<cause idref="T26" />
+<clue>Additionally, Nef inhibits the induction of HIV-1- and interleukin 2-directed gene expression, and the <clueType>effect</clueType> <linkTheme>on</linkTheme> HIV-1 transcription depends on an intact NF-kappa B-binding site.</clue>
+<comment>No corefCause</comment>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<cause idref="T30" />
+<clue>Additionally, Nef inhibits the induction of HIV-1- and interleukin 2-directed gene expression, and the effect on HIV-1 transcription <clueType>depends</clueType> <linkTheme>on</linkTheme> an intact NF-kappa B-binding site.</clue>
+</event>
+<sentence id="S8">These results indicate that defective recruitment of <term sem="Protein_molecule" id="T32" lex="NF-kappa_B">NF-kappa B</term> may underlie <term sem="Protein_molecule" id="T33" lex="Nef">Nef</term>'s negative <term sem="Other" id="T34" lex="transcriptional_effect">transcriptional effects</term> on the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T35" lex="(AND HIV-1_promoter interleukin_2_promoter)"><frag id="F4"><term sem="DNA_domain_or_region" id="A10">HIV-1</term></frag> and <frag id="F5"><term sem="DNA_domain_or_region" id="A11">interleukin 2</term></frag> <frag id="F6"><term sem="DNA_domain_or_region" id="A13">promoters</term></frag></cons>.</sentence>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref1="A13" idref="A10" />
+<clue>These results indicate that defective recruitment of NF-kappa B may underlie Nef's <clueType>negative transcriptional effects</clueType> <linkTheme>on</linkTheme> the HIV-1 and interleukin 2 promoters.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref1="A13" idref="A11" />
+<clue>These results indicate that defective recruitment of NF-kappa B may underlie Nef's <clueType>negative transcriptional effects</clueType> <linkTheme>on</linkTheme> the HIV-1 and interleukin 2 promoters.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<cause idref="T33" />
+<clue>These results indicate that <clueType>defective recruitment</clueType> <linkTheme>of</linkTheme> NF-kappa B may underlie Nef's negative transcriptional effects on the HIV-1 and interleukin 2 promoters.</clue>
+</event>
+<event uncertainty="probable" id="E36">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="E35" />
+<clue>These results indicate that defective recruitment of NF-kappa B may <clueType>underlie</clueType> Nef's negative transcriptional effects on the HIV-1 and interleukin 2 promoters.</clue>
+</event>
+<event uncertainty="probable" id="E37">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="E35" />
+<clue>These results indicate that defective recruitment of NF-kappa B may <clueType>underlie</clueType> Nef's negative transcriptional effects on the HIV-1 and interleukin 2 promoters.</clue>
+</event>
+<sentence id="S9">Further evidence suggests that <term sem="Protein_molecule" id="T36" lex="Nef">Nef</term> inhibits <term sem="Other" id="T37" lex="NF-kappa_B_induction"><term sem="Protein_molecule" id="T38" lex="NF-kappa_B">NF-kappa B</term> induction</term> by interfering with a <term sem="Other" id="A14">signal</term> derived from the <term sem="Protein_complex" id="T39" lex="T-cell_receptor_complex">T-cell receptor complex</term>.</sentence>
+<event id="E101">
+<type class="Positive_regulation" />
+<theme idref="A14" />
+<cause idref="T39" />
+<clue>Further evidence suggests that Nef inhibits NF-kappa B induction by interfering with a signal <clueType>derived</clueType> <linkCause>from</linkCause> the T-cell receptor complex.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation" />
+<theme idref="E101" />
+<cause idref="T36" />
+<clue>Further evidence suggests that Nef inhibits NF-kappa B induction by <clueType>interfering</clueType> <linkTheme>with</linkTheme> a signal derived from the T-cell receptor complex.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<cause idref="T38" />
+<clue>Further evidence suggests that Nef inhibits NF-kappa B <clueType>induction</clueType> by interfering with a signal derived from the T-cell receptor complex.</clue>
+</event>
+<event uncertainty="probable" id="E40">
+<type class="Negative_regulation" />
+<theme idref="E39" />
+<cause idref="E38" />
+<clue>Further evidence suggests that Nef <clueType>inhibits</clueType> NF-kappa B induction <linkCause>by</linkCause> interfering with a signal derived from the T-cell receptor complex.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

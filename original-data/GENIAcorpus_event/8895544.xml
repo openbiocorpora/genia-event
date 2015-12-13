@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="25/08/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8895544"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8895544</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="T1" lex="interferon">Interferons</term> induce normal and aberrant <term sem="Protein_family_or_group" id="T2" lex="retinoic-acid_receptors_type_alpha"><term sem="Carbohydrate" id="A1">retinoic-acid</term> receptors type alpha</term> in <term sem="Cell_natural" id="T3" lex="acute_promyelocytic_leukemia_cell">acute promyelocytic leukemia cells</term>: potentiation of the induction of <term sem="Protein_family_or_group" id="T4" lex="retinoid-dependent_differentiation_marker"><term sem="Organic_compound_other" id="T5" lex="retinoid">retinoid</term>-dependent <term sem="Other" id="T6" lex="differentiation_marker">differentiation</term> markers</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<cause idref="T1" />
+<clue>Interferons <clueType>induce</clueType> normal and aberrant retinoic-acid receptors type alpha <clueLoc>in acute promyelocytic leukemia cells</clueLoc>: potentiation of the induction of retinoid-dependent differentiation markers.</clue>
+<comment>NER T4,T6 MOD</comment></event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<cause idref="T5" />
+<clue>Interferons induce normal and aberrant retinoic-acid receptors type alpha in acute promyelocytic leukemia cells: potentiation of the induction of retinoid-<clueType>dependent</clueType> differentiation markers.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<clue>Interferons induce normal and aberrant retinoic-acid receptors type alpha in acute promyelocytic leukemia cells: potentiation of the <clueType>induction</clueType> <linkTheme>of</linkTheme> retinoid-dependent differentiation markers.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T1" />
+<clue>Interferons induce normal and aberrant retinoic-acid receptors type alpha in acute promyelocytic leukemia cells: <clueType>potentiation</clueType> <linkTheme>of</linkTheme> the induction of retinoid-dependent differentiation markers.</clue>
+<comment>NO COREFCAUSE</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Treatment of the <term sem="Cell_cultured" id="T7" lex="acute_promyelocytic_(APL)_cell_line">acute promyelocytic (APL) cell line</term> <term sem="Cell_cultured" id="T8" lex="NB4">NB4</term> with <term sem="Protein_molecule" id="T9" lex="interferon_alpha">interferon alpha</term> (<term sem="Protein_molecule" id="T10" lex="IFN(alpha)">IFN(alpha)</term>), as well as <cons sem="(AND Protein_molecule Protein_molecule)" id="T11" lex="(AND IFN(beta) IFN_gamma)"><frag id="F1">IFN</frag>(<frag id="F2">beta</frag>) and <frag id="F3">gamma</frag></cons>, results in an increased expression of the <term sem="RNA_molecule" id="A5">transcripts coding for</term> <term sem="Protein_molecule" id="T12" lex="retinoic-acid_receptor_type_alpha">retinoic-acid receptor type alpha</term> (<term sem="RNA_molecule" id="A6"><term sem="Protein_molecule" id="T13" lex="RAR(alpha)">RAR(alpha)</term></term>) and the <term sem="Protein_family_or_group" id="T14" lex="leukemia-specific_retinoic_acid_receptor">leukemia-specific retinoic acid receptor</term> <term sem="RNA_molecule" id="A7"><term sem="Protein_molecule" id="T15" lex="PML-RAR">PML-RAR</term></term>.</sentence>
+<event id="E5">
+<type class="Transcription" />
+<theme idref1="A6" idref="A5" />
+<clue>Treatment of the acute promyelocytic (APL) cell line NB4 with interferon alpha (IFN(alpha)), as well as IFN(beta) and gamma, results in an increased <clueType>expression</clueType> <linkTheme>of</linkTheme> the transcripts coding for retinoic-acid receptor type alpha (RAR(alpha)) and the leukemia-specific retinoic acid receptor PML-RAR.</clue>
+<comment>TPS A5</comment></event>
+<event id="E6">
+<type class="Transcription" />
+<theme idref1="A7" idref="A5" />
+<clue>Treatment of the acute promyelocytic (APL) cell line NB4 with interferon alpha (IFN(alpha)), as well as IFN(beta) and gamma, results in an increased <clueType>expression</clueType> <linkTheme>of</linkTheme> the transcripts coding for retinoic-acid receptor type alpha (RAR(alpha)) and the leukemia-specific retinoic acid receptor PML-RAR.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T10" />
+<clue><linkCause>Treatment</linkCause> of <clueLoc>the acute promyelocytic (APL) cell line NB4</clueLoc> <linkCause>with</linkCause> interferon alpha (IFN(alpha)), as well as IFN(beta) and gamma, <clueType>results in an increased</clueType> expression of the transcripts coding for retinoic-acid receptor type alpha (RAR(alpha)) and the leukemia-specific retinoic acid receptor PML-RAR.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T10" />
+<clue><linkCause>Treatment</linkCause> of <clueLoc>the acute promyelocytic (APL) cell line NB4</clueLoc> <linkCause>with</linkCause> interferon alpha (IFN(alpha)), as well as IFN(beta) and gamma, <clueType>results in an increased</clueType> expression of the transcripts coding for retinoic-acid receptor type alpha (RAR(alpha)) and the leukemia-specific retinoic acid receptor PML-RAR.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref1="F2" idref="F1" />
+<clue><linkCause>Treatment</linkCause> of <clueLoc>the acute promyelocytic (APL) cell line NB4</clueLoc> with interferon alpha (IFN(alpha)), <linkCause>as well as</linkCause> IFN(beta) and gamma, <clueType>results in an increased</clueType> expression of the transcripts coding for retinoic-acid receptor type alpha (RAR(alpha)) and the leukemia-specific retinoic acid receptor PML-RAR.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref1="F2" idref="F1" />
+<clue><linkCause>Treatment</linkCause> of <clueLoc>the acute promyelocytic (APL) cell line NB4</clueLoc> with interferon alpha (IFN(alpha)), <linkCause>as well as</linkCause> IFN(beta) and gamma, <clueType>results in an increased</clueType> expression of the transcripts coding for retinoic-acid receptor type alpha (RAR(alpha)) and the leukemia-specific retinoic acid receptor PML-RAR.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref1="F3" idref="F1" />
+<clue><linkCause>Treatment</linkCause> of <clueLoc>the acute promyelocytic (APL) cell line NB4</clueLoc> with interferon alpha (IFN(alpha)), <linkCause>as well as</linkCause> IFN(beta) and gamma, <clueType>results in an increased</clueType> expression of the transcripts coding for retinoic-acid receptor type alpha (RAR(alpha)) and the leukemia-specific retinoic acid receptor PML-RAR.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref1="F3" idref="F1" />
+<clue><linkCause>Treatment</linkCause> of <clueLoc>the acute promyelocytic (APL) cell line NB4</clueLoc> with interferon alpha (IFN(alpha)), <linkCause>as well as</linkCause> IFN(beta) and gamma, <clueType>results in an increased</clueType> expression of the transcripts coding for retinoic-acid receptor type alpha (RAR(alpha)) and the leukemia-specific retinoic acid receptor PML-RAR.</clue>
+</event>
+<sentence id="S3">Transcriptional induction of the <cons sem="(AND RNA_molecule RNA_molecule)" id="T16" lex="(AND RAR(alpha)_mRNA PML-RAR_mRNA)"><frag id="F4"><term sem="Protein_molecule" id="A11">RAR(alpha)</term></frag> and <frag id="F5"><term sem="Protein_molecule" id="A12">PML-RAR</term></frag> <frag id="F6">mRNAs</frag></cons> is rapid and it is parallelled by an increase in the corresponding proteins.</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref1="F6" idref="F4" />
+<cause idref="T10" />
+<clue><clueType>Transcriptional induction</clueType> <linkTheme>of</linkTheme> the RAR(alpha) and PML-RAR mRNAs is rapid and it is parallelled by an increase in the corresponding proteins.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event id="E113">
+<type class="Positive_regulation" />
+<theme idref1="F6" idref="F4" />
+<cause idref1="F2" idref="F1" />
+<clue><clueType>Transcriptional induction</clueType> <linkTheme>of</linkTheme> the RAR(alpha) and PML-RAR mRNAs is rapid and it is parallelled by an increase in the corresponding proteins.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event id="E114">
+<type class="Positive_regulation" />
+<theme idref1="F6" idref="F4" />
+<cause idref1="F3" idref="F1" />
+<clue><clueType>Transcriptional induction</clueType> <linkTheme>of</linkTheme> the RAR(alpha) and PML-RAR mRNAs is rapid and it is parallelled by an increase in the corresponding proteins.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref1="F6" idref="F5" />
+<clue><clueType>Transcriptional induction</clueType> <linkTheme>of</linkTheme> the RAR(alpha) and PML-RAR mRNAs is rapid and it is parallelled by an increase in the corresponding proteins.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event id="E115">
+<type class="Positive_regulation" />
+<theme idref1="F6" idref="F5" />
+<cause idref1="F2" idref="F1" />
+<clue><clueType>Transcriptional induction</clueType> <linkTheme>of</linkTheme> the RAR(alpha) and PML-RAR mRNAs is rapid and it is parallelled by an increase in the corresponding proteins.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event id="E116">
+<type class="Positive_regulation" />
+<theme idref1="F6" idref="F5" />
+<cause idref1="F3" idref="F1" />
+<clue><clueType>Transcriptional induction</clueType> <linkTheme>of</linkTheme> the RAR(alpha) and PML-RAR mRNAs is rapid and it is parallelled by an increase in the corresponding proteins.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="A11" />
+<clue>Transcriptional induction of the RAR(alpha) and PML-RAR mRNAs is rapid and it is parallelled by an <clueType>increase</clueType> <linkTheme>in</linkTheme> <corefTheme>the corresponding proteins</corefTheme>.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="A12" />
+<clue>Transcriptional induction of the RAR(alpha) and PML-RAR mRNAs is rapid and it is parallelled by an <clueType>increase</clueType> <linkTheme>in</linkTheme> <corefTheme>the corresponding proteins</corefTheme>.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E13" />
+<clue>Transcriptional induction of the RAR(alpha) and PML-RAR mRNAs is rapid and it is <clueType>parallelled</clueType> <linkTheme>by</linkTheme> an increase in the corresponding proteins.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="E14" />
+<clue>Transcriptional induction of the RAR(alpha) and PML-RAR mRNAs is rapid and it is <clueType>parallelled</clueType> <linkTheme>by</linkTheme> an increase in the corresponding proteins.</clue>
+</event>
+<sentence id="S4">Up-regulation of <cons sem="(AND Other Other)" id="C2" lex="(AND RAR(alpha)_gene_expression PML-RAR_gene_expression)"><cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="C1" lex="(AND RAR(alpha)_gene PML-RAR_gene)"><frag id="F7">RAR(alpha)</frag> and <frag id="F8">PML-RAR</frag> <frag id="F9">gene</frag></cons> <frag id="F10">expression</frag></cons> by <term sem="Protein_molecule" id="T20" lex="IFN(alpha)">IFN(alpha)</term> is accompanied by a strong potentiation in the induction of 2 <term sem="Protein_family_or_group" id="T21" lex="retinoid-dependent_granulocytic_marker"><term sem="Organic_compound_other" id="T22" lex="retinoid">retinoid</term>-dependent <term sem="Protein_family_or_group" id="A14">granulocytic markers</term></term>, i.e., <term sem="RNA_molecule" id="T23" lex="granulocyte-colony-stimulating_factor_receptor_mRNA"><term sem="Protein_family_or_group" id="T24" lex="granulocyte-colony-stimulating_factor_receptor">granulocyte-colony-stimulating factor receptor</term> mRNA</term> and <term sem="Protein_molecule" id="T25" lex="leukocyte_alkaline_phosphatase">leukocyte alkaline phosphatase</term>.</sentence>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref1="F9" idref="F7" />
+<clue>Up-regulation of RAR(alpha) and PML-RAR gene <clueType>expression</clueType> by IFN(alpha) is accompanied by a strong potentiation in the induction of 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+<comment>NER T17,T18,T21 MOD</comment></event>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref1="F9" idref="F8" />
+<clue>Up-regulation of RAR(alpha) and PML-RAR gene <clueType>expression</clueType> by IFN(alpha) is accompanied by a strong potentiation in the induction of 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T20" />
+<clue><clueType>Up-regulation</clueType> <linkTheme>of</linkTheme> RAR(alpha) and PML-RAR gene expression <linkCause>by</linkCause> IFN(alpha) is accompanied by a strong potentiation in the induction of 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T20" />
+<clue><clueType>Up-regulation</clueType> <linkTheme>of</linkTheme> RAR(alpha) and PML-RAR gene expression by IFN(alpha) is accompanied by a strong potentiation in the induction of 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<clue>Up-regulation of RAR(alpha) and PML-RAR gene expression by IFN(alpha) is accompanied by a strong potentiation in the <clueType>induction</clueType> <linkCause>of</linkCause> 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<clue>Up-regulation of RAR(alpha) and PML-RAR gene expression by IFN(alpha) is accompanied by a strong potentiation in the <clueType>induction</clueType> <linkCause>of</linkCause> 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<clue>Up-regulation of RAR(alpha) and PML-RAR gene expression by IFN(alpha) is accompanied by a strong potentiation in the <clueType>induction</clueType> <linkCause>of</linkCause> 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<event id="E26">
+<type class="Correlation" />
+<theme idref="E21" />
+<theme idref="E23" />
+<clue>Up-regulation of RAR(alpha) and PML-RAR gene expression by IFN(alpha) is <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a strong potentiation in the induction of 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<event id="E27">
+<type class="Correlation" />
+<theme idref="E21" />
+<theme idref="E24" />
+<clue>Up-regulation of RAR(alpha) and PML-RAR gene expression by IFN(alpha) is <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a strong potentiation in the induction of 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<event id="E28">
+<type class="Correlation" />
+<theme idref="E21" />
+<theme idref="E25" />
+<clue>Up-regulation of RAR(alpha) and PML-RAR gene expression by IFN(alpha) is <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a strong potentiation in the induction of 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<event id="E29">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E23" />
+<clue>Up-regulation of RAR(alpha) and PML-RAR gene expression by IFN(alpha) is <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a strong potentiation in the induction of 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<event id="E30">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E24" />
+<clue>Up-regulation of RAR(alpha) and PML-RAR gene expression by IFN(alpha) is <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a strong potentiation in the induction of 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<event id="E31">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E25" />
+<clue>Up-regulation of RAR(alpha) and PML-RAR gene expression by IFN(alpha) is <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a strong potentiation in the induction of 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="A14" />
+<cause idref="T22" />
+<clue>Up-regulation of RAR(alpha) and PML-RAR gene expression by IFN(alpha) is accompanied by a strong potentiation in the induction of 2 retinoid-<clueType>dependent</clueType> granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.</clue>
+</event>
+<sentence id="S5">However, <term sem="Protein_molecule" id="T26" lex="IFN(alpha)">IFN(alpha)</term> does not have any effects on the <term sem="Other" id="T27" lex="retinoid-dependent_regulation"><term sem="Organic_compound_other" id="T28" lex="retinoid">retinoid</term>-dependent regulation</term> of the <term sem="Protein_family_or_group" id="T29" lex="myeloid_surface_marker">myeloid surface markers</term> <term sem="Protein_molecule" id="T30" lex="CD11b">CD11b</term> and <term sem="Protein_molecule" id="T31" lex="CD33">CD33</term>.</sentence>
+<event id="E32">
+<type class="Regulation" />
+<theme idref="T30" />
+<cause idref="T28" />
+<clue>However, IFN(alpha) does not have any effects on the retinoid-<linkCause>dependent</linkCause> <clueType>regulation</clueType> <linkTheme>of</linkTheme> the myeloid surface markers CD11b and CD33.</clue>
+</event>
+<event id="E33">
+<type class="Regulation" />
+<theme idref="T31" />
+<cause idref="T28" />
+<clue>However, IFN(alpha) does not have any effects on the retinoid-<linkCause>dependent</linkCause> <clueType>regulation</clueType> <linkTheme>of</linkTheme> the myeloid surface markers CD11b and CD33.</clue>
+</event>
+<event assertion="non-exist" id="E34">
+<type class="Regulation" />
+<theme idref="E32" />
+<cause idref="T26" />
+<clue>However, IFN(alpha) does not <clueType>have</clueType> any <clueType>effects</clueType> <linkTheme>on</linkTheme> the retinoid-dependent regulation of the myeloid surface markers CD11b and CD33.</clue>
+</event>
+<event assertion="non-exist" id="E35">
+<type class="Regulation" />
+<theme idref="E33" />
+<cause idref="T26" />
+<clue>However, IFN(alpha) does not <clueType>have</clueType> any <clueType>effects</clueType> <linkTheme>on</linkTheme> the retinoid-dependent regulation of the myeloid surface markers CD11b and CD33.</clue>
+</event>
+<sentence id="S6">The <term sem="Other" id="T32" lex="IFN-dependent_increase"><term sem="Protein_family_or_group" id="T33" lex="IFN">IFN</term>-dependent increase</term> in <term sem="Other" id="T34" lex="RAR(alpha)_level"><term sem="Protein_molecule" id="T35" lex="RAR(alpha)">RAR(alpha)</term> levels</term> and the enhancing effect of the <term sem="Protein_family_or_group" id="T36" lex="cytokine">cytokine</term> on <term sem="Other" id="T37" lex="retinoid-dependent_granulocytic_markers_expression"><term sem="Protein_family_or_group" id="T38" lex="retinoid-dependent_granulocytic_marker"><term sem="Organic_compound_other" id="T39" lex="retinoid">retinoid</term>-dependent <term sem="Protein_family_or_group" id="A15">granulocytic markers</term></term> expression</term> may be a characteristic of <term sem="Cell_cultured" id="T40" lex="PML-RAR_positive_cell"><term sem="Protein_molecule" id="T41" lex="PML-RAR">PML-RAR</term> positive cells</term>, since the phenomena are not observed in <term sem="Cell_cultured" id="T42" lex="HL-60_promyelocyte">HL-60 promyelocytes</term>.</sentence>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="T35" />
+<cause idref="T33" />
+<clue>The IFN-<linkCause>dependent</linkCause> <clueType>increase</clueType> <linkTheme>in</linkTheme> RAR(alpha) levels and the enhancing effect of the cytokine on retinoid-dependent granulocytic markers expression may be a characteristic of <clueLoc>PML-RAR positive cells</clueLoc>, since the phenomena are not observed in HL-60 promyelocytes.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="T39" />
+<clue>The IFN-dependent increase in RAR(alpha) levels and the enhancing effect of the cytokine on retinoid-<clueType>dependent</clueType> granulocytic markers expression may be a characteristic of PML-RAR positive cells, since the phenomena are not observed in HL-60 promyelocytes.</clue>
+</event>
+<event id="E38">
+<type class="Gene_expression" />
+<theme idref="T38" />
+<clue>The IFN-dependent increase in RAR(alpha) levels and the enhancing effect of the cytokine on retinoid-dependent granulocytic markers <clueType>expression</clueType> may be a characteristic of PML-RAR positive cells, since the phenomena are not observed in HL-60 promyelocytes.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T36" />
+<clue>The IFN-dependent increase in RAR(alpha) levels and the <clueType>enhancing effect</clueType> <linkCause>of</linkCause> the cytokine <linkTheme>on</linkTheme> retinoid-dependent granulocytic markers expression may be a characteristic of <clueLoc>PML-RAR positive cells</clueLoc>, since the phenomena are not observed in HL-60 promyelocytes.</clue>
+</event>
+<event assertion="non-exist" id="E40">
+<type class="Positive_regulation" />
+<theme idref="T35" />
+<cause idref="T33" />
+<clue>The IFN-dependent increase in RAR(alpha) levels and the enhancing effect of the cytokine on retinoid-dependent granulocytic markers expression may be a characteristic of PML-RAR positive cells, since the phenomena are not <clueType>observed</clueType> <clueLoc>in HL-60 promyelocytes</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E41">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T36" />
+<clue>The IFN-dependent increase in RAR(alpha) levels and the enhancing effect of the cytokine on retinoid-dependent granulocytic markers expression may be a characteristic of PML-RAR positive cells, since the phenomena are not <clueType>observed</clueType> <clueLoc>in HL-60 promyelocytes</clueLoc>.</clue>
+</event>
+<sentence id="S7"><term sem="Protein_family_or_group" id="T43" lex="interferon">Interferons</term> as well as <term sem="Organic_compound_other" id="T44" lex="retinoid">retinoids</term> inhibit the growth of <term sem="Cell_cultured" id="T45" lex="NB4_cell">NB4 cells</term>, although the 2 classes of compounds do not significantly interact in terms of <term sem="Other" id="T46" lex="anti-proliferative_activity">anti-<term sem="Other" id="A16">proliferative</term> activity</term>.</sentence>
+<event id="E42">
+<type class="Cellular_process" />
+<theme idref="T45" />
+<clue>Interferons as well as retinoids inhibit the <clueType>growth</clueType> <linkTheme>of</linkTheme> NB4 cells, although the 2 classes of compounds do not significantly interact in terms of anti-proliferative activity.</clue>
+</event>
+<event id="E43">
+<type class="Negative_regulation" />
+<theme idref="E42" />
+<cause idref="T43" />
+<clue>Interferons as well as retinoids <clueType>inhibit</clueType> the growth of NB4 cells, although the 2 classes of compounds do not significantly interact in terms of anti-proliferative activity.</clue>
+</event>
+<event id="E44">
+<type class="Negative_regulation" />
+<theme idref="E42" />
+<cause idref="T44" />
+<clue>Interferons as well as retinoids <clueType>inhibit</clueType> the growth of NB4 cells, although the 2 classes of compounds do not significantly interact in terms of anti-proliferative activity.</clue>
+</event>
+<event assertion="non-exist" id="E45">
+<type class="Positive_regulation" />
+<theme idref="E46" />
+<cause idref="T43" />
+<cause idref="T44" />
+<clue>Interferons as well as retinoids inhibit the growth of NB4 cells, although <corefTheme>the 2 classes of compounds</corefTheme> do not significantly <clueType>interact</clueType> <linkTheme>in terms of</linkTheme> anti-proliferative activity.</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation" />
+<theme idref="A16" />
+<clue>Interferons as well as retinoids inhibit the growth of NB4 cells, although the 2 classes of compounds do not significantly interact in terms of <clueType>anti</clueType>-proliferative <clueType>activity</clueType>.</clue>
+</event>
+<sentence id="S8">These results suggest the possible use of combinations between <term sem="Protein_family_or_group" id="T47" lex="IFN">IFNs</term> and <term sem="Organic_compound_other" id="T48" lex="retinoic_acid">retinoic acid</term> in the <term sem="Other" id="T49" lex="cyto-differentiating_treatment">cyto-differentiating treatment</term> of <term sem="Multicellular_organism_natural" id="T50" lex="APL_patient">APL patients</term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

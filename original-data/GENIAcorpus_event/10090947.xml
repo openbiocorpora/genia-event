@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="15/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10090947" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10090947</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Constitutive activation of <term sem="Protein_complex" id="T1" lex="NF-kappaB">NF-kappaB</term> in <term sem="Cell_natural" id="T2" lex="primary_adult_T-cell_leukemia_cell">primary adult T-cell leukemia cells</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<clue>Constitutive <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB <clueLoc>in primary adult T-cell leukemia cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Virus" id="T3" lex="human_T-cell_leukemia_virus_type_I">Human T-cell leukemia virus type I</term> (<term sem="Virus" id="T4" lex="HTLV-I">HTLV-I</term>) is an etiologic agent of <term sem="Other" id="T5" lex="adult_T-cell_leukemia">adult T-cell leukemia</term> (<term sem="Other" id="T6" lex="ATL">ATL</term>).</sentence>
+<sentence id="S3">The <term sem="Protein_family_or_group" id="T7" lex="viral_protein">viral protein</term> <term sem="Protein_molecule" id="T8" lex="Tax">Tax</term> induces the activation and nuclear translocalization of <term sem="Protein_family_or_group" id="T9" lex="transcription_factor">transcription factor</term> <term sem="Protein_complex" id="T10" lex="NF-kappaB">NF-kappaB</term>, which is proposed to play a crucial role in the transformation of <term sem="Cell_natural" id="T11" lex="T_cell">T cells</term> by <term sem="Virus" id="T12" lex="HTLV-I">HTLV-I</term>.</sentence>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<clue>The viral protein Tax induces the <clueType>activation</clueType> and nuclear translocalization <linkTheme>of</linkTheme> transcription factor NF-kappaB, which is proposed to play a crucial role in the transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E3">
+<type class="Localization" />
+<theme idref="T10" />
+<clue>The viral protein Tax induces the activation and <clueLoc>nuclear</clueLoc> <clueType>translocalization</clueType> <linkTheme>of</linkTheme> transcription factor NF-kappaB, which is proposed to play a crucial role in the transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T8" />
+<clue>The viral protein Tax <clueType>induces</clueType> the activation and nuclear translocalization of transcription factor NF-kappaB, which is proposed to play a crucial role in the transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T8" />
+<clue>The viral protein Tax <clueType>induces</clueType> the activation and nuclear translocalization of transcription factor NF-kappaB, which is proposed to play a crucial role in the transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E6">
+<type class="Viral_life_cycle" />
+<theme idref="T11" />
+<clue>The viral protein Tax induces the activation and nuclear translocalization of transcription factor NF-kappaB, which is proposed to play a crucial role in the <clueType>transformation</clueType> <linkTheme>of</linkTheme> T cells by HTLV-I.</clue>
+</event>
+<event id="E106">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T12" />
+<clue>The viral protein Tax induces the activation and nuclear translocalization of transcription factor NF-kappaB, which is proposed to play a crucial role in the <clueType>transformation</clueType> of T cells <linkCause>by</linkCause> HTLV-I.</clue>
+</event>
+<event id="E7">
+<type class="Correlation" />
+<theme idref="E106" />
+<theme idref="T10" />
+<clue>The viral protein Tax induces the activation and nuclear translocalization of transcription factor NF-kappaB, which is proposed to <clueType>play</clueType> a crucial <clueType>role</clueType> <linkTheme>in</linkTheme> the transformation of T cells by HTLV-I.</clue>
+</event>
+<sentence id="S4">However, the <term sem="DNA_domain_or_region" id="T13" lex="HTLV-I_gene"><term sem="Virus" id="T14" lex="HTLV-I">HTLV-I</term> genes</term> including <term sem="Protein_molecule" id="T15" lex="Tax">Tax</term> are not expressed significantly in <term sem="Cell_natural" id="T16" lex="primary_leukemic_cell">primary leukemic cells</term> from <term sem="Other" id="T17" lex="ATL">ATL</term> <term sem="Multicellular_organism_natural" id="T18" lex="patient">patients</term>.</sentence>
+<event assertion="non-exist" id="E8">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>However, the HTLV-I genes including Tax are not <clueType>expressed</clueType> significantly <clueLoc>in primary leukemic cells from ATL patients</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E9">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>However, the HTLV-I genes including Tax are not <clueType>expressed</clueType> significantly <clueLoc>in primary leukemic cells from ATL patients</clueLoc>.</clue>
+</event>
+<sentence id="S5">In this study, we examined the basis for <term sem="Other" id="T19" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T20" lex="NF-kappaB">NF-kappaB</term> activation</term> in <term sem="Cell_natural" id="T21" lex="freshly_isolated_leukemic_cell">freshly isolated leukemic cells</term> from <term sem="Other" id="T22" lex="ATL">ATL</term> <term sem="Multicellular_organism_natural" id="T23" lex="patient">patients</term>.</sentence>
+<event uncertainty="doubtful" id="E10">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<clue>In this study, we examined the basis for NF-kappaB <clueType>activation</clueType> <clueLoc>in freshly isolated leukemic cells from ATL patients</clueLoc>.</clue>
+</event>
+<sentence id="S6">We found that <term sem="Cell_natural" id="T24" lex="leukemic_cell">leukemic cells</term> from <term sem="Other" id="T25" lex="ATL">ATL</term> <term sem="Multicellular_organism_natural" id="T26" lex="patient">patients</term>, like <term sem="Cell_cultured" id="T27" lex="HTLV-I-infected_T-cell_line"><term sem="Virus" id="T28" lex="HTLV-I">HTLV-I</term>-infected T-cell lines</term>, display constitutive <term sem="Other" id="T30"><term sem="Protein_complex" id="T29" lex="NF-kappaB">NF-kappaB</term> <term sem="DNA_domain_or_region" id="A1">DNA</term> binding activity</term> and increased degradation of <term sem="Protein_molecule" id="T31" lex="IkappaBalpha">IkappaBalpha</term> (an inhibitor of <term sem="Protein_complex" id="T32" lex="NF-kappaB">NF-kappaB</term>).</sentence>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="A1" />
+<clue>We found that <clueLoc>leukemic cells from ATL patients, like HTLV-I-infected T-cell lines</clueLoc>, display constitutive NF-kappaB DNA <clueType>binding</clueType> activity and increased degradation of IkappaBalpha (an inhibitor of NF-kappaB).</clue>
+</event>
+<event id="E12">
+<type class="Protein_catabolism" />
+<theme idref="T31" />
+<clue>We found that leukemic cells from ATL patients, like HTLV-I-infected T-cell lines, display constitutive NF-kappaB DNA binding activity and increased <clueType>degradation</clueType> <linkTheme>of</linkTheme> IkappaBalpha (an inhibitor of NF-kappaB).</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<clue>We found that <clueLoc>leukemic cells from ATL patients, like HTLV-I-infected T-cell lines</clueLoc>, display constitutive NF-kappaB DNA binding activity and <clueType>increased</clueType> degradation of IkappaBalpha (an inhibitor of NF-kappaB).</clue>
+</event>
+<sentence id="S7">Whereas the <term sem="Other" id="T33" lex="NF-kappaB_binding_activity"><term sem="Protein_complex" id="T34" lex="NF-kappaB">NF-kappaB</term> binding activity</term> in <term sem="Cell_cultured" id="T35" lex="Tax-expressing_T-cell_line"><term sem="Protein_molecule" id="T36" lex="Tax">Tax</term>-expressing T-cell lines</term> consisted mostly of <term sem="Protein_complex" id="T37" lex="p50/c-Rel">p50/c-Rel</term>, fresh <term sem="Other" id="T38" lex="ATL_sample">ATL samples</term> contained <cons sem="(AND Protein_complex Protein_complex)" id="T40" lex="(AND p50/p50_heterodimer p50/p65_heterodimer)"><frag id="F1">p50/p50</frag> and <frag id="F2">p50/p65</frag> <frag id="F3">heterodimers</frag></cons>.</sentence>
+<sentence id="S8">One <term sem="Cell_cultured" id="T41" lex="T-cell_line">T-cell line</term> derived from <term sem="Cell_cultured" id="T39"><term sem="Other" id="T42" lex="ATL">ATL</term> leukemic cells</term>, <term sem="Cell_cultured" id="T43">TL-Om1</term>, displayed <term sem="Other" id="T44" lex="constitutive_NF-kappaB_activity">constitutive <term sem="Protein_complex" id="T45" lex="NF-kappaB">NF-kappaB</term> activity</term>, as well as enhanced degradation of <term sem="Protein_molecule" id="T46" lex="IkappaBalpha">IkappaBalpha</term>, despite the lack of detectable <term sem="Other" id="T47" lex="Tax_expression"><term sem="Protein_molecule" id="T48" lex="Tax">Tax</term> expression</term>.</sentence>
+<event id="E14">
+<type class="Protein_catabolism" />
+<theme idref="T46" />
+<clue>One T-cell line derived from ATL leukemic cells, TL-Om1, displayed constitutive NF-kappaB activity, as well as enhanced <clueType>degradation</clueType> <linkTheme>of</linkTheme> IkappaBalpha, despite the lack of detectable Tax expression.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue><clueLoc>One T-cell line derived from ATL leukemic cells, TL-Om1</clueLoc>, displayed constitutive NF-kappaB activity, as well as <clueType>enhanced</clueType> degradation of IkappaBalpha, despite the lack of detectable Tax expression.</clue>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Gene_expression" />
+<theme idref="T48" />
+<clue><clueLoc>One T-cell line derived from ATL leukemic cells, TL-Om1</clueLoc>, displayed constitutive NF-kappaB activity, as well as enhanced degradation of IkappaBalpha, despite the lack of detectable Tax <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S9">Interestingly, the <term sem="Protein_complex" id="T49" lex="NF-kappaB">NF-kappaB</term> in TL-Om1 consists of <term sem="Protein_complex" id="T50" lex="p50/p50">p50/p50</term> and <term sem="Protein_complex" id="T51" lex="p50/p65">p50/p65</term> like that in fresh <term sem="Cell_natural" id="T52" lex="primary_leukemic_cell">primary <term sem="Cell_natural" id="T53" lex="leukemic_cell">leukemic cells</term></term>.</sentence>
+<sentence id="S10">Our results suggest that activation of <term sem="Protein_complex" id="T54" lex="NF-kappaB">NF-kappaB</term> occurs through a <term sem="Other" id="T55" lex="Tax-independent_mechanism"><term sem="Protein_molecule" id="T56" lex="Tax">Tax</term>-independent mechanism</term> in <term sem="Cell_natural" id="T57" lex="leukemic_cell">leukemic cells</term> of <term sem="Multicellular_organism_natural" id="T59"><term sem="Other" id="T58" lex="ATL">ATL</term> patients</term>, possibly due to differential <term sem="Other" id="T60" lex="NF-kappaB_subunit_activation"><term sem="Protein_molecule" id="T62"><term sem="Protein_complex" id="T61" lex="NF-kappaB">NF-kappaB</term> subunit</term> activation</term>.</sentence>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T54" />
+<clue>Our results suggest that <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB occurs through a Tax-independent mechanism in leukemic cells of ATL patients, possibly due to differential NF-kappaB subunit activation.</clue>
+</event>
+<event id="E18">
+<type class="Correlation" />
+<theme idref="T56" />
+<theme idref="E17" />
+<clue>Our results suggest that activation of NF-kappaB <clueType>occurs</clueType> <linkTheme>through</linkTheme> a Tax-<clueType>independent</clueType> mechanism <clueLoc>in leukemic cells of ATL patients</clueLoc>, possibly due to differential NF-kappaB subunit activation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

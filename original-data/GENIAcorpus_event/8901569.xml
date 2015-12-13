@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="27/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8901569" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8901569</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Silencing of <term sem="Other" id="T1" lex="human_fetal_globin_expression"><term sem="Protein_family_or_group" id="T2"><term sem="Multicellular_organism_natural" id="T44">human</term> fetal globin</term> expression</term> is impaired in the absence of the <term sem="Protein_family_or_group" id="T3" lex="adult_beta-globin_gene_activator_protein">adult beta-globin gene activator protein</term> <term sem="Protein_molecule" id="T4" lex="EKLF">EKLF</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Silencing of human fetal globin <clueType>expression</clueType> is impaired in the absence of the adult beta-globin gene activator protein EKLF.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<clue><clueType>Silencing</clueType> <linkTheme>of</linkTheme> human fetal globin expression is impaired in the absence of the adult beta-globin gene activator protein EKLF.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="T4" />
+<clue>Silencing of human fetal globin expression is impaired in the <clueType>absence</clueType> <linkTheme>of</linkTheme> the adult beta-globin gene activator protein EKLF.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="E3" />
+<clue>Silencing of human fetal globin expression is <clueType>impaired</clueType> <linkCause>in</linkCause> the absence of the adult beta-globin gene activator protein EKLF.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="DNA_family_or_group" id="T5" lex="globin_gene">Globin genes</term> are subject to <cons sem="(AND Other Other)" id="T6" lex="(AND tissue-specific_regulation developmental_stage-specific_regulation)"><frag id="F1">tissue-specific</frag> and <frag id="F2">developmental stage-specific</frag> <frag id="F3">regulation</frag></cons>.</sentence>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="T5" />
+<clue>Globin genes are subject to tissue-specific and developmental stage-specific <clueType>regulation</clueType>.</clue>
+</event>
+<sentence id="S3">A switch from <cons sem="(TO Other Other)" id="C1" lex="(TO human_fetal(gamma)-_globin human_adult(beta)-_globin)"><frag id="F4">human</frag> <frag id="F5">fetal (gamma)-</frag>to <frag id="F6">adult (beta)-</frag><frag id="F7">globin</frag> expression</cons> occurs within <term sem="Cell_natural" id="T10" lex="erythroid_precursor_cell">erythroid precursor cells</term> of the <term sem="Cell_natural" id="T11" lex="adult_lineage">adult lineage</term>.</sentence>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref1="F5" idref2="F7" idref="F4" />
+<clue>A switch from human fetal (gamma)-to adult (beta)-globin <clueType>expression</clueType> occurs within erythroid precursor cells of the adult lineage.</clue>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref1="F6" idref2="F7" idref="F4" />
+<clue>A switch from human fetal (gamma)-to adult (beta)-globin <clueType>expression</clueType> occurs within erythroid precursor cells of the adult lineage.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<clue>A <clueType>switch</clueType> <linkTheme>from</linkTheme> human fetal (gamma)-to adult (beta)-globin expression occurs <clueLoc>within erythroid precursor cells of the adult lineage.</clueLoc></clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<clue>A <clueType>switch</clueType> from human fetal (gamma)-<linkTheme>to</linkTheme> adult (beta)-globin expression occurs <clueLoc>within erythroid precursor cells of the adult lineage.</clueLoc></clue>
+</event>
+<sentence id="S4">Previously we and others showed by targeted <term sem="Other" id="T12" lex="gene_disruption">gene disruption</term> that the <term sem="DNA_family_or_group" id="T13" lex="zinc_finger_gene">zinc finger gene</term>, <term sem="Protein_molecule" id="T14" lex="erythroid_Kruppel-like_factor">erythroid Kruppel-like factor</term> (<term sem="Protein_molecule" id="T15" lex="EKLF">EKLF</term>), is required for expression of the <term sem="DNA_family_or_group" id="T16" lex="beta-globin_gene">beta-globin gene</term> in <term sem="Multicellular_organism_natural" id="T17" lex="mouse">mice</term>, presumably through interaction with a <term sem="DNA_domain_or_region" id="T18" lex="high-affinity_binding_site">high-affinity binding site</term> in the <term sem="DNA_domain_or_region" id="T19" lex="proximal_promoter">proximal promoter</term>.</sentence>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>Previously we and others showed by targeted gene disruption that the zinc finger gene, erythroid Kruppel-like factor (EKLF), is required for <clueType>expression</clueType> <linkTheme>of</linkTheme> the beta-globin gene <clueLoc>in mice</clueLoc>, presumably through interaction with a high-affinity binding site in the proximal promoter.</clue>
+</event>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref="T15" />
+<clue>Previously we and others showed by targeted gene disruption that the zinc finger gene, erythroid Kruppel-like factor (EKLF), is required for expression of the beta-globin gene in mice, presumably through <clueType>interaction</clueType> <linkTheme>with</linkTheme> a high-affinity binding site in the proximal promoter.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T15" />
+<clue>Previously we and others showed <clueExperiment>by targeted gene disruption</clueExperiment> that the zinc finger gene, erythroid Kruppel-like factor (EKLF), is <clueType>required</clueType> <linkTheme>for</linkTheme> expression of the beta-globin gene in mice, presumably through interaction with a high-affinity binding site in the proximal promoter.</clue>
+</event>
+<event uncertainty="probable" id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E11" />
+<clue>Previously we and others showed by targeted gene disruption that the zinc finger gene, erythroid Kruppel-like factor (EKLF), is required for expression of the beta-globin gene in mice, presumably <linkCause>through</linkCause> interaction with a high-affinity binding site in the proximal promoter.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S5">To examine the role of <term sem="Protein_molecule" id="T20" lex="EKLF">EKLF</term> in the developmental regulation of the <term sem="DNA_domain_or_region" id="T21" lex="human_gamma-globin_gene">human gamma-globin gene</term> we interbred <term sem="Protein_family_or_group" id="T22" lex="EKLF_heterozygote"><term sem="Protein_molecule" id="T23" lex="EKLF">EKLF</term> heterozygotes</term> (+/-) with <term sem="Multicellular_organism_natural" id="T24" lex="mouse">mice</term> harboring a <term sem="DNA_domain_or_region" id="T25" lex="human_beta-globin_yeast_artificial_chromosome_transgene">human beta-globin yeast artificial chromosome transgene</term>.</sentence>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="T21" />
+<clue>To examine the role of EKLF in the <clueTime>developmental</clueTime> <clueType>regulation</clueType> <linkTheme>of</linkTheme> the human gamma-globin gene we interbred EKLF heterozygotes (+/-) with mice harboring a human beta-globin yeast artificial chromosome transgene.</clue>
+</event>
+<event uncertainty="doubtful" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T20" />
+<clue>To examine the <clueType>role</clueType> <linkCause>of</linkCause> EKLF <linkTheme>in</linkTheme> the developmental regulation of the human gamma-globin gene we interbred EKLF heterozygotes (+/-) with mice harboring a human beta-globin yeast artificial chromosome transgene.</clue>
+</event>
+<event id="E16">
+<type class="Artificial_process" />
+<theme idref="T22" />
+<clue>To examine the role of EKLF in the developmental regulation of the human gamma-globin gene we <clueType>interbred</clueType> EKLF heterozygotes (+/-) <clueExperiment>with mice harboring a human beta-globin yeast artificial chromosome transgene.</clueExperiment></clue>
+</event>
+<event id="E17">
+<type class="Artificial_process" />
+<theme idref="T25" />
+<clue>To examine the role of EKLF in the developmental regulation of the human gamma-globin gene we interbred EKLF heterozygotes (+/-) <clueLoc>with mice</clueLoc> <clueType>harboring</clueType> a human beta-globin yeast artificial chromosome transgene.</clue>
+</event>
+<sentence id="S6">We find that in the absence of <term sem="Protein_molecule" id="T26" lex="EKLF">EKLF</term>, while <term sem="Other" id="T27" lex="human_beta-globin_expression"><term sem="Protein_family_or_group" id="T28" lex="human_beta-globin"><term sem="Multicellular_organism_natural" id="T7">human</term> beta-globin</term> expression</term> is dramatically reduced, <term sem="RNA_family_or_group" id="T29" lex="gamma-globin_transcript">gamma-globin transcripts</term> are elevated approximately 5-fold.</sentence>
+<event id="E18">
+<type class="Artificial_process" />
+<theme idref="T26" />
+<clue>We find that in the <clueType>absence</clueType> <linkTheme>of</linkTheme> EKLF, while human beta-globin expression is dramatically reduced, gamma-globin transcripts are elevated approximately 5-fold.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="T28" />
+<clue>We find that in the absence of EKLF, while human beta-globin <clueType>expression</clueType> is dramatically reduced, gamma-globin transcripts are elevated approximately 5-fold.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="E18" />
+<clue>We find that in the absence of EKLF, while human beta-globin expression is dramatically <clueType>reduced</clueType>, gamma-globin transcripts are elevated approximately 5-fold.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="E18" />
+<clue>We find that in the absence of EKLF, while human beta-globin expression is dramatically reduced, gamma-globin transcripts are <clueType>elevated</clueType> approximately 5-fold.</clue>
+</event>
+<sentence id="S7">Impaired silencing of <term sem="Other" id="T30" lex="gamma-globin_expression"><term sem="Protein_family_or_group" id="T31" lex="gamma-globin">gamma-globin</term> expression</term> identifies <term sem="Protein_molecule" id="T32" lex="EKLF">EKLF</term> as the first <term sem="Protein_family_or_group" id="T33" lex="transcription_factor">transcription factor</term> participating quantitatively in the <term sem="Protein_family_or_group" id="T35" lex="gamma-globin">gamma-globin</term> to <term sem="Protein_family_or_group" id="T36" lex="beta-globin">beta-globin</term> switch.</sentence>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref="T31" />
+<clue>Impaired silencing of gamma-globin <clueType>expression</clueType> identifies EKLF as the first transcription factor participating quantitatively in the gamma-globin to beta-globin switch.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<clue>Impaired <clueType>silencing</clueType> <linkTheme>of</linkTheme> gamma-globin expression identifies EKLF as the first transcription factor participating quantitatively in the gamma-globin to beta-globin switch.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<clue><clueType>Impaired</clueType> silencing of gamma-globin expression identifies EKLF as the first transcription factor participating quantitatively in the gamma-globin to beta-globin switch.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="T35" />
+<clue>Impaired silencing of gamma-globin expression identifies EKLF as the first transcription factor participating quantitatively in the gamma-globin to beta-globin <clueType>switch</clueType>.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<clue>Impaired silencing of gamma-globin expression identifies EKLF as the first transcription factor participating quantitatively in the gamma-globin <linkTheme>to</linkTheme> beta-globin <clueType>switch</clueType>.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="T32" />
+<clue>Impaired silencing of gamma-globin expression identifies EKLF as the first transcription factor <clueType>participating</clueType> quantitatively <linkTheme>in</linkTheme> the gamma-globin to beta-globin switch.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T32" />
+<clue>Impaired silencing of gamma-globin expression identifies EKLF as the first transcription factor <clueType>participating</clueType> quantitatively <linkTheme>in</linkTheme> the gamma-globin to beta-globin switch.</clue>
+</event>
+<sentence id="S8">Our findings are compatible with a competitive model of switching in which <term sem="Protein_molecule" id="T37" lex="EKLF">EKLF</term> mediates an adult stage-specific <term sem="Other" id="T8">interaction</term> between the <term sem="DNA_domain_or_region" id="T39" lex="beta-globin_gene_promoter"><term sem="DNA_family_or_group" id="T40" lex="beta-globin_gene">beta-globin gene</term> promoter</term> and the <term sem="DNA_domain_or_region" id="T41" lex="locus_control_region">locus control region</term> that excludes the <term sem="DNA_domain_or_region" id="T42" lex="gamma-globin_gene"><term sem="Protein_family_or_group" id="T43" lex="gamma-globin">gamma-globin</term> gene</term>.</sentence>
+<event id="E29">
+<type class="Binding" />
+<theme idref="T39" />
+<theme idref="T41" />
+<clue>Our findings are compatible with a competitive model of switching in which EKLF mediates an adult stage-specific <clueType>interaction</clueType> <linkTheme>between</linkTheme> the beta-globin gene promoter and the locus control region that excludes the gamma-globin gene.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="T37" />
+<clue>Our findings are compatible with a competitive model of switching in which EKLF <clueType>mediates</clueType> an <clueTime>adult stage</clueTime>-specific interaction between the beta-globin gene promoter and the locus control region that excludes the gamma-globin gene.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="T42" />
+<cause idref="E30" />
+<clue>Our findings are compatible with a competitive model of switching in which EKLF mediates an adult stage-specific interaction between the beta-globin gene promoter and the locus control region that <clueType>excludes</clueType> the gamma-globin gene.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

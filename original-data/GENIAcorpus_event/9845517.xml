@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="21/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9845517" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9845517</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="Stat6">Stat6</term> inhibits <term sem="Other" id="T2" lex="human_interleukin-4_promoter_activity">human <term sem="DNA_domain_or_region" id="T3" lex="interleukin-4_promoter">interleukin-4 promoter</term> activity</term> in <term sem="Cell_natural" id="T4" lex="T_cell">T cells</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="T3" />
+<cause idref="T1" />
+<clue>Stat6 <clueType>inhibits</clueType> human interleukin-4 promoter activity <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The differentiation of <term sem="Cell_natural" id="T5" lex="naive_T-helper_(Th)_cell">naive T-helper (Th) cells</term> into <term sem="Cell_natural" id="T6" lex="cytokine-secreting_effector_Th_cell"><term sem="Protein_family_or_group" id="T7" lex="cytokine">cytokine</term>-secreting effector Th cells</term> requires exposure to multiple signals, including <term sem="Protein_family_or_group" id="T8" lex="exogenous_cytokine">exogenous cytokines</term>.</sentence>
+<event id="E2">
+<type class="Cell_differentiation" />
+<theme idref="T5" />
+<theme idref="T6" />
+<clue>The <clueType>differentiation</clueType> <linkTheme>of</linkTheme> naive T-helper (Th) cells <linkTheme>into</linkTheme> cytokine-secreting effector Th cells requires exposure to multiple signals, including exogenous cytokines.</clue>
+</event>
+<event id="E3">
+<type class="Localization" />
+<theme idref="T7" />
+<clue>The differentiation of naive T-helper (Th) cells into cytokine-<clueType>secreting</clueType> <clueLoc>effector Th cells</clueLoc> requires exposure to multiple signals, including exogenous cytokines.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T8" />
+<clue>The differentiation of naive T-helper (Th) cells into cytokine-secreting effector Th cells <clueType>requires</clueType> exposure to <corefCause>multiple signals</corefCause>, including exogenous cytokines.</clue>
+</event>
+<sentence id="S3"><term sem="Protein_molecule" id="T9" lex="interleukin-4">Interleukin-4</term> (<term sem="Protein_molecule" id="T10" lex="IL-4">IL-4</term>) plays a major role in this process by promoting the differentiation of <term sem="Cell_natural" id="A1"><term sem="Protein_molecule" id="T11" lex="IL-4">IL-4</term>-secreting Th2 cells</term>.</sentence>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="E6" />
+<clue>Interleukin-4 (IL-4) plays a major <clueType>role</clueType> <linkTheme>in</linkTheme> <corefTheme>this process</corefTheme> <linkCause>by</linkCause> promoting the differentiation of IL-4-secreting Th2 cells.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T10" />
+<clue>Interleukin-4 (IL-4) plays a major role in this process by <clueType>promoting</clueType> the differentiation of IL-4-secreting Th2 cells.</clue>
+</event>
+<event id="E7">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>Interleukin-4 (IL-4) plays a major role in this process by promoting the <clueType>differentiation</clueType> <linkTheme>of</linkTheme> IL-4-secreting Th2 cells.</clue>
+</event>
+<event id="E8">
+<type class="Localization" />
+<theme idref="T11" />
+<clue>Interleukin-4 (IL-4) plays a major role in this process by promoting the differentiation of IL-4-<clueType>secreting</clueType> <clueLoc>Th2 cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">In Th2 cells, <term sem="Protein_molecule" id="T12" lex="IL-4">IL-4</term> gene expression is tightly controlled at the level of transcription by the coordinated binding of multiple <term sem="Protein_family_or_group" id="T13" lex="transcription_factor">transcription factors</term> to <term sem="DNA_domain_or_region" id="A2">regulatory elements in the proximal <term sem="DNA_domain_or_region" id="T14" lex="promoter_region">promoter region</term></term>.</sentence>
+<event id="E9">
+<type class="Transcription" />
+<theme idref="T12" />
+<clue>In Th2 cells, IL-4 <clueType>gene expression</clueType> is tightly controlled <clueType>at the level of transcription</clueType> by the coordinated binding of multiple transcription factors to regulatory elements in the proximal promoter region.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="E11" />
+<clue><clueLoc>In Th2 cells</clueLoc>, IL-4 gene expression is tightly <clueType>controlled</clueType> at the level of transcription <linkCause>by</linkCause> the coordinated binding of multiple transcription factors to regulatory elements in the proximal promoter region.</clue>
+</event>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T13" />
+<clue>In Th2 cells, IL-4 gene expression is tightly controlled at the level of transcription by the coordinated <clueType>binding</clueType> <linkTheme>of</linkTheme> multiple transcription factors <linkTheme>to</linkTheme> regulatory elements in the proximal promoter region.</clue>
+<comment>TPS: A2</comment>
+</event>
+<event id="E30">
+<type class="Correlation" />
+<theme idref="E11" />
+<theme idref="E11" />
+<clue>In Th2 cells, IL-4 gene expression is tightly controlled at the level of transcription by the <clueType>coordinated</clueType> binding of multiple transcription factors to regulatory elements in the proximal promoter region.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_family_or_group" id="T15" lex="nuclear_factor_of_activated_T_cell_(NFAT)_family_members">Nuclear factor of activated T cell (<term sem="Protein_family_or_group" id="A8">NFAT) family members</term></term> play a critical role in regulating <term sem="Other" id="T16" lex="IL-4_transcription"><term sem="DNA_domain_or_region" id="A3"><term sem="Protein_molecule" id="T17" lex="IL-4">IL-4</term></term> transcription</term> and interact with up to five <term sem="DNA_domain_or_region" id="A4">sequences (termed P0 through P4)</term> in the <term sem="DNA_domain_or_region" id="T18" lex="IL-4_promoter">IL-4 promoter</term>.</sentence>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="E13" />
+<cause idref="A8" />
+<clue>Nuclear factor of activated T cell (NFAT) family members <clueType>play</clueType> a critical <clueType>role</clueType> <linkTheme>in</linkTheme> regulating IL-4 transcription and interact with up to five sequences (termed P0 through P4) in the IL-4 promoter.</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<theme idref="E14" />
+<clue>Nuclear factor of activated T cell (NFAT) family members play a critical role in <clueType>regulating</clueType> IL-4 transcription and interact with up to five sequences (termed P0 through P4) in the IL-4 promoter.</clue>
+</event>
+<event id="E14">
+<type class="Transcription" />
+<theme idref="A3" />
+<clue>Nuclear factor of activated T cell (NFAT) family members play a critical role in regulating IL-4 <clueType>transcription</clueType> and interact with up to five sequences (termed P0 through P4) in the IL-4 promoter.</clue>
+</event>
+<event id="E29">
+<type class="Binding" />
+<theme idref="T15" />
+<theme idref="A4" />
+<clue>Nuclear factor of activated T cell (NFAT) family members play a critical role in regulating IL-4 transcription and <clueType>interact</clueType> <linkTheme>with</linkTheme> up to five sequences (termed P0 through P4) <clueLoc>in the IL-4 promoter</clueLoc>.</clue>
+<comment>TPS: A4</comment>
+</event>
+<sentence id="S6">The molecular mechanisms by which <term sem="Protein_molecule" id="T19" lex="IL-4">IL-4</term> induces expression of the <term sem="DNA_domain_or_region" id="T20" lex="IL-4_gene"><term sem="Protein_molecule" id="T21" lex="IL-4">IL-4</term> gene</term> are not known, although the <term sem="Protein_molecule" id="T22" lex="IL-4-activated_transcription_factor_signal_transducer_and_activator_of_transcription_6"><term sem="Protein_molecule" id="T23" lex="IL-4">IL-4</term>-activated <term sem="Protein_family_or_group" id="T24" lex="transcription_factor">transcription factor</term> signal transducer and activator of transcription 6</term> (<term sem="Protein_molecule" id="T25" lex="Stat6">Stat6</term>) is required for this effect.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T19" />
+<clue>The molecular mechanisms by which IL-4 <clueType>induces</clueType> expression of the IL-4 gene are not known, although the IL-4-activated transcription factor signal transducer and activator of transcription 6 (Stat6) is required for this effect.</clue>
+</event>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue>The molecular mechanisms by which IL-4 induces <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL-4 gene are not known, although the IL-4-activated transcription factor signal transducer and activator of transcription 6 (Stat6) is required for this effect.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<cause idref="T23" />
+<clue>The molecular mechanisms by which IL-4 induces expression of the IL-4 gene are not known, although the IL-4-<clueType>activated</clueType> <corefTheme>transcription factor</corefTheme> signal transducer and activator of transcription 6 (Stat6) is required for this effect.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E17" />
+<clue>The molecular mechanisms by which IL-4 induces expression of the IL-4 gene are not known, although the IL-4-activated transcription factor signal transducer and activator of transcription 6 (Stat6) is <clueType>required</clueType> <linkTheme>for</linkTheme> <corefTheme>this effect</corefTheme>.</clue>
+</event>
+<sentence id="S7">We report here that <term sem="Protein_molecule" id="T26" lex="Stat6">Stat6</term> interacts with three <term sem="DNA_domain_or_region" id="A5">binding sites in the <term sem="DNA_domain_or_region" id="T27" lex="human_IL-4_promoter">human IL-4 promoter</term></term> by <term sem="Other" id="T28" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assays</term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="A5" />
+<clue>We report here that Stat6 <clueType>interacts</clueType> <linkTheme>with</linkTheme> three binding sites in the human IL-4 promoter <clueExperiment>by electrophoretic mobility shift assays</clueExperiment>.</clue>
+<comment>TPS: A5</comment>
+</event>
+<sentence id="S8">These sites overlap the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region)" id="T29" lex="(AND P1_NFAT_element P2_NFAT_element P4_NFAT_element)"><frag id="F1">P1</frag>, <frag id="F2">P2</frag>, and <frag id="F3">P4</frag> <frag id="F4">NFAT elements</frag></cons>.</sentence>
+<sentence id="S9">To investigate the role of <term sem="Protein_molecule" id="T30" lex="Stat6">Stat6</term> in regulating <term sem="DNA_domain_or_region" id="A6"><term sem="Protein_molecule" id="T31" lex="IL-4">IL-4</term></term> transcription, we used <term sem="Protein_molecule" id="T32" lex="Stat6">Stat6</term>-deficient Jurkat <term sem="Cell_natural" id="T33" lex="T_cell">T cells</term> with different intact <term sem="DNA_molecule" id="T34" lex="IL-4_promoter_construct"><term sem="DNA_domain_or_region" id="T35" lex="IL-4_promoter">IL-4 promoter</term> constructs</term> in cotransfection assays.</sentence>
+<event uncertainty="probable" id="E20">
+<type class="Regulation" />
+<theme idref="E21" />
+<cause idref="T30" />
+<clue>To investigate the <clueType>role</clueType> <linkCause>of</linkCause> Stat6 <linkTheme>in</linkTheme> regulating IL-4 transcription, we used <clueLoc>Stat6-deficient Jurkat T cells</clueLoc> <clueExperiment>with different intact IL-4 promoter constructs in cotransfection assays</clueExperiment>.</clue>
+</event>
+<event id="E21">
+<type class="Regulation" />
+<theme idref="E22" />
+<clue>To investigate the role of Stat6 in <clueType>regulating</clueType> IL-4 transcription, we used Stat6-deficient Jurkat T cells with different intact IL-4 promoter constructs in cotransfection assays.</clue>
+</event>
+<event id="E22">
+<type class="Transcription" />
+<theme idref="A6" />
+<clue>To investigate the role of Stat6 in regulating IL-4 <clueType>transcription</clueType>, we used Stat6-deficient Jurkat T cells with different intact IL-4 promoter constructs in cotransfection assays.</clue>
+</event>
+<sentence id="S10">We show that, whereas a <term sem="DNA_domain_or_region" id="T36" lex="multimerized_response_element">multimerized response element</term> from the <term sem="DNA_domain_or_region" id="T37" lex="germline_IgE_promoter">germline IgE promoter</term> was highly induced by <term sem="Protein_molecule" id="T38" lex="IL-4">IL-4</term> in <term sem="Cell_natural" id="T39" lex="Stat6-expressing_Jurkat_cell"><term sem="Protein_molecule" id="T40" lex="Stat6">Stat6</term>-expressing Jurkat cells</term>, the intact <term sem="DNA_domain_or_region" id="T41" lex="human_IL-4_promoter">human <term sem="DNA_domain_or_region" id="T42" lex="IL-4_promoter">IL-4 promoter</term></term> was repressed under similar conditions.</sentence>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<clue>We show that, whereas a multimerized response element from the germline IgE promoter was <clueType>highly</clueType> induced by IL-4 <clueLoc>in Stat6-expressing Jurkat cells</clueLoc>, the intact human IL-4 promoter was repressed under similar conditions.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref1="T37" idref="T36" />
+<cause idref="T38" />
+<clue>We show that, whereas a multimerized response element from the germline IgE promoter was highly <clueType>induced</clueType> <linkCause>by</linkCause> IL-4 <clueLoc>in Stat6-expressing Jurkat cells</clueLoc>, the intact human IL-4 promoter was repressed under similar conditions.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="T42" />
+<cause idref="T38" />
+<clue>We show that, whereas a multimerized response element from the germline IgE promoter was highly induced <linkCause>by</linkCause> IL-4 <clueLoc>in Stat6-expressing Jurkat cells</clueLoc>, the intact human IL-4 promoter was <clueType>repressed</clueType> under similar conditions.</clue>
+</event>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>We show that, whereas a multimerized response element from the germline IgE promoter was highly induced by IL-4 in Stat6-<clueType>expressing</clueType> <clueLoc>Jurkat cells</clueLoc>, the intact human IL-4 promoter was repressed under similar conditions.</clue>
+</event>
+<sentence id="S11">We conclude that the function of <term sem="Protein_molecule" id="T43" lex="Stat6">Stat6</term> is highly dependent on <term sem="DNA_domain_or_region" id="A7">promoter context</term> and that this factor promotes <term sem="Other" id="T44" lex="IL-4_gene_expression"><term sem="Protein_molecule" id="T45" lex="IL-4">IL-4</term> gene expression</term> in an indirect manner.</sentence>
+<event id="E26">
+<type class="Regulation" />
+<theme idref="T43" />
+<cause idref="A7" />
+<clue>We conclude that the function of Stat6 is highly <clueType>dependent</clueType> <linkCause>on</linkCause> promoter context and that this factor promotes IL-4 gene expression in an indirect manner.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="T43" />
+<clue>We conclude that the function of Stat6 is highly dependent on promoter context and that <corefCause>this factor</corefCause> <clueType>promotes</clueType> IL-4 gene expression in an indirect manner.</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="T45" />
+<clue>We conclude that the function of Stat6 is highly dependent on promoter context and that this factor promotes IL-4 <clueType>gene expression</clueType> in an indirect manner.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

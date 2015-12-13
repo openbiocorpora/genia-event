@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9223506" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9223506</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="DNA_domain_or_region" id="T1" lex="transcription_factor_binding_site"><term sem="Protein_family_or_group" id="T2" lex="transcription_factor">Transcription factor</term> binding sites</term> downstream of the <term sem="DNA_domain_or_region" id="T3" lex="human_immunodeficiency_virus_type_1_transcription_start_site"><term sem="Virus" id="T4" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> transcription start site</term> are important for <term sem="Other" id="T5" lex="virus_infectivity">virus infectivity</term>.</sentence>
+<event id="E1">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T4" />
+<clue>Transcription factor binding sites downstream of the human immunodeficiency virus type 1 transcription start site are important for <corefTheme>virus</corefTheme> <clueType>infectivity</clueType>.</clue>
+<comment>NER T1 MOD</comment>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Transcription factor binding sites downstream of the human immunodeficiency virus type 1 transcription start site are <clueType>important</clueType> <linkTheme>for</linkTheme> virus infectivity.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">When transcriptionally active, the <term sem="Virus" id="T6" lex="human_immunodeficiency_virus">human immunodeficiency virus</term> (<term sem="Virus" id="T7" lex="HIV">HIV</term>) <term sem="DNA_domain_or_region" id="T8" lex="promoter">promoter</term> contains a <term sem="DNA_domain_or_region" id="A1">nucleosome-free region</term> encompassing both the <term sem="DNA_domain_or_region" id="T9" lex="promoter/enhancer_region"><term sem="DNA_domain_or_region" id="T10" lex="promoter">promoter</term>/enhancer region</term> and a large region (<term sem="DNA_domain_or_region" id="T11" lex="255_nucleotide">255 nucleotides</term> [nt]) downstream of the <term sem="DNA_domain_or_region" id="T12" lex="transcription_start_site">transcription start site</term>.</sentence>
+<sentence id="S3">We have previously identified new binding sites for <term sem="Protein_family_or_group" id="T13" lex="transcription_factor">transcription factors</term> downstream of the <term sem="DNA_domain_or_region" id="T14" lex="transcription_start_site">transcription start site</term> (<term sem="DNA_domain_or_region" id="T15" lex="nt_465_to_720">nt 465 to 720</term>): three <term sem="DNA_domain_or_region" id="T16" lex="AP-1_site">AP-1 sites</term> (I, II, and III), an <term sem="DNA_domain_or_region" id="T17" lex="AP3-like_motif">AP3-like motif</term> (<term sem="DNA_domain_or_region" id="T18" lex="AP3-L">AP3-L</term>), a <term sem="DNA_domain_or_region" id="T19" lex="downstream_binding_factor_(DBF)_site">downstream binding factor (DBF) site</term>, and <term sem="DNA_domain_or_region" id="T20" lex="juxtaposed_Sp1_site">juxtaposed Sp1 sites</term>.</sentence>
+<sentence id="S4">Here, we show that the <term sem="DNA_domain_or_region" id="T21" lex="DBF_site">DBF site</term> is an <term sem="DNA_domain_or_region" id="T22" lex="interferon-responsive_factor_(IRF)_binding_site"><term sem="Protein_molecule" id="A2">interferon-responsive factor</term> (<term sem="Protein_molecule" id="A3">IRF</term>) binding site</term> and that the <term sem="DNA_domain_or_region" id="T23" lex="AP3-L_motif"><term sem="DNA_domain_or_region" id="T24" lex="AP3-L">AP3-L</term> motif</term> binds the <term sem="Protein_family_or_group" id="T25" lex="T-cell-specific_factor">T-cell-specific factor</term> <term sem="Protein_molecule" id="T26" lex="NF-AT">NF-AT</term>.</sentence>
+<event id="E3">
+<type class="Binding" />
+<theme idref="T21" />
+<theme idref="A3" />
+<clue>Here, we show that the DBF site is an interferon-responsive factor (IRF) <clueType>binding site</clueType> and that the AP3-L motif binds the T-cell-specific factor NF-AT.</clue>
+</event>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T23" />
+<theme idref="T26" />
+<clue>Here, we show that the DBF site is an interferon-responsive factor (IRF) binding site and that the AP3-L motif <clueType>binds</clueType> the T-cell-specific factor NF-AT.</clue>
+</event>
+<sentence id="S5">Mutations that abolish the binding of each factor to its cognate site are introduced in an <term sem="Virus" id="T27" lex="infectious_HIV-1_molecular_clone">infectious <term sem="Virus" id="T28" lex="HIV-1">HIV-1</term> molecular clone</term> to study their effect on <term sem="Other" id="T29" lex="HIV-1_transcription"><term sem="Virus" id="T30" lex="HIV-1">HIV-1</term> transcription</term> and replication.</sentence>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T21" />
+<theme idref="A3" />
+<clue>Mutations that abolish the <clueType>binding</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="A3">each factor</corefTheme> <linkTheme>to</linkTheme> <corefTheme idref1="T21">its cognate site</corefTheme> are introduced in an infectious HIV-1 molecular clone to study their effect on HIV-1 transcription and replication.</clue>
+</event>
+<event id="E6">
+<type class="Binding" />
+<theme idref="T23" />
+<theme idref="T26" />
+<clue>Mutations that abolish the <clueType>binding</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T26">each factor</corefTheme> <linkTheme>to</linkTheme> <corefTheme idref1="T23">its cognate site</corefTheme> are introduced in an infectious HIV-1 molecular clone to study their effect on HIV-1 transcription and replication.</clue>
+</event>
+<event id="E7">
+<type class="Mutagenesis" />
+<theme idref="T27" />
+<clue><clueType>Mutations</clueType> that abolish the binding of each factor to its cognate site are introduced <linkTheme>in</linkTheme> an infectious HIV-1 molecular clone to study their effect on HIV-1 transcription and replication.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="E7" />
+<clue>Mutations that <clueType>abolish</clueType> the binding of each factor to its cognate site are introduced in an infectious HIV-1 molecular clone to study their effect on HIV-1 transcription and replication.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="E7" />
+<clue>Mutations that <clueType>abolish</clueType> the binding of each factor to its cognate site are introduced in an infectious HIV-1 molecular clone to study their effect on HIV-1 transcription and replication.</clue>
+</event>
+<event id="E10">
+<type class="Transcription" />
+<theme idref="T30" />
+<clue>Mutations that abolish the binding of each factor to its cognate site are introduced in an infectious HIV-1 molecular clone to study their effect on HIV-1 <clueType>transcription</clueType> and replication.</clue>
+</event>
+<event id="E11">
+<type class="Viral_life_cycle" />
+<theme idref="T30" />
+<clue>Mutations that abolish the binding of each factor to its cognate site are introduced in an infectious HIV-1 molecular clone to study their effect on HIV-1 transcription and <clueType>replication</clueType>.</clue>
+</event>
+<event uncertainty="doubtful" id="E12">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="E5" />
+<clue>Mutations that abolish the binding of each factor to its cognate site are introduced in an infectious HIV-1 molecular clone to study <corefCause>their</corefCause> <clueType>effect</clueType> <linkTheme>on</linkTheme> HIV-1 transcription and replication.</clue>
+</event>
+<event uncertainty="doubtful" id="E13">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="E5" />
+<clue>Mutations that abolish the binding of each factor to its cognate site are introduced in an infectious HIV-1 molecular clone to study <corefCause>their</corefCause> <clueType>effect</clueType> <linkTheme>on</linkTheme> HIV-1 transcription and replication.</clue>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="E6" />
+<clue>Mutations that abolish the binding of each factor to its cognate site are introduced in an infectious HIV-1 molecular clone to study <corefCause>their</corefCause> <clueType>effect</clueType> <linkTheme>on</linkTheme> HIV-1 transcription and replication.</clue>
+</event>
+<event uncertainty="doubtful" id="E15">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="E6" />
+<clue>Mutations that abolish the binding of each factor to its cognate site are introduced in an infectious HIV-1 molecular clone to study <corefCause>their</corefCause> <clueType>effect</clueType> <linkTheme>on</linkTheme> HIV-1 transcription and replication.</clue>
+</event>
+<sentence id="S6">Individual <term sem="Other" id="T56" lex="mutation">mutation</term> of the <cons sem="(OR DNA_domain_or_region DNA_domain_or_region)" id="C1" lex="(OR DBF_site AP3-L_site)"><frag id="F1">DBF</frag> or <frag id="F2">AP3-L</frag> <frag id="F3">site</frag></cons> as well as the double <term sem="DNA_domain_or_region" id="T32" lex="mutation_AP-1(III)/AP3-L">mutation AP-1(III)/<term sem="DNA_domain_or_region" id="T33" lex="AP3-L">AP3-L</term></term> did not affect <term sem="Other" id="T34" lex="HIV-1_replication"><term sem="Virus" id="T55" lex="HIV-1">HIV-1</term> replication</term> compared to that of the <term sem="Virus" id="T35" lex="wild-type_virus">wild-type virus</term>.</sentence>
+<event id="E16">
+<type class="Mutagenesis" />
+<theme idref1="F3" idref="F1" />
+<clue>Individual <clueType>mutation</clueType> <linkTheme>of</linkTheme> the DBF or AP3-L site as well as the double mutation AP-1(III)/AP3-L did not affect HIV-1 replication compared to that of the wild-type virus.</clue>
+<comment>ARTIFICIAL; NER: original T31, T32, T33 del</comment>
+</event>
+<event id="E17">
+<type class="Mutagenesis" />
+<theme idref1="F3" idref="F2" />
+<clue>Individual <clueType>mutation</clueType> <linkTheme>of</linkTheme> the DBF or AP3-L site as well as the double mutation AP-1(III)/AP3-L did not affect HIV-1 replication compared to that of the wild-type virus.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Regulation" />
+<theme idref="E19" />
+<cause idref="E17" />
+<clue>Individual mutation of the DBF or AP3-L site as well as the double mutation AP-1(III)/AP3-L did not <clueType>affect</clueType> HIV-1 replication compared to that of the wild-type virus.</clue>
+</event>
+<event assertion="non-exist" id="E20">
+<type class="Regulation" />
+<theme idref="E19" />
+<cause idref="E16" />
+<clue>Individual mutation of the DBF or AP3-L site as well as the double mutation AP-1(III)/AP3-L did not <clueType>affect</clueType> HIV-1 replication compared to that of the wild-type virus.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Regulation" />
+<theme idref="E19" />
+<cause idref="E16" />
+<cause idref="E17" />
+<clue>Individual mutation of the DBF or AP3-L site as well as the double mutation AP-1(III)/AP3-L did not <clueType>affect</clueType> HIV-1 replication compared to that of the wild-type virus.</clue>
+<comment>CAUTION, double mutation</comment>
+</event>
+<event id="E19">
+<type class="Viral_life_cycle" />
+<theme idref="T35" />
+<clue>Individual mutation of the DBF or AP3-L site as well as the double mutation AP-1(III)/AP3-L did not affect <corefTheme>HIV-1</corefTheme> <clueType>replication</clueType> compared to that <linkTheme>of</linkTheme> the wild-type virus.</clue>
+</event>
+<sentence id="S7">In contrast, <term sem="Virus" id="T31" lex="proviruses">proviruses</term> carrying <term sem="Other" id="T57" lex="mutation">mutations</term> in the <term sem="DNA_domain_or_region" id="T36" lex="Sp1_site">Sp1 sites</term> were totally defective in terms of <term sem="Other" id="T58" lex="replication">replication</term>.</sentence>
+<event id="E22">
+<type class="Mutagenesis" />
+<theme idref="T36" />
+<clue>In contrast, <clueLoc>proviruses</clueLoc> carrying <clueType>mutations</clueType> <linkTheme>in</linkTheme> the Sp1 sites were totally defective in terms of replication.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E23">
+<type class="Viral_life_cycle" />
+<theme idref="T31" />
+<clue>In contrast, proviruses carrying mutations in the Sp1 sites were totally defective in terms of <clueType>replication</clueType>.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="E22" />
+<clue>In contrast, proviruses carrying mutations in the Sp1 sites were totally <clueType>defective</clueType> in terms of replication.</clue>
+</event>
+<sentence id="S8"><term sem="Other" id="T59" lex="virus production">Virus production</term> occurred with slightly <term sem="Other" id="T37" lex="delayed_kinetics">delayed kinetics</term> for viruses containing <term sem="Other" id="T60" lex="combined_mutation">combined mutations</term> in the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region)" id="C2" lex="(AND AP-1(III)_site AP3-L_site DBF_site)"><frag id="F4">AP-1(III)</frag>, <frag id="F5">AP3-L</frag>, and <frag id="F6">DBF</frag> <frag id="F7">sites</frag></cons> and in the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="C3" lex="(AND AP3-L-site DBF-site)"><frag id="F8">AP3-L</frag> and <frag id="F9">DBF</frag><frag id="F10">-sites</frag></cons>, whereas viruses mutated in the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="C4" lex="(AND AP-1(I,II,III)_site AP3-L_site)"><frag id="F11">AP-1(I,II,III)</frag> and <frag id="F12">AP3-L</frag> <frag id="F13">sites</frag></cons> and in the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region)" id="C5" lex="(AND AP-1(I,II,III)_site AP3-L_site DBF_site)"><frag id="F14">AP-1(I,II,III)</frag>, <frag id="F15">AP3-L</frag>, and <frag id="F16">DBF</frag> <frag id="F17">sites</frag></cons> exhibited a severely defective <term sem="Other" id="T38" lex="replicable_phenotype">replicative phenotype</term>.</sentence>
+<event id="E25">
+<type class="Viral_life_cycle" />
+<theme idref="T55" />
+<clue><corefTheme>Virus</corefTheme> <clueType>production</clueType> occurred with slightly delayed kinetics for viruses containing combined mutations in the AP-1(III), AP3-L, and DBF sites and in the AP3-L and DBF-sites, whereas viruses mutated in the AP-1(I,II,III) and AP3-L sites and in the AP-1(I,II,III), AP3-L, and DBF sites exhibited a severely defective replicative phenotype.</clue>
+<comment>NER: original T38 to T46 del</comment>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="E27" />
+<cause idref="E29" />
+<clue>Virus production occurred with slightly <clueType>delayed</clueType> kinetics for viruses containing <clueType>combined</clueType> mutations in the AP-1(III), AP3-L, and DBF sites and in the AP3-L and DBF-sites, whereas viruses mutated in the AP-1(I,II,III) and AP3-L sites and in the AP-1(I,II,III), AP3-L, and DBF sites exhibited a severely defective replicative phenotype.</clue>
+<comment>CAUTION, delayed kinetics</comment>
+</event>
+<event id="E27">
+<type class="Mutagenesis" />
+<theme idref1="F7" idref="F4" />
+<clue>Virus production occurred with slightly delayed kinetics for <clueLoc>viruses</clueLoc> <clueType>containing</clueType> combined <clueType>mutations</clueType> <linkTheme>in</linkTheme> the AP-1(III), AP3-L, and DBF sites and in the AP3-L and DBF-sites, whereas viruses mutated in the AP-1(I,II,III) and AP3-L sites and in the AP-1(I,II,III), AP3-L, and DBF sites exhibited a severely defective replicative phenotype.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E29">
+<type class="Mutagenesis" />
+<theme idref1="F7" idref="F5" />
+<clue>Virus production occurred with slightly delayed kinetics for <clueLoc>viruses</clueLoc> <clueType>containing</clueType> combined <clueType>mutations</clueType> <linkTheme>in</linkTheme> the AP-1(III), AP3-L, and DBF sites and in the AP3-L and DBF-sites, whereas viruses mutated in the AP-1(I,II,III) and AP3-L sites and in the AP-1(I,II,III), AP3-L, and DBF sites exhibited a severely defective replicative phenotype.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E28">
+<type class="Mutagenesis" />
+<theme idref1="F13" idref="F11" />
+<clue>Virus production occurred with slightly delayed kinetics for viruses containing combined mutations in the AP-1(III), AP3-L, and DBF sites and in the AP3-L and DBF-sites, whereas <clueLoc>viruses</clueLoc> <clueType>mutated</clueType> <linkTheme>in</linkTheme> the AP-1(I,II,III) and AP3-L sites and in the AP-1(I,II,III), AP3-L, and DBF sites exhibited a severely defective replicative phenotype.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E32">
+<type class="Mutagenesis" />
+<theme idref1="F13" idref="F12" />
+<clue>Virus production occurred with slightly delayed kinetics for viruses containing combined mutations in the AP-1(III), AP3-L, and DBF sites and in the AP3-L and DBF-sites, whereas <clueLoc>viruses</clueLoc> <clueType>mutated</clueType> <linkTheme>in</linkTheme> the AP-1(I,II,III) and AP3-L sites and in the AP-1(I,II,III), AP3-L, and DBF sites exhibited a severely defective replicative phenotype.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E31">
+<type class="Viral_life_cycle" />
+<theme idref="T55" />
+<clue>Virus production occurred with slightly delayed kinetics for viruses containing combined mutations in the AP-1(III), AP3-L, and DBF sites and in the AP3-L and DBF-sites, whereas <corefTheme>viruses</corefTheme> mutated in the AP-1(I,II,III) and AP3-L sites and in the AP-1(I,II,III), AP3-L, and DBF sites exhibited a severely defective <clueType>replicative phenotype</clueType>.</clue>
+<comment>CAUTION, clueType</comment>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E31" />
+<cause idref="E28" />
+<cause idref="E32" />
+<clue>Virus production occurred with slightly delayed kinetics for viruses containing combined mutations in the AP-1(III), AP3-L, and DBF sites and in the AP3-L and DBF-sites, whereas viruses mutated in the AP-1(I,II,III) and AP3-L sites and in the AP-1(I,II,III), AP3-L, and DBF sites <clueType>exhibited</clueType> a severely <clueType>defective</clueType> replicative phenotype.</clue>
+<comment>CAUTION, combined</comment>
+</event>
+<event id="E34">
+<type class="Mutagenesis" />
+<theme idref1="F17" idref="F14" />
+<clue>Virus production occurred with slightly delayed kinetics for viruses containing combined mutations in the AP-1(III), AP3-L, and DBF sites and in the AP3-L and DBF-sites, whereas <clueLoc>viruses</clueLoc> <clueType>mutated</clueType> in the AP-1(I,II,III) and AP3-L sites and <linkTheme>in</linkTheme> the AP-1(I,II,III), AP3-L, and DBF sites exhibited a severely defective replicative phenotype.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E30">
+<type class="Mutagenesis" />
+<theme idref1="F17" idref="F15" />
+<clue>Virus production occurred with slightly delayed kinetics for viruses containing combined mutations in the AP-1(III), AP3-L, and DBF sites and in the AP3-L and DBF-sites, whereas <clueLoc>viruses</clueLoc> <clueType>mutated</clueType> in the AP-1(I,II,III) and AP3-L sites and <linkTheme>in</linkTheme> the AP-1(I,II,III), AP3-L, and DBF sites exhibited a severely defective replicative phenotype.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E35">
+<type class="Mutagenesis" />
+<theme idref1="F17" idref="F16" />
+<clue>Virus production occurred with slightly delayed kinetics for viruses containing combined mutations in the AP-1(III), AP3-L, and DBF sites and in the AP3-L and DBF-sites, whereas <clueLoc>viruses</clueLoc> <clueType>mutated</clueType> in the AP-1(I,II,III) and AP3-L sites and <linkTheme>in</linkTheme> the AP-1(I,II,III), AP3-L, and DBF sites exhibited a severely defective replicative phenotype.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="E31" />
+<cause idref="E34" />
+<cause idref="E30" />
+<cause idref="E35" />
+<clue>Virus production occurred with slightly delayed kinetics for viruses containing combined mutations in the AP-1(III), AP3-L, and DBF sites and in the AP3-L and DBF-sites, whereas viruses mutated in the AP-1(I,II,III) and AP3-L sites and in the AP-1(I,II,III), AP3-L, and DBF sites <clueType>exhibited</clueType> a severely <clueType>defective</clueType> replicative phenotype.</clue>
+<comment>CAUTION, combined</comment>
+</event>
+<sentence id="S9">No <term sem="Other" id="T39" lex="RNA-packaging">RNA-packaging</term> defect could be measured for any of the <term sem="Virus" id="T41" lex="mutant_virus">mutant viruses</term> as determined by quantification of their <term sem="RNA_family_or_group" id="T47" lex="HIV_genomic_RNA">HIV genomic RNA</term>.</sentence>
+<event id="E37">
+<type class="Viral_life_cycle" />
+<theme idref="T41" />
+<clue>No <clueType>RNA-packaging</clueType> defect could be measured <linkTheme>for</linkTheme> any of the mutant viruses as determined <clueExperiment>by quantification of their HIV genomic RNA</clueExperiment>.</clue>
+<comment>CAUTION, NO defect; NER: T54 del &quot;replication defects&quot;-&gt;&quot;replication&quot;</comment>
+</event>
+<sentence id="S10">Measurement of the <term sem="Other" id="T48" lex="transcriptional_activity">transcriptional activity</term> of the <term sem="DNA_domain_or_region" id="T49" lex="HIV-1_promoter"><term sem="Virus" id="T50" lex="HIV-1">HIV-1</term> promoter</term> after <term sem="Other" id="T40" lex="transient_transfection">transient transfection</term> of the <term sem="DNA_domain_or_region" id="T51" lex="HIV-1_provirus_DNA"><term sem="Virus" id="T52" lex="HIV-1">HIV-1</term> provirus DNA</term> or of <term sem="DNA_family_or_group" id="T53" lex="long_terminal_repeat-luciferase_construct">long terminal repeat-luciferase constructs</term> showed a positive correlation between the <term sem="Other" id="T42" lex="transcriptional">transcriptional</term> and the <term sem="Other" id="T54" lex="replication">replication</term> defects for most mutants.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="28/05/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9952372"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9952372</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Unicellular_organism" id="A8">Lactobacilli</term> and vaginal host defense: activation of the <term sem="DNA_domain_or_region" id="T1" lex="human_immunodeficiency_virus_type_1_long_terminal_repeat">human immunodeficiency virus type 1 long terminal repeat</term>, <term sem="Other" id="T2" lex="cytokine_production"><term sem="Protein_family_or_group" id="T3" lex="cytokin">cytokine</term> production</term>, and <term sem="Protein_molecule" id="T4" lex="NF-kappaB">NF-kappaB</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<clue>Lactobacilli and vaginal host defense: <clueType>activation</clueType> <linkTheme>of</linkTheme> the human immunodeficiency virus type 1 long terminal repeat, cytokine production, and NF-kappaB.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>Lactobacilli and vaginal host defense: activation of the human immunodeficiency virus type 1 long terminal repeat, cytokine <clueType>production</clueType>, and NF-kappaB.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Unicellular_organism" id="A1">Lactobacilli</term>, a component of the normal vaginal flora, can activate the <term sem="DNA_domain_or_region" id="T5" lex="human_immunodeficiency_virus_(HIV)-1_long_terminal_repeat">human immunodeficiency virus (HIV)-1 long terminal repeat</term> (<term sem="DNA_domain_or_region" id="T6" lex="LTR">LTR</term>) in the <term sem="Cell_cultured" id="T7" lex="Jurkat_T_lymphocyte">Jurkat T lymphocyte</term> and <term sem="Cell_cultured" id="T8" lex="THP-1_macrophage_cell_line">THP-1 macrophage cell lines</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<cause idref="A1" />
+<clue>Lactobacilli, a component of the normal vaginal flora, can <clueType>activate</clueType> the human immunodeficiency virus (HIV)-1 long terminal repeat (LTR) <clueLoc>in the Jurkat T lymphocyte</clueLoc> and THP-1 macrophage <clueLoc>cell lines</clueLoc>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E19">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<cause idref="A1" />
+<clue>Lactobacilli, a component of the normal vaginal flora, can <clueType>activate</clueType> the human immunodeficiency virus (HIV)-1 long terminal repeat (LTR) <clueLoc>in</clueLoc> the Jurkat T lymphocyte and <clueLoc>THP-1 macrophage cell lines</clueLoc>.</clue>
+</event>
+<sentence id="S3">Activation of the <term sem="DNA_domain_or_region" id="T9" lex="LTR">LTR</term> in <term sem="Cell_cultured" id="T10" lex="Jurkat_cell">Jurkat cells</term> was strongly enhanced by <term sem="Inorganic_compound" id="A2">vanadate</term> and inhibited by <term sem="Protein_family_or_group" id="T11" lex="catalase">catalase</term>, implicating <term sem="Inorganic_compound" id="T12" lex="H2O2">H2O2</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E4">
+<type class="Positive_regulation" />
+<theme idref="T9" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> the LTR <clueLoc>in Jurkat cells</clueLoc> was strongly enhanced by vanadate and inhibited by catalase, implicating H2O2.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="A2" />
+<clue>Activation of the LTR in Jurkat cells was strongly <clueType>enhanced</clueType> <linkCause>by</linkCause> vanadate and inhibited by catalase, implicating H2O2.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E6">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="T11" />
+<clue>Activation of the LTR in Jurkat cells was strongly enhanced by vanadate and <clueType>inhibited</clueType> <linkCause>by</linkCause> catalase, implicating H2O2.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E7">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="T12" />
+<clue>Activation of the LTR in Jurkat cells was strongly enhanced by vanadate and inhibited by catalase, <clueType>implicating</clueType> H2O2.</clue>
+</event>
+<sentence id="S4">In contrast, activation in <term sem="Protein_domain_or_region" id="T13" lex="THP-1_cell">THP-1 cells</term> occurred in the absence of <term sem="Organic_compound_other" id="T14" lex="vanadate">vanadate</term> and was unaffected by <term sem="Protein_family_or_group" id="T15" lex="catalase">catalase</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E8">
+<type class="Positive_regulation" />
+<theme idref="T9" />
+<clue>In contrast, <clueType>activation</clueType> <clueLoc>in THP-1 cells</clueLoc> occurred in the absence of vanadate and was unaffected by catalase.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event assertion="non-exist" uncertainty="certain" id="E9">
+<type class="Correlation" />
+<theme idref="E8" />
+<theme idref="T14" />
+<clue>In contrast, activation in THP-1 cells occurred <linkTheme>in the absence of</linkTheme> vanadate and was unaffected by catalase.</clue>
+</event>
+<event assertion="non-exist" uncertainty="certain" id="E10">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="T15" />
+<clue>In contrast, activation in THP-1 cells occurred in the absence of vanadate and was <clueType>unaffected</clueType> <linkCause>by</linkCause> catalase.</clue>
+</event>
+<sentence id="S5">The <term sem="Organic_compound_other" id="A3">active material</term> partitioned into the <term sem="Other" id="T16" lex="phenol_layer"><term sem="Organic_compound_other" id="T17" lex="phenol">phenol</term> layer</term> on <term sem="Other" id="T18" lex="hot_aqueous_phenol_extraction">hot aqueous <term sem="Organic_compound_other" id="T19" lex="phenol">phenol</term> extraction</term>.</sentence>
+<sentence id="S6"><term sem="Unicellular_organism" id="T20" lex="lactobacilli">Lactobacilli</term> also increased <cons sem="(AND Other Other)" id="C1" lex="(AND tumor_necrosis_factor-alpha_production interleukin-1_beta_production)"><frag id="F1"><term sem="Protein_molecule" id="A4">tumor necrosis factor-alpha</term></frag>and <frag id="F2"><term sem="Protein_molecule" id="A5">interleukin-1beta</term></frag><frag id="F3">production</frag></cons> and activated <term sem="Protein_molecule" id="T24" lex="NF-kappaB">NF-kappaB</term> in <term sem="Protein_domain_or_region" id="T25" lex="THP-1_cell">THP-1 cells</term> and increased <term sem="Other" id="T26" lex="tumor_necrosis_factor-alphaproduction"><term sem="Protein_molecule" id="A6">tumor necrosis factor-alpha</term>production</term> by <term sem="Cell_natural" id="T28" lex="human_monocyte">human monocytes</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T20" />
+<clue>Lactobacilli also <clueType>increased</clueType> tumor necrosis factor-alphaand interleukin-1betaproduction and activated NF-kappaB in THP-1 cells and increased tumor necrosis factor-alphaproduction by human monocytes.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="T20" />
+<clue>Lactobacilli also <clueType>increased</clueType> tumor necrosis factor-alphaand interleukin-1betaproduction and activated NF-kappaB in THP-1 cells and increased tumor necrosis factor-alphaproduction by human monocytes.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E14">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>Lactobacilli also increased tumor necrosis factor-alphaand interleukin-1beta<clueType>production</clueType> and activated NF-kappaB <clueLoc>in THP-1 cells</clueLoc> and increased tumor necrosis factor-alphaproduction by human monocytes.</clue>
+<comment>CAUTION, there should be a space between &quot;factor-alpha&quot; and &quot;and&quot;</comment></event>
+<event assertion="exist" uncertainty="certain" id="E15">
+<type class="Gene_expression" />
+<theme idref="A5" />
+<clue>Lactobacilli also increased tumor necrosis factor-alphaand interleukin-1beta<clueType>production</clueType> and activated NF-kappaB <clueLoc>in THP-1 cells</clueLoc> and increased tumor necrosis factor-alphaproduction by human monocytes.</clue>
+<comment>CAUTION, there should be a space between &quot;interleukin-1&quot; and &quot;beta&quot; and &quot;production&quot;</comment></event>
+<event assertion="exist" uncertainty="certain" id="E16">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="T20" />
+<clue>Lactobacilli also increased tumor necrosis factor-alphaand interleukin-1betaproduction and <clueType>activated</clueType> NF-kappaB <clueLoc>in THP-1 cells</clueLoc> and increased tumor necrosis factor-alphaproduction by human monocytes.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E17">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T20" />
+<clue>Lactobacilli also increased tumor necrosis factor-alphaand interleukin-1betaproduction and activated NF-kappaB in THP-1 cells and <clueType>increased</clueType> tumor necrosis factor-alphaproduction by human monocytes.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E18">
+<type class="Gene_expression" />
+<theme idref="A6" />
+<clue>Lactobacilli also increased tumor necrosis factor-alphaand interleukin-1betaproduction and activated NF-kappaB in THP-1 cells and increased tumor necrosis factor-alpha<clueType>production</clueType> <clueLoc>by human monocytes</clueLoc>.</clue>
+<comment>CAUTION, CAUTION, there should be a space between &quot;factor-alpha&quot; and &quot;production&quot;</comment></event>
+<sentence id="S7"><term sem="Tissue_natural" id="T29" lex="human_vaginal_fluid_specimen">Human vaginal fluid specimens</term> had <term sem="Other" id="T30" lex="comparable_propertie">comparable properties</term>, which correlated with their <term sem="Other" id="T31" lex="bacterial_content">bacterial content</term>.</sentence>
+<sentence id="S8">These findings suggest the presence in <term sem="Tissue_natural" id="T32" lex="vaginal_fluid">vaginal fluid</term> of <term sem="Other" id="A7">agent(s) derived from indigenous bacteria</term> that can activate the <term sem="DNA_domain_or_region" id="T33" lex="HIV-1_LTR">HIV-1 <term sem="DNA_domain_or_region" id="T34" lex="LTR">LTR</term></term>, <term sem="Other" id="T35" lex="cytokine_production"><term sem="Protein_family_or_group" id="T36" lex="cytokin">cytokine</term> production</term>, and <term sem="Protein_molecule" id="T37" lex="NF-kappaB">NF-kappaB</term> in cells of <term sem="Cell_natural" id="T38" lex="macrophage_lineage">macrophage lineage</term>, with possible influence on <term sem="Other" id="T39" lex="vaginal_physiology">vaginal physiology</term> and <term sem="Other" id="T40" lex="host_defense">host defense</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E11">
+<type class="Gene_expression" />
+<theme idref="A7" />
+<clue>These findings suggest the <clueType>presence</clueType> <clueLoc>in vaginal fluid</clueLoc> <linkTheme>of</linkTheme> agent(s) derived from indigenous bacteria that can activate the HIV-1 LTR, cytokine production, and NF-kappaB in cells of macrophage lineage, with possible influence on vaginal physiology and host defense.</clue>
+<comment>TPS: A7; CAUTION, presence</comment></event>
+<event assertion="exist" uncertainty="probable" id="E23">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="A7" />
+<clue>These findings suggest the presence in vaginal fluid of agent(s) derived from indigenous bacteria that can <clueType>activate</clueType> the HIV-1 LTR, cytokine production, and NF-kappaB <clueLoc>in cells of macrophage lineage</clueLoc>, with possible influence on vaginal physiology and host defense.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E24">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="A7" />
+<clue>These findings suggest the presence in vaginal fluid of agent(s) derived from indigenous bacteria that can <clueType>activate</clueType> the HIV-1 LTR, cytokine production, and NF-kappaB <clueLoc>in cells of macrophage lineage</clueLoc>, with possible influence on vaginal physiology and host defense.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E25">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<cause idref="A7" />
+<clue>These findings suggest the presence in vaginal fluid of agent(s) derived from indigenous bacteria that can <clueType>activate</clueType> the HIV-1 LTR, cytokine production, and NF-kappaB <clueLoc>in cells of macrophage lineage</clueLoc>, with possible influence on vaginal physiology and host defense.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E26">
+<type class="Gene_expression" />
+<theme idref="T36" />
+<clue>These findings suggest the presence in vaginal fluid of agent(s) derived from indigenous bacteria that can activate the HIV-1 LTR, cytokine <clueType>production</clueType>, and NF-kappaB in cells of macrophage lineage, with possible influence on vaginal physiology and host defense.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E27">
+<type class="Regulation" />
+<theme idref="T39" />
+<cause idref="A7" />
+<clue>These findings suggest the presence in vaginal fluid of agent(s) derived from indigenous bacteria that can activate the HIV-1 LTR, cytokine production, and NF-kappaB <clueLoc>in cells of macrophage lineage</clueLoc>, with possible <clueType>influence</clueType> <linkTheme>on</linkTheme> vaginal physiology and host defense.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E28">
+<type class="Regulation" />
+<theme idref="T40" />
+<cause idref="A7" />
+<clue>These findings suggest the presence in vaginal fluid of agent(s) derived from indigenous bacteria that can activate the HIV-1 LTR, cytokine production, and NF-kappaB <clueLoc>in cells of macrophage lineage</clueLoc>, with possible <clueType>influence</clueType> <linkTheme>on</linkTheme> vaginal physiology and host defense.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

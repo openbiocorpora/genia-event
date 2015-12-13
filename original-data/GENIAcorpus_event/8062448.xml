@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/07/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8062448">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8062448</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="T1" lex="superantigen">Superantigens</term> activate <term sem="Other" id="T2" lex="HIV-1_gene_expression"><term sem="DNA_domain_or_region" id="T3" lex="HIV-1">HIV-1 gene</term> expression</term> in <term sem="Cell_natural" id="T4" lex="monocytic_cell">monocytic cells</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>Superantigens activate HIV-1 gene <clueType>expression</clueType> <clueLoc>in monocytic cells</clueLoc>.</clue>
+<comment>NER T3 MOD</comment>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Superantigens <clueType>activate</clueType> HIV-1 gene expression in monocytic cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Binding of <term sem="Protein_family_or_group" id="A1">superantigens</term> to <term sem="Protein_family_or_group" id="T5" lex="MHC_class_II_molecule">MHC class II molecules</term> results in transduction of <term sem="Other" id="T6" lex="biochemical_signal">biochemical signals</term> leading to <term sem="Other" id="T7" lex="cellular_activation">cellular activation</term> and <term sem="Other" id="T8" lex="gene_expression">gene expression</term>.</sentence>
+<event id="E3">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T5" />
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> superantigens <linkTheme>to</linkTheme> MHC class II molecules results in transduction of biochemical signals leading to cellular activation and gene expression.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<cause idref="T6" />
+<clue>Binding of superantigens to MHC class II molecules results in transduction of biochemical signals <clueType>leading</clueType> <linkTheme>to</linkTheme> cellular activation and gene expression.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="T6" />
+<clue>Binding of superantigens to MHC class II molecules results in transduction of biochemical signals <clueType>leading</clueType> <linkTheme>to</linkTheme> cellular activation and gene expression.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E3" />
+<clue>Binding of superantigens to MHC class II molecules <clueType>results in transduction</clueType> <linkTheme>of</linkTheme> biochemical signals leading to cellular activation and gene expression.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E3" />
+<clue>Binding of superantigens to MHC class II molecules <clueType>results in transduction</clueType> <linkTheme>of</linkTheme> biochemical signals leading to cellular activation and gene expression.</clue>
+</event>
+<sentence id="S3">We demonstrate that the <term sem="Protein_family_or_group" id="T9" lex="staphylococcal_superantigen">staphylococcal superantigens</term> <term sem="Protein_molecule" id="T10" lex="toxic_shock_syndrome_toxin-1">toxic shock syndrome toxin-1</term> (<term sem="Protein_molecule" id="T11" lex="TSST-1">TSST-1</term>) and <term sem="Protein_molecule" id="T12" lex="staphylococcal_enterotoxin_A">staphylococcal enterotoxin A</term> (<term sem="Protein_molecule" id="T13" lex="SEA">SEA</term>) activate <term sem="Other" id="T14" lex="HIV-1-LTR-driven_transcription"><term sem="DNA_domain_or_region" id="T15" lex="HIV-1-LTR"><term sem="Virus" id="T16" lex="HIV-1">HIV-1</term>-LTR</term>-driven transcription</term> of <term sem="Protein_molecule" id="T17" lex="chloramphenicol_acetyl_transferase">chloramphenicol acetyl transferase</term> in the <term sem="Cell_cultured" id="T18" lex="human_monocytic_cell_line">human monocytic cell line</term> <term sem="Cell_cultured" id="T19" lex="THP-1">THP-1</term>.</sentence>
+<event id="E8">
+<type class="Transcription" />
+<theme idref="T17" />
+<clue>We demonstrate that the staphylococcal superantigens toxic shock syndrome toxin-1 (TSST-1) and staphylococcal enterotoxin A (SEA) activate HIV-1-LTR-driven <clueType>transcription</clueType> <linkTheme>of</linkTheme> chloramphenicol acetyl transferase in the human monocytic cell line THP-1.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T15" />
+<clue>We demonstrate that the staphylococcal superantigens toxic shock syndrome toxin-1 (TSST-1) and staphylococcal enterotoxin A (SEA) activate HIV-1-LTR-<clueType>driven</clueType> transcription of chloramphenicol acetyl transferase <clueLoc>in the human monocytic cell line THP-1</clueLoc>.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T11" />
+<clue>We demonstrate that the staphylococcal superantigens toxic shock syndrome toxin-1 (TSST-1) and staphylococcal enterotoxin A (SEA) <clueType>activate</clueType> HIV-1-LTR-driven transcription of chloramphenicol acetyl transferase in the human monocytic cell line THP-1.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T13" />
+<clue>We demonstrate that the staphylococcal superantigens toxic shock syndrome toxin-1 (TSST-1) and staphylococcal enterotoxin A (SEA) <clueType>activate</clueType> HIV-1-LTR-driven transcription of chloramphenicol acetyl transferase in the human monocytic cell line THP-1.</clue>
+</event>
+<sentence id="S4">Induction of <term sem="Other" id="T20" lex="HIV-1-_LTR-driven_transcription"><term sem="DNA_domain_or_region" id="T22" lex="LTR"><term sem="Virus" id="T21" lex="HIV-1">HIV-1</term>-LTR</term>-driven <term sem="Other" id="A3">transcription</term></term> in <term sem="Cell_cultured" id="T23" lex="THP-1_cell">THP-1 cells</term> by <term sem="Protein_family_or_group" id="T24" lex="superantigen">superantigens</term> was associated with the induction of <term sem="Other" id="T25" lex="nuclear_factor-kappa_B_DNA-binding_activity"><term sem="Protein_molecule" id="T26" lex="nuclear_factor-kappa_B">nuclear factor-kappa B</term> <term sem="DNA_domain_or_region" id="A2">DNA</term>-binding activity</term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T22" />
+<clue>Induction of HIV-1-LTR-<clueType>driven</clueType> transcription <clueLoc>in THP-1 cells</clueLoc> by superantigens was associated with the induction of nuclear factor-kappa B DNA-binding activity.</clue>
+<comment>NER T22 MOD</comment>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T24" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> HIV-1-LTR-driven transcription in THP-1 cells <linkCause>by</linkCause> superantigens was associated with the induction of nuclear factor-kappa B DNA-binding activity.</clue>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="A3" />
+<clue>Induction of HIV-1-LTR-driven transcription in THP-1 cells by superantigens was associated with the induction of nuclear factor-kappa B DNA-<clueType>binding activity</clueType>.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue>Induction of HIV-1-LTR-driven transcription in THP-1 cells by superantigens was associated with the <clueType>induction</clueType> <linkTheme>of</linkTheme> nuclear factor-kappa B DNA-binding activity.</clue>
+</event>
+<event id="E16">
+<type class="Correlation" />
+<theme idref="E13" />
+<theme idref="E15" />
+<clue>Induction of HIV-1-LTR-driven transcription in THP-1 cells by superantigens was <clueType>associated</clueType> <linkTheme>with</linkTheme> the induction of nuclear factor-kappa B DNA-binding activity.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_family_or_group" id="T27" lex="superantigen">Superantigens</term> also increased <term sem="Other" id="T28" lex="viral_protein_secretion"><term sem="Protein_family_or_group" id="A4">viral protein</term> secretion</term> from the <term sem="Cell_cultured" id="T29" lex="granulocyte-macrophage_colony-stimulating_factor-pretreated_chronically_infected_human_monocytic_cell_line_U1"><term sem="Protein_molecule" id="T30" lex="granulocyte-macrophage_colony-stimulating_factor">granulocyte-macrophage colony-stimulating factor</term>-pretreated chronically infected <term sem="Cell_cultured" id="A5">human monocytic cell line U1</term></term>.</sentence>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>Superantigens also increased viral protein <clueType>secretion</clueType> <clueLoc>from the granulocyte-macrophage colony-stimulating factor-pretreated chronically infected human monocytic cell line U1</clueLoc>.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T27" />
+<clue>Superantigens also <clueType>increased</clueType> viral protein secretion from the granulocyte-macrophage colony-stimulating factor-pretreated chronically infected human monocytic cell line U1.</clue>
+</event>
+<event id="E19">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T21" />
+<theme idref="A5" />
+<clue>Superantigens also increased viral protein secretion from the granulocyte-macrophage colony-stimulating factor-pretreated chronically <clueType>infected</clueType> human monocytic cell line U1.</clue>
+<comment>NO COREFTHEME FOR T21</comment>
+</event>
+<event id="E20">
+<type class="Artificial_process" />
+<theme idref="T30" />
+<theme idref="A5" />
+<clue>Superantigens also increased viral protein secretion from the granulocyte-macrophage colony-stimulating factor-<clueType>pretreated</clueType> chronically infected human monocytic cell line U1.</clue>
+</event>
+<sentence id="S6">Induction of <term sem="Other" id="T31" lex="HIV-1_gene_expression"><term sem="DNA_domain_or_region" id="T32" lex="HIV-1">HIV-1 gene</term> expression</term> in <term sem="Cell_natural" id="T33" lex="monocytic_cell">monocytic cells</term> by <term sem="Protein_family_or_group" id="T34" lex="superantigen">superantigens</term> occurred via <cons sem="(AND Other Other)" id="T35" lex="(AND tumor_necrosis_factor-alpha-dependent_mechanism tumor_necrosis_factor-alpha-independent_mechanism)"><frag id="F1"><term sem="Protein_molecule" id="A6">tumor necrosis factor-alpha</term></frag><frag id="F2">-dependent</frag> and <frag id="F3">-independent</frag> <frag id="F4"><term sem="Other" id="A7">mechanisms</term></frag></cons>.</sentence>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>Induction of HIV-1 gene <clueType>expression</clueType> in monocytic cells by superantigens occurred via tumor necrosis factor-alpha-dependent and -independent mechanisms.</clue>
+<comment>NER T32 MOD</comment>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T34" />
+<clue><clueType>Induction</clueType> <linkCause>of</linkCause> HIV-1 gene expression <clueLoc>in monocytic cells</clueLoc> <linkCause>by</linkCause> superantigens occurred via tumor necrosis factor-alpha-dependent and -independent mechanisms.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="A6" />
+<clue>Induction of HIV-1 gene expression in monocytic cells by superantigens occurred via tumor necrosis factor-alpha-<clueType>dependent</clueType> and -independent mechanisms.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="E23" />
+<clue>Induction of HIV-1 gene expression in monocytic cells by superantigens <clueType>occurred</clueType> <linkCause>via</linkCause> tumor necrosis factor-alpha-dependent and -independent mechanisms.</clue>
+</event>
+<event assertion="non-exist" id="E25">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="A6" />
+<clue>Induction of HIV-1 gene expression in monocytic cells by superantigens occurred via tumor necrosis factor-alpha-dependent and -<clueType>independent</clueType> mechanisms.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="E25" />
+<clue>Induction of HIV-1 gene expression in monocytic cells by superantigens <clueType>occurred</clueType> <linkCause>via</linkCause> tumor necrosis factor-alpha-dependent and -independent mechanisms.</clue>
+</event>
+<sentence id="S7">Our results suggest that <term sem="Protein_family_or_group" id="T36" lex="superantigen">superantigens</term> and other <term sem="Protein_family_or_group" id="T37" lex="MHC_class_II_ligand">MHC class II ligands</term> may activate <term sem="Other" id="T38" lex="HIV-1_gene_expression"><term sem="DNA_domain_or_region" id="T39" lex="HIV-1">HIV-1 gene</term> expression</term> in <term sem="Cell_natural" id="T40" lex="monocytes/macrophage">monocytes/macrophages</term>.</sentence>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T39" />
+<clue>Our results suggest that superantigens and other MHC class II ligands may activate HIV-1 gene <clueType>expression</clueType> <clueLoc>in monocytes/macrophages</clueLoc>.</clue>
+<comment>NER T39 MOD</comment>
+</event>
+<event uncertainty="probable" id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="T36" />
+<clue>Our results suggest that superantigens and other MHC class II ligands may <clueType>activate</clueType> HIV-1 gene expression in monocytes/macrophages.</clue>
+</event>
+<event uncertainty="probable" id="E29">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="T37" />
+<clue>Our results suggest that superantigens and other MHC class II ligands may <clueType>activate</clueType> HIV-1 gene expression in monocytes/macrophages.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

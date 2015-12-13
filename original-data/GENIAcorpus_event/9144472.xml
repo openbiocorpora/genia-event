@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="13/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9144472" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9144472</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of <term sem="Other" id="T1" lex="CD95_(Fas)_ligand_expression"><term sem="Protein_molecule" id="T2" lex="CD95_(Fas)_ligand">CD95 (Fas) ligand</term> expression</term> by <term sem="Other" id="T3" lex="TCR-mediated_signaling_event"><term sem="Protein_family_or_group" id="T4" lex="TCR">TCR</term>-mediated signaling events</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Regulation of CD95 (Fas) ligand <clueType>expression</clueType> by TCR-mediated signaling events.</clue>
+</event>
+<event id="E2">
+<type class="Cell_communication" />
+<theme idref="T4" />
+<clue>Regulation of CD95 (Fas) ligand expression by TCR-<linkTheme>mediated</linkTheme> <clueType>signaling events</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="E2" />
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> CD95 (Fas) ligand expression <linkCause>by</linkCause> TCR-mediated signaling events.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Stimulation of <term sem="Cell_natural" id="T5" lex="mature_peripheral_T_cell">mature peripheral T cells</term> by <term sem="Other" id="T6" lex="TCR_engagement"><term sem="Protein_family_or_group" id="T7" lex="TCR">TCR</term> engagement</term> results in activation of signals that drive induction of <term sem="Other" id="T8" lex="cytokine_gene_expression"><term sem="DNA_family_or_group" id="T9" lex="cytokine">cytokine gene</term> expression</term> and <term sem="Other" id="T10" lex="clonal_expansion">clonal expansion</term>.</sentence>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T7" />
+<clue>Stimulation of mature peripheral T cells by TCR <clueType>engagement</clueType> results in activation of signals that drive induction of cytokine gene expression and clonal expansion.</clue>
+</event>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="T5" />
+<cause idref="E4" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> mature peripheral T cells <linkCause>by</linkCause> TCR engagement results in activation of signals that drive induction of cytokine gene expression and clonal expansion.</clue>
+</event>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>Stimulation of mature peripheral T cells by TCR engagement results in activation of signals that drive induction of cytokine gene <clueType>expression</clueType> and clonal expansion.</clue>
+<comment>NER T6 MOD</comment>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<clue>Stimulation of mature peripheral T cells by TCR engagement results in activation of signals that drive <clueType>induction</clueType> <linkTheme>of</linkTheme> cytokine gene expression and clonal expansion.</clue>
+</event>
+<event id="E8">
+<type class="Cellular_physiological_process" />
+<theme idref="T5" />
+<clue>Stimulation of mature peripheral T cells by TCR engagement results in activation of signals that drive induction of cytokine gene expression and <clueType>clonal expansion</clueType>.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<clue>Stimulation of mature peripheral T cells by TCR engagement results in activation of signals that drive <clueType>induction</clueType> <linkTheme>of</linkTheme> cytokine gene expression and clonal expansion.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E5" />
+<clue>Stimulation of mature peripheral T cells by TCR engagement <clueType>results in activation of signals that drive</clueType> induction of cytokine gene expression and clonal expansion.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E5" />
+<clue>Stimulation of mature peripheral T cells by TCR engagement <clueType>results in activation of signals that drive</clueType> induction of cytokine gene expression and clonal expansion.</clue>
+</event>
+<sentence id="S3">However, under some conditions, engagement of the <term sem="Protein_family_or_group" id="T11" lex="TCR">TCR</term> leads instead to apoptosis.</sentence>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T11" />
+<clue>However, under some conditions, <clueType>engagement</clueType> <linkTheme>of</linkTheme> the TCR leads instead to apoptosis.</clue>
+</event>
+<event id="E13">
+<type class="Cellular_physiological_process" />
+<theme idref="T5" />
+<clue>However, under some conditions, engagement of the TCR leads instead to <clueType>apoptosis</clueType>.</clue>
+<comment>NO COREFTEHEME</comment>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E12" />
+<clue>However, under some conditions, engagement of the TCR <clueType>leads instead to</clueType> apoptosis.</clue>
+</event>
+<sentence id="S4">Recent studies demonstrate that <term sem="Other" id="T12" lex="TCR-stimulated_apoptosis"><term sem="Protein_family_or_group" id="T13" lex="TCR">TCR</term>-stimulated apoptosis</term> requires expression of <term sem="Protein_molecule" id="T14" lex="CD95_ligand">CD95 ligand</term> on <term sem="Cell_natural" id="T15" lex="activated_T_cell">activated <term sem="Cell_natural" id="A101">T cells</term></term> followed by an interaction between <term sem="Protein_molecule" id="T16" lex="CD95_ligand">CD95 ligand</term> and the <term sem="Protein_molecule" id="T17" lex="CD95_receptor">CD95 receptor</term> also expressed on this population.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E41" />
+<cause idref="T13" />
+<clue>Recent studies demonstrate that TCR-<clueType>stimulated</clueType> apoptosis requires expression of CD95 ligand on activated T cells followed by an interaction between CD95 ligand and the CD95 receptor also expressed on this population.</clue>
+</event>
+<event id="E41">
+<type class="Cellular_physiological_process" />
+<theme idref="T15" />
+<clue>Recent studies demonstrate that TCR-stimulated <clueType>apoptosis</clueType> requires expression of CD95 ligand on activated T cells followed by an interaction between CD95 ligand and the CD95 receptor also expressed on this population.</clue>
+</event>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>Recent studies demonstrate that TCR-stimulated apoptosis requires <clueType>expression</clueType> <linkTheme>of</linkTheme> CD95 ligand <clueLoc>on activated T cells</clueLoc> followed by an interaction between CD95 ligand and the CD95 receptor also expressed on this population.</clue>
+</event>
+<event id="E17">
+<type class="Binding" />
+<theme idref="T16" />
+<theme idref="T17" />
+<clue>Recent studies demonstrate that TCR-stimulated apoptosis requires expression of CD95 ligand on activated T cells followed by an <clueType>interaction</clueType> <linkTheme>between</linkTheme> CD95 ligand <linkTheme>and</linkTheme> the CD95 receptor also expressed on this population.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>Recent studies demonstrate that TCR-stimulated apoptosis requires expression of CD95 ligand <clueLoc>on activated T cells</clueLoc> followed by an interaction between CD95 ligand and the CD95 receptor also <clueType>expressed</clueType> <clueLoc>on this population</clueLoc>.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E16" />
+<clue>Recent studies demonstrate that TCR-stimulated apoptosis <clueType>requires</clueType> expression of CD95 ligand on activated T cells followed by an interaction between CD95 ligand and the CD95 receptor also expressed on this population.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E17" />
+<clue>Recent studies demonstrate that TCR-stimulated apoptosis <clueType>requires</clueType> expression of CD95 ligand on activated T cells followed by an interaction between CD95 ligand and the CD95 receptor also expressed on this population.</clue>
+</event>
+<event id="E101">
+<type class="Physiological_process" />
+<theme idref="A101" />
+<clue>Recent studies demonstrate that TCR-stimulated apoptosis requires expression of CD95 ligand on <clueType>activated</clueType> T cells followed by an interaction between CD95 ligand and the CD95 receptor also expressed on this population.</clue>
+</event>
+<sentence id="S5">The experiments reported in this study were designed to address the signaling events triggered by <term sem="Other" id="T18" lex="TCR_engagement"><term sem="Protein_family_or_group" id="T19" lex="TCR">TCR</term> engagement</term> that are important for regulating <term sem="Other" id="T20" lex="CD95_ligand_gene_expression"><term sem="Protein_molecule" id="T21" lex="CD95_ligand">CD95 ligand gene</term> expression</term>.</sentence>
+<event id="E21">
+<type class="Binding" />
+<theme idref="T19" />
+<clue>The experiments reported in this study were designed to address the signaling events triggered by TCR <clueType>engagement</clueType> that are important for regulating CD95 ligand gene expression.</clue>
+<comment>NER T21 MOD</comment>
+</event>
+<event id="E22">
+<type class="Cell_communication" />
+<theme idref="E21" />
+<clue>The experiments reported in this study were designed to address the <clueType>signaling events</clueType> <linkTheme>triggered by</linkTheme> TCR engagement that are important for regulating CD95 ligand gene expression.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>The experiments reported in this study were designed to address the signaling events triggered by TCR engagement that are important for regulating CD95 ligand gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E24">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="E22" />
+<clue>The experiments reported in this study were designed to address the signaling events triggered by TCR engagement that are <clueType>important for regulating</clueType> CD95 ligand gene expression.</clue>
+</event>
+<sentence id="S6">To approach this, we generated a <term sem="DNA_molecule" id="T22" lex="luciferase_reporter_construct"><term sem="Protein_molecule" id="T23" lex="luciferase">luciferase</term> reporter construct</term> containing elements of the <term sem="Protein_molecule" id="T24" lex="CD95_ligand">CD95 ligand</term> promoter.</sentence>
+<sentence id="S7">Using a previously described mutant of the <term sem="Cell_cultured" id="T25" lex="Jurkat_T_cell_line">Jurkat T cell line</term>, we show that <term sem="Other" id="A3">proximal signaling events</term> dependent on the presence of the <term sem="Protein_molecule" id="T26" lex="CD45_tyrosine_phosphatase">CD45 tyrosine phosphatase</term> are required for <term sem="Other" id="T27" lex="TCR-stimulated_CD95_ligand_expression"><term sem="Protein_family_or_group" id="T28" lex="TCR">TCR</term>-stimulated <term sem="Protein_molecule" id="T29" lex="CD95_ligand">CD95 ligand</term> expression</term>.</sentence>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T26" />
+<clue>Using a previously described mutant of the Jurkat T cell line, we show that proximal signaling events <clueType>dependent</clueType> <linkTheme>on</linkTheme> the presence of the CD45 tyrosine phosphatase are required for TCR-stimulated CD95 ligand expression.</clue>
+</event>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>Using a previously described mutant of the Jurkat T cell line, we show that proximal signaling events dependent on the presence of the CD45 tyrosine phosphatase are required for TCR-stimulated CD95 ligand <clueType>expression</clueType>.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T28" />
+<clue>Using a previously described mutant of the Jurkat T cell line, we show that proximal signaling events dependent on the presence of the CD45 tyrosine phosphatase are required for TCR-<clueType>stimulated</clueType> CD95 ligand expression.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="E25" />
+<clue>Using a previously described mutant of the Jurkat T cell line, we show that proximal signaling events dependent on the presence of the CD45 tyrosine phosphatase are <clueType>required</clueType> <linkTheme>for</linkTheme> TCR-stimulated CD95 ligand expression.</clue>
+</event>
+<sentence id="S8">Transient transfection studies demonstrate further that <term sem="Protein_family_or_group" id="T30" lex="TCR">TCR</term>-stimulated activation of the <term sem="Other" id="T31" lex="Ras_signaling_pathway"><term sem="Protein_molecule" id="T32" lex="Ras">Ras</term> signaling pathway</term> is required for optimal activation of <term sem="Protein_molecule" id="T33" lex="CD95_ligand">CD95 ligand</term>.</sentence>
+<event id="E29">
+<type class="Cell_communication" />
+<theme idref="T32" />
+<clue>Transient transfection studies demonstrate further that TCR-stimulated activation of the Ras <clueType>signaling pathway</clueType> is required for optimal activation of CD95 ligand.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="T30" />
+<clue>Transient transfection studies demonstrate further that TCR-<linkCause>stimulated</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> the Ras signaling pathway is required for optimal activation of CD95 ligand.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<clue>Transient transfection studies demonstrate further that TCR-stimulated activation of the Ras signaling pathway is required for optimal <clueType>activation</clueType> <linkTheme>of</linkTheme> CD95 ligand.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<cause idref="E30" />
+<clue><clueExperiment>Transient transfection studies</clueExperiment> demonstrate further that TCR-stimulated activation of the Ras signaling pathway is <clueType>required</clueType> <linkTheme>for</linkTheme> optimal activation of CD95 ligand.</clue>
+</event>
+<sentence id="S9">Next, in an effort to determine critical <term sem="Protein_family_or_group" id="T34" lex="transcription_factor">transcription factors</term> that regulate <term sem="Protein_molecule" id="T35" lex="CD95_ligand">CD95 ligand</term> expression, we demonstrate a <term sem="DNA_domain_or_region" id="T36" lex="cyclosporin_A-sensitive_nuclear_factor-AT_response_element">cyclosporin A-sensitive nuclear factor-AT response element</term> in the <term sem="DNA_domain_or_region" id="T37" lex="promoter_region">promoter region</term> of this gene that is critical for optimal <term sem="Other" id="T38" lex="CD95_ligand_reporter_activity"><term sem="Protein_molecule" id="T39" lex="CD95_ligand">CD95 ligand</term> reporter activity</term> in <term sem="Cell_natural" id="T40" lex="stimulated_T_cell">stimulated <term sem="Cell_natural" id="A4">T cells</term></term>.</sentence>
+<event id="E33">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>Next, in an effort to determine critical transcription factors that regulate CD95 ligand <clueType>expression</clueType>, we demonstrate a cyclosporin A-sensitive nuclear factor-AT response element in the promoter region of this gene that is critical for optimal CD95 ligand reporter activity in stimulated T cells.</clue>
+</event>
+<event id="E34">
+<type class="Regulation" />
+<theme idref="E33" />
+<cause idref="T34" />
+<clue>Next, in an effort to determine critical transcription factors that <clueType>regulate</clueType> CD95 ligand expression, we demonstrate a cyclosporin A-sensitive nuclear factor-AT response element in the promoter region of this gene that is critical for optimal CD95 ligand reporter activity in stimulated T cells.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<cause idref="T36" />
+<clue>Next, in an effort to determine critical transcription factors that regulate CD95 ligand expression, we demonstrate a cyclosporin A-sensitive nuclear factor-AT response element in the promoter region of this gene that is <clueType>critical</clueType> <linkTheme>for</linkTheme> optimal CD95 ligand reporter activity <clueLoc>in stimulated T cells</clueLoc>.</clue>
+</event>
+<event id="E36">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<clue>Next, in an effort to determine critical transcription factors that regulate CD95 ligand expression, we demonstrate a cyclosporin A-sensitive nuclear factor-AT response element in the promoter region of this gene that is critical for optimal CD95 ligand reporter activity in <clueType>stimulated</clueType> T cells.</clue>
+</event>
+<sentence id="S10">Together, these studies begin a dissection of the <term sem="Other" id="A6">biochemical events</term> that lead to expression of <term sem="Protein_molecule" id="T41" lex="CD95_ligand">CD95 ligand</term>, a required step for <term sem="Protein_family_or_group" id="T43" lex="TCR">TCR</term>-induced <term sem="Other" id="A5">apoptosis</term>.</sentence>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>Together, these studies begin a dissection of the biochemical events that lead to <clueType>expression</clueType> <linkTheme>of</linkTheme> CD95 ligand, a required step for TCR-induced apoptosis.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="T43" />
+<clue>Together, these studies begin a dissection of the biochemical events that lead to expression of CD95 ligand, a required step for TCR-<clueType>induced</clueType> apoptosis.</clue>
+<comment>NER: T42 del &quot;TCR-induced apoptosis&quot;</comment>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="E37" />
+<clue>Together, these studies begin a dissection of the biochemical events that lead to expression of CD95 ligand, a <clueType>required step</clueType> <linkTheme>for</linkTheme> TCR-induced apoptosis.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref="A6" />
+<clue>Together, these studies begin a dissection of the biochemical events that <clueType>lead</clueType> <linkTheme>to</linkTheme> expression of CD95 ligand, a required step for TCR-induced apoptosis.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

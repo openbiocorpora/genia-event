@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="25/03/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9350434">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9350434</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Involvement of <term sem="Other" id="T1" lex="different_transduction_pathway">different transduction pathways</term> in <term sem="Protein_complex" id="T2" lex="NF-kappa_B">NF-kappa B</term> activation by several <term sem="DNA_domain_or_region" id="T3" lex="inducer">inducers</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<cause idref="T3" />
+<clue>Involvement of different transduction pathways in NF-kappa B <clueType>activation</clueType> <linkCause>by</linkCause> several inducers.</clue>
+</event>
+<event id="E2">
+<type class="Correlation" />
+<theme idref="T1" />
+<theme idref="E1" />
+<clue><clueType>Involvement</clueType> <linkTheme>of</linkTheme> different transduction pathways <linkTheme>in</linkTheme> NF-kappa B activation by several inducers.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Double-stimulation was used to demonstrate that, in a <term sem="Cell_cultured" id="T4" lex="T_lymphocytic_cell_line">T lymphocytic cell line</term> (<term sem="Cell_cultured" id="T5" lex="CEM">CEM</term>), <term sem="Organic_compound_other" id="T6" lex="phorbol_myristate_acetate">phorbol myristate acetate</term> (<term sem="Organic_compound_other" id="T7" lex="PMA">PMA</term>) rapidly induced <term sem="Protein_complex" id="T8" lex="NF-kappa_B">NF-kappa B</term> through a <term sem="Other" id="T9" lex="signaling_pathway">signaling pathway</term> which did not involve <term sem="Inorganic_compound" id="T10" lex="reactive_oxygen_specie">reactive oxygen species</term> (<term sem="Inorganic_compound" id="T11" lex="ROS">ROS</term>) and was different from the <term sem="Other" id="A1">activation</term> triggered by either <term sem="Inorganic_compound" id="T12" lex="H2O2">H2O2</term> or <term sem="Protein_molecule" id="T13" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term> (<term sem="Protein_molecule" id="T14" lex="TNF-alpha">TNF-alpha</term>).</sentence>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="T7" />
+<clue><clueExperiment>Double-stimulation</clueExperiment> was used to demonstrate that, <clueLoc>in a T lymphocytic cell line (CEM)</clueLoc>, phorbol myristate acetate (PMA) rapidly <clueType>induced</clueType> NF-kappa B through a signaling pathway which did not involve reactive oxygen species (ROS) and was different from the activation triggered by either H2O2 or tumor necrosis factor-alpha (TNF-alpha).</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="E4" />
+<clue>Double-stimulation was used to demonstrate that, in a T lymphocytic cell line (CEM), phorbol myristate acetate (PMA) rapidly induced NF-kappa B <linkCause>through</linkCause> a signaling pathway which did not involve reactive oxygen species (ROS) and was different from the activation triggered by either H2O2 or tumor necrosis factor-alpha (TNF-alpha).</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event assertion="non-exist" id="E4">
+<type class="Correlation" />
+<theme idref="T9" />
+<theme idref="T11" />
+<clue>Double-stimulation was used to demonstrate that, in a T lymphocytic cell line (CEM), phorbol myristate acetate (PMA) rapidly induced NF-kappa B through a signaling pathway which did not <clueType>involve</clueType> reactive oxygen species (ROS) and was different from the activation triggered by either H2O2 or tumor necrosis factor-alpha (TNF-alpha).</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref1="A1" idref="T8" />
+<cause idref="T12" />
+<clue>Double-stimulation was used to demonstrate that, in a T lymphocytic cell line (CEM), phorbol myristate acetate (PMA) rapidly induced NF-kappa B through a signaling pathway which did not involve reactive oxygen species (ROS) and was different from <corefTheme>the activation</corefTheme> <clueType>triggered</clueType> <linkCause>by</linkCause> either H2O2 or tumor necrosis factor-alpha (TNF-alpha).</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref1="A1" idref="T8" />
+<cause idref="T14" />
+<clue>Double-stimulation was used to demonstrate that, in a T lymphocytic cell line (CEM), phorbol myristate acetate (PMA) rapidly induced NF-kappa B through a signaling pathway which did not involve reactive oxygen species (ROS) and was different from <corefTheme>the activation</corefTheme> <clueType>triggered</clueType> <linkCause>by</linkCause> either H2O2 or tumor necrosis factor-alpha (TNF-alpha).</clue>
+</event>
+<sentence id="S3">Since these latter compounds were known to activate <term sem="Protein_complex" id="T15" lex="NF-kappa_B">NF-kappa B</term> translocation in a redox-sensitive way, we have demonstrated that <term sem="Other" id="T16" lex="NF-kappa_B_activation"><term sem="Protein_complex" id="T17" lex="NF-kappa_B">NF-kappa B</term> activation</term> by <term sem="Organic_compound_other" id="T18" lex="PMA">PMA</term> was resistant to <term sem="Organic_compound_other" id="T19" lex="antioxidant">antioxidant</term> <term sem="Organic_compound_other" id="T20" lex="N-acetyl-L-cysteine">N-acetyl-L-cysteine</term> (<term sem="Organic_compound_other" id="T21" lex="NAC">NAC</term>) and sensitive to kinase inhibitors <term sem="Organic_compound_other" id="T22" lex="staurosporine">staurosporine</term> and <term sem="Organic_compound_other" id="T23" lex="H7">H7</term> while activation by <term sem="Inorganic_compound" id="T24" lex="H2O2">H2O2</term> or <term sem="Protein_molecule" id="T25" lex="TNF-alpha">TNF-alpha</term> were not.</sentence>
+<event id="E7">
+<type class="Localization" />
+<theme idref="T15" />
+<clue>Since these latter compounds were known to activate NF-kappa B <clueType>translocation</clueType> in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was resistant to antioxidant N-acetyl-L-cysteine (NAC) and sensitive to kinase inhibitors staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T12" />
+<clue>Since <corefCause>these latter compounds</corefCause> were known to <clueType>activate</clueType> NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was resistant to antioxidant N-acetyl-L-cysteine (NAC) and sensitive to kinase inhibitors staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T14" />
+<clue>Since <corefCause>these latter compounds</corefCause> were known to <clueType>activate</clueType> NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was resistant to antioxidant N-acetyl-L-cysteine (NAC) and sensitive to kinase inhibitors staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="T18" />
+<clue>Since these latter compounds were known to activate NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B <clueType>activation</clueType> <linkCause>by</linkCause> PMA was resistant to antioxidant N-acetyl-L-cysteine (NAC) and sensitive to kinase inhibitors staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+</event>
+<event assertion="non-exist" id="E11">
+<type class="Negative_regulation" />
+<theme idref="T21" />
+<cause idref="E10" />
+<clue>Since these latter compounds were known to activate NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was <clueType>resistant</clueType> <linkCause>to</linkCause> antioxidant N-acetyl-L-cysteine (NAC) and sensitive to kinase inhibitors staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="E10" />
+<cause idref="T22" />
+<clue>Since these latter compounds were known to activate NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was resistant to antioxidant N-acetyl-L-cysteine (NAC) and <clueType>sensitive</clueType> <linkCause>to</linkCause> <corefCause>kinase inhibitors</corefCause> staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+<comment>SENSITIVITY, to inhibitors</comment>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E10" />
+<cause idref="T23" />
+<clue>Since these latter compounds were known to activate NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was resistant to antioxidant N-acetyl-L-cysteine (NAC) and <clueType>sensitive</clueType> <linkCause>to</linkCause> <corefCause>kinase inhibitors</corefCause> staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="T24" />
+<clue>Since these latter compounds were known to activate NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was resistant to antioxidant N-acetyl-L-cysteine (NAC) and sensitive to kinase inhibitors staurosporine and H7 while <clueType>activation</clueType> <linkCause>by</linkCause> H2O2 or TNF-alpha were not.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="T25" />
+<clue>Since these latter compounds were known to activate NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was resistant to antioxidant N-acetyl-L-cysteine (NAC) and sensitive to kinase inhibitors staurosporine and H7 while <clueType>activation</clueType> <linkCause>by</linkCause> H2O2 or TNF-alpha were not.</clue>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T21" />
+<clue>Since these latter compounds were known to activate NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was <clueType>resistant</clueType> <linkCause>to</linkCause> antioxidant N-acetyl-L-cysteine (NAC) and sensitive to kinase inhibitors staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+</event>
+<event assertion="non-exist" id="E17">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T22" />
+<clue>Since these latter compounds were known to activate NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was resistant to antioxidant N-acetyl-L-cysteine (NAC) and <clueType>sensitive</clueType> <linkCause>to</linkCause> <corefCause>kinase inhibitors</corefCause> staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T23" />
+<clue>Since these latter compounds were known to activate NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was resistant to antioxidant N-acetyl-L-cysteine (NAC) and <clueType>sensitive</clueType> <linkCause>to</linkCause> <corefCause>kinase inhibitors</corefCause> staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T21" />
+<clue>Since these latter compounds were known to activate NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was <clueType>resistant</clueType> <linkCause>to</linkCause> antioxidant N-acetyl-L-cysteine (NAC) and sensitive to kinase inhibitors staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+</event>
+<event assertion="non-exist" id="E20">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T22" />
+<clue>Since these latter compounds were known to activate NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was resistant to antioxidant N-acetyl-L-cysteine (NAC) and <clueType>sensitive</clueType> <linkCause>to</linkCause> <corefCause>kinase inhibitors</corefCause> staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T23" />
+<clue>Since these latter compounds were known to activate NF-kappa B translocation in a redox-sensitive way, we have demonstrated that NF-kappa B activation by PMA was resistant to antioxidant N-acetyl-L-cysteine (NAC) and <clueType>sensitive</clueType> <linkCause>to</linkCause> <corefCause>kinase inhibitors</corefCause> staurosporine and H7 while activation by H2O2 or TNF-alpha were not.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

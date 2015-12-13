@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="20/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9863501" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9863501</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="phenylarsine_oxide">Phenylarsine oxide</term> inhibits <term sem="Other" id="T2" lex="ex_vivo_HIV-1_expression">ex vivo <term sem="DNA_domain_or_region" id="A20"><term sem="Virus" id="T3" lex="HIV-1">HIV-1</term></term> expression</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="A20" />
+<clue>Phenylarsine oxide inhibits ex vivo HIV-1 <clueType>expression</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Phenylarsine oxide <clueType>inhibits</clueType> ex vivo HIV-1 expression.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Organic_compound_other" id="T4" lex="phenylarsine_oxide">Phenylarsine oxide</term> (<term sem="Organic_compound_other" id="T5" lex="PAO">PAO</term>), which is described as an inhibitor of <term sem="Other" id="T6" lex="tyrosine_phosphatase_activity"><term sem="Protein_family_or_group" id="T7" lex="tyrosine_phosphatase"><term sem="Amino_acid_monomer" id="T8" lex="tyrosine">tyrosine</term> phosphatase</term> activity</term>, inhibits <term sem="Other" id="T9" lex="H2O2_release"><term sem="Inorganic_compound" id="A1">H2O2</term> release</term> from <term sem="Cell_natural" id="T10" lex="human_peripheral_blood_mononuclear_cell">human peripheral blood mononuclear cells</term> (<term sem="Cell_natural" id="T11" lex="PBMC">PBMCs</term>) as measured by <term sem="Other" id="T12" lex="electrochemistry">electrochemistry</term>.</sentence>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="T7" />
+<cause idref="T5" />
+<clue>Phenylarsine oxide (PAO), which is described as an <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> tyrosine phosphatase activity, inhibits H2O2 release from human peripheral blood mononuclear cells (PBMCs) as measured by electrochemistry.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="T5" />
+<clue>Phenylarsine oxide (PAO), which is described as an inhibitor of tyrosine phosphatase activity, <clueType>inhibits</clueType> H2O2 release from human peripheral blood mononuclear cells (PBMCs) as measured by electrochemistry.</clue>
+</event>
+<event id="E4">
+<type class="Localization" />
+<theme idref="A1" />
+<clue>Phenylarsine oxide (PAO), which is described as an inhibitor of tyrosine phosphatase activity, inhibits H2O2 <clueType>release</clueType> <clueLoc>from human peripheral blood mononuclear cells (PBMCs)</clueLoc> as measured <clueExperiment>by electrochemistry</clueExperiment>.</clue>
+</event>
+<sentence id="S3">Since <term sem="Other" id="T13" lex="human_immunodeficiency_virus_type_1_(HIV-1)_replication"><term sem="Virus" id="T14" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> (<term sem="Virus" id="T15" lex="HIV-1">HIV-1</term>) replication</term> is known to be favored under <term sem="Other" id="T16" lex="oxidative_stress">oxidative stress</term> conditions, <term sem="Other" id="T17" lex="ex_vivo_experiment">ex vivo experiments</term> using uninfected <term sem="Cell_natural" id="T18" lex="PBMC">PBMCs</term>, <term sem="Cell_natural" id="T19" lex="primary_monocyte">primary monocytes</term> or a latently infected <term sem="Cell_cultured" id="T20" lex="promonocytic_U1_cell_line">promonocytic U1 cell line</term> show that <term sem="Virus" id="T21" lex="HIV-1">HIV-1</term> replication and reactivation, monitored by <term sem="Other" id="T22" lex="p24_antigen_measurement"><term sem="Protein_molecule" id="T23" lex="p24_antigen">p24 antigen</term> measurement</term>, are inhibited by <term sem="Organic_compound_other" id="T24" lex="PAO">PAO</term> in a <term sem="Other" id="T25" lex="time-_and_concentration-dependent_manner">time- and concentration-dependent manner</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T16" />
+<clue>Since human immunodeficiency virus type 1 (HIV-1) replication is known to be <clueType>favored</clueType> <linkCause>under</linkCause> oxidative stress conditions, ex vivo experiments using uninfected PBMCs, primary monocytes or a latently infected promonocytic U1 cell line show that HIV-1 replication and reactivation, monitored by p24 antigen measurement, are inhibited by PAO in a time- and concentration-dependent manner.</clue>
+</event>
+<event id="E6">
+<type class="Viral_life_cycle" />
+<theme idref="T15" />
+<clue>Since human immunodeficiency virus type 1 (HIV-1) <clueType>replication</clueType> is known to be favored under oxidative stress conditions, ex vivo experiments using uninfected PBMCs, primary monocytes or a latently infected promonocytic U1 cell line show that HIV-1 replication and reactivation, monitored by p24 antigen measurement, are inhibited by PAO in a time- and concentration-dependent manner.</clue>
+</event>
+<event id="E25">
+<type class="Viral_life_cycle" />
+<theme idref="T21" />
+<clue>Since human immunodeficiency virus type 1 (HIV-1) replication is known to be favored under oxidative stress conditions, ex vivo experiments using uninfected PBMCs, primary monocytes or a latently infected promonocytic U1 cell line show that HIV-1 <clueType>replication</clueType> and reactivation, monitored <clueExperiment>by p24 antigen measurement</clueExperiment>, are inhibited by PAO in a time- and concentration-dependent manner.</clue>
+</event>
+<event id="E8">
+<type class="Viral_life_cycle" />
+<theme idref="T21" />
+<clue>Since human immunodeficiency virus type 1 (HIV-1) replication is known to be favored under oxidative stress conditions, ex vivo experiments using uninfected PBMCs, primary monocytes or a <clueLoc>latently infected promonocytic U1 cell line</clueLoc> show that HIV-1 replication and <clueType>reactivation</clueType>, monitored <clueExperiment>by p24 antigen measurement</clueExperiment>, are inhibited by PAO in a time- and concentration-dependent manner.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="T24" />
+<clue>Since human immunodeficiency virus type 1 (HIV-1) replication is known to be favored under oxidative stress conditions, ex vivo experiments using uninfected PBMCs, primary monocytes or a latently infected promonocytic U1 cell line show that HIV-1 replication and reactivation, monitored by p24 antigen measurement, are <clueType>inhibited</clueType> <linkCause>by</linkCause> PAO in a time- and concentration-dependent manner.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<cause idref="T24" />
+<clue>Since human immunodeficiency virus type 1 (HIV-1) replication is known to be favored under oxidative stress conditions, ex vivo experiments using uninfected PBMCs, primary monocytes or a latently infected promonocytic U1 cell line show that HIV-1 replication and reactivation, monitored by p24 antigen measurement, are <clueType>inhibited</clueType> <linkCause>by</linkCause> PAO in a time- and concentration-dependent manner.</clue>
+</event>
+<sentence id="S4">These observations can be linked with the inhibition of <term sem="Other" id="T26" lex="NF-kappa_B_activation"><term sem="Protein_complex" id="T27" lex="NF-kappa_B">NF-kappa B</term> activation</term> when uninfected <term sem="Cell_natural" id="A2">monocytes</term> are induced by either <term sem="Protein_molecule" id="T28" lex="tumor_necrosis_factor_alpha">tumor necrosis factor alpha</term> (<term sem="Protein_molecule" id="T29" lex="TNF-alpha">TNF-alpha</term>) <term sem="Organic_compound_other" id="T30" lex="phorbol_12-myristate_13-acetate">phorbol 12-myristate 13-acetate</term> (<term sem="Organic_compound_other" id="T31" lex="PMA">PMA</term>) or <term sem="Lipid" id="T32" lex="lipopolysaccharide">lipopolysaccharide</term> (<term sem="Lipid" id="T33" lex="LPS">LPS</term>).</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<clue>These observations can be linked with the inhibition of NF-kappa B <clueType>activation</clueType> when uninfected monocytes are induced by either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="E15" />
+<clue>These observations can be linked with the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B activation <linkCause>when</linkCause> uninfected monocytes are induced by either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="E16" />
+<clue>These observations can be linked with the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B activation <linkCause>when</linkCause> uninfected monocytes are induced by either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="E17" />
+<clue>These observations can be linked with the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B activation <linkCause>when</linkCause> uninfected monocytes are induced by either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+</event>
+<event id="E15">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<cause idref="T29" />
+<clue>These observations can be linked with the inhibition of NF-kappa B activation when uninfected monocytes are <clueType>induced</clueType> <linkCause>by</linkCause> either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+<comment>CAUTION, there should be a comma after &quot;(TNF-alpha)&quot;</comment>
+</event>
+<event id="E16">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<cause idref="T31" />
+<clue>These observations can be linked with the inhibition of NF-kappa B activation when uninfected monocytes are <clueType>induced</clueType> <linkCause>by</linkCause> either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+</event>
+<event id="E17">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<cause idref="T33" />
+<clue>These observations can be linked with the inhibition of NF-kappa B activation when uninfected monocytes are <clueType>induced</clueType> <linkCause>by</linkCause> either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+</event>
+<event id="E18">
+<type class="Correlation" />
+<theme idref="E9" />
+<theme idref="E12" />
+<clue><corefTheme>These observations</corefTheme> can be <clueType>linked</clueType> <linkTheme>with</linkTheme> the inhibition of NF-kappa B activation when uninfected monocytes are induced by either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+</event>
+<event id="E19">
+<type class="Correlation" />
+<theme idref="E9" />
+<theme idref="E13" />
+<clue><corefTheme>These observations</corefTheme> can be <clueType>linked</clueType> <linkTheme>with</linkTheme> the inhibition of NF-kappa B activation when uninfected monocytes are induced by either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+</event>
+<event id="E20">
+<type class="Correlation" />
+<theme idref="E9" />
+<theme idref="E14" />
+<clue><corefTheme>These observations</corefTheme> can be <clueType>linked</clueType> <linkTheme>with</linkTheme> the inhibition of NF-kappa B activation when uninfected monocytes are induced by either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+</event>
+<event id="E21">
+<type class="Correlation" />
+<theme idref="E10" />
+<theme idref="E12" />
+<clue><corefTheme>These observations</corefTheme> can be <clueType>linked</clueType> <linkTheme>with</linkTheme> the inhibition of NF-kappa B activation when uninfected monocytes are induced by either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+</event>
+<event id="E22">
+<type class="Correlation" />
+<theme idref="E10" />
+<theme idref="E13" />
+<clue><corefTheme>These observations</corefTheme> can be <clueType>linked</clueType> <linkTheme>with</linkTheme> the inhibition of NF-kappa B activation when uninfected monocytes are induced by either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+</event>
+<event id="E23">
+<type class="Correlation" />
+<theme idref="E10" />
+<theme idref="E14" />
+<clue><corefTheme>These observations</corefTheme> can be <clueType>linked</clueType> <linkTheme>with</linkTheme> the inhibition of NF-kappa B activation when uninfected monocytes are induced by either tumor necrosis factor alpha (TNF-alpha) phorbol 12-myristate 13-acetate (PMA) or lipopolysaccharide (LPS).</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

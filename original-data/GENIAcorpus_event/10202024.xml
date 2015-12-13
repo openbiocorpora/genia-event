@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="16/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10202024" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10202024</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Virus" id="T1" lex="human_cytomegalovirus">Human cytomegalovirus</term> binding to <term sem="Cell_natural" id="T2" lex="human_monocyte">human <term sem="Cell_natural" id="T3" lex="monocyte">monocytes</term></term> induces <term sem="Other" id="T4" lex="gene_expression"><term sem="DNA_domain_or_region" id="A1">immunoregulatory gene</term> expression</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Human cytomegalovirus binding to human monocytes induces immunoregulatory gene <clueType>expression</clueType>.</clue>
+<comment>NER T4 mod</comment>
+</event>
+<event id="E2">
+<type class="Viral_life_cycle" />
+<theme idref="T1" />
+<theme idref="T2" />
+<clue>Human cytomegalovirus <clueType>binding</clueType> <linkTheme>to</linkTheme> human monocytes induces immunoregulatory gene expression.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="E2" />
+<clue>Human cytomegalovirus binding to human monocytes <clueType>induces</clueType> immunoregulatory gene expression.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">To continue our investigation of the <term sem="Other" id="A2">cellular events</term> that occur following <term sem="Other" id="T5" lex="human_CMV_(HCMV)_infection"><term sem="Virus" id="T23"><term sem="Multicellular_organism_natural" id="T52">human</term> CMV</term> (<term sem="Virus" id="T6" lex="HCMV">HCMV</term>) infection</term>, we focused on the regulation of cellular activation following viral binding to <term sem="Cell_natural" id="T7" lex="human_monocyte"><term sem="Multicellular_organism_natural" id="T8">human</term> monocytes</term>.</sentence>
+<event id="E4">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T6" />
+<clue>To continue our investigation of the cellular events that occur following human CMV (HCMV) <clueType>infection</clueType>, we focused on the regulation of cellular activation following viral binding to human monocytes.</clue>
+</event>
+<event uncertainty="doubtful" id="E5">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="E4" />
+<clue>To continue our investigation of the cellular events that <clueType>occur</clueType> <linkCause>following</linkCause> human CMV (HCMV) infection, we focused on the regulation of cellular activation following viral binding to human monocytes.</clue>
+</event>
+<event id="E7">
+<type class="Viral_life_cycle" />
+<theme idref="T6" />
+<theme idref="T7" />
+<clue>To continue our investigation of the cellular events that occur following human CMV (HCMV) infection, we focused on the regulation of cellular activation following <corefTheme>viral</corefTheme> <clueType>binding</clueType> <linkTheme>to</linkTheme> human monocytes.</clue>
+</event>
+<event id="E8">
+<type class="Physiological_process" />
+<theme idref="T7" />
+<cause idref="E7" />
+<clue>To continue our investigation of the cellular events that occur following human CMV (HCMV) infection, we focused on the regulation of <corefTheme>cellular</corefTheme> <clueType>activation</clueType> <linkCause>following</linkCause> viral binding to human monocytes.</clue>
+</event>
+<event uncertainty="doubtful" id="E9">
+<type class="Regulation" />
+<theme idref="E8" />
+<clue>To continue our investigation of the cellular events that occur following human CMV (HCMV) infection, we focused on the <clueType>regulation</clueType> <linkTheme>of</linkTheme> cellular activation following viral binding to human monocytes.</clue>
+</event>
+<sentence id="S3">First, we showed that viral binding induced a number of <term sem="Cell_natural" id="T9" lex="immunoregulatory_gene">immunoregulatory genes</term> (<term sem="Protein_molecule" id="T10" lex="IL-1beta">IL-1beta</term>, <term sem="Protein_molecule" id="T11" lex="A20">A20</term>, <term sem="Protein_complex" id="T12" lex="NF-kappaB-p105/p50">NF-kappaB-p105/p50</term>, and <term sem="Protein_molecule" id="T13" lex="IkappaBalpha">IkappaBalpha</term>) in unactivated <term sem="Cell_natural" id="T14" lex="monocyte">monocytes</term> and that neutralizing <term sem="Protein_family_or_group" id="A3"><term sem="Protein_family_or_group" id="T15" lex="neutralizing_Ab">Abs</term> to the major <term sem="Protein_family_or_group" id="T16" lex="HCMV_glycoprotein"><term sem="Virus" id="T17" lex="HCMV">HCMV</term> glycoproteins</term></term>, <term sem="Protein_family_or_group" id="A4"><term sem="Protein_molecule" id="T18" lex="gB">gB</term></term> (<term sem="Protein_molecule" id="T19" lex="UL55">UL55</term>) and <term sem="Protein_family_or_group" id="A5"><term sem="Protein_molecule" id="T20" lex="gH">gH</term></term> (<term sem="Protein_family_or_group" id="T21" lex="UL75">UL75</term>), inhibited the induction of these genes.</sentence>
+<event id="E10">
+<type class="Viral_life_cycle" />
+<theme idref="T6" />
+<clue>First, we showed that <corefTheme>viral</corefTheme> <clueType>binding</clueType> induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), inhibited the induction of these genes.</clue>
+<comment>TPS A3</comment>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="E10" />
+<clue>First, we showed that viral binding <clueType>induced</clueType> a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) <clueLoc>in unactivated monocytes</clueLoc> and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), inhibited the induction of these genes.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<cause idref="E10" />
+<clue>First, we showed that viral binding <clueType>induced</clueType> a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) <clueLoc>in unactivated monocytes</clueLoc> and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), inhibited the induction of these genes.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E10" />
+<clue>First, we showed that viral binding <clueType>induced</clueType> a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) <clueLoc>in unactivated monocytes</clueLoc> and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), inhibited the induction of these genes.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<cause idref="E10" />
+<clue>First, we showed that viral binding <clueType>induced</clueType> a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) <clueLoc>in unactivated monocytes</clueLoc> and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), inhibited the induction of these genes.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), inhibited the <clueType>induction</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme>.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), inhibited the <clueType>induction</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme>.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), inhibited the <clueType>induction</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme>.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), inhibited the <clueType>induction</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme>.</clue>
+</event>
+<event id="E101">
+<type class="Negative_regulation" />
+<theme idref="T19" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that <clueType>neutralizing</clueType> <corefTheme>Abs to the major HCMV glycoproteins, gB</corefTheme> (UL55) and gH (UL75), inhibited the induction of these genes.</clue>
+</event>
+<event id="E102">
+<type class="Negative_regulation" />
+<theme idref="T21" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that <clueType>neutralizing</clueType> <corefTheme idref1="T21">Abs to the major HCMV glycoproteins</corefTheme>, gB (UL55) and <corefTheme idref1="T21">gH</corefTheme> (UL75), inhibited the induction of these genes.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="E101" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), <clueType>inhibited</clueType> the induction of these genes.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="E102" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), <clueType>inhibited</clueType> the induction of these genes.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref1="A4" idref="A3" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), <clueType>inhibited</clueType> the induction of these genes.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref1="A5" idref="A3" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), <clueType>inhibited</clueType> the induction of these genes.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref1="A4" idref="A3" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), <clueType>inhibited</clueType> the induction of these genes.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref1="A5" idref="A3" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), <clueType>inhibited</clueType> the induction of these genes.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref1="A4" idref="A3" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), <clueType>inhibited</clueType> the induction of these genes.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref1="A5" idref="A3" />
+<clue>First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), <clueType>inhibited</clueType> the induction of these genes.</clue>
+</event>
+<sentence id="S4">Next, we demonstrated that these <term sem="Protein_family_or_group" id="A11">viral ligands</term> directly up-regulated <term sem="Cell_natural" id="T22" lex="up-regulated_monocyte_gene_expression">monocyte</term> <term sem="Other" id="A7">gene expression</term> upon their binding to <term sem="Protein_family_or_group" id="A6">their appropriate cellular receptors</term>.</sentence>
+<event id="E27">
+<type class="Binding" />
+<theme idref="T18" />
+<theme idref="A6" />
+<clue>Next, we demonstrated that <corefTheme idref1="T18">these viral ligands</corefTheme> directly up-regulated monocyte gene expression upon <corefTheme idref1="A11">their</corefTheme> <clueType>binding</clueType> <linkTheme>to</linkTheme> their appropriate cellular receptors.</clue>
+<comment>corefTheme=multilayer</comment>
+</event>
+<event id="E28">
+<type class="Binding" />
+<theme idref="T20" />
+<theme idref="A6" />
+<clue>Next, we demonstrated that <corefTheme idref1="T20">these viral ligands</corefTheme> directly up-regulated monocyte gene expression upon <corefTheme idref1="A11">their</corefTheme> <clueType>binding</clueType> <linkTheme>to</linkTheme> their appropriate cellular receptors.</clue>
+<comment>corefTheme=multilayer</comment>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="E27" />
+<clue>Next, we demonstrated that these viral ligands directly <clueType>up-regulated</clueType> <clueLoc>monocyte</clueLoc> gene expression <linkCause>upon</linkCause> their binding to their appropriate cellular receptors.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="E28" />
+<clue>Next, we demonstrated that these viral ligands directly <clueType>up-regulated</clueType> <clueLoc>monocyte</clueLoc> gene expression <linkCause>upon</linkCause> their binding to their appropriate cellular receptors.</clue>
+</event>
+<sentence id="S5">We then investigated if <term sem="Virus" id="T24" lex="HCMV">HCMV</term> binding also resulted in the translation and secretion of <term sem="Protein_family_or_group" id="T25" lex="cytokine">cytokines</term>.</sentence>
+<event id="E31">
+<type class="Viral_life_cycle" />
+<theme idref="T24" />
+<clue>We then investigated if HCMV <clueType>binding</clueType> also resulted in the translation and secretion of cytokines.</clue>
+</event>
+<event id="E32">
+<type class="Translation" />
+<theme idref="T25" />
+<clue>We then investigated if HCMV binding also resulted in the <clueType>translation</clueType> and secretion <linkTheme>of</linkTheme> cytokines.</clue>
+</event>
+<event id="E33">
+<type class="Localization" />
+<theme idref="T25" />
+<clue>We then investigated if HCMV binding also resulted in the translation and <clueType>secretion</clueType> <linkTheme>of</linkTheme> cytokines.</clue>
+</event>
+<event uncertainty="doubtful" id="E34">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="E31" />
+<clue>We then investigated if HCMV binding also <clueType>resulted</clueType> <linkTheme>in</linkTheme> the translation and secretion of cytokines.</clue>
+</event>
+<event uncertainty="doubtful" id="E35">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="E31" />
+<clue>We then investigated if HCMV binding also <clueType>resulted</clueType> <linkTheme>in</linkTheme> the translation and secretion of cytokines.</clue>
+</event>
+<sentence id="S6">Our results showed that <term sem="Virus" id="T26" lex="HCMV">HCMV</term> binding to <term sem="Cell_natural" id="T27" lex="monocyte">monocytes</term> resulted in the production and release of <term sem="Protein_molecule" id="T28" lex="IL-1beta_protein"><term sem="Protein_molecule" id="T29" lex="IL-1beta">IL-1beta</term> protein</term>.</sentence>
+<event id="E36">
+<type class="Viral_life_cycle" />
+<theme idref="T26" />
+<theme idref="T27" />
+<clue>Our results showed that HCMV <clueType>binding</clueType> <linkTheme>to</linkTheme> monocytes resulted in the production and release of IL-1beta protein.</clue>
+</event>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>Our results showed that HCMV binding to monocytes resulted in the <clueType>production</clueType> and release <linkTheme>of</linkTheme> IL-1beta protein.</clue>
+</event>
+<event id="E38">
+<type class="Localization" />
+<theme idref="T29" />
+<clue>Our results showed that HCMV binding to monocytes resulted in the production and <clueType>release</clueType> <linkTheme>of</linkTheme> IL-1beta protein.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="E36" />
+<clue>Our results showed that HCMV binding to monocytes <clueType>resulted</clueType> <linkTheme>in</linkTheme> the production and release of IL-1beta protein.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="E36" />
+<clue>Our results showed that HCMV binding to monocytes <clueType>resulted</clueType> <linkTheme>in</linkTheme> the production and release of IL-1beta protein.</clue>
+</event>
+<sentence id="S7">Because these induced gene products have <term sem="DNA_family_or_group" id="T30" lex="NF-kappaB_site"><term sem="Protein_complex" id="T31" lex="NF-kappaB">NF-kappaB</term> sites</term> in their <term sem="DNA_domain_or_region" id="T32" lex="promoter_region">promoter regions</term>, we next examined whether there was an up-regulation of <term sem="Protein_complex" id="T33"><term sem="Cell_component" id="T34">nuclear</term> NF-kappaB</term> levels.</sentence>
+<event uncertainty="doubtful" id="E41">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<clue>Because these induced gene products have NF-kappaB sites in their promoter regions, we next examined whether there was an <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> nuclear NF-kappaB levels.</clue>
+</event>
+<sentence id="S8">These experiments showed that, in fact, <term sem="Protein_complex" id="T35" lex="NF-kappaB">NF-kappaB</term> was translocated to the nucleus following viral binding or <term sem="Other" id="T36" lex="purified_viral_ligand_binding"><term sem="Protein_family_or_group" id="A8">purified viral ligand</term> binding</term>.</sentence>
+<event id="E42">
+<type class="Viral_life_cycle" />
+<theme idref="T26" />
+<clue>These experiments showed that, in fact, NF-kappaB was translocated to the nucleus following <corefTheme>viral</corefTheme> <clueType>binding</clueType> or purified viral ligand binding.</clue>
+</event>
+<event id="E43">
+<type class="Binding" />
+<theme idref="A8" />
+<clue>These experiments showed that, in fact, NF-kappaB was translocated to the nucleus following viral binding or purified viral ligand <clueType>binding</clueType>.</clue>
+</event>
+<event id="E44">
+<type class="Localization" />
+<theme idref="T35" />
+<clue>These experiments showed that, in fact, NF-kappaB was <clueType>translocated</clueType> <clueLoc>to the nucleus</clueLoc> following viral binding or purified viral ligand binding.</clue>
+</event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<cause idref="E42" />
+<clue>These experiments showed that, in fact, NF-kappaB was translocated to the nucleus <clueType>following</clueType> viral binding or purified viral ligand binding.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<cause idref="E43" />
+<clue>These experiments showed that, in fact, NF-kappaB was translocated to the nucleus <clueType>following</clueType> viral binding or purified viral ligand binding.</clue>
+</event>
+<sentence id="S9">Changes in <term sem="Protein_molecule" id="T38" lex="IkappaBalpha">IkappaBalpha</term> levels correlated with the changes in <term sem="Other" id="T39" lex="NF-kappaB_translocation"><term sem="Protein_complex" id="T40" lex="NF-kappaB">NF-kappaB</term> translocation</term>.</sentence>
+<event id="E47">
+<type class="Regulation" />
+<theme idref="T38" />
+<clue><clueType>Changes</clueType> <linkTheme>in</linkTheme> IkappaBalpha levels correlated with the changes in NF-kappaB translocation.</clue>
+</event>
+<event id="E48">
+<type class="Localization" />
+<theme idref="T40" />
+<clue>Changes in IkappaBalpha levels correlated with the changes in NF-kappaB <clueType>translocation</clueType>.</clue>
+</event>
+<event id="E49">
+<type class="Regulation" />
+<theme idref="E48" />
+<clue>Changes in IkappaBalpha levels correlated with the <clueType>changes</clueType> <linkTheme>in</linkTheme> NF-kappaB translocation.</clue>
+</event>
+<event id="E50">
+<type class="Correlation" />
+<theme idref="E49" />
+<theme idref="E47" />
+<clue>Changes in IkappaBalpha levels <clueType>correlated</clueType> <linkTheme>with</linkTheme> the changes in NF-kappaB translocation.</clue>
+</event>
+<sentence id="S10">Lastly, we demonstrated that <term sem="Other" id="T41" lex="p38_kinase_activity"><term sem="Protein_molecule" id="T37">p38 kinase</term> activity</term> played a central role in <term sem="Other" id="T43" lex="IL-1beta_production"><term sem="Protein_molecule" id="T44" lex="IL-1beta">IL-1beta</term> production</term> and that it was rapidly up-regulated following <term sem="Other" id="A9">infection</term>.</sentence>
+<event id="E51">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>Lastly, we demonstrated that p38 kinase activity played a central role in IL-1beta <clueType>production</clueType> and that it was rapidly up-regulated following infection.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation" />
+<theme idref="E51" />
+<cause idref="T37" />
+<clue>Lastly, we demonstrated that p38 kinase activity <clueType>played</clueType> a central <clueType>role</clueType> <linkTheme>in</linkTheme> IL-1beta production and that it was rapidly up-regulated following infection.</clue>
+</event>
+<event id="E53">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<cause idref="A9" />
+<clue>Lastly, we demonstrated that p38 kinase activity played a central role in IL-1beta production and that <corefTheme>it</corefTheme> was rapidly <clueType>up-regulated</clueType> <linkCause>following</linkCause> infection.</clue>
+</event>
+<sentence id="S11">These results support our hypothesis that <term sem="Virus" id="T45" lex="HCMV">HCMV</term> initiates a <term sem="Other" id="T46" lex="signal_transduction_pathway">signal transduction pathway</term> that leads to <term sem="Other" id="T47" lex="monocyte_activation"><term sem="Cell_natural" id="A10">monocyte</term> activation</term> and pinpoints a potential mechanism whereby <term sem="Other" id="T42"><term sem="Virus" id="T48" lex="HCMV">HCMV</term> infection</term> of <term sem="Cell_natural" id="T49" lex="monocyte">monocytes</term> can result in profound <term sem="Other" id="T53">pathogenesis</term>, especially in <term sem="Other" id="T51" lex="chronic_inflammatory-type_condition">chronic inflammatory-type conditions</term>.</sentence>
+<event id="E54">
+<type class="Physiological_process" />
+<theme idref="A10" />
+<clue>These results support our hypothesis that HCMV initiates a signal transduction pathway that leads to monocyte <clueType>activation</clueType> and pinpoints a potential mechanism whereby HCMV infection of monocytes can result in profound pathogenesis, especially in chronic inflammatory-type conditions.</clue>
+</event>
+<event id="E55">
+<type class="Positive_regulation" />
+<theme idref="E54" />
+<cause idref="T46" />
+<clue>These results support our hypothesis that HCMV initiates a signal transduction pathway that <clueType>leads</clueType> <linkTheme>to</linkTheme> monocyte activation and pinpoints a potential mechanism whereby HCMV infection of monocytes can result in profound pathogenesis, especially in chronic inflammatory-type conditions.</clue>
+</event>
+<event uncertainty="probable" id="E56">
+<type class="Positive_regulation" />
+<theme idref="E55" />
+<cause idref="T45" />
+<clue>These results support our hypothesis that HCMV <clueType>initiates</clueType> a signal transduction pathway that leads to monocyte activation and pinpoints a potential mechanism whereby HCMV infection of monocytes can result in profound pathogenesis, especially in chronic inflammatory-type conditions.</clue>
+</event>
+<event id="E57">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T48" />
+<theme idref="T49" />
+<clue>These results support our hypothesis that HCMV initiates a signal transduction pathway that leads to monocyte activation and pinpoints a potential mechanism whereby HCMV <clueType>infection</clueType> <linkTheme>of</linkTheme> monocytes can result in profound pathogenesis, especially in chronic inflammatory-type conditions.</clue>
+</event>
+<event uncertainty="probable" id="E58">
+<type class="Positive_regulation" />
+<theme idref="T53" />
+<cause idref="E57" />
+<clue>These results support our hypothesis that HCMV initiates a signal transduction pathway that leads to monocyte activation and pinpoints a potential mechanism whereby HCMV infection of monocytes can <clueType>result</clueType> <linkTheme>in</linkTheme> profound pathogenesis, especially in chronic inflammatory-type conditions.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

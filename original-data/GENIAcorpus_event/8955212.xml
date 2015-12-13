@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/02/04" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8955212" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8955212</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Induction of the <term sem="DNA_domain_or_region" id="T1" lex="CD11b_gene">CD11b gene</term> during activation of the <term sem="Cell_cultured" id="T2" lex="monocytic_cell_line_U937">monocytic cell line U937</term> requires a novel <term sem="Protein_family_or_group" id="T3" lex="nuclear_factor">nuclear factor</term> <term sem="Protein_molecule" id="T4" lex="MS-2">MS-2</term> [published erratum appears in J Immunol 1999 Jul 15;163(2):1091]</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> the CD11b gene <clueTime>during activation of the monocytic cell line U937</clueTime> requires a novel nuclear factor MS-2 [published erratum appears in J Immunol 1999 Jul 15;163(2):1091]</clue>
+</event>
+<event id="E2">
+<type class="Physiological_process" />
+<theme idref="T2" />
+<clue>Induction of the CD11b gene during <clueType>activation</clueType> <linkTheme>of</linkTheme> the monocytic cell line U937 requires a novel nuclear factor MS-2 [published erratum appears in J Immunol 1999 Jul 15;163(2):1091]</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T4" />
+<clue>Induction of the CD11b gene during activation of the monocytic cell line U937 <clueType>requires</clueType> a novel nuclear factor MS-2 [published erratum appears in J Immunol 1999 Jul 15;163(2):1091]</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The differentiation of <term sem="Cell_natural" id="T5" lex="myeloid_precursor">myeloid precursors</term> into mature <term sem="Cell_natural" id="T6" lex="myelomonocytic_cell">myelomonocytic cells</term> is characterized by the induction of the <term sem="DNA_domain_or_region" id="A14">gene encoding the <term sem="Protein_family_or_group" id="T7" lex="beta2_integrin">beta2 integrin</term> <term sem="Protein_molecule" id="T8" lex="CD11b">CD11b</term></term>.</sentence>
+<event id="E4">
+<type class="Cell_differentiation" />
+<theme idref="T5" />
+<theme idref="T6" />
+<clue>The <clueType>differentiation</clueType> <linkTheme>of</linkTheme> myeloid precursors <linkTheme>into</linkTheme> mature myelomonocytic cells is characterized by the induction of the gene encoding the beta2 integrin CD11b.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="A14" />
+<clue>The differentiation of myeloid precursors into mature myelomonocytic cells is characterized by the <clueType>induction</clueType> <linkTheme>of</linkTheme> the gene encoding the beta2 integrin CD11b.</clue>
+<comment>TPS A14</comment>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="E5" />
+<clue>The differentiation of myeloid precursors into mature myelomonocytic cells is <clueType>characterized</clueType> <linkCause>by</linkCause> the induction of the gene encoding the beta2 integrin CD11b.</clue>
+</event>
+<sentence id="S3">The <term sem="Protein_family_or_group" id="T9" lex="transcription_factor">transcription factors</term> <term sem="Protein_molecule" id="T10" lex="Sp1">Sp1</term> and <term sem="Protein_molecule" id="T11" lex="PU.1_prime"><term sem="Protein_molecule" id="A1">PU.1</term> prime</term> the <term sem="DNA_domain_or_region" id="T12" lex="CD11b_promoter"><term sem="Protein_molecule" id="T13" lex="CD11b">CD11b</term> promoter</term>, but the nature of the factors responsible for its inducible expression are unknown.</sentence>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="T12" />
+<cause idref="T10" />
+<clue>The transcription factors Sp1 and PU.1 <clueType>prime</clueType> the CD11b promoter, but the nature of the factors responsible for its inducible expression are unknown.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="T12" />
+<cause idref="A1" />
+<clue>The transcription factors Sp1 and PU.1 <clueType>prime</clueType> the CD11b promoter, but the nature of the factors responsible for its inducible expression are unknown.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>The transcription factors Sp1 and PU.1 prime the CD11b promoter, but the nature of the factors responsible for <corefTheme>its</corefTheme> inducible <clueType>expression</clueType> are unknown.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<clue>The transcription factors Sp1 and PU.1 prime the CD11b promoter, but the nature of the factors responsible for its <clueType>inducible</clueType> expression are unknown.</clue>
+</event>
+<event uncertainty="doubtful" id="E11">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="A1" />
+<clue>The transcription factors Sp1 and PU.1 prime the CD11b promoter, but <corefCause>the nature of the factors</corefCause> <clueType>responsible</clueType> <linkTheme>for</linkTheme> its inducible expression are unknown.</clue>
+</event>
+<event uncertainty="doubtful" id="E12">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T10" />
+<clue>The transcription factors Sp1 and PU.1 prime the CD11b promoter, but <corefCause>the nature of the factors</corefCause> <clueType>responsible</clueType> <linkTheme>for</linkTheme> its inducible expression are unknown.</clue>
+</event>
+<sentence id="S4">In addition to the <term sem="DNA_domain_or_region" id="T14" lex="CD11b_gene"><term sem="Protein_molecule" id="T15" lex="CD11b">CD11b</term> gene</term>, the <term sem="DNA_domain_or_region" id="A15">homologous genes encoding</term> <term sem="Protein_molecule" id="T16" lex="CD11a"><term sem="DNA_domain_or_region" id="A16">CD11a</term></term> and <term sem="Protein_molecule" id="T17" lex="CD11c"><term sem="DNA_domain_or_region" id="A17">CD11c</term></term> also exhibit inducible expression during <term sem="Other" id="T18" lex="myeloid_differentiation"><term sem="Cell_natural" id="A2">myeloid</term> differentiation</term>.</sentence>
+<event id="E13">
+<type class="Cell_differentiation" />
+<theme idref="A2" />
+<clue>In addition to the CD11b gene, the homologous genes encoding CD11a and CD11c also exhibit inducible expression during myeloid <clueType>differentiation</clueType>.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref1="A16" idref="A15" />
+<clue>In addition to the CD11b gene, the homologous genes encoding CD11a and CD11c also exhibit inducible <clueType>expression</clueType> during myeloid differentiation.</clue>
+<comment>TPS A15</comment>
+</event>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref1="A17" idref="A15" />
+<clue>In addition to the CD11b gene, the homologous genes encoding CD11a and CD11c also exhibit inducible <clueType>expression</clueType> during myeloid differentiation.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue>In addition to the CD11b gene, the homologous genes encoding CD11a and CD11c also exhibit <clueType>inducible</clueType> expression <clueTime>during myeloid differentiation</clueTime>.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<clue>In addition to the CD11b gene, the homologous genes encoding CD11a and CD11c also exhibit <clueType>inducible</clueType> expression <clueTime>during myeloid differentiation</clueTime>.</clue>
+</event>
+<sentence id="S5">Therefore, we compared the <term sem="DNA_domain_or_region" id="T19" lex="nucleotide_sequence">nucleotide sequences</term> of the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region)" id="T20" lex="(AND CD11a_gene_promoter CD11b_gene_promoter CD11c_gene_promoter)"><frag id="F1">CD11a</frag>, <frag id="F2">CD11b</frag>, and <frag id="F3">CD11c</frag> <frag id="F4">gene promoters</frag></cons> to identify <term sem="DNA_domain_or_region" id="A3">common elements</term> that might contribute to <term sem="Other" id="T21" lex="inducible_expression">inducible expression</term>.</sentence>
+<event uncertainty="doubtful" id="E18">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="A3" />
+<clue>Therefore, we compared the nucleotide sequences of the CD11a, CD11b, and CD11c gene promoters to identify common elements that might <clueType>contribute</clueType> <linkTheme>to</linkTheme> <corefTheme>inducible expression</corefTheme>.</clue>
+</event>
+<event uncertainty="doubtful" id="E19">
+<type class="Regulation" />
+<theme idref="E17" />
+<cause idref="A3" />
+<clue>Therefore, we compared the nucleotide sequences of the CD11a, CD11b, and CD11c gene promoters to identify common elements that might <clueType>contribute</clueType> <linkTheme>to</linkTheme> <corefTheme>inducible expression</corefTheme>.</clue>
+</event>
+<event uncertainty="doubtful" id="E20">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="A3" />
+<clue>Therefore, we compared the nucleotide sequences of the CD11a, CD11b, and CD11c gene promoters to identify common elements that might <clueType>contribute</clueType> <linkTheme>to</linkTheme> <corefTheme>inducible expression</corefTheme>.</clue>
+</event>
+<sentence id="S6">This analysis identified one such element repeated four times within the <term sem="DNA_domain_or_region" id="T22" lex="CD11b_promoter"><term sem="Protein_molecule" id="T23" lex="CD11b">CD11b</term> promoter</term>.</sentence>
+<sentence id="S7">Mutation of these elements indicated that two, <term sem="Protein_molecule" id="T24" lex="MS-2beta">MS-2beta</term> and <term sem="Protein_molecule" id="T25" lex="MS-2gamma">MS-2gamma</term>, are critical to the induction of the <term sem="DNA_domain_or_region" id="T26" lex="CD11b_gene"><term sem="Protein_molecule" id="T27" lex="CD11b">CD11b</term> gene</term> during differentiation of the <term sem="Cell_cultured" id="T28" lex="pro-monocytic_cell_line_U937">pro-monocytic cell line U937</term>.</sentence>
+<event id="E21">
+<type class="Mutagenesis" />
+<theme idref="T24" />
+<clue><clueType>Mutation</clueType> <linkTheme>of</linkTheme> <corefTheme>these elements</corefTheme> indicated that two, MS-2beta and MS-2gamma, are critical to the induction of the CD11b gene during differentiation of the pro-monocytic cell line U937.</clue>
+</event>
+<event id="E22">
+<type class="Mutagenesis" />
+<theme idref="T25" />
+<clue><clueType>Mutation</clueType> <linkTheme>of</linkTheme> <corefTheme>these elements</corefTheme> indicated that two, MS-2beta and MS-2gamma, are critical to the induction of the CD11b gene during differentiation of the pro-monocytic cell line U937.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<clue>Mutation of these elements indicated that two, MS-2beta and MS-2gamma, are critical to the <clueType>induction</clueType> <linkTheme>of</linkTheme> the CD11b gene during differentiation of the pro-monocytic cell line U937.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E21" />
+<clue>Mutation of these elements indicated that two, MS-2beta and MS-2gamma, are <clueType>critical</clueType> <linkTheme>to</linkTheme> the induction of the CD11b gene <clueTime>during differentiation of the pro-monocytic cell line U937</clueTime>.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E22" />
+<clue>Mutation of these elements indicated that two, MS-2beta and MS-2gamma, are <clueType>critical</clueType> <linkTheme>to</linkTheme> the induction of the CD11b gene <clueTime>during differentiation of the pro-monocytic cell line U937</clueTime>.</clue>
+</event>
+<event id="E26">
+<type class="Cell_differentiation" />
+<theme idref="T28" />
+<clue>Mutation of these elements indicated that two, MS-2beta and MS-2gamma, are critical to the induction of the CD11b gene during <clueType>differentiation</clueType> <linkTheme>of</linkTheme> the pro-monocytic cell line U937.</clue>
+</event>
+<sentence id="S8"><term sem="Other" id="T29" lex="electrophoretic_mobility_shift_assay">Electrophoretic mobility shift assays</term> indicate that <term sem="Protein_molecule" id="T30" lex="MS-2beta">MS-2beta</term> and <term sem="Protein_molecule" id="T31" lex="MS-2gamma">MS-2gamma</term> interact with <term sem="Protein_molecule" id="T32" lex="nuclear_factor">nuclear factors</term> that are induced during <term sem="Other" id="T33" lex="U937_differentiation"><term sem="Cell_cultured" id="T34" lex="U937">U937</term> differentiation</term>.</sentence>
+<event id="E27">
+<type class="Binding" />
+<theme idref="T30" />
+<theme idref="T32" />
+<clue><clueExperiment>Electrophoretic mobility shift assays</clueExperiment> indicate that MS-2beta and MS-2gamma <clueType>interact</clueType> <linkTheme>with</linkTheme> nuclear factors that are induced during U937 differentiation.</clue>
+</event>
+<event id="E28">
+<type class="Binding" />
+<theme idref="T31" />
+<theme idref="T32" />
+<clue><clueExperiment>Electrophoretic mobility shift assays</clueExperiment> indicate that MS-2beta and MS-2gamma <clueType>interact</clueType> <linkTheme>with</linkTheme> nuclear factors that are induced during U937 differentiation.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<clue>Electrophoretic mobility shift assays indicate that MS-2beta and MS-2gamma interact with nuclear factors that are <clueType>induced</clueType> <clueTime>during U937 differentiation</clueTime>.</clue>
+</event>
+<event id="E30">
+<type class="Cell_differentiation" />
+<theme idref="T34" />
+<clue>Electrophoretic mobility shift assays indicate that MS-2beta and MS-2gamma interact with nuclear factors that are induced during U937 <clueType>differentiation</clueType>.</clue>
+</event>
+<sentence id="S9">These factors are detected at the time the <term sem="DNA_domain_or_region" id="T35" lex="CD11b_promoter"><term sem="Protein_molecule" id="T36" lex="CD11b">CD11b</term> promoter</term> is activated.</sentence>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<clue><corefTheme>These factors</corefTheme> are <clueType>detected</clueType> <clueTime>at the time the CD11b promoter is activated</clueTime>.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="T35" />
+<clue>These factors are detected at the time the CD11b promoter is <clueType>activated</clueType>.</clue>
+</event>
+<sentence id="S10">The molecular mass of these factors is approximately 28 kDa, and their <term sem="DNA_molecule" id="A5">DNA</term> binding characteristics are indistinguishable from those of the novel <term sem="Protein_family_or_group" id="T39" lex="nuclear_factor">nuclear factor</term> <term sem="Protein_molecule" id="T40" lex="MS-2">MS-2</term>.</sentence>
+<event id="E33">
+<type class="Binding" />
+<theme idref="A5" />
+<theme idref="T32" />
+<clue>The molecular mass of these factors is approximately 28 kDa, and <corefTheme idref1="T32">their</corefTheme> DNA <clueType>binding</clueType> characteristics are indistinguishable from those of the novel nuclear factor MS-2.</clue>
+</event>
+<event id="E34">
+<type class="Binding" />
+<theme idref="A5" />
+<theme idref="T40" />
+<clue>The molecular mass of these factors is approximately 28 kDa, and their DNA <clueType>binding</clueType> characteristics are indistinguishable from those of the novel nuclear factor MS-2.</clue>
+</event>
+<sentence id="S11">Taken together, our data indicate that <term sem="Protein_molecule" id="T41" lex="MS-2">MS-2</term> mediates induction of the <term sem="DNA_domain_or_region" id="T42" lex="CD11b_gene"><term sem="Protein_molecule" id="T43" lex="CD11b">CD11b</term> gene</term> as cells of the <term sem="Cell_cultured" id="A4">monocytic lineage</term> mature.</sentence>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<clue>Taken together, our data indicate that MS-2 mediates <clueType>induction</clueType> <linkTheme>of</linkTheme> the CD11b gene <clueTime>as cells of the monocytic lineage mature</clueTime>.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="T41" />
+<clue>Taken together, our data indicate that MS-2 <clueType>mediates</clueType> induction of the CD11b gene <clueTime>as cells of the monocytic lineage mature</clueTime>.</clue>
+</event>
+<event id="E37">
+<type class="Cell_differentiation" />
+<theme idref="A4" />
+<clue>Taken together, our data indicate that MS-2 mediates induction of the CD11b gene as cells of the monocytic lineage <clueType>mature</clueType>.</clue>
+</event>
+<sentence id="S12">The presence of multiple potential binding sites for <term sem="Protein_molecule" id="T44" lex="MS-2">MS-2</term> in the promoter regions of a wide range of <term sem="DNA_molecule" id="A6">genes</term> expressed in <term sem="Cell_natural" id="T45" lex="mature_myeloid_cell">mature <term sem="Cell_natural" id="A7">myeloid cells</term></term> suggests this factor plays a general role in <term sem="Other" id="T46" lex="myeloid_differentiation"><term sem="Cell_natural" id="A8">myeloid</term> differentiation</term>.</sentence>
+<event id="E38">
+<type class="Gene_expression" />
+<theme idref="A6" />
+<clue>The presence of multiple potential binding sites for MS-2 in the promoter regions of a wide range of genes <clueType>expressed</clueType> <clueLoc>in mature myeloid cells</clueLoc> suggests this factor plays a general role in myeloid differentiation.</clue>
+</event>
+<event id="E39">
+<type class="Cell_differentiation" />
+<theme idref="A7" />
+<clue>The presence of multiple potential binding sites for MS-2 in the promoter regions of a wide range of genes expressed in <clueType>mature</clueType> myeloid cells suggests this factor plays a general role in myeloid differentiation.</clue>
+</event>
+<event uncertainty="probable" id="E40">
+<type class="Regulation" />
+<theme idref="E41" />
+<cause idref="T40" />
+<clue>The presence of multiple potential binding sites for MS-2 in the promoter regions of a wide range of genes expressed in mature myeloid cells suggests <corefCause>this factor</corefCause> <clueType>plays</clueType> a general <clueType>role</clueType> <linkTheme>in</linkTheme> myeloid differentiation.</clue>
+</event>
+<event id="E41">
+<type class="Cell_differentiation" />
+<theme idref="A8" />
+<clue>The presence of multiple potential binding sites for MS-2 in the promoter regions of a wide range of genes expressed in mature myeloid cells suggests this factor plays a general role in myeloid <clueType>differentiation</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

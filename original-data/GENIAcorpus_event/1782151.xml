@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="18/02/2006" creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1782151">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1782151</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Stimulation of <term sem="Other" id="T1" lex="interferon_beta_gene_transcription"><term sem="DNA_domain_or_region" id="T2" lex="interferon_beta_gene">interferon beta gene</term> transcription</term> in vitro by purified <term sem="Protein_molecule" id="T3" lex="NF-kappa_B">NF-kappa B</term> and a novel <term sem="Protein_molecule" id="T4" lex="TH_protein">TH protein</term>.</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T2" />
+<clue>Stimulation of interferon beta gene <clueType>transcription</clueType> in vitro by purified NF-kappa B and a novel TH protein.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T3" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> interferon beta gene transcription in vitro <linkCause>by</linkCause> purified NF-kappa B and a novel TH protein.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T4" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> interferon beta gene transcription in vitro <linkCause>by</linkCause> purified NF-kappa B and a novel TH protein.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="DNA_domain_or_region" id="T5" lex="human_interferon_beta_(IFN-beta)_regulatory_element"><term sem="Protein_molecule" id="T6" lex="human_interferon_beta">human interferon beta</term> (<term sem="Protein_molecule" id="T7" lex="IFN-beta">IFN-beta</term>) <term sem="DNA_domain_or_region" id="A200">regulatory element</term></term> consists of multiple <term sem="DNA_domain_or_region" id="T8" lex="enhanson_domain">enhanson domains</term> which are targets for <term sem="Protein_family_or_group" id="T9" lex="transcription_factor">transcription factors</term> involved in inducible expression of the <term sem="DNA_domain_or_region" id="T10" lex="promoter">promoter</term>.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue>The human interferon beta (IFN-beta) regulatory element consists of multiple enhanson domains which are targets for transcription factors involved in inducible <clueType>expression</clueType> of the promoter.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T10" />
+<clue>The human interferon beta (IFN-beta) regulatory element consists of multiple enhanson domains which are targets for transcription factors involved in <clueType>inducible</clueType> expression <linkCause>of</linkCause> the promoter.</clue>
+</event>
+<event id="E6">
+<type class="Correlation" />
+<theme idref="E5" />
+<theme idref="T9" />
+<clue>The human interferon beta (IFN-beta) regulatory element consists of multiple enhanson domains which are targets for transcription factors <clueType>involved</clueType> <linkTheme>in</linkTheme> inducible expression of the promoter.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref1="A200" idref="T7" />
+<cause idref="E6" />
+<clue>The human interferon beta (IFN-beta) regulatory element consists of multiple enhanson domains which <linkTheme>are</linkTheme> <clueType>targets</clueType> <linkCause>for</linkCause> transcription factors involved in inducible expression of the promoter.</clue>
+</event>
+<sentence id="S3">To further characterize the <term sem="Other" id="T11" lex="protein-DNA_interaction"><term sem="Protein_molecule" id="A201">protein</term>-<term sem="DNA_domain_or_region" id="A202">DNA</term> interactions</term> mediating <term sem="Other" id="T12" lex="IFN-beta_induction"><term sem="Protein_molecule" id="T13" lex="IFN-beta">IFN-beta</term> induction</term>, <term sem="Protein_family_or_group" id="T14" lex="positive_regulatory_domain_(PRD)_II_binding_protein"><term sem="DNA_domain_or_region" id="T15" lex="positive_regulatory_domain_(PRD)_II">positive regulatory domain (PRD) II</term> binding proteins</term> were purified from <term sem="Organic_compound_other" id="T16" lex="phorbol_ester">phorbol ester</term> induced <term sem="Cell_cultured" id="T17" lex="Jurkat_T-cell">Jurkat T-cells</term> and from <term sem="Cell_cultured" id="T18" lex="IFN_primed,_cycloheximide/polyinosinic-polycytidylic_acid_treated_HeLa_S3_cell"><term sem="Protein_molecule" id="T19" lex="IFN">IFN</term> primed, <term sem="Organic_compound_other" id="T20" lex="cycloheximide/polyinosinic-polycytidylic_acid">cycloheximide/polyinosinic-polycytidylic acid</term> treated HeLa S3 cells</term>.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<clue>To further characterize the protein-DNA interactions mediating IFN-beta <clueType>induction</clueType>, positive regulatory domain (PRD) II binding proteins were purified from phorbol ester induced Jurkat T-cells and from IFN primed, cycloheximide/polyinosinic-polycytidylic acid treated HeLa S3 cells.</clue>
+</event>
+<event id="E100">
+<type class="Binding" />
+<theme idref="A201" />
+<theme idref="A202" />
+<clue>To further characterize the protein-DNA <clueType>interactions</clueType> mediating IFN-beta induction, positive regulatory domain (PRD) II binding proteins were purified from phorbol ester induced Jurkat T-cells and from IFN primed, cycloheximide/polyinosinic-polycytidylic acid treated HeLa S3 cells.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E100" />
+<clue>To further characterize the protein-DNA interactions <clueType>mediating</clueType> IFN-beta induction, positive regulatory domain (PRD) II binding proteins were purified from phorbol ester induced Jurkat T-cells and from IFN primed, cycloheximide/polyinosinic-polycytidylic acid treated HeLa S3 cells.</clue>
+</event>
+<sentence id="S4">From <term sem="Cell_cultured" id="T21" lex="HeLa_cell">HeLa cells</term>, two major proteins of <cons sem="(AND Protein_molecule Protein_molecule)" id="T22" lex="(AND 52_kilodaltons_(kD) 45_kilodaltons_(kD))"><frag id="F1"><term sem="Protein_molecule" id="A2">52</term></frag> and <frag id="F2"><term sem="Protein_molecule" id="A3">45</term></frag> <frag id="F3">kilodaltons (<term sem="Protein_molecule" id="A4">kD</term>)</frag></cons> copurified with <term sem="Other" id="T23" lex="DNA_binding_activity"><term sem="DNA_domain_or_region" id="A1">DNA</term> binding activity</term>, whereas from <term sem="Cell_natural" id="T24" lex="T-cell">T-cells</term>, four proteins--a <term sem="Protein_family_or_group" id="T25" lex="major_protein">major protein</term> of <term sem="Protein_molecule" id="T26" lex="52_kD">52 kD</term> and three <term sem="Protein_family_or_group" id="T27" lex="minor_protein">minor proteins</term> of <term sem="Protein_molecule" id="T28" lex="82_kD">82</term>, <term sem="Protein_molecule" id="T29" lex="67_kD">67</term>, and <term sem="Protein_molecule" id="T30" lex="43-47_kD">43-47 <term sem="Protein_molecule" id="A203">kD</term></term>--were purified.</sentence>
+<event id="E10">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref1="A4" idref="A2" />
+<clue><clueLoc>From HeLa cells</clueLoc>, two major proteins of 52 and 45 kilodaltons (kD) <linkTheme>copurified with</linkTheme> DNA <clueType>binding activity</clueType>, whereas from T-cells, four proteins--a major protein of 52 kD and three minor proteins of 82, 67, and 43-47 kD--were purified.</clue>
+</event>
+<event id="E11">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref1="A4" idref="A3" />
+<clue><clueLoc>From HeLa cells</clueLoc>, two major proteins of 52 and 45 kilodaltons (kD) <linkTheme>copurified with</linkTheme> DNA <clueType>binding activity</clueType>, whereas from T-cells, four proteins--a major protein of 52 kD and three minor proteins of 82, 67, and 43-47 kD--were purified.</clue>
+</event>
+<event id="E202">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="A1" />
+<clue>From HeLa cells, two major proteins of 52 and 45 kilodaltons (kD) copurified <linkTheme>with</linkTheme> DNA <clueType>binding activity</clueType>, whereas <clueLoc>from T-cells</clueLoc>, four proteins--a major protein of 52 kD and three minor proteins of 82, 67, and 43-47 kD--were <linkTheme>purified</linkTheme>.</clue>
+</event>
+<event id="E203">
+<type class="Binding" />
+<theme idref1="A203" idref="T28" />
+<theme idref="A1" />
+<clue>From HeLa cells, two major proteins of 52 and 45 kilodaltons (kD) copurified <linkTheme>with</linkTheme> DNA <clueType>binding activity</clueType>, whereas <clueLoc>from T-cells</clueLoc>, four proteins--a major protein of 52 kD and three minor proteins of 82, 67, and 43-47 kD--were <linkTheme>purified</linkTheme>.</clue>
+</event>
+<event id="E204">
+<type class="Binding" />
+<theme idref1="A203" idref="T29" />
+<theme idref="A1" />
+<clue>From HeLa cells, two major proteins of 52 and 45 kilodaltons (kD) copurified <linkTheme>with</linkTheme> DNA <clueType>binding activity</clueType>, whereas <clueLoc>from T-cells</clueLoc>, four proteins--a major protein of 52 kD and three minor proteins of 82, 67, and 43-47 kD--were <linkTheme>purified</linkTheme>.</clue>
+</event>
+<event id="E205">
+<type class="Binding" />
+<theme idref="T30" />
+<theme idref="A1" />
+<clue>From HeLa cells, two major proteins of 52 and 45 kilodaltons (kD) copurified <linkTheme>with</linkTheme> DNA <clueType>binding activity</clueType>, whereas <clueLoc>from T-cells</clueLoc>, four proteins--a major protein of 52 kD and three minor proteins of 82, 67, and 43-47 kD--were <linkTheme>purified</linkTheme>.</clue>
+</event>
+<sentence id="S5">Also, an <term sem="Protein_family_or_group" id="A300">induction <term sem="Protein_family_or_group" id="T31" lex="specific_DNA_binding_protein">specific <term sem="Protein_family_or_group" id="A5">DNA binding protein</term></term></term> was purified from <term sem="Cell_cultured" id="T32" lex="HeLa_cell">HeLa cells</term> that interacted with the (<term sem="Polynucleotide" id="T33" lex="AAGTGA">AAGTGA</term>)4 <term sem="DNA_domain_or_region" id="T34" lex="tetrahexamer_sequence">tetrahexamer sequence</term> and the <term sem="DNA_domain_or_region" id="T35" lex="PRDI_domain">PRDI domain</term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<cause idref="A5" />
+<clue>Also, an <clueType>induction</clueType> specific DNA binding protein was purified <clueLoc>from HeLa cells</clueLoc> that interacted with the (AAGTGA)4 tetrahexamer sequence and the PRDI domain.</clue>
+</event>
+<event id="E13">
+<type class="Binding" />
+<theme idref="A300" />
+<theme idref="T34" />
+<clue>Also, an induction specific DNA binding protein was purified from HeLa cells that <clueType>interacted</clueType> <linkTheme>with</linkTheme> the (AAGTGA)4 tetrahexamer sequence and the PRDI domain.</clue>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="A300" />
+<theme idref="T35" />
+<clue>Also, an induction specific DNA binding protein was purified from HeLa cells that <clueType>interacted</clueType> <linkTheme>with</linkTheme> the (AAGTGA)4 tetrahexamer sequence and the PRDI domain.</clue>
+</event>
+<sentence id="S6">This protein is immunologically distinct from <term sem="Protein_molecule" id="T36" lex="IRF-1/ISGF2">IRF-1/ISGF2</term>.</sentence>
+<sentence id="S7"><term sem="Cell_component" id="T37" lex="uninduced_HeLa_extract">Uninduced</term> or <term sem="Cell_component" id="T38" lex="Sendai_virus_induced_HeLa_extract"><term sem="Virus" id="T39" lex="Sendai_virus">Sendai virus</term> induced <term sem="Cell_component" id="T40" lex="HeLa_extract">HeLa extracts</term></term> were used to examine <term sem="Other" id="T41" lex="transcription">transcription</term> in vitro using a series of <term sem="DNA_domain_or_region" id="T42" lex="IFN_beta_promoter_deletion"><term sem="DNA_domain_or_region" id="A204">IFN beta promoter</term> deletions</term>.</sentence>
+<event id="E206">
+<type class="Mutagenesis" />
+<theme idref="A204" />
+<clue>Uninduced or Sendai virus induced HeLa extracts were used to examine transcription in vitro using a series of IFN beta promoter <clueType>deletions</clueType>.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<sentence id="S8">Deletions <term sem="DNA_domain_or_region" id="A205">upstream of the <term sem="DNA_domain_or_region" id="T43" lex="PRDII_element">PRDII element</term></term> increased <term sem="Other" id="T44" lex="transcription">transcription</term> in the uninduced extract, indicating predominantly <term sem="Other" id="T45" lex="negative_regulation">negative regulation</term> of the <term sem="DNA_domain_or_region" id="T46" lex="promoter">promoter</term>.</sentence>
+<event id="E15">
+<type class="Mutagenesis" />
+<theme idref="A205" />
+<clue><clueType>Deletions</clueType> upstream of the PRDII element increased transcription in the uninduced extract, indicating predominantly negative regulation of the promoter.</clue>
+<comment>TPS: A205, ARTIFICIAL</comment>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="E15" />
+<clue>Deletions upstream of the PRDII element <clueType>increased</clueType> <corefTheme>transcription</corefTheme> <clueLoc>in the uninduced extract</clueLoc>, indicating predominantly negative regulation of the promoter.</clue>
+</event>
+<event id="E207">
+<type class="Negative_regulation" />
+<theme idref="T46" />
+<cause idref="E15" />
+<clue>Deletions upstream of the PRDII element increased transcription in the uninduced extract, <linkCause>indicating</linkCause> predominantly <clueType>negative regulation</clueType> <linkTheme>of</linkTheme> the promoter.</clue>
+</event>
+<sentence id="S9">A 2-4-fold increase in <term sem="DNA_domain_or_region" id="T47" lex="IFN-beta_promoter">IFN-beta promoter</term> <term sem="Other" id="T48" lex="transcription">transcription</term> was observed in <term sem="Cell_component" id="T49" lex="Sendai_virus_induced_extract"><term sem="Virus" id="T50" lex="Sendai_virus">Sendai virus</term> induced extracts</term>, and deletion of <term sem="DNA_domain_or_region" id="T51" lex="PRDI">PRDI</term> and <term sem="DNA_domain_or_region" id="T52" lex="PRDII_element"><term sem="DNA_domain_or_region" id="T53" lex="PRDII">PRDII</term> elements</term> decreased this induced level of <term sem="Other" id="T54" lex="transcription">transcription</term>.</sentence>
+<event id="E17">
+<type class="Transcription" />
+<theme idref="T47" />
+<clue>A 2-4-fold increase in IFN-beta promoter <clueType>transcription</clueType> was observed in Sendai virus induced extracts, and deletion of PRDI and PRDII elements decreased this induced level of transcription.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E15" />
+<clue>A 2-4-fold <clueType>increase</clueType> <linkTheme>in</linkTheme> IFN-beta promoter transcription was observed <clueLoc>in Sendai virus induced extracts</clueLoc>, and deletion of PRDI and PRDII elements decreased this induced level of transcription.</clue>
+</event>
+<event id="E19">
+<type class="Mutagenesis" />
+<theme idref="T51" />
+<clue>A 2-4-fold increase in IFN-beta promoter transcription was observed in Sendai virus induced extracts, and <clueType>deletion</clueType> <linkTheme>of</linkTheme> PRDI and PRDII elements decreased this induced level of transcription.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E119">
+<type class="Mutagenesis" />
+<theme idref="T53" />
+<clue>A 2-4-fold increase in IFN-beta promoter transcription was observed in Sendai virus induced extracts, and <clueType>deletion</clueType> <linkTheme>of</linkTheme> PRDI and PRDII elements decreased this induced level of transcription.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="E19" />
+<clue>A 2-4-fold increase in IFN-beta promoter transcription was observed in Sendai virus induced extracts, and deletion of PRDI and PRDII elements <clueType>decreased</clueType> <linkTheme>this induced level of transcription</linkTheme>.</clue>
+</event>
+<event id="E120">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="E119" />
+<clue>A 2-4-fold increase in IFN-beta promoter transcription was observed in Sendai virus induced extracts, and deletion of PRDI and PRDII elements <clueType>decreased</clueType> <linkTheme>this induced level of transcription</linkTheme>.</clue>
+</event>
+<sentence id="S10">When purified <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T55" lex="(AND PRDII_binding_protein tetrahexamer_binding_protein)"><frag id="F4"><term sem="DNA_domain_or_region" id="A7">PRDII</term></frag> and <frag id="F5"><term sem="DNA_domain_or_region" id="A8">tetrahexamer</term></frag> <frag id="F6">binding <term sem="Protein_family_or_group" id="A9">proteins</term></frag></cons> were added to the induced extract, a 4-fold increase in <term sem="Other" id="T56" lex="transcription">transcription</term> was observed.</sentence>
+<event id="E21">
+<type class="Binding" />
+<theme idref="A7" />
+<theme idref="A9" />
+<clue>When purified PRDII and tetrahexamer <clueType>binding</clueType> proteins were added to the induced extract, a 4-fold increase in transcription was observed.</clue>
+</event>
+<event id="E22">
+<type class="Binding" />
+<theme idref="A8" />
+<theme idref="A9" />
+<clue>When purified PRDII and tetrahexamer <clueType>binding</clueType> proteins were added to the induced extract, a 4-fold increase in transcription was observed.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E21" />
+<cause idref="E22" />
+<clue>When purified PRDII and tetrahexamer binding proteins were added to the induced extract, a 4-fold <clueType>increase</clueType> <linkTheme>in</linkTheme> <linkTheme>transcription</linkTheme> was observed.</clue>
+</event>
+<sentence id="S11">These experiments demonstrate that it is possible to modulate <term sem="Protein_molecule" id="A208">IFN-beta</term> <term sem="Other" id="T57" lex="transcription">transcription</term> in vitro but indicate that <term sem="Protein_family_or_group" id="A10">additional proteins</term> may be required to fully activate <term sem="Other" id="T58" lex="IFN-beta_transcription"><term sem="Protein_molecule" id="T59" lex="IFN-beta">IFN-beta</term> <term sem="Other" id="T60" lex="transcription">transcription</term></term>.</sentence>
+<event id="E24">
+<type class="Transcription" />
+<theme idref="T59" />
+<clue>These experiments demonstrate that it is possible to modulate IFN-beta transcription in vitro but indicate that additional proteins may be required to fully activate IFN-beta <clueType>transcription</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="A10" />
+<clue>These experiments demonstrate that it is possible to modulate IFN-beta transcription in vitro but indicate that additional proteins may be <linkCause>required to</linkCause> fully <clueType>activate</clueType> IFN-beta transcription.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

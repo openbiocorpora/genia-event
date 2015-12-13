@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="12/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10089140" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10089140</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Reduction of <cons sem="(AND Other Other)" id="C1" lex="(AND tumour_necrosis_factor_alpha_expression tumour_necrosis_factor_alpha_signalling)"><frag id="F1">tumour necrosis factor alpha</frag> <frag id="F2">expression</frag> and <frag id="F3">signalling</frag></cons> in <term sem="Cell_natural" id="T3" lex="peripheral_blood_mononuclear_cell">peripheral blood mononuclear cells</term> from <term sem="Multicellular_organism_natural" id="T4" lex="patient">patients</term> with <term sem="Other" id="T5" lex="thalassaemia">thalassaemia</term> or <term sem="Other" id="T6" lex="sickle_cell_anaemia">sickle cell anaemia</term> upon treatment with <term sem="Organic_compound_other" id="T7" lex="desferrioxamine">desferrioxamine</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="F1" />
+<clue>Reduction of tumour necrosis factor alpha <clueType>expression</clueType> and signalling in peripheral blood mononuclear cells from patients with thalassaemia or sickle cell anaemia upon treatment with desferrioxamine.</clue>
+</event>
+<event id="E2">
+<type class="Cell_communication" />
+<theme idref="F1" />
+<clue>Reduction of tumour necrosis factor alpha expression and <clueType>signalling</clueType> in peripheral blood mononuclear cells from patients with thalassaemia or sickle cell anaemia upon treatment with desferrioxamine.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T7" />
+<clue><clueType>Reduction</clueType> <linkTheme>of</linkTheme> tumour necrosis factor alpha expression and signalling <clueLoc>in peripheral blood mononuclear cells from patients with thalassaemia</clueLoc> or sickle cell anaemia <linkCause>upon treatment with</linkCause> desferrioxamine.</clue>
+</event>
+<event id="E103">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T7" />
+<clue><clueType>Reduction</clueType> <linkTheme>of</linkTheme> tumour necrosis factor alpha expression and signalling <clueLoc>in peripheral blood mononuclear cells from patients with</clueLoc> thalassaemia or <clueLoc>sickle cell anaemia</clueLoc> <linkCause>upon treatment with</linkCause> desferrioxamine.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="T7" />
+<clue><clueType>Reduction</clueType> <linkTheme>of</linkTheme> tumour necrosis factor alpha expression and signalling <clueLoc>in peripheral blood mononuclear cells from patients with thalassaemia</clueLoc> or sickle cell anaemia <linkCause>upon treatment with</linkCause> desferrioxamine.</clue>
+</event>
+<event id="E104">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="T7" />
+<clue><clueType>Reduction</clueType> <linkTheme>of</linkTheme> tumour necrosis factor alpha expression and signalling <clueLoc>in peripheral blood mononuclear cells from patients with</clueLoc> thalassaemia or <clueLoc>sickle cell anaemia</clueLoc> <linkCause>upon treatment with</linkCause> desferrioxamine.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Recent evidence indicates that the rate of progression of the <term sem="Other" id="T8" lex="HIV-1_disease"><term sem="Virus" id="T9" lex="HIV-1">HIV-1</term> disease</term> is significantly reduced in <term sem="Other" id="T10" lex="thalassaemia">thalassaemia</term> major <term sem="Multicellular_organism_natural" id="T11" lex="patient">patients</term> upon treatment with high doses of <term sem="Organic_compound_other" id="T12" lex="desferrioxamine">desferrioxamine</term> (<term sem="Organic_compound_other" id="A1">DFX</term>).</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<clue>Recent evidence indicates that the rate of <clueType>progression</clueType> <linkTheme>of</linkTheme> the HIV-1 disease is significantly reduced in thalassaemia major patients upon treatment with high doses of desferrioxamine (DFX).</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="A1" />
+<clue>Recent evidence indicates that the rate of progression of the HIV-1 disease is significantly <clueType>reduced</clueType> <clueLoc>in thalassaemia major patients</clueLoc> <linkCause>upon treatment with</linkCause> high doses of desferrioxamine (DFX).</clue>
+</event>
+<sentence id="S3">The authors have previously demonstrated that in vitro exposure of <term sem="Cell_natural" id="T13" lex="mononuclear_cell">mononuclear cells</term> to <term sem="Organic_compound_other" id="T14" lex="DFX">DFX</term> decreases the bioavailability of <term sem="Protein_molecule" id="T15" lex="tumour_necrosis_factor_alpha">tumour necrosis factor alpha</term> (<term sem="Protein_molecule" id="T16" lex="TNF-alpha">TNF-alpha</term>) which has a stimulatory effect on <term sem="Other" id="T17" lex="HIV-1_replication"><term sem="Virus" id="T18" lex="HIV-1">HIV-1</term> replication</term>.</sentence>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="T16" />
+<cause idref="T14" />
+<clue>The authors have previously demonstrated that in vitro <linkCause>exposure</linkCause> of <clueLoc>mononuclear cells</clueLoc> <linkCause>to</linkCause> DFX <clueType>decreases</clueType> the bioavailability of tumour necrosis factor alpha (TNF-alpha) which has a stimulatory effect on HIV-1 replication.</clue>
+</event>
+<event id="E9">
+<type class="Viral_life_cycle" />
+<theme idref="T18" />
+<clue>The authors have previously demonstrated that in vitro exposure of mononuclear cells to DFX decreases the bioavailability of tumour necrosis factor alpha (TNF-alpha) which has a stimulatory effect on HIV-1 <clueType>replication</clueType>.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T16" />
+<clue>The authors have previously demonstrated that in vitro exposure of mononuclear cells to DFX decreases the bioavailability of tumour necrosis factor alpha (TNF-alpha) which <clueType>has</clueType> a <clueType>stimulatory effect</clueType> on HIV-1 replication.</clue>
+</event>
+<sentence id="S4">In this study, therefore, <term sem="Protein_molecule" id="T19" lex="TNF-alpha">TNF-alpha</term> bioavailability from <term sem="Cell_natural" id="T20" lex="mononuclear_cell">mononuclear cells</term> isolated from 10 <term sem="Multicellular_organism_natural" id="T21" lex="patient">patients</term> with <term sem="Other" id="T22" lex="thalassaemia">thalassaemia</term> or <term sem="Other" id="T23" lex="sickle_cell_anaemia">sickle cell anaemia</term> given <term sem="Organic_compound_other" id="T24" lex="DFX">DFX</term> as compared to 10 <term sem="Multicellular_organism_natural" id="T25" lex="untreated_subject">untreated subjects</term> has been evaluated.</sentence>
+<sentence id="S5">Evidence is presented showing that <term sem="Organic_compound_other" id="T26" lex="DFX">DFX</term> treatment reduces <term sem="Protein_molecule" id="T27" lex="TNF-alpha">TNF-alpha</term> bioavailability (P&lt;0.05) by inhibiting its steady state (P&lt;0.05) and by enhancing its inactivation through binding to soluble <term sem="Protein_molecule" id="A2"><term sem="Protein_molecule" id="T28" lex="TNF-alpha">TNF-alpha</term> receptor type II</term> (P&lt;0.05).</sentence>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="T27" />
+<cause idref="T26" />
+<clue>Evidence is presented showing that DFX treatment <clueType>reduces</clueType> TNF-alpha bioavailability (P&lt;0.05) by inhibiting its steady state (P&lt;0.05) and by enhancing its inactivation through binding to soluble TNF-alpha receptor type II (P&lt;0.05).</clue>
+</event>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="A2" />
+<clue>Evidence is presented showing that DFX treatment reduces TNF-alpha bioavailability (P&lt;0.05) by inhibiting its steady state (P&lt;0.05) and by enhancing its inactivation through <clueType>binding</clueType> <linkTheme>to</linkTheme> soluble TNF-alpha receptor type II (P&lt;0.05).</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="T27" />
+<clue>Evidence is presented showing that DFX treatment reduces TNF-alpha bioavailability (P&lt;0.05) by inhibiting its steady state (P&lt;0.05) and by enhancing <corefTheme>its</corefTheme> <clueType>inactivation</clueType> through binding to soluble TNF-alpha receptor type II (P&lt;0.05).</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E12" />
+<clue>Evidence is presented showing that DFX treatment reduces TNF-alpha bioavailability (P&lt;0.05) by inhibiting its steady state (P&lt;0.05) and by <clueType>enhancing</clueType> its inactivation <linkCause>through</linkCause> binding to soluble TNF-alpha receptor type II (P&lt;0.05).</clue>
+</event>
+<sentence id="S6">We also show that <term sem="Organic_compound_other" id="T29" lex="DFX">DFX</term> treatment limits the <term sem="Other" id="T30" lex="in_vivo_activation">in vivo activation</term> of <term sem="Protein_complex" id="T31" lex="NF-kappaB">NF-kappaB</term>, a <term sem="Protein_family_or_group" id="T32" lex="transcription_factor">transcription factor</term> involved in both <term sem="Other" id="T33" lex="TNF-alpha_gene_transcriptio"><term sem="Protein_molecule" id="T34" lex="TNF-alpha">TNF-alpha</term> gene transcription</term> and <term sem="Other" id="T1"><term sem="Protein_molecule" id="T35" lex="TNF-alpha">TNF-alpha</term> signalling</term> (P&lt;0.005).</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T31" />
+<clue>We also show that DFX treatment limits the in vivo <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB, a transcription factor involved in both TNF-alpha gene transcription and TNF-alpha signalling (P&lt;0.005).</clue>
+</event>
+<event id="E101">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T29" />
+<clue>We also show that DFX treatment <clueType>limits</clueType> the in vivo activation of NF-kappaB, a transcription factor involved in both TNF-alpha gene transcription and TNF-alpha signalling (P&lt;0.005).</clue>
+</event>
+<event id="E16">
+<type class="Transcription" />
+<theme idref="T34" />
+<clue>We also show that DFX treatment limits the in vivo activation of NF-kappaB, a transcription factor involved in both TNF-alpha gene <clueType>transcription</clueType> and TNF-alpha signalling (P&lt;0.005).</clue>
+</event>
+<event id="E17">
+<type class="Cell_communication" />
+<theme idref="T34" />
+<clue>We also show that DFX treatment limits the in vivo activation of NF-kappaB, a transcription factor involved in both TNF-alpha gene transcription and TNF-alpha <clueType>signalling</clueType> (P&lt;0.005).</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T31" />
+<clue>We also show that DFX treatment limits the in vivo activation of NF-kappaB, <corefCause>a transcription factor</corefCause> <clueType>involved</clueType> <linkTheme>in</linkTheme> both TNF-alpha gene transcription and TNF-alpha signalling (P&lt;0.005).</clue>
+</event>
+<event id="E19">
+<type class="Correlation" />
+<theme idref="T31" />
+<theme idref="E17" />
+<clue>We also show that DFX treatment limits the in vivo activation of NF-kappaB, <corefCause>a transcription factor</corefCause> <clueType>involved</clueType> <linkTheme>in</linkTheme> both TNF-alpha gene transcription and TNF-alpha signalling (P&lt;0.005).</clue>
+</event>
+<sentence id="S7">We conclude that <term sem="Other" id="T36" lex="TNF-alpha_bioavailability"><term sem="Protein_molecule" id="T37" lex="TNF-alpha">TNF-alpha</term> bioavailability</term> and signalling are impaired in <term sem="Multicellular_organism_natural" id="T38" lex="patient">patients</term> upon <term sem="Other" id="T2"><term sem="Organic_compound_other" id="T39" lex="DFX">DFX</term> treatment</term>.</sentence>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="T37" />
+<cause idref="T39" />
+<clue>We conclude that TNF-alpha bioavailability and signalling are <clueType>impaired</clueType> <clueLoc>in patients</clueLoc> <linkCause>upon</linkCause> DFX treatment.</clue>
+</event>
+<event id="E25">
+<type class="Cell_communication" />
+<theme idref="T37" />
+<clue>We conclude that TNF-alpha bioavailability and <clueType>signalling</clueType> are impaired in patients upon DFX treatment.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="T39" />
+<clue>We conclude that TNF-alpha bioavailability and signalling are <clueType>impaired</clueType> <clueLoc>in patients</clueLoc> <linkCause>upon</linkCause> DFX treatment.</clue>
+</event>
+<sentence id="S8">This mechanism may contribute to delayed progression of the <term sem="Other" id="T40" lex="HIV-1_infection"><term sem="Virus" id="T41" lex="HIV-1">HIV-1</term> infection</term> in vivo.</sentence>
+<event id="E21">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T41" />
+<clue>This mechanism may contribute to delayed progression of the HIV-1 <clueType>infection</clueType> in vivo.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<clue>This mechanism may contribute to delayed <clueType>progression</clueType> <linkTheme>of</linkTheme> the HIV-1 infection in vivo.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<clue>This mechanism may contribute to <clueType>delayed</clueType> progression of the HIV-1 infection in vivo.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E20" />
+<clue>This mechanism may contribute to delayed progression of the HIV-1 infection in vivo.</clue>
+</event>
+<sentence id="S9">Copyright 1999 Academic Press.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

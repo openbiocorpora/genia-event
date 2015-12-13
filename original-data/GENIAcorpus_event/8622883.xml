@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="08/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8622883" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8622883</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The role of <term sem="Protein_molecule" id="T1" lex="p16">p16</term> in the <term sem="Other" id="T2" lex="E2F-dependent_thymidine_kinase_regulation"><term sem="Protein_molecule" id="A1">E2F</term>-dependent <term sem="Protein_molecule" id="T3" lex="E2F-dependent_thymidine_kinase">thymidine kinase</term> regulation</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T3" />
+<cause idref="A1" />
+<clue>The role of p16 in the E2F-<linkCause>dependent</linkCause> thymidine kinase <clueType>regulation</clueType>.</clue>
+<comment>NER T3 MOD</comment>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>The <clueType>role</clueType> <linkCause>of</linkCause> p16 <linkTheme>in</linkTheme> the E2F-dependent thymidine kinase regulation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The role of alterations of the <term sem="DNA_domain_or_region" id="T4" lex="MTS1_tumor_suppressor_gene"><term sem="DNA_domain_or_region" id="T5" lex="MTS1">MTS1</term> tumor suppressor gene</term> on <term sem="DNA_molecule" id="T6" lex="chromosome_9p21">chromosome 9p21</term>, which encodes <term sem="Protein_molecule" id="T7" lex="p16">p16</term>, the inhibitor of <cons sem="(AND Protein_molecule Protein_molecule)" id="T8" lex="(AND cyclin-dependent-kinase-4 cyclin-dependent-kinase-6)"><frag id="F1">cyclin-dependent-kinase-</frag><frag id="F2">4</frag> and <frag id="F3">6</frag></cons>, in <term sem="Other" id="T9" lex="tumorigenesis">tumorigenesis</term> is not yet clear.</sentence>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="T5" />
+<clue>The role of <clueType>alterations</clueType> <linkTheme>of</linkTheme> the MTS1 tumor suppressor gene on chromosome 9p21, which encodes p16, the inhibitor of cyclin-dependent-kinase-4 and 6, in tumorigenesis is not yet clear.</clue>
+</event>
+<event uncertainty="doubtful" id="E4">
+<type class="Regulation" />
+<theme idref="T9" />
+<cause idref="E3" />
+<clue>The <clueType>role</clueType> <linkCause>of</linkCause> alterations of the MTS1 tumor suppressor gene on chromosome 9p21, which encodes p16, the inhibitor of cyclin-dependent-kinase-4 and 6, <linkTheme>in</linkTheme> tumorigenesis is not yet clear.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref1="F2" idref="F1" />
+<cause idref="T7" />
+<clue>The role of alterations of the MTS1 tumor suppressor gene on chromosome 9p21, which encodes p16, the <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> cyclin-dependent-kinase-4 and 6, in tumorigenesis is not yet clear.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref1="F3" idref="F1" />
+<cause idref="T7" />
+<clue>The role of alterations of the MTS1 tumor suppressor gene on chromosome 9p21, which encodes p16, the <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> cyclin-dependent-kinase-4 and 6, in tumorigenesis is not yet clear.</clue>
+</event>
+<sentence id="S3">Phosphorylation of the <term sem="Protein_family_or_group" id="T10" lex="retinoblastoma_protein">retinoblastoma protein</term> by <cons sem="(AND Protein_molecule Protein_molecule)" id="T11" lex="(AND cyclin-dependent_kinase_4 cyclin-dependent_kinase_6)"><frag id="F4">cyclin-dependent kinases</frag> <frag id="F5">4</frag> and <frag id="F6">6</frag></cons> prevents its interaction with the <term sem="Protein_family_or_group" id="T12" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T13" lex="E2F">E2F</term>, which subsequently promotes the expression of <term sem="DNA_family_or_group" id="T14" lex="S_phase_regulated_gene"><term sem="Other" id="T15" lex="S_phase">S phase</term> regulated genes</term>, such as <term sem="Protein_family_or_group" id="T16" lex="thymidine_kinase">thymidine kinase</term>.</sentence>
+<event id="E7">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T10" />
+<cause idref1="F5" idref="F4" />
+<clue><clueType>Phosphorylation</clueType> <linkTheme>of</linkTheme> the retinoblastoma protein <linkCause>by</linkCause> cyclin-dependent kinases 4 and 6 prevents its interaction with the transcription factor E2F, which subsequently promotes the expression of S phase regulated genes, such as thymidine kinase.</clue>
+</event>
+<event id="E8">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T10" />
+<cause idref1="F6" idref="F4" />
+<clue><clueType>Phosphorylation</clueType> <linkTheme>of</linkTheme> the retinoblastoma protein <linkCause>by</linkCause> cyclin-dependent kinases 4 and 6 prevents its interaction with the transcription factor E2F, which subsequently promotes the expression of S phase regulated genes, such as thymidine kinase.</clue>
+</event>
+<event id="E9">
+<type class="Binding" />
+<theme idref="T10" />
+<theme idref="T13" />
+<clue>Phosphorylation of the retinoblastoma protein by cyclin-dependent kinases 4 and 6 prevents <corefTheme>its</corefTheme> <clueType>interaction</clueType> <linkTheme>with</linkTheme> the transcription factor E2F, which subsequently promotes the expression of S phase regulated genes, such as thymidine kinase.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="E7" />
+<clue>Phosphorylation of the retinoblastoma protein by cyclin-dependent kinases 4 and 6 <clueType>prevents</clueType> its interaction with the transcription factor E2F, which subsequently promotes the expression of S phase regulated genes, such as thymidine kinase.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="E8" />
+<clue>Phosphorylation of the retinoblastoma protein by cyclin-dependent kinases 4 and 6 <clueType>prevents</clueType> its interaction with the transcription factor E2F, which subsequently promotes the expression of S phase regulated genes, such as thymidine kinase.</clue>
+</event>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>Phosphorylation of the retinoblastoma protein by cyclin-dependent kinases 4 and 6 prevents its interaction with the transcription factor E2F, which subsequently promotes the <clueType>expression</clueType> <linkTheme>of</linkTheme> S phase regulated genes, such as thymidine kinase.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>Phosphorylation of the retinoblastoma protein by cyclin-dependent kinases 4 and 6 prevents its interaction with the transcription factor E2F, which subsequently promotes the <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>S phase regulated genes</corefTheme>, such as thymidine kinase.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E10" />
+<clue>Phosphorylation of the retinoblastoma protein by cyclin-dependent kinases 4 and 6 prevents its interaction with the transcription factor E2F, which <linkCause>subsequently</linkCause> <clueType>promotes</clueType> the expression of S phase regulated genes, such as thymidine kinase.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E10" />
+<clue>Phosphorylation of the retinoblastoma protein by cyclin-dependent kinases 4 and 6 prevents its interaction with the transcription factor E2F, which <linkCause>subsequently</linkCause> <clueType>promotes</clueType> the expression of S phase regulated genes, such as thymidine kinase.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E11" />
+<clue>Phosphorylation of the retinoblastoma protein by cyclin-dependent kinases 4 and 6 prevents its interaction with the transcription factor E2F, which <linkCause>subsequently</linkCause> <clueType>promotes</clueType> the expression of S phase regulated genes, such as thymidine kinase.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E11" />
+<clue>Phosphorylation of the retinoblastoma protein by cyclin-dependent kinases 4 and 6 prevents its interaction with the transcription factor E2F, which <linkCause>subsequently</linkCause> <clueType>promotes</clueType> the expression of S phase regulated genes, such as thymidine kinase.</clue>
+</event>
+<sentence id="S4">Although a role of <term sem="Protein_molecule" id="T17" lex="p16">p16</term> in this regulation has been presumed, there is no proof so far that loss of this <term sem="DNA_domain_or_region" id="T18" lex="tumor_suppressor_gene">tumor suppressor gene</term> really affects <term sem="Protein_molecule" id="T19" lex="E2F">E2F</term>-mediated regulations.</sentence>
+<event uncertainty="probable" id="E18">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T17" />
+<clue>Although a <clueType>role</clueType> <linkCause>of</linkCause> p16 <linkTheme>in</linkTheme> <corefTheme>this regulation</corefTheme> has been presumed, there is no proof so far that loss of this tumor suppressor gene really affects E2F-mediated regulations.</clue>
+</event>
+<event uncertainty="probable" id="E118">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="T17" />
+<clue>Although a <clueType>role</clueType> <linkCause>of</linkCause> p16 <linkTheme>in</linkTheme> <corefTheme>this regulation</corefTheme> has been presumed, there is no proof so far that loss of this tumor suppressor gene really affects E2F-mediated regulations.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="T17" />
+<clue>Although a role of p16 in this regulation has been presumed, there is no proof so far that <clueType>loss</clueType> <linkTheme>of</linkTheme> <corefTheme>this tumor suppressor gene</corefTheme> really affects E2F-mediated regulations.</clue>
+</event>
+<event id="E20">
+<type class="Regulation" />
+<cause idref="T19" />
+<clue>Although a role of p16 in this regulation has been presumed, there is no proof so far that loss of this tumor suppressor gene really affects E2F-<linkCause>mediated</linkCause> <clueType>regulations</clueType>.</clue>
+</event>
+<event uncertainty="doubtful" id="E21">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="E19" />
+<clue>Although a role of p16 in this regulation has been presumed, there is no proof so far that loss of this tumor suppressor gene really <clueType>affects</clueType> E2F-mediated regulations.</clue>
+</event>
+<sentence id="S5">We investigated the regulation of <term sem="Protein_family_or_group" id="T20" lex="thymidine_kinase">thymidine kinase</term> in <term sem="Cell_cultured" id="T21" lex="phytohemagglutinin-stimulated_normal_human_lymphocyte"><term sem="Protein_molecule" id="T22" lex="phytohemagglutinin">phytohemagglutinin</term>-stimulated <term sem="Cell_natural" id="A8">normal human lymphocytes</term></term> and in the <term sem="Cell_cultured" id="T23" lex="p16-negative_human_acute_lymphoblastic_leukemia_cell_line"><term sem="Protein_molecule" id="T24" lex="p16">p16</term>-negative human acute lymphoblastic leukemia cell lines</term>, <term sem="Cell_cultured" id="T25" lex="MOLT-4">MOLT-4</term> and <term sem="Cell_cultured" id="T26" lex="CEM">CEM</term>.</sentence>
+<event uncertainty="doubtful" id="E22">
+<type class="Regulation" />
+<cause idref="T20" />
+<clue>We investigated the <clueType>regulation</clueType> <linkCause>of</linkCause> thymidine kinase <clueLoc>in phytohemagglutinin-stimulated normal human lymphocytes</clueLoc> and in the p16-negative human acute lymphoblastic leukemia cell lines, MOLT-4 and CEM.</clue>
+</event>
+<event uncertainty="doubtful" id="E122">
+<type class="Regulation" />
+<cause idref="T20" />
+<clue>We investigated the <clueType>regulation</clueType> <linkCause>of</linkCause> thymidine kinase in phytohemagglutinin-stimulated normal human lymphocytes and <clueLoc>in the p16-negative human acute lymphoblastic leukemia cell lines, MOLT-4</clueLoc> and CEM.</clue>
+</event>
+<event uncertainty="doubtful" id="E222">
+<type class="Regulation" />
+<cause idref="T20" />
+<clue>We investigated the <clueType>regulation</clueType> <linkCause>of</linkCause> thymidine kinase in phytohemagglutinin-stimulated normal human lymphocytes and <clueLoc>in the p16-negative human acute lymphoblastic leukemia cell lines</clueLoc>, MOLT-4 and <clueLoc>CEM</clueLoc>.</clue>
+</event>
+<event id="E23">
+<type class="Physiological_process" />
+<theme idref="A8" />
+<cause idref="T22" />
+<clue>We investigated the regulation of thymidine kinase in phytohemagglutinin-<clueType>stimulated</clueType> normal human lymphocytes and in the p16-negative human acute lymphoblastic leukemia cell lines, MOLT-4 and CEM.</clue>
+</event>
+<event assertion="non-exist" id="E24">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>We investigated the regulation of thymidine kinase in phytohemagglutinin-stimulated normal human lymphocytes and in the p16-<clueType>negative</clueType> <clueLoc>human acute lymphoblastic leukemia cell lines, MOLT-4</clueLoc> and CEM.</clue>
+</event>
+<event assertion="non-exist" id="E124">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>We investigated the regulation of thymidine kinase in phytohemagglutinin-stimulated normal human lymphocytes and in the p16-<clueType>negative</clueType> <clueLoc>human acute lymphoblastic leukemia cell lines</clueLoc>, MOLT-4 and <clueLoc>CEM</clueLoc>.</clue>
+</event>
+<sentence id="S6">Compared to <term sem="Cell_natural" id="T27" lex="normal_lymphocyte">normal lymphocytes</term>, <cons sem="(AND Cell_cultured Cell_cultured)" id="T28" lex="(AND MOLT-4_cell CEM_cell)"><frag id="F7">MOLT-4</frag> and <frag id="F8">CEM</frag> <frag id="F9">cells</frag></cons> exhibited an altered <term sem="Other" id="T29" lex="cell_cycle_regulation">cell cycle regulation</term> of <term sem="Protein_family_or_group" id="T30" lex="thymidine_kinase">thymidine kinase</term>, a much higher intracellular activity of this <term sem="Protein_family_or_group" id="T31" lex="enzyme">enzyme</term>, and higher <term sem="Other" id="T32" lex="thymidine_kinase_mRNA_expression"><term sem="RNA_molecule" id="T33" lex="thymidine_kinase_mRNA"><term sem="Protein_family_or_group" id="T34" lex="thymidine_kinase">thymidine kinase</term> mRNA</term> expression</term>.</sentence>
+<event id="E25">
+<type class="Regulation" />
+<theme idref="T27" />
+<cause idref="T30" />
+<clue>Compared to normal lymphocytes, MOLT-4 and CEM cells exhibited an altered <clueType>cell cycle regulation</clueType> <linkCause>of</linkCause> thymidine kinase, a much higher intracellular activity of this enzyme, and higher thymidine kinase mRNA expression.</clue>
+</event>
+<event id="E49">
+<type class="Regulation" />
+<theme idref1="F9" idref="F7" />
+<cause idref="T30" />
+<clue>Compared to normal lymphocytes, MOLT-4 and CEM cells exhibited an altered <clueType>cell cycle regulation</clueType> <linkCause>of</linkCause> thymidine kinase, a much higher intracellular activity of this enzyme, and higher thymidine kinase mRNA expression.</clue>
+</event>
+<event id="E50">
+<type class="Regulation" />
+<theme idref1="F9" idref="F8" />
+<cause idref="T30" />
+<clue>Compared to normal lymphocytes, MOLT-4 and CEM cells exhibited an altered <clueType>cell cycle regulation</clueType> <linkCause>of</linkCause> thymidine kinase, a much higher intracellular activity of this enzyme, and higher thymidine kinase mRNA expression.</clue>
+</event>
+<event id="E26">
+<type class="Regulation" />
+<theme idref="E49" />
+<clue>Compared to normal lymphocytes, <clueLoc>MOLT-4</clueLoc> and CEM <clueLoc>cells</clueLoc> exhibited an <clueType>altered</clueType> cell cycle regulation of thymidine kinase, a much higher intracellular activity of this enzyme, and higher thymidine kinase mRNA expression.</clue>
+</event>
+<event id="E126">
+<type class="Regulation" />
+<theme idref="E50" />
+<clue>Compared to normal lymphocytes, MOLT-4 and <clueLoc>CEM cells</clueLoc> exhibited an <clueType>altered</clueType> cell cycle regulation of thymidine kinase, a much higher intracellular activity of this enzyme, and higher thymidine kinase mRNA expression.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<clue>Compared to normal lymphocytes, <clueLoc>MOLT-4</clueLoc> and CEM <clueLoc>cells</clueLoc> exhibited an altered cell cycle regulation of thymidine kinase, a much <clueType>higher</clueType> <clueLoc>intracellular</clueLoc> <clueType>activity</clueType> <linkTheme>of</linkTheme> <corefTheme>this enzyme</corefTheme>, and higher thymidine kinase mRNA expression.</clue>
+</event>
+<event id="E127">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<clue>Compared to normal lymphocytes, MOLT-4 and <clueLoc>CEM cells</clueLoc> exhibited an altered cell cycle regulation of thymidine kinase, a much <clueType>higher</clueType> <clueLoc>intracellular</clueLoc> <clueType>activity</clueType> <linkTheme>of</linkTheme> <corefTheme>this enzyme</corefTheme>, and higher thymidine kinase mRNA expression.</clue>
+</event>
+<event id="E28">
+<type class="Transcription" />
+<theme idref="T33" />
+<clue>Compared to normal lymphocytes, MOLT-4 and CEM cells exhibited an altered cell cycle regulation of thymidine kinase, a much higher intracellular activity of this enzyme, and higher thymidine kinase mRNA <clueType>expression</clueType>.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<clue>Compared to normal lymphocytes, <clueLoc>MOLT-4</clueLoc> and CEM <clueLoc>cells</clueLoc> exhibited an altered cell cycle regulation of thymidine kinase, a much higher intracellular activity of this enzyme, and <clueType>higher</clueType> thymidine kinase mRNA expression.</clue>
+</event>
+<event id="E129">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<clue>Compared to normal lymphocytes, MOLT-4 and <clueLoc>CEM cells</clueLoc> exhibited an altered cell cycle regulation of thymidine kinase, a much higher intracellular activity of this enzyme, and <clueType>higher</clueType> thymidine kinase mRNA expression.</clue>
+</event>
+<sentence id="S7">Transient expression of <term sem="Protein_molecule" id="T35" lex="p16">p16</term> in <term sem="Cell_natural" id="A11">normal human lymphocytes</term> caused arrest in G1, but was without effect on the cell growth of <cons sem="(AND Cell_cultured Cell_cultured)" id="T36" lex="(AND MOLT-4_cell CEM_cell)"><frag id="F10"><term sem="Cell_cultured" id="A12">MOLT-4</term></frag> and <frag id="F11"><term sem="Cell_cultured" id="A13">CEM</term></frag> <frag id="F12"><term sem="Cell_cultured" id="A14">cells</term></frag></cons>, although all of them express functional <term sem="Protein_family_or_group" id="T37" lex="retinoblastoma_protein">retinoblastoma protein</term>.</sentence>
+<event id="E30">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>Transient <clueType>expression</clueType> <linkTheme>of</linkTheme> p16 <clueLoc>in normal human lymphocytes</clueLoc> caused arrest in G1, but was without effect on the cell growth of MOLT-4 and CEM cells, although all of them express functional retinoblastoma protein.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="A11" />
+<cause idref="E30" />
+<clue>Transient expression of p16 in normal human lymphocytes <clueType>caused arrest in G1</clueType>, but was without effect on the cell growth of MOLT-4 and CEM cells, although all of them express functional retinoblastoma protein.</clue>
+</event>
+<event id="E32">
+<type class="Cellular_physiological_process" />
+<theme idref1="A14" idref="A12" />
+<clue>Transient expression of p16 in normal human lymphocytes caused arrest in G1, but was without effect on the <clueType>cell growth</clueType> <linkTheme>of</linkTheme> MOLT-4 and CEM cells, although all of them express functional retinoblastoma protein.</clue>
+</event>
+<event id="E33">
+<type class="Cellular_physiological_process" />
+<theme idref1="A14" idref="A13" />
+<clue>Transient expression of p16 in normal human lymphocytes caused arrest in G1, but was without effect on the <clueType>cell growth</clueType> <linkTheme>of</linkTheme> MOLT-4 and CEM cells, although all of them express functional retinoblastoma protein.</clue>
+</event>
+<event assertion="non-exist" id="E34">
+<type class="Regulation" />
+<theme idref="E32" />
+<cause idref="E30" />
+<clue>Transient expression of p16 in normal human lymphocytes caused arrest in G1, but was without <clueType>effect</clueType> <linkTheme>on</linkTheme> the cell growth of MOLT-4 and CEM cells, although all of them express functional retinoblastoma protein.</clue>
+</event>
+<event assertion="non-exist" id="E35">
+<type class="Regulation" />
+<theme idref="E33" />
+<cause idref="E30" />
+<clue>Transient expression of p16 in normal human lymphocytes caused arrest in G1, but was without <clueType>effect</clueType> <linkTheme>on</linkTheme> the cell growth of MOLT-4 and CEM cells, although all of them express functional retinoblastoma protein.</clue>
+</event>
+<event id="E36">
+<type class="Gene_expression" />
+<theme idref="T37" />
+<clue>Transient expression of p16 <clueLoc>in normal human lymphocytes</clueLoc> caused arrest in G1, but was without effect on the cell growth of MOLT-4 and CEM cells, although all of them <clueType>express</clueType> functional retinoblastoma protein.</clue>
+</event>
+<event id="E136">
+<type class="Gene_expression" />
+<theme idref="T37" />
+<clue>Transient expression of p16 in normal human lymphocytes caused arrest in G1, but was without effect on the cell growth of <clueLoc>MOLT-4</clueLoc> and CEM <clueLoc>cells</clueLoc>, although all of them <clueType>express</clueType> functional retinoblastoma protein.</clue>
+</event>
+<event id="E236">
+<type class="Gene_expression" />
+<theme idref="T37" />
+<clue>Transient expression of p16 in normal human lymphocytes caused arrest in G1, but was without effect on the cell growth of MOLT-4 and <clueLoc>CEM cells</clueLoc>, although all of them <clueType>express</clueType> functional retinoblastoma protein.</clue>
+</event>
+<sentence id="S8">Nevertheless, in the two <term sem="Cell_cultured" id="T38" lex="leukemia_cell_line">leukemia cell lines</term> transient overexpression of <term sem="Protein_molecule" id="T39" lex="p16">p16</term> reestablished the normal regulation of <term sem="Protein_family_or_group" id="T40" lex="thymidine_kinase">thymidine kinase</term>, paralleled by an increase of the underphosphorylated form of <term sem="Protein_family_or_group" id="T41" lex="retinoblastoma_protein">retinoblastoma protein</term> and decrease of free <term sem="Protein_molecule" id="T42" lex="E2F">E2F</term> bound to <term sem="DNA_domain_or_region" id="A15">its motif in the <term sem="DNA_domain_or_region" id="T43" lex="thymidine_kinase_promoter"><term sem="Protein_family_or_group" id="T44" lex="thymidine_kinase">thymidine kinase</term> promoter</term></term>.</sentence>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="T39" />
+<clue>Nevertheless, in the two leukemia cell lines transient <clueType>overexpression</clueType> <linkTheme>of</linkTheme> p16 reestablished the normal regulation of thymidine kinase, paralleled by an increase of the underphosphorylated form of retinoblastoma protein and decrease of free E2F bound to its motif in the thymidine kinase promoter.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<clue>Nevertheless, in the two leukemia cell lines transient <clueType>overexpression</clueType> of p16 reestablished the normal regulation of thymidine kinase, paralleled by an increase of the underphosphorylated form of retinoblastoma protein and decrease of free E2F bound to its motif in the thymidine kinase promoter.</clue>
+</event>
+<event id="E39">
+<type class="Regulation" />
+<theme idref="T40" />
+<clue>Nevertheless, in the two leukemia cell lines transient overexpression of p16 reestablished the normal <clueType>regulation</clueType> <linkTheme>of</linkTheme> thymidine kinase, paralleled by an increase of the underphosphorylated form of retinoblastoma protein and decrease of free E2F bound to its motif in the thymidine kinase promoter.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref="E38" />
+<clue>Nevertheless, <clueLoc>in the two leukemia cell lines</clueLoc> transient overexpression of p16 <clueType>reestablished</clueType> the normal regulation of thymidine kinase, paralleled by an increase of the underphosphorylated form of retinoblastoma protein and decrease of free E2F bound to its motif in the thymidine kinase promoter.</clue>
+</event>
+<event id="E41">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T41" />
+<clue>Nevertheless, in the two leukemia cell lines transient overexpression of p16 reestablished the normal regulation of thymidine kinase, paralleled by an increase of the <clueType>underphosphorylated form</clueType> <linkTheme>of</linkTheme> retinoblastoma protein and decrease of free E2F bound to its motif in the thymidine kinase promoter.</clue>
+</event>
+<event id="E141">
+<type class="Negative_regulation" />
+<theme idref="T41" />
+<clue>Nevertheless, in the two leukemia cell lines transient overexpression of p16 reestablished the normal regulation of thymidine kinase, paralleled by an increase of the <clueType>underphosphorylated form</clueType> <linkTheme>of</linkTheme> retinoblastoma protein and decrease of free E2F bound to its motif in the thymidine kinase promoter.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation" />
+<theme idref="E141" />
+<clue>Nevertheless, in the two leukemia cell lines transient overexpression of p16 reestablished the normal regulation of thymidine kinase, paralleled by an <clueType>increase</clueType> <linkTheme>of</linkTheme> the underphosphorylated form of retinoblastoma protein and decrease of free E2F bound to its motif in the thymidine kinase promoter.</clue>
+</event>
+<event id="E142">
+<type class="Correlation" />
+<theme idref="E40" />
+<theme idref="E42" />
+<clue>Nevertheless, in the two leukemia cell lines transient overexpression of p16 reestablished the normal regulation of thymidine kinase, <clueType>paralleled</clueType> <linkTheme>by</linkTheme> an increase of the underphosphorylated form of retinoblastoma protein and decrease of free E2F bound to its motif in the thymidine kinase promoter.</clue>
+</event>
+<event id="E43">
+<type class="Binding" />
+<theme idref="T42" />
+<theme idref="A15" />
+<clue>Nevertheless, in the two leukemia cell lines transient overexpression of p16 reestablished the normal regulation of thymidine kinase, paralleled by an increase of the underphosphorylated form of retinoblastoma protein and decrease of free E2F <clueType>bound</clueType> <linkTheme>to</linkTheme> its motif in the thymidine kinase promoter.</clue>
+<comment>TPS A15</comment>
+</event>
+<event id="E44">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<clue>Nevertheless, in the two leukemia cell lines transient overexpression of p16 reestablished the normal regulation of thymidine kinase, paralleled by an increase of the underphosphorylated form of retinoblastoma protein and <clueType>decrease</clueType> <linkTheme>of</linkTheme> free E2F bound to its motif in the thymidine kinase promoter.</clue>
+</event>
+<event id="E144">
+<type class="Correlation" />
+<theme idref="E40" />
+<theme idref="E44" />
+<clue>Nevertheless, in the two leukemia cell lines transient overexpression of p16 reestablished the normal regulation of thymidine kinase, <clueType>paralleled</clueType> <linkTheme>by</linkTheme> an increase of the underphosphorylated form of retinoblastoma protein and decrease of free E2F bound to its motif in the thymidine kinase promoter.</clue>
+</event>
+<sentence id="S9">We demonstrate that loss of <term sem="Protein_molecule" id="T45" lex="p16">p16</term> causes upregulation of this <term sem="Other" id="T46" lex="DNA_precursor_pathway">DNA precursor pathway</term> <term sem="Protein_family_or_group" id="T47" lex="enzyme">enzyme</term> via activation of <term sem="Protein_molecule" id="T48" lex="E2F">E2F</term> by a mechanism involving <term sem="Protein_family_or_group" id="T49" lex="retinoblastoma_protein">retinoblastoma protein</term>.</sentence>
+<event id="E45">
+<type class="Regulation" />
+<theme idref="T49" />
+<cause idref="T45" />
+<clue>We demonstrate that loss of p16 <clueType>causes</clueType> upregulation of this DNA precursor pathway enzyme via activation of E2F <linkTheme>by</linkTheme> a mechanism involving retinoblastoma protein.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="T48" />
+<clue>We demonstrate that loss of p16 causes upregulation of this DNA precursor pathway enzyme via <clueType>activation</clueType> <linkTheme>of</linkTheme> E2F by a mechanism involving retinoblastoma protein.</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="E46" />
+<cause idref="E45" />
+<clue>We demonstrate that loss of p16 <clueType>causes</clueType> upregulation of this DNA precursor pathway enzyme <linkTheme>via</linkTheme> activation of E2F <linkCause>by</linkCause> a mechanism involving retinoblastoma protein.</clue>
+</event>
+<event id="E48">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<cause idref="E47" />
+<clue>We demonstrate that loss of p16 <clueType>causes upregulation</clueType> <linkTheme>of</linkTheme> <corefTheme>this DNA precursor pathway enzyme</corefTheme> <linkCause>via</linkCause> activation of E2F by a mechanism involving retinoblastoma protein.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

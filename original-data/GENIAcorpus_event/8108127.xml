@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="19/07/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8108127">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8108127</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Overproduction of <term sem="Protein_molecule" id="T1" lex="NFKB2">NFKB2</term> (<term sem="Protein_molecule" id="T2" lex="lyt-10">lyt-10</term>) and <term sem="Protein_molecule" id="T3" lex="c-Rel">c-Rel</term>: a mechanism for <term sem="Other" id="T4" lex="HTLV-I_Tax-mediated_trans-activation"><term sem="Virus" id="A1">HTLV-I</term> <term sem="Protein_molecule" id="T5" lex="HTLV-I_Tax">Tax</term>-mediated trans-activation</term> via the <term sem="Other" id="T6" lex="NF-kappa_B_signalling_pathway"><term sem="Protein_complex" id="T7" lex="NF-kappa_B">NF-kappa B</term> signalling pathway</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T1" />
+<clue><clueType>Overproduction</clueType> <linkTheme>of</linkTheme> NFKB2 (lyt-10) and c-Rel: a mechanism for HTLV-I Tax-mediated trans-activation via the NF-kappa B signalling pathway.</clue>
+<comment>NER T1,T2,T5,T7 MOD</comment>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue><clueType>Overproduction</clueType> <linkTheme>of</linkTheme> NFKB2 (lyt-10) and c-Rel: a mechanism for HTLV-I Tax-mediated trans-activation via the NF-kappa B signalling pathway.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue><clueType>Overproduction</clueType> of NFKB2 (lyt-10) and c-Rel: a mechanism for HTLV-I Tax-mediated trans-activation via the NF-kappa B signalling pathway.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<clue><clueType>Overproduction</clueType> of NFKB2 (lyt-10) and c-Rel: a mechanism for HTLV-I Tax-mediated trans-activation via the NF-kappa B signalling pathway.</clue>
+</event>
+<event id="E5">
+<type class="Cell_communication" />
+<theme idref="T7" />
+<clue>Overproduction of NFKB2 (lyt-10) and c-Rel: a mechanism for HTLV-I Tax-mediated trans-activation via the NF-kappa B <clueType>signalling pathway</clueType>.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T5" />
+<clue>Overproduction of NFKB2 (lyt-10) and c-Rel: a mechanism for HTLV-I Tax-<clueType>mediated</clueType> trans-activation <linkTheme>via</linkTheme> the NF-kappa B signalling pathway.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<cause idref="E6" />
+<clue>Overproduction of NFKB2 (lyt-10) and c-Rel: a mechanism for HTLV-I Tax-mediated <clueType>trans-activation</clueType> <linkCause>via</linkCause> the NF-kappa B signalling pathway.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Molecular, biochemical and epidemiological evidence implicate <term sem="Virus" id="T8" lex="HTLV-I">HTLV-I</term> as an <term sem="Other" id="T9" lex="etiologic_agent">etiologic agent</term> of <term sem="Other" id="T10" lex="adult_T_cell_leukemia">adult T cell leukemia</term> (<term sem="Other" id="T11" lex="ATL">ATL</term>).</sentence>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="T8" />
+<theme idref="T11" />
+<clue>Molecular, biochemical and epidemiological evidence <clueType>implicate</clueType> HTLV-I <clueType>as an etiologic agent</clueType> <linkTheme>of</linkTheme> adult T cell leukemia (ATL).</clue>
+</event>
+<sentence id="S3">The <term sem="Protein_molecule" id="T12" lex="Tax_protein">Tax protein</term> of <term sem="Virus" id="T13" lex="HTLV-I">HTLV-I</term>, a <term sem="Protein_family_or_group" id="T14" lex="positive_transcriptional_activator">positive transcriptional activator</term> of <term sem="Other" id="T15" lex="HTLV-I_gene_expression"><term sem="DNA_domain_or_region" id="A2"><term sem="Virus" id="T16" lex="HTLV-I">HTLV-I</term> gene</term> expression</term>, is a viral oncogene that also increases transcription of <term sem="DNA_family_or_group" id="T17" lex="cellular_gene">cellular genes</term> including <term sem="Protein_molecule" id="T18" lex="GM-CSF">GM-CSF</term>, <term sem="Protein_molecule" id="T19" lex="IL-2R_alpha">IL-2R alpha</term> and <term sem="Protein_molecule" id="T20" lex="IL-2">IL-2</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>The Tax protein of HTLV-I, a positive transcriptional activator of HTLV-I gene <clueType>expression</clueType>, is a viral oncogene that also increases transcription of cellular genes including GM-CSF, IL-2R alpha and IL-2.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T12" />
+<clue>The Tax protein of HTLV-I, a <clueType>positive transcriptional activator</clueType> <linkTheme>of</linkTheme> HTLV-I gene expression, is a viral oncogene that also increases transcription of cellular genes including GM-CSF, IL-2R alpha and IL-2.</clue>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<theme idref="T17" />
+<clue>The Tax protein of HTLV-I, a positive transcriptional activator of HTLV-I gene expression, is a viral oncogene that also increases <clueType>transcription</clueType> <linkTheme>of</linkTheme> cellular genes including GM-CSF, IL-2R alpha and IL-2.</clue>
+</event>
+<event id="E12">
+<type class="Transcription" />
+<theme idref="T18" />
+<clue>The Tax protein of HTLV-I, a positive transcriptional activator of HTLV-I gene expression, is a viral oncogene that also increases <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>cellular genes</corefTheme> including GM-CSF, IL-2R alpha and IL-2.</clue>
+</event>
+<event id="E13">
+<type class="Transcription" />
+<theme idref="T19" />
+<clue>The Tax protein of HTLV-I, a positive transcriptional activator of HTLV-I gene expression, is a viral oncogene that also increases <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>cellular genes</corefTheme> including GM-CSF, IL-2R alpha and IL-2.</clue>
+</event>
+<event id="E14">
+<type class="Transcription" />
+<theme idref="T20" />
+<clue>The Tax protein of HTLV-I, a positive transcriptional activator of HTLV-I gene expression, is a viral oncogene that also increases <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>cellular genes</corefTheme> including GM-CSF, IL-2R alpha and IL-2.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T12" />
+<clue>The Tax protein of HTLV-I, a positive transcriptional activator of HTLV-I gene expression, is a <corefCause>viral oncogene</corefCause> that also <clueType>increases</clueType> transcription of cellular genes including GM-CSF, IL-2R alpha and IL-2.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T12" />
+<clue>The Tax protein of HTLV-I, a positive transcriptional activator of HTLV-I gene expression, is a <corefCause>viral oncogene</corefCause> that also <clueType>increases</clueType> transcription of cellular genes including GM-CSF, IL-2R alpha and IL-2.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T12" />
+<clue>The Tax protein of HTLV-I, a positive transcriptional activator of HTLV-I gene expression, is a <corefCause>viral oncogene</corefCause> that also <clueType>increases</clueType> transcription of cellular genes including GM-CSF, IL-2R alpha and IL-2.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T12" />
+<clue>The Tax protein of HTLV-I, a positive transcriptional activator of HTLV-I gene expression, is a <corefCause>viral oncogene</corefCause> that also <clueType>increases</clueType> transcription of cellular genes including GM-CSF, IL-2R alpha and IL-2.</clue>
+</event>
+<sentence id="S4">One of the cellular targets of the <term sem="Other" id="T21" lex="trans-activating_effect">trans-activating effects</term> of <term sem="Protein_molecule" id="A3">Tax</term> is the <term sem="Protein_family_or_group" id="T22" lex="NF-kappa_B/Rel_family"><term sem="Protein_molecule" id="T23" lex="NF-kappa_B">NF-kappa B</term>/Rel family</term> of <term sem="Protein_family_or_group" id="T24" lex="transcription_factor">transcription factors</term>, <term sem="Protein_family_or_group" id="T25" lex="pleiotropic_regulator">pleiotropic regulators</term> of <cons sem="(AND Other Other Other)" id="T26" lex="(AND immunoregulatory_gene_expression cytokine_gene_expression viral_gene_expression)"><frag id="F1"><term sem="DNA_domain_or_region" id="A4">immunoregulatory</term></frag>, <frag id="F2"><term sem="DNA_domain_or_region" id="A5">cytokine</term></frag> and <frag id="F3"><term sem="DNA_domain_or_region" id="A6">viral</term></frag> <frag id="F4"><term sem="DNA_domain_or_region" id="A7">gene</term> expression</frag></cons>.</sentence>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<cause idref="A3" />
+<clue>One of the cellular <clueType>targets of</clueType> the <clueType>trans-activating effects</clueType> <linkCause>of</linkCause> Tax is the NF-kappa B/Rel family of transcription factors, pleiotropic regulators of immunoregulatory, cytokine and viral gene expression.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref1="A7" idref="A4" />
+<clue>One of the cellular targets of the trans-activating effects of Tax is the NF-kappa B/Rel family of transcription factors, pleiotropic regulators of immunoregulatory, cytokine and viral gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref1="A7" idref="A5" />
+<clue>One of the cellular targets of the trans-activating effects of Tax is the NF-kappa B/Rel family of transcription factors, pleiotropic regulators of immunoregulatory, cytokine and viral gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref1="A7" idref="A6" />
+<clue>One of the cellular targets of the trans-activating effects of Tax is the NF-kappa B/Rel family of transcription factors, pleiotropic regulators of immunoregulatory, cytokine and viral gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E23">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="T22" />
+<clue>One of the cellular targets of the trans-activating effects of Tax is the NF-kappa B/Rel family of transcription factors, pleiotropic <clueType>regulators</clueType> <linkTheme>of</linkTheme> immunoregulatory, cytokine and viral gene expression.</clue>
+</event>
+<event id="E24">
+<type class="Regulation" />
+<theme idref="E21" />
+<cause idref="T22" />
+<clue>One of the cellular targets of the trans-activating effects of Tax is the NF-kappa B/Rel family of transcription factors, pleiotropic <clueType>regulators</clueType> <linkTheme>of</linkTheme> immunoregulatory, cytokine and viral gene expression.</clue>
+</event>
+<event id="E25">
+<type class="Regulation" />
+<theme idref="E22" />
+<cause idref="T22" />
+<clue>One of the cellular targets of the trans-activating effects of Tax is the NF-kappa B/Rel family of transcription factors, pleiotropic <clueType>regulators</clueType> <linkTheme>of</linkTheme> immunoregulatory, cytokine and viral gene expression.</clue>
+</event>
+<sentence id="S5">In this report, we demonstrate that <term sem="Protein_molecule" id="T27" lex="NFKB2">NFKB2</term> (<term sem="Protein_molecule" id="T28" lex="lyt-10">lyt-10</term>) and <term sem="Protein_molecule" id="T29" lex="c-Rel">c-Rel</term> are overexpressed in <term sem="Cell_natural" id="A101"><term sem="Virus" id="T30" lex="HTLV-I">HTLV-I</term> infected</term> and <term sem="Cell_natural" id="T31" lex="Tax-expressing_cell"><term sem="Protein_molecule" id="A8">Tax</term>-expressing <term sem="Cell_natural" id="A102">cells</term></term> and, together, account for the majority of the constitutive <term sem="Protein_complex" id="T32" lex="NF-kappa_B">NF-kappa B</term> binding activity in these cells before and after <term sem="Other" id="T33" lex="PMA_stimulation"><term sem="Organic_compound_other" id="T34" lex="PMA">PMA</term> stimulation</term>.</sentence>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T27" />
+<clue>In this report, we demonstrate that NFKB2 (lyt-10) and c-Rel are <clueType>overexpressed</clueType> in HTLV-I infected and Tax-expressing cells and, together, account for the majority of the constitutive NF-kappa B binding activity in these cells before and after PMA stimulation.</clue>
+<comment>NER T27,T28,T32 MOD</comment>
+</event>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>In this report, we demonstrate that NFKB2 (lyt-10) and c-Rel are <clueType>overexpressed</clueType> in HTLV-I infected and Tax-expressing cells and, together, account for the majority of the constitutive NF-kappa B binding activity in these cells before and after PMA stimulation.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<clue>In this report, we demonstrate that NFKB2 (lyt-10) and c-Rel are <clueType>overexpressed</clueType> <clueLoc>in HTLV-I infected and Tax-expressing cells</clueLoc> and, together, account for the majority of the constitutive NF-kappa B binding activity in these cells before and after PMA stimulation.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<clue>In this report, we demonstrate that NFKB2 (lyt-10) and c-Rel are <clueType>overexpressed</clueType> <clueLoc>in HTLV-I infected and Tax-expressing cells</clueLoc> and, together, account for the majority of the constitutive NF-kappa B binding activity in these cells before and after PMA stimulation.</clue>
+</event>
+<event id="E30">
+<type class="Binding" />
+<theme idref="T32" />
+<clue>In this report, we demonstrate that NFKB2 (lyt-10) and c-Rel are overexpressed in HTLV-I infected and Tax-expressing cells and, together, account for the majority of the constitutive NF-kappa B <clueType>binding activity</clueType> <clueLoc>in these cells</clueLoc> before and after PMA stimulation.</clue>
+</event>
+<event id="E31">
+<type class="Physiological_process" />
+<theme idref1="A102" idref="A101" />
+<cause idref="T34" />
+<clue>In this report, we demonstrate that NFKB2 (lyt-10) and c-Rel are overexpressed in HTLV-I infected and Tax-expressing cells and, together, account for the majority of the constitutive NF-kappa B binding activity in <corefTheme>these cells</corefTheme> before and after PMA <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E32">
+<type class="Physiological_process" />
+<theme idref="T31" />
+<cause idref="T34" />
+<clue>In this report, we demonstrate that NFKB2 (lyt-10) and c-Rel are overexpressed in HTLV-I infected and Tax-expressing cells and, together, account for the majority of the constitutive NF-kappa B binding activity in <corefTheme>these cells</corefTheme> before and after PMA <clueType>stimulation</clueType>.</clue>
+</event>
+<event uncertainty="doubtful" id="E33">
+<type class="Regulation" />
+<theme idref="E30" />
+<cause idref="E31" />
+<clue>In this report, we demonstrate that NFKB2 (lyt-10) and c-Rel are overexpressed in HTLV-I infected and Tax-expressing cells and, together, account for the majority of the constitutive NF-kappa B binding activity in these cells before and <linkCause>after</linkCause> PMA stimulation.</clue>
+</event>
+<sentence id="S6">Most importantly, we show a <term sem="Other" id="T35" lex="Tax-dependent_correlation"><term sem="Protein_molecule" id="T36" lex="Tax">Tax</term>-dependent correlation</term> between expression of <term sem="Protein_molecule" id="T37" lex="NFKB2">NFKB2</term>(<term sem="Protein_molecule" id="T38" lex="p100">p100</term>) and processing to the <term sem="DNA_domain_or_region" id="A103">DNA</term> binding <term sem="Protein_molecule" id="T39" lex="NFKB2">NFKB2</term>(<term sem="Protein_molecule" id="T40" lex="p52">p52</term>) form, induction of <term sem="Protein_molecule" id="T41" lex="c-Rel">c-Rel</term>, and trans-activation of <term sem="Other" id="T42" lex="NF-kappa_B-mediated_gene_expressio"><term sem="Protein_molecule" id="T43" lex="NF-kappa_B">NF-kappa B</term>-mediated <term sem="Other" id="A104">gene expression</term></term>.</sentence>
+<event id="E34">
+<type class="Gene_expression" />
+<theme idref="T38" />
+<clue>Most importantly, we show a Tax-dependent correlation between <clueType>expression</clueType> <linkTheme>of</linkTheme> NFKB2(p100) and processing to the DNA binding NFKB2(p52) form, induction of c-Rel, and trans-activation of NF-kappa B-mediated gene expression.</clue>
+</event>
+<event id="E35">
+<type class="Protein_processing" />
+<theme idref="T38" />
+ <product idref="T40" /><clue>Most importantly, we show a Tax-dependent correlation between expression <linkTheme>of</linkTheme> NFKB2(p100) and <clueType>processing</clueType> to the DNA binding NFKB2(p52) form, induction of c-Rel, and trans-activation of NF-kappa B-mediated gene expression.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<clue>Most importantly, we show a Tax-dependent correlation between expression of NFKB2(p100) and processing to the DNA binding NFKB2(p52) form, <clueType>induction</clueType> <linkTheme>of</linkTheme> c-Rel, and trans-activation of NF-kappa B-mediated gene expression.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="A104" />
+<cause idref="T43" />
+<clue>Most importantly, we show a Tax-dependent correlation between expression of NFKB2(p100) and processing to the DNA binding NFKB2(p52) form, induction of c-Rel, and trans-activation of NF-kappa B-<clueType>mediated</clueType> gene expression.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<clue>Most importantly, we show a Tax-dependent correlation between expression of NFKB2(p100) and processing to the DNA binding NFKB2(p52) form, induction of c-Rel, and <clueType>trans-activation</clueType> <linkTheme>of</linkTheme> NF-kappa B-mediated gene expression.</clue>
+</event>
+<event id="E39">
+<type class="Correlation" />
+<theme idref="E34" />
+<theme idref="E35" />
+<theme idref="E36" />
+<theme idref="E38" />
+<clue>Most importantly, we show a Tax-dependent <clueType>correlation</clueType> <linkTheme>between</linkTheme> expression of NFKB2(p100) and processing to the DNA binding NFKB2(p52) form, induction of c-Rel, and trans-activation of NF-kappa B-mediated gene expression.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref="T36" />
+<clue>Most importantly, we show a Tax-<clueType>dependent</clueType> correlation between expression of NFKB2(p100) and processing to the DNA binding NFKB2(p52) form, induction of c-Rel, and trans-activation of NF-kappa B-mediated gene expression.</clue>
+</event>
+<sentence id="S7">Furthermore, the <term sem="Protein_molecule" id="T44" lex="NFKB2">NFKB2 precursor</term> is physically associated with <term sem="Protein_molecule" id="T45" lex="c-Rel">c-Rel</term> and with <term sem="Protein_molecule" id="T46" lex="Tax">Tax</term> in <term sem="Cell_natural" id="T47" lex="HTLV-I_infected_cell"><term sem="Virus" id="T48" lex="HTLV-I">HTLV-I</term> infected cells</term>.</sentence>
+<event id="E41">
+<type class="Binding" />
+<theme idref="T44" />
+<theme idref="T45" />
+<clue>Furthermore, the NFKB2 precursor is physically <clueType>associated</clueType> <linkTheme>with</linkTheme> c-Rel and with Tax <clueLoc>in HTLV-I infected cells</clueLoc>.</clue>
+<comment>NER T44 MOD</comment>
+</event>
+<event id="E42">
+<type class="Binding" />
+<theme idref="T44" />
+<theme idref="T46" />
+<clue>Furthermore, the NFKB2 precursor is physically <clueType>associated</clueType> <linkTheme>with</linkTheme> c-Rel and with Tax <clueLoc>in HTLV-I infected cells</clueLoc>.</clue>
+</event>
+<sentence id="S8">We propose that <term sem="Other" id="T49" lex="NFKB2_synthesis"><term sem="Protein_molecule" id="T50" lex="NFKB2">NFKB2</term> synthesis</term> and processing allows continuous <term sem="Other" id="T51" lex="nuclear_expression">nuclear expression</term> of an otherwise <term sem="Protein_family_or_group" id="T52" lex="cytoplasmic_protein">cytoplasmic protein</term> and, in conjunction with <term sem="Other" id="T53" lex="overexpression">overexpression</term> of <term sem="Protein_molecule" id="T54" lex="c-Rel">c-Rel</term>, <term sem="Protein_molecule" id="T55" lex="NFKB2">NFKB2</term> alters the <term sem="Other" id="T56" lex="NF-kappa_B_signalling_pathway"><term sem="Protein_complex" id="T57" lex="NF-kappa_B">NF-kappa B</term> signalling pathway</term> and contributes to <term sem="Other" id="T58" lex="leukemic_transformation">leukemic transformation</term> of <term sem="Cell_natural" id="T59" lex="T_cell">T cells</term> by <term sem="Virus" id="T60" lex="HTLV-I">HTLV-I</term>.</sentence>
+<event id="E43">
+<type class="Gene_expression" />
+<theme idref="T50" />
+<clue>We propose that NFKB2 <clueType>synthesis</clueType> and processing allows continuous nuclear expression of an otherwise cytoplasmic protein and, in conjunction with overexpression of c-Rel, NFKB2 alters the NF-kappa B signalling pathway and contributes to leukemic transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E44">
+<type class="Protein_processing" />
+<theme idref="T50" />
+<clue>We propose that NFKB2 synthesis and <clueType>processing</clueType> allows continuous nuclear expression of an otherwise cytoplasmic protein and, in conjunction with overexpression of c-Rel, NFKB2 alters the NF-kappa B signalling pathway and contributes to leukemic transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E45">
+<type class="Localization" />
+<theme idref="T50" />
+<clue>We propose that NFKB2 synthesis and processing allows continuous <clueLoc>nuclear</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>an otherwise cytoplasmic protein</corefTheme> and, in conjunction with overexpression of c-Rel, NFKB2 alters the NF-kappa B signalling pathway and contributes to leukemic transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="E43" />
+<clue>We propose that NFKB2 synthesis and processing <clueType>allows</clueType> continuous nuclear expression of an otherwise cytoplasmic protein and, in conjunction with overexpression of c-Rel, NFKB2 alters the NF-kappa B signalling pathway and contributes to leukemic transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="E44" />
+<clue>We propose that NFKB2 synthesis and processing <clueType>allows</clueType> continuous nuclear expression of an otherwise cytoplasmic protein and, in conjunction with overexpression of c-Rel, NFKB2 alters the NF-kappa B signalling pathway and contributes to leukemic transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E48">
+<type class="Gene_expression" />
+<theme idref="T54" />
+<clue>We propose that NFKB2 synthesis and processing allows continuous nuclear expression of an otherwise cytoplasmic protein and, in conjunction with <clueType>overexpression</clueType> <linkTheme>of</linkTheme> c-Rel, NFKB2 alters the NF-kappa B signalling pathway and contributes to leukemic transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E49">
+<type class="Positive_regulation" />
+<theme idref="E48" />
+<clue>We propose that NFKB2 synthesis and processing allows continuous nuclear expression of an otherwise cytoplasmic protein and, in conjunction with <clueType>overexpression</clueType> of c-Rel, NFKB2 alters the NF-kappa B signalling pathway and contributes to leukemic transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E50">
+<type class="Cell_communication" />
+<theme idref="T57" />
+<clue>We propose that NFKB2 synthesis and processing allows continuous nuclear expression of an otherwise cytoplasmic protein and, in conjunction with overexpression of c-Rel, NFKB2 alters the NF-kappa B <clueType>signalling pathway</clueType> and contributes to leukemic transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E51">
+<type class="Regulation" />
+<theme idref="E50" />
+<cause idref="T55" />
+<cause idref="E49" />
+<clue>We propose that NFKB2 synthesis and processing allows continuous nuclear expression of an otherwise cytoplasmic protein and, <linkCause>in conjunction with</linkCause> overexpression of c-Rel, NFKB2 <clueType>alters</clueType> the NF-kappa B signalling pathway and contributes to leukemic transformation of T cells by HTLV-I.</clue>
+</event>
+<event id="E52">
+<type class="Biological_process" />
+<theme idref="T59" />
+<clue>We propose that NFKB2 synthesis and processing allows continuous nuclear expression of an otherwise cytoplasmic protein and, in conjunction with overexpression of c-Rel, NFKB2 alters the NF-kappa B signalling pathway and contributes to <clueType>leukemic transformation</clueType> <linkTheme>of</linkTheme> T cells by HTLV-I.</clue>
+</event>
+<event id="E152">
+<type class="Positive_regulation" />
+<theme idref="E52" />
+<cause idref="T60" />
+<clue>We propose that NFKB2 synthesis and processing allows continuous nuclear expression of an otherwise cytoplasmic protein and, in conjunction with overexpression of c-Rel, NFKB2 alters the NF-kappa B signalling pathway and contributes to <clueType>leukemic transformation</clueType> of T cells <linkCause>by</linkCause> HTLV-I.</clue>
+</event>
+<event id="E53">
+<type class="Positive_regulation" />
+<theme idref="E152" />
+<cause idref="T55" />
+<cause idref="E49" />
+<clue>We propose that NFKB2 synthesis and processing allows continuous nuclear expression of an otherwise cytoplasmic protein and, <linkCause>in conjunction with</linkCause> overexpression of c-Rel, NFKB2 alters the NF-kappa B signalling pathway and <clueType>contributes</clueType> <linkTheme>to</linkTheme> leukemic transformation of T cells by HTLV-I.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

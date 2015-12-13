@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/07/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8051172">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8051172</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="ZAP-70_tyrosine_kinase">ZAP-70 tyrosine kinase</term>, <term sem="Protein_molecule" id="T2" lex="CD45">CD45</term>, and <term sem="Protein_family_or_group" id="T3" lex="T_cell_receptor">T cell receptor</term> involvement in <cons sem="(AND Other Other)" id="T4" lex="(AND UV-induced_T_cell_signal_transduction H2O2-induced_T_cell_signal_transduction)"><term sem="Other" id="T5" lex="UV-*"><term sem="Other" id="A1">UV</term>-</term> and <term sem="Other" id="T6" lex="H2O2-*"><term sem="Inorganic_compound" id="A2">H2O2</term>-</term><term sem="Other" id="T7" lex="*induced_T_cell_signal_transduction">induced <term sem="Cell_natural" id="A3">T cell</term> signal transduction</term></cons>.</sentence>
+<event id="E1">
+<type class="Cell_communication" />
+<theme idref="A3" />
+<clue>ZAP-70 tyrosine kinase, CD45, and T cell receptor involvement in UV- and H2O2-induced T cell <clueType>signal transduction</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="A1" />
+<clue>ZAP-70 tyrosine kinase, CD45, and T cell receptor involvement in UV- and H2O2-<clueType>induced</clueType> T cell signal transduction.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="A2" />
+<clue>ZAP-70 tyrosine kinase, CD45, and T cell receptor involvement in UV- and H2O2-<clueType>induced</clueType> T cell signal transduction.</clue>
+</event>
+<event id="E4">
+<type class="Correlation" />
+<theme idref="E2" />
+<theme idref="T1" />
+<clue>ZAP-70 tyrosine kinase, CD45, and T cell receptor <clueType>involvement</clueType> <linkTheme>in</linkTheme> UV- and H2O2-induced T cell signal transduction.</clue>
+</event>
+<event id="E5">
+<type class="Correlation" />
+<theme idref="E2" />
+<theme idref="T2" />
+<clue>ZAP-70 tyrosine kinase, CD45, and T cell receptor <clueType>involvement</clueType> <linkTheme>in</linkTheme> UV- and H2O2-induced T cell signal transduction.</clue>
+</event>
+<event id="E6">
+<type class="Correlation" />
+<theme idref="E2" />
+<theme idref="T3" />
+<clue>ZAP-70 tyrosine kinase, CD45, and T cell receptor <clueType>involvement</clueType> <linkTheme>in</linkTheme> UV- and H2O2-induced T cell signal transduction.</clue>
+</event>
+<event id="E7">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="T1" />
+<clue>ZAP-70 tyrosine kinase, CD45, and T cell receptor <clueType>involvement</clueType> <linkTheme>in</linkTheme> UV- and H2O2-induced T cell signal transduction.</clue>
+</event>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="T2" />
+<clue>ZAP-70 tyrosine kinase, CD45, and T cell receptor <clueType>involvement</clueType> <linkTheme>in</linkTheme> UV- and H2O2-induced T cell signal transduction.</clue>
+</event>
+<event id="E9">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="T3" />
+<clue>ZAP-70 tyrosine kinase, CD45, and T cell receptor <clueType>involvement</clueType> <linkTheme>in</linkTheme> UV- and H2O2-induced T cell signal transduction.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Several mammalian responses to <term sem="Other" id="T8" lex="UV_irradiation"><term sem="Other" id="A4">UV</term> irradiation</term>, including the activation of <term sem="Protein_molecule" id="T9" lex="NF-kappa_B">NF-kappa B</term>, are believed to involve <term sem="Other" id="T10" lex="tyrosine_phosphorylation"><term sem="Amino_acid_monomer" id="T11" lex="tyrosine">tyrosine</term> phosphorylation</term>.</sentence>
+<event id="E11">
+<type class="Biological_process" />
+<cause idref="A4" />
+<clue>Several mammalian <clueType>responses</clueType> <linkCause>to</linkCause> UV irradiation, including the activation of NF-kappa B, are believed to involve tyrosine phosphorylation.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T9" />
+<cause idref="E11" />
+<clue>Several mammalian <linkCause>responses to</linkCause> UV irradiation, including the <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B, are believed to involve tyrosine phosphorylation.</clue>
+</event>
+<event id="E13">
+<type class="Protein_amino_acid_phosphorylation" />
+ <site idref="T11" /><clue>Several mammalian responses to UV irradiation, including the activation of NF-kappa B, are believed to involve tyrosine <clueType>phosphorylation</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E14">
+<type class="Correlation" />
+<theme idref="E11" />
+<theme idref="E13" />
+<clue>Several mammalian responses to UV irradiation, including the activation of NF-kappa B, are believed to <clueType>involve</clueType> tyrosine phosphorylation.</clue>
+</event>
+<event uncertainty="probable" id="E15">
+<type class="Correlation" />
+<theme idref="E12" />
+<theme idref="E13" />
+<clue>Several mammalian responses to UV irradiation, including the activation of NF-kappa B, are believed to <clueType>involve</clueType> tyrosine phosphorylation.</clue>
+</event>
+<sentence id="S3"><term sem="Other" id="T12" lex="UV_irradiation"><term sem="Other" id="A5">UV</term> irradiation</term> and <term sem="Inorganic_compound" id="T13" lex="H2O2">H2O2</term> treatment of <term sem="Cell_natural" id="T14" lex="T_lymphocyte">T lymphocytes</term> induce <term sem="Other" id="T15" lex="tyrosine_phosphorylation"><term sem="Protein_family_or_group" id="A6">protein</term> <term sem="Amino_acid_monomer" id="T16" lex="tyrosine">tyrosine</term> phosphorylation</term> and <term sem="Element" id="A7">Ca2+</term> signals similar to those observed following <term sem="Other" id="A8">biological stimulation</term>.</sentence>
+<event id="E18">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="A6" />
+ <site idref="T16" /><clue>UV irradiation and H2O2 treatment of T lymphocytes induce protein tyrosine <clueType>phosphorylation</clueType> and Ca2+ signals similar to those observed following biological stimulation.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="A5" />
+<clue>UV irradiation and H2O2 treatment of <clueLoc>T lymphocytes</clueLoc> <clueType>induce</clueType> protein tyrosine phosphorylation and Ca2+ signals similar to those observed following biological stimulation.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T13" />
+<clue>UV irradiation and H2O2 treatment of <clueLoc>T lymphocytes</clueLoc> <clueType>induce</clueType> protein tyrosine phosphorylation and Ca2+ signals similar to those observed following biological stimulation.</clue>
+</event>
+<event id="E21">
+<type class="Cell_communication" />
+<theme idref="A7" />
+<clue>UV irradiation and H2O2 treatment of T lymphocytes induce protein tyrosine phosphorylation and Ca2+ <clueType>signals</clueType> similar to those observed following biological stimulation.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="A5" />
+<clue>UV irradiation and H2O2 treatment of <clueLoc>T lymphocytes</clueLoc> <clueType>induce</clueType> protein tyrosine phosphorylation and Ca2+ signals similar to those observed following biological stimulation.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T13" />
+<clue>UV irradiation and H2O2 treatment of <clueLoc>T lymphocytes</clueLoc> <clueType>induce</clueType> protein tyrosine phosphorylation and Ca2+ signals similar to those observed following biological stimulation.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="A8" />
+<clue>UV irradiation and H2O2 treatment of T lymphocytes induce protein tyrosine phosphorylation and Ca2+ signals similar to <corefTheme>those</corefTheme> <clueType>observed</clueType> <linkCause>following</linkCause> biological stimulation.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="A8" />
+<clue>UV irradiation and H2O2 treatment of T lymphocytes induce protein tyrosine phosphorylation and Ca2+ signals similar to <corefTheme>those</corefTheme> <clueType>observed</clueType> <linkCause>following</linkCause> biological stimulation.</clue>
+</event>
+<sentence id="S4">We have examined the role of <term sem="Other" id="A9">cell surface molecules</term> in these responses.</sentence>
+<event uncertainty="doubtful" id="E26">
+<type class="Regulation" />
+<theme idref="E19" />
+<cause idref="A9" />
+<clue>We have examined the <clueType>role</clueType> <linkCause>of</linkCause> cell surface molecules <linkTheme>in</linkTheme> <corefTheme>these responses</corefTheme>.</clue>
+</event>
+<event uncertainty="doubtful" id="E126">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="A9" />
+<clue>We have examined the <clueType>role</clueType> <linkCause>of</linkCause> cell surface molecules <linkTheme>in</linkTheme> <corefTheme>these responses</corefTheme>.</clue>
+</event>
+<event uncertainty="doubtful" id="E226">
+<type class="Regulation" />
+<theme idref="E22" />
+<cause idref="A9" />
+<clue>We have examined the <clueType>role</clueType> <linkCause>of</linkCause> cell surface molecules <linkTheme>in</linkTheme> <corefTheme>these responses</corefTheme>.</clue>
+</event>
+<event uncertainty="doubtful" id="E326">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="A9" />
+<clue>We have examined the <clueType>role</clueType> <linkCause>of</linkCause> cell surface molecules <linkTheme>in</linkTheme> <corefTheme>these responses</corefTheme>.</clue>
+</event>
+<sentence id="S5"><term sem="Cell_natural" id="T17" lex="T_lymphocyte">Normal T lymphocytes</term> whose surface expression of <term sem="Protein_molecule" id="T18" lex="CD3">CD3</term> was depleted showed impaired <term sem="Other" id="A10">UV</term>-induced <term sem="Other" id="T19" lex="tyrosine_phosphorylation"><term sem="Amino_acid_monomer" id="T20" lex="tyrosine">tyrosine</term> phosphorylation</term> and <term sem="Other" id="T21" lex="Ca2+_signal"><term sem="Element" id="T22" lex="Ca2+">Ca2+</term> signals</term>.</sentence>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T18" />
+<clue>Normal T lymphocytes whose <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> CD3 was depleted showed impaired UV-induced tyrosine phosphorylation and Ca2+ signals.</clue>
+<comment>NER T17 MOD</comment>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="E27" />
+<clue><clueLoc>Normal T lymphocytes</clueLoc> whose surface expression of CD3 was <clueType>depleted</clueType> showed impaired UV-induced tyrosine phosphorylation and Ca2+ signals.</clue>
+</event>
+<event id="E29">
+<type class="Protein_amino_acid_phosphorylation" />
+ <site idref="T20" /><clue>Normal T lymphocytes whose surface expression of CD3 was depleted showed impaired UV-induced tyrosine <clueType>phosphorylation</clueType> and Ca2+ signals.</clue>
+</event>
+<event id="E30">
+<type class="Cell_communication" />
+<theme idref="T22" />
+<clue>Normal T lymphocytes whose surface expression of CD3 was depleted showed impaired UV-induced tyrosine phosphorylation and Ca2+ <clueType>signals</clueType>.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="A10" />
+<clue>Normal T lymphocytes whose surface expression of CD3 was depleted showed impaired UV-<clueType>induced</clueType> tyrosine phosphorylation and Ca2+ signals.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="A10" />
+<clue>Normal T lymphocytes whose surface expression of CD3 was depleted showed impaired UV-<clueType>induced</clueType> tyrosine phosphorylation and Ca2+ signals.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E31" />
+<clue>Normal T lymphocytes whose surface expression of CD3 was depleted showed <clueType>impaired</clueType> UV-induced tyrosine phosphorylation and Ca2+ signals.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<clue>Normal T lymphocytes whose surface expression of CD3 was depleted showed <clueType>impaired</clueType> UV-induced tyrosine phosphorylation and Ca2+ signals.</clue>
+</event>
+<event id="E35">
+<type class="Correlation" />
+<theme idref="E28" />
+<theme idref="E33" />
+<clue>Normal T lymphocytes whose surface expression of CD3 was depleted <clueType>showed</clueType> impaired UV-induced tyrosine phosphorylation and Ca2+ signals.</clue>
+</event>
+<event id="E36">
+<type class="Correlation" />
+<theme idref="E28" />
+<theme idref="E34" />
+<clue>Normal T lymphocytes whose surface expression of CD3 was depleted <clueType>showed</clueType> impaired UV-induced tyrosine phosphorylation and Ca2+ signals.</clue>
+</event>
+<sentence id="S6">Similarly, <term sem="Cell_cultured" id="T23" lex="Jurkat_T_cell_line">Jurkat T cell lines</term> deficient in <cons sem="(OR Other Other)" id="T24" lex="(OR CD3_expression CD45_expression)"><term sem="Protein_molecule" id="T25" lex="CD3*">CD3</term> or <term sem="Protein_molecule" id="T26" lex="CD45*">CD45</term> <term sem="Other" id="T27" lex="*expression">expression</term></cons> also gave <term sem="Other" id="T28" lex="impaired_UV_response">impaired <term sem="Other" id="T29" lex="UV">UV</term> responses</term>.</sentence>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue>Similarly, Jurkat T cell lines deficient in CD3 or CD45 <clueType>expression</clueType> also gave impaired UV responses.</clue>
+<comment>NER T25,T26 MOD</comment>
+</event>
+<event id="E38">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>Similarly, Jurkat T cell lines deficient in CD3 or CD45 <clueType>expression</clueType> also gave impaired UV responses.</clue>
+</event>
+<event id="E39">
+<type class="Negative_regulation" />
+<theme idref="E37" />
+<clue>Similarly, <clueLoc>Jurkat T cell lines</clueLoc> <clueType>deficient</clueType> <linkTheme>in</linkTheme> CD3 or CD45 expression also gave impaired UV responses.</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<clue>Similarly, <clueLoc>Jurkat T cell lines</clueLoc> <clueType>deficient</clueType> <linkTheme>in</linkTheme> CD3 or CD45 expression also gave impaired UV responses.</clue>
+</event>
+<event id="E41">
+<type class="Biological_process" />
+<cause idref="T29" />
+<clue>Similarly, Jurkat T cell lines deficient in CD3 or CD45 expression also gave impaired UV <clueType>responses</clueType>.</clue>
+</event>
+<event id="E42">
+<type class="Negative_regulation" />
+<theme idref="E41" />
+<cause idref="E39" />
+<clue>Similarly, Jurkat T cell lines deficient in CD3 or CD45 expression also <clueType>gave impaired</clueType> UV responses.</clue>
+</event>
+<event id="E43">
+<type class="Negative_regulation" />
+<theme idref="E41" />
+<cause idref="E40" />
+<clue>Similarly, Jurkat T cell lines deficient in CD3 or CD45 expression also <clueType>gave impaired</clueType> UV responses.</clue>
+</event>
+<sentence id="S7">However, all these cell types still gave strong <term sem="Element" id="T30" lex="Ca2+">Ca2+</term> and <term sem="Other" id="T31" lex="tyrosine_phosphorylation"><term sem="Amino_acid_monomer" id="T32" lex="tyrosine">tyrosine</term> phosphorylation</term> responses to <term sem="Inorganic_compound" id="T33" lex="H2O2">H2O2</term>.</sentence>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<cause idref="T33" />
+<clue>However, all these cell types still gave strong Ca2+ and tyrosine phosphorylation <clueType>responses</clueType> <linkCause>to</linkCause> H2O2.</clue>
+</event>
+<event id="E45">
+<type class="Protein_amino_acid_phosphorylation" />
+ <site idref="T32" /><clue>However, all these cell types still gave strong Ca2+ and tyrosine <clueType>phosphorylation</clueType> responses to H2O2.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="T33" />
+<clue>However, <clueLoc>all these cell types</clueLoc> still gave strong Ca2+ and tyrosine phosphorylation <clueType>responses</clueType> <linkCause>to</linkCause> H2O2.</clue>
+</event>
+<sentence id="S8">The <term sem="Cell_natural" id="A11">T cell</term> <term sem="Protein_molecule" id="T35" lex="kinase_ZAP-70"><term sem="Amino_acid_monomer" id="T34" lex="tyrosine">tyrosine</term> kinase ZAP-70</term> was found to be highly responsive to <term sem="Other" id="T36" lex="UV">UV</term> and <term sem="Inorganic_compound" id="T37" lex="H2O2">H2O2</term> treatment.</sentence>
+<event id="E49">
+<type class="Regulation" />
+<theme idref="T35" />
+<cause idref="T36" />
+<clue>The T cell tyrosine kinase ZAP-70 was found to be highly <clueType>responsive</clueType> <linkCause>to</linkCause> UV and H2O2 treatment.</clue>
+</event>
+<event id="E50">
+<type class="Regulation" />
+<theme idref="T35" />
+<cause idref="T37" />
+<clue>The T cell tyrosine kinase ZAP-70 was found to be highly <clueType>responsive</clueType> <linkCause>to</linkCause> UV and H2O2 treatment.</clue>
+</event>
+<sentence id="S9"><term sem="Other" id="T38" lex="ZAP-70_responsiveness"><term sem="Protein_molecule" id="T39" lex="ZAP-70">ZAP-70</term> responsiveness</term> to <term sem="Other" id="T40" lex="UV">UV</term> required expression of both <term sem="Protein_molecule" id="T41" lex="CD3">CD3</term> and <term sem="Protein_molecule" id="T42" lex="CD45">CD45</term>, whereas only <term sem="Protein_molecule" id="T43" lex="CD3">CD3</term> was required for the response to <term sem="Inorganic_compound" id="T44" lex="H2O2">H2O2</term>.</sentence>
+<event id="E51">
+<type class="Regulation" />
+<theme idref="T39" />
+<cause idref="T40" />
+<clue>ZAP-70 <clueType>responsiveness</clueType> <linkCause>to</linkCause> UV required expression of both CD3 and CD45, whereas only CD3 was required for the response to H2O2.</clue>
+</event>
+<event id="E52">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>ZAP-70 responsiveness to UV required <clueType>expression</clueType> <linkTheme>of</linkTheme> both CD3 and CD45, whereas only CD3 was required for the response to H2O2.</clue>
+</event>
+<event id="E53">
+<type class="Gene_expression" />
+<theme idref="T42" />
+<clue>ZAP-70 responsiveness to UV required <clueType>expression</clueType> <linkTheme>of</linkTheme> both CD3 and CD45, whereas only CD3 was required for the response to H2O2.</clue>
+</event>
+<event id="E54">
+<type class="Correlation" />
+<theme idref="E51" />
+<theme idref="E52" />
+<theme idref="E53" />
+<clue>ZAP-70 responsiveness to UV <clueType>required</clueType> expression of both CD3 and CD45, whereas only CD3 was required for the response to H2O2.</clue>
+</event>
+<event id="E55">
+<type class="Regulation" />
+<theme idref="T39" />
+<cause idref="T44" />
+<clue>ZAP-70 responsiveness to UV required expression of both CD3 and CD45, whereas only CD3 was required for the <clueType>response</clueType> <linkCause>to</linkCause> H2O2.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E56">
+<type class="Correlation" />
+<theme idref="T43" />
+<theme idref="E55" />
+<clue>ZAP-70 responsiveness to UV required expression of both CD3 and CD45, whereas only CD3 was <clueType>required</clueType> <linkTheme>for</linkTheme> the response to H2O2.</clue>
+</event>
+<sentence id="S10"><term sem="Other" id="T45" lex="UV-induced_activation"><term sem="Other" id="T46" lex="UV">UV</term>-induced activation</term> of <term sem="Protein_molecule" id="T47" lex="NF-kappa_B">NF-kappa B</term> was blocked by <term sem="Protein_molecule" id="T48" lex="CD3">CD3</term> depletion, indicating the importance of such <term sem="Protein_family_or_group" id="T49" lex="cell_surface_molecule">cell surface molecules</term> in biological responses to <term sem="Other" id="T50" lex="UV">UV</term>.</sentence>
+<event id="E57">
+<type class="Positive_regulation" />
+<theme idref="T47" />
+<clue>UV-induced <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B was blocked by CD3 depletion, indicating the importance of such cell surface molecules in biological responses to UV.</clue>
+</event>
+<event id="E58">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref="T46" />
+<clue>UV-<clueType>induced</clueType> activation of NF-kappa B was blocked by CD3 depletion, indicating the importance of such cell surface molecules in biological responses to UV.</clue>
+</event>
+<event id="E59">
+<type class="Negative_regulation" />
+<theme idref="T48" />
+<clue>UV-induced activation of NF-kappa B was blocked by CD3 <clueType>depletion</clueType>, indicating the importance of such cell surface molecules in biological responses to UV.</clue>
+</event>
+<event id="E60">
+<type class="Negative_regulation" />
+<theme idref="E58" />
+<cause idref="E59" />
+<clue>UV-induced activation of NF-kappa B was <clueType>blocked</clueType> <linkCause>by</linkCause> CD3 depletion, indicating the importance of such cell surface molecules in biological responses to UV.</clue>
+</event>
+<event id="E61">
+<type class="Biological_process" />
+<cause idref="T50" />
+<clue>UV-induced activation of NF-kappa B was blocked by CD3 depletion, indicating the importance of such cell surface molecules in biological <clueType>responses</clueType> <linkCause>to</linkCause> UV.</clue>
+</event>
+<event id="E62">
+<type class="Correlation" />
+<theme idref="T48" />
+<theme idref="E61" />
+<clue>UV-induced activation of NF-kappa B was blocked by CD3 depletion, indicating the <clueType>importance</clueType> <linkTheme>of</linkTheme> <corefTheme>such cell surface molecules</corefTheme> <linkTheme>in</linkTheme> biological responses to UV.</clue>
+</event>
+<sentence id="S11">In <term sem="Cell_natural" id="T51" lex="nonlymphoid_cell">nonlymphoid cells</term>, the <term sem="Protein_family_or_group" id="T52" lex="epidermal_growth_factor_receptor">epidermal growth factor receptor</term> displayed increased <term sem="Other" id="T53" lex="tyrosine_phosphorylation"><term sem="Amino_acid_monomer" id="T54" lex="tyrosine">tyrosine</term> phosphorylation</term> within seconds of <term sem="Other" id="T55" lex="UV_irradiation"><term sem="Other" id="T56" lex="UV">UV</term> irradiation</term>.</sentence>
+<event id="E63">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T52" />
+ <site idref="T54" /><clue>In nonlymphoid cells, the epidermal growth factor receptor displayed increased tyrosine <clueType>phosphorylation</clueType> within seconds of UV irradiation.</clue>
+</event>
+<event id="E65">
+<type class="Positive_regulation" />
+<theme idref="E63" />
+<cause idref="T56" />
+<clue><clueLoc>In nonlymphoid cells</clueLoc>, the epidermal growth factor receptor displayed <clueType>increased</clueType> tyrosine phosphorylation <clueTime>within seconds</clueTime> of UV irradiation.</clue>
+</event>
+<sentence id="S12">These results suggest that <term sem="Other" id="T57" lex="UV-induced_signal_transduction"><term sem="Other" id="T58" lex="UV">UV</term>-induced <term sem="Other" id="A12">signal transduction</term></term> is mediated via <term sem="Protein_family_or_group" id="T59" lex="cell_surface_receptor">cell surface receptors</term> that normally respond to <term sem="Other" id="T60" lex="biological_stimulation">biological stimulation</term>, whereas <term sem="Inorganic_compound" id="T61" lex="H2O2">H2O2</term> is able to partially bypass this requirement.</sentence>
+<event id="E66">
+<type class="Cell_communication" />
+<theme idref="T58" />
+<clue>These results suggest that UV-<linkTheme>induced</linkTheme> <clueType>signal transduction</clueType> is mediated via cell surface receptors that normally respond to biological stimulation, whereas H2O2 is able to partially bypass this requirement.</clue>
+</event>
+<event uncertainty="probable" id="E67">
+<type class="Positive_regulation" />
+<theme idref="E66" />
+<cause idref="T59" />
+<clue>These results suggest that UV-induced signal transduction is <clueType>mediated</clueType> <linkCause>via</linkCause> cell surface receptors that normally respond to biological stimulation, whereas H2O2 is able to partially bypass this requirement.</clue>
+</event>
+<event id="E68">
+<type class="Regulation" />
+<theme idref="T59" />
+<cause idref="T60" />
+<clue>These results suggest that UV-induced signal transduction is mediated via cell surface receptors that normally <clueType>respond</clueType> <linkCause>to</linkCause> biological stimulation, whereas H2O2 is able to partially bypass this requirement.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E69">
+<type />
+<theme idref="T59" />
+<cause idref="T61" />
+<clue>These results suggest that UV-induced signal transduction is mediated via cell surface receptors that normally respond to biological stimulation, whereas H2O2 is able to partially <clueType>bypass</clueType> <corefTheme>this requirement</corefTheme>.</clue>
+<comment>SOO</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

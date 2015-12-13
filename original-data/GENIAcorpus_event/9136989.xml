@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/03/03" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9136989" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9136989</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="Inhibitor_(IK)_of_IFN-gamma">Inhibitor (<term sem="Protein_molecule" id="A1">IK</term>) of <term sem="Protein_molecule" id="T2" lex="IFN-gamma">IFN-gamma</term></term> induced <term sem="Other" id="T3" lex="HLA_class_II_antigens_expression"><term sem="Protein_family_or_group" id="T4" lex="HLA_class_II_antigen">HLA class II antigens</term> expression</term> also inhibits <term sem="Other" id="T5" lex="HLA_class_II_constitutive_expression"><term sem="Protein_family_or_group" id="T6" lex="HLA_class_II">HLA class II</term> constitutive expression</term> in the <term sem="Cell_cultured" id="T7" lex="human_Raji_B_cell_line">human Raji B cell line</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="A1" />
+<clue><clueType>Inhibitor</clueType> (IK) <linkTheme>of</linkTheme> IFN-gamma induced HLA class II antigens expression also inhibits HLA class II constitutive expression in the human Raji B cell line.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>Inhibitor (IK) of IFN-gamma induced HLA class II antigens <clueType>expression</clueType> also inhibits HLA class II constitutive expression <clueLoc>in the human Raji B cell line</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T2" />
+<clue>Inhibitor (IK) of IFN-gamma <clueType>induced</clueType> HLA class II antigens expression also inhibits HLA class II constitutive expression <clueLoc>in the human Raji B cell line</clueLoc>.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Inhibitor (IK) of IFN-gamma induced HLA class II antigens expression also inhibits HLA class II constitutive <clueType>expression</clueType> <clueLoc>in the human Raji B cell line</clueLoc>.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="A1" />
+<clue>Inhibitor (IK) of IFN-gamma induced HLA class II antigens expression also <clueType>inhibits</clueType> HLA class II constitutive expression <clueLoc>in the human Raji B cell line</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The expression of <term sem="Protein_family_or_group" id="T8" lex="major_histocompatibility_complex_(MHC)_class_II_antigen">major histocompatibility complex (MHC) class II antigens</term> is constitutive in <term sem="Cell_natural" id="T9" lex="professional_antigen_presenting_cell">professional antigen presenting cells</term> (<term sem="Cell_natural" id="T10" lex="APC">APCs</term>) but can also be induced by <term sem="Protein_molecule" id="T11" lex="interferon-gamma">interferon-gamma</term> (<term sem="Protein_molecule" id="T12" lex="IFN-gamma">IFN-gamma</term>) on the majority of the non <term sem="Cell_natural" id="T13" lex="professional_APC">professional <term sem="Cell_natural" id="T14" lex="APC">APCs</term></term> (e.g. <term sem="Cell_natural" id="T15" lex="fibroblast">fibroblasts</term>).</sentence>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> major histocompatibility complex (MHC) class II antigens is constitutive <clueLoc>in professional antigen presenting cells (APCs)</clueLoc> but can also be induced by interferon-gamma (IFN-gamma) on the majority of the non professional APCs (e.g. fibroblasts).</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T12" />
+<clue>The expression of major histocompatibility complex (MHC) class II antigens is constitutive in professional antigen presenting cells (APCs) but can also be <clueType>induced</clueType> <linkCause>by</linkCause> interferon-gamma (IFN-gamma) <clueLoc>on the majority of the non professional APCs (e.g. fibroblasts)</clueLoc>.</clue>
+</event>
+<sentence id="S3">We have recently characterised a new factor called <term sem="Protein_molecule" id="T16" lex="IK">IK</term> which is an efficient inhibitor of <term sem="Protein_molecule" id="T17" lex="IFN-gamma">IFN-gamma</term> induction of <term sem="Other" id="T18" lex="MHC_class_II_antigens_expression"><term sem="Protein_family_or_group" id="T19" lex="MHC_class_II_antigen">MHC class II antigens</term> expression</term>.</sentence>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>We have recently characterised a new factor called IK which is an efficient inhibitor of IFN-gamma induction of MHC class II antigens <clueType>expression</clueType>.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T17" />
+<clue>We have recently characterised a new factor called IK which is an efficient inhibitor of IFN-gamma <clueType>induction</clueType> <linkTheme>of</linkTheme> MHC class II antigens expression.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="T16" />
+<clue>We have recently characterised a new factor called IK which is an efficient <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> IFN-gamma induction of MHC class II antigens expression.</clue>
+</event>
+<sentence id="S4">Here, we demonstrate a novel role for <term sem="Protein_molecule" id="T20" lex="IK">IK</term> in <term sem="Other" id="T21" lex="MHC_class_II_expression"><term sem="Protein_family_or_group" id="T22" lex="MHC_class_II">MHC class II</term> expression</term> since over-expression of this protein by stable transfection into human <term sem="Cell_natural" id="A7">B cells</term> led to a total disappearance of <term sem="Other" id="T23" lex="constitutive_MHC_class_II_mRNA_expression">constitutive <term sem="RNA_domain_or_region" id="T24" lex="MHC_class_II_mRNA">MHC class II mRNA</term> expression</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>Here, we demonstrate a novel role for IK in MHC class II <clueType>expression</clueType> since over-expression of this protein by stable transfection into human B cells led to a total disappearance of constitutive MHC class II mRNA expression.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="T20" />
+<clue>Here, we demonstrate a novel <clueType>role</clueType> <linkCause>for</linkCause> IK <linkTheme>in</linkTheme> MHC class II expression since over-expression of this protein by stable transfection into human B cells led to a total disappearance of constitutive MHC class II mRNA expression.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue>Here, we demonstrate a novel role for IK in MHC class II expression since <clueType>over-expression</clueType> <linkTheme>of</linkTheme> <corefTheme>this protein</corefTheme> by stable transfection into human B cells led to a total disappearance of constitutive MHC class II mRNA expression.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E15" />
+<clue>Here, we demonstrate a novel role for IK in MHC class II expression since <clueType>over-expression</clueType> of this protein <linkCause>by</linkCause> stable transfection into human B cells led to a total disappearance of constitutive MHC class II mRNA expression.</clue>
+</event>
+<event id="E15">
+<type class="Artificial_process" />
+<theme idref="T20" />
+<theme idref="A7" />
+<clue>Here, we demonstrate a novel role for IK in MHC class II expression since over-expression of <corefTheme idref1="T20">this protein</corefTheme> by stable <clueType>transfection</clueType> <linkTheme>into</linkTheme> human B cells led to a total disappearance of constitutive MHC class II mRNA expression.</clue>
+</event>
+<event id="E16">
+<type class="Transcription" />
+<theme idref="T24" />
+<clue>Here, we demonstrate a novel role for IK in MHC class II expression since over-expression of this protein by stable transfection into human B cells led to a total disappearance of constitutive MHC class II mRNA <clueType>expression</clueType>.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<clue>Here, we demonstrate a novel role for IK in MHC class II expression since over-expression of this protein by stable transfection into human B cells led to a total <clueType>disappearance</clueType> <linkTheme>of</linkTheme> constitutive MHC class II mRNA expression.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E14" />
+<clue>Here, we demonstrate a novel role for IK in MHC class II expression since over-expression of this protein by stable transfection into human B cells <clueType>led</clueType> <linkTheme>to</linkTheme> a total disappearance of constitutive MHC class II mRNA expression.</clue>
+</event>
+<sentence id="S5">The <term sem="DNA_domain_or_region" id="T25" lex="class_II_transactivator">class II transactivator</term> (<term sem="DNA_domain_or_region" id="T26" lex="CIITA">CIITA</term>) is necessary for both constitutive and <term sem="Protein_molecule" id="T27" lex="IFN-gamma">IFN-gamma</term> induced <term sem="Other" id="T28" lex="MHC_class_II_expression"><term sem="Protein_family_or_group" id="T29" lex="MHC_class_II">MHC class II</term> expressions</term>.</sentence>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>The class II transactivator (CIITA) is necessary for both constitutive and IFN-gamma induced MHC class II <clueType>expressions</clueType>.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T27" />
+<clue>The class II transactivator (CIITA) is necessary for both constitutive and IFN-gamma <clueType>induced</clueType> MHC class II expressions.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T26" />
+<clue>The class II transactivator (CIITA) is <clueType>necessary</clueType> <linkTheme>for</linkTheme> both constitutive and IFN-gamma induced MHC class II expressions.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T26" />
+<clue>The class II transactivator (CIITA) is <clueType>necessary</clueType> <linkTheme>for</linkTheme> both constitutive and IFN-gamma induced MHC class II expressions.</clue>
+</event>
+<sentence id="S6">Examination of <term sem="RNA_domain_or_region" id="T30" lex="CIITA_mRNA"><term sem="DNA_domain_or_region" id="T31" lex="CIITA">CIITA</term> mRNA</term> in <term sem="Cell_natural" id="T32" lex="IK_stably_transfected_clone"><term sem="Protein_molecule" id="T33" lex="IK">IK</term> stably transfected <term sem="Cell_natural" id="A2">clones</term></term> revealed a marked reduction of <term sem="Other" id="T34" lex="CIITA_mRNA_transcription"><term sem="RNA_molecule" id="T35" lex="CIITA_mRNA"><term sem="DNA_domain_or_region" id="T36" lex="CIITA">CIITA</term> mRNA</term> transcription</term>.</sentence>
+<event uncertainty="doubtful" id="E23">
+<type class="Transcription" />
+<theme idref="T31" />
+<clue>Examination of CIITA <clueType>mRNA</clueType> <clueLoc>in IK stably transfected clones</clueLoc> revealed a marked reduction of CIITA mRNA transcription.</clue>
+<comment>NER T31 MOD</comment>
+</event>
+<event id="E30">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="A2" />
+<clue>Examination of CIITA mRNA in IK stably <clueType>transfected</clueType> clones revealed a marked reduction of CIITA mRNA transcription.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>Examination of CIITA mRNA in IK stably <clueType>transfected</clueType> clones revealed a marked reduction of CIITA mRNA transcription.</clue>
+</event>
+<event id="E240">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E30" />
+<clue>Examination of CIITA mRNA in IK stably <clueType>transfected</clueType> clones revealed a marked reduction of CIITA mRNA transcription.</clue>
+</event>
+<event id="E25">
+<type class="Transcription" />
+<theme idref="T35" />
+<clue>Examination of CIITA mRNA in IK stably transfected clones revealed a marked reduction of CIITA mRNA <clueType>transcription</clueType>.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="E240" />
+<clue>Examination of CIITA mRNA in IK stably transfected clones revealed a marked <clueType>reduction</clueType> <linkTheme>of</linkTheme> CIITA mRNA transcription.</clue>
+</event>
+<sentence id="S7">Taken together these results demonstrate that the <term sem="Protein_family_or_group" id="T37" lex="IK_protein"><term sem="Protein_molecule" id="T38" lex="IK">IK</term> protein</term> plays a key role in the constitutive expression of <term sem="Protein_family_or_group" id="T39" lex="MHC_class_II_antigen">MHC class II antigens</term> and that inhibition induced by <term sem="Protein_molecule" id="T40" lex="IK">IK</term> is <term sem="DNA_domain_or_region" id="A3">upstream of <term sem="DNA_domain_or_region" id="T41" lex="CIITA">CIITA</term></term> in this <term sem="Other" id="T42" lex="regulatory_pathway">regulatory pathway</term>.</sentence>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T39" />
+<clue>Taken together these results demonstrate that the IK protein plays a key role in the constitutive <clueType>expression</clueType> <linkTheme>of</linkTheme> MHC class II antigens and that inhibition induced by IK is upstream of CIITA in this regulatory pathway.</clue>
+</event>
+<event id="E28">
+<type class="Regulation" />
+<theme idref="E27" />
+<cause idref="T38" />
+<clue>Taken together these results demonstrate that the IK protein <clueType>plays</clueType> a key <clueType>role</clueType> <linkTheme>in</linkTheme> the constitutive expression of MHC class II antigens and that inhibition induced by IK is upstream of CIITA in this regulatory pathway.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="A3" />
+<cause idref="T40" />
+<clue>Taken together these results demonstrate that the IK protein plays a key role in the constitutive expression of MHC class II antigens and that <clueType>inhibition</clueType> <linkCause>induced by</linkCause> IK is upstream of CIITA <clueTime>in this regulatory pathway</clueTime>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

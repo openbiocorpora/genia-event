@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7645208" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7645208</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Infection and replication of <term sem="Virus" id="T1" lex="Tat-_human_immunodeficiency_virus">Tat- human immunodeficiency viruses</term>: genetic analyses of <term sem="DNA_domain_or_region" id="T2" lex="LTR">LTR</term> and <term sem="Protein_family_or_group" id="T3" lex="tat_mutation">tat mutations</term> in <cons sem="(AND Cell_natural Cell_natural)" id="T4" lex="(AND primary_human_lymphoid_cell long-term_human_lymphoid_cell)"><frag id="F1">primary</frag> and <frag id="F2">long-term</frag> <frag id="F3">human lymphoid cells</frag></cons>.</sentence>
+<event id="E1">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T1" />
+<clue><clueType>Infection</clueType> and replication <linkTheme>of</linkTheme> Tat- human immunodeficiency viruses: genetic analyses of LTR and tat mutations in primary and long-term human lymphoid cells.</clue>
+</event>
+<event id="E2">
+<type class="Viral_life_cycle" />
+<theme idref="T1" />
+<clue>Infection and <clueType>replication</clueType> <linkTheme>of</linkTheme> Tat- human immunodeficiency viruses: genetic analyses of LTR and tat mutations in primary and long-term human lymphoid cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T5" lex="Tat">Tat</term> is an essential <term sem="Protein_family_or_group" id="T6" lex="regulatory_protein">regulatory protein</term> for the replication of <term sem="Virus" id="T7" lex="human_immunodeficiency_virus">human immunodeficiency virus</term> (<term sem="Virus" id="T8" lex="HIV">HIV</term>).</sentence>
+<event id="E3">
+<type class="Viral_life_cycle" />
+<theme idref="T8" />
+<clue>Tat is an essential regulatory protein for the <clueType>replication</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus (HIV).</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="T5" />
+<clue>Tat is an essential <clueType>regulatory</clueType> protein <linkTheme>for</linkTheme> the replication of human immunodeficiency virus (HIV).</clue>
+</event>
+<sentence id="S3">Mutations in the <term sem="DNA_domain_or_region" id="T9" lex="tat_gene">tat gene</term> have been shown to block <term sem="Other" id="T10" lex="HIV_replication"><term sem="Virus" id="A1">HIV</term> replication</term> in <term sem="Cell_natural" id="T11" lex="human_T_cell">human T cells</term>.</sentence>
+<event id="E5">
+<type class="Mutagenesis" />
+<theme idref="T9" />
+<clue><clueType>Mutations</clueType> <linkTheme>in</linkTheme> the tat gene have been shown to block HIV replication in human T cells.</clue>
+</event>
+<event id="E6">
+<type class="Viral_life_cycle" />
+<theme idref="A1" />
+<clue>Mutations in the tat gene have been shown to block HIV <clueType>replication</clueType> in human T cells.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="E5" />
+<clue>Mutations in the tat gene have been shown to <clueType>block</clueType> HIV replication <clueLoc>in human T cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">Several studies have established that <term sem="Protein_molecule" id="T12" lex="Tat">Tat</term> releases an <term sem="Other" id="T13" lex="elongation_block">elongation block</term> to the <term sem="Other" id="T14" lex="transcription">transcription</term> of <term sem="DNA_domain_or_region" id="T15" lex="HIV_long_terminal_repeat">HIV long terminal repeat</term> (<term sem="DNA_domain_or_region" id="T16" lex="LTR">LTR</term>); however, it is not known whether this mechanism alone is sufficient to explain the block to <term sem="Other" id="T17" lex="HIV_replication"><term sem="Virus" id="A2">HIV</term> replication</term> in <term sem="Cell_natural" id="T18" lex="human_T_cell">human T cells</term> when <term sem="Protein_molecule" id="T19" lex="Tat">Tat</term> is absent.</sentence>
+<event id="E8">
+<type class="Transcription" />
+<theme idref="T16" />
+<clue>Several studies have established that Tat releases an elongation block to the <clueType>transcription</clueType> <linkTheme>of</linkTheme> HIV long terminal repeat (LTR); however, it is not known whether this mechanism alone is sufficient to explain the block to HIV replication in human T cells when Tat is absent.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<clue>Several studies have established that Tat releases an <clueType>elongation block</clueType> to the transcription of HIV long terminal repeat (LTR); however, it is not known whether this mechanism alone is sufficient to explain the block to HIV replication in human T cells when Tat is absent.</clue>
+<comment>NER T13 MOD</comment>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="T12" />
+<clue>Several studies have established that Tat <clueType>releases</clueType> an elongation block to the transcription of HIV long terminal repeat (LTR); however, it is not known whether this mechanism alone is sufficient to explain the block to HIV replication in human T cells when Tat is absent.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="T19" />
+<clue>Several studies have established that Tat releases an elongation block to the transcription of HIV long terminal repeat (LTR); however, it is not known whether this mechanism alone is sufficient to explain the block to HIV replication in human T cells when Tat is <clueType>absent</clueType>.</clue>
+</event>
+<event id="E12">
+<type class="Viral_life_cycle" />
+<theme idref="A2" />
+<clue>Several studies have established that Tat releases an elongation block to the transcription of HIV long terminal repeat (LTR); however, it is not known whether this mechanism alone is sufficient to explain the block to HIV <clueType>replication</clueType> in human T cells when Tat is absent.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="E11" />
+<clue>Several studies have established that Tat releases an elongation block to the transcription of HIV long terminal repeat (LTR); however, it is not known whether this mechanism alone is sufficient to explain the <clueType>block</clueType> <linkTheme>to</linkTheme> HIV replication <clueLoc>in human T cells</clueLoc> <linkCause>when</linkCause> Tat is absent.</clue>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E10" />
+<clue>Several studies have established that Tat releases an elongation block to the transcription of HIV long terminal repeat (LTR); however, it is not known whether <corefCause>this mechanism</corefCause> alone is sufficient to explain the block to HIV replication in human T cells when Tat is absent.</clue>
+</event>
+<sentence id="S5">It is possible that <term sem="Protein_molecule" id="T20" lex="Tat">Tat</term> is also needed for <term sem="Other" id="A4">other functions</term> during <term sem="Other" id="T21" lex="HIV_replication"><term sem="Virus" id="A3">HIV</term> replication</term>.</sentence>
+<event id="E15">
+<type class="Viral_life_cycle" />
+<theme idref="A3" />
+<clue>It is possible that Tat is also needed for other functions during HIV <clueType>replication</clueType>.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="A4" />
+<cause idref="T20" />
+<clue>It is possible that Tat is also <clueType>needed</clueType> <linkTheme>for</linkTheme> other functions <clueTime>during HIV replication</clueTime>.</clue>
+</event>
+<sentence id="S6">To test these hypotheses, we studied several <term sem="Protein_family_or_group" id="T22" lex="tat_mutant">tat mutants</term>, including two <term sem="Protein_family_or_group" id="T23" lex="stop_codon_mutant">stop codon mutants</term> and one <term sem="Protein_family_or_group" id="T24" lex="deletion_mutant">deletion mutant</term> using <term sem="DNA_family_or_group" id="T25" lex="replication-competent_HIV-1_construct">replication-competent HIV-1 constructs</term> carrying <cons sem="(OR DNA_domain_or_region DNA_domain_or_region)" id="T26" lex="(OR wild-type_LTR mutant_LTR)"><frag id="F4">wild-type</frag> or <frag id="F5">mutant</frag> <frag id="F6">LTRs</frag></cons> with modifications in the <cons sem="(AND/OR DNA_domain_or_region DNA_domain_or_region)" id="T27" lex="(AND/OR NF-kappa_B_binding_site Sp1_binding_site)"><frag id="F7">NF-kappa B</frag> and/or <frag id="F8">Sp1</frag> <frag id="F9">binding sites</frag></cons>.</sentence>
+<sentence id="S7">In this study, we show that <term sem="Virus" id="A5"><term sem="Virus" id="T28" lex="Tat-_HIV-1">Tat- HIV-1</term> with <term sem="DNA_family_or_group" id="T29" lex="wild-type_LTR">wild-type LTRs</term></term> can replicate in <term sem="Cell_cultured" id="T30" lex="HeLa_cell">HeLa cells</term>, and the <term sem="Virus" id="T31" lex="virus">virus</term> produced from <term sem="Cell_cultured" id="T32" lex="HeLa_cell">HeLa cells</term> can infect primary <term sem="Cell_natural" id="T33" lex="peripheral_blood_lymphocyte">peripheral blood lymphocytes</term> and <term sem="Cell_natural" id="T34" lex="macrophage">macrophages</term>.</sentence>
+<event id="E17">
+<type class="Viral_life_cycle" />
+<theme idref="A5" />
+<clue>In this study, we show that Tat- HIV-1 with wild-type LTRs can <clueType>replicate</clueType> <clueLoc>in HeLa cells</clueLoc>, and the virus produced from HeLa cells can infect primary peripheral blood lymphocytes and macrophages.</clue>
+<comment>TPS A5</comment>
+</event>
+<event id="E18">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A5" />
+<theme idref="T33" />
+<clue>In this study, we show that Tat- HIV-1 with wild-type LTRs can replicate in HeLa cells, and <corefCause>the virus</corefCause> produced from HeLa cells can <clueType>infect</clueType> primary peripheral blood lymphocytes and macrophages.</clue>
+</event>
+<event id="E19">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A5" />
+<theme idref="T34" />
+<clue>In this study, we show that Tat- HIV-1 with wild-type LTRs can replicate in HeLa cells, and <corefCause>the virus</corefCause> produced from HeLa cells can <clueType>infect</clueType> primary peripheral blood lymphocytes and macrophages.</clue>
+</event>
+<sentence id="S8">It was found that the propagation of the <term sem="Virus" id="A6"><term sem="Protein_family_or_group" id="T35" lex="Tat_mutant"><term sem="Protein_molecule" id="T36" lex="Tat">Tat</term> mutants</term> containing <term sem="DNA_family_or_group" id="T37" lex="wild-type_LTR">wild-type LTRs</term></term> was less efficient than that of the <term sem="Virus" id="T38" lex="LTR-modified_Tat_mutant">LTR-modified <term sem="Protein_molecule" id="T39" lex="Tat">Tat</term> mutants</term>.</sentence>
+<event id="E20">
+<type class="Viral_life_cycle" />
+<theme idref="A6" />
+<clue>It was found that the <clueType>propagation</clueType> <linkTheme>of</linkTheme> the Tat mutants containing wild-type LTRs was less efficient than that of the LTR-modified Tat mutants.</clue>
+<comment>NER T38 MOD, TPS: A6</comment>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<clue>It was found that the propagation of the Tat mutants containing wild-type LTRs was <clueType>less efficient</clueType> than that of the LTR-modified Tat mutants.</clue>
+</event>
+<sentence id="S9">Large amounts of <cons sem="(AND RNA_molecule Virus)" id="C1" lex="(AND viral_RNA viral_particle)"><frag id="F10">viral</frag> <frag id="F11">RNA</frag> and <frag id="F12">particles</frag></cons> were synthesized in <term sem="Other" id="T41" lex="infection">infections</term> established using the <term sem="Virus" id="A9"><term sem="Protein_family_or_group" id="T42" lex="tat_mutant">tat mutants</term> that contain <term sem="DNA_family_or_group" id="T43" lex="modified_LTR">modified LTRs</term></term>.</sentence>
+<event id="E22">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A9" />
+<clue>Large amounts of viral RNA and particles were synthesized in <clueType>infections</clueType> established using the tat mutants that contain modified LTRs.</clue>
+<comment>TPS: A9</comment>
+</event>
+<event id="E23">
+<type class="Transcription" />
+<theme idref1="F11" idref="F10" />
+<clue>Large amounts of viral RNA and particles were <clueType>synthesized</clueType> in infections established using the tat mutants that contain modified LTRs.</clue>
+</event>
+<event id="E24">
+<type class="Viral_life_cycle" />
+<theme idref1="F12" idref="F10" />
+<clue>Large amounts of viral RNA and particles were <clueType>synthesized</clueType> in infections established using the tat mutants that contain modified LTRs.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E22" />
+<clue><clueType>Large amounts</clueType> of viral RNA and particles were synthesized <linkCause>in</linkCause> infections established using the tat mutants that contain modified LTRs.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E22" />
+<clue><clueType>Large amounts</clueType> of viral RNA and particles were synthesized <linkCause>in</linkCause> infections established using the tat mutants that contain modified LTRs.</clue>
+</event>
+<sentence id="S10">However, this efficient propagation of the <term sem="Virus" id="T44" lex="LTR-modified_tat_mutant">LTR-modified <term sem="Protein_family_or_group" id="T45" lex="tat_mutant">tat mutants</term></term> was restricted to some <term sem="Cell_cultured" id="T46" lex="lymphoid_cell_line">lymphoid cell lines</term> that have been transformed with other <term sem="Virus" id="T47" lex="virus">viruses</term>.</sentence>
+<event id="E27">
+<type class="Viral_life_cycle" />
+<theme idref="T44" />
+<clue>However, this efficient <clueType>propagation</clueType> <linkTheme>of</linkTheme> the LTR-modified tat mutants was restricted to some lymphoid cell lines that have been transformed with other viruses.</clue>
+<comment>NER T44 MOD</comment>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<clue>However, this <clueType>efficient</clueType> propagation of the LTR-modified tat mutants was restricted to <clueLoc>some lymphoid cell lines that have been transformed with other viruses.</clueLoc></clue>
+</event>
+<event id="E129">
+<type class="Physiological_process" />
+<theme idref="T46" />
+<clue>However, this efficient propagation of the LTR-modified tat mutants was restricted to some lymphoid cell lines that have been <clueType>transformed</clueType> <linkCause>with</linkCause> other viruses.</clue>
+</event>
+<event id="E130">
+<type class="Positive_regulation" />
+<theme idref="E129" />
+<cause idref="T47" />
+<clue>However, this efficient propagation of the LTR-modified tat mutants was restricted to some lymphoid cell lines that have been transformed <linkCause>with</linkCause> other viruses.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S11">Thus, despite its essential role for releasing an <term sem="Other" id="A22">elongation</term> <term sem="Other" id="T48" lex="block">block</term>, <term sem="Protein_molecule" id="T49" lex="Tat">Tat</term> is not otherwise absolutely required for synthesis of <term sem="RNA_family_or_group" id="T50" lex="full-length_HIV_transcript">full-length HIV transcripts</term> and assembly of <term sem="Virus" id="T51" lex="virus_particle">virus particles</term>.</sentence>
+<event id="E56">
+<type class="Negative_regulation" />
+<theme idref="A22" />
+<clue>Thus, despite its essential role for releasing an elongation <clueType>block</clueType>, Tat is not otherwise absolutely required for synthesis of full-length HIV transcripts and assembly of virus particles.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation" />
+<theme idref="E56" />
+<cause idref="T49" />
+<clue>Thus, despite its essential role for <clueType>releasing</clueType> an elongation block, Tat is not otherwise absolutely required for synthesis of full-length HIV transcripts and assembly of virus particles.</clue>
+<comment>NER T48 MOD</comment>
+</event>
+<event id="E31">
+<type class="Transcription" />
+<theme idref="T50" />
+<clue>Thus, despite its essential role for releasing an elongation block, Tat is not otherwise absolutely required for <clueType>synthesis</clueType> <linkTheme>of</linkTheme> full-length HIV transcripts and assembly of virus particles.</clue>
+</event>
+<event id="E32">
+<type class="Viral_life_cycle" />
+<theme idref="T51" />
+<clue>Thus, despite its essential role for releasing an elongation block, Tat is not otherwise absolutely required for synthesis of full-length HIV transcripts and <clueType>assembly</clueType> <linkTheme>of</linkTheme> virus particles.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<cause idref="T49" />
+<clue>Thus, despite its essential role for releasing an elongation block, Tat is not otherwise absolutely <clueType>required</clueType> <linkTheme>for</linkTheme> synthesis of full-length HIV transcripts and assembly of virus particles.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="T49" />
+<clue>Thus, despite its essential role for releasing an elongation block, Tat is not otherwise absolutely <clueType>required</clueType> <linkTheme>for</linkTheme> synthesis of full-length HIV transcripts and assembly of virus particles.</clue>
+</event>
+<sentence id="S12">Direct sequencing of the <term sem="DNA_family_or_group" id="T52" lex="viral_genome">viral genomes</term> and reinfection kinetics showed no evidence of <term sem="Other" id="T53" lex="wild-type_reversion">wild-type reversion</term> even after prolonged infection with the <term sem="Virus" id="T54" lex="Tat-_virus"><term sem="Protein_molecule" id="T55" lex="Tat">Tat</term>- virus</term>.</sentence>
+<event id="E35">
+<type class="Viral_life_cycle" />
+<theme idref="T54" />
+<clue>Direct sequencing of the viral genomes and reinfection kinetics showed no evidence of wild-type reversion even after <clueType>prolonged infection</clueType> <linkTheme>with</linkTheme> the Tat- virus.</clue>
+</event>
+<event assertion="non-exist" id="E36">
+<type class="Positive_regulation" />
+<theme idref="T53" />
+<cause idref="E35" />
+<clue><clueExperiment>Direct sequencing of the viral genomes and reinfection kinetics</clueExperiment> showed no <clueType>evidence</clueType> <linkTheme>of</linkTheme> wild-type reversion even <linkCause>after</linkCause> prolonged infection with the Tat- virus.</clue>
+</event>
+<sentence id="S13">The implications for <term sem="Other" id="T56" lex="in_vivo_HIV-1_replication">in vivo <term sem="Virus" id="T57" lex="HIV-1">HIV-1</term> replication</term> and potential application of this system to the study of alternative <term sem="Other" id="T58" lex="Tat_function"><term sem="Protein_molecule" id="T59" lex="Tat">Tat</term> function</term> are discussed.</sentence>
+<event id="E37">
+<type class="Viral_life_cycle" />
+<theme idref="T57" />
+<clue>The implications for in vivo HIV-1 <clueType>replication</clueType> and potential application of this system to the study of alternative Tat function are discussed.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="25/01/2007" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10329625"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10329625</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Disruption of <term sem="Other" id="T1" lex="alpha_beta_T_cell_development"><term sem="Cell_natural" id="A1">alpha</term> <term sem="Cell_natural" id="A2">beta</term></term> but not of <term sem="Other" id="T2" lex="gamma_delta_T_cell_development"><term sem="Cell_natural" id="A3">gamma</term> <term sem="Cell_natural" id="A4">delta</term> <term sem="Cell_natural" id="A5">T cell</term> development</term> by <term sem="Other" id="T3" lex="overexpression">overexpression</term> of the <term sem="Protein_family_or_group" id="T4" lex="helix-loop-helix_protein">helix-loop-helix protein</term> <term sem="Protein_molecule" id="T5" lex="Id3">Id3</term> in <term sem="Cell_natural" id="T6" lex="committed_T_cell_progenitor">committed T cell progenitors</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>Disruption of alpha beta but not of gamma delta T cell development by <clueType>overexpression</clueType> <linkTheme>of</linkTheme> the helix-loop-helix protein Id3 <clueLoc>in committed T cell progenitors</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue>Disruption of alpha beta but not of gamma delta T cell development by <clueType>overexpression</clueType> of the helix-loop-helix protein Id3 in committed T cell progenitors.</clue>
+</event>
+<event id="E3">
+<type class="Cellular_physiological_process" />
+<theme idref1="A5" idref="A1" />
+<clue>Disruption of alpha beta but not of gamma delta T cell <clueType>development</clueType> by overexpression of the helix-loop-helix protein Id3 in committed T cell progenitors.</clue>
+</event>
+<event id="E4">
+<type class="Cellular_physiological_process" />
+<theme idref1="A5" idref="A2" />
+<clue>Disruption of alpha beta but not of gamma delta T cell <clueType>development</clueType> by overexpression of the helix-loop-helix protein Id3 in committed T cell progenitors.</clue>
+</event>
+<event id="E5">
+<type class="Cellular_physiological_process" />
+<theme idref1="A5" idref="A3" />
+<clue>Disruption of alpha beta but not of gamma delta T cell <clueType>development</clueType> by overexpression of the helix-loop-helix protein Id3 in committed T cell progenitors.</clue>
+</event>
+<event id="E6">
+<type class="Cellular_physiological_process" />
+<theme idref1="A5" idref="A4" />
+<clue>Disruption of alpha beta but not of gamma delta T cell <clueType>development</clueType> by overexpression of the helix-loop-helix protein Id3 in committed T cell progenitors.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="E2" />
+<clue><clueType>Disruption</clueType> <linkTheme>of</linkTheme> alpha beta but not of gamma delta T cell development <linkCause>by</linkCause> overexpression of the helix-loop-helix protein Id3 in committed T cell progenitors.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="E2" />
+<clue><clueType>Disruption</clueType> <linkTheme>of</linkTheme> alpha beta but not of gamma delta T cell development <linkCause>by</linkCause> overexpression of the helix-loop-helix protein Id3 in committed T cell progenitors.</clue>
+</event>
+<event assertion="non-exist" id="E9">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="E2" />
+<clue><clueType>Disruption</clueType> of alpha beta but not <linkTheme>of</linkTheme> gamma delta T cell development <linkCause>by</linkCause> overexpression of the helix-loop-helix protein Id3 in committed T cell progenitors.</clue>
+</event>
+<event assertion="non-exist" id="E10">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="E2" />
+<clue><clueType>Disruption</clueType> of alpha beta but not <linkTheme>of</linkTheme> gamma delta T cell development <linkCause>by</linkCause> overexpression of the helix-loop-helix protein Id3 in committed T cell progenitors.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Enforced expression of <term sem="Protein_molecule" id="T7" lex="Id3">Id3</term>, which has the capacity to inhibit many <term sem="Protein_family_or_group" id="T8" lex="basic_helix-loop-helix_(bHLH)_transcription_factor">basic helix-loop-helix (bHLH) transcription factors</term>, in <term sem="Cell_natural" id="T9" lex="human_CD34(+)_hematopoietic_progenitor_cell">human CD34(+) hematopoietic progenitor cells</term> that have not undergone <term sem="DNA_domain_or_region" id="T10" lex="T_cell_receptor_(TCR)_gene_rearrangement"><term sem="DNA_domain_or_region" id="A7"><term sem="Protein_family_or_group" id="T11" lex="T_cell_receptor">T cell receptor</term> (<term sem="Protein_family_or_group" id="T12" lex="TCR">TCR</term>) gene</term> rearrangements</term> inhibits development of the <term sem="Cell_natural" id="T13" lex="transduced_cell">transduced cells</term> into <cons sem="(AND Cell_cultured Cell_cultured)" id="T14" lex="(AND TCRalpha_beta_cell TCRgamma_delta_cell)"><frag id="F1"><term sem="Cell_natural" id="A6">TCR</term></frag><frag id="F2"><term sem="Cell_natural" id="A9">alpha</term> <term sem="Cell_natural" id="A10">beta</term></frag> and <frag id="F3"><term sem="Cell_natural" id="A11">gamma</term> <term sem="Cell_natural" id="A12">delta</term></frag> <frag id="F4"><term sem="Cell_natural" id="A13">cells</term></frag></cons> in a <term sem="Tissue_cultured" id="T15" lex="fetal_thymic_organ_culture">fetal thymic organ culture</term> (<term sem="Tissue_cultured" id="T16" lex="FTOC">FTOC</term>).</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue>Enforced <clueType>expression</clueType> <linkTheme>of</linkTheme> Id3, which has the capacity to inhibit many basic helix-loop-helix (bHLH) transcription factors, in human CD34(+) hematopoietic progenitor cells that have not undergone T cell receptor (TCR) gene rearrangements inhibits development of the transduced cells into TCRalpha beta and gamma delta cells in a fetal thymic organ culture (FTOC).</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<clue><clueType>Enforced</clueType> expression of Id3, which has the capacity to inhibit many basic helix-loop-helix (bHLH) transcription factors, <clueLoc>in human CD34(+) hematopoietic progenitor cells that have not undergone T cell receptor (TCR) gene rearrangements</clueLoc> inhibits development of the transduced cells into TCRalpha beta and gamma delta cells in a fetal thymic organ culture (FTOC).</clue>
+</event>
+<event id="E13">
+<type class="Cell_differentiation" />
+<theme idref="T9" />
+<theme idref1="A9" idref2="A13" idref="A6" />
+<clue>Enforced expression of Id3, which has the capacity to inhibit many basic helix-loop-helix (bHLH) transcription factors, in human CD34(+) hematopoietic progenitor cells that have not undergone T cell receptor (TCR) gene rearrangements inhibits <clueType>development</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T9">the transduced cells</corefTheme> <linkTheme>into</linkTheme> TCRalpha beta and gamma delta cells in a fetal thymic organ culture (FTOC).</clue>
+</event>
+<event id="E14">
+<type class="Cell_differentiation" />
+<theme idref="T9" />
+<theme idref1="A10" idref2="A13" idref="A6" />
+<clue>Enforced expression of Id3, which has the capacity to inhibit many basic helix-loop-helix (bHLH) transcription factors, in human CD34(+) hematopoietic progenitor cells that have not undergone T cell receptor (TCR) gene rearrangements inhibits <clueType>development</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T9">the transduced cells</corefTheme> <linkTheme>into</linkTheme> TCRalpha beta and gamma delta cells in a fetal thymic organ culture (FTOC).</clue>
+</event>
+<event id="E15">
+<type class="Cell_differentiation" />
+<theme idref="T9" />
+<theme idref1="A11" idref2="A13" idref="A6" />
+<clue>Enforced expression of Id3, which has the capacity to inhibit many basic helix-loop-helix (bHLH) transcription factors, in human CD34(+) hematopoietic progenitor cells that have not undergone T cell receptor (TCR) gene rearrangements inhibits <clueType>development</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T9">the transduced cells</corefTheme> <linkTheme>into</linkTheme> TCRalpha beta and gamma delta cells in a fetal thymic organ culture (FTOC).</clue>
+</event>
+<event id="E16">
+<type class="Cell_differentiation" />
+<theme idref="T9" />
+<theme idref1="A12" idref2="A13" idref="A6" />
+<clue>Enforced expression of Id3, which has the capacity to inhibit many basic helix-loop-helix (bHLH) transcription factors, in human CD34(+) hematopoietic progenitor cells that have not undergone T cell receptor (TCR) gene rearrangements inhibits <clueType>development</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T9">the transduced cells</corefTheme> <linkTheme>into</linkTheme> TCRalpha beta and gamma delta cells in a fetal thymic organ culture (FTOC).</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="E12" />
+<clue>Enforced expression of Id3, which has the capacity to inhibit many basic helix-loop-helix (bHLH) transcription factors, in human CD34(+) hematopoietic progenitor cells that have not undergone T cell receptor (TCR) gene rearrangements <clueType>inhibits</clueType> development of the transduced cells into TCRalpha beta and gamma delta cells <clueLoc>in a fetal thymic organ culture (FTOC).</clueLoc></clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="E12" />
+<clue>Enforced expression of Id3, which has the capacity to inhibit many basic helix-loop-helix (bHLH) transcription factors, in human CD34(+) hematopoietic progenitor cells that have not undergone T cell receptor (TCR) gene rearrangements <clueType>inhibits</clueType> development of the transduced cells into TCRalpha beta and gamma delta cells <clueLoc>in a fetal thymic organ culture (FTOC).</clueLoc></clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="E12" />
+<clue>Enforced expression of Id3, which has the capacity to inhibit many basic helix-loop-helix (bHLH) transcription factors, in human CD34(+) hematopoietic progenitor cells that have not undergone T cell receptor (TCR) gene rearrangements <clueType>inhibits</clueType> development of the transduced cells into TCRalpha beta and gamma delta cells <clueLoc>in a fetal thymic organ culture (FTOC).</clueLoc></clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="E12" />
+<clue>Enforced expression of Id3, which has the capacity to inhibit many basic helix-loop-helix (bHLH) transcription factors, in human CD34(+) hematopoietic progenitor cells that have not undergone T cell receptor (TCR) gene rearrangements <clueType>inhibits</clueType> development of the transduced cells into TCRalpha beta and gamma delta cells <clueLoc>in a fetal thymic organ culture (FTOC).</clueLoc></clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="T8" />
+<cause idref="T7" />
+<clue>Enforced expression of Id3, which has the capacity to <clueType>inhibit</clueType> many basic helix-loop-helix (bHLH) transcription factors, in human CD34(+) hematopoietic progenitor cells that have not undergone T cell receptor (TCR) gene rearrangements inhibits development of the transduced cells into TCRalpha beta and gamma delta cells in a fetal thymic organ culture (FTOC).</clue>
+</event>
+<event id="E22">
+<type class="DNA_recombination" />
+<theme idref="A7" />
+<clue>Enforced expression of Id3, which has the capacity to inhibit many basic helix-loop-helix (bHLH) transcription factors, in human CD34(+) hematopoietic progenitor cells that have not undergone T cell receptor (TCR) gene <clueType>rearrangements</clueType> inhibits development of the transduced cells into TCRalpha beta and gamma delta cells in a fetal thymic organ culture (FTOC).</clue>
+</event>
+<event assertion="non-exist" id="E23">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<clue>Enforced expression of Id3, which has the capacity to inhibit many basic helix-loop-helix (bHLH) transcription factors, in <clueLoc>human CD34(+) hematopoietic progenitor cells</clueLoc> that have not <clueType>undergone</clueType> T cell receptor (TCR) gene rearrangements inhibits development of the transduced cells into TCRalpha beta and gamma delta cells in a fetal thymic organ culture (FTOC).</clue>
+</event>
+<sentence id="S3">Here we document that overexpression of <term sem="Protein_molecule" id="T17" lex="Id3">Id3</term>, in <term sem="Cell_natural" id="T18" lex="progenitor">progenitors</term> that have initiated <term sem="DNA_domain_or_region" id="T19" lex="TCR_gene_rearrangement"><term sem="DNA_domain_or_region" id="A21"><term sem="Protein_family_or_group" id="T20" lex="TCR">TCR</term> gene</term> rearrangements</term> (<term sem="Cell_natural" id="T21" lex="pre-T_cell">pre-T cells</term>), inhibits development into <term sem="Cell_cultured" id="T22" lex="TCRalpha_beta_cell"><term sem="Cell_natural" id="A14">TCR</term><term sem="Cell_natural" id="A15">alpha</term> <term sem="Cell_natural" id="A16">beta</term></term> but not into <term sem="Cell_cultured" id="T23" lex="TCRgamma_delta_T_cell"><term sem="Cell_natural" id="A17">TCR</term><term sem="Cell_natural" id="A18">gamma</term> <term sem="Cell_natural" id="A19">delta</term> <term sem="Cell_natural" id="A20">T cells</term></term>.</sentence>
+<event id="E24">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>Here we document that <clueType>overexpression</clueType> <linkTheme>of</linkTheme> Id3, in progenitors that have initiated TCR gene rearrangements (pre-T cells), inhibits development into TCRalpha beta but not into TCRgamma delta T cells.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<clue>Here we document that <clueType>overexpression</clueType> <linkTheme>of</linkTheme> Id3, <clueLoc>in progenitors that have initiated TCR gene rearrangements (pre-T cells)</clueLoc>, inhibits development into TCRalpha beta but not into TCRgamma delta T cells.</clue>
+</event>
+<event id="E26">
+<type class="Cell_differentiation" />
+<theme idref="T21" />
+<theme idref1="A15" idref2="A20" idref="A14" />
+<clue>Here we document that overexpression of Id3, in progenitors that have initiated TCR gene rearrangements (pre-T cells), inhibits <clueType>development</clueType> <linkTheme>into</linkTheme> TCRalpha beta but not into TCRgamma delta T cells.</clue>
+</event>
+<event id="E27">
+<type class="Cell_differentiation" />
+<theme idref="T21" />
+<theme idref1="A16" idref2="A20" idref="A14" />
+<clue>Here we document that overexpression of Id3, in progenitors that have initiated TCR gene rearrangements (pre-T cells), inhibits <clueType>development</clueType> <linkTheme>into</linkTheme> TCRalpha beta but not into TCRgamma delta T cells.</clue>
+</event>
+<event id="E28">
+<type class="Cell_differentiation" />
+<theme idref="T21" />
+<theme idref1="A18" idref2="A20" idref="A17" />
+<clue>Here we document that overexpression of Id3, in progenitors that have initiated TCR gene rearrangements (pre-T cells), inhibits <clueType>development</clueType> into TCRalpha beta but not <linkTheme>into</linkTheme> TCRgamma delta T cells.</clue>
+</event>
+<event id="E29">
+<type class="Cell_differentiation" />
+<theme idref="T21" />
+<theme idref1="A19" idref2="A20" idref="A17" />
+<clue>Here we document that overexpression of Id3, in progenitors that have initiated TCR gene rearrangements (pre-T cells), inhibits <clueType>development</clueType> into TCRalpha beta but not <linkTheme>into</linkTheme> TCRgamma delta T cells.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation" />
+<theme idref="E26" />
+<cause idref="E25" />
+<clue>Here we document that overexpression of Id3, in progenitors that have initiated TCR gene rearrangements (pre-T cells), <clueType>inhibits</clueType> development into TCRalpha beta but not into TCRgamma delta T cells.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="E27" />
+<cause idref="E25" />
+<clue>Here we document that overexpression of Id3, in progenitors that have initiated TCR gene rearrangements (pre-T cells), <clueType>inhibits</clueType> development into TCRalpha beta but not into TCRgamma delta T cells.</clue>
+</event>
+<event assertion="non-exist" id="E32">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<cause idref="E25" />
+<clue>Here we document that overexpression of Id3, in progenitors that have initiated TCR gene rearrangements (pre-T cells), <clueType>inhibits</clueType> development into TCRalpha beta but not into TCRgamma delta T cells.</clue>
+</event>
+<event assertion="non-exist" id="E33">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref="E25" />
+<clue>Here we document that overexpression of Id3, in progenitors that have initiated TCR gene rearrangements (pre-T cells), <clueType>inhibits</clueType> development into TCRalpha beta but not into TCRgamma delta T cells.</clue>
+</event>
+<event id="E34">
+<type class="DNA_recombination" />
+<theme idref="A21" />
+<clue>Here we document that overexpression of Id3, in progenitors that have initiated TCR gene <clueType>rearrangements</clueType> (pre-T cells), inhibits development into TCRalpha beta but not into TCRgamma delta T cells.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<clue>Here we document that overexpression of Id3, in progenitors that have <clueType>initiated</clueType> TCR gene rearrangements (<clueLoc>pre-T cells</clueLoc>), inhibits development into TCRalpha beta but not into TCRgamma delta T cells.</clue>
+</event>
+<sentence id="S4">Furthermore, <term sem="Protein_molecule" id="T24" lex="Id3">Id3</term> impedes expression of <term sem="DNA_domain_or_region" id="A22">recombination activating genes</term> and downregulates <term sem="RNA_molecule" id="T25" lex="pre-Talpha_mRNA">pre-Talpha mRNA</term>.</sentence>
+<event id="E36">
+<type class="Gene_expression" />
+<theme idref="A22" />
+<clue>Furthermore, Id3 impedes <clueType>expression</clueType> <linkTheme>of</linkTheme> recombination activating genes and downregulates pre-Talpha mRNA.</clue>
+</event>
+<event id="E37">
+<type class="Negative_regulation" />
+<theme idref="E36" />
+<cause idref="T24" />
+<clue>Furthermore, Id3 <clueType>impedes</clueType> expression of recombination activating genes and downregulates pre-Talpha mRNA.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation" />
+<theme idref="T25" />
+<cause idref="T24" />
+<clue>Furthermore, Id3 impedes expression of recombination activating genes and <clueType>downregulates</clueType> pre-Talpha mRNA.</clue>
+</event>
+<sentence id="S5">These observations suggest possible mechanisms by which <term sem="Other" id="T26" lex="Id3_overexpression"><term sem="Protein_molecule" id="T27" lex="Id3">Id3</term> overexpression</term> can differentially affect development of <term sem="Cell_natural" id="T28" lex="pre-T_cell">pre-T cells</term> into <cons sem="(AND Cell_cultured Cell_cultured)" id="T29" lex="(AND TCRalpha_beta_cell TCRgamma_delta_cell)"><frag id="F5"><term sem="Cell_natural" id="A23">TCR</term></frag><frag id="F6"><term sem="Cell_natural" id="A24">alpha</term> <term sem="Cell_natural" id="A25">beta</term></frag> and <frag id="F7"><term sem="Cell_natural" id="A26">gamma</term> <term sem="Cell_natural" id="A27">delta</term></frag> <frag id="F8"><term sem="Cell_natural" id="A28">cells</term></frag></cons>.</sentence>
+<event id="E39">
+<type class="Gene_expression" />
+<theme idref="T27" />
+<clue>These observations suggest possible mechanisms by which Id3 <clueType>overexpression</clueType> can differentially affect development of pre-T cells into TCRalpha beta and gamma delta cells.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<clue>These observations suggest possible mechanisms by which Id3 <clueType>overexpression</clueType> can differentially affect development of pre-T cells into TCRalpha beta and gamma delta cells.</clue>
+</event>
+<event id="E41">
+<type class="Cell_differentiation" />
+<theme idref="T28" />
+<theme idref1="A24" idref2="A28" idref="A23" />
+<clue>These observations suggest possible mechanisms by which Id3 overexpression can differentially affect <clueType>development</clueType> <linkTheme>of</linkTheme> pre-T cells <linkTheme>into</linkTheme> TCRalpha beta and gamma delta cells.</clue>
+</event>
+<event id="E42">
+<type class="Cell_differentiation" />
+<theme idref="T28" />
+<theme idref1="A25" idref2="A28" idref="A23" />
+<clue>These observations suggest possible mechanisms by which Id3 overexpression can differentially affect <clueType>development</clueType> <linkTheme>of</linkTheme> pre-T cells <linkTheme>into</linkTheme> TCRalpha beta and gamma delta cells.</clue>
+</event>
+<event id="E43">
+<type class="Cell_differentiation" />
+<theme idref="T28" />
+<theme idref1="A26" idref2="A28" idref="A23" />
+<clue>These observations suggest possible mechanisms by which Id3 overexpression can differentially affect <clueType>development</clueType> <linkTheme>of</linkTheme> pre-T cells <linkTheme>into</linkTheme> TCRalpha beta and gamma delta cells.</clue>
+</event>
+<event id="E44">
+<type class="Cell_differentiation" />
+<theme idref="T28" />
+<theme idref1="A27" idref2="A28" idref="A23" />
+<clue>These observations suggest possible mechanisms by which Id3 overexpression can differentially affect <clueType>development</clueType> <linkTheme>of</linkTheme> pre-T cells <linkTheme>into</linkTheme> TCRalpha beta and gamma delta cells.</clue>
+</event>
+<event id="E45">
+<type class="Regulation" />
+<theme idref="E41" />
+<cause idref="E40" />
+<clue>These observations suggest possible mechanisms by which Id3 overexpression can differentially <clueType>affect</clueType> development of pre-T cells into TCRalpha beta and gamma delta cells.</clue>
+</event>
+<event id="E46">
+<type class="Regulation" />
+<theme idref="E42" />
+<cause idref="E40" />
+<clue>These observations suggest possible mechanisms by which Id3 overexpression can differentially <clueType>affect</clueType> development of pre-T cells into TCRalpha beta and gamma delta cells.</clue>
+</event>
+<event id="E47">
+<type class="Regulation" />
+<theme idref="E43" />
+<cause idref="E40" />
+<clue>These observations suggest possible mechanisms by which Id3 overexpression can differentially <clueType>affect</clueType> development of pre-T cells into TCRalpha beta and gamma delta cells.</clue>
+</event>
+<event id="E48">
+<type class="Regulation" />
+<theme idref="E44" />
+<cause idref="E40" />
+<clue>These observations suggest possible mechanisms by which Id3 overexpression can differentially <clueType>affect</clueType> development of pre-T cells into TCRalpha beta and gamma delta cells.</clue>
+</event>
+<sentence id="S6">We also observed that <term sem="Cell_natural" id="A29"><term sem="Cell_natural" id="T30" lex="cell_surface_CD4(-)CD8(-)CD3(-)_cell">cell surface CD4(-)CD8(-)CD3(-) cells</term> with <term sem="DNA_domain_or_region" id="T31" lex="rearranged_TCR_gene">rearranged <term sem="DNA_domain_or_region" id="A31">TCR genes</term></term></term> developed from <term sem="Cell_cultured" id="T32" lex="Id3-transduced_pre-T_cell"><term sem="Protein_molecule" id="T33" lex="Id3">Id3</term>-transduced</term> but not from <term sem="Cell_cultured" id="T34" lex="control-transduced_pre-T_cell"><term sem="DNA_family_or_group" id="A30">control</term>-transduced <term sem="Cell_natural" id="T35" lex="pre-T_cell">pre-T cells</term></term> in an <term sem="Tissue_cultured" id="T36" lex="FTOC">FTOC</term>.</sentence>
+<event id="E49">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="T35" />
+<clue>We also observed that cell surface CD4(-)CD8(-)CD3(-) cells with rearranged TCR genes developed from Id3-<clueType>transduced</clueType> but not from control-transduced pre-T cells in an FTOC.</clue>
+</event>
+<event id="E50">
+<type class="Artificial_process" />
+<theme idref="A30" />
+<theme idref="T35" />
+<clue>We also observed that cell surface CD4(-)CD8(-)CD3(-) cells with rearranged TCR genes developed from Id3-transduced but not from control-<clueType>transduced</clueType> pre-T cells in an FTOC.</clue>
+</event>
+<event id="E51">
+<type class="Cell_differentiation" />
+<theme idref="T35" />
+<theme idref="A29" />
+<clue>We also observed that cell surface CD4(-)CD8(-)CD3(-) cells with rearranged TCR genes <clueType>developed</clueType> <linkCause>from</linkCause> Id3-transduced but not from control-transduced pre-T cells <clueLoc>in an FTOC</clueLoc>.</clue>
+<comment>TPS:A29</comment></event>
+<event id="E151">
+<type class="Positive_regulation" />
+<theme idref="E51" />
+<cause idref="E49" />
+<clue>We also observed that cell surface CD4(-)CD8(-)CD3(-) cells with rearranged TCR genes developed <linkCause>from</linkCause> Id3-transduced but not from control-transduced pre-T cells in an FTOC.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event assertion="non-exist" id="E52">
+<type class="Positive_regulation" />
+<theme idref="E51" />
+<cause idref="E50" />
+<clue>We also observed that cell surface CD4(-)CD8(-)CD3(-) cells with rearranged TCR genes developed from Id3-transduced but not <linkCause>from</linkCause> control-transduced pre-T cells <clueLoc>in an FTOC</clueLoc>.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E53">
+<type class="DNA_recombination" />
+<theme idref="A31" />
+<clue>We also observed that <clueLoc>cell surface CD4(-)CD8(-)CD3(-) cells</clueLoc> with <clueType>rearranged</clueType> TCR genes developed from Id3-transduced but not from control-transduced pre-T cells in an FTOC.</clue>
+</event>
+<sentence id="S7">These cells had properties of both <term sem="Cell_natural" id="T37" lex="natural_killer_cell">natural killer</term> (<term sem="Cell_natural" id="T38" lex="NK">NK</term>) and <term sem="Cell_natural" id="T39" lex="pre-T_cell">pre-T cells</term>.</sentence>
+<sentence id="S8">These findings suggest that <term sem="Protein_family_or_group" id="T40" lex="bHLH_factor">bHLH factors</term> are required to control <term sem="Other" id="T41" lex="T_cell_development"><term sem="Cell_natural" id="A32">T cell</term> development</term> after the <term sem="Other" id="T42" lex="T/NK_developmental_checkpoint">T/NK developmental checkpoint</term>.</sentence>
+<event id="E54">
+<type class="Cellular_physiological_process" />
+<theme idref="A32" />
+<clue>These findings suggest that bHLH factors are required to control T cell <clueType>development</clueType> after the T/NK developmental checkpoint.</clue>
+</event>
+<event id="E55">
+<type class="Regulation" />
+<theme idref="E54" />
+<clue>These findings suggest that bHLH factors are required to <clueType>control</clueType> T cell development <clueTime>after the T/NK developmental checkpoint.</clueTime></clue>
+</event>
+<event uncertainty="probable" id="E56">
+<type class="Positive_regulation" />
+<theme idref="E55" />
+<cause idref="T40" />
+<clue>These findings suggest that bHLH factors are <clueType>required</clueType> to control T cell development after the T/NK developmental checkpoint.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

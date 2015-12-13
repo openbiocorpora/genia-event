@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="23/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9122255" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9122255</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="neuronal_(type_I)_nitric_oxide_synthase">Neuronal (type I) nitric oxide synthase</term> regulates <term sem="Other" id="T2" lex="nuclear_factor_kappaB_activity"><term sem="Protein_complex" id="T3" lex="nuclear_factor_kappaB">nuclear factor kappaB</term> activity</term> and <term sem="Other" id="T4" lex="immunologic_(type_II)_nitric_oxide_synthase_expression"><term sem="Protein_molecule" id="T5" lex="immunologic_(type_II)_nitric_oxide_synthase">immunologic (type II) nitric oxide synthase</term> expression</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T2" />
+<cause idref="T1" />
+<clue>Neuronal (type I) nitric oxide synthase <clueType>regulates</clueType> nuclear factor kappaB activity and immunologic (type II) nitric oxide synthase expression.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>Neuronal (type I) nitric oxide synthase regulates nuclear factor kappaB activity and immunologic (type II) nitric oxide synthase <clueType>expression</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Neuronal (type I) nitric oxide synthase <clueType>regulates</clueType> nuclear factor kappaB activity and immunologic (type II) nitric oxide synthase expression.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Inorganic_compound" id="T6" lex="nitric_oxide">Nitric oxide</term> subserves diverse physiologic roles in the <term sem="Body_region" id="T7" lex="nervous_system">nervous system</term>.</sentence>
+<sentence id="S3"><term sem="Inorganic_compound" id="T8" lex="NO">NO</term> is produced from at least three different <term sem="Protein_family_or_group" id="T9" lex="NO_synthase_(NOS)_isoform">NO synthase (NOS) isoforms</term>: <term sem="Protein_molecule" id="T10" lex="neuronal_NOS">neuronal NOS</term> (<term sem="Protein_molecule" id="T11" lex="nNOS">nNOS</term>), <term sem="Protein_molecule" id="T12" lex="endothelial_NOS">endothelial NOS</term>, and <term sem="Protein_molecule" id="T13" lex="immunologic_NOS">immunologic NOS</term> (<term sem="Protein_molecule" id="T14" lex="iNOS">iNOS</term>).</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="T11" />
+<clue>NO is <clueType>produced</clueType> <linkCause>from</linkCause> at least three different NO synthase (NOS) isoforms: neuronal NOS (nNOS), endothelial NOS, and immunologic NOS (iNOS).</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="T12" />
+<clue>NO is <clueType>produced</clueType> <linkCause>from</linkCause> at least three different NO synthase (NOS) isoforms: neuronal NOS (nNOS), endothelial NOS, and immunologic NOS (iNOS).</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="T14" />
+<clue>NO is <clueType>produced</clueType> <linkCause>from</linkCause> at least three different NO synthase (NOS) isoforms: neuronal NOS (nNOS), endothelial NOS, and immunologic NOS (iNOS).</clue>
+</event>
+<sentence id="S4">We show that <term sem="Protein_molecule" id="T15" lex="nNOS">nNOS</term> is the predominant isoform constitutively expressed in <term sem="Cell_natural" id="T16" lex="glia">glia</term>.</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>We show that nNOS is the predominant isoform constitutively <clueType>expressed</clueType> <clueLoc>in glia</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term sem="Inorganic_compound" id="T17" lex="NO">NO</term> derived from <term sem="Protein_molecule" id="T18" lex="nNOS">nNOS</term> in <term sem="Cell_natural" id="T19" lex="glia">glia</term> inhibits the <term sem="Protein_family_or_group" id="T20" lex="transcription_factor">transcription factor</term> <term sem="Protein_complex" id="T21" lex="nuclear_factor_kappaB">nuclear factor kappaB</term> (<term sem="Protein_complex" id="T22" lex="NF_kappaB">NF kappaB</term>) as <term sem="Other" id="A1">NOS inhibitors</term> enhance <term sem="Other" id="T23" lex="basal_NF_kappaB_activation">basal <term sem="Other" id="T24" lex="NF_kappaB_activation"><term sem="Protein_complex" id="T25" lex="NF_kappaB">NF kappaB</term> activation</term></term>.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="T18" />
+<clue>NO <clueType>derived</clueType> <linkCause>from</linkCause> nNOS <clueLoc>in glia</clueLoc> inhibits the transcription factor nuclear factor kappaB (NF kappaB) as NOS inhibitors enhance basal NF kappaB activation.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="T22" />
+<cause idref="T17" />
+<clue>NO derived from nNOS in glia <clueType>inhibits</clueType> the transcription factor nuclear factor kappaB (NF kappaB) as NOS inhibitors enhance basal NF kappaB activation.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<clue>NO derived from nNOS in glia inhibits the transcription factor nuclear factor kappaB (NF kappaB) as NOS inhibitors enhance basal NF kappaB <clueType>activation</clueType>.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="A1" />
+<clue>NO derived from nNOS in glia inhibits the transcription factor nuclear factor kappaB (NF kappaB) as NOS inhibitors <clueType>enhance</clueType> basal NF kappaB activation.</clue>
+</event>
+<sentence id="S6"><term sem="Organic_compound_other" id="T26" lex="pyrrolidine_dithiocarbamate">Pyrrolidine dithiocarbamate</term> (<term sem="Organic_compound_other" id="T27" lex="PDTC">PDTC</term>) is an inhibitor of <term sem="Protein_complex" id="T28" lex="NF_kappaB">NF kappaB</term> in most cells; however, we show that <term sem="Organic_compound_other" id="T29" lex="PDTC">PDTC</term> is also a potent scavenger of <term sem="Inorganic_compound" id="T30" lex="NO">NO</term> through formation of <term sem="Inorganic_compound" id="T31" lex="mononitrosyl_iron_complex">mononitrosyl iron complexes</term> with <term sem="Organic_compound_other" id="T32" lex="PDTC">PDTC</term>.</sentence>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="T28" />
+<cause idref="T27" />
+<clue>Pyrrolidine dithiocarbamate (PDTC) is an <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> NF kappaB <clueLoc>in most cells</clueLoc>; however, we show that PDTC is also a potent scavenger of NO through formation of mononitrosyl iron complexes with PDTC.</clue>
+</event>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T30" />
+<theme idref="T31" />
+<theme idref="T32" />
+<clue>Pyrrolidine dithiocarbamate (PDTC) is an inhibitor of NF kappaB in most cells; however, we show that PDTC is also a potent scavenger of NO through <clueType>formation</clueType> <linkTheme>of</linkTheme> mononitrosyl iron complexes <linkTheme>with</linkTheme> PDTC.</clue>
+</event>
+<event id="E114">
+<type />
+<theme idref="T30" />
+<clue>Pyrrolidine dithiocarbamate (PDTC) is an inhibitor of NF kappaB in most cells; however, we show that PDTC is also a potent <clueType>scavenger</clueType> <linkTheme>of</linkTheme> NO through formation of mononitrosyl iron complexes with PDTC.</clue>
+<comment>SOO: scavenger</comment>
+</event>
+<event id="E115">
+<type class="Positive_regulation" />
+<theme idref="E114" />
+<cause idref="E13" />
+<clue>Pyrrolidine dithiocarbamate (PDTC) is an inhibitor of NF kappaB in most cells; however, we show that PDTC is also a potent scavenger of NO <linkCause>through</linkCause> formation of mononitrosyl iron complexes with PDTC.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S7">In <term sem="Cell_cultured" id="T33" lex="Jurkat_cell">Jurkat cells</term>, a human <term sem="Cell_cultured" id="T34" lex="T-cell_lymphoma_cell_line">T-cell lymphoma cell line</term>, <term sem="Protein_molecule" id="T35" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term> (<term sem="Protein_molecule" id="T36" lex="TNF-alpha">TNF-alpha</term>) induces <term sem="Other" id="T37" lex="NF_kappaB_activation"><term sem="Protein_complex" id="T38" lex="NF_kappaB">NF kappaB</term> activation</term> that is inhibited by <term sem="Organic_compound_other" id="T39" lex="PDTC">PDTC</term>.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<cause idref="T36" />
+<clue>In Jurkat cells, a human T-cell lymphoma cell line, tumor necrosis factor-alpha (TNF-alpha) induces NF kappaB <clueType>activation</clueType> that is inhibited by PDTC.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T39" />
+<clue><clueLoc>In Jurkat cells</clueLoc>, a human T-cell lymphoma cell line, tumor necrosis factor-alpha (TNF-alpha) induces NF kappaB activation that is <clueType>inhibited</clueType> <linkCause>by</linkCause> PDTC.</clue>
+</event>
+<sentence id="S8">Contrary to the results in <term sem="Cell_cultured" id="T40" lex="Jurkat_cell">Jurkat cells</term>, <term sem="Organic_compound_other" id="T41" lex="PDTC">PDTC</term> did not inhibit <term sem="Protein_molecule" id="T43" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term>-induced <term sem="Other" id="T44" lex="NF_kappaB_activation"><term sem="Protein_complex" id="T45" lex="NF_kappaB">NF kappaB</term> activation</term> in <term sem="Cell_natural" id="T46" lex="astrocyte">astrocytes</term>; instead <term sem="Organic_compound_other" id="T47" lex="PDTC">PDTC</term> itself induces <term sem="Other" id="T48" lex="NF_kappaB_activation"><term sem="Protein_complex" id="T49" lex="NF_kappaB">NF kappaB</term> activation</term> in <term sem="Cell_natural" id="T50" lex="astrocyte">astrocytes</term>, and this may be related to scavenging of endogenously produced <term sem="Inorganic_compound" id="T51" lex="NO">NO</term> by the <term sem="Inorganic_compound" id="T52" lex="PDTC_iron_complex"><term sem="Organic_compound_other" id="T53" lex="PDTC">PDTC</term> iron complex</term>.</sentence>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T45" />
+<cause idref="T43" />
+<clue>Contrary to the results in Jurkat cells, PDTC did not inhibit tumor necrosis factor-alpha-<linkCause>induced</linkCause> NF kappaB <clueType>activation</clueType> in astrocytes; instead PDTC itself induces NF kappaB activation in astrocytes, and this may be related to scavenging of endogenously produced NO by the PDTC iron complex.</clue>
+<comment>NER: T42 del &quot;tumor necrosis factor-alpha-induced NF kappaB activation&quot;</comment>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="T41" />
+<clue>Contrary to the results in Jurkat cells, PDTC did not <clueType>inhibit</clueType> tumor necrosis factor-alpha-induced NF kappaB activation <clueLoc>in astrocytes</clueLoc>; instead PDTC itself induces NF kappaB activation in astrocytes, and this may be related to scavenging of endogenously produced NO by the PDTC iron complex.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T49" />
+<cause idref="T47" />
+<clue>Contrary to the results in Jurkat cells, PDTC did not inhibit tumor necrosis factor-alpha-induced NF kappaB activation in astrocytes; instead PDTC itself induces NF kappaB <clueType>activation</clueType> <clueLoc>in astrocytes</clueLoc>, and this may be related to scavenging of endogenously produced NO by the PDTC iron complex.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T51" />
+<clue>Contrary to the results in Jurkat cells, PDTC did not inhibit tumor necrosis factor-alpha-induced NF kappaB activation in astrocytes; instead PDTC itself induces NF kappaB activation in astrocytes, and this may be related to scavenging of endogenously <clueType>produced</clueType> NO by the PDTC iron complex.</clue>
+</event>
+<event id="E122">
+<type />
+<theme idref="T51" />
+<cause idref="T52" />
+<clue>Contrary to the results in Jurkat cells, PDTC did not inhibit tumor necrosis factor-alpha-induced NF kappaB activation in astrocytes; instead PDTC itself induces NF kappaB activation in astrocytes, and this may be related to <clueType>scavenging</clueType> <linkTheme>of</linkTheme> endogenously produced NO by the PDTC iron complex.</clue>
+<comment>SOO: scavenging</comment>
+</event>
+<event id="E123">
+<type class="Positive_regulation" />
+<theme idref="E122" />
+<cause idref="T52" />
+<clue>Contrary to the results in Jurkat cells, PDTC did not inhibit tumor necrosis factor-alpha-induced NF kappaB activation in astrocytes; instead PDTC itself induces NF kappaB activation in astrocytes, and this may be related to scavenging of endogenously produced NO <linkCause>by</linkCause> the PDTC iron complex.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event uncertainty="probable" id="E23">
+<type class="Correlation" />
+<theme idref="E123" />
+<theme idref="E19" />
+<clue>Contrary to the results in Jurkat cells, PDTC did not inhibit tumor necrosis factor-alpha-induced NF kappaB activation in astrocytes; instead PDTC itself induces NF kappaB activation in astrocytes, and <corefTheme idref1="E19">this</corefTheme> may be <clueType>related</clueType> <linkTheme>to</linkTheme> scavenging of endogenously produced NO by the PDTC iron complex.</clue>
+</event>
+<sentence id="S9">In <term sem="Cell_natural" id="T54" lex="astrocyte">astrocytes</term> <term sem="Organic_compound_other" id="T55" lex="PDTC">PDTC</term> also dramatically induces the <term sem="Protein_family_or_group" id="T56" lex="NF_kappaB-dependent_enzyme"><term sem="Protein_complex" id="T57" lex="NF_kappaB">NF kappaB</term>-dependent enzyme</term>, <term sem="Protein_molecule" id="T58" lex="iNOS">iNOS</term>, supporting the physiologic relevance of endogenous <term sem="Other" id="T59" lex="NO_regulation"><term sem="Inorganic_compound" id="T60" lex="NO">NO</term> regulation</term> of <term sem="Protein_complex" id="T61" lex="NF_kappaB">NF kappaB</term>.</sentence>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T58" />
+<cause idref="T55" />
+<clue><clueLoc>In astrocytes</clueLoc> PDTC also dramatically <clueType>induces</clueType> the NF kappaB-dependent enzyme, iNOS, supporting the physiologic relevance of endogenous NO regulation of NF kappaB.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T58" />
+<cause idref="T57" />
+<clue>In astrocytes PDTC also dramatically induces the NF kappaB-<clueType>dependent</clueType> enzyme, iNOS, supporting the physiologic relevance of endogenous NO regulation of NF kappaB.</clue>
+</event>
+<event id="E26">
+<type class="Regulation" />
+<theme idref="T61" />
+<cause idref="T60" />
+<clue>In astrocytes PDTC also dramatically induces the NF kappaB-dependent enzyme, iNOS, supporting the physiologic relevance of endogenous NO <clueType>regulation</clueType> <linkTheme>of</linkTheme> NF kappaB.</clue>
+</event>
+<sentence id="S10"><term sem="Other" id="T62" lex="NF_kappaB_activation"><term sem="Protein_complex" id="T63" lex="NF_kappaB">NF kappaB</term> activation</term> in <term sem="Cell_natural" id="T64" lex="glia">glia</term> from <term sem="Multicellular_organism_natural" id="T65" lex="mouse">mice</term> lacking <term sem="Protein_molecule" id="T66" lex="nNOS">nNOS</term> responds more rapidly to <term sem="Organic_compound_other" id="T67" lex="PDTC">PDTC</term> compared with <term sem="Cell_natural" id="T68" lex="astrocyte">astrocytes</term> from <term sem="Multicellular_organism_natural" id="T69" lex="wild-type_mouse">wild-type mice</term>.</sentence>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T63" />
+<clue>NF kappaB <clueType>activation</clueType> in glia from mice lacking nNOS responds more rapidly to PDTC compared with astrocytes from wild-type mice.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="T67" />
+<clue>NF kappaB activation <clueLoc>in glia from mice lacking nNOS</clueLoc> <clueType>responds more rapidly</clueType> <linkCause>to</linkCause> PDTC compared with astrocytes from wild-type mice.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="T66" />
+<clue>NF kappaB activation in glia from <clueLoc>mice</clueLoc> <clueType>lacking</clueType> nNOS responds more rapidly to PDTC compared with astrocytes from wild-type mice.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="T67" />
+<clue>NF kappaB activation in glia from mice lacking nNOS <clueType>responds</clueType> more rapidly <linkCause>to</linkCause> PDTC compared with <clueLoc>astrocytes from wild-type mice</clueLoc>.</clue>
+</event>
+<sentence id="S11">Our data suggest that <term sem="Protein_molecule" id="T70" lex="nNOS">nNOS</term> in <term sem="Cell_natural" id="T71" lex="astrocyte">astrocytes</term> regulates <term sem="Other" id="T72" lex="NF_kappaB_activity"><term sem="Protein_complex" id="T73" lex="NF_kappaB">NF kappaB</term> activity</term> and <term sem="Other" id="T74" lex="iNOS_expression"><term sem="Protein_molecule" id="T75" lex="iNOS">iNOS</term> expression</term>, and indicate a novel <term sem="Other" id="T76" lex="regulatory_role">regulatory role</term> for <term sem="Protein_molecule" id="T77" lex="nNOS">nNOS</term> in tonically suppressing <term sem="Body_region" id="T78" lex="central_nervous_system">central <term sem="Body_region" id="T79" lex="nervous_system">nervous system</term></term>, <term sem="DNA_family_or_group" id="T80" lex="NF_kappaB-regulated_gene"><term sem="Protein_complex" id="T81" lex="NF_kappaB">NF kappaB</term>-regulated <term sem="DNA_domain_or_region" id="A2">genes</term></term>.</sentence>
+<event id="E31">
+<type class="Gene_expression" />
+<theme idref="T75" />
+<clue>Our data suggest that nNOS in astrocytes regulates NF kappaB activity and iNOS <clueType>expression</clueType>, and indicate a novel regulatory role for nNOS in tonically suppressing central nervous system, NF kappaB-regulated genes.</clue>
+</event>
+<event uncertainty="probable" id="E32">
+<type class="Regulation" />
+<theme idref="T72" />
+<cause idref="T70" />
+<clue>Our data suggest that nNOS <clueLoc>in astrocytes</clueLoc> <clueType>regulates</clueType> NF kappaB activity and iNOS expression, and indicate a novel regulatory role for nNOS in tonically suppressing central nervous system, NF kappaB-regulated genes.</clue>
+</event>
+<event uncertainty="probable" id="E33">
+<type class="Regulation" />
+<theme idref="E31" />
+<cause idref="T70" />
+<clue>Our data suggest that nNOS <clueLoc>in astrocytes</clueLoc> <clueType>regulates</clueType> NF kappaB activity and iNOS expression, and indicate a novel regulatory role for nNOS in tonically suppressing central nervous system, NF kappaB-regulated genes.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="T78" />
+<cause idref="T77" />
+<clue>Our data suggest that nNOS in astrocytes regulates NF kappaB activity and iNOS expression, and indicate a novel regulatory role for nNOS in tonically <clueType>suppressing</clueType> central nervous system, NF kappaB-regulated genes.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="T80" />
+<cause idref="T77" />
+<clue>Our data suggest that nNOS in astrocytes regulates NF kappaB activity and iNOS expression, and indicate a novel regulatory role for nNOS in tonically <clueType>suppressing</clueType> central nervous system, NF kappaB-regulated genes.</clue>
+</event>
+<event id="E36">
+<type class="Regulation" />
+<theme idref="A2" />
+<cause idref="T81" />
+<clue>Our data suggest that nNOS in astrocytes regulates NF kappaB activity and iNOS expression, and indicate a novel regulatory role for nNOS in tonically suppressing central nervous system, NF kappaB-<clueType>regulated</clueType> genes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

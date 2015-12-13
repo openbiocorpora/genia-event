@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/12/10" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7623828" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7623828</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A <term sem="Other" id="T1" lex="functional_T-cell_receptor_signaling_pathway">functional <term sem="Protein_family_or_group" id="T2" lex="T-cell_receptor">T-cell receptor</term> signaling pathway</term> is required for <term sem="Other" id="T3" lex="p95vav_activity"><term sem="Protein_molecule" id="T4" lex="p95vav">p95vav</term> activity</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<cause idref="T1" />
+<clue>A functional T-cell receptor signaling pathway is <clueType>required</clueType> <linkTheme>for</linkTheme> p95vav activity.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Stimulation of the <term sem="Protein_molecule" id="T5" lex="T-cell_antigen_receptor">T-cell antigen receptor</term> (<term sem="Protein_molecule" id="T6" lex="TCR">TCR</term>) induces activation of multiple <term sem="Protein_molecule" id="T7" lex="tyrosine_kinase">tyrosine kinases</term>, resulting in <term sem="Other" id="T8" lex="phosphorylation">phosphorylation</term> of numerous <term sem="Protein_molecule" id="T9" lex="intracellular_substrate">intracellular substrates</term>.</sentence>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> the T-cell antigen receptor (TCR) induces activation of multiple tyrosine kinases, resulting in phosphorylation of numerous intracellular substrates.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<clue>Stimulation of the T-cell antigen receptor (TCR) induces <clueType>activation</clueType> <linkTheme>of</linkTheme> multiple tyrosine kinases, resulting in phosphorylation of numerous intracellular substrates.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="E2" />
+<clue>Stimulation of the T-cell antigen receptor (TCR) <clueType>induces</clueType> activation of multiple tyrosine kinases, resulting in phosphorylation of numerous intracellular substrates.</clue>
+</event>
+<event id="E5">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T9" />
+<clue>Stimulation of the T-cell antigen receptor (TCR) induces activation of multiple tyrosine kinases, resulting in <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> numerous intracellular substrates.</clue>
+<comment>NER T9 MOD</comment>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E4" />
+<clue>Stimulation of the T-cell antigen receptor (TCR) induces activation of multiple tyrosine kinases, <clueType>resulting</clueType> <linkTheme>in</linkTheme> phosphorylation of numerous intracellular substrates.</clue>
+</event>
+<sentence id="S3">One substrate is <term sem="Protein_molecule" id="T10" lex="p95vav">p95vav</term>, which is expressed exclusively in <cons sem="(AND Cell_natural Cell_natural)" id="T11" lex="(AND hematopoietic_cell trophoblast_cell)"><frag id="F1">hematopoietic</frag> and <frag id="F2">trophoblast</frag> <frag id="F3">cells</frag></cons>.</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>One substrate is p95vav, which is <clueType>expressed</clueType> exclusively <clueLoc>in hematopoietic</clueLoc> and trophoblast <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event id="E70">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>One substrate is p95vav, which is <clueType>expressed</clueType> exclusively <clueLoc>in</clueLoc> hematopoietic and <clueLoc>trophoblast cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">It contains a number of <term sem="Protein_substructure" id="T12" lex="structural_motif">structural motifs</term>, including <term sem="Protein_domain_or_region" id="T13" lex="Src_homology_2,_Src_homology_3,_and_pleckstrin_homology_domain"><term sem="Protein_domain_or_region" id="T14" lex="Src_homology_2_domain">Src homology 2</term>, <term sem="Protein_domain_or_region" id="T15" lex="Src_homology_3_domain">Src homology 3</term>, and <term sem="Protein_domain_or_region" id="T16" lex="pleckstrin_homology_domain">pleckstrin homology domains</term></term> and a <term sem="Protein_domain_or_region" id="T17" lex="putative_guanine_nucleotide_exchange_domain">putative guanine nucleotide exchange domain</term>.</sentence>
+<sentence id="S5">The role of <term sem="Protein_molecule" id="T18" lex="p95vav">p95vav</term> in <term sem="Protein_molecule" id="T20" lex="TCR">TCR</term>-mediated <term sem="Other" id="A1">signaling processes</term> is unclear.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="T20" />
+<clue>The role of p95vav in TCR-<clueType>mediated</clueType> signaling processes is unclear.</clue>
+<comment>NER: T19 del &quot;TCR-mediated signaling processes&quot;</comment>
+</event>
+<event uncertainty="doubtful" id="E9">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="T18" />
+<clue>The <clueType>role</clueType> <linkCause>of</linkCause> p95vav <linkTheme>in</linkTheme> TCR-mediated signaling processes is unclear.</clue>
+</event>
+<sentence id="S6">Here, we show that overexpression of <term sem="Protein_molecule" id="T21" lex="p95vav">p95vav</term> alone in Jurkat <term sem="Cell_natural" id="T22" lex="T_cell">T cells</term> leads to activation of the <term sem="Protein_family_or_group" id="T23" lex="nuclear_factor">nuclear factors</term>, including <term sem="Protein_family_or_group" id="T24" lex="NFAT">NFAT</term>, involved in <term sem="Other" id="T25" lex="interleukin-2_expression"><term sem="Protein_molecule" id="T26" lex="interleukin-2">interleukin-2</term> expression</term>.</sentence>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>Here, we show that <clueType>overexpression</clueType> <linkTheme>of</linkTheme> p95vav alone <clueLoc>in Jurkat T cells</clueLoc> leads to activation of the nuclear factors, including NFAT, involved in interleukin-2 expression.</clue>
+</event>
+<event id="E100">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<clue>Here, we show that <clueType>overexpression</clueType> of p95vav alone <clueLoc>in Jurkat T cells</clueLoc> leads to activation of the nuclear factors, including NFAT, involved in interleukin-2 expression.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="E100" />
+<clue>Here, we show that overexpression of p95vav alone in Jurkat T cells leads to <clueType>activation</clueType> <linkTheme>of</linkTheme> the <corefTheme>nuclear factors</corefTheme>, including NFAT, involved in interleukin-2 expression.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>Here, we show that overexpression of p95vav alone in Jurkat T cells leads to activation of the nuclear factors, including NFAT, involved in interleukin-2 <clueType>expression</clueType>.</clue>
+</event>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="E13" />
+<cause idref="E11" />
+<clue>Here, we show that overexpression of p95vav alone in Jurkat T cells leads to activation of the nuclear factors, including NFAT, <clueType>involved</clueType> <linkTheme>in</linkTheme> interleukin-2 expression.</clue>
+</event>
+<sentence id="S7">Furthermore, <term sem="Protein_molecule" id="T27" lex="p95vav">p95vav</term> synergizes with <term sem="Other" id="T28" lex="TCR_stimulation"><term sem="Protein_molecule" id="T29" lex="TCR">TCR</term> stimulation</term> in inducing <cons sem="(AND Other Other)" id="T30" lex="(AND NFAT-dependent_transcription interleukin-2-dependent_transcription)"><frag id="F4"><term sem="Protein_family_or_group" id="A2">NFAT</term>-</frag> and <frag id="F5"><term sem="Protein_family_or_group" id="A3">interleukin-2</term>-</frag><frag id="F6">dependent <term sem="Other" id="A4">transcription</term></frag></cons>.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="A2" />
+<clue>Furthermore, p95vav synergizes with TCR stimulation in inducing NFAT- and interleukin-2-<clueType>dependent</clueType> transcription.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="A2" />
+<clue>Furthermore, p95vav synergizes with TCR stimulation in inducing NFAT- and interleukin-2-<clueType>dependent</clueType> transcription.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<clue>Furthermore, p95vav synergizes with TCR <clueType>stimulation</clueType> in inducing NFAT- and interleukin-2-dependent transcription.</clue>
+</event>
+<event id="E18">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="T27" />
+<cause idref="E17" />
+<clue>Furthermore, p95vav <clueType>synergizes</clueType> <linkCause>with</linkCause> TCR stimulation <linkTheme>in</linkTheme> inducing NFAT- and interleukin-2-dependent transcription.</clue>
+</event>
+<event id="E19">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="T27" />
+<cause idref="E17" />
+<clue>Furthermore, p95vav <clueType>synergizes</clueType> <linkCause>with</linkCause> TCR stimulation <linkTheme>in</linkTheme> inducing NFAT- and interleukin-2-dependent transcription.</clue>
+</event>
+<sentence id="S8">In contrast, <term sem="Other" id="T31" lex="NFAT_activation"><term sem="Protein_family_or_group" id="T32" lex="NFAT">NFAT</term> activation</term> by a <term sem="Protein_family_or_group" id="T33" lex="G-protein-coupled_receptor">G-protein-coupled receptor</term> is not modulated by <term sem="Other" id="T34" lex="p95vav_overexpression"><term sem="Protein_molecule" id="T35" lex="p95vav">p95vav</term> overexpression</term>, suggesting that the effect is specific to the <term sem="Other" id="T36" lex="TCR_signaling_pathway"><term sem="Protein_molecule" id="T37" lex="TCR">TCR</term> signaling pathways</term>.</sentence>
+<event id="E200">
+<type class="Correlation" />
+<theme idref="E20" />
+<theme idref="T36" />
+<clue>In contrast, NFAT activation by a G-protein-coupled receptor is not modulated by p95vav overexpression, suggesting that <corefTheme idref1="E20">the effect</corefTheme> is <clueType>specific</clueType> <linkTheme>to</linkTheme> the TCR signaling pathways.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<cause idref="T33" />
+<clue>In contrast, NFAT <clueType>activation</clueType> <linkCause>by</linkCause> a G-protein-coupled receptor is not modulated by p95vav overexpression, suggesting that the effect is specific to the TCR signaling pathways.</clue>
+</event>
+<event id="E210">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>In contrast, NFAT activation by a G-protein-coupled receptor is not modulated by p95vav <clueType>overexpression</clueType>, suggesting that the effect is specific to the TCR signaling pathways.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E210" />
+<clue>In contrast, NFAT activation by a G-protein-coupled receptor is not modulated by p95vav <clueType>overexpression</clueType>, suggesting that the effect is specific to the TCR signaling pathways.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="E21" />
+<clue>In contrast, NFAT activation by a G-protein-coupled receptor is not <clueType>modulated</clueType> <linkCause>by</linkCause> p95vav overexpression, suggesting that the effect is specific to the TCR signaling pathways.</clue>
+<comment>NER: T39 del &quot;signaling pathways&quot;</comment>
+</event>
+<sentence id="S9">Although removal of the <term sem="Protein_domain_or_region" id="A5"><term sem="Protein_domain_or_region" id="T39" lex="first_67_amino_acid">first 67 amino acids</term> of <term sem="Protein_molecule" id="T40" lex="p95vav">p95vav</term></term> activates its <term sem="Other" id="T41" lex="transforming_potential">transforming potential</term> in <term sem="Cell_cultured" id="T42" lex="NIH_3T3_cell">NIH 3T3 cells</term>, this region appears to be required for its function in <term sem="Cell_natural" id="T43" lex="T_cell">T cells</term>.</sentence>
+<event id="E230">
+<type class="Cellular_physiological_process" />
+<theme idref="T42" />
+<clue>Although removal of the first 67 amino acids of p95vav activates <corefTheme>its</corefTheme> <clueType>transforming</clueType> potential in NIH 3T3 cells, this region appears to be required for its function in T cells.</clue>
+</event>
+<event id="E23">
+<type class="Mutagenesis" />
+<theme idref="A5" />
+<clue>Although <clueType>removal</clueType> <linkTheme>of</linkTheme> the first 67 amino acids of p95vav activates its transforming potential in NIH 3T3 cells, this region appears to be required for its function in T cells.</clue>
+<comment>TPS A5, ARTIFICIAL</comment>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E230" />
+<cause idref="E23" />
+<clue>Although removal of the first 67 amino acids of p95vav <clueType>activates</clueType> its transforming potential <clueLoc>in NIH 3T3 cells</clueLoc>, this region appears to be required for its function in T cells.</clue>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Positive_regulation" />
+<theme idref="E230" />
+<cause idref="A5" />
+<clue>Although removal of the first 67 amino acids of p95vav activates its transforming potential in NIH 3T3 cells, <corefCause>this region</corefCause> appears to be <clueType>required</clueType> <linkTheme>for</linkTheme> <corefTheme>its function</corefTheme> <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<sentence id="S10">We further demonstrate that the <term sem="Other" id="T44" lex="p95vav-induced_NFAT_activation"><term sem="Protein_molecule" id="T45" lex="p95vav">p95vav</term>-induced <term sem="Protein_family_or_group" id="T46" lex="NFAT">NFAT</term> activation</term> is not mimicked by <term sem="Other" id="T47" lex="Ras_activation"><term sem="Protein_family_or_group" id="T48" lex="Ras">Ras</term> activation</term>, though its function is dependent upon <term sem="Protein_family_or_group" id="T49" lex="Ras">Ras</term> and <term sem="Protein_family_or_group" id="T50" lex="Raf">Raf</term>.</sentence>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T46" />
+<cause idref="T45" />
+<clue>We further demonstrate that the p95vav-<linkCause>induced</linkCause> NFAT <clueType>activation</clueType> is not mimicked by Ras activation, though its function is dependent upon Ras and Raf.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T48" />
+<clue>We further demonstrate that the p95vav-induced NFAT activation is not mimicked by Ras <clueType>activation</clueType>, though its function is dependent upon Ras and Raf.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T49" />
+<clue>We further demonstrate that the p95vav-induced NFAT activation is not mimicked by Ras activation, though <corefTheme>its function</corefTheme> is <clueType>dependent</clueType> <linkCause>upon</linkCause> Ras and Raf.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T50" />
+<clue>We further demonstrate that the p95vav-induced NFAT activation is not mimicked by Ras activation, though <corefTheme>its function</corefTheme> is <clueType>dependent</clueType> <linkCause>upon</linkCause> Ras and Raf.</clue>
+</event>
+<sentence id="S11">Furthermore, the <term sem="Other" id="T51" lex="activating_function">activating function</term> of <term sem="Protein_molecule" id="T52" lex="p95vav">p95vav</term> is blocked by <term sem="Organic_compound_other" id="T53" lex="FK506">FK506</term>, suggesting that its activity also depends on <term sem="Protein_molecule" id="T54" lex="calcineurin">calcineurin</term>.</sentence>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="E26" />
+<cause idref="T53" />
+<clue>Furthermore, the <corefTheme>activating function of p95vav</corefTheme> is <clueType>blocked</clueType> <linkCause>by</linkCause> FK506, suggesting that its activity also depends on calcineurin.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T54" />
+<clue>Furthermore, the activating function of p95vav is blocked by FK506, suggesting that <corefTheme>its activity</corefTheme> also <clueType>depends</clueType> <linkCause>on</linkCause> calcineurin.</clue>
+</event>
+<sentence id="S12">To further dissect <term sem="Other" id="T55" lex="p95vav_involvement"><term sem="Protein_molecule" id="T56" lex="p95vav">p95vav</term> involvement</term> in <term sem="Other" id="T57" lex="TCR_signaling"><term sem="Protein_molecule" id="T58" lex="TCR">TCR</term> signaling</term>, we analyzed various <term sem="Cell_cultured" id="T59" lex="Jurkat_mutant">Jurkat mutants</term> deficient in <term sem="Other" id="T60" lex="TCR_signaling_function"><term sem="Protein_molecule" id="T61" lex="TCR">TCR</term> signaling function</term> or <term sem="Other" id="T62" lex="TCR_expression"><term sem="Protein_molecule" id="T63" lex="TCR">TCR</term> expression</term> and showed that an intact <term sem="Other" id="T64" lex="TCR_signaling_pathway"><term sem="Protein_molecule" id="T65" lex="TCR">TCR</term> signaling pathway</term> is required for <term sem="Protein_molecule" id="T66" lex="p95vav">p95vav</term> to function.</sentence>
+<event uncertainty="doubtful" id="E33">
+<type class="Correlation" />
+<theme idref="T57" />
+<theme idref="T56" />
+<clue>To further dissect p95vav <clueType>involvement</clueType> <linkTheme>in</linkTheme> TCR signaling, we analyzed various Jurkat mutants deficient in TCR signaling function or TCR expression and showed that an intact TCR signaling pathway is required for p95vav to function.</clue>
+</event>
+<event assertion="non-exist" id="E34">
+<type class="Gene_expression" />
+<theme idref="T63" />
+<clue>To further dissect p95vav involvement in TCR signaling, we analyzed various <clueLoc>Jurkat mutants</clueLoc> deficient in TCR signaling function or TCR <clueType>expression</clueType> and showed that an intact TCR signaling pathway is required for p95vav to function.</clue>
+</event>
+<event assertion="non-exist" id="E340">
+<type class="Regulation" />
+<cause idref="T61" />
+<clue>To further dissect p95vav involvement in TCR signaling, we analyzed various <clueLoc>Jurkat mutants</clueLoc> deficient in TCR <clueType>signaling function</clueType> or TCR expression and showed that an intact TCR signaling pathway is required for p95vav to function.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E341">
+<type class="Regulation" />
+<cause idref="T66" />
+<clue>To further dissect p95vav involvement in TCR signaling, we analyzed various Jurkat mutants deficient in TCR signaling function or TCR expression and showed that an intact TCR signaling pathway is required for p95vav to <clueType>function</clueType>.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E341" />
+<cause idref="T64" />
+<clue>To further dissect p95vav involvement in TCR signaling, we analyzed various Jurkat mutants deficient in TCR signaling function or TCR expression and showed that an intact TCR signaling pathway is <clueType>required</clueType> <linkTheme>for</linkTheme> p95vav to function.</clue>
+</event>
+<sentence id="S13">However, <term sem="Other" id="T67" lex="overexpression">overexpression</term> of <term sem="Protein_molecule" id="T68" lex="p95vav">p95vav</term> does not appear to influence <term sem="Protein_molecule" id="T70" lex="TCR">TCR</term>-induced <term sem="Other" id="T72" lex="protein_tyrosine_phosphorylation"><term sem="Protein_molecule" id="A130">protein</term> <term sem="Amino_acid_monomer" id="T71" lex="tyrosine">tyrosine</term> phosphorylation</term> or increases in <term sem="Element" id="T73" lex="cytoplasmic_free_calcium">cytoplasmic free calcium</term>.</sentence>
+<event id="E36">
+<type class="Gene_expression" />
+<theme idref="T68" />
+<clue>However, <clueType>overexpression</clueType> <linkTheme>of</linkTheme> p95vav does not appear to influence TCR-induced protein tyrosine phosphorylation or increases in cytoplasmic free calcium.</clue>
+</event>
+<event id="E360">
+<type class="Positive_regulation" />
+<theme idref="T68" />
+<clue>However, <clueType>overexpression</clueType> of p95vav does not appear to influence TCR-induced protein tyrosine phosphorylation or increases in cytoplasmic free calcium.</clue>
+</event>
+<event id="E37">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="A130" />
+<site idref="T71" /><clue>However, overexpression of p95vav does not appear to influence TCR-induced protein tyrosine <clueType>phosphorylation</clueType> or increases in cytoplasmic free calcium.</clue>
+<comment>NER: T69 del &quot;TCR-induced protein tyrosine phosphorylation&quot;; NER: T72 mod &quot;phosphorylation&quot;-&gt;&quot;protein tyrosine phosphorylation&quot;</comment>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T70" />
+<clue>However, overexpression of p95vav does not appear to influence TCR-<clueType>induced</clueType> protein tyrosine phosphorylation or increases in cytoplasmic free calcium.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="T73" />
+<clue>However, overexpression of p95vav does not appear to influence TCR-induced protein tyrosine phosphorylation or <clueType>increases</clueType> <linkTheme>in</linkTheme> <clueLoc>cytoplasmic</clueLoc> free calcium.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E40">
+<type class="Regulation" />
+<theme idref="E37" />
+<cause idref="E360" />
+<clue>However, overexpression of p95vav does not appear to <clueType>influence</clueType> TCR-induced protein tyrosine phosphorylation or increases in cytoplasmic free calcium.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E41">
+<type class="Regulation" />
+<theme idref="E39" />
+<cause idref="E360" />
+<clue>However, overexpression of p95vav does not appear to <clueType>influence</clueType> TCR-induced protein tyrosine phosphorylation or increases in cytoplasmic free calcium.</clue>
+</event>
+<sentence id="S14">Taken together, our data suggest that <term sem="Protein_molecule" id="T74" lex="p95vav">p95vav</term> plays an important role at an yet <term sem="Other" id="T75" lex="unidentified_proximal_position">unidentified proximal position</term> in the <term sem="Other" id="T76" lex="TCR_signaling_cascade"><term sem="Protein_molecule" id="T77" lex="TCR">TCR</term> signaling cascade</term>.</sentence>
+<event uncertainty="probable" id="E42">
+<type class="Regulation" />
+<theme idref="T76" />
+<cause idref="T74" />
+<clue>Taken together, our data suggest that p95vav <clueType>plays</clueType> an important <clueType>role</clueType> at an yet unidentified proximal position <linkTheme>in</linkTheme> the TCR signaling cascade.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

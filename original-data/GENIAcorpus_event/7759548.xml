@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="04/12/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7759548" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7759548</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification of two novel <term sem="DNA_family_or_group" id="T1" lex="regulatory_element">regulatory elements</term> within the <term sem="DNA_domain_or_region" id="T2" lex="5&apos;-untranslated_region">5&apos;-untranslated region</term> of the <term sem="DNA_domain_or_region" id="T3" lex="human_A_gamma-globin_gene">human A gamma-globin gene</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Interaction between the <term sem="DNA_domain_or_region" id="T4" lex="stage_selector_element">stage selector element</term> (<term sem="DNA_domain_or_region" id="A1"><term sem="DNA_substructure" id="T5" lex="SSE">SSE</term>) in the <term sem="DNA_domain_or_region" id="T6" lex="proximal_gamma-globin_promoter">proximal gamma-globin promoter</term></term> and <term sem="DNA_domain_or_region" id="A2"><term sem="DNA_domain_or_region" id="T7" lex="hypersensitivity_site_2">hypersensitivity site 2</term> in the <term sem="DNA_domain_or_region" id="T8" lex="locus_control_region">locus control region</term></term> partly mediates the competitive silencing of the <term sem="DNA_domain_or_region" id="T9" lex="beta-globin_promoter">beta-globin promoter</term> in the fetal developmental stage.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="A2" />
+<clue><clueType>Interaction</clueType> <linkTheme>between</linkTheme> the stage selector element (SSE) in the proximal gamma-globin promoter and hypersensitivity site 2 in the locus control region partly mediates the competitive silencing of the beta-globin promoter in the fetal developmental stage.</clue>
+<comment>TPS: A1 &amp; A2</comment>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="E1" />
+<clue>Interaction between the stage selector element (SSE) in the proximal gamma-globin promoter and hypersensitivity site 2 in the locus control region partly <clueType>mediates</clueType> the <clueType>competitive</clueType> silencing of the beta-globin promoter in the fetal developmental stage.</clue>
+</event>
+<event id="E3">
+<type class="Cellular_physiological_process" />
+<theme idref="T9" />
+<clue>Interaction between the stage selector element (SSE) in the proximal gamma-globin promoter and hypersensitivity site 2 in the locus control region partly mediates the competitive <clueType>silencing</clueType> <linkTheme>of</linkTheme> the beta-globin promoter <clueTime>in the fetal developmental stage</clueTime>.</clue>
+</event>
+<sentence id="S3">We have now demonstrated that a second <term sem="DNA_domain_or_region" id="A3"><term sem="DNA_domain_or_region" id="T10" lex="SSE-like_element">SSE-like element</term> in the <term sem="DNA_domain_or_region" id="T11" lex="5&apos;-untranslated_region">5&apos;-untranslated region</term> of the <term sem="DNA_domain_or_region" id="T12" lex="gamma-gene">gamma-gene</term></term> also contributes to this competitive silencing of the <term sem="DNA_domain_or_region" id="T13" lex="beta-gene">beta-gene</term>.</sentence>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="A3" />
+<clue>We have now demonstrated that a second SSE-like element in the 5&apos;-untranslated region of the gamma-gene also <clueType>contributes</clueType> <linkTheme>to</linkTheme> this <clueType>competitive</clueType> silencing of the beta-gene.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event id="E5">
+<type class="Cellular_physiological_process" />
+<theme idref="T13" />
+<clue>We have now demonstrated that a second SSE-like element in the 5&apos;-untranslated region of the gamma-gene also contributes to this competitive <clueType>silencing</clueType> <linkTheme>of</linkTheme> the beta-gene.</clue>
+</event>
+<sentence id="S4">Utilizing <term sem="Other" id="T14" lex="transient_transfection_assay">transient transfection assays</term> in the <term sem="Cell_cultured" id="T15" lex="fetal_erythroid_cell_line">fetal erythroid cell line</term>, <term sem="Cell_cultured" id="T16" lex="K562">K562</term>, we have shown that the <term sem="DNA_domain_or_region" id="A4"><term sem="DNA_domain_or_region" id="T17" lex="core_enhancer">core enhancer</term> of <term sem="DNA_domain_or_region" id="T18" lex="hypersensitivity_site_2">hypersensitivity site 2</term></term> can preferentially interact with the <term sem="DNA_domain_or_region" id="T19" lex="proximal_gamma-promoter">proximal gamma-promoter</term> in the absence of the <term sem="DNA_domain_or_region" id="T20" lex="SSE">SSE</term>, completely silencing a <term sem="DNA_domain_or_region" id="T21" lex="linked_beta-promoter">linked beta-promoter</term>.</sentence>
+<event id="E6">
+<type class="Binding" />
+<theme idref="A4" />
+<theme idref="T19" />
+<clue>Utilizing <clueExperiment>transient transfection assays</clueExperiment> <clueLoc>in the fetal erythroid cell line, K562</clueLoc>, we have shown that the core enhancer of hypersensitivity site 2 can preferentially <clueType>interact</clueType> <linkTheme>with</linkTheme> the proximal gamma-promoter in the absence of the SSE, completely silencing a linked beta-promoter.</clue>
+<comment>TPS: A4</comment>
+</event>
+<event assertion="non-exist" id="E7">
+<type class="Correlation" />
+<theme idref="E6" />
+<theme idref="T20" />
+<clue>Utilizing transient transfection assays in the fetal erythroid cell line, K562, we have shown that the core enhancer of hypersensitivity site 2 can preferentially interact with the proximal gamma-promoter <linkTheme>in the absence of</linkTheme> the SSE, completely silencing a linked beta-promoter.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="T21" />
+<cause idref="E6" />
+<clue>Utilizing transient transfection assays <clueLoc>in the fetal erythroid cell line, K562</clueLoc>, we have shown that the core enhancer of hypersensitivity site 2 can preferentially interact with the proximal gamma-promoter in the absence of the SSE, completely <clueType>silencing</clueType> a linked beta-promoter.</clue>
+</event>
+<sentence id="S5">Mutation of a 20-base pair sequence of the <term sem="DNA_domain_or_region" id="T22" lex="gamma-gene_5&apos;-untranslated_region"><term sem="DNA_domain_or_region" id="A5">gamma-gene</term> 5&apos;-untranslated region</term> (<term sem="DNA_domain_or_region" id="T23" lex="UTR">UTR</term>) led to derepression of <term sem="Other" id="T24" lex="beta-promoter_activity"><term sem="DNA_domain_or_region" id="T25" lex="beta-promoter">beta-promoter</term> activity</term>.</sentence>
+<event id="E9">
+<type class="Mutagenesis" />
+<theme idref1="T23" idref="A5" />
+<clue><clueType>Mutation</clueType> <linkTheme>of</linkTheme> a 20-base pair sequence of the gamma-gene 5&apos;-untranslated region (UTR) led to derepression of beta-promoter activity.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="E9" />
+<clue>Mutation of a 20-base pair sequence of the gamma-gene 5&apos;-untranslated region (UTR) <clueType>led</clueType> <linkTheme>to</linkTheme> derepression of beta-promoter activity.</clue>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Negative_regulation" />
+<theme idref="T25" />
+<clue>Mutation of a 20-base pair sequence of the gamma-gene 5&apos;-untranslated region (UTR) led to <clueType>derepression</clueType> <linkTheme>of</linkTheme> beta-promoter activity.</clue>
+</event>
+<sentence id="S6">A marked activation of <term sem="Other" id="T26" lex="gamma-promoter_activity"><term sem="DNA_domain_or_region" id="T27" lex="gamma-promoter">gamma-promoter</term> activity</term> was also observed with this <term sem="Other" id="T28" lex="mutation">mutation</term>, suggesting the presence of a repressor.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="E9" />
+<clue>A marked <clueType>activation</clueType> <linkTheme>of</linkTheme> gamma-promoter activity was also observed <linkCause>with</linkCause> <corefCause>this mutation</corefCause>, suggesting the presence of a repressor.</clue>
+</event>
+<sentence id="S7">Fine <term sem="Other" id="T29" lex="mutagenesis">mutagenesis</term> dissected these activities to different regions of the <term sem="DNA_domain_or_region" id="T30" lex="5&apos;-UTR">5&apos;-UTR</term>.</sentence>
+<sentence id="S8">The <term sem="Other" id="T31" lex="stage_selector_activity"><term sem="DNA_domain_or_region" id="A9">stage selector</term> activity</term> was localized to a region centered on <term sem="DNA_domain_or_region" id="T32" lex="nucleotides_+13_to_+15">nucleotides +13 to +15</term>.</sentence>
+<sentence id="S9"><term sem="Other" id="T33" lex="electromobility_shift_assay">Electromobility shift assays</term> utilizing this sequence demonstrated binding of a <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T34" lex="(AND fetal_protein erythroid-specific_protein)"><frag id="F1">fetal</frag> and <frag id="F2">erythroid-specific</frag> <frag id="F3">protein</frag></cons>.</sentence>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T32" />
+<theme idref1="F3" idref="F1" />
+<clue><clueExperiment>Electromobility shift assays</clueExperiment> utilizing <corefTheme>this sequence</corefTheme> demonstrated <clueType>binding</clueType> <linkTheme>of</linkTheme> a fetal and <clueLoc>erythroid</clueLoc>-specific protein.</clue>
+</event>
+<sentence id="S10">The <term sem="Other" id="T35" lex="repressor_activity">repressor activity</term> of the <term sem="DNA_domain_or_region" id="T36" lex="5&apos;-UTR">5&apos;-UTR</term> was localized to tandem <term sem="DNA_family_or_group" id="T37" lex="GATA-like_site">GATA-like sites</term>, which appear to bind a complex of two proteins, one of which is the <term sem="Protein_family_or_group" id="T38" lex="erythroid_transcription_factor">erythroid <term sem="Protein_family_or_group" id="T39" lex="transcription_factor">transcription factor</term></term> <term sem="Protein_molecule" id="T40" lex="GATA-1">GATA-1</term>.</sentence>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="T36" />
+<cause idref="T37" />
+<clue>The <clueType>repressor activity</clueType> <linkTheme>of</linkTheme> the 5&apos;-UTR was <linkCause>localized to</linkCause> tandem GATA-like sites, which appear to bind a complex of two proteins, one of which is the erythroid transcription factor GATA-1.</clue>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T37" />
+<theme idref="T40" />
+<clue>The repressor activity of the 5&apos;-UTR was localized to tandem GATA-like sites, which appear to <clueType>bind</clueType> a complex of two proteins, one of which is the erythroid transcription factor GATA-1.</clue>
+</event>
+<sentence id="S11">These results indicate that the <term sem="DNA_domain_or_region" id="A30"><term sem="DNA_domain_or_region" id="T41" lex="5&apos;-UTR">5&apos;-UTR</term> of the <term sem="DNA_domain_or_region" id="T42" lex="gamma-gene">gamma-gene</term></term> contains <term sem="DNA_domain_or_region" id="A8">sequences</term> that may be important for its <cons sem="(AND Other Other)" id="C1" lex="(AND transcriptional_regulation developmental_regulation)"><frag id="F4">transcriptional</frag> and <frag id="F5">developmental</frag> <frag id="F6">regulation</frag></cons>.</sentence>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref1="A30" idref="A8" />
+<clue>These results indicate that the 5&apos;-UTR of the gamma-gene contains sequences that may be <clueType>important</clueType> <linkTheme>for</linkTheme> its transcriptional and developmental regulation.</clue>
+<comment>TPS: A30; NER: T43, T44, T45 del &quot;transcriptional &quot;&quot;developmental regulation&quot;&quot;transcriptional and developmental regulation&quot;</comment>
+</event>
+<event id="E18">
+<type class="Regulation" />
+<theme idref="E17" />
+<cause idref1="A30" idref="A8" />
+<clue>These results indicate that the 5&apos;-UTR of the gamma-gene contains sequences that may be <clueType>important</clueType> <linkTheme>for</linkTheme> its transcriptional and developmental regulation.</clue>
+<comment>TPS: A30</comment>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="T42" />
+<clue>These results indicate that the 5&apos;-UTR of the gamma-gene contains sequences that may be important for <corefTheme>its</corefTheme> <clueType>transcriptional</clueType> and developmental <clueType>regulation</clueType>.</clue>
+</event>
+<event id="E17">
+<type class="Regulation" />
+<theme idref="T42" />
+<clue>These results indicate that the 5&apos;-UTR of the gamma-gene contains sequences that may be important for <corefTheme>its</corefTheme> transcriptional and <clueType>developmental regulation</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

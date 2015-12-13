@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="01/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9233628" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9233628</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Involvement of <cons sem="(AND Protein_family_or_group Protein_family_or_group Protein_family_or_group)" id="T1" lex="(AND Rel_protein Fos_protein Jun_protein)"><frag id="F1"><term sem="Protein_molecule" id="A1">Rel</term></frag>, <frag id="F2"><term sem="Protein_molecule" id="A2">Fos</term></frag>, and <frag id="F3"><term sem="Protein_molecule" id="A3">Jun</term></frag> <frag id="F4">proteins</frag></cons> in binding activity to the <term sem="DNA_domain_or_region" id="T2" lex="IL-2_promoter_CD28_response_element/AP-1_sequence"><term sem="DNA_domain_or_region" id="T3" lex="IL-2_promoter">IL-2 promoter</term> CD28 response element/<term sem="Protein_molecule" id="T4" lex="AP-1">AP-1</term> sequence</term> in <term sem="Cell_natural" id="T5" lex="human_T_cell">human T cells</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T2" />
+<clue>Involvement of Rel, Fos, and Jun proteins in <clueType>binding activity</clueType> <linkTheme>to</linkTheme> the IL-2 promoter CD28 response element<linkTheme>/</linkTheme>AP-1 sequence in human T cells.</clue>
+<comment>OKAP &quot;another THEME is not mentioned&quot;</comment>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="A1" />
+<clue><clueType>Involvement</clueType> <linkCause>of</linkCause> Rel, Fos, and Jun proteins <linkTheme>in</linkTheme> binding activity to the IL-2 promoter CD28 response element/AP-1 sequence <clueLoc>in human T cells</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="A2" />
+<clue><clueType>Involvement</clueType> <linkCause>of</linkCause> Rel, Fos, and Jun proteins <linkTheme>in</linkTheme> binding activity to the IL-2 promoter CD28 response element/AP-1 sequence <clueLoc>in human T cells</clueLoc>.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="A3" />
+<clue><clueType>Involvement</clueType> <linkCause>of</linkCause> Rel, Fos, and Jun proteins <linkTheme>in</linkTheme> binding activity to the IL-2 promoter CD28 response element/AP-1 sequence <clueLoc>in human T cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T6" lex="CD28">CD28</term> is an important <term sem="Protein_family_or_group" id="T7" lex="costimulatory_molecule">costimulatory molecule</term> in the activation of <term sem="Cell_natural" id="T8" lex="human_T_cell">human T cells</term>.</sentence>
+<event uncertainty="probable" id="E5">
+<type class="Physiological_process" />
+<theme idref="E6" />
+<cause idref="T6" />
+<clue>CD28 is an important <clueType>costimulatory</clueType> molecule <linkTheme>in</linkTheme> the activation of human T cells.</clue>
+</event>
+<event id="E6">
+<type class="Physiological_process" />
+<theme idref="T8" />
+<clue>CD28 is an important costimulatory molecule in the <clueType>activation</clueType> <linkTheme>of</linkTheme> human T cells.</clue>
+</event>
+<sentence id="S3">Costimulation of <term sem="Cell_natural" id="T9" lex="T_cell">T cells</term> through both the <term sem="Protein_family_or_group" id="A4">Ag receptor</term> and <term sem="Protein_molecule" id="T10" lex="CD28">CD28</term> leads to high level <term sem="Other" id="T11" lex="IL-2_production"><term sem="Protein_molecule" id="T12" lex="IL-2">IL-2</term> production</term>, which is vital to the development of an <term sem="Other" id="A5">immune response</term> in vivo.</sentence>
+<event id="E7">
+<type class="Physiological_process" />
+<theme idref="T9" />
+<cause idref="A4" />
+<clue><clueType>Costimulation</clueType> <linkTheme>of</linkTheme> T cells <linkCause>through</linkCause> both the Ag receptor and CD28 leads to high level IL-2 production, which is vital to the development of an immune response in vivo.</clue>
+</event>
+<event id="E32">
+<type class="Physiological_process" />
+<theme idref="T9" />
+<cause idref="T10" />
+<clue><clueType>Costimulation</clueType> <linkTheme>of</linkTheme> T cells <linkCause>through</linkCause> both the Ag receptor and CD28 leads to high level IL-2 production, which is vital to the development of an immune response in vivo.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="E7" />
+<cause idref="E32" />
+<clue>Costimulation of T cells through both the Ag receptor and CD28 <clueType>leads</clueType> <linkTheme>to</linkTheme> high level IL-2 production, which is vital to the development of an immune response in vivo.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T12" />
+<clue>Costimulation of T cells through both the Ag receptor and CD28 leads to high level IL-2 <clueType>production</clueType>, which is vital to the development of an immune response in vivo.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<clue>Costimulation of T cells through both the Ag receptor and CD28 leads to <clueType>high level</clueType> IL-2 production, which is vital to the development of an immune response in vivo.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="E34" />
+<clue>Costimulation of T cells through both the Ag receptor and CD28 leads to high level IL-2 production, which is <clueType>vital to the development</clueType> <linkTheme>of</linkTheme> an immune response in vivo.</clue>
+</event>
+<sentence id="S4">Previous reports have suggested the <term sem="Protein_molecule" id="T13" lex="CD28">CD28</term> stimulation contributes to the activation of the <term sem="DNA_domain_or_region" id="T14" lex="IL-2_promoter"><term sem="Protein_molecule" id="T15" lex="IL-2">IL-2</term> promoter</term> by up-regulating the activity of several <term sem="Protein_family_or_group" id="T16" lex="transcription_factor">transcription factors</term>, including <term sem="Protein_molecule" id="T17" lex="AP-1">AP-1</term> and <term sem="Protein_family_or_group" id="T18" lex="nuclear_factor-kappaB_(NF-kappaB)/Rel_family_member"><term sem="Protein_complex" id="T19" lex="nuclear_factor-kappaB">nuclear factor-kappaB</term> (<term sem="Protein_complex" id="T20" lex="NF-kappaB">NF-kappaB</term>)/<term sem="Protein_family_or_group" id="T21" lex="Rel">Rel</term> family members</term> as well as an <term sem="Protein_family_or_group" id="T22" lex="uncharacterized_transcription_factor">uncharacterized transcription factor</term> called <term sem="Protein_complex" id="A6"><term sem="Protein_molecule" id="T23" lex="CD28">CD28</term> response complex</term>.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<cause idref="T13" />
+<clue>Previous reports have suggested the CD28 <clueType>stimulation</clueType> contributes to the activation of the IL-2 promoter by up-regulating the activity of several transcription factors, including AP-1 and nuclear factor-kappaB (NF-kappaB)/Rel family members as well as an uncharacterized transcription factor called CD28 response complex.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<clue>Previous reports have suggested the CD28 stimulation contributes to the <clueType>activation</clueType> <linkTheme>of</linkTheme> the IL-2 promoter by up-regulating the activity of several transcription factors, including AP-1 and nuclear factor-kappaB (NF-kappaB)/Rel family members as well as an uncharacterized transcription factor called CD28 response complex.</clue>
+</event>
+<event uncertainty="probable" id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E16" />
+<clue>Previous reports have suggested the CD28 stimulation <clueType>contributes</clueType> <linkTheme>to</linkTheme> the activation of the IL-2 promoter <linkCause>by</linkCause> up-regulating the activity of several transcription factors, including AP-1 and nuclear factor-kappaB (NF-kappaB)/Rel family members as well as an uncharacterized transcription factor called CD28 response complex.</clue>
+</event>
+<event uncertainty="probable" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E17" />
+<clue>Previous reports have suggested the CD28 stimulation <clueType>contributes</clueType> <linkTheme>to</linkTheme> the activation of the IL-2 promoter <linkCause>by</linkCause> up-regulating the activity of several transcription factors, including AP-1 and nuclear factor-kappaB (NF-kappaB)/Rel family members as well as an uncharacterized transcription factor called CD28 response complex.</clue>
+</event>
+<event uncertainty="probable" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E18" />
+<clue>Previous reports have suggested the CD28 stimulation <clueType>contributes</clueType> <linkTheme>to</linkTheme> the activation of the IL-2 promoter <linkCause>by</linkCause> up-regulating the activity of several transcription factors, including AP-1 and nuclear factor-kappaB (NF-kappaB)/Rel family members as well as an uncharacterized transcription factor called CD28 response complex.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="E11" />
+<clue>Previous reports have suggested the CD28 stimulation contributes to the activation of the IL-2 promoter by <clueType>up-regulating</clueType> the activity <linkTheme>of</linkTheme> <corefTheme>several transcription factors</corefTheme>, including AP-1 and nuclear factor-kappaB (NF-kappaB)/Rel family members as well as an uncharacterized transcription factor called CD28 response complex.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T18" />
+<cause idref="E11" />
+<clue>Previous reports have suggested the CD28 stimulation contributes to the activation of the IL-2 promoter by <clueType>up-regulating</clueType> the activity <linkTheme>of</linkTheme> <corefTheme>several transcription factors</corefTheme>, including AP-1 and nuclear factor-kappaB (NF-kappaB)/Rel family members as well as an uncharacterized transcription factor called CD28 response complex.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="A6" />
+<clue>Previous reports have suggested the CD28 stimulation contributes to the activation of the IL-2 promoter by <clueType>up-regulating</clueType> the activity <linkTheme>of</linkTheme> several transcription factors, including AP-1 and nuclear factor-kappaB (NF-kappaB)/Rel family members as well as an <corefTheme>uncharacterized transcription factor</corefTheme> called CD28 response complex.</clue>
+</event>
+<sentence id="S5">While several lines of investigation have suggested that <term sem="Protein_family_or_group" id="T24" lex="NF-kappaB/Rel_family_member">NF-kappaB/Rel family members</term> make up the <term sem="Protein_family_or_group" id="A7"><term sem="Protein_molecule" id="T25" lex="CD28">CD28</term> response complex <term sem="Protein_family_or_group" id="T26" lex="transcription_factor">transcription factor</term></term>, other work has not supported this conclusion.</sentence>
+<sentence id="S6">Recent studies suggest that the <term sem="DNA_domain_or_region" id="T27" lex="CD28_response_element"><term sem="Protein_molecule" id="T28" lex="CD28">CD28</term> response element</term> (<term sem="DNA_domain_or_region" id="T29" lex="CD28RE">CD28RE</term>) does not function independently but works instead in conjunction with the <term sem="DNA_domain_or_region" id="T30" lex="adjacent_promoter_proximal_AP-1-binding_site">adjacent promoter proximal <term sem="DNA_domain_or_region" id="T31" lex="AP-1-binding_site"><term sem="Protein_molecule" id="T32" lex="AP-1">AP-1</term>-binding site</term></term> and this hypothesis is confirmed here.</sentence>
+<event assertion="non-exist" id="E33">
+<type class="Regulation" />
+<theme idref="T29" />
+<clue>Recent studies suggest that the CD28 response element (CD28RE) does not <clueType>function</clueType> independently but works instead in conjunction with the adjacent promoter proximal AP-1-binding site and this hypothesis is confirmed here.</clue>
+</event>
+<event id="E20">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="T30" />
+<clue>Recent studies suggest that the CD28 response element (CD28RE) does not function independently but works instead in <clueType>conjunction</clueType> <linkTheme>with</linkTheme> the adjacent promoter proximal AP-1-binding site and this hypothesis is confirmed here.</clue>
+<comment>OKAP not bind</comment>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="E20" />
+<clue>Recent studies suggest that the CD28 response element (CD28RE) does not function independently but <clueType>works</clueType> instead <linkCause>in</linkCause> conjunction with the adjacent promoter proximal AP-1-binding site and this hypothesis is confirmed here.</clue>
+</event>
+<sentence id="S7">Also in the current study, binding activity to the <term sem="DNA_domain_or_region" id="T33" lex="CD28RE/AP-1_sequence"><term sem="DNA_domain_or_region" id="T34" lex="CD28RE">CD28RE</term>/AP-1 sequence</term> of the <term sem="DNA_domain_or_region" id="T35" lex="IL-2_promoter"><term sem="Protein_molecule" id="T36" lex="IL-2">IL-2</term> promoter</term> is evaluated.</sentence>
+<event uncertainty="doubtful" id="E21">
+<type class="Binding" />
+<theme idref="T33" />
+<theme idref="T35" />
+<clue>Also in the current study, <clueType>binding activity</clueType> <linkTheme>to</linkTheme> the CD28RE/AP-1 sequence <linkTheme>of</linkTheme> the IL-2 promoter is evaluated.</clue>
+<comment>OKAP not bind &quot;T33 is a part of T35&quot;</comment>
+</event>
+<sentence id="S8">Although <term sem="Protein_complex" id="A9">four specific complexes</term> can be detected binding to this sequence, only <term sem="Protein_complex" id="A20">one of these complexes</term> is specific for both the <term sem="DNA_domain_or_region" id="T37" lex="CD28RE">CD28RE</term> and the <term sem="DNA_domain_or_region" id="T38" lex="adjacent_AP-1_site">adjacent AP-1 site</term>.</sentence>
+<event uncertainty="probable" id="E22">
+<type class="Binding" />
+<theme idref="A9" />
+<theme idref="T33" />
+<clue>Although four specific complexes can be detected <clueType>binding</clueType> <linkTheme>to</linkTheme> <corefTheme>this sequence</corefTheme>, only one of these complexes is specific for both the CD28RE and the adjacent AP-1 site.</clue>
+</event>
+<event id="E23">
+<type class="Binding" />
+<theme idref="A20" />
+<theme idref="T37" />
+<clue>Although four specific complexes can be detected binding to this sequence, only <corefTheme>one of these complexes</corefTheme> is <clueType>specific</clueType> <linkTheme>for</linkTheme> both the CD28RE and the adjacent AP-1 site.</clue>
+</event>
+<event id="E24">
+<type class="Binding" />
+<theme idref="A20" />
+<theme idref="T38" />
+<clue>Although four specific complexes can be detected binding to this sequence, only <corefTheme>one of these complexes</corefTheme> is <clueType>specific</clueType> <linkTheme>for</linkTheme> both the CD28RE and the adjacent AP-1 site.</clue>
+</event>
+<sentence id="S9">Of the <term sem="Protein_family_or_group" id="T39" lex="NF-kappaB/Rel_family_member">NF-kappaB/Rel family members</term> tested, this <term sem="Protein_complex" id="T40" lex="CD28RE/AP-1-specific_complex"><term sem="DNA_domain_or_region" id="T41" lex="CD28RE">CD28RE</term>/AP-1-specific complex</term> contains predominantly <term sem="Protein_molecule" id="T42" lex="c-Rel">c-Rel</term>, despite the fact that both <term sem="Protein_molecule" id="T43" lex="p50">p50</term> and <term sem="Protein_molecule" id="T44" lex="RelA">RelA</term> can efficiently bind to the <term sem="DNA_domain_or_region" id="T45" lex="CD28RE">CD28RE</term>.</sentence>
+<event uncertainty="probable" id="E26">
+<type class="Binding" />
+<theme idref="T43" />
+<theme idref="T45" />
+<clue>Of the NF-kappaB/Rel family members tested, this CD28RE/AP-1-specific complex contains predominantly c-Rel, despite the fact that both p50 and RelA can efficiently <clueType>bind</clueType> <linkTheme>to</linkTheme> the CD28RE.</clue>
+</event>
+<event uncertainty="probable" id="E27">
+<type class="Binding" />
+<theme idref="T44" />
+<theme idref="T45" />
+<clue>Of the NF-kappaB/Rel family members tested, this CD28RE/AP-1-specific complex contains predominantly c-Rel, despite the fact that both p50 and RelA can efficiently <clueType>bind</clueType> <linkTheme>to</linkTheme> the CD28RE.</clue>
+</event>
+<sentence id="S10"><term sem="Protein_molecule" id="T46" lex="c-Fos">c-Fos</term> and <term sem="Protein_molecule" id="T47" lex="c-Jun">c-Jun</term> are also found in this <term sem="Protein_complex" id="T48" lex="CD28RE/AP-1-specific_complex"><term sem="DNA_domain_or_region" id="T49" lex="CD28RE">CD28RE</term>/AP-1-specific complex</term>.</sentence>
+<sentence id="S11">These data indicate that <term sem="Protein_complex" id="A11"><term sem="Protein_complex" id="A10">functional complexes</term> encompassing both the <term sem="DNA_domain_or_region" id="T50" lex="CD28RE">CD28RE</term> and the <term sem="DNA_domain_or_region" id="T51" lex="AP-1-binding_site">AP-1-binding sites</term></term> influence <term sem="Other" id="T52" lex="IL-2_promoter_activity"><term sem="DNA_domain_or_region" id="T53" lex="IL-2_promoter"><term sem="Protein_molecule" id="T54" lex="IL-2">IL-2</term> promoter</term> activity</term> in <term sem="Protein_molecule" id="T55" lex="CD28">CD28</term>-costimulated <term sem="Cell_natural" id="T56" lex="T_cell">T cells</term>.</sentence>
+<event uncertainty="probable" id="E28">
+<type class="Binding" />
+<theme idref="A10" />
+<theme idref="T50" />
+<clue>These data indicate that functional complexes <clueType>encompassing</clueType> both the CD28RE and the AP-1-binding sites influence IL-2 promoter activity in CD28-costimulated T cells.</clue>
+</event>
+<event uncertainty="probable" id="E29">
+<type class="Binding" />
+<theme idref="A10" />
+<theme idref="T51" />
+<clue>These data indicate that functional complexes <clueType>encompassing</clueType> both the CD28RE and the AP-1-binding sites influence IL-2 promoter activity in CD28-costimulated T cells.</clue>
+</event>
+<event uncertainty="probable" id="E30">
+<type class="Regulation" />
+<theme idref="T53" />
+<cause idref="A11" />
+<clue>These data indicate that functional complexes encompassing both the CD28RE and the AP-1-binding sites <clueType>influence</clueType> IL-2 promoter activity <clueLoc>in CD28-costimulated T cells</clueLoc>.</clue>
+<comment>TPS: A11</comment>
+</event>
+<event id="E31">
+<type class="Physiological_process" />
+<theme idref="T56" />
+<cause idref="T55" />
+<clue>These data indicate that functional complexes encompassing both the CD28RE and the AP-1-binding sites influence IL-2 promoter activity in CD28-<clueType>costimulated</clueType> T cells.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

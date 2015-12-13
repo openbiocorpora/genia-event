@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="28/08/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8960112" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8960112</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Cell_natural" id="T1" lex="lymphocyte">Lymphocytes</term> from <term sem="Multicellular_organism_natural" id="T2" lex="CML_patient">CML patients</term> lack a <term sem="Protein_molecule" id="T3" lex="47_kDa_factor">47 kDa factor</term> having affinity for a <term sem="DNA_domain_or_region" id="T4" lex="genomic_sterol_regulatory_sequence">genomic sterol regulatory sequence</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T3" />
+<theme idref="T4" />
+<clue>Lymphocytes from CML patients lack a 47 kDa factor <clueType>having affinity</clueType> <linkTheme>for</linkTheme> a genomic sterol regulatory sequence.</clue>
+</event>
+<event assertion="non-exist" id="E2">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue><clueLoc>Lymphocytes from CML patients</clueLoc> <clueType>lack</clueType> a 47 kDa factor having affinity for a genomic sterol regulatory sequence.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T5" lex="deranged_cellular_cholesterol_homeostasis">Deranged <term sem="Other" id="A1">cellular <term sem="Lipid" id="T6" lex="cholesterol">cholesterol</term> homeostasis</term></term> has been widely recognized in the initiation as well as progression of various types of <term sem="Other" id="A2">cancers</term> including <term sem="Other" id="T7" lex="chronic_myeloid_leukaemia">chronic myeloid leukaemia</term> (<term sem="Other" id="T8" lex="CML">CML</term>).</sentence>
+<event id="E3">
+<type />
+<theme idref="A1" />
+<clue><clueType>Deranged</clueType> cellular cholesterol homeostasis has been widely recognized in the initiation as well as progression of various types of cancers including chronic myeloid leukaemia (CML).</clue>
+<comment>SOO</comment>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<clue>Deranged cellular cholesterol homeostasis has been widely recognized in the <clueType>initiation</clueType> as well as progression <linkTheme>of</linkTheme> various types of cancers including chronic myeloid leukaemia (CML).</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<clue>Deranged cellular cholesterol homeostasis has been widely recognized in the <clueType>initiation</clueType> as well as progression <linkTheme>of</linkTheme> <corefTheme>various types of cancers</corefTheme> including chronic myeloid leukaemia (CML).</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<clue>Deranged cellular cholesterol homeostasis has been widely recognized in the initiation as well as <clueType>progression</clueType> <linkTheme>of</linkTheme> various types of cancers including chronic myeloid leukaemia (CML).</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<clue>Deranged cellular cholesterol homeostasis has been widely recognized in the initiation as well as <clueType>progression</clueType> <linkTheme>of</linkTheme> <corefTheme>various types of cancers</corefTheme> including chronic myeloid leukaemia (CML).</clue>
+</event>
+<event uncertainty="probable" id="E8">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="E4" />
+<clue>Deranged cellular cholesterol homeostasis has been widely <clueType>recognized</clueType> <linkTheme>in</linkTheme> the initiation as well as progression of various types of cancers including chronic myeloid leukaemia (CML).</clue>
+</event>
+<event uncertainty="probable" id="E9">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="E5" />
+<clue>Deranged cellular cholesterol homeostasis has been widely <clueType>recognized</clueType> <linkTheme>in</linkTheme> the initiation as well as progression of various types of cancers including chronic myeloid leukaemia (CML).</clue>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="E6" />
+<clue>Deranged cellular cholesterol homeostasis has been widely <clueType>recognized</clueType> <linkTheme>in</linkTheme> the initiation as well as progression of various types of cancers including chronic myeloid leukaemia (CML).</clue>
+</event>
+<event uncertainty="probable" id="E11">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="E7" />
+<clue>Deranged cellular cholesterol homeostasis has been widely <clueType>recognized</clueType> <linkTheme>in</linkTheme> the initiation as well as progression of various types of cancers including chronic myeloid leukaemia (CML).</clue>
+</event>
+<sentence id="S3">Since the <term sem="DNA_domain_or_region" id="T9" lex="human_genomic_sterol_regulatory_element">human genomic sterol regulatory element</term> (<term sem="DNA_domain_or_region" id="T10" lex="SRE">SRE</term>) has been shown to regulate <term sem="DNA_family_or_group" id="A3">various key genes</term> involved in this phenomenon, the present study revealed the existence of a unique <term sem="Protein_molecule" id="T11" lex="47_kDa_protein_factor">47 kDa protein factor</term> having affinity for this <term sem="DNA_domain_or_region" id="T12" lex="SRE_sequence">SRE sequence</term> in <term sem="Cell_natural" id="T13" lex="lymphocyte">lymphocytes</term> from <term sem="Multicellular_organism_natural" id="T14" lex="normal_subject">normal subjects</term>, as well as its absence in <term sem="Cell_natural" id="T15" lex="lymphocyte">lymphocytes</term> from <term sem="Multicellular_organism_natural" id="T16" lex="untreated_CML_patient">untreated <term sem="Multicellular_organism_natural" id="T17" lex="CML_patient"><term sem="Other" id="T18" lex="CML">CML</term> patients</term></term>.</sentence>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="A3" />
+<clue>Since the human genomic sterol regulatory element (SRE) has been shown to regulate various key genes <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme>this phenomenon</corefTheme>, the present study revealed the existence of a unique 47 kDa protein factor having affinity for this SRE sequence in lymphocytes from normal subjects, as well as its absence in lymphocytes from untreated CML patients.</clue>
+</event>
+<event id="E112">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="A3" />
+<clue>Since the human genomic sterol regulatory element (SRE) has been shown to regulate various key genes <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme>this phenomenon</corefTheme>, the present study revealed the existence of a unique 47 kDa protein factor having affinity for this SRE sequence in lymphocytes from normal subjects, as well as its absence in lymphocytes from untreated CML patients.</clue>
+</event>
+<event id="E113">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="A3" />
+<clue>Since the human genomic sterol regulatory element (SRE) has been shown to regulate various key genes <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme>this phenomenon</corefTheme>, the present study revealed the existence of a unique 47 kDa protein factor having affinity for this SRE sequence in lymphocytes from normal subjects, as well as its absence in lymphocytes from untreated CML patients.</clue>
+</event>
+<event id="E114">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="A3" />
+<clue>Since the human genomic sterol regulatory element (SRE) has been shown to regulate various key genes <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme>this phenomenon</corefTheme>, the present study revealed the existence of a unique 47 kDa protein factor having affinity for this SRE sequence in lymphocytes from normal subjects, as well as its absence in lymphocytes from untreated CML patients.</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<theme idref="A3" />
+<cause idref="T10" />
+<clue>Since the human genomic sterol regulatory element (SRE) has been shown to <clueType>regulate</clueType> various key genes involved in this phenomenon, the present study revealed the existence of a unique 47 kDa protein factor having affinity for this SRE sequence in lymphocytes from normal subjects, as well as its absence in lymphocytes from untreated CML patients.</clue>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T11" />
+<theme idref="T12" />
+<clue>Since the human genomic sterol regulatory element (SRE) has been shown to regulate various key genes involved in this phenomenon, the present study revealed the existence of a unique 47 kDa protein factor <clueType>having affinity</clueType> for this SRE sequence in lymphocytes from normal subjects, as well as its absence in lymphocytes from untreated CML patients.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>Since the human genomic sterol regulatory element (SRE) has been shown to regulate various key genes involved in this phenomenon, the present study revealed the <clueType>existence</clueType> <linkTheme>of</linkTheme> a unique 47 kDa protein factor having affinity for this SRE sequence <clueLoc>in lymphocytes from normal subjects</clueLoc>, as well as its absence in lymphocytes from untreated CML patients.</clue>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>Since the human genomic sterol regulatory element (SRE) has been shown to regulate various key genes involved in this phenomenon, the present study revealed the existence of a unique 47 kDa protein factor having affinity for this SRE sequence in lymphocytes from normal subjects, as well as <corefTheme>its</corefTheme> <clueType>absence</clueType> <clueLoc>in lymphocytes from untreated CML patients</clueLoc>.</clue>
+</event>
+<sentence id="S4">However, this factor appeared when these <term sem="Multicellular_organism_natural" id="T19" lex="CML_patient"><term sem="Other" id="T20" lex="CML">CML</term> patients</term> achieved complete <term sem="Other" id="T21" lex="haematological_remission">haematological remission</term> (<term sem="Other" id="T22" lex="CHR">CHR</term>) through <term sem="Other" id="T23" lex="alpha-interferon_therapy"><term sem="Protein_molecule" id="T24" lex="alpha-interferon">alpha-interferon</term> therapy</term>.</sentence>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>However, <corefTheme>this factor</corefTheme> <clueType>appeared</clueType> when these CML patients achieved complete haematological remission (CHR) through alpha-interferon therapy.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T24" />
+<clue>However, this factor appeared when <clueLoc>these CML patients</clueLoc> achieved complete haematological remission (CHR) <linkCause>through</linkCause> alpha-interferon therapy.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="T20" />
+<cause idref="T24" />
+<clue>However, this factor appeared when these CML patients <clueType>achieved</clueType> complete haematological <clueType>remission</clueType> (CHR) <linkCause>through</linkCause> alpha-interferon therapy.</clue>
+</event>
+<sentence id="S5">Furthermore, an inverse relationship was also observed between the <term sem="Other" id="T25" lex="LDL_receptor_gene_expression"><term sem="DNA_domain_or_region" id="T26" lex="LDL_receptor_gene"><term sem="Protein_molecule" id="T27" lex="LDL_receptor">LDL receptor</term> gene</term> expression</term> at the transcriptional level and the binding affinity of this <term sem="Protein_molecule" id="T28" lex="47_kDa_protein_factor">47 kDa protein factor</term> to the <term sem="DNA_domain_or_region" id="T29" lex="SRE_sequence">SRE sequence</term>.</sentence>
+<event id="E20">
+<type class="Transcription" />
+<theme idref="T26" />
+<clue>Furthermore, an inverse relationship was also observed between the LDL receptor gene <clueType>expression at the transcriptional level</clueType> and the binding affinity of this 47 kDa protein factor to the SRE sequence.</clue>
+</event>
+<event id="E21">
+<type class="Binding" />
+<theme idref="T28" />
+<theme idref="T29" />
+<clue>Furthermore, an inverse relationship was also observed between the LDL receptor gene expression at the transcriptional level and the <clueType>binding affinity</clueType> <linkTheme>of</linkTheme> this 47 kDa protein factor <linkTheme>to</linkTheme> the SRE sequence.</clue>
+</event>
+<event id="E22">
+<type class="Correlation" />
+<theme idref="E20" />
+<theme idref="E21" />
+<clue>Furthermore, an <clueType>inverse relationship</clueType> was also observed <linkTheme>between</linkTheme> the LDL receptor gene expression at the transcriptional level <linkTheme>and</linkTheme> the binding affinity of this 47 kDa protein factor to the SRE sequence.</clue>
+</event>
+<sentence id="S6">Based upon these results we propose that this factor may have a role in <term sem="Other" id="A11">pathophysiology of <term sem="Other" id="T30" lex="chronic_myeloid_leukaemia">chronic myeloid leukaemia</term>.</term></sentence>
+<event uncertainty="probable" id="E23">
+<type class="Positive_regulation" />
+<theme idref="A11" />
+<cause idref="T28" />
+<clue>Based upon these results we propose that <corefTheme>this factor</corefTheme> may <clueType>have a role</clueType> <linkTheme>in</linkTheme> pathophysiology of chronic myeloid leukaemia.</clue>
+<comment>TPS A11</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

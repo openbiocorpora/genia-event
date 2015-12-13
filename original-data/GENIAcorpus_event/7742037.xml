@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="15/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7742037" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7742037</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="HIV_type_1_protease_activation"><term sem="Virus" id="T2" lex="HIV_type_1">HIV type 1</term> <term sem="Protein_family_or_group" id="T3" lex="protease">protease</term> activation</term> of <term sem="Protein_molecule" id="T4" lex="NF-kappa_B">NF-kappa B</term> within <term sem="Cell_natural" id="T5" lex="T_lymphoid_cell">T lymphoid cells</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<cause idref="T2" />
+<clue>HIV type 1 protease <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B <clueLoc>within T lymphoid cells.</clueLoc></clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T6" lex="NF-kappa_B">NF-kappa B</term> is a <term sem="Protein_family_or_group" id="T7" lex="nuclear_protein">nuclear protein</term> of the <term sem="Protein_family_or_group" id="T8" lex="rel_oncogene_family">rel oncogene family</term> capable of enhancing transcription of <term sem="DNA_family_or_group" id="T9" lex="several_cellular_gene">several cellular genes</term>, including <term sem="Protein_molecule" id="T10" lex="IL-2">IL-2</term> and the <term sem="Protein_molecule" id="T11" lex="IL-2_receptor"><term sem="Protein_molecule" id="T12" lex="IL-2">IL-2</term> receptor</term>, and <term sem="DNA_family_or_group" id="T13" lex="viral_gene">viral genes</term> transcribed from the <term sem="DNA_domain_or_region" id="T14" lex="HIV-1_LTR">HIV-1 LTR</term>.</sentence>
+<event id="E2">
+<type class="Transcription" />
+<theme idref="T10" />
+<clue>NF-kappa B is a nuclear protein of the rel oncogene family capable of enhancing <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>several cellular genes</corefTheme>, including IL-2 and the IL-2 receptor, and viral genes transcribed from the HIV-1 LTR.</clue>
+</event>
+<event id="E3">
+<type class="Transcription" />
+<theme idref="T11" />
+<clue>NF-kappa B is a nuclear protein of the rel oncogene family capable of enhancing <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>several cellular genes</corefTheme>, including IL-2 and the IL-2 receptor, and viral genes transcribed from the HIV-1 LTR.</clue>
+</event>
+<event id="E4">
+<type class="Transcription" />
+<theme idref="T13" />
+<clue>NF-kappa B is a nuclear protein of the rel oncogene family capable of enhancing <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>several cellular genes</corefTheme>, including IL-2 and the IL-2 receptor, and viral genes transcribed from the HIV-1 LTR.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T8" />
+<clue>NF-kappa B is a nuclear protein of the rel oncogene family capable of <clueType>enhancing</clueType> transcription of several cellular genes, including IL-2 and the IL-2 receptor, and viral genes transcribed from the HIV-1 LTR.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T8" />
+<clue>NF-kappa B is a nuclear protein of the rel oncogene family capable of <clueType>enhancing</clueType> transcription of several cellular genes, including IL-2 and the IL-2 receptor, and viral genes transcribed from the HIV-1 LTR.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T8" />
+<clue>NF-kappa B is a nuclear protein of the rel oncogene family capable of <clueType>enhancing</clueType> transcription of several cellular genes, including IL-2 and the IL-2 receptor, and viral genes transcribed from the HIV-1 LTR.</clue>
+</event>
+<event id="E50">
+<type class="Transcription" />
+<theme idref="T13" />
+<clue>NF-kappa B is a nuclear protein of the rel oncogene family capable of enhancing transcription of several cellular genes, including IL-2 and the IL-2 receptor, and viral genes <clueType>transcribed</clueType> from the HIV-1 LTR.</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation" />
+<theme idref="E50" />
+<cause idref="T14" />
+<clue>NF-kappa B is a nuclear protein of the rel oncogene family capable of enhancing transcription of several cellular genes, including IL-2 and the IL-2 receptor, and viral genes transcribed <linkCause>from</linkCause> the HIV-1 LTR.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S3">It has been reported that <term sem="Protein_molecule" id="T15" lex="HIV-1_protease">HIV-1 protease</term> may cleave the <term sem="Protein_molecule" id="A2"><term sem="Protein_molecule" id="T16" lex="NF-kappa_B">NF-kappa B</term> precursor</term> to its active form in vitro.</sentence>
+<event uncertainty="probable" id="E108">
+<type class="Protein_processing" />
+<theme idref="A2" />
+<clue>It has been reported that HIV-1 protease may <clueType>cleave</clueType> the NF-kappa B precursor to its active form in vitro.</clue>
+<comment>CAUTION, &quot;its active form&quot; vague to be PRODUCT</comment>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E108" />
+<cause idref="T15" />
+<clue>It has been reported that HIV-1 protease may cleave the NF-kappa B precursor to its active form in vitro.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S4">In this study the effects of <term sem="Protein_molecule" id="A3"><term sem="Virus" id="T17" lex="HIV">HIV</term> protease</term> on <term sem="Other" id="T18" lex="NF-kappa_B_precursor_activation"><term sem="Protein_molecule" id="A21"><term sem="Protein_molecule" id="T19" lex="NF-kappa_B">NF-kappa B</term> precursor</term> activation</term> were examined in Jurkat <term sem="Cell_natural" id="T20" lex="T_cell">T cells</term> by introducing a <term sem="DNA_molecule" id="T21" lex="protease_expression_vector">protease expression vector</term> into the cells.</sentence>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="A21" />
+<clue>In this study the effects of HIV protease on NF-kappa B precursor <clueType>activation</clueType> were examined in Jurkat T cells by introducing a protease expression vector into the cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E10">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="A3" />
+<clue>In this study the <clueType>effects</clueType> <linkCause>of</linkCause> HIV protease <linkTheme>on</linkTheme> NF-kappa B precursor activation were examined <clueLoc>in Jurkat T cells</clueLoc> <clueExperiment>by introducing a protease expression vector into the cells</clueExperiment>.</clue>
+</event>
+<event id="E100">
+<type class="Gene_expression" />
+<theme idref="A3" />
+<clue>In this study the effects of HIV protease on NF-kappa B precursor activation were examined in Jurkat T cells by introducing a <corefTheme>protease</corefTheme> <clueType>expression</clueType> vector into the cells.</clue>
+</event>
+<event id="E101">
+<type class="Positive_regulation" />
+<theme idref="E100" />
+<clue>In this study the effects of HIV protease on NF-kappa B precursor activation were examined <clueLoc>in Jurkat T cells</clueLoc> by <clueType>introducing</clueType> a protease expression vector into the cells.</clue>
+</event>
+<sentence id="S5">Increased <term sem="Other" id="T22" lex="NF-kappa_B_activity"><term sem="Protein_molecule" id="T23" lex="NF-kappa_B">NF-kappa B</term> activity</term> was observed and this increased activity was blocked by a specific <term sem="Other" id="A4">inhibitor of the <term sem="Protein_molecule" id="T24" lex="viral_protease">viral protease</term></term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<cause idref="E101" />
+<clue><clueType>Increased</clueType> NF-kappa B activity was observed and this increased activity was blocked by a specific inhibitor of the viral protease.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="A4" />
+<clue>Increased NF-kappa B activity was observed and <corefTheme>this increased activity</corefTheme> was <clueType>blocked</clueType> <linkCause>by</linkCause> a specific inhibitor of the viral protease.</clue>
+<comment>TPS: A4</comment>
+</event>
+<sentence id="S6"><term sem="Other" id="A5">Viral transcription</term>, as measured using <term sem="Other" id="T25" lex="LTR-CAT_assay"><term sem="DNA_domain_or_region" id="T26" lex="LTR">LTR</term><term sem="Protein_molecule" id="T27" lex="CAT">-CAT</term> assays</term>, was only slightly enhanced in the <term sem="Cell_natural" id="T28" lex="HIV-protease_expressing_cell"><term sem="Protein_family_or_group" id="A30">HIV-protease</term> expressing cells</term>, while secretion of <term sem="Protein_molecule" id="T29" lex="IL-2">IL-2</term> and expression of the <term sem="Protein_molecule" id="A6"><term sem="Protein_molecule" id="T30" lex="IL-2">IL-2</term> receptor</term> were not affected.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<clue>Viral transcription, <clueExperiment>as measured using LTR-CAT assays,</clueExperiment> was only slightly <clueType>enhanced</clueType> <clueLoc>in the HIV-protease expressing cells</clueLoc>, while secretion of IL-2 and expression of the IL-2 receptor were not affected.</clue>
+</event>
+<event id="E16">
+<type class="Localization" />
+<theme idref="T29" />
+<clue>Viral transcription, as measured using LTR-CAT assays, was only slightly enhanced in the HIV-protease expressing cells, while <clueType>secretion</clueType> <linkTheme>of</linkTheme> IL-2 and expression of the IL-2 receptor were not affected.</clue>
+</event>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="A6" />
+<clue>Viral transcription, as measured using LTR-CAT assays, was only slightly enhanced in the HIV-protease expressing cells, while secretion of IL-2 and <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL-2 receptor were not affected.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Regulation" />
+<theme idref="E16" />
+<clue>Viral transcription, as measured using LTR-CAT assays, was only slightly enhanced <clueLoc>in the HIV-protease expressing cells</clueLoc>, while secretion of IL-2 and expression of the IL-2 receptor were not <clueType>affected</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Regulation" />
+<theme idref="E17" />
+<clue>Viral transcription, as measured using LTR-CAT assays, was only slightly enhanced <clueLoc>in the HIV-protease expressing cells</clueLoc>, while secretion of IL-2 and expression of the IL-2 receptor were not <clueType>affected</clueType>.</clue>
+</event>
+<event id="E60">
+<type class="Gene_expression" />
+<theme idref="A30" />
+<clue>Viral transcription, as measured using LTR-CAT assays, was only slightly enhanced in the HIV-protease <clueType>expressing</clueType> <clueLoc>cells</clueLoc>, while secretion of IL-2 and expression of the IL-2 receptor were not affected.</clue>
+</event>
+<sentence id="S7">The limited activation of <term sem="Protein_molecule" id="T31" lex="NF-kappa_B">NF-kappa B</term> by <term sem="Protein_molecule" id="T32" lex="HIV_protease">HIV protease</term> appears unlikely to have a significant effect on <term sem="Other" id="T33" lex="virus_expression"><term sem="Virus" id="A7">virus</term> expression</term> or <term sem="Other" id="T34" lex="T_cell_function">T cell function</term>.</sentence>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T31" />
+<cause idref="T32" />
+<clue>The limited <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B <linkCause>by</linkCause> HIV protease appears unlikely to have a significant effect on virus expression or T cell function.</clue>
+</event>
+<event id="E21">
+<type class="Viral_life_cycle" />
+<theme idref="A7" />
+<clue>The limited activation of NF-kappa B by HIV protease appears unlikely to have a significant effect on virus <clueType>expression</clueType> or T cell function.</clue>
+</event>
+<event assertion="non-exist" id="E23">
+<type class="Regulation" />
+<theme idref="T34" />
+<cause idref="E20" />
+<clue>The limited activation of NF-kappa B by HIV protease appears unlikely to have a significant <clueType>effect</clueType> <linkTheme>on</linkTheme> virus expression or T cell function.</clue>
+</event>
+<event assertion="non-exist" id="E24">
+<type class="Regulation" />
+<theme idref="E21" />
+<cause idref="E20" />
+<clue>The limited activation of NF-kappa B by HIV protease appears unlikely to have a significant <clueType>effect</clueType> <linkTheme>on</linkTheme> virus expression or T cell function.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="29/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9916709" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9916709</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="T_cell_priming"><term sem="Cell_natural" id="A1">T cell</term> priming</term> enhances <term sem="Other" id="T2" lex="IL-4_gene_expression"><term sem="DNA_domain_or_region" id="T3" lex="IL-4_gene">IL-4 gene</term> expression</term> by increasing <term sem="Protein_family_or_group" id="T4" lex="nuclear_factor_of_activated_T_cells">nuclear factor of activated T cells</term>.</sentence>
+<event id="E1">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<clue>T cell <clueType>priming</clueType> enhances IL-4 gene expression by increasing nuclear factor of activated T cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="E4" />
+<clue>T cell priming <clueType>enhances</clueType> IL-4 gene expression <linkCause>by</linkCause> increasing nuclear factor of activated T cells.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>T cell priming enhances IL-4 gene <clueType>expression</clueType> by increasing nuclear factor of activated T cells.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<cause idref="E1" />
+<clue>T cell priming enhances IL-4 gene expression by <clueType>increasing</clueType> nuclear factor of activated T cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Other" id="T5" lex="repetitive_activation">repetitive activation</term> of <term sem="Cell_natural" id="T6" lex="T_cell">T cells</term> (priming) enhances the expression of many <term sem="Protein_family_or_group" id="T7" lex="cytokine">cytokines</term>, such as <term sem="Protein_molecule" id="A2">IL-4</term>, but not others, such as <term sem="Protein_molecule" id="T8" lex="IL-2">IL-2</term>.</sentence>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="T6" />
+<clue>The <clueType>repetitive activation</clueType> <linkTheme>of</linkTheme> T cells (priming) enhances the expression of many cytokines, such as IL-4, but not others, such as IL-2.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E5" />
+<clue>The repetitive activation of T cells (priming) <clueType>enhances</clueType> the expression of many cytokines, such as IL-4, but not others, such as IL-2.</clue>
+</event>
+<event assertion="non-exist" id="E7">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E5" />
+<clue>The repetitive activation of T cells (priming) <clueType>enhances</clueType> the expression of many cytokines, such as IL-4, but not others, such as IL-2.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>The repetitive activation of T cells (priming) enhances the <clueType>expression</clueType> <linkTheme>of</linkTheme> many <corefTheme>cytokines</corefTheme>, such as IL-4, but not others, such as IL-2.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>The repetitive activation of T cells (priming) enhances the <clueType>expression</clueType> <linkTheme>of</linkTheme> many <corefTheme idref1="T8">cytokines</corefTheme>, such as IL-4, but not <corefTheme idref1="T8">others</corefTheme>, such as IL-2.</clue>
+</event>
+<sentence id="S3"><term sem="Other" id="A3">Molecular mechanisms</term> underlying <term sem="Other" id="T9" lex="selective_expression">selective expression</term> of <term sem="Protein_family_or_group" id="T10" lex="cytokine">cytokines</term> by <term sem="Cell_natural" id="T11" lex="T_cell">T cells</term> remain poorly understood.</sentence>
+<event uncertainty="doubtful" id="E11">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="A3" />
+<clue>Molecular mechanisms <clueType>underlying</clueType> selective expression of cytokines by T cells remain poorly understood.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>Molecular mechanisms underlying selective <clueType>expression</clueType> <linkTheme>of</linkTheme> cytokines <clueLoc>by T cells</clueLoc> remain poorly understood.</clue>
+</event>
+<sentence id="S4">Here we show that priming of <term sem="Cell_natural" id="T12" lex="CD4_T_cell">CD4 T cells</term> selectively enhances <term sem="Other" id="T13" lex="IL-4_expression"><term sem="Protein_molecule" id="T14" lex="IL-4">IL-4</term> expression</term> relative to <term sem="Protein_molecule" id="T15" lex="IL-2">IL-2</term> expression by a <term sem="Other" id="A5">transcriptional mechanism</term> involving <term sem="Protein_family_or_group" id="T16" lex="nuclear_factor_of_activated_T_cells_(NFAT)_protein"><term sem="Protein_family_or_group" id="T17" lex="nuclear_factor_of_activated_T_cells">nuclear factor of activated T cells</term> (<term sem="Protein_family_or_group" id="A4">NFAT) proteins</term></term>.</sentence>
+<event id="E12">
+<type class="Physiological_process" />
+<theme idref="T12" />
+<clue>Here we show that <clueType>priming</clueType> <linkTheme>of</linkTheme> CD4 T cells selectively enhances IL-4 expression relative to IL-2 expression by a transcriptional mechanism involving nuclear factor of activated T cells (NFAT) proteins.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E12" />
+<clue>Here we show that priming of CD4 T cells selectively <clueType>enhances</clueType> IL-4 expression relative to IL-2 expression by a transcriptional mechanism involving nuclear factor of activated T cells (NFAT) proteins.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="A5" />
+<clue>Here we show that priming of CD4 T cells selectively enhances IL-4 expression relative to IL-2 expression <linkCause>by</linkCause> a transcriptional mechanism involving nuclear factor of activated T cells (NFAT) proteins.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>Here we show that priming of CD4 T cells selectively enhances IL-4 <clueType>expression</clueType> relative to IL-2 expression by a transcriptional mechanism involving nuclear factor of activated T cells (NFAT) proteins.</clue>
+</event>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>Here we show that priming of CD4 T cells selectively enhances IL-4 expression relative to IL-2 <clueType>expression</clueType> by a transcriptional mechanism involving nuclear factor of activated T cells (NFAT) proteins.</clue>
+</event>
+<event id="E18">
+<type class="Regulation" />
+<theme idref="A5" />
+<cause idref="A4" />
+<clue>Here we show that priming of CD4 T cells selectively enhances IL-4 expression relative to IL-2 expression by a transcriptional mechanism <clueType>involving</clueType> nuclear factor of activated T cells (NFAT) proteins.</clue>
+</event>
+<sentence id="S5">As detected by <term sem="Other" id="T18" lex="in_vivo_footprinting">in vivo footprinting</term>, priming markedly increases the activation-dependent engagement of the <term sem="DNA_domain_or_region" id="T19" lex="P0">P0</term> and <term sem="DNA_domain_or_region" id="T20" lex="P1">P1</term> <term sem="DNA_family_or_group" id="T21" lex="NFAT-binding_element"><term sem="Protein_family_or_group" id="A6">NFAT</term>-binding elements</term> of the <term sem="DNA_domain_or_region" id="T22" lex="IL-4_promoter"><term sem="Protein_molecule" id="T23" lex="IL-4">IL-4</term> promoter</term>.</sentence>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="E12" />
+<clue>As detected <clueExperiment>by in vivo footprinting</clueExperiment>, <corefCause>priming</corefCause> markedly <clueType>increases</clueType> the activation-dependent engagement of the P0 and P1 NFAT-binding elements of the IL-4 promoter.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E12" />
+<clue>As detected <clueExperiment>by in vivo footprinting</clueExperiment>, <corefCause>priming</corefCause> markedly <clueType>increases</clueType> the activation-dependent engagement of the P0 and P1 NFAT-binding elements of the IL-4 promoter.</clue>
+</event>
+<event id="E21">
+<type class="Binding" />
+<theme idref1="T22" idref="T19" />
+<theme idref="A6" />
+<clue>As detected by in vivo footprinting, priming markedly increases the activation-dependent <clueType>engagement</clueType> <linkTheme>of</linkTheme> the P0 and P1 NFAT-binding elements of the IL-4 promoter.</clue>
+</event>
+<event id="E22">
+<type class="Binding" />
+<theme idref1="T22" idref="T20" />
+<theme idref="A6" />
+<clue>As detected by in vivo footprinting, priming markedly increases the activation-dependent <clueType>engagement</clueType> <linkTheme>of</linkTheme> the P0 and P1 NFAT-binding elements of the IL-4 promoter.</clue>
+</event>
+<event id="E23">
+<type class="Regulation" />
+<theme idref="E21" />
+<cause idref="E25" />
+<clue>As detected by in vivo footprinting, priming markedly increases the activation-<clueType>dependent</clueType> engagement of the P0 and P1 NFAT-binding elements of the IL-4 promoter.</clue>
+</event>
+<event id="E24">
+<type class="Regulation" />
+<theme idref="E22" />
+<cause idref="E25" />
+<clue>As detected by in vivo footprinting, priming markedly increases the activation-<clueType>dependent</clueType> engagement of the P0 and P1 NFAT-binding elements of the IL-4 promoter.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<clue>As detected by in vivo footprinting, priming markedly increases the <clueType>activation</clueType>-dependent engagement of the P0 and P1 NFAT-binding elements of the IL-4 promoter.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<sentence id="S6">Moreover, each <term sem="DNA_domain_or_region" id="T24" lex="proximal_P_element">proximal P element</term> is essential for optimal <term sem="Other" id="T25" lex="IL-4_promoter_activity"><term sem="DNA_domain_or_region" id="T26" lex="IL-4_promoter"><term sem="Protein_molecule" id="T27" lex="IL-4">IL-4</term> promoter</term> activity</term>.</sentence>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<cause idref1="T22" idref="T19" />
+<clue>Moreover, <corefCause>each proximal P element</corefCause> is <clueType>essential</clueType> <linkTheme>for</linkTheme> optimal IL-4 promoter activity.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<cause idref1="T22" idref="T20" />
+<clue>Moreover, <corefCause>each proximal P element</corefCause> is <clueType>essential</clueType> <linkTheme>for</linkTheme> optimal IL-4 promoter activity.</clue>
+</event>
+<sentence id="S7">Activated primed <term sem="Cell_natural" id="T28" lex="CD4_T_cell">CD4 T cells</term> contain more <term sem="Protein_molecule" id="T29" lex="NFAT1">NFAT1</term> and support greater <term sem="Protein_family_or_group" id="T31" lex="NFAT">NFAT</term>-directed <term sem="Other" id="A7">transcription</term> than unprimed <term sem="Cell_natural" id="T32" lex="CD4_T_cell">CD4 T cells</term>, while <term sem="Other" id="T33" lex="activator_protein_1_binding"><term sem="Protein_molecule" id="T34" lex="activator_protein_1">activator protein 1</term> binding</term> and <term sem="Protein_molecule" id="T36" lex="activator_protein_1">activator protein 1</term>-mediated <term sem="Other" id="A8">transcription</term> by both cell types is similar.</sentence>
+<event id="E28">
+<type class="Physiological_process" />
+<theme idref="T28" />
+<clue><clueType>Activated primed</clueType> CD4 T cells contain more NFAT1 and support greater NFAT-directed transcription than unprimed CD4 T cells, while activator protein 1 binding and activator protein 1-mediated transcription by both cell types is similar.</clue>
+</event>
+<event id="E29">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue><clueLoc>Activated primed CD4 T cells</clueLoc> <clueType>contain</clueType> more NFAT1 and support greater NFAT-directed transcription than unprimed CD4 T cells, while activator protein 1 binding and activator protein 1-mediated transcription by both cell types is similar.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="E28" />
+<clue><clueLoc>Activated primed CD4 T cells</clueLoc> contain <clueType>more</clueType> NFAT1 and support greater NFAT-directed transcription than unprimed CD4 T cells, while activator protein 1 binding and activator protein 1-mediated transcription by both cell types is similar.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="E28" />
+<clue><clueLoc>Activated primed CD4 T cells</clueLoc> contain more NFAT1 and <clueType>support greater</clueType> NFAT-directed transcription than unprimed CD4 T cells, while activator protein 1 binding and activator protein 1-mediated transcription by both cell types is similar.</clue>
+</event>
+<event id="E32">
+<type class="Regulation" />
+<theme idref="A7" />
+<cause idref="T31" />
+<clue>Activated primed CD4 T cells contain more NFAT1 and support greater NFAT-<clueType>directed</clueType> transcription than <clueLoc>unprimed CD4 T cells</clueLoc>, while activator protein 1 binding and activator protein 1-mediated transcription by both cell types is similar.</clue>
+<comment>NER: T30, T35 del &quot;NFAT-directed transcription&quot;&quot;activator protein 1-mediated transcription&quot;</comment>
+</event>
+<event id="E33">
+<type class="Binding" />
+<theme idref="T34" />
+<clue>Activated primed CD4 T cells contain more NFAT1 and support greater NFAT-directed transcription than unprimed CD4 T cells, while activator protein 1 <clueType>binding</clueType> and activator protein 1-mediated transcription by both cell types is similar.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<cause idref="T36" />
+<clue>Activated primed CD4 T cells contain more NFAT1 and support greater NFAT-directed transcription than unprimed CD4 T cells, while activator protein 1 binding and activator protein 1-<clueType>mediated</clueType> transcription by both cell types is similar.</clue>
+</event>
+<event assertion="non-exist" id="E35">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="E28" />
+<clue>Activated primed CD4 T cells contain more NFAT1 and support greater NFAT-directed transcription than unprimed CD4 T cells, while activator protein 1 binding and activator protein 1-mediated transcription by both cell types is <clueType>similar</clueType>.</clue>
+<comment>CAUTION: not enhanced by activation (priming)</comment>
+</event>
+<event assertion="non-exist" id="E36">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="E28" />
+<clue>Activated primed CD4 T cells contain more NFAT1 and support greater NFAT-directed transcription than unprimed CD4 T cells, while activator protein 1 binding and activator protein 1-mediated transcription by both cell types is <clueType>similar</clueType>.</clue>
+<comment>CAUTION: not enhanced by activation (priming)</comment>
+</event>
+<sentence id="S8">Increased expression of wild-type <term sem="Protein_molecule" id="T37" lex="NFAT1">NFAT1</term> substantially increases <term sem="Other" id="T38" lex="IL-4_promoter_activity"><term sem="DNA_domain_or_region" id="T39" lex="IL-4_promoter"><term sem="Protein_molecule" id="T40" lex="IL-4">IL-4</term> promoter</term> activity</term> in unprimed <term sem="Cell_natural" id="T41" lex="CD4_T_cell">CD4 T cells</term>, suggesting <term sem="Protein_molecule" id="T42" lex="NFAT1">NFAT1</term> may be limiting for <term sem="Other" id="T43" lex="IL-4_gene_expression"><term sem="Protein_molecule" id="T44" lex="IL-4">IL-4</term> gene expression</term> in this cell type.</sentence>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="T37" />
+<clue>Increased <clueType>expression</clueType> <linkTheme>of</linkTheme> wild-type NFAT1 substantially increases IL-4 promoter activity in unprimed CD4 T cells, suggesting NFAT1 may be limiting for IL-4 gene expression in this cell type.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<cause idref="E37" />
+<clue>Increased expression of wild-type NFAT1 substantially <clueType>increases</clueType> IL-4 promoter activity <clueLoc>in unprimed CD4 T cells</clueLoc>, suggesting NFAT1 may be limiting for IL-4 gene expression in this cell type.</clue>
+</event>
+<event uncertainty="probable" id="E39">
+<type class="Negative_regulation" />
+<theme idref="E40" />
+<cause idref="T42" />
+<clue>Increased expression of wild-type NFAT1 substantially increases IL-4 promoter activity in unprimed CD4 T cells, suggesting NFAT1 may be <clueType>limiting</clueType> <linkTheme>for</linkTheme> IL-4 gene expression in this cell type.</clue>
+</event>
+<event id="E40">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>Increased expression of wild-type NFAT1 substantially increases IL-4 promoter activity in unprimed CD4 T cells, suggesting NFAT1 may be limiting for IL-4 <clueType>gene expression</clueType> <clueLoc>in this cell type</clueLoc>.</clue>
+</event>
+<sentence id="S9">Furthermore, a <term sem="Protein_molecule" id="A9">truncated form of <term sem="Protein_molecule" id="T45" lex="NFAT1">NFAT1</term></term> acts as a dominant-negative, reducing <term sem="Other" id="T46" lex="IL-4_promoter_activity"><term sem="DNA_domain_or_region" id="T47" lex="IL-4_promoter"><term sem="Protein_molecule" id="T48" lex="IL-4">IL-4</term> promoter</term> activity</term> in primed <term sem="Cell_natural" id="T49" lex="CD4_T_cell">CD4 T cells</term> and confirming the importance of <term sem="Protein_family_or_group" id="T50" lex="endogenous_NFAT">endogenous NFAT</term> to increased <term sem="Other" id="T51" lex="IL-4_gene_expression"><term sem="Protein_molecule" id="T52" lex="IL-4">IL-4</term> gene expression</term> by effector T cells.</sentence>
+<event id="E41">
+<type class="Negative_regulation" />
+<theme idref="T45" />
+<cause idref="A9" />
+<clue>Furthermore, a truncated form of NFAT1 <clueType>acts as a dominant-negative</clueType>, reducing IL-4 promoter activity in primed CD4 T cells and confirming the importance of endogenous NFAT to increased IL-4 gene expression by effector T cells.</clue>
+<comment>TPS: A9</comment>
+</event>
+<event id="E42">
+<type class="Negative_regulation" />
+<theme idref="T47" />
+<cause idref="E43" />
+<clue>Furthermore, a truncated form of NFAT1 acts as a dominant-negative, <clueType>reducing</clueType> IL-4 promoter activity <clueLoc>in primed CD4 T cells</clueLoc> and confirming the importance of endogenous NFAT to increased IL-4 gene expression by effector T cells.</clue>
+</event>
+<event id="E43">
+<type class="Mutagenesis" />
+<theme idref="T45" />
+<clue>Furthermore, a <clueType>truncated</clueType> form <linkTheme>of</linkTheme> NFAT1 acts as a dominant-negative, reducing IL-4 promoter activity in primed CD4 T cells and confirming the importance of endogenous NFAT to increased IL-4 gene expression by effector T cells.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E44">
+<type class="Regulation" />
+<theme idref="E45" />
+<cause idref="T50" />
+<clue>Furthermore, a truncated form of NFAT1 acts as a dominant-negative, reducing IL-4 promoter activity in primed CD4 T cells and confirming the <clueType>importance</clueType> <linkCause>of</linkCause> endogenous NFAT <linkTheme>to</linkTheme> increased IL-4 gene expression by effector T cells.</clue>
+</event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="E46" />
+<clue>Furthermore, a truncated form of NFAT1 acts as a dominant-negative, reducing IL-4 promoter activity in primed CD4 T cells and confirming the importance of endogenous NFAT to <clueType>increased</clueType> IL-4 gene expression by effector T cells.</clue>
+</event>
+<event id="E46">
+<type class="Gene_expression" />
+<theme idref="T52" />
+<clue>Furthermore, a truncated form of NFAT1 acts as a dominant-negative, reducing IL-4 promoter activity in primed CD4 T cells and confirming the importance of endogenous NFAT to increased IL-4 <clueType>gene expression</clueType> <clueLoc>by effector T cells</clueLoc>.</clue>
+</event>
+<sentence id="S10"><term sem="Protein_molecule" id="T53" lex="NFAT1">NFAT1</term> appears to be the major <term sem="Protein_family_or_group" id="T54" lex="NFAT_family_member">NFAT family member</term> responsible for the initial increased expression of <term sem="Protein_molecule" id="T55" lex="IL-4">IL-4</term> by primed <term sem="Cell_natural" id="T56" lex="CD4_T_cell">CD4 T cells</term>.</sentence>
+<event id="E47">
+<type class="Regulation" />
+<theme idref="E48" />
+<cause idref="T53" />
+<clue>NFAT1 appears to be the major NFAT family member <clueType>responsible</clueType> <linkTheme>for</linkTheme> the initial increased expression of IL-4 by primed CD4 T cells.</clue>
+</event>
+<event id="E48">
+<type class="Positive_regulation" />
+<theme idref="E49" />
+<clue>NFAT1 appears to be the major NFAT family member responsible for the initial <clueType>increased</clueType> expression of IL-4 by primed CD4 T cells.</clue>
+</event>
+<event id="E49">
+<type class="Gene_expression" />
+<theme idref="T55" />
+<clue>NFAT1 appears to be the major NFAT family member responsible for the initial increased <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-4 <clueLoc>by primed CD4 T cells</clueLoc>.</clue>
+</event>
+<event id="E50">
+<type class="Physiological_process" />
+<theme idref="T56" />
+<clue>NFAT1 appears to be the major NFAT family member responsible for the initial increased expression of IL-4 by <clueType>primed</clueType> CD4 T cells.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

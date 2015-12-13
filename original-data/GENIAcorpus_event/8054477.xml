@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/07/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8054477">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8054477</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Positive and negative regulation of <term sem="DNA_domain_or_region" id="T1" lex="IL-2">IL-2 gene</term> <term sem="Other" id="T2" lex="gene_expression">expression</term>: role of <term sem="DNA_family_or_group" id="A1">multiple regulatory sites</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T1" />
+<clue>Positive and negative regulation of IL-2 gene <clueType>expression</clueType>: role of multiple regulatory sites.</clue>
+<comment>NER T1 MOD</comment>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue><clueType>Positive</clueType> and negative <clueType>regulation</clueType> <linkTheme>of</linkTheme> IL-2 gene expression: role of multiple regulatory sites.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<clue>Positive and <clueType>negative regulation</clueType> <linkTheme>of</linkTheme> IL-2 gene expression: role of multiple regulatory sites.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="A1" />
+<clue>Positive and negative regulation of IL-2 gene expression: <clueType>role</clueType> <linkCause>of</linkCause> multiple regulatory sites.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="A1" />
+<clue>Positive and negative regulation of IL-2 gene expression: <clueType>role</clueType> <linkCause>of</linkCause> multiple regulatory sites.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T3" lex="interleukin_2">Interleukin 2</term> (<term sem="Protein_molecule" id="T4" lex="IL-2">IL-2</term>) is an important <term sem="Protein_family_or_group" id="T5" lex="lymphokine">lymphokine</term> required in the process of <term sem="Other" id="T6" lex="T_cell_activation"><term sem="Cell_natural" id="A2">T cell</term> activation</term>, <term sem="Other" id="T7" lex="proliferation">proliferation</term>, <term sem="Other" id="T8" lex="clonal_expansion">clonal expansion</term> and <term sem="Other" id="T9" lex="differentiation">differentiation</term>.</sentence>
+<event id="E6">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<clue>Interleukin 2 (IL-2) is an important lymphokine required in the process of T cell <clueType>activation</clueType>, proliferation, clonal expansion and differentiation.</clue>
+</event>
+<event id="E7">
+<type class="Cellular_physiological_process" />
+<theme idref="A2" />
+<clue>Interleukin 2 (IL-2) is an important lymphokine required in the process of T cell activation, <clueType>proliferation</clueType>, clonal expansion and differentiation.</clue>
+</event>
+<event id="E8">
+<type class="Cellular_physiological_process" />
+<theme idref="A2" />
+<clue>Interleukin 2 (IL-2) is an important lymphokine required in the process of T cell activation, proliferation, <clueType>clonal expansion</clueType> and differentiation.</clue>
+</event>
+<event id="E9">
+<type class="Cell_differentiation" />
+<theme idref="A2" />
+<clue>Interleukin 2 (IL-2) is an important lymphokine required in the process of T cell activation, proliferation, clonal expansion and <clueType>differentiation</clueType>.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T4" />
+<clue>Interleukin 2 (IL-2) is <corefCause>an important lymphokine</corefCause> <clueType>required</clueType> <linkTheme>in</linkTheme> the process of T cell activation, proliferation, clonal expansion and differentiation.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T4" />
+<clue>Interleukin 2 (IL-2) is <corefCause>an important lymphokine</corefCause> <clueType>required</clueType> <linkTheme>in</linkTheme> the process of T cell activation, proliferation, clonal expansion and differentiation.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T4" />
+<clue>Interleukin 2 (IL-2) is <corefCause>an important lymphokine</corefCause> <clueType>required</clueType> <linkTheme>in</linkTheme> the process of T cell activation, proliferation, clonal expansion and differentiation.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T4" />
+<clue>Interleukin 2 (IL-2) is <corefCause>an important lymphokine</corefCause> <clueType>required</clueType> <linkTheme>in</linkTheme> the process of T cell activation, proliferation, clonal expansion and differentiation.</clue>
+</event>
+<sentence id="S3">The <term sem="DNA_domain_or_region" id="T10" lex="IL-2_gene"><term sem="Protein_molecule" id="T11" lex="IL-2">IL-2</term> gene</term> displays both <term sem="Cell_natural" id="A3">T cell</term> specific and inducible expression: it is only expressed in <term sem="Cell_natural" id="T12" lex="CD4+_T_cell">CD4+ T cells</term> after <cons sem="(OR Other Other)" id="T13" lex="(OR antigenic_stimulation mitogenic_stimulation)"><frag id="F1"><term sem="Protein_family_or_group" id="A4">antigenic</term></frag> or <frag id="F2"><term sem="Other" id="A5">mitogenic</term></frag> <frag id="F3">stimulation</frag></cons>.</sentence>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>The IL-2 gene displays both <clueLoc>T cell specific</clueLoc> and inducible <clueType>expression</clueType>: it is only expressed in CD4+ T cells after antigenic or mitogenic stimulation.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue>The IL-2 gene displays both T cell specific and <clueType>inducible</clueType> expression: it is only expressed in CD4+ T cells after antigenic or mitogenic stimulation.</clue>
+</event>
+<event id="E16">
+<type class="Physiological_process" />
+<theme idref="T12" />
+<cause idref="A4" />
+<clue>The IL-2 gene displays both T cell specific and inducible expression: it is only expressed in CD4+ T cells after antigenic or mitogenic <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E17">
+<type class="Physiological_process" />
+<theme idref="T12" />
+<cause idref="A5" />
+<clue>The IL-2 gene displays both T cell specific and inducible expression: it is only expressed in CD4+ T cells after antigenic or mitogenic <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="E16" />
+<clue>The IL-2 gene displays both T cell specific and inducible expression: <corefTheme>it</corefTheme> is only <clueType>expressed</clueType> <clueLoc>in CD4+ T cells</clueLoc> <linkCause>after</linkCause> antigenic or mitogenic stimulation.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="E17" />
+<clue>The IL-2 gene displays both T cell specific and inducible expression: <corefTheme>it</corefTheme> is only <clueType>expressed</clueType> <clueLoc>in CD4+ T cells</clueLoc> <linkCause>after</linkCause> antigenic or mitogenic stimulation.</clue>
+</event>
+<sentence id="S4">Several <term sem="DNA_domain_or_region" id="T14" lex="cis-acting_regulatory_site">cis-acting regulatory sites</term> are required for induction of the <term sem="DNA_domain_or_region" id="T15" lex="IL-2_gene"><term sem="Protein_molecule" id="T16" lex="IL-2">IL-2</term> gene</term> after stimulation.</sentence>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<cause idref="E16" />
+<clue>Several cis-acting regulatory sites are required for <clueType>induction</clueType> <linkTheme>of</linkTheme> the IL-2 gene <linkCause>after</linkCause> <corefCause>stimulation</corefCause>.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<cause idref="E17" />
+<clue>Several cis-acting regulatory sites are required for <clueType>induction</clueType> <linkTheme>of</linkTheme> the IL-2 gene <linkCause>after</linkCause> <corefCause>stimulation</corefCause>.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T14" />
+<clue>Several cis-acting regulatory sites are <clueType>required</clueType> <linkTheme>for</linkTheme> induction of the IL-2 gene after stimulation.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T14" />
+<clue>Several cis-acting regulatory sites are <clueType>required</clueType> <linkTheme>for</linkTheme> induction of the IL-2 gene after stimulation.</clue>
+</event>
+<sentence id="S5">In this study, we have analysed the function of these <term sem="DNA_domain_or_region" id="T17" lex="cis-acting_regulatory_site">cis-acting regulatory sites</term> in the context of the native <term sem="DNA_domain_or_region" id="T18" lex="IL-2_enhancer"><term sem="Protein_molecule" id="T19" lex="IL-2">IL-2</term> enhancer</term> and <term sem="DNA_domain_or_region" id="T20" lex="IL-2_promoter_sequence">promoter sequence</term>.</sentence>
+<event uncertainty="doubtful" id="E24">
+<type class="Regulation" />
+<cause idref="T17" />
+<clue>In this study, we have analysed the <clueType>function</clueType> <linkCause>of</linkCause> these cis-acting regulatory sites in the context of the native IL-2 enhancer and promoter sequence.</clue>
+</event>
+<sentence id="S6">The results of this study suggest that the <term sem="DNA_domain_or_region" id="T21" lex="NFAT">NFAT</term> (<term sem="DNA_domain_or_region" id="T22" lex="-276_to_-261">-276 to -261</term>), the <term sem="DNA_domain_or_region" id="T23" lex="distal_octamer">distal octamer</term> (<term sem="DNA_domain_or_region" id="T24" lex="-256_to_-248">-256 to -248</term>) and the <term sem="DNA_domain_or_region" id="T25" lex="proximal_octamer">proximal octamer</term> (<term sem="DNA_domain_or_region" id="T26" lex="-75_to_-66">-75 to -66</term>) <term sem="DNA_domain_or_region" id="A6">sites</term> not only act as enhancers of <term sem="Other" id="T27" lex="IL-2_gene_transcription"><term sem="DNA_domain_or_region" id="T28" lex="IL-2_gene"><term sem="Protein_molecule" id="T29" lex="IL-2">IL-2</term> gene</term> transcription</term> in the presence of <term sem="Other" id="T30" lex="cellular_stimulation"><term sem="Cell_natural" id="A8">cellular</term> stimulation</term>, but also have a silencing effect on <term sem="Other" id="T31" lex="IL-2_gene_expression"><term sem="DNA_domain_or_region" id="T32" lex="IL-2_gene"><term sem="Protein_molecule" id="T33" lex="IL-2">IL-2</term> gene</term> expression</term> in <term sem="Cell_natural" id="A7">resting cells</term>.</sentence>
+<event id="E25">
+<type class="Transcription" />
+<theme idref="T28" />
+<clue>The results of this study suggest that the NFAT (-276 to -261), the distal octamer (-256 to -248) and the proximal octamer (-75 to -66) sites not only act as enhancers of IL-2 gene <clueType>transcription</clueType> in the presence of cellular stimulation, but also have a silencing effect on IL-2 gene expression in resting cells.</clue>
+<comment>NER T21 MOD</comment>
+</event>
+<event id="E26">
+<type class="Physiological_process" />
+<theme idref="A8" />
+<clue>The results of this study suggest that the NFAT (-276 to -261), the distal octamer (-256 to -248) and the proximal octamer (-75 to -66) sites not only act as enhancers of IL-2 gene transcription in the presence of cellular <clueType>stimulation</clueType>, but also have a silencing effect on IL-2 gene expression in resting cells.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="E26" />
+<clue>The results of this study suggest that the NFAT (-276 to -261), the distal octamer (-256 to -248) and the proximal octamer (-75 to -66) sites not only act as enhancers of IL-2 gene transcription <linkCause>in the presence of</linkCause> cellular stimulation, but also have a silencing effect on IL-2 gene expression in resting cells.</clue>
+</event>
+<event uncertainty="probable" id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref1="A6" idref="T21" />
+<clue>The results of this study suggest that the NFAT (-276 to -261), the distal octamer (-256 to -248) and the proximal octamer (-75 to -66) sites not only <clueType>act as enhancers</clueType> <linkTheme>of</linkTheme> IL-2 gene transcription in the presence of cellular stimulation, but also have a silencing effect on IL-2 gene expression in resting cells.</clue>
+</event>
+<event uncertainty="probable" id="E31">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref1="A6" idref="T23" />
+<clue>The results of this study suggest that the NFAT (-276 to -261), the distal octamer (-256 to -248) and the proximal octamer (-75 to -66) sites not only <clueType>act as enhancers</clueType> <linkTheme>of</linkTheme> IL-2 gene transcription in the presence of cellular stimulation, but also have a silencing effect on IL-2 gene expression in resting cells.</clue>
+</event>
+<event uncertainty="probable" id="E32">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref1="A6" idref="T25" />
+<clue>The results of this study suggest that the NFAT (-276 to -261), the distal octamer (-256 to -248) and the proximal octamer (-75 to -66) sites not only <clueType>act as enhancers</clueType> <linkTheme>of</linkTheme> IL-2 gene transcription in the presence of cellular stimulation, but also have a silencing effect on IL-2 gene expression in resting cells.</clue>
+</event>
+<event id="E29">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>The results of this study suggest that the NFAT (-276 to -261), the distal octamer (-256 to -248) and the proximal octamer (-75 to -66) sites not only act as enhancers of IL-2 gene transcription in the presence of cellular stimulation, but also have a silencing effect on IL-2 gene <clueType>expression</clueType> in resting cells.</clue>
+</event>
+<event uncertainty="probable" id="E30">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref1="A6" idref="T21" />
+<clue>The results of this study suggest that the NFAT (-276 to -261), the distal octamer (-256 to -248) and the proximal octamer (-75 to -66) sites not only act as enhancers of IL-2 gene transcription in the presence of cellular stimulation, but also <clueType>have a silencing effect</clueType> <linkTheme>on</linkTheme> IL-2 gene expression <clueLoc>in resting cells</clueLoc>.</clue>
+</event>
+<event uncertainty="probable" id="E33">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref1="A6" idref="T23" />
+<clue>The results of this study suggest that the NFAT (-276 to -261), the distal octamer (-256 to -248) and the proximal octamer (-75 to -66) sites not only act as enhancers of IL-2 gene transcription in the presence of cellular stimulation, but also <clueType>have a silencing effect</clueType> <linkTheme>on</linkTheme> IL-2 gene expression <clueLoc>in resting cells</clueLoc>.</clue>
+</event>
+<event uncertainty="probable" id="E34">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref1="A6" idref="T25" />
+<clue>The results of this study suggest that the NFAT (-276 to -261), the distal octamer (-256 to -248) and the proximal octamer (-75 to -66) sites not only act as enhancers of IL-2 gene transcription in the presence of cellular stimulation, but also <clueType>have a silencing effect</clueType> <linkTheme>on</linkTheme> IL-2 gene expression <clueLoc>in resting cells</clueLoc>.</clue>
+</event>
+<sentence id="S7">Two other sites display disparate effects on <term sem="Other" id="T34" lex="IL-2_gene_expression"><term sem="DNA_domain_or_region" id="T35" lex="IL-2_gene"><term sem="Protein_molecule" id="T36" lex="IL-2">IL-2</term> gene</term> expression</term> in different <term sem="Cell_cultured" id="T37" lex="T_leukemia_cell_line">T leukemia cell lines</term>: the <term sem="DNA_domain_or_region" id="T38" lex="distal_purine_box">distal purine box</term> (<term sem="DNA_domain_or_region" id="T39" lex="-291_to_-277">-291 to -277</term>) and the <term sem="DNA_domain_or_region" id="T40" lex="proximal_purine_box_site">proximal purine box sites</term> (<term sem="DNA_domain_or_region" id="T41" lex="-145_to_-128">-145 to -128</term>).</sentence>
+<event id="E35">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>Two other sites display disparate effects on IL-2 gene <clueType>expression</clueType> in different T leukemia cell lines: the distal purine box (-291 to -277) and the proximal purine box sites (-145 to -128).</clue>
+</event>
+<event id="E36">
+<type class="Regulation" />
+<theme idref="E35" />
+<cause idref="T38" />
+<clue><corefCause>Two other sites</corefCause> <clueType>display disparate effects</clueType> on IL-2 gene expression <clueLoc>in different T leukemia cell lines</clueLoc>: the distal purine box (-291 to -277) and the proximal purine box sites (-145 to -128).</clue>
+</event>
+<event id="E37">
+<type class="Regulation" />
+<theme idref="E35" />
+<cause idref="T40" />
+<clue><corefCause>Two other sites</corefCause> <clueType>display disparate effects</clueType> on IL-2 gene expression <clueLoc>in different T leukemia cell lines</clueLoc>: the distal purine box (-291 to -277) and the proximal purine box sites (-145 to -128).</clue>
+</event>
+<sentence id="S8">Finally, the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T42" lex="(AND AP-1_(-186_to_-176)_site the_kappa_B_site)"><frag id="F4"><term sem="DNA_domain_or_region" id="A9">AP-1</term> (-186 to -176)</frag> and <frag id="F5">the <term sem="DNA_domain_or_region" id="A10">kappa B</term></frag> <frag id="F6"><term sem="DNA_domain_or_region" id="A11">sites</term></frag></cons> (<term sem="DNA_domain_or_region" id="T43" lex="-206_to_-195">-206 to -195</term>) respond to different cellular activation in <term sem="Cell_cultured" id="T44" lex="EL4_cell">EL4 cells</term>.</sentence>
+<event id="E38">
+<type class="Physiological_process" />
+<theme idref="T44" />
+<clue>Finally, the AP-1 (-186 to -176) and the kappa B sites (-206 to -195) respond to different <clueType>cellular activation</clueType> in EL4 cells.</clue>
+</event>
+<event id="E39">
+<type class="Regulation" />
+<theme idref1="A11" idref="A9" />
+<cause idref="E38" />
+<clue>Finally, the AP-1 (-186 to -176) and the kappa B sites (-206 to -195) <clueType>respond</clueType> <linkCause>to</linkCause> different cellular activation in EL4 cells.</clue>
+</event>
+<event id="E40">
+<type class="Regulation" />
+<theme idref1="A11" idref="A10" />
+<cause idref="E38" />
+<clue>Finally, the AP-1 (-186 to -176) and the kappa B sites (-206 to -195) <clueType>respond</clueType> <linkCause>to</linkCause> different cellular activation in EL4 cells.</clue>
+</event>
+<sentence id="S9">The <term sem="DNA_domain_or_region" id="T45" lex="AP-1_site">AP-1 site</term> mediated the response to <term sem="Other" id="T46" lex="PMA_stimulation"><term sem="Organic_compound_other" id="T47" lex="PMA">PMA</term> stimulation</term> while the <term sem="DNA_domain_or_region" id="T48" lex="kappa_B_site">kappa B site</term> responded to <term sem="Other" id="T49" lex="IL-1_stimulation"><term sem="Protein_molecule" id="T50" lex="IL-1">IL-1</term> stimulation</term>.</sentence>
+<event id="E141">
+<type class="Physiological_process" />
+<cause idref="T47" />
+<clue>The AP-1 site mediated the response to PMA <clueType>stimulation</clueType> while the kappa B site responded to IL-1 stimulation.</clue>
+</event>
+<event id="E41">
+<type class="Regulation" />
+<cause idref="E141" />
+<clue>The AP-1 site mediated the <clueType>response</clueType> <linkCause>to</linkCause> PMA stimulation while the kappa B site responded to IL-1 stimulation.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation" />
+<cause idref="E41" />
+<clue>The AP-1 site <clueType>mediated</clueType> the response to PMA stimulation while the kappa B site responded to IL-1 stimulation.</clue>
+</event>
+<event id="E143">
+<type class="Physiological_process" />
+<cause idref="T50" />
+<clue>The AP-1 site mediated the response to PMA stimulation while the kappa B site responded to IL-1 <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E43">
+<type class="Regulation" />
+<theme idref="T48" />
+<cause idref="E143" />
+<clue>The AP-1 site mediated the response to PMA stimulation while the kappa B site <clueType>responded</clueType> <linkCause>to</linkCause> IL-1 stimulation.</clue>
+</event>
+<sentence id="S10">These data suggest that the regulation of <term sem="Other" id="T51" lex="IL-2_gene_expression"><term sem="DNA_domain_or_region" id="T52" lex="IL-2_gene"><term sem="Protein_molecule" id="T53" lex="IL-2">IL-2</term> gene</term> expression</term> is a complex process and multiple <term sem="DNA_domain_or_region" id="T54" lex="cis-acting_regulatory_site">cis-acting regulatory sites</term> interact to exert different effects in <term sem="Cell_natural" id="T55" lex="T_cell">T cells</term> representative of alternative stages of <term sem="Other" id="T56" lex="differentiation">differentiation</term>.</sentence>
+<event id="E44">
+<type class="Gene_expression" />
+<theme idref="T52" />
+<clue>These data suggest that the regulation of IL-2 gene <clueType>expression</clueType> is a complex process and multiple cis-acting regulatory sites interact to exert different effects in T cells representative of alternative stages of differentiation.</clue>
+</event>
+<event id="E45">
+<type class="Regulation" />
+<theme idref="E44" />
+<clue>These data suggest that the <clueType>regulation</clueType> <linkTheme>of</linkTheme> IL-2 gene expression is a complex process and multiple cis-acting regulatory sites interact to exert different effects in T cells representative of alternative stages of differentiation.</clue>
+</event>
+<event uncertainty="probable" id="E46">
+<type class="Regulation" />
+<theme idref="E45" />
+<cause idref="T54" />
+<clue>These data suggest that the regulation of IL-2 gene expression is a complex process and multiple cis-acting regulatory sites <clueType>interact to exert different effects</clueType> <clueLoc>in T cells representative of alternative stages of differentiation</clueLoc>.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

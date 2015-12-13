@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="08/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9808189" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9808189</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Decreased <term sem="Other" id="T1" lex="IL-12_production"><term sem="Protein_molecule" id="T2" lex="IL-12">IL-12</term> production</term> and <term sem="Other" id="T3" lex="Th1_cell_development"><term sem="Cell_natural" id="A1">Th1 cell</term> development</term> by <term sem="Other" id="T4" lex="acetyl_salicylic_acid-mediated_inhibition"><term sem="Organic_compound_other" id="T5" lex="acetyl_salicylic_acid">acetyl salicylic acid</term>-mediated inhibition</term> of <term sem="Protein_complex" id="T6" lex="NF-kappaB">NF-kappaB</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Decreased IL-12 <clueType>production</clueType> and Th1 cell development by acetyl salicylic acid-mediated inhibition of NF-kappaB.</clue>
+</event>
+<event id="E2">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>Decreased IL-12 production and Th1 cell <clueType>development</clueType> by acetyl salicylic acid-mediated inhibition of NF-kappaB.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="E5" />
+<clue><clueType>Decreased</clueType> IL-12 production and Th1 cell development <linkCause>by</linkCause> acetyl salicylic acid-mediated inhibition of NF-kappaB.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="E5" />
+<clue><clueType>Decreased</clueType> IL-12 production and Th1 cell development <linkCause>by</linkCause> acetyl salicylic acid-mediated inhibition of NF-kappaB.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="T6" />
+<cause idref="T5" />
+<clue>Decreased IL-12 production and Th1 cell development by acetyl salicylic acid<linkCause>-mediated</linkCause> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappaB.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T7" lex="IL-12">IL-12</term> is a <term sem="Protein_molecule" id="T8" lex="75-kDa_heterodimeric_cytokine">75-kDa heterodimeric cytokine</term> composed of two covalently linked <cons sem="(AND Protein_domain_or_region Protein_domain_or_region)" id="T9" lex="(AND p35_chain p40_chain)"><frag id="F1">p35</frag> and <frag id="F2">p40</frag> <frag id="F3">chains</frag></cons>.</sentence>
+<event id="E6">
+<type class="Binding" />
+<theme idref1="F3" idref="F1" />
+<theme idref1="F3" idref="F2" />
+<clue>IL-12 is a 75-kDa heterodimeric cytokine composed of two covalently <clueType>linked</clueType> p35 and p40 chains.</clue>
+</event>
+<sentence id="S3">This <term sem="Protein_family_or_group" id="T10" lex="pro-inflammatory_cytokine">pro-inflammatory cytokine</term> plays a prominent role in the development of <term sem="Other" id="T11" lex="Th1_cell-mediated_immune_response"><term sem="Cell_natural" id="A5">Th1 cell</term>-mediated immune responses</term>.</sentence>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="T7" />
+<clue><corefCause>This pro-inflammatory cytokine</corefCause> <clueType>plays</clueType> a prominent <clueType>role</clueType> <linkTheme>in</linkTheme> the development of Th1 cell-mediated immune responses.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E42" />
+<clue>This pro-inflammatory cytokine plays a prominent role in the <clueType>development</clueType> <linkTheme>of</linkTheme> Th1 cell-mediated immune responses.</clue>
+</event>
+<event id="E42">
+<type class="Physiological_process" />
+<theme idref="A5" />
+<clue>This pro-inflammatory cytokine plays a prominent role in the development of Th1 cell-<linkTheme>mediated</linkTheme> <clueType>immune responses</clueType>.</clue>
+</event>
+<sentence id="S4"><term sem="Other" id="T12" lex="Th1_cell-mediated_immune_response"><term sem="Cell_natural" id="A10">Th1 cell</term>-mediated immune responses</term> have been implicated in the pathogenesis of <term sem="Other" id="T13" lex="chronic_inflammatory_autoimmune_disease">chronic inflammatory autoimmune diseases</term>.</sentence>
+<event id="E40">
+<type class="Physiological_process" />
+<theme idref="A10" />
+<clue>Th1 cell-<linkTheme>mediated</linkTheme> <clueType>immune responses</clueType> have been implicated in the pathogenesis of chronic inflammatory autoimmune diseases.</clue>
+</event>
+<event id="E41">
+<type class="Regulation" />
+<theme idref="E43" />
+<cause idref="E40" />
+<clue>Th1 cell-mediated immune responses have been <clueType>implicated</clueType> <linkTheme>in</linkTheme> the pathogenesis of chronic inflammatory autoimmune diseases.</clue>
+</event>
+<event id="E43">
+<type />
+<theme idref="T13" />
+<clue>Th1 cell-mediated immune responses have been implicated in the <clueType>pathogenesis</clueType> <linkTheme>of</linkTheme> chronic inflammatory autoimmune diseases.</clue>
+<comment>SOO</comment>
+</event>
+<sentence id="S5">Thus, <term sem="Protein_molecule" id="T14" lex="IL-12">IL-12</term> appears to be a critical factor in the generation and maintenance of <term sem="Other" id="T15" lex="chronic_inflammatory_condition">chronic inflammatory conditions</term>.</sentence>
+<event uncertainty="probable" id="E9">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T14" />
+<clue>Thus, IL-12 appears to be a <clueType>critical factor</clueType> <linkTheme>in</linkTheme> the generation and maintenance of chronic inflammatory conditions.</clue>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T14" />
+<clue>Thus, IL-12 appears to be a <clueType>critical factor</clueType> <linkTheme>in</linkTheme> the generation and maintenance of chronic inflammatory conditions.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<clue>Thus, IL-12 appears to be a critical factor in the <clueType>generation</clueType> and maintenance <linkTheme>of</linkTheme> chronic inflammatory conditions.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<clue>Thus, IL-12 appears to be a critical factor in the generation and <clueType>maintenance</clueType> <linkTheme>of</linkTheme> chronic inflammatory conditions.</clue>
+</event>
+<sentence id="S6">In this study, we investigated the effects of a commonly prescribed <term sem="Organic_compound_other" id="T16" lex="anti-inflammatory_drug">anti-inflammatory drug</term>, <term sem="Organic_compound_other" id="T17" lex="acetyl_salicylic_acid">acetyl salicylic acid</term> (<term sem="Organic_compound_other" id="T18" lex="ASA">ASA</term>), on <term sem="Other" id="T19" lex="IL-12_production"><term sem="Protein_molecule" id="T20" lex="IL-12">IL-12</term> production</term> and <term sem="Other" id="T21" lex="Th1_cell_development"><term sem="Cell_natural" id="A7">Th1 cell</term> development</term>.</sentence>
+<event uncertainty="doubtful" id="E13">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="T18" />
+<clue>In this study, we investigated the <clueType>effects</clueType> <linkCause>of</linkCause> a commonly prescribed anti-inflammatory drug, acetyl salicylic acid (ASA), <linkTheme>on</linkTheme> IL-12 production and Th1 cell development.</clue>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="T18" />
+<clue>In this study, we investigated the <clueType>effects</clueType> <linkCause>of</linkCause> a commonly prescribed anti-inflammatory drug, acetyl salicylic acid (ASA), <linkTheme>on</linkTheme> IL-12 production and Th1 cell development.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue>In this study, we investigated the effects of a commonly prescribed anti-inflammatory drug, acetyl salicylic acid (ASA), on IL-12 <clueType>production</clueType> and Th1 cell development.</clue>
+</event>
+<event id="E16">
+<type class="Cell_differentiation" />
+<theme idref="A7" />
+<clue>In this study, we investigated the effects of a commonly prescribed anti-inflammatory drug, acetyl salicylic acid (ASA), on IL-12 production and Th1 cell <clueType>development</clueType>.</clue>
+</event>
+<sentence id="S7"><term sem="Organic_compound_other" id="T22" lex="ASA">ASA</term> was found to inhibit secretion of the <term sem="Protein_complex" id="T23" lex="IL-12_heterodimer"><term sem="Protein_molecule" id="T24" lex="IL-12">IL-12</term> <term sem="Protein_complex" id="A8">heterodimer</term></term> as well as <term sem="Protein_complex" id="T25" lex="p40_monomer">p40 monomer</term> by <term sem="Cell_natural" id="T26" lex="human_monocytic_cell">human monocytic cells</term>.</sentence>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="T22" />
+<clue>ASA was found to <clueType>inhibit</clueType> secretion of the IL-12 heterodimer as well as p40 monomer by <clueLoc>human monocytic cells</clueLoc>.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="T22" />
+<clue>ASA was found to <clueType>inhibit</clueType> secretion of the IL-12 heterodimer as well as p40 monomer by <clueLoc>human monocytic cells</clueLoc>.</clue>
+</event>
+<event id="E19">
+<type class="Localization" />
+<theme idref1="A8" idref="T24" />
+<clue>ASA was found to inhibit <clueType>secretion</clueType> <linkTheme>of</linkTheme> the IL-12 heterodimer as well as p40 monomer <clueLoc>by human monocytic cells</clueLoc>.</clue>
+</event>
+<event id="E20">
+<type class="Localization" />
+<theme idref1="T25" idref="T24" />
+<clue>ASA was found to inhibit <clueType>secretion</clueType> <linkTheme>of</linkTheme> the IL-12 heterodimer as well as p40 monomer <clueLoc>by human monocytic cells</clueLoc>.</clue>
+</event>
+<sentence id="S8">This was associated with the down-regulation of <term sem="Other" id="T27" lex="IL-12p40_mRNA_expression"><term sem="RNA_molecule" id="T28" lex="IL-12p40_mRNA"><term sem="Protein_molecule" id="T29" lex="IL-12p40">IL-12p40</term> mRNA</term> expression</term>.</sentence>
+<event id="E21">
+<type class="Correlation" />
+<theme idref="E17" />
+<theme idref="E23" />
+<clue><corefTheme>This</corefTheme> was <clueType>associated</clueType> <linkTheme>with</linkTheme> the down-regulation of IL-12p40 mRNA expression.</clue>
+</event>
+<event id="E22">
+<type class="Correlation" />
+<theme idref="E18" />
+<theme idref="E23" />
+<clue><corefTheme>This</corefTheme> was <clueType>associated</clueType> <linkTheme>with</linkTheme> the down-regulation of IL-12p40 mRNA expression.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<clue>This was associated with the <clueType>down-regulation</clueType> <linkTheme>of</linkTheme> IL-12p40 mRNA expression.</clue>
+</event>
+<event id="E24">
+<type class="Transcription" />
+<theme idref="T28" />
+<clue>This was associated with the down-regulation of IL-12p40 mRNA <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S9">Analysis of the regulation of the <term sem="DNA_domain_or_region" id="T30" lex="p40_gene_promoter">p40 gene promoter</term> revealed that <term sem="Organic_compound_other" id="T31" lex="ASA">ASA</term> inhibited <term sem="Protein_complex" id="T32" lex="NF-kappaB">NF-kappaB</term> activation and binding to the <term sem="DNA_domain_or_region" id="T33" lex="p40-kappaB_site"><term sem="Protein_molecule" id="T34" lex="p40-kappaB">p40-kappaB</term> site</term> in the <term sem="DNA_domain_or_region" id="T35" lex="p40_promoter"><term sem="Protein_molecule" id="T36" lex="p40">p40</term> promoter</term>, leading to transcriptional repression of the <term sem="DNA_domain_or_region" id="T37" lex="p40_gene"><term sem="Protein_molecule" id="T38" lex="p40">p40</term> gene</term>.</sentence>
+<event uncertainty="doubtful" id="E25">
+<type class="Regulation" />
+<theme idref="T30" />
+<clue>Analysis of the <clueType>regulation</clueType> <linkTheme>of</linkTheme> the p40 gene promoter revealed that ASA inhibited NF-kappaB activation and binding to the p40-kappaB site in the p40 promoter, leading to transcriptional repression of the p40 gene.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<cause idref="T31" />
+<clue>Analysis of the regulation of the p40 gene promoter revealed that ASA <clueType>inhibited</clueType> NF-kappaB activation and binding to the p40-kappaB site in the p40 promoter, leading to transcriptional repression of the p40 gene.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref="T31" />
+<clue>Analysis of the regulation of the p40 gene promoter revealed that ASA <clueType>inhibited</clueType> NF-kappaB activation and binding to the p40-kappaB site in the p40 promoter, leading to transcriptional repression of the p40 gene.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<clue>Analysis of the regulation of the p40 gene promoter revealed that ASA inhibited NF-kappaB <clueType>activation</clueType> and binding to the p40-kappaB site in the p40 promoter, leading to transcriptional repression of the p40 gene.</clue>
+</event>
+<event id="E29">
+<type class="Binding" />
+<theme idref="T32" />
+<theme idref="T33" />
+<clue>Analysis of the regulation of the p40 gene promoter revealed that ASA inhibited NF-kappaB activation and <clueType>binding</clueType> <linkTheme>to</linkTheme> the p40-kappaB site in the p40 promoter, leading to transcriptional repression of the p40 gene.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<cause idref="E26" />
+<clue>Analysis of the regulation of the p40 gene promoter revealed that ASA inhibited NF-kappaB activation and binding to the p40-kappaB site in the p40 promoter, <clueType>leading to transcriptional repression</clueType> <linkTheme>of</linkTheme> the p40 gene.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<cause idref="E27" />
+<clue>Analysis of the regulation of the p40 gene promoter revealed that ASA inhibited NF-kappaB activation and binding to the p40-kappaB site in the p40 promoter, <clueType>leading to transcriptional repression</clueType> <linkTheme>of</linkTheme> the p40 gene.</clue>
+</event>
+<sentence id="S10">Addition of <term sem="Organic_compound_other" id="T39" lex="ASA">ASA</term> to an in vitro <term sem="Other" id="T40" lex="T_helper_cell_differentiation_system">T helper cell differentiation system</term>, at concentrations compatible with plasma levels reached during <term sem="Other" id="T41" lex="anti-inflammatory_therapy">anti-inflammatory therapy</term>, resulted in reduced development of <term sem="Cell_natural" id="T42" lex="Th1_cell">Th1 cells</term>.</sentence>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T39" />
+<clue>Addition of ASA to an in vitro <clueExperiment>T helper cell differentiation system</clueExperiment>, at concentrations compatible with plasma levels reached during anti-inflammatory therapy, resulted in <clueType>reduced</clueType> development of Th1 cells.</clue>
+</event>
+<event id="E33">
+<type class="Cell_differentiation" />
+<theme idref="T42" />
+<clue>Addition of ASA to an in vitro T helper cell differentiation system, at concentrations compatible with plasma levels reached during anti-inflammatory therapy, resulted in reduced <clueType>development</clueType> <linkTheme>of</linkTheme> Th1 cells.</clue>
+</event>
+<sentence id="S11">These results suggest that the inhibition of <term sem="Other" id="T43" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T44" lex="NF-kappaB">NF-kappaB</term> activation</term> by <term sem="Organic_compound_other" id="T45" lex="ASA">ASA</term> leads to down-regulation of <term sem="Other" id="T46" lex="IL-12_production"><term sem="Protein_molecule" id="T47" lex="IL-12">IL-12</term> production</term> and inhibition of <term sem="Other" id="T48" lex="Th1_cell_development"><term sem="Cell_natural" id="A9">Th1 cell</term> development</term>.</sentence>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E35" />
+<cause idref="T45" />
+<clue>These results suggest that the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappaB activation <linkCause>by</linkCause> ASA leads to down-regulation of IL-12 production and inhibition of Th1 cell development.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="T44" />
+<clue>These results suggest that the inhibition of NF-kappaB <clueType>activation</clueType> by ASA leads to down-regulation of IL-12 production and inhibition of Th1 cell development.</clue>
+</event>
+<event uncertainty="probable" id="E36">
+<type class="Negative_regulation" />
+<theme idref="E37" />
+<cause idref="E34" />
+<clue>These results suggest that the inhibition of NF-kappaB activation by ASA <clueType>leads to down-regulation</clueType> <linkTheme>of</linkTheme> IL-12 production and inhibition of Th1 cell development.</clue>
+</event>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="T47" />
+<clue>These results suggest that the inhibition of NF-kappaB activation by ASA leads to down-regulation of IL-12 <clueType>production</clueType> and inhibition of Th1 cell development.</clue>
+</event>
+<event uncertainty="probable" id="E38">
+<type class="Negative_regulation" />
+<theme idref="E39" />
+<cause idref="E34" />
+<clue>These results suggest that the inhibition of NF-kappaB activation by ASA <clueType>leads to</clueType> down-regulation of IL-12 production and <clueType>inhibition</clueType> <linkTheme>of</linkTheme> Th1 cell development.</clue>
+</event>
+<event id="E39">
+<type class="Cell_differentiation" />
+<theme idref="A9" />
+<clue>These results suggest that the inhibition of NF-kappaB activation by ASA leads to down-regulation of IL-12 production and inhibition of Th1 cell <clueType>development</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="29/03/06" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9419430">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9419430</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="agonistic_activity">Agonistic activity</term> of a <term sem="Protein_molecule" id="T2" lex="CD40-specific_single-chain_Fv">CD40-specific single-chain Fv</term> constructed from the <term sem="Protein_domain_or_region" id="T3" lex="variable_region">variable regions</term> of <term sem="Protein_molecule" id="T4" lex="mAb_G28-5">mAb G28-5</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A <term sem="Protein_molecule" id="T5" lex="single-chain_Fv">single-chain Fv</term> (<term sem="Protein_molecule" id="T6" lex="sFv">sFv</term>) was expressed from the <term sem="Protein_domain_or_region" id="T7" lex="variable_region">variable regions</term> of the CD40-specific <term sem="Protein_molecule" id="T8" lex="mAb_G28-5">mAb G28-5</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>A single-chain Fv (sFv) was <clueType>expressed</clueType> from the variable regions of the CD40-specific mAb G28-5.</clue>
+</event>
+<sentence id="S3">The molecule bound <term sem="Protein_molecule" id="T9" lex="CD40">CD40</term> with a high affinity (2.2 nM) and was a monomer in solution.</sentence>
+<event id="E2">
+<type class="Binding" />
+<theme idref="T9" />
+<theme idref="T6" />
+<clue><corefCause>The molecule</corefCause> <clueType>bound</clueType> CD40 with a high affinity (2.2 nM) and was a monomer in solution.</clue>
+</event>
+<sentence id="S4">Surprisingly, <term sem="Protein_molecule" id="T10" lex="G28-5_sFv">G28-5 sFv</term> was a potent <term sem="Protein_family_or_group" id="T11" lex="CD40_agonist"><term sem="Protein_molecule" id="T12" lex="CD40">CD40</term> agonist</term> that rapidly crosslinked <term sem="Protein_molecule" id="T13" lex="CD40">CD40</term> on the <term sem="Cell_component" id="T14" lex="cell_surface">cell surface</term> but did not crosslink <term sem="Protein_complex" id="T15" lex="CD40-Ig"><term sem="Protein_molecule" id="T16" lex="CD40">CD40</term>-Ig</term> in solution.</sentence>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T13" />
+<theme idref="T10" />
+<clue>Surprisingly, G28-5 sFv was a potent CD40 agonist that rapidly <clueType>crosslinked</clueType> CD40 <clueLoc>on the cell surface</clueLoc> but did not crosslink CD40-Ig in solution.</clue>
+</event>
+<event assertion="non-exist" id="E5">
+<type class="Binding" />
+<theme idref="T15" />
+<theme idref="T10" />
+<clue>Surprisingly, G28-5 sFv was a potent CD40 agonist that rapidly crosslinked CD40 on the cell surface but did not <clueType>crosslink</clueType> CD40-Ig <clueLoc>in solution</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T17" lex="G28-5_sFv">G28-5 sFv</term> was a more potent agonist than <term sem="Protein_molecule" id="T18" lex="G28-5_IgG">G28-5 IgG</term> and was able to stimulate <term sem="Other" id="A2"><term sem="Protein_molecule" id="T19" lex="CD40">CD40</term> responses</term> by <term sem="Cell_natural" id="T20" lex="B_cell">B cells</term> and <term sem="Cell_natural" id="A1">monocytes</term>.</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T17" />
+<clue>G28-5 sFv was a more potent agonist than G28-5 IgG and was able to <clueType>stimulate</clueType> CD40 responses by B cells and monocytes.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T17" />
+<clue>G28-5 sFv was a more potent agonist than G28-5 IgG and was able to <clueType>stimulate</clueType> CD40 responses by B cells and monocytes.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="T20" />
+<cause idref="T19" />
+<clue>G28-5 sFv was a more potent agonist than G28-5 IgG and was able to stimulate CD40 <clueType>responses</clueType> <linkTheme>by</linkTheme> B cells and monocytes.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="A1" />
+<cause idref="T19" />
+<clue>G28-5 sFv was a more potent agonist than G28-5 IgG and was able to stimulate CD40 <clueType>responses</clueType> <linkTheme>by</linkTheme> B cells and monocytes.</clue>
+</event>
+<sentence id="S6"><term sem="Protein_molecule" id="T21" lex="G28-5_IgG">G28-5 IgG</term> partially blocked, whereas <term sem="Protein_molecule" id="T22" lex="G28-5_sFv">G28-5 sFv</term> augmented <term sem="Other" id="T23" lex="CD40_response"><term sem="Protein_molecule" id="T24" lex="CD40">CD40</term> responses</term> during stimulation with <term sem="Protein_family_or_group" id="T25" lex="natural_ligand">natural ligand</term> (<term sem="Protein_molecule" id="T26" lex="gp39-CD8_fusion_protein">gp39-CD8 fusion protein</term>).</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<cause idref="T24" />
+<clue>G28-5 IgG partially blocked, whereas G28-5 sFv augmented CD40 <clueType>responses</clueType> during stimulation with natural ligand (gp39-CD8 fusion protein).</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="T21" />
+<clue>G28-5 IgG partially <clueType>blocked</clueType>, whereas G28-5 sFv augmented CD40 responses <clueExperiment>during stimulation with natural ligand (gp39-CD8 fusion protein)</clueExperiment>.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T22" />
+<clue>G28-5 IgG partially blocked, whereas G28-5 sFv <clueType>augmented</clueType> CD40 responses <clueExperiment>during stimulation with natural ligand (gp39-CD8 fusion protein)</clueExperiment>.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="T26" />
+<clue>G28-5 IgG partially blocked, whereas G28-5 sFv augmented CD40 responses during <clueType>stimulation</clueType> <linkCause>with</linkCause> natural ligand (gp39-CD8 fusion protein).</clue>
+</event>
+<sentence id="S7">These results indicate that the <term sem="Other" id="T27" lex="functional_activity">functional activity</term> of ligands built from the <term sem="Protein_domain_or_region" id="T28" lex="binding_site">binding site</term> of <term sem="Protein_molecule" id="T29" lex="G28-5">G28-5</term> is highly dependent upon the size and physical properties of the molecule both in solution and on the <term sem="Cell_component" id="T30" lex="cell_surface">cell surfaces</term>.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

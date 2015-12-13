@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="31/01/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8657101" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8657101</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A novel <term sem="Protein_family_or_group" id="T1" lex="interferon_regulatory_factor_family_transcription_factor">interferon regulatory factor family <term sem="Protein_family_or_group" id="T2" lex="transcription_factor">transcription factor</term></term>, <term sem="Protein_molecule" id="T3" lex="ICSAT/Pip/LSIRF">ICSAT/Pip/LSIRF</term>, that negatively regulates the activity of <term sem="DNA_family_or_group" id="T4" lex="interferon-regulated_gene">interferon-regulated genes</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="T4" />
+<cause idref="T3" />
+<clue>A novel interferon regulatory factor family transcription factor, ICSAT/Pip/LSIRF, that <clueType>negatively regulates</clueType> the activity <linkTheme>of</linkTheme> interferon-regulated genes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We have isolated a <term sem="DNA_molecule" id="T5" lex="novel_cDNA_clone">novel cDNA clone</term> encoding <term sem="Protein_molecule" id="T6" lex="interferon_(IFN)_consensus_sequence-binding_protein">interferon (IFN) consensus sequence-binding protein</term> in <term sem="Cell_cultured" id="T7" lex="adult_T-cell_leukemia_cell_line">adult T-cell leukemia cell line</term> or <term sem="Multicellular_organism_genetically_modified" id="T8" lex="activated_T_cell">activated <term sem="Cell_natural" id="T9" lex="T_cell">T cells</term></term> (<term sem="Protein_molecule" id="T10" lex="ICSAT">ICSAT</term>); this protein is the human homolog of the recently cloned <term sem="Protein_molecule" id="T11" lex="Pip/LSIRF">Pip/LSIRF</term>.</sentence>
+<sentence id="S3"><term sem="Protein_molecule" id="T12" lex="ICSAT">ICSAT</term> is structurally most closely related to the previously cloned <term sem="Protein_molecule" id="T13" lex="ICSBP">ICSBP</term>, a member of the <term sem="Protein_family_or_group" id="T14" lex="IFN_regulatory_factor_(IRF)_family">IFN regulatory factor (IRF) family</term> of proteins that binds to <term sem="DNA_domain_or_region" id="T15" lex="interferon_consensus_sequence">interferon consensus sequences</term> (<term sem="DNA_domain_or_region" id="T16" lex="ICS">ICSs</term>) found in many promoters of the <term sem="DNA_family_or_group" id="T17" lex="IFN-regulated_gene">IFN-regulated genes</term>.</sentence>
+<event id="E2">
+<type class="Binding" />
+<theme idref="T13" />
+<theme idref="T16" />
+<clue>ICSAT is structurally most closely related to the previously cloned ICSBP, a member of the IFN regulatory factor (IRF) family of proteins that <clueType>binds</clueType> <linkTheme>to</linkTheme> interferon consensus sequences (ICSs) found in many promoters of the IFN-regulated genes.</clue>
+</event>
+<sentence id="S4">Among <term sem="Cell_cultured" id="T18" lex="T-cell_line">T-cell lines</term> investigated, <term sem="Protein_molecule" id="T19" lex="ICSAT">ICSAT</term> was abundantly expressed in <term sem="Cell_cultured" id="T20" lex="human_T-cell_leukemia_virus_type_1_(HTLV-1)-infected_T_cell"><term sem="Virus" id="T21" lex="human_T-cell_leukemia_virus_type_1">human T-cell leukemia virus type 1</term> (<term sem="Virus" id="T22" lex="HTLV-1">HTLV-1</term>)-infected <term sem="Cell_natural" id="A1">T cells</term></term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>Among T-cell lines investigated, ICSAT was abundantly <clueType>expressed</clueType> <clueLoc>in human T-cell leukemia virus type 1 (HTLV-1)-infected T cells</clueLoc>.</clue>
+</event>
+<event id="E4">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T22" />
+<theme idref="A1" />
+<clue>Among T-cell lines investigated, ICSAT was abundantly expressed in human T-cell leukemia virus type 1 (HTLV-1)-<clueType>infected</clueType> T cells.</clue>
+</event>
+<sentence id="S5">When the <term sem="DNA_domain_or_region" id="T23" lex="HTLV-1_tax_gene"><term sem="Virus" id="T24" lex="HTLV-1">HTLV-1</term> tax gene</term> was expressed or <term sem="Other" id="T25" lex="phorbol_myristake_acetate-A23187_stimulation"><term sem="Organic_compound_other" id="T26" lex="phorbol_myristake_acetate-A23187">phorbol myristake acetate-A23187</term> stimulation</term> was used, <term sem="Protein_molecule" id="T27" lex="ICSAT">ICSAT</term> expression was induced in <term sem="Cell_cultured" id="T28" lex="Jurkat_cell">Jurkat cells</term> which otherwise do not express <term sem="Protein_molecule" id="T29" lex="ICSAT">ICSAT</term>.</sentence>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue>When the HTLV-1 tax gene was <clueType>expressed</clueType> or phorbol myristake acetate-A23187 stimulation was used, ICSAT expression was induced in Jurkat cells which otherwise do not express ICSAT.</clue>
+<comment>CAUTION, typo-error, &quot;phorbol myristate acetate&quot;</comment>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<cause idref="T26" />
+<clue>When the HTLV-1 tax gene was expressed or phorbol myristake acetate-A23187 <clueType>stimulation</clueType> was used, ICSAT expression was induced in Jurkat cells which otherwise do not express ICSAT.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T27" />
+<clue>When the HTLV-1 tax gene was expressed or phorbol myristake acetate-A23187 stimulation was used, ICSAT <clueType>expression</clueType> was induced in Jurkat cells which otherwise do not express ICSAT.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E5" />
+<clue><linkCause>When</linkCause> the HTLV-1 tax gene was expressed or phorbol myristake acetate-A23187 stimulation was used, ICSAT expression was <clueType>induced</clueType> <clueLoc>in Jurkat cells</clueLoc> which otherwise do not express ICSAT.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E6" />
+<clue><linkCause>When</linkCause> the HTLV-1 tax gene was expressed or phorbol myristake acetate-A23187 stimulation was used, ICSAT expression was <clueType>induced</clueType> <clueLoc>in Jurkat cells</clueLoc> which otherwise do not express ICSAT.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>When the HTLV-1 tax gene was expressed or phorbol myristake acetate-A23187 stimulation was used, ICSAT expression was induced <clueLoc>in Jurkat cells</clueLoc> which otherwise do not <clueType>express</clueType> ICSAT.</clue>
+</event>
+<sentence id="S6">When the binding of <term sem="Protein_molecule" id="T30" lex="ICSAT">ICSAT</term> to four different <term sem="DNA_domain_or_region" id="T31" lex="ICS">ICSs</term> was tested, the relative differences in binding affinities for those <term sem="DNA_domain_or_region" id="T32" lex="ICS">ICSs</term> were determined.</sentence>
+<event uncertainty="doubtful" id="E8">
+<type class="Binding" />
+<theme idref="T30" />
+<theme idref="T31" />
+<clue>When the <clueType>binding</clueType> <linkTheme>of</linkTheme> ICSAT <linkTheme>to</linkTheme> four different ICSs was tested, the relative differences in binding affinities for those ICSs were determined.</clue>
+</event>
+<sentence id="S7">To study the functional role of <term sem="Protein_molecule" id="T33" lex="ICSAT">ICSAT</term>, we performed <term sem="Other" id="T34" lex="cotransfection_experiment">cotransfection experiments</term> with the <term sem="Cell_cultured" id="T35" lex="human_embryonal_carcinoma_cell_line_N-Tera2">human embryonal carcinoma cell line N-Tera2</term>.</sentence>
+<event uncertainty="doubtful" id="E9">
+<type class="Regulation" />
+<cause idref="T33" />
+<clue>To study the <clueType>functional role</clueType> <linkCause>of</linkCause> ICSAT, we performed <clueExperiment>cotransfection experiments</clueExperiment> <clueLoc>with the human embryonal carcinoma cell line N-Tera2</clueLoc>.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S8"><term sem="Protein_molecule" id="T36" lex="ICSAT">ICSAT</term> was demonstrated to possess repressive function over the <term sem="Other" id="A2">gene activation</term> induced by <term sem="Other" id="T37" lex="IFN_stimulation"><term sem="Protein_family_or_group" id="T38" lex="IFN">IFN</term> stimulation</term> or by <term sem="Other" id="T39" lex="IRF-1_cotransfection"><term sem="Protein_molecule" id="T40" lex="IRF-1">IRF-1</term> cotransfection</term>.</sentence>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="A2" />
+<cause idref="T36" />
+<clue>ICSAT was demonstrated to possess <clueType>repressive function</clueType> <linkTheme>over</linkTheme> the gene activation induced by IFN stimulation or by IRF-1 cotransfection.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="E12" />
+<clue>ICSAT was demonstrated to possess repressive function over the gene activation <clueType>induced</clueType> <linkCause>by</linkCause> IFN stimulation or by IRF-1 cotransfection.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<cause idref="T38" />
+<clue>ICSAT was demonstrated to possess repressive function over the gene activation induced by IFN <clueType>stimulation</clueType> or by IRF-1 cotransfection.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="E20" />
+<clue>ICSAT was demonstrated to possess repressive function over the gene activation <clueType>induced</clueType> by IFN stimulation or <linkCause>by</linkCause> IRF-1 cotransfection.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>ICSAT was demonstrated to possess repressive function over the gene activation induced by IFN stimulation or by IRF-1 <clueType>cotransfection</clueType>.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<clue>ICSAT was demonstrated to possess repressive function over the gene activation induced by IFN stimulation or by IRF-1 <clueType>cotransfection</clueType>.</clue>
+</event>
+<sentence id="S9">Such repressive function is similar to that seen in <term sem="Protein_molecule" id="T41" lex="IRF-2">IRF-2</term> or <term sem="Protein_molecule" id="T42" lex="ICSBP">ICSBP</term>.</sentence>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="A2" />
+<cause idref="T41" />
+<clue><corefTheme>Such</corefTheme> <clueType>repressive function</clueType> is similar to that seen in IRF-2 or ICSBP.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="A2" />
+<cause idref="T42" />
+<clue><corefTheme>Such</corefTheme> <clueType>repressive function</clueType> is similar to that seen in IRF-2 or ICSBP.</clue>
+</event>
+<sentence id="S10">However, we have found that <term sem="Protein_molecule" id="T43" lex="ICSAT">ICSAT</term> has a different repressive effect from that of <term sem="Protein_molecule" id="T44" lex="IRF-2">IRF-2</term> or <term sem="Protein_molecule" id="T45" lex="ICSBP">ICSBP</term> in some <term sem="DNA_molecule" id="T46" lex="IFN-responsive_reporter_construct">IFN-responsive reporter constructs</term>.</sentence>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="T46" />
+<cause idref="T43" />
+<clue>However, we have found that ICSAT has a different <clueType>repressive effect</clueType> from that of IRF-2 or ICSBP <linkTheme>in</linkTheme> some IFN-responsive reporter constructs.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="T46" />
+<cause idref="T44" />
+<clue>However, we have found that ICSAT has a different <clueType>repressive effect</clueType> from that of IRF-2 or ICSBP <linkTheme>in</linkTheme> some IFN-responsive reporter constructs.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="T46" />
+<cause idref="T45" />
+<clue>However, we have found that ICSAT has a different <clueType>repressive effect</clueType> from that of IRF-2 or ICSBP <linkTheme>in</linkTheme> some IFN-responsive reporter constructs.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<sentence id="S11">These results suggest that a novel mechanism of <term sem="Other" id="T47" lex="gene_regulation">gene regulation</term> by &quot;differential repression&quot; is used by multiple members of <term sem="Protein_family_or_group" id="T48" lex="repressor_protein">repressor proteins</term> with different repressive effects on the <term sem="DNA_family_or_group" id="T49" lex="IFN-responsive_gene">IFN-responsive genes</term>.</sentence>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="T49" />
+<cause idref="T48" />
+<clue>These results suggest that a novel mechanism of gene regulation by &quot;differential repression&quot; is used by multiple members of repressor proteins with different <clueType>repressive effects</clueType> <linkTheme>on</linkTheme> the IFN-responsive genes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

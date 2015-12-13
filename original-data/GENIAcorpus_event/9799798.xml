@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="24/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9799798" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9799798</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="transcriptional_regulation">Transcriptional regulation</term> of <term sem="Protein_molecule" id="T2" lex="lysosomal_acid_lipase">lysosomal acid lipase</term> in differentiating <term sem="Cell_natural" id="A1">monocytes</term> is mediated by <term sem="Protein_family_or_group" id="T3" lex="transcription_factor">transcription factors</term> <term sem="Protein_molecule" id="T4" lex="Sp1">Sp1</term> and <term sem="Protein_molecule" id="T5" lex="AP-2">AP-2</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T2" />
+<clue><clueType>Transcriptional regulation</clueType> <linkTheme>of</linkTheme> lysosomal acid lipase <clueTime>in differentiating monocytes</clueTime> is mediated by transcription factors Sp1 and AP-2.</clue>
+</event>
+<event id="E2">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>Transcriptional regulation of lysosomal acid lipase in <clueType>differentiating</clueType> monocytes is mediated by transcription factors Sp1 and AP-2.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T4" />
+<clue>Transcriptional regulation of lysosomal acid lipase in differentiating monocytes is <clueType>mediated</clueType> <linkCause>by</linkCause> transcription factors Sp1 and AP-2.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T5" />
+<clue>Transcriptional regulation of lysosomal acid lipase in differentiating monocytes is <clueType>mediated</clueType> <linkCause>by</linkCause> transcription factors Sp1 and AP-2.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Human <term sem="Protein_molecule" id="T6" lex="lysosomal_acid_lipase">lysosomal acid lipase</term> (<term sem="Protein_family_or_group" id="T7" lex="LAL">LAL</term>) is a <term sem="Protein_family_or_group" id="T8" lex="hydrolase">hydrolase</term> required for the cleavage of <term sem="Organic_compound_other" id="T9" lex="cholesteryl_ester">cholesteryl esters</term> and <term sem="Lipid" id="T10" lex="triglyceride">triglycerides</term> derived from <term sem="Protein_family_or_group" id="A2">plasma lipoproteins</term>.</sentence>
+<event id="E5">
+<type class="Metabolism" />
+<theme idref="A2" />
+<theme idref="T9" />
+<theme idref="T10" />
+<cause idref="T7" />
+<clue>Human lysosomal acid lipase (LAL) is a <corefCause>hydrolase</corefCause> <linkCause>required</linkCause> for the <clueType>cleavage</clueType> <linkTheme>of</linkTheme> cholesteryl esters and triglycerides <linkTheme>derived from</linkTheme> plasma lipoproteins.</clue>
+</event>
+<sentence id="S3">It is shown here that during <term sem="Cell_natural" id="A3">monocyte</term> to <term sem="Cell_natural" id="A4">macrophage</term> differentiation, the expression of <term sem="RNA_molecule" id="T11" lex="LAL-mRNA"><term sem="Protein_family_or_group" id="T12" lex="LAL">LAL</term>-mRNA</term> is induced.</sentence>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="A3" />
+<theme idref="A4" />
+<clue>It is shown here that during monocyte <linkTheme>to</linkTheme> macrophage <clueType>differentiation</clueType>, the expression of LAL-mRNA is induced.</clue>
+</event>
+<event id="E7">
+<type class="Transcription" />
+<theme idref="T11" />
+<clue>It is shown here that during monocyte to macrophage differentiation, the <clueType>expression</clueType> <linkTheme>of</linkTheme> LAL-mRNA is induced.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<clue>It is shown here that <clueTime>during monocyte to macrophage differentiation</clueTime>, the expression of LAL-mRNA is <clueType>induced</clueType>.</clue>
+</event>
+<sentence id="S4">This induction is dependent on <term sem="Other" id="T13" lex="protein_kinase_C_activity"><term sem="Protein_molecule" id="T14" lex="protein_kinase_C">protein kinase C</term> activity</term> and <term sem="Other" id="A5">protein synthesis</term>.</sentence>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T14" />
+<clue><corefTheme>This induction</corefTheme> is <clueType>dependent</clueType> <linkCause>on</linkCause> protein kinase C activity and protein synthesis.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="A5" />
+<clue><corefTheme>This induction</corefTheme> is <clueType>dependent</clueType> <linkCause>on</linkCause> protein kinase C activity and protein synthesis.</clue>
+</event>
+<sentence id="S5">The cell type-specific increase in <term sem="Other" id="T15" lex="LAL_expression"><term sem="Protein_family_or_group" id="T16" lex="LAL">LAL</term> expression</term> is further investigated in the <term sem="Cell_cultured" id="T17" lex="THP-1_cell_line">THP-1 cell line</term> with respect to <term sem="Other" id="T18" lex="transcriptional_regulation">transcriptional regulation</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>The cell type-specific increase in LAL <clueType>expression</clueType> is further investigated in the THP-1 cell line with respect to transcriptional regulation.</clue>
+</event>
+<event uncertainty="doubtful" id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<clue>The cell type-specific <clueType>increase</clueType> <linkTheme>in</linkTheme> LAL expression is further investigated <clueLoc>in the THP-1 cell line</clueLoc> with respect to transcriptional regulation.</clue>
+</event>
+<event uncertainty="doubtful" id="E13">
+<type class="Regulation" />
+<theme idref="T16" />
+<clue>The cell type-specific increase in LAL expression is further investigated <clueLoc>in the THP-1 cell line</clueLoc> with respect to <clueType>transcriptional regulation</clueType>.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<sentence id="S6">The <term sem="Cell_cultured" id="T19" lex="human_monocytic_leukemia_cell_line">human monocytic leukemia cell line</term> <term sem="Cell_cultured" id="T20" lex="THP-1">THP-1</term> differentiates into <term sem="Cell_natural" id="T21" lex="macrophage-like_cell">macrophage-like cells</term> when treated with <term sem="Organic_compound_other" id="A101">phorbol esters</term>.</sentence>
+<event id="E14">
+<type class="Cell_differentiation" />
+<theme idref="T20" />
+<theme idref="T21" />
+<clue>The human monocytic leukemia cell line THP-1 <clueType>differentiates</clueType> <linkTheme>into</linkTheme> macrophage-like cells when treated with phorbol esters.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="A101" />
+<clue>The human monocytic leukemia cell line THP-1 differentiates into macrophage-like cells <linkCause>when treated with</linkCause> phorbol esters.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S7">In order to determine the <term sem="DNA_family_or_group" id="T22" lex="cis-acting_element">cis-acting elements</term> necessary for both basal and <term sem="Other" id="T23" lex="phorbol_12-myristate-13_acetate_(PMA)-enhanced_promoter_activity"><term sem="Organic_compound_other" id="T24" lex="phorbol_12-myristate-13_acetate">phorbol 12-myristate-13 acetate</term> (<term sem="Organic_compound_other" id="T25" lex="PMA">PMA</term>)-enhanced <term sem="DNA_domain_or_region" id="A102">promoter</term> activity</term>, we performed <term sem="Other" id="T26" lex="deletion_analysis">deletion analysis</term> and <term sem="Other" id="T27" lex="reporter_gene_assay"><term sem="DNA_family_or_group" id="T28" lex="reporter_gene">reporter gene</term> assays</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="A102" />
+<cause idref="T25" />
+<clue>In order to determine the cis-acting elements necessary for both basal and phorbol 12-myristate-13 acetate (PMA)-<clueType>enhanced</clueType> promoter activity, we performed deletion analysis and reporter gene assays.</clue>
+</event>
+<event uncertainty="doubtful" id="E17">
+<type class="Positive_regulation" />
+<theme idref="A102" />
+<cause idref="T22" />
+<clue>In order to determine the cis-acting elements <clueType>necessary</clueType> <linkTheme>for</linkTheme> both basal and phorbol 12-myristate-13 acetate (PMA)-enhanced promoter activity, we performed <clueExperiment>deletion analysis and reporter gene assays</clueExperiment>.</clue>
+</event>
+<event uncertainty="doubtful" id="E117">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T22" />
+<clue>In order to determine the cis-acting elements <clueType>necessary</clueType> <linkTheme>for</linkTheme> both basal and phorbol 12-myristate-13 acetate (PMA)-enhanced promoter activity, we performed <clueExperiment>deletion analysis and reporter gene assays</clueExperiment>.</clue>
+</event>
+<sentence id="S8">A <term sem="DNA_family_or_group" id="T29" lex="PMA_responsive_element"><term sem="Organic_compound_other" id="T30" lex="PMA">PMA</term> responsive element</term> has been identified between <term sem="DNA_domain_or_region" id="T31" lex="-182_bp">-182 bp</term> and <term sem="DNA_domain_or_region" id="T32" lex="-107_bp">-107 bp</term> upstream of the <term sem="DNA_domain_or_region" id="T33" lex="major_transcription_start_site">major transcription start site</term>.</sentence>
+<sentence id="S9"><term sem="Other" id="T34" lex="gel_mobility_shift_assay">Gel mobility shift assays</term> demonstrated that binding of <term sem="Protein_molecule" id="T35" lex="Sp1">Sp1</term> and <term sem="Protein_molecule" id="T36" lex="AP-2">AP-2</term> to the <term sem="DNA_domain_or_region" id="T37" lex="LAL_promoter"><term sem="Protein_family_or_group" id="T38" lex="LAL">LAL</term> promoter</term> is increased by <term sem="Organic_compound_other" id="T39" lex="PMA">PMA</term> in <term sem="Cell_cultured" id="T40" lex="THP-1_cell">THP-1 cells</term>.</sentence>
+<event id="E18">
+<type class="Binding" />
+<theme idref="T35" />
+<theme idref="T37" />
+<clue>Gel mobility shift assays demonstrated that <clueType>binding</clueType> <linkTheme>of</linkTheme> Sp1 and AP-2 <linkTheme>to</linkTheme> the LAL promoter is increased by PMA in THP-1 cells.</clue>
+</event>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T36" />
+<theme idref="T37" />
+<clue>Gel mobility shift assays demonstrated that <clueType>binding</clueType> <linkTheme>of</linkTheme> Sp1 and AP-2 <linkTheme>to</linkTheme> the LAL promoter is increased by PMA in THP-1 cells.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T39" />
+<clue><clueExperiment>Gel mobility shift assays</clueExperiment> demonstrated that binding of Sp1 and AP-2 to the LAL promoter is <clueType>increased</clueType> <linkCause>by</linkCause> PMA <clueLoc>in THP-1 cells</clueLoc>.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T39" />
+<clue><clueExperiment>Gel mobility shift assays</clueExperiment> demonstrated that binding of Sp1 and AP-2 to the LAL promoter is <clueType>increased</clueType> <linkCause>by</linkCause> PMA <clueLoc>in THP-1 cells</clueLoc>.</clue>
+</event>
+<sentence id="S10">Co-transfections with <term sem="DNA_family_or_group" id="T41" lex="expression_plasmid">expression plasmids</term> for <term sem="Protein_molecule" id="T42" lex="Sp1">Sp1</term> and <term sem="Protein_molecule" id="T43" lex="AP-2">AP-2</term> further emphasized the important role of these <term sem="Protein_family_or_group" id="T44" lex="transcription_factor">transcription factors</term> in both basal and <term sem="Other" id="T45" lex="PMA-enhanced_LAL_expression"><term sem="Organic_compound_other" id="T46" lex="PMA">PMA</term>-enhanced <term sem="Protein_family_or_group" id="T47" lex="LAL">LAL</term> expression</term>.</sentence>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref="T47" />
+<clue>Co-transfections with expression plasmids for Sp1 and AP-2 further emphasized the important role of these transcription factors in both basal and PMA-enhanced LAL <clueType>expression</clueType>.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="T46" />
+<clue>Co-transfections with expression plasmids for Sp1 and AP-2 further emphasized the important role of these transcription factors in both basal and PMA-<clueType>enhanced</clueType> LAL expression.</clue>
+</event>
+<event id="E24">
+<type class="Regulation" />
+<theme idref="E22" />
+<cause idref="T42" />
+<clue><clueExperiment>Co-transfections with expression plasmids for Sp1 and AP-2</clueExperiment> further emphasized the <clueType>important role</clueType> <linkCause>of</linkCause> <corefCause>these transcription factors</corefCause> <linkTheme>in</linkTheme> both basal and PMA-enhanced LAL expression.</clue>
+</event>
+<event id="E25">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="T42" />
+<clue><clueExperiment>Co-transfections with expression plasmids for Sp1 and AP-2</clueExperiment> further emphasized the <clueType>important role</clueType> <linkCause>of</linkCause> <corefCause>these transcription factors</corefCause> <linkTheme>in</linkTheme> both basal and PMA-enhanced LAL expression.</clue>
+</event>
+<sentence id="S11">Our data suggest that <term sem="Other" id="A103">differentiation</term> dependent increase of <term sem="Protein_molecule" id="T48" lex="lysosomal_acid_lipase">lysosomal acid lipase</term> (<term sem="Protein_family_or_group" id="T49" lex="LAL">LAL</term>) expression in <term sem="Cell_cultured" id="T50" lex="THP-1_cell">THP-1 cells</term> is mediated by a concerted action of <term sem="Protein_molecule" id="T51" lex="Sp1">Sp1</term> and <term sem="Protein_molecule" id="T52" lex="AP-2">AP-2</term>.</sentence>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T49" />
+<clue>Our data suggest that differentiation dependent increase of lysosomal acid lipase (LAL) <clueType>expression</clueType> in THP-1 cells is mediated by a concerted action of Sp1 and AP-2.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<clue>Our data suggest that differentiation dependent <clueType>increase</clueType> <linkTheme>of</linkTheme> lysosomal acid lipase (LAL) expression in THP-1 cells is mediated by a concerted action of Sp1 and AP-2.</clue>
+</event>
+<event id="E28">
+<type class="Regulation" />
+<theme idref="E27" />
+<cause idref="A103" />
+<clue>Our data suggest that differentiation <clueType>dependent</clueType> increase of lysosomal acid lipase (LAL) expression <clueLoc>in THP-1 cells</clueLoc> is mediated by a concerted action of Sp1 and AP-2.</clue>
+</event>
+<event id="E29">
+<type class="Correlation" />
+<theme idref="T51" />
+<theme idref="T52" />
+<clue>Our data suggest that differentiation dependent increase of lysosomal acid lipase (LAL) expression in THP-1 cells is mediated by a <clueType>concerted action</clueType> <linkTheme>of</linkTheme> Sp1 and AP-2.</clue>
+</event>
+<event id="E30">
+<type class="Regulation" />
+<theme idref="E28" />
+<cause idref="E29" />
+<clue>Our data suggest that differentiation dependent increase of lysosomal acid lipase (LAL) expression in THP-1 cells is <clueType>mediated</clueType> <linkCause>by</linkCause> a concerted action of Sp1 and AP-2.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

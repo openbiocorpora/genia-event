@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="05/12/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9045614" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9045614</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="immune_hyperactivation">Immune hyperactivation</term> of <term sem="Cell_natural" id="T2" lex="HIV-1-infected_T_cell"><term sem="Virus" id="T3" lex="HIV-1">HIV-1</term>-infected <term sem="Cell_natural" id="A1">T cells</term></term> mediated by <term sem="Protein_molecule" id="T4" lex="Tat">Tat</term> and the <term sem="Other" id="T5" lex="CD28_pathway"><term sem="Protein_molecule" id="T6" lex="CD28">CD28</term> pathway</term>.</sentence>
+<event id="E1">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A1" />
+<theme idref="T3" />
+<clue>Immune hyperactivation of HIV-1-<clueType>infected</clueType> T cells mediated by Tat and the CD28 pathway.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<cause idref="E1" />
+<clue>Immune <clueType>hyperactivation</clueType> <linkCause>of</linkCause> HIV-1-infected T cells mediated by Tat and the CD28 pathway.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T4" />
+<clue>Immune hyperactivation of HIV-1-infected T cells <clueType>mediated</clueType> <linkCause>by</linkCause> Tat and the CD28 pathway.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T5" />
+<clue>Immune hyperactivation of HIV-1-infected T cells <clueType>mediated</clueType> <linkCause>by</linkCause> Tat and the CD28 pathway.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T7" lex="human_immunodeficiency_virus-type_1_(HIV-1)_infection"><term sem="Virus" id="T8" lex="human_immunodeficiency_virus-type_1">Human immunodeficiency virus-type 1</term> (<term sem="Virus" id="T9" lex="HIV-1">HIV-1</term>) infection</term> is characterized by a chronic state of <term sem="Other" id="T10" lex="immune_hyperactivation">immune hyperactivation</term> in <term sem="Multicellular_organism_natural" id="T11" lex="patient">patients</term>.</sentence>
+<event id="E5">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T9" />
+<clue>Human immunodeficiency virus-type 1 (HIV-1) <clueType>infection</clueType> is characterized by a chronic state of immune hyperactivation in patients.</clue>
+</event>
+<event id="E6">
+<type class="Correlation" />
+<theme idref="T10" />
+<theme idref="E5" />
+<clue>Human immunodeficiency virus-type 1 (HIV-1) infection is <clueType>characterized</clueType> <linkTheme>by</linkTheme> a chronic state of immune hyperactivation in patients.</clue>
+</event>
+<sentence id="S3">Infection of <term sem="Cell_natural" id="T12" lex="human_peripheral_blood_lymphocyte">human peripheral blood lymphocytes</term> with <term sem="Virus" id="T13" lex="HIV-1">HIV-1</term> in vitro resulted in increased interleukin-2 (<term sem="Protein_molecule" id="A2">IL-2</term>) secretion in response to <term sem="Other" id="T14" lex="T_cell_activation"><term sem="Cell_natural" id="A6">T cell</term> activation</term> via the <cons sem="(AND Protein_molecule Protein_molecule)" id="T15" lex="(AND CD3_receptor CD28_receptor)"><frag id="F1">CD3</frag> and <frag id="F2">CD28</frag> <frag id="F3">receptors</frag></cons>.</sentence>
+<event id="E7">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T12" />
+<theme idref="T13" />
+<clue><clueType>Infection</clueType> <linkTheme>of</linkTheme> human peripheral blood lymphocytes <linkTheme>with</linkTheme> HIV-1 in vitro resulted in increased interleukin-2 (IL-2) secretion in response to T cell activation via the CD3 and CD28 receptors.</clue>
+</event>
+<event id="E8">
+<type class="Physiological_process" />
+<theme idref="A6" />
+<cause idref1="F3" idref="F1" />
+<clue>Infection of human peripheral blood lymphocytes with HIV-1 in vitro resulted in increased interleukin-2 (IL-2) secretion in response to T cell <clueType>activation</clueType> <linkCause>via</linkCause> the CD3 and CD28 receptors.</clue>
+</event>
+<event id="E9">
+<type class="Physiological_process" />
+<theme idref="A6" />
+<cause idref1="F3" idref="F2" />
+<clue>Infection of human peripheral blood lymphocytes with HIV-1 in vitro resulted in increased interleukin-2 (IL-2) secretion in response to T cell <clueType>activation</clueType> <linkCause>via</linkCause> the CD3 and CD28 receptors.</clue>
+</event>
+<event id="E110">
+<type class="Localization" />
+<theme idref="A2" />
+<clue>Infection of human peripheral blood lymphocytes with HIV-1 in vitro resulted in increased interleukin-2 (IL-2) <clueType>secretion</clueType> in response to T cell activation via the CD3 and CD28 receptors.</clue>
+</event>
+<event id="E111">
+<type class="Positive_regulation" />
+<theme idref="E110" />
+<cause idref="E8" />
+<clue>Infection of human peripheral blood lymphocytes with HIV-1 in vitro resulted in increased interleukin-2 (IL-2) secretion <linkCause>in response to</linkCause> T cell activation via the CD3 and CD28 receptors.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E112">
+<type class="Positive_regulation" />
+<theme idref="E110" />
+<cause idref="E9" />
+<clue>Infection of human peripheral blood lymphocytes with HIV-1 in vitro resulted in increased interleukin-2 (IL-2) secretion <linkCause>in response to</linkCause> T cell activation via the CD3 and CD28 receptors.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E111" />
+<cause idref="E7" />
+<clue>Infection of human peripheral blood lymphocytes with HIV-1 in vitro resulted in <clueType>increased</clueType> interleukin-2 (IL-2) secretion in response to T cell activation via the CD3 and CD28 receptors.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E112" />
+<cause idref="E7" />
+<clue>Infection of human peripheral blood lymphocytes with HIV-1 in vitro resulted in <clueType>increased</clueType> interleukin-2 (IL-2) secretion in response to T cell activation via the CD3 and CD28 receptors.</clue>
+</event>
+<sentence id="S4">Expression of the <term sem="Protein_family_or_group" id="T16" lex="HIV-1_transactivator"><term sem="Virus" id="T17" lex="HIV-1">HIV-1</term> transactivator</term> <term sem="Protein_molecule" id="T18" lex="Tat">Tat</term> recapitulated this phenotype and was associated with increased <term sem="Other" id="T19" lex="IL-2_secretion"><term sem="Protein_molecule" id="T20" lex="IL-2">IL-2</term> secretion</term> in response to costimulation with <term sem="Protein_molecule" id="T21" lex="CD3">CD3</term> plus <term sem="Protein_molecule" id="T22" lex="CD28">CD28</term>.</sentence>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T18" />
+<clue><clueType>Expression</clueType> <linkCause>of</linkCause> the HIV-1 transactivator Tat recapitulated this phenotype and was associated with increased IL-2 secretion in response to costimulation with CD3 plus CD28.</clue>
+</event>
+<event id="E15">
+<type class="Localization" />
+<theme idref="T20" />
+<clue>Expression of the HIV-1 transactivator Tat recapitulated this phenotype and was associated with increased IL-2 <clueType>secretion</clueType> in response to costimulation with CD3 plus CD28.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="T21" />
+<cause idref="T22" />
+<clue>Expression of the HIV-1 transactivator Tat recapitulated this phenotype and was associated with <clueType>increased</clueType> IL-2 secretion <linkCause>in response to</linkCause> costimulation with CD3 plus CD28.</clue>
+</event>
+<event id="E17">
+<type class="Correlation" />
+<theme idref="E14" />
+<theme idref="E16" />
+<clue>Expression of the HIV-1 transactivator Tat recapitulated this phenotype and was <clueType>associated</clueType> <linkTheme>with</linkTheme> increased IL-2 secretion in response to costimulation with CD3 plus CD28.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T23" lex="IL-2">IL-2</term> superinduction by <term sem="Protein_molecule" id="T24" lex="Tat">Tat</term> occurred at the <term sem="Other" id="T25" lex="transcriptional_level">transcriptional level</term>, was mediated by the <term sem="DNA_domain_or_region" id="T26" lex="CD28-responsive_element"><term sem="Protein_molecule" id="T27" lex="CD28">CD28</term>-responsive element</term> in the <term sem="DNA_domain_or_region" id="T28" lex="IL-2_promoter"><term sem="Protein_molecule" id="T29" lex="IL-2">IL-2</term> promoter</term>, and was exclusively dependent on the <term sem="Protein_domain_or_region" id="A7"><term sem="Protein_domain_or_region" id="T30" lex="29_amino_acids">29 amino acids</term> encoded by the <term sem="DNA_domain_or_region" id="T31" lex="second_exon_of_Tat">second exon of <term sem="Protein_molecule" id="T32" lex="Tat">Tat</term></term></term>.</sentence>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="T24" />
+<clue>IL-2 <clueType>superinduction</clueType> <linkCause>by</linkCause> Tat occurred at the transcriptional level, was mediated by the CD28-responsive element in the IL-2 promoter, and was exclusively dependent on the 29 amino acids encoded by the second exon of Tat.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T26" />
+<clue>IL-2 superinduction by Tat occurred at the transcriptional level, was <clueType>mediated</clueType> <linkCause>by</linkCause> the CD28-responsive element in the IL-2 promoter, and was exclusively dependent on the 29 amino acids encoded by the second exon of Tat.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="A7" />
+<clue>IL-2 superinduction by Tat occurred at the transcriptional level, was mediated by the CD28-responsive element in the IL-2 promoter, and was exclusively <clueType>dependent</clueType> <linkCause>on</linkCause> the 29 amino acids encoded by the second exon of Tat.</clue>
+<comment>TPS: A7</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

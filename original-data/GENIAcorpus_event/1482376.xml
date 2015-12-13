@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="22/02/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1482376">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1482376</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="alpha-lipoic_acid">Alpha-lipoic acid</term> is a potent inhibitor of <term sem="Other" id="T2" lex="NF-kappa_B_activation"><term sem="Protein_molecule" id="T3" lex="NF-kappa_B">NF-kappa B</term> activation</term> in <term sem="Cell_natural" id="T4" lex="human_T_cell">human T cells</term>.</sentence>
+<event uncertainty="probable" id="E1">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Alpha-lipoic acid is a potent <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> NF-kappa B activation <clueLoc>in human T cells</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T3" />
+<clue>Alpha-lipoic acid is a potent inhibitor of NF-kappa B <clueType>activation</clueType> in human T cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T5" lex="acquired_immunodeficiency_syndrome">Acquired immunodeficiency syndrome</term> (<term sem="Other" id="T6" lex="AIDS">AIDS</term>) results from infection with a <term sem="Virus" id="T7" lex="human_immunodeficiency_virus">human immunodeficiency virus</term> (<term sem="Virus" id="T8" lex="HIV">HIV</term>).</sentence>
+<event id="E3">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T8" />
+<clue>Acquired immunodeficiency syndrome (AIDS) results from <clueType>infection</clueType> <linkCause>with</linkCause> a human immunodeficiency virus (HIV).</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<cause idref="E3" />
+<clue>Acquired immunodeficiency syndrome (AIDS) <clueType>results</clueType> <linkCause>from</linkCause> infection with a human immunodeficiency virus (HIV).</clue>
+</event>
+<sentence id="S3">The <term sem="DNA_domain_or_region" id="T9" lex="long_terminal_repeat_(LTR)_region">long terminal repeat (LTR) region</term> of <term sem="DNA_family_or_group" id="T10" lex="HIV_proviral_DNA"><term sem="Virus" id="T11" lex="HIV">HIV</term> proviral DNA</term> contains binding sites for <term sem="Protein_molecule" id="T12" lex="nuclear_factor_kappa_B">nuclear factor kappa B</term> (<term sem="Protein_molecule" id="T13" lex="NF-kappa_B">NF-kappa B</term>), and this <term sem="Protein_family_or_group" id="T14" lex="transcriptional_activator">transcriptional activator</term> appears to regulate <term sem="Other" id="T15" lex="HIV_activation"><term sem="Virus" id="T16" lex="HIV">HIV</term> activation</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<clue>The long terminal repeat (LTR) region of HIV proviral DNA contains binding sites for nuclear factor kappa B (NF-kappa B), and this transcriptional activator appears to regulate HIV <clueType>activation</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T13" />
+<clue>The long terminal repeat (LTR) region of HIV proviral DNA contains binding sites for nuclear factor kappa B (NF-kappa B), and <corefCause>this transcriptional activator</corefCause> appears to <clueType>regulate</clueType> HIV activation.</clue>
+</event>
+<sentence id="S4">Recent findings suggest an involvement of <term sem="Organic_compound_other" id="T17" lex="reactive_oxygen_species">reactive oxygen species</term> (<term sem="Organic_compound_other" id="T18" lex="ROS">ROS</term>) in <term sem="Other" id="T19" lex="signal_transduction_pathway">signal transduction pathways</term> leading to <term sem="Other" id="T20" lex="NF-kappa_B_activation"><term sem="Protein_molecule" id="T21" lex="NF-kappa_B">NF-kappa B</term> activation</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<clue>Recent findings suggest an involvement of reactive oxygen species (ROS) in signal transduction pathways leading to NF-kappa B <clueType>activation</clueType>.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T19" />
+<clue>Recent findings suggest an involvement of reactive oxygen species (ROS) in signal transduction pathways <clueType>leading</clueType> <linkTheme>to</linkTheme> NF-kappa B activation.</clue>
+</event>
+<event uncertainty="probable" id="E9">
+<type class="Correlation" />
+<theme idref="T18" />
+<theme idref="E8" />
+<clue>Recent findings suggest an <clueType>involvement</clueType> <linkTheme>of</linkTheme> reactive oxygen species (ROS) <linkTheme>in</linkTheme> signal transduction pathways leading to NF-kappa B activation.</clue>
+</event>
+<sentence id="S5">The present study was based on reports that <term sem="Organic_compound_other" id="T22" lex="antioxidant">antioxidants</term> which eliminate <term sem="Organic_compound_other" id="T23" lex="ROS">ROS</term> should block the activation of <term sem="Protein_molecule" id="T24" lex="NF-kappa_B">NF-kappa B</term> and subsequently <term sem="Other" id="T25" lex="HIV_transcription"><term sem="Virus" id="T26" lex="HIV">HIV</term> transcription</term>, and thus <term sem="Organic_compound_other" id="T27" lex="antioxidant">antioxidants</term> can be used as therapeutic agents for <term sem="Other" id="T28" lex="AIDS">AIDS</term>.</sentence>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<cause idref="T22" />
+<clue>The present study was based on reports that antioxidants which <clueType>eliminate</clueType> ROS should block the activation of NF-kappa B and subsequently HIV transcription, and thus antioxidants can be used as therapeutic agents for AIDS.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<clue>The present study was based on reports that antioxidants which eliminate ROS should block the <clueType>activation</clueType> <linkCause>of</linkCause> NF-kappa B and subsequently HIV transcription, and thus antioxidants can be used as therapeutic agents for AIDS.</clue>
+</event>
+<event uncertainty="probable" id="E12">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="E10" />
+<clue>The present study was based on reports that antioxidants which eliminate ROS should <clueType>block</clueType> the activation of NF-kappa B and subsequently HIV transcription, and thus antioxidants can be used as therapeutic agents for AIDS.</clue>
+</event>
+<event id="E13">
+<type class="Transcription" />
+<theme idref="T26" />
+<clue>The present study was based on reports that antioxidants which eliminate ROS should block the activation of NF-kappa B and subsequently HIV <clueType>transcription</clueType>, and thus antioxidants can be used as therapeutic agents for AIDS.</clue>
+</event>
+<event uncertainty="probable" id="E14">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="E12" />
+<clue>The present study was based on reports that antioxidants which eliminate ROS should <clueType>block</clueType> the activation of NF-kappa B and <clueType>subsequently</clueType> HIV transcription, and thus antioxidants can be used as therapeutic agents for AIDS.</clue>
+</event>
+<sentence id="S6">Incubation of <term sem="Cell_cultured" id="T29" lex="Jurkat_T_cells">Jurkat T cells</term> (1 x 10(6) cells/ml) with a <term sem="Organic_compound_other" id="T30" lex="natural_thiol_antioxidant">natural thiol antioxidant</term>, <term sem="Organic_compound_other" id="T31" lex="alpha-lipoic_acid">alpha-lipoic acid</term>, prior to the stimulation of cells was found to inhibit <term sem="Other" id="T32" lex="NF-kappa_B_activation"><term sem="Protein_molecule" id="T33" lex="NF-kappa_B">NF-kappa B</term> activation</term> induced by <term sem="Protein_molecule" id="T34" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term> (25 ng/ml) or by <term sem="Organic_compound_other" id="T35" lex="phorbol_12-myristate_13-acetate">phorbol 12-myristate 13-acetate</term> (50 ng/ml).</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="T34" />
+<clue>Incubation of Jurkat T cells (1 x 10(6) cells/ml) with a natural thiol antioxidant, alpha-lipoic acid, prior to the stimulation of cells was found to inhibit NF-kappa B <clueType>activation induced</clueType> <linkCause>by</linkCause> tumor necrosis factor-alpha (25 ng/ml) or by phorbol 12-myristate 13-acetate (50 ng/ml).</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="T35" />
+<clue>Incubation of Jurkat T cells (1 x 10(6) cells/ml) with a natural thiol antioxidant, alpha-lipoic acid, prior to the stimulation of cells was found to inhibit NF-kappa B <clueType>activation induced</clueType> by tumor necrosis factor-alpha (25 ng/ml) or <linkCause>by</linkCause> phorbol 12-myristate 13-acetate (50 ng/ml).</clue>
+</event>
+<event id="E18">
+<type class="Artificial_process" />
+<theme idref="T29" />
+<theme idref="T31" />
+<clue><clueType>Incubation</clueType> <linkTheme>of</linkTheme> Jurkat T cells (1 x 10(6) cells/ml) <linkTheme>with</linkTheme> a natural thiol antioxidant, alpha-lipoic acid, <clueTime>prior to the stimulation of cells</clueTime> was found to inhibit NF-kappa B activation induced by tumor necrosis factor-alpha (25 ng/ml) or by phorbol 12-myristate 13-acetate (50 ng/ml).</clue>
+</event>
+<event id="E118">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="E18" />
+<clue>Incubation of Jurkat T cells (1 x 10(6) cells/ml) with a natural thiol antioxidant, alpha-lipoic acid, prior to the stimulation of cells was found to <clueType>inhibit</clueType> NF-kappa B activation induced by tumor necrosis factor-alpha (25 ng/ml) or by phorbol 12-myristate 13-acetate (50 ng/ml).</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="E18" />
+<clue>Incubation of Jurkat T cells (1 x 10(6) cells/ml) with a natural thiol antioxidant, alpha-lipoic acid, prior to the stimulation of cells was found to <clueType>inhibit</clueType> NF-kappa B activation induced by tumor necrosis factor-alpha (25 ng/ml) or by phorbol 12-myristate 13-acetate (50 ng/ml).</clue>
+</event>
+<event id="E119">
+<type class="Physiological_process" />
+<theme idref="T29" />
+<cause idref="T34" />
+<clue>Incubation of Jurkat T cells (1 x 10(6) cells/ml) with a natural thiol antioxidant, alpha-lipoic acid, prior to <corefCause>the</corefCause> <clueType>stimulation</clueType> <linkTheme>of</linkTheme> <corefTheme>cells</corefTheme> was found to inhibit NF-kappa B activation induced by tumor necrosis factor-alpha (25 ng/ml) or by phorbol 12-myristate 13-acetate (50 ng/ml).</clue>
+</event>
+<event id="E120">
+<type class="Physiological_process" />
+<theme idref="T29" />
+<cause idref="T35" />
+<clue>Incubation of Jurkat T cells (1 x 10(6) cells/ml) with a natural thiol antioxidant, alpha-lipoic acid, prior to <corefCause>the</corefCause> <clueType>stimulation</clueType> <linkTheme>of</linkTheme> <corefTheme>cells</corefTheme> was found to inhibit NF-kappa B activation induced by tumor necrosis factor-alpha (25 ng/ml) or by phorbol 12-myristate 13-acetate (50 ng/ml).</clue>
+</event>
+<sentence id="S7">The inhibitory action of <term sem="Organic_compound_other" id="T36" lex="alpha-lipoic_acid">alpha-lipoic acid</term> was found to be very potent as only 4 mM was needed for a complete inhibition, whereas 20 mM was required for <term sem="Amino_acid_monomer" id="T37" lex="N-acetylcysteine">N-acetylcysteine</term>.</sentence>
+<event id="E121">
+<type class="Negative_regulation" />
+<cause idref="T36" />
+<clue>The <clueType>inhibitory action</clueType> <linkCause>of</linkCause> alpha-lipoic acid was found to be very potent as only 4 mM was needed for a complete inhibition, whereas 20 mM was required for N-acetylcysteine.</clue>
+</event>
+<sentence id="S8">These results indicate that <term sem="Organic_compound_other" id="T38" lex="alpha-lipoic_acid">alpha-lipoic acid</term> may be effective in <term sem="Other" id="T39" lex="AIDS_therapeutic"><term sem="Other" id="T40" lex="AIDS">AIDS</term> therapeutics</term>.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

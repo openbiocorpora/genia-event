@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="03/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9311921" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9311921</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="NF-AT_activation"><term sem="Protein_molecule" id="T2" lex="NF-AT">NF-AT</term> activation</term> induced by a <term sem="Protein_family_or_group" id="T3" lex="CAML-interacting_member"><term sem="Protein_molecule" id="T4" lex="CAML">CAML</term>-interacting member</term> of the <term sem="Protein_family_or_group" id="T5" lex="tumor_necrosis_factor_receptor_superfamily">tumor necrosis factor receptor superfamily</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>NF-AT <clueType>activation</clueType> induced by a CAML-interacting member of the tumor necrosis factor receptor superfamily.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref1="T5" idref="T3" />
+<clue>NF-AT activation <clueType>induced</clueType> <linkCause>by</linkCause> a CAML-interacting member of the tumor necrosis factor receptor superfamily.</clue>
+<comment>NER: T3 sem mod, Other_name -&gt; Protein_family_or_group</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Activation of the <term sem="Protein_molecule" id="T6" lex="nuclear_factor_of_activated_T_cells">nuclear factor of activated T cells</term> <term sem="Protein_family_or_group" id="T7" lex="transcription_factor">transcription factor</term> (<term sem="Protein_molecule" id="T8" lex="NF-AT">NF-AT</term>) is a key event underlying <term sem="Other" id="T9" lex="lymphocyte_action"><term sem="Cell_natural" id="T34">lymphocyte</term> action</term>.</sentence>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> the nuclear factor of activated T cells transcription factor (NF-AT) is a key event underlying lymphocyte action.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T9" />
+<cause idref="E3" />
+<clue>Activation of the nuclear factor of activated T cells transcription factor (NF-AT) is a key event <clueType>underlying</clueType> lymphocyte action.</clue>
+</event>
+<sentence id="S3">The <term sem="Protein_molecule" id="T10" lex="CAML_(calcium-modulator_and_cyclophilin_ligand)_protein">CAML (calcium-modulator and cyclophilin ligand) protein</term> is a coinducer of <term sem="Other" id="T11" lex="NF-AT_activation"><term sem="Protein_molecule" id="T12" lex="NF-AT">NF-AT</term> activation</term> when overexpressed in <term sem="Cell_cultured" id="T13" lex="Jurkat_T_cell">Jurkat T cells</term>.</sentence>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>The CAML (calcium-modulator and cyclophilin ligand) protein is a coinducer of NF-AT activation when <clueType>overexpressed</clueType> <clueLoc>in Jurkat T cells</clueLoc>.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<clue>The CAML (calcium-modulator and cyclophilin ligand) protein is a coinducer of NF-AT activation when <clueType>overexpressed</clueType> <clueLoc>in Jurkat T cells</clueLoc>.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E16" />
+<clue>The CAML (calcium-modulator and cyclophilin ligand) protein is a <clueType>coinducer</clueType> <linkTheme>of</linkTheme> NF-AT activation <linkCause>when</linkCause> overexpressed in Jurkat T cells.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<clue>The CAML (calcium-modulator and cyclophilin ligand) protein is a coinducer of NF-AT <clueType>activation</clueType> when overexpressed in Jurkat T cells.</clue>
+</event>
+<sentence id="S4">A member of the <term sem="Protein_family_or_group" id="T14" lex="tumor_necrosis_factor_receptor_superfamily">tumor necrosis factor receptor superfamily</term> was isolated by virtue of its affinity for <term sem="Protein_molecule" id="T15" lex="CAML">CAML</term>.</sentence>
+<event uncertainty="probable" id="E8">
+<type class="Binding" />
+<theme idref="T14" />
+<theme idref="T15" />
+<clue>A member of the tumor necrosis factor receptor superfamily was isolated by virtue of its <clueType>affinity</clueType> <linkTheme>for</linkTheme> CAML.</clue>
+</event>
+<sentence id="S5">Cross-linking of this <term sem="Protein_family_or_group" id="T16" lex="lymphocyte-specific_protein">lymphocyte-specific protein</term>, designated <term sem="Protein_molecule" id="T17" lex="TACI">TACI</term> (<term sem="Protein_molecule" id="T18" lex="transmembrane_activator_and_CAML-interactor">transmembrane activator and <term sem="Protein_molecule" id="T19" lex="CAML">CAML</term>-interactor</term>), on the surface of <term sem="Cell_cultured" id="A1"><term sem="Cell_cultured" id="T20" lex="transfected_Jurkat_cell">transfected <term sem="Cell_cultured" id="A2">Jurkat cells</term></term> with <term sem="Protein_family_or_group" id="T21" lex="TACI-specific_antibody"><term sem="Protein_molecule" id="T22" lex="TACI">TACI</term>-specific antibodies</term></term> led to activation of the <term sem="Protein_family_or_group" id="T23" lex="transcription_factor">transcription factors</term> <term sem="Protein_molecule" id="T24" lex="NF-AT">NF-AT</term>, <term sem="Protein_molecule" id="T25" lex="AP-1">AP-1</term>, and <term sem="Protein_complex" id="T26" lex="NFkappaB">NFkappaB</term>.</sentence>
+<event id="E9">
+<type class="Cell_adhesion" />
+<theme idref="T17" />
+<theme idref="A1" />
+<clue><clueType>Cross-linking</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T17">this lymphocyte-specific protein</corefTheme>, designated TACI (transmembrane activator and CAML-interactor), <linkTheme>on</linkTheme> the surface of transfected Jurkat cells with TACI-specific antibodies led to activation of the transcription factors NF-AT, AP-1, and NFkappaB.</clue>
+<comment>TPS: A1</comment>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="E9" />
+<clue>Cross-linking of this lymphocyte-specific protein, designated TACI (transmembrane activator and CAML-interactor), on the surface of transfected Jurkat cells with TACI-specific antibodies <clueType>led to activation</clueType> <linkTheme>of</linkTheme> <corefTheme>the transcription factors</corefTheme> NF-AT, AP-1, and NFkappaB.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<cause idref="E9" />
+<clue>Cross-linking of this lymphocyte-specific protein, designated TACI (transmembrane activator and CAML-interactor), on the surface of transfected Jurkat cells with TACI-specific antibodies <clueType>led to activation</clueType> <linkTheme>of</linkTheme> <corefTheme>the transcription factors</corefTheme> NF-AT, AP-1, and NFkappaB.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<cause idref="E9" />
+<clue>Cross-linking of this lymphocyte-specific protein, designated TACI (transmembrane activator and CAML-interactor), on the surface of transfected Jurkat cells with TACI-specific antibodies <clueType>led to activation</clueType> <linkTheme>of</linkTheme> <corefTheme>the transcription factors</corefTheme> NF-AT, AP-1, and NFkappaB.</clue>
+</event>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>Cross-linking of this lymphocyte-specific protein, designated TACI (transmembrane activator and CAML-interactor), on the surface of <clueType>transfected</clueType> <clueLoc>Jurkat cells</clueLoc> <linkTheme>with</linkTheme> TACI-specific antibodies led to activation of the transcription factors NF-AT, AP-1, and NFkappaB.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<clue>Cross-linking of this lymphocyte-specific protein, designated TACI (transmembrane activator and CAML-interactor), on the surface of <clueType>transfected</clueType> <clueLoc>Jurkat cells</clueLoc> <linkTheme>with</linkTheme> TACI-specific antibodies led to activation of the transcription factors NF-AT, AP-1, and NFkappaB.</clue>
+</event>
+<sentence id="S6"><term sem="Protein_molecule" id="T28" lex="TACI">TACI</term>-induced <term sem="Other" id="T27">activation</term> of <term sem="Protein_molecule" id="T29" lex="NF-AT">NF-AT</term> was specifically blocked by a <term sem="Protein_molecule" id="T30" lex="dominant-negative_CAML_mutant">dominant-negative <term sem="Protein_molecule" id="T31" lex="CAML">CAML</term> mutant</term>, thus implicating <term sem="Protein_molecule" id="T32" lex="CAML">CAML</term> as a <term sem="Other" id="T33" lex="signaling_intermediate">signaling intermediate</term>.</sentence>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="T28" />
+<clue>TACI<linkCause>-induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-AT was specifically blocked by a dominant-negative CAML mutant, thus implicating CAML as a signaling intermediate.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T30" />
+<clue>TACI-induced activation of NF-AT was specifically <clueType>blocked</clueType> <linkCause>by</linkCause> a dominant-negative CAML mutant, thus implicating CAML as a signaling intermediate.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

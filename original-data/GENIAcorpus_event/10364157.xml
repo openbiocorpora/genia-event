@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="01/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10364157" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10364157</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Direct interaction of hematopoietic transcription factors <term sem="Protein_molecule" id="A1">PU.1</term> and <term sem="Protein_molecule" id="A2">GATA-1</term>: functional antagonism in <term sem="Cell_natural" id="T2" lex="erythroid_cell">erythroid cells</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="A2" />
+<clue>Direct <clueType>interaction</clueType> <linkTheme>of</linkTheme> hematopoietic transcription factors PU.1 and GATA-1: functional antagonism <clueLoc>in erythroid cells</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="A1" />
+<theme idref="A2" />
+<clue>Direct interaction <linkTheme>of</linkTheme> hematopoietic transcription factors PU.1 and GATA-1: <clueType>functional antagonism</clueType> <clueLoc>in erythroid cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T3" lex="malignant_transformation">Malignant transformation</term> usually inhibits <term sem="Other" id="T4" lex="terminal_cell_differentiation">terminal cell differentiation</term> but the precise mechanisms involved are not understood.</sentence>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="T4" />
+<cause idref="T3" />
+<clue>Malignant transformation usually <clueType>inhibits</clueType> terminal cell differentiation but the precise mechanisms involved are not understood.</clue>
+</event>
+<sentence id="S3"><term sem="Protein_molecule" id="T5" lex="PU.1">PU.1</term> is a <term sem="Protein_molecule" id="T6" lex="hematopoietic-specific_Ets_family_transcription_factor">hematopoietic-specific Ets family transcription factor</term> that is required for development of some <cons sem="(AND Cell_natural Cell_natural)" id="T7" lex="(AND lymphoid_lineage myeloid_lineage)"><frag id="F4">lymphoid</frag> and <frag id="F5">myeloid</frag> <frag id="F6">lineages</frag></cons>.</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T5" />
+<clue>PU.1 is a hematopoietic-specific Ets family transcription factor that is <clueType>required</clueType> <linkTheme>for</linkTheme> development of some lymphoid and myeloid lineages.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T5" />
+<clue>PU.1 is a hematopoietic-specific Ets family transcription factor that is <clueType>required</clueType> <linkTheme>for</linkTheme> development of some lymphoid and myeloid lineages.</clue>
+</event>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref1="F6" idref="F4" />
+<clue>PU.1 is a hematopoietic-specific Ets family transcription factor that is required for <clueType>development</clueType> <linkTheme>of</linkTheme> some lymphoid and myeloid lineages.</clue>
+</event>
+<event id="E7">
+<type class="Cell_differentiation" />
+<theme idref1="F6" idref="F5" />
+<clue>PU.1 is a hematopoietic-specific Ets family transcription factor that is required for <clueType>development</clueType> <linkTheme>of</linkTheme> some lymphoid and myeloid lineages.</clue>
+</event>
+<sentence id="S4"><term sem="Protein_molecule" id="T8" lex="PU.1">PU.1</term> can also act as an <term sem="Protein_family_or_group" id="T9" lex="oncoprotein">oncoprotein</term> as activation of its expression in <term sem="Cell_natural" id="T10" lex="erythroid_precursor">erythroid precursors</term> by <term sem="Other" id="T11" lex="proviral_insertion">proviral insertion</term> or <term sem="Other" id="T12" lex="transgenesis">transgenesis</term> causes <term sem="Other" id="T13" lex="erythroleukemia">erythroleukemias</term> in <term sem="Multicellular_organism_natural" id="T14" lex="mouse">mice</term>.</sentence>
+<event id="E13">
+<type />
+<cause idref="T8" />
+<clue>PU.1 can also <clueType>act as an oncoprotein</clueType> as activation of its expression <clueLoc>in erythroid precursors</clueLoc> by proviral insertion or transgenesis causes erythroleukemias <clueLoc>in mice</clueLoc>.</clue>
+<comment>SOO; NO THEME</comment>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<clue>PU.1 can also act as an oncoprotein as <clueType>activation</clueType> <linkTheme>of</linkTheme> its expression <clueLoc>in erythroid precursors</clueLoc> <clueExperiment>by proviral insertion</clueExperiment> or transgenesis causes erythroleukemias in mice.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<clue>PU.1 can also act as an oncoprotein as <clueType>activation</clueType> <linkTheme>of</linkTheme> its expression <clueLoc>in erythroid precursors</clueLoc> <clueExperiment>by</clueExperiment> proviral insertion or <clueExperiment>transgenesis</clueExperiment> causes erythroleukemias in mice.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>PU.1 can also act as an oncoprotein as activation of <corefTheme>its</corefTheme> <clueType>expression</clueType> in erythroid precursors by proviral insertion or transgenesis causes erythroleukemias in mice.</clue>
+</event>
+<event id="E11">
+<type />
+<theme idref="T13" />
+<cause idref="E8" />
+<clue>PU.1 can also act as an oncoprotein as activation of its expression in erythroid precursors by proviral insertion or transgenesis <clueType>causes</clueType> erythroleukemias <clueLoc>in mice</clueLoc>.</clue>
+<comment>SOO</comment>
+</event>
+<sentence id="S5">Restoration of <term sem="Other" id="T15" lex="terminal_differentiation">terminal differentiation</term> in the <term sem="Cell_cultured" id="T16" lex="mouse_erythroleukemia_(MEL)_cell">mouse erythroleukemia (<term sem="Cell_cultured" id="A8"><term sem="Cell_cultured" id="T17" lex="MEL">MEL</term>) cells</term></term> requires a decline in the level of <term sem="Protein_molecule" id="T18" lex="PU.1">PU.1</term>, indicating that <term sem="Protein_molecule" id="T19" lex="PU.1">PU.1</term> can block <term sem="Other" id="T20" lex="erythroid_differentiation"><term sem="Cell_natural" id="A7">erythroid</term> differentiation</term>.</sentence>
+<event id="E14">
+<type class="Cell_differentiation" />
+<theme idref="A8" />
+<clue>Restoration of <clueType>terminal differentiation</clueType> <linkTheme>in</linkTheme> the mouse erythroleukemia (MEL) cells requires a decline in the level of PU.1, indicating that PU.1 can block erythroid differentiation.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E16" />
+<clue><clueType>Restoration</clueType> of terminal differentiation in the mouse erythroleukemia (MEL) cells <clueType>requires</clueType> a decline in the level of PU.1, indicating that PU.1 can block erythroid differentiation.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="T18" />
+<clue>Restoration of terminal differentiation in the mouse erythroleukemia (MEL) cells requires a <clueType>decline in the level</clueType> <linkTheme>of</linkTheme> PU.1, indicating that PU.1 can block erythroid differentiation.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="T19" />
+<clue>Restoration of terminal differentiation in the mouse erythroleukemia (MEL) cells requires a decline in the level of PU.1, indicating that PU.1 can <clueType>block</clueType> erythroid differentiation.</clue>
+</event>
+<event id="E19">
+<type class="Cell_differentiation" />
+<theme idref="A7" />
+<clue>Restoration of terminal differentiation in the mouse erythroleukemia (MEL) cells requires a decline in the level of PU.1, indicating that PU.1 can block erythroid <clueType>differentiation</clueType>.</clue>
+</event>
+<sentence id="S6">Here we investigate the mechanism by which <term sem="Protein_molecule" id="T21" lex="PU.1">PU.1</term> interferes with <term sem="Other" id="T22" lex="erythroid_differentiation"><term sem="Cell_natural" id="A9">erythroid</term> differentiation</term>.</sentence>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T21" />
+<clue>Here we investigate the mechanism by which PU.1 <clueType>interferes</clueType> <linkTheme>with</linkTheme> erythroid differentiation.</clue>
+</event>
+<event id="E21">
+<type class="Cell_differentiation" />
+<theme idref="A9" />
+<clue>Here we investigate the mechanism by which PU.1 interferes with erythroid <clueType>differentiation</clueType>.</clue>
+</event>
+<sentence id="S7">We find that <term sem="Protein_molecule" id="T23" lex="PU.1">PU.1</term> interacts directly with <term sem="Protein_molecule" id="T24" lex="GATA-1">GATA-1</term>, a <term sem="Protein_family_or_group" id="T25" lex="zinc_finger_transcription_factor">zinc finger transcription factor</term> required for <term sem="Other" id="T26" lex="erythroid_differentiation"><term sem="Cell_natural" id="A10">erythroid</term> differentiation</term>.</sentence>
+<event id="E22">
+<type class="Binding" />
+<theme idref="T23" />
+<theme idref="T24" />
+<clue>We find that PU.1 <clueType>interacts</clueType> directly <linkTheme>with</linkTheme> GATA-1, a <corefTheme>zinc finger transcription factor</corefTheme> required for erythroid differentiation.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="T24" />
+<clue>We find that PU.1 interacts directly with GATA-1, a zinc finger transcription factor <clueType>required</clueType> <linkTheme>for</linkTheme> erythroid differentiation.</clue>
+</event>
+<event id="E24">
+<type class="Cell_differentiation" />
+<theme idref="A10" />
+<clue>We find that PU.1 interacts directly with GATA-1, a zinc finger transcription factor required for erythroid <clueType>differentiation</clueType>.</clue>
+</event>
+<sentence id="S8">Interaction between <term sem="Protein_molecule" id="T27" lex="PU.1">PU.1</term> and <term sem="Protein_molecule" id="T28" lex="GATA-1">GATA-1</term> requires intact <term sem="Protein_domain_or_region" id="T29" lex="DNA-binding_domain">DNA-binding domains</term> in both proteins.</sentence>
+<event id="E25">
+<type class="Binding" />
+<theme idref="T27" />
+<theme idref="T28" />
+<clue><clueType>Interaction</clueType> <linkTheme>between</linkTheme> PU.1 and GATA-1 requires intact DNA-binding domains in both proteins.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref1="T29" idref="T27" />
+<clue>Interaction between PU.1 and GATA-1 <clueType>requires</clueType> intact DNA-binding domains in both proteins.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref1="T29" idref="T28" />
+<clue>Interaction between PU.1 and GATA-1 <clueType>requires</clueType> intact DNA-binding domains in both proteins.</clue>
+</event>
+<sentence id="S9"><term sem="Protein_molecule" id="T30" lex="PU.1">PU.1</term> represses <term sem="Protein_molecule" id="T32" lex="GATA-1">GATA-1</term>-mediated <term sem="Other" id="A11">transcriptional activation</term>.</sentence>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref="T30" />
+<clue>PU.1 <clueType>represses</clueType> GATA-1-mediated transcriptional activation.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="A11" />
+<cause idref="T32" />
+<clue>PU.1 represses GATA-1-<clueType>mediated</clueType> transcriptional activation.</clue>
+<comment>NER: T31 del &quot;GATA-1-mediated transcriptional activation&quot;</comment>
+</event>
+<sentence id="S10">Both the <term sem="Protein_domain_or_region" id="T33" lex="DNA_binding_domain">DNA binding</term> and <term sem="Protein_domain_or_region" id="A12">transactivation</term> <term sem="Protein_domain_or_region" id="A13">domains of <term sem="Protein_molecule" id="T35" lex="PU.1">PU.1</term></term> are required for repression and both domains are also needed to block <term sem="Other" id="T36" lex="terminal_differentiation">terminal differentiation</term> in <term sem="Cell_cultured" id="T37" lex="MEL_cell">MEL cells</term>.</sentence>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref1="A13" idref="T33" />
+<clue>Both the DNA binding and transactivation domains of PU.1 are <clueType>required</clueType> <linkTheme>for</linkTheme> <corefTheme>repression</corefTheme> and both domains are also needed to block terminal differentiation in MEL cells.</clue>
+<comment>NER: T34 del &quot;transactivation domains&quot;; TPS: A13</comment>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref1="A13" idref="A12" />
+<clue>Both the DNA binding and transactivation domains of PU.1 are <clueType>required</clueType> <linkTheme>for</linkTheme> <corefTheme>repression</corefTheme> and both domains are also needed to block terminal differentiation in MEL cells.</clue>
+<comment>TPS: A13</comment>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref1="A13" idref="T33" />
+<clue>Both the DNA binding and transactivation domains of PU.1 are required for repression and both domains are also <clueType>needed</clueType> <linkTheme>to</linkTheme> block terminal differentiation in MEL cells.</clue>
+<comment>TPS: A13</comment>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref1="A13" idref="A12" />
+<clue>Both the DNA binding and transactivation domains of PU.1 are required for repression and both domains are also <clueType>needed</clueType> <linkTheme>to</linkTheme> block terminal differentiation in MEL cells.</clue>
+<comment>TPS: A13</comment>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E34" />
+<clue>Both the DNA binding and transactivation domains of PU.1 are required for repression and both domains are also needed to <clueType>block</clueType> terminal differentiation in MEL cells.</clue>
+</event>
+<event id="E34">
+<type class="Cell_differentiation" />
+<theme idref="T37" />
+<clue>Both the DNA binding and transactivation domains of PU.1 are required for repression and both domains are also needed to block <clueType>terminal differentiation</clueType> <linkTheme>in</linkTheme> MEL cells.</clue>
+</event>
+<sentence id="S11">We also show that <term sem="Other" id="T38" lex="ectopic_expression">ectopic expression</term> of <term sem="Protein_molecule" id="T39" lex="PU.1">PU.1</term> in <term sem="Multicellular_organism_natural" id="T40" lex="Xenopus_embryo">Xenopus embryos</term> is sufficient to block <term sem="Other" id="T41" lex="erythropoiesis">erythropoiesis</term> during normal <term sem="Other" id="A14">development</term>.</sentence>
+<event id="E36">
+<type class="Gene_expression" />
+<theme idref="T39" />
+<clue>We also show that <clueExperiment>ectopic</clueExperiment> <clueType>expression</clueType> <linkTheme>of</linkTheme> PU.1 <clueLoc>in Xenopus embryos</clueLoc> is sufficient to block erythropoiesis during normal development.</clue>
+</event>
+<event id="E37">
+<type class="Negative_regulation" />
+<theme idref="T41" />
+<cause idref="E36" />
+<clue>We also show that ectopic expression of PU.1 in Xenopus embryos is sufficient to <clueType>block</clueType> erythropoiesis during normal development.</clue>
+</event>
+<event id="E38">
+<type class="Correlation" />
+<theme idref="T41" />
+<theme idref="A14" />
+<clue>We also show that ectopic expression of PU.1 in Xenopus embryos is sufficient to block erythropoiesis <linkTheme>during</linkTheme> normal development.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S12">Furthermore, introduction of <term sem="Protein_molecule" id="A18">exogenous <term sem="Protein_molecule" id="T42" lex="GATA-1">GATA-1</term></term> in both <term sem="Cell_cultured" id="T43" lex="MEL_cell">MEL cells</term> and <term sem="Multicellular_organism_natural" id="T44" lex="Xenopus_embryo">Xenopus embryos</term> and explants relieves the block to <term sem="Other" id="T45" lex="erythroid_differentiation"><term sem="Cell_natural" id="A15">erythroid</term> differentiation</term> imposed by <term sem="Protein_molecule" id="T46" lex="PU.1">PU.1</term>.</sentence>
+<event id="E17">
+<type class="Mutagenesis" />
+<theme idref="A18" />
+<theme idref="T43" />
+<clue>Furthermore, <clueType>introduction</clueType> <linkTheme>of</linkTheme> exogenous GATA-1 <linkTheme>in</linkTheme> both MEL cells and Xenopus embryos and explants relieves the block to erythroid differentiation imposed by PU.1.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E39">
+<type class="Mutagenesis" />
+<theme idref="A18" />
+<theme idref="T44" />
+<clue>Furthermore, <clueType>introduction</clueType> <linkTheme>of</linkTheme> exogenous GATA-1 <linkTheme>in</linkTheme> both MEL cells and Xenopus embryos and explants relieves the block to erythroid differentiation imposed by PU.1.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E40">
+<type class="Negative_regulation" />
+<theme idref="E41" />
+<cause idref="E17" />
+<clue>Furthermore, introduction of exogenous GATA-1 in both MEL cells and Xenopus embryos and explants <clueType>relieves</clueType> the block to erythroid differentiation imposed by PU.1.</clue>
+</event>
+<event id="E47">
+<type class="Negative_regulation" />
+<theme idref="E41" />
+<cause idref="E39" />
+<clue>Furthermore, introduction of exogenous GATA-1 in both MEL cells and Xenopus embryos and explants <clueType>relieves</clueType> the block to erythroid differentiation imposed by PU.1.</clue>
+</event>
+<event id="E41">
+<type class="Negative_regulation" />
+<theme idref="E42" />
+<cause idref="T46" />
+<clue>Furthermore, introduction of exogenous GATA-1 in both MEL cells and Xenopus embryos and explants relieves the <clueType>block</clueType> <linkTheme>to</linkTheme> erythroid differentiation <linkCause>imposed by</linkCause> PU.1.</clue>
+</event>
+<event id="E42">
+<type class="Cell_differentiation" />
+<theme idref="A15" />
+<clue>Furthermore, introduction of exogenous GATA-1 in both MEL cells and Xenopus embryos and explants relieves the block to erythroid <clueType>differentiation</clueType> imposed by PU.1.</clue>
+</event>
+<sentence id="S13">Our results indicate that the stoichiometry of directly interacting but opposing <term sem="Protein_family_or_group" id="T47" lex="transcription_factor">transcription factors</term> may be a crucial determinant governing processes of normal <term sem="Other" id="A16">differentiation</term> and <term sem="Other" id="A17">malignant transformation</term>.</sentence>
+<event id="E43">
+<type class="Binding" />
+<theme idref="T42" />
+<theme idref="T46" />
+<clue>Our results indicate that the stoichiometry of directly <clueType>interacting</clueType> but opposing <corefTheme>transcription factors</corefTheme> may be a crucial determinant governing processes of normal differentiation and malignant transformation.</clue>
+</event>
+<event id="E44">
+<type class="Negative_regulation" />
+<theme idref="T46" />
+<cause idref="T42" />
+<clue>Our results indicate that the stoichiometry of directly interacting but <clueType>opposing</clueType> <corefCause>transcription factors</corefCause> may be a crucial determinant governing processes of normal differentiation and malignant transformation.</clue>
+<comment>CAUTION: &quot;transcription factors&quot; also as corefTheme for T46</comment>
+</event>
+<event uncertainty="probable" id="E45">
+<type class="Regulation" />
+<theme idref="A16" />
+<cause idref="T47" />
+<clue>Our results indicate that the stoichiometry of directly interacting but opposing transcription factors may be a <clueType>crucial determinant</clueType> governing processes <linkTheme>of</linkTheme> normal differentiation and malignant transformation.</clue>
+</event>
+<event uncertainty="probable" id="E46">
+<type class="Regulation" />
+<theme idref="A17" />
+<cause idref="T47" />
+<clue>Our results indicate that the stoichiometry of directly interacting but opposing transcription factors may be a <clueType>crucial determinant</clueType> governing processes <linkTheme>of</linkTheme> normal differentiation and malignant transformation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

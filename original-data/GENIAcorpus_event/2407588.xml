@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="15/01/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2407588" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2407588</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="T1" lex="octamer_transcription_factor">Octamer transcription factors</term> and the cell type-specificity of <term sem="DNA_domain_or_region" id="A1">immunoglobulin gene</term> <term sem="Other" id="T4" lex="expression">expression</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Octamer transcription factors and the <clueLoc>cell type</clueLoc>-specificity of immunoglobulin gene <clueType>expression</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_family_or_group" id="T5" lex="Antibody">Antibodies</term> are produced exclusively in <term sem="Cell_natural" id="T6" lex="B_lymphocyte">B <term sem="Cell_natural" id="T7" lex="lymphocyte">lymphocytes</term></term>.</sentence>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>Antibodies are <clueType>produced</clueType> exclusively <clueLoc>in B lymphocytes</clueLoc>.</clue>
+</event>
+<sentence id="S3">The <term sem="Other" id="T8" lex="expression">expression</term> of the <term sem="DNA_family_or_group" id="T9" lex="antibody-encoding_gene">antibody-encoding genes</term>, the <term sem="DNA_family_or_group" id="T10" lex="immunoglobulin_(Ig)_gene">immunoglobulin (<term sem="DNA_domain_or_region" id="A2">Ig) genes</term></term>, is also restricted to <term sem="Cell_natural" id="T11" lex="B_cell">B cells</term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> the <corefTheme>antibody-encoding genes</corefTheme>, the immunoglobulin (Ig) genes, is also restricted <clueLoc>to B cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">The <term sem="DNA_domain_or_region" id="T12" lex="octamer_sequence">octamer sequence</term> <term sem="Polynucleotide" id="T13" lex="ATGCAAAT">ATGCAAAT</term> is present in the <term sem="DNA_domain_or_region" id="T14" lex="promoter">promoter</term> and the <term sem="DNA_domain_or_region" id="T15" lex="enhancer">enhancer</term> <term sem="DNA_domain_or_region" id="A3">of <term sem="DNA_family_or_group" id="T16" lex="Ig_gene">Ig genes</term></term>, and plays an important role in its <term sem="Other" id="T17" lex="tissue-specific_expression">tissue-specific expression</term>.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T13" />
+<clue>The octamer sequence ATGCAAAT is present in the promoter and the enhancer of Ig genes, and <clueType>plays</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> its tissue-specific expression.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="T13" />
+<clue>The octamer sequence ATGCAAAT is present in the promoter and the enhancer of Ig genes, and <clueType>plays</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> its tissue-specific expression.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref1="A3" idref="T14" />
+<clue>The octamer sequence ATGCAAAT is present in the promoter and the enhancer of Ig genes, and plays an important role in <corefTheme>its</corefTheme> <clueLoc>tissue</clueLoc>-specific <clueType>expression</clueType>.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref1="A3" idref="T15" />
+<clue>The octamer sequence ATGCAAAT is present in the promoter and the enhancer of Ig genes, and plays an important role in <corefTheme>its</corefTheme> <clueLoc>tissue</clueLoc>-specific <clueType>expression</clueType>.</clue>
+<comment>TPS: A3</comment>
+</event>
+<sentence id="S5">This <term sem="DNA_family_or_group" id="T18" lex="sequence_motif">sequence motif</term> is a binding site for <term sem="Protein_family_or_group" id="T19" lex="nuclear_protein">nuclear proteins</term>, the so-called <term sem="Protein_family_or_group" id="T20" lex="octamer_transcription_factor">octamer transcription factors</term> (<term sem="Protein_family_or_group" id="T21" lex="Oct">Oct</term> or <term sem="Protein_family_or_group" id="T22" lex="OTF_factor">OTF factors</term>).</sentence>
+<sentence id="S6">The <term sem="Protein_molecule" id="T23" lex="Oct-1_protein">Oct-1 protein</term> is present in all cell types analyzed so far, whereas <term sem="Protein_molecule" id="T24" lex="Oct-2A">Oct-2A</term> and <term sem="Protein_molecule" id="T25" lex="Oct-2B">Oct-2B</term> are found mainly in <term sem="Cell_natural" id="T26" lex="B_lymphocyte">B <term sem="Cell_natural" id="T27" lex="lymphocyte">lymphocytes</term></term>.</sentence>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue>The Oct-1 protein is <clueType>present</clueType> <clueLoc>in all cell types analyzed</clueLoc> so far, whereas Oct-2A and Oct-2B are found mainly in B lymphocytes.</clue>
+<comment>CAUTION, present</comment>
+</event>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>The Oct-1 protein is present in all cell types analyzed so far, whereas Oct-2A and Oct-2B are <clueType>found</clueType> mainly <clueLoc>in B lymphocytes</clueLoc>.</clue>
+<comment>CAUTION, found</comment>
+</event>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue>The Oct-1 protein is present in all cell types analyzed so far, whereas Oct-2A and Oct-2B are <clueType>found</clueType> mainly <clueLoc>in B lymphocytes</clueLoc>.</clue>
+<comment>CAUTION, found</comment>
+</event>
+<sentence id="S7">All three proteins show the same <term sem="Other" id="T28" lex="sequence_specificity">sequence specificity</term> and <term sem="Other" id="T29" lex="binding_affinity">binding affinity</term>.</sentence>
+<sentence id="S8">It appears that the <term sem="Other" id="T30" lex="B_cell-specific_expression">B cell-specific <term sem="Other" id="T31" lex="expression">expression</term></term> of <term sem="DNA_domain_or_region" id="T32" lex="Ig_gene">Ig genes</term> is mediated at least in part by cell <term sem="Protein_family_or_group" id="T33" lex="type-specific_Oct_factor">type-specific Oct factors</term>, and that there are both quantitative and qualitative differences between <term sem="Protein_molecule" id="T34" lex="Oct-1">Oct-1</term> and <term sem="Protein_molecule" id="T35" lex="Oct-2_factor">Oct-2 factors</term>.</sentence>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>It appears that the <clueLoc>B cell</clueLoc>-specific <clueType>expression</clueType> <linkTheme>of</linkTheme> Ig genes is mediated at least in part by cell type-specific Oct factors, and that there are both quantitative and qualitative differences between Oct-1 and Oct-2 factors.</clue>
+<comment>NER: T32 sem mod, DNA_family_or_group -&gt; DNA_domain_or_region</comment>
+</event>
+<event uncertainty="probable" id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T34" />
+<clue>It appears that the B cell-specific expression of Ig genes is <clueType>mediated</clueType> at least in part <linkCause>by</linkCause> <corefCause>cell type-specific Oct factors</corefCause>, and that there are both quantitative and qualitative differences between Oct-1 and Oct-2 factors.</clue>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T35" />
+<clue>It appears that the B cell-specific expression of Ig genes is <clueType>mediated</clueType> at least in part <linkCause>by</linkCause> <corefCause>cell type-specific Oct factors</corefCause>, and that there are both quantitative and qualitative differences between Oct-1 and Oct-2 factors.</clue>
+</event>
+<sentence id="S9">Recently, a number of other <term sem="Protein_family_or_group" id="T36" lex="octamer_factor_variant">octamer factor variants</term> were identified.</sentence>
+<sentence id="S10">Many of these may be created by <term sem="Other" id="T37" lex="alternative_splicing">alternative splicing</term> of a <term sem="RNA_molecule" id="A5"><term sem="RNA_family_or_group" id="T38" lex="primary_transcript">primary transcript</term> of one <term sem="DNA_domain_or_region" id="A6">Oct factor gene</term></term> and may serve a specific function in the fine tuning of <term sem="Other" id="T39" lex="gene_expression">gene <term sem="Other" id="T40" lex="expression">expression</term></term>.</sentence>
+<event uncertainty="probable" id="E14">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<cause idref="E11" />
+<clue><corefTheme>Many of these</corefTheme> may be <clueType>created</clueType> <linkCause>by</linkCause> alternative splicing of a primary transcript of one Oct factor gene and may serve a specific function in the fine tuning of gene expression.</clue>
+</event>
+<event id="E11">
+<type class="RNA_metabolism" />
+<theme idref="A5" />
+<clue>Many of these may be created by <clueType>alternative splicing</clueType> <linkTheme>of</linkTheme> a primary transcript of one Oct factor gene and may serve a specific function in the fine tuning of gene expression.</clue>
+<comment>TPS: A5</comment>
+</event>
+<event id="E12">
+<type class="Transcription" />
+<theme idref="A6" />
+<clue>Many of these may be created by alternative splicing of a primary <clueType>transcript</clueType> <linkTheme>of</linkTheme> one Oct factor gene and may serve a specific function in the fine tuning of gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E13">
+<type class="Regulation" />
+<theme idref="T39" />
+<cause idref="T36" />
+<clue><corefCause>Many of these</corefCause> may be created by alternative splicing of a primary transcript of one Oct factor gene and may <clueType>serve</clueType> a specific <clueType>function in the fine tuning</clueType> <linkTheme>of</linkTheme> gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

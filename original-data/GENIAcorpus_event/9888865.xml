@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="26/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9888865" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9888865</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="A1">Tissue factor</term> expression of <term sem="Cell_natural" id="T1" lex="human_monocyte">human monocytes</term> is suppressed by <term sem="Lipid" id="T2" lex="lysophosphatidylcholine">lysophosphatidylcholine</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Tissue factor <clueType>expression</clueType> <clueLoc>of human monocytes</clueLoc> is suppressed by lysophosphatidylcholine.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T2" />
+<clue>Tissue factor expression of human monocytes is <clueType>suppressed</clueType> <linkCause>by</linkCause> lysophosphatidylcholine.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The expression of <term sem="Protein_family_or_group" id="T3" lex="tissue_factor">tissue factor</term> (<term sem="Protein_family_or_group" id="T4" lex="TF">TF</term>), the principal initiator of <term sem="Other" id="T5" lex="coagulation">coagulation</term>, is increased during <term sem="Other" id="T6" lex="inflammation">inflammation</term> and <term sem="Other" id="T7" lex="atherosclerosis">atherosclerosis</term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> tissue factor (TF), the principal initiator of coagulation, is increased during inflammation and atherosclerosis.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T6" />
+<clue>The expression of tissue factor (TF), the principal initiator of coagulation, is <clueType>increased</clueType> <linkCause>during</linkCause> inflammation and atherosclerosis.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T7" />
+<clue>The expression of tissue factor (TF), the principal initiator of coagulation, is <clueType>increased</clueType> <linkCause>during</linkCause> inflammation and atherosclerosis.</clue>
+</event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="T5" />
+<cause idref="T4" />
+<clue>The expression of tissue factor (TF), the principal <clueType>initiator</clueType> <linkTheme>of</linkTheme> coagulation, is increased during inflammation and atherosclerosis.</clue>
+</event>
+<sentence id="S3">Both conditions are promoted by <term sem="Lipid" id="T8" lex="lysophosphatidylcholine">lysophosphatidylcholine</term> (<term sem="Lipid" id="T9" lex="lysoPC">lysoPC</term>).</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T9" />
+<clue><corefTheme>Both conditions</corefTheme> are <clueType>promoted</clueType> <linkCause>by</linkCause> lysophosphatidylcholine (lysoPC).</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T9" />
+<clue><corefTheme>Both conditions</corefTheme> are <clueType>promoted</clueType> <linkCause>by</linkCause> lysophosphatidylcholine (lysoPC).</clue>
+</event>
+<sentence id="S4">We observed in the present study that <term sem="Lipid" id="T10" lex="lysoPC">lysoPC</term> (1 to 10 micromol/L) dose-dependently reduced <term sem="Other" id="T11" lex="TF_activity"><term sem="Protein_family_or_group" id="T12" lex="TF">TF</term> activity</term> in <term sem="Cell_natural" id="T13" lex="human_monocyte">human monocytes</term>, as elicited by <term sem="Lipid" id="T14" lex="lipopolysaccharide">lipopolysaccharide</term> (<term sem="Lipid" id="T15" lex="LPS">LPS</term>).</sentence>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="T10" />
+<clue>We observed in the present study that lysoPC (1 to 10 micromol/L) dose-dependently <clueType>reduced</clueType> TF activity <clueLoc>in human monocytes</clueLoc>, as elicited by lipopolysaccharide (LPS).</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<cause idref="T15" />
+<clue>We observed in the present study that lysoPC (1 to 10 micromol/L) dose-dependently reduced TF activity in human monocytes, as <clueType>elicited</clueType> <linkCause>by</linkCause> lipopolysaccharide (LPS).</clue>
+</event>
+<sentence id="S5"><term sem="Organic_compound_other" id="T16" lex="lysophosphatidylethanolamine">Lysophosphatidylethanolamine</term> (<term sem="Organic_compound_other" id="T17" lex="lysoPE">lysoPE</term>) and other <term sem="Lipid" id="T18" lex="lysophospholipid">lysophospholipids</term> did not affect <term sem="Other" id="T19" lex="LPS-induced_TF_activity"><term sem="Lipid" id="T20" lex="LPS">LPS</term>-induced <term sem="Other" id="A2">TF activity</term></term> of <term sem="Cell_natural" id="T21" lex="human_monocyte">human monocytes</term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T20" />
+<clue>Lysophosphatidylethanolamine (lysoPE) and other lysophospholipids did not affect LPS-<clueType>induced</clueType> TF activity <clueLoc>of human monocytes</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E11">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T17" />
+<clue>Lysophosphatidylethanolamine (lysoPE) and other lysophospholipids did not <clueType>affect</clueType> LPS-induced TF activity of human monocytes.</clue>
+</event>
+<event assertion="non-exist" id="E12">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T18" />
+<clue>Lysophosphatidylethanolamine (lysoPE) and other lysophospholipids did not <clueType>affect</clueType> LPS-induced TF activity of human monocytes.</clue>
+</event>
+<sentence id="S6"><term sem="Other" id="T22" lex="TF_antigen_expression"><term sem="Protein_molecule" id="A3">TF antigen</term> expression</term> as elicited by <term sem="Lipid" id="T23" lex="LPS">LPS</term> was also lowered by <term sem="Lipid" id="T24" lex="lysoPC">lysoPC</term>.</sentence>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="A3" />
+<clue>TF antigen <clueType>expression</clueType> as elicited by LPS was also lowered by lysoPC.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T23" />
+<clue>TF antigen expression as <clueType>elicited</clueType> <linkCause>by</linkCause> LPS was also lowered by lysoPC.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T24" />
+<clue>TF antigen expression as elicited by LPS was also <clueType>lowered</clueType> <linkCause>by</linkCause> lysoPC.</clue>
+</event>
+<sentence id="S7"><term sem="Other" id="T25" lex="phospholipid_analysis">Phospholipid analyses</term> indicated a selective increase in the <term sem="Lipid" id="T26" lex="lysoPC">lysoPC</term> content of the <term sem="Cell_natural" id="T27" lex="monocyte">monocytes</term> after preincubation with the lysophospholipid.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<cause idref="E17" />
+<clue>Phospholipid analyses indicated a selective <clueType>increase</clueType> <linkTheme>in</linkTheme> the lysoPC content <clueLoc>of the monocytes</clueLoc> <linkCause>after</linkCause> preincubation with the lysophospholipid.</clue>
+</event>
+<event id="E17">
+<type class="Artificial_process" />
+<theme idref="T27" />
+<theme idref="T26" />
+<clue>Phospholipid analyses indicated a selective increase in the lysoPC content of the monocytes after <clueType>preincubation</clueType> <linkTheme>with</linkTheme> <corefTheme>the lysophospholipid</corefTheme>.</clue>
+</event>
+<sentence id="S8"><term sem="Lipid" id="T28" lex="lysoPC">LysoPC</term> inhibited the <term sem="Other" id="T29" lex="TF_activity">TF activity</term> of <term sem="Cell_cultured" id="T30" lex="Mono_Mac-6_cell">Mono Mac-6 cells</term> to a similar extent as in the <term sem="Cell_natural" id="T31" lex="monocyte">monocytes</term>.</sentence>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="T29" />
+<cause idref="T28" />
+<clue>LysoPC <clueType>inhibited</clueType> the TF activity <clueLoc>of Mono Mac-6</clueLoc> cells to a similar extent as in the monocytes.</clue>
+</event>
+<sentence id="S9"><term sem="Lipid" id="T32" lex="LPS">LPS</term> binding to plasma membrane <term sem="Protein_family_or_group" id="A4">receptors</term> and internalization of <term sem="Lipid" id="T33" lex="LPS">LPS</term> into <term sem="Cell_natural" id="T34" lex="monocyte">monocytes</term> were not affected by <term sem="Lipid" id="T35" lex="lysoPC">lysoPC</term>.</sentence>
+<event id="E20">
+<type class="Binding" />
+<theme idref="A4" />
+<theme idref="T32" />
+<clue>LPS <clueType>binding</clueType> <linkTheme>to</linkTheme> <clueLoc>plasma membrane</clueLoc> receptors and internalization of LPS into monocytes were not affected by lysoPC.</clue>
+</event>
+<event id="E21">
+<type class="Localization" />
+<theme idref="T33" />
+<clue>LPS binding to plasma membrane receptors and <clueType>internalization</clueType> <linkTheme>of</linkTheme> LPS <clueLoc>into monocytes</clueLoc> were not affected by lysoPC.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="T35" />
+<clue>LPS binding to plasma membrane receptors and internalization of LPS into monocytes were not <clueType>affected</clueType> <linkCause>by</linkCause> lysoPC.</clue>
+</event>
+<event assertion="non-exist" id="E23">
+<type class="Regulation" />
+<theme idref="E21" />
+<cause idref="T35" />
+<clue>LPS binding to plasma membrane receptors and internalization of LPS into monocytes were not <clueType>affected</clueType> <linkCause>by</linkCause> lysoPC.</clue>
+</event>
+<sentence id="S10">In contrast, <term sem="Lipid" id="T36" lex="LPS">LPS</term>-mediated nuclear binding of <term sem="Protein_complex" id="T37" lex="nuclear_factor-kappaB/Rel">nuclear factor-kappaB/Rel</term> to a <term sem="DNA_domain_or_region" id="T38" lex="TF-specific_kappaB_site">TF-specific kappaB site</term> was inhibited by <term sem="Lipid" id="T39" lex="lysoPC">lysoPC</term>.</sentence>
+<event id="E24">
+<type class="Binding" />
+<theme idref="T37" />
+<theme idref="T38" />
+<clue>In contrast, LPS-mediated <clueLoc>nuclear</clueLoc> <clueType>binding</clueType> <linkTheme>of</linkTheme> nuclear factor-kappaB/Rel <linkTheme>to</linkTheme> a TF-specific kappaB site was inhibited by lysoPC.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="T36" />
+<clue>In contrast, LPS-<clueType>mediated</clueType> nuclear binding of nuclear factor-kappaB/Rel to a TF-specific kappaB site was inhibited by lysoPC.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="T39" />
+<clue>In contrast, LPS-mediated nuclear binding of nuclear factor-kappaB/Rel to a TF-specific kappaB site was <clueType>inhibited</clueType> <linkCause>by</linkCause> lysoPC.</clue>
+</event>
+<sentence id="S11">Induction of <term sem="Other" id="T40" lex="TF_mRNA_expression"><term sem="RNA_molecule" id="T41" lex="TF_mRNA">TF mRNA</term> expression</term> by <term sem="Lipid" id="T42" lex="LPS">LPS</term> tended to be partially reduced by the <term sem="Lipid" id="T43" lex="lysophospholipid">lysophospholipid</term>.</sentence>
+<event id="E27">
+<type class="Transcription" />
+<theme idref="T41" />
+<clue>Induction of TF mRNA <clueType>expression</clueType> by LPS tended to be partially reduced by the lysophospholipid.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="T42" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> TF mRNA expression <linkCause>by</linkCause> LPS tended to be partially reduced by the lysophospholipid.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<cause idref="T39" />
+<clue>Induction of TF mRNA expression by LPS tended to be partially <clueType>reduced</clueType> <linkCause>by</linkCause> <corefCause>the lysophospholipid</corefCause>.</clue>
+</event>
+<sentence id="S12">Preincubation with <term sem="Lipid" id="T44" lex="lysoPC">lysoPC</term> increased <term sem="Other" id="T45" lex="monocytic_cAMP_level">monocytic <term sem="Nucleotide" id="T46" lex="cAMP">cAMP</term> levels</term>.</sentence>
+<event id="E30">
+<type class="Artificial_process" />
+<theme idref="T44" />
+<clue><clueType>Preincubation</clueType> <linkTheme>with</linkTheme> lysoPC increased monocytic cAMP levels.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="T46" />
+<cause idref="E30" />
+<clue>Preincubation with lysoPC <clueType>increased</clueType> <clueLoc>monocytic</clueLoc> cAMP <clueType>levels</clueType>.</clue>
+</event>
+<sentence id="S13">Inhibition of <term sem="Protein_complex" id="T47" lex="adenylyl_cyclase">adenylyl cyclase</term> by pretreatment with <term sem="Nucleotide" id="T48" lex="2&apos;-deoxy-3&apos;-adenosine_monophosphate">2&apos;-deoxy-3&apos;-adenosine monophosphate</term> partially reversed the inhibition of <term sem="Other" id="T49" lex="TF_activity">TF activity</term> promoted by <term sem="Lipid" id="T50" lex="lysoPC">lysoPC</term>.</sentence>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="T47" />
+<cause idref="T48" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> adenylyl cyclase <linkCause>by</linkCause> pretreatment with 2&apos;-deoxy-3&apos;-adenosine monophosphate partially reversed the inhibition of TF activity promoted by lysoPC.</clue>
+<comment>NER: T48 sem mod, Protein_molecule -&gt; Nucleotide</comment>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E35" />
+<cause idref="E32" />
+<clue>Inhibition of adenylyl cyclase by pretreatment with 2&apos;-deoxy-3&apos;-adenosine monophosphate partially <clueType>reversed</clueType> the inhibition of TF activity promoted by lysoPC.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="T49" />
+<cause idref="T50" />
+<clue>Inhibition of adenylyl cyclase by pretreatment with 2&apos;-deoxy-3&apos;-adenosine monophosphate partially reversed the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> TF activity <linkCause>promoted by</linkCause> lysoPC.</clue>
+</event>
+<sentence id="S14">In conclusion, <term sem="Lipid" id="T51" lex="lysoPC">lysoPC</term> markedly decreases <term sem="Other" id="T52" lex="LPS-mediated_TF_expression"><term sem="Lipid" id="T53" lex="LPS">LPS</term>-mediated <term sem="Protein_family_or_group" id="A5">TF</term> expression</term> of <term sem="Cell_natural" id="T54" lex="human_monocyte">human monocytes</term>, the effect probably being mediated by both <cons sem="(AND Other Other)" id="C1" lex="(AND transcriptional_mechanism posttranscriptional_mechanism)"><frag id="F1">transcriptional</frag> and <frag id="F2">posttranscriptional</frag> <frag id="F3">mechanisms</frag></cons>.</sentence>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="T51" />
+<clue>In conclusion, lysoPC markedly <clueType>decreases</clueType> LPS-mediated TF expression of human monocytes, the effect probably being mediated by both transcriptional and posttranscriptional mechanisms.</clue>
+</event>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="A5" />
+<clue>In conclusion, lysoPC markedly decreases LPS-mediated TF <clueType>expression</clueType> <clueLoc>of human monocytes</clueLoc>, the effect probably being mediated by both transcriptional and posttranscriptional mechanisms.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T53" />
+<clue>In conclusion, lysoPC markedly decreases LPS-<clueType>mediated</clueType> TF expression of human monocytes, the effect probably being mediated by both transcriptional and posttranscriptional mechanisms.</clue>
+</event>
+<event uncertainty="probable" id="E39">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref1="F3" idref="F1" />
+<clue>In conclusion, lysoPC markedly decreases LPS-mediated TF expression of human monocytes, <corefTheme>the effect</corefTheme> probably being <clueType>mediated</clueType> <linkCause>by</linkCause> both transcriptional and posttranscriptional mechanisms.</clue>
+</event>
+<event uncertainty="probable" id="E40">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref1="F3" idref="F2" />
+<clue>In conclusion, lysoPC markedly decreases LPS-mediated TF expression of human monocytes, <corefTheme>the effect</corefTheme> probably being <clueType>mediated</clueType> <linkCause>by</linkCause> both transcriptional and posttranscriptional mechanisms.</clue>
+</event>
+<sentence id="S15"><term sem="Lipid" id="T55" lex="lysoPC">LysoPC</term> may thus attenuate activation of <term sem="Other" id="T56" lex="coagulation">coagulation</term> during <term sem="Other" id="T57" lex="inflammation">inflammation</term> and <term sem="Other" id="T58" lex="atherosclerosis">atherosclerosis</term>.</sentence>
+<event id="E41">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="T55" />
+<clue>LysoPC may thus <clueType>attenuate</clueType> activation of coagulation during inflammation and atherosclerosis.</clue>
+</event>
+<event id="E42">
+<type class="Negative_regulation" />
+<theme idref="E44" />
+<cause idref="T55" />
+<clue>LysoPC may thus <clueType>attenuate</clueType> activation of coagulation during inflammation and atherosclerosis.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="T56" />
+<cause idref="T57" />
+<clue>LysoPC may thus attenuate <clueType>activation</clueType> <linkTheme>of</linkTheme> coagulation <linkCause>during</linkCause> inflammation and atherosclerosis.</clue>
+</event>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="T56" />
+<cause idref="T58" />
+<clue>LysoPC may thus attenuate <clueType>activation</clueType> <linkTheme>of</linkTheme> coagulation <linkCause>during</linkCause> inflammation and atherosclerosis.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

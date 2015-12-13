@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="16/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10197731" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10197731</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Studies into the effect of <term sem="Organic_compound_other" id="T1" lex="tyrosine_phosphatase_inhibitor"><term sem="Protein_family_or_group" id="T2" lex="tyrosine_phosphatase"><term sem="Amino_acid_monomer" id="T3" lex="tyrosine">tyrosine</term> phosphatase</term> inhibitor</term> <term sem="Organic_compound_other" id="T4" lex="phenylarsine_oxide">phenylarsine oxide</term> on <term sem="Other" id="T5" lex="NFkappaB_activation"><term sem="Protein_complex" id="T6" lex="NFkappaB">NFkappaB</term> activation</term> in <term sem="Cell_natural" id="T7" lex="T_lymphocyte">T lymphocytes</term> during aging: evidence for altered <cons sem="(AND Other Other)" id="C1" lex="(AND IkappaB-alpha_phosphorylation IkappaB-alpha_degradation)"><frag id="F7">IkappaB-alpha</frag> <frag id="F8">phosphorylation</frag> and <frag id="F9">degradation</frag></cons>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<clue>Studies into the effect of tyrosine phosphatase inhibitor phenylarsine oxide on NFkappaB <clueType>activation</clueType> in T lymphocytes during aging: evidence for altered IkappaB-alpha phosphorylation and degradation.</clue>
+</event>
+<event uncertainty="doubtful" id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T4" />
+<clue>Studies into the <clueType>effect</clueType> <linkCause>of</linkCause> tyrosine phosphatase inhibitor phenylarsine oxide <linkTheme>on</linkTheme> NFkappaB activation <clueLoc>in T lymphocytes</clueLoc> <clueTime>during aging</clueTime>: evidence for altered IkappaB-alpha phosphorylation and degradation.</clue>
+</event>
+<event id="E3">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="F7" />
+<clue>Studies into the effect of tyrosine phosphatase inhibitor phenylarsine oxide on NFkappaB activation in T lymphocytes during aging: evidence for altered IkappaB-alpha <clueType>phosphorylation</clueType> and degradation.</clue>
+</event>
+<event id="E4">
+<type class="Protein_catabolism" />
+<theme idref="F7" />
+<clue>Studies into the effect of tyrosine phosphatase inhibitor phenylarsine oxide on NFkappaB activation in T lymphocytes during aging: evidence for altered IkappaB-alpha phosphorylation and <clueType>degradation</clueType>.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E3" />
+<clue>Studies into the effect of tyrosine phosphatase inhibitor phenylarsine oxide on NFkappaB activation in T lymphocytes during aging: evidence for <clueType>altered</clueType> IkappaB-alpha phosphorylation and degradation.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E4" />
+<clue>Studies into the effect of tyrosine phosphatase inhibitor phenylarsine oxide on NFkappaB activation in T lymphocytes during aging: evidence for <clueType>altered</clueType> IkappaB-alpha phosphorylation and degradation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_complex" id="T10" lex="nuclear_Factor_kappa_B">Nuclear Factor kappa B</term> (<term sem="Protein_complex" id="T11" lex="NFkappaB">NFkappaB</term>) is a critical regulator of several <term sem="DNA_domain_or_region" id="A1">genes</term> involved in <cons sem="(AND Other Other)" id="T12" lex="(AND immune_response inflammatory_response)"><frag id="F1">immune</frag> and <frag id="F2">inflammatory</frag> <frag id="F3">responses</frag></cons>.</sentence>
+<event id="E7">
+<type class="Correlation" />
+<theme idref="A1" />
+<theme idref1="F3" idref="F1" />
+<clue>Nuclear Factor kappa B (NFkappaB) is a critical regulator of several genes <clueType>involved</clueType> <linkTheme>in</linkTheme> immune and inflammatory responses.</clue>
+</event>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="A1" />
+<theme idref1="F3" idref="F2" />
+<clue>Nuclear Factor kappa B (NFkappaB) is a critical regulator of several genes <clueType>involved</clueType> <linkTheme>in</linkTheme> immune and inflammatory responses.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="A1" />
+<cause idref="T11" />
+<clue>Nuclear Factor kappa B (NFkappaB) is a critical <clueType>regulator</clueType> <linkTheme>of</linkTheme> several genes involved in immune and inflammatory responses.</clue>
+</event>
+<sentence id="S3">Treatment of <term sem="Cell_natural" id="T13" lex="T_cell">T cells</term> with a variety of stimuli, including <term sem="Protein_molecule" id="T14" lex="TNF-alpha">TNF-alpha</term>, leads to the translocation of the active <term sem="Protein_complex" id="T15" lex="p65-50_heterodimer">p65-50 heterodimer</term> to the <term sem="Cell_component" id="T16" lex="nucleus">nucleus</term>, albeit at a lower level in <term sem="Cell_natural" id="T17" lex="T_cell">T cells</term> from the elderly.</sentence>
+<event id="E10">
+<type class="Artificial_process" />
+<theme idref="T13" />
+<theme idref="T14" />
+<clue><clueType>Treatment</clueType> <linkTheme>of</linkTheme> T cells <linkTheme>with</linkTheme> <corefTheme>a variety of stimuli</corefTheme>, including TNF-alpha, leads to the translocation of the active p65-50 heterodimer to the nucleus, albeit at a lower level in T cells from the elderly.</clue>
+</event>
+<event id="E11">
+<type class="Localization" />
+<theme idref="T15" />
+<clue>Treatment of T cells with a variety of stimuli, including TNF-alpha, leads to the <clueType>translocation</clueType> <linkTheme>of</linkTheme> the active p65-50 heterodimer <clueLoc>to the nucleus</clueLoc>, albeit at a lower level in T cells from the elderly.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="E10" />
+<clue>Treatment of T cells with a variety of stimuli, including TNF-alpha, <clueType>leads</clueType> <linkTheme>to</linkTheme> the translocation of the active p65-50 heterodimer to the nucleus, albeit at a lower level in T cells from the elderly.</clue>
+</event>
+<sentence id="S4">We demonstrate here that pretreatment with <term sem="Organic_compound_other" id="T18" lex="PAO">PAO</term> results in the inhibition of <term sem="Other" id="T19" lex="NFkappaB_induction"><term sem="Protein_complex" id="T20" lex="NFkappaB">NFkappaB</term> induction</term> in <term sem="Protein_molecule" id="T21" lex="TNF-alpha">TNF-alpha</term> treated <term sem="Cell_natural" id="T22" lex="T_cell">T cells</term>, suggesting a role for <term sem="Protein_molecule" id="T23" lex="PAO-sensitive_phosphatase"><term sem="Organic_compound_other" id="T24" lex="PAO">PAO</term>-sensitive phosphatase</term> in the activation of the <term sem="Protein_complex" id="T25" lex="NFkappaB">NFkappaB</term> via this pathway in <term sem="Cell_natural" id="T26" lex="human_T_cell">human T cells</term>.</sentence>
+<event id="E13">
+<type class="Artificial_process" />
+<theme idref="T18" />
+<clue>We demonstrate here that <clueType>pretreatment</clueType> <linkTheme>with</linkTheme> PAO results in the inhibition of NFkappaB induction in TNF-alpha treated T cells, suggesting a role for PAO-sensitive phosphatase in the activation of the NFkappaB via this pathway in human T cells.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<clue>We demonstrate here that pretreatment with PAO results in the inhibition of NFkappaB <clueType>induction</clueType> in TNF-alpha treated T cells, suggesting a role for PAO-sensitive phosphatase in the activation of the NFkappaB via this pathway in human T cells.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<clue>We demonstrate here that pretreatment with PAO results in the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NFkappaB induction in TNF-alpha treated T cells, suggesting a role for PAO-sensitive phosphatase in the activation of the NFkappaB via this pathway in human T cells.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<cause idref="E13" />
+<clue>We demonstrate here that pretreatment with PAO <clueType>results</clueType> <linkTheme>in</linkTheme> the inhibition of NFkappaB induction <clueLoc>in TNF-alpha treated T cells</clueLoc>, suggesting a role for PAO-sensitive phosphatase in the activation of the NFkappaB via this pathway in human T cells.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<clue>We demonstrate here that pretreatment with PAO results in the inhibition of NFkappaB induction in TNF-alpha treated T cells, suggesting a role for PAO-sensitive phosphatase in the <clueType>activation</clueType> <linkTheme>of</linkTheme> the NFkappaB via this pathway in human T cells.</clue>
+</event>
+<event uncertainty="probable" id="E17">
+<type class="Correlation" />
+<theme idref="E16" />
+<theme idref="T23" />
+<clue>We demonstrate here that pretreatment with PAO results in the inhibition of NFkappaB induction in TNF-alpha treated T cells, suggesting a <clueType>role</clueType> <linkCause>for</linkCause> PAO-sensitive phosphatase <linkTheme>in</linkTheme> the activation of the NFkappaB via this pathway <clueLoc>in human T cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">Furthermore, it demonstrates that <term sem="Other" id="A5">aging</term> does not influence the sensitivity of this <term sem="Protein_family_or_group" id="T27" lex="phosphatase">phosphatase</term>.</sentence>
+<event id="E18">
+<type />
+<cause idref="T23" />
+<clue>Furthermore, it demonstrates that aging does not influence the <clueType>sensitivity</clueType> <linkCause>of</linkCause> <corefCause>this phosphatase</corefCause>.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Regulation" />
+<theme idref="E18" />
+<cause idref="A5" />
+<clue>Furthermore, it demonstrates that aging does not <clueType>influence</clueType> the sensitivity of this phosphatase.</clue>
+</event>
+<sentence id="S6">Treatment with <term sem="Organic_compound_other" id="T28" lex="DMP">DMP</term> prior to treatment with <term sem="Organic_compound_other" id="T29" lex="PAO">PAO</term> and <term sem="Protein_family_or_group" id="T30" lex="TNF">TNF</term> abolishes the inhibition induced by <term sem="Organic_compound_other" id="T31" lex="PAO">PAO</term>, in <term sem="Cell_natural" id="T32" lex="T_cell">T cells</term> from both <cons sem="(AND Multicellular_organism_natural Multicellular_organism_natural)" id="T33" lex="(AND young_donor old_donor)"><frag id="F4">young</frag> and <frag id="F5">old</frag> <frag id="F6">donors</frag></cons>, alike.</sentence>
+<event id="E20">
+<type class="Artificial_process" />
+<theme idref="T28" />
+<clue><clueType>Treatment</clueType> <linkTheme>with</linkTheme> DMP prior to treatment with PAO and TNF abolishes the inhibition induced by PAO, in T cells from both young and old donors, alike.</clue>
+</event>
+<event id="E21">
+<type class="Artificial_process" />
+<theme idref="T29" />
+<theme idref="T30" />
+<clue>Treatment with DMP prior to <clueType>treatment</clueType> <linkTheme>with</linkTheme> PAO and TNF abolishes the inhibition induced by PAO, in T cells from both young and old donors, alike.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="T31" />
+<clue>Treatment with DMP prior to treatment with PAO and TNF abolishes the <corefTheme>inhibition</corefTheme> <clueType>induced</clueType> <linkCause>by</linkCause> PAO, in T cells from both young and old donors, alike.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="E20" />
+<clue>Treatment with DMP prior to treatment with PAO and TNF <clueType>abolishes</clueType> the inhibition induced by PAO, <clueLoc>in T cells from</clueLoc> both <clueLoc>young</clueLoc> and old <clueLoc>donors</clueLoc>, alike.</clue>
+</event>
+<event id="E124">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="E20" />
+<clue>Treatment with DMP prior to treatment with PAO and TNF <clueType>abolishes</clueType> the inhibition induced by PAO, <clueLoc>in T cells from</clueLoc> both young and <clueLoc>old donors</clueLoc>, alike.</clue>
+</event>
+<sentence id="S7">Finally, we demonstrate that a failure to degrade <term sem="Protein_molecule" id="T34" lex="IkappaB-alpha">IkappaB-alpha</term> in cytosols of <term sem="Cell_natural" id="T35" lex="TNF-treated_T_cell"><term sem="Protein_family_or_group" id="T36" lex="TNF">TNF</term>-treated <term sem="Cell_natural" id="T37" lex="T_cell">T cells</term></term> pretreated with <term sem="Organic_compound_other" id="T38" lex="PAO">PAO</term> is due to its interference with the <term sem="Other" id="T39" lex="phosphorylation">phosphorylation</term> of <term sem="Protein_molecule" id="T40" lex="IkappaB-alpha">IkappaB-alpha</term> and not due to its inhibitory effect on <term sem="Other" id="T41" lex="proteasomal_degradation">proteasomal degradation</term>.</sentence>
+<event assertion="non-exist" id="E25">
+<type class="Protein_catabolism" />
+<theme idref="T34" />
+<clue>Finally, we demonstrate that a failure to <clueType>degrade</clueType> IkappaB-alpha <clueLoc>in cytosols of TNF-treated T cells pretreated with PAO</clueLoc> is due to its interference with the phosphorylation of IkappaB-alpha and not due to its inhibitory effect on proteasomal degradation.</clue>
+</event>
+<event id="E26">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T40" />
+<clue>Finally, we demonstrate that a failure to degrade IkappaB-alpha in cytosols of TNF-treated T cells pretreated with PAO is due to its interference with the <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> IkappaB-alpha and not due to its inhibitory effect on proteasomal degradation.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="E26" />
+<cause idref="T38" />
+<clue>Finally, we demonstrate that a failure to degrade IkappaB-alpha in cytosols of TNF-treated T cells pretreated with PAO is due to <corefCause>its</corefCause> <clueType>interference</clueType> <linkTheme>with</linkTheme> the phosphorylation of IkappaB-alpha and not due to its inhibitory effect on proteasomal degradation.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="E27" />
+<clue>Finally, we demonstrate that a failure to degrade IkappaB-alpha in cytosols of TNF-treated T cells pretreated with PAO is <clueType>due</clueType> <linkCause>to</linkCause> its interference with the phosphorylation of IkappaB-alpha and not due to its inhibitory effect on proteasomal degradation.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="T41" />
+<cause idref="T38" />
+<clue>Finally, we demonstrate that a failure to degrade IkappaB-alpha in cytosols of TNF-treated T cells pretreated with PAO is due to its interference with the phosphorylation of IkappaB-alpha and not due to <corefCause>its</corefCause> <clueType>inhibitory effect</clueType> <linkTheme>on</linkTheme> proteasomal degradation.</clue>
+</event>
+<event assertion="non-exist" id="E30">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="E29" />
+<clue>Finally, we demonstrate that a failure to degrade IkappaB-alpha in cytosols of TNF-treated T cells pretreated with PAO is due to its interference with the phosphorylation of IkappaB-alpha and not <clueType>due</clueType> <linkCause>to</linkCause> its inhibitory effect on proteasomal degradation.</clue>
+</event>
+<sentence id="S8">These data collectively suggest that <term sem="Organic_compound_other" id="T42" lex="PAO">PAO</term> interferes with the phosphorylation and the <term sem="Other" id="T43" lex="regulated_degradation">regulated degradation</term> of <term sem="Protein_molecule" id="T44" lex="IkappaB-alpha">IkappaB-alpha</term>, induced by <term sem="Protein_family_or_group" id="T45" lex="TNF">TNF</term>, without affecting the <term sem="Other" id="T46" lex="chymotryptic_activity">chymotryptic activity</term> of the <term sem="Protein_complex" id="T47" lex="proteasome">proteasome</term>, independent of <term sem="Other" id="A6">age</term>.</sentence>
+<event id="E31">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T44" />
+<clue>These data collectively suggest that PAO interferes with the <clueType>phosphorylation</clueType> and the regulated degradation <linkTheme>of</linkTheme> IkappaB-alpha, induced by TNF, without affecting the chymotryptic activity of the proteasome, independent of age.</clue>
+</event>
+<event id="E32">
+<type class="Protein_catabolism" />
+<theme idref="T44" />
+<clue>These data collectively suggest that PAO interferes with the phosphorylation and the regulated <clueType>degradation</clueType> <linkTheme>of</linkTheme> IkappaB-alpha, induced by TNF, without affecting the chymotryptic activity of the proteasome, independent of age.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="T31" />
+<cause idref="T45" />
+<clue>These data collectively suggest that PAO interferes with the phosphorylation and the regulated degradation of IkappaB-alpha, <clueType>induced</clueType> <linkCause>by</linkCause> TNF, without affecting the chymotryptic activity of the proteasome, independent of age.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<cause idref="T45" />
+<clue>These data collectively suggest that PAO interferes with the phosphorylation and the regulated degradation of IkappaB-alpha, <clueType>induced</clueType> <linkCause>by</linkCause> TNF, without affecting the chymotryptic activity of the proteasome, independent of age.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T42" />
+<clue>These data collectively suggest that PAO <clueType>interferes</clueType> <linkTheme>with</linkTheme> the phosphorylation and the regulated degradation of IkappaB-alpha, induced by TNF, without affecting the chymotryptic activity of the proteasome, independent of age.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="E34" />
+<cause idref="T42" />
+<clue>These data collectively suggest that PAO <clueType>interferes</clueType> <linkTheme>with</linkTheme> the phosphorylation and the regulated degradation of IkappaB-alpha, induced by TNF, without affecting the chymotryptic activity of the proteasome, independent of age.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<cause idref="T47" />
+<clue>These data collectively suggest that PAO interferes with the phosphorylation and the regulated degradation of IkappaB-alpha, induced by TNF, without affecting the <clueType>chymotryptic activity</clueType> <linkCause>of</linkCause> the proteasome, independent of age.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E38">
+<type class="Regulation" />
+<theme idref="E37" />
+<clue>These data collectively suggest that PAO interferes with the phosphorylation and the regulated degradation of IkappaB-alpha, induced by TNF, without <clueType>affecting</clueType> the chymotryptic activity of the proteasome, independent of age.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E39">
+<type class="Correlation" />
+<theme idref="E35" />
+<theme idref="A6" />
+<clue>These data collectively suggest that PAO interferes with the phosphorylation and the regulated degradation of IkappaB-alpha, induced by TNF, without affecting the chymotryptic activity of the proteasome, <clueType>independent</clueType> <linkTheme>of</linkTheme> age.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E40">
+<type class="Correlation" />
+<theme idref="E36" />
+<theme idref="A6" />
+<clue>These data collectively suggest that PAO interferes with the phosphorylation and the regulated degradation of IkappaB-alpha, induced by TNF, without affecting the chymotryptic activity of the proteasome, <clueType>independent</clueType> <linkTheme>of</linkTheme> age.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E41">
+<type class="Correlation" />
+<theme idref="E35" />
+<theme idref="E38" />
+<clue>These data collectively suggest that PAO interferes with the phosphorylation and the regulated degradation of IkappaB-alpha, induced by TNF, <clueType>without</clueType> affecting the chymotryptic activity of the proteasome, independent of age.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E42">
+<type class="Correlation" />
+<theme idref="E36" />
+<theme idref="E38" />
+<clue>These data collectively suggest that PAO interferes with the phosphorylation and the regulated degradation of IkappaB-alpha, induced by TNF, <clueType>without</clueType> affecting the chymotryptic activity of the proteasome, independent of age.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

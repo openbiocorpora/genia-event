@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="16/05/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10194184"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10194184</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Activation of <term sem="Protein_complex" id="T1" lex="NF-kappaB">NF-kappaB</term> in <term sem="Unicellular_organism" id="T3" lex="Mycobacterium_tuberculosis">Mycobacterium tuberculosis</term>- induced <term sem="Other" id="T2"><term sem="Protein_molecule" id="T4" lex="interleukin-2_receptor">interleukin-2 receptor</term> expression</term> in <term sem="Cell_natural" id="T5" lex="mononuclear_phagocyte">mononuclear phagocytes</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>Activation of NF-kappaB in Mycobacterium tuberculosis- induced interleukin-2 receptor <clueType>expression</clueType> in mononuclear phagocytes.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T3" />
+<clue>Activation of NF-kappaB in Mycobacterium tuberculosis- <clueType>induced</clueType> interleukin-2 receptor expression <clueLoc>in mononuclear phagocytes</clueLoc>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> NF-kappaB in Mycobacterium tuberculosis- induced interleukin-2 receptor expression in mononuclear phagocytes.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E4">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="E2" />
+<clue>Activation of NF-kappaB <clueType>in</clueType> Mycobacterium tuberculosis- induced interleukin-2 receptor expression in mononuclear phagocytes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Soluble <term sem="Protein_molecule" id="T6" lex="interleukin-2_receptor-alpha"><term sem="Protein_molecule" id="T7" lex="interleukin-2_receptor">interleukin-2 receptor</term>-alpha</term> (<term sem="Protein_molecule" id="T8" lex="IL-2Ralpha">IL-2Ralpha</term>) has been reported to be increased in the sera of patients with advanced <term sem="Other" id="T58">tuberculosis</term>, and levels decline after <term sem="Other" id="A1">therapy</term> in accordance with improvement of radiologic findings.</sentence>
+<event assertion="exist" uncertainty="certain" id="E5">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<clue>Soluble interleukin-2 receptor-alpha (IL-2Ralpha) has been reported to be <clueType>increased</clueType> <clueLoc>in the sera of patients with advanced tuberculosis</clueLoc>, and levels decline after therapy in accordance with improvement of radiologic findings.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E6">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="A1" />
+<clue>Soluble interleukin-2 receptor-alpha (IL-2Ralpha) has been reported to be increased in the sera of patients with advanced tuberculosis, and levels <clueType>decline</clueType> <linkCause>after</linkCause> therapy in accordance with improvement of radiologic findings.</clue>
+</event>
+<sentence id="S3">We investigated expression of the <term sem="Protein_molecule" id="T10" lex="IL-2Ralpha">IL-2Ralpha</term> in <term sem="Cell_natural" id="T11" lex="bronchoalveolar_lavage_(BAL)_cell">bronchoalveolar lavage (BAL) cells</term> in active <term sem="Other" id="T9">pulmonary tuberculosis</term>, and evaluated the mechanism <term sem="Unicellular_organism" id="T13" lex="Mycobacterium_tuberculosis">Mycobacterium tuberculosis</term> induces in the <term sem="Protein_molecule" id="T14" lex="IL-2Ralpha">IL-2Ralpha</term> using the <term sem="Cell_cultured" id="T15" lex=""><term sem="Cell_cultured" id="T16" lex="">THP-1</term> mononuclear phagocyte cell line</term>.</sentence>
+<event assertion="exist" uncertainty="doubtful" id="E7">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>We investigated <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL-2Ralpha <clueLoc>in bronchoalveolar lavage (BAL) cells in active pulmonary tuberculosis</clueLoc>, and evaluated the mechanism Mycobacterium tuberculosis induces in the IL-2Ralpha using the THP-1 mononuclear phagocyte cell line.</clue>
+</event>
+<event assertion="exist" uncertainty="doubtful" id="E8">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<cause idref="T13" />
+<clue>We investigated expression of the IL-2Ralpha in bronchoalveolar lavage (BAL) cells in active pulmonary tuberculosis, and evaluated the mechanism Mycobacterium tuberculosis <clueType>induces</clueType> <linkTheme>in</linkTheme> the IL-2Ralpha using <clueLoc>the THP-1 mononuclear phagocyte cell line</clueLoc>.</clue>
+</event>
+<sentence id="S4">We found <term sem="Other" id="T17" lex="IL-2Ralpha_expression"><term sem="Protein_molecule" id="T18" lex="IL-2Ralpha">IL-2Ralpha</term> expression</term> to be increased in BAL cells from involved sites of active <term sem="Other" id="T12">pulmonary tuberculosis</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E9">
+<type class="Gene_expression" />
+<theme idref="T18" />
+<clue>We found IL-2Ralpha <clueType>expression</clueType> to be increased in BAL cells from involved sites of active pulmonary tuberculosis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<clue>We found IL-2Ralpha expression to be <clueType>increased</clueType> <clueLoc>in BAL cells from involved sites of active pulmonary tuberculosis</clueLoc>.</clue>
+</event>
+<sentence id="S5">Expression of the <term sem="Protein_molecule" id="A2"><term sem="Protein_molecule" id="T20" lex="alpha-chain">alpha-chain</term> of <term sem="Protein_molecule" id="T21" lex="IL-2Ralpha">IL-2Ralpha</term></term> on <term sem="Cell_natural" id="T22" lex="peripheral_blood_monocyte">peripheral blood monocytes</term> (<term sem="Cell_natural" id="T23" lex="PBM">PBM</term>) was induced by <term sem="Unicellular_organism" id="T24" lex="M._tuberculosis">M. tuberculosis</term> by flow cytometry evaluation.</sentence>
+<event assertion="exist" uncertainty="certain" id="E11">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> the alpha-chain of IL-2Ralpha <clueLoc>on peripheral blood monocytes (PBM)</clueLoc> was induced by M. tuberculosis by flow cytometry evaluation.</clue>
+<comment>TPS A2</comment></event>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T24" />
+<clue>Expression of the alpha-chain of IL-2Ralpha on peripheral blood monocytes (PBM) was <clueType>induced</clueType> <linkCause>by</linkCause> M. tuberculosis <clueExperiment>by flow cytometry evaluation</clueExperiment>.</clue>
+</event>
+<sentence id="S6">Northern analysis demonstrated increased <term sem="Other" id="T25" lex="IL-2Ralpha_gene_expression"><term sem="Protein_molecule" id="T26" lex="IL-2Ralpha">IL-2Ralpha</term> gene expression</term> after stimulation with <term sem="Unicellular_organism" id="T27" lex="M._tuberculosis">M. tuberculosis</term> which was further induced by <term sem="Protein_molecule" id="T28" lex="interferon-gamma">interferon-gamma</term> (<term sem="Protein_molecule" id="T29" lex="IFN-gamma">IFN-gamma</term>).</sentence>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>Northern analysis demonstrated increased IL-2Ralpha gene <clueType>expression</clueType> after stimulation with M. tuberculosis which was further induced by interferon-gamma (IFN-gamma).</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E14">
+<type class="Positive_regulation" />
+<cause idref="T27" />
+<clue>Northern analysis demonstrated increased IL-2Ralpha gene expression after <clueType>stimulation</clueType> <linkTheme>with</linkTheme> M. tuberculosis which was further induced by interferon-gamma (IFN-gamma).</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E14" />
+<clue>Northern analysis demonstrated <clueType>increased</clueType> IL-2Ralpha gene expression <linkCause>after</linkCause> stimulation with M. tuberculosis which was further induced by interferon-gamma (IFN-gamma).</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E16">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T29" />
+<clue>Northern analysis demonstrated increased IL-2Ralpha gene expression after stimulation with M. tuberculosis <corefTheme>which</corefTheme> was further <clueType>induced</clueType> <linkCause>by</linkCause> interferon-gamma (IFN-gamma).</clue>
+</event>
+<sentence id="S7">The <term sem="DNA_domain_or_region" id="T30" lex="IL-2Ralpha_promoter"><term sem="Protein_molecule" id="T31" lex="IL-2Ralpha">IL-2Ralpha</term> promoter</term> containing the <term sem="DNA_domain_or_region" id="T32" lex="nuclear_factor_kappa_B_(NF-kappaB)_site"><term sem="Protein_complex" id="T33" lex="nuclear_factor_kappa_B">nuclear factor kappa B</term> (<term sem="Protein_complex" id="T34" lex="NF-kappaB">NF-kappaB</term>) site</term> was transcriptionally induced by <term sem="Unicellular_organism" id="T35" lex="M._tuberculosis">M. tuberculosis</term> and this <term sem="DNA_domain_or_region" id="A3"><term sem="Protein_complex" id="T36" lex="NF-kappaB">NF-kappaB</term> site</term> could confer inducibility to a <term sem="DNA_domain_or_region" id="T37" lex="heterologous_herpes_thymidine_kinase_(TK)_promoter">heterologous herpes <term sem="Protein_family_or_group" id="T38" lex="thymidine_kinase"><term sem="Amino_acid_monomer" id="T39" lex="thymidine">thymidine</term> kinase</term> (TK) promoter</term> by <term sem="Unicellular_organism" id="T40" lex="M._tuberculosis">M. tuberculosis</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E17">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<cause idref="T35" />
+<clue>The IL-2Ralpha promoter containing the nuclear factor kappa B (NF-kappaB) site was transcriptionally <clueType>induced</clueType> <linkCause>by</linkCause> M. tuberculosis and this NF-kappaB site could confer inducibility to a heterologous herpes thymidine kinase (TK) promoter by M. tuberculosis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E18">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<cause idref="T40" />
+<clue>The IL-2Ralpha promoter containing the nuclear factor kappa B (NF-kappaB) site was transcriptionally induced by M. tuberculosis and this NF-kappaB site could confer <clueType>inducibility</clueType> <linkTheme>to</linkTheme> a heterologous herpes thymidine kinase (TK) promoter <linkCause>by</linkCause> M. tuberculosis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E19">
+<type class="Correlation" />
+<theme idref="A3" />
+<theme idref="E18" />
+<clue>The IL-2Ralpha promoter containing the nuclear factor kappa B (NF-kappaB) site was transcriptionally induced by M. tuberculosis and this NF-kappaB site could <clueType>confer</clueType> inducibility to a heterologous herpes thymidine kinase (TK) promoter by M. tuberculosis.</clue>
+</event>
+<sentence id="S8"><term sem="Other" id="T41" lex="electrophoretic_mobility_shift_assay">Electrophoretic mobility shift assays</term> (<term sem="Other" id="T42" lex="EMSA">EMSAs</term>) revealed specific binding of <term sem="Protein_family_or_group" id="A4">nuclear protein</term> to the <term sem="DNA_domain_or_region" id="T43" lex="NF-kappaB_site"><term sem="Protein_complex" id="T44" lex="NF-kappaB">NF-kappaB</term> site</term> upon induction with <term sem="Unicellular_organism" id="T45" lex="M._tuberculosis">M. tuberculosis</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E20">
+<type class="Binding" />
+<theme idref="A4" />
+<theme idref="T43" />
+<clue>Electrophoretic mobility shift assays (EMSAs) revealed specific <clueType>binding</clueType> <linkTheme>of</linkTheme> nuclear protein <linkTheme>to</linkTheme> the NF-kappaB site upon induction with M. tuberculosis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E21">
+<type class="Positive_regulation" />
+<cause idref="T45" />
+<clue>Electrophoretic mobility shift assays (EMSAs) revealed specific binding of nuclear protein to the NF-kappaB site upon <clueType>induction</clueType> <linkCause>with</linkCause> M. tuberculosis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E21" />
+<clue>Electrophoretic mobility shift assays (EMSAs) revealed specific binding of nuclear protein to the NF-kappaB site <clueType>upon</clueType> induction with M. tuberculosis.</clue>
+</event>
+<sentence id="S9">Using antibodies against the <term sem="Protein_molecule" id="T46" lex="p50">p50</term> and <term sem="Protein_molecule" id="T47" lex="p65_subunit">p65 subunits</term> of <term sem="Protein_complex" id="T48" lex="NF-kappaB">NF-kappaB</term> in <term sem="Other" id="T49" lex="EMSA">EMSAs</term>, the involvement of both <term sem="Protein_molecule" id="T50" lex="p50">p50</term> and <term sem="Protein_molecule" id="T51" lex="p65_protein">p65 proteins</term> was further demonstrated.</sentence>
+<event assertion="exist" uncertainty="certain" id="E23">
+<type class="Correlation" />
+<theme idref="T50" />
+<theme idref="T51" />
+<theme idref="E22" />
+<clue>Using antibodies against the p50 and p65 subunits of NF-kappaB <clueExperiment>in EMSAs</clueExperiment>, the <clueType>involvement</clueType> <linkTheme>of</linkTheme> both p50 and p65 proteins was further demonstrated.</clue>
+<comment>No corefTheme</comment></event>
+<sentence id="S10">Functional expression of the <term sem="Protein_molecule" id="T52" lex="IL-2Ralpha">IL-2Ralpha</term> on <term sem="Cell_natural" id="T53" lex="mononuclear_phagocyte">mononuclear phagocytes</term> in <term sem="Other" id="T19"><term sem="Unicellular_organism" id="T54" lex="M._tuberculosis">M. tuberculosis</term> infection</term> may play an important immunomodulatory role in the <term sem="Other" id="T57" lex="host_response">host response</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E24">
+<type class="Gene_expression" />
+<theme idref="T52" />
+<clue>Functional <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL-2Ralpha <clueLoc>on mononuclear phagocytes</clueLoc> in M. tuberculosis infection may play an important immunomodulatory role in the host response.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E25">
+<type class="Regulation" />
+<theme idref="T57" />
+<cause idref="E24" />
+<clue>Functional expression of the IL-2Ralpha on mononuclear phagocytes in M. tuberculosis infection may <clueType>play</clueType> an important immunomodulatory <clueType>role</clueType> <linkTheme>in</linkTheme> the host response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E26">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T53" />
+<theme idref="T54" />
+<clue>Functional expression of the IL-2Ralpha on mononuclear phagocytes in M. tuberculosis <clueType>infection</clueType> may play an important immunomodulatory role in the host response.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

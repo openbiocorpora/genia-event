@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7884865"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7884865</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="LMP-1">LMP-1</term> activates <term sem="Protein_molecule" id="T2" lex="NF-kappa_B">NF-kappa B</term> by targeting the <term sem="Protein_molecule" id="T3" lex="inhibitory_molecule_I_kappa_B_alpha">inhibitory molecule <term sem="Protein_molecule" id="T4" lex="I_kappa_B_alpha">I kappa B alpha</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<cause idref="E2" />
+<clue>LMP-1 <clueType>activates</clueType> NF-kappa B <linkCause>by</linkCause> targeting the inhibitory molecule I kappa B alpha.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="T4" />
+<cause idref="T1" />
+<clue>LMP-1 activates NF-kappa B by <clueType>targeting</clueType> the inhibitory molecule I kappa B alpha.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T5" lex="LMP-1">LMP-1</term>, an <term sem="Protein_family_or_group" id="T6" lex="Epstein-Barr_virus_membrane_protein"><term sem="Virus" id="T7" lex="Epstein-Barr_virus">Epstein-Barr virus</term> membrane protein</term> expressed during <term sem="Other" id="T8" lex="latent_infection">latent infection</term>, has <term sem="Other" id="T9" lex="oncogenic_property">oncogenic properties</term>, as judged from its ability to transform <term sem="Cell_natural" id="A1">B lymphocytes</term> and <term sem="Cell_natural" id="T11" lex="rodent_fibroblast">rodent fibroblasts</term>.</sentence>
+<event id="E3">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T7" />
+<clue>LMP-1, an Epstein-Barr virus membrane protein expressed during latent <clueType>infection</clueType>, has oncogenic properties, as judged from its ability to transform B lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>LMP-1, an Epstein-Barr virus membrane protein <clueType>expressed</clueType> <clueTime>during latent infection</clueTime>, has oncogenic properties, as judged from its ability to transform B lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event id="E5">
+<type />
+<cause idref="T5" />
+<clue>LMP-1, an Epstein-Barr virus membrane protein expressed during latent infection, <clueType>has oncogenic properties</clueType>, as judged from its ability to transform B lymphocytes and rodent fibroblasts.</clue>
+<comment>SOO</comment></event>
+<event id="E6">
+<type class="Biological_process" />
+<theme idref="A1" />
+<clue>LMP-1, an Epstein-Barr virus membrane protein expressed during latent infection, has oncogenic properties, as judged from its ability to <clueType>transform</clueType> B lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event id="E106">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T5" />
+<clue>LMP-1, an Epstein-Barr virus membrane protein expressed during latent infection, has oncogenic properties, as judged from <corefCause>its</corefCause> <clueType>ability</clueType> <linkTheme>to</linkTheme> transform B lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event id="E7">
+<type class="Biological_process" />
+<theme idref="T11" />
+<clue>LMP-1, an Epstein-Barr virus membrane protein expressed during latent infection, has oncogenic properties, as judged from its ability to <clueType>transform</clueType> B lymphocytes and rodent fibroblasts.</clue>
+</event>
+<event id="E107">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T5" />
+<clue>LMP-1, an Epstein-Barr virus membrane protein expressed during latent infection, has oncogenic properties, as judged from <corefCause>its</corefCause> <clueType>ability</clueType> <linkTheme>to</linkTheme> transform B lymphocytes and rodent fibroblasts.</clue>
+</event>
+<sentence id="S3"><term sem="Protein_molecule" id="T12" lex="LMP-1">LMP-1</term> induces the expression of <term sem="DNA_domain_or_region" id="T13" lex="bcl2">bcl2</term>, an <term sem="DNA_family_or_group" id="T14" lex="oncogene">oncogene</term> which protects <term sem="Cell_natural" id="A2">cells</term> from <term sem="Other" id="T15" lex="apoptosis">apoptosis</term>, as well as of <term sem="DNA_family_or_group" id="A3">genes encoding other <term sem="Protein_family_or_group" id="A5">proteins involved in <term sem="Other" id="T16" lex="cell_regulation"><term sem="Cell_natural" id="A4">cell</term> regulation</term> and <term sem="Other" id="T17" lex="growth_control">growth control</term></term></term>.</sentence>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>LMP-1 induces the <clueType>expression</clueType> <linkTheme>of</linkTheme> bcl2, an oncogene which protects cells from apoptosis, as well as of genes encoding other proteins involved in cell regulation and growth control.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T12" />
+<clue>LMP-1 <clueType>induces</clueType> the expression of bcl2, an oncogene which protects cells from apoptosis, as well as of genes encoding other proteins involved in cell regulation and growth control.</clue>
+</event>
+<event id="E10">
+<type class="Cellular_physiological_process" />
+<theme idref="A2" />
+<clue>LMP-1 induces the expression of bcl2, an oncogene which protects cells <linkTheme>from</linkTheme> <clueType>apoptosis</clueType>, as well as of genes encoding other proteins involved in cell regulation and growth control.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="E10" />
+<cause idref="T13" />
+<clue>LMP-1 induces the expression of bcl2, an oncogene which <clueType>protects</clueType> cells from apoptosis, as well as of genes encoding other proteins involved in cell regulation and growth control.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="A4" />
+<clue>LMP-1 induces the expression of bcl2, an oncogene which protects cells from apoptosis, as well as of genes encoding other proteins involved in cell <clueType>regulation</clueType> and growth control.</clue>
+</event>
+<event id="E13">
+<type class="Cellular_physiological_process" />
+<theme idref="A4" />
+<clue>LMP-1 induces the expression of bcl2, an oncogene which protects cells from apoptosis, as well as of genes encoding other proteins involved in cell regulation and <clueType>growth</clueType> control.</clue>
+</event>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="E13" />
+<clue>LMP-1 induces the expression of bcl2, an oncogene which protects cells from apoptosis, as well as of genes encoding other proteins involved in cell regulation and growth <clueType>control</clueType>.</clue>
+</event>
+<event id="E15">
+<type class="Correlation" />
+<theme idref="E12" />
+<theme idref="A3" />
+<clue>LMP-1 induces the expression of bcl2, an oncogene which protects cells from apoptosis, as well as of genes encoding other proteins <clueType>involved</clueType> <linkTheme>in</linkTheme> cell regulation and growth control.</clue>
+<comment>TPS: A3</comment></event>
+<event id="E16">
+<type class="Correlation" />
+<theme idref="E14" />
+<theme idref="A3" />
+<clue>LMP-1 induces the expression of bcl2, an oncogene which protects cells from apoptosis, as well as of genes encoding other proteins <clueType>involved</clueType> <linkTheme>in</linkTheme> cell regulation and growth control.</clue>
+</event>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="A3" />
+<clue>LMP-1 induces the <clueType>expression</clueType> of bcl2, an oncogene which protects cells from apoptosis, as well as <linkTheme>of</linkTheme> genes encoding other proteins involved in cell regulation and growth control.</clue>
+<comment>TPS: A4</comment></event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T12" />
+<clue>LMP-1 <clueType>induces</clueType> the expression of bcl2, an oncogene which protects cells from apoptosis, as well as of genes encoding other proteins involved in cell regulation and growth control.</clue>
+</event>
+<sentence id="S4">The mechanisms by which <term sem="Protein_molecule" id="T18" lex="LMP-1">LMP-1</term> upregulates these proteins is unknown, but it is plausible that <term sem="Protein_molecule" id="T19" lex="LMP-1">LMP-1</term> modifies <term sem="Other" id="T20" lex="signal_transduction_pathway">signal transduction pathways</term> that result in the activation of one or more <term sem="Protein_family_or_group" id="T21" lex="transcription_factor">transcription factors</term> that ultimately regulate transcription of <term sem="DNA_family_or_group" id="T22" lex="oncogenic_gene">oncogenic genes</term>.</sentence>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<cause idref="T18" />
+<clue>The mechanisms by which LMP-1 <clueType>upregulates</clueType> <corefTheme>these proteins</corefTheme> is unknown, but it is plausible that LMP-1 modifies signal transduction pathways that result in the activation of one or more transcription factors that ultimately regulate transcription of oncogenic genes.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="T18" />
+<clue>The mechanisms by which LMP-1 <clueType>upregulates</clueType> <corefTheme>these proteins</corefTheme> is unknown, but it is plausible that LMP-1 modifies signal transduction pathways that result in the activation of one or more transcription factors that ultimately regulate transcription of oncogenic genes.</clue>
+<comment>TPS: A5</comment></event>
+<event id="E23">
+<type class="Regulation" />
+<theme idref="T20" />
+<cause idref="T19" />
+<clue>The mechanisms by which LMP-1 upregulates these proteins is unknown, but it is plausible that LMP-1 <clueType>modifies</clueType> signal transduction pathways that result in the activation of one or more transcription factors that ultimately regulate transcription of oncogenic genes.</clue>
+</event>
+<event uncertainty="probable" id="E24">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<cause idref="E23" />
+<clue>The mechanisms by which LMP-1 upregulates these proteins is unknown, but it is plausible that LMP-1 modifies signal transduction pathways that <linkCause>result in</linkCause> the <clueType>activation</clueType> <linkTheme>of</linkTheme> one or more transcription factors that ultimately regulate transcription of oncogenic genes.</clue>
+</event>
+<event id="E25">
+<type class="Transcription" />
+<theme idref="T22" />
+<clue>The mechanisms by which LMP-1 upregulates these proteins is unknown, but it is plausible that LMP-1 modifies signal transduction pathways that result in the activation of one or more transcription factors that ultimately regulate <clueType>transcription</clueType> <linkTheme>of</linkTheme> oncogenic genes.</clue>
+</event>
+<event uncertainty="probable" id="E26">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="E24" />
+<clue>The mechanisms by which LMP-1 upregulates these proteins is unknown, but it is plausible that LMP-1 modifies signal transduction pathways that result in the activation of one or more transcription factors that ultimately <clueType>regulate</clueType> transcription of oncogenic genes.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T23" lex="NF-kappa_B">NF-kappa B</term>, a <term sem="Protein_family_or_group" id="T24" lex="transcription_factor">transcription factor</term> controlling the expression of <term sem="DNA_family_or_group" id="A100"><term sem="DNA_family_or_group" id="T25" lex="gene">genes</term> involved in <term sem="Cell_natural" id="A6">cell</term> activation and <term sem="Other" id="T26" lex="growth_control">growth control</term></term>, has been shown to be activated by <term sem="Protein_molecule" id="T27" lex="LMP-1">LMP-1</term>.</sentence>
+<event id="E27">
+<type class="Physiological_process" />
+<theme idref="A6" />
+<clue>NF-kappa B, a transcription factor controlling the expression of genes involved in cell <clueType>activation</clueType> and growth control, has been shown to be activated by LMP-1.</clue>
+</event>
+<event id="E28">
+<type class="Cellular_physiological_process" />
+<theme idref="A6" />
+<clue>NF-kappa B, a transcription factor controlling the expression of genes involved in cell activation and <clueType>growth</clueType> control, has been shown to be activated by LMP-1.</clue>
+</event>
+<event id="E29">
+<type class="Regulation" />
+<theme idref="E28" />
+<clue>NF-kappa B, a transcription factor controlling the expression of genes involved in cell activation and growth <clueType>control</clueType>, has been shown to be activated by LMP-1.</clue>
+</event>
+<event id="E32">
+<type class="Gene_expression" />
+<theme idref="A100" />
+<clue>NF-kappa B, a transcription factor controlling the <clueType>expression</clueType> <linkTheme>of</linkTheme> genes involved in cell activation and growth control, has been shown to be activated by LMP-1.</clue>
+<comment>TPS: A100</comment></event>
+<event id="E34">
+<type class="Regulation" />
+<theme idref="E32" />
+<cause idref="T23" />
+<clue>NF-kappa B, a transcription factor <clueType>controlling</clueType> the expression of genes involved in cell activation and growth control, has been shown to be activated by LMP-1.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="T27" />
+<clue>NF-kappa B, a transcription factor controlling the expression of genes involved in cell activation and growth control, has been shown to be <clueType>activated</clueType> <linkCause>by</linkCause> LMP-1.</clue>
+</event>
+<sentence id="S6">The <term sem="Other" id="A7">mechanism(s)</term> regulating this activation remains unknown.</sentence>
+<event id="E37">
+<type class="Regulation" />
+<theme idref="E36" />
+<cause idref="A7" />
+<clue>The mechanism(s) <clueType>regulating</clueType> <corefTheme>this activation</corefTheme> remains unknown.</clue>
+</event>
+<sentence id="S7">Our data indicate that increased <term sem="Other" id="T28" lex="NF-kappa_B_DNA_binding"><term sem="Protein_molecule" id="T29" lex="NF-kappa_B">NF-kappa B</term> <term sem="DNA_domain_or_region" id="A8">DNA</term> binding</term> and <term sem="Other" id="A9">functional activity</term> are present in <term sem="Cell_natural" id="T30" lex="B-lymphoid_cell">B-lymphoid cells</term> stably or transiently expressing <term sem="Protein_molecule" id="T31" lex="LMP-1">LMP-1</term>.</sentence>
+<event id="E38">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="A8" />
+<clue>Our data indicate that increased NF-kappa B DNA <clueType>binding</clueType> and functional activity are present in B-lymphoid cells stably or transiently expressing LMP-1.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="E40" />
+<clue>Our data indicate that <clueType>increased</clueType> NF-kappa B DNA binding and functional activity are <linkCause>present in</linkCause> B-lymphoid cells stably or transiently expressing LMP-1.</clue>
+</event>
+<event id="E40">
+<type class="Gene_expression" />
+<theme idref="T31" />
+<clue>Our data indicate that increased NF-kappa B DNA binding and functional activity are present in <clueLoc>B-lymphoid cells</clueLoc> stably or transiently <clueType>expressing</clueType> LMP-1.</clue>
+</event>
+<event id="E41">
+<type class="Positive_regulation" />
+<theme idref1="A9" idref="T29" />
+<cause idref="E40" />
+<clue>Our data indicate that <clueType>increased</clueType> NF-kappa B DNA binding and functional activity are <linkCause>present in</linkCause> B-lymphoid cells stably or transiently expressing LMP-1.</clue>
+</event>
+<sentence id="S8"><term sem="Protein_molecule" id="T32" lex="I_kappa_B_alpha">I kappa B alpha</term> is selectively modified in <term sem="Cell_cultured" id="T33" lex="LMP-1-expressing_B_cell"><term sem="Protein_molecule" id="T34" lex="LMP-1">LMP-1</term>-expressing <term sem="Cell_natural" id="T35" lex="B_cell">B cells</term></term>.</sentence>
+<event id="E42">
+<type class="Gene_expression" />
+<theme idref="T34" />
+<clue>I kappa B alpha is selectively modified in LMP-1-<clueType>expressing</clueType> <clueLoc>B cells</clueLoc>.</clue>
+</event>
+<event id="E43">
+<type class="Protein_modification" />
+<theme idref="T32" />
+<clue>I kappa B alpha is selectively <clueType>modified</clueType> <clueLoc>in LMP-1-expressing B cells</clueLoc>.</clue>
+</event>
+<sentence id="S9">A phosphorylated form of <term sem="Protein_molecule" id="T36" lex="I_kappa_B_alpha">I kappa B alpha</term> and increased <term sem="Other" id="T37" lex="protein_turnover-degradation"><term sem="Protein_molecule" id="A10">protein</term> turnover-degradation</term> correlate with increased <term sem="Other" id="T38" lex="NF-kappa_B_nuclear_translocation"><term sem="Protein_molecule" id="T39" lex="NF-kappa_B">NF-kappa B</term> nuclear translocation</term>.</sentence>
+<event id="E44">
+<type class="Localization" />
+<theme idref="T39" />
+<clue>A phosphorylated form of I kappa B alpha and increased protein turnover-degradation correlate with increased NF-kappa B <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType>.</clue>
+</event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<clue>A phosphorylated form of I kappa B alpha and increased protein turnover-degradation correlate with <clueType>increased</clueType> NF-kappa B nuclear translocation.</clue>
+</event>
+<event id="E46">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T36" />
+<clue>A <clueType>phosphorylated form</clueType> <linkTheme>of</linkTheme> I kappa B alpha and increased protein turnover-degradation correlate with increased NF-kappa B nuclear translocation.</clue>
+</event>
+<event id="E47">
+<type class="Protein_catabolism" />
+<theme idref="A10" />
+<clue>A phosphorylated form of I kappa B alpha and increased protein <clueType>turnover-degradation</clueType> correlate with increased NF-kappa B nuclear translocation.</clue>
+</event>
+<event id="E48">
+<type class="Correlation" />
+<theme idref="E46" />
+<theme idref="E45" />
+<clue>A phosphorylated form of I kappa B alpha and increased protein turnover-degradation <clueType>correlate</clueType> <linkTheme>with</linkTheme> increased NF-kappa B nuclear translocation.</clue>
+</event>
+<event id="E49">
+<type class="Correlation" />
+<theme idref="E47" />
+<theme idref="E45" />
+<clue>A phosphorylated form of I kappa B alpha and increased protein turnover-degradation <clueType>correlate</clueType> <linkTheme>with</linkTheme> increased NF-kappa B nuclear translocation.</clue>
+</event>
+<sentence id="S10">This results in increased transcription of <term sem="DNA_family_or_group" id="T40" lex="NF-kappa_B-dependent-gene"><term sem="Protein_molecule" id="T41" lex="NF-kappa_B">NF-kappa B</term>-dependent-genes</term>, including those encoding <term sem="Protein_molecule" id="T42" lex="p105">p105</term> and <term sem="Protein_molecule" id="T43" lex="I_kappa_B_alpha">I kappa B alpha</term> (<term sem="DNA_domain_or_region" id="T44" lex="MAD3">MAD3</term>).</sentence>
+<event id="E50">
+<type class="Transcription" />
+<theme idref="T40" />
+<clue>This results in increased <clueType>transcription</clueType> <linkTheme>of</linkTheme> NF-kappa B-dependent-genes, including those encoding p105 and I kappa B alpha (MAD3).</clue>
+</event>
+<event id="E51">
+<type class="Transcription" />
+<theme idref="T42" />
+<clue>This results in increased <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>NF-kappa B-dependent-genes</corefTheme>, including those encoding p105 and I kappa B alpha (MAD3).</clue>
+</event>
+<event id="E52">
+<type class="Transcription" />
+<theme idref="T44" />
+<clue>This results in increased <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>NF-kappa B-dependent-genes</corefTheme>, including those encoding p105 and I kappa B alpha (MAD3).</clue>
+</event>
+<event id="E53">
+<type class="Positive_regulation" />
+<theme idref="E50" />
+<cause idref="E44" />
+<clue><corefCause>This</corefCause> <linkCause>results in</linkCause> <clueType>increased</clueType> transcription of NF-kappa B-dependent-genes, including those encoding p105 and I kappa B alpha (MAD3).</clue>
+</event>
+<event id="E54">
+<type class="Positive_regulation" />
+<theme idref="E51" />
+<cause idref="E44" />
+<clue><corefCause>This</corefCause> <linkCause>results in</linkCause> <clueType>increased</clueType> transcription of NF-kappa B-dependent-genes, including those encoding p105 and I kappa B alpha (MAD3).</clue>
+</event>
+<event id="E55">
+<type class="Positive_regulation" />
+<theme idref="E52" />
+<cause idref="E44" />
+<clue><corefCause>This</corefCause> <linkCause>results in</linkCause> <clueType>increased</clueType> transcription of NF-kappa B-dependent-genes, including those encoding p105 and I kappa B alpha (MAD3).</clue>
+</event>
+<sentence id="S11">These results indicate that <term sem="Protein_molecule" id="T45" lex="LMP-1">LMP-1</term> activates <term sem="Protein_molecule" id="T46" lex="NF-kappa_B">NF-kappa B</term> in <term sem="Cell_cultured" id="T47" lex="B-cell_line">B-cell lines</term> by targeting <term sem="Protein_molecule" id="T48" lex="I_kappa_B_alpha">I kappa B alpha</term>.</sentence>
+<event id="E56">
+<type class="Regulation" />
+<theme idref="T48" />
+<cause idref="T45" />
+<clue>These results indicate that LMP-1 activates NF-kappa B in B-cell lines by <clueType>targeting</clueType> I kappa B alpha.</clue>
+</event>
+<event id="E57">
+<type class="Positive_regulation" />
+<theme idref="T46" />
+<cause idref="E56" />
+<clue>These results indicate that LMP-1 <clueType>activates</clueType> NF-kappa B <clueLoc>in B-cell lines</clueLoc> <linkCause>by</linkCause> targeting I kappa B alpha.</clue>
+</event>
+<sentence id="S12">Identification of <term sem="Other" id="A11">the pathways</term> activated by <term sem="Protein_molecule" id="T49" lex="LMP-1">LMP-1</term> to result in <term sem="Other" id="T50" lex="posttranslational_modification">posttranslational modifications</term> of <term sem="Protein_molecule" id="T51" lex="I_kappa_B_alpha">I kappa B alpha</term> will aid in determining the role of this <term sem="Other" id="T52" lex="virus-host_cell_protein_interaction"><term sem="Protein_family_or_group" id="A12">virus</term>-<term sem="Protein_family_or_group" id="A14">host</term> <term sem="Protein_family_or_group" id="A13">cell protein</term> interaction</term> in <term sem="Other" id="T53" lex="Epstein-Barr_virus-mediated_oncogenesis"><term sem="Virus" id="T54" lex="Epstein-Barr_virus">Epstein-Barr virus</term>-mediated oncogenesis</term>.</sentence>
+<event id="E58">
+<type class="Protein_modification" />
+<theme idref="T51" />
+<clue>Identification of the pathways activated by LMP-1 to result in <clueTime>posttranslational</clueTime> <clueType>modifications</clueType> <linkTheme>of</linkTheme> I kappa B alpha will aid in determining the role of this virus-host cell protein interaction in Epstein-Barr virus-mediated oncogenesis.</clue>
+</event>
+<event id="E59">
+<type class="Positive_regulation" />
+<theme idref="A11" />
+<cause idref="T49" />
+<clue>Identification of the pathways <clueType>activated</clueType> <linkCause>by</linkCause> LMP-1 to result in posttranslational modifications of I kappa B alpha will aid in determining the role of this virus-host cell protein interaction in Epstein-Barr virus-mediated oncogenesis.</clue>
+</event>
+<event id="E61">
+<type class="Positive_regulation" />
+<theme idref="E58" />
+<cause idref="E59" />
+<clue>Identification of the pathways activated by LMP-1 to <clueType>result</clueType> <linkTheme>in</linkTheme> posttranslational modifications of I kappa B alpha will aid in determining the role of this virus-host cell protein interaction in Epstein-Barr virus-mediated oncogenesis.</clue>
+</event>
+<event id="E60">
+<type class="Binding" />
+<theme idref1="A13" idref="A12" />
+<theme idref1="A13" idref="A14" />
+<clue>Identification of the pathways activated by LMP-1 to result in posttranslational modifications of I kappa B alpha will aid in determining the role of this virus-host cell protein <clueType>interaction</clueType> <clueTime>in Epstein-Barr virus-mediated oncogenesis</clueTime>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

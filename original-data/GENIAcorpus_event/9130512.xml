@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/02/24" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9130512" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9130512</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="retinoic_acid-induced_modulation"><term sem="Organic_compound_other" id="T2" lex="retinoic_acid">Retinoic acid</term>-induced modulation</term> of <term sem="Other" id="T3" lex="IL-2_mRNA_production"><term sem="RNA_molecule" id="T4" lex="IL-2_mRNA"><term sem="Protein_molecule" id="T5" lex="IL-2">IL-2</term> mRNA</term> production</term> and <term sem="Other" id="T6" lex="IL-2_receptor_expression"><term sem="Protein_family_or_group" id="A1"><term sem="Protein_molecule" id="T7" lex="IL-2">IL-2</term> receptor</term> expression</term> on <term sem="Cell_natural" id="T8" lex="T_cell">T cells</term>.</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T4" />
+<clue>Retinoic acid-induced modulation of IL-2 mRNA <clueType>production</clueType> and IL-2 receptor expression <clueLoc>on T cells</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Retinoic acid-induced modulation of IL-2 mRNA production and IL-2 receptor <clueType>expression</clueType> <clueLoc>on T cells</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T2" />
+<clue>Retinoic acid-<linkCause>induced</linkCause> <clueType>modulation</clueType> <linkTheme>of</linkTheme> IL-2 mRNA production and IL-2 receptor expression <clueLoc>on T cells</clueLoc>.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T2" />
+<clue>Retinoic acid-<linkCause>induced</linkCause> <clueType>modulation</clueType> <linkTheme>of</linkTheme> IL-2 mRNA production and IL-2 receptor expression <clueLoc>on T cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">BACKGROUND: <term sem="Organic_compound_other" id="T9" lex="retinoic_acid">Retinoic acid</term> (<term sem="Organic_compound_other" id="T10" lex="RA">RA</term>) has important <term sem="Other" id="T11" lex="immune-modulating_effects">immune-modulating effects</term> on both <cons sem="(AND Other Other)" id="T12" lex="(AND T_cell_function B_cell_function)"><frag id="F1">T</frag> and <frag id="F2">B</frag> <frag id="F3">cell <term sem="Other" id="A2">function</term></frag></cons>.</sentence>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="A2" />
+<cause idref="T10" />
+<clue>BACKGROUND: Retinoic acid (RA) has important <clueType>immune-modulating effects</clueType> <linkTheme>on</linkTheme> both <clueLoc>T</clueLoc> and B <clueLoc>cell</clueLoc> function.</clue>
+</event>
+<event id="E500">
+<type class="Regulation" />
+<theme idref="A2" />
+<cause idref="T10" />
+<clue>BACKGROUND: Retinoic acid (RA) has important <clueType>immune-modulating effects</clueType> <linkTheme>on</linkTheme> both T and <clueLoc>B cell</clueLoc> function.</clue>
+</event>
+<sentence id="S3">Our laboratory has shown that <term sem="Organic_compound_other" id="T13" lex="RA">RA</term> can enhance <term sem="Other" id="T14" lex="in_vitro_polyclonal_B_cell_immunoglobulin_(Ig)_response">in vitro polyclonal B cell <term sem="Protein_family_or_group" id="T15" lex="immunoglobulin">immunoglobulin</term> (<term sem="Protein_family_or_group" id="A3">Ig</term>) response</term>.</sentence>
+<event id="E6">
+<type class="Regulation" />
+<cause idref="A3" />
+<clue>Our laboratory has shown that RA can enhance in vitro <clueLoc>polyclonal B cell</clueLoc> immunoglobulin (Ig) <clueType>response</clueType>.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T13" />
+<clue>Our laboratory has shown that RA can <clueType>enhance</clueType> in vitro <clueLoc>polyclonal B cell</clueLoc> immunoglobulin (Ig) response.</clue>
+</event>
+<sentence id="S4">Investigating <term sem="Protein_family_or_group" id="T16" lex="cytokine">cytokines</term> known to affect <term sem="Other" id="T17" lex="B_cell_differentiation"><term sem="Cell_natural" id="A4">B cell</term> differentiation</term>, we have recently shown that <term sem="Other" id="T18" lex="IL-6_production"><term sem="Protein_molecule" id="T19" lex="IL-6">IL-6</term> production</term> is augmented by <term sem="Organic_compound_other" id="T20" lex="RA">RA</term>.</sentence>
+<event id="E8">
+<type class="Cell_differentiation" />
+<theme idref="A4" />
+<clue>Investigating cytokines known to affect B cell <clueType>differentiation</clueType>, we have recently shown that IL-6 production is augmented by RA.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="T16" />
+<clue>Investigating cytokines known to <clueType>affect</clueType> B cell differentiation, we have recently shown that IL-6 production is augmented by RA.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>Investigating cytokines known to affect B cell differentiation, we have recently shown that IL-6 <clueType>production</clueType> is augmented by RA.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T20" />
+<clue>Investigating cytokines known to affect B cell differentiation, we have recently shown that IL-6 production is <clueType>augmented</clueType> <linkCause>by</linkCause> RA.</clue>
+</event>
+<sentence id="S5">In the present study we have examined the immune modulating effects of <term sem="Organic_compound_other" id="T21" lex="RA">RA</term> on <term sem="RNA_molecule" id="T22" lex="IL-2_mRNA"><term sem="Protein_molecule" id="T23" lex="IL-2">IL-2</term> mRNA</term>, another important <term sem="Protein_family_or_group" id="T24" lex="cytokine">cytokine</term> for <term sem="Other" id="T25" lex="B_cell_immunoglobulin_production">B cell <term sem="Protein_family_or_group" id="T26" lex="immunoglobulin">immunoglobulin</term> production</term>, the expression of <term sem="Protein_family_or_group" id="T27" lex="IL-2_receptor"><term sem="Protein_molecule" id="T28" lex="IL-2">IL-2</term> receptors</term> on <term sem="Cell_natural" id="T29" lex="T_cell">T cells</term>, and the <term sem="Protein_family_or_group" id="T30" lex="RA_nuclear_receptor"><term sem="Organic_compound_other" id="T31" lex="RA">RA</term> nuclear receptors</term>.</sentence>
+<event uncertainty="doubtful" id="E46">
+<type class="Regulation" />
+<theme idref="T30" />
+<cause idref="T21" />
+<clue>In the present study we have examined the <clueType>immune modulating effects</clueType> <linkCause>of</linkCause> RA <linkTheme>on</linkTheme> IL-2 mRNA, another important cytokine for B cell immunoglobulin production, the expression of IL-2 receptors on T cells, and the RA nuclear receptors.</clue>
+</event>
+<event uncertainty="doubtful" id="E12">
+<type class="Regulation" />
+<theme idref="E13" />
+<cause idref="T21" />
+<clue>In the present study we have examined the <clueType>immune modulating effects</clueType> <linkCause>of</linkCause> RA <linkTheme>on</linkTheme> IL-2 mRNA, another important cytokine for B cell immunoglobulin production, the expression of IL-2 receptors on T cells, and the RA nuclear receptors.</clue>
+</event>
+<event uncertainty="doubtful" id="E13">
+<type class="Transcription" />
+<theme idref="T23" />
+<clue>In the present study we have examined the immune modulating effects of RA on IL-2 <clueType>mRNA</clueType>, another important cytokine for B cell immunoglobulin production, the expression of IL-2 receptors on T cells, and the RA nuclear receptors.</clue>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>In the present study we have examined the immune modulating effects of RA on IL-2 mRNA, another important cytokine for <clueLoc>B cell</clueLoc> immunoglobulin <clueType>production</clueType>, the expression of IL-2 receptors on T cells, and the RA nuclear receptors.</clue>
+</event>
+<event uncertainty="doubtful" id="E15">
+<type class="Regulation" />
+<theme idref="E14" />
+<cause idref="T24" />
+<clue>In the present study we have examined the immune modulating effects of RA on IL-2 mRNA, another <clueType>important</clueType> cytokine <linkTheme>for</linkTheme> <clueLoc>B cell</clueLoc> immunoglobulin production, the expression of IL-2 receptors on T cells, and the RA nuclear receptors.</clue>
+</event>
+<event uncertainty="doubtful" id="E16">
+<type class="Gene_expression" />
+<theme idref="T27" />
+<clue>In the present study we have examined the immune modulating effects of RA on IL-2 mRNA, another important cytokine for B cell immunoglobulin production, the <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-2 receptors <clueLoc>on T cells</clueLoc>, and the RA nuclear receptors.</clue>
+</event>
+<event uncertainty="doubtful" id="E44">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="T21" />
+<clue>In the present study we have examined the <clueType>immune modulating effects</clueType> <linkCause>of</linkCause> RA <linkTheme>on</linkTheme> IL-2 mRNA, another important cytokine for B cell immunoglobulin production, the expression of IL-2 receptors on T cells, and the RA nuclear receptors.</clue>
+</event>
+<event uncertainty="doubtful" id="E45">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="T21" />
+<clue>In the present study we have examined the <clueType>immune modulating effects</clueType> <linkCause>of</linkCause> RA <linkTheme>on</linkTheme> IL-2 mRNA, another important cytokine for B cell immunoglobulin production, the expression of IL-2 receptors on T cells, and the RA nuclear receptors.</clue>
+</event>
+<sentence id="S6">METHODS: Purified <term sem="Cell_natural" id="T32" lex="T_cell">T cells</term> were obtained from <term sem="Tissue_natural" id="T33" lex="adenoidal_tissue">adenoidal tissues</term>, and incubated with <term sem="Organic_compound_other" id="T34" lex="RA">RA</term> (10(-7) M) or <term sem="Organic_compound_other" id="T35" lex="DMSO">DMSO</term> solvent/media control for 0, 6-8, and 24 h.</sentence>
+<event assertion="non-exist" id="E38">
+<type class="Artificial_process" />
+<theme idref="T32" />
+<theme idref="T34" />
+<clue>METHODS: Purified T cells were obtained from adenoidal tissues, and <clueType>incubated</clueType> <linkTheme>with</linkTheme> RA (10(-7) M) or DMSO solvent/media control for <clueTime>0</clueTime>, 6-8, and 24 <clueTime>h</clueTime>.</clue>
+</event>
+<event id="E39">
+<type class="Artificial_process" />
+<theme idref="T32" />
+<theme idref="T34" />
+<clue>METHODS: Purified T cells were obtained from adenoidal tissues, and <clueType>incubated</clueType> <linkTheme>with</linkTheme> RA (10(-7) M) or DMSO solvent/media control for 0, <clueTime>6-8</clueTime>, and 24 <clueTime>h</clueTime>.</clue>
+</event>
+<event id="E40">
+<type class="Artificial_process" />
+<theme idref="T32" />
+<theme idref="T34" />
+<clue>METHODS: Purified T cells were obtained from adenoidal tissues, and <clueType>incubated</clueType> <linkTheme>with</linkTheme> RA (10(-7) M) or DMSO solvent/media control for 0, 6-8, and <clueTime>24 h</clueTime>.</clue>
+</event>
+<event assertion="non-exist" id="E41">
+<type class="Artificial_process" />
+<theme idref="T32" />
+<theme idref="T35" />
+<clue>METHODS: Purified T cells were obtained from adenoidal tissues, and <clueType>incubated</clueType> <linkTheme>with</linkTheme> RA (10(-7) M) or DMSO solvent/media control for <clueTime>0</clueTime>, 6-8, and 24 <clueTime>h</clueTime>.</clue>
+</event>
+<event id="E42">
+<type class="Artificial_process" />
+<theme idref="T32" />
+<theme idref="T35" />
+<clue>METHODS: Purified T cells were obtained from adenoidal tissues, and <clueType>incubated</clueType> <linkTheme>with</linkTheme> RA (10(-7) M) or DMSO solvent/media control for 0, <clueTime>6-8</clueTime>, and 24 <clueTime>h</clueTime>.</clue>
+</event>
+<event id="E43">
+<type class="Artificial_process" />
+<theme idref="T32" />
+<theme idref="T35" />
+<clue>METHODS: Purified T cells were obtained from adenoidal tissues, and <clueType>incubated</clueType> <linkTheme>with</linkTheme> RA (10(-7) M) or DMSO solvent/media control for 0, 6-8, and <clueTime>24 h</clueTime>.</clue>
+</event>
+<sentence id="S7">Total <term sem="RNA_family_or_group" id="T36" lex="mRNA">mRNA</term> was extracted from <term sem="Cell_natural" id="T37" lex="T_cell">T cells</term>, and using <term sem="Other" id="T38" lex="RT-PCR">RT-PCR</term>, changes in the production of <term sem="Protein_molecule" id="T39" lex="IL-2"><term sem="RNA_molecule" id="A5">IL-2</term></term> and <term sem="Protein_family_or_group" id="T40" lex="RA_receptor">RA <term sem="RNA_molecule" id="A6">receptors</term></term> (<term sem="Protein_family_or_group" id="T41" lex="RAR"><term sem="RNA_molecule" id="A7">RAR</term></term>)-<term sem="RNA_molecule" id="T42" lex="RAR_alpha_mRNA">alpha</term>,<term sem="RNA_molecule" id="T43" lex="RAR_beta_mRNA">beta</term>,<term sem="RNA_molecule" id="T44" lex="RAR_gamma_mRNA">gamma <term sem="RNA_molecule" id="A8">mRNA</term></term> were determined.</sentence>
+<event id="E17">
+<type class="Transcription" />
+<theme idref1="A6" idref2="T42" idref3="A8" idref="A5" />
+<clue>Total mRNA was extracted <clueLoc>from T cells</clueLoc>, and <clueExperiment>using RT-PCR</clueExperiment>, changes in the <clueType>production</clueType> <linkTheme>of</linkTheme> IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.</clue>
+</event>
+<event id="E18">
+<type class="Transcription" />
+<theme idref1="A6" idref2="T43" idref3="A8" idref="A5" />
+<clue>Total mRNA was extracted <clueLoc>from T cells</clueLoc>, and <clueExperiment>using RT-PCR</clueExperiment>, changes in the <clueType>production</clueType> <linkTheme>of</linkTheme> IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.</clue>
+</event>
+<event id="E19">
+<type class="Transcription" />
+<theme idref1="A6" idref2="T44" idref="A5" />
+<clue>Total mRNA was extracted <clueLoc>from T cells</clueLoc>, and <clueExperiment>using RT-PCR</clueExperiment>, changes in the <clueType>production</clueType> <linkTheme>of</linkTheme> IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.</clue>
+</event>
+<event id="E20">
+<type class="Transcription" />
+<theme idref1="T42" idref2="A8" idref="A7" />
+<clue>Total mRNA was extracted <clueLoc>from T cells</clueLoc>, and <clueExperiment>using RT-PCR</clueExperiment>, changes in the <clueType>production</clueType> <linkTheme>of</linkTheme> IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.</clue>
+</event>
+<event id="E21">
+<type class="Transcription" />
+<theme idref1="T43" idref2="A8" idref="A7" />
+<clue>Total mRNA was extracted <clueLoc>from T cells</clueLoc>, and <clueExperiment>using RT-PCR</clueExperiment>, changes in the <clueType>production</clueType> <linkTheme>of</linkTheme> IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.</clue>
+</event>
+<event id="E22">
+<type class="Transcription" />
+<theme idref1="T44" idref="A7" />
+<clue>Total mRNA was extracted <clueLoc>from T cells</clueLoc>, and <clueExperiment>using RT-PCR</clueExperiment>, changes in the <clueType>production</clueType> <linkTheme>of</linkTheme> IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.</clue>
+</event>
+<event uncertainty="doubtful" id="E23">
+<type class="Regulation" />
+<theme idref="E17" />
+<clue>Total mRNA was extracted <clueLoc>from T cells</clueLoc>, and <clueExperiment>using RT-PCR</clueExperiment>, <clueType>changes</clueType> <linkTheme>in</linkTheme> the production of IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.</clue>
+</event>
+<event uncertainty="doubtful" id="E24">
+<type class="Regulation" />
+<theme idref="E18" />
+<clue>Total mRNA was extracted <clueLoc>from T cells</clueLoc>, and <clueExperiment>using RT-PCR</clueExperiment>, <clueType>changes</clueType> <linkTheme>in</linkTheme> the production of IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.</clue>
+</event>
+<event uncertainty="doubtful" id="E25">
+<type class="Regulation" />
+<theme idref="E19" />
+<clue>Total mRNA was extracted <clueLoc>from T cells</clueLoc>, and <clueExperiment>using RT-PCR</clueExperiment>, <clueType>changes</clueType> <linkTheme>in</linkTheme> the production of IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.</clue>
+</event>
+<event uncertainty="doubtful" id="E26">
+<type class="Regulation" />
+<theme idref="E20" />
+<clue>Total mRNA was extracted <clueLoc>from T cells</clueLoc>, and <clueExperiment>using RT-PCR</clueExperiment>, <clueType>changes</clueType> <linkTheme>in</linkTheme> the production of IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.</clue>
+</event>
+<event uncertainty="doubtful" id="E27">
+<type class="Regulation" />
+<theme idref="E21" />
+<clue>Total mRNA was extracted <clueLoc>from T cells</clueLoc>, and <clueExperiment>using RT-PCR</clueExperiment>, <clueType>changes</clueType> <linkTheme>in</linkTheme> the production of IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.</clue>
+</event>
+<event uncertainty="doubtful" id="E28">
+<type class="Regulation" />
+<theme idref="E22" />
+<clue>Total mRNA was extracted <clueLoc>from T cells</clueLoc>, and <clueExperiment>using RT-PCR</clueExperiment>, <clueType>changes</clueType> <linkTheme>in</linkTheme> the production of IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.</clue>
+</event>
+<sentence id="S8">The effects of <term sem="Organic_compound_other" id="T45" lex="RA">RA</term> on <term sem="Protein_family_or_group" id="A10">IL-2-alpha receptor</term> expression was determined by flow cytometry on <term sem="Cell_natural" id="T46" lex="T_cell">T cells</term>.</sentence>
+<event id="E29">
+<type class="Gene_expression" />
+<theme idref="A10" />
+<clue>The effects of RA on IL-2-alpha receptor <clueType>expression</clueType> was determined by flow cytometry on T cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E30">
+<type class="Regulation" />
+<theme idref="E29" />
+<cause idref="T45" />
+<clue>The <clueType>effects</clueType> <linkCause>of</linkCause> RA <linkTheme>on</linkTheme> IL-2-alpha receptor expression was determined <clueExperiment>by flow cytometry</clueExperiment> <clueLoc>on T cells</clueLoc>.</clue>
+</event>
+<sentence id="S9">CONCLUSION: These studies suggest that <term sem="Organic_compound_other" id="T47" lex="RA">RA</term> can augment <term sem="RNA_molecule" id="T48" lex="IL-2_mRNA"><term sem="Protein_molecule" id="T49" lex="IL-2">IL-2</term> mRNA</term> production by <term sem="Cell_natural" id="T50" lex="T_cell">T cells</term> with a possible <term sem="Other" id="T51" lex="paracrine_effect">paracrine effect</term> on <term sem="Other" id="T52" lex="IL-2R-alpha_expression"><term sem="Protein_molecule" id="T53" lex="IL-2R-alpha">IL-2R-alpha</term> expression</term>.</sentence>
+<event uncertainty="probable" id="E31">
+<type class="Transcription" />
+<theme idref="T48" />
+<clue>CONCLUSION: These studies suggest that RA can augment IL-2 mRNA <clueType>production</clueType> <clueLoc>by T cells</clueLoc> with a possible paracrine effect on IL-2R-alpha expression.</clue>
+</event>
+<event uncertainty="probable" id="E32">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<cause idref="T47" />
+<clue>CONCLUSION: These studies suggest that RA can <clueType>augment</clueType> IL-2 mRNA production <clueLoc>by T cells</clueLoc> with a possible paracrine effect on IL-2R-alpha expression.</clue>
+</event>
+<event uncertainty="probable" id="E33">
+<type class="Gene_expression" />
+<theme idref="T53" />
+<clue>CONCLUSION: These studies suggest that RA can augment IL-2 mRNA production by T cells with a possible paracrine effect on IL-2R-alpha <clueType>expression</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E34">
+<type class="Localization" />
+<theme idref="T47" />
+<clue>CONCLUSION: These studies suggest that RA can augment IL-2 mRNA production by T cells with a possible <clueType>paracrine</clueType> effect on IL-2R-alpha expression.</clue>
+</event>
+<event uncertainty="probable" id="E35">
+<type class="Regulation" />
+<theme idref="E33" />
+<cause idref="E34" />
+<clue>CONCLUSION: These studies suggest that RA can augment IL-2 mRNA production by T cells with a possible paracrine <clueType>effect</clueType> <linkTheme>on</linkTheme> IL-2R-alpha expression.</clue>
+</event>
+<sentence id="S10">These changes appear to be mediated by <term sem="Protein_molecule" id="T54" lex="RAR-alpha">RAR-alpha</term>.</sentence>
+<event uncertainty="probable" id="E36">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<cause idref="T54" />
+<clue><corefTheme>These changes</corefTheme> appear to be <clueType>mediated</clueType> <linkCause>by</linkCause> RAR-alpha.</clue>
+</event>
+<sentence id="S11">Thus, <term sem="Protein_molecule" id="T55" lex="IL-2">IL-2</term> may be another important <term sem="Protein_family_or_group" id="T56" lex="cytokine">cytokine</term> modulated by <term sem="Organic_compound_other" id="T57" lex="RA">RA</term> in the <term sem="Other" id="T58" lex="immune_response">immune response</term>.</sentence>
+<event uncertainty="probable" id="E37">
+<type class="Regulation" />
+<theme idref="T55" />
+<cause idref="T57" />
+<clue>Thus, IL-2 may be another important cytokine <clueType>modulated</clueType> <linkCause>by</linkCause> RA <clueTime>in the immune response</clueTime>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

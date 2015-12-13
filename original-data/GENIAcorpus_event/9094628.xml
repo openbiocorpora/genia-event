@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="22/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9094628" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9094628</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Physical interactions between <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T1" lex="(AND Ets_protein NF-kappaB/NFAT_protein)"><frag id="F1">Ets</frag> and <frag id="F2">NF-kappaB/NFAT</frag> <frag id="F3">proteins</frag></cons> play an important role in their cooperative activation of the <term sem="DNA_domain_or_region" id="T2" lex="human_immunodeficiency_virus_enhancer">human immunodeficiency virus enhancer</term> in <term sem="Cell_natural" id="T3" lex="T_cell">T cells</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref1="F3" idref="F1" />
+<theme idref1="F3" idref="F2" />
+<clue><clueType>Physical interactions</clueType> <linkTheme>between</linkTheme> Ets and NF-kappaB/NFAT proteins play an important role in their cooperative activation of the human immunodeficiency virus enhancer in T cells.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<cause idref1="F3" idref="F1" />
+<cause idref1="F3" idref="F2" />
+<clue>Physical interactions between Ets and NF-kappaB/NFAT proteins play an important role in <corefCause>their</corefCause> <clueType>cooperative activation</clueType> <linkTheme>of</linkTheme> the human immunodeficiency virus enhancer <clueLoc>in T cells.</clueLoc></clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="E1" />
+<clue>Physical interactions between Ets and NF-kappaB/NFAT proteins <clueType>play</clueType> an <clueType>important role</clueType> in their cooperative activation of the human immunodeficiency virus enhancer in T cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="DNA_domain_or_region" id="T4" lex="transcriptional_regulatory_element">transcriptional regulatory elements</term> of many <term sem="DNA_family_or_group" id="T5" lex="inducible_T-cell_gene">inducible T-cell genes</term> contain adjacent or <term sem="DNA_domain_or_region" id="T6" lex="overlapping_binding_site">overlapping binding sites</term> for the <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T7" lex="(AND Ets_family NF-kappaB/NFAT_family)"><frag id="F4">Ets</frag> and <frag id="F5">NF-kappaB/NFAT</frag> <frag id="F6">families</frag></cons> of <term sem="Protein_family_or_group" id="T8" lex="transcription_factor">transcription factors</term>.</sentence>
+<sentence id="S3">Similar arrays of functionally important <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T9" lex="(AND NF-kappaB/NFAT_binding_site Ets_binding_site)"><frag id="F7">NF-kappaB/NFAT</frag> and <frag id="F8">Ets</frag> <frag id="F9">binding sites</frag></cons> are present in the <term sem="DNA_domain_or_region" id="T10" lex="transcriptional_enhancer">transcriptional enhancers</term> of <cons sem="(AND Virus Virus)" id="T11" lex="(AND human_immunodeficiency_virus_type_1 human_immunodeficiency_virus_type_2)"><frag id="F10">human immunodeficiency viruses types</frag> <frag id="F11">1</frag> and <frag id="F12">2</frag></cons> (<term sem="Virus" id="T12" lex="HIV-1">HIV-1</term> and <term sem="Virus" id="T13" lex="HIV-2">HIV-2</term>), suggesting that this <term sem="Other" id="A4">pattern of <term sem="DNA_domain_or_region" id="T14" lex="nuclear_protein_binding_site">nuclear protein binding sites</term></term> reflects an evolutionarily conserved mechanism for regulating inducible <term sem="Other" id="T15" lex="T-cell_gene_expression">T-cell gene expression</term> that has been co-opted during <term sem="Other" id="T16" lex="HIV_evolution">HIV evolution</term>.</sentence>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="T15" />
+<cause idref="A4" />
+<clue>Similar arrays of functionally important NF-kappaB/NFAT and Ets binding sites are present in the transcriptional enhancers of human immunodeficiency viruses types 1 and 2 (HIV-1 and HIV-2), suggesting that this pattern of nuclear protein binding sites reflects an evolutionarily conserved mechanism for <clueType>regulating</clueType> inducible T-cell gene expression that has been co-opted during HIV evolution.</clue>
+<comment>TPS: A4</comment>
+</event>
+<sentence id="S4">Despite these findings, the <term sem="Other" id="T17" lex="molecular_mechanism">molecular mechanisms</term> by which <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T18" lex="(AND Ets_protein NF-kappaB/NFAT_protein)"><frag id="F13">Ets</frag> and <frag id="F14">NF-kappaB/NFAT</frag> <frag id="F15">proteins</frag></cons> cooperatively regulate inducible <term sem="Other" id="T19" lex="T-cell_gene_expression">T-cell gene expression</term> remained unknown.</sentence>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="T19" />
+<cause idref1="F15" idref="F13" />
+<cause idref1="F15" idref="F14" />
+<clue>Despite these findings, the molecular mechanisms by which Ets and NF-kappaB/NFAT proteins <clueType>cooperatively regulate</clueType> inducible T-cell gene expression remained unknown.</clue>
+</event>
+<sentence id="S5">In the studies described in this report, we demonstrated a physical interaction between multiple <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T20" lex="(AND Ets_protein NF-kappaB/NFAT_protein)"><frag id="F16">Ets</frag> and <frag id="F17">NF-kappaB/NFAT</frag> <frag id="F18">proteins</frag></cons> both in vitro and in <term sem="Cell_natural" id="T21" lex="activated_normal_human_T_cell">activated normal human <term sem="Cell_natural" id="T22" lex="T_cell">T cells</term></term>.</sentence>
+<event id="E10">
+<type class="Binding" />
+<theme idref1="F18" idref="F16" />
+<theme idref1="F18" idref="F17" />
+<clue>In the studies described in this report, we demonstrated a <clueType>physical interaction</clueType> <linkTheme>between</linkTheme> multiple Ets and NF-kappaB/NFAT proteins both in vitro and <clueLoc>in activated normal human T cells.</clueLoc></clue>
+</event>
+<event id="E12">
+<type class="Physiological_process" />
+<theme idref="T22" />
+<clue>In the studies described in this report, we demonstrated a physical interaction between multiple Ets and NF-kappaB/NFAT proteins both in vitro and in <clueType>activated</clueType> normal human T cells.</clue>
+</event>
+<sentence id="S6">This interaction is mediated by the <term sem="Protein_domain_or_region" id="T23" lex="Ets_domain">Ets domain</term> of <term sem="Protein_family_or_group" id="T24" lex="Ets_protein">Ets proteins</term> and the C-terminal region of the <term sem="Protein_domain_or_region" id="A10">Rel homology domains</term> of <term sem="Protein_family_or_group" id="T25" lex="NF-kappaB/NFAT_protein">NF-kappaB/NFAT proteins</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T23" />
+<clue><corefTheme>This interaction</corefTheme> is <clueType>mediated</clueType> <linkCause>by</linkCause> the Ets domain of Ets proteins and the C-terminal region of the Rel homology domains of NF-kappaB/NFAT proteins.</clue>
+<comment>NER T23 MOD</comment>
+</event>
+<event id="E51">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="A10" />
+<clue><corefTheme>This interaction</corefTheme> is <clueType>mediated</clueType> <linkCause>by</linkCause> the Ets domain of Ets proteins and the C-terminal region of the Rel homology domains of NF-kappaB/NFAT proteins.</clue>
+</event>
+<sentence id="S7">In addition, the <term sem="Other" id="T26" lex="Ets-NF-kappaB/NFAT_interaction"><term sem="Protein_molecule" id="T27" lex="Ets">Ets</term>-<term sem="Protein_complex" id="A11"><term sem="Protein_complex" id="T28" lex="NF-kappaB">NF-kappaB</term>/<term sem="Protein_family_or_group" id="T29" lex="NFAT">NFAT</term></term> interaction</term> requires the presence of <term sem="Protein_domain_or_region" id="T30" lex="DNA_binding_site">DNA binding sites</term> for both proteins, as it is abolished by the <term sem="Organic_compound_other" id="T31" lex="DNA_intercalating_agent">DNA intercalating agents</term> <term sem="Organic_compound_other" id="T32" lex="propidium_iodide">propidium iodide</term> and <term sem="Organic_compound_other" id="T33" lex="ethidium_bromide">ethidium bromide</term> and enhanced by the presence of <term sem="Polynucleotide" id="A12"><term sem="Polynucleotide" id="T34" lex="synthetic_oligonucleotides">synthetic oligonucleotides</term> containing <term sem="DNA_domain_or_region" id="T35" lex="binding_site">binding sites</term> for</term> <term sem="Protein_family_or_group" id="T36" lex="Ets">Ets</term> and <term sem="Protein_family_or_group" id="T37" lex="NF-kappaB_protein">NF-kappaB proteins</term>.</sentence>
+<event id="E14">
+<type class="Binding" />
+<theme idref="A11" />
+<theme idref="T27" />
+<clue>In addition, the Ets-NF-kappaB/NFAT <clueType>interaction</clueType> requires the presence of DNA binding sites for both proteins, as it is abolished by the DNA intercalating agents propidium iodide and ethidium bromide and enhanced by the presence of synthetic oligonucleotides containing binding sites for Ets and NF-kappaB proteins.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T30" />
+<clue>In addition, the Ets-NF-kappaB/NFAT interaction <clueType>requires</clueType> the presence of DNA binding sites for both proteins, as it is abolished by the DNA intercalating agents propidium iodide and ethidium bromide and enhanced by the presence of synthetic oligonucleotides containing binding sites for Ets and NF-kappaB proteins.</clue>
+<comment>NER: T30 MOD</comment>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T32" />
+<clue>In addition, the Ets-NF-kappaB/NFAT interaction requires the presence of DNA binding sites for both proteins, as it is <clueType>abolished</clueType> <linkCause>by</linkCause> the <corefCause>DNA intercalating agents</corefCause> propidium iodide and ethidium bromide and enhanced by the presence of synthetic oligonucleotides containing binding sites for Ets and NF-kappaB proteins.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T33" />
+<clue>In addition, the Ets-NF-kappaB/NFAT interaction requires the presence of DNA binding sites for both proteins, as it is <clueType>abolished</clueType> <linkCause>by</linkCause> the <corefCause>DNA intercalating agents</corefCause> propidium iodide and ethidium bromide and enhanced by the presence of synthetic oligonucleotides containing binding sites for Ets and NF-kappaB proteins.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref1="T36" idref="A12" />
+<clue>In addition, the Ets-NF-kappaB/NFAT interaction requires the presence of DNA binding sites for both proteins, as it is abolished by the DNA intercalating agents propidium iodide and ethidium bromide and <clueType>enhanced</clueType> <linkCause>by</linkCause> the presence of synthetic oligonucleotides containing binding sites for Ets and NF-kappaB proteins.</clue>
+<comment>TPS: A12</comment>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref1="T37" idref="A12" />
+<clue>In addition, the Ets-NF-kappaB/NFAT interaction requires the presence of DNA binding sites for both proteins, as it is abolished by the DNA intercalating agents propidium iodide and ethidium bromide and <clueType>enhanced</clueType> <linkCause>by</linkCause> the presence of synthetic oligonucleotides containing binding sites for Ets and NF-kappaB proteins.</clue>
+<comment>TPS: A12</comment>
+</event>
+<sentence id="S8">A <term sem="Protein_molecule" id="A13">dominant-negative mutant</term> of <term sem="Protein_molecule" id="T38" lex="NF-kappaB_p50">NF-kappaB p50</term> that binds <term sem="DNA_molecule" id="A14">DNA</term> but fails to interact with <term sem="Protein_family_or_group" id="T39" lex="Ets_protein">Ets proteins</term> inhibits the <term sem="Other" id="T40" lex="synergistic_activation">synergistic activation</term> of the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T41" lex="(AND HIV-1_enhancer HIV-2_enhancer)"><frag id="F19">HIV-1</frag> and <frag id="F20">HIV-2</frag> <frag id="F21">enhancers</frag></cons> by <term sem="Protein_complex" id="T42" lex="NF-kappaB">NF-kappaB</term> (<term sem="Protein_molecule" id="T43" lex="p50">p50</term> + <term sem="Protein_molecule" id="T44" lex="p65">p65</term>) and <term sem="Protein_molecule" id="T45" lex="Ets-1">Ets-1</term>, suggesting that physical interaction between <term sem="Protein_family_or_group" id="T46" lex="Ets">Ets</term> and <term sem="Protein_family_or_group" id="T47" lex="NF-kappaB_protein"><term sem="Protein_complex" id="T48" lex="NF-kappaB">NF-kappaB</term> proteins</term> is required for the <term sem="Other" id="T49" lex="transcriptional_activity">transcriptional activity</term> of the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T50" lex="(AND HIV-1_enhancer HIV-2_enhancer)"><frag id="F22">HIV-1</frag> and <frag id="F23">HIV-2</frag> <frag id="F24">enhancers</frag></cons>.</sentence>
+<event id="E20">
+<type class="Binding" />
+<theme idref="A14" />
+<theme idref1="T38" idref="A13" />
+<clue>A dominant-negative mutant of NF-kappaB p50 that <clueType>binds</clueType> DNA but fails to interact with Ets proteins inhibits the synergistic activation of the HIV-1 and HIV-2 enhancers by NF-kappaB (p50 + p65) and Ets-1, suggesting that physical interaction between Ets and NF-kappaB proteins is required for the transcriptional activity of the HIV-1 and HIV-2 enhancers.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Binding" />
+<theme idref="T39" />
+<theme idref1="T38" idref="A13" />
+<clue>A dominant-negative mutant of NF-kappaB p50 that binds DNA but <clueType>fails to interact</clueType> <linkTheme>with</linkTheme> Ets proteins inhibits the synergistic activation of the HIV-1 and HIV-2 enhancers by NF-kappaB (p50 + p65) and Ets-1, suggesting that physical interaction between Ets and NF-kappaB proteins is required for the transcriptional activity of the HIV-1 and HIV-2 enhancers.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref1="F21" idref="F19" />
+<cause idref="T43" />
+<cause idref="T44" />
+<cause idref="T45" />
+<clue>A dominant-negative mutant of NF-kappaB p50 that binds DNA but fails to interact with Ets proteins inhibits the <clueType>synergistic activation</clueType> <linkTheme>of</linkTheme> the HIV-1 and HIV-2 enhancers <linkCause>by</linkCause> NF-kappaB (p50 + p65) and Ets-1, suggesting that physical interaction between Ets and NF-kappaB proteins is required for the transcriptional activity of the HIV-1 and HIV-2 enhancers.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref1="F21" idref="F20" />
+<cause idref="T43" />
+<cause idref="T44" />
+<cause idref="T45" />
+<clue>A dominant-negative mutant of NF-kappaB p50 that binds DNA but fails to interact with Ets proteins inhibits the <clueType>synergistic activation</clueType> <linkTheme>of</linkTheme> the HIV-1 and HIV-2 enhancers <linkCause>by</linkCause> NF-kappaB (p50 + p65) and Ets-1, suggesting that physical interaction between Ets and NF-kappaB proteins is required for the transcriptional activity of the HIV-1 and HIV-2 enhancers.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<cause idref="A13" />
+<clue>A dominant-negative mutant of NF-kappaB p50 that binds DNA but fails to interact with Ets proteins <clueType>inhibits</clueType> the synergistic activation of the HIV-1 and HIV-2 enhancers by NF-kappaB (p50 + p65) and Ets-1, suggesting that physical interaction between Ets and NF-kappaB proteins is required for the transcriptional activity of the HIV-1 and HIV-2 enhancers.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="A13" />
+<clue>A dominant-negative mutant of NF-kappaB p50 that binds DNA but fails to interact with Ets proteins <clueType>inhibits</clueType> the synergistic activation of the HIV-1 and HIV-2 enhancers by NF-kappaB (p50 + p65) and Ets-1, suggesting that physical interaction between Ets and NF-kappaB proteins is required for the transcriptional activity of the HIV-1 and HIV-2 enhancers.</clue>
+</event>
+<event id="E26">
+<type class="Binding" />
+<theme idref="T46" />
+<theme idref="T48" />
+<clue>A dominant-negative mutant of NF-kappaB p50 that binds DNA but fails to interact with Ets proteins inhibits the synergistic activation of the HIV-1 and HIV-2 enhancers by NF-kappaB (p50 + p65) and Ets-1, suggesting that <clueType>physical interaction</clueType> <linkTheme>between</linkTheme> Ets and NF-kappaB proteins is required for the transcriptional activity of the HIV-1 and HIV-2 enhancers.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T49" />
+<cause idref1="F24" idref="F22" />
+<clue>A dominant-negative mutant of NF-kappaB p50 that binds DNA but fails to interact with Ets proteins inhibits the synergistic activation of the HIV-1 and HIV-2 enhancers by NF-kappaB (p50 + p65) and Ets-1, suggesting that physical interaction between Ets and NF-kappaB proteins is required for the transcriptional activity <linkCause>of</linkCause> the HIV-1 and HIV-2 enhancers.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T49" />
+<cause idref1="F24" idref="F23" />
+<clue>A dominant-negative mutant of NF-kappaB p50 that binds DNA but fails to interact with Ets proteins inhibits the synergistic activation of the HIV-1 and HIV-2 enhancers by NF-kappaB (p50 + p65) and Ets-1, suggesting that physical interaction between Ets and NF-kappaB proteins is required for the transcriptional activity <linkCause>of</linkCause> the HIV-1 and HIV-2 enhancers.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="E26" />
+<clue>A dominant-negative mutant of NF-kappaB p50 that binds DNA but fails to interact with Ets proteins inhibits the synergistic activation of the HIV-1 and HIV-2 enhancers by NF-kappaB (p50 + p65) and Ets-1, suggesting that physical interaction between Ets and NF-kappaB proteins is <clueType>required</clueType> <linkTheme>for</linkTheme> the transcriptional activity of the HIV-1 and HIV-2 enhancers.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E26" />
+<clue>A dominant-negative mutant of NF-kappaB p50 that binds DNA but fails to interact with Ets proteins inhibits the synergistic activation of the HIV-1 and HIV-2 enhancers by NF-kappaB (p50 + p65) and Ets-1, suggesting that physical interaction between Ets and NF-kappaB proteins is <clueType>required</clueType> <linkTheme>for</linkTheme> the transcriptional activity of the HIV-1 and HIV-2 enhancers.</clue>
+</event>
+<sentence id="S9">Taken together, these findings suggest that evolutionarily conserved physical interactions between <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T51" lex="(AND Ets_protein NF-kappaB/NFAT_protein)"><frag id="F25">Ets</frag> and <frag id="F26">NF-kappaB/NFAT</frag> <frag id="F27">proteins</frag></cons> are important in regulating the inducible expression of <term sem="DNA_family_or_group" id="T52" lex="T-cell_gene">T-cell genes</term> and <term sem="DNA_domain_or_region" id="A23">viruses</term>.</sentence>
+<event id="E31">
+<type class="Binding" />
+<theme idref1="F27" idref="F25" />
+<theme idref1="F27" idref="F26" />
+<clue>Taken together, these findings suggest that evolutionarily conserved <clueType>physical interactions</clueType> <linkTheme>between</linkTheme> Ets and NF-kappaB/NFAT proteins are important in regulating the inducible expression of T-cell genes and viruses.</clue>
+</event>
+<event id="E32">
+<type class="Gene_expression" />
+<theme idref="T52" />
+<clue>Taken together, these findings suggest that evolutionarily conserved physical interactions between Ets and NF-kappaB/NFAT proteins are important in regulating the inducible <clueType>expression</clueType> <linkTheme>of</linkTheme> T-cell genes and viruses.</clue>
+</event>
+<event id="E33">
+<type class="Gene_expression" />
+<theme idref="A23" />
+<clue>Taken together, these findings suggest that evolutionarily conserved physical interactions between Ets and NF-kappaB/NFAT proteins are important in regulating the inducible <clueType>expression</clueType> <linkTheme>of</linkTheme> T-cell genes and viruses.</clue>
+</event>
+<event uncertainty="probable" id="E34">
+<type class="Regulation" />
+<theme idref="E32" />
+<cause idref="E31" />
+<clue>Taken together, these findings suggest that evolutionarily conserved physical interactions between Ets and NF-kappaB/NFAT proteins are important in <clueType>regulating</clueType> the inducible expression of T-cell genes and viruses.</clue>
+</event>
+<event uncertainty="probable" id="E35">
+<type class="Regulation" />
+<theme idref="E33" />
+<cause idref="E31" />
+<clue>Taken together, these findings suggest that evolutionarily conserved physical interactions between Ets and NF-kappaB/NFAT proteins are important in <clueType>regulating</clueType> the inducible expression of T-cell genes and viruses.</clue>
+</event>
+<sentence id="S10">These interactions represent a potential target for the development of novel <cons sem="(AND Other Other)" id="T53" lex="(AND immunosuppressive_therapy antiviral_therapy)"><frag id="F28">immunosuppressive</frag> and <frag id="F29">antiviral</frag> <frag id="F30">therapies</frag></cons>.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

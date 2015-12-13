@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="19/03/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9237716"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9237716</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Induction of <term sem="Other" id="T1" lex="human_immunodeficiency_virus_type_1_expression"><term sem="DNA_domain_or_region" id="A20"><term sem="Virus" id="T2" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term></term> expression</term> in <term sem="Cell_natural" id="T3" lex="monocytic_cell">monocytic cells</term> by <term sem="Unicellular_organism" id="T4" lex="Cryptococcus_neoformans">Cryptococcus neoformans</term> and <term sem="Unicellular_organism" id="T5" lex="Candida_albicans">Candida albicans</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T4" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus type 1 expression <clueLoc>in monocytic cells</clueLoc> <linkCause>by</linkCause> Cryptococcus neoformans and Candida albicans.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T5" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus type 1 expression <clueLoc>in monocytic cells</clueLoc> <linkCause>by</linkCause> Cryptococcus neoformans and Candida albicans.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="Gene_expression" />
+<theme idref="A20" />
+<clue>Induction of human immunodeficiency virus type 1 <clueType>expression</clueType> in monocytic cells by Cryptococcus neoformans and Candida albicans.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Because <term sem="Unicellular_organism" id="T6" lex="candidiasis">candidiasis</term> and <term sem="Unicellular_organism" id="T7" lex="cryptococcosis">cryptococcosis</term> are common in <term sem="Multicellular_organism_natural" id="T8" lex="human_immunodeficiency_virus_(HIV)-infected_person"><term sem="Virus" id="T9" lex="human_immunodeficiency_virus">human immunodeficiency virus</term> (<term sem="Virus" id="T10" lex="HIV">HIV</term>)-infected persons</term>, the effect of <term sem="Unicellular_organism" id="T11" lex="Cryptococcus_neoformans">Cryptococcus neoformans</term> and <term sem="Unicellular_organism" id="T12" lex="Candida_albicans">Candida albicans</term> on <term sem="Other" id="T13" lex="HIV_expression"><term sem="DNA_domain_or_region" id="A1">HIV</term> expression</term> in <term sem="Cell_natural" id="T14" lex="monocytic_cell">monocytic cells</term> was examined.</sentence>
+<event assertion="exist" uncertainty="certain" id="E4">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Because candidiasis and cryptococcosis are common in human immunodeficiency virus (HIV)-infected persons, the effect of Cryptococcus neoformans and Candida albicans on HIV <clueType>expression</clueType> <clueLoc>in monocytic cells</clueLoc> was examined.</clue>
+</event>
+<event assertion="exist" uncertainty="doubtful" id="E5">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="T11" />
+<clue>Because candidiasis and cryptococcosis are common in human immunodeficiency virus (HIV)-infected persons, the <clueType>effect</clueType> <linkCause>of</linkCause> Cryptococcus neoformans and Candida albicans <linkTheme>on</linkTheme> HIV expression in monocytic cells was examined.</clue>
+</event>
+<event assertion="exist" uncertainty="doubtful" id="E6">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="T12" />
+<clue>Because candidiasis and cryptococcosis are common in human immunodeficiency virus (HIV)-infected persons, the <clueType>effect</clueType> <linkCause>of</linkCause> Cryptococcus neoformans and Candida albicans <linkTheme>on</linkTheme> HIV expression in monocytic cells was examined.</clue>
+</event>
+<sentence id="S3">Stimulation of the latently <term sem="Cell_cultured" id="T15" lex="HIV-infected_myelomonocytic_cell_line"><term sem="Virus" id="A2">HIV</term>-infected myelomonocytic cell line</term> <term sem="Cell_cultured" id="A3">OM-10.1</term> with <term sem="Unicellular_organism" id="T16" lex="C._neoformans">C. neoformans</term> and <term sem="Unicellular_organism" id="T17" lex="C._albicans">C. albicans</term> in the presence of pooled human serum caused a ratio-dependent increase in <term sem="Other" id="T18" lex="HIV_production"><term sem="Virus" id="T19" lex="HIV">HIV</term> production</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E7">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A3" />
+<theme idref="A2" />
+<clue>Stimulation of the latently HIV-<clueType>infected</clueType> myelomonocytic cell line OM-10.1 with C. neoformans and C. albicans in the presence of pooled human serum caused a ratio-dependent increase in HIV production.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E8">
+<type class="Physiological_process" />
+<theme idref="E7" />
+<cause idref="T16" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> the latently HIV-infected myelomonocytic cell line OM-10.1 <linkCause>with</linkCause> C. neoformans and C. albicans in the presence of pooled human serum caused a ratio-dependent increase in HIV production.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E9">
+<type class="Physiological_process" />
+<theme idref="E7" />
+<cause idref="T17" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> the latently HIV-infected myelomonocytic cell line OM-10.1 <linkCause>with</linkCause> C. neoformans and C. albicans in the presence of pooled human serum caused a ratio-dependent increase in HIV production.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E10">
+<type class="Viral_life_cycle" />
+<theme idref="T19" />
+<clue>Stimulation of the latently HIV-infected myelomonocytic cell line OM-10.1 with C. neoformans and C. albicans in the presence of pooled human serum caused a ratio-dependent increase in HIV <clueType>production</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="E8" />
+<clue>Stimulation of the latently HIV-infected myelomonocytic cell line OM-10.1 with C. neoformans and C. albicans in the presence of pooled human serum caused a ratio-dependent <clueType>increase</clueType> <linkTheme>in</linkTheme> HIV production.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="E9" />
+<clue>Stimulation of the latently HIV-infected myelomonocytic cell line OM-10.1 with C. neoformans and C. albicans in the presence of pooled human serum caused a ratio-dependent <clueType>increase</clueType> <linkTheme>in</linkTheme> HIV production.</clue>
+</event>
+<sentence id="S4">Induction of <term sem="Virus" id="T20" lex="HIV">HIV</term> by <term sem="Unicellular_organism" id="T21" lex="C._neoformans">C. neoformans</term> was enhanced by <term sem="Protein_family_or_group" id="T22" lex="anti-capsular_antibody">anti-capsular antibody</term>, while induction by both organisms was inhibited by <term sem="Protein_family_or_group" id="T23" lex="anti-TNF-alpha_antibody">anti-TNF-alpha antibody</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Viral_life_cycle" />
+<theme idref="T20" />
+<cause idref="T21" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> HIV <linkCause>by</linkCause> C. neoformans was enhanced by anti-capsular antibody, while induction by both organisms was inhibited by anti-TNF-alpha antibody.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T22" />
+<clue>Induction of HIV by C. neoformans was <clueType>enhanced</clueType> <linkCause>by</linkCause> anti-capsular antibody, while induction by both organisms was inhibited by anti-TNF-alpha antibody.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E15">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<cause idref="T21" />
+<clue>Induction of HIV by C. neoformans was enhanced by anti-capsular antibody, while <clueType>induction</clueType> <linkCause>by</linkCause> <corefCause>both organisms</corefCause> was inhibited by anti-TNF-alpha antibody.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E16">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<cause idref="T17" />
+<clue>Induction of HIV by C. neoformans was enhanced by anti-capsular antibody, while <clueType>induction</clueType> <linkCause>by</linkCause> <corefCause>both organisms</corefCause> was inhibited by anti-TNF-alpha antibody.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E17">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T23" />
+<clue>Induction of HIV by C. neoformans was enhanced by anti-capsular antibody, while induction by both organisms was <clueType>inhibited</clueType> <linkCause>by</linkCause> anti-TNF-alpha antibody.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E18">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T23" />
+<clue>Induction of HIV by C. neoformans was enhanced by anti-capsular antibody, while induction by both organisms was <clueType>inhibited</clueType> <linkCause>by</linkCause> anti-TNF-alpha antibody.</clue>
+</event>
+<sentence id="S5">In <term sem="Cell_cultured" id="A4">THP-1 cells</term> transfected with <term sem="DNA_family_or_group" id="T24" lex="HIV_plasmid_construct"><term sem="Virus" id="T25" lex="HIV">HIV</term> plasmid constructs</term>, both organisms induced transcription from the <term sem="DNA_domain_or_region" id="T26" lex="HIV_long_terminal_repeat"><term sem="Virus" id="T27" lex="HIV">HIV</term> long terminal repeat</term> that was dependent on intact <term sem="DNA_domain_or_region" id="T28" lex="NF-kappaB_binding_sequences"><term sem="Protein_complex" id="T29" lex="NF-kappaB">NF-kappaB</term> binding sequences</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E19">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue><clueLoc>In THP-1 cells</clueLoc> <clueType>transfected</clueType> <linkTheme>with</linkTheme> HIV plasmid constructs, both organisms induced transcription from the HIV long terminal repeat that was dependent on intact NF-kappaB binding sequences.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event assertion="exist" uncertainty="certain" id="E35">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<clue><clueLoc>In THP-1 cells</clueLoc> <clueType>transfected</clueType> with HIV plasmid constructs, both organisms induced transcription from the HIV long terminal repeat that was dependent on intact NF-kappaB binding sequences.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E20">
+<type class="Transcription" />
+<theme idref="T26" />
+<clue>In THP-1 cells transfected with HIV plasmid constructs, both organisms induced <clueType>transcription</clueType> <linkTheme>from</linkTheme> the HIV long terminal repeat that was dependent on intact NF-kappaB binding sequences.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T21" />
+<clue><clueLoc>In THP-1 cells transfected with HIV plasmid constructs</clueLoc>, <corefCause>both organisms</corefCause> <clueType>induced</clueType> transcription from the HIV long terminal repeat that was dependent on intact NF-kappaB binding sequences.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T17" />
+<clue><clueLoc>In THP-1 cells transfected with HIV plasmid constructs</clueLoc>, <corefCause>both organisms</corefCause> <clueType>induced</clueType> transcription from the HIV long terminal repeat that was dependent on intact NF-kappaB binding sequences.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E34">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="T23" />
+<clue>In THP-1 cells transfected with HIV plasmid constructs, both organisms induced transcription from the HIV long terminal repeat that was <clueType>dependent</clueType> <linkCause>on</linkCause> intact NF-kappaB binding sequences.</clue>
+</event>
+<sentence id="S6">Thus, <term sem="Unicellular_organism" id="T30" lex="C._neoformans">C. neoformans</term> and <term sem="Unicellular_organism" id="T31" lex="C._albicans">C. albicans</term> enhance <term sem="Other" id="T32" lex="HIV_expression"><term sem="DNA_domain_or_region" id="A40"><term sem="Virus" id="T33" lex="HIV">HIV</term></term> expression</term> in <term sem="Cell_natural" id="T34" lex="monocytic_cell">monocytic cells</term> through a <cons sem="(AND Other Other)" id="T35" lex="(AND TNF-alpha-dependent_mechanism NF-kappaB-dependent_mechanism)"><frag id="F1"><term sem="Protein_molecule" id="A6">TNF-alpha</term>-</frag> and <frag id="F2"><term sem="Protein_molecule" id="A7">NF-kappaB</term>-</frag><frag id="F3">dependent mechanism</frag></cons>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E23">
+<type class="Gene_expression" />
+<theme idref="A40" />
+<clue>Thus, C. neoformans and C. albicans enhance HIV <clueType>expression</clueType> <clueLoc>in monocytic cells</clueLoc> through a TNF-alpha- and NF-kappaB-dependent mechanism.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T30" />
+<clue>Thus, C. neoformans and C. albicans <clueType>enhance</clueType> HIV expression in monocytic cells <linkCause>through</linkCause> a TNF-alpha- and NF-kappaB-dependent mechanism.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E25">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T31" />
+<clue>Thus, C. neoformans and C. albicans <clueType>enhance</clueType> HIV expression in monocytic cells <linkCause>through</linkCause> a TNF-alpha- and NF-kappaB-dependent mechanism.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E30">
+<type class="Regulation" />
+<theme idref="E24" />
+<cause idref="A6" />
+<clue>Thus, C. neoformans and C. albicans enhance HIV expression in monocytic cells through a TNF-alpha- and NF-kappaB-<clueType>dependent</clueType> mechanism.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E31">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="A6" />
+<clue>Thus, C. neoformans and C. albicans enhance HIV expression in monocytic cells through a TNF-alpha- and NF-kappaB-<clueType>dependent</clueType> mechanism.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E32">
+<type class="Regulation" />
+<theme idref="E24" />
+<cause idref="A7" />
+<clue>Thus, C. neoformans and C. albicans enhance HIV expression in monocytic cells through a TNF-alpha- and NF-kappaB-<clueType>dependent</clueType> mechanism.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E33">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="A7" />
+<clue>Thus, C. neoformans and C. albicans enhance HIV expression in monocytic cells through a TNF-alpha- and NF-kappaB-<clueType>dependent</clueType> mechanism.</clue>
+</event>
+<sentence id="S7">In <term sem="Multicellular_organism_natural" id="T36" lex="HIV-infected_patient"><term sem="Virus" id="T37" lex="HIV">HIV</term>-infected patients</term>, such enhancement may further <term sem="Other" id="T38" lex="impair_host_immunity">impair host <term sem="Other" id="A5">immunity</term></term> and could accelerate the course of <term sem="Other" id="T39" lex="HIV_disease"><term sem="Virus" id="T40" lex="HIV">HIV</term> disease</term>.</sentence>
+<event assertion="exist" uncertainty="probable" id="E26">
+<type class="Negative_regulation" />
+<theme idref="A5" />
+<cause idref="E24" />
+<clue><clueLoc>In HIV-infected patients</clueLoc>, <corefCause>such enhancement</corefCause> may further <clueType>impair</clueType> host immunity and could accelerate the course of HIV disease.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E27">
+<type class="Negative_regulation" />
+<theme idref="A5" />
+<cause idref="E25" />
+<clue><clueLoc>In HIV-infected patients</clueLoc>, <corefCause>such enhancement</corefCause> may further <clueType>impair</clueType> host immunity and could accelerate the course of HIV disease.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E28">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<cause idref="E24" />
+<clue><clueLoc>In HIV-infected patients</clueLoc>, such enhancement may further impair host immunity and could <clueType>accelerate</clueType> the course <linkTheme>of</linkTheme> HIV disease.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E29">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<cause idref="E25" />
+<clue><clueLoc>In HIV-infected patients</clueLoc>, such enhancement may further impair host immunity and could <clueType>accelerate</clueType> the course <linkTheme>of</linkTheme> HIV disease.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

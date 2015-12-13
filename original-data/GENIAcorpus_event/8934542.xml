@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="27/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8934542" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8934542</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="cell_specific_expression">Cell specific expression</term> of <term sem="DNA_domain_or_region" id="T2" lex="human_Bruton&apos;s_agammaglobulinemia_tyrosine_kinase_gene">human Bruton&apos;s agammaglobulinemia tyrosine kinase gene</term> (<term sem="Protein_molecule" id="T3" lex="Btk">Btk</term>) is regulated by <term sem="Protein_family_or_group" id="T4" lex="Sp1-">Sp1-</term> and <term sem="Protein_family_or_group" id="T5" lex="Spi-1/PU.1-family_member">Spi-1/PU.1-<term sem="Protein_family_or_group" id="A1">family members</term></term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>Cell specific <clueType>expression</clueType> <linkTheme>of</linkTheme> human Bruton&apos;s agammaglobulinemia tyrosine kinase gene (Btk) is regulated by Sp1- and Spi-1/PU.1-family members.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T5" />
+<clue>Cell specific expression of human Bruton&apos;s agammaglobulinemia tyrosine kinase gene (Btk) is <clueType>regulated</clueType> <linkCause>by</linkCause> Sp1- and Spi-1/PU.1-family members.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref1="A1" idref="T4" />
+<clue>Cell specific expression of human Bruton&apos;s agammaglobulinemia tyrosine kinase gene (Btk) is <clueType>regulated</clueType> <linkCause>by</linkCause> Sp1- and Spi-1/PU.1-family members.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T6" lex="Bruton&apos;s_agammaglobulinemia_tyrosine_kinase">Bruton&apos;s agammaglobulinemia tyrosine kinase</term> (<term sem="Protein_molecule" id="T7" lex="Btk">Btk</term>) is a <term sem="Protein_family_or_group" id="T8" lex="cytoplasmic_tyrosine_kinase">cytoplasmic tyrosine kinase</term> involved in the human disease <term sem="Other" id="T9" lex="X-linked_agammaglobulinemia">X-linked agammaglobulinemia</term> (<term sem="Other" id="T10" lex="XLA">XLA</term>).</sentence>
+<event id="E4">
+<type class="Correlation" />
+<theme idref="T7" />
+<theme idref="T10" />
+<clue>Bruton&apos;s agammaglobulinemia tyrosine kinase (Btk) is a cytoplasmic tyrosine kinase <clueType>involved</clueType> <linkTheme>in</linkTheme> the human disease X-linked agammaglobulinemia (XLA).</clue>
+</event>
+<sentence id="S3">The gene is expressed in all <term sem="Cell_natural" id="T11" lex="hematopoietic_cell">hematopoietic cells</term> with the exception of <term sem="Cell_natural" id="T12" lex="T-cell">T-cells</term> and <term sem="Cell_natural" id="T13" lex="plasma_cell">plasma cells</term>.</sentence>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue><corefTheme>The gene</corefTheme> is <clueType>expressed</clueType> <clueLoc>in</clueLoc> all <clueLoc>hematopoietic cells</clueLoc> with the exception of T-cells and plasma cells.</clue>
+</event>
+<event assertion="non-exist" id="E300">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue><corefTheme>The gene</corefTheme> is <clueType>expressed</clueType> in all hematopoietic cells with the <clueType>exception</clueType> of <clueLoc>T-cells</clueLoc> and plasma cells.</clue>
+</event>
+<event assertion="non-exist" id="E301">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue><corefTheme>The gene</corefTheme> is <clueType>expressed</clueType> in all hematopoietic cells with the <clueType>exception</clueType> of T-cells and <clueLoc>plasma cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">For this expression pattern the first <term sem="DNA_domain_or_region" id="A2"><term sem="DNA_domain_or_region" id="T14" lex="280_bp_upstream">280 bp upstream</term> of the <term sem="DNA_domain_or_region" id="T15" lex="major_transcriptional_start_site">major transcriptional start site</term></term> seems to be sufficient.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="A2" />
+<clue>For <corefTheme>this expression pattern</corefTheme> the first 280 bp upstream of the major transcriptional start site seems to be <clueType>sufficient</clueType>.</clue>
+<comment>TPS: A2</comment>
+</event>
+<event id="E302">
+<type class="Positive_regulation" />
+<theme idref="E300" />
+<cause idref="A2" />
+<clue>For <corefTheme>this expression pattern</corefTheme> the first 280 bp upstream of the major transcriptional start site seems to be <clueType>sufficient</clueType>.</clue>
+</event>
+<event id="E303">
+<type class="Positive_regulation" />
+<theme idref="E301" />
+<cause idref="A2" />
+<clue>For <corefTheme>this expression pattern</corefTheme> the first 280 bp upstream of the major transcriptional start site seems to be <clueType>sufficient</clueType>.</clue>
+</event>
+<sentence id="S5"><term sem="Other" id="T16" lex="in_vitro_footprinting_analysis">In vitro footprinting analysis</term> within this part of the <term sem="DNA_domain_or_region" id="T17" lex="promoter">promoter</term> revealed two <term sem="DNA_domain_or_region" id="T18" lex="Sp1_binding_site">Sp1 binding sites</term> as well as a <term sem="DNA_domain_or_region" id="T19" lex="PU-box">PU-box</term>.</sentence>
+<sentence id="S6">The <term sem="Protein_family_or_group" id="T20" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T21" lex="Spi-1/PU.1">Spi-1/PU.1</term> as well as the closely related factor <term sem="Protein_molecule" id="T22" lex="Spi-B">Spi-B</term> bound to the <term sem="DNA_domain_or_region" id="T23" lex="PU-box">PU-box</term> in B-cells.</sentence>
+<event id="E9">
+<type class="Binding" />
+<theme idref="T21" />
+<theme idref="T23" />
+<clue>The transcription factor Spi-1/PU.1 as well as the closely related factor Spi-B <clueType>bound</clueType> <linkTheme>to</linkTheme> the PU-box <clueLoc>in B-cells.</clueLoc></clue>
+</event>
+<event id="E10">
+<type class="Binding" />
+<theme idref="T22" />
+<theme idref="T23" />
+<clue>The transcription factor Spi-1/PU.1 as well as the closely related factor Spi-B <clueType>bound</clueType> <linkTheme>to</linkTheme> the PU-box <clueLoc>in B-cells.</clueLoc></clue>
+</event>
+<sentence id="S7">In the <term sem="Cell_cultured" id="T24" lex="erythroleukemia_cell_line_K562">erythroleukemia cell line K562</term>, due to the absence of <term sem="Protein_molecule" id="T25" lex="Spi-B">Spi-B</term>, only <term sem="Protein_molecule" id="T26" lex="PU.1">PU.1</term> bound to the <term sem="DNA_domain_or_region" id="T27" lex="Btk_promoter"><term sem="Protein_molecule" id="T28" lex="Btk">Btk</term> promoter</term>.</sentence>
+<event assertion="non-exist" id="E11">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue><clueLoc>In the erythroleukemia cell line K562</clueLoc>, due to the <clueType>absence</clueType> <linkTheme>of</linkTheme> Spi-B, only PU.1 bound to the Btk promoter.</clue>
+</event>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="T27" />
+<clue>In the erythroleukemia cell line K562, due to the absence of Spi-B, only PU.1 <clueType>bound</clueType> <linkTheme>to</linkTheme> the Btk promoter.</clue>
+</event>
+<sentence id="S8">Mutation of either site reduced the expression in transient transfection experiments.</sentence>
+<event id="E13">
+<type class="Mutagenesis" />
+<theme idref="T18" />
+<clue><clueType>Mutation</clueType> <linkTheme>of</linkTheme> <corefTheme>either site</corefTheme> reduced the expression in transient transfection experiments.</clue>
+<comment>Artificial</comment>
+</event>
+<event id="E14">
+<type class="Mutagenesis" />
+<theme idref="T19" />
+<clue><clueType>Mutation</clueType> <linkTheme>of</linkTheme> <corefTheme>either site</corefTheme> reduced the expression in transient transfection experiments.</clue>
+<comment>Artificial</comment>
+</event>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue>Mutation of either site reduced the <clueType>expression</clueType> in transient transfection experiments.</clue>
+<comment>NO COREFHTEME</comment>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="E13" />
+<clue>Mutation of either site <clueType>reduced</clueType> the expression <clueExperiment>in transient transfection experiments</clueExperiment>.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="E14" />
+<clue>Mutation of either site <clueType>reduced</clueType> the expression <clueExperiment>in transient transfection experiments</clueExperiment>.</clue>
+</event>
+<sentence id="S9">However, mutation of the <term sem="DNA_domain_or_region" id="T29" lex="PU_box">PU box</term> had no effect in the <term sem="Cell_cultured" id="T30" lex="T-cell_line_Jurkat">T-cell line Jurkat</term>, where none of the <term sem="Protein_family_or_group" id="T31" lex="Spi-1_family_member">Spi-1 family members</term> is expressed.</sentence>
+<event id="E18">
+<type class="Mutagenesis" />
+<theme idref="T29" />
+<clue>However, <clueType>mutation</clueType> <linkTheme>of</linkTheme> the PU box had no effect in the T-cell line Jurkat, where none of the Spi-1 family members is expressed.</clue>
+<comment>Artificial</comment>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="E18" />
+<clue>However, mutation of the PU box had no <clueType>effect</clueType> <clueLoc>in the T-cell line Jurkat</clueLoc>, where none of the Spi-1 family members is expressed.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event assertion="non-exist" id="E20">
+<type class="Gene_expression" />
+<theme idref="T31" />
+<clue>However, mutation of the PU box had no effect in the T-cell line Jurkat, where none of the Spi-1 family members is <clueType>expressed</clueType>.</clue>
+</event>
+<sentence id="S10">In addition <term sem="Protein_molecule" id="T32" lex="Spi-B">Spi-B</term> as well as <term sem="Protein_molecule" id="T33" lex="PU.1">PU.1</term> were able to transactivate <term sem="Other" id="T34" lex="Btk_expression"><term sem="Protein_molecule" id="T35" lex="Btk">Btk</term> expression</term>.</sentence>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>In addition Spi-B as well as PU.1 were able to transactivate Btk <clueType>expression</clueType>.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T32" />
+<clue>In addition Spi-B as well as PU.1 were able to <clueType>transactivate</clueType> Btk expression.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T33" />
+<clue>In addition Spi-B as well as PU.1 were able to <clueType>transactivate</clueType> Btk expression.</clue>
+</event>
+<sentence id="S11">In <term sem="Body_region" id="T36" lex="fetal_liver">fetal liver</term> of <term sem="Multicellular_organism_natural" id="T37" lex="PU.1-_/-_mouse">PU.1-/- mice</term>, which lack <cons sem="(AND Cell_natural Cell_natural)" id="T38" lex="(AND lymphoid_cell myeloid_cell)"><frag id="F1">lymphoid</frag> and <frag id="F2">myeloid</frag> <frag id="F3">cells</frag></cons>, expression of <term sem="Protein_molecule" id="T39" lex="Btk">Btk</term> was reduced two- to threefold but not abolished.</sentence>
+<event id="E24">
+<type class="Gene_expression" />
+<theme idref="T39" />
+<clue>In fetal liver of PU.1-/- mice, which lack lymphoid and myeloid cells, <clueType>expression</clueType> <linkTheme>of</linkTheme> Btk was reduced two- to threefold but not abolished.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<clue><clueLoc>In fetal liver of PU.1-/- mice, which lack lymphoid and myeloid cells</clueLoc>, expression of Btk was <clueType>reduced</clueType> two- to threefold but not abolished.</clue>
+</event>
+<event assertion="non-exist" id="E50">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<clue><clueLoc>In fetal liver of PU.1-/- mice, which lack lymphoid and myeloid cells</clueLoc>, expression of Btk was reduced two- to threefold but not <clueType>abolished</clueType>.</clue>
+</event>
+<sentence id="S12">Collectively this study shows that expression of the <term sem="DNA_domain_or_region" id="T40" lex="Btk_gene"><term sem="Protein_molecule" id="T41" lex="Btk">Btk</term> gene</term> is regulated by the combined action of <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T42" lex="(AND Sp1-family_member PU.1-family_member)"><frag id="F4"><term sem="Protein_family_or_group" id="A3">Sp1-</term></frag> and <frag id="F5"><term sem="Protein_family_or_group" id="A4">PU.1-</term></frag><frag id="F6"><term sem="Protein_family_or_group" id="A5">family members</term></frag></cons>.</sentence>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>Collectively this study shows that <clueType>expression</clueType> <linkTheme>of</linkTheme> the Btk gene is regulated by the combined action of Sp1- and PU.1-family members.</clue>
+</event>
+<event id="E27">
+<type class="Regulation" />
+<theme idref="E26" />
+<cause idref1="A5" idref="A3" />
+<clue>Collectively this study shows that expression of the Btk gene is <clueType>regulated</clueType> <linkCause>by</linkCause> the combined action of Sp1- and PU.1-family members.</clue>
+</event>
+<event id="E28">
+<type class="Regulation" />
+<theme idref="E26" />
+<cause idref1="A5" idref="A4" />
+<clue>Collectively this study shows that expression of the Btk gene is <clueType>regulated</clueType> <linkCause>by</linkCause> the combined action of Sp1- and PU.1-family members.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

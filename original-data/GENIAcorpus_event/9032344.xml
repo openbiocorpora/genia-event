@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/04/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9032344">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9032344</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Constitutive expression of <term sem="Protein_complex" id="T1" lex="p50_homodimer">p50 homodimer</term> in <term sem="Cell_natural" id="T2" lex="freshly_isolated_human_monocyte">freshly isolated human monocytes</term> decreases with in vitro and in vivo <term sem="Other" id="A1">differentiation</term>: a possible <term sem="Other" id="A20">mechanism</term> influencing <term sem="Other" id="T3" lex="human_immunodeficiency_virus_replication"><term sem="Virus" id="T4" lex="human_immunodeficiency_virus">human immunodeficiency virus</term> replication</term> in <term sem="Cell_natural" id="T5" lex="monocyte">monocytes</term> and mature macrophages.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T1" />
+<clue>Constitutive <clueType>expression</clueType> <linkTheme>of</linkTheme> p50 homodimer <clueLoc>in freshly isolated human monocytes</clueLoc> decreases with in vitro and in vivo differentiation: a possible mechanism influencing human immunodeficiency virus replication in monocytes and mature macrophages.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="A1" />
+<clue>Constitutive expression of p50 homodimer in freshly isolated human monocytes <clueType>decreases</clueType> <linkCause>with</linkCause> in vitro and in vivo differentiation: a possible mechanism influencing human immunodeficiency virus replication in monocytes and mature macrophages.</clue>
+</event>
+<event id="E3">
+<type class="Viral_life_cycle" />
+<theme idref="T4" />
+<clue>Constitutive expression of p50 homodimer in freshly isolated human monocytes decreases with in vitro and in vivo differentiation: a possible mechanism influencing human immunodeficiency virus <clueType>replication</clueType> <clueLoc>in monocytes</clueLoc> and mature macrophages.</clue>
+</event>
+<event id="E103">
+<type class="Viral_life_cycle" />
+<theme idref="T4" />
+<clue>Constitutive expression of p50 homodimer in freshly isolated human monocytes decreases with in vitro and in vivo differentiation: a possible mechanism influencing human immunodeficiency virus <clueType>replication</clueType> <clueLoc>in</clueLoc> monocytes and <clueLoc>mature macrophages</clueLoc>.</clue>
+</event>
+<event uncertainty="probable" id="E30">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="A20" />
+<clue>Constitutive expression of p50 homodimer in freshly isolated human monocytes decreases with in vitro and in vivo differentiation: a possible mechanism <clueType>influencing</clueType> human immunodeficiency virus replication in monocytes and mature macrophages.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Virus" id="T6" lex="human_immunodeficiency_virus_type_1">Human immunodeficiency virus type 1</term> (<term sem="Virus" id="T7" lex="HIV-1">HIV-1</term>) replicates more efficiently in vitro in <term sem="Cell_natural" id="T8" lex="differentiated_macrophage">differentiated macrophages</term> than in <term sem="Cell_natural" id="T9" lex="freshly_isolated_monocyte">freshly isolated <term sem="Cell_natural" id="T10" lex="monocyte">monocytes</term></term>.</sentence>
+<event id="E4">
+<type class="Viral_life_cycle" />
+<theme idref="T7" />
+<clue>Human immunodeficiency virus type 1 (HIV-1) <clueType>replicates</clueType> more efficiently in vitro in differentiated macrophages than in freshly isolated monocytes.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<clue>Human immunodeficiency virus type 1 (HIV-1) replicates <clueType>more efficiently</clueType> in vitro <clueLoc>in differentiated macrophages</clueLoc> than in freshly isolated monocytes.</clue>
+</event>
+<sentence id="S3">We investigated whether this may be partly explained by changes in expression of <term sem="Protein_complex" id="T11" lex="NF-kappaB">NF-kappaB</term> with <term sem="Other" id="T12" lex="monocyte_differentiation"><term sem="Cell_natural" id="A2">monocyte</term> differentiation</term>.</sentence>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>We investigated whether this may be partly explained by changes in expression of NF-kappaB with monocyte <clueType>differentiation</clueType>.</clue>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>We investigated whether this may be partly explained by changes in <clueType>expression</clueType> <linkTheme>of</linkTheme> NF-kappaB with monocyte differentiation.</clue>
+</event>
+<event uncertainty="doubtful" id="E8">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="E6" />
+<clue>We investigated whether this may be partly explained by <clueType>changes</clueType> <linkTheme>in</linkTheme> expression of NF-kappaB <linkCause>with</linkCause> monocyte differentiation.</clue>
+</event>
+<sentence id="S4">We demonstrated that constitutive expression of <term sem="Protein_complex" id="T13" lex="NF-kappaB">NF-kappaB</term> in <term sem="Cell_natural" id="T14" lex="primary_human_monocyte">primary human monocytes</term> changed significantly with differentiation in vitro to <term sem="Cell_natural" id="T15" lex="monocyte-derived_macrophage">monocyte-derived macrophages</term> (<term sem="Cell_natural" id="T16" lex="MDM">MDMs</term>) and differentiation in vivo to <term sem="Cell_natural" id="T17" lex="alveolar_macrophage">alveolar macrophages</term> (<term sem="Cell_natural" id="T18" lex="AM">AMs</term>).</sentence>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>We demonstrated that constitutive <clueType>expression</clueType> <linkTheme>of</linkTheme> NF-kappaB <clueLoc>in primary human monocytes</clueLoc> changed significantly with differentiation in vitro to monocyte-derived macrophages (MDMs) and differentiation in vivo to alveolar macrophages (AMs).</clue>
+</event>
+<event id="E10">
+<type class="Cell_differentiation" />
+<theme idref="T14" />
+<theme idref="T16" />
+<clue>We demonstrated that constitutive expression of NF-kappaB in primary human monocytes changed significantly with <clueType>differentiation</clueType> in vitro <linkTheme>to</linkTheme> monocyte-derived macrophages (MDMs) and differentiation in vivo to alveolar macrophages (AMs).</clue>
+</event>
+<event id="E11">
+<type class="Cell_differentiation" />
+<theme idref="T14" />
+<theme idref="T18" />
+<clue>We demonstrated that constitutive expression of NF-kappaB in primary human monocytes changed significantly with differentiation in vitro to monocyte-derived macrophages (MDMs) and <clueType>differentiation</clueType> in vivo <linkTheme>to</linkTheme> alveolar macrophages (AMs).</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="E10" />
+<clue>We demonstrated that constitutive expression of NF-kappaB in primary human monocytes <clueType>changed</clueType> significantly <linkCause>with</linkCause> differentiation in vitro to monocyte-derived macrophages (MDMs) and differentiation in vivo to alveolar macrophages (AMs).</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="E11" />
+<clue>We demonstrated that constitutive expression of NF-kappaB in primary human monocytes <clueType>changed</clueType> significantly <linkCause>with</linkCause> differentiation in vitro to monocyte-derived macrophages (MDMs) and differentiation in vivo to alveolar macrophages (AMs).</clue>
+</event>
+<sentence id="S5"><term sem="Cell_natural" id="A3">Freshly isolated monocytes</term> constitutively expressed high levels of <term sem="Protein_complex" id="T19" lex="transcriptionally_inactive_p50_homodimer">transcriptionally inactive <term sem="Protein_complex" id="T20" lex="p50_homodimer">p50 homodimer</term></term> which decreased with time in culture in favor of the transcriptionally active <cons sem="(AND Protein_complex Protein_complex)" id="T21" lex="(AND p50/p65_heterodimer p50/RelB_heterodimer)"><frag id="F1"><term sem="Protein_complex" id="A4">p50/p65</term></frag> and <frag id="F2"><term sem="Protein_complex" id="A5">p50/RelB</term></frag> <frag id="F3"><term sem="Protein_complex" id="A6">heterodimers</term></frag></cons>.</sentence>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue><clueLoc>Freshly isolated monocytes</clueLoc> constitutively <clueType>expressed</clueType> high levels of transcriptionally inactive p50 homodimer which decreased with time in culture in favor of the transcriptionally active p50/p65 and p50/RelB heterodimers.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="T19" />
+<clue>Freshly isolated monocytes constitutively expressed high levels of transcriptionally inactive p50 homodimer which <clueType>decreased</clueType> <clueTime>with time</clueTime> <clueLoc>in culture</clueLoc> in favor of the transcriptionally active p50/p65 and p50/RelB heterodimers.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref1="A6" idref="A4" />
+<clue>Freshly isolated monocytes constitutively expressed high levels of transcriptionally inactive p50 homodimer which decreased <clueTime>with time</clueTime> <clueLoc>in culture</clueLoc> <clueType>in favor of</clueType> the transcriptionally active p50/p65 and p50/RelB heterodimers.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref1="A6" idref="A5" />
+<clue>Freshly isolated monocytes constitutively expressed high levels of transcriptionally inactive p50 homodimer which decreased <clueTime>with time</clueTime> <clueLoc>in culture</clueLoc> <clueType>in favor of</clueType> the transcriptionally active p50/p65 and p50/RelB heterodimers.</clue>
+</event>
+<sentence id="S6">As in <term sem="Cell_natural" id="T22" lex="MDM">MDMs</term>, <term sem="Cell_natural" id="T23" lex="AM">AMs</term> constitutively expressed <term sem="Protein_complex" id="T24" lex="p50/p65">p50/p65</term> and <term sem="Protein_complex" id="T25" lex="p50/RelB">p50/RelB</term> although at lower levels.</sentence>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>As in MDMs, <clueLoc>AMs</clueLoc> constitutively <clueType>expressed</clueType> p50/p65 and p50/RelB although at lower levels.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue>As in MDMs, <clueLoc>AMs</clueLoc> constitutively <clueType>expressed</clueType> p50/p65 and p50/RelB although at lower levels.</clue>
+</event>
+<sentence id="S7"><term sem="Virus" id="A7">HIV</term> infection of fresh <term sem="Cell_natural" id="T26" lex="monocyte">monocytes</term> failed to induce <term sem="Protein_complex" id="T27" lex="p50/p65">p50/p65</term> as seen in <term sem="Cell_natural" id="T28" lex="MDM">MDMs</term>.</sentence>
+<event id="E20">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A7" />
+<theme idref="T26" />
+<clue>HIV <clueType>infection</clueType> <linkTheme>of</linkTheme> fresh monocytes failed to induce p50/p65 as seen in MDMs.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="E20" />
+<clue>HIV infection of <clueLoc>fresh monocytes</clueLoc> failed to <clueType>induce</clueType> p50/p65 as seen in MDMs.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<clue>HIV infection of fresh monocytes failed to <clueType>induce</clueType> p50/p65 as seen <clueLoc>in MDMs</clueLoc>.</clue>
+</event>
+<sentence id="S8">The replacement of <term sem="Protein_complex" id="T29" lex="p50_homodimer">p50 homodimers</term> with <term sem="Protein_complex" id="A8">transcriptionally active heterodimers</term> following time in culture may partially explain the progressive increase in susceptibility of <term sem="Cell_natural" id="T30" lex="monocyte">monocytes</term> to <term sem="Other" id="T31" lex="HIV_infection"><term sem="Virus" id="T32" lex="HIV">HIV</term> infection</term> during <term sem="Other" id="T33" lex="in_vitro_culture">in vitro culture</term>.</sentence>
+<event id="E23">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T32" />
+<clue>The replacement of p50 homodimers with transcriptionally active heterodimers following time in culture may partially explain the progressive increase in susceptibility of monocytes to HIV <clueType>infection</clueType> during in vitro culture.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<clue>The replacement of p50 homodimers with transcriptionally active heterodimers following time in culture may partially explain the progressive <clueType>increase in susceptibility</clueType> <clueLoc>of monocytes</clueLoc> <linkTheme>to</linkTheme> HIV infection <clueTime>during in vitro culture</clueTime>.</clue>
+<comment>SUSCEPTIBILITY</comment>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E15" />
+<cause idref="E16" />
+<cause idref="E17" />
+<clue><corefCause>The replacement of p50 homodimers with transcriptionally active heterodimers</corefCause> <clueTime>following time</clueTime> <clueLoc>in culture</clueLoc> may partially <clueType>explain</clueType> the progressive increase in susceptibility of monocytes to HIV infection during in vitro culture.</clue>
+</event>
+<sentence id="S9">The change in <term sem="Other" id="T34" lex="NF-kappaB_component"><term sem="Protein_complex" id="T35" lex="NF-kappaB">NF-kappaB</term> components</term> with <term sem="Other" id="T36" lex="monocyte_differentiation"><term sem="Cell_natural" id="A9">monocyte</term> differentiation</term> in vivo may also explain the different <term sem="Other" id="A10">transcriptional activities</term> of these <term sem="Cell_natural" id="T37" lex="cell_population">cell populations</term> in <term sem="Multicellular_organism_natural" id="T38" lex="HIV-infected_individual"><term sem="Virus" id="T39" lex="HIV">HIV</term>-infected individuals</term>.</sentence>
+<event id="E27">
+<type class="Cell_differentiation" />
+<theme idref="A9" />
+<clue>The change in NF-kappaB components with monocyte <clueType>differentiation</clueType> in vivo may also explain the different transcriptional activities of these cell populations in HIV-infected individuals.</clue>
+</event>
+<event id="E28">
+<type class="Regulation" />
+<theme idref="T34" />
+<cause idref="E27" />
+<clue>The <clueType>change</clueType> <linkTheme>in</linkTheme> NF-kappaB components <linkCause>with</linkCause> monocyte differentiation in vivo may also explain the different transcriptional activities of these cell populations in HIV-infected individuals.</clue>
+<comment>NER T34 mod</comment>
+</event>
+<event uncertainty="probable" id="E29">
+<type class="Regulation" />
+<theme idref="A10" />
+<cause idref="E28" />
+<clue>The change in NF-kappaB components with monocyte differentiation in vivo may also <clueType>explain</clueType> the <clueType>different</clueType> transcriptional activities <clueLoc>of these cell populations</clueLoc> <clueLoc>in HIV-infected individuals</clueLoc>.</clue>
+<comment>NER T37 mod</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

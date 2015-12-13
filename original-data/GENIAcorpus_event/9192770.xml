@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="30/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9192770" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9192770</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="Interleukin-10">Interleukin-10</term> inhibits <term sem="Protein_molecule" id="A1">interferon-gamma</term>-induced <term sem="Other" id="T2"><term sem="DNA_domain_or_region" id="T3" lex="intercellular_adhesion_molecule-1_gene"><term sem="Protein_molecule" id="T4" lex="intercellular_adhesion_molecule-1">intercellular adhesion molecule-1</term> gene</term> transcription</term> in <term sem="Cell_natural" id="T5" lex="human_monocyte"><term sem="Multicellular_organism_natural" id="T84">human</term> monocytes</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="E39" />
+<cause idref="T1" />
+<clue>Interleukin-10 <clueType>inhibits</clueType> interferon-gamma-induced intercellular adhesion molecule-1 gene transcription in human monocytes.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref="A1" />
+<clue>Interleukin-10 inhibits interferon-gamma-<clueType>induced</clueType> intercellular adhesion molecule-1 gene transcription in human monocytes.</clue>
+</event>
+<event id="E39">
+<type class="Transcription" />
+<theme idref="T3" />
+<clue>Interleukin-10 inhibits interferon-gamma-induced intercellular adhesion molecule-1 gene <clueType>transcription</clueType> <clueLoc>in human monocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T6" lex="Interleukin-10">Interleukin-10</term> (<term sem="Protein_molecule" id="T7" lex="IL-10">IL-10</term>) is a potent <term sem="Protein_family_or_group" id="T8" lex="monocyte_regulatory_cytokine"><term sem="Cell_natural" id="A7">monocyte</term> regulatory cytokine</term> that inhibits gene expression of <term sem="Protein_family_or_group" id="T9" lex="proinflammatory_mediator">proinflammatory mediators</term>.</sentence>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="T7" />
+<clue>Interleukin-10 (IL-10) is a potent monocyte regulatory cytokine that <clueType>inhibits</clueType> gene expression of proinflammatory mediators.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>Interleukin-10 (IL-10) is a potent monocyte regulatory cytokine that inhibits <clueType>gene expression</clueType> <linkTheme>of</linkTheme> proinflammatory mediators.</clue>
+</event>
+<event id="E41">
+<type class="Regulation" />
+<theme idref="A7" />
+<cause idref="T7" />
+<clue>Interleukin-10 (IL-10) is a potent monocyte <clueType>regulatory</clueType> cytokine that inhibits gene expression of proinflammatory mediators.</clue>
+</event>
+<sentence id="S3">In this study, we investigated the mechanism by which <term sem="Protein_molecule" id="T10" lex="IL-10">IL-10</term> downregulates expression of <term sem="Protein_molecule" id="T11" lex="intercellular_adhesion_molecule-1">intercellular adhesion molecule-1</term> (<term sem="Protein_molecule" id="T12" lex="ICAM-1">ICAM-1</term>) on the <term sem="Cell_component" id="T13" lex="cell_surface">cell surface</term> of <term sem="Cell_natural" id="T14" lex="normal_human_monocyte">normal <term sem="Cell_natural" id="T15" lex="human_monocyte">human monocytes</term></term> activated with <term sem="Protein_molecule" id="T16" lex="interferon-gamma">interferon-gamma</term> (<term sem="Protein_molecule" id="T17" lex="IFN-gamma">IFN-gamma</term>).</sentence>
+<event uncertainty="doubtful" id="E5">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="T10" />
+<clue>In this study, we investigated the mechanism by which IL-10 <clueType>downregulates</clueType> expression of intercellular adhesion molecule-1 (ICAM-1) on the cell surface of normal human monocytes activated with interferon-gamma (IFN-gamma).</clue>
+</event>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T12" />
+<clue>In this study, we investigated the mechanism by which IL-10 downregulates <clueType>expression</clueType> <linkTheme>of</linkTheme> intercellular adhesion molecule-1 (ICAM-1) <clueLoc>on the cell surface of normal human monocytes activated with interferon-gamma (IFN-gamma)</clueLoc>.</clue>
+</event>
+<event id="E7">
+<type class="Physiological_process" />
+<theme idref="T15" />
+<cause idref="T17" />
+<clue>In this study, we investigated the mechanism by which IL-10 downregulates expression of intercellular adhesion molecule-1 (ICAM-1) on the cell surface of normal human monocytes <clueType>activated</clueType> <linkCause>with</linkCause> interferon-gamma (IFN-gamma).</clue>
+</event>
+<sentence id="S4"><term sem="Other" id="T18" lex="IL-10_inhibition"><term sem="Protein_molecule" id="T19" lex="IL-10">IL-10</term> inhibition</term> of <term sem="Protein_molecule" id="T21" lex="IFN-gamma">IFN-gamma</term>-induced <term sem="Other" id="T20"><term sem="Protein_molecule" id="T22" lex="ICAM-1">ICAM-1</term> expression</term> was apparent as early as 3 hours and was blocked by an <term sem="Protein_family_or_group" id="T23" lex="anti-IL-10_antibody">anti-<term sem="Protein_molecule" id="T24" lex="IL-10">IL-10</term> antibody</term> but not by an <term sem="Protein_molecule" id="T25" lex="isotype-matched_control_antibody">isotype-matched control antibody</term>.</sentence>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="T19" />
+<clue>IL-10 <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IFN-gamma-induced ICAM-1 expression was apparent <clueTime>as early as 3 hours</clueTime> and was blocked by an anti-IL-10 antibody but not by an isotype-matched control antibody.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T21" />
+<clue>IL-10 inhibition of IFN-gamma-<clueType>induced</clueType> ICAM-1 expression was apparent as early as 3 hours and was blocked by an anti-IL-10 antibody but not by an isotype-matched control antibody.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>IL-10 inhibition of IFN-gamma-induced ICAM-1 <clueType>expression</clueType> was apparent as early as 3 hours and was blocked by an anti-IL-10 antibody but not by an isotype-matched control antibody.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<cause idref="T23" />
+<clue>IL-10 inhibition of IFN-gamma-induced ICAM-1 expression was apparent as early as 3 hours and was <clueType>blocked</clueType> <linkCause>by</linkCause> an anti-IL-10 antibody but not by an isotype-matched control antibody.</clue>
+</event>
+<event assertion="non-exist" id="E12">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<cause idref="T25" />
+<clue>IL-10 inhibition of IFN-gamma-induced ICAM-1 expression was apparent as early as 3 hours and was <clueType>blocked</clueType> by an anti-IL-10 antibody but not <linkCause>by</linkCause> an isotype-matched control antibody.</clue>
+</event>
+<sentence id="S5">Northern blot analysis showed that <term sem="Protein_molecule" id="T26" lex="IL-10">IL-10</term> reduced the accumulation of <term sem="RNA_molecule" id="T27" lex="ICAM-1_mRNA"><term sem="Protein_molecule" id="T28" lex="ICAM-1">ICAM-1</term> mRNA</term> in <term sem="Cell_cultured" id="T29" lex="IFN-gamma-stimulated_monocyte"><term sem="Protein_molecule" id="T30" lex="IFN-gamma">IFN-gamma</term>-stimulated <term sem="Cell_natural" id="A2">monocytes</term></term>.</sentence>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T26" />
+<clue><clueExperiment>Northern blot analysis</clueExperiment> showed that IL-10 <clueType>reduced</clueType> the accumulation of ICAM-1 mRNA in IFN-gamma-stimulated monocytes.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<clue>Northern blot analysis showed that IL-10 reduced the <clueType>accumulation</clueType> <linkTheme>of</linkTheme> ICAM-1 mRNA <clueLoc>in IFN-gamma-stimulated monocytes</clueLoc>.</clue>
+</event>
+<event id="E15">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<cause idref="T30" />
+<clue>Northern blot analysis showed that IL-10 reduced the accumulation of ICAM-1 mRNA in IFN-gamma-<clueType>stimulated</clueType> monocytes.</clue>
+</event>
+<sentence id="S6"><term sem="Other" id="T31" lex="IL-10_inhibition"><term sem="Protein_molecule" id="T32" lex="IL-10">IL-10</term> inhibition</term> of <term sem="RNA_molecule" id="T33" lex="ICAM-1_steady-state_mRNA"><term sem="Protein_molecule" id="T34" lex="ICAM-1">ICAM-1</term> steady-state mRNA</term> was detected at 3 hours and remained at 24 hours.</sentence>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="T33" />
+<cause idref="T32" />
+<clue>IL-10 <clueType>inhibition</clueType> <linkTheme>of</linkTheme> ICAM-1 steady-state mRNA was <clueTime>detected at 3 hours and remained at 24 hours</clueTime>.</clue>
+</event>
+<sentence id="S7"><term sem="Other" id="T35" lex="nuclear_run-on_transcription_assay">Nuclear run-on transcription assays</term> showed that <term sem="Protein_molecule" id="T36" lex="IL-10">IL-10</term> inhibited the rate of <term sem="Protein_molecule" id="T38" lex="IFN-gamma">IFN-gamma</term>-induced <term sem="Other" id="T37">transcription</term> of the <term sem="DNA_domain_or_region" id="T39" lex="ICAM-1_gene"><term sem="Protein_molecule" id="T40" lex="ICAM-1">ICAM-1</term> gene</term>, and <term sem="Other" id="T41" lex="mRNA_stability_study">mRNA stability studies</term> showed that <term sem="Protein_molecule" id="T42" lex="IL-10">IL-10</term> did not alter the half-life of <term sem="RNA_family_or_group" id="T43" lex="IFN-gamma-induced_ICAM-1_message"><term sem="Protein_molecule" id="T44" lex="IFN-gamma">IFN-gamma</term>-induced <term sem="RNA_molecule" id="A4"><term sem="Protein_molecule" id="T45" lex="ICAM-1">ICAM-1</term> message</term></term>.</sentence>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="T36" />
+<clue><clueExperiment>Nuclear run-on transcription assays</clueExperiment> showed that IL-10 <clueType>inhibited</clueType> the rate <linkTheme>of</linkTheme> IFN-gamma-induced transcription of the ICAM-1 gene, and mRNA stability studies showed that IL-10 did not alter the half-life of IFN-gamma-induced ICAM-1 message.</clue>
+</event>
+<event id="E19">
+<type class="Transcription" />
+<theme idref="T39" />
+<clue>Nuclear run-on transcription assays showed that IL-10 inhibited the rate of IFN-gamma-induced <clueType>transcription</clueType> <linkTheme>of</linkTheme> the ICAM-1 gene, and mRNA stability studies showed that IL-10 did not alter the half-life of IFN-gamma-induced ICAM-1 message.</clue>
+</event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T38" />
+<clue>Nuclear run-on transcription assays showed that IL-10 inhibited the rate of IFN-gamma-<clueType>induced</clueType> transcription of the ICAM-1 gene, and mRNA stability studies showed that IL-10 did not alter the half-life of IFN-gamma-induced ICAM-1 message.</clue>
+</event>
+<event assertion="non-exist" id="E20">
+<type class="Regulation" />
+<theme idref="A4" />
+<cause idref="T42" />
+<clue>Nuclear run-on transcription assays showed that IL-10 inhibited the rate of IFN-gamma-induced transcription of the ICAM-1 gene, and <clueExperiment>mRNA stability studies</clueExperiment> showed that IL-10 did not <clueType>alter</clueType> the <clueType>half-life</clueType> <linkTheme>of</linkTheme> IFN-gamma-induced ICAM-1 message.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="T44" />
+<clue>Nuclear run-on transcription assays showed that IL-10 inhibited the rate of IFN-gamma-induced transcription of the ICAM-1 gene, and mRNA stability studies showed that IL-10 did not alter the half-life of IFN-gamma-<clueType>induced</clueType> ICAM-1 message.</clue>
+</event>
+<sentence id="S8">Thus, <term sem="Protein_molecule" id="T46" lex="IL-10">IL-10</term> inhibits <term sem="Protein_molecule" id="T48" lex="IFN-gamma">IFN-gamma</term>-induced <term sem="Other" id="T47"><term sem="Protein_molecule" id="T49" lex="ICAM-1">ICAM-1</term> expression</term> in <term sem="Cell_natural" id="T50" lex="monocyte">monocytes</term> primarily at the level of <term sem="Other" id="T51" lex="gene_transcription">gene transcription</term>.</sentence>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="T46" />
+<clue>Thus, IL-10 <clueType>inhibits</clueType> IFN-gamma-induced ICAM-1 expression in monocytes primarily at the level of gene transcription.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E40" />
+<cause idref="T48" />
+<clue>Thus, IL-10 inhibits IFN-gamma-<clueType>induced</clueType> ICAM-1 expression in monocytes primarily at the level of gene transcription.</clue>
+</event>
+<event id="E40">
+<type class="Gene_expression" />
+<theme idref="T49" />
+<clue>Thus, IL-10 inhibits IFN-gamma-induced ICAM-1 <clueType>expression</clueType> <clueLoc>in monocytes</clueLoc> primarily at the level of gene transcription.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation" />
+<theme idref="T51" />
+<cause idref="T46" />
+<clue>Thus, IL-10 <clueType>inhibits</clueType> IFN-gamma-induced ICAM-1 expression <clueLoc>in monocytes</clueLoc> primarily <linkTheme>at the level of</linkTheme> gene transcription.</clue>
+</event>
+<sentence id="S9">Activation of <term sem="DNA_family_or_group" id="T52" lex="IFN-gamma-responsive_gene"><term sem="Protein_molecule" id="T53" lex="IFN-gamma">IFN-gamma</term>-responsive genes</term> requires <term sem="Other" id="T54" lex="tyrosine_phosphorylation"><term sem="Amino_acid_monomer" id="T55" lex="tyrosine">tyrosine</term> phosphorylation</term> of the transcriptional factor <term sem="Protein_molecule" id="T56" lex="STAT-1alpha">STAT-1alpha</term> (<term sem="Protein_molecule" id="T57" lex="signal_transducer_and_activator_of_transcription-1alpha">signal transducer and activator of transcription-1alpha</term>).</sentence>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T52" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> IFN-gamma-responsive genes requires tyrosine phosphorylation of the transcriptional factor STAT-1alpha (signal transducer and activator of transcription-1alpha).</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E26" />
+<clue>Activation of IFN-gamma-responsive genes <clueType>requires</clueType> tyrosine phosphorylation of the transcriptional factor STAT-1alpha (signal transducer and activator of transcription-1alpha).</clue>
+</event>
+<event id="E26">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T56" />
+<site idref="T55" /><clue>Activation of IFN-gamma-responsive genes requires tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> the transcriptional factor STAT-1alpha (signal transducer and activator of transcription-1alpha).</clue>
+</event>
+<sentence id="S10">However, <term sem="Protein_molecule" id="T58" lex="IL-10">IL-10</term> did not affect <term sem="Protein_molecule" id="T60" lex="IFN-gamma">IFN-gamma</term>-induced <term sem="Other" id="T61" lex="tyrosine_phosphorylation"><term sem="Amino_acid_monomer" id="T62" lex="tyrosine">tyrosine</term> phosphorylation</term> of <term sem="Protein_molecule" id="T63" lex="STAT-1alpha">STAT-1alpha</term> or alter <term sem="Protein_molecule" id="T64" lex="STAT-1alpha">STAT-1alpha</term> binding to the <term sem="DNA_domain_or_region" id="T65" lex="IFN-gamma_response_element">IFN-gamma response element</term> (<term sem="DNA_domain_or_region" id="T66" lex="IRE">IRE</term>) in the <term sem="DNA_domain_or_region" id="T67" lex="ICAM-1_promoter"><term sem="Protein_molecule" id="T68" lex="ICAM-1">ICAM-1</term> promoter</term>.</sentence>
+<event assertion="non-exist" id="E27">
+<type class="Regulation" />
+<theme idref="E28" />
+<cause idref="T58" />
+<clue>However, IL-10 did not <clueType>affect</clueType> IFN-gamma-induced tyrosine phosphorylation of STAT-1alpha or alter STAT-1alpha binding to the IFN-gamma response element (IRE) in the ICAM-1 promoter.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="T60" />
+<clue>However, IL-10 did not affect IFN-gamma-<clueType>induced</clueType> tyrosine phosphorylation of STAT-1alpha or alter STAT-1alpha binding to the IFN-gamma response element (IRE) in the ICAM-1 promoter.</clue>
+</event>
+<event id="E29">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T63" />
+<site idref="T62" /><clue>However, IL-10 did not affect IFN-gamma-induced tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> STAT-1alpha or alter STAT-1alpha binding to the IFN-gamma response element (IRE) in the ICAM-1 promoter.</clue>
+</event>
+<event assertion="non-exist" id="E30">
+<type class="Regulation" />
+<theme idref="E31" />
+<cause idref="T58" />
+<clue>However, IL-10 did not affect IFN-gamma-induced tyrosine phosphorylation of STAT-1alpha or <clueType>alter</clueType> STAT-1alpha binding to the IFN-gamma response element (IRE) in the ICAM-1 promoter.</clue>
+</event>
+<event id="E31">
+<type class="Binding" />
+<theme idref="T64" />
+<theme idref="T66" />
+<clue>However, IL-10 did not affect IFN-gamma-induced tyrosine phosphorylation of STAT-1alpha or alter STAT-1alpha <clueType>binding</clueType> <linkTheme>to</linkTheme> the IFN-gamma response element (IRE) in the ICAM-1 promoter.</clue>
+</event>
+<sentence id="S11">Instead, <term sem="Protein_molecule" id="T69" lex="IL-10">IL-10</term> prevented <term sem="Protein_molecule" id="T71" lex="IFN-gamma">IFN-gamma</term>-induced <term sem="Other" id="T59">binding activity</term> at the <term sem="DNA_domain_or_region" id="A30"><term sem="Protein_complex" id="T72" lex="NF-kappaB">NF-kappaB</term> site of the <term sem="DNA_domain_or_region" id="T73" lex="tumor_necrosis_factor_alpha_(TNF-alpha)-responsive_NF-kappaB/C-EBP_composite_element">tumor necrosis factor alpha (<term sem="Protein_molecule" id="T74" lex="TNF-alpha">TNF-alpha</term>)-responsive <term sem="DNA_domain_or_region" id="A8"><term sem="Protein_complex" id="T75" lex="NF-kappaB">NF-kappaB</term>/C-EBP composite element</term></term> in the <term sem="DNA_domain_or_region" id="T76" lex="ICAM-1_promoter"><term sem="Protein_molecule" id="T77" lex="ICAM-1">ICAM-1</term> promoter</term></term>.</sentence>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T69" />
+<clue>Instead, IL-10 <clueType>prevented</clueType> IFN-gamma-induced binding activity at the NF-kappaB site of the tumor necrosis factor alpha (TNF-alpha)-responsive NF-kappaB/C-EBP composite element in the ICAM-1 promoter.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="T71" />
+<clue>Instead, IL-10 prevented IFN-gamma-<clueType>induced</clueType> binding activity at the NF-kappaB site of the tumor necrosis factor alpha (TNF-alpha)-responsive NF-kappaB/C-EBP composite element in the ICAM-1 promoter.</clue>
+</event>
+<event id="E34">
+<type class="Binding" />
+<theme idref="A30" />
+<clue>Instead, IL-10 prevented IFN-gamma-induced <clueType>binding activity</clueType> <linkTheme>at</linkTheme> the NF-kappaB site of the tumor necrosis factor alpha (TNF-alpha)-responsive NF-kappaB/C-EBP composite element in the ICAM-1 promoter.</clue>
+<comment>TPS: A30, OKAP &quot;another THEME is not mentioned&quot;</comment>
+</event>
+<event uncertainty="probable" id="E42">
+<type class="Regulation" />
+<theme idref="A8" />
+<cause idref="T74" />
+<clue>Instead, IL-10 prevented IFN-gamma-induced binding activity at the NF-kappaB site of the tumor necrosis factor alpha (TNF-alpha)-<clueType>responsive</clueType> NF-kappaB/C-EBP composite element in the ICAM-1 promoter.</clue>
+</event>
+<sentence id="S12">These data indicate that <term sem="Protein_molecule" id="T78" lex="IL-10">IL-10</term> inhibits <term sem="Protein_molecule" id="T80" lex="IFN-gamma">IFN-gamma</term>-induced <term sem="Other" id="T70">transcription</term> of the <term sem="DNA_domain_or_region" id="T81" lex="ICAM-1_gene"><term sem="Protein_molecule" id="T82" lex="ICAM-1">ICAM-1</term> gene</term> by a <term sem="Other" id="A9">regulatory mechanism</term> that may involve <term sem="Protein_complex" id="T83" lex="NF-kappaB">NF-kappaB</term>.</sentence>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="E36" />
+<cause idref="T78" />
+<clue>These data indicate that IL-10 <clueType>inhibits</clueType> IFN-gamma-induced transcription of the ICAM-1 gene by a regulatory mechanism that may involve NF-kappaB.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="A9" />
+<clue>These data indicate that IL-10 inhibits IFN-gamma-induced transcription of the ICAM-1 gene <linkCause>by</linkCause> a regulatory mechanism that may involve NF-kappaB.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E36">
+<type class="Transcription" />
+<theme idref="T81" />
+<clue>These data indicate that IL-10 inhibits IFN-gamma-induced <clueType>transcription</clueType> <linkTheme>of</linkTheme> the ICAM-1 gene by a regulatory mechanism that may involve NF-kappaB.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="T80" />
+<clue>These data indicate that IL-10 inhibits IFN-gamma-<clueType>induced</clueType> transcription of the ICAM-1 gene by a regulatory mechanism that may involve NF-kappaB.</clue>
+</event>
+<event uncertainty="probable" id="E37">
+<type class="Regulation" />
+<theme idref="A9" />
+<cause idref="T83" />
+<clue>These data indicate that IL-10 inhibits IFN-gamma-induced transcription of the ICAM-1 gene by a regulatory mechanism that may <clueType>involve</clueType> NF-kappaB.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

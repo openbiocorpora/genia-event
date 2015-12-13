@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="21/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9633826" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9633826</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Limited proteolysis for assaying <term sem="Other" id="T1" lex="ligand_binding_affinity"><term sem="Other" id="A1">ligand</term> binding affinities</term> of <term sem="Protein_family_or_group" id="T2" lex="nuclear_receptor">nuclear receptors</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T2" />
+<clue><clueExperiment>Limited proteolysis for assaying</clueExperiment> ligand <clueType>binding affinities</clueType> <linkTheme>of</linkTheme> nuclear receptors.</clue>
+<comment>OK</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The binding of <cons sem="(OR Organic_compound_other Organic_compound_other)" id="T3" lex="(OR natural_ligand synthetic_ligand)"><frag id="F1">natural</frag> or <frag id="F2">synthetic</frag> <frag id="F3">ligands</frag></cons> to <term sem="Protein_family_or_group" id="T4" lex="nuclear_receptor">nuclear receptors</term> is the triggering event leading to <term sem="Other" id="A5">gene transcription</term> activation or repression.</sentence>
+<event id="E2">
+<type class="Binding" />
+<theme idref1="F3" idref="F1" />
+<theme idref="T4" />
+<clue>The <clueType>binding</clueType> <linkTheme>of</linkTheme> natural or synthetic ligands <linkTheme>to</linkTheme> nuclear receptors is the triggering event leading to gene transcription activation or repression.</clue>
+<comment>OK</comment>
+</event>
+<event id="E3">
+<type class="Binding" />
+<theme idref1="F3" idref="F2" />
+<theme idref="T4" />
+<clue>The <clueType>binding</clueType> <linkTheme>of</linkTheme> natural or synthetic ligands <linkTheme>to</linkTheme> nuclear receptors is the triggering event leading to gene transcription activation or repression.</clue>
+<comment>OK</comment>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="E2" />
+<clue>The binding of natural or synthetic ligands to nuclear receptors is <corefCause>the triggering event</corefCause> <clueType>leading to</clueType> gene transcription <clueType>activation</clueType> or repression.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="A5" />
+<cause idref="E2" />
+<clue>The binding of natural or synthetic ligands to nuclear receptors is <corefCause>the triggering event</corefCause> <clueType>leading to</clueType> gene transcription activation or <clueType>repression</clueType>.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="E3" />
+<clue>The binding of natural or synthetic ligands to nuclear receptors is <corefCause>the triggering event</corefCause> <clueType>leading to</clueType> gene transcription <clueType>activation</clueType> or repression.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="A5" />
+<cause idref="E3" />
+<clue>The binding of natural or synthetic ligands to nuclear receptors is <corefCause>the triggering event</corefCause> <clueType>leading to</clueType> gene transcription activation or <clueType>repression</clueType>.</clue>
+</event>
+<sentence id="S3"><term sem="Other" id="A6">Ligand</term> binding to the <term sem="Protein_domain_or_region" id="T7" lex="ligand_binding_domain">ligand binding domain</term> of these <term sem="Protein_family_or_group" id="T8" lex="receptor">receptors</term> induces <term sem="Other" id="T9" lex="conformational_change">conformational changes</term> that are evidenced by an increased resistance of this domain to <term sem="Protein_family_or_group" id="T10" lex="protease">proteases</term>.</sentence>
+<event id="E8">
+<type class="Binding" />
+<theme idref="A6" />
+<theme idref="T4" />
+<clue>Ligand <clueType>binding</clueType> <linkTheme>to</linkTheme> the ligand binding domain of <corefTheme>these receptors</corefTheme> induces conformational changes that are evidenced by an increased resistance of this domain to proteases.</clue>
+<comment>OK</comment>
+</event>
+<event id="E9">
+<type class="Protein_metabolism" />
+<theme idref="T4" />
+<clue>Ligand binding to the ligand binding domain of these receptors induces <clueType>conformational changes</clueType> that are evidenced by an increased resistance of this domain to proteases.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E8" />
+<clue>Ligand binding to the ligand binding domain of these receptors <clueType>induces</clueType> conformational changes that are evidenced by an increased resistance of this domain to proteases.</clue>
+</event>
+<event id="E11">
+<type class="Protein_catabolism" />
+<theme idref="T7" />
+<cause idref="T10" />
+<clue>Ligand binding to the ligand binding domain of these receptors induces conformational changes that are evidenced by an increased resistance of this domain <linkCause>to</linkCause> proteases.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E111">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="E9" />
+<clue>Ligand binding to the ligand binding domain of these receptors induces conformational changes that are evidenced by an <clueType>increased resistance</clueType> <linkTheme>of</linkTheme> this domain to proteases.</clue>
+<comment>RESISTANCE</comment>
+</event>
+<sentence id="S4"><term sem="Protein_family_or_group" id="T11" lex="in_vitro_labeled_receptor">In vitro labeled receptors</term> were incubated with <cons sem="(AND Organic_compound_other Organic_compound_other)" id="T12" lex="(AND various_synthetic_agonist various_natural_agonist)"><frag id="F4">various</frag> <frag id="F5">synthetic</frag> or <frag id="F6">natural</frag> <frag id="F7">agonists</frag></cons> or <term sem="Organic_compound_other" id="T13" lex="antagonist">antagonists</term> and submitted to <term sem="Other" id="T14" lex="trypsin_digestion"><term sem="Protein_molecule" id="T15" lex="trypsin">trypsin</term> digestion</term>.</sentence>
+<sentence id="S5">Proteolysis products were separated by <term sem="Other" id="T16" lex="SDS-PAGE">SDS-PAGE</term> and quantified.</sentence>
+<sentence id="S6">The amount of <term sem="Protein_family_or_group" id="T17" lex="trypsin-resistant_fragment"><term sem="Protein_molecule" id="T18" lex="trypsin">trypsin</term>-resistant fragments</term> was proportional to <term sem="Protein_family_or_group" id="A8">receptor</term> occupancy by the <term sem="Other" id="A9">ligand</term>, and allowed the determination of <term sem="Other" id="T19" lex="dissociation_constant">dissociation constants</term> (<term sem="Other" id="T20" lex="kDa">kDa</term>).</sentence>
+<event id="E12">
+<type class="Binding" />
+<theme idref="A8" />
+<theme idref="A9" />
+<clue>The amount of trypsin-resistant fragments was proportional to receptor <clueType>occupancy</clueType> <linkTheme>by</linkTheme> the ligand, and allowed the determination of dissociation constants (kDa).</clue>
+<comment>OK</comment>
+</event>
+<event id="E13">
+<type />
+<theme idref="A8" />
+<theme idref="A9" />
+<clue>The amount of trypsin-resistant fragments was proportional to receptor occupancy by the ligand, and allowed the determination of <clueType>dissociation</clueType> constants (kDa).</clue>
+<comment>SOO, NO COREFTHEME, NO COREFCAUSE</comment>
+</event>
+<sentence id="S7">Using the <cons sem="(OR Protein_family_or_group Protein_family_or_group)" id="T21" lex="(OR wild-type_human_retinoic_acid_receptor_alpha mutated_human_retinoic_acid_receptor_alpha)"><frag id="F8">wild-type</frag> or <frag id="F9">mutated</frag> <frag id="F10">human retinoic acid receptor alpha</frag></cons> as a model, <term sem="Other" id="T22" lex="kDa_values"><term sem="Other" id="T23" lex="kDa">kDa</term> values</term> determined by classical competition binding assays using tritiated ligands are in agreement with those measured by the <term sem="Other" id="T24" lex="proteolytic_assay">proteolytic assay</term>.</sentence>
+<sentence id="S8">This method was successfully extended to <term sem="Protein_molecule" id="T25" lex="human_retinoic_X_receptor_alpha">human retinoic X receptor alpha</term>, <term sem="Protein_family_or_group" id="T26" lex="glucocorticoid_receptor">glucocorticoid receptor</term>, and <term sem="Protein_family_or_group" id="T27" lex="progesterone_receptor">progesterone receptor</term>, thus providing a basis for a new, faster assay to determine simultaneously the affinity and conformation of <term sem="Protein_family_or_group" id="A10">receptors</term> when bound to <term sem="Other" id="A11">a given ligand</term>.</sentence>
+<event id="E14">
+<type class="Binding" />
+<theme idref="A10" />
+<theme idref="A11" />
+<clue>This method was successfully extended to human retinoic X receptor alpha, glucocorticoid receptor, and progesterone receptor, thus providing a basis for a new, faster assay to determine simultaneously the affinity and conformation of receptors when <clueType>bound</clueType> <linkTheme>to</linkTheme> a given ligand.</clue>
+<comment>OK</comment>
+</event>
+<event id="E15">
+<type class="Protein_metabolism" />
+<theme idref="A10" />
+<clue>This method was successfully extended to human retinoic X receptor alpha, glucocorticoid receptor, and progesterone receptor, thus providing a basis for a new, faster assay to determine simultaneously the affinity and <clueType>conformation</clueType> <linkTheme>of</linkTheme> receptors when bound to a given ligand.</clue>
+</event>
+<event uncertainty="doubtful" id="E16">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="E14" />
+<clue><clueExperiment>This method</clueExperiment> was successfully extended to human retinoic X receptor alpha, glucocorticoid receptor, and progesterone receptor, thus providing a basis for <clueExperiment>a new, faster assay</clueExperiment> to determine simultaneously the affinity and conformation of receptors <linkCause>when</linkCause> bound to a given ligand.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

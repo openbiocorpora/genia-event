@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="12/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7969177" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7969177</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A factor that regulates the <term sem="DNA_family_or_group" id="T1" lex="class_II_major_histocompatibility_complex_gene">class II major histocompatibility complex gene</term> <term sem="DNA_domain_or_region" id="T2" lex="DPA">DPA</term> is a <term sem="Protein_family_or_group" id="A1">member of a subfamily of <term sem="Protein_family_or_group" id="T3" lex="zinc_finger_protein">zinc finger proteins</term></term> that includes a <term sem="Protein_family_or_group" id="T4" lex="Drosophila_developmental_control_protein">Drosophila developmental control protein</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T2" />
+<cause idref="A1" />
+<clue><corefCause>A factor</corefCause> that <clueType>regulates</clueType> the class II major histocompatibility complex gene DPA is a member of a subfamily of zinc finger proteins that includes a Drosophila developmental control protein.</clue>
+<comment>TPS: A1</comment>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="T2" />
+<cause idref="T4" />
+<clue>A factor that <clueType>regulates</clueType> the class II major histocompatibility complex gene DPA is a <corefCause>member of a subfamily of zinc finger proteins</corefCause> that includes a Drosophila developmental control protein.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A novel <term sem="DNA_domain_or_region" id="T5" lex="DNA_sequence_element">DNA sequence element</term> termed the <term sem="DNA_domain_or_region" id="T6" lex="J_element">J element</term> involved in the regulated expression of <term sem="DNA_family_or_group" id="T7" lex="class_II_major_histocompatibility_complex_gene">class II major histocompatibility complex genes</term> was recently described.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue>A novel DNA sequence element termed the J element involved in the regulated <clueType>expression</clueType> <linkTheme>of</linkTheme> class II major histocompatibility complex genes was recently described.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E3" />
+<clue>A novel DNA sequence element termed the J element involved in the <clueType>regulated</clueType> expression of class II major histocompatibility complex genes was recently described.</clue>
+</event>
+<event id="E5">
+<type class="Correlation" />
+<theme idref="E4" />
+<theme idref="T6" />
+<clue>A novel DNA sequence element termed the J element <clueType>involved</clueType> <linkTheme>in</linkTheme> the regulated expression of class II major histocompatibility complex genes was recently described.</clue>
+</event>
+<sentence id="S3">To study this element and its role in <term sem="Other" id="T8" lex="class_II_gene_regulation"><term sem="DNA_family_or_group" id="T9" lex="class_II_gene">class II gene</term> regulation</term> further, a <term sem="DNA_family_or_group" id="T10" lex="cDNA_library">cDNA library</term> was screened with <term sem="Polynucleotide" id="T11" lex="oligonucleotide_probe">oligonucleotide probes</term> containing both the <term sem="DNA_domain_or_region" id="T12" lex="S_element">S element</term> and the nearby <term sem="DNA_domain_or_region" id="T13" lex="J_element">J element</term> of the <term sem="DNA_domain_or_region" id="T14" lex="human_DPA_gene">human DPA gene</term>.</sentence>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="T9" />
+<clue>To study this element and its role in class II gene <clueType>regulation</clueType> further, a cDNA library was screened with oligonucleotide probes containing both the S element and the nearby J element of the human DPA gene.</clue>
+</event>
+<event uncertainty="doubtful" id="E7">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="T6" />
+<clue>To study this element and <corefCause>its</corefCause> <clueType>role</clueType> <linkTheme>in</linkTheme> class II gene regulation further, <clueExperiment>a cDNA library was screened with oligonucleotide probes containing both the S element and the nearby J element of the human DPA gene.</clueExperiment></clue>
+</event>
+<sentence id="S4">Several <term sem="DNA_molecule" id="T15" lex="DNA_clone">DNA clones</term> were obtained by this procedure, one of which, <term sem="DNA_molecule" id="T16" lex="clone_18">clone 18</term>, is reported and characterized here.</sentence>
+<sentence id="S5">It encodes a protein predicted to contain <term sem="Peptide" id="T17" lex="688_amino_acid_residue">688 amino acid residues</term>, including 11 <term sem="Protein_substructure" id="T18" lex="zinc_finger_motif">zinc finger motifs</term> of the <term sem="Protein_substructure" id="T19" lex="C2H2_type">C2H2 type</term> in the <term sem="Protein_domain_or_region" id="T20" lex="C-terminal_region">C-terminal region</term>, that are Kruppel-like in the conservation of the <term sem="Protein_domain_or_region" id="T21" lex="H/C_link_sequence">H/C link sequence</term> connecting them.</sentence>
+<sentence id="S6">The <term sem="Protein_domain_or_region" id="T22" lex="160_N-terminal_amino_acid">160 N-terminal amino acids</term> in the <term sem="Protein_domain_or_region" id="T23" lex="nonfinger_region">nonfinger region</term> of <term sem="Protein_molecule" id="T24" lex="clone_18">clone 18</term> are highly homologous with similar regions of several other <cons sem="(AND DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region)" id="T25" lex="(AND human_sequence mouse_sequence Drosophila_sequence)"><frag id="F1">human</frag>, <frag id="F2">mouse</frag>, and <frag id="F3">Drosophila</frag> <frag id="F4">sequences</frag></cons>, defining a subfamily of Kruppel-like <term sem="Protein_family_or_group" id="T26" lex="zinc_finger_protein">zinc finger proteins</term> termed <term sem="Protein_family_or_group" id="T27" lex="TAB">TAB</term> (<term sem="Protein_family_or_group" id="T28" lex="tramtrack_[ttk]-associated_box">tramtrack [ttk]-associated box</term>) here.</sentence>
+<sentence id="S7">One of the <term sem="DNA_domain_or_region" id="T29" lex="Drosophila_sequence">Drosophila sequences</term>, <term sem="DNA_domain_or_region" id="T30" lex="ttk">ttk</term>, is a <term sem="DNA_family_or_group" id="T31" lex="developmental_control_gene">developmental control gene</term>, while a second does not contain a <term sem="Protein_domain_or_region" id="T32" lex="zinc_finger_region">zinc finger region</term> but encodes a structure important in <term sem="Other" id="T33" lex="oocyte_development"><term sem="Cell_natural" id="A2">oocyte</term> development</term>.</sentence>
+<event id="E8">
+<type class="Cellular_physiological_process" />
+<theme idref="A2" />
+<clue>One of the Drosophila sequences, ttk, is a developmental control gene, while a second does not contain a zinc finger region but encodes a structure important in oocyte <clueType>development</clueType>.</clue>
+</event>
+<sentence id="S8">An <term sem="Protein_domain_or_region" id="T34" lex="acidic_activation_domain">acidic activation domain</term> is located between the <term sem="Protein_domain_or_region" id="T35" lex="N-terminal_conserved_region">N-terminal conserved region</term> of <term sem="Protein_molecule" id="T36" lex="clone_18">clone 18</term> and its <term sem="Protein_substructure" id="T37" lex="zinc_finger">zinc fingers</term>.</sentence>
+<sentence id="S9">This protein appears to require both the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T38" lex="(AND S_element J_element)"><frag id="F5"><term sem="DNA_domain_or_region" id="A3">S</term></frag> and <frag id="F6"><term sem="DNA_domain_or_region" id="A4">J</term></frag> <frag id="F7"><term sem="DNA_domain_or_region" id="A5">elements</term></frag></cons>, which are separated by <term sem="Polynucleotide" id="T39" lex="10_bp">10 bp</term> for optimal binding.</sentence>
+<event uncertainty="probable" id="E9">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<cause idref1="A5" idref="A3" />
+<clue><corefTheme>This protein</corefTheme> appears to <clueType>require</clueType> both the S and J elements, which are separated by 10 bp for optimal binding.</clue>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<cause idref1="A5" idref="A4" />
+<clue><corefTheme>This protein</corefTheme> appears to <clueType>require</clueType> both the S and J elements, which are separated by 10 bp for optimal binding.</clue>
+</event>
+<sentence id="S10"><term sem="DNA_family_or_group" id="A6"><term sem="DNA_family_or_group" id="A8">Antisense cDNA</term> to <term sem="Protein_molecule" id="T40" lex="clone_18">clone 18</term></term> inhibited the expression of a <term sem="DNA_domain_or_region" id="A7">reporter construct containing the <term sem="DNA_domain_or_region" id="T41" lex="DPA_promoter"><term sem="DNA_domain_or_region" id="T42" lex="DPA">DPA</term> promoter</term></term>, indicating its functional importance in the expression of this <term sem="DNA_family_or_group" id="T43" lex="class_II_gene">class II gene</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="A7" />
+<clue>Antisense cDNA to clone 18 inhibited the <clueType>expression</clueType> <linkTheme>of</linkTheme> a reporter construct containing the DPA promoter, indicating its functional importance in the expression of this class II gene.</clue>
+<comment>TPS: A7</comment>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="A6" />
+<clue>Antisense cDNA to clone 18 <clueType>inhibited</clueType> the expression of a reporter construct containing the DPA promoter, indicating its functional importance in the expression of this class II gene.</clue>
+<comment>TPS: A6</comment>
+</event>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Antisense cDNA to clone 18 inhibited the expression of a reporter construct containing the DPA promoter, indicating its functional importance in the <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>this class II gene</corefTheme>.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T4" />
+<clue>Antisense cDNA to clone 18 inhibited the expression of a reporter construct containing the DPA promoter, indicating <corefCause>its</corefCause> functional <clueType>importance</clueType> <linkTheme>in</linkTheme> the expression of this class II gene.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

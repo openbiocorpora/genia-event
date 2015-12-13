@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="15/11/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1715516"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1715516</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="nuclear_association">Nuclear association</term> of a <term sem="Protein_complex" id="T2" lex="T-cell_transcription_factor">T-cell transcription factor</term> blocked by <term sem="Organic_compound_other" id="T3" lex="FK-506">FK-506</term> and <term sem="Organic_compound_other" id="T4" lex="cyclosporin_A">cyclosporin A</term> [see comments]</sentence>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Protein_metabolism" />
+<theme idref="T2" />
+<clue><clueLoc>Nuclear</clueLoc> <clueType>association</clueType> <linkTheme>of</linkTheme> a T-cell transcription factor blocked by FK-506 and cyclosporin A [see comments]</clue>
+<comment>NER: T2 sem mod, Protein_family_or_group -&gt; Protein_complex</comment></event>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T3" />
+<clue>Nuclear association of a T-cell transcription factor <clueType>blocked</clueType> <linkCause>by</linkCause> FK-506 and cyclosporin A [see comments]</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T4" />
+<clue>Nuclear association of a T-cell transcription factor <clueType>blocked</clueType> <linkCause>by</linkCause> FK-506 and cyclosporin A [see comments]</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Organic_compound_other" id="T5" lex="cyclosporin_A">Cyclosporin A</term> and <term sem="Organic_compound_other" id="T6" lex="FK506">FK506</term> inhibit <cons sem="(AND Other Other)" id="C1" lex="(AND T-cell_activation B-cell_activation)"><frag id="F1">T-</frag> and <frag id="F2">B-</frag><frag id="F3">cell</frag> <frag id="F4">activation</frag></cons> and other <term sem="Other" id="A4">processes</term> essential to an <term sem="Other" id="T8" lex="effective_immune_response">effective immune response</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E4">
+<type class="Negative_regulation" />
+<theme idref="E10" />
+<cause idref="T5" />
+<clue>Cyclosporin A and FK506 <clueType>inhibit</clueType> T- and B-cell activation and other processes essential to an effective immune response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E5">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="T5" />
+<clue>Cyclosporin A and FK506 <clueType>inhibit</clueType> T- and B-cell activation and other processes essential to an effective immune response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E6">
+<type class="Negative_regulation" />
+<theme idref="A4" />
+<cause idref="T5" />
+<clue>Cyclosporin A and FK506 <clueType>inhibit</clueType> T- and B-cell activation and other processes essential to an effective immune response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E7">
+<type class="Negative_regulation" />
+<theme idref="E10" />
+<cause idref="T6" />
+<clue>Cyclosporin A and FK506 <clueType>inhibit</clueType> T- and B-cell activation and other processes essential to an effective immune response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E8">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="T6" />
+<clue>Cyclosporin A and FK506 <clueType>inhibit</clueType> T- and B-cell activation and other processes essential to an effective immune response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E9">
+<type class="Negative_regulation" />
+<theme idref="A4" />
+<cause idref="T6" />
+<clue>Cyclosporin A and FK506 <clueType>inhibit</clueType> T- and B-cell activation and other processes essential to an effective immune response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E10">
+<type class="Physiological_process" />
+<theme idref1="F3" idref="F1" />
+<clue>Cyclosporin A and FK506 inhibit T- and B-cell <clueType>activation</clueType> and other processes essential to an effective immune response.</clue>
+<comment>NER: T7 del &quot;T- and B-cell activation&quot;</comment></event>
+<event assertion="exist" uncertainty="certain" id="E11">
+<type class="Physiological_process" />
+<theme idref1="F3" idref="F2" />
+<clue>Cyclosporin A and FK506 inhibit T- and B-cell <clueType>activation</clueType> and other processes essential to an effective immune response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="E10" />
+<clue>Cyclosporin A and FK506 inhibit T- and B-cell activation and other processes <clueType>essential</clueType> <linkTheme>to</linkTheme> an effective immune response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="E11" />
+<clue>Cyclosporin A and FK506 inhibit T- and B-cell activation and other processes <clueType>essential</clueType> <linkTheme>to</linkTheme> an effective immune response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E14">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="A4" />
+<clue>Cyclosporin A and FK506 inhibit T- and B-cell activation and other processes <clueType>essential</clueType> <linkTheme>to</linkTheme> an effective immune response.</clue>
+</event>
+<sentence id="S3">In <term sem="Cell_natural" id="T9" lex="T_lymphocyte">T lymphocytes</term> these drugs disrupt an unknown step in the transmission of signals from the <term sem="Protein_family_or_group" id="T10" lex="T-cell_antigen_receptor">T-cell antigen receptor</term> to <term sem="DNA_family_or_group" id="T11" lex="cytokine_gene">cytokine genes</term> that coordinate the <term sem="Other" id="T12" lex="immune_response">immune response</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E15">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="T5" />
+<clue><clueLoc>In T lymphocytes</clueLoc> <corefCause>these drugs</corefCause> <clueType>disrupt</clueType> an unknown step <linkTheme>in</linkTheme> the transmission of signals from the T-cell antigen receptor to cytokine genes that coordinate the immune response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E16">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="T6" />
+<clue><clueLoc>In T lymphocytes</clueLoc> <corefCause>these drugs</corefCause> <clueType>disrupt</clueType> an unknown step <linkTheme>in</linkTheme> the transmission of signals from the T-cell antigen receptor to cytokine genes that coordinate the immune response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E17">
+<type class="Cell_communication" />
+<theme idref="T10" />
+<theme idref="T11" />
+<clue>In T lymphocytes these drugs disrupt an unknown step in the <clueType>transmission of signals</clueType> <linkTheme>from</linkTheme> the T-cell antigen receptor <linkTheme>to</linkTheme> cytokine genes that coordinate the immune response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E18">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="T11" />
+<clue>In T lymphocytes these drugs disrupt an unknown step in the transmission of signals from the T-cell antigen receptor to cytokine genes that <clueType>coordinate</clueType> the immune response.</clue>
+</event>
+<sentence id="S4">The <term sem="Protein_family_or_group" id="T13" lex="putative_intracellular_receptor">putative intracellular receptors</term> for <term sem="Organic_compound_other" id="T14" lex="FK506">FK506</term> and <term sem="Organic_compound_other" id="T15" lex="cyclosporin">cyclosporin</term> are <term sem="Protein_family_or_group" id="T16" lex="cis-trans_prolyl_isomerase">cis-trans prolyl isomerases</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E19">
+<type class="Negative_regulation" />
+<theme idref="T16" />
+<cause idref="T14" />
+<clue>The <clueType>putative</clueType> intracellular receptors for FK506 and cyclosporin are cis-trans prolyl isomerases.</clue>
+<comment>CAUTION: c/o E15; NER: T16 sem mod, Other_organic_compound -&gt; Protein_family_or_group</comment></event>
+<event assertion="exist" uncertainty="certain" id="E20">
+<type class="Negative_regulation" />
+<theme idref="T16" />
+<cause idref="T15" />
+<clue>The <clueType>putative</clueType> intracellular receptors for FK506 and cyclosporin are cis-trans prolyl isomerases.</clue>
+<comment>CAUTION: c/o E15; NER: T16 sem mod, Other_organic_compound -&gt; Protein_family_or_group</comment></event>
+<sentence id="S5">Binding of the drug inhibits <term sem="Other" id="T17" lex="isomerase_activity"><term sem="Protein_family_or_group" id="T18" lex="isomerase">isomerase</term> activity</term>, but studies with other <term sem="Organic_compound_other" id="T19" lex="prolyl_isomerase_inhibitor">prolyl <term sem="Protein_family_or_group" id="T20" lex="isomerase">isomerase</term> inhibitors</term> and analysis of <term sem="Unicellular_organism" id="T21" lex="cyclosporin-resistant_mutant"><term sem="Organic_compound_other" id="T22" lex="cyclosporin">cyclosporin</term>-resistant mutants</term> in <term sem="Unicellular_organism" id="T23" lex="yeast">yeast</term> suggest that the effects of the drug result from the formation of an <term sem="Protein_complex" id="T24" lex="inhibitory_complex">inhibitory complex</term> between the drug and <term sem="Protein_family_or_group" id="T25" lex="isomerase">isomerase</term>, and not from inhibition of <term sem="Other" id="T26" lex="isomerase_activity"><term sem="Protein_family_or_group" id="T27" lex="isomerase">isomerase</term> activity</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E21">
+<type class="Binding" />
+<theme idref="T14" />
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> <corefTheme>the drug</corefTheme> inhibits isomerase activity, but studies with other prolyl isomerase inhibitors and analysis of cyclosporin-resistant mutants in yeast suggest that the effects of the drug result from the formation of an inhibitory complex between the drug and isomerase, and not from inhibition of isomerase activity.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E22">
+<type class="Binding" />
+<theme idref="T15" />
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> <corefTheme>the drug</corefTheme> inhibits isomerase activity, but studies with other prolyl isomerase inhibitors and analysis of cyclosporin-resistant mutants in yeast suggest that the effects of the drug result from the formation of an inhibitory complex between the drug and isomerase, and not from inhibition of isomerase activity.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E23">
+<type class="Negative_regulation" />
+<theme idref="T18" />
+<cause idref="E21" />
+<clue>Binding of the drug <clueType>inhibits</clueType> isomerase activity, but studies with other prolyl isomerase inhibitors and analysis of cyclosporin-resistant mutants in yeast suggest that the effects of the drug result from the formation of an inhibitory complex between the drug and isomerase, and not from inhibition of isomerase activity.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E24">
+<type class="Negative_regulation" />
+<theme idref="T18" />
+<cause idref="E22" />
+<clue>Binding of the drug <clueType>inhibits</clueType> isomerase activity, but studies with other prolyl isomerase inhibitors and analysis of cyclosporin-resistant mutants in yeast suggest that the effects of the drug result from the formation of an inhibitory complex between the drug and isomerase, and not from inhibition of isomerase activity.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E25">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E27" />
+<clue>Binding of the drug inhibits isomerase activity, but <clueExperiment>studies with other prolyl isomerase inhibitors and analysis of cyclosporin-resistant mutants in yeast</clueExperiment> suggest that the <corefTheme>effects of the drug</corefTheme> <clueType>result</clueType> <linkCause>from</linkCause> the formation of an inhibitory complex between the drug and isomerase, and not from inhibition of isomerase activity.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E26">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E28" />
+<clue>Binding of the drug inhibits isomerase activity, but <clueExperiment>studies with other prolyl isomerase inhibitors and analysis of cyclosporin-resistant mutants in yeast</clueExperiment> suggest that the <corefTheme>effects of the drug</corefTheme> <clueType>result</clueType> <linkCause>from</linkCause> the formation of an inhibitory complex between the drug and isomerase, and not from inhibition of isomerase activity.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E27">
+<type class="Binding" />
+<theme idref="T14" />
+<theme idref="T25" />
+<clue>Binding of the drug inhibits isomerase activity, but studies with other prolyl isomerase inhibitors and analysis of cyclosporin-resistant mutants in yeast suggest that the effects of the drug result from the <clueType>formation of</clueType> an inhibitory <clueType>complex</clueType> <linkTheme>between</linkTheme> <corefTheme>the drug</corefTheme> and isomerase, and not from inhibition of isomerase activity.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E28">
+<type class="Binding" />
+<theme idref="T15" />
+<theme idref="T25" />
+<clue>Binding of the drug inhibits isomerase activity, but studies with other prolyl isomerase inhibitors and analysis of cyclosporin-resistant mutants in yeast suggest that the effects of the drug result from the <clueType>formation of</clueType> an inhibitory <clueType>complex</clueType> <linkTheme>between</linkTheme> <corefTheme>the drug</corefTheme> and isomerase, and not from inhibition of isomerase activity.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E31">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E33" />
+<clue>Binding of the drug inhibits isomerase activity, but <clueExperiment>studies with other prolyl isomerase inhibitors and analysis of cyclosporin-resistant mutants in yeast</clueExperiment> suggest that the <corefTheme>effects of the drug</corefTheme> <clueType>result</clueType> from the formation of an inhibitory complex between the drug and isomerase, and not <linkCause>from</linkCause> inhibition of isomerase activity.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E32">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E34" />
+<clue>Binding of the drug inhibits isomerase activity, but <clueExperiment>studies with other prolyl isomerase inhibitors and analysis of cyclosporin-resistant mutants in yeast</clueExperiment> suggest that the <corefTheme>effects of the drug</corefTheme> <clueType>result</clueType> from the formation of an inhibitory complex between the drug and isomerase, and not <linkCause>from</linkCause> inhibition of isomerase activity.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E33">
+<type class="Negative_regulation" />
+<theme idref="T27" />
+<cause idref="T14" />
+<clue>Binding of the drug inhibits isomerase activity, but studies with other prolyl isomerase inhibitors and analysis of cyclosporin-resistant mutants in yeast suggest that the effects of the drug result from the formation of an inhibitory complex between the drug and isomerase, and not from <clueType>inhibition</clueType> <linkTheme>of</linkTheme> isomerase activity.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event assertion="exist" uncertainty="certain" id="E34">
+<type class="Negative_regulation" />
+<theme idref="T27" />
+<cause idref="T15" />
+<clue>Binding of the drug inhibits isomerase activity, but studies with other prolyl isomerase inhibitors and analysis of cyclosporin-resistant mutants in yeast suggest that the effects of the drug result from the formation of an inhibitory complex between the drug and isomerase, and not from <clueType>inhibition</clueType> <linkTheme>of</linkTheme> isomerase activity.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<sentence id="S6">A <term sem="Protein_family_or_group" id="T28" lex="transcription_factor">transcription factor</term>, <term sem="Protein_molecule" id="T29" lex="NF-AT">NF-AT</term>, which is essential for early <term sem="Other" id="T30" lex="T-cell_gene_activation"><term sem="DNA_domain_or_region" id="A5">T-cell gene</term> activation</term>, seems to be a specific target of <term sem="Organic_compound_other" id="T31" lex="cyclosporin_A"><term sem="Organic_compound_other" id="T32" lex="cyclosporin">cyclosporin</term> A</term> and <term sem="Other" id="T33" lex="FK506_action"><term sem="Organic_compound_other" id="T34" lex="FK506">FK506</term> action</term> because <term sem="Other" id="T35" lex="transcription">transcription</term> directed by this protein is blocked in <term sem="Cell_natural" id="T36" lex="T_cell">T cells</term> treated with these drugs, with little or no effect on other <term sem="Protein_family_or_group" id="T37" lex="transcription_factor">transcription factors</term> such as <term sem="Protein_molecule" id="T38" lex="AP-1">AP-1</term> and <term sem="Protein_molecule" id="T39" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E35">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="T29" />
+<clue>A transcription factor, NF-AT, which is <clueType>essential</clueType> <linkTheme>for</linkTheme> <clueTime>early</clueTime> <clueLoc>T-cell</clueLoc> gene activation, seems to be a specific target of cyclosporin A and FK506 action because transcription directed by this protein is blocked in T cells treated with these drugs, with little or no effect on other transcription factors such as AP-1 and NF-kappa B.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E30">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<clue>A transcription factor, NF-AT, which is essential for early T-cell gene <clueType>activation</clueType>, seems to be a specific target of cyclosporin A and FK506 action because transcription directed by this protein is blocked in T cells treated with these drugs, with little or no effect on other transcription factors such as AP-1 and NF-kappa B.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E36">
+<type class="Regulation" />
+<theme idref="T29" />
+<cause idref="T31" />
+<clue>A transcription factor, NF-AT, which is essential for early T-cell gene activation, seems to be a specific <clueType>target</clueType> <linkCause>of</linkCause> cyclosporin A and FK506 <clueType>action</clueType> because transcription directed by this protein is blocked in T cells treated with these drugs, with little or no effect on other transcription factors such as AP-1 and NF-kappa B.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E37">
+<type class="Regulation" />
+<theme idref="T29" />
+<cause idref="T34" />
+<clue>A transcription factor, NF-AT, which is essential for early T-cell gene activation, seems to be a specific <clueType>target</clueType> <linkCause>of</linkCause> cyclosporin A and FK506 <clueType>action</clueType> because transcription directed by this protein is blocked in T cells treated with these drugs, with little or no effect on other transcription factors such as AP-1 and NF-kappa B.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E38">
+<type class="Regulation" />
+<theme idref="T35" />
+<cause idref="T29" />
+<clue>A transcription factor, NF-AT, which is essential for early T-cell gene activation, seems to be a specific target of cyclosporin A and FK506 action because transcription <clueType>directed</clueType> <linkCause>by</linkCause> <corefCause>this protein</corefCause> is blocked in T cells treated with these drugs, with little or no effect on other transcription factors such as AP-1 and NF-kappa B.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E39">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="T31" />
+<clue>A transcription factor, NF-AT, which is essential for early T-cell gene activation, seems to be a specific target of cyclosporin A and FK506 action because transcription directed by this protein is <clueType>blocked</clueType> <clueLoc>in T cells</clueLoc> <linkCause>treated with</linkCause> these drugs, with little or no effect on other transcription factors such as AP-1 and NF-kappa B.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E40">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="T34" />
+<clue>A transcription factor, NF-AT, which is essential for early T-cell gene activation, seems to be a specific target of cyclosporin A and FK506 action because transcription directed by this protein is <clueType>blocked</clueType> <clueLoc>in T cells</clueLoc> <linkCause>treated with</linkCause> these drugs, with little or no effect on other transcription factors such as AP-1 and NF-kappa B.</clue>
+</event>
+<event assertion="non-exist" uncertainty="certain" id="E41">
+<type class="Negative_regulation" />
+<theme idref="T38" />
+<cause idref="T31" />
+<clue>A transcription factor, NF-AT, which is essential for early T-cell gene activation, seems to be a specific target of cyclosporin A and FK506 action because transcription directed by this protein is blocked in T cells treated with these drugs, with little or no <clueType>effect</clueType> <linkTheme>on</linkTheme> other <corefTheme>transcription factors</corefTheme> such as AP-1 and NF-kappa B.</clue>
+<comment>CAUTION: Negative, from the context</comment></event>
+<event assertion="non-exist" uncertainty="certain" id="E42">
+<type class="Negative_regulation" />
+<theme idref="T39" />
+<cause idref="T31" />
+<clue>A transcription factor, NF-AT, which is essential for early T-cell gene activation, seems to be a specific target of cyclosporin A and FK506 action because transcription directed by this protein is blocked in T cells treated with these drugs, with little or no <clueType>effect</clueType> <linkTheme>on</linkTheme> other <corefTheme>transcription factors</corefTheme> such as AP-1 and NF-kappa B.</clue>
+<comment>CAUTION: Negative, from the context</comment></event>
+<event assertion="non-exist" uncertainty="certain" id="E43">
+<type class="Negative_regulation" />
+<theme idref="T38" />
+<cause idref="T34" />
+<clue>A transcription factor, NF-AT, which is essential for early T-cell gene activation, seems to be a specific target of cyclosporin A and FK506 action because transcription directed by this protein is blocked in T cells treated with these drugs, with little or no <clueType>effect</clueType> <linkTheme>on</linkTheme> other <corefTheme>transcription factors</corefTheme> such as AP-1 and NF-kappa B.</clue>
+<comment>CAUTION: Negative, from the context</comment></event>
+<event assertion="non-exist" uncertainty="certain" id="E44">
+<type class="Negative_regulation" />
+<theme idref="T39" />
+<cause idref="T34" />
+<clue>A transcription factor, NF-AT, which is essential for early T-cell gene activation, seems to be a specific target of cyclosporin A and FK506 action because transcription directed by this protein is blocked in T cells treated with these drugs, with little or no <clueType>effect</clueType> <linkTheme>on</linkTheme> other <corefTheme>transcription factors</corefTheme> such as AP-1 and NF-kappa B.</clue>
+<comment>CAUTION: Negative, from the context</comment></event>
+<sentence id="S7">Here we demonstrate that <term sem="Protein_molecule" id="T40" lex="NF-AT">NF-AT</term> is formed when a signal from the <term sem="Protein_family_or_group" id="T41" lex="antigen_receptor">antigen receptor</term> induces a pre-existing cytoplasmic <term sem="Protein_molecule" id="A6">subunit</term> to translocate to the nucleus and combine with a newly synthesized nuclear <term sem="Protein_molecule" id="A7">subunit</term> of <term sem="Protein_molecule" id="A8"><term sem="Protein_molecule" id="T42" lex="NF-AT">NF-AT</term></term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E45">
+<type class="Protein_metabolism" />
+<theme idref="T40" />
+<clue>Here we demonstrate that NF-AT is <clueType>formed</clueType> when a signal from the antigen receptor induces a pre-existing cytoplasmic subunit to translocate to the nucleus and combine with a newly synthesized nuclear subunit of NF-AT.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E29">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="E47" />
+<clue>Here we demonstrate that NF-AT is formed <linkCause>when</linkCause> a signal from the antigen receptor induces a pre-existing cytoplasmic subunit to translocate to the nucleus and combine with a newly synthesized nuclear subunit of NF-AT.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E46">
+<type class="Cell_communication" />
+<theme idref="T41" />
+<clue>Here we demonstrate that NF-AT is formed when a <clueType>signal</clueType> <linkCause>from</linkCause> the antigen receptor induces a pre-existing cytoplasmic subunit to translocate to the nucleus and combine with a newly synthesized nuclear subunit of NF-AT.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E47">
+<type class="Positive_regulation" />
+<theme idref="E48" />
+<cause idref="E46" />
+<clue>Here we demonstrate that NF-AT is formed when a signal from the antigen receptor <clueType>induces</clueType> a pre-existing cytoplasmic subunit to translocate to the nucleus and combine with a newly synthesized nuclear subunit of NF-AT.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E48">
+<type class="Localization" />
+<theme idref1="A8" idref="A6" />
+<clue>Here we demonstrate that NF-AT is formed when a signal from the antigen receptor induces a pre-existing <clueLoc>cytoplasmic</clueLoc> subunit to <clueType>translocate</clueType> <clueLoc>to the nucleus</clueLoc> and combine with a newly synthesized nuclear subunit of NF-AT.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E49">
+<type class="Binding" />
+<theme idref1="A8" idref="A6" />
+<theme idref1="A8" idref="A7" />
+<clue>Here we demonstrate that NF-AT is formed when a signal from the antigen receptor induces a pre-existing cytoplasmic subunit to translocate to the <clueLoc>nucleus</clueLoc> and <clueType>combine</clueType> <linkTheme>with</linkTheme> a newly synthesized nuclear subunit of NF-AT.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E50">
+<type class="Gene_expression" />
+<theme idref1="A8" idref="A7" />
+<clue>Here we demonstrate that NF-AT is formed when a signal from the antigen receptor induces a pre-existing cytoplasmic subunit to translocate to the nucleus and combine with a newly <clueType>synthesized</clueType> <clueLoc>nuclear</clueLoc> subunit of NF-AT.</clue>
+</event>
+<sentence id="S8"><term sem="Organic_compound_other" id="T43" lex="FK506">FK506</term> and <term sem="Organic_compound_other" id="T44" lex="cyclosporin_A">cyclosporin A</term> block translocation of the <term sem="Protein_domain_or_region" id="T45" lex="cytoplasmic_component">cytoplasmic component</term> without affecting synthesis of the <term sem="Protein_molecule" id="T46" lex="nuclear_subunit">nuclear <term sem="Protein_molecule" id="A9">subunit</term></term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E51">
+<type class="Negative_regulation" />
+<theme idref="E53" />
+<cause idref="T43" />
+<clue>FK506 and cyclosporin A <clueType>block</clueType> translocation of the cytoplasmic component without affecting synthesis of the nuclear subunit.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E52">
+<type class="Negative_regulation" />
+<theme idref="E53" />
+<cause idref="T44" />
+<clue>FK506 and cyclosporin A <clueType>block</clueType> translocation of the cytoplasmic component without affecting synthesis of the nuclear subunit.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E53">
+<type class="Localization" />
+<theme idref1="A8" idref="A6" />
+<clue>FK506 and cyclosporin A block <clueType>translocation</clueType> <linkTheme>of</linkTheme> the <clueLoc>cytoplasmic</clueLoc> <corefTheme>component</corefTheme> without affecting synthesis of the nuclear subunit.</clue>
+</event>
+<event assertion="non-exist" uncertainty="certain" id="E54">
+<type class="Negative_regulation" />
+<theme idref="E56" />
+<cause idref="T43" />
+<clue>FK506 and cyclosporin A block translocation of the cytoplasmic component without <clueType>affecting</clueType> synthesis of the nuclear subunit.</clue>
+<comment>CAUTION: Negative, from the context</comment></event>
+<event assertion="non-exist" uncertainty="certain" id="E55">
+<type class="Negative_regulation" />
+<theme idref="E56" />
+<cause idref="T43" />
+<clue>FK506 and cyclosporin A block translocation of the cytoplasmic component without <clueType>affecting</clueType> synthesis of the nuclear subunit.</clue>
+<comment>CAUTION: Negative, from the context</comment></event>
+<event assertion="exist" uncertainty="certain" id="E56">
+<type class="Gene_expression" />
+<theme idref="A9" />
+<clue>FK506 and cyclosporin A block translocation of the cytoplasmic component without affecting <clueType>synthesis</clueType> <linkTheme>of</linkTheme> the <clueLoc>nuclear</clueLoc> subunit.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

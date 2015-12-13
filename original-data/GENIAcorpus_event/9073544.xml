@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="20/07/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9073544"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9073544</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Cell_natural" id="T1" lex="T-lymphocyte">T-lymphocytes</term> from individuals with <term sem="Other" id="T2" lex="filarial_inflammatory_disease">filarial inflammatory disease</term> have increased <term sem="Other" id="T3" lex="transendothelial_migration">transendothelial migration</term> in vitro.</sentence>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Cellular_physiological_process" />
+<theme idref="T1" />
+<clue>T-lymphocytes from individuals with filarial inflammatory disease have increased <clueLoc>transendothelial</clueLoc> <clueType>migration</clueType> in vitro.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue>T-lymphocytes from <clueLoc>individuals with filarial inflammatory disease</clueLoc> have <clueType>increased</clueType> transendothelial migration in vitro.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Other" id="T4" lex="in_vitro_transendothelial_migration">in vitro <term sem="Other" id="T5" lex="transendothelial_migration">transendothelial migration</term></term> of <term sem="Cell_natural" id="T6" lex="circulating_filarial_antigen-specific_T-cell">circulating filarial antigen-specific T-cells</term> was examined in <term sem="Other" id="T7" lex="Wuchereria_banerofti_infection"><term sem="Unicellular_organism" id="T8" lex="Wuchereria_banerofti">Wuchereria banerofti</term> infection</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="UNCLASSIFIED" />
+<theme idref="T8" />
+<clue>The in vitro transendothelial migration of circulating filarial antigen-specific T-cells was examined in Wuchereria banerofti <clueType>infection</clueType>.</clue>
+<comment>SOO: bacterial infection</comment></event>
+<event assertion="exist" uncertainty="doubtful" id="E4">
+<type class="Cellular_physiological_process" />
+<theme idref="T6" />
+<clue>The in vitro <clueLoc>transendothelial</clueLoc> <clueType>migration</clueType> <linkTheme>of</linkTheme> circulating filarial antigen-specific T-cells was examined <clueTime>in Wuchereria banerofti infection</clueTime>.</clue>
+</event>
+<sentence id="S3"><term sem="Cell_natural" id="T9" lex="circulating_T-cell">Circulating T-cells</term> from individuals with <term sem="Other" id="T10" lex="filaria-induced_lymphatic_pathology">filaria-induced lymphatic pathology</term> (<term sem="Other" id="T11" lex="LP">LP</term>) had significantly greater migration through unstimulated <term sem="Cell_natural" id="T12" lex="HUVEC_monolayer">HUVEC monolayers</term> than did <term sem="Cell_natural" id="A2">T-cells from <term sem="Multicellular_organism_natural" id="T13" lex="asymptomatic_infected_(MF)_individual">asymptomatic infected (MF) individuals</term></term> (P = 0.04).</sentence>
+<event assertion="exist" uncertainty="certain" id="E5">
+<type class="Cellular_physiological_process" />
+<theme idref="T9" />
+<clue>Circulating T-cells from individuals with filaria-induced lymphatic pathology (LP) had significantly greater <clueType>migration</clueType> <clueLoc>through unstimulated HUVEC monolayers</clueLoc> than did T-cells from asymptomatic infected (MF) individuals (P = 0.04).</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E6">
+<type class="Cellular_physiological_process" />
+<theme idref="A2" />
+<clue>Circulating T-cells from individuals with filaria-induced lymphatic pathology (LP) had significantly greater <clueType>migration</clueType> <clueLoc>through unstimulated HUVEC monolayers</clueLoc> than did T-cells from asymptomatic infected (MF) individuals (P = 0.04).</clue>
+<comment>TPS: A2</comment></event>
+<event assertion="exist" uncertainty="certain" id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<clue>Circulating T-cells <clueLoc>from individuals with filaria-induced lymphatic pathology (LP)</clueLoc> had significantly <clueType>greater</clueType> migration through unstimulated HUVEC monolayers than did T-cells from asymptomatic infected (MF) individuals (P = 0.04).</clue>
+</event>
+<sentence id="S4">In contrast to the <term sem="Multicellular_organism_natural" id="T14" lex="MF_individual">MF individuals</term> where no effect was seen, <term sem="Other" id="T15" lex="transendothelial_migration">transendothelial migration</term> of 48-hr <term sem="Protein_molecule" id="A3">filarial antigen</term> stimulated <term sem="Cell_natural" id="A4">T-cells from <term sem="Multicellular_organism_natural" id="T17" lex="LP_individual"><term sem="Other" id="T18" lex="LP">LP</term> individuals</term></term> was significantly (P = 0.01) greater than migration of 48-hr <term sem="Cell_natural" id="T19" lex="media-stimulated_T-cell"><term sem="Organic_compound_other" id="A5">media</term>-stimulated T-cells</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E8">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<cause idref="A3" />
+<clue>In contrast to the MF individuals where no effect was seen, transendothelial migration of 48-hr filarial antigen <clueType>stimulated</clueType> T-cells from LP individuals was significantly (P = 0.01) greater than migration of 48-hr media-stimulated T-cells.</clue>
+<comment>NER: T16 DEL, TPS: A4</comment></event>
+<event assertion="exist" uncertainty="certain" id="E9">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<cause idref="A5" />
+<clue>In contrast to the MF individuals where no effect was seen, transendothelial migration of 48-hr filarial antigen stimulated T-cells from LP individuals was significantly (P = 0.01) greater than migration of 48-hr media-<clueType>stimulated</clueType> <corefTheme>T-cells</corefTheme>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E109">
+<type class="Cellular_physiological_process" />
+<theme idref="A4" />
+<clue>In contrast to the MF individuals where no effect was seen, <clueLoc>transendothelial</clueLoc> <clueType>migration</clueType> <linkTheme>of</linkTheme> 48-hr filarial antigen stimulated T-cells from LP individuals was significantly (P = 0.01) greater than migration of 48-hr media-stimulated T-cells.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E110">
+<type class="Positive_regulation" />
+<theme idref="E109" />
+<cause idref="E8" />
+<clue>In contrast to the MF individuals where no effect was seen, transendothelial migration of 48-hr filarial antigen stimulated T-cells from LP individuals was significantly (P = 0.01) greater than migration of 48-hr media-stimulated T-cells.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event assertion="exist" uncertainty="certain" id="E112">
+<type class="Positive_regulation" />
+<theme idref="E109" />
+<cause idref="E9" />
+<clue>In contrast to the MF individuals where no effect was seen, transendothelial migration of 48-hr filarial antigen stimulated T-cells from LP individuals was significantly (P = 0.01) greater than migration of 48-hr media-stimulated T-cells.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="Positive_regulation" />
+<theme idref="E110" />
+<clue>In contrast to the MF individuals where no effect was seen, transendothelial migration of 48-hr filarial antigen stimulated T-cells from LP individuals was significantly (P = 0.01) <clueType>greater</clueType> than migration of 48-hr media-stimulated T-cells.</clue>
+</event>
+<sentence id="S5">In six of seven <term sem="Multicellular_organism_natural" id="T20" lex="patient">patients</term> examined, inhibition of the <term sem="Other" id="T21" lex="VLA-4/VCAM-1_pathway">VLA-4/<term sem="Protein_molecule" id="T22" lex="VCAM-1">VCAM-1</term> pathway</term> resulted in greater than 50% inhibition of <term sem="Other" id="T23" lex="transendothelial_migration">transendothelial migration</term> of <term sem="Cell_natural" id="T24" lex="T-cell">T-cells</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Negative_regulation" />
+<theme idref="T21" />
+<clue>In six of seven patients examined, <clueType>inhibition</clueType> <linkTheme>of</linkTheme> the VLA-4/VCAM-1 pathway resulted in greater than 50% inhibition of transendothelial migration of T-cells.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E14">
+<type class="Cellular_physiological_process" />
+<theme idref="T24" />
+<clue>In six of seven patients examined, inhibition of the VLA-4/VCAM-1 pathway resulted in greater than 50% inhibition of <clueLoc>transendothelial</clueLoc> <clueType>migration</clueType> <linkTheme>of</linkTheme> T-cells.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E15">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="E13" />
+<clue>In six of seven patients examined, inhibition of the VLA-4/VCAM-1 pathway resulted in greater than 50% <clueType>inhibition</clueType> <linkTheme>of</linkTheme> transendothelial migration of T-cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

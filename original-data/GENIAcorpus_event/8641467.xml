@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="18/05/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8641467">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8641467</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Involvement of <term sem="Element" id="T1" lex="intracellular_Ca2+">intracellular Ca2+</term> in <term sem="Other" id="T2" lex="oxidant-induced_NF-kappa_B_activation"><term sem="Inorganic_compound" id="A1">oxidant</term>-induced <term sem="Other" id="T3" lex="NF-kappa_B_activation"><term sem="Protein_complex" id="T4" lex="NF-kappa_B">NF-kappa B</term> activation</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<cause idref="A1" />
+<clue>Involvement of intracellular Ca2+ in oxidant-<linkCause>induced</linkCause> NF-kappa B <clueType>activation</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Correlation" />
+<theme idref="T1" />
+<theme idref="E1" />
+<clue><clueType>Involvement</clueType> <linkTheme>of</linkTheme> intracellular Ca2+ <linkTheme>in</linkTheme> oxidant-induced NF-kappa B activation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">In <term sem="Cell_cultured" id="T5" lex="human_Jurkat_T_cell">human Jurkat T cells</term> and its subclone <term sem="Cell_cultured" id="T6" lex="Wurzburg_cell">Wurzburg cells</term> <term sem="Inorganic_compound" id="A2">oxidant</term> challenge elevated <term sem="Element" id="T7" lex="[Ca2+]i">[Ca2+]i</term> by mobilizing <term sem="Element" id="T8" lex="Ca2+">Ca2+</term> from intracellular stores.</sentence>
+<event id="E103">
+<type class="Localization" />
+<theme idref="T8" />
+<clue>In human Jurkat T cells and its subclone Wurzburg cells oxidant challenge elevated [Ca2+]i by <clueType>mobilizing</clueType> Ca2+ <clueLoc>from intracellular stores</clueLoc>.</clue>
+</event>
+<event id="E104">
+<type class="Positive_regulation" />
+<theme idref="E103" />
+<cause idref="A2" />
+<clue>In human Jurkat T cells and its subclone Wurzburg cells oxidant challenge elevated [Ca2+]i by mobilizing Ca2+ from intracellular stores.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E300">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<cause idref="E104" />
+<clue><clueLoc>In human Jurkat T cells</clueLoc> and its subclone Wurzburg cells oxidant challenge <clueType>elevated</clueType> [Ca2+]i <linkCause>by</linkCause> mobilizing Ca2+ from intracellular stores.</clue>
+</event>
+<event id="E301">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<cause idref="E104" />
+<clue><clueLoc>In</clueLoc> human Jurkat T cells and its <clueLoc>subclone Wurzburg cells</clueLoc> oxidant challenge <clueType>elevated</clueType> [Ca2+]i <linkCause>by</linkCause> mobilizing Ca2+ from intracellular stores.</clue>
+</event>
+<sentence id="S3">In <term sem="Cell_cultured" id="T9" lex="Jurkat_cell">Jurkat cells</term> this effect was rapid and transient, but in <term sem="Cell_cultured" id="T10" lex="Wurzburg_cell">Wurzburg cells</term> the response was slow and sustained.</sentence>
+<sentence id="S4"><term sem="Other" id="T11" lex="H2O2-induced_NF-kappaB_activation"><term sem="Inorganic_compound" id="T12" lex="H2O2">H2O2</term>-induced <term sem="Protein_complex" id="T13" lex="NF-kappaB">NF-kappaB</term> activation</term> in <term sem="Cell_cultured" id="T14" lex="Wurzburg_cell">Wurzburg cells</term> was not influenced by the presence of <term sem="Organic_compound_other" id="T15" lex="extracellular_EGTA">extracellular EGTA</term> but was totally inhibited in cells that were loaded with <term sem="Organic_compound_other" id="T16" lex="esterified_EGTA">esterified EGTA</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<cause idref="T12" />
+<clue>H2O2-<linkCause>induced</linkCause> NF-kappaB <clueType>activation</clueType> <clueLoc>in Wurzburg cells</clueLoc> was not influenced by the presence of extracellular EGTA but was totally inhibited in cells that were loaded with esterified EGTA.</clue>
+</event>
+<event assertion="non-exist" id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T15" />
+<clue>H2O2-induced NF-kappaB activation in Wurzburg cells was not <clueType>influenced</clueType> <linkCause>by</linkCause> the presence of extracellular EGTA but was totally inhibited in cells that were loaded with esterified EGTA.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="T16" />
+<clue>H2O2-induced NF-kappaB activation in Wurzburg cells was not influenced by the presence of extracellular EGTA but was totally <clueType>inhibited</clueType> in cells that were loaded <linkTheme>with</linkTheme> esterified EGTA.</clue>
+</event>
+<sentence id="S5">In <term sem="Cell_cultured" id="T17" lex="Jurkat_cell">Jurkat cells</term> that are not sensitive to <term sem="Inorganic_compound" id="T18" lex="H2O2">H2O2</term>-induced <term sem="Other" id="T19" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T20" lex="NF-kappaB">NF-kappaB</term> activation</term>, <term sem="Inorganic_compound" id="T21" lex="H2O2">H2O2</term> potentiated <term sem="Other" id="T22" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T23" lex="NF-kappaB">NF-kappaB</term> activation</term> in the presence of sustained high <term sem="Element" id="T24" lex="[Ca2+]i">[<term sem="Element" id="T25" lex="Ca2+">Ca2+</term>]i</term> following <term sem="Other" id="T26" lex="thapsigargin_treatment"><term sem="Organic_compound_other" id="T27" lex="thapsigargin">thapsigargin</term> treatment</term>.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<cause idref="T18" />
+<clue>In Jurkat cells that are not sensitive to H2O2-<linkCause>induced</linkCause> NF-kappaB <clueType>activation</clueType>, H2O2 potentiated NF-kappaB activation in the presence of sustained high [Ca2+]i following thapsigargin treatment.</clue>
+</event>
+<event id="E9">
+<type />
+<theme idref="E8" />
+<clue><clueLoc>In Jurkat cells</clueLoc> that are not <clueType>sensitive</clueType> <linkTheme>to</linkTheme> H2O2-induced NF-kappaB activation, H2O2 potentiated NF-kappaB activation in the presence of sustained high [Ca2+]i following thapsigargin treatment.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E51">
+<type class="Artificial_process" />
+<theme idref="T17" />
+<theme idref="T27" />
+<clue>In Jurkat cells that are not sensitive to H2O2-induced NF-kappaB activation, H2O2 potentiated NF-kappaB activation in the presence of sustained high [Ca2+]i following thapsigargin <clueType>treatment</clueType>.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="E51" />
+<clue>In Jurkat cells that are not sensitive to H2O2-induced NF-kappaB activation, H2O2 potentiated NF-kappaB activation in the presence of <clueType>sustained high</clueType> [Ca2+]i <linkCause>following</linkCause> thapsigargin treatment.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="T21" />
+<cause idref="E10" />
+<clue>In Jurkat cells that are not sensitive to H2O2-induced NF-kappaB activation, H2O2 potentiated NF-kappaB <clueType>activation</clueType> <linkCause>in the presence of</linkCause> sustained high [Ca2+]i following thapsigargin treatment.</clue>
+</event>
+<sentence id="S6"><term sem="Protein_complex" id="T28" lex="NF-kappaB">NF-kappaB</term> regulatory effect of <term sem="Organic_compound_other" id="T29" lex="alpha-lipoate">alpha-lipoate</term> and <term sem="Amino_acid_monomer" id="T30" lex="N-acetylcysteine">N-acetylcysteine</term> appeared to be, at least in part, due to their ability to stabilize elevation of <term sem="Element" id="T31" lex="[Ca2+]i">[<term sem="Element" id="T32" lex="Ca2+">Ca2+</term>]i</term> following <term sem="Inorganic_compound" id="A3">oxidant</term> challenge.</sentence>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="T28" />
+<cause idref="T29" />
+<clue>NF-kappaB <clueType>regulatory effect</clueType> <linkCause>of</linkCause> alpha-lipoate and N-acetylcysteine appeared to be, at least in part, due to their ability to stabilize elevation of [Ca2+]i following oxidant challenge.</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<theme idref="T28" />
+<cause idref="T30" />
+<clue>NF-kappaB <clueType>regulatory effect</clueType> <linkCause>of</linkCause> alpha-lipoate and N-acetylcysteine appeared to be, at least in part, due to their ability to stabilize elevation of [Ca2+]i following oxidant challenge.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T31" />
+<cause idref="A3" />
+<clue>NF-kappaB regulatory effect of alpha-lipoate and N-acetylcysteine appeared to be, at least in part, due to their ability to stabilize <clueType>elevation</clueType> <linkTheme>of</linkTheme> [Ca2+]i following oxidant challenge.</clue>
+</event>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="E14" />
+<cause idref="T29" />
+<clue>NF-kappaB regulatory effect of alpha-lipoate and N-acetylcysteine appeared to be, at least in part, due to their ability to <clueType>stabilize</clueType> elevation of [Ca2+]i following oxidant challenge.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="E14" />
+<cause idref="T30" />
+<clue>NF-kappaB regulatory effect of alpha-lipoate and N-acetylcysteine appeared to be, at least in part, due to their ability to <clueType>stabilize</clueType> elevation of [Ca2+]i following oxidant challenge.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E15" />
+<clue>NF-kappaB regulatory effect of alpha-lipoate and N-acetylcysteine appeared to be, at least in part, <clueType>due to</clueType> their ability to stabilize elevation of [Ca2+]i following oxidant challenge.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E16" />
+<clue>NF-kappaB regulatory effect of alpha-lipoate and N-acetylcysteine appeared to be, at least in part, <clueType>due to</clueType> their ability to stabilize elevation of [Ca2+]i following oxidant challenge.</clue>
+</event>
+<sentence id="S7">Results of this study indicate that a sustained elevated <term sem="Element" id="T33" lex="[Ca2+]i">[Ca2+]i</term> is a significant factor in <term sem="Other" id="T34" lex="oxidant-induced_NF-kappaB_activation"><term sem="Inorganic_compound" id="A5">oxidant</term>-induced <term sem="Other" id="T35" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T36" lex="NF-kappaB">NF-kappaB</term> activation</term></term>.</sentence>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<cause idref="A5" />
+<clue>Results of this study indicate that a sustained elevated [Ca2+]i is a significant factor in oxidant-<linkCause>induced</linkCause> NF-kappaB <clueType>activation</clueType>.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<clue>Results of this study indicate that a sustained <clueType>elevated</clueType> [Ca2+]i is a significant factor in oxidant-induced NF-kappaB activation.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="E20" />
+<clue>Results of this study indicate that a sustained elevated [Ca2+]i is a <clueType>significant factor</clueType> <linkTheme>in</linkTheme> oxidant-induced NF-kappaB activation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

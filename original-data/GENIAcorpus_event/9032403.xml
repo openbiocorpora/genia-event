@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/04/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9032403">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9032403</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification of <term sem="DNA_family_or_group" id="T1" lex="nucleotide_sequence">nucleotide sequences</term> that regulate transcription of the <term sem="DNA_domain_or_region" id="T3" lex="long_terminal_repeat"><term sem="Virus" id="T2" lex="MCF13_murine_leukemia_virus">MCF13 murine leukemia virus</term> long terminal repeat</term> in activated <term sem="Cell_natural" id="T4" lex="T_cell">T cells</term>.</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T3" />
+<clue>Identification of nucleotide sequences that regulate <clueType>transcription</clueType> <linkTheme>of</linkTheme> the MCF13 murine leukemia virus long terminal repeat in activated T cells.</clue>
+<comment>NER T3 mod</comment>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Identification of nucleotide sequences that <clueType>regulate</clueType> transcription of the MCF13 murine leukemia virus long terminal repeat <clueLoc>in activated T cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The region <term sem="DNA_domain_or_region" id="T5" lex="enhancer">downstream of the enhancer</term> (<term sem="DNA_domain_or_region" id="T6" lex="DEN">DEN</term>) of the <term sem="DNA_domain_or_region" id="T7" lex="long_terminal_repeat">long terminal repeat</term> of the <term sem="Virus" id="T8" lex="mink_cell_focus-forming_murine_leukemia_virus"><term sem="Multicellular_organism_natural" id="T9" lex="mink">mink</term> cell focus-forming murine leukemia virus</term> is important for <term sem="Other" id="T10" lex="viral_pathogenicity">viral pathogenicity</term>.</sentence>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="T6" />
+<clue>The region downstream of the enhancer (DEN) of the long terminal repeat of the mink cell focus-forming murine leukemia virus is <clueType>important</clueType> for viral pathogenicity.</clue>
+<comment>NER T5 mod</comment>
+</event>
+<sentence id="S3">Another important activity of <term sem="DNA_domain_or_region" id="T11" lex="DEN">DEN</term> is its control of <term sem="Other" id="A1">transcription</term> in <term sem="Cell_natural" id="T12" lex="activated_T_cell">activated T cells</term>, and we have determined that an <term sem="Protein_complex" id="T13" lex="NF-kappaB">NF-kappaB</term> site is critical for this activity.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="A1" />
+<cause idref="T11" />
+<clue>Another important activity of DEN is its <clueType>control</clueType> <linkTheme>of</linkTheme> transcription <clueLoc>in activated T cells</clueLoc>, and we have determined that an NF-kappaB site is critical for this activity.</clue>
+</event>
+<event id="E5">
+<type class="Correlation" />
+<theme idref="T13" />
+<theme idref="E4" />
+<clue>Another important activity of DEN is its control of transcription in activated T cells, and we have determined that an NF-kappaB site is <clueType>critical</clueType> <linkTheme>for</linkTheme> this activity.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

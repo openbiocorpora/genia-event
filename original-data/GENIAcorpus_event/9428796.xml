@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="21/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9428796" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9428796</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="T1" lex="estrogen_receptor">Estrogen receptor</term> diminishes <term sem="Other" id="T2" lex="DNA-binding_activity"><term sem="DNA_domain_or_region" id="A1">DNA</term>-binding activities</term> of <term sem="Multicellular_organism_natural" id="A2">chicken</term> <term sem="Protein_molecule" id="T3" lex="chicken_GATA-1">GATA-1</term> and <term sem="Protein_molecule" id="T4" lex="CACCC-binding_protein">CACCC-binding proteins</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T3" />
+<clue>Estrogen receptor diminishes DNA-<clueType>binding activities</clueType> <linkTheme>of</linkTheme> chicken GATA-1 and CACCC-binding proteins.</clue>
+<comment>NER T3 MOD</comment>
+</event>
+<event id="E2">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T4" />
+<clue>Estrogen receptor diminishes DNA-<clueType>binding activities</clueType> <linkTheme>of</linkTheme> chicken GATA-1 and CACCC-binding proteins.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Estrogen receptor <clueType>diminishes</clueType> DNA-binding activities of chicken GATA-1 and CACCC-binding proteins.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Estrogen receptor <clueType>diminishes</clueType> DNA-binding activities of chicken GATA-1 and CACCC-binding proteins.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_family_or_group" id="T5" lex="estrogen_receptor">estrogen receptor</term> (<term sem="Protein_family_or_group" id="T6" lex="ER">ER</term>) repressed <term sem="Other" id="T7" lex="erythroid_differentiation"><term sem="Cell_natural" id="A3">erythroid</term> differentiation</term> and <term sem="Other" id="T8" lex="erythroid-specific_gene_expression"><term sem="DNA_domain_or_region" id="T9" lex="erythroid-specific_gene">erythroid-specific gene</term> expression</term>.</sentence>
+<event id="E5">
+<type class="Cell_differentiation" />
+<theme idref="A3" />
+<clue>The estrogen receptor (ER) repressed erythroid <clueType>differentiation</clueType> and erythroid-specific gene expression.</clue>
+</event>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>The estrogen receptor (ER) repressed erythroid differentiation and erythroid-specific gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="T6" />
+<clue>The estrogen receptor (ER) <clueType>repressed</clueType> erythroid differentiation and erythroid-specific gene expression.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="T6" />
+<clue>The estrogen receptor (ER) <clueType>repressed</clueType> erythroid differentiation and erythroid-specific gene expression.</clue>
+</event>
+<sentence id="S3">In this study, we investigated the effect of <term sem="Protein_molecule" id="T10" lex="ER_alpha">ER alpha</term> (referred to throughout as <term sem="Protein_molecule" id="T11" lex="ER">ER</term>) on <term sem="Other" id="T12" lex="DNA-binding_activity"><term sem="DNA_domain_or_region" id="A4">DNA</term>-binding activities</term> of <term sem="Protein_family_or_group" id="T13" lex="transcription_factor">transcription factors</term> involved in regulating the expression of <term sem="DNA_family_or_group" id="T14" lex="erythroid-specific_gene">erythroid-specific genes</term>, and, in particular, the <term sem="DNA_domain_or_region" id="T15" lex="histone_H5_gene">histone H5 gene</term>.</sentence>
+<event id="E9">
+<type class="Binding" />
+<theme idref="A4" />
+<theme idref="T13" />
+<clue>In this study, we investigated the effect of ER alpha (referred to throughout as ER) on DNA-<clueType>binding activities</clueType> <linkTheme>of</linkTheme> transcription factors involved in regulating the expression of erythroid-specific genes, and, in particular, the histone H5 gene.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>In this study, we investigated the effect of ER alpha (referred to throughout as ER) on DNA-binding activities of transcription factors involved in regulating the <clueType>expression</clueType> <linkTheme>of</linkTheme> erythroid-specific genes, and, in particular, the histone H5 gene.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>In this study, we investigated the effect of ER alpha (referred to throughout as ER) on DNA-binding activities of transcription factors involved in regulating the <clueType>expression</clueType> <linkTheme>of</linkTheme> erythroid-specific genes, and, in particular, the histone H5 gene.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T13" />
+<clue>In this study, we investigated the effect of ER alpha (referred to throughout as ER) on DNA-binding activities of transcription factors <clueType>involved in regulating</clueType> the expression of erythroid-specific genes, and, in particular, the histone H5 gene.</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="T13" />
+<clue>In this study, we investigated the effect of ER alpha (referred to throughout as ER) on DNA-binding activities of transcription factors <clueType>involved in regulating</clueType> the expression of erythroid-specific genes, and, in particular, the histone H5 gene.</clue>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="T10" />
+<clue>In this study, we investigated the <clueType>effect</clueType> <linkCause>of</linkCause> ER alpha (referred to throughout as ER) <linkTheme>on</linkTheme> DNA-binding activities of transcription factors involved in regulating the expression of erythroid-specific genes, and, in particular, the histone H5 gene.</clue>
+</event>
+<sentence id="S4">Using <term sem="Other" id="T16" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assays</term>, we found that in the presence of <term sem="Organic_compound_other" id="T17" lex="rabbit_reticulocyte_lysate">rabbit reticulocyte lysate</term>, <term sem="Protein_molecule" id="T18" lex="human_ER">human ER</term> reduced the binding activities of <term sem="Protein_family_or_group" id="T19" lex="chicken_immature_erythrocyte_nuclear_extracted_protein">chicken immature erythrocyte nuclear extracted proteins</term> to <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T20" lex="(AND GATA_site CACCC_site)"><frag id="F1">GATA</frag> and <frag id="F2">CACCC</frag> <frag id="F3">sites</frag></cons> in the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T21" lex="(AND H5_promoter H5_enhancer)"><frag id="F4">H5</frag> <frag id="F5">promoter</frag> and <frag id="F6">enhancer</frag></cons>.</sentence>
+<event id="E15">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref1="F3" idref="F1" />
+<clue>Using electrophoretic mobility shift assays, we found that in the presence of rabbit reticulocyte lysate, human ER reduced the <clueType>binding activities</clueType> <linkTheme>of</linkTheme> chicken immature erythrocyte nuclear extracted proteins <linkTheme>to</linkTheme> GATA and CACCC sites in the H5 promoter and enhancer.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref1="F3" idref="F2" />
+<clue>Using electrophoretic mobility shift assays, we found that in the presence of rabbit reticulocyte lysate, human ER reduced the <clueType>binding activities</clueType> <linkTheme>of</linkTheme> chicken immature erythrocyte nuclear extracted proteins <linkTheme>to</linkTheme> GATA and CACCC sites in the H5 promoter and enhancer.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T18" />
+<cause idref="T17" />
+<clue><clueExperiment>Using electrophoretic mobility shift assays</clueExperiment>, we found that <linkCause>in the presence of</linkCause> rabbit reticulocyte lysate, human ER <clueType>reduced</clueType> the binding activities of chicken immature erythrocyte nuclear extracted proteins to GATA and CACCC sites in the H5 promoter and enhancer.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T18" />
+<cause idref="T17" />
+<clue><clueExperiment>Using electrophoretic mobility shift assays</clueExperiment>, we found that <linkCause>in the presence of</linkCause> rabbit reticulocyte lysate, human ER <clueType>reduced</clueType> the binding activities of chicken immature erythrocyte nuclear extracted proteins to GATA and CACCC sites in the H5 promoter and enhancer.</clue>
+</event>
+<sentence id="S5">In contrast, the binding activities of <term sem="Protein_molecule" id="T22" lex="NF1">NF1</term> and <term sem="Protein_molecule" id="T23" lex="Sp1">Sp1</term> were not affected by <term sem="Protein_family_or_group" id="T24" lex="ER">ER</term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T22" />
+<clue>In contrast, the <clueType>binding activities</clueType> <linkTheme>of</linkTheme> NF1 and Sp1 were not affected by ER.</clue>
+</event>
+<event id="E20">
+<type class="Binding" />
+<theme idref="T23" />
+<clue>In contrast, the <clueType>binding activities</clueType> <linkTheme>of</linkTheme> NF1 and Sp1 were not affected by ER.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Regulation" />
+<theme idref="E19" />
+<cause idref="T24" />
+<clue>In contrast, the binding activities of NF1 and Sp1 were <clueType>not affected</clueType> <linkCause>by</linkCause> ER.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="T24" />
+<clue>In contrast, the binding activities of NF1 and Sp1 were <clueType>not affected</clueType> <linkCause>by</linkCause> ER.</clue>
+</event>
+<sentence id="S6">Binding of <term sem="Protein_family_or_group" id="T25" lex="ER">ER</term> to an <term sem="DNA_domain_or_region" id="T26" lex="estrogen_response_element">estrogen response element</term> was enhanced by addition of <term sem="Organic_compound_other" id="T27" lex="rabbit_reticulocyte_lysate">rabbit reticulocyte lysate</term>.</sentence>
+<event id="E23">
+<type class="Binding" />
+<theme idref="T25" />
+<theme idref="T26" />
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> ER <linkTheme>to</linkTheme> an estrogen response element was enhanced by addition of rabbit reticulocyte lysate.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T27" />
+<clue>Binding of ER to an estrogen response element was <clueType>enhanced</clueType> <linkCause>by</linkCause> addition of rabbit reticulocyte lysate.</clue>
+</event>
+<sentence id="S7">This lysate was also necessary for <term sem="Protein_family_or_group" id="T28" lex="ER">ER</term> to diminish the <term sem="Other" id="T29" lex="DNA-binding_activity"><term sem="DNA_domain_or_region" id="A12">DNA</term>-binding activity</term> of <term sem="Protein_molecule" id="T30" lex="GATA-1">GATA-1</term>.</sentence>
+<event id="E25">
+<type class="Binding" />
+<theme idref="A12" />
+<theme idref="T30" />
+<clue>This lysate was also necessary for ER to diminish the DNA-<clueType>binding activity</clueType> <linkTheme>of</linkTheme> GATA-1.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="T29" />
+<clue>This lysate was also necessary for ER <clueType>to diminish</clueType> the DNA-binding activity of GATA-1.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T27" />
+<clue><corefCause>This lysate</corefCause> was also <clueType>necessary</clueType> <linkTheme>for</linkTheme> ER to diminish the DNA-binding activity of GATA-1.</clue>
+</event>
+<sentence id="S8">These results suggest that <term sem="Protein_family_or_group" id="A13">additional factor(s)</term> are necessary for full <term sem="Protein_molecule" id="T31" lex="ER">ER</term> function.</sentence>
+<event uncertainty="probable" id="E28">
+<type class="Positive_regulation" />
+<theme idref="T31" />
+<cause idref="A13" />
+<clue>These results suggest that additional factor(s) are <clueType>necessary</clueType> <linkTheme>for</linkTheme> full ER function.</clue>
+</event>
+<sentence id="S9">Both <term sem="Protein_molecule" id="T32" lex="GATA-1">GATA-1</term> and <term sem="Protein_molecule" id="T33" lex="CACCC-binding_protein">CACCC-binding proteins</term> are critical for the developmentally regulated expression of <term sem="DNA_family_or_group" id="T34" lex="erythroid-specific_gene">erythroid-specific genes</term>.</sentence>
+<event id="E29">
+<type class="Gene_expression" />
+<theme idref="T34" />
+<clue>Both GATA-1 and CACCC-binding proteins are critical for the developmentally regulated <clueType>expression</clueType> <linkTheme>of</linkTheme> erythroid-specific genes.</clue>
+</event>
+<event id="E30">
+<type class="Regulation" />
+<theme idref="E29" />
+<clue>Both GATA-1 and CACCC-binding proteins are critical for the <clueTime>developmentally</clueTime> <clueType>regulated</clueType> expression of erythroid-specific genes.</clue>
+</event>
+<event id="E31">
+<type class="Regulation" />
+<theme idref="E30" />
+<cause idref="T32" />
+<clue>Both GATA-1 and CACCC-binding proteins are <clueType>critical</clueType> <linkTheme>for</linkTheme> the developmentally regulated expression of erythroid-specific genes.</clue>
+</event>
+<event id="E32">
+<type class="Regulation" />
+<theme idref="E30" />
+<cause idref="T33" />
+<clue>Both GATA-1 and CACCC-binding proteins are <clueType>critical</clueType> <linkTheme>for</linkTheme> the developmentally regulated expression of erythroid-specific genes.</clue>
+</event>
+<sentence id="S10">We hypothesize that interference in <term sem="Other" id="T35" lex="DNA-binding_activity"><term sem="DNA_domain_or_region" id="A14">DNA</term>-binding activities</term> of <term sem="Protein_molecule" id="T36" lex="GATA-1">GATA-1</term> and <term sem="Protein_molecule" id="T37" lex="CACCC-binding_protein">CACCC-binding proteins</term> is the mechanism by which the <term sem="Protein_molecule" id="T38" lex="ER">ER</term> inhibits regulation of these genes.</sentence>
+<event id="E33">
+<type class="Binding" />
+<theme idref="A14" />
+<theme idref="T36" />
+<clue>We hypothesize that interference in DNA-<clueType>binding activities</clueType> <linkTheme>of</linkTheme> GATA-1 and CACCC-binding proteins is the mechanism by which the ER inhibits regulation of these genes.</clue>
+</event>
+<event id="E34">
+<type class="Binding" />
+<theme idref="A14" />
+<theme idref="T37" />
+<clue>We hypothesize that interference in DNA-<clueType>binding activities</clueType> <linkTheme>of</linkTheme> GATA-1 and CACCC-binding proteins is the mechanism by which the ER inhibits regulation of these genes.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<clue>We hypothesize that <clueType>interference</clueType> <linkTheme>in</linkTheme> DNA-binding activities of GATA-1 and CACCC-binding proteins is the mechanism by which the ER inhibits regulation of these genes.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="E34" />
+<clue>We hypothesize that <clueType>interference</clueType> <linkTheme>in</linkTheme> DNA-binding activities of GATA-1 and CACCC-binding proteins is the mechanism by which the ER inhibits regulation of these genes.</clue>
+</event>
+<event id="E37">
+<type class="Regulation" />
+<theme idref="T34" />
+<clue>We hypothesize that interference in DNA-binding activities of GATA-1 and CACCC-binding proteins is the mechanism by which the ER inhibits <clueType>regulation</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme>.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation" />
+<theme idref="E37" />
+<cause idref="T38" />
+<clue>We hypothesize that interference in DNA-binding activities of GATA-1 and CACCC-binding proteins is the mechanism by which the ER <clueType>inhibits</clueType> regulation of these genes.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="E36" />
+<clue>We hypothesize that interference in DNA-binding activities of GATA-1 and CACCC-binding proteins <clueType>is the mechanism by which</clueType> the ER inhibits regulation of these genes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

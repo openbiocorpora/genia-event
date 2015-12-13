@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="29/04/2006" creator="Hitomi Masuda" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2072454">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2072454</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Contribution of <term sem="Protein_molecule" id="T1" lex="NF-kappa_B">NF-kappa B</term> and <term sem="DNA_domain_or_region" id="T2" lex="Sp1_binding_motif">Sp1 binding motifs</term> to the replicative capacity of <term sem="Virus" id="T3" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term>: distinct patterns of viral growth are determined by <term sem="Cell_natural" id="T4" lex="T-cell_type">T-cell types</term>.</sentence>
+<event id="E1">
+<type class="Viral_life_cycle" />
+<theme idref="T3" />
+<clue>Contribution of NF-kappa B and Sp1 binding motifs to the <clueType>replicative capacity</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus type 1: distinct patterns of viral growth are determined by T-cell types.</clue>
+</event>
+<event uncertainty="doubtful" id="E2">
+<type class="Correlation" />
+<theme idref="E1" />
+<theme idref="T1" />
+<clue><clueType>Contribution</clueType> <linkTheme>of</linkTheme> NF-kappa B and Sp1 binding motifs to the replicative capacity of human immunodeficiency virus type 1: distinct patterns of viral growth are determined by T-cell types.</clue>
+</event>
+<event uncertainty="doubtful" id="E3">
+<type class="Correlation" />
+<theme idref="E1" />
+<theme idref="T2" />
+<clue><clueType>Contribution</clueType> <linkTheme>of</linkTheme> NF-kappa B and Sp1 binding motifs to the replicative capacity of human immunodeficiency virus type 1: distinct patterns of viral growth are determined by T-cell types.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Starting with a <term sem="Virus" id="T5" lex="replication-incompetent_molecular_clone_of_human_immunodeficiency_virus_type_1">replication-incompetent molecular clone of <term sem="Virus" id="T6" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term></term>, lacking all the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T7" lex="(AND NF-kappa_B_binding_site Sp1_binding_site)"><frag id="F1">NF-kappa B</frag> and <frag id="F2">Sp1</frag> <frag id="F3">binding sites</frag></cons> present in the <term sem="DNA_domain_or_region" id="T8" lex="native_long_terminal_repeat">native long terminal repeat</term> (<term sem="DNA_domain_or_region" id="T9" lex="LTR">LTR</term>), <term sem="Virus" id="T10" lex="proviruse">proviruses</term> containing <term sem="DNA_domain_or_region" id="T11" lex="reconstructed_LTR">reconstructed LTRs</term> with individual or combinations of <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T12" lex="(AND NF-kappa_B_element Sp1_element)"><frag id="F4">NF-kappa B</frag> and <frag id="F5">Sp1</frag> <frag id="F6">elements</frag></cons> were generated and evaluated for their capacity to produce <term sem="Virus" id="T13" lex="virus_progeny">virus progeny</term> following <term sem="Other" id="T14" lex="transfection-cocultivation">transfection-cocultivation</term>.</sentence>
+<sentence id="S3"><term sem="Virus" id="T15" lex="virus_stock">Virus stocks</term> obtained from these experiments exhibited a continuum of replicative capacities in different <term sem="Cell_natural" id="T16" lex="human_T-cell_type">human <term sem="Cell_natural" id="T17" lex="T-cell_type">T-cell types</term></term> depending on which <term sem="DNA_domain_or_region" id="A1"><term sem="DNA_domain_or_region" id="T18" lex="element">element</term>(s) was present in the <term sem="DNA_domain_or_region" id="T19" lex="LTR">LTR</term></term>.</sentence>
+<event id="E4">
+<type class="Viral_life_cycle" />
+<theme idref="T15" />
+<clue>Virus stocks obtained from these experiments <clueType>exhibited</clueType> a continuum of <clueType>replicative capacities</clueType> <clueLoc>in different human T-cell types</clueLoc> depending on which element(s) was present in the LTR.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="A1" />
+<clue>Virus stocks obtained from these experiments exhibited a continuum of replicative capacities in different human T-cell types <clueType>depending</clueType> <linkTheme>on</linkTheme> which element(s) was present in the LTR.</clue>
+<comment>TPS: A1</comment>
+</event>
+<sentence id="S4">For example, in experiments involving <term sem="Virus" id="T20" lex="proviral_clone">proviral clones</term> with <term sem="DNA_domain_or_region" id="T21" lex="LTR">LTRs</term> containing one or two <term sem="DNA_domain_or_region" id="T22" lex="NF-kappa_B_element"><term sem="Protein_molecule" id="T23" lex="NF-kappa_B">NF-kappa B</term> elements</term> (and no <term sem="DNA_domain_or_region" id="T24" lex="Sp1_binding_site">Sp1 binding sites</term>), a hierarchy of <term sem="Other" id="T25" lex="cellular_permissivity">cellular permissivity</term> to <term sem="Other" id="T26" lex="virus_replication">virus replication</term> (<term sem="Cell_natural" id="T27" lex="peripheral_blood_lymphocyte">peripheral blood <term sem="Cell_natural" id="T28" lex="lymphocyte">lymphocytes</term></term> = <term sem="Cell_cultured" id="T29" lex="MT4">MT4</term> greater than <term sem="Cell_cultured" id="T30" lex="H9">H9</term> greater than <term sem="Cell_cultured" id="T31" lex="CEM">CEM</term> greater than <term sem="Cell_cultured" id="T32" lex="Jurkatp">Jurkat</term>) was observed.</sentence>
+<sentence id="S5">Of note was the associated emergence of <term sem="DNA_domain_or_region" id="T33" lex="second-site_LTR">second-site LTR</term> revertants which involved an alteration of the <term sem="DNA_domain_or_region" id="T34" lex="TATA_box">TATA box</term>.</sentence>
+<sentence id="S6">These results suggest that the <term sem="DNA_domain_or_region" id="T35" lex="human_immunodeficiency_virus_type_1_LTR"><term sem="Virus" id="T36" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> LTR</term> possesses <term sem="Other" id="A2">functional redundancy</term> which ensures <term sem="Other" id="T37" lex="virus_replication">virus replication</term> in different <term sem="Cell_natural" id="T38" lex="T-cell_type">T-cell types</term> and is capable of changing depending on the particular combination of <term sem="Protein_family_or_group" id="T39" lex="transcriptional_factor">transcriptional factors</term> present.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="25/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7890658" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7890658</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification of <term sem="DNA_domain_or_region" id="T1" lex="human_TR2_orphan_receptor_response_element"><term sem="Protein_molecule" id="T2" lex="human_TR2_orphan_receptor">human TR2 orphan receptor</term> response element</term> in the <term sem="DNA_domain_or_region" id="T3" lex="transcriptional_initiation_site">transcriptional initiation site</term> of the <term sem="DNA_domain_or_region" id="T4" lex="simian_virus_40_major_late_promoter"><term sem="Virus" id="T5" lex="simian_virus_40">simian virus 40</term> major late promoter</term> [published erratum appears in J Biol Chem 1995 Nov 3;270(44):26721]</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A <term sem="DNA_domain_or_region" id="T6" lex="DNA_response_element">DNA response element</term> (<term sem="DNA_domain_or_region" id="T7" lex="TR2RE-SV40">TR2RE-SV40</term>) for the <term sem="Protein_molecule" id="T8" lex="TR2_orphan_receptor">TR2 orphan receptor</term>, a member of the <term sem="Protein_family_or_group" id="T9" lex="steroid-thyroid_hormone_receptor_superfamily">steroid-thyroid hormone receptor superfamily</term>, has been identified in the <term sem="DNA_domain_or_region" id="T10" lex="simian_virus_40_(SV40)_+55_region"><term sem="Virus" id="T11" lex="simian_virus_40">simian virus 40</term> (<term sem="Virus" id="T12" lex="SV40">SV40</term>) +55 region</term> (<term sem="DNA_domain_or_region" id="T13" lex="nucleotide_numbers_368-389">nucleotide numbers 368-389</term>, <term sem="Polynucleotide" id="T14" lex="5&apos;-GTTAAGGTTCGTAGGTCATGGA-3&apos;">5&apos;-GTTAAGGTTCGTAGGTCATGGA-3&apos;</term>).</sentence>
+<sentence id="S3"><term sem="Other" id="T15" lex="electrophoretic_mobility_shift_assay">Electrophoretic mobility shift assay</term>, using in vitro translated <term sem="Protein_molecule" id="T16" lex="TR2_orphan_receptor">TR2 orphan receptor</term> with a molecular mass of <term sem="Protein_molecule" id="T17" lex="67_kilodalton">67 kilodaltons</term>, showed a specific binding with high affinity (dissociation constant = 9 nM) for this <term sem="Other" id="T18" lex="DNA_sequence">DNA sequence</term>.</sentence>
+<event id="E2">
+<type class="Binding" />
+<theme idref="T16" />
+<theme idref="T7" />
+<clue><clueExperiment>Electrophoretic mobility shift assay</clueExperiment>, <linkTheme>using</linkTheme> in vitro translated TR2 orphan receptor with a molecular mass of 67 kilodaltons, showed a specific <clueType>binding</clueType> with high affinity (dissociation constant = 9 nM) <linkTheme>for</linkTheme> <corefTheme>this DNA sequence</corefTheme>.</clue>
+</event>
+<event id="E102">
+<type class="Translation" />
+<theme idref="T16" />
+<clue>Electrophoretic mobility shift assay, using <clueLoc>in vitro</clueLoc> <clueType>translated</clueType> TR2 orphan receptor with a molecular mass of 67 kilodaltons, showed a specific binding with high affinity (dissociation constant = 9 nM) for this DNA sequence.</clue>
+</event>
+<sentence id="S4"><term sem="Other" id="T19" lex="DNA-swap_experiments">DNA-swap experiments</term> using <term sem="Other" id="T20" lex="chloramphenicol_acetyl-transferase_assay"><term sem="Protein_molecule" id="T21" lex="chloramphenicol_acetyl-transferase">chloramphenicol acetyl-transferase</term> assay</term> demonstrated that <term sem="Lipid" id="T22" lex="androgen">androgen</term> can suppress the <term sem="Other" id="T23" lex="transcriptional_activity">transcriptional activities</term> of <term sem="DNA_domain_or_region" id="T24" lex="SV40_early_promoter"><term sem="Virus" id="T25" lex="SV40">SV40</term> early promoter</term> via the interaction between this <term sem="DNA_domain_or_region" id="T26" lex="TR2RE-SV40">TR2RE-<term sem="Virus" id="T28" lex="SV40">SV40</term></term> and the <term sem="Protein_molecule" id="T29" lex="chimeric_receptor_AR/TR2/AR">chimeric receptor AR/TR2/AR</term> with the <term sem="Protein_domain_or_region" id="T30" lex="DNA-binding_domain">DNA-binding domain</term> of the <term sem="Protein_molecule" id="T31" lex="TR2_orphan_receptor">TR2 orphan receptor</term> flanked by the <cons sem="(AND Protein_domain_or_region Protein_domain_or_region)" id="T32" lex="(AND N-terminal_domain androgen-binding_domain)"><frag id="F1">N-terminal</frag> and <frag id="F2">androgen-binding</frag> <frag id="F3">domains</frag></cons> of the <term sem="Protein_molecule" id="T33" lex="androgen_receptor">androgen receptor</term>.</sentence>
+<event id="E3">
+<type class="Transcription" />
+<theme idref="T24" />
+<clue>DNA-swap experiments using chloramphenicol acetyl-transferase assay demonstrated that androgen can suppress the <clueType>transcriptional activities</clueType> <linkTheme>of</linkTheme> SV40 early promoter via the interaction between this TR2RE-SV40 and the chimeric receptor AR/TR2/AR with the DNA-binding domain of the TR2 orphan receptor flanked by the N-terminal and androgen-binding domains of the androgen receptor.</clue>
+<comment>NER T27 DEL</comment>
+</event>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="T29" />
+<clue>DNA-swap experiments using chloramphenicol acetyl-transferase assay demonstrated that androgen can suppress the transcriptional activities of SV40 early promoter via the <clueType>interaction</clueType> <linkTheme>between</linkTheme> this TR2RE-SV40 and the chimeric receptor AR/TR2/AR with the DNA-binding domain of the TR2 orphan receptor flanked by the N-terminal and androgen-binding domains of the androgen receptor.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="T22" />
+<clue>DNA-swap experiments using chloramphenicol acetyl-transferase assay demonstrated that androgen can <clueType>suppress</clueType> the transcriptional activities of SV40 early promoter <linkTheme>via</linkTheme> the interaction between this TR2RE-SV40 and the chimeric receptor AR/TR2/AR with the DNA-binding domain of the TR2 orphan receptor flanked by the N-terminal and androgen-binding domains of the androgen receptor.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="E5" />
+<clue><clueExperiment>DNA-swap experiments using chloramphenicol acetyl-transferase assay</clueExperiment> demonstrated that androgen can <clueType>suppress</clueType> the transcriptional activities of SV40 early promoter <linkCause>via</linkCause> the interaction between this TR2RE-SV40 and the chimeric receptor AR/TR2/AR with the DNA-binding domain of the TR2 orphan receptor flanked by the N-terminal and androgen-binding domains of the androgen receptor.</clue>
+</event>
+<sentence id="S5">In addition, this <term sem="DNA_domain_or_region" id="T34" lex="TR2RE-SV40">TR2RE-<term sem="Virus" id="T35" lex="SV40">SV40</term></term> can function as a repressor to suppress the <term sem="Other" id="T36" lex="transcriptional_activity">transcriptional activities</term> of both <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T37" lex="(AND SV40_early_promoter SV40_late_promoter)"><frag id="F4">SV40</frag> <frag id="F5">early</frag> and <frag id="F6">late</frag> <frag id="F7">promoters</frag></cons>.</sentence>
+<event id="E7">
+<type class="Transcription" />
+<theme idref1="F5" idref2="F7" idref="F4" />
+<clue>In addition, this TR2RE-SV40 can function as a repressor to suppress the <clueType>transcriptional activities</clueType> <linkTheme>of</linkTheme> both SV40 early and late promoters.</clue>
+</event>
+<event id="E8">
+<type class="Transcription" />
+<theme idref1="F6" idref2="F7" idref="F4" />
+<clue>In addition, this TR2RE-SV40 can function as a repressor to suppress the <clueType>transcriptional activities</clueType> <linkTheme>of</linkTheme> both SV40 early and late promoters.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="E7" />
+<cause idref="T34" />
+<clue>In addition, this TR2RE-SV40 can <clueType>function as a repressor to suppress</clueType> the transcriptional activities of both SV40 early and late promoters.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<cause idref="T34" />
+<clue>In addition, this TR2RE-SV40 can <clueType>function as a repressor to suppress</clueType> the transcriptional activities of both SV40 early and late promoters.</clue>
+</event>
+<sentence id="S6">Together, these data suggest the <term sem="DNA_domain_or_region" id="T38" lex="TR2RE-SV40"><term sem="DNA_domain_or_region" id="T39" lex="TR2RE-SV40">TR2RE-<term sem="Virus" id="T40" lex="SV40">SV40</term></term></term> may represent the first identified natural <term sem="DNA_domain_or_region" id="T41" lex="DNA_response_element">DNA response element</term> for the <term sem="Protein_molecule" id="T42" lex="TR2_orphan_receptor">TR2 orphan receptor</term> that may function as a repressor for the <term sem="Other" id="T43" lex="SV40_gene_expression"><term sem="DNA_domain_or_region" id="A5"><term sem="Virus" id="T44" lex="SV40">SV40</term> gene</term> expression</term>.</sentence>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="A5" />
+<clue>Together, these data suggest the TR2RE-SV40 may represent the first identified natural DNA response element for the TR2 orphan receptor that may function as a repressor for the SV40 gene <clueType>expression</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E13">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="T42" />
+<clue>Together, these data suggest the TR2RE-SV40 may represent the first identified natural DNA response element for the TR2 orphan receptor that may <clueType>function as a repressor</clueType> <linkTheme>for</linkTheme> the SV40 gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

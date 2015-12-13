@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="2007/05/30" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9446322" creator="Maki Niihori">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9446322</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">[<term sem="Other" id="T1" lex="Molecular-biologic_aspect">Molecular-biologic aspects</term> of interaction between <cons sem="(AND Body_region Body_region)" id="T2" lex="(AND nervous_system immune_system)"><frag id="F1">nervous</frag> and <frag id="F2">immune</frag> <frag id="F3">systems</frag></cons>]</sentence>
+<event uncertainty="doubtful" id="E1">
+<type class="Correlation" />
+<theme idref1="F3" idref="F1" />
+<theme idref1="F3" idref="F2" />
+<clue>[Molecular-biologic aspects of <clueType>interaction</clueType> <linkTheme>between</linkTheme> nervous and immune systems]</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The problem of the <term sem="Other" id="T3" lex="neuro-immuno_interaction"><term sem="Body_region" id="A6">neuro</term>-<term sem="Body_region" id="A7">immuno</term> interactions</term> on the level of the <term sem="Protein_family_or_group" id="T4" lex="protein_trans-factor">protein trans-factors</term>, stimulating <term sem="Other" id="T5" lex="interleukin-2_(IL-2)_gene_expression"><term sem="DNA_domain_or_region" id="T6" lex="interleukin-2_(IL-2)_gene"><term sem="Protein_molecule" id="T7" lex="interleukin-2">interleukin-2</term> (<term sem="Protein_molecule" id="T8" lex="IL-2">IL-2</term>) gene</term> expression</term> was discussed.</sentence>
+<event uncertainty="doubtful" id="E19">
+<type class="Regulation" />
+<theme idref="T4" />
+<cause idref="E20" />
+<clue>The <clueType>problem</clueType> <linkCause>of</linkCause> the neuro-immuno interactions <linkTheme>on</linkTheme> the level of the protein trans-factors, stimulating interleukin-2 (IL-2) gene expression was discussed.</clue>
+<comment>CAUTION, problem</comment>
+</event>
+<event id="E20">
+<type class="Correlation" />
+<theme idref="A6" />
+<theme idref="A7" />
+<clue>The problem of the neuro-immuno <clueType>interactions</clueType> on the level of the protein trans-factors, stimulating interleukin-2 (IL-2) gene expression was discussed.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>The problem of the neuro-immuno interactions on the level of the protein trans-factors, stimulating interleukin-2 (IL-2) <clueType>gene expression</clueType> was discussed.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T4" />
+<clue>The problem of the neuro-immuno interactions on the level of the protein trans-factors, <clueType>stimulating</clueType> interleukin-2 (IL-2) gene expression was discussed.</clue>
+</event>
+<sentence id="S3">The <cons sem="(AND Other Other)" id="T9" lex="(AND physico-chemical_parameter functional_parameter)"><frag id="F4">physico-chemical</frag> and <frag id="F5">functional</frag> <frag id="F6">parameters</frag></cons> of the <term sem="Protein_family_or_group" id="T10" lex="low_molecular_nuclear_protein">low molecular nuclear proteins</term> (<term sem="Protein_family_or_group" id="T11" lex="SP">SP</term> and <cons sem="(AND Protein_molecule Protein_molecule Protein_molecule)" id="T12" lex="(AND BP-_14_kD_ BP-_18_kD BP-_19_kD)"><frag id="F7">BP-</frag> <frag id="F8">14</frag>, <frag id="F9">18</frag>, <frag id="F10">19</frag> <frag id="F11">kDs</frag></cons>) isolated from <cons sem="(AND Cell_natural Cell_natural)" id="T13" lex="(AND splenic_cell brain_cell)"><frag id="F12">splenic</frag> and <frag id="F13">brain</frag> <frag id="F14">cells</frag></cons> of <term sem="Multicellular_organism_natural" id="T14" lex="immunized_rat">immunized rats</term> were studied.</sentence>
+<sentence id="S4">The binding of these proteins to the <term sem="DNA_domain_or_region" id="A1">regulatory region of <term sem="DNA_domain_or_region" id="T15" lex="IL-2_gene">IL-2 gene</term></term> in vitro and stimulation of the <term sem="Other" id="T16" lex="IL-2mRNA_synthesis"><term sem="RNA_molecule" id="T17" lex="IL-2mRNA">IL-2mRNA</term> synthesis</term> in <term sem="Cell_cultured" id="T18" lex="splenic_T-lymphocyte_culture">splenic T-lymphocytes culture</term> in normal conditions were shown.</sentence>
+<event uncertainty="probable" id="E9">
+<type class="Binding" />
+<theme idref1="F8" idref2="F11" idref="F7" />
+<theme idref="A1" />
+<clue>The <clueType>binding</clueType> <linkTheme>of</linkTheme> <corefTheme>these</corefTheme> proteins <linkTheme>to</linkTheme> the regulatory region of IL-2 gene in vitro and stimulation of the IL-2mRNA synthesis in splenic T-lymphocytes culture in normal conditions were shown.</clue>
+<comment>TPS: A1</comment>
+</event>
+<event id="E17">
+<type class="Binding" />
+<theme idref1="F9" idref2="F11" idref="F7" />
+<theme idref="A1" />
+<clue>The <clueType>binding</clueType> <linkTheme>of</linkTheme> <corefTheme>these</corefTheme> proteins <linkTheme>to</linkTheme> the regulatory region of IL-2 gene in vitro and stimulation of the IL-2mRNA synthesis in splenic T-lymphocytes culture in normal conditions were shown.</clue>
+</event>
+<event id="E18">
+<type class="Binding" />
+<theme idref1="F10" idref2="F11" idref="F7" />
+<theme idref="A1" />
+<clue>The <clueType>binding</clueType> <linkTheme>of</linkTheme> <corefTheme>these</corefTheme> proteins <linkTheme>to</linkTheme> the regulatory region of IL-2 gene in vitro and stimulation of the IL-2mRNA synthesis in splenic T-lymphocytes culture in normal conditions were shown.</clue>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Binding" />
+<theme idref="T11" />
+<theme idref="A1" />
+<clue>The <clueType>binding</clueType> <linkTheme>of</linkTheme> <corefTheme>these</corefTheme> proteins <linkTheme>to</linkTheme> the regulatory region of IL-2 gene in vitro and stimulation of the IL-2mRNA synthesis in splenic T-lymphocytes culture in normal conditions were shown.</clue>
+</event>
+<event id="E12">
+<type class="Transcription" />
+<theme idref="T17" />
+<clue>The binding of these proteins to the regulatory region of IL-2 gene in vitro and stimulation of the IL-2mRNA <clueType>synthesis</clueType> <clueLoc>in splenic T-lymphocytes culture</clueLoc> in normal conditions were shown.</clue>
+</event>
+<event uncertainty="probable" id="E11">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<clue>The binding of these proteins to the regulatory region of IL-2 gene in vitro and <clueType>stimulation</clueType> <linkTheme>of</linkTheme> the IL-2mRNA synthesis in splenic T-lymphocytes culture in normal conditions were shown.</clue>
+</event>
+<sentence id="S5">The protective effect of <term sem="Protein_family_or_group" id="T19" lex="SP">SP</term> and <term sem="Protein_molecule" id="T20" lex="BP">BP</term> on the <term sem="Other" id="T21" lex="IL-2mRNA_synthesis"><term sem="RNA_molecule" id="T22" lex="IL-2mRNA">IL-2mRNA</term> synthesis</term> in <term sem="Other" id="A5" lex="stressful_condition">stressful conditions</term> and by the <term sem="Cell_natural" id="T23" lex="T-cell">T-cells</term> treatment with the <term sem="Organic_compound_other" id="T24" lex="CsA">CsA</term> was demonstrated.</sentence>
+<event id="E5">
+<type class="Transcription" />
+<theme idref="T22" />
+<clue>The protective effect of SP and BP on the IL-2mRNA <clueType>synthesis</clueType> in stressful conditions and by the T-cells treatment with the CsA was demonstrated.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="A5" />
+<clue>The protective effect of SP and BP on the IL-2mRNA synthesis <linkCause>in</linkCause> stressful conditions and by the T-cells treatment with the CsA was demonstrated.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E7">
+<type class="Artificial_process" />
+<theme idref="T23" />
+<theme idref="T24" />
+<clue>The protective effect of SP and BP on the IL-2mRNA synthesis in stressful conditions and by the T-cells <clueType>treatment</clueType> <linkTheme>with</linkTheme> the CsA was demonstrated.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="E7" />
+<clue>The protective effect of SP and BP on the IL-2mRNA synthesis in stressful conditions and <linkCause>by</linkCause> the T-cells treatment with the CsA was demonstrated.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="T19" />
+<clue>The <clueType>protective effect</clueType> <linkCause>of</linkCause> SP and BP <linkTheme>on</linkTheme> the IL-2mRNA synthesis in stressful conditions and by the T-cells treatment with the CsA was demonstrated.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="T20" />
+<clue>The <clueType>protective effect</clueType> <linkCause>of</linkCause> SP and BP <linkTheme>on</linkTheme> the IL-2mRNA synthesis in stressful conditions and by the T-cells treatment with the CsA was demonstrated.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<cause idref="T19" />
+<clue>The <clueType>protective effect</clueType> <linkCause>of</linkCause> SP and BP <linkTheme>on</linkTheme> the IL-2mRNA synthesis in stressful conditions and by the T-cells treatment with the CsA was demonstrated.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<cause idref="T20" />
+<clue>The <clueType>protective effect</clueType> <linkCause>of</linkCause> SP and BP <linkTheme>on</linkTheme> the IL-2mRNA synthesis in stressful conditions and by the T-cells treatment with the CsA was demonstrated.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

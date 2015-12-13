@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8605359" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8605359</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Transactivation of the <term sem="DNA_domain_or_region" id="T1" lex="interleukin-1alpha_promoter">interleukin-1alpha promoter</term> by <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T2" lex="(AND human_T-cell_leukemia_virus_type_I_Tax_protein human_T-cell_leukemia_virus_type_II_Tax_protein)"><frag id="F1">human T-cell leukemia virus</frag> <frag id="F2">type I</frag> and <frag id="F3">type II</frag> <frag id="F4">Tax proteins</frag></cons>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<cause idref1="F2" idref2="F4" idref="F1" />
+<clue><clueType>Transactivation</clueType> <linkTheme>of</linkTheme> the interleukin-1alpha promoter <linkCause>by</linkCause> human T-cell leukemia virus type I and type II Tax proteins.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<cause idref1="F3" idref2="F4" idref="F1" />
+<clue><clueType>Transactivation</clueType> <linkTheme>of</linkTheme> the interleukin-1alpha promoter <linkCause>by</linkCause> human T-cell leukemia virus type I and type II Tax proteins.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Cell_cultured" id="T3" lex="human_T-cell_leukemia_virus_type_I_(HTLV-I)-infected_T-cell_line"><term sem="Virus" id="T4" lex="human_T-cell_leukemia_virus_type_I">Human T-cell leukemia virus type I</term> (<term sem="Virus" id="T5" lex="HTLV-I">HTLV-I</term>)-infected <term sem="Cell_cultured" id="A5">T-cell lines</term></term> constitutively produce high levels of <term sem="Protein_molecule" id="T6" lex="interleukin-1alpha">interleukin-1alpha</term> (<term sem="Protein_molecule" id="T7" lex="IL-1alpha">IL-1alpha</term>).</sentence>
+<event id="E3">
+<type class="Viral_life_cycle" />
+<theme idref="T5" />
+<theme idref="A5" />
+<clue>Human T-cell leukemia virus type I (HTLV-I)-<clueType>infected</clueType> T-cell lines constitutively produce high levels of interleukin-1alpha (IL-1alpha).</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue>Human T-cell leukemia virus type I (HTLV-I)-infected T-cell lines constitutively <clueType>produce</clueType> high levels <linkTheme>of</linkTheme> interleukin-1alpha (IL-1alpha).</clue>
+</event>
+<event id="E61">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E3" />
+<clue>Human T-cell leukemia virus type I (HTLV-I)-infected T-cell lines constitutively produce <clueType>high levels</clueType> of interleukin-1alpha (IL-1alpha).</clue>
+</event>
+<sentence id="S3">To analyze the mechanisms that lead to the expression of <term sem="Protein_molecule" id="T8" lex="IL-1alpha">IL-1alpha</term> in <term sem="Cell_cultured" id="T9" lex="HTLV-I-infected_cell_line"><term sem="Virus" id="T10" lex="HTLV-I">HTLV-I</term>-infected cell lines</term>, we studied regulatory regions of the human <term sem="DNA_domain_or_region" id="T11" lex="IL-1alpha_promoter"><term sem="Protein_molecule" id="T12" lex="IL-1alpha">IL-1alpha</term> promoter</term> involved in activation of the <term sem="DNA_domain_or_region" id="T13" lex="IL-1alpha_gene"><term sem="Protein_molecule" id="T14" lex="IL-1alpha">IL-1alpha</term> gene</term>.</sentence>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>To analyze the mechanisms that lead to the <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-1alpha <clueLoc>in HTLV-I-infected cell lines</clueLoc>, we studied regulatory regions of the human IL-1alpha promoter involved in activation of the IL-1alpha gene.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<clue>To analyze the mechanisms that lead to the expression of IL-1alpha in HTLV-I-infected cell lines, we studied regulatory regions of the human IL-1alpha promoter involved in <clueType>activation</clueType> <linkTheme>of</linkTheme> the IL-1alpha gene.</clue>
+</event>
+<event id="E7">
+<type class="Correlation" />
+<theme idref="E6" />
+<theme idref="T11" />
+<clue>To analyze the mechanisms that lead to the expression of IL-1alpha in HTLV-I-infected cell lines, we studied regulatory regions of the human IL-1alpha promoter <clueType>involved</clueType> <linkTheme>in</linkTheme> activation of the IL-1alpha gene.</clue>
+</event>
+<sentence id="S4"><term sem="DNA_family_or_group" id="T15" lex="IL-1alpha_promoter_construct">IL-1alpha promoter constructs</term> drive transcription of the <term sem="DNA_domain_or_region" id="T16" lex="chloramphenicol_acetyltransferase_(CAT)_reporter_gene"><term sem="Protein_molecule" id="T17" lex="chloramphenicol_acetyltransferase">chloramphenicol acetyltransferase</term> (CAT) reporter gene</term> in <term sem="Cell_cultured" id="T18" lex="HTLV-I-positive_MT-2_cell"><term sem="Virus" id="T19" lex="HTLV-I">HTLV-I</term>-positive <term sem="Cell_cultured" id="A6">MT-2 cells</term></term>, which constitutively produce <term sem="Protein_molecule" id="T20" lex="IL-1alpha">IL-1alpha</term>.</sentence>
+<event id="E8">
+<type class="Viral_life_cycle" />
+<theme idref="T19" />
+<theme idref="A6" />
+<clue>IL-1alpha promoter constructs drive transcription of the chloramphenicol acetyltransferase (CAT) reporter gene in HTLV-I-<clueType>positive</clueType> MT-2 cells, which constitutively produce IL-1alpha.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue>IL-1alpha promoter constructs drive transcription of the chloramphenicol acetyltransferase (CAT) reporter gene <clueLoc>in HTLV-I-positive MT-2 cells</clueLoc>, which constitutively <clueType>produce</clueType> IL-1alpha.</clue>
+</event>
+<event id="E10">
+<type class="Transcription" />
+<theme idref="T16" />
+<clue>IL-1alpha promoter constructs drive <clueType>transcription</clueType> <linkTheme>of</linkTheme> the chloramphenicol acetyltransferase (CAT) reporter gene in HTLV-I-positive MT-2 cells, which constitutively produce IL-1alpha.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T15" />
+<clue>IL-1alpha promoter constructs <clueType>drive</clueType> transcription of the chloramphenicol acetyltransferase (CAT) reporter gene <clueLoc>in HTLV-I-positive MT-2 cells</clueLoc>, which constitutively produce IL-1alpha.</clue>
+</event>
+<sentence id="S5">In a cotransfection assay, the <term sem="Protein_molecule" id="A7"><term sem="Protein_molecule" id="T21" lex="Tax_protein">Tax protein</term> of</term> both <term sem="Virus" id="T22" lex="HTLV-I">HTLV-I</term> and <term sem="Virus" id="T23" lex="HTLV-II">HTLV-II</term> specifically activated <term sem="Other" id="A50">transcription</term> from the <term sem="DNA_domain_or_region" id="T24" lex="IL-1alpha_promoter"><term sem="Protein_molecule" id="T25" lex="IL-1alpha">IL-1alpha</term> promoter</term> in an <term sem="Cell_cultured" id="T26" lex="uninfected_Jurkat_cell_line">uninfected Jurkat cell line</term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="A50" />
+<cause idref="T24" />
+<clue>In a cotransfection assay, the Tax protein of both HTLV-I and HTLV-II specifically activated transcription <linkCause>from</linkCause> the IL-1alpha promoter in an uninfected Jurkat cell line.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref1="T22" idref="A7" />
+<clue><clueExperiment>In a cotransfection assay</clueExperiment>, the Tax protein of both HTLV-I and HTLV-II specifically <clueType>activated</clueType> transcription from the IL-1alpha promoter <clueLoc>in an uninfected Jurkat cell line.</clueLoc></clue>
+<comment>TPS: A7</comment>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref1="T23" idref="A7" />
+<clue><clueExperiment>In a cotransfection assay</clueExperiment>, the Tax protein of both HTLV-I and HTLV-II specifically <clueType>activated</clueType> transcription from the IL-1alpha promoter <clueLoc>in an uninfected Jurkat cell line.</clueLoc></clue>
+</event>
+<sentence id="S6">A <term sem="Protein_molecule" id="A8">mutant <term sem="Protein_molecule" id="T27" lex="Tax_protein">Tax protein</term></term> deficient in transactivation of <term sem="DNA_domain_or_region" id="A9">genes</term> by the <term sem="Other" id="T28" lex="nuclear_factor_(NF)-kappaB_pathway"><term sem="Protein_complex" id="T29" lex="nuclear_factor_(NF)-kappaB">nuclear factor (NF)-kappaB</term> pathway</term> was unable to induce transcriptional activity of <term sem="DNA_family_or_group" id="T30" lex="IL-1alpha_promoter-CAT_construct"><term sem="DNA_domain_or_region" id="T31" lex="IL-1alpha_promoter"><term sem="Protein_molecule" id="T32" lex="IL-1alpha">IL-1alpha</term> promoter</term>-CAT constructs</term>, but was rescued by exogenous provision of <term sem="Protein_complex" id="T33" lex="p65/p50">p65/p50</term> <term sem="Protein_complex" id="T34" lex="NF-kappaB">NF-kappaB</term>.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="A9" />
+<cause idref="T28" />
+<clue>A mutant Tax protein deficient in <clueType>transactivation</clueType> <linkTheme>of</linkTheme> genes <linkCause>by</linkCause> the nuclear factor (NF)-kappaB pathway was unable to induce transcriptional activity of IL-1alpha promoter-CAT constructs, but was rescued by exogenous provision of p65/p50 NF-kappaB.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<clue>A <clueLoc>mutant Tax protein</clueLoc> <clueType>deficient</clueType> <linkTheme>in</linkTheme> transactivation of genes by the nuclear factor (NF)-kappaB pathway was unable to induce transcriptional activity of IL-1alpha promoter-CAT constructs, but was rescued by exogenous provision of p65/p50 NF-kappaB.</clue>
+</event>
+<event id="E17">
+<type class="Transcription" />
+<theme idref="T30" />
+<clue>A mutant Tax protein deficient in transactivation of genes by the nuclear factor (NF)-kappaB pathway was unable to induce <clueType>transcriptional activity</clueType> <linkTheme>of</linkTheme> IL-1alpha promoter-CAT constructs, but was rescued by exogenous provision of p65/p50 NF-kappaB.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="A8" />
+<clue>A mutant Tax protein deficient in transactivation of genes by the nuclear factor (NF)-kappaB pathway was <clueType>unable to induce</clueType> transcriptional activity of IL-1alpha promoter-CAT constructs, but was rescued by exogenous provision of p65/p50 NF-kappaB.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="T33" />
+<clue>A mutant Tax protein deficient in transactivation of genes by the nuclear factor (NF)-kappaB pathway was unable to induce transcriptional activity of IL-1alpha promoter-CAT constructs, but was <clueType>rescued</clueType> <linkCause>by</linkCause> exogenous provision of p65/p50 NF-kappaB.</clue>
+</event>
+<sentence id="S7">We found that two <term sem="DNA_domain_or_region" id="T35" lex="IL-1alpha_kappaB-like_site"><term sem="Protein_molecule" id="T36" lex="IL-1alpha">IL-1alpha</term> kappaB-like sites</term> (positions <term sem="DNA_domain_or_region" id="T37" lex="-1,065_to_-1,056">-1,065 to -1,056</term> and <term sem="DNA_domain_or_region" id="T38" lex="+646_to_+655">+646 to +655</term>) specifically formed a complex with <term sem="Cell_component" id="T39" lex="NF-kappaB-containing_nuclear_extract"><term sem="Protein_complex" id="T40" lex="NF-kappaB">NF-kappaB</term>-containing nuclear extract</term> from <term sem="Cell_cultured" id="T41" lex="MT-2_cell">MT-2 cells</term> and that <term sem="Protein_complex" id="T42" lex="NF-kappaB">NF-kappaB</term> bound with higher affinity to the <term sem="DNA_domain_or_region" id="T43" lex="3&apos;_NF-kappaB_binding_site">3&apos; <term sem="Protein_complex" id="T44" lex="NF-kappaB">NF-kappaB</term> binding site</term> than to the <term sem="DNA_domain_or_region" id="T45" lex="5&apos;_NF-kappaB_site">5&apos; <term sem="Protein_complex" id="T46" lex="NF-kappaB">NF-kappaB</term> site</term>.</sentence>
+<event id="E20">
+<type class="Binding" />
+<theme idref="T39" />
+<theme idref="T35" />
+<clue>We found that two IL-1alpha kappaB-like sites (positions -1,065 to -1,056 and +646 to +655) specifically <clueType>formed a complex</clueType> <linkTheme>with</linkTheme> NF-kappaB-containing nuclear extract from MT-2 cells and that NF-kappaB bound with higher affinity to the 3&apos; NF-kappaB binding site than to the 5&apos; NF-kappaB site.</clue>
+</event>
+<event id="E21">
+<type class="Binding" />
+<theme idref="T42" />
+<theme idref="T43" />
+<clue>We found that two IL-1alpha kappaB-like sites (positions -1,065 to -1,056 and +646 to +655) specifically formed a complex with NF-kappaB-containing nuclear extract from MT-2 cells and that NF-kappaB <clueType>bound</clueType> <linkTheme>with</linkTheme> higher affinity to the 3&apos; NF-kappaB binding site than to the 5&apos; NF-kappaB site.</clue>
+</event>
+<event id="E22">
+<type class="Binding" />
+<theme idref="T42" />
+<theme idref="T45" />
+<clue>We found that two IL-1alpha kappaB-like sites (positions -1,065 to -1,056 and +646 to +655) specifically formed a complex with NF-kappaB-containing nuclear extract from MT-2 cells and that NF-kappaB <clueType>bound</clueType> <linkTheme>with</linkTheme> higher affinity to the 3&apos; NF-kappaB binding site than to the 5&apos; NF-kappaB site.</clue>
+</event>
+<sentence id="S8">Moreover, deletion of either <cons sem="(OR DNA_domain_or_region DNA_domain_or_region)" id="T47" lex="(OR 5&apos;_NF-kappaB_site 3&apos;_NF-kappaB_site)"><frag id="F5">5&apos;</frag> or <frag id="F6">3&apos;</frag> <frag id="F7">NF-kappaB sites</frag></cons> reduced <term sem="Other" id="T48" lex="IL-1alpha_promoter_activity"><term sem="DNA_domain_or_region" id="T49" lex="IL-1alpha_promoter"><term sem="Protein_molecule" id="T50" lex="IL-1alpha">IL-1alpha</term> promoter</term> activity</term> in <term sem="Cell_cultured" id="T51" lex="MT-2_cell">MT-2 cells</term> and transactivation of the <term sem="DNA_domain_or_region" id="T52" lex="IL-1alpha_promoter"><term sem="Protein_molecule" id="T53" lex="IL-1alpha">IL-1alpha</term> promoter</term> by exogenous <term sem="Protein_complex" id="T54" lex="NF-kappaB">NF-kappaB</term> and <term sem="Protein_molecule" id="T55" lex="Tax">Tax</term> in <term sem="Cell_cultured" id="T56" lex="Jurkat_cell">Jurkat cells</term>.</sentence>
+<event id="E24">
+<type class="Mutagenesis" />
+<theme idref1="F7" idref="F5" />
+<clue>Moreover, <clueType>deletion</clueType> <linkTheme>of</linkTheme> either 5&apos; or 3&apos; NF-kappaB sites reduced IL-1alpha promoter activity in MT-2 cells and transactivation of the IL-1alpha promoter by exogenous NF-kappaB and Tax in Jurkat cells.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E25">
+<type class="Mutagenesis" />
+<theme idref1="F7" idref="F6" />
+<clue>Moreover, <clueType>deletion</clueType> <linkTheme>of</linkTheme> either 5&apos; or 3&apos; NF-kappaB sites reduced IL-1alpha promoter activity in MT-2 cells and transactivation of the IL-1alpha promoter by exogenous NF-kappaB and Tax in Jurkat cells.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="T48" />
+<cause idref="E24" />
+<clue>Moreover, deletion of either 5&apos; or 3&apos; NF-kappaB sites <clueType>reduced</clueType> IL-1alpha promoter activity <clueLoc>in MT-2 cells</clueLoc> and transactivation of the IL-1alpha promoter by exogenous NF-kappaB and Tax in Jurkat cells.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="T48" />
+<cause idref="E25" />
+<clue>Moreover, deletion of either 5&apos; or 3&apos; NF-kappaB sites <clueType>reduced</clueType> IL-1alpha promoter activity <clueLoc>in MT-2 cells</clueLoc> and transactivation of the IL-1alpha promoter by exogenous NF-kappaB and Tax in Jurkat cells.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T52" />
+<cause idref="T54" />
+<clue>Moreover, deletion of either 5&apos; or 3&apos; NF-kappaB sites reduced IL-1alpha promoter activity in MT-2 cells and <clueType>transactivation</clueType> <linkTheme>of</linkTheme> the IL-1alpha promoter <linkCause>by</linkCause> exogenous NF-kappaB and Tax in Jurkat cells.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T52" />
+<cause idref="T55" />
+<clue>Moreover, deletion of either 5&apos; or 3&apos; NF-kappaB sites reduced IL-1alpha promoter activity in MT-2 cells and <clueType>transactivation</clueType> <linkTheme>of</linkTheme> the IL-1alpha promoter <linkCause>by</linkCause> exogenous NF-kappaB and Tax in Jurkat cells.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<cause idref="E24" />
+<clue>Moreover, deletion of either 5&apos; or 3&apos; NF-kappaB sites <clueType>reduced</clueType> IL-1alpha promoter activity in MT-2 cells and transactivation of the IL-1alpha promoter by exogenous NF-kappaB and Tax <clueLoc>in Jurkat cells.</clueLoc></clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<cause idref="E25" />
+<clue>Moreover, deletion of either 5&apos; or 3&apos; NF-kappaB sites <clueType>reduced</clueType> IL-1alpha promoter activity in MT-2 cells and transactivation of the IL-1alpha promoter by exogenous NF-kappaB and Tax <clueLoc>in Jurkat cells.</clueLoc></clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref="E24" />
+<clue>Moreover, deletion of either 5&apos; or 3&apos; NF-kappaB sites <clueType>reduced</clueType> IL-1alpha promoter activity in MT-2 cells and transactivation of the IL-1alpha promoter by exogenous NF-kappaB and Tax <clueLoc>in Jurkat cells.</clueLoc></clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref="E25" />
+<clue>Moreover, deletion of either 5&apos; or 3&apos; NF-kappaB sites <clueType>reduced</clueType> IL-1alpha promoter activity in MT-2 cells and transactivation of the IL-1alpha promoter by exogenous NF-kappaB and Tax <clueLoc>in Jurkat cells.</clueLoc></clue>
+</event>
+<sentence id="S9">These data suggest a general role for <term sem="Protein_molecule" id="T57" lex="Tax">Tax</term> induction of <term sem="Other" id="T58" lex="IL-1alpha_gene_transcription"><term sem="DNA_domain_or_region" id="T59" lex="IL-1alpha_gene"><term sem="Protein_molecule" id="T60" lex="IL-1alpha">IL-1alpha</term> gene</term> transcription</term> by the <term sem="Other" id="T61" lex="NF-kappaB_pathway"><term sem="Protein_complex" id="T62" lex="NF-kappaB">NF-kappaB</term> pathway</term>.</sentence>
+<event id="E34">
+<type class="Transcription" />
+<theme idref="T59" />
+<clue>These data suggest a general role for Tax induction of IL-1alpha gene <clueType>transcription</clueType> by the NF-kappaB pathway.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="T61" />
+<clue>These data suggest a general role for Tax induction of IL-1alpha gene transcription <linkCause>by</linkCause> the NF-kappaB pathway.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="T57" />
+<clue>These data suggest a general role for Tax <clueType>induction</clueType> of IL-1alpha gene transcription by the NF-kappaB pathway.</clue>
+</event>
+<event uncertainty="probable" id="E37">
+<type class="Regulation" />
+<theme idref="E35" />
+<cause idref="E36" />
+<clue>These data suggest a <clueType>general role</clueType> <linkCause>for</linkCause> Tax induction <linkTheme>of</linkTheme> IL-1alpha gene transcription by the NF-kappaB pathway.</clue>
+</event>
+<sentence id="S10">Expression of <term sem="Protein_molecule" id="T63" lex="IL-1alpha">IL-1alpha</term> by <term sem="Virus" id="T64" lex="HTLV-I">HTLV-I</term> productively <term sem="Cell_natural" id="T65" lex="infected_cell">infected cells</term> may be important in the <term sem="Other" id="T66" lex="hypercalcemia">hypercalcemia</term>, <term sem="Other" id="T67" lex="osteolytic_bone_lesion">osteolytic bone lesions</term>, <term sem="Other" id="T68" lex="neutrophilia">neutrophilia</term>, elevation of <term sem="Protein_family_or_group" id="T69" lex="C-reactive_protein">C-reactive protein</term>, and <term sem="Other" id="A13">fever</term> frequently seen in patients with <term sem="Other" id="T70" lex="HTLV-I-induced_adult_T-cell_leukemia/lymphoma"><term sem="Virus" id="T71" lex="HTLV-I">HTLV-I</term>-induced <term sem="Other" id="A14">adult T-cell leukemia/lymphoma</term></term>.</sentence>
+<event id="E38">
+<type class="Gene_expression" />
+<theme idref="T63" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> IL-1alpha <clueLoc>by HTLV-I productively infected cells</clueLoc> may be important in the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently seen in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clue>
+</event>
+<event id="E39">
+<type class="Viral_life_cycle" />
+<theme idref="T64" />
+<clue>Expression of IL-1alpha by HTLV-I <clueType>productively infected</clueType> cells may be important in the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently seen in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="T69" />
+<clue>Expression of IL-1alpha by HTLV-I productively infected cells may be important in the hypercalcemia, osteolytic bone lesions, neutrophilia, <clueType>elevation</clueType> <linkTheme>of</linkTheme> C-reactive protein, and fever frequently seen in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clue>
+</event>
+<event uncertainty="probable" id="E41">
+<type class="Positive_regulation" />
+<theme idref="T66" />
+<cause idref="E38" />
+<clue>Expression of IL-1alpha by HTLV-I productively infected cells may be <clueType>important</clueType> <linkTheme>in</linkTheme> the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently seen in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clue>
+</event>
+<event uncertainty="probable" id="E42">
+<type class="Positive_regulation" />
+<theme idref="T67" />
+<cause idref="E38" />
+<clue>Expression of IL-1alpha by HTLV-I productively infected cells may be <clueType>important</clueType> <linkTheme>in</linkTheme> the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently seen in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clue>
+</event>
+<event uncertainty="probable" id="E43">
+<type class="Positive_regulation" />
+<theme idref="T68" />
+<cause idref="E38" />
+<clue>Expression of IL-1alpha by HTLV-I productively infected cells may be <clueType>important</clueType> <linkTheme>in</linkTheme> the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently seen in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clue>
+</event>
+<event uncertainty="probable" id="E44">
+<type class="Positive_regulation" />
+<theme idref="E40" />
+<cause idref="E38" />
+<clue>Expression of IL-1alpha by HTLV-I productively infected cells may be <clueType>important</clueType> <linkTheme>in</linkTheme> the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently seen in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clue>
+</event>
+<event uncertainty="probable" id="E45">
+<type class="Positive_regulation" />
+<theme idref="A13" />
+<cause idref="E38" />
+<clue>Expression of IL-1alpha by HTLV-I productively infected cells may be <clueType>important</clueType> <linkTheme>in</linkTheme> the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently seen in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="A14" />
+<cause idref="T71" />
+<clue>Expression of IL-1alpha by HTLV-I productively infected cells may be important in the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently seen in patients with HTLV-I-<clueType>induced</clueType> adult T-cell leukemia/lymphoma.</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="T66" />
+<clue>Expression of IL-1alpha by HTLV-I productively infected cells may be important in the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently <clueType>seen</clueType> <clueLoc>in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clueLoc></clue>
+</event>
+<event id="E48">
+<type class="Positive_regulation" />
+<theme idref="T67" />
+<clue>Expression of IL-1alpha by HTLV-I productively infected cells may be important in the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently <clueType>seen</clueType> <clueLoc>in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clueLoc></clue>
+</event>
+<event id="E49">
+<type class="Positive_regulation" />
+<theme idref="T68" />
+<clue>Expression of IL-1alpha by HTLV-I productively infected cells may be important in the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently <clueType>seen</clueType> <clueLoc>in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clueLoc></clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation" />
+<theme idref="E40" />
+<clue>Expression of IL-1alpha by HTLV-I productively infected cells may be important in the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently <clueType>seen</clueType> <clueLoc>in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clueLoc></clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation" />
+<theme idref="A13" />
+<clue>Expression of IL-1alpha by HTLV-I productively infected cells may be important in the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently <clueType>seen</clueType> <clueLoc>in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.</clueLoc></clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="18/07/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8067997">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8067997</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Inhibition of activation of <term sem="Protein_molecule" id="T1" lex="transcription_factor_AP-1">transcription factor <term sem="Protein_molecule" id="T2" lex="AP-1">AP-1</term></term> by <term sem="Protein_molecule" id="T3" lex="CD28">CD28</term> signalling in <term sem="Cell_natural" id="T4" lex="human_T-cell">human T-cells</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>Inhibition of <clueType>activation</clueType> <linkTheme>of</linkTheme> transcription factor AP-1 by CD28 signalling in human T-cells.</clue>
+</event>
+<event id="E2">
+<type class="Cell_communication" />
+<theme idref="T3" />
+<clue>Inhibition of activation of transcription factor AP-1 by CD28 <clueType>signalling</clueType> in human T-cells.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="E2" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> activation of transcription factor AP-1 <linkCause>by</linkCause> CD28 signalling <clueLoc>in human T-cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Co-stimulation of <term sem="Cell_natural" id="T5" lex="T-lymphocyte">T-lymphocytes</term> by <term sem="Protein_family_or_group" id="T6" lex="T-cell_receptor">T-cell receptor</term> (<term sem="Protein_family_or_group" id="T7" lex="TcR">TcR</term>) occupancy and activation of the <term sem="Protein_molecule" id="T8" lex="CD28_surface_molecule"><term sem="Protein_molecule" id="T9" lex="CD28">CD28</term> surface molecule</term> results in enhanced <term sem="Other" id="T10" lex="proliferation">proliferation</term> and <term sem="Other" id="T11" lex="interleukin_2_(IL-2)_production"><term sem="Protein_molecule" id="T12" lex="interleukin_2">interleukin 2</term> (<term sem="Protein_molecule" id="T13" lex="IL-2">IL-2</term>) production</term>.</sentence>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T7" />
+<clue>Co-stimulation of T-lymphocytes by T-cell receptor (TcR) <clueType>occupancy</clueType> and activation of the CD28 surface molecule results in enhanced proliferation and interleukin 2 (IL-2) production.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T9" />
+<clue>Co-stimulation of T-lymphocytes by T-cell receptor (TcR) occupancy and <clueType>activation</clueType> <linkTheme>of</linkTheme> the CD28 surface molecule results in enhanced proliferation and interleukin 2 (IL-2) production.</clue>
+</event>
+<event id="E6">
+<type class="Physiological_process" />
+<theme idref="T5" />
+<cause idref="E4" />
+<cause idref="E5" />
+<clue><clueType>Co-stimulation</clueType> <linkTheme>of</linkTheme> T-lymphocytes <linkCause>by</linkCause> T-cell receptor (TcR) occupancy and activation of the CD28 surface molecule results in enhanced proliferation and interleukin 2 (IL-2) production.</clue>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>Co-stimulation of T-lymphocytes by T-cell receptor (TcR) occupancy and activation of the CD28 surface molecule results in enhanced proliferation and interleukin 2 (IL-2) <clueType>production</clueType>.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<clue>Co-stimulation of T-lymphocytes by T-cell receptor (TcR) occupancy and activation of the CD28 surface molecule results in <clueType>enhanced</clueType> proliferation and interleukin 2 (IL-2) production.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<clue>Co-stimulation of T-lymphocytes by T-cell receptor (TcR) occupancy and activation of the CD28 surface molecule results in <clueType>enhanced</clueType> proliferation and interleukin 2 (IL-2) production.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E6" />
+<clue>Co-stimulation of T-lymphocytes by T-cell receptor (TcR) occupancy and activation of the CD28 surface molecule <clueType>results</clueType> <linkTheme>in</linkTheme> enhanced proliferation and interleukin 2 (IL-2) production.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E6" />
+<clue>Co-stimulation of T-lymphocytes by T-cell receptor (TcR) occupancy and activation of the CD28 surface molecule <clueType>results</clueType> <linkTheme>in</linkTheme> enhanced proliferation and interleukin 2 (IL-2) production.</clue>
+</event>
+<sentence id="S3">The increase in <term sem="DNA_domain_or_region" id="T14" lex="IL-2">IL-2 gene</term> expression triggered by <term sem="Protein_molecule" id="T15" lex="CD28">CD28</term> involves a <term sem="DNA_domain_or_region" id="T16" lex="kappa_B-like_sequence">kappa B-like sequence</term> in the <term sem="DNA_domain_or_region" id="T17" lex="5&apos;-regulatory_region">5'-regulatory region</term> of the <term sem="DNA_domain_or_region" id="T18" lex="IL-2_promoter"><term sem="Protein_molecule" id="T19" lex="IL-2">IL-2</term> promoter</term>, called <term sem="DNA_domain_or_region" id="T20" lex="CD28-responsive_element"><term sem="Protein_molecule" id="T21" lex="CD28">CD28</term>-responsive element</term>.</sentence>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>The increase in IL-2 gene <clueType>expression</clueType> triggered by CD28 involves a kappa B-like sequence in the 5'-regulatory region of the IL-2 promoter, called CD28-responsive element.</clue>
+<comment>NER T14 MOD</comment>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T15" />
+<clue>The <clueType>increase</clueType> <linkTheme>in</linkTheme> IL-2 gene expression <linkCause>triggered by</linkCause> CD28 involves a kappa B-like sequence in the 5'-regulatory region of the IL-2 promoter, called CD28-responsive element.</clue>
+</event>
+<event id="E14">
+<type class="Correlation" />
+<theme idref="E13" />
+<theme idref="T20" />
+<clue>The increase in IL-2 gene expression triggered by CD28 <clueType>involves</clueType> a kappa B-like sequence in the 5'-regulatory region of the IL-2 promoter, called CD28-responsive element.</clue>
+</event>
+<sentence id="S4">Stimulation of <term sem="Cell_natural" id="T22" lex="T-cell">T-cells</term> by agonistic <term sem="Protein_family_or_group" id="T23" lex="anti-CD28_antibody">anti-<term sem="Protein_molecule" id="T24" lex="CD28">CD28</term> antibodies</term> in conjunction with <term sem="Organic_compound_other" id="T25" lex="phorbol_12-myristate_13-acetate">phorbol 12-myristate 13-acetate</term> (<term sem="Organic_compound_other" id="T26" lex="PMA">PMA</term>)- or <term sem="Other" id="T27" lex="TcR-derived_signals"><term sem="Protein_family_or_group" id="T28" lex="TcR">TcR</term>-derived signals</term> induces the enhanced activation of the <term sem="Protein_family_or_group" id="T29" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T30" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E15">
+<type class="Cell_communication" />
+<theme idref="T26" />
+<clue>Stimulation of T-cells by agonistic anti-CD28 antibodies in conjunction with phorbol 12-myristate 13-acetate (PMA)- or TcR-<linkTheme>derived</linkTheme> <clueType>signals</clueType> induces the enhanced activation of the transcription factor NF-kappa B.</clue>
+</event>
+<event id="E16">
+<type class="Cell_communication" />
+<theme idref="T28" />
+<clue>Stimulation of T-cells by agonistic anti-CD28 antibodies in conjunction with phorbol 12-myristate 13-acetate (PMA)- or TcR-<linkTheme>derived</linkTheme> <clueType>signals</clueType> induces the enhanced activation of the transcription factor NF-kappa B.</clue>
+</event>
+<event id="E17">
+<type class="Physiological_process" />
+<theme idref="T22" />
+<cause idref="T23" />
+<cause idref="E15" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> T-cells <linkCause>by</linkCause> agonistic anti-CD28 antibodies <linkCause>in conjunction with</linkCause> phorbol 12-myristate 13-acetate (PMA)- or TcR-derived signals induces the enhanced activation of the transcription factor NF-kappa B.</clue>
+</event>
+<event id="E18">
+<type class="Physiological_process" />
+<theme idref="T22" />
+<cause idref="T23" />
+<cause idref="E16" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> T-cells <linkCause>by</linkCause> agonistic anti-CD28 antibodies <linkCause>in conjunction with</linkCause> phorbol 12-myristate 13-acetate (PMA)- or TcR-derived signals induces the enhanced activation of the transcription factor NF-kappa B.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<clue>Stimulation of T-cells by agonistic anti-CD28 antibodies in conjunction with phorbol 12-myristate 13-acetate (PMA)- or TcR-derived signals induces the enhanced <clueType>activation</clueType> <linkTheme>of</linkTheme> the transcription factor NF-kappa B.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<clue>Stimulation of T-cells by agonistic anti-CD28 antibodies in conjunction with phorbol 12-myristate 13-acetate (PMA)- or TcR-derived signals induces the <clueType>enhanced</clueType> activation of the transcription factor NF-kappa B.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E17" />
+<clue>Stimulation of T-cells by agonistic anti-CD28 antibodies in conjunction with phorbol 12-myristate 13-acetate (PMA)- or TcR-derived signals <clueType>induces</clueType> the enhanced activation of the transcription factor NF-kappa B.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E18" />
+<clue>Stimulation of T-cells by agonistic anti-CD28 antibodies in conjunction with phorbol 12-myristate 13-acetate (PMA)- or TcR-derived signals <clueType>induces</clueType> the enhanced activation of the transcription factor NF-kappa B.</clue>
+</event>
+<sentence id="S5">Here we report that <term sem="Protein_molecule" id="T31" lex="CD28">CD28</term> engagement, however, exerts opposite effects on the <term sem="Protein_molecule" id="T32" lex="transcription_factor_AP-1"><term sem="Protein_family_or_group" id="T33" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T34" lex="AP-1">AP-1</term></term>.</sentence>
+<event id="E23">
+<type class="Binding" />
+<theme idref="T31" />
+<clue>Here we report that CD28 <clueType>engagement</clueType>, however, exerts opposite effects on the transcription factor AP-1.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="T34" />
+<cause idref="E23" />
+<clue>Here we report that CD28 engagement, however, exerts <clueType>opposite effects</clueType> <linkTheme>on</linkTheme> the transcription factor AP-1.</clue>
+<comment>CAUTION: opposite effects = inhibits</comment>
+</event>
+<sentence id="S6">Whereas <term sem="Protein_family_or_group" id="T35" lex="anti-CD28">anti-<term sem="Protein_molecule" id="T36" lex="CD28">CD28</term></term> together with <term sem="Organic_compound_other" id="T37" lex="PMA">PMA</term> increased the <term sem="DNA_domain_or_region" id="A1">DNA</term> binding and <term sem="Other" id="T38" lex="trans-activation_activity">trans-activation activity</term> of <term sem="Protein_molecule" id="T39" lex="NF-kappa_B">NF-kappa B</term>, <term sem="Other" id="T40" lex="PMA-induced_activation"><term sem="Organic_compound_other" id="T41" lex="PMA">PMA</term>-induced activation</term> of <term sem="Protein_molecule" id="T42" lex="AP-1">AP-1</term> was significantly suppressed.</sentence>
+<event id="E25">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T39" />
+<clue>Whereas anti-CD28 together with PMA increased the DNA <clueType>binding</clueType> and trans-activation activity <linkTheme>of</linkTheme> NF-kappa B, PMA-induced activation of AP-1 was significantly suppressed.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<cause idref="T39" />
+<clue>Whereas anti-CD28 together with PMA increased the DNA binding and <clueType>trans-activation activity</clueType> <linkCause>of</linkCause> NF-kappa B, PMA-induced activation of AP-1 was significantly suppressed.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="T35" />
+<cause idref="T37" />
+<clue>Whereas anti-CD28 <linkCause>together with</linkCause> PMA <clueType>increased</clueType> the DNA binding and trans-activation activity of NF-kappa B, PMA-induced activation of AP-1 was significantly suppressed.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T35" />
+<cause idref="T37" />
+<clue>Whereas anti-CD28 <linkCause>together with</linkCause> PMA <clueType>increased</clueType> the DNA binding and trans-activation activity of NF-kappa B, PMA-induced activation of AP-1 was significantly suppressed.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<clue>Whereas anti-CD28 together with PMA increased the DNA binding and trans-activation activity of NF-kappa B, PMA-induced <clueType>activation</clueType> <linkTheme>of</linkTheme> AP-1 was significantly suppressed.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="T41" />
+<clue>Whereas anti-CD28 together with PMA increased the DNA binding and trans-activation activity of NF-kappa B, PMA-<clueType>induced</clueType> activation of AP-1 was significantly suppressed.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="E30" />
+<cause idref="T35" />
+<clue>Whereas anti-CD28 together with PMA increased the DNA binding and trans-activation activity of NF-kappa B, PMA-induced activation of AP-1 was significantly <clueType>suppressed</clueType>.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<sentence id="S7">The inhibitory effect exerted by <term sem="Protein_family_or_group" id="T43" lex="anti-CD28">anti-<term sem="Protein_molecule" id="T44" lex="CD28">CD28</term></term> was observed at the level of <term sem="DNA_domain_or_region" id="A2">DNA</term> binding as well as in functional <term sem="Other" id="T45" lex="reporter-gene_assay">reporter-gene assays</term>.</sentence>
+<event id="E32">
+<type class="Binding" />
+<theme idref="A2" />
+<theme idref="T42" />
+<clue>The inhibitory effect exerted by anti-CD28 was observed at the level of DNA <clueType>binding</clueType> as well as in functional reporter-gene assays.</clue>
+<comment>NO COREFTHEME FOR T42</comment>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="T43" />
+<clue>The <clueType>inhibitory effect</clueType> exerted <linkCause>by</linkCause> anti-CD28 was observed <linkTheme>at the level of</linkTheme> DNA binding as well as in functional reporter-gene assays.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<cause idref="T43" />
+<clue>The <clueType>inhibitory effect</clueType> exerted <linkCause>by</linkCause> anti-CD28 was observed at the level of DNA binding as well as <clueExperiment>in functional reporter-gene assays</clueExperiment>.</clue>
+</event>
+<sentence id="S8">These results suggest that the two <term sem="Protein_family_or_group" id="T46" lex="transcription_factor">transcription factors</term> are independently regulated and may perform different functions during <term sem="Other" id="T47" lex="T-cell_activation"><term sem="Cell_natural" id="A3">T-cell</term> activation</term>.</sentence>
+<event id="E35">
+<type class="Regulation" />
+<theme idref="T39" />
+<clue>These results suggest that <corefTheme>the two transcription factors</corefTheme> are independently <clueType>regulated</clueType> and may perform different functions during T-cell activation.</clue>
+</event>
+<event id="E36">
+<type class="Regulation" />
+<theme idref="T42" />
+<clue>These results suggest that <corefTheme>the two transcription factors</corefTheme> are independently <clueType>regulated</clueType> and may perform different functions during T-cell activation.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E37">
+<type class="Correlation" />
+<theme idref="E35" />
+<theme idref="E36" />
+<clue>These results suggest that the two transcription factors are <clueType>independently</clueType> regulated and may perform different functions during T-cell activation.</clue>
+</event>
+<event uncertainty="probable" id="E38">
+<type class="Regulation" />
+<cause idref="T39" />
+<clue>These results suggest that the two transcription factors are independently regulated and may <clueType>perform different functions</clueType> <clueTime>during T-cell activation</clueTime>.</clue>
+</event>
+<event uncertainty="probable" id="E39">
+<type class="Regulation" />
+<cause idref="T42" />
+<clue>These results suggest that the two transcription factors are independently regulated and may <clueType>perform different functions</clueType> <clueTime>during T-cell activation</clueTime>.</clue>
+</event>
+<event uncertainty="probable" id="E40">
+<type class="Physiological_process" />
+<theme idref="A3" />
+<clue>These results suggest that the two transcription factors are independently regulated and may perform different functions during T-cell <clueType>activation</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="17/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8662666" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8662666</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="DNA_triplex_formation"><term sem="DNA_molecule" id="A1">DNA</term> triplex formation</term> selectively inhibits <term sem="Other" id="T2" lex="granulocyte-macrophage_colony-stimulating_factor_gene_expression"><term sem="DNA_domain_or_region" id="T3" lex="granulocyte-macrophage_colony-stimulating_factor_gene"><term sem="Protein_molecule" id="T4" lex="granulocyte-macrophage_colony-stimulating_factor">granulocyte-macrophage colony-stimulating factor</term> gene</term> expression</term> in human T cells.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="A1" />
+<clue>DNA <clueType>triplex formation</clueType> selectively inhibits granulocyte-macrophage colony-stimulating factor gene expression in human T cells.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>DNA triplex formation selectively inhibits granulocyte-macrophage colony-stimulating factor gene <clueType>expression</clueType> <clueLoc>in human T cells</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue>DNA triplex formation selectively <clueType>inhibits</clueType> granulocyte-macrophage colony-stimulating factor gene expression in human T cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T5" lex="Granulocyte-macrophage_colony-stimulating_factor">Granulocyte-macrophage colony-stimulating factor</term> (<term sem="Protein_molecule" id="T6" lex="GM-CSF">GM-CSF</term>) is a hemopoietic growth factor that is expressed in activated <term sem="Cell_natural" id="A2">T cells</term>, fibroblasts, macrophages, and endothelial cells.</sentence>
+<event id="E4">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<clue>Granulocyte-macrophage colony-stimulating factor (GM-CSF) is a hemopoietic growth factor that is expressed in <clueType>activated</clueType> T cells, fibroblasts, macrophages, and endothelial cells.</clue>
+</event>
+<event id="E300">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Granulocyte-macrophage colony-stimulating factor (GM-CSF) is a <corefTheme>hemopoietic growth factor</corefTheme> that is <clueType>expressed</clueType> <clueLoc>in activated T cells</clueLoc>, fibroblasts, macrophages, and endothelial cells.</clue>
+</event>
+<event id="E301">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Granulocyte-macrophage colony-stimulating factor (GM-CSF) is a <corefTheme>hemopoietic growth factor</corefTheme> that is <clueType>expressed</clueType> <clueLoc>in</clueLoc> activated T cells, <clueLoc>fibroblasts</clueLoc>, macrophages, and endothelial cells.</clue>
+</event>
+<event id="E302">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Granulocyte-macrophage colony-stimulating factor (GM-CSF) is a <corefTheme>hemopoietic growth factor</corefTheme> that is <clueType>expressed</clueType> <clueLoc>in</clueLoc> activated T cells, fibroblasts, <clueLoc>macrophages</clueLoc>, and endothelial cells.</clue>
+</event>
+<event id="E303">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Granulocyte-macrophage colony-stimulating factor (GM-CSF) is a <corefTheme>hemopoietic growth factor</corefTheme> that is <clueType>expressed</clueType> <clueLoc>in</clueLoc> activated T cells, fibroblasts, macrophages, and <clueLoc>endothelial cells</clueLoc>.</clue>
+</event>
+<sentence id="S3">Although <term sem="Protein_molecule" id="T7" lex="GM-CSF">GM-CSF</term> does not appear to be essential for normal <term sem="Other" id="A6">hemopoiesis</term>, overexpression of <term sem="Protein_molecule" id="A7">GM-CSF</term> has been implicated in the pathogenesis of some diseases such as <term sem="Other" id="A8">myeloid leukemia</term> and <term sem="Other" id="A9">chronic inflammation</term>.</sentence>
+<event assertion="non-exist" id="E6">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="T7" />
+<clue>Although GM-CSF does not appear to be <clueType>essential</clueType> <linkTheme>for</linkTheme> normal hemopoiesis, overexpression of GM-CSF has been implicated in the pathogenesis of some diseases such as myeloid leukemia and chronic inflammation.</clue>
+</event>
+<event id="E50">
+<type class="Gene_expression" />
+<theme idref="A7" />
+<clue>Although GM-CSF does not appear to be essential for normal hemopoiesis, <clueType>overexpression</clueType> <linkTheme>of</linkTheme> GM-CSF has been implicated in the pathogenesis of some diseases such as myeloid leukemia and chronic inflammation.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E50" />
+<clue>Although GM-CSF does not appear to be essential for normal hemopoiesis, <clueType>overexpression</clueType> of GM-CSF has been implicated in the pathogenesis of some diseases such as myeloid leukemia and chronic inflammation.</clue>
+</event>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="E7" />
+<theme idref="A8" />
+<clue>Although GM-CSF does not appear to be essential for normal hemopoiesis, overexpression of GM-CSF has been <clueType>implicated</clueType> <linkTheme>in</linkTheme> the pathogenesis of some diseases such as myeloid leukemia and chronic inflammation.</clue>
+</event>
+<event id="E9">
+<type class="Correlation" />
+<theme idref="E7" />
+<theme idref="A9" />
+<clue>Although GM-CSF does not appear to be essential for normal hemopoiesis, overexpression of GM-CSF has been <clueType>implicated</clueType> <linkTheme>in</linkTheme> the pathogenesis of some diseases such as myeloid leukemia and chronic inflammation.</clue>
+</event>
+<sentence id="S4">An <term sem="Protein_complex" id="T8" lex="NF-kappaB">NF-kappaB</term>/Rel binding site within the <term sem="DNA_domain_or_region" id="T9" lex="GM-CSF_promoter"><term sem="Protein_molecule" id="T10" lex="GM-CSF">GM-CSF</term> promoter</term>, termed the <term sem="DNA_domain_or_region" id="A10">kappaB element</term> appears to be important for controlling expression in <term sem="Other" id="T11" lex="reporter_gene_assay"><term sem="DNA_family_or_group" id="T12" lex="reporter_gene">reporter gene</term> assays</term> in response to a number of <term sem="Other" id="A11">stimuli</term> in <term sem="Cell_natural" id="T13" lex="T_cell">T cells</term>.</sentence>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T12" />
+<clue>An NF-kappaB/Rel binding site within the GM-CSF promoter, termed the kappaB element appears to be important for controlling <clueType>expression</clueType> <linkTheme>in</linkTheme> reporter gene assays in response to a number of stimuli in T cells.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="A11" />
+<clue>An NF-kappaB/Rel binding site within the GM-CSF promoter, termed the kappaB element appears to be important for <clueType>controlling</clueType> expression in reporter gene assays <linkCause>in response to</linkCause> a number of stimuli <clueLoc>in T cells.</clueLoc></clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="A10" />
+<clue>An NF-kappaB/Rel binding site within the GM-CSF promoter, termed the kappaB element appears to be <clueType>important</clueType> <linkTheme>for</linkTheme> controlling expression in reporter gene assays in response to a number of stimuli in T cells.</clue>
+</event>
+<sentence id="S5">We investigated <term sem="Other" id="T14" lex="oligonucleotide-directed_triple_helix_formation"><term sem="Polynucleotide" id="T15" lex="oligonucleotide">oligonucleotide</term>-directed triple helix formation</term> across this <term sem="DNA_domain_or_region" id="T16" lex="regulatory_sequence">regulatory sequence</term> as a potential tool to inhibit <term sem="Other" id="T17" lex="GM-CSF_gene_transcription"><term sem="Protein_molecule" id="T18" lex="GM-CSF">GM-CSF</term> gene transcription</term>.</sentence>
+<event id="E13">
+<type class="Transcription" />
+<theme idref="T18" />
+<clue>We investigated oligonucleotide-directed triple helix formation across this regulatory sequence as a potential tool to inhibit GM-CSF gene <clueType>transcription</clueType>.</clue>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="A10" />
+<clue>We investigated oligonucleotide-directed <clueType>triple helix formation</clueType> <linkTheme>across</linkTheme> <corefTheme>this regulatory sequence</corefTheme> as a potential tool to inhibit GM-CSF gene transcription.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T15" />
+<clue>We investigated oligonucleotide-<clueType>directed</clueType> triple helix formation across this regulatory sequence as a potential tool to inhibit GM-CSF gene transcription.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="E15" />
+<clue>We investigated oligonucleotide-directed triple helix formation across this regulatory sequence as a potential tool to <clueType>inhibit</clueType> GM-CSF gene transcription.</clue>
+</event>
+<sentence id="S6">A <term sem="Polynucleotide" id="T19" lex="15-base_oligonucleotide">15-base oligonucleotide</term>, <term sem="Polynucleotide" id="T20" lex="GM3">GM3</term>, was targeted to a <term sem="DNA_domain_or_region" id="T21" lex="purine-rich_region">purine-rich region</term> in the <term sem="DNA_domain_or_region" id="T22" lex="GM-CSF_proximal_promoter"><term sem="Protein_molecule" id="T23" lex="GM-CSF">GM-CSF</term> proximal promoter</term>, which overlaps the <term sem="DNA_domain_or_region" id="T24" lex="kappaB_element">kappaB element</term>.</sentence>
+<event id="E17">
+<type class="Binding" />
+<theme idref="T22" />
+<theme idref="T20" />
+<clue>A 15-base oligonucleotide, GM3, was <clueType>targeted</clueType> <linkTheme>to</linkTheme> a purine-rich region in the GM-CSF proximal promoter, which overlaps the kappaB element.</clue>
+</event>
+<sentence id="S7"><term sem="Other" id="T25" lex="gel_mobility_shift_assay">Gel mobility shift assays</term> and <term sem="Other" id="T26" lex="DNase_I_footprinting"><term sem="Protein_molecule" id="T27" lex="DNase_I">DNase I</term> footprinting</term> demonstrated that <term sem="Polynucleotide" id="T28" lex="GM3">GM3</term> formed a <term sem="DNA_substructure" id="T29" lex="sequence-specific_collinear_triplex">sequence-specific collinear triplex</term> with its <term sem="DNA_domain_or_region" id="T30" lex="double-stranded_DNA_target"><term sem="DNA_substructure" id="A12">double-stranded DNA</term> target</term>.</sentence>
+<event id="E18">
+<type class="Binding" />
+<theme idref="T28" />
+<theme idref="A12" />
+<clue><clueExperiment>Gel mobility shift assays and DNase I footprinting</clueExperiment> demonstrated that GM3 <clueType>formed</clueType> a sequence-specific collinear <clueType>triplex</clueType> <linkTheme>with</linkTheme> its double-stranded DNA target.</clue>
+</event>
+<sentence id="S8"><term sem="Other" id="T31" lex="triplex_formation">Triplex formation</term> by <term sem="Polynucleotide" id="T32" lex="GM3">GM3</term> blocked <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T33" lex="(AND recombinant_NF-kappaB_protein nuclear_NF-kappaB_protein)"><frag id="F1">recombinant</frag> and <frag id="F2">nuclear</frag> <frag id="F3">NF-kappaB proteins</frag></cons> binding to the <term sem="DNA_domain_or_region" id="T34" lex="GM-CSF_element"><term sem="Protein_molecule" id="T35" lex="GM-CSF">GM-CSF</term> element</term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T32" />
+<clue><clueType>Triplex formation</clueType> <linkTheme>by</linkTheme> GM3 blocked recombinant and nuclear NF-kappaB proteins binding to the GM-CSF element.</clue>
+</event>
+<event id="E20">
+<type class="Binding" />
+<theme idref1="F3" idref="F1" />
+<theme idref="T34" />
+<clue>Triplex formation by GM3 blocked recombinant and nuclear NF-kappaB proteins <clueType>binding</clueType> <linkTheme>to</linkTheme> the GM-CSF element.</clue>
+</event>
+<event id="E21">
+<type class="Binding" />
+<theme idref1="F3" idref="F2" />
+<theme idref="T34" />
+<clue>Triplex formation by GM3 blocked recombinant and nuclear NF-kappaB proteins <clueType>binding</clueType> <linkTheme>to</linkTheme> the GM-CSF element.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="E19" />
+<clue>Triplex formation by GM3 <clueType>blocked</clueType> recombinant and nuclear NF-kappaB proteins binding to the GM-CSF element.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="E19" />
+<clue>Triplex formation by GM3 <clueType>blocked</clueType> recombinant and nuclear NF-kappaB proteins binding to the GM-CSF element.</clue>
+</event>
+<sentence id="S9"><term sem="Polynucleotide" id="T36" lex="GM3">GM3</term> also caused selective inhibition of the <term sem="Other" id="T37" lex="human_T-cell_lymphotrophic_virus-1_Tax_transactivator-induced_luciferase_activity"><term sem="Protein_molecule" id="T38" lex="human_T-cell_lymphotrophic_virus-1_Tax"><term sem="Virus" id="T39" lex="human_T-cell_lymphotrophic_virus-1">human T-cell lymphotrophic virus-1</term> Tax</term> transactivator-induced <term sem="Protein_molecule" id="T40" lex="luciferase">luciferase</term> activity</term> from a reporter construct driven by the <term sem="DNA_domain_or_region" id="T41" lex="GM-CSF_promoter"><term sem="Protein_molecule" id="T42" lex="GM-CSF">GM-CSF</term> promoter</term> in <term sem="Cell_cultured" id="T43" lex="Jurkat_T_cell">Jurkat T cells</term>.</sentence>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<cause idref="T41" />
+<clue>GM3 also caused selective inhibition of the human T-cell lymphotrophic virus-1 Tax transactivator-induced luciferase activity from a reporter construct <clueType>driven</clueType> <linkCause>by</linkCause> the GM-CSF promoter in Jurkat T cells.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="T38" />
+<clue>GM3 also caused selective inhibition of the human T-cell lymphotrophic virus-1 Tax transactivator-<clueType>induced</clueType> luciferase activity from a reporter construct driven by the GM-CSF promoter <clueLoc>in Jurkat T cells</clueLoc>.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="T36" />
+<clue>GM3 also caused selective <clueType>inhibition</clueType> <linkTheme>of</linkTheme> the human T-cell lymphotrophic virus-1 Tax transactivator-induced luciferase activity from a reporter construct driven by the GM-CSF promoter in Jurkat T cells.</clue>
+</event>
+<sentence id="S10">Finally, <term sem="Polynucleotide" id="T44" lex="GM3">GM3</term> greatly reduced the concentration of endogenous <term sem="RNA_molecule" id="T45" lex="GM-CSF_mRNA"><term sem="Protein_molecule" id="T46" lex="GM-CSF">GM-CSF</term> mRNA</term> induced by different <term sem="Other" id="A17">stimuli</term> in <term sem="Cell_cultured" id="T47" lex="Jurkat_T_cell">Jurkat T cells</term> but did not affect <term sem="Other" id="T48" lex="interleukin_3_mRNA_levels"><term sem="RNA_molecule" id="T49" lex="interleukin_3_mRNA"><term sem="Protein_molecule" id="T50" lex="interleukin_3">interleukin 3</term> mRNA</term> levels</term> in the same cells.</sentence>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T45" />
+<cause idref="A17" />
+<clue>Finally, GM3 greatly reduced the concentration of endogenous GM-CSF mRNA <clueType>induced</clueType> <linkCause>by</linkCause> different stimuli <clueLoc>in Jurkat T cells</clueLoc> but did not affect interleukin 3 mRNA levels in the same cells.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="E27" />
+<cause idref="T44" />
+<clue>Finally, GM3 greatly <clueType>reduced</clueType> the concentration of endogenous GM-CSF mRNA induced by different stimuli in Jurkat T cells but did not affect interleukin 3 mRNA levels in the same cells.</clue>
+</event>
+<event assertion="non-exist" id="E29">
+<type class="Regulation" />
+<theme idref="T49" />
+<cause idref="T44" />
+<clue>Finally, GM3 greatly reduced the concentration of endogenous GM-CSF mRNA induced by different stimuli <clueLoc>in Jurkat T cells</clueLoc> but did not <clueType>affect</clueType> interleukin 3 mRNA levels in the same cells.</clue>
+</event>
+<sentence id="S11">We conclude that the <term sem="DNA_domain_or_region" id="T51" lex="kappaB_element">kappaB element</term> in the <term sem="DNA_domain_or_region" id="T52" lex="GM-CSF_promoter"><term sem="Protein_molecule" id="T53" lex="GM-CSF">GM-CSF</term> promoter</term> plays a central role in the <term sem="Other" id="T54" lex="transcriptional_activation">transcriptional activation</term> of the endogenous <term sem="DNA_domain_or_region" id="T55" lex="GM-CSF_gene"><term sem="Protein_molecule" id="T56" lex="GM-CSF">GM-CSF</term> gene</term>.</sentence>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="T55" />
+<clue>We conclude that the kappaB element in the GM-CSF promoter plays a central role in the <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> the endogenous GM-CSF gene.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="T51" />
+<clue>We conclude that the kappaB element in the GM-CSF promoter <clueType>plays</clueType> a <clueType>central role</clueType> <linkTheme>in</linkTheme> the transcriptional activation of the endogenous GM-CSF gene.</clue>
+</event>
+<sentence id="S12"><term sem="Other" id="T57" lex="colinear_triplex_formation">Colinear triplex formation</term> acts as a selective <term sem="Other" id="T58" lex="transcriptional_repressor">transcriptional repressor</term> of the <term sem="DNA_domain_or_region" id="T59" lex="GM-CSF_gene"><term sem="Protein_molecule" id="T60" lex="GM-CSF">GM-CSF</term> gene</term> and may have potential therapeutic application in cases of undesirable overexpression of this protein.</sentence>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="T60" />
+<cause idref="T57" />
+<clue>Colinear triplex formation acts as a selective <clueType>transcriptional repressor</clueType> of the GM-CSF gene and may have potential therapeutic application in cases of undesirable overexpression <linkTheme>of</linkTheme> <corefTheme>this protein</corefTheme>.</clue>
+</event>
+<event id="E34">
+<type class="Gene_expression" />
+<theme idref="T60" />
+<clue>Colinear triplex formation acts as a selective transcriptional repressor of the GM-CSF gene and may have potential therapeutic application in cases of undesirable <clueType>overexpression</clueType> <linkTheme>of</linkTheme> <corefTheme>this protein</corefTheme>.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<clue>Colinear triplex formation acts as a selective transcriptional repressor of the GM-CSF gene and may have potential therapeutic application in cases of undesirable <clueType>overexpression</clueType> of this protein.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="09/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7718519" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7718519</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><cons sem="(AND Other Other)" id="C1" lex="(AND IL-1_receptor_signal TCR_signal)"><frag id="F1"><term sem="Protein_molecule" id="T1" lex="IL-1_receptor">IL-1 receptor</term></frag> and <frag id="F2"><term sem="Protein_family_or_group" id="T3" lex="TCR">TCR</term></frag> <frag id="F3">signals</frag></cons> synergize to activate <term sem="Protein_molecule" id="T5" lex="NF-kappa_B">NF-kappa B</term>-mediated <term sem="Other" id="A1">gene transcription</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="T5" />
+<clue>IL-1 receptor and TCR signals synergize to activate NF-kappa B-<clueType>mediated</clueType> gene transcription.</clue>
+<comment>NER: T4 del &quot;NF-kappa B-mediated gene transcription&quot;</comment>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref1="F3" idref="F1" />
+<cause idref1="F3" idref="F3" />
+<clue>IL-1 receptor and TCR signals <clueType>synergize to activate</clueType> NF-kappa B-mediated gene transcription.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Previous studies have demonstrated that <cons sem="(AND Other Other)" id="C2" lex="(AND IL-1R-initiated_signal TCR-initiated_signal)"><term sem="Protein_molecule" id="T7" lex="IL-1_receptor">IL-1 receptor</term> (<frag id="F4"><term sem="Protein_molecule" id="T8" lex="IL-1R">IL-1R</term></frag>)<frag id="F5">-</frag> and <frag id="F6"><term sem="Protein_family_or_group" id="T10" lex="TCR">TCR</term>-</frag><frag id="F7">initiated signals</frag></cons> can interact synergistically to increase the rate of transcription of several <term sem="DNA_domain_or_region" id="A3">lymphokine</term> and <term sem="DNA_domain_or_region" id="A4">lymphokine receptor</term> <term sem="DNA_domain_or_region" id="A5">genes</term> during the <term sem="Other" id="T12" lex="competence_phase">competence phase</term> of the <term sem="Other" id="T13" lex="activation_program">activation program</term> in <term sem="Cell_natural" id="T14" lex="T_helper_lymphocyte">T helper lymphocytes</term>.</sentence>
+<event id="E3">
+<type class="Transcription" />
+<theme idref1="A5" idref="A3" />
+<clue>Previous studies have demonstrated that IL-1 receptor (IL-1R)- and TCR-initiated signals can interact synergistically to increase the rate of <clueType>transcription</clueType> <linkTheme>of</linkTheme> several lymphokine and lymphokine receptor genes during the competence phase of the activation program in T helper lymphocytes.</clue>
+<comment>NER T11 DEL</comment>
+</event>
+<event id="E4">
+<type class="Transcription" />
+<theme idref1="A5" idref="A4" />
+<clue>Previous studies have demonstrated that IL-1 receptor (IL-1R)- and TCR-initiated signals can interact synergistically to increase the rate of <clueType>transcription</clueType> <linkTheme>of</linkTheme> several lymphokine and lymphokine receptor genes during the competence phase of the activation program in T helper lymphocytes.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref1="F5" idref2="F7" idref="F4" />
+<cause idref1="F7" idref="F6" />
+<clue>Previous studies have demonstrated that IL-1 receptor (IL-1R)- and TCR-initiated signals can interact <clueType>synergistically to increase</clueType> the rate of transcription of several lymphokine and lymphokine receptor genes <clueTime>during the competence phase of the activation program</clueTime> <clueLoc>in T helper lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref1="F5" idref2="F7" idref="F4" />
+<cause idref1="F7" idref="F6" />
+<clue>Previous studies have demonstrated that IL-1 receptor (IL-1R)- and TCR-initiated signals can interact <clueType>synergistically to increase</clueType> the rate of transcription of several lymphokine and lymphokine receptor genes <clueTime>during the competence phase of the activation program</clueTime> <clueLoc>in T helper lymphocytes</clueLoc>.</clue>
+</event>
+<sentence id="S3">In this report we describe how <term sem="Other" id="A6">signals</term> initiated through the <term sem="Protein_molecule" id="T15" lex="type_I_IL-1R">type I <term sem="Protein_molecule" id="T16" lex="IL-1R">IL-1R</term></term> interact with <term sem="Other" id="A7">signals from the antigen receptor</term> to synergistically augment the transactivating properties of <term sem="Protein_molecule" id="T17" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<clue>In this report we describe how signals initiated through the type I IL-1R interact with signals from the antigen receptor to synergistically augment the <clueType>transactivating</clueType> properties <linkTheme>of</linkTheme> NF-kappa B.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="T15" />
+<clue>In this report we describe how signals <clueType>initiated</clueType> <linkCause>through</linkCause> the type I IL-1R interact with signals from the antigen receptor to synergistically augment the transactivating properties of NF-kappa B.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E8" />
+<cause idref="A7" />
+<clue>In this report we describe how signals initiated through the type I IL-1R interact with signals from the antigen receptor to <clueType>synergistically augment</clueType> the transactivating properties of NF-kappa B.</clue>
+<comment>TPS A7</comment>
+</event>
+<sentence id="S4">The synergistic <term sem="Protein_family_or_group" id="T18" lex="antigen_receptor">antigen receptor</term> initiated signals are mediated through <term sem="Protein_molecule" id="T19" lex="protein_kinase_C">protein kinase C</term> because they can be mimicked by the <term sem="Organic_compound_other" id="T20" lex="phorbol_ester,_12-O-tetradecanoylphorbol-13-acetate">phorbol ester, <term sem="Organic_compound_other" id="A9">12-O-tetradecanoylphorbol-13-acetate</term></term>, but not with <term sem="Organic_compound_other" id="A10">calcium ionophores</term>; and are <term sem="Organic_compound_other" id="T22" lex="staurosporine">staurosporine</term> sensitive but <term sem="Organic_compound_other" id="T24" lex="cyclosporine">cyclosporine</term> resistant.</sentence>
+<event id="E10">
+<type class="Cell_communication" />
+<theme idref="T18" />
+<clue>The synergistic antigen receptor <clueType>initiated signals</clueType> are mediated through protein kinase C because they can be mimicked by the phorbol ester, 12-O-tetradecanoylphorbol-13-acetate, but not with calcium ionophores; and are staurosporine sensitive but cyclosporine resistant.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T19" />
+<clue>The synergistic antigen receptor initiated signals are <clueType>mediated</clueType> <linkCause>through</linkCause> protein kinase C because they can be mimicked by the phorbol ester, 12-O-tetradecanoylphorbol-13-acetate, but not with calcium ionophores; and are staurosporine sensitive but cyclosporine resistant.</clue>
+</event>
+<event id="E12">
+<type />
+<theme idref="E10" />
+<cause idref="T22" />
+<clue>The synergistic antigen receptor initiated signals are mediated through protein kinase C because <corefTheme>they</corefTheme> can be mimicked by the phorbol ester, 12-O-tetradecanoylphorbol-13-acetate, but not with calcium ionophores; and are staurosporine <clueType>sensitive</clueType> but cyclosporine resistant.</clue>
+<comment>SENSITIVITY; NER: T21, T22 del &quot;staurosporine sensitive&quot;&quot;cyclosporine resistant&quot;</comment>
+</event>
+<event assertion="non-exist" id="E13">
+<type />
+<theme idref="E10" />
+<cause idref="T24" />
+<clue>The synergistic antigen receptor initiated signals are mediated through protein kinase C because <corefTheme>they</corefTheme> can be mimicked by the phorbol ester, 12-O-tetradecanoylphorbol-13-acetate, but not with calcium ionophores; and are staurosporine sensitive but cyclosporine <clueType>resistant</clueType>.</clue>
+<comment>RESISTANCE</comment>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="A9" />
+<clue>The synergistic antigen receptor initiated signals are mediated through protein kinase C because <corefTheme>they</corefTheme> can be <clueType>mimicked</clueType> <linkCause>by</linkCause> the phorbol ester, 12-O-tetradecanoylphorbol-13-acetate, but not with calcium ionophores; and are staurosporine sensitive but cyclosporine resistant.</clue>
+<comment>CLUETYPE IN E11</comment>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="A10" />
+<clue>The synergistic antigen receptor initiated signals are mediated through protein kinase C because <corefTheme>they</corefTheme> can be <clueType>mimicked</clueType> by the phorbol ester, 12-O-tetradecanoylphorbol-13-acetate, but not <linkCause>with</linkCause> calcium ionophores; and are staurosporine sensitive but cyclosporine resistant.</clue>
+<comment>CLUETYPE IN E11</comment>
+</event>
+<sentence id="S5">Gel shift analyses demonstrate that <term sem="Protein_molecule" id="T25" lex="NF-kappa_B">NF-kappa B</term> nuclear translocation is stimulated primarily by <term sem="Protein_molecule" id="T26" lex="IL-1">IL-1</term> rather than by <term sem="Other" id="T27" lex="antigen_receptor_signal"><term sem="Protein_family_or_group" id="T28" lex="antigen_receptor">antigen receptor</term> signals</term>.</sentence>
+<event id="E16">
+<type class="Localization" />
+<theme idref="T25" />
+<clue>Gel shift analyses demonstrate that NF-kappa B <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> is stimulated primarily by IL-1 rather than by antigen receptor signals.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T26" />
+<clue><clueExperiment>Gel shift analyses</clueExperiment> demonstrate that NF-kappa B nuclear translocation is <clueType>stimulated</clueType> primarily <linkCause>by</linkCause> IL-1 rather than by antigen receptor signals.</clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T27" />
+<clue><clueExperiment>Gel shift analyses</clueExperiment> demonstrate that NF-kappa B nuclear translocation is <clueType>stimulated</clueType> primarily <linkCause>by</linkCause> IL-1 rather than by antigen receptor signals.</clue>
+</event>
+<sentence id="S6">Western blot and phosphorylation analyses demonstrate that the synergistic effect on <term sem="Other" id="T29" lex="NF-kappa_B_functional_activity"><term sem="Protein_molecule" id="T30" lex="NF-kappa_B">NF-kappa B</term> functional activity</term> is independent of <term sem="Other" id="T31" lex="I_kappa_B_alpha_(MAD3)-NF-kappa_B_dissociation"><term sem="Protein_molecule" id="T32" lex="I_kappa_B_alpha">I kappa B alpha</term> (<term sem="Protein_molecule" id="T33" lex="MAD3">MAD3</term>)-<term sem="Protein_molecule" id="T34" lex="NF-kappa_B">NF-kappa B</term> dissociation</term> in the cytosol and is not associated with <term sem="Other" id="T35" lex="I_kappa_B_nuclear_translocation"><term sem="Protein_molecule" id="T36" lex="I_kappa_B">I kappa B</term> nuclear translocation</term>.</sentence>
+<event id="E18">
+<type />
+<theme idref="T33" />
+<theme idref="T34" />
+<clue>Western blot and phosphorylation analyses demonstrate that the synergistic effect on NF-kappa B functional activity is independent of I kappa B alpha (MAD3)-NF-kappa B <clueType>dissociation</clueType> <clueLoc>in the cytosol</clueLoc> and is not associated with I kappa B nuclear translocation.</clue>
+<comment>SOO:dissociation</comment>
+</event>
+<event id="E19">
+<type class="Localization" />
+<theme idref="T36" />
+<clue>Western blot and phosphorylation analyses demonstrate that the synergistic effect on NF-kappa B functional activity is independent of I kappa B alpha (MAD3)-NF-kappa B dissociation in the cytosol and is not associated with I kappa B <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E20">
+<type class="Correlation" />
+<theme idref="E9" />
+<theme idref="E18" />
+<clue>Western blot and phosphorylation analyses demonstrate that <corefTheme idref1="E9">the synergistic effect on NF-kappa B functional activity</corefTheme> is <clueType>independent</clueType> <linkTheme>of</linkTheme> I kappa B alpha (MAD3)-NF-kappa B dissociation in the cytosol and is not associated with I kappa B nuclear translocation.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Correlation" />
+<theme idref="E9" />
+<theme idref="E19" />
+<clue>Western blot and phosphorylation analyses demonstrate that <corefTheme idref1="E9">the synergistic effect on NF-kappa B functional activity</corefTheme> is independent of I kappa B alpha (MAD3)-NF-kappa B dissociation in the cytosol and is not <clueType>associated</clueType> <linkTheme>with</linkTheme> I kappa B nuclear translocation.</clue>
+</event>
+<sentence id="S7">The <term sem="Other" id="T37" lex="IL-1-induced_NF-kappa_B_DNA_nuclear_localization"><term sem="Protein_molecule" id="T38" lex="IL-1">IL-1</term>-induced <term sem="Protein_molecule" id="T39" lex="NF-kappa_B">NF-kappa B</term> DNA nuclear localization</term> is transient and can be prolonged either by an <term sem="Other" id="A11">antigen receptor-initiated signal</term> or by inhibiting <term sem="Other" id="T40" lex="protein_synthesis">protein synthesis</term>.</sentence>
+<event id="E22">
+<type class="Localization" />
+<theme idref="T39" />
+<clue>The IL-1-induced NF-kappa B DNA <clueLoc>nuclear</clueLoc> <clueType>localization</clueType> is transient and can be prolonged either by an antigen receptor-initiated signal or by inhibiting protein synthesis.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="T38" />
+<clue>The IL-1-<clueType>induced</clueType> NF-kappa B DNA nuclear localization is transient and can be prolonged either by an antigen receptor-initiated signal or by inhibiting protein synthesis.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="A11" />
+<clue>The IL-1-induced NF-kappa B DNA nuclear localization is transient and can be <clueType>prolonged</clueType> either <linkCause>by</linkCause> an antigen receptor-initiated signal or by inhibiting protein synthesis.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="T40" />
+<clue>The IL-1-induced NF-kappa B DNA nuclear localization is transient and can be prolonged either by an antigen receptor-initiated signal or by <clueType>inhibiting</clueType> protein synthesis.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E25" />
+<clue>The IL-1-induced NF-kappa B DNA nuclear localization is transient and can be <clueType>prolonged</clueType> either by an antigen receptor-initiated signal or <linkCause>by</linkCause> inhibiting protein synthesis.</clue>
+</event>
+<sentence id="S8">These results suggest that <term sem="Protein_molecule" id="T41" lex="IL-1">IL-1</term> induces both <term sem="Other" id="T42" lex="NF-kappa_B_nuclear_translocation"><term sem="Protein_molecule" id="T43" lex="NF-kappa_B">NF-kappa B</term> nuclear translocation</term> and the synthesis of a <term sem="Protein_family_or_group" id="A13">protein(s)</term> responsible for terminating <term sem="Other" id="T44" lex="NF-kappa_B-DNA_interaction"><term sem="Protein_molecule" id="T45" lex="NF-kappa_B">NF-kappa B</term>-<term sem="DNA_molecule" id="A12">DNA</term> interaction</term> in the <term sem="Cell_component" id="T46" lex="nucleus">nucleus</term>.</sentence>
+<event id="E27">
+<type class="Localization" />
+<theme idref="T43" />
+<clue>These results suggest that IL-1 induces both NF-kappa B <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> and the synthesis of a protein(s) responsible for terminating NF-kappa B-DNA interaction in the nucleus.</clue>
+</event>
+<event id="E28">
+<type class="Binding" />
+<theme idref="T45" />
+<theme idref="A12" />
+<clue>These results suggest that IL-1 induces both NF-kappa B nuclear translocation and the synthesis of a protein(s) responsible for terminating NF-kappa B-DNA <clueType>interaction</clueType> <clueLoc>in the nucleus</clueLoc>.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<cause idref="A13" />
+<clue>These results suggest that IL-1 induces both NF-kappa B nuclear translocation and the synthesis of a protein(s) responsible for <clueType>terminating</clueType> NF-kappa B-DNA interaction in the nucleus.</clue>
+</event>
+<event id="E30">
+<type class="Gene_expression" />
+<theme idref="A13" />
+<clue>These results suggest that IL-1 induces both NF-kappa B nuclear translocation and the <clueType>synthesis</clueType> <linkTheme>of</linkTheme> a protein(s) responsible for terminating NF-kappa B-DNA interaction in the nucleus.</clue>
+</event>
+<event uncertainty="probable" id="E31">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="T41" />
+<clue>These results suggest that IL-1 <clueType>induces</clueType> both NF-kappa B nuclear translocation and the synthesis of a protein(s) responsible for terminating NF-kappa B-DNA interaction in the nucleus.</clue>
+</event>
+<event uncertainty="probable" id="E32">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="T41" />
+<clue>These results suggest that IL-1 <clueType>induces</clueType> both NF-kappa B nuclear translocation and the synthesis of a protein(s) responsible for terminating NF-kappa B-DNA interaction in the nucleus.</clue>
+</event>
+<sentence id="S9"><term sem="Other" id="A22">Antigen receptor signals</term> prolong <term sem="Other" id="T47" lex="NF-kappa_B-DNA_interaction"><term sem="Protein_molecule" id="T48" lex="NF-kappa_B">NF-kappa B</term>-<term sem="DNA_molecule" id="A23">DNA</term> interaction</term>, probably by functionally antagonizing the <term sem="Other" id="T49" lex="IL-1-induced_synthesis"><term sem="Protein_molecule" id="T50" lex="IL-1">IL-1</term>-induced synthesis</term> of a <term sem="Protein_family_or_group" id="A14">protein(s)</term> responsible for the <term sem="Other" id="T51" lex="transient_NF-kappa_B-DNA_interaction">transient <term sem="Protein_molecule" id="T52" lex="NF-kappa_B">NF-kappa B</term>-<term sem="DNA_family_or_group" id="A15">DNA</term> interaction</term> and consequently synergistically enhance <term sem="Protein_molecule" id="T54" lex="IL-1">IL-1</term>-induced <term sem="Protein_molecule" id="T55" lex="NF-kappa_B">NF-kappa B</term>-dependent <term sem="Other" id="A25">gene transcription</term>.</sentence>
+<event id="E33">
+<type class="Binding" />
+<theme idref="A23" />
+<theme idref="T48" />
+<clue>Antigen receptor signals prolong NF-kappa B-DNA <clueType>interaction</clueType>, probably by functionally antagonizing the IL-1-induced synthesis of a protein(s) responsible for the transient NF-kappa B-DNA interaction and consequently synergistically enhance IL-1-induced NF-kappa B-dependent gene transcription.</clue>
+</event>
+<event id="E35">
+<type class="Binding" />
+<theme idref="T52" />
+<theme idref="A15" />
+<clue>Antigen receptor signals prolong NF-kappa B-DNA interaction, probably by functionally antagonizing the IL-1-induced synthesis of a protein(s) responsible for the transient NF-kappa B-DNA <clueType>interaction</clueType> and consequently synergistically enhance IL-1-induced NF-kappa B-dependent gene transcription.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="A14" />
+<clue>Antigen receptor signals prolong NF-kappa B-DNA interaction, probably by functionally antagonizing the IL-1-induced synthesis of a protein(s) <clueType>responsible</clueType> <linkTheme>for</linkTheme> the transient NF-kappa B-DNA interaction and consequently synergistically enhance IL-1-induced NF-kappa B-dependent gene transcription.</clue>
+</event>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="A14" />
+<clue>Antigen receptor signals prolong NF-kappa B-DNA interaction, probably by functionally antagonizing the IL-1-induced <clueType>synthesis</clueType> <linkTheme>of</linkTheme> a protein(s) responsible for the transient NF-kappa B-DNA interaction and consequently synergistically enhance IL-1-induced NF-kappa B-dependent gene transcription.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T50" />
+<clue>Antigen receptor signals prolong NF-kappa B-DNA interaction, probably by functionally antagonizing the IL-1-<clueType>induced</clueType> synthesis of a protein(s) responsible for the transient NF-kappa B-DNA interaction and consequently synergistically enhance IL-1-induced NF-kappa B-dependent gene transcription.</clue>
+<comment>NER: T53 del &quot;IL-1-induced NF-kappa B-dependent gene transcription&quot;</comment>
+</event>
+<event id="E39">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="A22" />
+<clue>Antigen receptor signals prolong NF-kappa B-DNA interaction, probably by functionally <clueType>antagonizing</clueType> the IL-1-induced synthesis of a protein(s) responsible for the transient NF-kappa B-DNA interaction and consequently synergistically enhance IL-1-induced NF-kappa B-dependent gene transcription.</clue>
+</event>
+<event uncertainty="probable" id="E40">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="E39" />
+<clue>Antigen receptor signals <clueType>prolong</clueType> NF-kappa B-DNA interaction, probably by functionally antagonizing the IL-1-induced synthesis of a protein(s) responsible for the transient NF-kappa B-DNA interaction and consequently synergistically enhance IL-1-induced NF-kappa B-dependent gene transcription.</clue>
+</event>
+<event id="E55">
+<type class="Positive_regulation" />
+<theme idref="A25" />
+<cause idref="T55" />
+<clue>Antigen receptor signals prolong NF-kappa B-DNA interaction, probably by functionally antagonizing the IL-1-induced synthesis of a protein(s) responsible for the transient NF-kappa B-DNA interaction and consequently synergistically enhance IL-1-induced NF-kappa B-<clueType>dependent</clueType> gene transcription.</clue>
+</event>
+<event id="E56">
+<type class="Positive_regulation" />
+<theme idref="E55" />
+<cause idref="T54" />
+<clue>Antigen receptor signals prolong NF-kappa B-DNA interaction, probably by functionally antagonizing the IL-1-induced synthesis of a protein(s) responsible for the transient NF-kappa B-DNA interaction and consequently synergistically enhance IL-1-<clueType>induced</clueType> NF-kappa B-dependent gene transcription.</clue>
+</event>
+<event id="E41">
+<type class="Positive_regulation" />
+<theme idref="E56" />
+<cause idref="A22" />
+<clue>Antigen receptor signals prolong NF-kappa B-DNA interaction, probably by functionally antagonizing the IL-1-induced synthesis of a protein(s) responsible for the transient NF-kappa B-DNA interaction and consequently <clueType>synergistically enhance</clueType> IL-1-induced NF-kappa B-dependent gene transcription.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

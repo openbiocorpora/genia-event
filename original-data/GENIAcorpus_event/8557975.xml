@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8557975" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8557975</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="MEK1">MEK1</term> and the <term sem="Protein_family_or_group" id="T2" lex="extracellular_signal-regulated_kinase">extracellular signal-regulated kinases</term> are required for the stimulation of <term sem="Other" id="T3" lex="IL-2_gene_transcription"><term sem="DNA_domain_or_region" id="T4" lex="IL-2_gene">IL-2 gene</term> transcription</term> in <term sem="Cell_natural" id="T5" lex="T_cell">T cells</term>.</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T4" />
+<clue>MEK1 and the extracellular signal-regulated kinases are required for the stimulation of IL-2 gene <clueType>transcription</clueType> in T cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue>MEK1 and the extracellular signal-regulated kinases are required for the <clueType>stimulation</clueType> <linkTheme>of</linkTheme> IL-2 gene transcription <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>MEK1 and the extracellular signal-regulated kinases are <clueType>required</clueType> <linkTheme>for</linkTheme> the stimulation of IL-2 gene transcription in T cells.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T2" />
+<clue>MEK1 and the extracellular signal-regulated kinases are <clueType>required</clueType> <linkTheme>for</linkTheme> the stimulation of IL-2 gene transcription in T cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T6" lex="TCR_engagement"><term sem="Protein_family_or_group" id="T7" lex="TCR">TCR</term> engagement</term> stimulates the activation of the <term sem="Protein_family_or_group" id="T8" lex="protein_kinase">protein kinase</term> <term sem="Protein_molecule" id="T9" lex="Raf-1">Raf-1</term>.</sentence>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T7" />
+<clue>TCR <clueType>engagement</clueType> stimulates the activation of the protein kinase Raf-1.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T9" />
+<cause idref="E5" />
+<clue>TCR engagement <clueType>stimulates the activation</clueType> <linkTheme>of</linkTheme> the protein kinase Raf-1.</clue>
+</event>
+<sentence id="S3">Active <term sem="Protein_molecule" id="T10" lex="Raf-1">Raf-1</term> phosphorylates and activates the <term sem="Protein_molecule" id="T11" lex="mitogen-activated_protein_(MAP)_kinase/extracellular_signal-regulated_kinase_kinase_1"><term sem="Protein_family_or_group" id="T12" lex="mitogen-activated_protein_(MAP)_kinase">mitogen-activated protein (MAP) kinase</term>/extracellular signal-regulated kinase kinase 1</term> (<term sem="Protein_molecule" id="T13" lex="MEK1">MEK1</term>), which in turn phosphorylates and activates the <term sem="Protein_family_or_group" id="T14" lex="MAP_kinases/extracellular_signal_regulated_kinase">MAP kinases/extracellular signal regulated kinases</term>, <term sem="Protein_molecule" id="T15" lex="ERK1">ERK1</term> and <term sem="Protein_molecule" id="T16" lex="ERK2">ERK2</term>.</sentence>
+<event id="E7">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T13" />
+<cause idref="T10" />
+<clue>Active Raf-1 <clueType>phosphorylates</clueType> and activates the mitogen-activated protein (MAP) kinase/extracellular signal-regulated kinase kinase 1 (MEK1), which in turn phosphorylates and activates the MAP kinases/extracellular signal regulated kinases, ERK1 and ERK2.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<cause idref="T10" />
+<clue>Active Raf-1 phosphorylates and <clueType>activates</clueType> the mitogen-activated protein (MAP) kinase/extracellular signal-regulated kinase kinase 1 (MEK1), which in turn phosphorylates and activates the MAP kinases/extracellular signal regulated kinases, ERK1 and ERK2.</clue>
+</event>
+<event id="E9">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T15" />
+<cause idref="T13" />
+<clue>Active Raf-1 phosphorylates and activates the mitogen-activated protein (MAP) kinase/extracellular signal-regulated kinase kinase 1 (MEK1), which in turn <clueType>phosphorylates</clueType> and activates the MAP kinases/extracellular signal regulated kinases, ERK1 and ERK2.</clue>
+</event>
+<event id="E10">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T16" />
+<cause idref="T13" />
+<clue>Active Raf-1 phosphorylates and activates the mitogen-activated protein (MAP) kinase/extracellular signal-regulated kinase kinase 1 (MEK1), which in turn <clueType>phosphorylates</clueType> and activates the MAP kinases/extracellular signal regulated kinases, ERK1 and ERK2.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<cause idref="T13" />
+<clue>Active Raf-1 phosphorylates and activates the mitogen-activated protein (MAP) kinase/extracellular signal-regulated kinase kinase 1 (MEK1), which in turn phosphorylates and <clueType>activates</clueType> the MAP kinases/extracellular signal regulated kinases, ERK1 and ERK2.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<cause idref="T13" />
+<clue>Active Raf-1 phosphorylates and activates the mitogen-activated protein (MAP) kinase/extracellular signal-regulated kinase kinase 1 (MEK1), which in turn phosphorylates and <clueType>activates</clueType> the MAP kinases/extracellular signal regulated kinases, ERK1 and ERK2.</clue>
+</event>
+<sentence id="S4"><term sem="Other" id="T17" lex="Raf-1_activity"><term sem="Protein_molecule" id="T18" lex="Raf-1">Raf-1</term> activity</term> promotes <term sem="Protein_molecule" id="A1">IL-2</term> production in activated <term sem="Cell_natural" id="T19" lex="T_lymphocyte">T lymphocytes</term>.</sentence>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Raf-1 activity promotes IL-2 <clueType>production</clueType> in activated T lymphocytes.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T18" />
+<clue>Raf-1 activity <clueType>promotes</clueType> IL-2 production <clueLoc>in activated T lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T19" />
+<clue>Raf-1 activity promotes IL-2 production in <clueType>activated</clueType> T lymphocytes.</clue>
+</event>
+<sentence id="S5">Therefore, we sought to determine whether <term sem="Protein_molecule" id="T20" lex="MEK1">MEK1</term> and <term sem="Other" id="T21" lex="ERK_activity"><term sem="Protein_molecule" id="T22" lex="ERK">ERK</term> activities</term> also stimulate <term sem="Other" id="T23" lex="IL-2_gene_transcription"><term sem="DNA_domain_or_region" id="T24" lex="IL-2_gene">IL-2 gene</term> transcription</term>.</sentence>
+<event id="E16">
+<type class="Transcription" />
+<theme idref="T24" />
+<clue>Therefore, we sought to determine whether MEK1 and ERK activities also stimulate IL-2 gene <clueType>transcription</clueType>.</clue>
+</event>
+<event uncertainty="doubtful" id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T20" />
+<clue>Therefore, we sought to determine whether MEK1 and ERK activities also <clueType>stimulate</clueType> IL-2 gene transcription.</clue>
+</event>
+<event uncertainty="doubtful" id="E18">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T22" />
+<clue>Therefore, we sought to determine whether MEK1 and ERK activities also <clueType>stimulate</clueType> IL-2 gene transcription.</clue>
+</event>
+<sentence id="S6">Expression of constitutively active <term sem="Protein_molecule" id="T25" lex="Raf-1">Raf-1</term> or <term sem="Protein_molecule" id="T26" lex="MEK1">MEK1</term> in <term sem="Cell_cultured" id="T27" lex="Jurkat_T_cell">Jurkat <term sem="Cell_natural" id="T28" lex="T_cell">T cells</term></term> enhanced the stimulation of <term sem="DNA_domain_or_region" id="T30" lex="IL-2_promoter"><term sem="Protein_molecule" id="T31" lex="IL-2">IL-2</term> promoter</term>-driven <term sem="Other" id="A2">transcription</term> stimulated by a <term sem="Organic_compound_other" id="T32" lex="calcium_ionophore">calcium ionophore</term> and <term sem="Organic_compound_other" id="T33" lex="PMA">PMA</term>, and together with a <term sem="Organic_compound_other" id="T34" lex="calcium_ionophore">calcium ionophore</term> the expression of each protein was sufficient to stimulate <term sem="Other" id="T35" lex="NF-AT_activity"><term sem="Protein_family_or_group" id="T36" lex="NF-AT">NF-AT</term> activity</term>.</sentence>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> constitutively active Raf-1 or MEK1 <clueLoc>in Jurkat T cells</clueLoc> enhanced the stimulation of IL-2 promoter-driven transcription stimulated by a calcium ionophore and PMA, and together with a calcium ionophore the expression of each protein was sufficient to stimulate NF-AT activity.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> constitutively active Raf-1 or MEK1 <clueLoc>in Jurkat T cells</clueLoc> enhanced the stimulation of IL-2 promoter-driven transcription stimulated by a calcium ionophore and PMA, and together with a calcium ionophore the expression of each protein was sufficient to stimulate NF-AT activity.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T30" />
+<clue>Expression of constitutively active Raf-1 or MEK1 in Jurkat T cells enhanced the stimulation of IL-2 promoter-<clueType>driven</clueType> transcription stimulated by a calcium ionophore and PMA, and together with a calcium ionophore the expression of each protein was sufficient to stimulate NF-AT activity.</clue>
+<comment>NER: T29 del &quot;IL-2 promoter-driven transcription&quot;</comment>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T32" />
+<clue>Expression of constitutively active Raf-1 or MEK1 in Jurkat T cells enhanced the <clueType>stimulation</clueType> <linkTheme>of</linkTheme> IL-2 promoter-driven transcription <linkCause>stimulated by</linkCause> a calcium ionophore and PMA, and together with a calcium ionophore the expression of each protein was sufficient to stimulate NF-AT activity.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T33" />
+<clue>Expression of constitutively active Raf-1 or MEK1 in Jurkat T cells enhanced the <clueType>stimulation</clueType> <linkTheme>of</linkTheme> IL-2 promoter-driven transcription <linkCause>stimulated by</linkCause> a calcium ionophore and PMA, and together with a calcium ionophore the expression of each protein was sufficient to stimulate NF-AT activity.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E20" />
+<clue>Expression of constitutively active Raf-1 or MEK1 in Jurkat T cells <clueType>enhanced</clueType> the stimulation of IL-2 promoter-driven transcription stimulated by a calcium ionophore and PMA, and together with a calcium ionophore the expression of each protein was sufficient to stimulate NF-AT activity.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E20" />
+<clue>Expression of constitutively active Raf-1 or MEK1 in Jurkat T cells <clueType>enhanced</clueType> the stimulation of IL-2 promoter-driven transcription stimulated by a calcium ionophore and PMA, and together with a calcium ionophore the expression of each protein was sufficient to stimulate NF-AT activity.</clue>
+</event>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue>Expression of constitutively active Raf-1 or MEK1 in Jurkat T cells enhanced the stimulation of IL-2 promoter-driven transcription stimulated by a calcium ionophore and PMA, and together with a calcium ionophore the <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>each protein</corefTheme> was sufficient to stimulate NF-AT activity.</clue>
+</event>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>Expression of constitutively active Raf-1 or MEK1 in Jurkat T cells enhanced the stimulation of IL-2 promoter-driven transcription stimulated by a calcium ionophore and PMA, and together with a calcium ionophore the <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>each protein</corefTheme> was sufficient to stimulate NF-AT activity.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<cause idref="T34" />
+<cause idref="E26" />
+<clue>Expression of constitutively active Raf-1 or MEK1 in Jurkat T cells enhanced the stimulation of IL-2 promoter-driven transcription stimulated by a calcium ionophore and PMA, and <linkCause>together with</linkCause> a calcium ionophore the expression of each protein was <clueType>sufficient to stimulate</clueType> NF-AT activity.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<cause idref="T34" />
+<cause idref="E27" />
+<clue>Expression of constitutively active Raf-1 or MEK1 in Jurkat T cells enhanced the stimulation of IL-2 promoter-driven transcription stimulated by a calcium ionophore and PMA, and <linkCause>together with</linkCause> a calcium ionophore the expression of each protein was <clueType>sufficient to stimulate</clueType> NF-AT activity.</clue>
+</event>
+<sentence id="S7">Expression of <term sem="Protein_family_or_group" id="T37" lex="MEK1-interfering_mutant"><term sem="Protein_molecule" id="T38" lex="MEK1">MEK1</term>-interfering mutants</term> inhibited the stimulation of <term sem="DNA_domain_or_region" id="T40" lex="IL-2_promoter"><term sem="Protein_molecule" id="T41" lex="IL-2">IL-2</term> promoter</term>-driven <term sem="Other" id="A3">transcription</term> and blocked the ability of constitutively active <term sem="Protein_molecule" id="T42" lex="Ras">Ras</term> and <term sem="Protein_molecule" id="T43" lex="Raf-1">Raf-1</term> to costimulate <term sem="Other" id="T44" lex="NF-AT_activity"><term sem="Protein_family_or_group" id="T45" lex="NF-AT">NF-AT</term> activity</term> with a <term sem="Organic_compound_other" id="T46" lex="calcium_ionophore">calcium ionophore</term>.</sentence>
+<event id="E30">
+<type class="Gene_expression" />
+<theme idref="T37" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> MEK1-interfering mutants inhibited the stimulation of IL-2 promoter-driven transcription and blocked the ability of constitutively active Ras and Raf-1 to costimulate NF-AT activity with a calcium ionophore.</clue>
+</event>
+<event id="E31">
+<type class="Regulation" />
+<theme idref="A3" />
+<cause idref="T40" />
+<clue>Expression of MEK1-interfering mutants inhibited the stimulation of IL-2 promoter-<clueType>driven</clueType> transcription and blocked the ability of constitutively active Ras and Raf-1 to costimulate NF-AT activity with a calcium ionophore.</clue>
+<comment>NER: T39 del &quot;IL-2 promoter-driven transcription&quot;</comment>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<clue>Expression of MEK1-interfering mutants inhibited the <clueType>stimulation</clueType> <linkTheme>of</linkTheme> IL-2 promoter-driven transcription and blocked the ability of constitutively active Ras and Raf-1 to costimulate NF-AT activity with a calcium ionophore.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E30" />
+<clue>Expression of MEK1-interfering mutants <clueType>inhibited</clueType> the stimulation of IL-2 promoter-driven transcription and blocked the ability of constitutively active Ras and Raf-1 to costimulate NF-AT activity with a calcium ionophore.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="T45" />
+<cause idref="T42" />
+<cause idref="T46" />
+<clue>Expression of MEK1-interfering mutants inhibited the stimulation of IL-2 promoter-driven transcription and blocked the <linkCause>ability of</linkCause> constitutively active Ras and Raf-1 <clueType>to costimulate</clueType> NF-AT activity <linkCause>with</linkCause> a calcium ionophore.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="T45" />
+<cause idref="T43" />
+<cause idref="T46" />
+<clue>Expression of MEK1-interfering mutants inhibited the stimulation of IL-2 promoter-driven transcription and blocked the <linkCause>ability of</linkCause> constitutively active Ras and Raf-1 <clueType>to costimulate</clueType> NF-AT activity <linkCause>with</linkCause> a calcium ionophore.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="E34" />
+<cause idref="E30" />
+<clue>Expression of MEK1-interfering mutants inhibited the stimulation of IL-2 promoter-driven transcription and <clueType>blocked</clueType> the ability of constitutively active Ras and Raf-1 to costimulate NF-AT activity with a calcium ionophore.</clue>
+</event>
+<event id="E37">
+<type class="Negative_regulation" />
+<theme idref="E34" />
+<cause idref="E30" />
+<clue>Expression of MEK1-interfering mutants inhibited the stimulation of IL-2 promoter-driven transcription and <clueType>blocked</clueType> the ability of constitutively active Ras and Raf-1 to costimulate NF-AT activity with a calcium ionophore.</clue>
+</event>
+<sentence id="S8">Expression of the <term sem="Protein_family_or_group" id="T47" lex="MAP_kinase-specific_phosphatase">MAP kinase-specific phosphatase</term>, <term sem="Protein_molecule" id="T48" lex="MKP-1">MKP-1</term>, which blocks <term sem="Other" id="T49" lex="ERK_activation"><term sem="Protein_family_or_group" id="T50" lex="ERK">ERK</term> activation</term>, inhibited <term sem="DNA_domain_or_region" id="T51" lex="IL-2_promoter"><term sem="Protein_molecule" id="T52" lex="IL-2">IL-2</term> promoter</term> and <term sem="Protein_family_or_group" id="T54" lex="NF-AT">NF-AT</term>-driven <term sem="Other" id="A4">transcription</term> stimulated by a <term sem="Organic_compound_other" id="T55" lex="calcium_ionophore">calcium ionophore</term> and <term sem="Organic_compound_other" id="T56" lex="PMA">PMA</term>, and in addition, <term sem="Protein_molecule" id="T57" lex="MKP-1">MKP-1</term> neutralized the <term sem="Other" id="T58" lex="transcriptional_enhancement">transcriptional enhancement</term> caused by active <cons sem="(AND Other Other)" id="T59" lex="(AND Raf-1_expression MEK1_expression)"><frag id="F1"><term sem="Protein_molecule" id="A5">Raf-1</term></frag> and <frag id="F2"><term sem="Protein_molecule" id="A6">MEK1</term></frag> <frag id="F3">expression</frag></cons>.</sentence>
+<event id="E38">
+<type class="Gene_expression" />
+<theme idref="T48" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="T50" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK <clueType>activation</clueType>, inhibited IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation" />
+<theme idref="E39" />
+<cause idref="T48" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which <clueType>blocks</clueType> ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E41">
+<type class="Regulation" />
+<theme idref="A4" />
+<cause idref="T51" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-<clueType>driven</clueType> transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+<comment>NER: T53 del &quot;NF-AT-driven transcription&quot;</comment>
+</event>
+<event id="E42">
+<type class="Regulation" />
+<theme idref="A4" />
+<cause idref="T54" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-<clueType>driven</clueType> transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="E41" />
+<cause idref="T55" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription <clueType>stimulated</clueType> <linkCause>by</linkCause> a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="E41" />
+<cause idref="T56" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription <clueType>stimulated</clueType> <linkCause>by</linkCause> a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="E42" />
+<cause idref="T55" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription <clueType>stimulated</clueType> <linkCause>by</linkCause> a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="E42" />
+<cause idref="T56" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription <clueType>stimulated</clueType> <linkCause>by</linkCause> a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E47">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="E38" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, <clueType>inhibited</clueType> IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E48">
+<type class="Negative_regulation" />
+<theme idref="E44" />
+<cause idref="E38" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, <clueType>inhibited</clueType> IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E49">
+<type class="Negative_regulation" />
+<theme idref="E45" />
+<cause idref="E38" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, <clueType>inhibited</clueType> IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E50">
+<type class="Negative_regulation" />
+<theme idref="E46" />
+<cause idref="E38" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, <clueType>inhibited</clueType> IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E51">
+<type class="Gene_expression" />
+<theme idref="A5" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 <clueType>expression</clueType>.</clue>
+</event>
+<event id="E52">
+<type class="Gene_expression" />
+<theme idref="A6" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 <clueType>expression</clueType>.</clue>
+</event>
+<event id="E53">
+<type class="Positive_regulation" />
+<cause idref="E51" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the <clueType>transcriptional enhancement</clueType> <linkCause>caused by</linkCause> active Raf-1 and MEK1 expression.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E54">
+<type class="Positive_regulation" />
+<cause idref="E52" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the <clueType>transcriptional enhancement</clueType> <linkCause>caused by</linkCause> active Raf-1 and MEK1 expression.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E55">
+<type class="Negative_regulation" />
+<theme idref="E53" />
+<cause idref="T57" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 <clueType>neutralized</clueType> the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<event id="E56">
+<type class="Negative_regulation" />
+<theme idref="E54" />
+<cause idref="T57" />
+<clue>Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 <clueType>neutralized</clueType> the transcriptional enhancement caused by active Raf-1 and MEK1 expression.</clue>
+</event>
+<sentence id="S9">We conclude that the <term sem="Other" id="T60" lex="MAP_kinase_signal_transduction_pathway"><term sem="Protein_family_or_group" id="T61" lex="MAP_kinase">MAP kinase</term> signal transduction pathway</term> consisting of <term sem="Protein_molecule" id="T62" lex="Raf-1">Raf-1</term>, <term sem="Protein_molecule" id="T63" lex="MEK1">MEK1</term>, and <term sem="Protein_molecule" id="T64" lex="ERK1">ERK1</term> and <term sem="Protein_molecule" id="T65" lex="ERK2">ERK2</term> functions in the stimulation <term sem="Other" id="T66" lex="IL-2_gene_transcription"><term sem="DNA_domain_or_region" id="T67" lex="IL-2_gene"><term sem="Protein_molecule" id="T68" lex="IL-2">IL-2</term> gene</term> transcription</term> in activated <term sem="Cell_natural" id="T69" lex="T_lymphocyte">T lymphocytes</term>.</sentence>
+<event id="E57">
+<type class="Transcription" />
+<theme idref="T67" />
+<clue>We conclude that the MAP kinase signal transduction pathway consisting of Raf-1, MEK1, and ERK1 and ERK2 functions in the stimulation IL-2 gene <clueType>transcription</clueType> in activated T lymphocytes.</clue>
+</event>
+<event id="E58">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<clue>We conclude that the MAP kinase signal transduction pathway consisting of Raf-1, MEK1, and ERK1 and ERK2 functions in the <clueType>stimulation</clueType> IL-2 gene transcription <clueLoc>in activated T lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E59">
+<type class="Regulation" />
+<theme idref="E58" />
+<cause idref="T60" />
+<clue>We conclude that the MAP kinase signal transduction pathway consisting of Raf-1, MEK1, and ERK1 and ERK2 <clueType>functions</clueType> <linkTheme>in</linkTheme> the stimulation IL-2 gene transcription in activated T lymphocytes.</clue>
+</event>
+<event id="E159">
+<type class="Regulation" />
+<theme idref="E58" />
+<cause idref="T62" />
+<clue>We conclude that <corefCause>the MAP kinase signal transduction pathway</corefCause> consisting of Raf-1, MEK1, and ERK1 and ERK2 <clueType>functions</clueType> <linkTheme>in</linkTheme> the stimulation IL-2 gene transcription in activated T lymphocytes.</clue>
+</event>
+<event id="E60">
+<type class="Regulation" />
+<theme idref="E58" />
+<cause idref="T63" />
+<clue>We conclude that <corefCause>the MAP kinase signal transduction pathway</corefCause> consisting of Raf-1, MEK1, and ERK1 and ERK2 <clueType>functions</clueType> <linkTheme>in</linkTheme> the stimulation IL-2 gene transcription in activated T lymphocytes.</clue>
+</event>
+<event id="E61">
+<type class="Regulation" />
+<theme idref="E58" />
+<cause idref="T64" />
+<clue>We conclude that <corefCause>the MAP kinase signal transduction pathway</corefCause> consisting of Raf-1, MEK1, and ERK1 and ERK2 <clueType>functions</clueType> <linkTheme>in</linkTheme> the stimulation IL-2 gene transcription in activated T lymphocytes.</clue>
+</event>
+<event id="E62">
+<type class="Regulation" />
+<theme idref="E58" />
+<cause idref="T65" />
+<clue>We conclude that <corefCause>the MAP kinase signal transduction pathway</corefCause> consisting of Raf-1, MEK1, and ERK1 and ERK2 <clueType>functions</clueType> <linkTheme>in</linkTheme> the stimulation IL-2 gene transcription in activated T lymphocytes.</clue>
+</event>
+<event id="E63">
+<type class="Physiological_process" />
+<theme idref="T69" />
+<clue>We conclude that the MAP kinase signal transduction pathway consisting of Raf-1, MEK1, and ERK1 and ERK2 functions in the stimulation IL-2 gene transcription in <clueType>activated</clueType> T lymphocytes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

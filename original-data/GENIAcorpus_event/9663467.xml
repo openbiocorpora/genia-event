@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="13/10/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9663467"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9663467</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="thrombopoietin">Thrombopoietin</term> supports <term sem="Other" id="T2" lex="in_vitro_erythroid_differentiation">in vitro <term sem="Cell_natural" id="A1">erythroid</term> <term sem="Other" id="T3" lex="differentiation">differentiation</term></term> via its specific receptor <term sem="Protein_molecule" id="T4" lex="c-Mpl">c-Mpl</term> in a <term sem="Cell_cultured" id="T5" lex="human_leukemia_cell_line">human leukemia cell line</term>.</sentence>
+<event id="E1">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>Thrombopoietin supports in vitro erythroid <clueType>differentiation</clueType> via its specific receptor c-Mpl in a human leukemia cell line.</clue>
+</event>
+<event id="E2">
+<type class="Binding" />
+<theme idref="T1" />
+<theme idref="T4" />
+<clue>Thrombopoietin supports in vitro erythroid differentiation via <clueType>its specific receptor</clueType> c-Mpl in a human leukemia cell line.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="E2" />
+<clue>Thrombopoietin <clueType>supports</clueType> in vitro erythroid differentiation <linkCause>via</linkCause> its specific receptor c-Mpl <clueLoc>in a human leukemia cell line</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T6" lex="thrombopoietin">Thrombopoietin</term> (<term sem="Protein_molecule" id="T7" lex="TPO">TPO</term>) acts on <term sem="Other" id="T8" lex="megakaryopoiesis">megakaryopoiesis</term> and <term sem="Other" id="T9" lex="erythropoiesis">erythropoiesis</term> in vitro and in vivo.</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="T7" />
+<clue>Thrombopoietin (TPO) <clueType>acts</clueType> <linkTheme>on</linkTheme> megakaryopoiesis and erythropoiesis in vitro and in vivo.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T9" />
+<cause idref="T7" />
+<clue>Thrombopoietin (TPO) <clueType>acts</clueType> <linkTheme>on</linkTheme> megakaryopoiesis and erythropoiesis in vitro and in vivo.</clue>
+</event>
+<sentence id="S3">We isolated a novel subline, <term sem="Cell_cultured" id="T10" lex="UT-7/GMT">UT-7/GMT</term>, from the <term sem="Cell_cultured" id="T11" lex="human_leukemia_cell_line_UT-7/GM"><term sem="Cell_cultured" id="T12" lex="human_leukemia_cell_line">human leukemia cell line</term> UT-7/GM</term> (N. Komatsu, et al., Blood, 89: 4021-4033, 1997).</sentence>
+<sentence id="S4">A small population of <term sem="Cell_cultured" id="T13" lex="UT-7/GM_cell">UT-7/GM cells</term> positively stained for <term sem="Protein_complex" id="T14" lex="hemoglobin">hemoglobin</term> (<term sem="Protein_complex" id="T15" lex="Hb">Hb</term>) after a 7-day exposure to <term sem="Protein_molecule" id="T16" lex="TPO">TPO</term>.</sentence>
+<event id="E6">
+<type class="Artificial_process" />
+<theme idref="T13" />
+<theme idref="T16" />
+<clue>A small population of UT-7/GM cells positively stained for hemoglobin (Hb) after a <clueTime>7-day</clueTime> <clueType>exposure</clueType> <linkTheme>to</linkTheme> TPO.</clue>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue><clueLoc>A small population of UT-7/GM cells</clueLoc> <clueType>positively stained</clueType> <linkTheme>for</linkTheme> hemoglobin (Hb) <clueTime>after a 7-day exposure to TPO</clueTime>.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E6" />
+<clue>A small population of UT-7/GM cells positively stained for hemoglobin (Hb) <linkCause>after</linkCause> a 7-day exposure to TPO.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S5">More than 50% of <term sem="Cell_cultured" id="T17" lex="TPO-treated_UT-7/GMT_cell"><term sem="Protein_molecule" id="T18" lex="TPO">TPO</term>-treated <term sem="Cell_cultured" id="A2">UT-7/GMT cells</term></term> positively stained for <term sem="Protein_complex" id="T19" lex="Hb">Hb</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue><clueLoc>More than 50% of TPO-treated UT-7/GMT cells</clueLoc> <clueType>positively stained</clueType> <linkTheme>for</linkTheme> Hb.</clue>
+</event>
+<event id="E10">
+<type class="Artificial_process" />
+<theme idref="T18" />
+<theme idref="A2" />
+<clue>More than 50% of TPO-<clueType>treated</clueType> UT-7/GMT cells positively stained for Hb.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E10" />
+<clue>More than 50% of TPO-treated UT-7/GMT cells positively stained for Hb.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S6">Using <term sem="Cell_cultured" id="T20" lex="UT-7/GMT_cell">UT-7/GMT cells</term>, we examined how <term sem="Protein_molecule" id="T21" lex="TPO">TPO</term> promotes <term sem="Other" id="T22" lex="hemoglobinization">hemoglobinization</term>.</sentence>
+<event uncertainty="doubtful" id="E12">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<cause idref="T21" />
+<clue>Using <clueLoc>UT-7/GMT cells</clueLoc>, we examined how TPO <clueType>promotes</clueType> hemoglobinization.</clue>
+</event>
+<sentence id="S7"><term sem="Protein_molecule" id="T23" lex="TPO">TPO</term> induced <term sem="Other" id="T24" lex="tyrosine_phosphorylation"><term sem="Amino_acid_monomer" id="T25" lex="tyrosine">tyrosine</term> phosphorylation</term> of the <term sem="Protein_molecule" id="A3"><term sem="Protein_molecule" id="T26" lex="TPO">TPO</term> receptor</term> but not the <term sem="Protein_family_or_group" id="T27" lex="erythropoietin_(EPO)_receptor">erythropoietin (<term sem="Protein_molecule" id="T28" lex="EPO">EPO</term>) receptor</term>.</sentence>
+<event id="E13">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="A3" />
+<site idref="T25" />
+<clue>TPO induced tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> the TPO receptor but not the erythropoietin (EPO) receptor.</clue>
+</event>
+<event id="E14">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T27" />
+<site idref="T25" />
+<clue>TPO induced tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> the TPO receptor but not the erythropoietin (EPO) receptor.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T23" />
+<clue>TPO <clueType>induced</clueType> tyrosine phosphorylation of the TPO receptor but not the erythropoietin (EPO) receptor.</clue>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T23" />
+<clue>TPO <clueType>induced</clueType> tyrosine phosphorylation of the TPO receptor but not the erythropoietin (EPO) receptor.</clue>
+</event>
+<sentence id="S8">There was no competition between <term sem="Protein_molecule" id="T29" lex="TPO">TPO</term> and <term sem="Protein_molecule" id="T30" lex="EPO">EPO</term> for binding to <term sem="Protein_family_or_group" id="T31" lex="EPO_receptor"><term sem="Protein_molecule" id="T32" lex="EPO">EPO</term> receptor</term>.</sentence>
+<event id="E17">
+<type class="Binding" />
+<theme idref="T30" />
+<theme idref="T31" />
+<clue>There was no competition between TPO and EPO for <clueType>binding</clueType> <linkTheme>to</linkTheme> EPO receptor.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="T31" />
+<clue>There was no <clueType>competition</clueType> between TPO and EPO <clueType>for binding</clueType> <linkTheme>to</linkTheme> EPO receptor.</clue>
+</event>
+<sentence id="S9">These findings suggest that <term sem="Protein_molecule" id="T33" lex="TPO">TPO</term> has a direct effect on <term sem="Other" id="A4">hemoglobinization</term> via a specific receptor on <term sem="Cell_cultured" id="T34" lex="UT-7/GMT_cell">UT-7/GMT cells</term>.</sentence>
+<event uncertainty="probable" id="E20">
+<type class="Regulation" />
+<theme idref="A4" />
+<cause idref="T33" />
+<cause idref="A3" />
+<clue>These findings suggest that TPO <clueType>has a direct effect</clueType> <linkTheme>on</linkTheme> hemoglobinization <linkCause>via</linkCause> a <corefCause>specific receptor</corefCause> on <clueLoc>UT-7/GMT cells</clueLoc>.</clue>
+</event>
+<sentence id="S10"><term sem="Other" id="T35" lex="isoelectric_focusing">Isoelectric focusing</term> demonstrated that <term sem="Protein_molecule" id="T36" lex="TPO">TPO</term> induced <cons sem="(AND Other Other)" id="T37" lex="(AND fetal_Hb_synthesis adult_Hb_synthesis)"><frag id="F1">fetal</frag> and <frag id="F2">adult</frag> <frag id="F3"><term sem="Protein_complex" id="A5">Hb</term> synthesis</frag></cons>, whereas <term sem="Protein_molecule" id="T38" lex="EPO">EPO</term> induced <cons sem="(AND Other Other Other)" id="T39" lex="(AND embryonic_Hb_synthesis fetal_Hb_synthesis adult_Hb_synthesis)"><frag id="F4">embryonic</frag>, <frag id="F5">fetal</frag>, and <frag id="F6">adult</frag> <frag id="F7"><term sem="Protein_complex" id="A6">Hb</term> synthesis</frag></cons>.</sentence>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="A5" />
+<clue>Isoelectric focusing demonstrated that TPO induced <clueLoc>fetal</clueLoc> and adult Hb <clueType>synthesis</clueType>, whereas EPO induced embryonic, fetal, and adult Hb synthesis.</clue>
+</event>
+<event id="E121">
+<type class="Gene_expression" />
+<theme idref="A5" />
+<clue>Isoelectric focusing demonstrated that TPO induced fetal and <clueLoc>adult</clueLoc> Hb <clueType>synthesis</clueType>, whereas EPO induced embryonic, fetal, and adult Hb synthesis.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T36" />
+<clue><clueExperiment>Isoelectric focusing</clueExperiment> demonstrated that TPO <clueType>induced</clueType> fetal and adult Hb synthesis, whereas EPO induced embryonic, fetal, and adult Hb synthesis.</clue>
+</event>
+<event id="E122">
+<type class="Positive_regulation" />
+<theme idref="E121" />
+<cause idref="T36" />
+<clue><clueExperiment>Isoelectric focusing</clueExperiment> demonstrated that TPO <clueType>induced</clueType> fetal and adult Hb synthesis, whereas EPO induced embryonic, fetal, and adult Hb synthesis.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="A6" />
+<clue>Isoelectric focusing demonstrated that TPO induced fetal and adult Hb synthesis, whereas EPO induced <clueLoc>embryonic</clueLoc>, fetal, and adult Hb <clueType>synthesis</clueType>.</clue>
+</event>
+<event id="E123">
+<type class="Gene_expression" />
+<theme idref="A6" />
+<clue>Isoelectric focusing demonstrated that TPO induced fetal and adult Hb synthesis, whereas EPO induced embryonic, <clueLoc>fetal</clueLoc>, and adult Hb <clueType>synthesis</clueType>.</clue>
+</event>
+<event id="E223">
+<type class="Gene_expression" />
+<theme idref="A6" />
+<clue>Isoelectric focusing demonstrated that TPO induced fetal and adult Hb synthesis, whereas EPO induced embryonic, fetal, and <clueLoc>adult</clueLoc> Hb <clueType>synthesis</clueType>.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T38" />
+<clue><clueExperiment>Isoelectric focusing</clueExperiment> demonstrated that TPO induced fetal and adult Hb synthesis, whereas EPO <clueType>induced</clueType> embryonic, fetal, and adult Hb synthesis.</clue>
+</event>
+<event id="E124">
+<type class="Positive_regulation" />
+<theme idref="E123" />
+<cause idref="T38" />
+<clue><clueExperiment>Isoelectric focusing</clueExperiment> demonstrated that TPO induced fetal and adult Hb synthesis, whereas EPO <clueType>induced</clueType> embryonic, fetal, and adult Hb synthesis.</clue>
+</event>
+<event id="E224">
+<type class="Positive_regulation" />
+<theme idref="E223" />
+<cause idref="T38" />
+<clue><clueExperiment>Isoelectric focusing</clueExperiment> demonstrated that TPO induced fetal and adult Hb synthesis, whereas EPO <clueType>induced</clueType> embryonic, fetal, and adult Hb synthesis.</clue>
+</event>
+<sentence id="S11">Thus, our data suggest that <term sem="Protein_molecule" id="T40" lex="TPO">TPO</term> has a distinct action on <term sem="Other" id="T41" lex="erythropoiesis">erythropoiesis</term>.</sentence>
+<event id="E25">
+<type class="Regulation" />
+<theme idref="T41" />
+<cause idref="T40" />
+<clue>Thus, our data suggest that TPO <clueType>has a distinct action</clueType> <linkTheme>on</linkTheme> erythropoiesis.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

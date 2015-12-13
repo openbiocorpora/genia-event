@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="28/08/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10425206" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10425206</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="PPARgamma_activation"><term sem="Protein_molecule" id="T2" lex="PPARgamma">PPARgamma</term> activation</term> induces the expression of the <term sem="DNA_domain_or_region" id="T3" lex="adipocyte_fatty_acid_binding_protein_gene"><term sem="Protein_molecule" id="T4" lex="adipocyte_fatty_acid_binding_protein">adipocyte fatty acid binding protein</term> gene</term> in <term sem="Cell_natural" id="T5" lex="human_monocyte">human monocytes</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>PPARgamma <clueType>activation</clueType> induces the expression of the adipocyte fatty acid binding protein gene in human monocytes.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="E1" />
+<clue>PPARgamma activation <clueType>induces</clueType> the expression of the adipocyte fatty acid binding protein gene in human monocytes.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>PPARgamma activation induces the <clueType>expression</clueType> <linkTheme>of</linkTheme> the adipocyte fatty acid binding protein gene <clueLoc>in human monocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_molecule" id="T6" lex="peroxisome-proliferator_activated_receptor_gamma">peroxisome-proliferator activated receptor gamma</term> (<term sem="Protein_molecule" id="T7" lex="PPARgamma">PPARgamma</term>), a member of the <term sem="Protein_family_or_group" id="T8" lex="nuclear_receptor_superfamily">nuclear receptor superfamily</term> of <term sem="Protein_family_or_group" id="T9" lex="ligand_activated_transcription_factor">ligand activated transcription factors</term>, plays a key role in the <term sem="Other" id="T10" lex="anti-diabetic_action">anti-diabetic actions</term> of the <term sem="Organic_compound_other" id="T11" lex="thiazolidinedione">thiazolidinediones</term> (<term sem="Organic_compound_other" id="T12" lex="TZD">TZDs</term>).</sentence>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T7" />
+<clue>The peroxisome-proliferator activated receptor gamma (PPARgamma), a member of the nuclear receptor superfamily of ligand activated transcription factors, <clueType>plays</clueType> a key <clueType>role</clueType> <linkTheme>in</linkTheme> the anti-diabetic actions of the thiazolidinediones (TZDs).</clue>
+</event>
+<event id="E5">
+<type class="Biological_process" />
+<cause idref="T12" />
+<clue>The peroxisome-proliferator activated receptor gamma (PPARgamma), a member of the nuclear receptor superfamily of ligand activated transcription factors, plays a key role in the <clueType>anti-diabetic actions</clueType> <linkCause>of</linkCause> the thiazolidinediones (TZDs).</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S3"><term sem="Protein_molecule" id="T13" lex="PPARgamma">PPARgamma</term> induces the expression of many <term sem="DNA_family_or_group" id="T14" lex="gene">genes</term> involved in <term sem="Other" id="T15" lex="lipid_anabolism"><term sem="Lipid" id="A2">lipid</term> anabolism</term>, including the <term sem="Protein_molecule" id="T16" lex="adipocyte_fatty_acid_binding_protein">adipocyte fatty acid binding protein</term> (<term sem="Protein_molecule" id="T17" lex="aP2">aP2</term>), and is a key regulator of <term sem="Other" id="T18" lex="adipocyte_differentiation"><term sem="Cell_natural" id="T19" lex="adipocyte">adipocyte</term> differentiation</term>.</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T13" />
+<clue>PPARgamma <clueType>induces</clueType> the expression of many genes involved in lipid anabolism, including the adipocyte fatty acid binding protein (aP2), and is a key regulator of adipocyte differentiation.</clue>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>PPARgamma induces the <clueType>expression</clueType> <linkTheme>of</linkTheme> many <corefTheme>genes involved in lipid anabolism</corefTheme>, including the adipocyte fatty acid binding protein (aP2), and is a key regulator of adipocyte differentiation.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="E26" />
+<cause idref="T14" />
+<clue>PPARgamma induces the expression of many genes <clueType>involved</clueType> <linkTheme>in</linkTheme> lipid anabolism, including the adipocyte fatty acid binding protein (aP2), and is a key regulator of adipocyte differentiation.</clue>
+</event>
+<event id="E26">
+<type class="Metabolism" />
+<theme idref="A2" />
+<clue>PPARgamma induces the expression of many genes involved in lipid <clueType>anabolism</clueType>, including the adipocyte fatty acid binding protein (aP2), and is a key regulator of adipocyte differentiation.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T13" />
+<clue>PPARgamma induces the expression of many genes involved in lipid anabolism, including the adipocyte fatty acid binding protein (aP2), and is a key <clueType>regulator</clueType> <linkTheme>of</linkTheme> adipocyte differentiation.</clue>
+</event>
+<event id="E10">
+<type class="Cell_differentiation" />
+<theme idref="T19" />
+<clue>PPARgamma induces the expression of many genes involved in lipid anabolism, including the adipocyte fatty acid binding protein (aP2), and is a key regulator of adipocyte <clueType>differentiation</clueType>.</clue>
+</event>
+<sentence id="S4"><term sem="Protein_molecule" id="T20" lex="PPARgamma">PPARgamma</term> is also expressed in <term sem="Cell_natural" id="T21" lex="hematopoietic_cell">hematopoietic cells</term> and is up-regulated in activated <term sem="Cell_natural" id="T22" lex="monocyte/macrophage">monocytes/<term sem="Cell_natural" id="T23" lex="macrophage">macrophages</term></term>.</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue>PPARgamma is also <clueType>expressed</clueType> <clueLoc>in hematopoietic cells</clueLoc> and is up-regulated in activated monocytes/macrophages.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<clue>PPARgamma is also expressed in hematopoietic cells and is <clueType>up-regulated</clueType> <clueLoc>in activated monocytes/macrophages</clueLoc>.</clue>
+</event>
+<event id="E13">
+<type class="Physiological_process" />
+<theme idref="T22" />
+<clue>PPARgamma is also expressed in hematopoietic cells and is up-regulated in <clueType>activated</clueType> monocytes/macrophages.</clue>
+</event>
+<sentence id="S5">Activation of <term sem="Protein_molecule" id="T24" lex="PPARgamma">PPARgamma</term> may play a role in the induction of differentiation of <term sem="Cell_natural" id="T25" lex="macrophage">macrophages</term> to <term sem="Cell_natural" id="T26" lex="foam_cell">foam cells</term> that are associated with <term sem="Tissue_natural" id="T27" lex="atherosclerotic_lesion">atherosclerotic lesions</term>.</sentence>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> PPARgamma may play a role in the induction of differentiation of macrophages to foam cells that are associated with atherosclerotic lesions.</clue>
+</event>
+<event uncertainty="probable" id="E15">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="E14" />
+<clue>Activation of PPARgamma may <clueType>play</clueType> a <clueType>role</clueType> <linkTheme>in</linkTheme> the induction of differentiation of macrophages to foam cells that are associated with atherosclerotic lesions.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<clue>Activation of PPARgamma may play a role in the <clueType>induction</clueType> <linkTheme>of</linkTheme> differentiation of macrophages to foam cells that are associated with atherosclerotic lesions.</clue>
+</event>
+<event id="E17">
+<type class="Cell_differentiation" />
+<theme idref="T25" />
+<theme idref="T26" />
+<clue>Activation of PPARgamma may play a role in the induction of <clueType>differentiation</clueType> <linkTheme>of</linkTheme> macrophages <linkTheme>to</linkTheme> foam cells that are associated with atherosclerotic lesions.</clue>
+</event>
+<event id="E18">
+<type class="Cell_adhesion" />
+<theme idref="T26" />
+<theme idref="T27" />
+<clue>Activation of PPARgamma may play a role in the induction of differentiation of macrophages to foam cells that are <clueType>associated</clueType> <linkTheme>with</linkTheme> atherosclerotic lesions.</clue>
+</event>
+<sentence id="S6">We report that both <cons sem="(AND Organic_compound_other Organic_compound_other)" id="T28" lex="(AND natural_PPARgamma_agonist synthetic_PPARgamma_agonist)"><frag id="F1">natural</frag> and <frag id="F2">synthetic</frag> <frag id="F3"><term sem="Organic_compound_other" id="A1">PPARgamma agonists</term></frag></cons> induce time- and dose-dependent increases in <term sem="RNA_molecule" id="T29" lex="aP2_mRNA"><term sem="Protein_molecule" id="T30" lex="aP2">aP2</term> mRNA</term> in both <term sem="Cell_natural" id="T31" lex="primary_human_monocyte">primary <term sem="Cell_natural" id="T32" lex="human_monocyte">human monocytes</term></term> and the <term sem="Cell_cultured" id="T33" lex="monocytic_cell_line">monocytic cell line</term>, <term sem="Cell_cultured" id="T34" lex="THP-1">THP-1</term>.</sentence>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="A1" />
+<clue>We report that both natural and synthetic PPARgamma agonists <clueType>induce</clueType> time- and dose-dependent increases in aP2 mRNA in both primary human monocytes and the monocytic cell line, THP-1.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="A1" />
+<clue>We report that both natural and synthetic PPARgamma agonists <clueType>induce</clueType> time- and dose-dependent increases in aP2 mRNA in both primary human monocytes and the monocytic cell line, THP-1.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<clue>We report that both natural and synthetic PPARgamma agonists induce time- and dose-dependent <clueType>increases</clueType> <linkTheme>in</linkTheme> aP2 mRNA <clueLoc>in both primary human monocytes</clueLoc> and the monocytic cell line, THP-1.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<clue>We report that both natural and synthetic PPARgamma agonists induce time- and dose-dependent <clueType>increases</clueType> <linkTheme>in</linkTheme> aP2 mRNA <clueLoc>in</clueLoc> both primary human monocytes and <clueLoc>the monocytic cell line, THP-1</clueLoc>.</clue>
+</event>
+<sentence id="S7">These data suggest that <term sem="Other" id="T35" lex="PPARgamma_activation"><term sem="Protein_molecule" id="T36" lex="PPARgamma">PPARgamma</term> activation</term> may play a role in <term sem="Other" id="T37" lex="monocyte_differentiation"><term sem="Cell_natural" id="T38" lex="monocyte">monocyte</term> differentiation</term> and function analogous to its well-characterized role in <term sem="Cell_natural" id="T39" lex="adipocyte">adipocytes</term>.</sentence>
+<event uncertainty="probable" id="E21">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<clue>These data suggest that PPARgamma <clueType>activation</clueType> may play a role in monocyte differentiation and function analogous to its well-characterized role in adipocytes.</clue>
+</event>
+<event uncertainty="probable" id="E22">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="E21" />
+<clue>These data suggest that PPARgamma activation may <clueType>play</clueType> a <clueType>role</clueType> <linkTheme>in</linkTheme> monocyte differentiation and function analogous to its well-characterized role in adipocytes.</clue>
+</event>
+<event id="E23">
+<type class="Cell_differentiation" />
+<theme idref="T38" />
+<clue>These data suggest that PPARgamma activation may play a role in monocyte <clueType>differentiation</clueType> and function analogous to its well-characterized role in adipocytes.</clue>
+</event>
+<event id="E24">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E25" />
+<clue>These data suggest that PPARgamma activation may play a role in monocyte differentiation and <clueType>function analogous</clueType> <linkTheme>to</linkTheme> its well-characterized role in adipocytes.</clue>
+</event>
+<event id="E25">
+<type class="Regulation" />
+<cause idref="T36" />
+<clue>These data suggest that PPARgamma activation may play a role in monocyte differentiation and function analogous to its well-characterized <clueType>role</clueType> <clueLoc>in adipocytes</clueLoc>.</clue>
+<comment>NO THEME</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

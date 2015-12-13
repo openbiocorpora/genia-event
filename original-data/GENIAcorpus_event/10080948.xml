@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="11/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10080948" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10080948</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T26">Phosphorylation</term> of <term sem="Protein_molecule" id="T1" lex="TRAF2">TRAF2</term> inhibits <term sem="Other" id="T27">binding</term> to the <term sem="Protein_domain_or_region" id="T2" lex="CD40_cytoplasmic_domain">CD40 cytoplasmic domain</term>.</sentence>
+<event id="E1">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T1" />
+<clue><clueType>Phosphorylation</clueType> <linkTheme>of</linkTheme> TRAF2 inhibits binding to the CD40 cytoplasmic domain.</clue>
+</event>
+<event id="E2">
+<type class="Binding" />
+<theme idref="T1" />
+<theme idref="T2" />
+<clue>Phosphorylation of TRAF2 inhibits <clueType>binding</clueType> <linkTheme>to</linkTheme> the CD40 cytoplasmic domain.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue>Phosphorylation of TRAF2 <clueType>inhibits</clueType> binding to the CD40 cytoplasmic domain.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T3" lex="TRAF2">TRAF2</term> is a <term sem="Protein_family_or_group" id="T4" lex="signal_transducing_adaptor_molecule">signal transducing adaptor molecule</term> which binds to the <term sem="Protein_domain_or_region" id="T5" lex="CD40_cytoplasmic_domain">CD40 cytoplasmic domain</term>.</sentence>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T3" />
+<theme idref="T5" />
+<clue>TRAF2 is a signal transducing adaptor molecule which <clueType>binds</clueType> <linkTheme>to</linkTheme> the CD40 cytoplasmic domain.</clue>
+</event>
+<sentence id="S3">We have found that it is phosphorylated, predominantly on <term sem="Amino_acid_monomer" id="T6" lex="serine_residue"><term sem="Amino_acid_monomer" id="T7" lex="serine">serine</term> residues</term>, when transiently overexpressed in <term sem="Cell_cultured" id="T8" lex="293_cell">293 cells</term>.</sentence>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>We have found that it is phosphorylated, predominantly on serine residues, when transiently <clueType>overexpressed</clueType> <clueLoc>in 293 cells</clueLoc>.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<clue>We have found that it is phosphorylated, predominantly on serine residues, when transiently <clueType>overexpressed</clueType> <clueLoc>in 293 cells</clueLoc>.</clue>
+</event>
+<event id="E6">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T3" />
+<clue>We have found that <corefTheme>it</corefTheme> is <clueType>phosphorylated</clueType>, predominantly <clueLoc>on serine residues</clueLoc>, when transiently overexpressed in 293 cells.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="E22" />
+<clue>We have found that it is phosphorylated, predominantly on serine residues, <clueType>when</clueType> transiently overexpressed in 293 cells.</clue>
+</event>
+<sentence id="S4">The <term sem="Other" id="A3">phosphorylation</term> appears to be related to the <term sem="Other" id="A2">signaling events</term> that are activated by <term sem="Protein_molecule" id="T9" lex="TRAF2">TRAF2</term> under these circumstances, since <term sem="Protein_family_or_group" id="A1">two nonfunctional mutants</term> were found to be phosphorylated significantly less than the <term sem="Protein_molecule" id="T10" lex="wild-type_protein">wild-type protein</term>.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T9" />
+<clue>The phosphorylation appears to be related to the signaling events that are <clueType>activated</clueType> <linkCause>by</linkCause> TRAF2 under these circumstances, since two nonfunctional mutants were found to be phosphorylated significantly less than the wild-type protein.</clue>
+</event>
+<event uncertainty="probable" id="E9">
+<type class="Correlation" />
+<theme idref="A3" />
+<theme idref="E8" />
+<clue>The phosphorylation appears to be <clueType>related</clueType> <linkTheme>to</linkTheme> the signaling events that are activated by TRAF2 under these circumstances, since two nonfunctional mutants were found to be phosphorylated significantly less than the wild-type protein.</clue>
+</event>
+<event id="E10">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="A1" />
+<clue>The phosphorylation appears to be related to the signaling events that are activated by TRAF2 under these circumstances, since two nonfunctional mutants were found to be <clueType>phosphorylated</clueType> significantly less than the wild-type protein.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E10" />
+<clue>The phosphorylation appears to be related to the signaling events that are activated by TRAF2 under these circumstances, since two nonfunctional mutants were found to be phosphorylated significantly <clueType>less</clueType> than the wild-type protein.</clue>
+</event>
+<sentence id="S5">Furthermore, the <term sem="Other" id="T11" lex="phosphorylation_status">phosphorylation status</term> of <term sem="Protein_molecule" id="T12" lex="TRAF2">TRAF2</term> had significant effects on the ability of the protein to bind to <term sem="Protein_molecule" id="T13" lex="CD40">CD40</term>, as evidenced by our observations that the <term sem="Protein_domain_or_region" id="T14" lex="CD40_cytoplasmic_domain"><term sem="Protein_molecule" id="T15" lex="CD40">CD40</term> cytoplasmic domain</term> interacted preferentially with underphosphorylated <term sem="Protein_molecule" id="T16" lex="TRAF2">TRAF2</term> and that <term sem="Other" id="T17" lex="phosphatase_treatment"><term sem="Protein_family_or_group" id="T18" lex="phosphatase">phosphatase</term> treatment</term> significantly enhanced the binding of <term sem="Protein_molecule" id="T19" lex="TRAF2">TRAF2</term> to <term sem="Protein_molecule" id="T20" lex="CD40">CD40</term>.</sentence>
+<event id="E11">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T12" />
+<clue>Furthermore, the <clueType>phosphorylation</clueType> status <linkTheme>of</linkTheme> TRAF2 had significant effects on the ability of the protein to bind to CD40, as evidenced by our observations that the CD40 cytoplasmic domain interacted preferentially with underphosphorylated TRAF2 and that phosphatase treatment significantly enhanced the binding of TRAF2 to CD40.</clue>
+</event>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T12" />
+<theme idref="T13" />
+<clue>Furthermore, the phosphorylation status of TRAF2 had significant effects on the ability of <corefTheme>the protein</corefTheme> to <clueType>bind</clueType> <linkTheme>to</linkTheme> CD40, as evidenced by our observations that the CD40 cytoplasmic domain interacted preferentially with underphosphorylated TRAF2 and that phosphatase treatment significantly enhanced the binding of TRAF2 to CD40.</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="E11" />
+<clue>Furthermore, the phosphorylation status of TRAF2 <clueType>had</clueType> significant <clueType>effects</clueType> <linkTheme>on</linkTheme> the ability of the protein to bind to CD40, as evidenced by our observations that the CD40 cytoplasmic domain interacted preferentially with underphosphorylated TRAF2 and that phosphatase treatment significantly enhanced the binding of TRAF2 to CD40.</clue>
+</event>
+<event id="E14">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T16" />
+<clue>Furthermore, the phosphorylation status of TRAF2 had significant effects on the ability of the protein to bind to CD40, as evidenced by our observations that the CD40 cytoplasmic domain interacted preferentially with <clueType>underphosphorylated</clueType> TRAF2 and that phosphatase treatment significantly enhanced the binding of TRAF2 to CD40.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<clue>Furthermore, the phosphorylation status of TRAF2 had significant effects on the ability of the protein to bind to CD40, as evidenced by our observations that the CD40 cytoplasmic domain interacted preferentially with <clueType>underphosphorylated</clueType> TRAF2 and that phosphatase treatment significantly enhanced the binding of TRAF2 to CD40.</clue>
+</event>
+<event id="E15">
+<type class="Binding" />
+<theme idref="T14" />
+<theme idref="T16" />
+<clue>Furthermore, the phosphorylation status of TRAF2 had significant effects on the ability of the protein to bind to CD40, as evidenced by our observations that the CD40 cytoplasmic domain <clueType>interacted</clueType> preferentially <linkTheme>with</linkTheme> underphosphorylated TRAF2 and that phosphatase treatment significantly enhanced the binding of TRAF2 to CD40.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref="T20" />
+<clue>Furthermore, the phosphorylation status of TRAF2 had significant effects on the ability of the protein to bind to CD40, as evidenced by our observations that the CD40 cytoplasmic domain interacted preferentially with underphosphorylated TRAF2 and that phosphatase treatment significantly enhanced the <clueType>binding</clueType> <linkTheme>of</linkTheme> TRAF2 <linkTheme>to</linkTheme> CD40.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T18" />
+<clue>Furthermore, the phosphorylation status of TRAF2 had significant effects on the ability of the protein to bind to CD40, as evidenced by our observations that the CD40 cytoplasmic domain interacted preferentially with underphosphorylated TRAF2 and that phosphatase treatment significantly <clueType>enhanced</clueType> the binding of TRAF2 to CD40.</clue>
+</event>
+<sentence id="S6">We conclude from these studies that the <term sem="Other" id="T21" lex="phosphorylation">phosphorylation</term> of <term sem="Protein_molecule" id="T22" lex="TRAF2">TRAF2</term> is likely to play an important role in regulating <term sem="Other" id="A4">signaling</term> by virtue of its ability to influence the <term sem="Other" id="T23" lex="CD40-_TRAF2_interaction"><term sem="Protein_molecule" id="T24" lex="CD40">CD40</term>-<term sem="Protein_molecule" id="T25" lex="TRAF2">TRAF2</term> interaction</term>.</sentence>
+<event id="E18">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T22" />
+<clue>We conclude from these studies that the <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> TRAF2 is likely to play an important role in regulating signaling by virtue of its ability to influence the CD40-TRAF2 interaction.</clue>
+</event>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T24" />
+<theme idref="T25" />
+<clue>We conclude from these studies that the phosphorylation of TRAF2 is likely to play an important role in regulating signaling by virtue of its ability to influence the CD40-TRAF2 <clueType>interaction</clueType>.</clue>
+</event>
+<event id="E20">
+<type class="Regulation" />
+<theme idref="E19" />
+<cause idref="E18" />
+<clue>We conclude from these studies that the phosphorylation of TRAF2 is likely to play an important role in regulating signaling by virtue of <corefCause>its ability</corefCause> to <clueType>influence</clueType> the CD40-TRAF2 interaction.</clue>
+</event>
+<event uncertainty="probable" id="E21">
+<type class="Regulation" />
+<theme idref="A4" />
+<cause idref="E20" />
+<clue>We conclude from these studies that the phosphorylation of TRAF2 is likely to <clueType>play</clueType> an important <clueType>role in regulating</clueType> signaling <linkCause>by</linkCause> virtue of its ability to influence the CD40-TRAF2 interaction.</clue>
+</event>
+<sentence id="S7">Copyright 1999 Academic Press.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

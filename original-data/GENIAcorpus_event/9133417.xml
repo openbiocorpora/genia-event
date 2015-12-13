@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/03/03" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9133417" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9133417</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="Jak3">Jak3</term> is associated with <term sem="Protein_molecule" id="T2" lex="CD40">CD40</term> and is critical for <term sem="Protein_molecule" id="T3" lex="CD40">CD40</term> induction of <term sem="Other" id="T4" lex="gene_expression">gene expression</term> in <term sem="Cell_natural" id="T5" lex="B_cell">B cells</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T1" />
+<theme idref="T2" />
+<clue>Jak3 is <clueType>associated</clueType> <linkTheme>with</linkTheme> CD40 and is critical for CD40 induction of gene expression <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<cause idref="T3" />
+<clue>Jak3 is associated with CD40 and is critical for CD40 <clueType>induction</clueType> <linkTheme>of</linkTheme> gene expression <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue>Jak3 is associated with CD40 and is <clueType>critical</clueType> <linkTheme>for</linkTheme> CD40 induction of gene expression <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T6" lex="CD40">CD40</term> is a receptor that is critical for the survival, growth, differentiation, and <term sem="Other" id="T7" lex="isotype_switching">isotype switching</term> of <term sem="Cell_natural" id="T8" lex="B_lymphocyte">B lymphocytes</term>.</sentence>
+<event id="E4">
+<type class="Cellular_physiological_process" />
+<theme idref="T8" />
+<clue>CD40 is a receptor that is critical for the <clueType>survival</clueType>, growth, differentiation, and isotype switching <linkTheme>of</linkTheme> B lymphocytes.</clue>
+</event>
+<event id="E5">
+<type class="Cellular_physiological_process" />
+<theme idref="T8" />
+<clue>CD40 is a receptor that is critical for the survival, <clueType>growth</clueType>, differentiation, and isotype switching <linkTheme>of</linkTheme> B lymphocytes.</clue>
+</event>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="T8" />
+<clue>CD40 is a receptor that is critical for the survival, growth, <clueType>differentiation</clueType>, and isotype switching <linkTheme>of</linkTheme> B lymphocytes.</clue>
+</event>
+<event id="E7">
+<type class="Cellular_physiological_process" />
+<theme idref="T8" />
+<clue>CD40 is a receptor that is critical for the survival, growth, differentiation, and <clueType>isotype switching</clueType> <linkTheme>of</linkTheme> B lymphocytes.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="T6" />
+<clue>CD40 is a receptor that is <clueType>critical</clueType> <linkTheme>for</linkTheme> the survival, growth, differentiation, and isotype switching of B lymphocytes.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T6" />
+<clue>CD40 is a receptor that is <clueType>critical</clueType> <linkTheme>for</linkTheme> the survival, growth, differentiation, and isotype switching of B lymphocytes.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="T6" />
+<clue>CD40 is a receptor that is <clueType>critical</clueType> <linkTheme>for</linkTheme> the survival, growth, differentiation, and isotype switching of B lymphocytes.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="T6" />
+<clue>CD40 is a receptor that is <clueType>critical</clueType> <linkTheme>for</linkTheme> the survival, growth, differentiation, and isotype switching of B lymphocytes.</clue>
+</event>
+<sentence id="S3">Although <term sem="Protein_molecule" id="T9" lex="CD40">CD40</term> lacks intrinsic <term sem="Other" id="A1">tyrosine kinase activity</term>, its ligation induces <term sem="Other" id="T10" lex="protein_tyrosine_phosphorylation"><term sem="Protein_molecule" id="A2">protein</term> <term sem="Amino_acid_monomer" id="T11" lex="tyrosine">tyrosine</term> phosphorylation</term>, which is necessary for several <term sem="Other" id="T12" lex="CD40-mediated_event"><term sem="Protein_molecule" id="T13" lex="CD40">CD40</term>-mediated <term sem="Other" id="A3">events</term></term>.</sentence>
+<event id="E12">
+<type class="Mutagenesis" />
+<theme idref="A1" />
+<clue>Although CD40 <clueType>lacks</clueType> intrinsic tyrosine kinase activity, its ligation induces protein tyrosine phosphorylation, which is necessary for several CD40-mediated events.</clue>
+</event>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T9" />
+<theme idref="A2" />
+<clue>Although CD40 lacks intrinsic tyrosine kinase activity, <corefTheme idref1="T9">its</corefTheme> <clueType>ligation</clueType> induces protein tyrosine phosphorylation, which is necessary for several CD40-mediated events.</clue>
+</event>
+<event id="E14">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="A2" />
+<site idref="T11" /><clue>Although CD40 lacks intrinsic tyrosine kinase activity, its ligation induces protein tyrosine <clueType>phosphorylation</clueType>, which is necessary for several CD40-mediated events.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E13" />
+<clue>Although CD40 lacks intrinsic tyrosine kinase activity, its ligation <clueType>induces</clueType> protein tyrosine phosphorylation, which is necessary for several CD40-mediated events.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T13" />
+<clue>Although CD40 lacks intrinsic tyrosine kinase activity, its ligation induces protein tyrosine phosphorylation, which is necessary for several CD40-<clueType>mediated</clueType> events.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="E15" />
+<clue>Although CD40 lacks intrinsic tyrosine kinase activity, its ligation induces protein tyrosine phosphorylation, which is <clueType>necessary</clueType> <linkTheme>for</linkTheme> several CD40-mediated events.</clue>
+</event>
+<sentence id="S4">We show that engagement of <term sem="Protein_molecule" id="T14" lex="CD40">CD40</term> induces <term sem="Other" id="T15" lex="tyrosine_phosphorylation"><term sem="Amino_acid_monomer" id="T16" lex="tyrosine">tyrosine</term> phosphorylation</term> and activation of <term sem="Protein_molecule" id="T17" lex="Jak3">Jak3</term> as well as of <term sem="Protein_molecule" id="T18" lex="STAT3">STAT3</term>.</sentence>
+<event id="E37">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T17" />
+<site idref="T16" /><clue>We show that engagement of CD40 induces tyrosine <clueType>phosphorylation</clueType> and activation <linkTheme>of</linkTheme> Jak3 as well as of STAT3.</clue>
+</event>
+<event id="E38">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T18" />
+<site idref="T16" /><clue>We show that engagement of CD40 induces tyrosine <clueType>phosphorylation</clueType> and activation <linkTheme>of</linkTheme> Jak3 as well as of STAT3.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="E37" />
+<clue>We show that engagement of CD40 induces tyrosine phosphorylation and <clueType>activation</clueType> <linkTheme>of</linkTheme> Jak3 as well as of STAT3.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T18" />
+<cause idref="E38" />
+<clue>We show that engagement of CD40 induces tyrosine phosphorylation and <clueType>activation</clueType> of Jak3 as well as <linkTheme>of</linkTheme> STAT3.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T14" />
+<clue>We show that engagement of CD40 <clueType>induces</clueType> tyrosine phosphorylation and activation of Jak3 as well as of STAT3.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T14" />
+<clue>We show that engagement of CD40 <clueType>induces</clueType> tyrosine phosphorylation and activation of Jak3 as well as of STAT3.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T14" />
+<clue>We show that engagement of CD40 <clueType>induces</clueType> tyrosine phosphorylation and activation of Jak3 as well as of STAT3.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="T14" />
+<clue>We show that engagement of CD40 <clueType>induces</clueType> tyrosine phosphorylation and activation of Jak3 as well as of STAT3.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T19" lex="Jak3">Jak3</term> is constitutively associated with <term sem="Protein_molecule" id="T20" lex="CD40">CD40</term>, and this interaction requires a <term sem="Protein_domain_or_region" id="A101"><term sem="Protein_domain_or_region" id="T21" lex="proline-rich_sequence">proline-rich sequence</term> in the <term sem="Protein_domain_or_region" id="T22" lex="membrane-proximal_region">membrane-proximal region</term> of <term sem="Protein_molecule" id="T23" lex="CD40">CD40</term></term>.</sentence>
+<event id="E23">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref="T20" />
+<clue>Jak3 is constitutively <clueType>associated</clueType> <linkTheme>with</linkTheme> CD40, and this interaction requires a proline-rich sequence in the membrane-proximal region of CD40.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="A101" />
+<clue>Jak3 is constitutively associated with CD40, and <corefTheme>this interaction</corefTheme> <clueType>requires</clueType> a proline-rich sequence in the membrane-proximal region of CD40.</clue>
+<comment>TPS A101</comment>
+</event>
+<sentence id="S6">Deletion of this sequence abolishes the capacity of <term sem="Protein_molecule" id="T24" lex="CD40">CD40</term> to induce expression of <term sem="Protein_molecule" id="T25" lex="CD23">CD23</term>, <term sem="Protein_molecule" id="T26" lex="ICAM-1">ICAM-1</term>, and <term sem="DNA_family_or_group" id="T27" lex="lymphotoxin-alpha_gene">lymphotoxin-alpha genes</term> in <term sem="Cell_natural" id="T28" lex="B_cell">B cells</term>.</sentence>
+<event id="E25">
+<type class="Mutagenesis" />
+<theme idref="A101" />
+<clue><clueType>Deletion</clueType> <linkTheme>of</linkTheme> <corefTheme>this sequence</corefTheme> abolishes the capacity of CD40 to induce expression of CD23, ICAM-1, and lymphotoxin-alpha genes in B cells.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue>Deletion of this sequence abolishes the capacity of CD40 to induce <clueType>expression</clueType> <linkTheme>of</linkTheme> CD23, ICAM-1, and lymphotoxin-alpha genes <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>Deletion of this sequence abolishes the capacity of CD40 to induce <clueType>expression</clueType> <linkTheme>of</linkTheme> CD23, ICAM-1, and lymphotoxin-alpha genes <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="T27" />
+<clue>Deletion of this sequence abolishes the capacity of CD40 to induce <clueType>expression</clueType> <linkTheme>of</linkTheme> CD23, ICAM-1, and lymphotoxin-alpha genes <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T24" />
+<clue>Deletion of this sequence abolishes the capacity of CD40 to <clueType>induce</clueType> expression of CD23, ICAM-1, and lymphotoxin-alpha genes <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="T24" />
+<clue>Deletion of this sequence abolishes the capacity of CD40 to <clueType>induce</clueType> expression of CD23, ICAM-1, and lymphotoxin-alpha genes <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="T24" />
+<clue>Deletion of this sequence abolishes the capacity of CD40 to <clueType>induce</clueType> expression of CD23, ICAM-1, and lymphotoxin-alpha genes <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref="E25" />
+<clue>Deletion of this sequence <clueType>abolishes</clueType> the capacity of CD40 to induce expression of CD23, ICAM-1, and lymphotoxin-alpha genes in B cells.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E30" />
+<cause idref="E25" />
+<clue>Deletion of this sequence <clueType>abolishes</clueType> the capacity of CD40 to induce expression of CD23, ICAM-1, and lymphotoxin-alpha genes in B cells.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E31" />
+<cause idref="E25" />
+<clue>Deletion of this sequence <clueType>abolishes</clueType> the capacity of CD40 to induce expression of CD23, ICAM-1, and lymphotoxin-alpha genes in B cells.</clue>
+</event>
+<sentence id="S7">These results indicate that <term sem="Other" id="A4">signaling</term> through <term sem="Protein_molecule" id="T29" lex="Jak3">Jak3</term> is activated by <term sem="Protein_molecule" id="T30" lex="CD40">CD40</term> and plays an important role in <term sem="Other" id="T31" lex="CD40-mediated_function"><term sem="Protein_molecule" id="T32" lex="CD40">CD40</term>-mediated <term sem="Other" id="A5">functions</term></term>.</sentence>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="T30" />
+<clue>These results indicate that signaling through Jak3 is <clueType>activated</clueType> <linkCause>by</linkCause> CD40 and plays an important role in CD40-mediated functions.</clue>
+</event>
+<event id="E36">
+<type class="Regulation" />
+<theme idref="E35" />
+<cause idref="T29" />
+<clue>These results indicate that signaling <linkCause>through</linkCause> Jak3 is activated by CD40 and plays an important role in CD40-mediated functions.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E270">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="T32" />
+<clue>These results indicate that signaling through Jak3 is activated by CD40 and plays an important role in CD40-<clueType>mediated</clueType> functions.</clue>
+</event>
+<event id="E280">
+<type class="Regulation" />
+<theme idref="E27" />
+<cause idref="A4" />
+<clue>These results indicate that signaling through Jak3 is activated by CD40 and <clueType>plays</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> CD40-mediated functions.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="31/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7594468" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7594468</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of <term sem="Other" id="T1" lex="IkB_alpha_phosphorylation"><term sem="Protein_molecule" id="T2" lex="IkB_alpha">IkB alpha</term> phosphorylation</term> by <cons sem="(AND Other Other)" id="C1" lex="(AND PKC-dependent_signal_transduction_pathway Ca(2+)-dependent_signal_transduction_pathway)"><frag id="F1">PKC-</frag> and <frag id="F2">Ca(2+)-</frag><frag id="F3">dependent</frag> <frag id="F4">signal transduction pathways</frag></cons>.</sentence>
+<event id="E1">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T2" />
+<clue>Regulation of IkB alpha <clueType>phosphorylation</clueType> by PKC- and Ca(2+)-dependent signal transduction pathways.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref1="F3" idref2="F4" idref="F1" />
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> IkB alpha phosphorylation <linkCause>by</linkCause> PKC- and Ca(2+)-dependent signal transduction pathways.</clue>
+<comment>NER T3 DEL</comment>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref1="F3" idref2="F4" idref="F2" />
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> IkB alpha phosphorylation <linkCause>by</linkCause> PKC- and Ca(2+)-dependent signal transduction pathways.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_family_or_group" id="T4" lex="Ca(2+)-dependent_phosphatase"><term sem="Element" id="T5" lex="Ca(2+)">Ca(2+)</term>-dependent phosphatase</term> <term sem="Protein_molecule" id="T6" lex="calcineurin">calcineurin</term>, a target of <term sem="Organic_compound_other" id="T7" lex="FK506">FK506</term> and <term sem="Organic_compound_other" id="T8" lex="CsA">CsA</term>, synergizes with <term sem="Other" id="T9" lex="PKC-induced_activation"><term sem="Protein_molecule" id="T10" lex="PKC">PKC</term>-induced activation</term> of <term sem="Protein_molecule" id="T11" lex="nuclear_factor_(NF)-kappa_B">nuclear factor (NF)-kappa B</term> in <term sem="Cell_cultured" id="T12" lex="T_cell_line">T cell lines</term>.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T6" />
+<cause idref="T7" />
+<clue>The Ca(2+)-dependent phosphatase calcineurin, a <clueType>target</clueType> <linkTheme>of</linkTheme> FK506 and CsA, synergizes with PKC-induced activation of nuclear factor (NF)-kappa B in T cell lines.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="T6" />
+<cause idref="T8" />
+<clue>The Ca(2+)-dependent phosphatase calcineurin, a <clueType>target</clueType> <linkTheme>of</linkTheme> FK506 and CsA, synergizes with PKC-induced activation of nuclear factor (NF)-kappa B in T cell lines.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<cause idref="T10" />
+<cause idref="T6" />
+<clue>The Ca(2+)-dependent phosphatase calcineurin, a target of FK506 and CsA, <clueType>synergizes</clueType> with PKC-<linkCause>induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> nuclear factor (NF)-kappa B <clueLoc>in T cell lines</clueLoc>.</clue>
+</event>
+<sentence id="S3">We have investigated whether this synergy is present in other cell types and the mechanism(s) by which these two pathways lead to <term sem="Other" id="T13" lex="NF-kappa_B_activation"><term sem="Protein_molecule" id="T14" lex="NF-kappa_B">NF-kappa B</term> activation</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<clue>We have investigated whether this synergy is present in other cell types and the mechanism(s) by which these two pathways lead to NF-kappa B <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S4">While this synergy is present in other cell types, in the <term sem="Cell_cultured" id="T15" lex="monocytic_cell_line_U937">monocytic cell line U937</term> <term sem="Protein_molecule" id="T16" lex="calcineurin">calcineurin</term> is also sufficient to activate <term sem="Protein_molecule" id="T17" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="T16" />
+<cause idref="E6" />
+<clue><linkCause>While</linkCause> <corefTheme>this synergy</corefTheme> is present in other cell types, in the monocytic cell line U937 calcineurin is also sufficient to <clueType>activate</clueType> NF-kappa B.</clue>
+</event>
+<sentence id="S5">Having previously shown that <cons sem="(AND Other Other)" id="C2" lex="(AND Ca(2+)-dependent_pathway PKC-dependent_pathway)"><frag id="F5">Ca(2+)-</frag> and <frag id="F6">PKC-</frag><frag id="F7">dependent</frag> <frag id="F8">pathways</frag></cons> synergize by accelerating the degradation of <term sem="Protein_molecule" id="T19" lex="IkB_alpha">IkB alpha</term>, we focused on the regulation of <term sem="Other" id="T20" lex="IkB_alpha_phosphorylation"><term sem="Protein_molecule" id="T21" lex="IkB_alpha">IkB alpha</term> phosphorylation</term>.</sentence>
+<event id="E10">
+<type class="Protein_catabolism" />
+<theme idref="T19" />
+<clue>Having previously shown that Ca(2+)- and PKC-dependent pathways synergize by accelerating the <clueType>degradation</clueType> <linkTheme>of</linkTheme> IkB alpha, we focused on the regulation of IkB alpha phosphorylation.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref1="F7" idref2="F8" idref="F5" />
+<cause idref1="F7" idref2="F8" idref="F6" />
+<clue>Having previously shown that Ca(2+)- and PKC-dependent pathways <clueType>synergize</clueType> by <clueType>accelerating</clueType> the degradation of IkB alpha, we focused on the regulation of IkB alpha phosphorylation.</clue>
+<comment>NER: T18 DEL</comment>
+</event>
+<event id="E13">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T21" />
+<clue>Having previously shown that Ca(2+)- and PKC-dependent pathways synergize by accelerating the degradation of IkB alpha, we focused on the regulation of IkB alpha <clueType>phosphorylation</clueType>.</clue>
+</event>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="E13" />
+<clue>Having previously shown that Ca(2+)- and PKC-dependent pathways synergize by accelerating the degradation of IkB alpha, we focused on the <clueType>regulation</clueType> <linkTheme>of</linkTheme> IkB alpha phosphorylation.</clue>
+</event>
+<sentence id="S6">While <term sem="Other" id="T22" lex="PKC-dependent_pathway"><term sem="Protein_molecule" id="T23" lex="PKC">PKC</term>-dependent pathways</term> sequentially result in the phosphorylation and in an incomplete degradation of <term sem="Protein_molecule" id="T24" lex="IkB_alpha">IkB alpha</term> in <term sem="Cell_cultured" id="T25" lex="T_cell_line">T cell lines</term>, co-activation of <term sem="Other" id="T26" lex="Ca(2+)-dependent_pathway"><term sem="Element" id="T27" lex="Ca(2+)">Ca(2+)</term>-dependent pathways</term> accelerates the rate of <term sem="Other" id="T28" lex="IkB_alpha_phosphorylation"><term sem="Protein_molecule" id="T29" lex="IkB_alpha">IkB alpha</term> phosphorylation</term> and results in its complete degradation.</sentence>
+<event id="E15">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T24" />
+<clue>While PKC-dependent pathways sequentially result in the <clueType>phosphorylation</clueType> and in an incomplete degradation <linkTheme>of</linkTheme> IkB alpha in T cell lines, co-activation of Ca(2+)-dependent pathways accelerates the rate of IkB alpha phosphorylation and results in its complete degradation.</clue>
+</event>
+<event id="E16">
+<type class="Protein_catabolism" />
+<theme idref="T24" />
+<clue>While PKC-dependent pathways sequentially result in the phosphorylation and in an incomplete <clueType>degradation</clueType> <linkTheme>of</linkTheme> IkB alpha in T cell lines, co-activation of Ca(2+)-dependent pathways accelerates the rate of IkB alpha phosphorylation and results in its complete degradation.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="T22" />
+<clue>While PKC-dependent pathways sequentially <clueType>result</clueType> <linkTheme>in</linkTheme> the phosphorylation and in an incomplete degradation of IkB alpha <clueLoc>in T cell lines</clueLoc>, co-activation of Ca(2+)-dependent pathways accelerates the rate of IkB alpha phosphorylation and results in its complete degradation.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T22" />
+<clue>While PKC-dependent pathways sequentially <clueType>result</clueType> <linkTheme>in</linkTheme> the phosphorylation and in an incomplete degradation of IkB alpha <clueLoc>in T cell lines</clueLoc>, co-activation of Ca(2+)-dependent pathways accelerates the rate of IkB alpha phosphorylation and results in its complete degradation.</clue>
+</event>
+<event id="E19">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T29" />
+<clue>While PKC-dependent pathways sequentially result in the phosphorylation and in an incomplete degradation of IkB alpha in T cell lines, co-activation of Ca(2+)-dependent pathways accelerates the rate of IkB alpha <clueType>phosphorylation</clueType> and results in its complete degradation.</clue>
+</event>
+<event id="E20">
+<type class="Protein_catabolism" />
+<theme idref="T29" />
+<clue>While PKC-dependent pathways sequentially result in the phosphorylation and in an incomplete degradation of IkB alpha in T cell lines, co-activation of Ca(2+)-dependent pathways accelerates the rate of IkB alpha phosphorylation and results in <corefTheme>its</corefTheme> <clueType>complete degradation</clueType>.</clue>
+</event>
+<event id="E64">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<clue>While PKC-dependent pathways sequentially result in the phosphorylation and in an incomplete degradation of IkB alpha in T cell lines, <clueType>co-activation</clueType> <linkTheme>of</linkTheme> Ca(2+)-dependent pathways accelerates the rate of IkB alpha phosphorylation and results in its complete degradation.</clue>
+</event>
+<event id="E65">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<clue>While PKC-dependent pathways sequentially result in the phosphorylation and in an incomplete degradation of IkB alpha in T cell lines, <clueType>co-activation</clueType> <linkTheme>of</linkTheme> Ca(2+)-dependent pathways accelerates the rate of IkB alpha phosphorylation and results in its complete degradation.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="E64" />
+<cause idref="E65" />
+<clue>While PKC-dependent pathways sequentially result in the phosphorylation and in an incomplete degradation of IkB alpha in T cell lines, co-activation of Ca(2+)-dependent pathways <clueType>accelerates</clueType> the rate of IkB alpha phosphorylation and results in its complete degradation.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="E64" />
+<cause idref="E65" />
+<clue>While PKC-dependent pathways sequentially result in the phosphorylation and in an incomplete degradation of IkB alpha in T cell lines, co-activation of Ca(2+)-dependent pathways accelerates the rate of IkB alpha phosphorylation and <clueType>results</clueType> <linkTheme>in</linkTheme> its complete degradation.</clue>
+</event>
+<sentence id="S7">Activation of <term sem="Other" id="T30" lex="Ca(2+)-dependent_pathway"><term sem="Element" id="T31" lex="Ca(2+)">Ca(2+)</term>-dependent pathways</term> alone do not result in the <term sem="Other" id="T32" lex="phosphorylation">phosphorylation</term> and/or degradation of <term sem="Protein_molecule" id="T33" lex="IkB_alpha">IkB alpha</term> in <term sem="Cell_cultured" id="T34" lex="Jurkat_T_cell">Jurkat T</term> or in <term sem="Cell_cultured" id="T35" lex="U937_cell">U937 cells</term>.</sentence>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> Ca(2+)-dependent pathways alone do not result in the phosphorylation and/or degradation of IkB alpha in Jurkat T or in U937 cells.</clue>
+</event>
+<event id="E24">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T33" />
+<clue>Activation of Ca(2+)-dependent pathways alone do not result in the <clueType>phosphorylation</clueType> and/or degradation <linkTheme>of</linkTheme> IkB alpha in Jurkat T or in U937 cells.</clue>
+</event>
+<event id="E25">
+<type class="Protein_catabolism" />
+<theme idref="T33" />
+<clue>Activation of Ca(2+)-dependent pathways alone do not result in the phosphorylation and/or <clueType>degradation</clueType> <linkTheme>of</linkTheme> IkB alpha in Jurkat T or in U937 cells.</clue>
+</event>
+<event assertion="non-exist" id="E26">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E23" />
+<clue>Activation of Ca(2+)-dependent pathways alone do not <clueType>result</clueType> <linkTheme>in</linkTheme> the phosphorylation and/or degradation of IkB alpha <clueLoc>in Jurkat T or in U937 cells.</clueLoc></clue>
+</event>
+<event assertion="non-exist" id="E27">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="E23" />
+<clue>Activation of Ca(2+)-dependent pathways alone do not <clueType>result</clueType> <linkTheme>in</linkTheme> the phosphorylation and/or degradation of IkB alpha <clueLoc>in Jurkat T or in U937 cells.</clueLoc></clue>
+</event>
+<sentence id="S8">Treatment of <term sem="Cell_natural" id="T36" lex="T_cell">T cells</term> with the selective <term sem="Organic_compound_other" id="T37" lex="PKC_inhibitor"><term sem="Protein_molecule" id="T38" lex="PKC">PKC</term> inhibitor</term> <term sem="Organic_compound_other" id="T39" lex="GF109203X">GF109203X</term> abrogates the <term sem="Organic_compound_other" id="T41" lex="PMA">PMA</term>-induced <cons sem="(/ Other Other)" id="C3" lex="(/ IkB_alpha_phosphorylation IkB_alpha_degradation)"><frag id="F9"><term sem="Protein_molecule" id="T43" lex="IkB_alpha">IkB alpha</term></frag> <frag id="F10">phosphorylation</frag>/<frag id="F11">degradation</frag></cons> irrespective of activation of <term sem="Other" id="T44" lex="Ca(2+)-dependent_pathway"><term sem="Element" id="T45" lex="Ca(2+)">Ca(2+)</term>-dependent pathways</term>, but not the phosphorylation and degradation of <term sem="Protein_molecule" id="T46" lex="IkB_alpha">IkB alpha</term> induced by <term sem="Protein_molecule" id="T47" lex="TNF-alpha">TNF-alpha</term>, a <term sem="Other" id="T48" lex="PKC-independent_stimulus"><term sem="Protein_molecule" id="T49" lex="PKC">PKC</term>-independent stimulus</term>.</sentence>
+<event id="E32">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T43" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X abrogates the PMA-induced IkB alpha <clueType>phosphorylation</clueType>/degradation irrespective of activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+<comment>NER: T40, T42 del &quot;PMA-induced IkB alpha phosphorylation/degradation&quot;&quot;IkB alpha phosphorylation&quot;</comment>
+</event>
+<event id="E33">
+<type class="Protein_catabolism" />
+<theme idref="T43" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X abrogates the PMA-induced IkB alpha phosphorylation/<clueType>degradation</clueType> irrespective of activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="T41" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X abrogates the PMA-<clueType>induced</clueType> IkB alpha phosphorylation/degradation irrespective of activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="T41" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X abrogates the PMA-<clueType>induced</clueType> IkB alpha phosphorylation/degradation irrespective of activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="E34" />
+<cause idref="T39" />
+<clue>Treatment of <clueLoc>T cells</clueLoc> <linkCause>with</linkCause> the selective PKC inhibitor GF109203X <clueType>abrogates</clueType> the PMA-induced IkB alpha phosphorylation/degradation irrespective of activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event id="E37">
+<type class="Negative_regulation" />
+<theme idref="E35" />
+<cause idref="T39" />
+<clue>Treatment of <clueLoc>T cells</clueLoc> <linkCause>with</linkCause> the selective PKC inhibitor GF109203X <clueType>abrogates</clueType> the PMA-induced IkB alpha phosphorylation/degradation irrespective of activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="T44" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X abrogates the PMA-induced IkB alpha phosphorylation/degradation irrespective of <clueType>activation</clueType> <linkTheme>of</linkTheme> Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event assertion="non-exist" id="E39">
+<type class="Correlation" />
+<theme idref="E38" />
+<theme idref="E36" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X abrogates the PMA-induced IkB alpha phosphorylation/degradation <clueType>irrespective</clueType> <linkTheme>of</linkTheme> activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event id="E40">
+<type class="Correlation" />
+<theme idref="E38" />
+<theme idref="E37" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X abrogates the PMA-induced IkB alpha phosphorylation/degradation <clueType>irrespective</clueType> <linkTheme>of</linkTheme> activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event id="E41">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T46" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X abrogates the PMA-induced IkB alpha phosphorylation/degradation irrespective of activation of Ca(2+)-dependent pathways, but not the <clueType>phosphorylation</clueType> and degradation <linkTheme>of</linkTheme> IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event id="E42">
+<type class="Protein_catabolism" />
+<theme idref="T46" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X abrogates the PMA-induced IkB alpha phosphorylation/degradation irrespective of activation of Ca(2+)-dependent pathways, but not the phosphorylation and <clueType>degradation</clueType> <linkTheme>of</linkTheme> IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="E41" />
+<cause idref="T47" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X abrogates the PMA-induced IkB alpha phosphorylation/degradation irrespective of activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha <clueType>induced</clueType> <linkCause>by</linkCause> TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="E42" />
+<cause idref="T47" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X abrogates the PMA-induced IkB alpha phosphorylation/degradation irrespective of activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha <clueType>induced</clueType> <linkCause>by</linkCause> TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event assertion="non-exist" id="E45">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="T39" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X <clueType>abrogates</clueType> the PMA-induced IkB alpha phosphorylation/degradation irrespective of activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<event assertion="non-exist" id="E46">
+<type class="Negative_regulation" />
+<theme idref="E44" />
+<cause idref="T39" />
+<clue>Treatment of T cells with the selective PKC inhibitor GF109203X <clueType>abrogates</clueType> the PMA-induced IkB alpha phosphorylation/degradation irrespective of activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha induced by TNF-alpha, a PKC-independent stimulus.</clue>
+</event>
+<sentence id="S9">Contrary to the interaction with <term sem="Other" id="T50" lex="PKC,_Ca(2+)-dependent_pathway"><term sem="Protein_molecule" id="T51" lex="PKC">PKC</term>, <term sem="Element" id="T52" lex="Ca(2+)">Ca(2+)</term>-dependent pathways</term> synergize with <term sem="Protein_molecule" id="T53" lex="TNF-alpha">TNF-alpha</term> not at the level of <term sem="Other" id="T54" lex="IkB_alpha_phosphorylation"><term sem="Protein_molecule" id="T55" lex="IkB_alpha">IkB alpha</term> phosphorylation</term>, but at the level of its degradation.</sentence>
+<event id="E47">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T55" />
+<clue>Contrary to the interaction with PKC, Ca(2+)-dependent pathways synergize with TNF-alpha not at the level of IkB alpha <clueType>phosphorylation</clueType>, but at the level of its degradation.</clue>
+</event>
+<event id="E48">
+<type class="Protein_catabolism" />
+<theme idref="T55" />
+<clue>Contrary to the interaction with PKC, Ca(2+)-dependent pathways synergize with TNF-alpha not at the level of IkB alpha phosphorylation, but at the level of <corefTheme>its</corefTheme> <clueType>degradation</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E49">
+<type class="Positive_regulation" />
+<theme idref="E47" />
+<cause idref="T50" />
+<cause idref="T53" />
+<clue>Contrary to the interaction with PKC, Ca(2+)-dependent pathways <clueType>synergize</clueType> <linkTheme>with</linkTheme> TNF-alpha not at the level of IkB alpha phosphorylation, but at the level of its degradation.</clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation" />
+<theme idref="E48" />
+<cause idref="T50" />
+<cause idref="T53" />
+<clue>Contrary to the interaction with PKC, Ca(2+)-dependent pathways <clueType>synergize</clueType> <linkTheme>with</linkTheme> TNF-alpha not at the level of IkB alpha phosphorylation, but at the level of its degradation.</clue>
+</event>
+<sentence id="S10">These results indicate that <term sem="Other" id="T56" lex="Ca(2+)-dependent_pathway"><term sem="Element" id="T57" lex="Ca(2+)">Ca(2+)</term>-dependent pathways</term>, including the <term sem="Protein_family_or_group" id="T58" lex="phosphatase">phosphatase</term> <term sem="Protein_molecule" id="T59" lex="calcineurin">calcineurin</term>, participate in the regulation of <term sem="Protein_molecule" id="T60" lex="NF-kappa_B">NF-kappa B</term> in a cell specific fashion and synergize with <cons sem="(AND Other Other)" id="C4" lex="(AND PKC-dependent_pathway PKC-independent_pathway)"><frag id="F12"><term sem="Protein_molecule" id="T62" lex="PKC">PKC</term></frag><frag id="F13">-dependent</frag> and <frag id="F14">-independent</frag> <frag id="F15">pathways</frag></cons> at the level of <cons sem="(AND Other Other)" id="C5" lex="(AND IkB_alpha_phosphorylation IkB_alpha_degradation)"><frag id="F16"><term sem="Protein_molecule" id="T65" lex="IkB_alpha">IkB alpha</term></frag> <frag id="F17">phosphorylation</frag> and <frag id="F18">degradation</frag></cons>.</sentence>
+<event id="E51">
+<type class="Regulation" />
+<theme idref="T60" />
+<clue>These results indicate that Ca(2+)-dependent pathways, including the phosphatase calcineurin, participate in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> NF-kappa B in a cell specific fashion and synergize with PKC-dependent and -independent pathways at the level of IkB alpha phosphorylation and degradation.</clue>
+</event>
+<event id="E52">
+<type class="Correlation" />
+<theme idref="T56" />
+<theme idref="E51" />
+<clue>These results indicate that Ca(2+)-dependent pathways, including the phosphatase calcineurin, <clueType>participate</clueType> <linkTheme>in</linkTheme> the regulation of NF-kappa B in a cell specific fashion and synergize with PKC-dependent and -independent pathways at the level of IkB alpha phosphorylation and degradation.</clue>
+</event>
+<event id="E53">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T65" />
+<clue>These results indicate that Ca(2+)-dependent pathways, including the phosphatase calcineurin, participate in the regulation of NF-kappa B in a cell specific fashion and synergize with PKC-dependent and -independent pathways at the level of IkB alpha <clueType>phosphorylation</clueType> and degradation.</clue>
+</event>
+<event id="E54">
+<type class="Protein_catabolism" />
+<theme idref="T65" />
+<clue>These results indicate that Ca(2+)-dependent pathways, including the phosphatase calcineurin, participate in the regulation of NF-kappa B in a cell specific fashion and synergize with PKC-dependent and -independent pathways at the level of IkB alpha phosphorylation and <clueType>degradation</clueType>.</clue>
+</event>
+<event id="E55">
+<type class="Positive_regulation" />
+<theme idref="E53" />
+<cause idref="T56" />
+<cause idref1="F13" idref2="F15" idref="F12" />
+<clue>These results indicate that Ca(2+)-dependent pathways, including the phosphatase calcineurin, participate in the regulation of NF-kappa B in a cell specific fashion and <clueType>synergize</clueType> <linkTheme>with</linkTheme> PKC-dependent and -independent pathways at the level of IkB alpha phosphorylation and degradation.</clue>
+</event>
+<event id="E56">
+<type class="Positive_regulation" />
+<theme idref="E54" />
+<cause idref="T56" />
+<cause idref1="F13" idref2="F15" idref="F12" />
+<clue>These results indicate that Ca(2+)-dependent pathways, including the phosphatase calcineurin, participate in the regulation of NF-kappa B in a cell specific fashion and <clueType>synergize</clueType> <linkTheme>with</linkTheme> PKC-dependent and -independent pathways at the level of IkB alpha phosphorylation and degradation.</clue>
+</event>
+<event id="E57">
+<type class="Positive_regulation" />
+<theme idref="E53" />
+<cause idref="T56" />
+<cause idref1="F14" idref2="F15" idref="F12" />
+<clue>These results indicate that Ca(2+)-dependent pathways, including the phosphatase calcineurin, participate in the regulation of NF-kappa B in a cell specific fashion and <clueType>synergize</clueType> <linkTheme>with</linkTheme> PKC-dependent and -independent pathways at the level of IkB alpha phosphorylation and degradation.</clue>
+</event>
+<event id="E58">
+<type class="Positive_regulation" />
+<theme idref="E54" />
+<cause idref="T56" />
+<cause idref1="F14" idref2="F15" idref="F12" />
+<clue>These results indicate that Ca(2+)-dependent pathways, including the phosphatase calcineurin, participate in the regulation of NF-kappa B in a cell specific fashion and <clueType>synergize</clueType> <linkTheme>with</linkTheme> PKC-dependent and -independent pathways at the level of IkB alpha phosphorylation and degradation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

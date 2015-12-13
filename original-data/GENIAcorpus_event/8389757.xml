@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="19/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8389757" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8389757</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Defective translocation of <term sem="Protein_molecule" id="T1" lex="protein_kinase_C">protein kinase C</term> in <term sem="Cell_cultured" id="T2" lex="multidrug-resistant_HL-60_cell">multidrug-resistant HL-60 cells</term> confers a reversible loss of <term sem="Other" id="T3" lex="phorbol_ester-induced_monocytic_differentiation"><term sem="Organic_compound_other" id="A1">phorbol ester</term>-induced <term sem="Cell_natural" id="A2">monocytic</term> differentiation</term>.</sentence>
+<event id="E1">
+<type class="Localization" />
+<theme idref="T1" />
+<clue>Defective <clueType>translocation</clueType> <linkTheme>of</linkTheme> protein kinase C in multidrug-resistant HL-60 cells confers a reversible loss of phorbol ester-induced monocytic differentiation.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<clue><clueType>Defective</clueType> translocation of protein kinase C <clueLoc>in multidrug-resistant HL-60 cells</clueLoc> confers a reversible loss of phorbol ester-induced monocytic differentiation.</clue>
+</event>
+<event id="E3">
+<type class="Cell_differentiation" />
+<theme idref="A2" />
+<clue>Defective translocation of protein kinase C in multidrug-resistant HL-60 cells confers a reversible loss of phorbol ester-induced monocytic <clueType>differentiation</clueType>.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="A1" />
+<clue>Defective translocation of protein kinase C in multidrug-resistant HL-60 cells confers a reversible loss of phorbol ester-<clueType>induced</clueType> monocytic differentiation.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="E2" />
+<clue>Defective translocation of protein kinase C in multidrug-resistant HL-60 cells <clueType>confers</clueType> a reversible <clueType>loss</clueType> <linkTheme>of</linkTheme> phorbol ester-induced monocytic differentiation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Previous studies have demonstrated that <term sem="Cell_cultured" id="T4" lex="human_HL-60_myeloid_leukemia_cell">human HL-60 myeloid leukemia cells</term> differentiate in response to <term sem="Organic_compound_other" id="T5" lex="phorbol_ester">phorbol esters</term>.</sentence>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="T4" />
+<clue>Previous studies have demonstrated that human HL-60 myeloid leukemia cells <clueType>differentiate</clueType> in response to phorbol esters.</clue>
+</event>
+<event id="E106">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T5" />
+<clue>Previous studies have demonstrated that human HL-60 myeloid leukemia cells differentiate <linkCause>in response to</linkCause> phorbol esters.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S3">This event is associated with induction of the <term sem="DNA_domain_or_region" id="T6" lex="c-jun_early_response_gene">c-jun early response gene</term> and appearance of a <term sem="Other" id="T7" lex="monocytic_phenotype">monocytic phenotype</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<clue>This event is associated with <clueType>induction</clueType> <linkTheme>of</linkTheme> the c-jun early response gene and appearance of a monocytic phenotype.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<clue>This event is associated with induction of the c-jun early response gene and <clueType>appearance</clueType> <linkTheme>of</linkTheme> a monocytic phenotype.</clue>
+</event>
+<event id="E9">
+<type class="Correlation" />
+<theme idref="E106" />
+<theme idref="E7" />
+<clue><corefTheme idref1="E106">This event</corefTheme> is <clueType>associated</clueType> <linkTheme>with</linkTheme> induction of the c-jun early response gene and appearance of a monocytic phenotype.</clue>
+</event>
+<event id="E10">
+<type class="Correlation" />
+<theme idref="E106" />
+<theme idref="E8" />
+<clue><corefTheme idref1="E106">This event</corefTheme> is <clueType>associated</clueType> <linkTheme>with</linkTheme> induction of the c-jun early response gene and appearance of a monocytic phenotype.</clue>
+</event>
+<sentence id="S4">The present studies have examined the effects of vincristine-selected, <term sem="Other" id="A3">multidrug resistance</term> on <term sem="Other" id="T8" lex="12-O-tetradecanoylphorbol-13-acetate_(TPA)-induced_HL-60_cell_differentiation"><term sem="Organic_compound_other" id="T9" lex="12-O-tetradecanoylphorbol-13-acetate">12-O-tetradecanoylphorbol-13-acetate</term> (<term sem="Organic_compound_other" id="T10" lex="TPA">TPA</term>)-induced <term sem="Cell_cultured" id="A4">HL-60 cell</term> differentiation</term>.</sentence>
+<event id="E11">
+<type class="Cell_differentiation" />
+<theme idref="A4" />
+<clue>The present studies have examined the effects of vincristine-selected, multidrug resistance on 12-O-tetradecanoylphorbol-13-acetate (TPA)-induced HL-60 cell <clueType>differentiation</clueType>.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T10" />
+<clue>The present studies have examined the effects of vincristine-selected, multidrug resistance on 12-O-tetradecanoylphorbol-13-acetate (TPA)-<clueType>induced</clueType> HL-60 cell differentiation.</clue>
+</event>
+<event uncertainty="doubtful" id="E13">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="A3" />
+<clue>The present studies have examined the <clueType>effects</clueType> <linkCause>of</linkCause> vincristine-selected, multidrug resistance <linkTheme>on</linkTheme> 12-O-tetradecanoylphorbol-13-acetate (TPA)-induced HL-60 cell differentiation.</clue>
+</event>
+<sentence id="S5">The results demonstrate that <term sem="Cell_cultured" id="T11" lex="multidrug-resistant_HL-60_cell"><term sem="Other" id="A5">multidrug</term>-resistant <term sem="Cell_cultured" id="T12" lex="HL-60_cell">HL-60 cells</term></term>, designated <term sem="Cell_cultured" id="A6">HL-60/vinc</term>, fail to respond to <term sem="Organic_compound_other" id="T13" lex="TPA">TPA</term> with an increase in <term sem="RNA_family_or_group" id="T14" lex="c-jun_transcript"><term sem="DNA_domain_or_region" id="T15" lex="c-jun">c-jun</term> transcripts</term> or other phenotypic characteristics of <term sem="Other" id="T16" lex="monocytic_differentiation"><term sem="Cell_natural" id="A30">monocytic</term> differentiation</term>.</sentence>
+<event assertion="non-exist" id="E14">
+<type />
+<theme idref="A6" />
+<cause idref="A5" />
+<clue>The results demonstrate that multidrug-<clueType>resistant</clueType> HL-60 cells, designated HL-60/vinc, fail to respond to TPA with an increase in c-jun transcripts or other phenotypic characteristics of monocytic differentiation.</clue>
+<comment>RESISTANCE</comment>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<cause idref="T13" />
+<clue>The results demonstrate that multidrug-resistant HL-60 cells, designated <clueLoc>HL-60/vinc</clueLoc>, fail to <linkCause>respond to</linkCause> TPA with an <clueType>increase</clueType> <linkTheme>in</linkTheme> c-jun transcripts or other phenotypic characteristics of monocytic differentiation.</clue>
+</event>
+<event id="E16">
+<type class="Cell_differentiation" />
+<theme idref="A6" />
+<theme idref="A30" />
+<clue>The results demonstrate that multidrug-resistant HL-60 cells, designated HL-60/vinc, fail to respond to TPA with an increase in c-jun transcripts or other phenotypic characteristics of monocytic <clueType>differentiation</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E116">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T13" />
+<clue>The results demonstrate that multidrug-resistant HL-60 cells, designated HL-60/vinc, fail to <linkCause>respond to</linkCause> TPA with an increase in c-jun transcripts or other phenotypic characteristics of monocytic differentiation.</clue>
+</event>
+<sentence id="S6">By contrast, treatment of <term sem="Cell_cultured" id="T17" lex="HL-60/vinc_cell">HL-60/vinc cells</term> with <term sem="Organic_compound_other" id="T18" lex="okadaic_acid">okadaic acid</term>, an inhibitor of <term sem="Protein_family_or_group" id="T19" lex="serine/threonine_protein_phosphatase"><term sem="Amino_acid_monomer" id="T20" lex="serine">serine</term><term sem="Amino_acid_monomer" id="T21" lex="threonine">/threonine</term> protein phosphatases</term>, induces <term sem="Other" id="T22" lex="c-jun_transcription"><term sem="DNA_domain_or_region" id="T23" lex="c-jun">c-jun</term> transcription</term>, <term sem="Other" id="A7">growth arrest</term>, and expression of the <term sem="DNA_domain_or_region" id="T24" lex="c-fms_gene">c-fms gene</term>.</sentence>
+<event id="E17">
+<type class="Artificial_process" />
+<theme idref="T17" />
+<theme idref="T18" />
+<clue>By contrast, <clueType>treatment</clueType> <linkTheme>of</linkTheme> HL-60/vinc cells <linkTheme>with</linkTheme> okadaic acid, an inhibitor of serine/threonine protein phosphatases, induces c-jun transcription, growth arrest, and expression of the c-fms gene.</clue>
+</event>
+<event id="E18">
+<type class="Transcription" />
+<theme idref="T23" />
+<clue>By contrast, treatment of HL-60/vinc cells with okadaic acid, an inhibitor of serine/threonine protein phosphatases, induces c-jun <clueType>transcription</clueType>, growth arrest, and expression of the c-fms gene.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="E17" />
+<clue>By contrast, treatment of HL-60/vinc cells with okadaic acid, an inhibitor of serine/threonine protein phosphatases, <clueType>induces</clueType> c-jun transcription, growth arrest, and expression of the c-fms gene.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="E17" />
+<clue>By contrast, treatment of HL-60/vinc cells with okadaic acid, an inhibitor of serine/threonine protein phosphatases, <clueType>induces</clueType> c-jun transcription, growth arrest, and expression of the c-fms gene.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>By contrast, treatment of HL-60/vinc cells with okadaic acid, an inhibitor of serine/threonine protein phosphatases, induces c-jun transcription, growth arrest, and <clueType>expression</clueType> <linkTheme>of</linkTheme> the c-fms gene.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="E17" />
+<clue>By contrast, treatment of HL-60/vinc cells with okadaic acid, an inhibitor of serine/threonine protein phosphatases, <clueType>induces</clueType> c-jun transcription, growth arrest, and expression of the c-fms gene.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="T19" />
+<cause idref="T18" />
+<clue>By contrast, treatment of HL-60/vinc cells with okadaic acid, an <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> serine/threonine protein phosphatases, induces c-jun transcription, growth arrest, and expression of the c-fms gene.</clue>
+</event>
+<sentence id="S7">Studies were also performed with an <term sem="Cell_cultured" id="T25" lex="HL-60/vinc_revertant">HL-60/vinc revertant</term> (<term sem="Cell_cultured" id="T26" lex="HL-60/vinc/R">HL-60/vinc/R</term>) line that has regained partial sensitivity to <term sem="Organic_compound_other" id="T27" lex="vincristine">vincristine</term>.</sentence>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="T26" />
+<cause idref="T27" />
+<clue>Studies were also performed with an HL-60/vinc revertant (HL-60/vinc/R) line that has regained <clueType>partial sensitivity</clueType> <linkCause>to</linkCause> vincristine.</clue>
+</event>
+<sentence id="S8">The finding that <term sem="Cell_cultured" id="T28" lex="HL-60/vinc/R_cell">HL-60/vinc/R cells</term> respond to <term sem="Organic_compound_other" id="T29" lex="TPA">TPA</term> with induction of a <term sem="Other" id="T30" lex="monocytic_phenotype"><term sem="Cell_natural" id="A31">monocytic</term> phenotype</term>, but not <term sem="Other" id="T31" lex="c-jun_expression"><term sem="DNA_domain_or_region" id="T32" lex="c-jun">c-jun</term> expression</term>, suggests that <term sem="Other" id="T33" lex="c-jun_induction"><term sem="DNA_domain_or_region" id="T34" lex="c-jun">c-jun</term> induction</term> is not obligatory for <term sem="Other" id="T35" lex="monocytic_differentiation">monocytic differentiation</term>.</sentence>
+<event id="E25">
+<type class="Cell_differentiation" />
+<theme idref="T28" />
+<theme idref="A31" />
+<clue>The finding that HL-60/vinc/R cells respond to TPA with <clueType>induction</clueType> <linkTheme>of</linkTheme> a monocytic <clueType>phenotype</clueType>, but not c-jun expression, suggests that c-jun induction is not obligatory for monocytic differentiation.</clue>
+</event>
+<event id="E125">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="T29" />
+<clue>The finding that HL-60/vinc/R cells <linkCause>respond to</linkCause> TPA with induction of a monocytic phenotype, but not c-jun expression, suggests that c-jun induction is not obligatory for monocytic differentiation.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>The finding that HL-60/vinc/R cells respond to TPA with induction of a monocytic phenotype, but not c-jun <clueType>expression</clueType>, suggests that c-jun induction is not obligatory for monocytic differentiation.</clue>
+</event>
+<event assertion="non-exist" id="E27">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T29" />
+<clue>The finding that <clueLoc>HL-60/vinc/R cells</clueLoc> <linkCause>respond to</linkCause> TPA with <clueType>induction</clueType> <linkTheme>of</linkTheme> a monocytic phenotype, but not c-jun expression, suggests that c-jun induction is not obligatory for monocytic differentiation.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<clue>The finding that HL-60/vinc/R cells respond to TPA with induction of a monocytic phenotype, but not c-jun expression, suggests that c-jun <clueType>induction</clueType> is not obligatory for monocytic differentiation.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E29">
+<type class="Positive_regulation" />
+<theme idref="T35" />
+<cause idref="E28" />
+<clue>The finding that HL-60/vinc/R cells respond to TPA with induction of a monocytic phenotype, but not c-jun expression, suggests that c-jun induction is not <clueType>obligatory</clueType> <linkTheme>for</linkTheme> monocytic differentiation.</clue>
+</event>
+<sentence id="S9">Other studies further demonstrate that the <term sem="DNA_domain_or_region" id="T36" lex="jun-B">jun-B</term> and <term sem="DNA_domain_or_region" id="T37" lex="fra-1">fra-1</term> <term sem="DNA_family_or_group" id="T38" lex="gene">genes</term> are induced by <term sem="Organic_compound_other" id="T39" lex="TPA">TPA</term> in both <term sem="Cell_cultured" id="T40" lex="HL-60/vinc">HL-60/vinc</term> and <term sem="Cell_cultured" id="T41" lex="HL-60/vinc/R_cell">HL-60/vinc/R cells</term>, whereas <term sem="Other" id="T42" lex="c-fos_expression"><term sem="DNA_domain_or_region" id="T43" lex="c-fos">c-fos</term> expression</term> is attenuated in the HL-60/vinc line.</sentence>
+<event id="E300">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<clue>Other studies further demonstrate that the jun-B and fra-1 genes are <clueType>induced</clueType> <linkCause>by</linkCause> TPA <clueLoc>in</clueLoc> both <clueLoc>HL-60/vinc</clueLoc> and HL-60/vinc/R <clueLoc>cells</clueLoc>, whereas c-fos expression is attenuated in the HL-60/vinc line.</clue>
+</event>
+<event id="E301">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<clue>Other studies further demonstrate that the jun-B and fra-1 genes are <clueType>induced</clueType> <linkCause>by</linkCause> TPA <clueLoc>in</clueLoc> both HL-60/vinc and <clueLoc>HL-60/vinc/R cells</clueLoc>, whereas c-fos expression is attenuated in the HL-60/vinc line.</clue>
+</event>
+<event id="E302">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<clue>Other studies further demonstrate that the jun-B and fra-1 genes are <clueType>induced</clueType> <linkCause>by</linkCause> TPA <clueLoc>in</clueLoc> both <clueLoc>HL-60/vinc</clueLoc> and HL-60/vinc/R <clueLoc>cells</clueLoc>, whereas c-fos expression is attenuated in the HL-60/vinc line.</clue>
+</event>
+<event id="E303">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<clue>Other studies further demonstrate that the jun-B and fra-1 genes are <clueType>induced</clueType> <linkCause>by</linkCause> TPA <clueLoc>in</clueLoc> both HL-60/vinc and <clueLoc>HL-60/vinc/R cells</clueLoc>, whereas c-fos expression is attenuated in the HL-60/vinc line.</clue>
+</event>
+<event id="E32">
+<type class="Gene_expression" />
+<theme idref="T43" />
+<clue>Other studies further demonstrate that the jun-B and fra-1 genes are induced by TPA in both HL-60/vinc and HL-60/vinc/R cells, whereas c-fos <clueType>expression</clueType> is attenuated in the HL-60/vinc line.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<clue>Other studies further demonstrate that the jun-B and fra-1 genes are induced by TPA in both HL-60/vinc and HL-60/vinc/R cells, whereas c-fos expression is <clueType>attenuated</clueType> <clueLoc>in the HL-60/vinc line</clueLoc>.</clue>
+</event>
+<sentence id="S10">Since <term sem="Organic_compound_other" id="T44" lex="TPA">TPA</term> activates <term sem="Protein_molecule" id="T45" lex="protein_kinase_C">protein kinase C</term> (<term sem="Protein_molecule" id="T46" lex="PKC">PKC</term>), we examined translocation of <term sem="Protein_molecule" id="T47" lex="PKC">PKC</term> from the <term sem="Cell_component" id="T48" lex="cytosol">cytosol</term> to the <term sem="Cell_component" id="T49" lex="membrane_fraction">membrane fraction</term>.</sentence>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="T46" />
+<cause idref="T44" />
+<clue>Since TPA <clueType>activates</clueType> protein kinase C (PKC), we examined translocation of PKC from the cytosol to the membrane fraction.</clue>
+</event>
+<event id="E35">
+<type class="Localization" />
+<theme idref="T47" />
+<clue>Since TPA activates protein kinase C (PKC), we examined <clueType>translocation</clueType> <linkTheme>of</linkTheme> PKC <clueLoc>from the cytosol to the membrane fraction</clueLoc>.</clue>
+</event>
+<sentence id="S11">Although <term sem="Cell_cultured" id="T50" lex="HL-60">HL-60</term> and <term sem="Cell_cultured" id="T51" lex="HL-60/vinc/R_cell">HL-60/vinc/R cells</term> demonstrated translocation of <term sem="Other" id="T52" lex="PKC_activity"><term sem="Protein_molecule" id="T53" lex="PKC">PKC</term> activity</term>, this <term sem="Other" id="T54" lex="subcellular_redistribution">subcellular redistribution</term> was undetectable in <term sem="Cell_cultured" id="T55" lex="HL-60/vinc_cell">HL-60/vinc cells</term>.</sentence>
+<event id="E310">
+<type class="Localization" />
+<theme idref="T53" />
+<clue>Although <clueLoc>HL-60</clueLoc> and HL-60/vinc/R <clueLoc>cells</clueLoc> demonstrated <clueType>translocation</clueType> <linkTheme>of</linkTheme> PKC activity, this subcellular redistribution was undetectable in HL-60/vinc cells.</clue>
+</event>
+<event id="E311">
+<type class="Localization" />
+<theme idref="T53" />
+<clue>Although HL-60 and <clueLoc>HL-60/vinc/R cells</clueLoc> demonstrated <clueType>translocation</clueType> <linkTheme>of</linkTheme> PKC activity, this subcellular redistribution was undetectable in HL-60/vinc cells.</clue>
+</event>
+<event assertion="non-exist" id="E37">
+<type class="Localization" />
+<theme idref="T53" />
+<clue>Although HL-60 and HL-60/vinc/R cells demonstrated translocation of PKC activity, this <clueType>subcellular redistribution</clueType> was <clueType>undetectable</clueType> <clueLoc>in HL-60/vinc cells</clueLoc>.</clue>
+</event>
+<sentence id="S12">Activity of the <term sem="Protein_family_or_group" id="T56" lex="mitogen-activated_protein_kinase_family">mitogen-activated protein kinase family</term> with associated phosphorylation of <term sem="Protein_molecule" id="T57" lex="c-Jun_Y-peptide">c-Jun Y-peptide</term> was markedly diminished in <term sem="Cell_cultured" id="T58" lex="TPA-treated_HL-60/vinc_cell"><term sem="Organic_compound_other" id="T59" lex="TPA">TPA</term>-treated <term sem="Cell_cultured" id="T60" lex="HL-60/vinc_cell">HL-60/vinc cells</term></term>, but not in response to <term sem="Organic_compound_other" id="T61" lex="okadaic_acid">okadaic acid</term>.</sentence>
+<event id="E38">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T57" />
+<clue>Activity of the mitogen-activated protein kinase family with associated <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> c-Jun Y-peptide was markedly diminished in TPA-treated HL-60/vinc cells, but not in response to okadaic acid.</clue>
+</event>
+<event id="E39">
+<type class="Correlation" />
+<theme idref="T56" />
+<theme idref="E38" />
+<clue>Activity of the mitogen-activated protein kinase family with <clueType>associated</clueType> phosphorylation of c-Jun Y-peptide was markedly diminished in TPA-treated HL-60/vinc cells, but not in response to okadaic acid.</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation" />
+<theme idref="T56" />
+<clue>Activity of the mitogen-activated protein kinase family with associated phosphorylation of c-Jun Y-peptide was markedly <clueType>diminished</clueType> <clueLoc>in TPA-treated HL-60/vinc cells</clueLoc>, but not in response to okadaic acid.</clue>
+</event>
+<event id="E41">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<clue>Activity of the mitogen-activated protein kinase family with associated phosphorylation of c-Jun Y-peptide was markedly <clueType>diminished</clueType> <clueLoc>in TPA-treated HL-60/vinc cells</clueLoc>, but not in response to okadaic acid.</clue>
+</event>
+<event assertion="non-exist" id="E42">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="T61" />
+<clue>Activity of the mitogen-activated protein kinase family with associated phosphorylation of c-Jun Y-peptide was markedly <clueType>diminished</clueType> <clueLoc>in TPA-treated HL-60/vinc cells</clueLoc>, but not <linkCause>in response to</linkCause> okadaic acid.</clue>
+</event>
+<event assertion="non-exist" id="E43">
+<type class="Negative_regulation" />
+<theme idref="T56" />
+<cause idref="T61" />
+<clue>Activity of the mitogen-activated protein kinase family with associated phosphorylation of c-Jun Y-peptide was markedly <clueType>diminished</clueType> <clueLoc>in TPA-treated HL-60/vinc cells</clueLoc>, but not <linkCause>in response to</linkCause> okadaic acid.</clue>
+</event>
+<event id="E44">
+<type class="Artificial_process" />
+<theme idref="T59" />
+<theme idref="T60" />
+<clue>Activity of the mitogen-activated protein kinase family with associated phosphorylation of c-Jun Y-peptide was markedly diminished in TPA-<clueType>treated</clueType> HL-60/vinc cells, but not in response to okadaic acid.</clue>
+</event>
+<sentence id="S13">Taken together, these findings suggest that <term sem="Organic_compound_other" id="T62" lex="vincristine">vincristine</term> resistance confers insensitivity to <term sem="Other" id="T63" lex="TPA-induced_differentiation"><term sem="Organic_compound_other" id="T64" lex="TPA">TPA</term>-induced <term sem="Other" id="A13">differentiation</term></term> and can include defects in <term sem="Other" id="T65" lex="PKC-mediated_signaling_event"><term sem="Protein_molecule" id="T66" lex="PKC">PKC</term>-mediated signaling events</term> and induction of <term sem="Other" id="T67" lex="jun/fos_early_response_gene_expression"><term sem="DNA_domain_or_region" id="T68" lex="jun/fos_early_response_gene"><term sem="DNA_domain_or_region" id="A15">jun</term>/<term sem="DNA_domain_or_region" id="A16">fos</term> <term sem="DNA_domain_or_region" id="A17">early response gene</term></term> expression</term>.</sentence>
+<event assertion="non-exist" id="E101">
+<type />
+<cause idref="T62" />
+<clue>Taken together, these findings suggest that vincristine <clueType>resistance</clueType> confers insensitivity to TPA-induced differentiation and can include defects in PKC-mediated signaling events and induction of jun/fos early response gene expression.</clue>
+<comment>RESISTANCE</comment>
+</event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="A13" />
+<cause idref="T64" />
+<clue>Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-<clueType>induced</clueType> differentiation and can include defects in PKC-mediated signaling events and induction of jun/fos early response gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E46">
+<type class="Negative_regulation" />
+<theme idref="E45" />
+<cause idref="E101" />
+<clue>Taken together, these findings suggest that vincristine resistance <clueType>confers insensitivity</clueType> to TPA-induced differentiation and can include defects in PKC-mediated signaling events and induction of jun/fos early response gene expression.</clue>
+</event>
+<event id="E47">
+<type class="Cell_communication" />
+<theme idref="T66" />
+<clue>Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-induced differentiation and can include defects in PKC-<linkTheme>mediated</linkTheme> <clueType>signaling events</clueType> and induction of jun/fos early response gene expression.</clue>
+</event>
+<event id="E48">
+<type class="Negative_regulation" />
+<theme idref="E47" />
+<clue>Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-induced differentiation and can include <clueType>defects</clueType> <linkTheme>in</linkTheme> PKC-mediated signaling events and induction of jun/fos early response gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E49">
+<type class="Correlation" />
+<theme idref="E101" />
+<theme idref="E48" />
+<clue>Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-induced differentiation and can <clueType>include</clueType> defects in PKC-mediated signaling events and induction of jun/fos early response gene expression.</clue>
+</event>
+<event id="E50">
+<type class="Gene_expression" />
+<theme idref1="A17" idref="A15" />
+<clue>Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-induced differentiation and can include defects in PKC-mediated signaling events and induction of jun/fos early response gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E51">
+<type class="Gene_expression" />
+<theme idref1="A17" idref="A16" />
+<clue>Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-induced differentiation and can include defects in PKC-mediated signaling events and induction of jun/fos early response gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation" />
+<theme idref="E50" />
+<clue>Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-induced differentiation and can include defects in PKC-mediated signaling events and <clueType>induction</clueType> <linkTheme>of</linkTheme> jun/fos early response gene expression.</clue>
+</event>
+<event id="E53">
+<type class="Positive_regulation" />
+<theme idref="E51" />
+<clue>Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-induced differentiation and can include defects in PKC-mediated signaling events and <clueType>induction</clueType> <linkTheme>of</linkTheme> jun/fos early response gene expression.</clue>
+</event>
+<event id="E54">
+<type class="Negative_regulation" />
+<theme idref="E52" />
+<clue>Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-induced differentiation and can include <clueType>defects</clueType> <linkTheme>in</linkTheme> PKC-mediated signaling events and induction of jun/fos early response gene expression.</clue>
+</event>
+<event id="E55">
+<type class="Negative_regulation" />
+<theme idref="E53" />
+<clue>Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-induced differentiation and can include <clueType>defects</clueType> <linkTheme>in</linkTheme> PKC-mediated signaling events and induction of jun/fos early response gene expression.</clue>
+</event>
+<event id="E56">
+<type class="Correlation" />
+<theme idref="E101" />
+<theme idref="E54" />
+<clue>Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-induced differentiation and can <clueType>include</clueType> defects in PKC-mediated signaling events and induction of jun/fos early response gene expression.</clue>
+</event>
+<event id="E57">
+<type class="Correlation" />
+<theme idref="E101" />
+<theme idref="E55" />
+<clue>Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-induced differentiation and can <clueType>include</clueType> defects in PKC-mediated signaling events and induction of jun/fos early response gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

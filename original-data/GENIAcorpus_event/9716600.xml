@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="13/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9716600" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9716600</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="retinoic_acid">Retinoic acid</term> inhibits <term sem="Other" id="T3" lex="interleukin-4-mediated_IgE_production"><term sem="Protein_molecule" id="T2" lex="CD40">CD40</term> + <term sem="Protein_molecule" id="T4" lex="interleukin-4">interleukin-4</term>-mediated <term sem="Other" id="T5" lex="IgE_production"><term sem="Protein_family_or_group" id="T6" lex="IgE">IgE</term> production</term></term> in vitro.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Retinoic acid inhibits CD40 + interleukin-4-mediated IgE <clueType>production</clueType> in vitro.</clue>
+<comment>NER T3 MOD</comment>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T2" />
+<cause idref="T4" />
+<clue>Retinoic acid inhibits CD40 + interleukin-4-<clueType>mediated</clueType> IgE production in vitro.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Retinoic acid <clueType>inhibits</clueType> CD40 + interleukin-4-mediated IgE production in vitro.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">To elucidate the role of <term sem="Organic_compound_other" id="A1">retinoic acid</term> (<term sem="Organic_compound_other" id="A2">RA</term>) in <term sem="Other" id="T9" lex="interleukin-4_(IL-4)-mediated_B-cell_activation"><term sem="Protein_molecule" id="T7" lex="anti-CD40">anti-<term sem="Protein_molecule" id="T8" lex="CD40">CD40</term></term> + <term sem="Protein_molecule" id="T10" lex="interleukin-4">interleukin-4</term> (<term sem="Protein_molecule" id="T11" lex="IL-4">IL-4</term>)-mediated <term sem="Cell_natural" id="A3">B-cell</term> activation</term>, the effect of 10(-12) to 10(-6) mol/L <term sem="Organic_compound_other" id="T12" lex="RA">RA</term> was studied in <term sem="Other" id="T14" lex="IL-4_(5_ng/mL)-mediated_proliferation"><term sem="Protein_molecule" id="T13" lex="anti-CD40">anti-CD40</term> (1 microgram/mL) + <term sem="Protein_molecule" id="T15" lex="IL-4">IL-4</term> (5 ng/mL)-mediated proliferation</term> and <term sem="Other" id="T16" lex="Ig_synthesis"><term sem="Protein_family_or_group" id="A4">Ig</term> synthesis</term> by <term sem="Cell_natural" id="T17" lex="human_peripheral_blood_mononuclear_cell">human peripheral blood mononuclear cells</term> (<term sem="Cell_natural" id="T18" lex="PBMC">PBMC</term>) and <term sem="Cell_natural" id="T19" lex="B_cell">B cells</term> in <term sem="Multicellular_organism_natural" id="T20" lex="healthy_donor">healthy donors</term>.</sentence>
+<event id="E4">
+<type class="Physiological_process" />
+<theme idref="A3" />
+<cause idref="T7" />
+<cause idref="T11" />
+<clue>To elucidate the role of retinoic acid (RA) in anti-CD40 + interleukin-4 (IL-4)-<linkCause>mediated</linkCause> B-cell <clueType>activation</clueType>, the effect of 10(-12) to 10(-6) mol/L RA was studied in anti-CD40 (1 microgram/mL) + IL-4 (5 ng/mL)-mediated proliferation and Ig synthesis by human peripheral blood mononuclear cells (PBMC) and B cells in healthy donors.</clue>
+<comment>NER T9,T14 MOD</comment>
+</event>
+<event uncertainty="doubtful" id="E5">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="A2" />
+<clue>To elucidate the <clueType>role</clueType> <linkCause>of</linkCause> retinoic acid (RA) <linkTheme>in</linkTheme> anti-CD40 + interleukin-4 (IL-4)-mediated B-cell activation, the effect of 10(-12) to 10(-6) mol/L RA was studied in anti-CD40 (1 microgram/mL) + IL-4 (5 ng/mL)-mediated proliferation and Ig synthesis by human peripheral blood mononuclear cells (PBMC) and B cells in healthy donors.</clue>
+</event>
+<event id="E6">
+<type class="Cellular_physiological_process" />
+<theme idref="T18" />
+<clue>To elucidate the role of retinoic acid (RA) in anti-CD40 + interleukin-4 (IL-4)-mediated B-cell activation, the effect of 10(-12) to 10(-6) mol/L RA was studied in anti-CD40 (1 microgram/mL) + IL-4 (5 ng/mL)-mediated <clueType>proliferation</clueType> and Ig synthesis by human peripheral blood mononuclear cells (PBMC) and B cells <clueLoc>in healthy donors</clueLoc>.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E7">
+<type class="Cellular_physiological_process" />
+<theme idref="T19" />
+<clue>To elucidate the role of retinoic acid (RA) in anti-CD40 + interleukin-4 (IL-4)-mediated B-cell activation, the effect of 10(-12) to 10(-6) mol/L RA was studied in anti-CD40 (1 microgram/mL) + IL-4 (5 ng/mL)-mediated <clueType>proliferation</clueType> and Ig synthesis by human peripheral blood mononuclear cells (PBMC) and B cells <clueLoc>in healthy donors</clueLoc>.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>To elucidate the role of retinoic acid (RA) in anti-CD40 + interleukin-4 (IL-4)-mediated B-cell activation, the effect of 10(-12) to 10(-6) mol/L RA was studied in anti-CD40 (1 microgram/mL) + IL-4 (5 ng/mL)-mediated proliferation and Ig <clueType>synthesis</clueType> <clueLoc>by human peripheral blood mononuclear cells (PBMC)</clueLoc> and B cells <clueLoc>in healthy donors</clueLoc>.</clue>
+</event>
+<event id="E108">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>To elucidate the role of retinoic acid (RA) in anti-CD40 + interleukin-4 (IL-4)-mediated B-cell activation, the effect of 10(-12) to 10(-6) mol/L RA was studied in anti-CD40 (1 microgram/mL) + IL-4 (5 ng/mL)-mediated proliferation and Ig <clueType>synthesis</clueType> <clueLoc>by human</clueLoc> peripheral blood mononuclear cells (PBMC) and <clueLoc>B cells in healthy donors</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E9">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T13" />
+<cause idref="T15" />
+<clue>To elucidate the role of retinoic acid (RA) in anti-CD40 + interleukin-4 (IL-4)-mediated B-cell activation, the effect of 10(-12) to 10(-6) mol/L RA was studied in anti-CD40 (1 microgram/mL) + IL-4 (5 ng/mL)-<clueType>mediated</clueType> proliferation and Ig synthesis by human peripheral blood mononuclear cells (PBMC) and B cells in healthy donors.</clue>
+</event>
+<event uncertainty="doubtful" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T13" />
+<cause idref="T15" />
+<clue>To elucidate the role of retinoic acid (RA) in anti-CD40 + interleukin-4 (IL-4)-mediated B-cell activation, the effect of 10(-12) to 10(-6) mol/L RA was studied in anti-CD40 (1 microgram/mL) + IL-4 (5 ng/mL)-<clueType>mediated</clueType> proliferation and Ig synthesis by human peripheral blood mononuclear cells (PBMC) and B cells in healthy donors.</clue>
+</event>
+<event uncertainty="doubtful" id="E11">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T13" />
+<cause idref="T15" />
+<clue>To elucidate the role of retinoic acid (RA) in anti-CD40 + interleukin-4 (IL-4)-mediated B-cell activation, the effect of 10(-12) to 10(-6) mol/L RA was studied in anti-CD40 (1 microgram/mL) + IL-4 (5 ng/mL)-<clueType>mediated</clueType> proliferation and Ig synthesis by human peripheral blood mononuclear cells (PBMC) and B cells in healthy donors.</clue>
+</event>
+<sentence id="S3"><term sem="Other" id="T21" lex="anti-CD40_+_IL-4-mediated_proliferation"><term sem="Protein_molecule" id="T22" lex="anti-CD40">Anti-CD40</term> + <term sem="Protein_molecule" id="T23" lex="IL-4">IL-4</term>-mediated proliferation</term> of <term sem="Cell_natural" id="T24" lex="PBMC">PBMC</term> and <term sem="Cell_natural" id="T25" lex="B_cell">B cells</term> was inhibited by <term sem="Organic_compound_other" id="T26" lex="RA">RA</term> in a <term sem="Other" id="T27" lex="dose-dependent_manner">dose-dependent manner</term>, with <term sem="Other" id="T28" lex="maximal_inhibition">maximal inhibition</term> of 62% +/- 5% in <term sem="Cell_natural" id="T29" lex="PBMC">PBMC</term> and 55% +/- 4.4% in <term sem="Cell_natural" id="T30" lex="B_cell">B cells</term> by <term sem="Organic_compound_other" id="T31" lex="RA">all-trans RA</term>, and 58% +/- 6.7% and 51% +/- 4.7%, respectively by <term sem="Organic_compound_other" id="T32" lex="13-cis_RA">13-cis RA</term>.</sentence>
+<event id="E12">
+<type class="Cellular_physiological_process" />
+<theme idref="T24" />
+<clue>Anti-CD40 + IL-4-mediated <clueType>proliferation</clueType> <linkTheme>of</linkTheme> PBMC and B cells was inhibited by RA in a dose-dependent manner, with maximal inhibition of 62% +/- 5% in PBMC and 55% +/- 4.4% in B cells by all-trans RA, and 58% +/- 6.7% and 51% +/- 4.7%, respectively by 13-cis RA.</clue>
+</event>
+<event id="E13">
+<type class="Cellular_physiological_process" />
+<theme idref="T25" />
+<clue>Anti-CD40 + IL-4-mediated <clueType>proliferation</clueType> <linkTheme>of</linkTheme> PBMC and B cells was inhibited by RA in a dose-dependent manner, with maximal inhibition of 62% +/- 5% in PBMC and 55% +/- 4.4% in B cells by all-trans RA, and 58% +/- 6.7% and 51% +/- 4.7%, respectively by 13-cis RA.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T22" />
+<cause idref="T23" />
+<clue>Anti-CD40 + IL-4-<clueType>mediated</clueType> proliferation of PBMC and B cells was inhibited by RA in a dose-dependent manner, with maximal inhibition of 62% +/- 5% in PBMC and 55% +/- 4.4% in B cells by all-trans RA, and 58% +/- 6.7% and 51% +/- 4.7%, respectively by 13-cis RA.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T22" />
+<cause idref="T23" />
+<clue>Anti-CD40 + IL-4-<clueType>mediated</clueType> proliferation of PBMC and B cells was inhibited by RA in a dose-dependent manner, with maximal inhibition of 62% +/- 5% in PBMC and 55% +/- 4.4% in B cells by all-trans RA, and 58% +/- 6.7% and 51% +/- 4.7%, respectively by 13-cis RA.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T26" />
+<clue>Anti-CD40 + IL-4-mediated proliferation of PBMC and B cells was <clueType>inhibited</clueType> <linkCause>by</linkCause> RA in a dose-dependent manner, with maximal inhibition of 62% +/- 5% in PBMC and 55% +/- 4.4% in B cells by all-trans RA, and 58% +/- 6.7% and 51% +/- 4.7%, respectively by 13-cis RA.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T26" />
+<clue>Anti-CD40 + IL-4-mediated proliferation of PBMC and B cells was <clueType>inhibited</clueType> <linkCause>by</linkCause> RA in a dose-dependent manner, with maximal inhibition of 62% +/- 5% in PBMC and 55% +/- 4.4% in B cells by all-trans RA, and 58% +/- 6.7% and 51% +/- 4.7%, respectively by 13-cis RA.</clue>
+</event>
+<event id="E101">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T31" />
+<clue>Anti-CD40 + IL-4-mediated proliferation of PBMC and B cells was inhibited by RA in a dose-dependent manner, with maximal <clueType>inhibition</clueType> of 62% +/- 5% <clueLoc>in PBMC</clueLoc> and 55% +/- 4.4% <clueLoc>in B cells</clueLoc> <linkCause>by</linkCause> all-trans RA, and 58% +/- 6.7% and 51% +/- 4.7%, respectively by 13-cis RA.</clue>
+<comment>NER T31 MOD, NO COREFTHEME</comment>
+</event>
+<event id="E102">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T32" />
+<clue>Anti-CD40 + IL-4-mediated proliferation of PBMC and B cells was inhibited by RA in a dose-dependent manner, with maximal <clueType>inhibition</clueType> of 62% +/- 5% <clueLoc>in PBMC</clueLoc> and 55% +/- 4.4% <clueLoc>in B cells</clueLoc> by all-trans RA, and 58% +/- 6.7% and 51% +/- 4.7%, respectively <linkCause>by</linkCause> 13-cis RA.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<sentence id="S4"><term sem="Protein_family_or_group" id="T33" lex="IgE">IgE</term> synthesis was even more markedly inhibited by <term sem="Organic_compound_other" id="T34" lex="RA">RA</term> starting at concentrations of &gt;10(-14) mol/L for <term sem="Cell_natural" id="T35" lex="B_cell">B cells</term> and &gt;10(-10) mol/L for <term sem="Cell_natural" id="T36" lex="PBMC">PBMC</term>.</sentence>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>IgE <clueType>synthesis</clueType> was even more markedly inhibited by RA starting at concentrations of &gt;10(-14) mol/L for B cells and &gt;10(-10) mol/L for PBMC.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="T34" />
+<clue>IgE synthesis was even more markedly <clueType>inhibited</clueType> <linkCause>by</linkCause> RA starting at concentrations of &gt;10(-14) mol/L for <clueLoc>B cells</clueLoc> and &gt;10(-10) mol/L for <clueLoc>PBMC</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term sem="Other" id="T37" lex="maximal_inhibition">Maximal inhibition</term> of <term sem="Other" id="T38" lex="IgE_production"><term sem="Protein_family_or_group" id="T39" lex="IgE">IgE</term> production</term> for <term sem="Cell_natural" id="T40" lex="B_cell">B cells</term> was at 10(-8) mol/L for <term sem="Organic_compound_other" id="T41" lex="RA">all-trans RA</term> (94% +/- 1.8%) and 96% +/- 3.2% for <term sem="Organic_compound_other" id="T42" lex="RA">13-cis RA</term>.</sentence>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="T39" />
+<clue>Maximal inhibition of IgE <clueType>production</clueType> for B cells was at 10(-8) mol/L for all-trans RA (94% +/- 1.8%) and 96% +/- 3.2% for 13-cis RA.</clue>
+<comment>NER T41,T42 MOD</comment>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="T41" />
+<clue>Maximal <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IgE production for <clueLoc>B cells</clueLoc> was at 10(-8) mol/L <linkCause>for</linkCause> all-trans RA (94% +/- 1.8%) and 96% +/- 3.2% for 13-cis RA.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="T42" />
+<clue>Maximal <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IgE production for <clueLoc>B cells</clueLoc> was at 10(-8) mol/L for all-trans RA (94% +/- 1.8%) and 96% +/- 3.2% <linkCause>for</linkCause> 13-cis RA.</clue>
+</event>
+<sentence id="S6">Low concentrations of <term sem="Organic_compound_other" id="T43" lex="RA">RA</term> inhibiting <term sem="Other" id="T44" lex="IgE_synthesis"><term sem="Protein_family_or_group" id="T45" lex="IgE">IgE</term> synthesis</term> (10(-10) mol/L) affected neither <term sem="Other" id="T46" lex="B-cell_proliferation"><term sem="Cell_natural" id="A5">B-cell</term> proliferation</term> nor the production of <term sem="Protein_molecule" id="T47" lex="IgA">IgA</term>, <term sem="Protein_molecule" id="T48" lex="IgG">IgG</term>, and <term sem="Protein_molecule" id="T49" lex="IgM">IgM</term>.</sentence>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="T45" />
+<clue>Low concentrations of RA inhibiting IgE <clueType>synthesis</clueType> (10(-10) mol/L) affected neither B-cell proliferation nor the production of IgA, IgG, and IgM.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="T43" />
+<clue>Low concentrations of RA <clueType>inhibiting</clueType> IgE synthesis (10(-10) mol/L) affected neither B-cell proliferation nor the production of IgA, IgG, and IgM.</clue>
+</event>
+<event id="E25">
+<type class="Cellular_physiological_process" />
+<theme idref="A5" />
+<clue>Low concentrations of RA inhibiting IgE synthesis (10(-10) mol/L) affected neither B-cell <clueType>proliferation</clueType> nor the production of IgA, IgG, and IgM.</clue>
+</event>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T47" />
+<clue>Low concentrations of RA inhibiting IgE synthesis (10(-10) mol/L) affected neither B-cell proliferation nor the <clueType>production</clueType> <linkTheme>of</linkTheme> IgA, IgG, and IgM.</clue>
+</event>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T48" />
+<clue>Low concentrations of RA inhibiting IgE synthesis (10(-10) mol/L) affected neither B-cell proliferation nor the <clueType>production</clueType> <linkTheme>of</linkTheme> IgA, IgG, and IgM.</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="T49" />
+<clue>Low concentrations of RA inhibiting IgE synthesis (10(-10) mol/L) affected neither B-cell proliferation nor the <clueType>production</clueType> <linkTheme>of</linkTheme> IgA, IgG, and IgM.</clue>
+</event>
+<event assertion="non-exist" id="E29">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="T43" />
+<clue>Low concentrations of RA inhibiting IgE synthesis (10(-10) mol/L) <clueType>affected</clueType> neither B-cell proliferation nor the production of IgA, IgG, and IgM.</clue>
+</event>
+<event assertion="non-exist" id="E30">
+<type class="Regulation" />
+<theme idref="E26" />
+<cause idref="T43" />
+<clue>Low concentrations of RA inhibiting IgE synthesis (10(-10) mol/L) <clueType>affected</clueType> neither B-cell proliferation nor the production of IgA, IgG, and IgM.</clue>
+</event>
+<event assertion="non-exist" id="E31">
+<type class="Regulation" />
+<theme idref="E27" />
+<cause idref="T43" />
+<clue>Low concentrations of RA inhibiting IgE synthesis (10(-10) mol/L) <clueType>affected</clueType> neither B-cell proliferation nor the production of IgA, IgG, and IgM.</clue>
+</event>
+<event assertion="non-exist" id="E32">
+<type class="Regulation" />
+<theme idref="E28" />
+<cause idref="T43" />
+<clue>Low concentrations of RA inhibiting IgE synthesis (10(-10) mol/L) <clueType>affected</clueType> neither B-cell proliferation nor the production of IgA, IgG, and IgM.</clue>
+</event>
+<sentence id="S7">Elucidation of the mechanism involved in this inhibition of <term sem="Other" id="T50" lex="IgE_production"><term sem="Protein_family_or_group" id="T51" lex="IgE">IgE</term> production</term> shows that <term sem="Other" id="T52" lex="epsilon_germline_transcription"><term sem="DNA_domain_or_region" id="T53" lex="germline_promotor">epsilon germline</term> transcription</term> is decreased by <term sem="Organic_compound_other" id="T54" lex="RA">RA</term>, whereas production of <term sem="Protein_molecule" id="T55" lex="interferon-gamma">interferon-gamma</term> (<term sem="Protein_molecule" id="T56" lex="IFN-gamma">IFN-gamma</term>) was not enhanced in the presence of <term sem="Organic_compound_other" id="T57" lex="RA">RA</term>.</sentence>
+<event id="E33">
+<type class="Gene_expression" />
+<theme idref="T51" />
+<clue>Elucidation of the mechanism involved in this inhibition of IgE <clueType>production</clueType> shows that epsilon germline transcription is decreased by RA, whereas production of interferon-gamma (IFN-gamma) was not enhanced in the presence of RA.</clue>
+<comment>NER T53 MOD</comment>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T43" />
+<clue>Elucidation of the mechanism involved in <corefCause>this</corefCause> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IgE production shows that epsilon germline transcription is decreased by RA, whereas production of interferon-gamma (IFN-gamma) was not enhanced in the presence of RA.</clue>
+</event>
+<event id="E35">
+<type class="Transcription" />
+<theme idref="T53" />
+<clue>Elucidation of the mechanism involved in this inhibition of IgE production shows that epsilon germline <clueType>transcription</clueType> is decreased by RA, whereas production of interferon-gamma (IFN-gamma) was not enhanced in the presence of RA.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="E35" />
+<cause idref="T54" />
+<clue>Elucidation of the mechanism involved in this inhibition of IgE production shows that epsilon germline transcription is <clueType>decreased</clueType> <linkCause>by</linkCause> RA, whereas production of interferon-gamma (IFN-gamma) was not enhanced in the presence of RA.</clue>
+</event>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="T56" />
+<clue>Elucidation of the mechanism involved in this inhibition of IgE production shows that epsilon germline transcription is decreased by RA, whereas <clueType>production</clueType> <linkTheme>of</linkTheme> interferon-gamma (IFN-gamma) was not enhanced in the presence of RA.</clue>
+</event>
+<event assertion="non-exist" id="E38">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T57" />
+<clue>Elucidation of the mechanism involved in this inhibition of IgE production shows that epsilon germline transcription is decreased by RA, whereas production of interferon-gamma (IFN-gamma) was not <clueType>enhanced</clueType> <linkCause>in the presence of</linkCause> RA.</clue>
+</event>
+<sentence id="S8">To differentiate whether the <term sem="Organic_compound_other" id="T58" lex="RA">RA</term> effect was mediated by <cons sem="(AND Protein_molecule Protein_molecule Protein_molecule)" id="T59" lex="(AND RA_receptor_alpha RA_receptor_beta RA_receptor_gamma)"><frag id="F1"><term sem="Protein_molecule" id="A6">RA receptors</term></frag> <frag id="F2"><term sem="Protein_molecule" id="A7">alpha</term></frag>, <frag id="F3"><term sem="Protein_molecule" id="A8">beta</term></frag>, and <frag id="F4"><term sem="Protein_molecule" id="A9">gamma</term></frag></cons>, the expression of the <term sem="Protein_family_or_group" id="T60" lex="retinoic_acid_receptor">retinoic acid receptors</term> (<term sem="Protein_family_or_group" id="T61" lex="RAR">RAR</term>) was examined by <term sem="Other" id="T62" lex="reverse_transcriptase-polymerase_chain_reaction"><term sem="Protein_molecule" id="T63" lex="reverse_transcriptase">reverse transcriptase</term>-polymerase chain reaction</term> (<term sem="Other" id="T64" lex="RT-PCR">RT-PCR</term>).</sentence>
+<event id="E39">
+<type class="Regulation" />
+<cause idref="T58" />
+<clue>To differentiate whether the RA <clueType>effect</clueType> was mediated by RA receptors alpha, beta, and gamma, the expression of the retinoic acid receptors (RAR) was examined by reverse transcriptase-polymerase chain reaction (RT-PCR).</clue>
+</event>
+<event uncertainty="doubtful" id="E40">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref1="A7" idref="A6" />
+<clue>To differentiate whether the RA effect was <clueType>mediated</clueType> <linkCause>by</linkCause> RA receptors alpha, beta, and gamma, the expression of the retinoic acid receptors (RAR) was examined by reverse transcriptase-polymerase chain reaction (RT-PCR).</clue>
+</event>
+<event uncertainty="doubtful" id="E41">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref1="A8" idref="A6" />
+<clue>To differentiate whether the RA effect was <clueType>mediated</clueType> <linkCause>by</linkCause> RA receptors alpha, beta, and gamma, the expression of the retinoic acid receptors (RAR) was examined by reverse transcriptase-polymerase chain reaction (RT-PCR).</clue>
+</event>
+<event uncertainty="doubtful" id="E42">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref1="A9" idref="A6" />
+<clue>To differentiate whether the RA effect was <clueType>mediated</clueType> <linkCause>by</linkCause> RA receptors alpha, beta, and gamma, the expression of the retinoic acid receptors (RAR) was examined by reverse transcriptase-polymerase chain reaction (RT-PCR).</clue>
+</event>
+<event uncertainty="doubtful" id="E43">
+<type class="Gene_expression" />
+<theme idref="T61" />
+<clue>To differentiate whether the RA effect was mediated by RA receptors alpha, beta, and gamma, the <clueType>expression</clueType> <linkTheme>of</linkTheme> the retinoic acid receptors (RAR) was examined by <clueExperiment>reverse transcriptase-polymerase chain reaction (RT-PCR)</clueExperiment>.</clue>
+</event>
+<sentence id="S9">The data show that <term sem="Cell_natural" id="T65" lex="unstimulated_human_peripheral_B_cell">unstimulated <term sem="Cell_natural" id="A25">human peripheral B cells</term></term> express <term sem="RNA_molecule" id="A24">mRNA of</term> the <cons sem="(AND Protein_molecule Protein_molecule Protein_molecule)" id="T66" lex="(AND RA_receptor_alpha RA_receptor_beta RA_receptor_gamma)"><frag id="F5"><term sem="RNA_molecule" id="A20">RA receptor</term></frag> <frag id="F6"><term sem="RNA_molecule" id="A21">alpha</term></frag>, <frag id="F7"><term sem="RNA_molecule" id="A22">beta</term></frag>, and <frag id="F8"><term sem="RNA_molecule" id="A23">gamma</term></frag></cons>.</sentence>
+<event id="E44">
+<type class="Transcription" />
+<theme idref1="A20" idref2="A21" idref="A24" />
+<clue>The data show that <clueLoc>unstimulated human peripheral B cells</clueLoc> <clueType>express</clueType> mRNA of the RA receptor alpha, beta, and gamma.</clue>
+</event>
+<event id="E45">
+<type class="Transcription" />
+<theme idref1="A20" idref2="A22" idref="A24" />
+<clue>The data show that <clueLoc>unstimulated human peripheral B cells</clueLoc> <clueType>express</clueType> mRNA of the RA receptor alpha, beta, and gamma.</clue>
+</event>
+<event id="E46">
+<type class="Transcription" />
+<theme idref1="A20" idref2="A23" idref="A24" />
+<clue>The data show that <clueLoc>unstimulated human peripheral B cells</clueLoc> <clueType>express</clueType> mRNA of the RA receptor alpha, beta, and gamma.</clue>
+</event>
+<event assertion="non-exist" id="E47">
+<type class="Physiological_process" />
+<theme idref="A25" />
+<clue>The data show that <clueType>unstimulated</clueType> human peripheral B cells express mRNA of the RA receptor alpha, beta, and gamma.</clue>
+</event>
+<sentence id="S10">Using <term sem="Organic_compound_other" id="T67" lex="retinoid">retinoids</term> with different <term sem="Protein_family_or_group" id="A26">receptor</term> binding specificity (<term sem="Organic_compound_other" id="T68" lex="CD336">CD336</term>, <term sem="Organic_compound_other" id="T69" lex="CD437">CD437</term>, <term sem="Organic_compound_other" id="T70" lex="CD2019">CD2019</term>, <term sem="Organic_compound_other" id="T71" lex="CD367">CD367</term>), dose-dependent inhibition of <term sem="Protein_family_or_group" id="T72" lex="IgE">IgE</term> synthesis was shown by all four derivates, but was most marked by an <term sem="Organic_compound_other" id="T73" lex="RA">RA</term> binding the <term sem="Protein_molecule" id="T74" lex="alpha_receptor">alpha receptor</term> with high specificity.</sentence>
+<event id="E48">
+<type class="Binding" />
+<theme idref="T67" />
+<theme idref="A26" />
+<clue>Using retinoids <linkTheme>with</linkTheme> different receptor <clueType>binding specificity</clueType> (CD336, CD437, CD2019, CD367), dose-dependent inhibition of IgE synthesis was shown by all four derivates, but was most marked by an RA binding the alpha receptor with high specificity.</clue>
+</event>
+<event id="E49">
+<type class="Binding" />
+<theme idref="T68" />
+<theme idref="A26" />
+<clue>Using <corefTheme>retinoids</corefTheme> <linkTheme>with</linkTheme> different receptor <clueType>binding specificity</clueType> (CD336, CD437, CD2019, CD367), dose-dependent inhibition of IgE synthesis was shown by all four derivates, but was most marked by an RA binding the alpha receptor with high specificity.</clue>
+</event>
+<event id="E50">
+<type class="Binding" />
+<theme idref="T69" />
+<theme idref="A26" />
+<clue>Using <corefTheme>retinoids</corefTheme> <linkTheme>with</linkTheme> different receptor <clueType>binding specificity</clueType> (CD336, CD437, CD2019, CD367), dose-dependent inhibition of IgE synthesis was shown by all four derivates, but was most marked by an RA binding the alpha receptor with high specificity.</clue>
+</event>
+<event id="E51">
+<type class="Binding" />
+<theme idref="T70" />
+<theme idref="A26" />
+<clue>Using <corefTheme>retinoids</corefTheme> <linkTheme>with</linkTheme> different receptor <clueType>binding specificity</clueType> (CD336, CD437, CD2019, CD367), dose-dependent inhibition of IgE synthesis was shown by all four derivates, but was most marked by an RA binding the alpha receptor with high specificity.</clue>
+</event>
+<event id="E151">
+<type class="Binding" />
+<theme idref="T71" />
+<theme idref="A26" />
+<clue>Using <corefTheme>retinoids</corefTheme> <linkTheme>with</linkTheme> different receptor <clueType>binding specificity</clueType> (CD336, CD437, CD2019, CD367), dose-dependent inhibition of IgE synthesis was shown by all four derivates, but was most marked by an RA binding the alpha receptor with high specificity.</clue>
+</event>
+<event id="E52">
+<type class="Gene_expression" />
+<theme idref="T72" />
+<clue>Using retinoids with different receptor binding specificity (CD336, CD437, CD2019, CD367), dose-dependent inhibition of IgE <clueType>synthesis</clueType> was shown by all four derivates, but was most marked by an RA binding the alpha receptor with high specificity.</clue>
+</event>
+<event id="E53">
+<type class="Negative_regulation" />
+<theme idref="E52" />
+<cause idref="T68" />
+<clue>Using retinoids with different receptor binding specificity (CD336, CD437, CD2019, CD367), dose-dependent <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IgE synthesis was shown <linkCause>by</linkCause> <corefCause>all four derivates</corefCause>, but was most marked by an RA binding the alpha receptor with high specificity.</clue>
+</event>
+<event id="E54">
+<type class="Negative_regulation" />
+<theme idref="E52" />
+<cause idref="T69" />
+<clue>Using retinoids with different receptor binding specificity (CD336, CD437, CD2019, CD367), dose-dependent <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IgE synthesis was shown <linkCause>by</linkCause> <corefCause>all four derivates</corefCause>, but was most marked by an RA binding the alpha receptor with high specificity.</clue>
+</event>
+<event id="E55">
+<type class="Negative_regulation" />
+<theme idref="E52" />
+<cause idref="T70" />
+<clue>Using retinoids with different receptor binding specificity (CD336, CD437, CD2019, CD367), dose-dependent <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IgE synthesis was shown <linkCause>by</linkCause> <corefCause>all four derivates</corefCause>, but was most marked by an RA binding the alpha receptor with high specificity.</clue>
+</event>
+<event id="E56">
+<type class="Negative_regulation" />
+<theme idref="E52" />
+<cause idref="T71" />
+<clue>Using retinoids with different receptor binding specificity (CD336, CD437, CD2019, CD367), dose-dependent <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IgE synthesis was shown <linkCause>by</linkCause> <corefCause>all four derivates</corefCause>, but was most marked by an RA binding the alpha receptor with high specificity.</clue>
+</event>
+<event id="E57">
+<type class="Binding" />
+<theme idref="T73" />
+<theme idref="T74" />
+<clue>Using retinoids with different receptor binding specificity (CD336, CD437, CD2019, CD367), dose-dependent inhibition of IgE synthesis was shown by all four derivates, but was most marked by an RA <clueType>binding</clueType> the alpha receptor with high specificity.</clue>
+</event>
+<sentence id="S11">Taken together, this study shows that <term sem="Organic_compound_other" id="T75" lex="RA">RA</term> inhibits <term sem="Other" id="T76" lex="IgE_production"><term sem="Protein_family_or_group" id="T77" lex="IgE">IgE</term> production</term> of <term sem="Cell_cultured" id="T78" lex="anti-CD40_+_IL-4-stimulated_B_cell"><term sem="Protein_molecule" id="T79" lex="anti-CD40">anti-CD40</term> + <term sem="Protein_molecule" id="T80" lex="IL-4">IL-4</term>-stimulated <term sem="Cell_natural" id="A27">B cells</term></term> in vitro.</sentence>
+<event id="E58">
+<type class="Gene_expression" />
+<theme idref="T77" />
+<clue>Taken together, this study shows that RA inhibits IgE <clueType>production</clueType> <clueLoc>of anti-CD40 + IL-4-stimulated B cells</clueLoc> in vitro.</clue>
+</event>
+<event id="E59">
+<type class="Negative_regulation" />
+<theme idref="E58" />
+<cause idref="T75" />
+<clue>Taken together, this study shows that RA <clueType>inhibits</clueType> IgE production of anti-CD40 + IL-4-stimulated B cells in vitro.</clue>
+</event>
+<event id="E60">
+<type class="Physiological_process" />
+<theme idref="A27" />
+<cause idref="T79" />
+<cause idref="T80" />
+<clue>Taken together, this study shows that RA inhibits IgE production of anti-CD40 + IL-4-<clueType>stimulated</clueType> B cells in vitro.</clue>
+</event>
+<sentence id="S12">Copyright 1998 by The American Society of Hematology.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

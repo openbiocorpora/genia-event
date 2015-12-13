@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="27/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7958618" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7958618</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Functions of <term sem="Peptide" id="T1" lex="glutathione">glutathione</term> and <term sem="Peptide" id="T2" lex="glutathione_disulfide">glutathione disulfide</term> in <term sem="Other" id="T3" lex="immunology">immunology</term> and <term sem="Other" id="T4" lex="immunopathology">immunopathology</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Even a moderate increase in the <term sem="Other" id="T5" lex="cellular_cysteine_supply">cellular <term sem="Amino_acid_monomer" id="T6" lex="cysteine">cysteine</term> supply</term> elevates the intracellular <term sem="Peptide" id="T7" lex="glutathione">glutathione</term> (<term sem="Peptide" id="T8" lex="GSH">GSH</term>) and <term sem="Peptide" id="T9" lex="glutathione_disulfide">glutathione disulfide</term> (<term sem="Peptide" id="T10" lex="GSSG">GSSG</term>) levels and potentiates <term sem="Other" id="A1">immunological functions</term> of <term sem="Cell_natural" id="T12" lex="lymphocyte">lymphocytes</term> in vitro.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<clue>Even a moderate <clueType>increase</clueType> <linkTheme>in</linkTheme> the <clueLoc>cellular</clueLoc> cysteine supply elevates the intracellular glutathione (GSH) and glutathione disulfide (GSSG) levels and potentiates immunological functions of lymphocytes in vitro.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="E1" />
+<clue>Even a moderate increase in the cellular cysteine supply <clueType>elevates</clueType> the <clueLoc>intracellular</clueLoc> glutathione (GSH) and glutathione disulfide (GSSG) levels and potentiates immunological functions of lymphocytes in vitro.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="E1" />
+<clue>Even a moderate increase in the cellular cysteine supply <clueType>elevates</clueType> the <clueLoc>intracellular</clueLoc> glutathione (GSH) and glutathione disulfide (GSSG) levels and potentiates immunological functions of lymphocytes in vitro.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="E2" />
+<clue>Even a moderate increase in the cellular cysteine supply elevates the intracellular glutathione (GSH) and glutathione disulfide (GSSG) levels and <clueType>potentiates</clueType> immunological functions of <clueLoc>lymphocytes</clueLoc> in vitro.</clue>
+<comment>NER: T11 del &quot;potentiates immunological functions&quot;</comment>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="E3" />
+<clue>Even a moderate increase in the cellular cysteine supply elevates the intracellular glutathione (GSH) and glutathione disulfide (GSSG) levels and <clueType>potentiates</clueType> immunological functions of <clueLoc>lymphocytes</clueLoc> in vitro.</clue>
+</event>
+<sentence id="S3">At low <term sem="Other" id="T13" lex="GSSG_level"><term sem="Peptide" id="T14" lex="GSSG">GSSG</term> levels</term>, <term sem="Cell_natural" id="T15" lex="T_cell">T cells</term> cannot optimally activate the immunologically important <term sem="Protein_family_or_group" id="T16" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T17" lex="NF_kappa_B">NF kappa B</term>, whereas high <term sem="Other" id="T18" lex="GSSG_level"><term sem="Peptide" id="T19" lex="GSSG">GSSG</term> levels</term> inhibit the <term sem="Other" id="T20" lex="DNA_binding_activity"><term sem="DNA_molecule" id="A2">DNA</term> binding activity</term> of <term sem="Protein_molecule" id="T21" lex="NF_kappa_B">NF kappa B</term>.</sentence>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="T14" />
+<clue>At <clueType>low</clueType> GSSG levels, T cells cannot optimally activate the immunologically important transcription factor NF kappa B, whereas high GSSG levels inhibit the DNA binding activity of NF kappa B.</clue>
+</event>
+<event id="E117">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<clue>At low GSSG levels, T cells cannot optimally <clueType>activate</clueType> the immunologically important transcription factor NF kappa B, whereas high GSSG levels inhibit the DNA binding activity of NF kappa B.</clue>
+</event>
+<event assertion="non-exist" id="E7">
+<type class="Negative_regulation" />
+<theme idref="E117" />
+<cause idref="E6" />
+<clue>At low GSSG levels, <clueLoc>T cells</clueLoc> <clueType>cannot</clueType> optimally activate the immunologically important transcription factor NF kappa B, whereas high GSSG levels inhibit the DNA binding activity of NF kappa B.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T19" />
+<clue>At low GSSG levels, T cells cannot optimally activate the immunologically important transcription factor NF kappa B, whereas <clueType>high</clueType> GSSG levels inhibit the DNA binding activity of NF kappa B.</clue>
+</event>
+<event id="E9">
+<type class="Binding" />
+<theme idref="A2" />
+<theme idref="T21" />
+<clue>At low GSSG levels, T cells cannot optimally activate the immunologically important transcription factor NF kappa B, whereas high GSSG levels inhibit the DNA <clueType>binding activity</clueType> <linkTheme>of</linkTheme> NF kappa B.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="E8" />
+<clue>At low GSSG levels, T cells cannot optimally activate the immunologically important transcription factor NF kappa B, whereas high GSSG levels <clueType>inhibit</clueType> the DNA binding activity of NF kappa B.</clue>
+</event>
+<sentence id="S4">The effects of <term sem="Peptide" id="T22" lex="GSSG">GSSG</term> are antagonized by reduced <term sem="Protein_molecule" id="T23" lex="thioredoxin">thioredoxin</term> (<term sem="Protein_molecule" id="T24" lex="TRX">TRX</term>).</sentence>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="T24" />
+<clue><corefTheme>The effects of GSSG</corefTheme> are <clueType>antagonized</clueType> <linkCause>by</linkCause> reduced thioredoxin (TRX).</clue>
+</event>
+<sentence id="S5">As the <term sem="Other" id="T25" lex="protein_tyrosine_kinase_activity"><term sem="Protein_family_or_group" id="T26" lex="protein_tyrosine_kinase">protein tyrosine kinase</term> activities</term> <term sem="Protein_molecule" id="T27" lex="p56lck">p56lck</term> and <term sem="Protein_molecule" id="T28" lex="p59fyn">p59fyn</term> are activated in intact cells by <term sem="Inorganic_compound" id="T29" lex="hydrogen_peroxide">hydrogen peroxide</term>, they are likely targets for <term sem="Other" id="T30" lex="GSSG_action"><term sem="Peptide" id="T31" lex="GSSG">GSSG</term> action</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="T29" />
+<clue>As the protein tyrosine kinase activities p56lck and p59fyn are <clueType>activated</clueType> <clueLoc>in intact cells</clueLoc> <linkCause>by</linkCause> hydrogen peroxide, they are likely targets for GSSG action.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref="T29" />
+<clue>As the protein tyrosine kinase activities p56lck and p59fyn are <clueType>activated</clueType> <clueLoc>in intact cells</clueLoc> <linkCause>by</linkCause> hydrogen peroxide, they are likely targets for GSSG action.</clue>
+</event>
+<event uncertainty="probable" id="E15">
+<type class="Regulation" />
+<theme idref="T27" />
+<cause idref="T31" />
+<clue>As the protein tyrosine kinase activities p56lck and p59fyn are activated in intact cells by hydrogen peroxide, <corefTheme>they</corefTheme> are likely <clueType>targets</clueType> <linkCause>for</linkCause> GSSG action.</clue>
+</event>
+<event uncertainty="probable" id="E16">
+<type class="Regulation" />
+<theme idref="T28" />
+<cause idref="T31" />
+<clue>As the protein tyrosine kinase activities p56lck and p59fyn are activated in intact cells by hydrogen peroxide, <corefTheme>they</corefTheme> are likely <clueType>targets</clueType> <linkCause>for</linkCause> GSSG action.</clue>
+</event>
+<sentence id="S6">These <term sem="Protein_family_or_group" id="T32" lex="redox-regulated_enzyme">redox-regulated enzymes</term> trigger signal cascades for <term sem="Other" id="T33" lex="NF_kappa_B_activation"><term sem="Protein_molecule" id="T34" lex="NF_kappa_B">NF kappa B</term> activation</term> and transduce signals from the <term sem="Protein_family_or_group" id="T35" lex="T_cell_antigen_receptor">T cell antigen receptor</term>, from <term sem="Protein_molecule" id="T36" lex="CD4">CD4</term> and <term sem="Protein_molecule" id="T37" lex="CD8_molecule">CD8 molecules</term>, and from the <term sem="Protein_molecule" id="T38" lex="IL-2_receptor_beta-chain"><term sem="Protein_molecule" id="T39" lex="IL-2">IL-2</term> receptor beta-chain</term>.</sentence>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<clue>These redox-regulated enzymes trigger signal cascades for NF kappa B <clueType>activation</clueType> and transduce signals from the T cell antigen receptor, from CD4 and CD8 molecules, and from the IL-2 receptor beta-chain.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<theme idref="T27" />
+<clue><corefCause>These redox-regulated enzymes</corefCause> <clueType>trigger signal cascades</clueType> <linkTheme>for</linkTheme> NF kappa B activation and transduce signals from the T cell antigen receptor, from CD4 and CD8 molecules, and from the IL-2 receptor beta-chain.</clue>
+</event>
+<event id="E19">
+<type class="Cell_communication" />
+<theme idref="T27" />
+<theme idref="T35" />
+<clue><corefTheme idref1="T27">These redox-regulated enzymes</corefTheme> trigger signal cascades for NF kappa B activation and <clueType>transduce signals</clueType> <linkTheme>from</linkTheme> the T cell antigen receptor, from CD4 and CD8 molecules, and from the IL-2 receptor beta-chain.</clue>
+</event>
+<event id="E20">
+<type class="Cell_communication" />
+<theme idref="T27" />
+<theme idref="T36" />
+<clue><corefTheme idref1="T27">These redox-regulated enzymes</corefTheme> trigger signal cascades for NF kappa B activation and <clueType>transduce signals</clueType> from the T cell antigen receptor, from CD4 and CD8 molecules, and from the IL-2 receptor beta-chain.</clue>
+</event>
+<event id="E21">
+<type class="Cell_communication" />
+<theme idref="T27" />
+<theme idref="T37" />
+<clue><corefTheme idref1="T27">These redox-regulated enzymes</corefTheme> trigger signal cascades for NF kappa B activation and <clueType>transduce signals</clueType> from the T cell antigen receptor, <linkTheme>from</linkTheme> CD4 and CD8 molecules, and from the IL-2 receptor beta-chain.</clue>
+</event>
+<event id="E22">
+<type class="Cell_communication" />
+<theme idref="T27" />
+<theme idref="T38" />
+<clue><corefTheme idref1="T27">These redox-regulated enzymes</corefTheme> trigger signal cascades for NF kappa B activation and <clueType>transduce signals</clueType> from the T cell antigen receptor, from CD4 and CD8 molecules, and <linkTheme>from</linkTheme> the IL-2 receptor beta-chain.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<theme idref="T28" />
+<clue><corefCause>These redox-regulated enzymes</corefCause> <clueType>trigger signal cascades</clueType> <linkTheme>for</linkTheme> NF kappa B activation and transduce signals from the T cell antigen receptor, from CD4 and CD8 molecules, and from the IL-2 receptor beta-chain.</clue>
+</event>
+<event id="E24">
+<type class="Cell_communication" />
+<theme idref="T28" />
+<theme idref="T35" />
+<clue><corefTheme idref1="T28">These redox-regulated enzymes</corefTheme> trigger signal cascades for NF kappa B activation and <clueType>transduce signals</clueType> <linkTheme>from</linkTheme> the T cell antigen receptor, from CD4 and CD8 molecules, and from the IL-2 receptor beta-chain.</clue>
+</event>
+<event id="E25">
+<type class="Cell_communication" />
+<theme idref="T28" />
+<theme idref="T36" />
+<clue><corefTheme idref1="T28">These redox-regulated enzymes</corefTheme> trigger signal cascades for NF kappa B activation and <clueType>transduce signals</clueType> from the T cell antigen receptor, <linkTheme>from</linkTheme> CD4 and CD8 molecules, and from the IL-2 receptor beta-chain.</clue>
+</event>
+<event id="E26">
+<type class="Cell_communication" />
+<theme idref="T28" />
+<theme idref="T37" />
+<clue><corefTheme idref1="T28">These redox-regulated enzymes</corefTheme> trigger signal cascades for NF kappa B activation and <clueType>transduce signals</clueType> from the T cell antigen receptor, <linkTheme>from</linkTheme> CD4 and CD8 molecules, and from the IL-2 receptor beta-chain.</clue>
+</event>
+<event id="E51">
+<type class="Cell_communication" />
+<theme idref="T28" />
+<theme idref="T38" />
+<clue><corefTheme idref1="T28">These redox-regulated enzymes</corefTheme> trigger signal cascades for NF kappa B activation and <clueType>transduce signals</clueType> from the T cell antigen receptor, from CD4 and CD8 molecules, and <linkTheme>from</linkTheme> the IL-2 receptor beta-chain.</clue>
+</event>
+<sentence id="S7">The effector phase of <term sem="Other" id="T40" lex="cytotoxic_T_cell_response"><term sem="Cell_natural" id="T41" lex="cytotoxic_T_cell">cytotoxic T cell</term> responses</term> and <term sem="Other" id="T42" lex="IL-2-dependent_function"><term sem="Protein_molecule" id="T43" lex="IL-2">IL-2</term>-dependent functions</term> are inhibited even by a partial depletion of the <term sem="Peptide" id="T44" lex="intracellular_GSH_pool">intracellular <term sem="Peptide" id="T45" lex="GSH">GSH</term> pool</term>.</sentence>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="T45" />
+<clue>The effector phase of cytotoxic T cell responses and IL-2-dependent functions are inhibited even by a partial <clueType>depletion</clueType> <linkTheme>of</linkTheme> the <clueLoc>intracellular</clueLoc> GSH pool.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="T40" />
+<cause idref="E27" />
+<clue>The effector phase of cytotoxic T cell responses and IL-2-dependent functions are <clueType>inhibited</clueType> even <linkCause>by</linkCause> a partial depletion of the intracellular GSH pool.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="T42" />
+<cause idref="E27" />
+<clue>The effector phase of cytotoxic T cell responses and IL-2-dependent functions are <clueType>inhibited</clueType> even <linkCause>by</linkCause> a partial depletion of the intracellular GSH pool.</clue>
+</event>
+<sentence id="S8">As <term sem="Other" id="A3">signal transduction</term> is facilitated by <term sem="Other" id="T46" lex="prooxidant_condition">prooxidant conditions</term>, we propose that the well-known <term sem="Other" id="A4">immunological consequences</term> of <term sem="Other" id="T47" lex="GSH_depletion"><term sem="Peptide" id="T48" lex="GSH">GSH</term> depletion</term> ultimately may be results of the accompanying <term sem="Other" id="T49" lex="GSSG_deficiency"><term sem="Peptide" id="T50" lex="GSSG">GSSG</term> deficiency</term>.</sentence>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T46" />
+<clue>As signal transduction is <clueType>facilitated</clueType> <linkCause>by</linkCause> prooxidant conditions, we propose that the well-known immunological consequences of GSH depletion ultimately may be results of the accompanying GSSG deficiency.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="T48" />
+<clue>As signal transduction is facilitated by prooxidant conditions, we propose that the well-known immunological consequences of GSH <clueType>depletion</clueType> ultimately may be results of the accompanying GSSG deficiency.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="T50" />
+<clue>As signal transduction is facilitated by prooxidant conditions, we propose that the well-known immunological consequences of GSH depletion ultimately may be results of the accompanying GSSG <clueType>deficiency</clueType>.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="E31" />
+<clue>As signal transduction is facilitated by prooxidant conditions, we propose that the well-known immunological consequences <linkCause>of</linkCause> GSH depletion ultimately may be results of the accompanying GSSG deficiency.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event uncertainty="probable" id="E34">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="E32" />
+<clue>As signal transduction is facilitated by prooxidant conditions, we propose that the well-known immunological consequences of GSH depletion ultimately may be <clueType>results</clueType> <linkCause>of</linkCause> the accompanying GSSG deficiency.</clue>
+</event>
+<sentence id="S9">As <term sem="Multicellular_organism_natural" id="T51" lex="HIV-infected_patient"><term sem="Virus" id="T52" lex="HIV">HIV</term>-infected patients</term> and <term sem="Multicellular_organism_natural" id="T53" lex="SIV-infected_rhesus_macaques"><term sem="Virus" id="A23">SIV</term>-infected <term sem="Multicellular_organism_natural" id="A24">rhesus macaques</term></term> have, on the average, significantly decreased plasma <term sem="Amino_acid_monomer" id="A5">cyst(e)ine</term> and intracellular <term sem="Peptide" id="A6">GSH</term> levels, we also hypothesize that <term sem="Other" id="T55" lex="AIDS">AIDS</term> may be the consequence of a <term sem="Other" id="T56" lex="GSSG_deficiency"><term sem="Peptide" id="T57" lex="GSSG">GSSG</term> deficiency</term> as well.</sentence>
+<event id="E41">
+<type class="Viral_life_cycle" />
+<theme idref="T52" />
+<clue>As HIV-<clueType>infected</clueType> patients and SIV-infected rhesus macaques have, on the average, significantly decreased plasma cyst(e)ine and intracellular GSH levels, we also hypothesize that AIDS may be the consequence of a GSSG deficiency as well.</clue>
+</event>
+<event id="E42">
+<type class="Viral_life_cycle" />
+<theme idref="A23" />
+<theme idref="A24" />
+<clue>As HIV-infected patients and SIV-<clueType>infected</clueType> rhesus macaques have, on the average, significantly decreased plasma cyst(e)ine and intracellular GSH levels, we also hypothesize that AIDS may be the consequence of a GSSG deficiency as well.</clue>
+</event>
+<event id="E300">
+<type class="Negative_regulation" />
+<theme idref="A5" />
+<clue>As <clueLoc>HIV-infected patients</clueLoc> and SIV-infected rhesus macaques have, on the average, significantly <clueType>decreased</clueType> <clueLoc>plasma</clueLoc> cyst(e)ine and intracellular GSH levels, we also hypothesize that AIDS may be the consequence of a GSSG deficiency as well.</clue>
+<comment>NER: T54 DEL</comment>
+</event>
+<event id="E301">
+<type class="Negative_regulation" />
+<theme idref="A5" />
+<clue>As HIV-infected patients and <clueLoc>SIV-infected rhesus macaques</clueLoc> have, on the average, significantly <clueType>decreased</clueType> <clueLoc>plasma</clueLoc> cyst(e)ine and intracellular GSH levels, we also hypothesize that AIDS may be the consequence of a GSSG deficiency as well.</clue>
+<comment>NER: T54 DEL</comment>
+</event>
+<event id="E302">
+<type class="Negative_regulation" />
+<theme idref="A6" />
+<clue>As <clueLoc>HIV-infected patients</clueLoc> and SIV-infected rhesus macaques have, on the average, significantly <clueType>decreased</clueType> plasma cyst(e)ine and <clueLoc>intracellular</clueLoc> GSH levels, we also hypothesize that AIDS may be the consequence of a GSSG deficiency as well.</clue>
+</event>
+<event id="E303">
+<type class="Negative_regulation" />
+<theme idref="A6" />
+<clue>As HIV-infected patients and <clueLoc>SIV-infected rhesus macaques</clueLoc> have, on the average, significantly <clueType>decreased</clueType> plasma cyst(e)ine and <clueLoc>intracellular</clueLoc> GSH levels, we also hypothesize that AIDS may be the consequence of a GSSG deficiency as well.</clue>
+</event>
+<event id="E39">
+<type class="Negative_regulation" />
+<theme idref="T57" />
+<clue>As HIV-infected patients and SIV-infected rhesus macaques have, on the average, significantly decreased plasma cyst(e)ine and intracellular GSH levels, we also hypothesize that AIDS may be the consequence of a GSSG <clueType>deficiency</clueType> as well.</clue>
+</event>
+<event uncertainty="probable" id="E40">
+<type class="Positive_regulation" />
+<theme idref="T55" />
+<cause idref="E39" />
+<clue>As HIV-infected patients and SIV-infected rhesus macaques have, on the average, significantly decreased plasma cyst(e)ine and intracellular GSH levels, we also hypothesize that AIDS may be the <clueType>consequence</clueType> <linkCause>of</linkCause> a GSSG deficiency as well.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

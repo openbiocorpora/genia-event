@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="03/12/2006 " annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9020049" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9020049</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="A1">Differentiation</term>-dependent <term sem="Other" id="A4">expression</term> of a <term sem="Protein_molecule" id="T2" lex="human_carboxylesterase">human carboxylesterase</term> in <term sem="Cell_natural" id="T3" lex="monocytic_cell">monocytic cells</term> and <term sem="Other" id="T4" lex="transcription_factor_binding"><term sem="Protein_family_or_group" id="T5" lex="transcription_factor">transcription factor</term> binding</term> to the <term sem="DNA_domain_or_region" id="T6" lex="promoter">promoter</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Differentiation-dependent <clueType>expression</clueType> <linkTheme>of</linkTheme> a human carboxylesterase in monocytic cells and transcription factor binding to the promoter.</clue>
+<comment>NER: T1 del &quot;Differentiation-dependent expression&quot;</comment>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue>Differentiation-<clueType>dependent</clueType> expression of a human carboxylesterase <clueLoc>in monocytic cells</clueLoc> and transcription factor binding to the promoter.</clue>
+</event>
+<event id="E3">
+<type class="Binding" />
+<theme idref="T5" />
+<theme idref="T6" />
+<clue>Differentiation-dependent expression of a human carboxylesterase in monocytic cells and transcription factor <clueType>binding</clueType> <linkTheme>to</linkTheme> the promoter.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_family_or_group" id="T7" lex="carboxylesterase">Carboxylesterases</term> play an important role in <term sem="Other" id="A2">defense</term> and <term sem="Other" id="A3">clearance</term> mechanisms of the <term sem="Cell_natural" id="T8" lex="monocyte/macrophage_system">monocyte/macrophage system</term>.</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T7" />
+<clue>Carboxylesterases <clueType>play</clueType> an <clueType>important role</clueType> <linkTheme>in</linkTheme> defense and clearance mechanisms of the <clueLoc>monocyte/macrophage</clueLoc> system.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T7" />
+<clue>Carboxylesterases <clueType>play</clueType> an <clueType>important role</clueType> <linkTheme>in</linkTheme> defense and clearance mechanisms of the <clueLoc>monocyte/macrophage</clueLoc> system.</clue>
+</event>
+<sentence id="S3">During the differentiation process of cells from the <term sem="Cell_cultured" id="T9" lex="monocytic_cell_line_THP-1">monocytic cell line THP-1</term> we observed a transient transcriptional upregulation of a <term sem="Protein_molecule" id="T10" lex="human_carboxylesterase">human carboxylesterase</term> analyzed by means of <term sem="Other" id="T11" lex="Northern_blot">Northern blots</term>.</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<clue><clueTime>During the differentiation process</clueTime> of cells from the <clueLoc>monocytic cell line THP-1</clueLoc> we observed a transient <clueType>transcriptional upregulation</clueType> <linkTheme>of</linkTheme> a human carboxylesterase analyzed by means of <clueExperiment>Northern blots</clueExperiment>.</clue>
+</event>
+<sentence id="S4">In <term sem="Cell_cultured" id="T12" lex="PMA-treated_THP-1_cell">PMA-treated THP-1 cells</term> we could detect three major <term sem="DNA_domain_or_region" id="T13" lex="transcription_initiation_site">transcription initiation sites</term> as revealed by <term sem="Other" id="T14" lex="Nuclease_Protection_Assay">Nuclease Protection Assay</term> carried out with two <term sem="RNA_molecule" id="T15" lex="overlapping_antisense_RNA_probe">overlapping antisense RNA probes</term>.</sentence>
+<sentence id="S5">We have recently cloned the <term sem="DNA_domain_or_region" id="T16" lex="carboxylesterase_upstream_sequence">carboxylesterase upstream sequence</term> and showed its <term sem="Other" id="T17" lex="basal_promoter_activity"><term sem="DNA_domain_or_region" id="T18" lex="basal_promoter">basal promoter</term> activity</term> in <term sem="Cell_cultured" id="T19" lex="CHO_cell">CHO cells</term>.</sentence>
+<sentence id="S6">Using <term sem="Other" id="T20" lex="electrophoretic_mobility_shift_analysis">electrophoretic mobility shift analysis</term> we demonstrated that the <term sem="DNA_domain_or_region" id="T21" lex="promoter_region">promoter region</term> spanning <term sem="DNA_domain_or_region" id="T22" lex="base_pairs_-1_to_-275">base pairs -1 to -275</term>, which contains several putative binding sites for <term sem="Protein_family_or_group" id="T23" lex="transcription_factor">transcription factors</term>, is bound by <term sem="Protein_family_or_group" id="T24" lex="nuclear_factor">nuclear factors</term> <term sem="Protein_molecule" id="T25" lex="Sp1">Sp1</term> and <term sem="Protein_molecule" id="T26" lex="IRBP">IRBP</term> but not by <term sem="Protein_family_or_group" id="T27" lex="C/EBP">C/EBPs</term>.</sentence>
+<event id="E7">
+<type class="Binding" />
+<theme idref="T21" />
+<theme idref="T25" />
+<clue>Using <clueExperiment>electrophoretic mobility shift analysis</clueExperiment> we demonstrated that the promoter region spanning base pairs -1 to -275, which contains several putative binding sites for transcription factors, is <clueType>bound</clueType> <linkTheme>by</linkTheme> nuclear factors Sp1 and IRBP but not by C/EBPs.</clue>
+</event>
+<event id="E8">
+<type class="Binding" />
+<theme idref="T21" />
+<theme idref="T26" />
+<clue>Using <clueExperiment>electrophoretic mobility shift analysis</clueExperiment> we demonstrated that the promoter region spanning base pairs -1 to -275, which contains several putative binding sites for transcription factors, is <clueType>bound</clueType> <linkTheme>by</linkTheme> nuclear factors Sp1 and IRBP but not by C/EBPs.</clue>
+</event>
+<event assertion="non-exist" id="E9">
+<type class="Binding" />
+<theme idref="T21" />
+<theme idref="T27" />
+<clue>Using <clueExperiment>electrophoretic mobility shift analysis</clueExperiment> we demonstrated that the promoter region spanning base pairs -1 to -275, which contains several putative binding sites for transcription factors, is <clueType>bound</clueType> by nuclear factors Sp1 and IRBP but not <linkTheme>by</linkTheme> C/EBPs.</clue>
+</event>
+<sentence id="S7">Taken together these data indicate that <term sem="Protein_molecule" id="A6">carboxylesterase</term> gene transcription in <term sem="Cell_cultured" id="T28" lex="THP-1_cell">THP-1 cells</term> starts at multiple initiation sites and that <term sem="Protein_molecule" id="T29" lex="Sp1">Sp1</term> and <term sem="Protein_molecule" id="T30" lex="IRBP">IRBP</term> may be critical factors for modulating the <term sem="Other" id="A7">differentiation</term>-dependent <term sem="Other" id="A5">transcription</term> of this <term sem="DNA_domain_or_region" id="T32" lex="human_carboxylesterase_gene"><term sem="Protein_molecule" id="T33" lex="human_carboxylesterase">human carboxylesterase</term> gene</term>.</sentence>
+<event id="E10">
+<type class="Transcription" />
+<theme idref="A6" />
+<clue>Taken together these data indicate that carboxylesterase gene <clueType>transcription</clueType> <clueLoc>in THP-1 cells</clueLoc> starts at multiple initiation sites and that Sp1 and IRBP may be critical factors for modulating the differentiation-dependent transcription of this human carboxylesterase gene.</clue>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<theme idref="T32" />
+<clue>Taken together these data indicate that carboxylesterase gene transcription in THP-1 cells starts at multiple initiation sites and that Sp1 and IRBP may be critical factors for modulating the differentiation-dependent <clueType>transcription</clueType> <linkTheme>of</linkTheme> this human carboxylesterase gene.</clue>
+<comment>NER: T31 del &quot;differentiation-dependent transcription&quot;</comment>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="A7" />
+<clue>Taken together these data indicate that carboxylesterase gene transcription in THP-1 cells starts at multiple initiation sites and that Sp1 and IRBP may be critical factors for modulating the differentiation-<clueType>dependent</clueType> transcription of this human carboxylesterase gene.</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<theme idref="E12" />
+<clue>Taken together these data indicate that carboxylesterase gene transcription in THP-1 cells starts at multiple initiation sites and that Sp1 and IRBP may be critical factors for <clueType>modulating</clueType> the differentiation-dependent transcription of this human carboxylesterase gene.</clue>
+</event>
+<event uncertainty="probable" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T29" />
+<clue>Taken together these data indicate that carboxylesterase gene transcription in THP-1 cells starts at multiple initiation sites and that Sp1 and IRBP may be <clueType>critical factors</clueType> <linkTheme>for</linkTheme> modulating the differentiation-dependent transcription of this human carboxylesterase gene.</clue>
+</event>
+<event uncertainty="probable" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T30" />
+<clue>Taken together these data indicate that carboxylesterase gene transcription in THP-1 cells starts at multiple initiation sites and that Sp1 and IRBP may be <clueType>critical factors</clueType> <linkTheme>for</linkTheme> modulating the differentiation-dependent transcription of this human carboxylesterase gene.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

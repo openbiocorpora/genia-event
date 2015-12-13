@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="31/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10357820" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10357820</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Repression by <term sem="Protein_molecule" id="T1" lex="Ikaros">Ikaros</term> and <term sem="Protein_molecule" id="T2" lex="Aiolos">Aiolos</term> is mediated through <term sem="Protein_complex" id="T3" lex="histone_deacetylase_complex">histone deacetylase complexes</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<cause idref="T1" />
+<clue><clueType>Repression</clueType> <linkCause>by</linkCause> Ikaros and Aiolos is mediated through histone deacetylase complexes.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<cause idref="T2" />
+<clue><clueType>Repression</clueType> <linkCause>by</linkCause> Ikaros and Aiolos is mediated through histone deacetylase complexes.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T3" />
+<clue>Repression by Ikaros and Aiolos is <clueType>mediated</clueType> <linkCause>through</linkCause> histone deacetylase complexes.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T3" />
+<clue>Repression by Ikaros and Aiolos is <clueType>mediated</clueType> <linkCause>through</linkCause> histone deacetylase complexes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Here we show that the <term sem="Protein_family_or_group" id="T4" lex="lymphoid_lineage-determining_factor">lymphoid lineage-determining factors</term> <term sem="Protein_molecule" id="T5" lex="Ikaros">Ikaros</term> and <term sem="Protein_molecule" id="T6" lex="Aiolos">Aiolos</term> can function as <term sem="Protein_family_or_group" id="T7" lex="strong_transcriptional_repressor">strong transcriptional repressors</term>.</sentence>
+<event id="E5">
+<type class="Negative_regulation" />
+<cause idref="T5" />
+<clue>Here we show that the <clueLoc>lymphoid lineage</clueLoc>-determining factors Ikaros and Aiolos can <clueType>function as strong transcriptional repressors</clueType>.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<cause idref="T6" />
+<clue>Here we show that the <clueLoc>lymphoid lineage</clueLoc>-determining factors Ikaros and Aiolos can <clueType>function as strong transcriptional repressors</clueType>.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S3">This function is mediated through two <term sem="Protein_family_or_group" id="T8" lex="repression_domain">repression domains</term> and is dependent upon the <term sem="DNA_domain_or_region" id="T9" lex="promoter_context">promoter context</term> and <term sem="Cell_natural" id="T10" lex="cell_type">cell type</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T8" />
+<clue><corefTheme>This function</corefTheme> is <clueType>mediated</clueType> <linkCause>through</linkCause> two repression domains and is dependent upon the promoter context and cell type.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T8" />
+<clue><corefTheme>This function</corefTheme> is <clueType>mediated</clueType> <linkCause>through</linkCause> two repression domains and is dependent upon the promoter context and cell type.</clue>
+</event>
+<sentence id="S4">Repression by <term sem="Protein_family_or_group" id="T11" lex="Ikaros_protein"><term sem="Protein_molecule" id="T12" lex="Ikaros">Ikaros</term> proteins</term> correlates with hypo-acetylation of <term sem="Protein_family_or_group" id="A5"><term sem="Protein_family_or_group" id="T13" lex="core_histone">core histones</term> at <term sem="DNA_domain_or_region" id="T14" lex="promoter_site">promoter sites</term></term> and is relieved by <term sem="Organic_compound_other" id="T15" lex="histone_deacetylase_inhibitor"><term sem="Protein_molecule" id="T16" lex="histone_deacetylase">histone deacetylase</term> inhibitors</term>.</sentence>
+<event id="E13">
+<type class="Negative_regulation" />
+<cause idref="T11" />
+<clue><clueType>Repression</clueType> <linkCause>by</linkCause> Ikaros proteins correlates with hypo-acetylation of core histones at promoter sites and is relieved by histone deacetylase inhibitors.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E14">
+<type class="Correlation" />
+<theme idref="E13" />
+<theme idref="E16" />
+<clue>Repression by Ikaros proteins <clueType>correlates</clueType> <linkTheme>with</linkTheme> hypo-acetylation of core histones at promoter sites and is relieved by histone deacetylase inhibitors.</clue>
+</event>
+<event id="E15">
+<type class="Protein_amino_acid_acetylation" />
+<theme idref="A5" />
+<clue>Repression by Ikaros proteins correlates with hypo-<clueType>acetylation</clueType> <linkTheme>of</linkTheme> core histones at promoter sites and is relieved by histone deacetylase inhibitors.</clue>
+<comment>TPS: A5</comment>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<clue>Repression by Ikaros proteins correlates with <clueType>hypo</clueType>-acetylation of core histones at promoter sites and is relieved by histone deacetylase inhibitors.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="T15" />
+<clue>Repression by Ikaros proteins correlates with hypo-acetylation of core histones at promoter sites and is <clueType>relieved</clueType> <linkCause>by</linkCause> histone deacetylase inhibitors.</clue>
+</event>
+<sentence id="S5">Consistent with these findings, <term sem="Protein_molecule" id="T17" lex="Ikaros">Ikaros</term> and its <term sem="Protein_domain_or_region" id="T18" lex="repression_domain">repression domains</term> can interact in vivo and in vitro with the <term sem="Protein_family_or_group" id="A3"><term sem="Protein_family_or_group" id="T19" lex="mSin3_family">mSin3 family</term> of <term sem="Protein_family_or_group" id="A2">co-repressors</term></term> which bind to <term sem="Protein_family_or_group" id="T20" lex="histone_deacetylase">histone deacetylases</term>.</sentence>
+<event id="E18">
+<type class="Binding" />
+<theme idref="T17" />
+<theme idref="A3" />
+<clue>Consistent with these findings, Ikaros and its repression domains can <clueType>interact</clueType> in vivo and in vitro <linkTheme>with</linkTheme> the mSin3 family of co-repressors which bind to histone deacetylases.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T18" />
+<theme idref="A3" />
+<clue>Consistent with these findings, Ikaros and its repression domains can <clueType>interact</clueType> in vivo and in vitro <linkTheme>with</linkTheme> the mSin3 family of co-repressors which bind to histone deacetylases.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event id="E20">
+<type class="Binding" />
+<theme idref="A2" />
+<theme idref="T20" />
+<clue>Consistent with these findings, Ikaros and its repression domains can interact in vivo and in vitro with the mSin3 family of co-repressors which <clueType>bind</clueType> <linkTheme>to</linkTheme> histone deacetylases.</clue>
+</event>
+<sentence id="S6">Based on these and our recent findings of associations between <term sem="Protein_molecule" id="T21" lex="Ikaros">Ikaros</term> and <term sem="Protein_molecule" id="T22" lex="Mi-2-HDAC">Mi-2-HDAC</term>, we propose that <term sem="Protein_family_or_group" id="T23" lex="Ikaros_family_member"><term sem="Protein_molecule" id="T24" lex="Ikaros">Ikaros</term> family members</term> modulate <term sem="Other" id="T25" lex="gene_expression">gene expression</term> during <term sem="Other" id="T26" lex="lymphocyte_development"><term sem="Cell_natural" id="A4">lymphocyte</term> development</term> by recruiting distinct <term sem="Protein_complex" id="T27" lex="histone_deacetylase_complex"><term sem="Protein_molecule" id="T28" lex="histone_deacetylase">histone deacetylase</term> complexes</term> to <term sem="DNA_domain_or_region" id="T29" lex="specific_promoter">specific promoters</term>.</sentence>
+<event id="E21">
+<type class="Binding" />
+<theme idref="T21" />
+<theme idref="T22" />
+<clue>Based on these and our recent findings of <clueType>associations</clueType> <linkTheme>between</linkTheme> Ikaros and Mi-2-HDAC, we propose that Ikaros family members modulate gene expression during lymphocyte development by recruiting distinct histone deacetylase complexes to specific promoters.</clue>
+</event>
+<event id="E22">
+<type class="Regulation" />
+<theme idref="T25" />
+<cause idref="E26" />
+<clue>Based on these and our recent findings of associations between Ikaros and Mi-2-HDAC, we propose that Ikaros family members <clueType>modulate</clueType> gene expression during lymphocyte development <linkCause>by</linkCause> recruiting distinct histone deacetylase complexes to specific promoters.</clue>
+</event>
+<event id="E23">
+<type class="Correlation" />
+<theme idref="E24" />
+<theme idref="E22" />
+<clue>Based on these and our recent findings of associations between Ikaros and Mi-2-HDAC, we propose that Ikaros family members modulate gene expression <linkTheme>during</linkTheme> lymphocyte development by recruiting distinct histone deacetylase complexes to specific promoters.</clue>
+</event>
+<event id="E24">
+<type class="Cell_differentiation" />
+<theme idref="A4" />
+<clue>Based on these and our recent findings of associations between Ikaros and Mi-2-HDAC, we propose that Ikaros family members modulate gene expression during lymphocyte <clueType>development</clueType> by recruiting distinct histone deacetylase complexes to specific promoters.</clue>
+</event>
+<event id="E26">
+<type class="Binding" />
+<theme idref="T27" />
+<theme idref="T29" />
+<clue>Based on these and our recent findings of associations between Ikaros and Mi-2-HDAC, we propose that Ikaros family members modulate gene expression during lymphocyte development by <clueType>recruiting</clueType> distinct histone deacetylase complexes <linkTheme>to</linkTheme> specific promoters.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

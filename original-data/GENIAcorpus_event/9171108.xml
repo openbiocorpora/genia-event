@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9171108" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9171108</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term sem="Protein_molecule" id="T1" lex="class_II_trans-activator_CIITA">class II trans-activator <term sem="Protein_molecule" id="T2" lex="CIITA">CIITA</term></term> interacts with the <term sem="Protein_molecule" id="T3" lex="TBP-associated_factor_TAFII32">TBP-associated factor <term sem="Protein_molecule" id="T4" lex="TAFII32">TAFII32</term></term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T2" />
+<theme idref="T4" />
+<clue>The class II trans-activator CIITA <clueType>interacts</clueType> <linkTheme>with</linkTheme> the TBP-associated factor TAFII32.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_family_or_group" id="T5" lex="class_II_trans-activator">class II trans- activator</term> (<term sem="Protein_molecule" id="T6" lex="CIITA">CIITA</term>) is the main transcriptional co-activator for the expression of <term sem="Protein_family_or_group" id="T7" lex="MHC_class_II_protein">MHC class II proteins</term>.</sentence>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue>The class II trans- activator (CIITA) is the main transcriptional co-activator for the <clueType>expression</clueType> <linkTheme>of</linkTheme> MHC class II proteins.</clue>
+</event>
+<sentence id="S3">Its <term sem="Protein_domain_or_region" id="T8" lex="N-terminal_125_amino_acid">N-terminal 125 amino acids</term> function as an <term sem="Protein_domain_or_region" id="T9" lex="independent_transcriptional_activation_domain">independent transcriptional activation domain</term>.</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<cause idref="T8" />
+<clue>Its N-terminal 125 amino acids <clueType>function as</clueType> an independent <clueType>transcriptional activation domain</clueType>.</clue>
+</event>
+<sentence id="S4">Analyses of the <term sem="Protein_domain_or_region" id="T10" lex="primary_amino_acid_sequence">primary amino acid sequence</term> of the <term sem="Protein_domain_or_region" id="T11" lex="activation_domain">activation domain</term> predict the presence of three <term sem="Protein_substructure" id="T12" lex="alpha-helice">alpha-helices</term>, each with a high proportion of <term sem="Amino_acid_monomer" id="T13" lex="acidic_residue">acidic residues</term>.</sentence>
+<sentence id="S5">Using site-directed mutagenesis, we found that two of these predicted <term sem="Protein_substructure" id="T14" lex="alpha-helice">alpha-helices</term> are required for full <term sem="Other" id="T15" lex="transcriptional_activation">transcriptional activation</term> by <term sem="Protein_molecule" id="T16" lex="CIITA">CIITA</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<cause idref="T16" />
+<clue>Using site-directed mutagenesis, we found that two of these predicted alpha-helices are required for full <clueType>transcriptional activation</clueType> <linkCause>by</linkCause> CIITA.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T14" />
+<clue><clueExperiment>Using site-directed mutagenesis</clueExperiment>, we found that two of these predicted alpha-helices are <clueType>required</clueType> <linkTheme>for</linkTheme> full transcriptional activation by CIITA.</clue>
+</event>
+<sentence id="S6">Moreover, a <term sem="Protein_molecule" id="T17" lex="CIITA_protein"><term sem="Protein_molecule" id="T18" lex="CIITA">CIITA</term> protein</term> in which both functional <term sem="Protein_substructure" id="T19" lex="alpha-helice">alpha-helices</term> have been deleted displays a <term sem="Other" id="T20" lex="dominant_negative_phenotype">dominant negative phenotype</term>.</sentence>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="T19" />
+<clue>Moreover, a <clueLoc>CIITA protein</clueLoc> in which both functional alpha-helices have been <clueType>deleted</clueType> displays a dominant negative phenotype.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="T18" />
+<cause idref="E7" />
+<clue>Moreover, a CIITA protein in which both functional alpha-helices have been deleted <clueType>displays a dominant negative phenotype</clueType>.</clue>
+</event>
+<sentence id="S7">This <term sem="Protein_domain_or_region" id="A1"><term sem="Protein_domain_or_region" id="T21" lex="activation_domain">activation domain</term> of <term sem="Protein_molecule" id="T22" lex="CIITA">CIITA</term></term> interacts with the <term sem="Protein_molecule" id="T23" lex="32_kDa_subunit">32 kDa subunit</term> of the <term sem="Protein_complex" id="T24" lex="general_transcription_complex">general transcription complex</term> <term sem="Protein_complex" id="T25" lex="TFIID">TFIID</term>, <term sem="Protein_molecule" id="T26" lex="TAFII32">TAFII32</term>.</sentence>
+<event id="E9">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T26" />
+<clue>This activation domain of CIITA interacts with the 32 kDa subunit of the general transcription complex TFIID, TAFII32.</clue>
+<comment>NER T26 MOD, TPS A1</comment>
+</event>
+<sentence id="S8">Decreased transcriptional activation by <term sem="Protein_domain_or_region" id="T27" lex="N-terminal_deletion">N-terminal</term> deletions of <term sem="Protein_molecule" id="T28" lex="CIITA">CIITA</term> is correlated directly with their reduced binding to <term sem="Protein_molecule" id="T29" lex="TAFII32">TAFII32</term>.</sentence>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="T27" />
+<clue>Decreased transcriptional activation by N-terminal <clueType>deletions</clueType> of CIITA is correlated directly with their reduced binding to TAFII32.</clue>
+<comment>NER T27 MOD</comment>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<cause idref="T28" />
+<clue>Decreased <clueType>transcriptional activation</clueType> by N-terminal deletions of CIITA is correlated directly with their reduced binding to TAFII32.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="E10" />
+<clue><clueType>Decreased</clueType> transcriptional activation <linkCause>by</linkCause> N-terminal deletions of CIITA is correlated directly with their reduced binding to TAFII32.</clue>
+</event>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T28" />
+<theme idref="T29" />
+<clue>Decreased transcriptional activation by N-terminal deletions of CIITA is correlated directly with <corefTheme>their</corefTheme> reduced <clueType>binding</clueType> <linkTheme>to</linkTheme> TAFII32.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<clue>Decreased transcriptional activation by N-terminal deletions of CIITA is correlated directly with their <clueType>reduced</clueType> binding to TAFII32.</clue>
+</event>
+<event id="E15">
+<type class="Correlation" />
+<theme idref="E12" />
+<theme idref="E14" />
+<clue>Decreased transcriptional activation by N-terminal deletions of CIITA is <clueType>correlated</clueType> directly <linkTheme>with</linkTheme> their reduced binding to TAFII32.</clue>
+</event>
+<sentence id="S9">We conclude that interactions between <term sem="Protein_molecule" id="T30" lex="TAFII32">TAFII32</term> and <term sem="Protein_molecule" id="T31" lex="CIITA">CIITA</term> are responsible for activation of <term sem="DNA_domain_or_region" id="T32" lex="class_II_gene">class II genes</term>.</sentence>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T30" />
+<theme idref="T31" />
+<clue>We conclude that <clueType>interactions</clueType> <linkTheme>between</linkTheme> TAFII32 and CIITA are responsible for activation of class II genes.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<clue>We conclude that interactions between TAFII32 and CIITA are responsible for <clueType>activation</clueType> <linkTheme>of</linkTheme> class II genes.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E16" />
+<clue>We conclude that interactions between TAFII32 and CIITA are <clueType>responsible</clueType> <linkTheme>for</linkTheme> activation of class II genes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="13/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7721885" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7721885</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="interleukin_(IL)-10">Interleukin (IL)-10</term> inhibits <term sem="Other" id="T2" lex="nuclear_factor_kappa_B_(NF_kappa_B)_activation"><term sem="Protein_molecule" id="T3" lex="nuclear_factor_kappa_B">nuclear factor kappa B</term> (<term sem="Protein_molecule" id="T4" lex="NF_kappa_B">NF kappa B</term>) activation</term> in <term sem="Cell_natural" id="T5" lex="human_monocyte">human monocytes</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<clue>Interleukin (IL)-10 inhibits nuclear factor kappa B (NF kappa B) <clueType>activation</clueType> in human monocytes.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Interleukin (IL)-10 <clueType>inhibits</clueType> nuclear factor kappa B (NF kappa B) activation <clueLoc>in human monocytes</clueLoc>.</clue>
+</event>
+<sentence id="S2"><term sem="Protein_molecule" id="T6" lex="IL-10">IL-10</term> and <term sem="Protein_molecule" id="T7" lex="IL-4">IL-4</term> suppress <term sem="Other" id="T8" lex="cytokine_synthesis"><term sem="Protein_family_or_group" id="T9" lex="cytokine">cytokine</term> synthesis</term> by different mechanisms.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>IL-10 and IL-4 suppress cytokine <clueType>synthesis</clueType> by different mechanisms.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="T6" />
+<clue>IL-10 and IL-4 <clueType>suppress</clueType> cytokine synthesis by different mechanisms.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="T7" />
+<clue>IL-10 and IL-4 <clueType>suppress</clueType> cytokine synthesis by different mechanisms.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Our previous studies in <term sem="Cell_natural" id="T10" lex="human_monocyte">human monocytes</term> have demonstrated that <term sem="Protein_molecule" id="T11" lex="interleukin_(IL)-10">interleukin (IL)-10</term> inhibits <term sem="Other" id="T12" lex="lipopolysaccharide_(LPS)-stimulated_production"><term sem="Lipid" id="T13" lex="lipopolysaccharide">lipopolysaccharide</term> (<term sem="Lipid" id="A1">LPS</term>)-stimulated production</term> of <term sem="Protein_family_or_group" id="T14" lex="inflammatory_cytokine">inflammatory cytokines</term>, <term sem="Protein_molecule" id="T15" lex="IL-1_beta">IL-1 beta</term>, <term sem="Protein_molecule" id="T16" lex="IL-6">IL-6</term>, <term sem="Protein_molecule" id="T17" lex="IL-8">IL-8</term>, and <term sem="Protein_molecule" id="T18" lex="tumor_necrosis_factor_(TNF)-alpha">tumor necrosis factor (TNF)-alpha</term> by blocking <term sem="Other" id="T19" lex="gene_transcription">gene transcription</term>.</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>Our previous studies in human monocytes have demonstrated that interleukin (IL)-10 inhibits lipopolysaccharide (LPS)-stimulated <clueType>production</clueType> <linkTheme>of</linkTheme> <corefTheme>inflammatory cytokines</corefTheme>, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha by blocking gene transcription.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>Our previous studies in human monocytes have demonstrated that interleukin (IL)-10 inhibits lipopolysaccharide (LPS)-stimulated <clueType>production</clueType> <linkTheme>of</linkTheme> <corefTheme>inflammatory cytokines</corefTheme>, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha by blocking gene transcription.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>Our previous studies in human monocytes have demonstrated that interleukin (IL)-10 inhibits lipopolysaccharide (LPS)-stimulated <clueType>production</clueType> <linkTheme>of</linkTheme> <corefTheme>inflammatory cytokines</corefTheme>, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha by blocking gene transcription.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T18" />
+<clue>Our previous studies in human monocytes have demonstrated that interleukin (IL)-10 inhibits lipopolysaccharide (LPS)-stimulated <clueType>production</clueType> <linkTheme>of</linkTheme> <corefTheme>inflammatory cytokines</corefTheme>, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha by blocking gene transcription.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="A1" />
+<clue>Our previous studies in human monocytes have demonstrated that interleukin (IL)-10 inhibits lipopolysaccharide (LPS)-<clueType>stimulated</clueType> production of inflammatory cytokines, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha by blocking gene transcription.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="A1" />
+<clue>Our previous studies in human monocytes have demonstrated that interleukin (IL)-10 inhibits lipopolysaccharide (LPS)-<clueType>stimulated</clueType> production of inflammatory cytokines, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha by blocking gene transcription.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="A1" />
+<clue>Our previous studies in human monocytes have demonstrated that interleukin (IL)-10 inhibits lipopolysaccharide (LPS)-<clueType>stimulated</clueType> production of inflammatory cytokines, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha by blocking gene transcription.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="A1" />
+<clue>Our previous studies in human monocytes have demonstrated that interleukin (IL)-10 inhibits lipopolysaccharide (LPS)-<clueType>stimulated</clueType> production of inflammatory cytokines, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha by blocking gene transcription.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="T19" />
+<cause idref="T11" />
+<clue>Our previous studies in human monocytes have demonstrated that interleukin (IL)-10 inhibits lipopolysaccharide (LPS)-stimulated production of inflammatory cytokines, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha by <clueType>blocking</clueType> gene transcription.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="E16" />
+<clue>Our previous studies <clueLoc>in human monocytes</clueLoc> have demonstrated that interleukin (IL)-10 <clueType>inhibits</clueType> lipopolysaccharide (LPS)-stimulated production of inflammatory cytokines, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha <linkCause>by</linkCause> blocking gene transcription.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="E16" />
+<clue>Our previous studies <clueLoc>in human monocytes</clueLoc> have demonstrated that interleukin (IL)-10 <clueType>inhibits</clueType> lipopolysaccharide (LPS)-stimulated production of inflammatory cytokines, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha <linkCause>by</linkCause> blocking gene transcription.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="E16" />
+<clue>Our previous studies <clueLoc>in human monocytes</clueLoc> have demonstrated that interleukin (IL)-10 <clueType>inhibits</clueType> lipopolysaccharide (LPS)-stimulated production of inflammatory cytokines, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha <linkCause>by</linkCause> blocking gene transcription.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="E16" />
+<clue>Our previous studies <clueLoc>in human monocytes</clueLoc> have demonstrated that interleukin (IL)-10 <clueType>inhibits</clueType> lipopolysaccharide (LPS)-stimulated production of inflammatory cytokines, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha <linkCause>by</linkCause> blocking gene transcription.</clue>
+</event>
+<sentence id="S4">Using <term sem="Other" id="T20" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assays</term> (<term sem="Other" id="T21" lex="EMSA">EMSA</term>), we now show that, in <term sem="Cell_natural" id="A21">monocytes</term> stimulated with <term sem="Lipid" id="T22" lex="LPS">LPS</term> or <term sem="Protein_molecule" id="T23" lex="TNF_alpha">TNF alpha</term>, <term sem="Protein_molecule" id="T24" lex="IL-10">IL-10</term> inhibits nuclear stimulation of <term sem="Protein_molecule" id="T25" lex="nuclear_factor_kappa_B">nuclear factor kappa B</term> (<term sem="Protein_molecule" id="T26" lex="NF_kappa_B">NF kappa B</term>), a <term sem="Protein_family_or_group" id="T27" lex="transcription_factor">transcription factor</term> involved in the expression of <term sem="DNA_family_or_group" id="T28" lex="inflammatory_cytokine_gene">inflammatory cytokine genes</term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<clue>Using electrophoretic mobility shift assays (EMSA), we now show that, in monocytes stimulated with LPS or TNF alpha, IL-10 inhibits <clueLoc>nuclear</clueLoc> <clueType>stimulation</clueType> <linkTheme>of</linkTheme> nuclear factor kappa B (NF kappa B), a transcription factor involved in the expression of inflammatory cytokine genes.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<cause idref="T22" />
+<clue>Using <clueExperiment>electrophoretic mobility shift assays (EMSA)</clueExperiment>, we now show that, <clueLoc>in monocytes stimulated with LPS or TNF alpha</clueLoc>, IL-10 <clueType>inhibits</clueType> nuclear stimulation of nuclear factor kappa B (NF kappa B), a transcription factor involved in the expression of inflammatory cytokine genes.</clue>
+</event>
+<event id="E24">
+<type class="Physiological_process" />
+<theme idref="A21" />
+<cause idref="T22" />
+<clue>Using electrophoretic mobility shift assays (EMSA), we now show that, in monocytes <clueType>stimulated</clueType> <linkCause>with</linkCause> LPS or TNF alpha, IL-10 inhibits nuclear stimulation of nuclear factor kappa B (NF kappa B), a transcription factor involved in the expression of inflammatory cytokine genes.</clue>
+</event>
+<event id="E25">
+<type class="Physiological_process" />
+<theme idref="A21" />
+<cause idref="T23" />
+<clue>Using electrophoretic mobility shift assays (EMSA), we now show that, in monocytes <clueType>stimulated</clueType> <linkCause>with</linkCause> LPS or TNF alpha, IL-10 inhibits nuclear stimulation of nuclear factor kappa B (NF kappa B), a transcription factor involved in the expression of inflammatory cytokine genes.</clue>
+</event>
+<event id="E60">
+<type class="Gene_expression" />
+<theme idref="T28" />
+<clue>Using electrophoretic mobility shift assays (EMSA), we now show that, in monocytes stimulated with LPS or TNF alpha, IL-10 inhibits nuclear stimulation of nuclear factor kappa B (NF kappa B), a transcription factor involved in the <clueType>expression</clueType> <linkTheme>of</linkTheme> inflammatory cytokine genes.</clue>
+</event>
+<event id="E61">
+<type class="Correlation" />
+<theme idref="T25" />
+<theme idref="E60" />
+<clue>Using electrophoretic mobility shift assays (EMSA), we now show that, in monocytes stimulated with LPS or TNF alpha, IL-10 inhibits nuclear stimulation of nuclear factor kappa B (NF kappa B), a transcription factor <clueType>involved</clueType> <linkTheme>in</linkTheme> the expression of inflammatory cytokine genes.</clue>
+</event>
+<sentence id="S5">Several other <term sem="Protein_family_or_group" id="T29" lex="transcription_factor">transcription factors</term> including NF-<term sem="Protein_molecule" id="T30" lex="IL-6">IL-6</term>, <term sem="Protein_molecule" id="T31" lex="AP-1">AP-1</term>, <term sem="Protein_molecule" id="T32" lex="AP-2">AP-2</term>, <term sem="Protein_family_or_group" id="T33" lex="GR">GR</term>, <term sem="Protein_family_or_group" id="T34" lex="CREB">CREB</term>, <term sem="Protein_molecule" id="T35" lex="Oct-1">Oct-1</term>, and <term sem="Protein_molecule" id="T36" lex="Sp-1">Sp-1</term> are not affected by <term sem="Protein_molecule" id="T37" lex="IL-10">IL-10</term>.</sentence>
+<event assertion="non-exist" id="E26">
+<type class="Regulation" />
+<theme idref="T30" />
+<cause idref="T37" />
+<clue>Several other transcription factors including NF-IL-6, AP-1, AP-2, GR, CREB, Oct-1, and Sp-1 are not <clueType>affected</clueType> <linkCause>by</linkCause> IL-10.</clue>
+</event>
+<event assertion="non-exist" id="E27">
+<type class="Regulation" />
+<theme idref="T31" />
+<cause idref="T37" />
+<clue>Several other transcription factors including NF-IL-6, AP-1, AP-2, GR, CREB, Oct-1, and Sp-1 are not <clueType>affected</clueType> <linkCause>by</linkCause> IL-10.</clue>
+</event>
+<event assertion="non-exist" id="E28">
+<type class="Regulation" />
+<theme idref="T32" />
+<cause idref="T37" />
+<clue>Several other transcription factors including NF-IL-6, AP-1, AP-2, GR, CREB, Oct-1, and Sp-1 are not <clueType>affected</clueType> <linkCause>by</linkCause> IL-10.</clue>
+</event>
+<event assertion="non-exist" id="E29">
+<type class="Regulation" />
+<theme idref="T33" />
+<cause idref="T37" />
+<clue>Several other transcription factors including NF-IL-6, AP-1, AP-2, GR, CREB, Oct-1, and Sp-1 are not <clueType>affected</clueType> <linkCause>by</linkCause> IL-10.</clue>
+</event>
+<event assertion="non-exist" id="E30">
+<type class="Regulation" />
+<theme idref="T34" />
+<cause idref="T37" />
+<clue>Several other transcription factors including NF-IL-6, AP-1, AP-2, GR, CREB, Oct-1, and Sp-1 are not <clueType>affected</clueType> <linkCause>by</linkCause> IL-10.</clue>
+</event>
+<event assertion="non-exist" id="E31">
+<type class="Regulation" />
+<theme idref="T35" />
+<cause idref="T37" />
+<clue>Several other transcription factors including NF-IL-6, AP-1, AP-2, GR, CREB, Oct-1, and Sp-1 are not <clueType>affected</clueType> <linkCause>by</linkCause> IL-10.</clue>
+</event>
+<event assertion="non-exist" id="E32">
+<type class="Regulation" />
+<theme idref="T36" />
+<cause idref="T37" />
+<clue>Several other transcription factors including NF-IL-6, AP-1, AP-2, GR, CREB, Oct-1, and Sp-1 are not <clueType>affected</clueType> <linkCause>by</linkCause> IL-10.</clue>
+</event>
+<sentence id="S6">This selective inhibition by <term sem="Protein_molecule" id="T38" lex="IL-10">IL-10</term> of <term sem="Other" id="T39" lex="NF_kappa_B_activation"><term sem="Protein_molecule" id="T40" lex="NF_kappa_B">NF kappa B</term> activation</term> occurs rapidly and in a dose-dependent manner and correlates well with <term sem="Other" id="T41" lex="IL-10&apos;s_cytokine_synthesis_inhibitory_activity"><term sem="Protein_molecule" id="T42" lex="IL-10">IL-10</term>&apos;s <term sem="Protein_family_or_group" id="T43" lex="cytokine">cytokine</term> synthesis inhibitory activity</term> in terms of both <term sem="Other" id="T44" lex="kinetics">kinetics</term> and <term sem="Other" id="T45" lex="dose_responsiveness">dose responsiveness</term>.</sentence>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<clue>This selective inhibition by IL-10 of NF kappa B <clueType>activation</clueType> occurs rapidly and in a dose-dependent manner and correlates well with IL-10&apos;s cytokine synthesis inhibitory activity in terms of both kinetics and dose responsiveness.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T38" />
+<clue>This selective <clueType>inhibition</clueType> <linkCause>by</linkCause> IL-10 <linkTheme>of</linkTheme> NF kappa B activation occurs rapidly and in a dose-dependent manner and correlates well with IL-10&apos;s cytokine synthesis inhibitory activity in terms of both kinetics and dose responsiveness.</clue>
+</event>
+<event id="E35">
+<type class="Gene_expression" />
+<theme idref="T43" />
+<clue>This selective inhibition by IL-10 of NF kappa B activation occurs rapidly and in a dose-dependent manner and correlates well with IL-10&apos;s cytokine <clueType>synthesis</clueType> inhibitory activity in terms of both kinetics and dose responsiveness.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="E35" />
+<cause idref="T42" />
+<clue>This selective inhibition by IL-10 of NF kappa B activation occurs rapidly and in a dose-dependent manner and correlates well with IL-10<linkCause>&apos;s</linkCause> cytokine synthesis <clueType>inhibitory activity</clueType> in terms of both kinetics and dose responsiveness.</clue>
+</event>
+<event id="E37">
+<type class="Correlation" />
+<theme idref="E36" />
+<theme idref="E34" />
+<clue>This selective inhibition by IL-10 of NF kappa B activation occurs rapidly and in a dose-dependent manner and <clueType>correlates</clueType> well <linkTheme>with</linkTheme> IL-10&apos;s cytokine synthesis inhibitory activity in terms of both kinetics and dose responsiveness.</clue>
+</event>
+<sentence id="S7">Furthermore, compounds such as <term sem="Organic_compound_other" id="T46" lex="tosylphenylalanyl_chloromethyl_ketone">tosylphenylalanyl chloromethyl ketone</term> and <term sem="Organic_compound_other" id="T47" lex="pyrrolidinedithiocarbamate">pyrrolidinedithiocarbamate</term> that are known to selectively inhibit <term sem="Other" id="T48" lex="NF_kappa_B_activation"><term sem="Protein_molecule" id="T49" lex="NF_kappa_B">NF kappa B</term> activation</term> block <term sem="Other" id="T50" lex="cytokine_gene_transcription"><term sem="DNA_domain_or_region" id="A3">cytokine</term> <term sem="Other" id="T51" lex="gene_transcription">gene transcription</term></term> in <term sem="Cell_cultured" id="T52" lex="LPS-stimulated_monocyte"><term sem="Lipid" id="T53" lex="LPS">LPS</term>-stimulated <term sem="Cell_natural" id="A4">monocytes</term></term>.</sentence>
+<event id="E38">
+<type class="Transcription" />
+<theme idref="A3" />
+<clue>Furthermore, compounds such as tosylphenylalanyl chloromethyl ketone and pyrrolidinedithiocarbamate that are known to selectively inhibit NF kappa B activation block cytokine gene <clueType>transcription</clueType> <clueLoc>in LPS-stimulated monocytes</clueLoc>.</clue>
+</event>
+<event id="E39">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="T46" />
+<clue>Furthermore, compounds such as tosylphenylalanyl chloromethyl ketone and pyrrolidinedithiocarbamate that are known to selectively inhibit NF kappa B activation <clueType>block</clueType> cytokine gene transcription in LPS-stimulated monocytes.</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="T47" />
+<clue>Furthermore, compounds such as tosylphenylalanyl chloromethyl ketone and pyrrolidinedithiocarbamate that are known to selectively inhibit NF kappa B activation <clueType>block</clueType> cytokine gene transcription in LPS-stimulated monocytes.</clue>
+</event>
+<event id="E41">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<cause idref="T53" />
+<clue>Furthermore, compounds such as tosylphenylalanyl chloromethyl ketone and pyrrolidinedithiocarbamate that are known to selectively inhibit NF kappa B activation block cytokine gene transcription in LPS-<clueType>stimulated</clueType> monocytes.</clue>
+</event>
+<event id="E71">
+<type class="Positive_regulation" />
+<theme idref="T49" />
+<clue>Furthermore, compounds such as tosylphenylalanyl chloromethyl ketone and pyrrolidinedithiocarbamate that are known to selectively inhibit NF kappa B <clueType>activation</clueType> block cytokine gene transcription in LPS-stimulated monocytes.</clue>
+</event>
+<event id="E62">
+<type class="Negative_regulation" />
+<theme idref="E71" />
+<cause idref="T46" />
+<clue>Furthermore, compounds such as tosylphenylalanyl chloromethyl ketone and pyrrolidinedithiocarbamate that are known to selectively <clueType>inhibit</clueType> NF kappa B activation block cytokine gene transcription in LPS-stimulated monocytes.</clue>
+</event>
+<event id="E63">
+<type class="Negative_regulation" />
+<theme idref="E71" />
+<cause idref="T47" />
+<clue>Furthermore, compounds such as tosylphenylalanyl chloromethyl ketone and pyrrolidinedithiocarbamate that are known to selectively <clueType>inhibit</clueType> NF kappa B activation block cytokine gene transcription in LPS-stimulated monocytes.</clue>
+</event>
+<sentence id="S8">Taken together, these results suggest that inhibition of <term sem="Protein_molecule" id="T54" lex="NF_kappa_B">NF kappa B</term> activation may be an important mechanism for <term sem="Protein_molecule" id="T55" lex="IL-10">IL-10</term> suppression of <term sem="Other" id="T56" lex="cytokine_gene_transcription"><term sem="DNA_domain_or_region" id="A5">cytokine</term> <term sem="Other" id="T57" lex="gene_transcription">gene transcription</term></term> in <term sem="Cell_natural" id="T58" lex="human_monocyte">human monocytes</term>.</sentence>
+<event id="E42">
+<type class="Positive_regulation" />
+<theme idref="T54" />
+<clue>Taken together, these results suggest that inhibition of NF kappa B <clueType>activation</clueType> may be an important mechanism for IL-10 suppression of cytokine gene transcription in human monocytes.</clue>
+</event>
+<event id="E43">
+<type class="Negative_regulation" />
+<theme idref="E42" />
+<clue>Taken together, these results suggest that <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF kappa B activation may be an important mechanism for IL-10 suppression of cytokine gene transcription in human monocytes.</clue>
+</event>
+<event id="E44">
+<type class="Transcription" />
+<theme idref="A5" />
+<clue>Taken together, these results suggest that inhibition of NF kappa B activation may be an important mechanism for IL-10 suppression of cytokine gene <clueType>transcription</clueType> <clueLoc>in human monocytes</clueLoc>.</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation" />
+<theme idref="E44" />
+<cause idref="T55" />
+<clue>Taken together, these results suggest that inhibition of NF kappa B activation may be an important mechanism for IL-10 <clueType>suppression</clueType> <linkTheme>of</linkTheme> cytokine gene transcription in human monocytes.</clue>
+</event>
+<event uncertainty="probable" id="E46">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="E43" />
+<clue>Taken together, these results suggest that inhibition of NF kappa B activation may <clueType>be an important mechanism</clueType> <linkTheme>for</linkTheme> IL-10 suppression of cytokine gene transcription in human monocytes.</clue>
+</event>
+<sentence id="S9"><term sem="Protein_molecule" id="T59" lex="IL-4">IL-4</term>, another <term sem="Protein_family_or_group" id="T60" lex="cytokine">cytokine</term> that inhibits <term sem="Other" id="T61" lex="cytokine_mRNA_accumulation"><term sem="RNA_family_or_group" id="T62" lex="cytokine_mRNA">cytokine mRNA</term> accumulation</term> in <term sem="Cell_natural" id="T63" lex="monocyte">monocytes</term>, shows little inhibitory effect on <term sem="Other" id="T64" lex="LPS-induced_NF_kappa_B_activation"><term sem="Lipid" id="T65" lex="LPS">LPS</term>-induced <term sem="Protein_molecule" id="T66" lex="NF_kappa_B">NF kappa B</term> activation</term>.</sentence>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="T66" />
+<cause idref="T65" />
+<clue>IL-4, another cytokine that inhibits cytokine mRNA accumulation in monocytes, shows little inhibitory effect on LPS-<linkCause>induced</linkCause> NF kappa B <clueType>activation</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E48">
+<type class="Negative_regulation" />
+<theme idref="E47" />
+<cause idref="T59" />
+<clue>IL-4, another cytokine that inhibits cytokine mRNA accumulation in monocytes, shows little <clueType>inhibitory effect</clueType> <linkTheme>on</linkTheme> LPS-induced NF kappa B activation.</clue>
+</event>
+<event id="E64">
+<type class="Positive_regulation" />
+<theme idref="T62" />
+<clue>IL-4, another cytokine that inhibits cytokine mRNA <clueType>accumulation</clueType> <clueLoc>in monocytes</clueLoc>, shows little inhibitory effect on LPS-induced NF kappa B activation.</clue>
+</event>
+<event id="E65">
+<type class="Negative_regulation" />
+<theme idref="E64" />
+<cause idref="T59" />
+<clue>IL-4, another cytokine that <clueType>inhibits</clueType> cytokine mRNA accumulation in monocytes, shows little inhibitory effect on LPS-induced NF kappa B activation.</clue>
+</event>
+<sentence id="S10">Further examination reveals that, unlike <term sem="Protein_molecule" id="T67" lex="IL-10">IL-10</term>, <term sem="Protein_molecule" id="T68" lex="IL-4">IL-4</term> enhances <term sem="Other" id="T69" lex="mRNA_degradation"><term sem="RNA_family_or_group" id="T70" lex="mRNA">mRNA</term> degradation</term> and does not suppress <term sem="DNA_domain_or_region" id="A6">cytokine</term> <term sem="Other" id="T71" lex="gene_transcription">gene transcription</term>.</sentence>
+<event id="E49">
+<type class="Negative_regulation" />
+<theme idref="T70" />
+<clue>Further examination reveals that, unlike IL-10, IL-4 enhances mRNA <clueType>degradation</clueType> and does not suppress cytokine gene transcription.</clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation" />
+<theme idref="E49" />
+<cause idref="T68" />
+<clue>Further examination reveals that, unlike IL-10, IL-4 <clueType>enhances</clueType> mRNA degradation and does not suppress cytokine gene transcription.</clue>
+</event>
+<event id="E51">
+<type class="Transcription" />
+<theme idref="A6" />
+<clue>Further examination reveals that, unlike IL-10, IL-4 enhances mRNA degradation and does not suppress cytokine gene <clueType>transcription</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E52">
+<type class="Negative_regulation" />
+<theme idref="E50" />
+<cause idref="T68" />
+<clue>Further examination reveals that, unlike IL-10, IL-4 enhances mRNA degradation and does not <clueType>suppress</clueType> cytokine gene transcription.</clue>
+</event>
+<sentence id="S11">These data indicate that <term sem="Protein_molecule" id="T72" lex="IL-10">IL-10</term> and <term sem="Protein_molecule" id="T73" lex="IL-4">IL-4</term> inhibit <term sem="Other" id="T74" lex="cytokine_production"><term sem="Protein_family_or_group" id="T75" lex="cytokine">cytokine</term> production</term> by different mechanisms.</sentence>
+<event id="E53">
+<type class="Gene_expression" />
+<theme idref="T75" />
+<clue>These data indicate that IL-10 and IL-4 inhibit cytokine <clueType>production</clueType> by different mechanisms.</clue>
+</event>
+<event id="E54">
+<type class="Negative_regulation" />
+<theme idref="E53" />
+<cause idref="T72" />
+<clue>These data indicate that IL-10 and IL-4 <clueType>inhibit</clueType> cytokine production by different mechanisms.</clue>
+</event>
+<event id="E55">
+<type class="Negative_regulation" />
+<theme idref="E53" />
+<cause idref="T73" />
+<clue>These data indicate that IL-10 and IL-4 <clueType>inhibit</clueType> cytokine production by different mechanisms.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

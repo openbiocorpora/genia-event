@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="04/04/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1583734">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1583734</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Specific <term sem="Protein_molecule" id="T1" lex="NF-kappa_B_subunit">NF-kappa B subunits</term> act in concert with <term sem="Protein_molecule" id="T2" lex="Tat">Tat</term> to stimulate <term sem="Other" id="T3" lex="human_immunodeficiency_virus_type_1_transcription"><term sem="Virus" id="T4" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> transcription</term>.</sentence>
+<event id="E1">
+<type class="Correlation" />
+<theme idref="T1" />
+<theme idref="T2" />
+<clue>Specific NF-kappa B subunits <clueType>act in concert</clueType> <linkTheme>with</linkTheme> Tat to stimulate human immunodeficiency virus type 1 transcription.</clue>
+</event>
+<event id="E2">
+<type class="Transcription" />
+<theme idref="T4" />
+<clue>Specific NF-kappa B subunits act in concert with Tat to stimulate human immunodeficiency virus type 1 <clueType>transcription</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue>Specific NF-kappa B subunits act in concert with Tat to <clueType>stimulate</clueType> human immunodeficiency virus type 1 transcription.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_complex" id="T5" lex="NF-kappa_B">NF-kappa B</term> is a <term sem="Protein_complex" id="T6" lex="protein_complex">protein complex</term> which functions in concert with the <term sem="Protein_family_or_group" id="T7" lex="tat-I_gene_product">tat-I gene product</term> to stimulate <term sem="Other" id="T8" lex="human_immunodeficiency_virus_(HIV)_transcription"><term sem="Virus" id="T9" lex="human_immunodeficiency_virus">human immunodeficiency virus</term> (<term sem="Virus" id="T10" lex="HIV">HIV</term>) transcription</term>.</sentence>
+<event id="E4">
+<type class="Correlation" />
+<theme idref="T5" />
+<theme idref="T7" />
+<clue>NF-kappa B is a protein complex which <clueType>functions in concert</clueType> <linkTheme>with</linkTheme> the tat-I gene product to stimulate human immunodeficiency virus (HIV) transcription.</clue>
+</event>
+<event id="E5">
+<type class="Transcription" />
+<theme idref="T10" />
+<clue>NF-kappa B is a protein complex which functions in concert with the tat-I gene product to stimulate human immunodeficiency virus (HIV) <clueType>transcription</clueType>.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E4" />
+<clue>NF-kappa B is a protein complex which functions in concert with the tat-I gene product to <clueType>stimulate</clueType> human immunodeficiency virus (HIV) transcription.</clue>
+</event>
+<sentence id="S3">To determine whether specific members of the <term sem="Protein_family_or_group" id="T11" lex="NF-kappa_B_family"><term sem="Protein_molecule" id="T12" lex="NF-kappa_B">NF-kappa B</term> family</term> contribute to this effect, we have examined the abilities of different <term sem="Protein_molecule" id="T13" lex="NF-kappa_B_subunit"><term sem="Protein_molecule" id="T14" lex="NF-kappa_B">NF-kappa B</term> subunits</term> to act with <term sem="Protein_molecule" id="T15" lex="Tat-I">Tat-I</term> to stimulate transcription of <term sem="Virus" id="T16" lex="HIV">HIV</term> in <term sem="Cell_natural" id="T17" lex="Jurkat_T-leukemia_cell">Jurkat T-leukemia cells</term>.</sentence>
+<event uncertainty="doubtful" id="E101">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T11" />
+<clue>To determine whether specific members of the NF-kappa B family <clueType>contribute</clueType> <linkTheme>to</linkTheme> <corefTheme>this effect,</corefTheme> we have examined the abilities of different NF-kappa B subunits to act with Tat-I to stimulate transcription of HIV in Jurkat T-leukemia cells.</clue>
+</event>
+<event id="E7">
+<type class="Transcription" />
+<theme idref="T16" />
+<clue>To determine whether specific members of the NF-kappa B family contribute to this effect, we have examined the abilities of different NF-kappa B subunits to act with Tat-I to stimulate <clueType>transcription</clueType> <linkTheme>of</linkTheme> HIV <clueLoc>in Jurkat T-leukemia cells</clueLoc>.</clue>
+</event>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="T13" />
+<theme idref="T15" />
+<clue>To determine whether specific members of the NF-kappa B family contribute to this effect, we have examined the abilities of different NF-kappa B subunits to <clueType>act</clueType> <linkTheme>with</linkTheme> Tat-I to stimulate transcription of HIV in Jurkat T-leukemia cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E9">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E8" />
+<clue>To determine whether specific members of the NF-kappa B family contribute to this effect, we have examined the abilities of different NF-kappa B subunits to act with Tat-I to <clueType>stimulate</clueType> transcription of HIV in Jurkat T-leukemia cells.</clue>
+</event>
+<sentence id="S4">We have found that the <term sem="Protein_molecule" id="T18" lex="p49(100)_DNA_binding_subunit"><term sem="Protein_molecule" id="A102">p49(100)</term> <term sem="DNA_domain_or_region" id="A101">DNA</term> binding subunit</term>, together with <term sem="Protein_molecule" id="T19" lex="p65">p65</term>, can act in concert with <term sem="Protein_molecule" id="T20" lex="Tat-I">Tat-I</term> to stimulate the expression of <term sem="DNA_molecule" id="T21" lex="HIV-CAT_plasmid"><term sem="Virus" id="T22" lex="HIV">HIV</term>-CAT plasmid</term>.</sentence>
+<event id="E10">
+<type class="Correlation" />
+<theme idref="T18" />
+<theme idref="T19" />
+<theme idref="T20" />
+<clue>We have found that the p49(100) DNA binding subunit, <linkTheme>together with</linkTheme> p65, can <clueType>act in concert</clueType> <linkTheme>with</linkTheme> Tat-I to stimulate the expression of HIV-CAT plasmid.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>We have found that the p49(100) DNA binding subunit, together with p65, can act in concert with Tat-I to stimulate the <clueType>expression</clueType> <linkTheme>of</linkTheme> HIV-CAT plasmid.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="E10" />
+<clue>We have found that the p49(100) DNA binding subunit, together with p65, can act in concert with Tat-I to <clueType>stimulate</clueType> the expression of HIV-CAT plasmid.</clue>
+</event>
+<event id="E102">
+<type class="Binding" />
+<theme idref="A101" />
+<theme idref="A102" />
+<clue>We have found that the p49(100) DNA <clueType>binding subunit</clueType>, together with p65, can act in concert with Tat-I to stimulate the expression of HIV-CAT plasmid.</clue>
+</event>
+<sentence id="S5">Little effect was observed with <term sem="Protein_molecule" id="T23" lex="50-kDa_form">50-kDa forms of <term sem="Protein_molecule" id="T24" lex="p105">p105 <term sem="Protein_complex" id="T25" lex="NF-kappa_B">NF-kappa B</term></term></term> or <term sem="Protein_molecule" id="T26" lex="rel">rel</term>, in combination with <term sem="Protein_molecule" id="T27" lex="p65">p65</term> or <term sem="Protein_molecule" id="T28" lex="full-length_c-rel">full-length c-rel</term>, which do not stimulate the <term sem="DNA_domain_or_region" id="T29" lex="HIV_enhancer"><term sem="Virus" id="T30" lex="HIV">HIV</term> enhancer</term> in these cells.</sentence>
+<event assertion="non-exist" id="E13">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T23" />
+<cause idref="T27" />
+<clue>Little <clueType>effect</clueType> was observed <linkCause>with</linkCause> 50-kDa forms of p105 NF-kappa B or rel, <linkCause>in combination with</linkCause> p65 or full-length c-rel, which do not stimulate the HIV enhancer in these cells.</clue>
+<comment>NER T23 T24 T25 mod ,TPS T23, No corefTheme</comment>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T23" />
+<cause idref="T28" />
+<clue>Little <clueType>effect</clueType> was observed <linkCause>with</linkCause> 50-kDa forms of p105 NF-kappa B or rel, <linkCause>in combination with</linkCause> p65 or full-length c-rel, which do not stimulate the HIV enhancer in these cells.</clue>
+<comment>No corefTheme</comment>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T26" />
+<cause idref="T27" />
+<clue>Little <clueType>effect</clueType> was observed <linkCause>with</linkCause> 50-kDa forms of p105 NF-kappa B or rel, <linkCause>in combination with</linkCause> p65 or full-length c-rel, which do not stimulate the HIV enhancer in these cells.</clue>
+<comment>No corefTheme</comment>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T26" />
+<cause idref="T28" />
+<clue>Little <clueType>effect</clueType> was observed <linkCause>with</linkCause> 50-kDa forms of p105 NF-kappa B or rel, <linkCause>in combination with</linkCause> p65 or full-length c-rel, which do not stimulate the HIV enhancer in these cells.</clue>
+<comment>No corefTheme</comment>
+</event>
+<event assertion="non-exist" id="E17">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="T23" />
+<clue>Little effect was observed with 50-kDa forms of p105 NF-kappa B or rel, in combination with p65 or full-length c-rel, which do not <clueType>stimulate</clueType> the HIV enhancer <clueLoc>in these cells</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="T26" />
+<clue>Little effect was observed with 50-kDa forms of p105 NF-kappa B or rel, in combination with p65 or full-length c-rel, which do not <clueType>stimulate</clueType> the HIV enhancer <clueLoc>in these cells</clueLoc>.</clue>
+</event>
+<sentence id="S6">These findings suggest that the combination of <term sem="Protein_molecule" id="T31" lex="p49(100)">p49(100)</term> and <term sem="Protein_molecule" id="T32" lex="p65">p65</term> <term sem="Protein_complex" id="T33" lex="NF-kappa_B">NF-kappa B</term> can act in concert with the <term sem="Protein_molecule" id="T34" lex="tat-I_gene_product">tat-I gene product</term> to stimulate the synthesis of <term sem="RNA_family_or_group" id="T35" lex="HIV_RNA"><term sem="Virus" id="T36" lex="HIV">HIV</term> RNA</term>.</sentence>
+<event id="E19">
+<type class="Correlation" />
+<theme idref="T31" />
+<theme idref="T32" />
+<theme idref="T34" />
+<clue>These findings suggest that the <linkTheme>combination of</linkTheme> p49(100) and p65 NF-kappa B can <clueType>act in concert</clueType> <linkTheme>with</linkTheme> the tat-I gene product to stimulate the synthesis of HIV RNA.</clue>
+<comment>NER T33 mod</comment>
+</event>
+<event id="E20">
+<type class="Transcription" />
+<theme idref="T35" />
+<clue>These findings suggest that the combination of p49(100) and p65 NF-kappa B can act in concert with the tat-I gene product to stimulate the <clueType>synthesis</clueType> <linkTheme>of</linkTheme> HIV RNA.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E19" />
+<clue>These findings suggest that the combination of p49(100) and p65 NF-kappa B can act in concert with the tat-I gene product to <clueType>stimulate</clueType> the synthesis of HIV RNA.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

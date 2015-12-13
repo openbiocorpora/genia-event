@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="12/03/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8096091">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8096091</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="NF-kappa_B">NF-kappa B</term> controls expression of inhibitor <term sem="Protein_molecule" id="T2" lex="I_kappa_B_alpha"><term sem="Protein_molecule" id="T3" lex="I_kappa_B">I kappa B</term> alpha</term>: evidence for an <term sem="Other" id="T4" lex="inducible_autoregulatory_pathway">inducible autoregulatory pathway</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>NF-kappa B controls <clueType>expression</clueType> <linkTheme>of</linkTheme> inhibitor I kappa B alpha: evidence for an inducible autoregulatory pathway.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>NF-kappa B <clueType>controls</clueType> expression of inhibitor I kappa B alpha: evidence for an inducible autoregulatory pathway.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The eukaryotic <term sem="Protein_family_or_group" id="T5" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T6" lex="nuclear_factor-kappa_B">nuclear factor-kappa B</term> (<term sem="Protein_molecule" id="T7" lex="NF-kappa_B">NF-kappa B</term>) participates in many parts of the <term sem="Other" id="A3">genetic program</term> mediating <term sem="Other" id="T8" lex="T_lymphocyte_activation"><term sem="Cell_natural" id="T9" lex="T_lymphocyte">T lymphocyte</term> <term sem="Other" id="A1">activation</term></term> and <term sem="Other" id="A2">growth</term>.</sentence>
+<event id="E51">
+<type class="Physiological_process" />
+<theme idref="T9" />
+<clue>The eukaryotic transcription factor nuclear factor-kappa B (NF-kappa B) participates in many parts of the genetic program mediating T lymphocyte <clueType>activation</clueType> and growth.</clue>
+</event>
+<event id="E52">
+<type class="Cellular_physiological_process" />
+<theme idref="T9" />
+<clue>The eukaryotic transcription factor nuclear factor-kappa B (NF-kappa B) participates in many parts of the genetic program mediating T lymphocyte activation and <clueType>growth</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E51" />
+<cause idref="A3" />
+<clue>The eukaryotic transcription factor nuclear factor-kappa B (NF-kappa B) participates in many parts of the genetic program <clueType>mediating</clueType> T lymphocyte activation and growth.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E52" />
+<cause idref="A3" />
+<clue>The eukaryotic transcription factor nuclear factor-kappa B (NF-kappa B) participates in many parts of the genetic program <clueType>mediating</clueType> T lymphocyte activation and growth.</clue>
+</event>
+<event id="E5">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="T7" />
+<clue>The eukaryotic transcription factor nuclear factor-kappa B (NF-kappa B) <clueType>participates</clueType> <linkTheme>in</linkTheme> many parts of the genetic program mediating T lymphocyte activation and growth.</clue>
+</event>
+<event id="E6">
+<type class="Correlation" />
+<theme idref="E4" />
+<theme idref="T7" />
+<clue>The eukaryotic transcription factor nuclear factor-kappa B (NF-kappa B) <clueType>participates</clueType> <linkTheme>in</linkTheme> many parts of the genetic program mediating T lymphocyte activation and growth.</clue>
+</event>
+<sentence id="S3">Nuclear expression of <term sem="Protein_molecule" id="T10" lex="NF-kappa_B">NF-kappa B</term> occurs after its induced dissociation from its cytoplasmic inhibitor <term sem="Protein_molecule" id="T11" lex="I_kappa_B_alpha">I kappa B alpha</term>.</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue><clueLoc>Nuclear</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> NF-kappa B occurs after its induced dissociation from its cytoplasmic inhibitor I kappa B alpha.</clue>
+</event>
+<event id="E8">
+<type />
+<theme idref="T10" />
+<theme idref="T11" />
+<clue>Nuclear expression of NF-kappa B occurs after its induced <clueType>dissociation</clueType> <linkTheme>from</linkTheme> its cytoplasmic inhibitor I kappa B alpha.</clue>
+<comment>SOO</comment>
+</event>
+<event id="E53">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<clue>Nuclear expression of NF-kappa B occurs after its <clueType>induced</clueType> dissociation from its cytoplasmic inhibitor I kappa B alpha.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E9" />
+<clue>Nuclear expression of NF-kappa B <clueType>occurs</clueType> <linkCause>after</linkCause> its induced dissociation from its cytoplasmic inhibitor I kappa B alpha.</clue>
+</event>
+<sentence id="S4"><term sem="Organic_compound_other" id="T12" lex="phorbol_ester">Phorbol ester</term> and <term sem="Protein_molecule" id="T13" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term> induction of <term sem="Protein_molecule" id="T14" lex="nuclear_NF-kappa_B">nuclear <term sem="Protein_molecule" id="T15" lex="NF-kappa_B">NF-kappa B</term></term> is associated with both the degradation of performed <term sem="Protein_molecule" id="T16" lex="I_kappa_B_alpha">I kappa B alpha</term> and the activation of <term sem="Other" id="T17" lex="I_kappa_B_alpha_gene_expression"><term sem="Protein_molecule" id="A5"><term sem="Protein_molecule" id="T18" lex="I_kappa_B_alpha"><term sem="Protein_molecule" id="T19" lex="I_kappa_B">I kappa B</term></term> alpha</term> gene expression</term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<cause idref="T12" />
+<clue>Phorbol ester and tumor necrosis factor-alpha <clueType>induction</clueType> <linkTheme>of</linkTheme> nuclear NF-kappa B is associated with both the degradation of performed I kappa B alpha and the activation of I kappa B alpha gene expression.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<cause idref="T13" />
+<clue>Phorbol ester and tumor necrosis factor-alpha <clueType>induction</clueType> <linkTheme>of</linkTheme> nuclear NF-kappa B is associated with both the degradation of performed I kappa B alpha and the activation of I kappa B alpha gene expression.</clue>
+</event>
+<event id="E12">
+<type class="Protein_catabolism" />
+<theme idref="T16" />
+<clue>Phorbol ester and tumor necrosis factor-alpha induction of nuclear NF-kappa B is associated with both the <clueType>degradation</clueType> <linkTheme>of</linkTheme> performed I kappa B alpha and the activation of I kappa B alpha gene expression.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="A5" />
+<clue>Phorbol ester and tumor necrosis factor-alpha induction of nuclear NF-kappa B is associated with both the degradation of performed I kappa B alpha and the activation of I kappa B alpha gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<clue>Phorbol ester and tumor necrosis factor-alpha induction of nuclear NF-kappa B is associated with both the degradation of performed I kappa B alpha and the <clueType>activation</clueType> <linkTheme>of</linkTheme> I kappa B alpha gene expression.</clue>
+</event>
+<event id="E15">
+<type class="Correlation" />
+<theme idref="E10" />
+<theme idref="E12" />
+<clue>Phorbol ester and tumor necrosis factor-alpha induction of nuclear NF-kappa B is <clueType>associated</clueType> <linkTheme>with</linkTheme> both the degradation of performed I kappa B alpha and the activation of I kappa B alpha gene expression.</clue>
+</event>
+<event id="E16">
+<type class="Correlation" />
+<theme idref="E11" />
+<theme idref="E12" />
+<clue>Phorbol ester and tumor necrosis factor-alpha induction of nuclear NF-kappa B is <clueType>associated</clueType> <linkTheme>with</linkTheme> both the degradation of performed I kappa B alpha and the activation of I kappa B alpha gene expression.</clue>
+</event>
+<event id="E17">
+<type class="Correlation" />
+<theme idref="E10" />
+<theme idref="E14" />
+<clue>Phorbol ester and tumor necrosis factor-alpha induction of nuclear NF-kappa B is <clueType>associated</clueType> <linkTheme>with</linkTheme> both the degradation of performed I kappa B alpha and the activation of I kappa B alpha gene expression.</clue>
+</event>
+<event id="E18">
+<type class="Correlation" />
+<theme idref="E11" />
+<theme idref="E14" />
+<clue>Phorbol ester and tumor necrosis factor-alpha induction of nuclear NF-kappa B is <clueType>associated</clueType> <linkTheme>with</linkTheme> both the degradation of performed I kappa B alpha and the activation of I kappa B alpha gene expression.</clue>
+</event>
+<sentence id="S5">Transfection studies indicate that the <term sem="DNA_domain_or_region" id="T20" lex="I_kappa_B_alpha_gene"><term sem="Protein_molecule" id="T21" lex="I_kappa_B_alpha">I kappa B alpha</term> gene</term> is specifically induced by the <term sem="Protein_molecule" id="T22" lex="65-kilodalton_transactivating_subunit">65-kilodalton transactivating subunit</term> of <term sem="Protein_molecule" id="T23" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<cause idref="T22" />
+<clue>Transfection studies indicate that the I kappa B alpha gene is specifically <clueType>induced</clueType> <linkCause>by</linkCause> the 65-kilodalton transactivating subunit of NF-kappa B.</clue>
+</event>
+<sentence id="S6">Association of the newly synthesized <term sem="Protein_molecule" id="T24" lex="I_kappa_B_alpha">I kappa B alpha</term> with <term sem="Protein_molecule" id="T25" lex="p65">p65</term> restores intracellular inhibition of <term sem="Other" id="T26" lex="NF-kappa_B_DNA_binding_activit"><term sem="Protein_molecule" id="T27" lex="NF-kappa_B">NF-kappa B</term> <term sem="DNA_molecule" id="A7">DNA</term> binding activity</term> and prolongs the survival of this labile inhibitor.</sentence>
+<event id="E20">
+<type class="Binding" />
+<theme idref="T24" />
+<theme idref="T25" />
+<clue><clueType>Association</clueType> <linkTheme>of</linkTheme> the newly synthesized I kappa B alpha <linkTheme>with</linkTheme> p65 restores intracellular inhibition of NF-kappa B DNA binding activity and prolongs the survival of this labile inhibitor.</clue>
+</event>
+<event id="E21">
+<type class="Binding" />
+<theme idref="T27" />
+<theme idref="A7" />
+<clue>Association of the newly synthesized I kappa B alpha with p65 restores intracellular inhibition of NF-kappa B DNA <clueType>binding activity</clueType> and prolongs the survival of this labile inhibitor.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="E20" />
+<clue>Association of the newly synthesized I kappa B alpha with p65 restores intracellular <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B DNA binding activity and prolongs the survival of this labile inhibitor.</clue>
+</event>
+<event id="E23">
+<type class="Physiological_process" />
+<theme idref="T24" />
+<clue>Association of the newly synthesized I kappa B alpha with p65 restores intracellular inhibition of NF-kappa B DNA binding activity and prolongs the <clueType>survival</clueType> <linkTheme>of</linkTheme> <corefTheme>this labile inhibitor</corefTheme>.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E20" />
+<clue>Association of the newly synthesized I kappa B alpha with p65 restores intracellular inhibition of NF-kappa B DNA binding activity and <clueType>prolongs</clueType> the survival of this labile inhibitor.</clue>
+</event>
+<sentence id="S7">Together, these results show that <term sem="Protein_molecule" id="T28" lex="NF-kappa_B">NF-kappa B</term> controls the expression of <term sem="Protein_molecule" id="A11"><term sem="Protein_molecule" id="T29" lex="I_kappa_B_alpha">I kappa B</term> alpha</term> by means of an <term sem="Other" id="T30" lex="inducible_autoregulatory_pathway">inducible autoregulatory pathway</term>.</sentence>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref="A11" />
+<clue>Together, these results show that NF-kappa B controls the <clueType>expression</clueType> <linkTheme>of</linkTheme> I kappa B alpha by means of an inducible autoregulatory pathway.</clue>
+</event>
+<event id="E26">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="T28" />
+<clue>Together, these results show that NF-kappa B <clueType>controls</clueType> the expression of I kappa B alpha by means of an inducible autoregulatory pathway.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

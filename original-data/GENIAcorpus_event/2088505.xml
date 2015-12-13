@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/04/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2088505" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2088505</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A novel <term sem="Protein_family_or_group" id="T1" lex="T-cell_trans-activator">T-cell trans-activator</term> that recognizes a <term sem="DNA_domain_or_region" id="T2" lex="phorbol_ester-inducible_element">phorbol ester-inducible element</term> of the <term sem="DNA_domain_or_region" id="T3" lex="interleukin-2_promoter"><term sem="Protein_molecule" id="T4" lex="interleukin-2">interleukin-2</term> promoter</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref1="T3" idref="T2" />
+<theme idref="T1" />
+<clue>A novel T-cell trans-activator that <clueType>recognizes</clueType> a phorbol ester-inducible element of the interleukin-2 promoter.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="DNA_domain_or_region" id="T5" lex="interleukin_2_(IL-2)_gene_promoter"><term sem="Protein_molecule" id="T6" lex="interleukin_2">interleukin 2</term> (<term sem="Protein_molecule" id="T7" lex="IL-2">IL-2</term>) gene promoter</term> is recognized by several <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T8" lex="(AND cell-type-specific_transcriptional_regulator ubiquitous_transcriptional_regulator)"><frag id="F1"><term sem="Protein_family_or_group" id="A1">cell-type-specific</term></frag> and <frag id="F2"><term sem="Protein_family_or_group" id="A2">ubiquitous</term></frag> <frag id="F3"><term sem="Protein_family_or_group" id="A3">transcriptional regulators</term></frag></cons> that integrate <term sem="Other" id="A20"><term sem="Other" id="A5">information</term> transmitted by <term sem="Other" id="A4">various signaling systems</term></term> leading to <term sem="Other" id="T9" lex="IL-2_production"><term sem="Protein_molecule" id="T10" lex="IL-2">IL-2</term> production</term> and <term sem="Other" id="T11" lex="T-cell_activation"><term sem="Cell_natural" id="T12" lex="T-cell">T-cell</term> activation</term>.</sentence>
+<event id="E2">
+<type class="Binding" />
+<theme idref="T5" />
+<theme idref1="A3" idref="A1" />
+<clue>The interleukin 2 (IL-2) gene promoter is <clueType>recognized</clueType> <linkTheme>by</linkTheme> several cell-type-specific and ubiquitous transcriptional regulators that integrate information transmitted by various signaling systems leading to IL-2 production and T-cell activation.</clue>
+</event>
+<event id="E3">
+<type class="Binding" />
+<theme idref="T5" />
+<theme idref1="A3" idref="A2" />
+<clue>The interleukin 2 (IL-2) gene promoter is <clueType>recognized</clueType> <linkTheme>by</linkTheme> several cell-type-specific and ubiquitous transcriptional regulators that integrate information transmitted by various signaling systems leading to IL-2 production and T-cell activation.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>The interleukin 2 (IL-2) gene promoter is recognized by several cell-type-specific and ubiquitous transcriptional regulators that integrate information transmitted by various signaling systems leading to IL-2 <clueType>production</clueType> and T-cell activation.</clue>
+</event>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="T12" />
+<clue>The interleukin 2 (IL-2) gene promoter is recognized by several cell-type-specific and ubiquitous transcriptional regulators that integrate information transmitted by various signaling systems leading to IL-2 production and T-cell <clueType>activation</clueType>.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E14" />
+<clue>The interleukin 2 (IL-2) gene promoter is recognized by several cell-type-specific and ubiquitous transcriptional regulators that integrate information transmitted by various signaling systems <clueType>leading</clueType> <linkTheme>to</linkTheme> IL-2 production and T-cell activation.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E14" />
+<clue>The interleukin 2 (IL-2) gene promoter is recognized by several cell-type-specific and ubiquitous transcriptional regulators that integrate information transmitted by various signaling systems <clueType>leading</clueType> <linkTheme>to</linkTheme> IL-2 production and T-cell activation.</clue>
+</event>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="A20" />
+<cause idref1="A3" idref="A1" />
+<clue>The interleukin 2 (IL-2) gene promoter is recognized by several cell-type-specific and ubiquitous transcriptional regulators that <clueType>integrate</clueType> information transmitted by various signaling systems leading to IL-2 production and T-cell activation.</clue>
+<comment>TPS: A20</comment>
+</event>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="A20" />
+<cause idref1="A3" idref="A2" />
+<clue>The interleukin 2 (IL-2) gene promoter is recognized by several cell-type-specific and ubiquitous transcriptional regulators that <clueType>integrate</clueType> information transmitted by various signaling systems leading to IL-2 production and T-cell activation.</clue>
+<comment>TPS: A20</comment>
+</event>
+<event id="E16">
+<type class="Cell_communication" />
+<theme idref="A5" />
+<theme idref="A4" />
+<clue>The interleukin 2 (IL-2) gene promoter is recognized by several cell-type-specific and ubiquitous transcriptional regulators that integrate information <clueType>transmitted</clueType> <linkTheme>by</linkTheme> various signaling systems leading to IL-2 production and T-cell activation.</clue>
+</event>
+<sentence id="S3">Using a combination of <term sem="Other" id="T13" lex="transfection">transfection</term>, protein-DNA binding, and <term sem="Other" id="T14" lex="in_vitro_transcription_method">in vitro transcription methods</term>, we have discovered the <term sem="Protein_family_or_group" id="T15" lex="novel_T-cell-specific_transcriptional_activator">novel T-cell-specific transcriptional activator</term> <term sem="Protein_molecule" id="T16" lex="TCF-1">TCF-1</term> (for <term sem="Protein_molecule" id="T17" lex="T-Cell_Factor-1">T-Cell Factor-1</term>), which recognizes a <term sem="DNA_domain_or_region" id="T18" lex="T-cell-specific_response_element">T-cell-specific response element</term> (<term sem="DNA_domain_or_region" id="T19" lex="TCE">TCE</term>) located <term sem="DNA_domain_or_region" id="A21">within the <term sem="DNA_domain_or_region" id="T20" lex="IL-2_promoter"><term sem="Protein_molecule" id="T21" lex="IL-2">IL-2</term> promoter</term></term>.</sentence>
+<event id="E8">
+<type class="Binding" />
+<theme idref="T16" />
+<theme idref1="A21" idref="T19" />
+<clue><clueExperiment>Using a combination of transfection, protein-DNA binding, and in vitro transcription methods</clueExperiment>, we have discovered the novel T-cell-specific transcriptional activator TCF-1 (for T-Cell Factor-1), which <clueType>recognizes</clueType> a T-cell-specific response element (TCE) located within the IL-2 promoter.</clue>
+<comment>TPS: A20</comment>
+</event>
+<sentence id="S4">Although the <term sem="DNA_domain_or_region" id="T22" lex="TCE">TCE</term> is similar in sequence to a <term sem="DNA_domain_or_region" id="T23" lex="consensus_NF_kappa_B_site">consensus <term sem="DNA_domain_or_region" id="T24" lex="NF_kappa_B_site"><term sem="Protein_molecule" id="T25" lex="NF_kappa_B">NF kappa B</term> site</term></term>, several criteria indicate that <term sem="Protein_molecule" id="T26" lex="TCF-1">TCF-1</term> is distinct from <term sem="Protein_molecule" id="T27" lex="NF_kappa_B">NF kappa B</term>.</sentence>
+<sentence id="S5">However, like <term sem="Protein_molecule" id="T28" lex="NF_kappa_B">NF kappa B</term>, <term sem="Protein_molecule" id="T29" lex="TCF-1">TCF-1</term> activity is induced by <term sem="Organic_compound_other" id="T30" lex="phorbol_ester">phorbol esters</term> and other <term sem="Other" id="T31" lex="T-cell_activator">T-cell activators</term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref="T30" />
+<clue>However, like NF kappa B, TCF-1 activity is <clueType>induced</clueType> <linkCause>by</linkCause> phorbol esters and other T-cell activators.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref="T31" />
+<clue>However, like NF kappa B, TCF-1 activity is <clueType>induced</clueType> <linkCause>by</linkCause> phorbol esters and other T-cell activators.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="T30" />
+<clue>However, like NF kappa B, TCF-1 activity is <clueType>induced</clueType> <linkCause>by</linkCause> phorbol esters and other T-cell activators.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="T31" />
+<clue>However, like NF kappa B, TCF-1 activity is <clueType>induced</clueType> <linkCause>by</linkCause> phorbol esters and other T-cell activators.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

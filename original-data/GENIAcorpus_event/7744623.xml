@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="02/12/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7744623" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7744623</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="differential_induction">Differential induction</term> of the <term sem="Protein_complex" id="T2" lex="NF-AT_complex">NF-AT complex</term> during <term sem="Other" id="T3" lex="restimulation">restimulation</term> and the induction of <term sem="Other" id="T4" lex="T-cell_anergy"><term sem="Cell_natural" id="A8">T-cell</term> anergy</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>Differential <clueType>induction</clueType> <linkTheme>of</linkTheme> the NF-AT complex <clueTime>during restimulation</clueTime> and the induction of T-cell anergy.</clue>
+</event>
+<event id="E9">
+<type class="Physiological_process" />
+<theme idref="A8" />
+<clue>Differential induction of the NF-AT complex during <clueType>restimulation</clueType> and the induction of T-cell anergy.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<clue>Differential induction of the NF-AT complex during restimulation and the <clueType>induction</clueType> <linkTheme>of</linkTheme> T-cell anergy.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Stimulation of <term sem="Cell_cultured" id="T5" lex="human_CD4+_T-cell_clone">human CD4+ T-cell clones</term> through the <term sem="Protein_family_or_group" id="T6" lex="T-cell_receptor">T-cell receptor</term> (<term sem="Protein_family_or_group" id="T7" lex="TcR">TcR</term>) by high doses of specific <term sem="Peptide" id="T8" lex="peptide">peptide</term> results in the induction of a long-lived state of <term sem="Other" id="T9" lex="nonresponsiveness">nonresponsiveness</term> that has been called <term sem="Other" id="T10" lex="anergy">anergy</term>.</sentence>
+<event id="E3">
+<type class="Physiological_process" />
+<theme idref="T5" />
+<cause idref="T8" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> human CD4+ T-cell clones through the T-cell receptor (TcR) <linkCause>by</linkCause> high doses of specific peptide results in the induction of a long-lived state of nonresponsiveness that has been called anergy.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T7" />
+<clue>Stimulation of human CD4+ T-cell clones <linkCause>through</linkCause> the T-cell receptor (TcR) by high doses of specific peptide results in the induction of a long-lived state of nonresponsiveness that has been called anergy.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="E3" />
+<clue>Stimulation of human CD4+ T-cell clones through the T-cell receptor (TcR) by high doses of specific peptide <clueType>results in the induction</clueType> <linkTheme>of</linkTheme> a <corefTheme>long-lived state of nonresponsiveness</corefTheme> that has been called anergy.</clue>
+</event>
+<sentence id="S3">During the induction of <term sem="Other" id="T11" lex="anergy">anergy</term>, <term sem="Cell_natural" id="T12" lex="T_cell">T cells</term> are phenotypically similar to <term sem="Cell_natural" id="A1">cells</term> responding to an <term sem="Other" id="T13" lex="immunogenic_stimulus">immunogenic stimulus</term>.</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<clue>During the <clueType>induction</clueType> <linkTheme>of</linkTheme> anergy, <clueLoc>T cells</clueLoc> are phenotypically similar to cells responding to an immunogenic stimulus.</clue>
+</event>
+<event id="E7">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<cause idref="T13" />
+<clue>During the induction of anergy, T cells are phenotypically similar to cells <clueType>responding</clueType> <linkCause>to</linkCause> an immunogenic stimulus.</clue>
+</event>
+<sentence id="S4">The amount of <term sem="Protein_family_or_group" id="T14" lex="TcR">TcR</term> at the cell surface is downmodulated, whereas the <cons sem="(AND Protein_molecule Protein_molecule)" id="T15" lex="(AND CD2_receptor CD25_receptor)"><frag id="F1"><term sem="Protein_molecule" id="A2">CD2</term></frag> and <frag id="F2"><term sem="Protein_molecule" id="A3">CD25</term></frag> <frag id="F3"><term sem="Protein_molecule" id="A4">receptors</term></frag></cons> are increased.</sentence>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="T14" />
+<clue>The amount <linkTheme>of</linkTheme> TcR <clueLoc>at the cell surface</clueLoc> is <clueType>downmodulated</clueType>, whereas the CD2 and CD25 receptors are increased.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref1="A4" idref="A2" />
+<clue>The amount of TcR <clueLoc>at the cell surface</clueLoc> is downmodulated, whereas the CD2 and CD25 receptors are <clueType>increased</clueType>.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref1="A4" idref="A3" />
+<clue>The amount of TcR <clueLoc>at the cell surface</clueLoc> is downmodulated, whereas the CD2 and CD25 receptors are <clueType>increased</clueType>.</clue>
+</event>
+<sentence id="S5">When restimulated, however, <term sem="Cell_natural" id="T16" lex="anergic_T_cell">anergic T cells</term> fail to up-regulate transcription of the <term sem="DNA_domain_or_region" id="T17" lex="IL-2_gene">IL-2 gene</term> and in consequence do not produce <term sem="Protein_molecule" id="T18" lex="IL-2">IL-2</term>.</sentence>
+<event id="E14">
+<type class="Physiological_process" />
+<theme idref="T16" />
+<clue>When <clueType>restimulated</clueType>, however, anergic T cells fail to up-regulate transcription of the IL-2 gene and in consequence do not produce IL-2.</clue>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="E14" />
+<clue>When restimulated, however, anergic T cells fail to <clueType>up-regulate</clueType> transcription of the IL-2 gene and in consequence do not produce IL-2.</clue>
+</event>
+<event id="E16">
+<type class="Transcription" />
+<theme idref="T17" />
+<clue>When restimulated, however, anergic T cells fail to up-regulate <clueType>transcription</clueType> <linkTheme>of</linkTheme> the IL-2 gene and in consequence do not produce IL-2.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="E15" />
+<clue>When restimulated, however, anergic T cells fail to up-regulate transcription of the IL-2 gene and <linkCause>in consequence</linkCause> do not produce IL-2.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Gene_expression" />
+<theme idref="T18" />
+<clue>When restimulated, however, anergic T cells fail to up-regulate transcription of the IL-2 gene and in consequence do not <clueType>produce</clueType> IL-2.</clue>
+</event>
+<sentence id="S6">In this study, we have compared the ability of various <term sem="Protein_family_or_group" id="T19" lex="transcription_factor">transcription factors</term> to bind to their appropriate <term sem="DNA_domain_or_region" id="A7">site on DNA</term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref="A7" />
+<clue>In this study, we have compared the ability of various transcription factors to <clueType>bind</clueType> <linkTheme>to</linkTheme> their appropriate site on DNA.</clue>
+<comment>TPS: A7</comment>
+</event>
+<sentence id="S7">Factors were isolated from the <term sem="Cell_component" id="T20" lex="nuclei">nuclei</term> of <term sem="Cell_natural" id="T21" lex="T_cell">T cells</term> that were in the induction phase of <term sem="Other" id="T22" lex="anergy">anergy</term> or were undergoing activation.</sentence>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<clue>Factors were isolated from the nuclei of <clueLoc>T cells</clueLoc> that were in the <clueType>induction</clueType> phase <linkTheme>of</linkTheme> anergy or were undergoing activation.</clue>
+</event>
+<event id="E21">
+<type class="Physiological_process" />
+<theme idref="T21" />
+<clue>Factors were isolated from the nuclei of T cells that were in the induction phase of anergy or were <clueType>undergoing activation</clueType>.</clue>
+</event>
+<sentence id="S8">The pattern of <term sem="Other" id="T23" lex="binding_activity">binding activity</term> in restimulated <term sem="Cell_natural" id="T24" lex="T_cell">T cells</term> is consistent with the pattern that has previously been shown to regulate <term sem="Other" id="T25" lex="T-cell-specific_expression">T-cell-specific expression</term> of the <term sem="Protein_molecule" id="T26" lex="IL-2">IL-2</term> and the <term sem="DNA_domain_or_region" id="A5">beta chain of the <term sem="DNA_family_or_group" id="T27" lex="TcR_gene"><term sem="Protein_family_or_group" id="T28" lex="TcR">TcR</term> genes</term></term>.</sentence>
+<event id="E22">
+<type class="Physiological_process" />
+<theme idref="T24" />
+<clue>The pattern of binding activity in <clueType>restimulated</clueType> T cells is consistent with the pattern that has previously been shown to regulate T-cell-specific expression of the IL-2 and the beta chain of the TcR genes.</clue>
+</event>
+<event id="E23">
+<type class="Regulation" />
+<theme idref="E24" />
+<cause idref="T23" />
+<clue>The pattern of binding activity <clueLoc>in restimulated T cells</clueLoc> is consistent with the pattern that has previously been shown to <clueType>regulate</clueType> T-cell-specific expression of the IL-2 and the beta chain of the TcR genes.</clue>
+</event>
+<event id="E27">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="T23" />
+<clue>The pattern of binding activity <clueLoc>in restimulated T cells</clueLoc> is consistent with the pattern that has previously been shown to <clueType>regulate</clueType> T-cell-specific expression of the IL-2 and the beta chain of the TcR genes.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>The pattern of binding activity in restimulated T cells is consistent with the pattern that has previously been shown to regulate <clueLoc>T-cell</clueLoc>-specific <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL-2 and the beta chain of the TcR genes.</clue>
+</event>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref="A5" />
+<clue>The pattern of binding activity in restimulated T cells is consistent with the pattern that has previously been shown to regulate <clueLoc>T-cell</clueLoc>-specific <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL-2 and the beta chain of the TcR genes.</clue>
+<comment>TPS: A5</comment>
+</event>
+<sentence id="S9">The measured binding to a <term sem="DNA_domain_or_region" id="T29" lex="TCF-1_site">TCF-1 site</term> is the same in the <term sem="Cell_component" id="T30" lex="nuclei">nuclei</term> of <cons sem="(AND Cell_natural Cell_natural Cell_natural)" id="T31" lex="(AND resting_cell activated_cell anergized_cell)"><frag id="F4">resting</frag>, <frag id="F5">activated</frag>, and <frag id="F6">anergized</frag> <frag id="F7">cells</frag></cons>.</sentence>
+<event id="E26">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref="T29" />
+<clue>The measured <clueType>binding</clueType> <linkTheme>to</linkTheme> a TCF-1 site is the same <clueLoc>in the nuclei of resting</clueLoc>, activated, and anergized <clueLoc>cells</clueLoc>.</clue>
+<comment>NO COREFTHEME for T19</comment>
+</event>
+<event id="E10">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref="T29" />
+<clue>The measured <clueType>binding</clueType> <linkTheme>to</linkTheme> a TCF-1 site is the same <clueLoc>in the nuclei of</clueLoc> resting, <clueLoc>activated</clueLoc>, and anergized <clueLoc>cells</clueLoc>.</clue>
+<comment>NO COREFTHEME for T19</comment>
+</event>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref="T29" />
+<clue>The measured <clueType>binding</clueType> <linkTheme>to</linkTheme> a TCF-1 site is the same <clueLoc>in the nuclei of</clueLoc> resting, activated, and <clueLoc>anergized cells</clueLoc>.</clue>
+<comment>NO COREFTHEME for T19</comment>
+</event>
+<event id="E28">
+<type class="Physiological_process" />
+<theme idref="T24" />
+<clue>The measured binding to a TCF-1 site is the same in the nuclei of resting, <clueType>activated</clueType>, and anergized <corefTheme>cells</corefTheme>.</clue>
+</event>
+<event id="E29">
+<type class="Physiological_process" />
+<theme idref="T24" />
+<clue>The measured binding to a TCF-1 site is the same in the nuclei of resting, activated, and <clueType>anergized</clueType> <corefTheme>cells</corefTheme>.</clue>
+</event>
+<sentence id="S10">The <term sem="Protein_family_or_group" id="T32" lex="inducible_factor">inducible factors</term> <term sem="Protein_molecule" id="T33" lex="NK-kappa_B">NK-kappa B</term>, <term sem="Protein_family_or_group" id="T34" lex="beta_E2">beta E2</term>, <term sem="Protein_molecule" id="T35" lex="CD28RC">CD28RC</term>, and <term sem="Protein_molecule" id="T36" lex="AP-1">AP-1</term> are not expressed in <term sem="Cell_natural" id="T37" lex="resting_cell">resting cells</term> and are twofold lower in anergized as compared with <term sem="Cell_natural" id="A6">activated cells</term>.</sentence>
+<event assertion="non-exist" id="E30">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>The <corefTheme>inducible factors</corefTheme> NK-kappa B, beta E2, CD28RC, and AP-1 are not <clueType>expressed</clueType> <clueLoc>in resting cells</clueLoc> and are twofold lower in anergized as compared with activated cells.</clue>
+</event>
+<event assertion="non-exist" id="E31">
+<type class="Gene_expression" />
+<theme idref="T34" />
+<clue>The <corefTheme>inducible factors</corefTheme> NK-kappa B, beta E2, CD28RC, and AP-1 are not <clueType>expressed</clueType> <clueLoc>in resting cells</clueLoc> and are twofold lower in anergized as compared with activated cells.</clue>
+</event>
+<event assertion="non-exist" id="E32">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>The <corefTheme>inducible factors</corefTheme> NK-kappa B, beta E2, CD28RC, and AP-1 are not <clueType>expressed</clueType> <clueLoc>in resting cells</clueLoc> and are twofold lower in anergized as compared with activated cells.</clue>
+</event>
+<event assertion="non-exist" id="E33">
+<type class="Gene_expression" />
+<theme idref="T36" />
+<clue>The <corefTheme>inducible factors</corefTheme> NK-kappa B, beta E2, CD28RC, and AP-1 are not <clueType>expressed</clueType> <clueLoc>in resting cells</clueLoc> and are twofold lower in anergized as compared with activated cells.</clue>
+</event>
+<event id="E34">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>The <corefTheme>inducible factors</corefTheme> NK-kappa B, beta E2, CD28RC, and AP-1 are not <clueType>expressed</clueType> in resting cells and are twofold lower in anergized as compared <clueLoc>with activated cells</clueLoc>.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E35">
+<type class="Gene_expression" />
+<theme idref="T34" />
+<clue>The <corefTheme>inducible factors</corefTheme> NK-kappa B, beta E2, CD28RC, and AP-1 are not <clueType>expressed</clueType> in resting cells and are twofold lower in anergized as compared <clueLoc>with activated cells</clueLoc>.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E36">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>The <corefTheme>inducible factors</corefTheme> NK-kappa B, beta E2, CD28RC, and AP-1 are not <clueType>expressed</clueType> in resting cells and are twofold lower in anergized as compared <clueLoc>with activated cells</clueLoc>.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>The <corefTheme>inducible factors</corefTheme> NK-kappa B, beta E2, CD28RC, and AP-1 are not <clueType>expressed</clueType> in resting cells and are twofold lower in anergized as compared <clueLoc>with activated cells</clueLoc>.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E38">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>The inducible factors NK-kappa B, beta E2, CD28RC, and AP-1 are not <clueType>expressed</clueType> in resting cells and are twofold lower <clueLoc>in anergized</clueLoc> as compared with activated <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event id="E39">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>The inducible factors NK-kappa B, beta E2, CD28RC, and AP-1 are not <clueType>expressed</clueType> in resting cells and are twofold lower <clueLoc>in anergized</clueLoc> as compared with activated <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event id="E40">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>The inducible factors NK-kappa B, beta E2, CD28RC, and AP-1 are not <clueType>expressed</clueType> in resting cells and are twofold lower <clueLoc>in anergized</clueLoc> as compared with activated <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event id="E41">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>The inducible factors NK-kappa B, beta E2, CD28RC, and AP-1 are not <clueType>expressed</clueType> in resting cells and are twofold lower <clueLoc>in anergized</clueLoc> as compared with activated <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event id="E42">
+<type class="Physiological_process" />
+<theme idref="T37" />
+<clue>The inducible factors NK-kappa B, beta E2, CD28RC, and AP-1 are not expressed in resting cells and are twofold lower in anergized as compared with <clueType>activated</clueType> cells.</clue>
+</event>
+<event id="E43">
+<type class="Physiological_process" />
+<theme idref="A6" />
+<clue>The inducible factors NK-kappa B, beta E2, CD28RC, and AP-1 are not expressed in resting cells and are twofold lower in <clueType>anergized</clueType> as compared with activated cells.</clue>
+</event>
+<sentence id="S11">In contrast, <term sem="Cell_natural" id="T38" lex="anergic_T_cell">anergic T cells</term> express approximately eightfold lower amounts of <term sem="Protein_family_or_group" id="T39" lex="NF-AT">NF-AT</term>, a member of the class of <term sem="Protein_family_or_group" id="T40" lex="inducible_factor">inducible factors</term> that regulates <term sem="DNA_domain_or_region" id="T41" lex="IL-2_gene"><term sem="Protein_molecule" id="T42" lex="IL-2">IL-2</term> gene</term> transcription.</sentence>
+<event id="E44">
+<type class="Gene_expression" />
+<theme idref="T39" />
+<clue>In contrast, <clueLoc>anergic T cells</clueLoc> <clueType>express</clueType> approximately eightfold lower amounts <linkTheme>of</linkTheme> NF-AT, a member of the class of inducible factors that regulates IL-2 gene transcription.</clue>
+</event>
+<event id="E46">
+<type class="Regulation" />
+<theme idref="E47" />
+<cause idref="T39" />
+<clue>In contrast, anergic T cells express approximately eightfold lower amounts of NF-AT, a member of the class of inducible factors that <clueType>regulates</clueType> IL-2 gene transcription.</clue>
+</event>
+<event id="E47">
+<type class="Transcription" />
+<theme idref="T41" />
+<clue>In contrast, anergic T cells express approximately eightfold lower amounts of NF-AT, a member of the class of inducible factors that regulates IL-2 gene <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S12">(ABSTRACT TRUNCATED AT 250 WORDS)</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

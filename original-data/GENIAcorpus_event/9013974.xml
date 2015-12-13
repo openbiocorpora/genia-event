@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/04/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9013974">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9013974</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Inhibitory effect of <term sem="Peptide" id="T1" lex="growth_hormone">growth hormone</term> on <term sem="Other" id="T2" lex="TNF-alpha_secretion"><term sem="Protein_molecule" id="T3" lex="TNF-alpha">TNF-alpha</term> secretion</term> and <term sem="Other" id="T4" lex="nuclear_factor-kappaB_translocation"><term sem="Protein_complex" id="T5" lex="nuclear_factor-kappaB">nuclear factor-kappaB</term> translocation</term> in <term sem="Cell_natural" id="T6" lex="lipopolysaccharide-stimulated_human_monocyte"><term sem="Lipid" id="T7" lex="lipopolysaccharide">lipopolysaccharide</term>-stimulated <term sem="Cell_natural" id="A1">human monocytes</term></term>.</sentence>
+<event id="E1">
+<type class="Localization" />
+<theme idref="T3" />
+<clue>Inhibitory effect of growth hormone on TNF-alpha <clueType>secretion</clueType> and nuclear factor-kappaB translocation <clueLoc>in lipopolysaccharide-stimulated human monocytes</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Localization" />
+<theme idref="T5" />
+<clue>Inhibitory effect of growth hormone on TNF-alpha secretion and nuclear factor-kappaB <clueType>translocation</clueType> <clueLoc>in lipopolysaccharide-stimulated human monocytes</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue><clueType>Inhibitory effect</clueType> <linkCause>of</linkCause> growth hormone <linkTheme>on</linkTheme> TNF-alpha secretion and nuclear factor-kappaB translocation in lipopolysaccharide-stimulated human monocytes.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue><clueType>Inhibitory effect</clueType> <linkCause>of</linkCause> growth hormone <linkTheme>on</linkTheme> TNF-alpha secretion and nuclear factor-kappaB translocation in lipopolysaccharide-stimulated human monocytes.</clue>
+</event>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<cause idref="T7" />
+<clue>Inhibitory effect of growth hormone on TNF-alpha secretion and nuclear factor-kappaB translocation in lipopolysaccharide-<clueType>stimulated</clueType> human monocytes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Several studies have pointed to a link between <cons sem="(AND Body_region Body_region)" id="T8" lex="(AND immune_system endocrine_system)"><frag id="F1"><term sem="Other" id="A2">immune</term></frag> and <frag id="F2"><term sem="Other" id="A3">endocrine</term></frag> <frag id="F3"><term sem="Other" id="A4">systems</term></frag></cons>, including a regulatory function of <term sem="Peptide" id="T9" lex="GH">GH</term> on <term sem="Cell_natural" id="A5">monocyte</term> activation.</sentence>
+<event id="E6">
+<type class="Correlation" />
+<theme idref1="A4" idref="A2" />
+<theme idref1="A4" idref="A3" />
+<clue>Several studies have pointed to a <clueType>link</clueType> <linkTheme>between</linkTheme> immune and endocrine systems, including a regulatory function of GH on monocyte activation.</clue>
+</event>
+<event id="E7">
+<type class="Physiological_process" />
+<theme idref="A5" />
+<clue>Several studies have pointed to a link between immune and endocrine systems, including a regulatory function of GH on monocyte <clueType>activation</clueType>.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="T9" />
+<clue>Several studies have pointed to a link between immune and endocrine systems, including a <clueType>regulatory function</clueType> <linkCause>of</linkCause> GH <linkTheme>on</linkTheme> monocyte activation.</clue>
+</event>
+<sentence id="S3">The present study demonstrates that human <term sem="Cell_cultured" id="T10" lex="THP-1_promonocytic_cell">THP-1 promonocytic cells</term>, engineered by gene transfer to constitutively produce <term sem="Peptide" id="T11" lex="human_growth_hormone">human <term sem="Peptide" id="T12" lex="growth_hormone">growth hormone</term></term> (<term sem="Peptide" id="T13" lex="hGH">hGH</term>), secreted depressed amounts of <term sem="Protein_molecule" id="T14" lex="TNF-alpha">TNF-alpha</term> in response to challenge by <term sem="Lipid" id="T15" lex="LPS">LPS</term>.</sentence>
+<event id="E9">
+<type class="Artificial_process" />
+<theme idref="T13" />
+<theme idref="T10" />
+<clue>The present study demonstrates that human THP-1 promonocytic cells, <clueType>engineered by gene transfer to constitutively produce</clueType> human growth hormone (hGH), secreted depressed amounts of TNF-alpha in response to challenge by LPS.</clue>
+</event>
+<event id="E109">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>The present study demonstrates that human THP-1 promonocytic cells, engineered by gene transfer to constitutively <clueType>produce</clueType> human growth hormone (hGH), secreted depressed amounts of TNF-alpha in response to challenge by LPS.</clue>
+<comment>OK</comment>
+</event>
+<event id="E110">
+<type class="Positive_regulation" />
+<theme idref="E109" />
+<clue>The present study demonstrates that <clueLoc>human THP-1 promonocytic cells</clueLoc>, <clueType>engineered by gene transfer</clueType> <linkTheme>to</linkTheme> constitutively produce human growth hormone (hGH), secreted depressed amounts of TNF-alpha in response to challenge by LPS.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="E35" />
+<cause idref="E9" />
+<clue>The present study demonstrates that <clueLoc>human THP-1 promonocytic cells, engineered by gene transfer to constitutively produce human growth hormone (hGH)</clueLoc>, secreted <clueType>depressed amounts</clueType> of TNF-alpha in response to challenge by LPS.</clue>
+</event>
+<event id="E11">
+<type class="Localization" />
+<theme idref="T14" />
+<clue>The present study demonstrates that human THP-1 promonocytic cells, engineered by gene transfer to constitutively produce human growth hormone (hGH), <clueType>secreted</clueType> depressed amounts of TNF-alpha in response to challenge by LPS.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T15" />
+<clue>The present study demonstrates that human THP-1 promonocytic cells, engineered by gene transfer to constitutively produce human growth hormone (hGH), secreted depressed amounts of TNF-alpha <clueType>in response</clueType> <linkCause>to challenge by</linkCause> LPS.</clue>
+</event>
+<sentence id="S4">The effect of <term sem="Peptide" id="T16" lex="GH">GH</term> appears to occur in an autocrine fashion, since the inhibitory effect on <term sem="Other" id="T17" lex="TNF-alpha_secretion"><term sem="Protein_molecule" id="T18" lex="TNF-alpha">TNF-alpha</term> secretion</term> by constitutive <term sem="Other" id="T19" lex="GH_production"><term sem="Peptide" id="T20" lex="GH">GH</term> production</term> could be abolished in the presence of <term sem="Protein_molecule" id="T21" lex="anti-hGH_mAb">anti-hGH mAb</term>.</sentence>
+<event id="E12">
+<type class="Localization" />
+<theme idref="T18" />
+<clue>The effect of GH appears to occur in an autocrine fashion, since the inhibitory effect on TNF-alpha <clueType>secretion</clueType> by constitutive GH production could be abolished in the presence of anti-hGH mAb.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue>The effect of GH appears to occur in an autocrine fashion, since the inhibitory effect on TNF-alpha secretion by constitutive GH <clueType>production</clueType> could be abolished in the presence of anti-hGH mAb.</clue>
+<comment>OK</comment>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="E13" />
+<clue>The effect of GH appears to occur in an autocrine fashion, since the <clueType>inhibitory effect</clueType> <linkTheme>on</linkTheme> TNF-alpha secretion <linkCause>by</linkCause> constitutive GH production could be abolished in the presence of anti-hGH mAb.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T21" />
+<clue>The effect of GH appears to occur in an autocrine fashion, since the inhibitory effect on TNF-alpha secretion by constitutive GH production could be <clueType>abolished</clueType> <linkCause>in the presence of</linkCause> anti-hGH mAb.</clue>
+</event>
+<sentence id="S5">The <term sem="Other" id="T22" lex="GH-induced_inhibitory_effec"><term sem="Peptide" id="T23" lex="GH">GH</term>-induced inhibitory effect</term> was also observed using <term sem="Cell_natural" id="T24" lex="normal_human_monocyte">normal human monocytes</term> and <term sem="Cell_natural" id="T25" lex="monocyte-derived_macrophage">monocyte-derived macrophages</term>.</sentence>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="T23" />
+<clue>The GH-<clueType>induced inhibitory effect</clueType> was also observed using <clueLoc>normal human monocytes</clueLoc> and monocyte-derived macrophages.</clue>
+<comment>NO COREFETHEME</comment>
+</event>
+<event id="E116">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="T23" />
+<clue>The GH-<clueType>induced inhibitory effect</clueType> was also observed using normal human monocytes and <clueLoc>monocyte-derived macrophages</clueLoc>.</clue>
+<comment>NO COREFETHEME</comment>
+</event>
+<sentence id="S6">Inhibition of <term sem="Protein_molecule" id="T26" lex="TNF-alpha">TNF-alpha</term> production by <term sem="Cell_cultured" id="T27" lex="THP-1-hGH-transfected_cell">THP-1-hGH-transfected cells</term> cultured in the presence of <term sem="Lipid" id="T28" lex="LPS">LPS</term> is dependent on a <term sem="Other" id="A6">selective pathway</term>, since no inhibition of <term sem="Other" id="T29" lex="TNF-alpha_production"><term sem="Protein_molecule" id="T30" lex="TNF-alpha">TNF-alpha</term> production</term> was observed when cells were cultured in the presence of <term sem="Organic_compound_other" id="T31" lex="PMA">PMA</term>.</sentence>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>Inhibition of TNF-alpha <clueType>production</clueType> <clueLoc>by THP-1-hGH-transfected cells cultured in the presence of LPS</clueLoc> is dependent on a selective pathway, since no inhibition of TNF-alpha production was observed when cells were cultured in the presence of PMA.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> TNF-alpha production by THP-1-hGH-transfected cells cultured in the presence of LPS is dependent on a selective pathway, since no inhibition of TNF-alpha production was observed when cells were cultured in the presence of PMA.</clue>
+</event>
+<event id="E19">
+<type class="Regulation" />
+<theme idref="E18" />
+<cause idref="A6" />
+<clue>Inhibition of TNF-alpha production by THP-1-hGH-transfected cells cultured in the presence of LPS is <clueType>dependent</clueType> <linkCause>on</linkCause> a selective pathway, since no inhibition of TNF-alpha production was observed when cells were cultured in the presence of PMA.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="T30" />
+<clue>Inhibition of TNF-alpha production by THP-1-hGH-transfected cells cultured in the presence of LPS is dependent on a selective pathway, since no inhibition of TNF-alpha <clueType>production</clueType> was observed when cells were cultured in the presence of PMA.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="T31" />
+<clue>Inhibition of TNF-alpha production by THP-1-hGH-transfected cells cultured in the presence of LPS is dependent on a selective pathway, since no <clueType>inhibition</clueType> <linkTheme>of</linkTheme> TNF-alpha production was observed <linkCause>when cells were cultured in the presence of</linkCause> PMA.</clue>
+</event>
+<sentence id="S7">Inhibition of <term sem="Other" id="T32" lex="TNF-alpha_secretion"><term sem="Protein_molecule" id="T33" lex="TNF-alpha">TNF-alpha</term> secretion</term> by <term sem="Cell_cultured" id="T34" lex="LPS-stimulated_THP-1-hGH_cell"><term sem="Lipid" id="T35" lex="LPS">LPS</term>-stimulated <term sem="Cell_cultured" id="A7">THP-1-hGH cells</term></term> was associated with a decrease in nuclear translocation of <term sem="Protein_complex" id="T36" lex="nuclear_factor-kappaB">nuclear factor-kappaB</term>.</sentence>
+<event id="E22">
+<type class="Localization" />
+<theme idref="T33" />
+<clue>Inhibition of TNF-alpha <clueType>secretion</clueType> <clueLoc>by LPS-stimulated THP-1-hGH cells</clueLoc> was associated with a decrease in nuclear translocation of nuclear factor-kappaB.</clue>
+</event>
+<event id="E23">
+<type class="Physiological_process" />
+<theme idref="A7" />
+<cause idref="T35" />
+<clue>Inhibition of TNF-alpha secretion by LPS-<clueType>stimulated</clueType> THP-1-hGH cells was associated with a decrease in nuclear translocation of nuclear factor-kappaB.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> TNF-alpha secretion by LPS-stimulated THP-1-hGH cells was associated with a decrease in nuclear translocation of nuclear factor-kappaB.</clue>
+</event>
+<event id="E25">
+<type class="Localization" />
+<theme idref="T36" />
+<clue>Inhibition of TNF-alpha secretion by LPS-stimulated THP-1-hGH cells was associated with a decrease in <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> nuclear factor-kappaB.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<clue>Inhibition of TNF-alpha secretion by LPS-stimulated THP-1-hGH cells was associated with a <clueType>decrease</clueType> <linkTheme>in</linkTheme> nuclear translocation of nuclear factor-kappaB.</clue>
+</event>
+<event id="E27">
+<type class="Correlation" />
+<theme idref="E24" />
+<theme idref="E26" />
+<clue>Inhibition of TNF-alpha secretion by LPS-stimulated THP-1-hGH cells was <clueType>associated</clueType> <linkTheme>with</linkTheme> a decrease in nuclear translocation of nuclear factor-kappaB.</clue>
+</event>
+<sentence id="S8">The capacity of <term sem="Peptide" id="T37" lex="GH">GH</term> to inhibit <term sem="Other" id="T38" lex="LPS-induced_TNF-alpha_production"><term sem="Lipid" id="T39" lex="LPS">LPS</term>-induced <term sem="Protein_molecule" id="T40" lex="TNF-alpha">TNF-alpha</term> production</term> by <term sem="Cell_natural" id="T41" lex="monocyte">monocytes</term> without altering <term sem="Other" id="A8">other pathways</term> leading to <term sem="Other" id="T42" lex="TNF-alpha_production"><term sem="Protein_molecule" id="T43" lex="TNF-alpha">TNF-alpha</term> production</term> may be of potential relevance in <term sem="Other" id="T44" lex="septic_shock">septic shock</term>, since <term sem="Peptide" id="T45" lex="GH">GH</term> is available for clinical use.</sentence>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>The capacity of GH to inhibit LPS-induced TNF-alpha <clueType>production</clueType> <clueLoc>by monocytes</clueLoc> without altering other pathways leading to TNF-alpha production may be of potential relevance in septic shock, since GH is available for clinical use.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="T39" />
+<clue>The capacity of GH to inhibit LPS-<clueType>induced</clueType> TNF-alpha production by monocytes without altering other pathways leading to TNF-alpha production may be of potential relevance in septic shock, since GH is available for clinical use.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation" />
+<theme idref="T40" />
+<cause idref="T37" />
+<clue>The <linkCause>capacity of</linkCause> GH <clueType>to inhibit</clueType> LPS-induced TNF-alpha production by monocytes without altering other pathways leading to TNF-alpha production may be of potential relevance in septic shock, since GH is available for clinical use.</clue>
+</event>
+<event id="E31">
+<type class="Gene_expression" />
+<theme idref="T43" />
+<clue>The capacity of GH to inhibit LPS-induced TNF-alpha production by monocytes without altering other pathways leading to TNF-alpha <clueType>production</clueType> may be of potential relevance in septic shock, since GH is available for clinical use.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<cause idref="A8" />
+<clue>The capacity of GH to inhibit LPS-induced TNF-alpha production by monocytes without altering other pathways <clueType>leading</clueType> <linkTheme>to</linkTheme> TNF-alpha production may be of potential relevance in septic shock, since GH is available for clinical use.</clue>
+</event>
+<event assertion="non-exist" id="E33">
+<type class="Correlation" />
+<theme idref="E30" />
+<theme idref="E32" />
+<clue>The capacity of GH to inhibit LPS-induced TNF-alpha production by monocytes without <clueType>altering</clueType> other pathways leading to TNF-alpha production may be of potential relevance in septic shock, since GH is available for clinical use.</clue>
+</event>
+<event uncertainty="probable" id="E34">
+<type class="Correlation" />
+<theme idref="T37" />
+<theme idref="T44" />
+<clue>The capacity of GH to inhibit LPS-induced TNF-alpha production by monocytes without altering other pathways leading to TNF-alpha production may be of potential <clueType>relevance</clueType> <linkTheme>in</linkTheme> septic shock, since GH is available for clinical use.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

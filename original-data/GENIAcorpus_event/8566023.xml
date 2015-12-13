@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8566023" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8566023</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification of an <term sem="DNA_domain_or_region" id="T1" lex="ionomycin/cyclosporin_A-responsive_element"><term sem="Organic_compound_other" id="T2" lex="ionomycin">ionomycin</term><term sem="Organic_compound_other" id="T3" lex="cyclosporin_A">/cyclosporin A</term>-responsive element</term> within the <term sem="DNA_domain_or_region" id="T4" lex="human_T_cell_receptor_gamma_enhancer">human T cell receptor gamma enhancer</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Activation through the <term sem="Other" id="T5" lex="Ca2+/calcineurin_pathway"><term sem="Element" id="T6" lex="Ca2+">Ca2+</term>/<term sem="Protein_molecule" id="T7" lex="calcineurin">calcineurin</term> pathway</term> is essential to the <term sem="Other" id="T8" lex="transcription">transcription</term> of many <term sem="DNA_family_or_group" id="T9" lex="cytokine_gene">cytokine genes</term>.</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T9" />
+<clue>Activation through the Ca2+/calcineurin pathway is essential to the <clueType>transcription</clueType> <linkTheme>of</linkTheme> many cytokine genes.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<cause idref="T5" />
+<clue><clueType>Activation</clueType> <linkCause>through</linkCause> the Ca2+/calcineurin pathway is essential to the transcription of many cytokine genes.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="E2" />
+<clue>Activation through the Ca2+/calcineurin pathway is <clueType>essential</clueType> <linkTheme>to</linkTheme> the transcription of many cytokine genes.</clue>
+</event>
+<sentence id="S3">The <term sem="DNA_domain_or_region" id="T10" lex="conserved_cis-acting_sequence">conserved cis-acting sequence</term>, <term sem="Polynucleotide" id="T11" lex="GGAAAA">GGAAAA</term>, and <term sem="Protein_family_or_group" id="T12" lex="transcription_factor">transcription factors</term> binding to this sequence are involved in the response to increased <term sem="Other" id="T13" lex="intracellular_Ca2+_concentration">intracellular <term sem="Element" id="T14" lex="Ca2+">Ca2+</term> concentrations</term>.</sentence>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T2" />
+<theme idref="T10" />
+<clue>The conserved cis-acting sequence, GGAAAA, and transcription factors <clueType>binding</clueType> <linkTheme>to</linkTheme> <corefTheme>this sequence</corefTheme> are involved in the response to increased intracellular Ca2+ concentrations.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<clue>The conserved cis-acting sequence, GGAAAA, and transcription factors binding to this sequence are involved in the response to <clueType>increased</clueType> intracellular Ca2+ concentrations.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<cause idref="E5" />
+<clue>The conserved cis-acting sequence, GGAAAA, and transcription factors binding to this sequence are involved in the <clueType>response</clueType> <linkCause>to</linkCause> increased intracellular Ca2+ concentrations.</clue>
+</event>
+<event id="E7">
+<type class="Correlation" />
+<theme idref="T10" />
+<theme idref="E6" />
+<clue>The conserved cis-acting sequence, GGAAAA, and transcription factors binding to this sequence are <clueType>involved</clueType> <linkTheme>in</linkTheme> the response to increased intracellular Ca2+ concentrations.</clue>
+</event>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="T12" />
+<theme idref="E6" />
+<clue>The conserved cis-acting sequence, GGAAAA, and transcription factors binding to this sequence are <clueType>involved</clueType> <linkTheme>in</linkTheme> the response to increased intracellular Ca2+ concentrations.</clue>
+<comment>NER T18 DEL</comment>
+</event>
+<sentence id="S4">Here we report the identification and importance of the same sequence in a <term sem="DNA_family_or_group" id="T15" lex="non-cytokine_gene">non-cytokine gene</term>, the <term sem="DNA_domain_or_region" id="T16" lex="human_T_cell_receptor_gamma_(TCRG)_enhancer"><term sem="Protein_molecule" id="T17" lex="human_T_cell_receptor_gamma">human T cell receptor gamma</term> (<term sem="Protein_molecule" id="T19" lex="TCRG">TCRG</term>) enhancer</term>.</sentence>
+<sentence id="S5">Results from <term sem="Other" id="T20" lex="site-directed_mutation">site-directed mutations</term> and <term sem="Other" id="T21" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assays</term> strongly suggest that this sequence mediates the <term sem="Organic_compound_other" id="T22" lex="ionomycin">ionomycin</term>-induced activation of the <term sem="DNA_domain_or_region" id="T23" lex="TCRG_enhancer">TCRG enhancer</term>.</sentence>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="T22" />
+<clue>Results from site-directed mutations and electrophoretic mobility shift assays strongly suggest that this sequence mediates the ionomycin-<linkCause>induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> the TCRG enhancer.</clue>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T10" />
+<clue><clueExperiment>Results from site-directed mutations and electrophoretic mobility shift assays</clueExperiment> strongly suggest that <corefCause>this sequence</corefCause> <clueType>mediates</clueType> the ionomycin-induced activation of the TCRG enhancer.</clue>
+</event>
+<sentence id="S6">Our studies provide an explanation for a previous observation that <term sem="Other" id="T24" lex="TCRG_mRNA_level"><term sem="RNA_family_or_group" id="T25" lex="TCRG_mRNA">TCRG mRNA</term> levels</term>, but not <term sem="Other" id="T26" lex="mRNA_level"><term sem="RNA_molecule" id="A5">mRNA</term> levels</term> for <cons sem="(AND Protein_molecule Protein_molecule)" id="T27" lex="(AND T_cell_receptor_alpha T_cell_receptor_-beta)"><frag id="F1"><term sem="RNA_molecule" id="A1">T cell receptor</term></frag> <frag id="F2"><term sem="RNA_molecule" id="A2">alpha</term></frag> and <frag id="F3"><term sem="RNA_molecule" id="A3">-beta</term></frag></cons>, are increased by <term sem="Other" id="T28" lex="ionomycin_treatment"><term sem="Organic_compound_other" id="T29" lex="ionomycin">ionomycin</term> treatment</term>.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<cause idref="T29" />
+<clue>Our studies provide an explanation for a previous observation that TCRG mRNA levels, but not mRNA levels for T cell receptor alpha and -beta, are <clueType>increased</clueType> <linkCause>by</linkCause> ionomycin treatment.</clue>
+</event>
+<event assertion="non-exist" id="E12">
+<type class="Positive_regulation" />
+<theme idref1="A1" idref2="A2" idref="A5" />
+<cause idref="T29" />
+<clue>Our studies provide an explanation for a previous observation that TCRG mRNA levels, but not mRNA levels for T cell receptor alpha and -beta, are <clueType>increased</clueType> <linkCause>by</linkCause> ionomycin treatment.</clue>
+</event>
+<event assertion="non-exist" id="E13">
+<type class="Positive_regulation" />
+<theme idref1="A1" idref2="A3" idref="A5" />
+<cause idref="T29" />
+<clue>Our studies provide an explanation for a previous observation that TCRG mRNA levels, but not mRNA levels for T cell receptor alpha and -beta, are <clueType>increased</clueType> <linkCause>by</linkCause> ionomycin treatment.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

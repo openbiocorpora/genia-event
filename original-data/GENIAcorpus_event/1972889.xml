@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="21/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1972889" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1972889</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Stimulation of the <term sem="Other" id="T1" lex="human_immunodeficiency_virus_type_2_(HIV-2)_gene_expression"><term sem="Virus" id="T2" lex="human_immunodeficiency_virus_type_2">human immunodeficiency virus type 2</term> (<term sem="DNA_domain_or_region" id="A4"><term sem="Virus" id="T3" lex="HIV-2">HIV-2</term>) gene</term> expression</term> by the <term sem="DNA_domain_or_region" id="A1"><term sem="Virus" id="T4" lex="cytomegalovirus">cytomegalovirus</term></term> and <term sem="DNA_domain_or_region" id="T5" lex="HIV-2_transactivator_gene"><term sem="Virus" id="T6" lex="HIV-2">HIV-2</term> <term sem="DNA_domain_or_region" id="A2">transactivator gene</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref1="A2" idref="A1" />
+<clue><clueType>Stimulation</clueType> of the human immunodeficiency virus type 2 (HIV-2) gene expression <linkCause>by</linkCause> the cytomegalovirus and HIV-2 transactivator gene.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T5" />
+<clue><clueType>Stimulation</clueType> of the human immunodeficiency virus type 2 (HIV-2) gene expression <linkCause>by</linkCause> the cytomegalovirus and HIV-2 transactivator gene.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>Stimulation of the human immunodeficiency virus type 2 (HIV-2) gene <clueType>expression</clueType> by the cytomegalovirus and HIV-2 transactivator gene.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Virus" id="T7" lex="human_immunodeficiency_virus">Human immunodeficiency virus</term> (<term sem="Virus" id="T8" lex="HIV">HIV</term>) often causes latent infection.</sentence>
+<event id="E4">
+<type class="Viral_life_cycle" />
+<theme idref="T8" />
+<clue>Human immunodeficiency virus (HIV) often <clueType>causes latent infection</clueType>.</clue>
+</event>
+<sentence id="S3">Transactivation by some <term sem="Virus" id="T9" lex="DNA_virus">DNA viruses</term> has been implicated in inducing <term sem="Other" id="T10" lex="HIV-1_replication"><term sem="Virus" id="A3">HIV-1</term> replication</term> and pathogenesis.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<cause idref="T9" />
+<clue><clueType>Transactivation</clueType> <linkCause>by</linkCause> some DNA viruses has been implicated in inducing HIV-1 replication and pathogenesis.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E17">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="E5" />
+<clue>Transactivation by some DNA viruses has been <clueType>implicated</clueType> <linkTheme>in</linkTheme> inducing HIV-1 replication and pathogenesis.</clue>
+</event>
+<event id="E33">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="E5" />
+<clue>Transactivation by some DNA viruses has been <clueType>implicated</clueType> <linkTheme>in</linkTheme> inducing HIV-1 replication and pathogenesis.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<clue>Transactivation by some DNA viruses has been implicated in <clueType>inducing</clueType> HIV-1 replication and pathogenesis.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<clue>Transactivation by some DNA viruses has been implicated in <clueType>inducing</clueType> HIV-1 replication and pathogenesis.</clue>
+</event>
+<event id="E8">
+<type class="Viral_life_cycle" />
+<theme idref="A3" />
+<clue>Transactivation by some DNA viruses has been implicated in inducing HIV-1 <clueType>replication</clueType> and pathogenesis.</clue>
+</event>
+<event id="E9">
+<type class="Viral_life_cycle" />
+<theme idref="A3" />
+<clue>Transactivation by some DNA viruses has been implicated in inducing HIV-1 replication and <clueType>pathogenesis</clueType>.</clue>
+</event>
+<sentence id="S4">The <term sem="DNA_domain_or_region" id="T11" lex="transactivator_(IE-2)_gene">transactivator (IE-2) gene</term> of the human <term sem="Virus" id="T12" lex="cytomegalovirus">cytomegalovirus</term> (<term sem="Virus" id="T13" lex="CMV">CMV</term>) can enhance <cons sem="(AS_WELL_AS Other Other)" id="C1" lex="(AS_WELL_AS HIV-2_gene_expression HIV-2_gene_expression)"><frag id="F1"><term sem="Virus" id="T14" lex="HIV-2">HIV-2</term></frag> as well as <frag id="F2"><term sem="Virus" id="T15" lex="HIV-1">HIV-1</term></frag> <frag id="F3">gene</frag> <frag id="F4">expression</frag></cons> in vitro.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T11" />
+<clue>The transactivator (IE-2) gene of the human cytomegalovirus (CMV) can <clueType>enhance</clueType> HIV-2 as well as HIV-1 gene expression in vitro.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T11" />
+<clue>The transactivator (IE-2) gene of the human cytomegalovirus (CMV) can <clueType>enhance</clueType> HIV-2 as well as HIV-1 gene expression in vitro.</clue>
+</event>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>The transactivator (IE-2) gene of the human cytomegalovirus (CMV) can enhance HIV-2 as well as HIV-1 <clueType>gene expression</clueType> in vitro.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>The transactivator (IE-2) gene of the human cytomegalovirus (CMV) can enhance HIV-2 as well as HIV-1 <clueType>gene expression</clueType> in vitro.</clue>
+</event>
+<sentence id="S5">This inducer can act in concert with the <term sem="DNA_domain_or_region" id="T17" lex="HIV-2_tat_gene"><term sem="Virus" id="T18" lex="HIV-2">HIV-2</term> tat gene</term> and <term sem="Other" id="T19" lex="T-cell_activation"><term sem="Cell_natural" id="A9">T-cell</term> activation</term> in enhancing <term sem="Other" id="A8">gene expression</term> in <term sem="Cell_natural" id="T20" lex="human_CD4+_lymphocyte">human CD4+ lymphocytes</term>.</sentence>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<cause idref="T11" />
+<cause idref="T17" />
+<clue><corefCause>This inducer</corefCause> can <clueType>act</clueType> <linkCause>in concert with</linkCause> the HIV-2 tat gene and T-cell activation <clueType>in enhancing</clueType> gene expression <clueLoc>in human CD4+ lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<cause idref="T11" />
+<cause idref="E16" />
+<clue><corefCause>This inducer</corefCause> can <clueType>act</clueType> <linkCause>in concert with</linkCause> the HIV-2 tat gene and T-cell activation <clueType>in enhancing</clueType> gene expression <clueLoc>in human CD4+ lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E16">
+<type class="Physiological_process" />
+<theme idref="A9" />
+<clue>This inducer can act in concert with the HIV-2 tat gene and T-cell <clueType>activation</clueType> in enhancing gene expression in human CD4+ lymphocytes.</clue>
+</event>
+<sentence id="S6">While the <term sem="DNA_domain_or_region" id="A10"><term sem="Virus" id="T21" lex="HIV-2">HIV-2</term></term> and <term sem="DNA_family_or_group" id="T22" lex="HIV-1_tat_gene"><term sem="Virus" id="T23" lex="HIV-1">HIV-1</term> <term sem="DNA_domain_or_region" id="A11">tat genes</term></term> and <term sem="Protein_family_or_group" id="T24" lex="T-cell_activator">T-cell activators</term> apparently employ independent modes of action, the <term sem="DNA_domain_or_region" id="T25" lex="CMV_transactivator">CMV transactivator</term> in combination with the <term sem="DNA_domain_or_region" id="T26" lex="HIV-2_tat"><term sem="Virus" id="T27" lex="HIV-2">HIV-2</term> tat</term> or <term sem="DNA_family_or_group" id="T28" lex="T-cell_activator">T-cell activators</term> may employ a <term sem="Other" id="T29" lex="gene_activation_pathway">gene activation pathway</term> with some common and some distinct components.</sentence>
+<event assertion="non-exist" id="E18">
+<type class="Correlation" />
+<theme idref1="A11" idref="A10" />
+<theme idref="T24" />
+<clue>While the HIV-2 and HIV-1 tat genes and T-cell activators apparently <clueType>employ independent modes of action</clueType>, the CMV transactivator in combination with the HIV-2 tat or T-cell activators may employ a gene activation pathway with some common and some distinct components.</clue>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Correlation" />
+<theme idref1="A11" idref="A10" />
+<theme idref="T24" />
+<clue>While the HIV-2 and HIV-1 tat genes and T-cell activators apparently <clueType>employ independent modes of action</clueType>, the CMV transactivator in combination with the HIV-2 tat or T-cell activators may employ a gene activation pathway with some common and some distinct components.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="T25" />
+<cause idref="T26" />
+<clue>While the HIV-2 and HIV-1 tat genes and T-cell activators apparently employ independent modes of action, the CMV transactivator <linkCause>in combination with</linkCause> the HIV-2 tat or T-cell activators may <clueType>employ</clueType> a gene activation pathway with some common and some distinct components.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="T25" />
+<cause idref="T28" />
+<clue>While the HIV-2 and HIV-1 tat genes and T-cell activators apparently employ independent modes of action, the CMV transactivator <linkCause>in combination with</linkCause> the HIV-2 tat or T-cell activators may <clueType>employ</clueType> a gene activation pathway with some common and some distinct components.</clue>
+</event>
+<sentence id="S7">Both <term sem="DNA_domain_or_region" id="A14"><term sem="Virus" id="T30" lex="HIV-2">HIV-2</term></term> and <term sem="DNA_domain_or_region" id="T31" lex="CMV_transactivator">CMV <term sem="DNA_domain_or_region" id="T32" lex="transactivator">transactivators</term></term> enhance <term sem="Other" id="T33" lex="HIV-2_gene_expression"><term sem="DNA_domain_or_region" id="A13"><term sem="Virus" id="T34" lex="HIV-2">HIV-2</term> gene</term> expression</term> by <term sem="Other" id="T35" lex="transcriptional_activation">transcriptional activation</term> involving <cons sem="(AS_WELL_AS Other Other)" id="C2" lex="(AS_WELL_AS transcript_initiation transcript_elongation)"><frag id="F5">transcript</frag> <frag id="F6">initiation</frag> as well as <frag id="F7">elongation</frag></cons>, with <term sem="DNA_domain_or_region" id="T38" lex="CMV_transactivator">CMV <term sem="Protein_family_or_group" id="T39" lex="transactivator">transactivator</term></term> affecting <term sem="Other" id="T40" lex="elongation">elongation</term> more than the <term sem="Other" id="T41" lex="initiationp">initiation</term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E25" />
+<clue>Both HIV-2 and CMV transactivators <clueType>enhance</clueType> HIV-2 gene expression <linkCause>by</linkCause> transcriptional activation involving transcript initiation as well as elongation, with CMV transactivator affecting elongation more than the initiation.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E26" />
+<clue>Both HIV-2 and CMV transactivators <clueType>enhance</clueType> HIV-2 gene expression <linkCause>by</linkCause> transcriptional activation involving transcript initiation as well as elongation, with CMV transactivator affecting elongation more than the initiation.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E27" />
+<clue>Both HIV-2 and CMV transactivators <clueType>enhance</clueType> HIV-2 gene expression <linkCause>by</linkCause> transcriptional activation involving transcript initiation as well as elongation, with CMV transactivator affecting elongation more than the initiation.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E28" />
+<clue>Both HIV-2 and CMV transactivators <clueType>enhance</clueType> HIV-2 gene expression <linkCause>by</linkCause> transcriptional activation involving transcript initiation as well as elongation, with CMV transactivator affecting elongation more than the initiation.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression" />
+<theme idref="A13" />
+<clue>Both HIV-2 and CMV transactivators enhance HIV-2 gene <clueType>expression</clueType> by transcriptional activation involving transcript initiation as well as elongation, with CMV transactivator affecting elongation more than the initiation.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref1="F6" idref="F5" />
+<cause idref1="T32" idref="A14" />
+<clue>Both HIV-2 and CMV transactivators enhance HIV-2 gene expression by <corefTheme>transcriptional activation</corefTheme> involving transcript initiation as well as elongation, with CMV transactivator affecting elongation more than the initiation.</clue>
+<comment>NO CLUETYPE; NER: T32 sem mod, Protein_family_or_group -&gt; DNA_domain_or_region</comment>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref1="F7" idref="F5" />
+<cause idref1="T32" idref="A14" />
+<clue>Both HIV-2 and CMV transactivators enhance HIV-2 gene expression by <corefTheme>transcriptional activation</corefTheme> involving transcript initiation as well as elongation, with CMV transactivator affecting elongation more than the initiation.</clue>
+<comment>NO CLUETYPE; NER: T32 sem mod, Protein_family_or_group -&gt; DNA_domain_or_region</comment>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref1="F6" idref="F5" />
+<cause idref="T31" />
+<clue>Both HIV-2 and CMV transactivators enhance HIV-2 gene expression by <corefTheme>transcriptional activation</corefTheme> involving transcript initiation as well as elongation, with CMV transactivator affecting elongation more than the initiation.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref1="F7" idref="F5" />
+<cause idref="T31" />
+<clue>Both HIV-2 and CMV transactivators enhance HIV-2 gene expression by <corefTheme>transcriptional activation</corefTheme> involving transcript initiation as well as elongation, with CMV transactivator affecting elongation more than the initiation.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E30">
+<type class="Regulation" />
+<theme idref="T40" />
+<cause idref="T38" />
+<clue>Both HIV-2 and CMV transactivators enhance HIV-2 gene expression by transcriptional activation involving transcript initiation as well as elongation, with CMV transactivator <clueType>affecting</clueType> elongation more than the initiation.</clue>
+<comment>NER: T35, T36 del &quot;transcript initiation&quot;&quot;elongation&quot;</comment>
+</event>
+<event id="E31">
+<type class="Regulation" />
+<theme idref="T41" />
+<cause idref="T38" />
+<clue>Both HIV-2 and CMV transactivators enhance HIV-2 gene expression by transcriptional activation involving transcript initiation as well as elongation, with CMV transactivator <clueType>affecting</clueType> elongation more than the initiation.</clue>
+</event>
+<sentence id="S8">A significant proportion of <term sem="RNA_family_or_group" id="T42" lex="transcript">transcripts</term> appear to terminate prematurely in the absence of <term sem="Protein_family_or_group" id="T43" lex="transactivator">transactivators</term>.</sentence>
+<event assertion="non-exist" uncertainty="probable" id="E32">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<cause idref="T43" />
+<clue>A significant proportion of transcripts appear to <clueType>terminate prematurely</clueType> <linkCause>in the absence of</linkCause> transactivators.</clue>
+</event>
+<sentence id="S9"><term sem="Other" id="T44" lex="deletion_mutation_analysis">Deletion mutation analysis</term> of the <term sem="DNA_domain_or_region" id="T45" lex="HIV-2_long_terminal_repeat"><term sem="Virus" id="T46" lex="HIV-2">HIV-2</term> long terminal repeat</term> (<term sem="DNA_domain_or_region" id="T47" lex="LTR">LTR</term>) suggests that the <term sem="DNA_domain_or_region" id="A16">element</term> that responds to <term sem="Other" id="T48" lex="CMV_transactivation"><term sem="Virus" id="T49" lex="CMV">CMV</term> transactivation</term> in <term sem="Cell_natural" id="T50" lex="human_CD4+_lymphocyte">human CD4+ lymphocytes</term> is either a diffuse one or located downstream of the <term sem="DNA_domain_or_region" id="T51" lex="HIV-2_enhancer_element"><term sem="Virus" id="T52" lex="HIV-2">HIV-2</term> enhancer element</term>.</sentence>
+<event id="E35">
+<type class="Regulation" />
+<theme idref="A16" />
+<cause idref="E34" />
+<clue><clueExperiment>Deletion mutation analysis of the HIV-2 long terminal repeat (LTR)</clueExperiment> suggests that the element that <clueType>responds</clueType> <linkCause>to</linkCause> CMV transactivation in human CD4+ lymphocytes is either a diffuse one or located downstream of the HIV-2 enhancer element.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<cause idref="T49" />
+<clue>Deletion mutation analysis of the HIV-2 long terminal repeat (LTR) suggests that the element that responds to CMV <clueType>transactivation</clueType> <clueLoc>in human CD4+ lymphocytes</clueLoc> is either a diffuse one or located downstream of the HIV-2 enhancer element.</clue>
+<comment>NO THEME</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

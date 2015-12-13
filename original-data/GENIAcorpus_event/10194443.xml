@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="22/01/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10194443" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10194443</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of the <term sem="DNA_family_or_group" id="T1" lex="megakaryocytic_glycoprotein_IX_promoter">megakaryocytic glycoprotein IX promoter</term> by the <term sem="Protein_family_or_group" id="T2" lex="oncogenic_Ets_transcription_factor">oncogenic Ets transcription factor</term> <term sem="Protein_molecule" id="T3" lex="Fli-1">Fli-1</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T1" />
+<cause idref="T30" />
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> the megakaryocytic glycoprotein IX promoter <linkCause>by</linkCause> the oncogenic Ets transcription factor Fli-1.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T4" lex="glycoprotein_(GP)_IX">Glycoprotein (GP) IX</term> is a subunit of the <term sem="Protein_complex" id="T5" lex="von_Willebrand_receptor">von Willebrand receptor</term>, <term sem="Protein_complex" id="T6" lex="GPIb-V-IX">GPIb-V-IX</term>, which mediates adhesion of <term sem="Cell_natural" id="T7" lex="platelet">platelets</term> to the <term sem="Tissue_natural" id="A1"><term sem="Tissue_natural" id="T8" lex="subendothelium">subendothelium</term> of <term sem="Body_region" id="T9" lex="damaged_blood_vessel">damaged blood vessels</term></term>.</sentence>
+<event id="E2">
+<type class="Cell_adhesion" />
+<theme idref="T7" />
+<theme idref="A1" />
+<clue>Glycoprotein (GP) IX is a subunit of the von Willebrand receptor, GPIb-V-IX, which mediates <clueType>adhesion</clueType> <linkTheme>of</linkTheme> platelets <linkTheme>to</linkTheme> the subendothelium of damaged blood vessels.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T6" />
+<clue>Glycoprotein (GP) IX is a subunit of the von Willebrand receptor, GPIb-V-IX, which mediates adhesion of platelets to the subendothelium of damaged blood vessels.</clue>
+</event>
+<sentence id="S3">Previous characterization of the <term sem="DNA_domain_or_region" id="T10" lex="GPIX_promoter">GPIX promoter</term> identified a functional <term sem="DNA_domain_or_region" id="A2">Ets site</term> that, when disrupted, reduced <term sem="Other" id="T11" lex="promoter_activity">promoter activity</term>.</sentence>
+<event id="E4">
+<type class="Mutagenesis" />
+<theme idref="A2" />
+<clue>Previous characterization of the GPIX promoter identified a functional Ets site that, when <clueType>disrupted</clueType>, reduced promoter activity.</clue>
+<comment>Artificial</comment>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="T10" />
+<cause idref="E4" />
+<clue>Previous characterization of the GPIX promoter identified a functional Ets site that, when disrupted, <clueType>reduced</clueType> <corefTheme>promoter activity</corefTheme>.</clue>
+</event>
+<sentence id="S4">However, the <term sem="Protein_family_or_group" id="T12" lex="Ets_protein">Ets protein</term>(s) that regulated <term sem="DNA_domain_or_region" id="T13" lex="GPIX_promoter">GPIX promoter</term> expression was unknown.</sentence>
+<event uncertainty="doubtful" id="E6">
+<type class="Gene_expression" />
+<theme idref="T12" />
+<clue>However, the Ets protein(s) that regulated GPIX promoter <clueType>expression</clueType> was unknown.</clue>
+</event>
+<event uncertainty="doubtful" id="E7">
+<type class="Regulation" />
+<theme idref="T12" />
+<cause idref="T13" />
+<clue>However, the Ets protein(s) that <clueType>regulated</clueType> GPIX promoter expression was unknown.</clue>
+</event>
+<sentence id="S5">In this study, transient cotransfection of several <term sem="DNA_molecule" id="T14" lex="GPIX_promoter/reporter_construct"><term sem="DNA_domain_or_region" id="T15" lex="GPIX_promoter">GPIX promoter</term>/reporter constructs</term> into <term sem="Cell_cultured" id="T16" lex="293T_kidney_fibroblast">293T kidney fibroblasts</term> with a <term sem="DNA_family_or_group" id="T17" lex="Fli-1_expression_vector"><term sem="Protein_molecule" id="T18" lex="Fli-1">Fli-1</term> expression vector</term> shows that the oncogenic protein <term sem="Protein_molecule" id="T19" lex="Fli-1">Fli-1</term> can transactivate the <term sem="DNA_domain_or_region" id="T20" lex="GPIX_promoter">GPIX promoter</term> when an intact <term sem="DNA_domain_or_region" id="T21" lex="GPIX_Ets_site">GPIX Ets site</term> is present.</sentence>
+<event id="E8">
+<type class="Artificial_process" />
+<theme idref="T14" />
+<theme idref="T16" />
+<clue>In this study, transient <clueType>cotransfection</clueType> <linkTheme>of</linkTheme> several GPIX promoter/reporter constructs <linkTheme>into</linkTheme> 293T kidney fibroblasts <clueExperiment>with a Fli-1 expression vector</clueExperiment> shows that the oncogenic protein Fli-1 can transactivate the GPIX promoter when an intact GPIX Ets site is present.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<cause idref="T2" />
+<cause idref="T21" />
+<clue>In this study, <clueExperiment>transient cotransfection of several GPIX promoter/reporter constructs into 293T kidney fibroblasts with a Fli-1 expression vector</clueExperiment> shows that the oncogenic protein Fli-1 can <clueType>transactivate</clueType> the GPIX promoter when an intact GPIX Ets site is present.</clue>
+</event>
+<sentence id="S6">In addition, <term sem="Protein_molecule" id="T22" lex="Fli-1">Fli-1</term> binding of the <term sem="DNA_domain_or_region" id="T23" lex="GPIX_Ets_site">GPIX Ets site</term> was identified in antibody supershift experiments in <term sem="Cell_component" id="T24" lex="nuclear_extract">nuclear extracts</term> derived from <term sem="Cell_natural" id="T25" lex="hematopoietic_human_erythroleukemia_cell">hematopoietic human erythroleukemia cells</term>.</sentence>
+<event id="E10">
+<type class="Binding" />
+<theme idref="T22" />
+<theme idref="T23" />
+<clue>In addition, Fli-1 <clueType>binding</clueType> <linkTheme>of</linkTheme> the GPIX Ets site was identified <clueExperiment>in antibody supershift experiments</clueExperiment> <clueLoc>in nuclear extracts derived from hematopoietic human erythroleukemia cells</clueLoc>.</clue>
+</event>
+<sentence id="S7">Comparative studies showed that <term sem="Protein_molecule" id="T26" lex="Fli-1">Fli-1</term> was also able to transactivate the <term sem="DNA_domain_or_region" id="T27" lex="GPIbalpha_promotor">GPIbalpha</term> and, to a lesser extent, the <term sem="DNA_domain_or_region" id="T28" lex="GPIIb_promoter">GPIIb promoter</term>.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="T26" />
+<clue>Comparative studies showed that Fli-1 was also able to <clueType>transactivate</clueType> the GPIbalpha and, to a lesser extent, the GPIIb promoter.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref="T26" />
+<clue>Comparative studies showed that Fli-1 was also able to <clueType>transactivate</clueType> the GPIbalpha and, to a lesser extent, the GPIIb promoter.</clue>
+</event>
+<sentence id="S8">Immunoblot analysis identified <term sem="Protein_molecule" id="T29" lex="Fli-1_protein"><term sem="Protein_molecule" id="T30" lex="Fli-1">Fli-1</term> protein</term> in lysates derived from <term sem="Cell_natural" id="T31" lex="platelet">platelets</term>.</sentence>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue><clueExperiment>Immunoblot analysis</clueExperiment> <clueType>identified</clueType> Fli-1 protein <clueLoc>in lysates derived from platelets.</clueLoc></clue>
+</event>
+<sentence id="S9">In addition, expression of <term sem="Protein_molecule" id="T32" lex="Fli-1">Fli-1</term> was identified immunohistochemically in <term sem="Cell_natural" id="A3"><term sem="Cell_natural" id="T33" lex="megakaryocyte">megakaryocytes</term> derived from <term sem="Cell_natural" id="T34" lex="CD34(+)_cell">CD34(+) cells</term></term> treated with the <term sem="Protein_family_or_group" id="T35" lex="megakaryocyte_differentiation_and_proliferation_factor"><term sem="Cell_natural" id="A4">megakaryocyte</term> differentiation and proliferation factor</term>, <term sem="Protein_molecule" id="T36" lex="thrombopoietin">thrombopoietin</term>.</sentence>
+<event id="E14">
+<type class="Artificial_process" />
+<theme idref="A3" />
+<theme idref="T36" />
+<clue>In addition, expression of Fli-1 was identified immunohistochemically in megakaryocytes derived from CD34(+) cells <clueType>treated</clueType> <linkTheme>with</linkTheme> the megakaryocyte differentiation and proliferation factor, thrombopoietin.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>In addition, <clueType>expression</clueType> <linkTheme>of</linkTheme> Fli-1 was identified <clueExperiment>immunohistochemically</clueExperiment> in megakaryocytes derived from CD34(+) cells treated with the megakaryocyte differentiation and proliferation factor, thrombopoietin.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E14" />
+<clue>In addition, expression of Fli-1 was identified immunohistochemically in megakaryocytes derived from CD34(+) cells treated with the megakaryocyte differentiation and proliferation factor, thrombopoietin.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E17">
+<type class="Cell_differentiation" />
+<theme idref="A4" />
+<clue>In addition, expression of Fli-1 was identified immunohistochemically in megakaryocytes derived from CD34(+) cells treated with the megakaryocyte <clueType>differentiation</clueType> and proliferation factor, thrombopoietin.</clue>
+</event>
+<event id="E117">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T36" />
+<clue>In addition, expression of Fli-1 was identified immunohistochemically in megakaryocytes derived from CD34(+) cells treated with the megakaryocyte differentiation and proliferation factor, thrombopoietin.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E118">
+<type class="Cellular_physiological_process" />
+<theme idref="A4" />
+<clue>In addition, expression of Fli-1 was identified immunohistochemically in megakaryocytes derived from CD34(+) cells treated with the megakaryocyte differentiation and <clueType>proliferation</clueType> factor, thrombopoietin.</clue>
+</event>
+<event id="E119">
+<type class="Positive_regulation" />
+<theme idref="E118" />
+<cause idref="T36" />
+<clue>In addition, expression of Fli-1 was identified immunohistochemically in megakaryocytes derived from CD34(+) cells treated with the megakaryocyte differentiation and proliferation factor, thrombopoietin.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S10">These results suggest that <term sem="Protein_molecule" id="T37" lex="Fli-1">Fli-1</term> is likely to regulate <term sem="DNA_family_or_group" id="T38" lex="lineage-specific_gene">lineage-specific genes</term> during <term sem="Other" id="T39" lex="megakaryocytopoiesis">megakaryocytopoiesis</term>.</sentence>
+<event uncertainty="probable" id="E19">
+<type class="Regulation" />
+<theme idref="T38" />
+<cause idref="T37" />
+<clue>These results suggest that Fli-1 is likely to <clueType>regulate</clueType> lineage-specific genes <clueTime>during megakaryocytopoiesis.</clueTime></clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

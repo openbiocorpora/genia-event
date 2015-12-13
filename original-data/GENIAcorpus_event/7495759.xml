@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="15/01/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7495759" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7495759</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="CIITA">CIITA</term> activates the expression of <term sem="DNA_family_or_group" id="T2" lex="MHC_class_II_gene">MHC class II genes</term> in mouse T cells.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>CIITA <clueType>activates</clueType> the expression of MHC class II genes in mouse T cells.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>CIITA activates the <clueType>expression</clueType> <linkTheme>of</linkTheme> MHC class II genes <clueLoc>in mouse T cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">It has long been a puzzle that <term sem="Protein_family_or_group" id="T3" lex="MHC_class_II_molecule">MHC class II molecules</term> are expressed in <term sem="Cell_natural" id="T4" lex="human_T_cell">human T cells</term> after activation but not in <term sem="Cell_natural" id="T5" lex="mouse_T_cell">mouse T cells</term>; this expression is believed to play a role in the <term sem="Other" id="T6" lex="cell_mediated_immune_response">cell mediated immune response</term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>It has long been a puzzle that MHC class II molecules are <clueType>expressed</clueType> <clueLoc>in human T cells</clueLoc> after activation but not in mouse T cells; this expression is believed to play a role in the cell mediated immune response.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="E5" />
+<clue>It has long been a puzzle that MHC class II molecules are expressed in human T cells <linkCause>after</linkCause> activation but not in mouse T cells; this expression is believed to play a role in the cell mediated immune response.</clue>
+</event>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="T4" />
+<clue>It has long been a puzzle that MHC class II molecules are expressed in human T cells after <clueType>activation</clueType> but not in mouse T cells; this expression is believed to play a role in the cell mediated immune response.</clue>
+</event>
+<event assertion="non-exist" id="E6">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>It has long been a puzzle that MHC class II molecules are <clueType>expressed</clueType> in human T cells after activation but not <clueLoc>in mouse T cells</clueLoc>; this expression is believed to play a role in the cell mediated immune response.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="T6" />
+<cause idref="E3" />
+<clue>It has long been a puzzle that MHC class II molecules are expressed in human T cells after activation but not in mouse T cells; <corefCause>this expression</corefCause> is believed to <clueType>play a role</clueType> <linkTheme>in</linkTheme> the cell mediated immune response.</clue>
+</event>
+<sentence id="S3">Recently the <term sem="Protein_family_or_group" id="T7" lex="MHC_class_II_transactivator">MHC class II transactivator</term> (<term sem="Protein_molecule" id="T8" lex="CIITA">CIITA</term>) has been reported to be a <term sem="Protein_family_or_group" id="T9" lex="major_regulatory_factor">major regulatory factor</term> for both the <cons sem="(AND Other Other)" id="T10" lex="(AND constitutive_expression IFN_inducible_expression)"><frag id="F1">constitutive</frag> and <frag id="F2"><term sem="Protein_family_or_group" id="A1">IFN</term> inducible</frag> <frag id="F3">expression</frag></cons> of <term sem="DNA_family_or_group" id="T11" lex="MHC_class_II_gene">MHC class II genes</term>.</sentence>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T8" />
+<clue>Recently the MHC class II transactivator (CIITA) has been reported to be a major <clueType>regulatory</clueType> factor <linkTheme>for</linkTheme> both the constitutive and IFN inducible expression of MHC class II genes.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="T8" />
+<clue>Recently the MHC class II transactivator (CIITA) has been reported to be a major <clueType>regulatory</clueType> factor <linkTheme>for</linkTheme> both the constitutive and IFN inducible expression of MHC class II genes.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>Recently the MHC class II transactivator (CIITA) has been reported to be a major regulatory factor for both the <clueType>constitutive</clueType> and IFN inducible <clueType>expression</clueType> <linkTheme>of</linkTheme> MHC class II genes.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>Recently the MHC class II transactivator (CIITA) has been reported to be a major regulatory factor for both the constitutive and IFN inducible <clueType>expression</clueType> <linkTheme>of</linkTheme> MHC class II genes.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="A1" />
+<clue>Recently the MHC class II transactivator (CIITA) has been reported to be a major regulatory factor for both the constitutive and IFN <clueType>inducible</clueType> expression of MHC class II genes.</clue>
+</event>
+<sentence id="S4">Here we show that <term sem="Cell_natural" id="T12" lex="human_T_cell">human T cells</term> expressing <term sem="DNA_domain_or_region" id="A2">MHC class II</term> have <term sem="DNA_domain_or_region" id="T13" lex="CIITA">CIITA</term> transcripts while MHC class II-negative <term sem="Cell_natural" id="T14" lex="human_T_cell">human T cells</term> and <term sem="Cell_natural" id="T15" lex="mouse_T_cell">mouse T cells</term> do not.</sentence>
+<event id="E13">
+<type class="Transcription" />
+<theme idref="T13" />
+<clue>Here we show that <clueLoc>human T cells expressing MHC class II</clueLoc> have CIITA <clueType>transcripts</clueType> while MHC class II-negative human T cells and mouse T cells do not.</clue>
+<comment>NER: T13 sem mod, Protein_molecule -&gt; DNA_domain_or_region</comment>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>Here we show that <clueLoc>human T cells</clueLoc> <clueType>expressing</clueType> MHC class II have CIITA transcripts while MHC class II-negative human T cells and mouse T cells do not.</clue>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Transcription" />
+<theme idref="T13" />
+<clue>Here we show that human T cells expressing MHC class II have CIITA <clueType>transcripts</clueType> while <clueLoc>MHC class II-negative human T cells</clueLoc> and mouse T cells do not.</clue>
+<comment>NER: T13 sem mod, Protein_molecule -&gt; DNA_domain_or_region</comment>
+</event>
+<event assertion="non-exist" id="E24">
+<type class="Transcription" />
+<theme idref="T13" />
+<clue>Here we show that human T cells expressing MHC class II have CIITA <clueType>transcripts</clueType> while MHC class II-negative human T cells and <clueLoc>mouse T cells</clueLoc> do not.</clue>
+<comment>NER: T13 sem mod, Protein_molecule -&gt; DNA_domain_or_region</comment>
+</event>
+<sentence id="S5">The expression of <term sem="DNA_family_or_group" id="T16" lex="MHC_class_II_gene">MHC class II genes</term> in <term sem="Cell_natural" id="T17" lex="mouse_T_cell">mouse T cells</term> can be reconstituted upon <term sem="Other" id="T18" lex="transfection">transfection</term> with the <term sem="DNA_molecule" id="T19" lex="human_CIITA_cDNA">human <term sem="Protein_molecule" id="T20" lex="CIITA">CIITA</term> cDNA</term>.</sentence>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> MHC class II genes <clueLoc>in mouse T cells</clueLoc> can be reconstituted upon transfection with the human CIITA cDNA.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="E25" />
+<clue>The expression of MHC class II genes in mouse T cells can be <clueType>reconstituted</clueType> <linkCause>upon</linkCause> transfection with the human CIITA cDNA.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>The expression of MHC class II genes <clueLoc>in mouse T cells</clueLoc> can be reconstituted upon <clueType>transfection</clueType> <linkTheme>with</linkTheme> the human CIITA cDNA.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<clue>The expression of MHC class II genes <clueLoc>in mouse T cells</clueLoc> can be reconstituted upon <clueType>transfection</clueType> <linkTheme>with</linkTheme> the human CIITA cDNA.</clue>
+</event>
+<sentence id="S6">These data indicate that the expression of <term sem="Protein_molecule" id="T21" lex="CIITA">CIITA</term> explains the expression or lack of expression of <term sem="Protein_family_or_group" id="T22" lex="MHC_class_II">MHC class II</term> in <term sem="Cell_natural" id="T23" lex="human_T_cell">human</term> and <term sem="Cell_natural" id="T24" lex="mouse_T_cell">mouse T cells</term> respectively.</sentence>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>These data indicate that the <clueType>expression</clueType> <linkTheme>of</linkTheme> CIITA explains the expression or lack of expression of MHC class II in human and mouse T cells respectively.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="E19" />
+<clue>These data indicate that the expression of CIITA <clueType>explains</clueType> the expression or lack of expression of MHC class II in human and mouse T cells respectively.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E19" />
+<clue>These data indicate that the expression of CIITA <clueType>explains</clueType> the expression or lack of expression of MHC class II in human and mouse T cells respectively.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>These data indicate that the expression of CIITA explains the <clueType>expression</clueType> or lack of expression <linkTheme>of</linkTheme> MHC class II <clueLoc>in human</clueLoc> and mouse <clueLoc>T cells</clueLoc> respectively.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>These data indicate that the expression of CIITA explains the expression or lack of <clueType>expression</clueType> <linkTheme>of</linkTheme> MHC class II <clueLoc>in</clueLoc> human and <clueLoc>mouse T cells</clueLoc> respectively.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

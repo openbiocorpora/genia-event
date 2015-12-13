@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="01/12/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9973520" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9973520</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Cross-linking of <term sem="Protein_molecule" id="T1" lex="CD44">CD44</term> on <term sem="Cell_natural" id="T2" lex="rheumatoid_synovial_cell">rheumatoid synovial cells</term> up-regulates <term sem="Protein_molecule" id="T3" lex="VCAM-1">VCAM-1</term>.</sentence>
+<event id="E1">
+<type class="Cell_adhesion" />
+<theme idref="T1" />
+<theme idref="T2" />
+<clue><clueType>Cross-linking</clueType> <linkTheme>of</linkTheme> CD44 <linkTheme>on</linkTheme> rheumatoid synovial cells up-regulates VCAM-1.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T3" />
+<cause idref="E1" />
+<clue>Cross-linking of CD44 on rheumatoid synovial cells <clueType>up-regulates</clueType> VCAM-1.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T4" lex="CD44">CD44</term> is a ubiquitous molecule also known as <term sem="Carbohydrate" id="T5" lex="hyaluronic_acid">hyaluronic acid</term> or <term sem="Carbohydrate" id="T6" lex="homing_receptor">homing receptor</term>.</sentence>
+<sentence id="S3">However, the <term sem="Other" id="T7" lex="cellular_function">cellular functions</term> and its role in inflammation, for example, <term sem="Other" id="A1">rheumatoid synovitis</term>, are currently unknown.</sentence>
+<event uncertainty="doubtful" id="E3">
+<type class="Regulation" />
+<theme idref="A1" />
+<cause idref="T4" />
+<clue>However, the cellular functions and <corefCause>its</corefCause> <clueType>role</clueType> <linkTheme>in</linkTheme> <corefTheme>inflammation</corefTheme>, for example, rheumatoid synovitis, are currently unknown.</clue>
+<comment>NER: T4 sem mod, Carbohydrate -&gt; Protein_molecule</comment>
+</event>
+<sentence id="S4">In this study, we propose a novel function for <term sem="Carbohydrate" id="T8" lex="CD44">CD44</term>.</sentence>
+<sentence id="S5">Using synovial cells from <term sem="Multicellular_organism_natural" id="T9" lex="rheumatoid_arthritis_(RA)_patient"><term sem="Other" id="T10" lex="rheumatoid_arthritis">rheumatoid arthritis</term> (<term sem="Other" id="T11" lex="RA">RA</term>) patients</term>, we demonstrated that <term sem="Other" id="T12" lex="CD44_cross-linking"><term sem="Protein_molecule" id="T13" lex="CD44">CD44</term> cross-linking</term> and binding to <term sem="Carbohydrate" id="T14" lex="hyaluronan">hyaluronan</term> augmented <term sem="Other" id="T15" lex="VCAM-1_expression"><term sem="Protein_molecule" id="T16" lex="VCAM-1">VCAM-1</term> expression</term> and subsequently <term sem="Protein_molecule" id="T18" lex="VCAM-1">VCAM-1</term>-mediated <term sem="Other" id="A2">cell adhesion</term>.</sentence>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T13" />
+<clue>Using synovial cells from rheumatoid arthritis (RA) patients, we demonstrated that CD44 <clueType>cross-linking</clueType> and binding to hyaluronan augmented VCAM-1 expression and subsequently VCAM-1-mediated cell adhesion.</clue>
+<comment>NER: T13 sem mod, Carbohydrate -&gt; Protein_molecule</comment>
+</event>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T13" />
+<theme idref="T14" />
+<clue>Using synovial cells from rheumatoid arthritis (RA) patients, we demonstrated that CD44 cross-linking and <clueType>binding</clueType> <linkTheme>to</linkTheme> hyaluronan augmented VCAM-1 expression and subsequently VCAM-1-mediated cell adhesion.</clue>
+<comment>NER: T13 sem mod, Carbohydrate -&gt; Protein_molecule</comment>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E5" />
+<clue>Using <clueLoc>synovial cells from rheumatoid arthritis (RA) patients</clueLoc>, we demonstrated that CD44 cross-linking and binding to hyaluronan <clueType>augmented</clueType> VCAM-1 expression and subsequently VCAM-1-mediated cell adhesion.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T18" />
+<clue>Using synovial cells from rheumatoid arthritis (RA) patients, we demonstrated that CD44 cross-linking and binding to hyaluronan augmented VCAM-1 <clueType>expression</clueType> and subsequently VCAM-1-mediated cell adhesion.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T18" />
+<clue>Using synovial cells from rheumatoid arthritis (RA) patients, we demonstrated that CD44 cross-linking and binding to hyaluronan augmented VCAM-1 expression and subsequently VCAM-1-<clueType>mediated</clueType> cell adhesion.</clue>
+<comment>NER: T17 del &quot;VCAM-1-mediated cell adhesion&quot;</comment>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E6" />
+<clue>Using <clueLoc>synovial cells from rheumatoid arthritis (RA) patients</clueLoc>, we demonstrated that CD44 cross-linking and binding to hyaluronan <clueType>augmented</clueType> VCAM-1 expression and <linkCause>subsequently</linkCause> VCAM-1-mediated cell adhesion.</clue>
+</event>
+<sentence id="S6">Briefly, we found that 1) <term sem="Cell_natural" id="T19" lex="rheumatoid_synovial_cell">rheumatoid synovial cells</term> highly expressed <term sem="Protein_molecule" id="T20" lex="CD44">CD44</term>; 2) cross-linking of <term sem="Protein_molecule" id="T22" lex="CD44">CD44</term> markedly but transiently augmented <term sem="Other" id="T24" lex="VCAM-1_expression"><term sem="Protein_molecule" id="T25" lex="VCAM-1"><term sem="RNA_domain_or_region" id="A4">VCAM-1</term></term> expression</term> and its <term sem="Other" id="T26" lex="mRNA_transcription"><term sem="RNA_domain_or_region" id="A3">mRNA</term> transcription</term> much more than did <term sem="Protein_molecule" id="T27" lex="IL-1beta"><term sem="RNA_domain_or_region" id="A5">IL-1beta</term></term> and <term sem="Protein_molecule" id="A6"><term sem="RNA_domain_or_region" id="A7">TNF-alpha</term></term>; 3) <term sem="Carbohydrate" id="T28" lex="hyaluronan">hyaluronan</term>, especially when fragmented, also up-regulated <term sem="Protein_molecule" id="T29" lex="VCAM-1">VCAM-1</term>; 4) <term sem="Protein_molecule" id="T30" lex="CD44">CD44</term> activated the transcription factor <term sem="Protein_molecule" id="A8">AP-1</term>; and 5) the <term sem="Other" id="T32" lex="integrin-dependent_adhesive_function"><term sem="Protein_family_or_group" id="T33" lex="integrin">integrin</term>-dependent adhesive function</term> of <term sem="Cell_natural" id="T34" lex="RA_synovial_cell"><term sem="Other" id="T35" lex="RA">RA</term> synovial cells</term> to <term sem="Cell_natural" id="T36" lex="T_cell">T cells</term> was also amplified by <term sem="Other" id="T37" lex="CD44_cross-linking"><term sem="Protein_molecule" id="T39" lex="CD44">CD44</term> cross-linking</term>.</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue>Briefly, we found that 1) <clueLoc>rheumatoid synovial cells</clueLoc> highly <clueType>expressed</clueType> CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+<comment>NER: T21 del &quot;CD44&quot; as Carbohydrate</comment>
+</event>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T22" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) <clueType>cross-linking</clueType> <linkTheme>of</linkTheme> CD44 markedly but transiently augmented VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+<comment>NER: T23 del &quot;CD44&quot; as Carbohydrate</comment>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E11" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently <clueType>augmented</clueType> VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E11" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently <clueType>augmented</clueType> VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 <clueType>expression</clueType> and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+</event>
+<event id="E14">
+<type class="Transcription" />
+<theme idref1="A3" idref="A4" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA <clueType>transcription</clueType> much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="E11" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently <clueType>augmented</clueType> VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E11" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently <clueType>augmented</clueType> VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T27" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 <clueType>expression</clueType> and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E19">
+<type class="Transcription" />
+<theme idref1="A5" idref="A3" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA <clueType>transcription</clueType> much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E11" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently <clueType>augmented</clueType> VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E11" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently <clueType>augmented</clueType> VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref="A6" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 <clueType>expression</clueType> and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E23">
+<type class="Transcription" />
+<theme idref1="A7" idref="A3" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA <clueType>transcription</clueType> much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E24">
+<type class="Metabolism" />
+<theme idref="T28" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when <clueType>fragmented</clueType>, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="T28" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also <clueType>up-regulated</clueType> VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="E24" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also <clueType>up-regulated</clueType> VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<cause idref="T30" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 <clueType>activated</clueType> the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+<comment>NER: T31 del &quot;CD44&quot; as Carbohydrate</comment>
+</event>
+<event id="E27">
+<type class="Cell_adhesion" />
+<theme idref="T34" />
+<theme idref="T36" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent <clueType>adhesive function</clueType> <linkTheme>of</linkTheme> RA synovial cells <linkTheme>to</linkTheme> T cells was also amplified by CD44 cross-linking.</clue>
+</event>
+<event id="E30">
+<type class="Regulation" />
+<theme idref="E27" />
+<cause idref="T33" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-<clueType>dependent</clueType> adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="E29" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also <clueType>amplified</clueType> <linkCause>by</linkCause> CD44 cross-linking.</clue>
+</event>
+<event id="E29">
+<type class="Binding" />
+<theme idref="T39" />
+<clue>Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 <clueType>cross-linking</clueType>.</clue>
+<comment>NER: T38 del &quot;CD44&quot; as Carbohydrate</comment>
+</event>
+<sentence id="S7">These results indicate that the adhesion of <term sem="Cell_natural" id="T40" lex="RA_synovial_cell"><term sem="Other" id="T41" lex="RA">RA</term> synovial cells</term> to matrices such as <term sem="Carbohydrate" id="T42" lex="hyaluronic_acid">hyaluronic acid</term> through <term sem="Protein_molecule" id="T44" lex="CD44">CD44</term> could up-regulate <term sem="Other" id="T45" lex="VCAM-1_expression"><term sem="Protein_molecule" id="T46" lex="VCAM-1">VCAM-1</term> expression</term> and <term sem="Other" id="T47" lex="VCAM-1-mediated_adhesion"><term sem="Protein_molecule" id="T48" lex="VCAM-1">VCAM-1</term>-mediated adhesion</term> to <term sem="Cell_natural" id="T49" lex="T_cell">T cells</term>, which might in turn cause activation of <term sem="Cell_natural" id="T50" lex="T_cell">T cells</term> and <term sem="Cell_natural" id="T51" lex="synovial_cell">synovial cells</term> in <term sem="Other" id="T52" lex="RA_synovitis">RA synovitis</term>.</sentence>
+<event id="E32">
+<type class="Cell_adhesion" />
+<theme idref="T40" />
+<theme idref="T42" />
+<clue>These results indicate that the <clueType>adhesion</clueType> <linkTheme>of</linkTheme> RA synovial cells <linkTheme>to</linkTheme> <corefTheme>matrices</corefTheme> such as hyaluronic acid through CD44 could up-regulate VCAM-1 expression and VCAM-1-mediated adhesion to T cells, which might in turn cause activation of T cells and synovial cells in RA synovitis.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="T44" />
+<clue>These results indicate that the adhesion of RA synovial cells to matrices such as hyaluronic acid <linkCause>through</linkCause> CD44 could up-regulate VCAM-1 expression and VCAM-1-mediated adhesion to T cells, which might in turn cause activation of T cells and synovial cells in RA synovitis.</clue>
+<comment>NER: T43 del &quot;CD44&quot; as Carbohydrate; NO CLUETYPE</comment>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="E32" />
+<clue>These results indicate that the adhesion of RA synovial cells to matrices such as hyaluronic acid through CD44 could <clueType>up-regulate</clueType> VCAM-1 expression and VCAM-1-mediated adhesion to T cells, which might in turn cause activation of T cells and synovial cells in RA synovitis.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="E32" />
+<clue>These results indicate that the adhesion of RA synovial cells to matrices such as hyaluronic acid through CD44 could <clueType>up-regulate</clueType> VCAM-1 expression and VCAM-1-mediated adhesion to T cells, which might in turn cause activation of T cells and synovial cells in RA synovitis.</clue>
+</event>
+<event id="E36">
+<type class="Gene_expression" />
+<theme idref="T46" />
+<clue>These results indicate that the adhesion of RA synovial cells to matrices such as hyaluronic acid through CD44 could up-regulate VCAM-1 <clueType>expression</clueType> and VCAM-1-mediated adhesion to T cells, which might in turn cause activation of T cells and synovial cells in RA synovitis.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="T48" />
+<clue>These results indicate that the adhesion of RA synovial cells to matrices such as hyaluronic acid through CD44 could up-regulate VCAM-1 expression and VCAM-1-<clueType>mediated</clueType> adhesion to T cells, which might in turn cause activation of T cells and synovial cells in RA synovitis.</clue>
+</event>
+<event id="E38">
+<type class="Cell_adhesion" />
+<theme idref="T40" />
+<theme idref="T49" />
+<clue>These results indicate that the adhesion of RA synovial cells to matrices such as hyaluronic acid through CD44 could up-regulate VCAM-1 expression and VCAM-1-mediated <clueType>adhesion</clueType> <linkTheme>to</linkTheme> T cells, which might in turn cause activation of T cells and synovial cells in RA synovitis.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E41" />
+<cause idref="E35" />
+<clue>These results indicate that the adhesion of RA synovial cells to matrices such as hyaluronic acid through CD44 could up-regulate VCAM-1 expression and VCAM-1-mediated adhesion to T cells, which might in turn <clueType>cause</clueType> activation of T cells and synovial cells in RA synovitis.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E42" />
+<cause idref="E35" />
+<clue>These results indicate that the adhesion of RA synovial cells to matrices such as hyaluronic acid through CD44 could up-regulate VCAM-1 expression and VCAM-1-mediated adhesion to T cells, which might in turn <clueType>cause</clueType> activation of T cells and synovial cells in RA synovitis.</clue>
+</event>
+<event id="E41">
+<type class="Physiological_process" />
+<theme idref="T50" />
+<clue>These results indicate that the adhesion of RA synovial cells to matrices such as hyaluronic acid through CD44 could up-regulate VCAM-1 expression and VCAM-1-mediated adhesion to T cells, which might in turn cause <clueType>activation</clueType> <linkTheme>of</linkTheme> T cells and synovial cells <clueLoc>in RA synovitis</clueLoc>.</clue>
+</event>
+<event id="E42">
+<type class="Physiological_process" />
+<theme idref="T51" />
+<clue>These results indicate that the adhesion of RA synovial cells to matrices such as hyaluronic acid through CD44 could up-regulate VCAM-1 expression and VCAM-1-mediated adhesion to T cells, which might in turn cause <clueType>activation</clueType> <linkTheme>of</linkTheme> T cells and synovial cells <clueLoc>in RA synovitis</clueLoc>.</clue>
+<comment>NER: T53 del &quot;RA&quot;</comment>
+</event>
+<sentence id="S8">We therefore propose that such cross-talking among distinct <term sem="Protein_family_or_group" id="T54" lex="adhesion_molecule">adhesion molecules</term> may be involved in the pathogenesis of <term sem="Other" id="T55" lex="inflammation">inflammation</term>, including <term sem="Other" id="T56" lex="RA_synovitis">RA synovitis</term>.</sentence>
+<event id="E43">
+<type class="Binding" />
+<theme idref="T54" />
+<clue>We therefore propose that such <clueType>cross-talking</clueType> among distinct adhesion molecules may be involved in the pathogenesis of inflammation, including RA synovitis.</clue>
+<comment>NER: T54 sem mod, from the context, Other_organic_compound -&gt; Protein_family_or_group; NER: T57 del &quot;RA&quot;</comment>
+</event>
+<event uncertainty="probable" id="E44">
+<type class="Regulation" />
+<theme idref="E45" />
+<cause idref="E43" />
+<clue>We therefore propose that such cross-talking among distinct adhesion molecules may be <clueType>involved</clueType> <linkTheme>in</linkTheme> the pathogenesis of inflammation, including RA synovitis.</clue>
+</event>
+<event id="E45">
+<type />
+<theme idref="T56" />
+<clue>We therefore propose that such cross-talking among distinct adhesion molecules may be involved in the <clueType>pathogenesis</clueType> <linkTheme>of</linkTheme> <corefTheme>inflammation</corefTheme>, including RA synovitis.</clue>
+<comment>SOO</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

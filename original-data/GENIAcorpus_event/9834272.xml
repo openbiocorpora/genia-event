@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/05/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9834272"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9834272</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="epithelial_cell-initiated_inflammation"><term sem="Cell_natural" id="A12">Epithelial cell</term>-initiated inflammation</term> plays a crucial role in <term sem="Other" id="T2" lex="early_tissue_damage">early <term sem="Tissue_natural" id="A1">tissue</term> damage</term> in <term sem="Other" id="T3" lex="amebic_infection">amebic infection</term> of <term sem="Body_region" id="T4" lex="human_intestine">human intestine</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="E38" />
+<clue>Epithelial cell-initiated inflammation <clueType>plays</clueType> a crucial <clueType>role</clueType> <linkTheme>in</linkTheme> early tissue damage in amebic infection of human intestine.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E38">
+<type class="Physiological_process" />
+<theme idref="A12" />
+<clue>Epithelial cell<linkTheme>-initiated</linkTheme> <clueType>inflammation</clueType> plays a crucial role in early tissue damage in amebic infection of human intestine.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="UNCLASSIFIED" />
+<theme idref="T4" />
+<clue>Epithelial cell-initiated inflammation plays a crucial role in early tissue damage in <clueType>amebic infection</clueType> <linkTheme>of</linkTheme> human intestine.</clue>
+<comment>SOO</comment></event>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="Negative_regulation" />
+<theme idref="A1" />
+<cause idref="E2" />
+<clue>Epithelial cell-initiated inflammation plays a crucial role in <clueTime>early</clueTime> tissue <clueType>damage</clueType> <linkCause>in</linkCause> amebic infection of <clueLoc>human intestine</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">BACKGROUND &amp; AIMS: <term sem="Other" id="T5" lex="Entamoeba_histolytica_infection"><term sem="Unicellular_organism" id="T6" lex="Entamoeba_histolytica">Entamoeba histolytica</term> infection</term> of the <term sem="Body_region" id="A4">intestine</term> can induce <term sem="Other" id="T7" lex="severe_gut_inflammation">severe gut <term sem="Other" id="A3">inflammation</term></term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E4">
+<type class="UNCLASSIFIED" />
+<theme idref="A4" />
+<theme idref="T6" />
+<clue>BACKGROUND &amp; AIMS: Entamoeba histolytica <clueType>infection</clueType> <linkTheme>of</linkTheme> the intestine can induce severe gut inflammation.</clue>
+<comment>SOO</comment></event>
+<event assertion="exist" uncertainty="certain" id="E5">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="E4" />
+<clue>BACKGROUND &amp; AIMS: Entamoeba histolytica infection of the intestine can <clueType>induce</clueType> severe <clueLoc>gut</clueLoc> inflammation.</clue>
+</event>
+<sentence id="S3">The aims of this study were to assess the role of the host <term sem="Other" id="T8" lex="inflammatory_response">inflammatory response</term> in the <term sem="Other" id="T9" lex="tissue_damage">tissue damage</term> observed with <term sem="Other" id="T10" lex="amebiasis">amebiasis</term> and the role of the <term sem="Cell_natural" id="T11" lex="intestinal_epithelial_cell">intestinal epithelial cell</term> in initiating that response.</sentence>
+<event assertion="exist" uncertainty="doubtful" id="E6">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="T8" />
+<clue>The aims of this study were to assess the <clueType>role</clueType> <linkCause>of</linkCause> the <clueLoc>host</clueLoc> inflammatory response <linkTheme>in</linkTheme> the tissue damage observed with amebiasis and the role of the intestinal epithelial cell in initiating that response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E7">
+<type class="Positive_regulation" />
+<theme idref="T9" />
+<cause idref="T10" />
+<clue>The aims of this study were to assess the role of the host inflammatory response in the tissue damage <clueType>observed</clueType> <linkCause>with</linkCause> amebiasis and the role of the intestinal epithelial cell in initiating that response.</clue>
+</event>
+<event assertion="exist" uncertainty="doubtful" id="E8">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="T11" />
+<clue>The aims of this study were to assess the role of the host inflammatory response in the tissue damage observed with amebiasis and the <clueType>role</clueType> <linkCause>of</linkCause> the <clueLoc>intestinal</clueLoc> epithelial cell <linkTheme>in</linkTheme> initiating that response.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E9">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<clue>The aims of this study were to assess the role of the host inflammatory response in the tissue damage observed with amebiasis and the role of the intestinal epithelial cell in <clueType>initiating</clueType> <corefTheme>that response</corefTheme>.</clue>
+</event>
+<sentence id="S4">METHODS: <term sem="Other" id="T12" lex="E._histolytica_infection"><term sem="Unicellular_organism" id="T13" lex="E._histolytica">E. histolytica</term> infection</term> was established in <term sem="Multicellular_organism_genetically_modified" id="T14" lex="human_intestinal_xenograft">human intestinal xenografts</term> in <term sem="Multicellular_organism_genetically_modified" id="T15" lex="severe_combined_immunodeficient_(SCID-HU-INT)_mouse">severe combined immunodeficient (SCID-HU-INT) mice</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E10">
+<type class="UNCLASSIFIED" />
+<theme idref="T14" />
+<theme idref="T13" />
+<clue>METHODS: E. histolytica <clueType>infection</clueType> was established <linkTheme>in</linkTheme> human intestinal xenografts <clueExperiment>in severe combined immunodeficient (SCID-HU-INT) mice</clueExperiment>.</clue>
+<comment>SOO</comment></event>
+<sentence id="S5">Human <term sem="Other" id="T16" lex="intestinal_epithelial_cell_inflammatory_response"><term sem="Cell_natural" id="T17" lex="intestinal_epithelial_cell">intestinal <term sem="Cell_natural" id="A5">epithelial cell</term></term> inflammatory responses</term> to <term sem="Other" id="T18" lex="amebic_infection">amebic infection</term> were inhibited by the <term sem="Other" id="T19" lex="intraluminal_administration">intraluminal administration</term> of an <term sem="Polynucleotide" id="A2">antisense oligonucleotide to the <term sem="Protein_molecule" id="T20" lex="human_p65_subunit">human p65 subunit</term></term> of <term sem="Protein_complex" id="T21" lex="nuclear_factor_kappaB">nuclear factor kappaB</term>, and the role of <term sem="Cell_natural" id="A6">neutrophils</term> in <term sem="Other" id="T22" lex="tissue_damage">tissue damage</term> observed with <term sem="Other" id="T23" lex="amebiasis">amebiasis</term> was studied by depleting <term sem="Cell_natural" id="T24" lex="neutrophil">neutrophils</term> from <term sem="Multicellular_organism_genetically_modified" id="T25" lex="SCID-HU-INT_mouse">SCID-HU-INT mice</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E11">
+<type class="Physiological_process" />
+<theme idref="A5" />
+<cause idref="T18" />
+<clue><clueLoc>Human intestinal</clueLoc> epithelial cell <clueType>inflammatory responses</clueType> <linkCause>to</linkCause> amebic infection were inhibited by the intraluminal administration of an antisense oligonucleotide to the human p65 subunit of nuclear factor kappaB, and the role of neutrophils in tissue damage observed with amebiasis was studied by depleting neutrophils from SCID-HU-INT mice.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="A2" />
+<clue>Human intestinal epithelial cell inflammatory responses to amebic infection were <clueType>inhibited</clueType> <linkCause>by</linkCause> the <clueLoc>intraluminal</clueLoc> administration of an antisense oligonucleotide to the human p65 subunit of nuclear factor kappaB, and the role of neutrophils in tissue damage observed with amebiasis was studied by depleting neutrophils from SCID-HU-INT mice.</clue>
+<comment>TPS: A2</comment></event>
+<event assertion="exist" uncertainty="doubtful" id="E14">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="A6" />
+<clue>Human intestinal epithelial cell inflammatory responses to amebic infection were inhibited by the intraluminal administration of an antisense oligonucleotide to the human p65 subunit of nuclear factor kappaB, and the <clueType>role</clueType> <linkCause>of</linkCause> neutrophils <linkTheme>in</linkTheme> tissue damage observed with amebiasis was studied by depleting neutrophils from SCID-HU-INT mice.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E15">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<cause idref="T23" />
+<clue>Human intestinal epithelial cell inflammatory responses to amebic infection were inhibited by the intraluminal administration of an antisense oligonucleotide to the human p65 subunit of nuclear factor kappaB, and the role of neutrophils in tissue damage <clueType>observed</clueType> <linkCause>with</linkCause> amebiasis was studied by depleting neutrophils from SCID-HU-INT mice.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E16">
+<type class="Negative_regulation" />
+<theme idref="T24" />
+<clue>Human intestinal epithelial cell inflammatory responses to amebic infection were inhibited by the intraluminal administration of an antisense oligonucleotide to the human p65 subunit of nuclear factor kappaB, and the role of neutrophils in tissue damage observed with amebiasis was studied by <clueType>depleting</clueType> neutrophils <clueLoc>from SCID-HU-INT mice</clueLoc>.</clue>
+</event>
+<sentence id="S6">RESULTS: Administration of the <term sem="Polynucleotide" id="T26" lex="antisense_oligonucleotide">antisense oligonucleotide</term> blocked the production of <term sem="Protein_molecule" id="T27" lex="human_interleukin_1beta">human interleukin 1beta</term> and <term sem="Protein_molecule" id="T28" lex="interleukin_8">interleukin 8</term> by <term sem="Cell_natural" id="T29" lex="intestinal_epithelial_cell">intestinal epithelial cells</term> and inhibited <term sem="Cell_natural" id="A9">neutrophil</term> influx into the <term sem="Multicellular_organism_genetically_modified" id="T30" lex="E._histolytica-infected_intestinal_xenografts"><term sem="Unicellular_organism" id="T31" lex="E._histolytica">E. histolytica</term>-infected intestinal <term sem="Multicellular_organism_genetically_modified" id="A8">xenografts</term></term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E18">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="T26" />
+<clue>RESULTS: Administration of the antisense oligonucleotide <clueType>blocked</clueType> the production of human interleukin 1beta and interleukin 8 by intestinal epithelial cells and inhibited neutrophil influx into the E. histolytica-infected intestinal xenografts.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E19">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T26" />
+<clue>RESULTS: Administration of the antisense oligonucleotide <clueType>blocked</clueType> the production of human interleukin 1beta and interleukin 8 by intestinal epithelial cells and inhibited neutrophil influx into the E. histolytica-infected intestinal xenografts.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E20">
+<type class="Gene_expression" />
+<theme idref="T27" />
+<clue>RESULTS: Administration of the antisense oligonucleotide blocked the <clueType>production</clueType> <linkTheme>of</linkTheme> human interleukin 1beta and interleukin 8 <clueLoc>by intestinal epithelial cells</clueLoc> and inhibited neutrophil influx into the E. histolytica-infected intestinal xenografts.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E21">
+<type class="Gene_expression" />
+<theme idref="T28" />
+<clue>RESULTS: Administration of the antisense oligonucleotide blocked the <clueType>production</clueType> <linkTheme>of</linkTheme> human interleukin 1beta and interleukin 8 <clueLoc>by intestinal epithelial cells</clueLoc> and inhibited neutrophil influx into the E. histolytica-infected intestinal xenografts.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E22">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="T26" />
+<clue>RESULTS: Administration of the antisense oligonucleotide blocked the production of human interleukin 1beta and interleukin 8 by intestinal epithelial cells and <clueType>inhibited</clueType> neutrophil influx into the E. histolytica-infected intestinal xenografts.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E23">
+<type class="Cellular_physiological_process" />
+<theme idref="A9" />
+<clue>RESULTS: Administration of the antisense oligonucleotide blocked the production of human interleukin 1beta and interleukin 8 by intestinal epithelial cells and inhibited neutrophil <clueType>influx</clueType> <clueLoc>into the E. histolytica-infected intestinal xenografts</clueLoc>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E24">
+<type class="UNCLASSIFIED" />
+<theme idref="A8" />
+<theme idref="T31" />
+<clue>RESULTS: Administration of the antisense oligonucleotide blocked the production of human interleukin 1beta and interleukin 8 by intestinal epithelial cells and inhibited neutrophil influx into the E. histolytica-<clueType>infected</clueType> <clueLoc>intestinal</clueLoc> xenografts.</clue>
+<comment>SOO</comment></event>
+<sentence id="S7">Inhibition of the gut <term sem="Other" id="T32" lex="inflammatory_response">inflammatory response</term> by the <term sem="Polynucleotide" id="T33" lex="antisense_oligonucleotide">antisense oligonucleotide</term> or the depletion of <term sem="Cell_natural" id="T34" lex="neutrophil">neutrophils</term> from <term sem="Multicellular_organism_genetically_modified" id="T35" lex="SCID-HU-_INT_mouse">SCID-HU- INT mice</term> blocked the increase in <term sem="Other" id="T36" lex="intestinal_permeability">intestinal permeability</term> observed with <term sem="Other" id="T37" lex="amebic_infection">amebic infection</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E25">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<cause idref="T33" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> the <clueLoc>gut</clueLoc> inflammatory response <linkCause>by</linkCause> the antisense oligonucleotide or the depletion of neutrophils from SCID-HU- INT mice blocked the increase in intestinal permeability observed with amebic infection.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E26">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<cause idref="E27" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> the <clueLoc>gut</clueLoc> inflammatory response <linkCause>by</linkCause> the antisense oligonucleotide or the depletion of neutrophils from SCID-HU- INT mice blocked the increase in intestinal permeability observed with amebic infection.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E27">
+<type class="Negative_regulation" />
+<theme idref="T34" />
+<clue>Inhibition of the gut inflammatory response by the antisense oligonucleotide or the <clueType>depletion</clueType> <linkTheme>of</linkTheme> neutrophils <clueLoc>from SCID-HU- INT mice</clueLoc> blocked the increase in intestinal permeability observed with amebic infection.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E28">
+<type class="Negative_regulation" />
+<theme idref="E30" />
+<cause idref="E25" />
+<clue>Inhibition of the gut inflammatory response by the antisense oligonucleotide or the depletion of neutrophils from SCID-HU- INT mice <clueType>blocked</clueType> the increase in intestinal permeability observed with amebic infection.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E29">
+<type class="Negative_regulation" />
+<theme idref="E30" />
+<cause idref="E26" />
+<clue>Inhibition of the gut inflammatory response by the antisense oligonucleotide or the depletion of neutrophils from SCID-HU- INT mice <clueType>blocked</clueType> the increase in intestinal permeability observed with amebic infection.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E30">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<cause idref="T37" />
+<clue>Inhibition of the gut inflammatory response by the antisense oligonucleotide or the depletion of neutrophils from SCID-HU- INT mice blocked the <clueType>increase</clueType> <linkTheme>in</linkTheme> intestinal permeability observed <linkCause>with</linkCause> amebic infection.</clue>
+</event>
+<sentence id="S8">CONCLUSIONS: <term sem="Cell_natural" id="T38" lex="intestinal_epithelial_cell">Intestinal epithelial cells</term> initiate an <term sem="Other" id="T39" lex="inflammatory_response">inflammatory response</term> with resulting <term sem="Cell_natural" id="T46" lex="neutrophil">neutrophil</term>-mediated <term sem="Other" id="T41" lex="tissue_damage">tissue damage</term> in response to <term sem="Other" id="T42" lex="E._histolytica_infection"><term sem="Unicellular_organism" id="T43" lex="E._histolytica">E. histolytica</term> infection</term>; this <term sem="Other" id="T44" lex="inflammatory_cascade">inflammatory cascade</term> can be blocked by inhibiting the transcription of <term sem="DNA_domain_or_region" id="A10"><term sem="DNA_domain_or_region" id="A11">genes</term> regulated by <term sem="Protein_complex" id="T45" lex="nuclear_factor_kappaB">nuclear factor kappaB</term></term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Physiological_process" />
+<theme idref="T38" />
+<clue>CONCLUSIONS: Intestinal epithelial cells initiate an <clueType>inflammatory response</clueType> with resulting neutrophil-mediated tissue damage in response to E. histolytica infection; this inflammatory cascade can be blocked by inhibiting the transcription of genes regulated by nuclear factor kappaB.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E31">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E33" />
+<clue>CONCLUSIONS: <clueLoc>Intestinal epithelial cells</clueLoc> <clueType>initiate</clueType> an inflammatory response with resulting neutrophil-mediated tissue damage <linkCause>in response to</linkCause> E. histolytica infection; this inflammatory cascade can be blocked by inhibiting the transcription of genes regulated by nuclear factor kappaB.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E17">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<clue>CONCLUSIONS: Intestinal epithelial cells initiate an inflammatory response with <clueType>resulting</clueType> neutrophil-mediated tissue damage in response to E. histolytica infection; this inflammatory cascade can be blocked by inhibiting the transcription of genes regulated by nuclear factor kappaB.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E32">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<cause idref="T46" />
+<clue>CONCLUSIONS: Intestinal epithelial cells initiate an inflammatory response with resulting neutrophil-<clueType>mediated</clueType> tissue damage in response to E. histolytica infection; this inflammatory cascade can be blocked by inhibiting the transcription of genes regulated by nuclear factor kappaB.</clue>
+<comment>NER: T40 del &quot;neutrophil-mediated tissue damage&quot;</comment></event>
+<event assertion="exist" uncertainty="certain" id="E33">
+<type class="UNCLASSIFIED" />
+<theme idref="T38" />
+<theme idref="T43" />
+<clue>CONCLUSIONS: Intestinal epithelial cells initiate an inflammatory response with resulting neutrophil-mediated tissue damage in response to E. histolytica <clueType>infection</clueType>; this inflammatory cascade can be blocked by inhibiting the transcription of genes regulated by nuclear factor kappaB.</clue>
+<comment>SOO</comment></event>
+<event assertion="exist" uncertainty="certain" id="E34">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E35" />
+<clue>CONCLUSIONS: Intestinal epithelial cells initiate an inflammatory response with resulting neutrophil-mediated tissue damage in response to E. histolytica infection; <corefTheme>this inflammatory cascade</corefTheme> can be <clueType>blocked</clueType> <linkCause>by</linkCause> inhibiting the transcription of genes regulated by nuclear factor kappaB.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E35">
+<type class="Negative_regulation" />
+<theme idref="E37" />
+<clue>CONCLUSIONS: Intestinal epithelial cells initiate an inflammatory response with resulting neutrophil-mediated tissue damage in response to E. histolytica infection; this inflammatory cascade can be blocked by <clueType>inhibiting</clueType> the transcription of genes regulated by nuclear factor kappaB.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E37">
+<type class="Transcription" />
+<theme idref="A10" />
+<clue>CONCLUSIONS: Intestinal epithelial cells initiate an inflammatory response with resulting neutrophil-mediated tissue damage in response to E. histolytica infection; this inflammatory cascade can be blocked by inhibiting the <clueType>transcription</clueType> <linkTheme>of</linkTheme> genes regulated by nuclear factor kappaB.</clue>
+<comment>TPS: A10</comment></event>
+<event assertion="exist" uncertainty="certain" id="E36">
+<type class="Regulation" />
+<theme idref="E37" />
+<cause idref="T45" />
+<clue>CONCLUSIONS: Intestinal epithelial cells initiate an inflammatory response with resulting neutrophil-mediated tissue damage in response to E. histolytica infection; this inflammatory cascade can be blocked by inhibiting the transcription of genes <clueType>regulated</clueType> <linkCause>by</linkCause> nuclear factor kappaB.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

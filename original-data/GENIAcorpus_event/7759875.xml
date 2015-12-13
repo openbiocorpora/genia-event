@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="24/01/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7759875" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7759875</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Abnormal regulation of the <term sem="DNA_domain_or_region" id="T1" lex="IL-2_promoter"><term sem="Protein_molecule" id="T2" lex="IL-2">IL-2</term> promoter</term> in lpr <term sem="Cell_cultured" id="T3" lex="CD4-CD8-_T_lymphocyte">CD4-CD8- T lymphocytes</term> results in <term sem="Other" id="T4" lex="constitutive_expression">constitutive expression</term> of a <term sem="Protein_family_or_group" id="T5" lex="novel_nuclear_factor_of_activated_T_cells-binding_factor">novel <term sem="Protein_family_or_group" id="T6" lex="nuclear_factor_of_activated_T_cells">nuclear factor of activated <term sem="Cell_natural" id="T7" lex="T_cell">T cells</term></term>-binding factor</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T1" />
+<clue><clueType>Abnormal regulation</clueType> <linkTheme>of</linkTheme> the IL-2 promoter <clueLoc>in lpr CD4-CD8- T lymphocytes</clueLoc> results in constitutive expression of a novel nuclear factor of activated T cells-binding factor.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="E1" />
+<clue>Abnormal regulation of the IL-2 promoter in lpr CD4-CD8- T lymphocytes <clueType>results</clueType> <linkTheme>in</linkTheme> constitutive expression of a novel nuclear factor of activated T cells-binding factor.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>Abnormal regulation of the IL-2 promoter in lpr CD4-CD8- T lymphocytes results in constitutive <clueType>expression</clueType> <linkTheme>of</linkTheme> a novel nuclear factor of activated T cells-binding factor.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The inert quality of <term sem="Cell_cultured" id="T8" lex="MRL-Ipr/Ipr_(Ipr)_peripheral_CD4-CD8-_(CD4-8-)_T_cell">MRL-Ipr/Ipr (Ipr) peripheral CD4-CD8- (CD4-8-) <term sem="Cell_natural" id="T9" lex="T_cell">T cells</term></term> manifests primarily as an inability to proliferate or produce <term sem="Protein_molecule" id="T10" lex="IL-2">IL-2</term> in response to <term sem="Protein_family_or_group" id="T11" lex="TCR">TCR</term> or <term sem="Other" id="T12" lex="mitogenic_stimulation">mitogenic stimulation</term>.</sentence>
+<event id="E4">
+<type class="Cellular_physiological_process" />
+<theme idref="T8" />
+<clue>The inert quality of MRL-Ipr/Ipr (Ipr) peripheral CD4-CD8- (CD4-8-) T cells manifests primarily as an inability to <clueType>proliferate</clueType> or produce IL-2 in response to TCR or mitogenic stimulation.</clue>
+<comment>CAUTION, &quot;Ipr&quot; should be &quot;lpr&quot;</comment>
+</event>
+<event assertion="non-exist" id="E5">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>The inert quality of <clueLoc>MRL-Ipr/Ipr (Ipr) peripheral CD4-CD8- (CD4-8-) T cells</clueLoc> manifests primarily as an inability to proliferate or <clueType>produce</clueType> IL-2 in response to TCR or mitogenic stimulation.</clue>
+</event>
+<event assertion="non-exist" id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T11" />
+<clue>The inert quality of MRL-Ipr/Ipr (Ipr) peripheral CD4-CD8- (CD4-8-) T cells manifests primarily as an <clueType>inability</clueType> to proliferate or produce IL-2 <linkCause>in response to</linkCause> TCR or mitogenic stimulation.</clue>
+</event>
+<event assertion="non-exist" id="E8">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T11" />
+<clue>The inert quality of MRL-Ipr/Ipr (Ipr) peripheral CD4-CD8- (CD4-8-) T cells manifests primarily as an <clueType>inability</clueType> to proliferate or produce IL-2 <linkCause>in response to</linkCause> TCR or mitogenic stimulation.</clue>
+</event>
+<event assertion="non-exist" id="E7">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T12" />
+<clue>The inert quality of MRL-Ipr/Ipr (Ipr) peripheral CD4-CD8- (CD4-8-) T cells manifests primarily as an <clueType>inability</clueType> to proliferate or produce IL-2 <linkCause>in response to</linkCause> TCR or mitogenic stimulation.</clue>
+</event>
+<event assertion="non-exist" id="E9">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T12" />
+<clue>The inert quality of MRL-Ipr/Ipr (Ipr) peripheral CD4-CD8- (CD4-8-) T cells manifests primarily as an <clueType>inability</clueType> to proliferate or produce IL-2 <linkCause>in response to</linkCause> TCR or mitogenic stimulation.</clue>
+</event>
+<sentence id="S3">Yet these same cells do initiate <term sem="Other" id="T13" lex="early_TCR-mediated_signaling_event">early <term sem="Protein_family_or_group" id="T14" lex="TCR">TCR</term>-mediated <term sem="Other" id="A1">signaling events</term></term>, such as generation of <term sem="Organic_compound_other" id="T15" lex="inositol_phosphate">inositol phosphates</term> and increased <term sem="Element" id="T16" lex="intracellular_calcium">intracellular <term sem="Element" id="T17" lex="calcium">calcium</term></term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<clue>Yet <clueLoc>these same cells</clueLoc> do <clueType>initiate</clueType> <corefTheme>early TCR-mediated signaling events</corefTheme>, such as generation of inositol phosphates and increased intracellular calcium.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<clue>Yet <clueLoc>these same cells</clueLoc> do <clueType>initiate</clueType> <corefTheme>early TCR-mediated signaling events</corefTheme>, such as generation of inositol phosphates and increased intracellular calcium.</clue>
+</event>
+<event id="E11">
+<type class="Metabolism" />
+<theme idref="T15" />
+<clue>Yet these same cells do initiate early TCR-mediated signaling events, such as <clueType>generation</clueType> <linkTheme>of</linkTheme> inositol phosphates and increased intracellular calcium.</clue>
+</event>
+<event id="E15">
+<type class="Cellular_physiological_process" />
+<theme idref="T17" />
+<clue>Yet these same cells do initiate early TCR-mediated signaling events, such as generation of inositol phosphates and <clueType>increased</clueType> <clueLoc>intracellular</clueLoc> calcium.</clue>
+</event>
+<event id="E12">
+<type class="Cell_communication" />
+<theme idref="A1" />
+<cause idref="T14" />
+<clue>Yet these same cells do initiate early TCR<linkTheme>-mediated</linkTheme> <clueType>signaling events</clueType>, such as generation of inositol phosphates and increased intracellular calcium.</clue>
+</event>
+<sentence id="S4">They also display constitutively high levels of <term sem="Protein_molecule" id="T18" lex="p59fyn">p59fyn</term> and <term sem="Protein_molecule" id="T19" lex="CD3_zeta">CD3 zeta</term> <term sem="Other" id="T20" lex="tyrosine_phosphorylation"><term sem="Amino_acid_monomer" id="T21" lex="tyrosine">tyrosine</term> phosphorylation</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<clue><clueLoc>They</clueLoc> also display constitutively <clueType>high levels</clueType> <linkTheme>of</linkTheme> p59fyn and CD3 zeta tyrosine phosphorylation.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<clue><clueLoc>They</clueLoc> also display constitutively <clueType>high levels</clueType> <linkTheme>of</linkTheme> p59fyn and CD3 zeta tyrosine phosphorylation.</clue>
+</event>
+<event id="E16">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T18" />
+<site idref="T21" /><clue>They also display constitutively high levels of p59fyn and CD3 zeta tyrosine <clueType>phosphorylation</clueType>.</clue>
+</event>
+<event id="E17">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T19" />
+<site idref="T21" /><clue>They also display constitutively high levels of p59fyn and CD3 zeta tyrosine <clueType>phosphorylation</clueType>.</clue>
+</event>
+<sentence id="S5">The generation of <term sem="Protein_family_or_group" id="T22" lex="second_messenger">second messengers</term> in <term sem="Cell_natural" id="T23" lex="T_cell">T cells</term> normally leads to <term sem="Other" id="T24" lex="downstream_signaling">downstream signaling</term> that results in <term sem="Other" id="T25" lex="transcriptional_activation">transcriptional activation</term> of the <term sem="DNA_domain_or_region" id="T26" lex="IL-2_gene"><term sem="Protein_molecule" id="T27" lex="IL-2">IL-2</term> gene</term>.</sentence>
+<event id="E19">
+<type class="Cell_communication" />
+<theme idref="T22" />
+<clue>The <clueType>generation</clueType> <linkTheme>of</linkTheme> second messengers <clueLoc>in T cells</clueLoc> normally leads to downstream signaling that results in transcriptional activation of the IL-2 gene.</clue>
+<comment>CAUTION, sem of T22</comment>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="E19" />
+<clue>The generation of second messengers in T cells normally <clueType>leads</clueType> <linkTheme>to</linkTheme> downstream signaling that results in transcriptional activation of the IL-2 gene.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="T24" />
+<clue>The generation of second messengers in T cells normally leads to downstream signaling that <clueType>results</clueType> <linkTheme>in</linkTheme> transcriptional activation of the IL-2 gene.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<clue>The generation of second messengers in T cells normally leads to downstream signaling that results in <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> the IL-2 gene.</clue>
+</event>
+<sentence id="S6">We, therefore, compared the activation state of the <term sem="DNA_domain_or_region" id="T28" lex="IL-2_gene_promoter_region"><term sem="Protein_molecule" id="T29" lex="IL-2">IL-2</term> gene promoter region</term> in freshly isolated and stimulated <term sem="Cell_cultured" id="T30" lex="Ipr_CD4-8-_T_cell">Ipr CD4-8- <term sem="Cell_natural" id="T31" lex="T_cell">T cells</term></term> with that of <term sem="Cell_natural" id="T32" lex="normal_T_lymphocyte">normal T lymphocytes</term>.</sentence>
+<event uncertainty="doubtful" id="E23">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<clue>We, therefore, compared the <clueType>activation</clueType> state <linkTheme>of</linkTheme> the IL-2 gene promoter region <clueLoc>in freshly isolated and stimulated Ipr CD4-8- T cells</clueLoc> with that of normal T lymphocytes.</clue>
+</event>
+<event uncertainty="doubtful" id="E24">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<clue>We, therefore, compared the <clueType>activation</clueType> state <linkTheme>of</linkTheme> the IL-2 gene promoter region in freshly isolated and stimulated Ipr CD4-8- T cells with that of <clueLoc>normal T lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E25">
+<type class="Physiological_process" />
+<theme idref="T30" />
+<clue>We, therefore, compared the activation state of the IL-2 gene promoter region in freshly isolated and <clueType>stimulated</clueType> Ipr CD4-8- T cells with that of normal T lymphocytes.</clue>
+<comment>CAUTION, &quot;Ipr&quot; should be &quot;lpr&quot;</comment>
+</event>
+<sentence id="S7">Levels of the <term sem="Polynucleotide" id="T33" lex="octamer">octamer</term>, <term sem="Protein_molecule" id="T34" lex="NF-kappa_B">NF-kappa B</term> (<term sem="Protein_molecule" id="T35" lex="p50-p65_heterodimer">p50-p65 heterodimer</term>), and <term sem="Protein_family_or_group" id="T36" lex="AP-1_transcriptional_factor"><term sem="Protein_molecule" id="T37" lex="AP-1">AP-1</term> transcriptional factors</term> are constitutively elevated in freshly isolated <term sem="Cell_cultured" id="T38" lex="Ipr_CD4-8-_T_cell">Ipr CD4-8- <term sem="Cell_natural" id="T39" lex="T_cell">T cells</term></term>, consistent with the activated phenotype of these cells.</sentence>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<clue><clueType>Levels</clueType> <linkTheme>of</linkTheme> the octamer, NF-kappa B (p50-p65 heterodimer), and AP-1 transcriptional factors are constitutively <clueType>elevated</clueType> <clueLoc>in freshly isolated Ipr CD4-8- T cells</clueLoc>, consistent with the activated phenotype of these cells.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<clue><clueType>Levels</clueType> <linkTheme>of</linkTheme> the octamer, NF-kappa B (p50-p65 heterodimer), and AP-1 transcriptional factors are constitutively <clueType>elevated</clueType> <clueLoc>in freshly isolated Ipr CD4-8- T cells</clueLoc>, consistent with the activated phenotype of these cells.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<clue><clueType>Levels</clueType> <linkTheme>of</linkTheme> the octamer, NF-kappa B (p50-p65 heterodimer), and AP-1 transcriptional factors are constitutively <clueType>elevated</clueType> <clueLoc>in freshly isolated Ipr CD4-8- T cells</clueLoc>, consistent with the activated phenotype of these cells.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<clue><clueType>Levels</clueType> <linkTheme>of</linkTheme> the octamer, NF-kappa B (p50-p65 heterodimer), and AP-1 transcriptional factors are constitutively <clueType>elevated</clueType> in freshly isolated Ipr CD4-8- T cells, consistent with the <clueLoc>activated phenotype of these cells</clueLoc>.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<clue><clueType>Levels</clueType> <linkTheme>of</linkTheme> the octamer, NF-kappa B (p50-p65 heterodimer), and AP-1 transcriptional factors are constitutively <clueType>elevated</clueType> in freshly isolated Ipr CD4-8- T cells, consistent with the <clueLoc>activated phenotype of these cells</clueLoc>.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<clue><clueType>Levels</clueType> <linkTheme>of</linkTheme> the octamer, NF-kappa B (p50-p65 heterodimer), and AP-1 transcriptional factors are constitutively <clueType>elevated</clueType> in freshly isolated Ipr CD4-8- T cells, consistent with the <clueLoc>activated phenotype of these cells</clueLoc>.</clue>
+</event>
+<event id="E32">
+<type class="Physiological_process" />
+<theme idref="T38" />
+<clue>Levels of the octamer, NF-kappa B (p50-p65 heterodimer), and AP-1 transcriptional factors are constitutively elevated in freshly isolated Ipr CD4-8- T cells, consistent with the <clueType>activated</clueType> phenotype <linkTheme>of</linkTheme> these cells.</clue>
+<comment>CAUTION, &quot;Ipr&quot; should be &quot;lpr&quot;</comment>
+</event>
+<sentence id="S8">Upon stimulation with <term sem="Organic_compound_other" id="T40" lex="mitogen">mitogens</term>, formation of the transactivating complex, <term sem="Protein_family_or_group" id="T41" lex="nuclear_factor_of_activated_T_cells">nuclear factor of activated <term sem="Cell_natural" id="T42" lex="T_cell">T cells</term></term> (<term sem="Protein_family_or_group" id="T43" lex="NF-AT">NF-AT</term>), occurs with normal kinetics in <term sem="Cell_cultured" id="T44" lex="Ipr_CD4-8-_T_cell">Ipr CD4-8- <term sem="Cell_natural" id="T45" lex="T_cell">T cells</term></term>.</sentence>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="E35" />
+<clue><linkCause>Upon</linkCause> stimulation with mitogens, formation of the transactivating complex, nuclear factor of activated T cells (NF-AT), occurs with normal kinetics in Ipr CD4-8- T cells.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E34">
+<type class="Protein_metabolism" />
+<theme idref="T43" />
+<clue>Upon stimulation with mitogens, <clueType>formation</clueType> <linkTheme>of</linkTheme> the transactivating complex, nuclear factor of activated T cells (NF-AT), occurs with normal kinetics <clueLoc>in Ipr CD4-8- T cells</clueLoc>.</clue>
+</event>
+<event id="E35">
+<type class="Physiological_process" />
+<theme idref="T44" />
+<cause idref="T40" />
+<clue>Upon <clueType>stimulation</clueType> <linkCause>with</linkCause> mitogens, formation of the transactivating complex, nuclear factor of activated T cells (NF-AT), occurs with normal kinetics in Ipr CD4-8- T cells.</clue>
+<comment>CAUTION, &quot;Ipr&quot; should be &quot;lpr&quot;</comment>
+</event>
+<sentence id="S9">Yet, the levels of the activating <term sem="Protein_complex" id="T46" lex="NF-AT_complex">NF-AT complex</term> never reach those observed in similarly stimulated normal <term sem="Cell_natural" id="T47" lex="T_cell">T cells</term>.</sentence>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="T46" />
+<clue>Yet, the levels of the <clueType>activating</clueType> NF-AT complex never reach those observed in similarly stimulated normal T cells.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="T46" />
+<clue>Yet, the levels of the <clueType>activating</clueType> NF-AT complex never reach those observed <clueLoc>in similarly stimulated normal T cells</clueLoc>.</clue>
+</event>
+<event id="E38">
+<type class="Physiological_process" />
+<theme idref="T47" />
+<cause idref="T40" />
+<clue>Yet, the levels of the activating NF-AT complex never reach those observed in <corefCause>similarly</corefCause> <clueType>stimulated</clueType> normal T cells.</clue>
+</event>
+<sentence id="S10">Furthermore, <term sem="Cell_component" id="T48" lex="nuclear_extract">nuclear extracts</term> from <term sem="Cell_cultured" id="T49" lex="Ipr_CD4-8-_T_cell">Ipr CD4-8- <term sem="Cell_natural" id="T50" lex="T_cell">T cells</term></term> display high levels of a <term sem="Other" id="T51" lex="novel_specific_binding_activity">novel specific binding activity</term> at the <term sem="DNA_domain_or_region" id="T52" lex="NF-AT_site"><term sem="Protein_family_or_group" id="T53" lex="NF-AT">NF-AT</term> site</term>, which is present at much lower levels in freshly isolated <term sem="Cell_natural" id="T54" lex="normal_T_lymphocyte">normal T lymphocytes</term>.</sentence>
+<event id="E39">
+<type class="Binding" />
+<theme idref="T52" />
+<clue>Furthermore, <clueLoc>nuclear extracts from Ipr CD4-8- T cells</clueLoc> display high levels of a novel specific <clueType>binding</clueType> activity <linkTheme>at</linkTheme> the NF-AT site, which is present at much lower levels in freshly isolated normal T lymphocytes.</clue>
+<comment>CAUTION, &quot;Ipr&quot; should be &quot;lpr&quot;</comment>
+</event>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<clue>Furthermore, <clueLoc>nuclear extracts from Ipr CD4-8- T cells</clueLoc> display <clueType>high levels</clueType> <linkTheme>of</linkTheme> a novel specific binding activity at the NF-AT site, which is present at much lower levels in freshly isolated normal T lymphocytes.</clue>
+</event>
+<event id="E41">
+<type class="Gene_expression" />
+<theme idref="T52" />
+<clue>Furthermore, nuclear extracts from Ipr CD4-8- T cells display high levels of a novel specific binding activity at the NF-AT site, which is present at much lower <clueType>levels</clueType> <clueLoc>in freshly isolated normal T lymphocytes</clueLoc>.</clue>
+</event>
+<sentence id="S11">Upon <term sem="Other" id="T55" lex="mitogenic_stimulation">mitogenic stimulation</term>, the binding activity of the novel <term sem="Protein_family_or_group" id="T56" lex="NF-AT-binding_factor"><term sem="Protein_family_or_group" id="T57" lex="NF-AT">NF-AT</term>-binding factor</term> is rapidly down-regulated in normal <term sem="Cell_natural" id="T58" lex="T_cell">T cells</term>, but persists at high levels in <term sem="Cell_cultured" id="T59" lex="Ipr_CD4-8-_T_cell">Ipr CD4-8- <term sem="Cell_natural" id="T60" lex="T_cell">T cells</term></term>.</sentence>
+<event id="E42">
+<type class="Binding" />
+<theme idref="T56" />
+<clue>Upon mitogenic stimulation, the <clueType>binding</clueType> activity <linkTheme>of</linkTheme> the novel NF-AT-binding factor is rapidly down-regulated in normal T cells, but persists at high levels in Ipr CD4-8- T cells.</clue>
+</event>
+<event id="E43">
+<type class="Negative_regulation" />
+<theme idref="E42" />
+<cause idref="T55" />
+<clue><linkCause>Upon</linkCause> mitogenic stimulation, the binding activity of the novel NF-AT-binding factor is rapidly <clueType>down-regulated</clueType> <clueLoc>in normal T cells</clueLoc>, but persists at high levels in Ipr CD4-8- T cells.</clue>
+</event>
+<event assertion="non-exist" id="E44">
+<type class="Negative_regulation" />
+<theme idref="E42" />
+<cause idref="T55" />
+<clue><linkCause>Upon</linkCause> mitogenic stimulation, the binding activity of the novel NF-AT-binding factor is rapidly down-regulated in normal T cells, but <clueType>persists at high levels</clueType> <clueLoc>in Ipr CD4-8- T cells</clueLoc>.</clue>
+</event>
+<sentence id="S12">These two abnormalities at the <term sem="DNA_domain_or_region" id="T61" lex="NF-AT_site"><term sem="Protein_family_or_group" id="T62" lex="NF-AT">NF-AT</term> site</term> provide a potential mechanism to account for the defect in <term sem="Other" id="T63" lex="IL-2_production"><term sem="Protein_molecule" id="T64" lex="IL-2">IL-2</term> production</term> from <term sem="Cell_cultured" id="T65" lex="Ipr_CD4-8-_T_cell">Ipr CD4-8- <term sem="Cell_natural" id="T66" lex="T_cell">T cells</term></term>.</sentence>
+<event uncertainty="probable" id="E40">
+<type class="Positive_regulation" />
+<theme idref="E46" />
+<cause idref="E47" />
+<clue><corefCause>These two abnormalities at the NF-AT site</corefCause> provide a potential mechanism to <clueType>account</clueType> <linkTheme>for</linkTheme> the defect in IL-2 production from Ipr CD4-8- T cells.</clue>
+</event>
+<event id="E48">
+<type class="Positive_regulation" />
+<theme idref="E46" />
+<cause idref="E44" />
+<clue><corefCause>These two abnormalities at the NF-AT site</corefCause> provide a potential mechanism to <clueType>account</clueType> <linkTheme>for</linkTheme> the defect in IL-2 production from Ipr CD4-8- T cells.</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation" />
+<theme idref="E46" />
+<clue>These two abnormalities at the NF-AT site provide a potential mechanism to account for the <clueType>defect</clueType> <linkTheme>in</linkTheme> IL-2 production from Ipr CD4-8- T cells.</clue>
+</event>
+<event id="E46">
+<type class="Gene_expression" />
+<theme idref="T64" />
+<clue>These two abnormalities at the NF-AT site provide a potential mechanism to account for the defect in IL-2 <clueType>production</clueType> <clueLoc>from Ipr CD4-8- T cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

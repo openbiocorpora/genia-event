@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="28/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9915863" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9915863</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Role of <term sem="Protein_molecule" id="T1" lex="Egr-2">Egr-2</term> in up-regulation of <term sem="Protein_family_or_group" id="T2" lex="Fas_ligand">Fas ligand</term> in normal <term sem="Cell_natural" id="T3" lex="T_cell">T cells</term> and <cons sem="(AND Cell_natural Cell_natural)" id="T4" lex="(AND aberrant_double-negative_lpr_T_cell aberrant_double-negative_gld_T_cell)"><frag id="F1">aberrant double-negative</frag> <frag id="F20">lpr</frag> and <frag id="F2">gld</frag> <frag id="F3">T cells</frag></cons>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue><clueType>Role</clueType> <linkCause>of</linkCause> Egr-2 <linkTheme>in</linkTheme> up-regulation of Fas ligand <clueLoc>in normal T cells</clueLoc> and aberrant double-negative lpr and gld T cells.</clue>
+</event>
+<event id="E48">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue><clueType>Role</clueType> <linkCause>of</linkCause> Egr-2 <linkTheme>in</linkTheme> up-regulation of Fas ligand <clueLoc>in</clueLoc> normal T cells and <clueLoc>aberrant double-negative lpr and gld T cells</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>Role of Egr-2 in <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> Fas ligand in normal T cells and aberrant double-negative lpr and gld T cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We previously identified a <term sem="DNA_domain_or_region" id="T5" lex="Fas_ligand_regulatory_element">Fas ligand regulatory element</term> (<term sem="DNA_domain_or_region" id="T6" lex="FLRE">FLRE</term>) in the <term sem="DNA_domain_or_region" id="T7" lex="Fas_ligand_(fasL)_promoter">Fas ligand (fasL) promoter</term> that binds <term sem="Protein_family_or_group" id="T8" lex="Egr_family_protein">Egr family proteins</term> and demonstrated that <term sem="Protein_molecule" id="T9" lex="Egr-3">Egr-3</term> (<term sem="Protein_molecule" id="T10" lex="PILOT">PILOT</term>) but not <term sem="Protein_molecule" id="T11" lex="Egr-1">Egr-1</term> (<term sem="Protein_molecule" id="T12" lex="NGFI-A">NGFI-A</term>, <term sem="Protein_molecule" id="T13" lex="Krox-24">Krox-24</term>, <term sem="Protein_molecule" id="T14" lex="Tis-8">Tis-8</term>, and <term sem="Protein_domain_or_region" id="T15" lex="Zif-268">Zif-268</term>) induces transcription of <term sem="DNA_domain_or_region" id="T16" lex="fasL">fasL</term>.</sentence>
+<event id="E3">
+<type class="Binding" />
+<theme idref="T7" />
+<theme idref="T8" />
+<clue>We previously identified a Fas ligand regulatory element (FLRE) in the Fas ligand (fasL) promoter that <clueType>binds</clueType> Egr family proteins and demonstrated that Egr-3 (PILOT) but not Egr-1 (NGFI-A, Krox-24, Tis-8, and Zif-268) induces transcription of fasL.</clue>
+</event>
+<event id="E5">
+<type class="Transcription" />
+<theme idref="T16" />
+<clue>We previously identified a Fas ligand regulatory element (FLRE) in the Fas ligand (fasL) promoter that binds Egr family proteins and demonstrated that Egr-3 (PILOT) but not Egr-1 (NGFI-A, Krox-24, Tis-8, and Zif-268) induces <clueType>transcription</clueType> <linkTheme>of</linkTheme> fasL.</clue>
+<comment>NER: T16 sem mod, Protein_molecule -&gt; DNA_domain_or_region</comment>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T10" />
+<clue>We previously identified a Fas ligand regulatory element (FLRE) in the Fas ligand (fasL) promoter that binds Egr family proteins and demonstrated that Egr-3 (PILOT) but not Egr-1 (NGFI-A, Krox-24, Tis-8, and Zif-268) <clueType>induces</clueType> transcription of fasL.</clue>
+</event>
+<event assertion="non-exist" id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T12" />
+<clue>We previously identified a Fas ligand regulatory element (FLRE) in the Fas ligand (fasL) promoter that binds Egr family proteins and demonstrated that Egr-3 (PILOT) but not Egr-1 (NGFI-A, Krox-24, Tis-8, and Zif-268) <clueType>induces</clueType> transcription of fasL.</clue>
+</event>
+<event assertion="non-exist" id="E8">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T13" />
+<clue>We previously identified a Fas ligand regulatory element (FLRE) in the Fas ligand (fasL) promoter that binds Egr family proteins and demonstrated that Egr-3 (PILOT) but not Egr-1 (NGFI-A, Krox-24, Tis-8, and Zif-268) <clueType>induces</clueType> transcription of fasL.</clue>
+</event>
+<event assertion="non-exist" id="E9">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T14" />
+<clue>We previously identified a Fas ligand regulatory element (FLRE) in the Fas ligand (fasL) promoter that binds Egr family proteins and demonstrated that Egr-3 (PILOT) but not Egr-1 (NGFI-A, Krox-24, Tis-8, and Zif-268) <clueType>induces</clueType> transcription of fasL.</clue>
+</event>
+<event assertion="non-exist" id="E4">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T15" />
+<clue>We previously identified a Fas ligand regulatory element (FLRE) in the Fas ligand (fasL) promoter that binds Egr family proteins and demonstrated that Egr-3 (PILOT) but not Egr-1 (NGFI-A, Krox-24, Tis-8, and Zif-268) <clueType>induces</clueType> transcription of fasL.</clue>
+</event>
+<sentence id="S3">The <term sem="Cell_natural" id="T17" lex="aberrant_CD4(-)CD8(-)_T_cell">aberrant CD4(-)CD8(-) T cells</term> from <cons sem="(AND Multicellular_organism_genetically_modified Multicellular_organism_genetically_modified)" id="T18" lex="(AND lpr/lpr_mouse gld/gld_mouse)"><frag id="F4">lpr/lpr</frag> and <frag id="F5">gld/gld</frag> <frag id="F6">mice</frag></cons>, which have mutations in the genes encoding <term sem="Protein_molecule" id="T19" lex="Fas">Fas</term> and <term sem="Protein_molecule" id="T20" lex="FasL">FasL</term>, respectively, have an activated phenotype and constitutively express high levels of <term sem="RNA_molecule" id="T21" lex="fasL_mRNA">fasL mRNA</term>, prompting us to ask what role if any the <term sem="DNA_domain_or_region" id="T22" lex="FLRE">FLRE</term> and <term sem="Protein_family_or_group" id="T23" lex="Egr_family_protein">Egr family proteins</term> have in this aberrant expression of <term sem="Protein_molecule" id="T24" lex="fasL">fasL</term>.</sentence>
+<event id="E10">
+<type class="Physiological_process" />
+<theme idref="T17" />
+<clue>The aberrant CD4(-)CD8(-) T cells from lpr/lpr and gld/gld mice, which have mutations in the genes encoding Fas and FasL, respectively, have an <clueType>activated phenotype</clueType> and constitutively express high levels of fasL mRNA, prompting us to ask what role if any the FLRE and Egr family proteins have in this aberrant expression of fasL.</clue>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<theme idref="T21" />
+<clue>The <clueLoc>aberrant CD4(-)CD8(-) T cells</clueLoc> from lpr/lpr and gld/gld mice, which have mutations in the genes encoding Fas and FasL, respectively, have an activated phenotype and constitutively <clueType>express</clueType> high levels <linkTheme>of</linkTheme> fasL mRNA, prompting us to ask what role if any the FLRE and Egr family proteins have in this aberrant expression of fasL.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<clue>The aberrant CD4(-)CD8(-) T cells from lpr/lpr and gld/gld mice, which have mutations in the genes encoding Fas and FasL, respectively, have an activated phenotype and constitutively express <clueType>high levels</clueType> of fasL mRNA, prompting us to ask what role if any the FLRE and Egr family proteins have in this aberrant expression of fasL.</clue>
+</event>
+<event uncertainty="doubtful" id="E13">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="T22" />
+<clue>The aberrant CD4(-)CD8(-) T cells from lpr/lpr and gld/gld mice, which have mutations in the genes encoding Fas and FasL, respectively, have an activated phenotype and constitutively express high levels of fasL mRNA, prompting us to ask what <clueType>role</clueType> if any the FLRE and Egr family proteins <clueType>have</clueType> <linkTheme>in</linkTheme> <corefTheme>this aberrant expression of fasL</corefTheme>.</clue>
+</event>
+<event uncertainty="doubtful" id="E18">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="T23" />
+<clue>The aberrant CD4(-)CD8(-) T cells from lpr/lpr and gld/gld mice, which have mutations in the genes encoding Fas and FasL, respectively, have an activated phenotype and constitutively express high levels of fasL mRNA, prompting us to ask what <clueType>role</clueType> if any the FLRE and Egr family proteins <clueType>have</clueType> <linkTheme>in</linkTheme> <corefTheme>this aberrant expression of fasL</corefTheme>.</clue>
+</event>
+<sentence id="S4">Unstimulated <cons sem="(AND Cell_cultured Cell_cultured)" id="T25" lex="(AND MRL-lpr/lpr_CD4(-)CD8(-)_T_cell C3H-gld/gld_CD4(-)CD8(-)_T_cell)"><frag id="F7">MRL-lpr/lpr</frag> and <frag id="F8">C3H-gld/gld</frag> <frag id="F9">CD4(-)CD8(-) T cells</frag></cons> constitutively contained high levels of two <term sem="Protein_family_or_group" id="A1">proteins</term> that bound to the <term sem="DNA_domain_or_region" id="T26" lex="FLRE">FLRE</term>.</sentence>
+<event id="E14">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T26" />
+<clue>Unstimulated MRL-lpr/lpr and C3H-gld/gld CD4(-)CD8(-) T cells constitutively contained high levels of two proteins that <clueType>bound</clueType> <linkTheme>to</linkTheme> the FLRE.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue><clueLoc>Unstimulated MRL-lpr/lpr and C3H-gld/gld CD4(-)CD8(-) T cells</clueLoc> constitutively <clueType>contained</clueType> high levels of two proteins that bound to the FLRE.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<clue>Unstimulated MRL-lpr/lpr and C3H-gld/gld CD4(-)CD8(-) T cells constitutively contained <clueType>high levels</clueType> <linkTheme>of</linkTheme> two proteins that bound to the FLRE.</clue>
+</event>
+<sentence id="S5">Supershift analysis revealed these proteins to be <term sem="Protein_molecule" id="T27" lex="Egr-1">Egr-1</term> and <term sem="Protein_molecule" id="T28" lex="Egr-2">Egr-2</term> (Krox-20); <term sem="Protein_molecule" id="T29" lex="Egr-3">Egr-3</term> was not detected.</sentence>
+<event assertion="non-exist" id="E17">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue><clueExperiment>Supershift analysis</clueExperiment> revealed these proteins to be Egr-1 and Egr-2 (Krox-20); Egr-3 was not <clueType>detected</clueType>.</clue>
+</event>
+<sentence id="S6">Activation of <term sem="Cell_natural" id="T30" lex="normal_lymph_node_cell">normal lymph node cells</term> resulted in increased expression of <cons sem="(AND Protein_molecule Protein_molecule Protein_molecule)" id="T31" lex="(AND Egr-1 Egr-2 Egr-3)"><frag id="F10">Egr</frag><frag id="F11">-1</frag>, <frag id="F12">-2</frag>, and <frag id="F13">-3</frag></cons>.</sentence>
+<event id="E19">
+<type class="Physiological_process" />
+<theme idref="T30" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> normal lymph node cells resulted in increased expression of Egr-1, -2, and -3.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E19" />
+<clue>Activation of normal lymph node cells <clueType>resulted in increased</clueType> expression of Egr-1, -2, and -3.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E19" />
+<clue>Activation of normal lymph node cells <clueType>resulted in increased</clueType> expression of Egr-1, -2, and -3.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="E19" />
+<clue>Activation of normal lymph node cells <clueType>resulted in increased</clueType> expression of Egr-1, -2, and -3.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref1="F11" idref="F10" />
+<clue>Activation of <clueLoc>normal lymph node cells</clueLoc> resulted in increased <clueType>expression</clueType> <linkTheme>of</linkTheme> Egr-1, -2, and -3.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression" />
+<theme idref1="F12" idref="F10" />
+<clue>Activation of <clueLoc>normal lymph node cells</clueLoc> resulted in increased <clueType>expression</clueType> <linkTheme>of</linkTheme> Egr-1, -2, and -3.</clue>
+</event>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref1="F13" idref="F10" />
+<clue>Activation of <clueLoc>normal lymph node cells</clueLoc> resulted in increased <clueType>expression</clueType> <linkTheme>of</linkTheme> Egr-1, -2, and -3.</clue>
+</event>
+<sentence id="S7">As with <term sem="DNA_domain_or_region" id="T32" lex="egr-3">egr-3</term>, expression of <term sem="DNA_domain_or_region" id="T33" lex="egr-2">egr-2</term> was blocked by <term sem="Organic_compound_other" id="T34" lex="cyclosporin_A">cyclosporin A</term>.</sentence>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>As with egr-3, <clueType>expression</clueType> <linkTheme>of</linkTheme> egr-2 was blocked by cyclosporin A.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="E26" />
+<cause idref="T34" />
+<clue>As with egr-3, expression of egr-2 was <clueType>blocked</clueType> <linkCause>by</linkCause> cyclosporin A.</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue><linkTheme>As with</linkTheme> egr-3, <clueType>expression</clueType> of egr-2 was blocked by cyclosporin A.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<cause idref="T34" />
+<clue>As with egr-3, expression of egr-2 was <clueType>blocked</clueType> <linkCause>by</linkCause> cyclosporin A.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<sentence id="S8">Although <term sem="Protein_molecule" id="A30">overexpressed <term sem="Protein_molecule" id="T35" lex="Egr-1">Egr-1</term></term> was ineffective, <term sem="Protein_molecule" id="A31">overexpressed <term sem="Protein_molecule" id="T36" lex="Egr-2">Egr-2</term></term> was as potent as <term sem="Protein_molecule" id="T37" lex="Egr-3">Egr-3</term> in inducing <term sem="DNA_molecule" id="T38" lex="fasL_promoter-dependent_reporter_constructs"><term sem="Protein_molecule" id="T39" lex="fasL">fasL</term> promoter-dependent reporter constructs</term> in T cell hybridomas and HeLa cells, and both up-regulated endogenous <term sem="RNA_molecule" id="T40" lex="fasL_mRNA">fasL mRNA</term> in <term sem="Cell_cultured" id="T41" lex="HeLa_cell">HeLa cells</term>.</sentence>
+<event id="E30">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>Although <clueType>overexpressed</clueType> Egr-1 was ineffective, overexpressed Egr-2 was as potent as Egr-3 in inducing fasL promoter-dependent reporter constructs in T cell hybridomas and HeLa cells, and both up-regulated endogenous fasL mRNA in HeLa cells.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<clue>Although <clueType>overexpressed</clueType> Egr-1 was ineffective, overexpressed Egr-2 was as potent as Egr-3 in inducing fasL promoter-dependent reporter constructs in T cell hybridomas and HeLa cells, and both up-regulated endogenous fasL mRNA in HeLa cells.</clue>
+</event>
+<event assertion="non-exist" id="E32">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<cause idref="A30" />
+<clue>Although overexpressed Egr-1 was <clueType>ineffective</clueType>, overexpressed Egr-2 was as potent as Egr-3 in <clueType>inducing</clueType> fasL promoter-dependent reporter constructs <clueLoc>in T cell hybridomas</clueLoc> and HeLa cells, and both up-regulated endogenous fasL mRNA in HeLa cells.</clue>
+</event>
+<event assertion="non-exist" id="E49">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<cause idref="A30" />
+<clue>Although overexpressed Egr-1 was <clueType>ineffective</clueType>, overexpressed Egr-2 was as potent as Egr-3 in <clueType>inducing</clueType> fasL promoter-dependent reporter constructs <clueLoc>in</clueLoc> T cell hybridomas and <clueLoc>HeLa cells</clueLoc>, and both up-regulated endogenous fasL mRNA in HeLa cells.</clue>
+</event>
+<event id="E33">
+<type class="Gene_expression" />
+<theme idref="T36" />
+<clue>Although overexpressed Egr-1 was ineffective, <clueType>overexpressed</clueType> Egr-2 was as potent as Egr-3 in inducing fasL promoter-dependent reporter constructs in T cell hybridomas and HeLa cells, and both up-regulated endogenous fasL mRNA in HeLa cells.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<clue>Although overexpressed Egr-1 was ineffective, <clueType>overexpressed</clueType> Egr-2 was as potent as Egr-3 <linkTheme>in</linkTheme> inducing fasL promoter-dependent reporter constructs in T cell hybridomas and HeLa cells, and both up-regulated endogenous fasL mRNA in HeLa cells.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<cause idref="A31" />
+<clue>Although overexpressed Egr-1 was ineffective, overexpressed Egr-2 was as potent as Egr-3 in <clueType>inducing</clueType> fasL promoter-dependent reporter constructs <clueLoc>in T cell hybridomas</clueLoc> and HeLa cells, and both up-regulated endogenous fasL mRNA in HeLa cells.</clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<cause idref="A31" />
+<clue>Although overexpressed Egr-1 was ineffective, overexpressed Egr-2 was as potent as Egr-3 in <clueType>inducing</clueType> fasL promoter-dependent reporter constructs <clueLoc>in</clueLoc> T cell hybridomas and <clueLoc>HeLa cells</clueLoc>, and both up-regulated endogenous fasL mRNA in HeLa cells.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<cause idref="T37" />
+<clue>Although overexpressed Egr-1 was ineffective, overexpressed Egr-2 was as potent as Egr-3 in <clueType>inducing</clueType> fasL promoter-dependent reporter constructs <clueLoc>in T cell hybridomas</clueLoc> and HeLa cells, and both up-regulated endogenous fasL mRNA in HeLa cells.</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<cause idref="T37" />
+<clue>Although overexpressed Egr-1 was ineffective, overexpressed Egr-2 was as potent as Egr-3 in <clueType>inducing</clueType> fasL promoter-dependent reporter constructs <clueLoc>in</clueLoc> T cell hybridomas and <clueLoc>HeLa cells</clueLoc>, and both up-regulated endogenous fasL mRNA in HeLa cells.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<cause idref="T36" />
+<clue>Although overexpressed Egr-1 was ineffective, overexpressed Egr-2 was as potent as Egr-3 in inducing fasL promoter-dependent reporter constructs in T cell hybridomas and HeLa cells, and <corefCause>both</corefCause> <clueType>up-regulated</clueType> endogenous fasL mRNA <clueLoc>in HeLa cells</clueLoc>.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<cause idref="T37" />
+<clue>Although overexpressed Egr-1 was ineffective, overexpressed Egr-2 was as potent as Egr-3 in inducing fasL promoter-dependent reporter constructs in T cell hybridomas and HeLa cells, and <corefCause>both</corefCause> <clueType>up-regulated</clueType> endogenous fasL mRNA <clueLoc>in HeLa cells</clueLoc>.</clue>
+</event>
+<sentence id="S9"><term sem="DNA_molecule" id="T42" lex="FasL-dependent_reporter_construct"><term sem="Protein_molecule" id="T43" lex="FasL">FasL</term>-dependent reporter constructs</term> in <cons sem="(AND Cell_cultured Cell_cultured)" id="T44" lex="(AND MRL-lpr/lpr_CD4(-)CD8(-)_T_cell C3H-gld/gld_CD4(-)CD8(-)_T_cell)"><frag id="F14">MRL-lpr/lpr</frag> and <frag id="F15">C3H-gld/gld</frag> <frag id="F16">CD4(-)CD8(-) T cells</frag></cons> were constitutively active, and this activity was largely prevented by mutation of the critical <term sem="DNA_domain_or_region" id="T45" lex="Egr_family_binding_element">Egr family binding element</term>.</sentence>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<clue>FasL-dependent reporter constructs <clueLoc>in MRL-lpr/lpr</clueLoc> and C3H-gld/gld <clueLoc>CD4(-)CD8(-) T cells</clueLoc> were constitutively <clueType>active</clueType>, and this activity was largely prevented by mutation of the critical Egr family binding element.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<clue>FasL-dependent reporter constructs <clueLoc>in</clueLoc> MRL-lpr/lpr and <clueLoc>C3H-gld/gld CD4(-)CD8(-) T cells</clueLoc> were constitutively <clueType>active</clueType>, and this activity was largely prevented by mutation of the critical Egr family binding element.</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation" />
+<theme idref="E39" />
+<cause idref="E41" />
+<clue>FasL-dependent reporter constructs in MRL-lpr/lpr and C3H-gld/gld CD4(-)CD8(-) T cells were constitutively active, and <corefTheme>this activity</corefTheme> was largely <clueType>prevented</clueType> <linkTheme>by</linkTheme> mutation of the critical Egr family binding element.</clue>
+</event>
+<event id="E41">
+<type class="Mutagenesis" />
+<theme idref="T45" />
+<clue>FasL-dependent reporter constructs in MRL-lpr/lpr and C3H-gld/gld CD4(-)CD8(-) T cells were constitutively active, and this activity was largely prevented by <clueType>mutation</clueType> <linkTheme>of</linkTheme> the critical Egr family binding element.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<sentence id="S10">Thus, <term sem="Protein_molecule" id="T46" lex="Egr-2">Egr-2</term>, in addition to <term sem="Protein_molecule" id="T47" lex="Egr-3">Egr-3</term>, regulates <term sem="Protein_molecule" id="T48" lex="FasL">FasL</term> expression in activated normal <term sem="Cell_natural" id="T49" lex="T_cell">T cells</term>, and <term sem="Protein_molecule" id="T50" lex="Egr-2">Egr-2</term> is likely to play a direct role in aberrant <term sem="Other" id="T51" lex="fasL_up-regulation"><term sem="Protein_molecule" id="T52" lex="fasL">fasL</term> up-regulation</term> in <cons sem="(AND Cell_cultured Cell_cultured)" id="T53" lex="(AND lpr/lpr_CD4(-)CD8(-)_T_cell gld/gld_CD4(-)CD8(-)_T_cell)"><frag id="F17">lpr/lpr</frag> and <frag id="F18">gld/gld</frag> <frag id="F19">CD4(-)CD8(-) T cells</frag></cons>.</sentence>
+<event id="E42">
+<type class="Regulation" />
+<theme idref="E44" />
+<cause idref="T46" />
+<clue>Thus, Egr-2, in addition to Egr-3, <clueType>regulates</clueType> FasL expression in activated normal T cells, and Egr-2 is likely to play a direct role in aberrant fasL up-regulation in lpr/lpr and gld/gld CD4(-)CD8(-) T cells.</clue>
+</event>
+<event id="E43">
+<type class="Regulation" />
+<theme idref="E44" />
+<cause idref="T47" />
+<clue>Thus, Egr-2, in addition to Egr-3, <clueType>regulates</clueType> FasL expression in activated normal T cells, and Egr-2 is likely to play a direct role in aberrant fasL up-regulation in lpr/lpr and gld/gld CD4(-)CD8(-) T cells.</clue>
+</event>
+<event id="E44">
+<type class="Gene_expression" />
+<theme idref="T48" />
+<clue>Thus, Egr-2, in addition to Egr-3, regulates FasL <clueType>expression</clueType> <clueLoc>in activated normal T cells</clueLoc>, and Egr-2 is likely to play a direct role in aberrant fasL up-regulation in lpr/lpr and gld/gld CD4(-)CD8(-) T cells.</clue>
+</event>
+<event id="E45">
+<type class="Physiological_process" />
+<theme idref="T49" />
+<clue>Thus, Egr-2, in addition to Egr-3, regulates FasL expression in <clueType>activated</clueType> normal T cells, and Egr-2 is likely to play a direct role in aberrant fasL up-regulation in lpr/lpr and gld/gld CD4(-)CD8(-) T cells.</clue>
+</event>
+<event uncertainty="probable" id="E46">
+<type class="Regulation" />
+<theme idref="T50" />
+<clue>Thus, Egr-2, in addition to Egr-3, regulates FasL expression in activated normal T cells, and Egr-2 is likely to <clueType>play</clueType> a direct <clueType>role</clueType> <linkTheme>in</linkTheme> aberrant fasL up-regulation in lpr/lpr and gld/gld CD4(-)CD8(-) T cells.</clue>
+</event>
+<event assertion="non-exist" id="E47">
+<type class="Positive_regulation" />
+<theme idref="T52" />
+<clue>Thus, Egr-2, in addition to Egr-3, regulates FasL expression in activated normal T cells, and Egr-2 is likely to play a direct role in <clueType>aberrant</clueType> fasL <clueType>up-regulation</clueType> <clueLoc>in lpr/lpr and gld/gld CD4(-)CD8(-) T cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

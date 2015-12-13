@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="09/02/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1386962" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1386962</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The development of functionally responsive <term sem="Cell_natural" id="T1" lex="T_cell">T cells</term>.</sentence>
+<event id="E1">
+<type class="Cellular_physiological_process" />
+<theme idref="T1" />
+<clue>The <clueType>development</clueType> <linkTheme>of</linkTheme> functionally responsive T cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The work reviewed in this article separates <term sem="Other" id="T2" lex="T_cell_development"><term sem="Cell_natural" id="A1">T cell</term> development</term> into four phases.</sentence>
+<event id="E2">
+<type class="Cellular_physiological_process" />
+<theme idref="A1" />
+<clue>The work reviewed in this article separates T cell <clueType>development</clueType> into four phases.</clue>
+</event>
+<sentence id="S3">First is an <term sem="Other" id="A5">expansion phase</term> prior to <term sem="Other" id="T3" lex="TCR_rearrangement"><term sem="Protein_family_or_group" id="T4" lex="TCR">TCR</term> rearrangement</term>, which appears to be correlated with programming of at least some <term sem="DNA_domain_or_region" id="A2">response <term sem="DNA_domain_or_region" id="A3">genes</term> for <term sem="Other" id="A4">inducibility</term></term>.</sentence>
+<event id="E3">
+<type class="DNA_recombination" />
+<theme idref="T4" />
+<clue>First is an expansion phase prior to TCR <clueType>rearrangement</clueType>, which appears to be correlated with programming of at least some response genes for inducibility.</clue>
+</event>
+<event id="E4">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<clue>First is an expansion phase prior to TCR rearrangement, which appears to be correlated with <clueType>programming</clueType> <linkTheme>of</linkTheme> at least some response genes for inducibility.</clue>
+<comment>TPS: A2</comment>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="A3" />
+<cause idref="A4" />
+<clue>First is an expansion phase prior to TCR rearrangement, which appears to be correlated with programming of at least some <clueType>response</clueType> genes <linkCause>for</linkCause> inducibility.</clue>
+</event>
+<event uncertainty="probable" id="E6">
+<type class="Correlation" />
+<theme idref="A5" />
+<theme idref="E4" />
+<clue>First is an expansion phase prior to TCR rearrangement, which appears to be <clueType>correlated</clueType> <linkTheme>with</linkTheme> programming of at least some response genes for inducibility.</clue>
+</event>
+<sentence id="S4">This phase can occur to some extent outside of the <term sem="Body_region" id="T5" lex="thymus">thymus</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<clue><corefTheme>This phase</corefTheme> can <clueType>occur</clueType> to some extent <clueLoc>outside of the thymus.</clueLoc></clue>
+</event>
+<sentence id="S5">However, the profound <term sem="Other" id="T6" lex="T_cell_deficit"><term sem="Cell_natural" id="A6">T cell</term> deficit</term> of <term sem="Multicellular_organism_natural" id="T7" lex="nude_mice">nude mice</term> indicates that the <term sem="Body_region" id="T8" lex="thymus">thymus</term> is by far the most potent site for inducing the <term sem="Other" id="A7">expansion</term> per se, even if <term sem="Body_region" id="A9">other sites</term> can induce some <term sem="Other" id="A8">response acquisition.</term></sentence>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="A6" />
+<clue>However, the profound T cell <clueType>deficit</clueType> <clueLoc>of nude mice</clueLoc> indicates that the thymus is by far the most potent site for inducing the expansion per se, even if other sites can induce some response acquisition.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="T8" />
+<clue>However, the profound T cell deficit of nude mice indicates that the thymus is by far the most potent site for <clueType>inducing</clueType> the expansion per se, even if other sites can induce some response acquisition.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<cause idref="A9" />
+<clue>However, the profound T cell deficit of nude mice indicates that the thymus is by far the most potent site for inducing the expansion per se, even if other sites can <clueType>induce</clueType> some response acquisition.</clue>
+</event>
+<sentence id="S6">Second is a controlled phase of <term sem="Other" id="T9" lex="TCR_gene_rearrangement"><term sem="DNA_family_or_group" id="T10" lex="TCR_gene">TCR gene</term> rearrangement</term>.</sentence>
+<event id="E11">
+<type class="DNA_recombination" />
+<theme idref="T10" />
+<clue>Second is a controlled phase of TCR gene <clueType>rearrangement</clueType>.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="E11" />
+<clue>Second is a <clueType>controlled</clueType> phase <linkTheme>of</linkTheme> TCR gene rearrangement.</clue>
+</event>
+<sentence id="S7">The details of the <term sem="Other" id="T11" lex="regulatory_mechanism">regulatory mechanism</term> that selects particular <term sem="DNA_domain_or_region" id="T12" lex="loci">loci</term> for <term sem="Other" id="T13" lex="rearrangement">rearrangement</term> are still not known.</sentence>
+<event id="E13">
+<type class="DNA_recombination" />
+<theme idref="T12" />
+<clue>The details of the regulatory mechanism that selects particular loci <linkTheme>for</linkTheme> <clueType>rearrangement</clueType> are still not known.</clue>
+</event>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="E13" />
+<cause idref="T11" />
+<clue>The details of the regulatory mechanism that <clueType>selects</clueType> particular loci for rearrangement are still not known.</clue>
+</event>
+<sentence id="S8">It seems that the <term sem="Other" id="T14" lex="rearrangement">rearrangement</term> of the <term sem="DNA_domain_or_region" id="T15" lex="TCR_gamma_loci">TCR gamma loci</term> in the <term sem="Cell_natural" id="T16" lex="gamma_delta_lineage">gamma delta lineage</term> may not always take place at a developmental stage strictly equivalent to the <term sem="Other" id="T17" lex="rearrangement">rearrangement</term> of <term sem="DNA_domain_or_region" id="T18" lex="TCR_beta">TCR beta</term> in the <term sem="Cell_natural" id="T19" lex="alpha_beta_lineage">alpha beta lineage</term>, and it is not clear just how early the two lineages diverge.</sentence>
+<event id="E15">
+<type class="DNA_recombination" />
+<theme idref="T15" />
+<clue>It seems that the <clueType>rearrangement</clueType> <linkTheme>of</linkTheme> the TCR gamma loci <clueLoc>in the gamma delta lineage</clueLoc> may not always take place at a developmental stage strictly equivalent to the rearrangement of TCR beta in the alpha beta lineage, and it is not clear just how early the two lineages diverge.</clue>
+</event>
+<event id="E16">
+<type class="DNA_recombination" />
+<theme idref="T18" />
+<clue>It seems that the rearrangement of the TCR gamma loci in the gamma delta lineage may not always take place at a developmental stage strictly equivalent to the <clueType>rearrangement</clueType> <linkTheme>of</linkTheme> TCR beta <clueLoc>in the alpha beta lineage</clueLoc>, and it is not clear just how early the two lineages diverge.</clue>
+</event>
+<sentence id="S9">In the <term sem="Cell_natural" id="T20" lex="TCR_alpha_beta_lineage">TCR <term sem="Cell_natural" id="T21" lex="alpha_beta_lineage">alpha beta lineage</term>,</term> however, the final <term sem="Other" id="T22" lex="gene_rearrangement_event">gene <term sem="Other" id="T23" lex="rearrangement">rearrangement</term> events</term> are accompanied by rapid <term sem="Other" id="T24" lex="proliferation">proliferation</term> and an interruption in <term sem="Other" id="T25" lex="cellular_response_gene_inducibility"><term sem="DNA_domain_or_region" id="A11">cellular response gene</term> <term sem="Other" id="A10">inducibility</term></term>.</sentence>
+<event id="E17">
+<type class="Correlation" />
+<theme idref="T22" />
+<theme idref="T24" />
+<clue><clueLoc>In the TCR alpha beta lineage</clueLoc>, however, the final gene rearrangement events are <clueType>accompanied</clueType> <linkTheme>by</linkTheme> rapid proliferation and an interruption in cellular response gene inducibility.</clue>
+</event>
+<event id="E18">
+<type class="Regulation" />
+<theme idref="A11" />
+<cause idref="A10" />
+<clue>In the TCR alpha beta lineage, however, the final gene rearrangement events are accompanied by rapid proliferation and an interruption in cellular <clueType>response</clueType> gene inducibility.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<clue>In the TCR alpha beta lineage, however, the final gene rearrangement events are accompanied by rapid proliferation and an <clueType>interruption</clueType> <linkTheme>in</linkTheme> cellular response gene inducibility.</clue>
+</event>
+<event id="E20">
+<type class="Correlation" />
+<theme idref="T22" />
+<theme idref="E19" />
+<clue>In the TCR alpha beta lineage, however, the final gene rearrangement events are <clueType>accompanied</clueType> <linkTheme>by</linkTheme> rapid proliferation and an interruption in cellular response gene inducibility.</clue>
+</event>
+<sentence id="S10">The loss of <term sem="Other" id="T26" lex="conventional_responsivenessp">conventional responsiveness</term> is probably caused by <term sem="Other" id="A13">alterations at the level of signaling</term>, and may be a manifestation of the physiological state that is a precondition for selection.</sentence>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="A13" />
+<clue><corefTheme>The loss of conventional responsiveness</corefTheme> is probably <clueType>caused</clueType> <linkCause>by</linkCause> alterations at the level of signaling, and may be a manifestation of the physiological state that is a precondition for selection.</clue>
+<comment>TPS: A13</comment>
+</event>
+<sentence id="S11">Third is the complex process of selection.</sentence>
+<sentence id="S12">Whereas <term sem="Cell_natural" id="T27" lex="peripheral_T_cell">peripheral <term sem="Cell_natural" id="T28" lex="T_cell">T cells</term></term> can undergo forms of <term sem="Other" id="T29" lex="positive_selection">positive selection</term> (by <term sem="Protein_family_or_group" id="A14">antigen</term>-driven <term sem="Other" id="A15">clonal expansion</term>) and negative selection (by <term sem="Other" id="A16">abortive stimulation</term> leading to anergy or death), neither is exactly the same phenomenon that occurs in the <term sem="Body_region" id="T30" lex="thymic_cortex">thymic cortex</term>.</sentence>
+<event id="E22">
+<type class="Cellular_physiological_process" />
+<theme idref="T27" />
+<clue>Whereas peripheral T cells can <clueType>undergo</clueType> forms of <clueType>positive selection</clueType> (by antigen-driven clonal expansion) and negative selection (by abortive stimulation leading to anergy or death), neither is exactly the same phenomenon that occurs in the thymic cortex.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="A15" />
+<cause idref="A14" />
+<clue>Whereas peripheral T cells can undergo forms of positive selection (by antigen-<clueType>driven</clueType> clonal expansion) and negative selection (by abortive stimulation leading to anergy or death), neither is exactly the same phenomenon that occurs in the thymic cortex.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E23" />
+<clue>Whereas peripheral T cells can undergo forms of positive selection (<linkCause>by</linkCause> antigen-driven clonal expansion) and negative selection (by abortive stimulation leading to anergy or death), neither is exactly the same phenomenon that occurs in the thymic cortex.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E25">
+<type class="Cellular_physiological_process" />
+<theme idref="T27" />
+<clue>Whereas peripheral T cells can <clueType>undergo</clueType> forms of positive selection (by antigen-driven clonal expansion) and <clueType>negative selection</clueType> (by abortive stimulation leading to anergy or death), neither is exactly the same phenomenon that occurs in the thymic cortex.</clue>
+</event>
+<event id="E101">
+<type class="Cellular_physiological_process" />
+<theme idref="T28" />
+<clue>Whereas peripheral T cells can undergo forms of positive selection (by antigen-driven clonal expansion) and negative selection (by abortive stimulation leading to <clueType>anergy</clueType> or death), neither is exactly the same phenomenon that occurs in the thymic cortex.</clue>
+</event>
+<event id="E102">
+<type class="Cellular_physiological_process" />
+<theme idref="T28" />
+<clue>Whereas peripheral T cells can undergo forms of positive selection (by antigen-driven clonal expansion) and negative selection (by abortive stimulation leading to anergy or <clueType>death</clueType>), neither is exactly the same phenomenon that occurs in the thymic cortex.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E101" />
+<cause idref="A16" />
+<clue>Whereas peripheral T cells can undergo forms of positive selection (by antigen-driven clonal expansion) and negative selection (by abortive stimulation <clueType>leading</clueType> <linkTheme>to</linkTheme> anergy or death), neither is exactly the same phenomenon that occurs in the thymic cortex.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E102" />
+<cause idref="A16" />
+<clue>Whereas peripheral T cells can undergo forms of positive selection (by antigen-driven clonal expansion) and negative selection (by abortive stimulation <clueType>leading</clueType> <linkTheme>to</linkTheme> anergy or death), neither is exactly the same phenomenon that occurs in the thymic cortex.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="E26" />
+<clue>Whereas peripheral T cells can undergo forms of positive selection (by antigen-driven clonal expansion) and negative selection (<linkCause>by</linkCause> abortive stimulation leading to anergy or death), neither is exactly the same phenomenon that occurs in the thymic cortex.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="E27" />
+<clue>Whereas peripheral T cells can undergo forms of positive selection (by antigen-driven clonal expansion) and negative selection (<linkCause>by</linkCause> abortive stimulation leading to anergy or death), neither is exactly the same phenomenon that occurs in the thymic cortex.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E30">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<clue>Whereas peripheral T cells can undergo forms of positive selection (by antigen-driven clonal expansion) and negative selection (by abortive stimulation leading to anergy or death), <clueType>neither</clueType> is exactly <corefTheme>the same phenomenon</corefTheme> that <clueType>occurs</clueType> <clueLoc>in the thymic cortex.</clueLoc></clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<clue>Whereas peripheral T cells can undergo forms of positive selection (by antigen-driven clonal expansion) and negative selection (by abortive stimulation leading to anergy or death), <clueType>neither</clueType> is exactly <corefTheme>the same phenomenon</corefTheme> that <clueType>occurs</clueType> <clueLoc>in the thymic cortex.</clueLoc></clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<clue>Whereas peripheral T cells can undergo forms of positive selection (by antigen-driven clonal expansion) and negative selection (by abortive stimulation leading to anergy or death), <clueType>neither</clueType> is exactly <corefTheme>the same phenomenon</corefTheme> that <clueType>occurs</clueType> <clueLoc>in the thymic cortex.</clueLoc></clue>
+</event>
+<sentence id="S13"><term sem="Other" id="T31" lex="negative_selection">Negative selection</term> in the <term sem="Body_region" id="T32" lex="cortex">cortex</term> appears to be a suicidal inversion of <term sem="Other" id="T33" lex="antigen_responsiveness"><term sem="Protein_family_or_group" id="A17">antigen</term> responsiveness</term>: instead of turning on <term sem="Other" id="T34" lex="IL-2_expression"><term sem="Protein_molecule" id="T35" lex="IL-2">IL-2</term> expression</term>, the <term sem="Cell_natural" id="T36" lex="activated_cell">activated cell</term> destroys its own <term sem="DNA_family_or_group" id="T37" lex="chromatin">chromatin</term>.</sentence>
+<event id="E33">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>Negative selection in the cortex appears to be a suicidal inversion of antigen responsiveness: instead of turning on IL-2 <clueType>expression</clueType>, the activated cell destroys its own chromatin.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<clue>Negative selection in the cortex appears to be a suicidal inversion of antigen responsiveness: instead of <clueType>turning</clueType> <linkTheme>on</linkTheme> IL-2 expression, the activated cell destroys its own chromatin.</clue>
+</event>
+<event assertion="non-exist" id="E35">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="A17" />
+<clue>Negative selection in the cortex appears to be a suicidal inversion of antigen <clueType>responsiveness</clueType>: instead of turning on IL-2 expression, the activated cell destroys its own chromatin.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="T37" />
+<cause idref="T36" />
+<clue>Negative selection in the cortex appears to be a suicidal inversion of antigen responsiveness: instead of turning on IL-2 expression, the activated cell <clueType>destroys</clueType> its own chromatin.</clue>
+</event>
+<event id="E37">
+<type class="Regulation" />
+<theme idref="E36" />
+<cause idref="A17" />
+<clue>Negative selection in the cortex appears to be a suicidal inversion of antigen <clueType>responsiveness</clueType>: instead of turning on IL-2 expression, the activated cell destroys its own chromatin.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation" />
+<theme idref="E35" />
+<cause idref="T31" />
+<clue>Negative selection in the cortex appears to be a suicidal <clueType>inversion</clueType> <linkTheme>of</linkTheme> antigen responsiveness: instead of turning on IL-2 expression, the activated cell destroys its own chromatin.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T31" />
+<clue>Negative selection in the cortex appears to be a suicidal <clueType>inversion</clueType> <linkTheme>of</linkTheme> antigen responsiveness: instead of turning on IL-2 expression, the activated cell destroys its own chromatin.</clue>
+</event>
+<event id="E40">
+<type class="Physiological_process" />
+<theme idref="T28" />
+<clue>Negative selection in the cortex appears to be a suicidal inversion of antigen responsiveness: instead of turning on IL-2 expression, the <clueType>activated</clueType> <corefTheme>cell</corefTheme> destroys its own chromatin.</clue>
+</event>
+<sentence id="S14">The <term sem="DNA_domain_or_region" id="A19">genes</term> that need to be induced for this response are not yet identified, but it is unquestionably a form of activation.</sentence>
+<event id="E41">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<cause idref="A19" />
+<clue>The genes that need to be <clueType>induced</clueType> <linkTheme>for</linkTheme> <corefTheme>this response</corefTheme> are not yet identified, but it is unquestionably a form of activation.</clue>
+</event>
+<event id="E155">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<cause idref="A19" />
+<clue>The genes that need to be <clueType>induced</clueType> <linkTheme>for</linkTheme> <corefTheme>this response</corefTheme> are not yet identified, but it is unquestionably a form of activation.</clue>
+</event>
+<sentence id="S15">It is interesting that in <term sem="Multicellular_organism_natural" id="T38" lex="human">humans</term> and <term sem="Multicellular_organism_natural" id="T39" lex="rat">rats</term>, <term sem="Cell_natural" id="T40" lex="cortical_thymocyte">cortical thymocytes</term> undergoing negative selection can still induce <term sem="Other" id="T41" lex="IL-2R_alpha_expression"><term sem="Protein_family_or_group" id="T42" lex="IL-2R_alpha">IL-2R alpha</term> expression</term> and even be rescued in vitro, if <term sem="Protein_molecule" id="T43" lex="exogenous_IL-2">exogenous IL-2</term> is provided.</sentence>
+<event id="E42">
+<type class="Gene_expression" />
+<theme idref="T42" />
+<clue>It is interesting that in humans and rats, cortical thymocytes undergoing negative selection can still induce IL-2R alpha <clueType>expression</clueType> and even be rescued in vitro, if exogenous IL-2 is provided.</clue>
+</event>
+<event id="E43">
+<type class="Artificial_process" />
+<theme idref="T43" />
+<clue>It is interesting that in humans and rats, cortical thymocytes undergoing negative selection can still induce IL-2R alpha expression and even be rescued in vitro, if exogenous IL-2 is <clueType>provided</clueType>.</clue>
+</event>
+<event id="E300">
+<type class="Positive_regulation" />
+<theme idref="E42" />
+<cause idref="E43" />
+<clue>It is interesting that <clueLoc>in humans</clueLoc> and rats, <clueLoc>cortical thymocytes undergoing negative selection</clueLoc> can still <clueType>induce</clueType> IL-2R alpha expression and even be rescued in vitro, if exogenous IL-2 is provided.</clue>
+</event>
+<event id="E301">
+<type class="Positive_regulation" />
+<theme idref="E42" />
+<cause idref="E43" />
+<clue>It is interesting that <clueLoc>in</clueLoc> humans and <clueLoc>rats, cortical thymocytes undergoing negative selection</clueLoc> can still <clueType>induce</clueType> IL-2R alpha expression and even be rescued in vitro, if exogenous IL-2 is provided.</clue>
+</event>
+<event id="E45">
+<type class="Cellular_physiological_process" />
+<theme idref="T40" />
+<clue>It is interesting that in humans and rats, cortical thymocytes <clueType>undergoing negative selection</clueType> can still induce IL-2R alpha expression and even be rescued in vitro, if exogenous IL-2 is provided.</clue>
+</event>
+<event id="E302">
+<type class="Negative_regulation" />
+<theme idref="E45" />
+<cause idref="E300" />
+<clue>It is interesting that in humans and rats, cortical thymocytes undergoing negative selection can still induce IL-2R alpha expression and even be <clueType>rescued</clueType> in vitro, if exogenous IL-2 is provided.</clue>
+</event>
+<event id="E303">
+<type class="Negative_regulation" />
+<theme idref="E45" />
+<cause idref="E301" />
+<clue>It is interesting that in humans and rats, cortical thymocytes undergoing negative selection can still induce IL-2R alpha expression and even be <clueType>rescued</clueType> in vitro, if exogenous IL-2 is provided.</clue>
+</event>
+<sentence id="S16">Perhaps <term sem="Cell_natural" id="T44" lex="murine_thymocyte">murine thymocytes</term> are denied this form of rescue because they shut off <term sem="Other" id="T45" lex="IL-2R_beta_chain_expression"><term sem="Protein_molecule" id="T46" lex="IL-2R_beta_chain">IL-2R beta chain</term> expression</term> at an earlier stage or because they may be uncommonly <term sem="Other" id="T47" lex="Bcl-2_deficient"><term sem="Protein_molecule" id="T48" lex="bcl-2">Bcl-2</term> deficient</term> (cf. Sentman et al., 1991; Strasser et al., 1991).</sentence>
+<event id="E47">
+<type class="Gene_expression" />
+<theme idref="T46" />
+<clue>Perhaps murine thymocytes are denied this form of rescue because they shut off IL-2R beta chain <clueType>expression</clueType> <clueTime>at an earlier stage</clueTime> or because they may be uncommonly Bcl-2 deficient (cf. Sentman et al., 1991; Strasser et al., 1991).</clue>
+</event>
+<event uncertainty="probable" id="E304">
+<type class="Negative_regulation" />
+<theme idref="E302" />
+<cause idref="E47" />
+<clue>Perhaps <clueLoc>murine thymocytes</clueLoc> are <clueType>denied</clueType> <corefTheme>this form of rescue</corefTheme> <linkCause>because</linkCause> they shut off IL-2R beta chain expression at an earlier stage or because they may be uncommonly Bcl-2 deficient (cf. Sentman et al., 1991; Strasser et al., 1991).</clue>
+</event>
+<event uncertainty="probable" id="E305">
+<type class="Negative_regulation" />
+<theme idref="E303" />
+<cause idref="E47" />
+<clue>Perhaps <clueLoc>murine thymocytes</clueLoc> are <clueType>denied</clueType> <corefTheme>this form of rescue</corefTheme> <linkCause>because</linkCause> they shut off IL-2R beta chain expression at an earlier stage or because they may be uncommonly Bcl-2 deficient (cf. Sentman et al., 1991; Strasser et al., 1991).</clue>
+</event>
+<event uncertainty="probable" id="E49">
+<type class="Negative_regulation" />
+<theme idref="T48" />
+<clue>Perhaps <clueLoc>murine thymocytes</clueLoc> are denied this form of rescue because they shut off IL-2R beta chain expression at an earlier stage or because they may be uncommonly Bcl-2 <clueType>deficient</clueType> (cf. Sentman et al., 1991; Strasser et al., 1991).</clue>
+</event>
+<event uncertainty="probable" id="E306">
+<type class="Negative_regulation" />
+<theme idref="E302" />
+<cause idref="E49" />
+<clue>Perhaps <clueLoc>murine thymocytes</clueLoc> are <clueType>denied</clueType> <corefTheme>this form of rescue</corefTheme> because they shut off IL-2R beta chain expression at an earlier stage or <linkCause>because</linkCause> they may be uncommonly Bcl-2 deficient (cf. Sentman et al., 1991; Strasser et al., 1991).</clue>
+</event>
+<event uncertainty="probable" id="E307">
+<type class="Negative_regulation" />
+<theme idref="E303" />
+<cause idref="E49" />
+<clue>Perhaps <clueLoc>murine thymocytes</clueLoc> are <clueType>denied</clueType> <corefTheme>this form of rescue</corefTheme> because they shut off IL-2R beta chain expression at an earlier stage or <linkCause>because</linkCause> they may be uncommonly Bcl-2 deficient (cf. Sentman et al., 1991; Strasser et al., 1991).</clue>
+</event>
+<sentence id="S17">Even so, <term sem="Cell_natural" id="T49" lex="medullary_thymocyte">medullary thymocytes</term> remain at least partially susceptible to <term sem="Other" id="A21">negative selection</term> even as they continue to mature .</sentence>
+<event id="E51">
+<type />
+<theme idref="T49" />
+<cause idref="A21" />
+<clue>Even so, medullary thymocytes remain at least partially <clueType>susceptible</clueType> <linkCause>to</linkCause> negative selection <clueTime>even as they continue to mature</clueTime> .</clue>
+<comment>SUSCEPTIBILITY</comment>
+</event>
+<event id="E52">
+<type class="Cellular_physiological_process" />
+<theme idref="T49" />
+<clue>Even so, medullary thymocytes remain at least partially susceptible to negative selection even as <corefTheme>they</corefTheme> <clueType>continue to mature</clueType> .</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

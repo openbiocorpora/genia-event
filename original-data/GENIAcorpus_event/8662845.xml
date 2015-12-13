@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="08/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8662845" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8662845</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Cooperation between <term sem="Protein_molecule" id="T1" lex="core_binding_factor">core binding factor</term> and <term sem="DNA_family_or_group" id="T2" lex="adjacent_promoter_element">adjacent promoter elements</term> contributes to the <term sem="Other" id="T3" lex="tissue-specific_expression">tissue-specific expression</term> of <term sem="Protein_molecule" id="T4" lex="interleukin-3">interleukin-3</term>.</sentence>
+<event id="E1">
+<type class="Correlation" />
+<theme idref="T1" />
+<theme idref="T2" />
+<clue><clueType>Cooperation</clueType> <linkTheme>between</linkTheme> core binding factor and adjacent promoter elements contributes to the tissue-specific expression of interleukin-3.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>Cooperation between core binding factor and adjacent promoter elements contributes to the tissue-specific <clueType>expression</clueType> <linkTheme>of</linkTheme> interleukin-3.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue>Cooperation between core binding factor and adjacent promoter elements <clueType>contributes</clueType> <linkTheme>to</linkTheme> the tissue-specific expression of interleukin-3.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Tissue-specific expression of <term sem="Protein_molecule" id="T5" lex="interleukin-3">interleukin-3</term> (<term sem="Protein_molecule" id="T6" lex="IL-3">IL-3</term>) is mediated via <term sem="DNA_family_or_group" id="T7" lex="cis-acting_element">cis-acting elements</term> located within 315 base pairs of the <term sem="DNA_domain_or_region" id="T8" lex="transcription_start">transcription start</term>.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Tissue-specific <clueType>expression</clueType> <linkTheme>of</linkTheme> interleukin-3 (IL-3) is mediated via cis-acting elements located within 315 base pairs of the transcription start.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T7" />
+<clue>Tissue-specific expression of interleukin-3 (IL-3) is <clueType>mediated</clueType> <linkCause>via</linkCause> cis-acting elements located within 315 base pairs of the transcription start.</clue>
+</event>
+<sentence id="S3">This is achieved in part through the positive activities of the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T9" lex="(AND AP-1_site Elf-1_site)"><frag id="F1"><term sem="DNA_domain_or_region" id="A1">AP-1</term></frag> and <frag id="F2"><term sem="DNA_domain_or_region" id="A2">Elf-1</term></frag> <frag id="F3"><term sem="DNA_domain_or_region" id="A3">sites</term></frag></cons> <term sem="DNA_domain_or_region" id="A50">in the <term sem="DNA_domain_or_region" id="T10" lex="IL-3_promoter"><term sem="Protein_molecule" id="T11" lex="IL-3">IL-3</term> promoter</term></term>.</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref1="A3" idref2="A50" idref="A1" />
+<clue>This is achieved in part <linkCause>through</linkCause> the <clueType>positive activities</clueType> of the AP-1 and Elf-1 sites in the IL-3 promoter.</clue>
+<comment>TPS: A50</comment>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref1="A3" idref2="A50" idref="A2" />
+<clue>This is achieved in part <linkCause>through</linkCause> the <clueType>positive activities</clueType> of the AP-1 and Elf-1 sites in the IL-3 promoter.</clue>
+</event>
+<sentence id="S4">The contribution to <term sem="Other" id="T12" lex="T_cell-specific_expression">T cell-specific expression</term> by other <term sem="DNA_domain_or_region" id="T13" lex="promoter_sites">promoter sites</term> was assessed in a <term sem="Other" id="T14" lex="transient_expression_assay">transient expression assay</term> with <term sem="DNA_family_or_group" id="T15" lex="IL-3_promoter_construct"><term sem="Protein_molecule" id="T16" lex="IL-3">IL-3</term> promoter constructs</term> linked to a <term sem="DNA_domain_or_region" id="T17" lex="luciferase_gene">luciferase gene</term>, focusing initially on the <term sem="DNA_domain_or_region" id="T18" lex="core_binding_factor_(CBF)_site"><term sem="Protein_molecule" id="T19" lex="core_binding_factor">core binding factor</term> (CBF) site</term>, which is footprinted in vivo upon <term sem="Other" id="T20" lex="T_cell_activation"><term sem="Cell_natural" id="A6">T cell</term> activation</term>.</sentence>
+<event uncertainty="doubtful" id="E8">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="T13" />
+<clue>The <clueType>contribution</clueType> <linkTheme>to</linkTheme> T cell-specific expression <linkCause>by</linkCause> other promoter sites was assessed <clueExperiment>in a transient expression assay with IL-3 promoter constructs linked to a luciferase gene</clueExperiment>, focusing initially on the core binding factor (CBF) site, which is footprinted in vivo upon T cell activation.</clue>
+</event>
+<event id="E9">
+<type class="Physiological_process" />
+<theme idref="A6" />
+<clue>The contribution to T cell-specific expression by other promoter sites was assessed in a transient expression assay with IL-3 promoter constructs linked to a luciferase gene, focusing initially on the core binding factor (CBF) site, which is footprinted in vivo upon T cell <clueType>activation</clueType>.</clue>
+</event>
+<event id="E10">
+<type class="Binding" />
+<theme idref="T18" />
+<clue>The contribution to T cell-specific expression by other promoter sites was assessed in a transient expression assay with IL-3 promoter constructs linked to a luciferase gene, focusing initially on the core binding factor (CBF) site, which is <clueType>footprinted</clueType> in vivo upon T cell activation.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="E9" />
+<clue>The contribution to T cell-specific expression by other promoter sites was assessed in a transient expression assay with IL-3 promoter constructs linked to a luciferase gene, focusing initially on the core binding factor (CBF) site, which is footprinted in vivo <linkCause>upon</linkCause> T cell activation.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S5">Activity of the <term sem="DNA_domain_or_region" id="T21" lex="CBF_site">CBF site</term> is shown to be critically dependent on the <term sem="DNA_domain_or_region" id="T22" lex="adjacent_activator_site_Act-1">adjacent activator site <term sem="DNA_domain_or_region" id="T23" lex="Act-1">Act-1</term></term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<cause idref="T23" />
+<clue>Activity of the CBF site is shown to be critically <clueType>dependent</clueType> <linkCause>on</linkCause> the adjacent activator site Act-1.</clue>
+</event>
+<sentence id="S6">Together the <term sem="DNA_domain_or_region" id="T24" lex="Act-1">Act-1</term> and <term sem="DNA_domain_or_region" id="T25" lex="CBF_site">CBF sites</term> form a <term sem="DNA_domain_or_region" id="T26" lex="functional_unit">functional unit</term> (<term sem="DNA_domain_or_region" id="T27" lex="AC_unit">AC unit</term>) with dual activity.</sentence>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T24" />
+<theme idref="T25" />
+<clue>Together the Act-1 and CBF sites <clueType>form a functional unit</clueType> (AC unit) with dual activity.</clue>
+</event>
+<sentence id="S7">The <term sem="DNA_domain_or_region" id="T28" lex="AC_unit">AC unit</term> is demonstrated to enhance basal activity of <term sem="DNA_domain_or_region" id="A7">promoters</term> both in <term sem="Cell_natural" id="T29" lex="fibroblast">fibroblasts</term> and <term sem="Cell_natural" id="T30" lex="T_cell">T cells</term>.</sentence>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="T28" />
+<clue>The AC unit is demonstrated to <clueType>enhance</clueType> basal activity of promoters both in fibroblasts and T cells.</clue>
+</event>
+<event id="E300">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="T28" />
+<clue>The AC unit is demonstrated to <clueType>enhance</clueType> basal activity of promoters both <clueLoc>in fibroblasts</clueLoc> and T cells.</clue>
+</event>
+<event id="E301">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="T28" />
+<clue>The AC unit is demonstrated to <clueType>enhance</clueType> basal activity of promoters both <clueLoc>in</clueLoc> fibroblasts and <clueLoc>T cells</clueLoc>.</clue>
+</event>
+<sentence id="S8">This activity is further inducible in activated <term sem="Cell_natural" id="T31" lex="T_cell">T cells</term>, but not in <term sem="Cell_natural" id="T32" lex="fibroblast">fibroblasts</term>.</sentence>
+<event id="E15">
+<type class="Physiological_process" />
+<theme idref="T31" />
+<clue>This activity is further inducible in <clueType>activated</clueType> T cells, but not in fibroblasts.</clue>
+</event>
+<event id="E16">
+<type class="Physiological_process" />
+<theme idref="T31" />
+<clue>This activity is further inducible in <clueType>activated</clueType> T cells, but not in fibroblasts.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue><corefTheme>This activity</corefTheme> is <clueType>further inducible</clueType> <clueLoc>in activated T cells</clueLoc>, but not in fibroblasts.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue>This activity is <clueType>further inducible</clueType> in activated T cells, but not <clueLoc>in fibroblasts</clueLoc>.</clue>
+</event>
+<sentence id="S9">In addition to the already identified <term sem="DNA_domain_or_region" id="T33" lex="NIP_repressor_site">NIP repressor site</term>, evidence is presented for a <term sem="DNA_domain_or_region" id="T34" lex="second_repressor_region">second repressor region</term> that restricts <term sem="Other" id="A8">promoter activity</term> in <term sem="Cell_natural" id="T35" lex="fibroblast">fibroblasts</term>.</sentence>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="A8" />
+<cause idref="T33" />
+<clue>In addition to the already identified NIP repressor site, evidence is presented for a second repressor region that <clueType>restricts</clueType> promoter activity <clueLoc>in fibroblasts</clueLoc>.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="A8" />
+<cause idref="T34" />
+<clue>In addition to the already identified NIP repressor site, evidence is presented for a second repressor region that <clueType>restricts</clueType> promoter activity <clueLoc>in fibroblasts</clueLoc>.</clue>
+</event>
+<sentence id="S10">Finally, a novel <term sem="DNA_family_or_group" id="T36" lex="positive_regulatory_element">positive regulatory element</term> has been mapped in the <term sem="DNA_domain_or_region" id="T37" lex="IL-3_promoter"><term sem="Protein_molecule" id="T38" lex="IL-3">IL-3</term> promoter</term> between nucleotide -180 and -210 that leads to increased <term sem="Other" id="A9">expression</term> in <term sem="Cell_natural" id="T39" lex="T_cell">T cells</term>.</sentence>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="A9" />
+<cause idref="T36" />
+<clue>Finally, a novel positive regulatory element has been mapped in the IL-3 promoter between nucleotide -180 and -210 that leads to <clueType>increased</clueType> expression <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<sentence id="S11">Together these results demonstrate that <term sem="Other" id="T40" lex="T_cell_expression">T cell expression</term> of <term sem="Protein_molecule" id="T41" lex="IL-3">IL-3</term> is not specified by the activity of a single <term sem="DNA_family_or_group" id="T42" lex="tissue-specific_element">tissue-specific element</term>, but instead involves multiple <term sem="DNA_family_or_group" id="T43" lex="interacting_element">interacting elements</term> that provide both <term sem="Other" id="T44" lex="specific_positive_regulation">specific positive regulation</term> in <term sem="Cell_natural" id="T46" lex="T_cell">T cells</term> and <term sem="Other" id="T47" lex="specific_negative_regulation">specific negative regulation</term> in <term sem="Cell_natural" id="T48" lex="fibroblast">fibroblasts</term>.</sentence>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>Together these results demonstrate that <clueLoc>T cell</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-3 is not specified by the activity of a single tissue-specific element, but instead involves multiple interacting elements that provide both specific positive regulation in T cells and specific negative regulation in fibroblasts.</clue>
+</event>
+<event assertion="non-exist" id="E23">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="T42" />
+<clue>Together these results demonstrate that T cell expression of IL-3 is not <clueType>specified</clueType> <linkCause>by</linkCause> the activity of a single tissue-specific element, but instead involves multiple interacting elements that provide both specific positive regulation in T cells and specific negative regulation in fibroblasts.</clue>
+</event>
+<event id="E24">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="T43" />
+<clue>Together these results demonstrate that T cell expression of IL-3 is not specified by the activity of a single tissue-specific element, but instead <clueType>involves</clueType> multiple interacting elements that provide both specific positive regulation in T cells and specific negative regulation in fibroblasts.</clue>
+</event>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>Together these results demonstrate that T cell <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-3 is not specified by the activity of a single tissue-specific element, but instead involves multiple interacting elements that provide both specific positive regulation in T cells and specific negative regulation in fibroblasts.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="T43" />
+<clue>Together these results demonstrate that T cell expression of IL-3 is not specified by the activity of a single tissue-specific element, but instead involves multiple interacting elements that provide both specific <clueType>positive regulation</clueType> <clueLoc>in T cells</clueLoc> and specific negative regulation in fibroblasts.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="T43" />
+<clue>Together these results demonstrate that T cell expression of IL-3 is not specified by the activity of a single tissue-specific element, but instead involves multiple interacting elements that provide both specific positive regulation in T cells and specific <clueType>negative regulation</clueType> <clueLoc>in fibroblasts</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

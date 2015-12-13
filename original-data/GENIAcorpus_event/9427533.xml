@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="21/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9427533" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9427533</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="A2">Competent transcription</term> <term sem="Other" id="T1" lex="initiation">initiation</term> by <term sem="Protein_complex" id="T2" lex="RNA_polymerase_II">RNA polymerase II</term> in <term sem="Cell_natural" id="T3" lex="cell-free_extract">cell-free extracts</term> from <term sem="Other" id="T4" lex="xeroderma_pigmentosum">xeroderma pigmentosum</term> groups B and D in an <term sem="Other" id="A1">optimized RNA transcription assay</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T2" />
+<clue>Competent transcription <clueType>initiation</clueType> <linkCause>by</linkCause> RNA polymerase II <clueLoc>in cell-free extracts from xeroderma pigmentosum groups B</clueLoc> and D <clueExperiment>in an optimized RNA transcription assay</clueExperiment>.</clue>
+<comment>NER: T1 mod &quot;Competent transcription initiation&quot;-&gt;&quot;initiation&quot;</comment>
+</event>
+<event id="E101">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T2" />
+<clue>Competent transcription <clueType>initiation</clueType> <linkCause>by</linkCause> RNA polymerase II <clueLoc>in cell-free extracts from xeroderma pigmentosum groups</clueLoc> B and <clueLoc>D</clueLoc> <clueExperiment>in an optimized RNA transcription assay</clueExperiment>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Other" id="T5" lex="human_autosomal_recessive_disease">human autosomal recessive disease</term>, <term sem="Other" id="T6" lex="xeroderma_pigmentosum">xeroderma pigmentosum</term> (<term sem="Other" id="T7" lex="XP">XP</term>), can result from mutations in any one of seven genes, designated <term sem="DNA_domain_or_region" id="T8" lex="XPA">XPA</term> through <term sem="DNA_domain_or_region" id="T9" lex="XPG">XPG</term>.</sentence>
+<event id="E2">
+<type class="Mutagenesis" />
+<theme idref="T8" />
+<clue>The human autosomal recessive disease, xeroderma pigmentosum (XP), can result from <clueType>mutations</clueType> <linkTheme>in</linkTheme> <corefTheme>any one of seven genes</corefTheme>, designated XPA through XPG.</clue>
+</event>
+<event id="E3">
+<type class="Mutagenesis" />
+<theme idref="T9" />
+<clue>The human autosomal recessive disease, xeroderma pigmentosum (XP), can result from <clueType>mutations</clueType> <linkTheme>in</linkTheme> <corefTheme>any one of seven genes</corefTheme>, designated XPA through XPG.</clue>
+<comment>CAUTION seven genes also include XPB,XPC,XPD,XPE and XPF</comment>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<cause idref="E2" />
+<clue>The human autosomal recessive disease, xeroderma pigmentosum (XP), can <clueType>result</clueType> <linkCause>from</linkCause> mutations in any one of seven genes, designated XPA through XPG.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<cause idref="E3" />
+<clue>The human autosomal recessive disease, xeroderma pigmentosum (XP), can <clueType>result</clueType> <linkCause>from</linkCause> mutations in any one of seven genes, designated XPA through XPG.</clue>
+</event>
+<sentence id="S3">Of these, the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T10" lex="(AND XPB_gene XPD_gene)"><frag id="F1">XPB</frag> and <frag id="F2">XPD</frag> <frag id="F3">genes</frag></cons> encode proteins that are subunits of a <term sem="Protein_molecule" id="T11" lex="general_transcription_factor">general transcription factor</term>, <term sem="Protein_molecule" id="T12" lex="TFIIH">TFIIH</term>, involved in both <term sem="Other" id="T13" lex="nucleotide_excision_repair">nucleotide excision repair</term> (<term sem="Other" id="T14" lex="NER">NER</term>) and initiation of <term sem="Other" id="T15" lex="mRNA_transcription">mRNA transcription</term> by <term sem="Protein_complex" id="T16" lex="RNA_polymerase_II">RNA polymerase II</term>.</sentence>
+<event id="E6">
+<type class="Correlation" />
+<theme idref1="F3" idref="F1" />
+<theme idref="T14" />
+<clue>Of these, the XPB and XPD genes encode proteins that are subunits of a general transcription factor, TFIIH, <clueType>involved</clueType> <linkTheme>in</linkTheme> both nucleotide excision repair (NER) and initiation of mRNA transcription by RNA polymerase II.</clue>
+</event>
+<event id="E7">
+<type class="Correlation" />
+<theme idref1="F3" idref="F2" />
+<theme idref="T14" />
+<clue>Of these, the XPB and XPD genes encode proteins that are subunits of a general transcription factor, TFIIH, <clueType>involved</clueType> <linkTheme>in</linkTheme> both nucleotide excision repair (NER) and initiation of mRNA transcription by RNA polymerase II.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<cause idref="T16" />
+<clue>Of these, the XPB and XPD genes encode proteins that are subunits of a general transcription factor, TFIIH, involved in both nucleotide excision repair (NER) and <clueType>initiation</clueType> <linkTheme>of</linkTheme> mRNA transcription <linkCause>by</linkCause> RNA polymerase II.</clue>
+</event>
+<event id="E10">
+<type class="Correlation" />
+<theme idref1="F3" idref="F1" />
+<theme idref="E9" />
+<clue>Of these, the XPB and XPD genes encode proteins that are subunits of a general transcription factor, TFIIH, <clueType>involved</clueType> <linkTheme>in</linkTheme> both nucleotide excision repair (NER) and initiation of mRNA transcription by RNA polymerase II.</clue>
+</event>
+<event id="E11">
+<type class="Correlation" />
+<theme idref1="F3" idref="F2" />
+<theme idref="E9" />
+<clue>Of these, the XPB and XPD genes encode proteins that are subunits of a general transcription factor, TFIIH, <clueType>involved</clueType> <linkTheme>in</linkTheme> both nucleotide excision repair (NER) and initiation of mRNA transcription by RNA polymerase II.</clue>
+</event>
+<sentence id="S4">In <term sem="Multicellular_organism_natural" id="T17" lex="human">humans</term>, mutation of the <cons sem="(OR DNA_domain_or_region DNA_domain_or_region)" id="T18" lex="(OR XPB_gene XPD_gene)"><frag id="F4">XPB</frag> or <frag id="F5">XPD</frag> <frag id="F6">gene</frag></cons> impairs <term sem="Other" id="T19" lex="NER">NER</term>, resulting in hyper-sensitivity to <term sem="Other" id="A9">sunlight</term> and greatly increased <term sem="Other" id="A10">skin tumor</term> formation.</sentence>
+<event id="E13">
+<type class="Mutagenesis" />
+<theme idref1="F6" idref="F4" />
+<clue>In humans, <clueType>mutation</clueType> <linkTheme>of</linkTheme> the XPB or XPD gene impairs NER, resulting in hyper-sensitivity to sunlight and greatly increased skin tumor formation.</clue>
+</event>
+<event id="E14">
+<type class="Mutagenesis" />
+<theme idref1="F6" idref="F5" />
+<clue>In humans, <clueType>mutation</clueType> <linkTheme>of</linkTheme> the XPB or XPD gene impairs NER, resulting in hyper-sensitivity to sunlight and greatly increased skin tumor formation.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="T19" />
+<cause idref="E13" />
+<clue>In humans, mutation of the XPB or XPD gene <clueType>impairs</clueType> NER, resulting in hyper-sensitivity to sunlight and greatly increased skin tumor formation.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="T19" />
+<cause idref="E14" />
+<clue>In humans, mutation of the XPB or XPD gene <clueType>impairs</clueType> NER, resulting in hyper-sensitivity to sunlight and greatly increased skin tumor formation.</clue>
+</event>
+<event id="E17">
+<type />
+<cause idref="A9" />
+<clue>In humans, mutation of the XPB or XPD gene impairs NER, resulting in <clueType>hyper-sensitivity</clueType> <linkCause>to</linkCause> sunlight and greatly increased skin tumor formation.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E15" />
+<clue><clueLoc>In humans</clueLoc>, mutation of the XPB or XPD gene impairs NER, <clueType>resulting in hyper-sensitivity</clueType> to sunlight and greatly increased skin tumor formation.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E16" />
+<clue><clueLoc>In humans</clueLoc>, mutation of the XPB or XPD gene impairs NER, <clueType>resulting in hyper-sensitivity</clueType> to sunlight and greatly increased skin tumor formation.</clue>
+</event>
+<event id="E20">
+<type />
+<theme idref="A10" />
+<clue>In humans, mutation of the XPB or XPD gene impairs NER, resulting in hyper-sensitivity to sunlight and greatly increased skin tumor <clueType>formation</clueType>.</clue>
+<comment>SOO</comment>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E15" />
+<clue><clueLoc>In humans</clueLoc>, mutation of the XPB or XPD gene impairs NER, resulting in hyper-sensitivity to sunlight and greatly <clueType>increased</clueType> skin tumor formation.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E16" />
+<clue><clueLoc>In humans</clueLoc>, mutation of the XPB or XPD gene impairs NER, resulting in hyper-sensitivity to sunlight and greatly <clueType>increased</clueType> skin tumor formation.</clue>
+</event>
+<sentence id="S5">However, no <term sem="Other" id="T20" lex="transcription_deficiency"><term sem="Other" id="A11">transcription</term> deficiency</term> has been demonstrated in either <term sem="DNA_domain_or_region" id="T21" lex="XP-B">XP-B</term> or <term sem="DNA_domain_or_region" id="T22" lex="XP-D">XP-D</term>.</sentence>
+<event assertion="non-exist" id="E23">
+<type class="Negative_regulation" />
+<theme idref="A11" />
+<clue>However, <clueType>no</clueType> transcription <clueType>deficiency</clueType> has been demonstrated <clueLoc>in either XP-B</clueLoc> or XP-D.</clue>
+</event>
+<event assertion="non-exist" id="E123">
+<type class="Negative_regulation" />
+<theme idref="A11" />
+<clue>However, <clueType>no</clueType> transcription <clueType>deficiency</clueType> has been demonstrated <clueLoc>in</clueLoc> either XP-B or <clueLoc>XP-D</clueLoc>.</clue>
+</event>
+<sentence id="S6">We have employed an optimized <term sem="Other" id="T23" lex="cell-free_RNA_transcription_assay">cell-free RNA transcription assay</term> to analyze transcription activity of <term sem="DNA_domain_or_region" id="T24" lex="XP-B">XP-B</term> and <term sem="DNA_domain_or_region" id="T25" lex="XP-D">XP-D</term>.</sentence>
+<sentence id="S7">Although the <term sem="Other" id="A12">growth rate</term> was normal, the <cons sem="(AND Cell_cultured Cell_cultured)" id="T26" lex="(AND XP-B_cell _XP-D_cell)"><frag id="F7">XP-B</frag> and <frag id="F8">XP-D</frag> <frag id="F9">cells</frag></cons> contained reduced amounts of <term sem="Protein_molecule" id="T27" lex="TFIIH">TFIIH</term>.</sentence>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="T27" />
+<clue>Although the growth rate was normal, <clueLoc>the XP-B</clueLoc> and XP-D <clueLoc>cells</clueLoc> contained <clueType>reduced amounts</clueType> <linkTheme>of</linkTheme> TFIIH.</clue>
+</event>
+<event id="E125">
+<type class="Negative_regulation" />
+<theme idref="T27" />
+<clue>Although the growth rate was normal, the XP-B and <clueLoc>XP-D cells</clueLoc> contained <clueType>reduced amounts</clueType> <linkTheme>of</linkTheme> TFIIH.</clue>
+</event>
+<event id="E26">
+<type class="Cellular_physiological_process" />
+<theme idref1="F9" idref="F7" />
+<clue>Although the <clueType>growth</clueType> rate was normal, the XP-B and XP-D cells contained reduced amounts of TFIIH.</clue>
+</event>
+<event id="E27">
+<type class="Cellular_physiological_process" />
+<theme idref1="F9" idref="F8" />
+<clue>Although the <clueType>growth</clueType> rate was normal, the XP-B and XP-D cells contained reduced amounts of TFIIH.</clue>
+</event>
+<event assertion="non-exist" id="E28">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<clue>Although the growth <clueType>rate was normal</clueType>, the XP-B and XP-D cells contained reduced amounts of TFIIH.</clue>
+</event>
+<event assertion="non-exist" id="E29">
+<type class="Negative_regulation" />
+<theme idref="E26" />
+<clue>Although the growth <clueType>rate was normal</clueType>, the XP-B and XP-D cells contained reduced amounts of TFIIH.</clue>
+</event>
+<sentence id="S8">Extracts prepared from <cons sem="(AND Cell_cultured Cell_cultured)" id="T28" lex="(AND XP-B_lymphoblastoid_cell XP-D_lymphoblastoid_cell)"><frag id="F10">XP-B</frag> and <frag id="F11">XP-D</frag> <frag id="F12">lymphoblastoid cells</frag></cons> exhibited similar <term sem="Other" id="T29" lex="transcription_activity">transcription activity</term> from the <term sem="DNA_domain_or_region" id="T30" lex="adenovirus_major_late_promoter">adenovirus major late promoter</term> when compared to that in extracts from normal cells.</sentence>
+<event id="E30">
+<type class="Transcription" />
+<theme idref="T30" />
+<clue><clueLoc>Extracts prepared from XP-B</clueLoc> and XP-D <clueLoc>lymphoblastoid cells</clueLoc> exhibited similar <clueType>transcription activity</clueType> <linkTheme>from</linkTheme> the adenovirus major late promoter when compared to that in extracts from normal cells.</clue>
+</event>
+<event id="E130">
+<type class="Transcription" />
+<theme idref="T30" />
+<clue><clueLoc>Extracts prepared from</clueLoc> XP-B and <clueLoc>XP-D lymphoblastoid cells</clueLoc> exhibited similar <clueType>transcription activity</clueType> <linkTheme>from</linkTheme> the adenovirus major late promoter when compared to that in extracts from normal cells.</clue>
+</event>
+<event id="E31">
+<type class="Transcription" />
+<theme idref="T30" />
+<clue>Extracts prepared from XP-B and XP-D lymphoblastoid cells exhibited similar transcription activity from the adenovirus major late promoter when compared to <clueType>that</clueType> <clueLoc>in extracts from normal cells</clueLoc>.</clue>
+<comment>CAUTION: that=transcription activity from the adenovirus major late promoter</comment>
+</event>
+<sentence id="S9">Thus, we conclude that the <cons sem="(AND Cell_cultured Cell_cultured)" id="T31" lex="(AND XP-B_lymphoblastoid_cell XP-D_lymphoblastoid_cell)"><frag id="F13">XP-B</frag> and <frag id="F14">XP-D</frag> <frag id="F15">lymphoblastoid cells</frag></cons> do not have impaired <term sem="Other" id="T32" lex="RNA_transcription_activity">RNA transcription activity</term>.</sentence>
+<event assertion="non-exist" id="E32">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<clue>Thus, we conclude that <clueLoc>the XP-B</clueLoc> and XP-D <clueLoc>lymphoblastoid cells</clueLoc> do <clueType>not have impaired</clueType> RNA transcription activity.</clue>
+</event>
+<event assertion="non-exist" id="E132">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<clue>Thus, we conclude that the XP-B and <clueLoc>XP-D lymphoblastoid cells</clueLoc> do <clueType>not have impaired</clueType> RNA transcription activity.</clue>
+</event>
+<sentence id="S10">We consider the possible consequences of the reduced cellular content of <term sem="Protein_molecule" id="T33" lex="TFIIH">TFIIH</term> for the <term sem="Other" id="A101">clinical symptoms</term> in <cons sem="(OR Multicellular_organism_natural Multicellular_organism_natural)" id="T34" lex="(OR XP-B_patient XP-D_patient)"><frag id="F16">XP-B</frag> or <frag id="F17">XP-D</frag> <frag id="F18">patients</frag></cons>, and discuss a &apos;<term sem="Other" id="A102">conditional phenotype</term>&apos; that may involve an impairment of <term sem="Other" id="A16">cellular function</term> only under certain <term sem="Other" id="T35" lex="growth_condition">growth conditions</term>.</sentence>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="T33" />
+<clue>We consider the possible consequences of the <clueType>reduced</clueType> <clueLoc>cellular</clueLoc> <clueType>content</clueType> <linkTheme>of</linkTheme> TFIIH for the clinical symptoms <clueLoc>in XP-B</clueLoc> or XP-D <clueLoc>patients</clueLoc>, and discuss a &apos;conditional phenotype&apos; that may involve an impairment of cellular function only under certain growth conditions.</clue>
+</event>
+<event id="E133">
+<type class="Negative_regulation" />
+<theme idref="T33" />
+<clue>We consider the possible consequences of the <clueType>reduced</clueType> <clueLoc>cellular</clueLoc> <clueType>content</clueType> <linkTheme>of</linkTheme> TFIIH for the clinical symptoms <clueLoc>in</clueLoc> XP-B or <clueLoc>XP-D patients</clueLoc>, and discuss a &apos;conditional phenotype&apos; that may involve an impairment of cellular function only under certain growth conditions.</clue>
+</event>
+<event uncertainty="probable" id="E134">
+<type class="Positive_regulation" />
+<theme idref="A101" />
+<cause idref="E33" />
+<clue>We consider the possible <clueType>consequences</clueType> <linkCause>of</linkCause> the reduced cellular content of TFIIH <linkTheme>for</linkTheme> the clinical symptoms in XP-B or XP-D patients, and discuss a &apos;conditional phenotype&apos; that may involve an impairment of cellular function only under certain growth conditions.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="A16" />
+<clue>We consider the possible consequences of the reduced cellular content of TFIIH for the clinical symptoms in XP-B or XP-D patients, and discuss a &apos;conditional phenotype&apos; that may involve an <clueType>impairment</clueType> <linkTheme>of</linkTheme> cellular function only under certain growth conditions.</clue>
+</event>
+<event uncertainty="probable" id="E135">
+<type class="Correlation" />
+<theme idref="A102" />
+<theme idref="E34" />
+<clue>We consider the possible consequences of the reduced cellular content of TFIIH for the clinical symptoms in XP-B or XP-D patients, and discuss a &apos;conditional phenotype&apos; that may <clueType>involve</clueType> an impairment of cellular function only under certain growth conditions.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

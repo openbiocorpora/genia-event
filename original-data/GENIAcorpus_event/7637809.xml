@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="10/01/2007" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7637809"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7637809</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">An <term sem="Other" id="T1" lex="IRF-1-dependent_pathway"><term sem="Protein_molecule" id="T2" lex="IRF-1">IRF-1</term>-dependent pathway</term> of <term sem="Other" id="T3" lex="DNA_damage-induced_apoptosis"><term sem="Other" id="A1">DNA damage</term>-induced apoptosis</term> in <term sem="Cell_cultured" id="T4" lex="mitogen-activated_T_lymphocyte">mitogen-activated T lymphocytes</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Regulation" />
+<theme idref="T3" />
+<cause idref="T2" />
+<clue>An IRF-1-<clueType>dependent</clueType> pathway of DNA damage-induced apoptosis in mitogen-activated T lymphocytes.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="Cellular_physiological_process" />
+<theme idref="T4" />
+<clue>An IRF-1-dependent pathway of DNA damage-induced <clueType>apoptosis</clueType> <linkTheme>in</linkTheme> mitogen-activated T lymphocytes.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="A1" />
+<clue>An IRF-1-dependent pathway of DNA damage-<clueType>induced</clueType> apoptosis in mitogen-activated T lymphocytes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Cell_cultured" id="T5" lex="lymphocyte">Lymphocytes</term> are particularly susceptible to <term sem="Other" id="T6" lex="DNA_damage-induced_apoptosis"><term sem="Other" id="A2">DNA damage</term>-induced apoptosis</term>, a response which may serve as a form of &apos;<term sem="Other" id="T7" lex="altruistic_suicide">altruistic suicide</term>&apos; to counter their intrinsic high potential for <term sem="Other" id="T8" lex="mutation">mutation</term> and <term sem="Other" id="T9" lex="clonal_expansion">clonal expansion</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E4">
+<type class="Cellular_physiological_process" />
+<theme idref="T5" />
+<clue>Lymphocytes are particularly <clueType>susceptible to</clueType> DNA damage-induced <clueType>apoptosis</clueType>, a response which may serve as a form of &apos;altruistic suicide&apos; to counter their intrinsic high potential for mutation and clonal expansion.</clue>
+<comment>SUSCEPTIBILITY</comment></event>
+<event assertion="exist" uncertainty="certain" id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="A2" />
+<clue>Lymphocytes are particularly susceptible to DNA damage-<clueType>induced</clueType> apoptosis, a response which may serve as a form of &apos;altruistic suicide&apos; to counter their intrinsic high potential for mutation and clonal expansion.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E6">
+<type class="Negative_regulation" />
+<theme idref="T8" />
+<cause idref="E4" />
+<clue>Lymphocytes are particularly susceptible to DNA damage-induced apoptosis, a response which may serve as a form of &apos;altruistic suicide&apos; to <clueType>counter</clueType> their intrinsic high potential for mutation and clonal expansion.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E7">
+<type class="Negative_regulation" />
+<theme idref="E27" />
+<cause idref="E4" />
+<clue>Lymphocytes are particularly susceptible to DNA damage-induced apoptosis, a response which may serve as a form of &apos;altruistic suicide&apos; to <clueType>counter</clueType> their intrinsic high potential for mutation and clonal expansion.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E27">
+<type class="Cellular_physiological_process" />
+<theme idref="T5" />
+<clue>Lymphocytes are particularly susceptible to DNA damage-induced apoptosis, a response which may serve as a form of &apos;altruistic suicide&apos; to counter <corefTheme>their</corefTheme> intrinsic high potential for mutation and <clueType>clonal expansion</clueType>.</clue>
+</event>
+<sentence id="S3">The <term sem="Protein_molecule" id="T10" lex="tumour_suppressor_p53">tumour suppressor p53</term> has been shown to regulate this type of <term sem="Other" id="T11" lex="apoptosis">apoptosis</term> in <term sem="Cell_natural" id="T12" lex="thymocyte">thymocytes</term>, but an as yet unknown, <term sem="Other" id="T13" lex="p53-independent_pathway"><term sem="Protein_molecule" id="T14" lex="p53">p53</term>-independent pathway</term>(s) appears to mediate the same event in <term sem="Cell_cultured" id="T15" lex="mitogen-activated_mature_T_lymphocyte"><term sem="Protein_family_or_group" id="A4">mitogen</term>-activated <term sem="Cell_natural" id="A5">mature T lymphocytes</term></term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E8">
+<type class="Regulation" />
+<theme idref="T6" />
+<cause idref="T10" />
+<clue>The tumour suppressor p53 has been shown to <clueType>regulate</clueType> <corefTheme>this type of apoptosis</corefTheme> <clueLoc>in thymocytes</clueLoc>, but an as yet unknown, p53-independent pathway(s) appears to mediate the same event in mitogen-activated mature T lymphocytes.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E9">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<clue>The tumour suppressor p53 has been shown to regulate this type of apoptosis in thymocytes, but an as yet unknown, p53-independent pathway(s) appears to <clueType>mediate</clueType> <corefTheme>the same event</corefTheme> <clueLoc>in mitogen-activated mature T lymphocytes</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" uncertainty="certain" id="E10">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="T14" />
+<clue>The tumour suppressor p53 has been shown to regulate this type of apoptosis in thymocytes, but an as yet unknown, p53-<clueType>independent</clueType> pathway(s) appears to mediate the same event in mitogen-activated mature T lymphocytes.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E11">
+<type class="Physiological_process" />
+<theme idref="A5" />
+<cause idref="A4" />
+<clue>The tumour suppressor p53 has been shown to regulate this type of apoptosis in thymocytes, but an as yet unknown, p53-independent pathway(s) appears to mediate the same event in mitogen-<clueType>activated</clueType> mature T lymphocytes.</clue>
+</event>
+<sentence id="S4">Here we show <term sem="Other" id="T16" lex="DNA_damage-induced_apoptosis"><term sem="Other" id="A3">DNA damage</term>-induced apoptosis</term> in these <term sem="Cell_natural" id="T17" lex="T_lymphocyte">T lymphocytes</term> is dependent on the <term sem="Protein_molecule" id="T18" lex="antioncogenic_transcription_factor_interferon_regulatory_factor">antioncogenic <term sem="Protein_family_or_group" id="T19" lex="transcription_factor">transcription factor</term> interferon regulatory factor</term> <term sem="Protein_molecule" id="T20" lex="(IRF)-1">(IRF)-1</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="Cellular_physiological_process" />
+<theme idref="T17" />
+<clue>Here we show DNA damage-induced <clueType>apoptosis</clueType> <linkTheme>in</linkTheme> these T lymphocytes is dependent on the antioncogenic transcription factor interferon regulatory factor (IRF)-1.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="A3" />
+<clue>Here we show DNA damage-<clueType>induced</clueType> apoptosis in these T lymphocytes is dependent on the antioncogenic transcription factor interferon regulatory factor (IRF)-1.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E14">
+<type class="Regulation" />
+<theme idref="T16" />
+<cause idref="T20" />
+<clue>Here we show DNA damage-induced apoptosis <clueLoc>in these T lymphocytes</clueLoc> is <clueType>dependent</clueType> <linkCause>on</linkCause> the <corefTheme>antioncogenic transcription factor</corefTheme> interferon regulatory factor (IRF)-1.</clue>
+</event>
+<sentence id="S5">Thus two different <term sem="Protein_family_or_group" id="T21" lex="anti-onco-genic_transcription_factor">anti-onco-genic transcription factors</term>, <term sem="Protein_molecule" id="T22" lex="p53">p53</term> and <term sem="Protein_molecule" id="T23" lex="IRF-1">IRF-1</term>, are required for distinct <term sem="Other" id="T24" lex="apoptotic_pathway">apoptotic pathways</term> in <term sem="Cell_natural" id="T25" lex="T_lymphocyte">T lymphocytes</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T22" />
+<clue>Thus two different <corefCause>anti-onco-genic transcription factors</corefCause>, p53 and IRF-1, are <clueType>required</clueType> <linkTheme>for</linkTheme> distinct apoptotic pathways <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E16">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T23" />
+<clue>Thus two different <corefCause>anti-onco-genic transcription factors</corefCause>, p53 and IRF-1, are <clueType>required</clueType> <linkTheme>for</linkTheme> distinct apoptotic pathways <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E26">
+<type class="Cellular_physiological_process" />
+<theme idref="T25" />
+<clue>Thus two different anti-onco-genic transcription factors, p53 and IRF-1, are required for distinct <clueType>apoptotic</clueType> pathways <linkTheme>in</linkTheme> T lymphocytes.</clue>
+</event>
+<sentence id="S6">We also show that <term sem="Protein_family_or_group" id="A6">mitogen</term> induction of the <term sem="DNA_domain_or_region" id="T26" lex="interleukin-1_beta_converting_enzyme_(ICE)_gene"><term sem="Protein_molecule" id="T27" lex="interleukin-1_beta_converting_enzyme">interleukin-1 beta converting enzyme</term> (<term sem="Protein_molecule" id="T28" lex="ICE">ICE</term>) gene</term>, a <term sem="Protein_family_or_group" id="T29" lex="mammalian_homologue">mammalian homologue</term> of the <term sem="DNA_domain_or_region" id="T30" lex="Caenorhabditis_elegans_cell_death_gene"><term sem="Unicellular_organism" id="T31" lex="Caenorhabditis_elegan">Caenorhabditis elegans</term> cell death gene</term> <term sem="DNA_domain_or_region" id="T32" lex="ced-3">ced-3</term>, is <term sem="Protein_family_or_group" id="T34" lex="IRF-1">IRF-1</term>-dependent.</sentence>
+<event assertion="exist" uncertainty="certain" id="E17">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<cause idref="A6" />
+<clue>We also show that mitogen <clueType>induction</clueType> <linkTheme>of</linkTheme> the interleukin-1 beta converting enzyme (ICE) gene, a mammalian homologue of the Caenorhabditis elegans cell death gene ced-3, is IRF-1-dependent.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E18">
+<type class="Regulation" />
+<theme idref="E17" />
+<cause idref="T34" />
+<clue>We also show that mitogen induction of the interleukin-1 beta converting enzyme (ICE) gene, a mammalian homologue of the Caenorhabditis elegans cell death gene ced-3, is IRF-1-<clueType>dependent</clueType>.</clue>
+</event>
+<sentence id="S7">Ectopic overexpression of <term sem="Protein_molecule" id="T35" lex="IRF-1">IRF-1</term> results in the activation of the <term sem="DNA_domain_or_region" id="A7"><term sem="DNA_family_or_group" id="T36" lex="endogenous_gene">endogenous gene</term> for <term sem="Protein_molecule" id="T37" lex="ICE">ICE</term></term> and enhances the sensitivity of <term sem="Cell_natural" id="A8">cells</term> to <term sem="Other" id="T38" lex="radiation-induced_apoptosis"><term sem="Other" id="A9">radiation</term>-induced apoptosis</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E19">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>Ectopic <clueType>overexpression</clueType> <linkTheme>of</linkTheme> IRF-1 results in the activation of the endogenous gene for ICE and enhances the sensitivity of cells to radiation-induced apoptosis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<clue>Ectopic <clueType>overexpression</clueType> of IRF-1 results in the activation of the endogenous gene for ICE and enhances the sensitivity of cells to radiation-induced apoptosis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E21">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E20" />
+<clue>Ectopic overexpression of IRF-1 <clueType>results</clueType> <linkTheme>in</linkTheme> the activation of the endogenous gene for ICE and enhances the sensitivity of cells to radiation-induced apoptosis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E22">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<clue>Ectopic overexpression of IRF-1 results in the <clueType>activation</clueType> <linkTheme>of</linkTheme> the endogenous gene for ICE and enhances the sensitivity of cells to radiation-induced apoptosis.</clue>
+<comment>TPS: A7</comment></event>
+<event assertion="exist" uncertainty="certain" id="E23">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E20" />
+<clue>Ectopic overexpression of IRF-1 results in the activation of the endogenous gene for ICE and <clueType>enhances the sensitivity</clueType> <linkTheme>of</linkTheme> cells to radiation-induced apoptosis.</clue>
+<comment>SENSITIVITY</comment></event>
+<event assertion="exist" uncertainty="certain" id="E24">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="A9" />
+<clue>Ectopic overexpression of IRF-1 results in the activation of the endogenous gene for ICE and enhances the sensitivity of cells to radiation-<clueType>induced</clueType> apoptosis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E25">
+<type class="Cellular_physiological_process" />
+<theme idref="A8" />
+<clue>Ectopic overexpression of IRF-1 results in the activation of the endogenous gene for ICE and enhances the sensitivity of cells to radiation-induced <clueType>apoptosis</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="23/04/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7537762">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7537762</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Cell_natural" id="A1">Monocyte</term> tethering by <term sem="Protein_molecule" id="T1" lex="P-selectin">P-selectin</term> regulates <term sem="Protein_molecule" id="T2" lex="monocyte_chemotactic_protein-1">monocyte chemotactic protein-1</term> and <term sem="Other" id="T3" lex="tumor_necrosis_factor-alpha_secretion"><term sem="Protein_molecule" id="T4" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term> secretion</term>.</sentence>
+<event id="E1">
+<type class="Cell_adhesion" />
+<theme idref="A1" />
+<theme idref="T1" />
+<clue>Monocyte <clueType>tethering</clueType> <linkTheme>by</linkTheme> P-selectin regulates monocyte chemotactic protein-1 and tumor necrosis factor-alpha secretion.</clue>
+</event>
+<event id="E2">
+<type class="Localization" />
+<theme idref="T2" />
+<clue>Monocyte tethering by P-selectin regulates monocyte chemotactic protein-1 and tumor necrosis factor-alpha <clueType>secretion</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Localization" />
+<theme idref="T4" />
+<clue>Monocyte tethering by P-selectin regulates monocyte chemotactic protein-1 and tumor necrosis factor-alpha <clueType>secretion</clueType>.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue><clueLoc>Monocyte</clueLoc> tethering by P-selectin <clueType>regulates</clueType> monocyte chemotactic protein-1 and tumor necrosis factor-alpha secretion.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="E1" />
+<clue><clueLoc>Monocyte</clueLoc> tethering by P-selectin <clueType>regulates</clueType> monocyte chemotactic protein-1 and tumor necrosis factor-alpha secretion.</clue>
+</event>
+<sentence id="S2"><term sem="Other" id="T5" lex="signal_integration">Signal integration</term> and <term sem="Other" id="T6" lex="NF-kappa_B_translocation"><term sem="Protein_molecule" id="T7" lex="NF-kappa_B">NF-kappa B</term> translocation</term> [see comments]</sentence>
+<event id="E6">
+<type class="Localization" />
+<theme idref="T7" />
+<clue>Signal integration and NF-kappa B <clueType>translocation</clueType> [see comments]</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term sem="Protein_family_or_group" id="T8" lex="adhesion_molecules">Adhesion molecules</term> that tether <term sem="Cell_natural" id="T9" lex="circulating_leukocyte">circulating leukocytes</term> to <term sem="Cell_natural" id="T10" lex="endothelial_cell">endothelial cells</term> may also transduce or modulate outside-in <term sem="Other" id="A2">signals for <term sem="Other" id="T11" lex="cellular_activation">cellular activation</term></term>, providing an initial regulatory point in the <term sem="Other" id="T12" lex="inflammatory_response">inflammatory response</term>.</sentence>
+<event id="E7">
+<type class="Cell_adhesion" />
+<theme idref="T9" />
+<theme idref="T8" />
+<theme idref="T10" />
+<clue>Adhesion molecules that <clueType>tether</clueType> circulating leukocytes <linkTheme>to</linkTheme> endothelial cells may also transduce or modulate outside-in signals for cellular activation, providing an initial regulatory point in the inflammatory response.</clue>
+</event>
+<event id="E8">
+<type class="Cell_communication" />
+<theme idref="A2" />
+<theme idref="T8" />
+<clue>Adhesion molecules that tether circulating leukocytes to endothelial cells may also <clueType>transduce</clueType> or modulate <clueLoc>outside-in</clueLoc> signals for cellular activation, providing an initial regulatory point in the inflammatory response.</clue>
+<comment>TPS: A2</comment>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="E7" />
+<clue>Adhesion molecules that tether circulating leukocytes to endothelial cells may also transduce or <clueType>modulate</clueType> <clueLoc>outside-in</clueLoc> signals for cellular activation, providing an initial regulatory point in the inflammatory response.</clue>
+<comment>TPS: A2</comment>
+</event>
+<sentence id="S4">Adhesion of <term sem="Cell_natural" id="T13" lex="human_monocyte">human <term sem="Cell_natural" id="T14" lex="monocyte">monocytes</term></term> to <term sem="Protein_molecule" id="T15" lex="P-selectin">P-selectin</term>, the most rapidly expressed <term sem="Protein_molecule" id="T16" lex="endothelial_tethering_factor">endothelial tethering factor</term>, increased the secretion of <term sem="Protein_molecule" id="T17" lex="monocyte_chemotactic_protein-1">monocyte chemotactic protein-1</term> (<term sem="Protein_molecule" id="T18" lex="MCP-1">MCP-1</term>) and <term sem="Protein_molecule" id="T19" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term> (<term sem="Protein_molecule" id="T20" lex="TNF-alpha">TNF-alpha</term>) by the <term sem="Cell_natural" id="T21" lex="leukocyte">leukocytes</term> when they were stimulated with <term sem="Protein_molecule" id="T22" lex="platelet-activating_factor">platelet-activating factor</term>.</sentence>
+<event id="E10">
+<type class="Cell_adhesion" />
+<theme idref="T13" />
+<theme idref="T15" />
+<clue><clueType>Adhesion</clueType> <linkTheme>of</linkTheme> human monocytes <linkTheme>to</linkTheme> P-selectin, the most rapidly expressed endothelial tethering factor, increased the secretion of monocyte chemotactic protein-1 (MCP-1) and tumor necrosis factor-alpha (TNF-alpha) by the leukocytes when they were stimulated with platelet-activating factor.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>Adhesion of human monocytes to P-selectin, the most rapidly <clueType>expressed</clueType> endothelial tethering factor, increased the secretion of monocyte chemotactic protein-1 (MCP-1) and tumor necrosis factor-alpha (TNF-alpha) by the leukocytes when they were stimulated with platelet-activating factor.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E10" />
+<clue>Adhesion of human monocytes to P-selectin, the most rapidly expressed endothelial tethering factor, <clueType>increased</clueType> the secretion of monocyte chemotactic protein-1 (MCP-1) and tumor necrosis factor-alpha (TNF-alpha) by the <clueLoc>leukocytes</clueLoc> when they were stimulated with platelet-activating factor.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E10" />
+<clue>Adhesion of human monocytes to P-selectin, the most rapidly expressed endothelial tethering factor, <clueType>increased</clueType> the secretion of monocyte chemotactic protein-1 (MCP-1) and tumor necrosis factor-alpha (TNF-alpha) by the <clueLoc>leukocytes</clueLoc> when they were stimulated with platelet-activating factor.</clue>
+</event>
+<event id="E14">
+<type class="Localization" />
+<theme idref="T18" />
+<clue>Adhesion of human monocytes to P-selectin, the most rapidly expressed endothelial tethering factor, increased the <clueType>secretion</clueType> <linkTheme>of</linkTheme> monocyte chemotactic protein-1 (MCP-1) and tumor necrosis factor-alpha (TNF-alpha) <clueLoc>by the leukocytes</clueLoc> when they were stimulated with platelet-activating factor.</clue>
+</event>
+<event id="E15">
+<type class="Localization" />
+<theme idref="T20" />
+<clue>Adhesion of human monocytes to P-selectin, the most rapidly expressed endothelial tethering factor, increased the <clueType>secretion</clueType> <linkTheme>of</linkTheme> monocyte chemotactic protein-1 (MCP-1) and tumor necrosis factor-alpha (TNF-alpha) <clueLoc>by the leukocytes</clueLoc> when they were stimulated with platelet-activating factor.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E16" />
+<clue>Adhesion of human monocytes to P-selectin, the most rapidly expressed endothelial tethering factor, increased the secretion of monocyte chemotactic protein-1 (MCP-1) and tumor necrosis factor-alpha (TNF-alpha) by the leukocytes <linkCause>when</linkCause> they were stimulated with platelet-activating factor.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E16" />
+<clue>Adhesion of human monocytes to P-selectin, the most rapidly expressed endothelial tethering factor, increased the secretion of monocyte chemotactic protein-1 (MCP-1) and tumor necrosis factor-alpha (TNF-alpha) by the leukocytes <linkCause>when</linkCause> they were stimulated with platelet-activating factor.</clue>
+</event>
+<event id="E16">
+<type class="Physiological_process" />
+<theme idref="T21" />
+<cause idref="T22" />
+<clue>Adhesion of human monocytes to P-selectin, the most rapidly expressed endothelial tethering factor, increased the secretion of monocyte chemotactic protein-1 (MCP-1) and tumor necrosis factor-alpha (TNF-alpha) by the leukocytes when <corefTheme>they</corefTheme> were <clueType>stimulated</clueType> <linkCause>with</linkCause> platelet-activating factor.</clue>
+</event>
+<sentence id="S5">Increased <term sem="Protein_family_or_group" id="A3">cytokine</term> secretion was specifically inhibited by <term sem="Protein_molecule" id="T23" lex="G1">G1</term>, an <term sem="Protein_family_or_group" id="T24" lex="anti-P-selectin_mAb">anti-<term sem="Protein_molecule" id="T25" lex="P-selectin">P-selectin</term> mAb</term> that prevents <term sem="Protein_molecule" id="T26" lex="P-selectin">P-selectin</term> from binding to its ligand (<term sem="Protein_molecule" id="T27" lex="P-selectin_glycoprotein_ligand-1"><term sem="Protein_molecule" id="T28" lex="P-selectin">P-selectin</term> glycoprotein ligand-1</term>) on <term sem="Cell_natural" id="T29" lex="myeloid_cell">myeloid cells</term>.</sentence>
+<event id="E17">
+<type class="Localization" />
+<theme idref="A3" />
+<clue>Increased cytokine <clueType>secretion</clueType> was specifically inhibited by G1, an anti-P-selectin mAb that prevents P-selectin from binding to its ligand (P-selectin glycoprotein ligand-1) on myeloid cells.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<clue><clueType>Increased</clueType> cytokine secretion was specifically inhibited by G1, an anti-P-selectin mAb that prevents P-selectin from binding to its ligand (P-selectin glycoprotein ligand-1) on myeloid cells.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="T23" />
+<clue>Increased cytokine secretion was specifically <clueType>inhibited</clueType> <linkCause>by</linkCause> G1, an <corefCause>anti-P-selectin mAb</corefCause> that prevents P-selectin from binding to its ligand (P-selectin glycoprotein ligand-1) on myeloid cells.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T24" />
+<clue>Increased cytokine secretion was specifically inhibited by G1, an anti-P-selectin mAb that <clueType>prevents</clueType> P-selectin from binding to its ligand (P-selectin glycoprotein ligand-1) on myeloid cells.</clue>
+</event>
+<event id="E21">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="T27" />
+<clue>Increased cytokine secretion was specifically inhibited by G1, an anti-P-selectin mAb that prevents P-selectin from <clueType>binding</clueType> <linkTheme>to</linkTheme> its ligand (P-selectin glycoprotein ligand-1) <clueLoc>on myeloid cells</clueLoc>.</clue>
+</event>
+<sentence id="S6">Moreover, <term sem="Other" id="A20">tethering</term> by <term sem="Protein_molecule" id="T30" lex="P-selectin">P-selectin</term> specifically enhanced <term sem="Other" id="T31" lex="nuclear_translocation">nuclear translocation</term> of <term sem="Protein_molecule" id="T32" lex="nuclear_factor-kappa_B">nuclear factor-kappa B</term> (<term sem="Protein_molecule" id="T33" lex="NF-kappa_B">NF-kappa B</term>), a <term sem="Protein_family_or_group" id="T34" lex="transcription_factor">transcription factor</term> required for expression of <term sem="Protein_molecule" id="T35" lex="MCP-1">MCP-1</term>, <term sem="Protein_molecule" id="T36" lex="TNF-alpha">TNF-alpha</term>, and other <term sem="DNA_family_or_group" id="T37" lex="immediate-early_gene">immediate-early genes</term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="A20" />
+<cause idref="T30" />
+<clue>Moreover, tethering <linkCause>by</linkCause> P-selectin specifically enhanced nuclear translocation of nuclear factor-kappa B (NF-kappa B), a transcription factor required for expression of MCP-1, TNF-alpha, and other immediate-early genes.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E22" />
+<clue>Moreover, tethering by P-selectin specifically <clueType>enhanced</clueType> nuclear translocation of nuclear factor-kappa B (NF-kappa B), a transcription factor required for expression of MCP-1, TNF-alpha, and other immediate-early genes.</clue>
+</event>
+<event id="E24">
+<type class="Localization" />
+<theme idref="T33" />
+<clue>Moreover, tethering by P-selectin specifically enhanced <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> nuclear factor-kappa B (NF-kappa B), a transcription factor required for expression of MCP-1, TNF-alpha, and other immediate-early genes.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="T33" />
+<clue>Moreover, tethering by P-selectin specifically enhanced nuclear translocation of nuclear factor-kappa B (NF-kappa B), a transcription factor <clueType>required</clueType> <linkTheme>for</linkTheme> expression of MCP-1, TNF-alpha, and other immediate-early genes.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="T33" />
+<clue>Moreover, tethering by P-selectin specifically enhanced nuclear translocation of nuclear factor-kappa B (NF-kappa B), a transcription factor <clueType>required</clueType> <linkTheme>for</linkTheme> expression of MCP-1, TNF-alpha, and other immediate-early genes.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="T33" />
+<clue>Moreover, tethering by P-selectin specifically enhanced nuclear translocation of nuclear factor-kappa B (NF-kappa B), a transcription factor <clueType>required</clueType> <linkTheme>for</linkTheme> expression of MCP-1, TNF-alpha, and other immediate-early genes.</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>Moreover, tethering by P-selectin specifically enhanced nuclear translocation of nuclear factor-kappa B (NF-kappa B), a transcription factor required for <clueType>expression</clueType> <linkTheme>of</linkTheme> MCP-1, TNF-alpha, and other immediate-early genes.</clue>
+</event>
+<event id="E29">
+<type class="Gene_expression" />
+<theme idref="T36" />
+<clue>Moreover, tethering by P-selectin specifically enhanced nuclear translocation of nuclear factor-kappa B (NF-kappa B), a transcription factor required for <clueType>expression</clueType> <linkTheme>of</linkTheme> MCP-1, TNF-alpha, and other immediate-early genes.</clue>
+</event>
+<event id="E30">
+<type class="Gene_expression" />
+<theme idref="T37" />
+<clue>Moreover, tethering by P-selectin specifically enhanced nuclear translocation of nuclear factor-kappa B (NF-kappa B), a transcription factor required for <clueType>expression</clueType> <linkTheme>of</linkTheme> MCP-1, TNF-alpha, and other immediate-early genes.</clue>
+</event>
+<sentence id="S7">These results demonstrate that <term sem="Protein_molecule" id="T38" lex="P-selectin">P-selectin</term>, through its <term sem="Protein_molecule" id="A4">ligands</term> on <term sem="Cell_natural" id="T39" lex="monocyte">monocytes</term>, may locally regulate <term sem="Other" id="T40" lex="cytokine_secretion"><term sem="Protein_family_or_group" id="T41" lex="cytokine">cytokine</term> secretion</term> in <term sem="Tissue_natural" id="T42" lex="inflamed_tissue">inflamed tissues</term>.</sentence>
+<event id="E31">
+<type class="Binding" />
+<theme idref1="A4" idref="T38" />
+<clue>These results demonstrate that P-selectin, <linkTheme>through</linkTheme> its ligands <clueLoc>on monocytes</clueLoc>, may locally regulate cytokine secretion in inflamed tissues.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event uncertainty="probable" id="E32">
+<type class="Regulation" />
+<theme idref="E33" />
+<cause idref="E31" />
+<clue>These results demonstrate that P-selectin, through its ligands on monocytes, may locally <clueType>regulate</clueType> cytokine secretion in inflamed tissues.</clue>
+</event>
+<event id="E33">
+<type class="Localization" />
+<theme idref="T41" />
+<clue>These results demonstrate that P-selectin, through its ligands on monocytes, may locally regulate cytokine <clueType>secretion</clueType> <clueLoc>in inflamed tissues</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

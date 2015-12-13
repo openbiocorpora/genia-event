@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="25/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8479911" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8479911</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="cell-specific_expression">Cell-specific expression</term> of <term sem="Protein_family_or_group" id="T2" lex="helix-loop-helix_transcription_factor">helix-loop-helix transcription factors</term> encoded by the <term sem="DNA_domain_or_region" id="T3" lex="E2A_gene">E2A gene</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>Cell-specific <clueType>expression</clueType> <linkTheme>of</linkTheme> helix-loop-helix transcription factors encoded by the E2A gene.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="DNA_domain_or_region" id="T4" lex="E2A_gene">E2A gene</term> encodes <term sem="Protein_family_or_group" id="T5" lex="transcription_factor">transcription factors</term> of the <term sem="Protein_family_or_group" id="T6" lex="helix-loop-helix_family">helix-loop-helix family</term> that are implicated in <term sem="Other" id="T7" lex="cell-specific_gene_expression">cell-specific gene expression</term> as part of <term sem="Protein_family_or_group" id="T8" lex="dimeric_complex">dimeric complexes</term> that interact with <term sem="DNA_domain_or_region" id="T9" lex="E_box_enhancer_element"><term sem="DNA_domain_or_region" id="T10" lex="E_box">E box</term> enhancer elements</term>.</sentence>
+<event uncertainty="probable" id="E2">
+<type class="Correlation" />
+<theme idref="T6" />
+<theme idref="T7" />
+<clue>The E2A gene encodes transcription factors of the helix-loop-helix family that are <clueType>implicated</clueType> in cell-specific gene expression as part of dimeric complexes that interact with E box enhancer elements.</clue>
+</event>
+<event id="E3">
+<type class="Binding" />
+<theme idref="T9" />
+<theme idref="T8" />
+<clue>The E2A gene encodes transcription factors of the helix-loop-helix family that are implicated in cell-specific gene expression as part of dimeric complexes that <clueType>interact</clueType> <linkTheme>with</linkTheme> E box enhancer elements.</clue>
+</event>
+<sentence id="S3">It has previously been shown that transcripts of the <term sem="DNA_domain_or_region" id="T11" lex="E2A_gene">E2A gene</term> can be detected in a wide range of cell types.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>It has previously been shown that transcripts of the E2A gene can be <clueType>detected</clueType> <clueLoc>in a wide range of cell types.</clueLoc></clue>
+</event>
+<sentence id="S4">We have now examined expression of the <term sem="DNA_domain_or_region" id="T12" lex="mouse_E2A_gene">mouse <term sem="DNA_domain_or_region" id="T13" lex="E2A_gene">E2A gene</term></term> at the <term sem="Other" id="T14" lex="protein_level">protein level</term> using polyclonal antisera directed against distinct portions of the <term sem="Protein_family_or_group" id="T15" lex="E2A_protein">E2A protein</term> to probe blots of <term sem="Cell_component" id="T16" lex="cellular_extract">cellular extracts</term>.</sentence>
+<event uncertainty="doubtful" id="E5">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>We have now examined <clueType>expression</clueType> <linkTheme>of</linkTheme> the mouse E2A gene at the protein level <clueExperiment>using polyclonal antisera directed against distinct portions of the E2A protein to probe blots of cellular extracts.</clueExperiment></clue>
+</event>
+<sentence id="S5">A <term sem="Protein_family_or_group" id="T17" lex="73_kDa_protein">73 kDa protein</term> was identified by this analysis: this protein is highly enriched in <term sem="Cell_cultured" id="T18" lex="cell_lines_of_B_lymphoid_origin">cell lines of B lymphoid origin</term> as compared to <term sem="Cell_natural" id="T19" lex="pancreatic_beta-cell">pancreatic beta-cells</term> and <term sem="Cell_natural" id="T20" lex="fibroblast_cell">fibroblast cells</term>.</sentence>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>A 73 kDa protein was <clueType>identified</clueType> by this analysis: this protein is highly enriched in cell lines of B lymphoid origin as compared to pancreatic beta-cells and fibroblast cells.</clue>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>A 73 kDa protein was identified by this analysis: <corefTheme>this protein</corefTheme> is highly <clueType>enriched</clueType> <clueLoc>in cell lines of B lymphoid origin</clueLoc> as compared to pancreatic beta-cells and fibroblast cells.</clue>
+</event>
+<event id="E300">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>A 73 kDa protein was identified by this analysis: <corefTheme>this protein</corefTheme> is highly <clueType>enriched</clueType> in cell lines of B lymphoid origin as compared to <clueLoc>pancreatic beta-cells</clueLoc> and fibroblast cells.</clue>
+</event>
+<event id="E301">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>A 73 kDa protein was identified by this analysis: <corefTheme>this protein</corefTheme> is highly <clueType>enriched</clueType> in cell lines of B lymphoid origin as compared to pancreatic beta-cells and <clueLoc>fibroblast cells</clueLoc>.</clue>
+</event>
+<sentence id="S6">The detection of this protein selectively in extracts of <term sem="Cell_natural" id="T21" lex="lymphoid_cells">lymphoid cells</term> correlates with the presence of the <term sem="Other" id="T22" lex="E_box-binding_activity"><term sem="DNA_domain_or_region" id="T23" lex="E_box">E box</term>-binding activity</term> <term sem="Protein_molecule" id="T24" lex="LEF1/BCF1">LEF1/BCF1</term> in these cells; this binding activity was previously shown to be efficiently recognized by antiserum directed against <term sem="Protein_molecule" id="T25" lex="E2A_gene_product"><term sem="DNA_domain_or_region" id="T26" lex="E2A_gene">E2A gene</term> products</term>.</sentence>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>The <clueType>detection</clueType> of <corefTheme>this protein</corefTheme> selectively in extracts of <clueLoc>lymphoid cells</clueLoc> correlates with the presence of the E box-binding activity LEF1/BCF1 in these cells; this binding activity was previously shown to be efficiently recognized by antiserum directed against E2A gene products.</clue>
+</event>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T24" />
+<theme idref="T23" />
+<clue>The detection of this protein selectively in extracts of lymphoid cells correlates with the presence of the E box-<clueType>binding activity</clueType> LEF1/BCF1 <clueLoc>in these cells</clueLoc>; this binding activity was previously shown to be efficiently recognized by antiserum directed against E2A gene products.</clue>
+</event>
+<event id="E12">
+<type class="Correlation" />
+<theme idref="E10" />
+<theme idref="E11" />
+<clue>The detection of this protein selectively in extracts of lymphoid cells <clueType>correlates</clueType> <linkTheme>with</linkTheme> the presence of the E box-binding activity LEF1/BCF1 in these cells; this binding activity was previously shown to be efficiently recognized by antiserum directed against E2A gene products.</clue>
+</event>
+<sentence id="S7">Transfection of cells with full length <term sem="DNA_molecule" id="T27" lex="E2A_cDNA">E2A cDNA</term> leads to appearance of <term sem="Protein_molecule" id="A1">protein co-migrating with the <term sem="Protein_molecule" id="T28" lex="73_kDa_protein">73 kDa protein</term></term> on <term sem="Other" id="T29" lex="SDS_gel_electrophoresis">SDS gel electrophoresis</term> and co-migrating with <term sem="Protein_molecule" id="T30" lex="LEF1/BCF1">LEF1/BCF1</term> on <term sem="Other" id="T31" lex="mobility_shift_analysis">mobility shift analysis</term>.</sentence>
+<event id="E130">
+<type class="Gene_expression" />
+<theme idref="T27" />
+<clue><clueType>Transfection</clueType> of cells <linkTheme>with</linkTheme> full length E2A cDNA leads to appearance of protein co-migrating with the 73 kDa protein on SDS gel electrophoresis and co-migrating with LEF1/BCF1 on mobility shift analysis.</clue>
+</event>
+<event id="E131">
+<type class="Positive_regulation" />
+<theme idref="E130" />
+<clue><clueType>Transfection</clueType> of cells <linkTheme>with</linkTheme> full length E2A cDNA leads to appearance of protein co-migrating with the 73 kDa protein on SDS gel electrophoresis and co-migrating with LEF1/BCF1 on mobility shift analysis.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Transfection of cells with full length E2A cDNA leads to <clueType>appearance</clueType> <linkTheme>of</linkTheme> protein co-migrating with the 73 kDa protein on SDS gel electrophoresis and co-migrating with LEF1/BCF1 on mobility shift analysis.</clue>
+<comment>TPS: A1</comment>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E131" />
+<clue>Transfection of cells with full length E2A cDNA <clueType>leads</clueType> <linkTheme>to</linkTheme> appearance of protein co-migrating with the 73 kDa protein <clueExperiment>on SDS gel electrophoresis and co-migrating with LEF1/BCF1 on mobility shift analysis.</clueExperiment></clue>
+</event>
+<sentence id="S8">Our results are consistent with the view that the <term sem="DNA_molecule" id="A2">DNA</term>-binding activity <term sem="Protein_molecule" id="T32" lex="LEF1/BCF1">LEF1/BCF1</term> is a <term sem="Protein_molecule" id="T33" lex="homodimer_of_E2A_protein">homodimer of E2A proteins</term>; the selective appearance of this putative cell-specific transcription factor in <term sem="Cell_natural" id="T34" lex="B_lymphoid_cell">B lymphoid cells</term> seems to be attributable, at least in part, to the <term sem="Other" id="T35" lex="elevated_E2A_protein_concentration">elevated <term sem="Protein_family_or_group" id="T36" lex="E2A_protein">E2A protein</term> concentrations</term> in these cells.</sentence>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T32" />
+<theme idref="A2" />
+<clue>Our results are consistent with the view that the DNA-<clueType>binding activity</clueType> LEF1/BCF1 is a homodimer of E2A proteins; the selective appearance of this putative cell-specific transcription factor in B lymphoid cells seems to be attributable, at least in part, to the elevated E2A protein concentrations in these cells.</clue>
+</event>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>Our results are consistent with the view that the DNA-binding activity LEF1/BCF1 is a homodimer of E2A proteins; the selective <clueType>appearance</clueType> <linkTheme>of</linkTheme> <clueLoc>this putative cell-specific transcription factor in B lymphoid cells</clueLoc> seems to be attributable, at least in part, to the elevated E2A protein concentrations in these cells.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<clue>Our results are consistent with the view that the DNA-binding activity LEF1/BCF1 is a homodimer of E2A proteins; the selective appearance of this putative cell-specific transcription factor <clueLoc>in B lymphoid cells</clueLoc> seems to be attributable, at least in part, to the <clueType>elevated</clueType> E2A protein concentrations in these cells.</clue>
+</event>
+<event uncertainty="probable" id="E19">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="E17" />
+<clue>Our results are consistent with the view that the DNA-binding activity LEF1/BCF1 is a homodimer of E2A proteins; the selective appearance of this putative cell-specific transcription factor in B lymphoid cells seems to be <clueType>attributable</clueType>, at least in part, <linkTheme>to</linkTheme> the elevated E2A protein concentrations in these cells.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

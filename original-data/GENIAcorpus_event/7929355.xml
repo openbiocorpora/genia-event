@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="25/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7929355" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7929355</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="protease_inhibitor"><term sem="Protein_family_or_group" id="A3">Protease</term> inhibitors</term> block <term sem="Other" id="T2" lex="lipopolysaccharide_induction"><term sem="Lipid" id="T3" lex="lipopolysaccharide">lipopolysaccharide</term> induction</term> of <term sem="Other" id="T4" lex="gene_expression"><term sem="DNA_domain_or_region" id="A1">tissue factor gene</term> expression</term> in <term sem="Cell_natural" id="T5" lex="human_monocytic_cell">human monocytic cells</term> by preventing activation of <term sem="Protein_complex" id="T6" lex="c-Rel/p65_heterodimers"><term sem="Protein_molecule" id="A2">c-Rel</term>/<term sem="Protein_molecule" id="T7" lex="p65">p65</term> heterodimers</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Protease inhibitors block lipopolysaccharide induction of tissue factor gene <clueType>expression</clueType> <clueLoc>in human monocytic cells</clueLoc> by preventing activation of c-Rel/p65 heterodimers.</clue>
+<comment>NER T4,T6 MOD</comment>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T3" />
+<clue>Protease inhibitors block lipopolysaccharide <clueType>induction</clueType> <linkTheme>of</linkTheme> tissue factor gene expression in human monocytic cells by preventing activation of c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<clue>Protease inhibitors block lipopolysaccharide induction of tissue factor gene expression in human monocytic cells by preventing <clueType>activation</clueType> <linkTheme>of</linkTheme> c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="T1" />
+<clue>Protease inhibitors <clueType>block</clueType> lipopolysaccharide induction of tissue factor gene expression in human monocytic cells <clueType>by preventing</clueType> activation of c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="E4" />
+<clue>Protease inhibitors <clueType>block</clueType> lipopolysaccharide induction of tissue factor gene expression in human monocytic cells <linkCause>by</linkCause> preventing activation of c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="A3" />
+<clue>Protease <clueType>inhibitors</clueType> block lipopolysaccharide induction of tissue factor gene expression in human monocytic cells by preventing activation of c-Rel/p65 heterodimers.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_family_or_group" id="T8" lex="Tissue_factor">Tissue factor</term> (<term sem="Protein_family_or_group" id="T9" lex="TF">TF</term>) is expressed rapidly by <term sem="Cell_natural" id="T10" lex="human_monocyte">human monocytes</term> exposed to <term sem="Protein_family_or_group" id="T11" lex="bacterial_endotoxin">bacterial endotoxin</term> (<term sem="Lipid" id="T12" lex="lipopolysaccharide">lipopolysaccharide</term>, or <term sem="Lipid" id="T13" lex="LPS">LPS</term>).</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>Tissue factor (TF) is <clueType>expressed</clueType> rapidly <clueLoc>by human monocytes</clueLoc> exposed to bacterial endotoxin (lipopolysaccharide, or LPS).</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T11" />
+<clue>Tissue factor (TF) is expressed <clueTime>rapidly</clueTime> by human monocytes <linkCause>exposed to</linkCause> bacterial endotoxin (lipopolysaccharide, or LPS).</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E108">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T12" />
+<clue>Tissue factor (TF) is expressed <clueTime>rapidly</clueTime> by human monocytes <linkCause>exposed to</linkCause> bacterial endotoxin (lipopolysaccharide, or LPS).</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E208">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T13" />
+<clue>Tissue factor (TF) is expressed <clueTime>rapidly</clueTime> by human monocytes <linkCause>exposed to</linkCause> bacterial endotoxin (lipopolysaccharide, or LPS).</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S3">Transcriptional regulation is mediated by binding of <term sem="Protein_complex" id="T14" lex="c-Rel/p65_heterodimers"><term sem="Protein_molecule" id="T15" lex="c-Rel">c-Rel</term><term sem="Protein_molecule" id="T16" lex="p65">/p65</term> heterodimers</term> to a <term sem="DNA_domain_or_region" id="T17" lex="kappa_B-like_site">kappa B-like site</term> in the <term sem="DNA_domain_or_region" id="T18" lex="TF_promoter"><term sem="Protein_family_or_group" id="T19" lex="TF">TF</term> promoter</term>.</sentence>
+<event id="E9">
+<type class="Binding" />
+<theme idref="T14" />
+<theme idref="T17" />
+<clue>Transcriptional regulation is mediated by <clueType>binding</clueType> <linkTheme>of</linkTheme> c-Rel/p65 heterodimers <linkTheme>to</linkTheme> a kappa B-like site in the TF promoter.</clue>
+</event>
+<event id="E10">
+<type class="Transcription" />
+<theme idref="T19" />
+<clue><clueType>Transcriptional</clueType> regulation is mediated by binding of c-Rel/p65 heterodimers to a kappa B-like site in the TF promoter.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="E9" />
+<clue>Transcriptional <clueType>regulation</clueType> is <linkCause>mediated by</linkCause> binding of c-Rel/p65 heterodimers to a kappa B-like site in the TF promoter.</clue>
+</event>
+<sentence id="S4">Nuclear translocation of <term sem="Protein_complex" id="T20" lex="cytosolic_c-Rel/p65_heterodimer">cytosolic <term sem="Protein_molecule" id="A4">c-Rel</term>/<term sem="Protein_molecule" id="T21" lex="p65">p65</term> heterodimers</term> and other members of the <term sem="Protein_family_or_group" id="T22" lex="NF-kappa_B/Rel_family"><term sem="Protein_molecule" id="T23" lex="NF-kappa_B">NF-kappa B</term>/Rel family</term> requires dissociation and proteolytic degradation of the <term sem="Protein_family_or_group" id="T24" lex="inhibitor_protein">inhibitor protein</term>, <term sem="Protein_molecule" id="T25" lex="I_kappa_B_alpha">I kappa B alpha</term>.</sentence>
+<event id="E12">
+<type class="Localization" />
+<theme idref="T20" />
+<clue><clueLoc>Nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> cytosolic c-Rel/p65 heterodimers and other members of the NF-kappa B/Rel family requires dissociation and proteolytic degradation of the inhibitor protein, I kappa B alpha.</clue>
+</event>
+<event id="E13">
+<type class="Localization" />
+<theme idref="T22" />
+<clue><clueLoc>Nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> cytosolic c-Rel/p65 heterodimers and other members of the NF-kappa B/Rel family requires dissociation and proteolytic degradation of the inhibitor protein, I kappa B alpha.</clue>
+</event>
+<event id="E14">
+<type />
+<theme idref="T25" />
+<theme idref="T20" />
+<clue>Nuclear translocation of cytosolic c-Rel/p65 heterodimers and other members of the NF-kappa B/Rel family requires <clueType>dissociation</clueType> and proteolytic degradation <linkTheme>of</linkTheme> the inhibitor protein, I kappa B alpha.</clue>
+<comment>SOO, NO COREFTEHEME FOR T20</comment>
+</event>
+<event id="E114">
+<type />
+<theme idref="T25" />
+<theme idref="T22" />
+<clue>Nuclear translocation of cytosolic c-Rel/p65 heterodimers and other members of the NF-kappa B/Rel family requires <clueType>dissociation</clueType> and proteolytic degradation <linkTheme>of</linkTheme> the inhibitor protein, I kappa B alpha.</clue>
+<comment>SOO, NO COREFTEHEME FOR T22</comment>
+</event>
+<event id="E15">
+<type class="Protein_catabolism" />
+<theme idref="T25" />
+<clue>Nuclear translocation of cytosolic c-Rel/p65 heterodimers and other members of the NF-kappa B/Rel family requires dissociation and <clueType>proteolytic degradation</clueType> <linkTheme>of</linkTheme> the inhibitor protein, I kappa B alpha.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E14" />
+<clue>Nuclear translocation of cytosolic c-Rel/p65 heterodimers and other members of the NF-kappa B/Rel family <clueType>requires</clueType> dissociation and proteolytic degradation of the inhibitor protein, I kappa B alpha.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E114" />
+<clue>Nuclear translocation of cytosolic c-Rel/p65 heterodimers and other members of the NF-kappa B/Rel family <clueType>requires</clueType> dissociation and proteolytic degradation of the inhibitor protein, I kappa B alpha.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E15" />
+<clue>Nuclear translocation of cytosolic c-Rel/p65 heterodimers and other members of the NF-kappa B/Rel family <clueType>requires</clueType> dissociation and proteolytic degradation of the inhibitor protein, I kappa B alpha.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E15" />
+<clue>Nuclear translocation of cytosolic c-Rel/p65 heterodimers and other members of the NF-kappa B/Rel family <clueType>requires</clueType> dissociation and proteolytic degradation of the inhibitor protein, I kappa B alpha.</clue>
+</event>
+<sentence id="S5">The <term sem="Organic_compound_other" id="A6"><term sem="Protein_family_or_group" id="A7">protease</term> inhibitors</term> <term sem="Organic_compound_other" id="T26" lex="N_alpha-tosylphenylalanyl_chloromethyl_ketone">N alpha-tosylphenylalanyl chloromethyl ketone</term> (<term sem="Organic_compound_other" id="T27" lex="TPCK">TPCK</term>) and <term sem="Organic_compound_other" id="T28" lex="N_alpha-tosyl-L-lysine_chloromethyl_ketone">N alpha-tosyl-L-lysine chloromethyl ketone</term> (<term sem="Organic_compound_other" id="T29" lex="TLCK">TLCK</term>) block activation of <term sem="Protein_family_or_group" id="T30" lex="NF-kappa_B/Rel_protein"><term sem="Protein_molecule" id="T31" lex="NF-kappa_B">NF-kappa B</term>/<term sem="Protein_family_or_group" id="A5">Rel</term> proteins</term> by preventing degradation of <term sem="Protein_molecule" id="T32" lex="I_kappa_B_alpha">I kappa B alpha</term>.</sentence>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<clue>The protease inhibitors N alpha-tosylphenylalanyl chloromethyl ketone (TPCK) and N alpha-tosyl-L-lysine chloromethyl ketone (TLCK) block <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B/Rel proteins by preventing degradation of I kappa B alpha.</clue>
+<comment>NER T30 MOD</comment>
+</event>
+<event id="E21">
+<type class="Protein_catabolism" />
+<theme idref="T32" />
+<clue>The protease inhibitors N alpha-tosylphenylalanyl chloromethyl ketone (TPCK) and N alpha-tosyl-L-lysine chloromethyl ketone (TLCK) block activation of NF-kappa B/Rel proteins by preventing <clueType>degradation</clueType> <linkTheme>of</linkTheme> I kappa B alpha.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T27" />
+<clue>The protease inhibitors N alpha-tosylphenylalanyl chloromethyl ketone (TPCK) and N alpha-tosyl-L-lysine chloromethyl ketone (TLCK) block activation of NF-kappa B/Rel proteins by <clueType>preventing</clueType> degradation of I kappa B alpha.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T29" />
+<clue>The protease inhibitors N alpha-tosylphenylalanyl chloromethyl ketone (TPCK) and N alpha-tosyl-L-lysine chloromethyl ketone (TLCK) block activation of NF-kappa B/Rel proteins by <clueType>preventing</clueType> degradation of I kappa B alpha.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="E22" />
+<clue>The protease inhibitors N alpha-tosylphenylalanyl chloromethyl ketone (TPCK) and N alpha-tosyl-L-lysine chloromethyl ketone (TLCK) <clueType>block</clueType> activation of NF-kappa B/Rel proteins <linkCause>by</linkCause> preventing degradation of I kappa B alpha.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="E23" />
+<clue>The protease inhibitors N alpha-tosylphenylalanyl chloromethyl ketone (TPCK) and N alpha-tosyl-L-lysine chloromethyl ketone (TLCK) <clueType>block</clueType> activation of NF-kappa B/Rel proteins <linkCause>by</linkCause> preventing degradation of I kappa B alpha.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="A7" />
+<cause idref="T27" />
+<clue>The protease <clueType>inhibitors</clueType> N alpha-tosylphenylalanyl chloromethyl ketone (TPCK) and N alpha-tosyl-L-lysine chloromethyl ketone (TLCK) block activation of NF-kappa B/Rel proteins by preventing degradation of I kappa B alpha.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="A7" />
+<cause idref="T29" />
+<clue>The protease <clueType>inhibitors</clueType> N alpha-tosylphenylalanyl chloromethyl ketone (TPCK) and N alpha-tosyl-L-lysine chloromethyl ketone (TLCK) block activation of NF-kappa B/Rel proteins by preventing degradation of I kappa B alpha.</clue>
+</event>
+<sentence id="S6">To determine if <term sem="Organic_compound_other" id="T33" lex="TPCK">TPCK</term> and <term sem="Organic_compound_other" id="T34" lex="TLCK">TLCK</term> inhibited <term sem="Other" id="T35" lex="LPS_induction"><term sem="Lipid" id="T36" lex="LPS">LPS</term> induction</term> of <term sem="Other" id="T37" lex="TF_expression"><term sem="Protein_family_or_group" id="T38" lex="TF">TF</term> expression</term>, freshly isolated <term sem="Cell_natural" id="T39" lex="human_monocyte">human monocytes</term> and <term sem="Cell_cultured" id="T40" lex="monocytic_THP-1_cell">monocytic THP-1 cells</term> were pretreated with these inhibitors for 30 min before <term sem="Other" id="T41" lex="LPS_stimulation"><term sem="Lipid" id="T42" lex="LPS">LPS</term> stimulation</term>.</sentence>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="T38" />
+<clue>To determine if TPCK and TLCK inhibited LPS induction of TF <clueType>expression</clueType>, freshly isolated human monocytes and monocytic THP-1 cells were pretreated with these inhibitors for 30 min before LPS stimulation.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="T36" />
+<clue>To determine if TPCK and TLCK inhibited LPS <clueType>induction</clueType> <linkTheme>of</linkTheme> TF expression, freshly isolated human monocytes and monocytic THP-1 cells were pretreated with these inhibitors for 30 min before LPS stimulation.</clue>
+</event>
+<event uncertainty="doubtful" id="E30">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref="T33" />
+<clue>To determine if TPCK and TLCK <clueType>inhibited</clueType> LPS induction of TF expression, freshly isolated human monocytes and monocytic THP-1 cells were pretreated with these inhibitors for 30 min before LPS stimulation.</clue>
+</event>
+<event uncertainty="doubtful" id="E31">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref="T34" />
+<clue>To determine if TPCK and TLCK <clueType>inhibited</clueType> LPS induction of TF expression, freshly isolated human monocytes and monocytic THP-1 cells were pretreated with these inhibitors for 30 min before LPS stimulation.</clue>
+</event>
+<event id="E131">
+<type class="Physiological_process" />
+<theme idref="T39" />
+<cause idref="T42" />
+<clue>To determine if TPCK and TLCK inhibited LPS induction of TF expression, freshly isolated human monocytes and monocytic THP-1 cells were pretreated with these inhibitors for 30 min before LPS <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E132">
+<type class="Physiological_process" />
+<theme idref="T40" />
+<cause idref="T42" />
+<clue>To determine if TPCK and TLCK inhibited LPS induction of TF expression, freshly isolated human monocytes and monocytic THP-1 cells were pretreated with these inhibitors for 30 min before LPS <clueType>stimulation</clueType>.</clue>
+</event>
+<sentence id="S7">Both <term sem="Organic_compound_other" id="T43" lex="TPCK">TPCK</term> and <term sem="Other" id="T44" lex="TLCK_inhibited_LPS_induction"><term sem="Organic_compound_other" id="T45" lex="TLCK">TLCK</term> inhibited <term sem="Lipid" id="T46" lex="LPS">LPS</term> induction</term> of <term sem="Protein_molecule" id="T47" lex="TF_protein">TF protein</term>, <term sem="RNA_molecule" id="T48" lex="TF_mRNA">TF mRNA</term> and <term sem="Other" id="T49" lex="TF_promoter_activity"><term sem="DNA_domain_or_region" id="T50" lex="TF">TF promoter</term> activity</term> in a dose-dependent manner.</sentence>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="T47" />
+<cause idref="T46" />
+<clue>Both TPCK and TLCK inhibited LPS <clueType>induction</clueType> <linkTheme>of</linkTheme> TF protein, TF mRNA and TF promoter activity in a dose-dependent manner.</clue>
+<comment>NER T50 MOD</comment>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="T48" />
+<cause idref="T46" />
+<clue>Both TPCK and TLCK inhibited LPS <clueType>induction</clueType> <linkTheme>of</linkTheme> TF protein, TF mRNA and TF promoter activity in a dose-dependent manner.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="T50" />
+<cause idref="T46" />
+<clue>Both TPCK and TLCK inhibited LPS <clueType>induction</clueType> <linkTheme>of</linkTheme> TF protein, TF mRNA and TF promoter activity in a dose-dependent manner.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="T43" />
+<clue>Both TPCK and TLCK <clueType>inhibited</clueType> LPS induction of TF protein, TF mRNA and TF promoter activity in a dose-dependent manner.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T43" />
+<clue>Both TPCK and TLCK <clueType>inhibited</clueType> LPS induction of TF protein, TF mRNA and TF promoter activity in a dose-dependent manner.</clue>
+</event>
+<event id="E37">
+<type class="Negative_regulation" />
+<theme idref="E34" />
+<cause idref="T43" />
+<clue>Both TPCK and TLCK <clueType>inhibited</clueType> LPS induction of TF protein, TF mRNA and TF promoter activity in a dose-dependent manner.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="T45" />
+<clue>Both TPCK and TLCK <clueType>inhibited</clueType> LPS induction of TF protein, TF mRNA and TF promoter activity in a dose-dependent manner.</clue>
+</event>
+<event id="E39">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T45" />
+<clue>Both TPCK and TLCK <clueType>inhibited</clueType> LPS induction of TF protein, TF mRNA and TF promoter activity in a dose-dependent manner.</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation" />
+<theme idref="E34" />
+<cause idref="T45" />
+<clue>Both TPCK and TLCK <clueType>inhibited</clueType> LPS induction of TF protein, TF mRNA and TF promoter activity in a dose-dependent manner.</clue>
+</event>
+<sentence id="S8">These inhibitors specifically prevented degradation of <term sem="Protein_molecule" id="T52" lex="I_kappa_B_alpha">I kappa B alpha</term> and <term sem="Other" id="T53" lex="nuclear_translocation">nuclear translocation</term> of <term sem="Protein_complex" id="T54" lex="c-Rel/p65_heterodimer"><term sem="Protein_molecule" id="T55" lex="c-Rel">c-Rel</term>/<term sem="Protein_molecule" id="T56" lex="p65">p65</term> heterodimers</term>.</sentence>
+<event id="E41">
+<type class="Protein_catabolism" />
+<theme idref="T52" />
+<clue>These inhibitors specifically prevented <clueType>degradation</clueType> <linkTheme>of</linkTheme> I kappa B alpha and nuclear translocation of c-Rel/p65 heterodimers.</clue>
+<comment>NER T56 MOD</comment>
+</event>
+<event id="E42">
+<type class="Localization" />
+<theme idref="T54" />
+<clue>These inhibitors specifically prevented degradation of I kappa B alpha and <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E43">
+<type class="Negative_regulation" />
+<theme idref="E41" />
+<cause idref="T43" />
+<clue><corefCause>These inhibitors</corefCause> specifically <clueType>prevented</clueType> degradation of I kappa B alpha and nuclear translocation of c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E44">
+<type class="Negative_regulation" />
+<theme idref="E42" />
+<cause idref="T43" />
+<clue><corefCause>These inhibitors</corefCause> specifically <clueType>prevented</clueType> degradation of I kappa B alpha and nuclear translocation of c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation" />
+<theme idref="E41" />
+<cause idref="T45" />
+<clue><corefCause>These inhibitors</corefCause> specifically <clueType>prevented</clueType> degradation of I kappa B alpha and nuclear translocation of c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation" />
+<theme idref="E42" />
+<cause idref="T45" />
+<clue><corefCause>These inhibitors</corefCause> specifically <clueType>prevented</clueType> degradation of I kappa B alpha and nuclear translocation of c-Rel/p65 heterodimers.</clue>
+</event>
+<sentence id="S9">In contrast, <term sem="Organic_compound_other" id="T57" lex="TPCK">TPCK</term> and <term sem="Organic_compound_other" id="T58" lex="TLCK">TLCK</term> did not block induction of an <term sem="DNA_domain_or_region" id="A8"><term sem="DNA_domain_or_region" id="T59" lex="immediate-early_gene">immediate-early gene</term> encoding the <term sem="Protein_family_or_group" id="T60" lex="transcription_factor">transcription factor</term>, <term sem="Protein_molecule" id="T61" lex="Egr-1">Egr-1</term></term>.</sentence>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<clue>In contrast, TPCK and TLCK did not block <clueType>induction</clueType> <linkTheme>of</linkTheme> an immediate-early gene encoding the transcription factor, Egr-1.</clue>
+<comment>TPS A8</comment>
+</event>
+<event assertion="non-exist" id="E48">
+<type class="Negative_regulation" />
+<theme idref="E47" />
+<cause idref="T57" />
+<clue>In contrast, TPCK and TLCK did not <clueType>block</clueType> induction of an immediate-early gene encoding the transcription factor, Egr-1.</clue>
+</event>
+<event assertion="non-exist" id="E49">
+<type class="Negative_regulation" />
+<theme idref="E47" />
+<cause idref="T58" />
+<clue>In contrast, TPCK and TLCK did not <clueType>block</clueType> induction of an immediate-early gene encoding the transcription factor, Egr-1.</clue>
+</event>
+<sentence id="S10">Taken together, these data indicated that inhibiting nuclear translocation of <term sem="Protein_complex" id="T62" lex="c-Rel/p65_heterodimer"><term sem="Protein_molecule" id="T63" lex="c-Rel">c-Rel</term><term sem="Protein_molecule" id="T64" lex="p65">/p65</term> heterodimers</term> prevented <term sem="Other" id="T65" lex="LPS_induction"><term sem="Lipid" id="T66" lex="LPS">LPS</term> induction</term> of <term sem="Other" id="T67" lex="TF_gene_transcription"><term sem="DNA_domain_or_region" id="T68" lex="TF">TF gene</term> transcription</term> in <term sem="Cell_natural" id="T69" lex="monocytic_cell">monocytic cells</term>.</sentence>
+<event id="E50">
+<type class="Localization" />
+<theme idref="T62" />
+<clue>Taken together, these data indicated that inhibiting <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> c-Rel/p65 heterodimers prevented LPS induction of TF gene transcription in monocytic cells.</clue>
+<comment>NER T68 MOD</comment>
+</event>
+<event id="E51">
+<type class="Negative_regulation" />
+<theme idref="E50" />
+<clue>Taken together, these data indicated that <clueType>inhibiting</clueType> nuclear translocation of c-Rel/p65 heterodimers prevented LPS induction of TF gene transcription in monocytic cells.</clue>
+</event>
+<event id="E52">
+<type class="Transcription" />
+<theme idref="T68" />
+<clue>Taken together, these data indicated that inhibiting nuclear translocation of c-Rel/p65 heterodimers prevented LPS induction of TF gene <clueType>transcription</clueType> <clueLoc>in monocytic cells</clueLoc>.</clue>
+</event>
+<event id="E53">
+<type class="Positive_regulation" />
+<theme idref="E52" />
+<cause idref="T66" />
+<clue>Taken together, these data indicated that inhibiting nuclear translocation of c-Rel/p65 heterodimers prevented LPS <clueType>induction</clueType> <linkTheme>of</linkTheme> TF gene transcription in monocytic cells.</clue>
+</event>
+<event id="E54">
+<type class="Negative_regulation" />
+<theme idref="E53" />
+<cause idref="E51" />
+<clue>Taken together, these data indicated that inhibiting nuclear translocation of c-Rel/p65 heterodimers <clueType>prevented</clueType> LPS induction of TF gene transcription in monocytic cells.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

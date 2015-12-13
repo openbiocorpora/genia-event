@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8561779" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8561779</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Inhibition of <term sem="Other" id="T1" lex="NF-AT_signal_transduction_event"><term sem="Protein_family_or_group" id="T2" lex="NF-AT">NF-AT</term> signal transduction events</term> by a <term sem="Protein_molecule" id="A1">dominant-negative form of <term sem="Protein_molecule" id="T3" lex="calcineurin">calcineurin</term></term>.</sentence>
+<event id="E1">
+<type class="Cell_communication" />
+<theme idref="T2" />
+<clue>Inhibition of NF-AT <clueType>signal transduction events</clueType> by a dominant-negative form of calcineurin.</clue>
+<comment>TPS A1</comment>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="A1" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> NF-AT signal transduction events <linkCause>by</linkCause> a dominant-negative form of calcineurin.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">An inhibitory, <term sem="Protein_molecule" id="A2">&quot;dominant-negative,&quot; form of the <term sem="Protein_molecule" id="T4" lex="calcineurin_catalytic_(A)_subunit"><term sem="Protein_molecule" id="T5" lex="calcineurin">calcineurin</term> catalytic (A) subunit</term></term> was prepared, which lacks the <term sem="Protein_domain_or_region" id="T6" lex="calmodulin-binding_domain"><term sem="Protein_molecule" id="T7" lex="calmodulin">calmodulin</term>-binding domain</term>, <term sem="Protein_domain_or_region" id="T8" lex="autoinhibitory_domain">autoinhibitory domain</term> and most of its catalytic core but possesses the <term sem="Protein_molecule" id="T9" lex="regulatory_(B)_subunit">regulatory (B) subunit</term> binding domain.</sentence>
+<sentence id="S3">When tested for its ability to block <term sem="Protein_molecule" id="T10" lex="calcineurin">calcineurin</term>-dependent signaling in Jurkat cells, expression of this <term sem="DNA_molecule" id="T11" lex="&quot;B-subunit_knock-out&quot;_(BKO)_construct">&quot;B-subunit knock-out&quot; (BKO) construct</term> suppressed <term sem="Other" id="T12" lex="reporter_gene_activity"><term sem="DNA_family_or_group" id="T13" lex="reporter_gene">reporter gene</term> activity</term> driven by <term sem="Protein_molecule" id="T14" lex="NF-AT">NF-AT</term>, the pivotal <term sem="DNA_domain_or_region" id="T15" lex="promoter_element">promoter element</term> for <term sem="Other" id="T16" lex="interleukin_(IL)-2_gene_induction"><term sem="DNA_domain_or_region" id="T17" lex="interleukin_(IL)-2_gene"><term sem="Protein_molecule" id="T18" lex="interleukin_(IL)-2">interleukin (IL)-2</term> gene</term> induction</term>.</sentence>
+<event id="E3">
+<type class="Cell_communication" />
+<theme idref="T10" />
+<clue>When tested for its ability to block calcineurin-<linkTheme>dependent</linkTheme> <clueType>signaling</clueType> <clueLoc>in Jurkat cells</clueLoc>, expression of this &quot;B-subunit knock-out&quot; (BKO) construct suppressed reporter gene activity driven by NF-AT, the pivotal promoter element for interleukin (IL)-2 gene induction.</clue>
+<comment>TPS A2</comment>
+</event>
+<event uncertainty="doubtful" id="E4">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="A2" />
+<clue>When tested for <corefCause>its ability</corefCause> <clueType>to block</clueType> calcineurin-dependent signaling in Jurkat cells, expression of this &quot;B-subunit knock-out&quot; (BKO) construct suppressed reporter gene activity driven by NF-AT, the pivotal promoter element for interleukin (IL)-2 gene induction.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>When tested for its ability to block calcineurin-dependent signaling in Jurkat cells, <clueType>expression</clueType> <linkTheme>of</linkTheme> this &quot;B-subunit knock-out&quot; (BKO) construct suppressed reporter gene activity driven by NF-AT, the pivotal promoter element for interleukin (IL)-2 gene induction.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<cause idref="T14" />
+<clue>When tested for its ability to block calcineurin-dependent signaling in Jurkat cells, expression of this &quot;B-subunit knock-out&quot; (BKO) construct suppressed reporter gene activity <clueType>driven</clueType> <linkCause>by</linkCause> NF-AT, the pivotal promoter element for interleukin (IL)-2 gene induction.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="E5" />
+<clue>When tested for its ability to block calcineurin-dependent signaling in Jurkat cells, expression of this &quot;B-subunit knock-out&quot; (BKO) construct <clueType>suppressed</clueType> reporter gene activity driven by NF-AT, the pivotal promoter element for interleukin (IL)-2 gene induction.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>When tested for its ability to block calcineurin-dependent signaling in Jurkat cells, expression of this &quot;B-subunit knock-out&quot; (BKO) construct suppressed reporter gene activity driven by NF-AT, the pivotal promoter element for interleukin (IL)-2 gene <clueType>induction</clueType>.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="T14" />
+<clue>When tested for its ability to block calcineurin-dependent signaling in Jurkat cells, expression of this &quot;B-subunit knock-out&quot; (BKO) construct suppressed reporter gene activity driven by NF-AT, the pivotal <clueType>promoter element</clueType> <linkTheme>for</linkTheme> interleukin (IL)-2 gene induction.</clue>
+</event>
+<sentence id="S4"><term sem="Other" id="T19" lex="immunoprecipitation">Immunoprecipitation</term> of <term sem="Protein_molecule" id="T20" lex="epitope-labeled_BKO">epitope-labeled BKO</term> demonstrated for the formation of a tight complex with <term sem="Protein_molecule" id="T21" lex="endogenous_B_subunit">endogenous B subunit</term> in <term sem="Cell_cultured" id="T22" lex="Jurkat_cell">Jurkat cells</term>, consistent with an inhibitory mechanism that involves the sequestration of the <term sem="Protein_molecule" id="T23" lex="B_subunit">B subunit</term>.</sentence>
+<event id="E10">
+<type class="Binding" />
+<theme idref="T20" />
+<theme idref="T21" />
+<clue><clueExperiment>Immunoprecipitation of epitope-labeled BKO</clueExperiment> demonstrated for the <clueType>formation of a tight complex</clueType> <linkTheme>with</linkTheme> endogenous B subunit <clueLoc>in Jurkat cells</clueLoc>, consistent with an inhibitory mechanism that involves the sequestration of the B subunit.</clue>
+</event>
+<event id="E11">
+<type class="Localization" />
+<theme idref="T23" />
+<clue>Immunoprecipitation of epitope-labeled BKO demonstrated for the formation of a tight complex with endogenous B subunit in Jurkat cells, consistent with an inhibitory mechanism that involves the <clueType>sequestration</clueType> <linkTheme>of</linkTheme> the B subunit.</clue>
+</event>
+<event id="E112">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<clue>Immunoprecipitation of epitope-labeled BKO demonstrated for the formation of a tight complex with endogenous B subunit in Jurkat cells, consistent with an <clueType>inhibitory mechanism</clueType> that involves the sequestration of the B subunit.</clue>
+<comment>NO CORFETEHME</comment>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E112" />
+<cause idref="E11" />
+<clue>Immunoprecipitation of epitope-labeled BKO demonstrated for the formation of a tight complex with endogenous B subunit in Jurkat cells, consistent with an inhibitory mechanism that <clueType>involves</clueType> the sequestration of the B subunit.</clue>
+</event>
+<sentence id="S5">Furthermore, the sharply reduced <term sem="Other" id="T24" lex="NF-AT_activity"><term sem="Protein_molecule" id="T25" lex="NF-AT">NF-AT</term> activity</term> produced by <term sem="DNA_molecule" id="T26" lex="co-transfecting_BKO">co-transfecting <term sem="Protein_molecule" id="A6">BKO</term></term> could be &quot;rescued&quot; by overexpression of transfected <term sem="Protein_molecule" id="T27" lex="B_subunit">B subunit</term>, suggesting that depletion of this subunit was responsible for the inhibition.</sentence>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="T25" />
+<cause idref="A6" />
+<clue>Furthermore, the sharply <clueType>reduced</clueType> NF-AT activity <linkCause>produced by</linkCause> co-transfecting BKO could be &quot;rescued&quot; by overexpression of transfected B subunit, suggesting that depletion of this subunit was responsible for the inhibition.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T27" />
+<clue>Furthermore, the sharply reduced NF-AT activity produced by co-transfecting BKO could be &quot;rescued&quot; by <clueType>overexpression</clueType> <linkTheme>of</linkTheme> transfected B subunit, suggesting that depletion of this subunit was responsible for the inhibition.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue>Furthermore, the sharply reduced NF-AT activity produced by co-transfecting BKO could be &quot;rescued&quot; by <clueType>overexpression</clueType> of transfected B subunit, suggesting that depletion of this subunit was responsible for the inhibition.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="E15" />
+<clue>Furthermore, the sharply reduced NF-AT activity produced by co-transfecting BKO could be &quot;<clueType>rescued</clueType>&quot; <linkCause>by</linkCause> overexpression of transfected B subunit, suggesting that depletion of this subunit was responsible for the inhibition.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="T27" />
+<clue>Furthermore, the sharply reduced NF-AT activity produced by co-transfecting BKO could be &quot;rescued&quot; by overexpression of transfected B subunit, suggesting that <clueType>depletion</clueType> <linkTheme>of</linkTheme> <corefTheme>this subunit</corefTheme> was responsible for the inhibition.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E17" />
+<clue>Furthermore, the sharply reduced NF-AT activity produced by co-transfecting BKO could be &quot;rescued&quot; by overexpression of transfected B subunit, suggesting that depletion of this subunit was <clueType>responsible</clueType> <linkTheme>for</linkTheme> <corefTheme>the inhibition</corefTheme>.</clue>
+</event>
+<sentence id="S6">These data suggest the potential utility of <term sem="Other" id="A15">agents</term> that disrupt <term sem="Other" id="T28" lex="calcineurin-mediated_signal_transduction_pathway"><term sem="Protein_molecule" id="T29" lex="calcineurin">calcineurin</term>-mediated signal transduction pathways</term> by blocking formation of the <term sem="Protein_complex" id="T30" lex="catalytically_active_dimer">catalytically active dimer</term> of <cons sem="(AND Protein_molecule Protein_molecule)" id="T31" lex="(AND calcineurin_A_subunit calcineurin_B_subunit)"><frag id="F1">calcineurin</frag> <frag id="F2">A</frag> and <frag id="F3">B</frag> <frag id="F4">subunits</frag></cons>.</sentence>
+<event id="E19">
+<type class="Cell_communication" />
+<theme idref="T29" />
+<clue>These data suggest the potential utility of agents that disrupt calcineurin-<linkTheme>mediated</linkTheme> <clueType>signal transduction pathways</clueType> by blocking formation of the catalytically active dimer of calcineurin A and B subunits.</clue>
+</event>
+<event id="E20">
+<type class="Binding" />
+<theme idref1="F2" idref2="F4" idref="F1" />
+<theme idref1="F3" idref2="F4" idref="F1" />
+<clue>These data suggest the potential utility of agents that disrupt calcineurin-mediated signal transduction pathways by blocking <clueType>formation of the catalytically active dimer</clueType> <linkTheme>of</linkTheme> calcineurin A and B subunits.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="A15" />
+<clue>These data suggest the potential utility of agents that disrupt calcineurin-mediated signal transduction pathways by <clueType>blocking</clueType> formation of the catalytically active dimer of calcineurin A and B subunits.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="E21" />
+<clue>These data suggest the potential utility of agents that <clueType>disrupt</clueType> calcineurin-mediated signal transduction pathways <linkCause>by</linkCause> blocking formation of the catalytically active dimer of calcineurin A and B subunits.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="01/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10395652" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10395652</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="signaling_event">Signaling events</term> induced by <term sem="Protein_molecule" id="T2" lex="lipopolysaccharide-activated_toll-like_receptor_2"><term sem="Lipid" id="A1">lipopolysaccharide</term>-activated <term sem="Protein_molecule" id="A2">toll-like receptor 2</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<cause idref="E2" />
+<clue>Signaling events <clueType>induced</clueType> <linkCause>by</linkCause> lipopolysaccharide-activated toll-like receptor 2.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="A1" />
+<clue>Signaling events induced by lipopolysaccharide-<clueType>activated</clueType> toll-like receptor 2.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T3" lex="human_Toll-like_receptor_2_(TLR2)">Human Toll-like receptor 2 (<term sem="Protein_molecule" id="T4" lex="TLR2">TLR2</term>)</term> is a <term sem="Protein_family_or_group" id="T5" lex="signaling_receptor">signaling receptor</term> that responds to <term sem="Lipid" id="T6" lex="LPS">LPS</term> and activates <term sem="Protein_complex" id="T7" lex="NF-kappaB">NF-kappaB</term>.</sentence>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="T4" />
+<cause idref="T6" />
+<clue>Human Toll-like receptor 2 (TLR2) is a signaling receptor that <clueType>responds</clueType> <linkCause>to</linkCause> LPS and activates NF-kappaB.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<cause idref="T4" />
+<clue>Human Toll-like receptor 2 (TLR2) is a signaling receptor that responds to LPS and <clueType>activates</clueType> NF-kappaB.</clue>
+</event>
+<sentence id="S3">Here, we investigate further the <term sem="Other" id="A3">events</term> triggered by <term sem="Protein_molecule" id="T8" lex="TLR2">TLR2</term> in response to <term sem="Lipid" id="T9" lex="LPS">LPS</term>.</sentence>
+<event uncertainty="doubtful" id="E5">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="E6" />
+<clue>Here, we investigate further the events <clueType>triggered</clueType> <linkCause>by</linkCause> TLR2 in response to LPS.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T9" />
+<clue>Here, we investigate further the events triggered by TLR2 <linkCause>in response to</linkCause> LPS.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S4">We show that <term sem="Protein_molecule" id="T10" lex="TLR2">TLR2</term> associates with the <term sem="Protein_molecule" id="T11" lex="high-affinity_LPS_binding_protein">high-affinity <term sem="Lipid" id="A9">LPS</term> binding protein</term> membrane <term sem="Protein_molecule" id="T12" lex="CD14">CD14</term> to serve as an <term sem="Protein_complex" id="T13" lex="LPS_receptor_complex"><term sem="Lipid" id="T14" lex="LPS">LPS</term> receptor complex</term>, and that <term sem="Lipid" id="T15" lex="LPS">LPS</term> treatment enhances the <term sem="Other" id="T16" lex="oligomerization">oligomerization</term> of <term sem="Protein_molecule" id="T17" lex="TLR2">TLR2</term>.</sentence>
+<event id="E7">
+<type class="Binding" />
+<theme idref="T10" />
+<theme idref="T12" />
+<clue>We show that TLR2 <clueType>associates</clueType> <linkTheme>with</linkTheme> the high-affinity LPS binding protein <clueLoc>membrane</clueLoc> CD14 to serve as an LPS receptor complex, and that LPS treatment enhances the oligomerization of TLR2.</clue>
+</event>
+<event id="E8">
+<type class="Binding" />
+<theme idref1="T12" idref="T10" />
+<theme idref="T14" />
+<clue>We show that TLR2 associates with the high-affinity LPS binding protein membrane CD14 to <clueType>serve as</clueType> an LPS <clueType>receptor</clueType> complex, and that LPS treatment enhances the oligomerization of TLR2.</clue>
+<comment>CAUTION: T10 &amp; T12, as complex</comment>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T15" />
+<clue>We show that TLR2 associates with the high-affinity LPS binding protein membrane CD14 to serve as an LPS receptor complex, and that LPS treatment <clueType>enhances</clueType> the oligomerization of TLR2.</clue>
+</event>
+<event id="E11">
+<type class="Metabolism" />
+<theme idref="T17" />
+<clue>We show that TLR2 associates with the high-affinity LPS binding protein membrane CD14 to serve as an LPS receptor complex, and that LPS treatment enhances the <clueType>oligomerization</clueType> <linkTheme>of</linkTheme> TLR2.</clue>
+</event>
+<event uncertainty="probable" id="E33">
+<type class="Binding" />
+<theme idref="A9" />
+<theme idref="T12" />
+<clue>We show that TLR2 associates with the high-affinity LPS <clueType>binding</clueType> protein <clueLoc>membrane</clueLoc> CD14 to serve as an LPS receptor complex, and that LPS treatment enhances the oligomerization of TLR2.</clue>
+</event>
+<sentence id="S5">Concomitant with <term sem="Other" id="T18" lex="receptor_oligomerization">receptor oligomerization</term>, the <term sem="Protein_molecule" id="T19" lex="IL-1R-associated_kinase_(IRAK)">IL-1R-associated kinase (<term sem="Protein_molecule" id="T20" lex="IRAK">IRAK</term>)</term> is recruited to the <term sem="Protein_molecule" id="T21" lex="TLR2">TLR2</term> complex.</sentence>
+<event id="E12">
+<type class="Correlation" />
+<theme idref="E34" />
+<theme idref="E13" />
+<clue><clueType>Concomitant</clueType> <linkTheme>with</linkTheme> receptor oligomerization, the IL-1R-associated kinase (IRAK) is recruited to the TLR2 complex.</clue>
+</event>
+<event id="E34">
+<type class="Metabolism" />
+<theme idref="T21" />
+<clue>Concomitant with <corefTheme>receptor</corefTheme> <clueType>oligomerization</clueType>, the IL-1R-associated kinase (IRAK) is recruited to the TLR2 complex.</clue>
+</event>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T20" />
+<theme idref="T13" />
+<clue>Concomitant with receptor oligomerization, the IL-1R-associated kinase (IRAK) is <clueType>recruited</clueType> <linkTheme>to</linkTheme> <corefTheme>the TLR2 complex</corefTheme>.</clue>
+</event>
+<sentence id="S6">Intracellular <term sem="Protein_molecule" id="A4">deletion variants of <term sem="Protein_molecule" id="T22" lex="TLR2">TLR2</term></term> <term sem="Protein_molecule" id="A21">lacking <term sem="Peptide" id="A20">C-terminal</term></term> <term sem="Protein_molecule" id="A22"><term sem="Peptide" id="A11">13</term></term> or <term sem="Peptide" id="T24" lex="C-terminal_141_aa"><term sem="Protein_molecule" id="A23">141</term> <term sem="Protein_molecule" id="A24"><term sem="Peptide" id="A13">aa</term></term></term> fail to recruit <term sem="Protein_molecule" id="T25" lex="IRAK">IRAK</term>, which is consistent with the inability of these mutants to transmit <term sem="Other" id="T26" lex="LPS_cellular_signaling"><term sem="Lipid" id="T27" lex="LPS">LPS</term> cellular signaling</term>.</sentence>
+<event id="E35">
+<type class="Mutagenesis" />
+<theme idref="T22" />
+<theme idref1="A11" idref2="A13" idref="A20" />
+<clue>Intracellular <clueType>deletion</clueType> variants <linkTheme>of</linkTheme> TLR2 <linkTheme>lacking</linkTheme> C-terminal 13 or 141 aa fail to recruit IRAK, which is consistent with the inability of these mutants to transmit LPS cellular signaling.</clue>
+<comment>NER: T23 del &quot;C-terminal 13 aa&quot;; ARTIFICIAL</comment>
+</event>
+<event id="E36">
+<type class="Mutagenesis" />
+<theme idref="T22" />
+<theme idref1="T24" idref="A20" />
+<clue>Intracellular <clueType>deletion</clueType> variants <linkTheme>of</linkTheme> TLR2 <linkTheme>lacking</linkTheme> C-terminal 13 or 141 aa fail to recruit IRAK, which is consistent with the inability of these mutants to transmit LPS cellular signaling.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Binding" />
+<theme idref1="A21" idref2="A22" idref3="A24" idref="A4" />
+<theme idref="T25" />
+<clue><clueLoc>Intracellular</clueLoc> deletion variants of TLR2 lacking C-terminal 13 or 141 aa fail to <clueType>recruit</clueType> IRAK, which is consistent with the inability of these mutants to transmit LPS cellular signaling.</clue>
+<comment>TPS: A4</comment>
+</event>
+<event assertion="non-exist" id="E37">
+<type class="Binding" />
+<theme idref1="A21" idref2="A23" idref3="A24" idref="A4" />
+<theme idref="T25" />
+<clue><clueLoc>Intracellular</clueLoc> deletion variants of TLR2 lacking C-terminal 13 or 141 aa fail to <clueType>recruit</clueType> IRAK, which is consistent with the inability of these mutants to transmit LPS cellular signaling.</clue>
+<comment>TPS: A4</comment>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Cell_communication" />
+<theme idref="T27" />
+<theme idref1="A21" idref2="A22" idref3="A24" idref="A4" />
+<clue>Intracellular deletion variants of TLR2 lacking C-terminal 13 or 141 aa fail to recruit IRAK, which is consistent with the inability <linkTheme>of</linkTheme> <corefTheme>these mutants</corefTheme> to <clueType>transmit</clueType> LPS <clueLoc>cellular</clueLoc> <clueType>signaling</clueType>.</clue>
+<comment>TPS: A4</comment>
+</event>
+<event assertion="non-exist" id="E38">
+<type class="Cell_communication" />
+<theme idref="T27" />
+<cause idref1="A21" idref2="A23" idref3="A24" idref="A4" />
+<clue>Intracellular deletion variants of TLR2 lacking C-terminal 13 or 141 aa fail to recruit IRAK, which is consistent with the inability <linkTheme>of</linkTheme> <corefTheme>these mutants</corefTheme> to <clueType>transmit</clueType> LPS <clueLoc>cellular</clueLoc> <clueType>signaling</clueType>.</clue>
+<comment>TPS: A4</comment>
+</event>
+<event id="E16">
+<type class="Correlation" />
+<theme idref="E14" />
+<theme idref="E15" />
+<clue>Intracellular deletion variants of TLR2 lacking C-terminal 13 or 141 aa fail to recruit IRAK, which is <clueType>consistent</clueType> <linkTheme>with</linkTheme> the inability of these mutants to transmit LPS cellular signaling.</clue>
+</event>
+<event id="E39">
+<type class="Correlation" />
+<theme idref="E37" />
+<theme idref="E38" />
+<clue>Intracellular deletion variants of TLR2 lacking C-terminal 13 or 141 aa fail to recruit IRAK, which is <clueType>consistent</clueType> <linkTheme>with</linkTheme> the inability of these mutants to transmit LPS cellular signaling.</clue>
+</event>
+<sentence id="S7">Moreover, both deletion mutants could still form complexes with <term sem="Protein_molecule" id="T28" lex="wild-type_TLR2">wild-type <term sem="Protein_molecule" id="T29" lex="TLR2">TLR2</term></term> and act in a <term sem="Other" id="T30" lex="dominant-negative_(DN)">dominant-negative (<term sem="Other" id="T31" lex="DN">DN</term>)</term> fashion to block <term sem="Other" id="T32" lex="TLR2-mediated_signal_transduction"><term sem="Protein_molecule" id="T33" lex="TLR2">TLR2</term>-mediated signal transduction</term>.</sentence>
+<event id="E17">
+<type class="Binding" />
+<theme idref1="A21" idref2="A22" idref3="A24" idref="A4" />
+<theme idref="T28" />
+<clue>Moreover, <corefTheme>both deletion mutants</corefTheme> could still <clueType>form complexes</clueType> <linkTheme>with</linkTheme> wild-type TLR2 and act in a dominant-negative (DN) fashion to block TLR2-mediated signal transduction.</clue>
+<comment>TPS: A4</comment>
+</event>
+<event id="E40">
+<type class="Binding" />
+<theme idref1="A21" idref2="A23" idref3="A24" idref="A4" />
+<theme idref="T28" />
+<clue>Moreover, <corefTheme>both deletion mutants</corefTheme> could still <clueType>form complexes</clueType> <linkTheme>with</linkTheme> wild-type TLR2 and act in a dominant-negative (DN) fashion to block TLR2-mediated signal transduction.</clue>
+<comment>TPS: A4</comment>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref1="A21" idref2="A22" idref3="A24" idref="A4" />
+<clue>Moreover, <corefCause>both deletion mutants</corefCause> could still form complexes with wild-type TLR2 and act in a dominant-negative (DN) fashion to <clueType>block</clueType> TLR2-mediated signal transduction.</clue>
+<comment>TPS: A4</comment>
+</event>
+<event id="E42">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref1="A21" idref2="A23" idref3="A24" idref="A4" />
+<clue>Moreover, <corefCause>both deletion mutants</corefCause> could still form complexes with wild-type TLR2 and act in a dominant-negative (DN) fashion to <clueType>block</clueType> TLR2-mediated signal transduction.</clue>
+<comment>TPS: A4</comment>
+</event>
+<event id="E19">
+<type class="Cell_communication" />
+<theme idref="T33" />
+<clue>Moreover, both deletion mutants could still form complexes with wild-type TLR2 and act in a dominant-negative (DN) fashion to block TLR2<linkTheme>-mediated</linkTheme> <clueType>signal transduction</clueType>.</clue>
+</event>
+<sentence id="S8"><term sem="Protein_family_or_group" id="A6"><term sem="Other" id="T34" lex="DN">DN</term> constructs</term> of <term sem="Protein_molecule" id="T35" lex="myeloid_differentiation_protein">myeloid differentiation protein</term>, <term sem="Protein_molecule" id="T36" lex="IRAK">IRAK</term>, <term sem="Protein_molecule" id="T37" lex="TNF_receptor-associated_factor_6"><term sem="Protein_family_or_group" id="T38" lex="TNF">TNF</term> receptor-associated factor 6</term>, and <term sem="Protein_molecule" id="T39" lex="NF-kappaB-inducing_kinase"><term sem="Protein_complex" id="T40" lex="NF-kappaB">NF-kappaB</term>-inducing kinase</term>, when coexpressed with <term sem="Protein_molecule" id="T41" lex="TLR2">TLR2</term>, abrogate <term sem="Other" id="T42" lex="TLR2-mediated_NF-kappaB_activation"><term sem="Protein_molecule" id="T43" lex="TLR2">TLR2</term>-mediated <term sem="Protein_complex" id="T44" lex="NF-kappaB">NF-kappaB</term> activation</term>.</sentence>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref1="T35" idref="A6" />
+<clue>DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when <clueType>coexpressed</clueType> with TLR2, abrogate TLR2-mediated NF-kappaB activation.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref1="T36" idref="A6" />
+<clue>DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when <clueType>coexpressed</clueType> with TLR2, abrogate TLR2-mediated NF-kappaB activation.</clue>
+</event>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref1="T37" idref="A6" />
+<clue>DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when <clueType>coexpressed</clueType> with TLR2, abrogate TLR2-mediated NF-kappaB activation.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref1="T39" idref="A6" />
+<clue>DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when <clueType>coexpressed</clueType> with TLR2, abrogate TLR2-mediated NF-kappaB activation.</clue>
+</event>
+<event id="E32">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when <clueType>coexpressed</clueType> with TLR2, abrogate TLR2-mediated NF-kappaB activation.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T44" />
+<cause idref="T43" />
+<clue>DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when coexpressed with TLR2, abrogate TLR2<linkCause>-mediated</linkCause> NF-kappaB <clueType>activation</clueType>.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="E20" />
+<cause idref="E32" />
+<clue>DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when coexpressed with TLR2, <clueType>abrogate</clueType> TLR2-mediated NF-kappaB activation.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="E21" />
+<cause idref="E32" />
+<clue>DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when coexpressed with TLR2, <clueType>abrogate</clueType> TLR2-mediated NF-kappaB activation.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="E22" />
+<cause idref="E32" />
+<clue>DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when coexpressed with TLR2, <clueType>abrogate</clueType> TLR2-mediated NF-kappaB activation.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="E23" />
+<cause idref="E32" />
+<clue>DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when coexpressed with TLR2, <clueType>abrogate</clueType> TLR2-mediated NF-kappaB activation.</clue>
+</event>
+<sentence id="S9">These results reveal a <term sem="Other" id="T45" lex="conserved_signaling_pathway">conserved <term sem="Other" id="A7">signaling pathway</term></term> for <term sem="Protein_molecule" id="T46" lex="TLR2">TLR2</term> and <term sem="Protein_family_or_group" id="T47" lex="IL-1R">IL-1Rs</term> and suggest a molecular mechanism for the inhibition of <term sem="Protein_molecule" id="T48" lex="TLR2">TLR2</term> by <term sem="Protein_molecule" id="A8"><term sem="Other" id="T49" lex="DN">DN</term> variants</term>.</sentence>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref1="T46" idref="A7" />
+<clue>These results reveal a <clueType>conserved</clueType> signaling pathway for TLR2 and IL-1Rs and suggest a molecular mechanism for the inhibition of TLR2 by DN variants.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref1="T47" idref="A7" />
+<clue>These results reveal a <clueType>conserved</clueType> signaling pathway for TLR2 and IL-1Rs and suggest a molecular mechanism for the inhibition of TLR2 by DN variants.</clue>
+</event>
+<event uncertainty="probable" id="E31">
+<type class="Negative_regulation" />
+<theme idref="T48" />
+<cause idref1="A8" idref="T48" />
+<clue>These results reveal a conserved signaling pathway for TLR2 and IL-1Rs and suggest a molecular mechanism for the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> TLR2 <linkCause>by</linkCause> DN variants.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="22/02/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1464736">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1464736</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="phorbol_ester">Phorbol ester</term> reduces <term sem="Protein_molecule" id="T2" lex="constitutive_nuclear_NF_kappa_B">constitutive nuclear <term sem="Protein_molecule" id="T3" lex="NF_kappa_B">NF kappa B</term></term> and inhibits <term sem="Other" id="T4" lex="HIV-1_production"><term sem="Virus" id="T5" lex="HIV-1">HIV-1</term> production</term> in <term sem="Cell_natural" id="T6" lex="mature_human_monocytic_cell">mature human <term sem="Cell_natural" id="T7" lex="monocytic_cell">monocytic cells</term></term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="T3" />
+<cause idref="T1" />
+<clue>Phorbol ester <clueType>reduces</clueType> constitutive nuclear NF kappa B and inhibits HIV-1 production <clueLoc>in mature human monocytic cells</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="T1" />
+<clue>Phorbol ester reduces constitutive nuclear NF kappa B and <clueType>inhibits</clueType> HIV-1 production <clueLoc>in mature human monocytic cells</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>Phorbol ester reduces constitutive nuclear NF kappa B and inhibits HIV-1 <clueType>production</clueType> in mature human monocytic cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T8" lex="NF_kappa_B">NF kappa B</term> is a potent mediator of specific <term sem="Other" id="A1">gene expression</term> in human monocytes and has been shown to play a role in transcription of the <term sem="DNA_family_or_group" id="A2"><term sem="Virus" id="T9" lex="HIV-1">HIV-1</term> genome</term> in <term sem="Other" id="A104">promonocytic leukemias</term>.</sentence>
+<event uncertainty="probable" id="E4">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="T8" />
+<clue>NF kappa B is a potent <clueType>mediator</clueType> <linkTheme>of</linkTheme> specific gene expression <clueLoc>in human monocytes</clueLoc> and has been shown to play a role in transcription of the HIV-1 genome in promonocytic leukemias.</clue>
+</event>
+<event id="E5">
+<type class="Transcription" />
+<theme idref="A2" />
+<clue>NF kappa B is a potent mediator of specific gene expression in human monocytes and has been shown to play a role in <clueType>transcription</clueType> <linkTheme>of</linkTheme> the HIV-1 genome <clueLoc>in promonocytic leukemias</clueLoc>.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T8" />
+<clue>NF kappa B is a potent mediator of specific gene expression in human monocytes and has been shown to <clueType>play a role</clueType> <linkTheme>in</linkTheme> transcription of the HIV-1 genome in promonocytic leukemias.</clue>
+</event>
+<sentence id="S3">There is little information available on the response of <term sem="Protein_molecule" id="T10" lex="NF_kappa_B">NF kappa B</term> to <term sem="Protein_family_or_group" id="T11" lex="cytokine">cytokines</term> in <term sem="Cell_natural" id="T12" lex="normal_human_monocyte">normal human monocytes</term>.</sentence>
+<event uncertainty="probable" id="E7">
+<type class="Regulation" />
+<theme idref="T10" />
+<cause idref="T11" />
+<clue>There is little information available on the <clueType>response</clueType> <linkTheme>of</linkTheme> NF kappa B <linkCause>to</linkCause> cytokines <clueLoc>in normal human monocytes</clueLoc>.</clue>
+</event>
+<sentence id="S4">We have used a <term sem="Polynucleotide" id="T13" lex="32P-labeled_oligonucleotide">32P-labeled oligonucleotide</term> derived from <term sem="DNA_domain_or_region" id="T14" lex="human_immunodeficiency_virus_(HIV-1)_long_terminal_repeat"><term sem="Virus" id="T15" lex="human_immunodeficiency_virus">human immunodeficiency virus</term> (<term sem="Virus" id="T16" lex="HIV-1">HIV-1</term>) long terminal repeat</term>, which contains a <term sem="DNA_substructure" id="T17" lex="tandem_repeat">tandem repeat</term> of the <term sem="DNA_domain_or_region" id="T18" lex="NF_kappa_B_binding_sequence"><term sem="Protein_molecule" id="T19" lex="NF_kappa_B">NF kappa B</term> binding sequence</term>, as a probe in a <term sem="Other" id="T20" lex="gel_retardation_assay">gel retardation assay</term> to study this <term sem="Protein_family_or_group" id="T21" lex="transcription_factor">transcription factor</term>.</sentence>
+<sentence id="S5">Using this assay, we have detected <term sem="Protein_molecule" id="T22" lex="NF_kappa_B">NF kappa B</term> in extracts of <term sem="Cell_component" id="T23" lex="nuclei">nuclei</term> from <term sem="Cell_natural" id="T24" lex="normal_human_monocyte">normal human monocytes</term>.</sentence>
+<event id="E50">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue><clueExperiment>Using this assay</clueExperiment>, we have <clueType>detected</clueType> NF kappa B <clueLoc>in extracts of nuclei from normal human monocytes</clueLoc>.</clue>
+</event>
+<sentence id="S6">Treatment of <term sem="Cell_natural" id="T25" lex="normal_monocyte">normal monocytes</term> with <term sem="Organic_compound_other" id="T26" lex="12-0-tetradecanoyl_phorbol-13-acetate">12-0-tetradecanoyl phorbol-13-acetate</term> (<term sem="Organic_compound_other" id="T27" lex="TPA">TPA</term>) for 4-24 h caused the complete disappearance of <term sem="Protein_molecule" id="T28" lex="NF_kappa_B">NF kappa B</term> from <term sem="Cell_component" id="T29" lex="nuclear_extract">nuclear extracts</term> of monocytes.</sentence>
+<event id="E51">
+<type class="Artificial_process" />
+<theme idref="T25" />
+<theme idref="T27" />
+<clue><clueType>Treatment</clueType> <linkTheme>of</linkTheme> normal monocytes <linkTheme>with</linkTheme> 12-0-tetradecanoyl phorbol-13-acetate (TPA) <clueTime>for 4-24 h</clueTime> caused the complete disappearance of NF kappa B from nuclear extracts of monocytes.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="T28" />
+<cause idref="E51" />
+<clue>Treatment of normal monocytes with 12-0-tetradecanoyl phorbol-13-acetate (TPA) for 4-24 h <clueType>caused</clueType> the complete <clueType>disappearance</clueType> <linkTheme>of</linkTheme> NF kappa B <clueLoc>from nuclear extracts of monocytes</clueLoc>.</clue>
+</event>
+<sentence id="S7">A similar result was obtained with the <term sem="Cell_cultured" id="T30" lex="mature_monocytic_leukemia_cell_line">mature monocytic leukemia cell line</term> <term sem="Cell_cultured" id="T31" lex="THP-1">THP-1</term>.</sentence>
+<sentence id="S8">The <term sem="Protein_family_or_group" id="T32" lex="constitutive_transcription_factor">constitutive transcription factor</term> <term sem="Protein_molecule" id="T33" lex="SP1">SP1</term> was unaffected by addition of <term sem="Organic_compound_other" id="T34" lex="TPA">TPA</term>.</sentence>
+<event assertion="non-exist" id="E9">
+<type class="Negative_regulation" />
+<theme idref="T33" />
+<cause idref="T34" />
+<clue>The constitutive transcription factor SP1 was <clueType>unaffected</clueType> <linkCause>by</linkCause> addition of TPA.</clue>
+</event>
+<sentence id="S9">The disappearance of <term sem="Protein_molecule" id="T35" lex="NF_kappa_B">NF kappa B</term> from the <term sem="Cell_component" id="T36" lex="nucleus">nucleus</term> was concentration dependent between 10 and 50 ng/ml of <term sem="Organic_compound_other" id="T37" lex="phorbol_ester">phorbol ester</term>.</sentence>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="T35" />
+<cause idref="T37" />
+<clue>The <clueType>disappearance</clueType> <linkTheme>of</linkTheme> NF kappa B <clueLoc>from the nucleus</clueLoc> was concentration <linkCause>dependent</linkCause> between 10 and 50 ng/ml <linkCause>of</linkCause> phorbol ester.</clue>
+</event>
+<sentence id="S10">In THP-1 cells, <term sem="Organic_compound_other" id="T38" lex="TPA">TPA</term> also induced a <term sem="Protein_family_or_group" id="T39" lex="faster-migrating_NF_kappa_B_specie">new, faster-migrating <term sem="Protein_molecule" id="T40" lex="NF_kappa_B">NF kappa B</term> species</term> not induced in <term sem="Cell_natural" id="T41" lex="monocyte">monocytes</term>.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<cause idref="T38" />
+<clue><clueLoc>In THP-1 cells</clueLoc>, TPA also <clueType>induced</clueType> a new, faster-migrating NF kappa B species not induced in monocytes.</clue>
+<comment>NER: T39 mod</comment>
+</event>
+<event assertion="non-exist" id="E12">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<cause idref="T38" />
+<clue>In THP-1 cells, TPA also induced a new, faster-migrating NF kappa B species not <clueType>induced</clueType> <clueLoc>in monocytes</clueLoc>.</clue>
+</event>
+<event id="E101">
+<type class="Localization" />
+<theme idref="T40" />
+<clue>In THP-1 cells, TPA also induced a new, faster-<clueType>migrating</clueType> NF kappa B species not induced in monocytes.</clue>
+</event>
+<event id="E102">
+<type class="Positive_regulation" />
+<theme idref="E101" />
+<clue>In THP-1 cells, TPA also induced a new, <clueType>faster</clueType>-migrating NF kappa B species not induced in monocytes.</clue>
+</event>
+<sentence id="S11"><term sem="Organic_compound_other" id="T42" lex="protein_kinase_C_inhibitor"><term sem="Protein_molecule" id="A101">Protein kinase C</term> inhibitor</term> <term sem="Organic_compound_other" id="T43" lex="staurosporine">staurosporine</term>, but not <term sem="Organic_compound_other" id="T44" lex="cyclic_nucleotide-dependent_protein_kinase_inhibitor"><term sem="Protein_molecule" id="A102">cyclic nucleotide-dependent protein kinase</term> inhibitor</term> <term sem="Organic_compound_other" id="T45" lex="HA-1004">HA-1004</term>, also dramatically reduced constitutive levels of <term sem="Protein_family_or_group" id="T46" lex="nuclear_NF_kappa_B">nuclear <term sem="Protein_molecule" id="T47" lex="NF_kappa_B">NF kappa B</term></term>.</sentence>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="T47" />
+<cause idref="T43" />
+<clue>Protein kinase C inhibitor staurosporine, but not cyclic nucleotide-dependent protein kinase inhibitor HA-1004, also dramatically <clueType>reduced</clueType> constitutive levels of <clueLoc>nuclear</clueLoc> NF kappa B.</clue>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Negative_regulation" />
+<theme idref="T47" />
+<cause idref="T45" />
+<clue>Protein kinase C inhibitor staurosporine, but not cyclic nucleotide-dependent protein kinase inhibitor HA-1004, also dramatically <clueType>reduced</clueType> constitutive levels of <clueLoc>nuclear</clueLoc> NF kappa B.</clue>
+</event>
+<event id="E103">
+<type class="Negative_regulation" />
+<theme idref="A101" />
+<cause idref="T43" />
+<clue>Protein kinase C <clueType>inhibitor</clueType> staurosporine, but not cyclic nucleotide-dependent protein kinase inhibitor HA-1004, also dramatically reduced constitutive levels of nuclear NF kappa B.</clue>
+</event>
+<event id="E104">
+<type class="Negative_regulation" />
+<theme idref="A102" />
+<cause idref="T45" />
+<clue>Protein kinase C <clueType>inhibitor</clueType> staurosporine, but not cyclic nucleotide-dependent protein kinase inhibitor HA-1004, also dramatically reduced constitutive levels of nuclear NF kappa B.</clue>
+</event>
+<sentence id="S12">Finally, <term sem="Organic_compound_other" id="T48" lex="TPA">TPA</term> addition to <term sem="Cell_natural" id="T49" lex="monocyte">monocytes</term> infected with <term sem="Virus" id="T50" lex="HIV-1">HIV-1</term> inhibited <term sem="Other" id="T51" lex="HIV-1_replication"><term sem="Virus" id="T52" lex="HIV-1">HIV-1</term> replication</term>, as determined by <term sem="Other" id="T53" lex="reverse_transcriptase_assay"><term sem="Protein_molecule" id="T54" lex="reverse_transcriptase">reverse transcriptase</term> assays</term>, in a concentration-dependent manner.</sentence>
+<event id="E15">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T49" />
+<theme idref="T50" />
+<clue>Finally, TPA addition to monocytes <clueType>infected</clueType> <linkCause>with</linkCause> HIV-1 inhibited HIV-1 replication, as determined by reverse transcriptase assays, in a concentration-dependent manner.</clue>
+</event>
+<event id="E16">
+<type class="Viral_life_cycle" />
+<theme idref="T52" />
+<clue>Finally, TPA addition to monocytes infected with HIV-1 inhibited HIV-1 <clueType>replication</clueType>, as determined by reverse transcriptase assays, in a concentration-dependent manner.</clue>
+</event>
+<event id="E116">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T48" />
+<clue>Finally, TPA addition to <clueLoc>monocytes infected with HIV-1</clueLoc> inhibited HIV-1 replication, as determined <clueExperiment>by reverse transcriptase assays</clueExperiment>, in a concentration-dependent manner.</clue>
+</event>
+<sentence id="S13">These results are in striking contrast to the increase in nuclear <term sem="Protein_molecule" id="T55" lex="NF_kappa_B">NF kappa B</term> and <term sem="Virus" id="T56" lex="HIV-1">HIV-1</term> replication induced by <term sem="Organic_compound_other" id="T57" lex="phorbol_ester">phorbol esters</term> in <term sem="Cell_cultured" id="T58" lex="promonocytic_leukemia_cells_U937">promonocytic leukemia cells U937</term> and <term sem="Cell_cultured" id="T59" lex="HL-60">HL-60</term>, and emphasize the importance of studying <term sem="Other" id="T60" lex="cytokine_regulation"><term sem="Protein_family_or_group" id="T61" lex="cytokine">cytokine</term> regulation</term> of <term sem="Virus" id="T62" lex="HIV-1">HIV-1</term> in <term sem="Cell_natural" id="T63" lex="normal_monocyte">normal monocytes</term>.</sentence>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T55" />
+<clue>These results are in striking contrast to the <clueType>increase</clueType> <linkTheme>in</linkTheme> <clueLoc>nuclear</clueLoc> NF kappa B and HIV-1 replication induced by phorbol esters in promonocytic leukemia cells U937 and HL-60, and emphasize the importance of studying cytokine regulation of HIV-1 in normal monocytes.</clue>
+</event>
+<event id="E18">
+<type class="Viral_life_cycle" />
+<theme idref="T56" />
+<clue>These results are in striking contrast to the increase in nuclear NF kappa B and HIV-1 <clueType>replication</clueType> induced by phorbol esters in promonocytic leukemia cells U937 and HL-60, and emphasize the importance of studying cytokine regulation of HIV-1 in normal monocytes.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T57" />
+<clue>These results are in striking contrast to the increase in nuclear NF kappa B and HIV-1 replication <clueType>induced</clueType> <linkCause>by</linkCause> phorbol esters <clueLoc>in promonocytic leukemia cells U937</clueLoc> and HL-60, and emphasize the importance of studying cytokine regulation of HIV-1 in normal monocytes.</clue>
+</event>
+<event id="E119">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T57" />
+<clue>These results are in striking contrast to the increase in nuclear NF kappa B and HIV-1 replication <clueType>induced</clueType> <linkCause>by</linkCause> phorbol esters <clueLoc>in promonocytic leukemia cells</clueLoc> U937 and <clueLoc>HL-60</clueLoc>, and emphasize the importance of studying cytokine regulation of HIV-1 in normal monocytes.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T57" />
+<clue>These results are in striking contrast to the increase in nuclear NF kappa B and HIV-1 replication <clueType>induced</clueType> <linkCause>by</linkCause> phorbol esters <clueLoc>in promonocytic leukemia cells U937</clueLoc> and HL-60, and emphasize the importance of studying cytokine regulation of HIV-1 in normal monocytes.</clue>
+</event>
+<event id="E120">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T57" />
+<clue>These results are in striking contrast to the increase in nuclear NF kappa B and HIV-1 replication <clueType>induced</clueType> <linkCause>by</linkCause> phorbol esters <clueLoc>in promonocytic leukemia cells</clueLoc> U937 and <clueLoc>HL-60</clueLoc>, and emphasize the importance of studying cytokine regulation of HIV-1 in normal monocytes.</clue>
+</event>
+<event id="E52">
+<type class="Regulation" />
+<theme idref="T62" />
+<cause idref="T61" />
+<clue>These results are in striking contrast to the increase in nuclear NF kappa B and HIV-1 replication induced by phorbol esters in promonocytic leukemia cells U937 and HL-60, and emphasize the importance of studying cytokine <clueType>regulation</clueType> <linkTheme>of</linkTheme> HIV-1 <clueLoc>in normal monocytes</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

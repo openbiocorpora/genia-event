@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="16/05/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8623933">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8623933</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="human_T_lymphotropic_virus-I_infection"><term sem="Virus" id="T2" lex="human_T_lymphotropic_virus-I">Human T lymphotropic virus-I</term> infection</term> of <term sem="Cell_natural" id="T3" lex="human_T_lymphocyte">human T lymphocytes</term> induces expression of the <term sem="Protein_family_or_group" id="T4" lex="beta-galactoside-binding_lectin">beta-galactoside-binding lectin</term>, <term sem="Protein_molecule" id="T5" lex="galectin-3">galectin-3</term>.</sentence>
+<event id="E1">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T2" />
+<theme idref="T3" />
+<clue>Human T lymphotropic virus-I <clueType>infection</clueType> <linkTheme>of</linkTheme> human T lymphocytes induces expression of the beta-galactoside-binding lectin, galectin-3.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>Human T lymphotropic virus-I infection of human T lymphocytes induces <clueType>expression</clueType> <linkTheme>of</linkTheme> the beta-galactoside-binding lectin, galectin-3.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue>Human T lymphotropic virus-I infection of human T lymphocytes <clueType>induces</clueType> expression of the beta-galactoside-binding lectin, galectin-3.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Animal <term sem="Protein_family_or_group" id="T6" lex="lectin">lectins</term> play important roles in a variety of <term sem="Other" id="T7" lex="biological_process">biological processes</term> via their recognition of <term sem="Other" id="T8" lex="glycoconjugate">glycoconjugates</term>.</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<cause idref="T6" />
+<clue>Animal lectins <clueType>play important roles</clueType> <linkTheme>in</linkTheme> a variety of biological processes via their recognition of glycoconjugates.</clue>
+</event>
+<sentence id="S3"><term sem="Protein_molecule" id="A1">Galectin-3</term> is a <term sem="Protein_family_or_group" id="T9" lex="beta-galactoside-binding_lectin">beta-galactoside-binding lectin</term> previously designated as <term sem="Protein_molecule" id="T10" lex="epsilon_BP">epsilon BP</term> (<term sem="Protein_molecule" id="T11" lex="IgE-binding_protein">IgE-binding protein</term>), <term sem="Protein_molecule" id="T12" lex="CBP35">CBP35</term>, <term sem="Protein_molecule" id="T13" lex="Mac-2">Mac-2</term>, <term sem="Protein_molecule" id="T14" lex="L-29">L-29</term>, and <term sem="Protein_molecule" id="T15" lex="L-34">L-34</term>, and its expression has been associated with various physiological and pathological processes, including <term sem="Other" id="T16" lex="cell_growth">cell growth</term>, <term sem="Other" id="T17" lex="tumor_transformation">tumor transformation</term>, and <term sem="Other" id="T18" lex="metastasis">metastasis</term>.</sentence>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Galectin-3 is a beta-galactoside-binding lectin previously designated as epsilon BP (IgE-binding protein), CBP35, Mac-2, L-29, and L-34, and <corefTheme>its</corefTheme> <clueType>expression</clueType> has been associated with various physiological and pathological processes, including cell growth, tumor transformation, and metastasis.</clue>
+</event>
+<event id="E6">
+<type class="Correlation" />
+<theme idref="E5" />
+<theme idref="T16" />
+<clue>Galectin-3 is a beta-galactoside-binding lectin previously designated as epsilon BP (IgE-binding protein), CBP35, Mac-2, L-29, and L-34, and its expression has been <clueType>associated</clueType> <linkTheme>with</linkTheme> <corefTheme idref1="T16">various physiological and pathological processes</corefTheme>, including cell growth, tumor transformation, and metastasis.</clue>
+</event>
+<event id="E7">
+<type class="Correlation" />
+<theme idref="E5" />
+<theme idref="T17" />
+<clue>Galectin-3 is a beta-galactoside-binding lectin previously designated as epsilon BP (IgE-binding protein), CBP35, Mac-2, L-29, and L-34, and its expression has been <clueType>associated</clueType> <linkTheme>with</linkTheme> <corefTheme idref1="T17">various physiological and pathological processes</corefTheme>, including cell growth, tumor transformation, and metastasis.</clue>
+</event>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="E5" />
+<theme idref="T18" />
+<clue>Galectin-3 is a beta-galactoside-binding lectin previously designated as epsilon BP (IgE-binding protein), CBP35, Mac-2, L-29, and L-34, and its expression has been <clueType>associated</clueType> <linkTheme>with</linkTheme> <corefTheme idref1="T18">various physiological and pathological processes</corefTheme>, including cell growth, tumor transformation, and metastasis.</clue>
+</event>
+<sentence id="S4"><term sem="Protein_molecule" id="T19" lex="galectin-3">Galectin-3</term> is widely distributed in various tissues and cell types and is expressed in many <term sem="Cell_natural" id="T20" lex="leukocyte">leukocytes</term>, with the notable exception of <cons sem="(AND Cell_natural Cell_natural)" id="T21" lex="(AND B_lymphocyte T_lymphocyte)"><frag id="F1">B</frag> and <frag id="F2">T</frag> <frag id="F3">lymphocytes</frag></cons>.</sentence>
+<event id="E300">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>Galectin-3 is widely <clueType>distributed</clueType> <clueLoc>in various tissues</clueLoc> and cell types and is expressed in many leukocytes, with the notable exception of B and T lymphocytes.</clue>
+</event>
+<event id="E301">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>Galectin-3 is widely <clueType>distributed</clueType> <clueLoc>in various</clueLoc> tissues and <clueLoc>cell types</clueLoc> and is expressed in many leukocytes, with the notable exception of B and T lymphocytes.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>Galectin-3 is widely distributed in various tissues and cell types and is <clueType>expressed</clueType> <clueLoc>in many leukocytes</clueLoc>, with the notable exception of B and T lymphocytes.</clue>
+</event>
+<event assertion="non-exist" id="E302">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>Galectin-3 is widely distributed in various tissues and cell types and is <clueType>expressed</clueType> in many leukocytes, with the notable exception of <clueLoc>B</clueLoc> and T <clueLoc>lymphocytes</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E303">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>Galectin-3 is widely distributed in various tissues and cell types and is <clueType>expressed</clueType> in many leukocytes, with the notable exception of B and <clueLoc>T lymphocytes.</clueLoc></clue>
+</event>
+<sentence id="S5">We now report that <term sem="Protein_molecule" id="T22" lex="galectin-3">galectin-3</term> is abundantly expressed in a number of <term sem="Cell_cultured" id="T23" lex="human_T_lymphotropic_virus_(HTLV)-I-infected_human_T_cell_line"><term sem="Virus" id="T24" lex="human_T_lymphotropic_virus_(HTLV)-I">human T lymphotropic virus (HTLV)-I</term>-infected human T cell lines</term>, including <term sem="Cell_cultured" id="T25" lex="F6T">F6T</term>, <term sem="Cell_cultured" id="T26" lex="HUT_102">HUT 102</term>, <term sem="Cell_cultured" id="T27" lex="K3T">K3T</term>, <term sem="Cell_cultured" id="T28" lex="MT-2">MT-2</term>, and <term sem="Cell_cultured" id="T29" lex="SLB-I">SLB-I</term>, but is not expressed in <term sem="Cell_cultured" id="T30" lex="non-HTLV-I-infected_T_cell_line">non-<term sem="Virus" id="T31" lex="HTLV-I">HTLV-I</term>-infected T cell lines</term> such as <term sem="Cell_cultured" id="T32" lex="Jurkat">Jurkat</term>, <term sem="Cell_cultured" id="T33" lex="CEM">CEM</term>, and <term sem="Cell_cultured" id="T34" lex="MOLT-4">MOLT-4</term>.</sentence>
+<event id="E310">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>We now report that galectin-3 is abundantly <clueType>expressed</clueType> <clueLoc>in a number of human T lymphotropic virus (HTLV)-I-infected human T cell lines, including F6T</clueLoc>, HUT 102, K3T, MT-2, and SLB-I, but is not expressed in non-HTLV-I-infected T cell lines such as Jurkat, CEM, and MOLT-4.</clue>
+</event>
+<event id="E311">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>We now report that galectin-3 is abundantly <clueType>expressed</clueType> <clueLoc>in a number of human T lymphotropic virus (HTLV)-I-infected human T cell lines, including</clueLoc> F6T, <clueLoc>HUT 102</clueLoc>, K3T, MT-2, and SLB-I, but is not expressed in non-HTLV-I-infected T cell lines such as Jurkat, CEM, and MOLT-4.</clue>
+</event>
+<event id="E312">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>We now report that galectin-3 is abundantly <clueType>expressed</clueType> <clueLoc>in a number of human T lymphotropic virus (HTLV)-I-infected human T cell lines, including</clueLoc> F6T, HUT 102, <clueLoc>K3T</clueLoc>, MT-2, and SLB-I, but is not expressed in non-HTLV-I-infected T cell lines such as Jurkat, CEM, and MOLT-4.</clue>
+</event>
+<event id="E313">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>We now report that galectin-3 is abundantly <clueType>expressed</clueType> <clueLoc>in a number of human T lymphotropic virus (HTLV)-I-infected human T cell lines, including</clueLoc> F6T, HUT 102, K3T, <clueLoc>MT-2</clueLoc>, and SLB-I, but is not expressed in non-HTLV-I-infected T cell lines such as Jurkat, CEM, and MOLT-4.</clue>
+</event>
+<event id="E314">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>We now report that galectin-3 is abundantly <clueType>expressed</clueType> <clueLoc>in a number of human T lymphotropic virus (HTLV)-I-infected human T cell lines, including</clueLoc> F6T, HUT 102, K3T, MT-2, and <clueLoc>SLB-I</clueLoc>, but is not expressed in non-HTLV-I-infected T cell lines such as Jurkat, CEM, and MOLT-4.</clue>
+</event>
+<event assertion="non-exist" id="E315">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>We now report that galectin-3 is abundantly expressed in a number of human T lymphotropic virus (HTLV)-I-infected human T cell lines, including F6T, HUT 102, K3T, MT-2, and SLB-I, but is not <clueType>expressed</clueType> <clueLoc>in non-HTLV-I-infected T cell lines such as Jurkat</clueLoc>, CEM, and MOLT-4.</clue>
+</event>
+<event assertion="non-exist" id="E316">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>We now report that galectin-3 is abundantly expressed in a number of human T lymphotropic virus (HTLV)-I-infected human T cell lines, including F6T, HUT 102, K3T, MT-2, and SLB-I, but is not <clueType>expressed</clueType> <clueLoc>in non-HTLV-I-infected T cell lines such as</clueLoc> Jurkat, <clueLoc>CEM</clueLoc>, and MOLT-4.</clue>
+</event>
+<event assertion="non-exist" id="E317">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>We now report that galectin-3 is abundantly expressed in a number of human T lymphotropic virus (HTLV)-I-infected human T cell lines, including F6T, HUT 102, K3T, MT-2, and SLB-I, but is not <clueType>expressed</clueType> <clueLoc>in non-HTLV-I-infected T cell lines such as</clueLoc> Jurkat, CEM, and <clueLoc>MOLT-4</clueLoc>.</clue>
+</event>
+<event id="E50">
+<type class="Viral_life_cycle" />
+<theme idref="T24" />
+<theme idref="T25" />
+<clue>We now report that galectin-3 is abundantly expressed in a number of human T lymphotropic virus (HTLV)-I-<clueType>infected</clueType> <corefTheme idref1="T25">human T cell lines</corefTheme>, including F6T, HUT 102, K3T, MT-2, and SLB-I, but is not expressed in non-HTLV-I-infected T cell lines such as Jurkat, CEM, and MOLT-4.</clue>
+</event>
+<event id="E51">
+<type class="Viral_life_cycle" />
+<theme idref="T24" />
+<theme idref="T26" />
+<clue>We now report that galectin-3 is abundantly expressed in a number of human T lymphotropic virus (HTLV)-I-<clueType>infected</clueType> <corefTheme idref1="T26">human T cell lines</corefTheme>, including F6T, HUT 102, K3T, MT-2, and SLB-I, but is not expressed in non-HTLV-I-infected T cell lines such as Jurkat, CEM, and MOLT-4.</clue>
+</event>
+<event id="E52">
+<type class="Viral_life_cycle" />
+<theme idref="T24" />
+<theme idref="T27" />
+<clue>We now report that galectin-3 is abundantly expressed in a number of human T lymphotropic virus (HTLV)-I-<clueType>infected</clueType> <corefTheme idref1="T27">human T cell lines</corefTheme>, including F6T, HUT 102, K3T, MT-2, and SLB-I, but is not expressed in non-HTLV-I-infected T cell lines such as Jurkat, CEM, and MOLT-4.</clue>
+</event>
+<event id="E53">
+<type class="Viral_life_cycle" />
+<theme idref="T24" />
+<theme idref="T28" />
+<clue>We now report that galectin-3 is abundantly expressed in a number of human T lymphotropic virus (HTLV)-I-<clueType>infected</clueType> <corefTheme idref1="T28">human T cell lines</corefTheme>, including F6T, HUT 102, K3T, MT-2, and SLB-I, but is not expressed in non-HTLV-I-infected T cell lines such as Jurkat, CEM, and MOLT-4.</clue>
+</event>
+<event id="E54">
+<type class="Viral_life_cycle" />
+<theme idref="T24" />
+<theme idref="T29" />
+<clue>We now report that galectin-3 is abundantly expressed in a number of human T lymphotropic virus (HTLV)-I-<clueType>infected</clueType> <corefTheme idref1="T29">human T cell lines</corefTheme>, including F6T, HUT 102, K3T, MT-2, and SLB-I, but is not expressed in non-HTLV-I-infected T cell lines such as Jurkat, CEM, and MOLT-4.</clue>
+</event>
+<sentence id="S6">In addition, the <term sem="Other" id="T35" lex="galectin-3_level"><term sem="Protein_molecule" id="T36" lex="galectin-3">galectin-3</term> level</term> was markedly increased in <term sem="Cell_natural" id="T37" lex="human_thymocyte">human thymocytes</term> after infection with <term sem="Virus" id="T38" lex="HTLV-I">HTLV-I</term> as compared with <term sem="Cell_natural" id="T39" lex="uninfected_thymocyte">uninfected thymocytes</term>.</sentence>
+<event id="E14">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T38" />
+<theme idref="T37" />
+<clue>In addition, the galectin-3 level was markedly increased in human thymocytes after <clueType>infection</clueType> with HTLV-I as compared with uninfected thymocytes.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<cause idref="E14" />
+<clue>In addition, the galectin-3 level was markedly <clueType>increased</clueType> in human thymocytes after infection with HTLV-I as compared with uninfected thymocytes.</clue>
+</event>
+<sentence id="S7">The up-regulation of <term sem="Other" id="T40" lex="galectin-3_expression"><term sem="Protein_molecule" id="T41" lex="galectin-3">galectin-3</term> expression</term> appeared to correlate well with <term sem="Other" id="T42" lex="HTLV-I_gene_expression"><term sem="Virus" id="T43" lex="HTLV-I">HTLV-I</term> gene expression</term>, as undetectable or very low levels of <term sem="Protein_molecule" id="T44" lex="galectin-3">galectin-3</term> were found in the <cons sem="(AND Cell_cultured Cell_cultured)" id="T45" lex="(AND S1T_cell_line ATL-1K_cell_line)"><frag id="F4">S1T</frag> and <frag id="F5">ATL-1K</frag> <frag id="F6">cell lines</frag></cons>, which are nonproductively infected with <term sem="Virus" id="T46" lex="HTLV-I">HTLV-I</term>.</sentence>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>The up-regulation of galectin-3 <clueType>expression</clueType> appeared to correlate well with HTLV-I gene expression, as undetectable or very low levels of galectin-3 were found in the S1T and ATL-1K cell lines, which are nonproductively infected with HTLV-I.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<clue>The <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> galectin-3 expression appeared to correlate well with HTLV-I gene expression, as undetectable or very low levels of galectin-3 were found in the S1T and ATL-1K cell lines, which are nonproductively infected with HTLV-I.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T43" />
+<clue>The up-regulation of galectin-3 expression appeared to correlate well with HTLV-I gene <clueType>expression</clueType>, as undetectable or very low levels of galectin-3 were found in the S1T and ATL-1K cell lines, which are nonproductively infected with HTLV-I.</clue>
+</event>
+<event id="E19">
+<type class="Correlation" />
+<theme idref="E18" />
+<theme idref="E17" />
+<clue>The up-regulation of galectin-3 expression appeared to <clueType>correlate</clueType> well <linkTheme>with</linkTheme> HTLV-I gene expression, as undetectable or very low levels of galectin-3 were found in the S1T and ATL-1K cell lines, which are nonproductively infected with HTLV-I.</clue>
+</event>
+<event assertion="non-exist" id="E320">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>The up-regulation of galectin-3 expression appeared to correlate well with HTLV-I gene expression, as <clueType>undetectable</clueType> or very low <clueType>levels</clueType> <linkTheme>of</linkTheme> galectin-3 were found <clueLoc>in the S1T</clueLoc> and ATL-1K <clueLoc>cell lines, which are nonproductively infected with HTLV-I.</clueLoc></clue>
+</event>
+<event assertion="non-exist" id="E321">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>The up-regulation of galectin-3 expression appeared to correlate well with HTLV-I gene expression, as <clueType>undetectable</clueType> or very low <clueType>levels</clueType> <linkTheme>of</linkTheme> galectin-3 were found <clueLoc>in the</clueLoc> S1T and <clueLoc>ATL-1K cell lines, which are nonproductively infected with HTLV-I.</clueLoc></clue>
+</event>
+<event id="E322">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>The up-regulation of galectin-3 expression appeared to correlate well with HTLV-I gene expression, as undetectable or very <clueType>low levels</clueType> <linkTheme>of</linkTheme> galectin-3 were found <clueLoc>in the S1T</clueLoc> and ATL-1K <clueLoc>cell lines, which are nonproductively infected with HTLV-I.</clueLoc></clue>
+</event>
+<event id="E323">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>The up-regulation of galectin-3 expression appeared to correlate well with HTLV-I gene expression, as undetectable or very <clueType>low levels</clueType> <linkTheme>of</linkTheme> galectin-3 were found <clueLoc>in the</clueLoc> S1T and <clueLoc>ATL-1K cell lines, which are nonproductively infected with HTLV-I.</clueLoc></clue>
+</event>
+<sentence id="S8">In <term sem="Other" id="T47" lex="co-transfection_experiment">co-transfection experiments</term>, the <term sem="DNA_domain_or_region" id="T48" lex="galectin-3_promoter"><term sem="Protein_molecule" id="T49" lex="galectin-3">galectin-3</term> promoter</term> was significantly up-regulated by <term sem="DNA_family_or_group" id="T50" lex="expression_vector">expression vectors</term> encoding the <term sem="Protein_molecule" id="T51" lex="40-kd_Tax_protein">40-kd Tax protein</term>, a potent transactivator in <term sem="Virus" id="T52" lex="HTLV-I">HTLV-I</term>.</sentence>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T48" />
+<cause idref="T51" />
+<clue><clueExperiment>In co-transfection experiments</clueExperiment>, the galectin-3 promoter was significantly <clueType>up-regulated</clueType> <linkCause>by</linkCause> expression vectors encoding the 40-kd Tax protein, a potent transactivator in HTLV-I.</clue>
+</event>
+<event id="E60">
+<type class="Positive_regulation" />
+<cause idref="T51" />
+<clue>In co-transfection experiments, the galectin-3 promoter was significantly up-regulated by expression vectors encoding the 40-kd Tax protein, a potent <clueType>transactivator</clueType> <clueLoc>in HTLV-I.</clueLoc></clue>
+</event>
+<sentence id="S9">Analysis of various <term sem="Protein_family_or_group" id="T53" lex="Tax_mutant">Tax mutants</term> suggested that <term sem="Other" id="T54" lex="galectin-3_promoter_induction"><term sem="DNA_domain_or_region" id="T55" lex="galectin-3_promoter"><term sem="Protein_molecule" id="T56" lex="galectin-3">galectin-3</term> promoter</term> induction</term> is dependent on activation of the <term sem="Protein_family_or_group" id="T57" lex="cyclic-AMP-responsive_element_binding_protein/activation_transcription_factor_family"><term sem="Nucleotide" id="T58" lex="cyclic-AMP">cyclic-AMP</term>-responsive element binding protein/activation transcription factor family</term> of <term sem="Protein_family_or_group" id="T59" lex="transcription_factor">transcription factors</term> and, to a lesser extent, <term sem="Other" id="T60" lex="nuclear_factor-kappa_B/Rel_induction"><term sem="Protein_complex" id="T61" lex="nuclear_factor-kappa_B/Rel">nuclear factor-kappa B/Rel</term> induction</term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T55" />
+<clue>Analysis of various Tax mutants suggested that galectin-3 promoter <clueType>induction</clueType> is dependent on activation of the cyclic-AMP-responsive element binding protein/activation transcription factor family of transcription factors and, to a lesser extent, nuclear factor-kappa B/Rel induction.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T57" />
+<clue>Analysis of various Tax mutants suggested that galectin-3 promoter induction is dependent on <clueType>activation</clueType> <linkTheme>of</linkTheme> the cyclic-AMP-responsive element binding protein/activation transcription factor family of transcription factors and, to a lesser extent, nuclear factor-kappa B/Rel induction.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E23" />
+<clue>Analysis of various Tax mutants suggested that galectin-3 promoter induction is <clueType>dependent</clueType> <linkCause>on</linkCause> activation of the cyclic-AMP-responsive element binding protein/activation transcription factor family of transcription factors and, to a lesser extent, nuclear factor-kappa B/Rel induction.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T61" />
+<clue>Analysis of various Tax mutants suggested that galectin-3 promoter induction is dependent on activation of the cyclic-AMP-responsive element binding protein/activation transcription factor family of transcription factors and, to a lesser extent, nuclear factor-kappa B/Rel <clueType>induction</clueType>.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E25" />
+<clue>Analysis of various Tax mutants suggested that galectin-3 promoter induction is <clueType>dependent</clueType> <linkTheme>on</linkTheme> activation of the cyclic-AMP-responsive element binding protein/activation transcription factor family of transcription factors and, to a lesser extent, nuclear factor-kappa B/Rel induction.</clue>
+</event>
+<sentence id="S10">Transfection of <term sem="Cell_cultured" id="T62" lex="human_promonocytic_U-937_cell">human promonocytic U-937 cells</term> with an <term sem="Virus" id="T63" lex="HTLV-I_Tax_expression_vector"><term sem="Virus" id="T64" lex="HTLV-I">HTLV-I</term> Tax expression vector</term> induced <term sem="Other" id="T65" lex="galectin-3_expression"><term sem="Protein_molecule" id="T66" lex="galectin-3">galectin-3</term> expression</term> in this cell line.</sentence>
+<event id="E150">
+<type class="Gene_expression" />
+<theme idref="T63" />
+<clue><clueType>Transfection</clueType> of human promonocytic U-937 cells <linkTheme>with</linkTheme> an HTLV-I Tax expression vector induced galectin-3 expression in this cell line.</clue>
+</event>
+<event id="E151">
+<type class="Positive_regulation" />
+<theme idref="E150" />
+<clue><clueType>Transfection</clueType> of <clueLoc>human promonocytic U-937 cells</clueLoc> with an HTLV-I Tax expression vector induced galectin-3 expression in this cell line.</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="T66" />
+<clue>Transfection of human promonocytic U-937 cells with an HTLV-I Tax expression vector induced galectin-3 <clueType>expression</clueType> in this cell line.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E151" />
+<clue>Transfection of human promonocytic U-937 cells with an HTLV-I Tax expression vector <clueType>induced</clueType> galectin-3 expression in this cell line.</clue>
+</event>
+<sentence id="S11">Functionally, <term sem="Protein_molecule" id="T67" lex="galectin-3">galectin-3</term> was shown to activate <term sem="Other" id="T68" lex="interleukin-2_production"><term sem="Protein_molecule" id="T69" lex="interleukin-2">interleukin-2</term> production</term> in <term sem="Cell_natural" id="T70" lex="Jurkat_T_cell">Jurkat T cells</term>.</sentence>
+<event id="E30">
+<type class="Gene_expression" />
+<theme idref="T69" />
+<clue>Functionally, galectin-3 was shown to activate interleukin-2 <clueType>production</clueType> in Jurkat T cells.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="T67" />
+<clue>Functionally, galectin-3 was shown to <clueType>activate</clueType> interleukin-2 production <clueLoc>in Jurkat T cells</clueLoc>.</clue>
+</event>
+<sentence id="S12">Together, these findings raise the possibility that <term sem="Other" id="T71" lex="HTLV-I_Tax_production"><term sem="Virus" id="T72" lex="HTLV-I">HTLV-I</term> <term sem="Protein_molecule" id="T73" lex="Tax">Tax</term> production</term> induces the transcription and subsequent synthesis and secretion of <term sem="Protein_molecule" id="T74" lex="galectin-3">galectin-3</term>, which in turn may further activate these <term sem="Cell_natural" id="T75" lex="T_cell">T cells</term> and contribute to the altered properties of <term sem="Other" id="T76" lex="cell_growth">cell growth</term> found in <term sem="Other" id="T77" lex="adult_T_cell_leukemia">adult T cell leukemia</term> induced by <term sem="Virus" id="T78" lex="HTLV-I">HTLV-I</term>.</sentence>
+<event id="E32">
+<type class="Gene_expression" />
+<theme idref="T73" />
+<clue>Together, these findings raise the possibility that HTLV-I Tax <clueType>production</clueType> induces the transcription and subsequent synthesis and secretion of galectin-3, which in turn may further activate these T cells and contribute to the altered properties of cell growth found in adult T cell leukemia induced by HTLV-I.</clue>
+</event>
+<event id="E33">
+<type class="Transcription" />
+<theme idref="T74" />
+<clue>Together, these findings raise the possibility that HTLV-I Tax production induces the <clueType>transcription</clueType> and subsequent synthesis and secretion <linkTheme>of</linkTheme> galectin-3, which in turn may further activate these T cells and contribute to the altered properties of cell growth found in adult T cell leukemia induced by HTLV-I.</clue>
+</event>
+<event id="E34">
+<type class="Translation" />
+<theme idref="T74" />
+<clue>Together, these findings raise the possibility that HTLV-I Tax production induces the transcription and subsequent <clueType>synthesis</clueType> and secretion <linkTheme>of</linkTheme> galectin-3, which in turn may further activate these T cells and contribute to the altered properties of cell growth found in adult T cell leukemia induced by HTLV-I.</clue>
+</event>
+<event id="E35">
+<type class="Localization" />
+<theme idref="T74" />
+<clue>Together, these findings raise the possibility that HTLV-I Tax production induces the transcription and subsequent synthesis and <clueType>secretion</clueType> <linkTheme>of</linkTheme> galectin-3, which in turn may further activate these T cells and contribute to the altered properties of cell growth found in adult T cell leukemia induced by HTLV-I.</clue>
+</event>
+<event uncertainty="probable" id="E36">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="E32" />
+<clue>Together, these findings raise the possibility that HTLV-I Tax production <clueType>induces</clueType> the transcription and subsequent synthesis and secretion of galectin-3, which in turn may further activate these T cells and contribute to the altered properties of cell growth found in adult T cell leukemia induced by HTLV-I.</clue>
+</event>
+<event uncertainty="probable" id="E37">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="E32" />
+<clue>Together, these findings raise the possibility that HTLV-I Tax production <clueType>induces</clueType> the transcription and subsequent synthesis and secretion of galectin-3, which in turn may further activate these T cells and contribute to the altered properties of cell growth found in adult T cell leukemia induced by HTLV-I.</clue>
+</event>
+<event uncertainty="probable" id="E38">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="E32" />
+<clue>Together, these findings raise the possibility that HTLV-I Tax production <clueType>induces</clueType> the transcription and subsequent synthesis and secretion of galectin-3, which in turn may further activate these T cells and contribute to the altered properties of cell growth found in adult T cell leukemia induced by HTLV-I.</clue>
+</event>
+<event uncertainty="probable" id="E39">
+<type class="Physiological_process" />
+<theme idref="T75" />
+<cause idref="E32" />
+<clue>Together, these findings raise the possibility that HTLV-I Tax production induces the transcription and subsequent synthesis and secretion of galectin-3, which in turn may further <clueType>activate</clueType> these T cells and contribute to the altered properties of cell growth found in adult T cell leukemia induced by HTLV-I.</clue>
+</event>
+<event id="E40">
+<type class="Regulation" />
+<theme idref="T76" />
+<clue>Together, these findings raise the possibility that HTLV-I Tax production induces the transcription and subsequent synthesis and secretion of galectin-3, which in turn may further activate these T cells and contribute to the <clueType>altered properties</clueType> <linkTheme>of</linkTheme> cell growth found <clueLoc>in adult T cell leukemia induced by HTLV-I.</clueLoc></clue>
+</event>
+<event uncertainty="probable" id="E41">
+<type class="Positive_regulation" />
+<theme idref="E40" />
+<cause idref="E32" />
+<clue>Together, these findings raise the possibility that HTLV-I Tax production induces the transcription and subsequent synthesis and secretion of galectin-3, which in turn may further activate these T cells and <clueType>contribute</clueType> <linkTheme>to</linkTheme> the altered properties of cell growth found in adult T cell leukemia induced by HTLV-I.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation" />
+<theme idref="T77" />
+<cause idref="T78" />
+<clue>Together, these findings raise the possibility that HTLV-I Tax production induces the transcription and subsequent synthesis and secretion of galectin-3, which in turn may further activate these T cells and contribute to the altered properties of cell growth found in adult T cell leukemia <clueType>induced</clueType> <linkCause>by</linkCause> HTLV-I.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

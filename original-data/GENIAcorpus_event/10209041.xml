@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="24/01/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10209041" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10209041</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="GrpL">GrpL</term>, a <term sem="Protein_molecule" id="T2" lex="Grb2">Grb2</term>-related <term sem="Protein_family_or_group" id="T3" lex="adaptor_protein">adaptor protein</term>, interacts with <term sem="Protein_molecule" id="T4" lex="SLP-76">SLP-76</term> to regulate <term sem="Protein_molecule" id="T5" lex="nuclear_factor_of_activated_T_cells">nuclear factor of <term sem="Cell_natural" id="T6" lex="activated_T_cell">activated T cell</term></term> activation.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T1" />
+<theme idref="T4" />
+<clue>GrpL, a Grb2-related adaptor protein, <clueType>interacts</clueType> <linkTheme>with</linkTheme> SLP-76 to regulate nuclear factor of activated T cell activation.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T5" />
+<clue>GrpL, a Grb2-related adaptor protein, interacts with SLP-76 to regulate nuclear factor of activated T cell <clueType>activation</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue>GrpL, a Grb2-related adaptor protein, interacts with SLP-76 to <clueType>regulate</clueType> nuclear factor of activated T cell activation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Propagation of signals from the <term sem="Protein_complex" id="T7" lex="T_cell_antigen_receptor"><term sem="Cell_natural" id="T8" lex="T_cell">T cell</term> antigen receptor</term> (<term sem="Protein_complex" id="T9" lex="TCR">TCR</term>) involves a number of <term sem="Protein_family_or_group" id="A2">adaptor molecules.</term></sentence>
+<event id="E4">
+<type class="Cell_communication" />
+<theme idref="T9" />
+<clue><clueType>Propagation of signals</clueType> <linkTheme>from</linkTheme> the T cell antigen receptor (TCR) involves a number of adaptor molecules.</clue>
+</event>
+<event id="E5">
+<type class="Correlation" />
+<theme idref="E4" />
+<theme idref="A2" />
+<clue>Propagation of signals from the T cell antigen receptor (TCR) <clueType>involves</clueType> a number of adaptor molecules.</clue>
+</event>
+<sentence id="S3"><term sem="Protein_molecule" id="T10" lex="SH2_domain-containing_protein_76">SH2 domain-containing protein 76</term> (<term sem="Protein_molecule" id="T11" lex="SLP-76">SLP-76</term>) interacts with the <term sem="Protein_family_or_group" id="T12" lex="guanine_nucleotide_exchange_factor">guanine nucleotide exchange factor</term> <term sem="Protein_molecule" id="T13" lex="Vav">Vav</term> to activate the <term sem="Protein_molecule" id="T14" lex="nuclear_factor_of_activated_cell">nuclear factor of activated cells</term> (<term sem="Protein_molecule" id="T15" lex="NF-AT">NF-AT</term>), and its expression is required for normal <term sem="Other" id="T16" lex="T_cell_development"><term sem="Cell_natural" id="T17" lex="T_cell">T cell</term> development</term>.</sentence>
+<event id="E6">
+<type class="Binding" />
+<theme idref="T11" />
+<theme idref="T13" />
+<clue>SH2 domain-containing protein 76 (SLP-76) <clueType>interacts</clueType> <linkTheme>with</linkTheme> the guanine nucleotide exchange factor Vav to activate the nuclear factor of activated cells (NF-AT), and its expression is required for normal T cell development.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<cause idref="E6" />
+<clue>SH2 domain-containing protein 76 (SLP-76) interacts with the guanine nucleotide exchange factor Vav to <clueType>activate</clueType> the nuclear factor of activated cells (NF-AT), and its expression is required for normal T cell development.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>SH2 domain-containing protein 76 (SLP-76) interacts with the guanine nucleotide exchange factor Vav to activate the nuclear factor of activated cells (NF-AT), and <linkTheme>its</linkTheme> <clueType>expression</clueType> is required for normal T cell development.</clue>
+</event>
+<event id="E9">
+<type class="Cellular_physiological_process" />
+<theme idref="T17" />
+<clue>SH2 domain-containing protein 76 (SLP-76) interacts with the guanine nucleotide exchange factor Vav to activate the nuclear factor of activated cells (NF-AT), and its expression is required for normal T cell <clueType>development</clueType>.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E8" />
+<clue>SH2 domain-containing protein 76 (SLP-76) interacts with the guanine nucleotide exchange factor Vav to activate the nuclear factor of activated cells (NF-AT), and its expression is <clueType>required</clueType> <linkTheme>for</linkTheme> normal T cell development.</clue>
+</event>
+<sentence id="S4">We report the cloning and characterization of a novel <term sem="Protein_molecule" id="T18" lex="Grb2-like_adaptor_molecule">Grb2-like adaptor molecule</term> designated as <term sem="Protein_molecule" id="T19" lex="Grb2-related_protein_of_the_lymphoid_system">Grb2-related protein of the lymphoid system</term> (<term sem="Protein_molecule" id="T20" lex="GrpL">GrpL</term>).</sentence>
+<sentence id="S5">Expression of <term sem="Protein_molecule" id="T21" lex="GrpL">GrpL</term> is restricted to <term sem="Tissue_natural" id="T22" lex="hematopoietic_tissue">hematopoietic tissues</term>, and it is distinguished from <term sem="Protein_molecule" id="T23" lex="Grb2">Grb2</term> by having a <term sem="Protein_domain_or_region" id="T24" lex="proline-rich_region"><term sem="Amino_acid_monomer" id="T25" lex="proline">proline</term>-rich region</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> GrpL is restricted to <clueLoc>hematopoietic tissues</clueLoc>, and it is distinguished from Grb2 by having a proline-rich region.</clue>
+</event>
+<sentence id="S6"><term sem="Protein_molecule" id="T26" lex="GrpL">GrpL</term> can be coimmunoprecipitated with <term sem="Protein_molecule" id="T28" lex="SLP-76">SLP-76</term> but not with <term sem="Protein_molecule" id="T29" lex="Sos1">Sos1</term> or <term sem="Protein_molecule" id="T30" lex="Sos2">Sos2</term> from <term sem="Cell_cultured" id="T31" lex="Jurkat_cell">Jurkat cell</term> lysates.</sentence>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="T28" />
+<clue>GrpL can be <clueType>coimmunoprecipitated</clueType> <linkTheme>with</linkTheme> SLP-76 but not with Sos1 or Sos2 <clueLoc>from Jurkat cell lysates.</clueLoc></clue>
+</event>
+<event assertion="non-exist" id="E13">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="T29" />
+<clue>GrpL can be <clueType>coimmunoprecipitated</clueType> with SLP-76 but not <linkTheme>with</linkTheme> Sos1 or Sos2 <clueLoc>from Jurkat cell lysates.</clueLoc></clue>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="T30" />
+<clue>GrpL can be <clueType>coimmunoprecipitated</clueType> with SLP-76 but not <linkTheme>with</linkTheme> Sos1 or Sos2 <clueLoc>from Jurkat cell lysates.</clueLoc></clue>
+</event>
+<sentence id="S7">In contrast, <term sem="Protein_molecule" id="T32" lex="Grb2">Grb2</term> can be coimmunoprecipitated with <term sem="Protein_molecule" id="T34" lex="Sos1">Sos1</term> and <term sem="Protein_molecule" id="T35" lex="Sos2">Sos2</term> but not with <term sem="Protein_molecule" id="T36" lex="SLP-76">SLP-76</term>.</sentence>
+<event id="E15">
+<type class="Binding" />
+<theme idref="T34" />
+<theme idref="T32" />
+<clue>In contrast, Grb2 can be <clueType>coimmunoprecipitated</clueType> <linkTheme>with</linkTheme> Sos1 and Sos2 but not with SLP-76.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T35" />
+<theme idref="T32" />
+<clue>In contrast, Grb2 can be <clueType>coimmunoprecipitated</clueType> <linkTheme>with</linkTheme> Sos1 and Sos2 but not with SLP-76.</clue>
+</event>
+<event id="E17">
+<type class="Binding" />
+<theme idref="T36" />
+<theme idref="T32" />
+<clue>In contrast, Grb2 can be <clueType>coimmunoprecipitated</clueType> with Sos1 and Sos2 but not <linkTheme>with</linkTheme> SLP-76.</clue>
+</event>
+<sentence id="S8">Moreover, <term sem="Protein_complex" id="T37" lex="tyrosine-phosphorylated_LAT/pp36/38"><term sem="Amino_acid_monomer" id="T38" lex="tyrosine">tyrosine</term>-phosphorylated <term sem="Protein_complex" id="A5"><term sem="Protein_molecule" id="T39" lex="LAT">LAT</term>/<term sem="Protein_molecule" id="T40" lex="pp36">pp36</term>/<term sem="Protein_molecule" id="T41" lex="pp38">38</term></term></term> in detergent lysates prepared from <term sem="Cell_natural" id="T42" lex="anti-CD3_stimulated_T_cell"><term sem="Protein_family_or_group" id="A3">anti-CD3</term> stimulated <term sem="Cell_natural" id="A4">T cells</term></term> associated with <term sem="Protein_molecule" id="T43" lex="Grb2">Grb2</term> but not <term sem="Protein_molecule" id="T44" lex="GrpL">GrpL</term>.</sentence>
+<event id="E18">
+<type class="Binding" />
+<theme idref="T37" />
+<theme idref="T43" />
+<clue>Moreover, tyrosine-phosphorylated LAT/pp36/38 in detergent lysates prepared from anti-CD3 stimulated T cells <clueType>associated</clueType> <linkTheme>with</linkTheme> Grb2 but not GrpL.</clue>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Binding" />
+<theme idref="T37" />
+<theme idref="T44" />
+<clue>Moreover, tyrosine-phosphorylated LAT/pp36/38 in detergent lysates prepared from anti-CD3 stimulated T cells <clueType>associated</clueType> <linkTheme>with</linkTheme> Grb2 but not GrpL.</clue>
+</event>
+<event id="E20">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<cause idref="A3" />
+<clue>Moreover, tyrosine-phosphorylated LAT/pp36/38 in detergent lysates prepared from anti-CD3 <clueType>stimulated</clueType> T cells associated with Grb2 but not GrpL.</clue>
+</event>
+<event id="E21">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="A5" />
+<site idref="T38" /><clue>Moreover, tyrosine-<clueType>phosphorylated</clueType> LAT/pp36/38 in detergent lysates prepared <clueLoc>from anti-CD3 stimulated T cells</clueLoc> associated with Grb2 but not GrpL.</clue>
+</event>
+<sentence id="S9">These data reveal the presence of distinct complexes involving <term sem="Protein_molecule" id="T45" lex="GrpL">GrpL</term> and <term sem="Protein_molecule" id="T46" lex="Grb2">Grb2</term> in <term sem="Cell_natural" id="T47" lex="T_cell">T cells</term>.</sentence>
+<sentence id="S10">A functional role of the <term sem="Protein_complex" id="T48" lex="GrpL-SLP-76_complex"><term sem="Protein_molecule" id="T49" lex="GrpL">GrpL</term><term sem="Protein_molecule" id="T50" lex="SLP-76">-SLP-76</term> complex</term> is suggested by the ability of <term sem="Protein_molecule" id="T51" lex="GrpL">GrpL</term> to act alone or in concert with <term sem="Protein_molecule" id="T52" lex="SLP-76">SLP-76</term> to augment <term sem="Other" id="T53" lex="NF-AT_activation"><term sem="Protein_molecule" id="T54" lex="NF-AT">NF-AT</term> activation</term> in <term sem="Cell_cultured" id="T55" lex="Jurkat">Jurkat</term> <term sem="Cell_natural" id="T56" lex="T_cell">T cells</term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T54" />
+<clue>A functional role of the GrpL-SLP-76 complex is suggested by the ability of GrpL to act alone or in concert with SLP-76 to augment NF-AT <clueType>activation</clueType> <clueLoc>in Jurkat T cells</clueLoc>.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="T51" />
+<clue>A functional role of the GrpL-SLP-76 complex is suggested by the ability of GrpL to act alone or in concert with SLP-76 to <clueType>augment</clueType> NF-AT activation in Jurkat T cells.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="T51" />
+<cause idref="T52" />
+<clue>A functional role of the GrpL-SLP-76 complex is suggested by the ability of GrpL to act alone or <linkTheme>in concert with</linkTheme> SLP-76 to <clueType>augment</clueType> NF-AT activation in Jurkat T cells.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

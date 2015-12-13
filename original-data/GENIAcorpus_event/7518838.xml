@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="18/04/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7518838">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7518838</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="alpha-tocopherol">Alpha-tocopherol</term> inhibits <term sem="Other" id="T2" lex="agonist-induced_monocytic_cell_adhesion"><term sem="Organic_compound_other" id="A2">agonist</term>-induced <term sem="Cell_natural" id="A1">monocytic cell</term> adhesion</term> to <term sem="Cell_cultured" id="T3" lex="cultured_human_endothelial_cell">cultured human endothelial cells</term>.</sentence>
+<event id="E1">
+<type class="Cell_adhesion" />
+<theme idref="A1" />
+<theme idref="T3" />
+<clue>Alpha-tocopherol inhibits agonist-induced monocytic cell <clueType>adhesion</clueType> <linkTheme>to</linkTheme> cultured human endothelial cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="A2" />
+<clue>Alpha-tocopherol inhibits agonist-<clueType>induced</clueType> monocytic cell adhesion to cultured human endothelial cells.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Alpha-tocopherol <clueType>inhibits</clueType> agonist-induced monocytic cell adhesion to cultured human endothelial cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Organic_compound_other" id="T4" lex="antioxidant">Antioxidants</term> have been proposed to be <term sem="Organic_compound_other" id="T5" lex="anti-atherosclerotic_agent">anti-atherosclerotic agents</term>; however, the mechanisms underlying their beneficial effects are poorly understood.</sentence>
+<sentence id="S3">We have examined the effect of <term sem="Organic_compound_other" id="T6" lex="alpha-tocopherol">alpha-tocopherol</term> (<term sem="Organic_compound_other" id="T7" lex="alpha-tcp">alpha-tcp</term>) on one cellular event in <term sem="Other" id="T8" lex="atherosclerotic_plaque_development"><term sem="Tissue_natural" id="T9" lex="atherosclerotic_plaque">atherosclerotic plaque</term> development</term>, <term sem="Cell_natural" id="A3">monocyte</term> adhesion to <term sem="Cell_natural" id="T10" lex="stimulated_endothelial_cell"><term sem="Cell_natural" id="A30">stimulated</term> endothelial cells</term> (<term sem="Cell_natural" id="T11" lex="EC">ECs</term>).</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T9" />
+<clue>We have examined the effect of alpha-tocopherol (alpha-tcp) on one cellular event in atherosclerotic plaque <clueType>development</clueType>, monocyte adhesion to stimulated endothelial cells (ECs).</clue>
+</event>
+<event id="E5">
+<type class="Cell_adhesion" />
+<theme idref="A3" />
+<theme idref1="T11" idref="A30" />
+<clue>We have examined the effect of alpha-tocopherol (alpha-tcp) on one cellular event in atherosclerotic plaque development, monocyte <clueType>adhesion</clueType> <linkTheme>to</linkTheme> stimulated endothelial cells (ECs).</clue>
+</event>
+<event id="E6">
+<type class="Physiological_process" />
+<theme idref="T11" />
+<clue>We have examined the effect of alpha-tocopherol (alpha-tcp) on one cellular event in atherosclerotic plaque development, monocyte adhesion to <clueType>stimulated</clueType> endothelial cells (ECs).</clue>
+<comment>NO CAUSE</comment>
+</event>
+<event uncertainty="doubtful" id="E7">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T7" />
+<clue>We have examined the <clueType>effect</clueType> <linkCause>of</linkCause> alpha-tocopherol (alpha-tcp) <linkTheme>on</linkTheme> <corefTheme>one cellular event in atherosclerotic plaque development</corefTheme>, monocyte adhesion to stimulated endothelial cells (ECs).</clue>
+</event>
+<sentence id="S4">Human umbilical vein <term sem="Cell_natural" id="T12" lex="EC">ECs</term> were pretreated with <term sem="Organic_compound_other" id="T13" lex="alpha-tcp">alpha-tcp</term> before stimulation with known agonists of <term sem="Other" id="T14" lex="monocyte_adhesion"><term sem="Cell_natural" id="A4">monocyte</term> adhesion</term>: <term sem="Protein_molecule" id="T15" lex="IL-1">IL-1</term> (10 ng/ml), <term sem="Lipid" id="T16" lex="LPS">LPS</term> (10 ng/ml), <term sem="Protein_molecule" id="T17" lex="thrombin">thrombin</term> (30 U/ml), or <term sem="Organic_compound_other" id="T18" lex="PMA">PMA</term> (10 nM).</sentence>
+<event id="E8">
+<type class="Artificial_process" />
+<theme idref="T12" />
+<theme idref="T13" />
+<clue>Human umbilical vein ECs were <clueType>pretreated</clueType> <linkTheme>with</linkTheme> alpha-tcp before stimulation with known agonists of monocyte adhesion: IL-1 (10 ng/ml), LPS (10 ng/ml), thrombin (30 U/ml), or PMA (10 nM).</clue>
+</event>
+<event id="E9">
+<type class="Physiological_process" />
+<theme idref="T12" />
+<cause idref="T15" />
+<clue>Human umbilical vein ECs were pretreated with alpha-tcp before <clueType>stimulation</clueType> <linkCause>with</linkCause> known agonists of monocyte adhesion: IL-1 (10 ng/ml), LPS (10 ng/ml), thrombin (30 U/ml), or PMA (10 nM).</clue>
+</event>
+<event id="E10">
+<type class="Physiological_process" />
+<theme idref="T12" />
+<cause idref="T16" />
+<clue>Human umbilical vein ECs were pretreated with alpha-tcp before <clueType>stimulation</clueType> <linkCause>with</linkCause> known agonists of monocyte adhesion: IL-1 (10 ng/ml), LPS (10 ng/ml), thrombin (30 U/ml), or PMA (10 nM).</clue>
+</event>
+<event id="E11">
+<type class="Physiological_process" />
+<theme idref="T12" />
+<cause idref="T17" />
+<clue>Human umbilical vein ECs were pretreated with alpha-tcp before <clueType>stimulation</clueType> <linkCause>with</linkCause> known agonists of monocyte adhesion: IL-1 (10 ng/ml), LPS (10 ng/ml), thrombin (30 U/ml), or PMA (10 nM).</clue>
+</event>
+<event id="E12">
+<type class="Cell_adhesion" />
+<theme idref="A4" />
+<clue>Human umbilical vein ECs were pretreated with alpha-tcp before stimulation with known agonists of monocyte <clueType>adhesion</clueType>: IL-1 (10 ng/ml), LPS (10 ng/ml), thrombin (30 U/ml), or PMA (10 nM).</clue>
+</event>
+<sentence id="S5"><term sem="Other" id="T19" lex="agonist-induced_monocytic_cell_adhesion"><term sem="Organic_compound_other" id="A6">Agonist</term>-induced <term sem="Cell_natural" id="A5">monocytic cell</term> adhesion</term>, but not <term sem="Other" id="T20" lex="basal_adhesion">basal adhesion</term>, was inhibited in a <term sem="Other" id="T21" lex="time-_and_concentration-dependent_manner">time- and concentration-dependent manner</term> by <term sem="Organic_compound_other" id="T22" lex="alpha-tcp">alpha-tcp</term>.</sentence>
+<event id="E13">
+<type class="Cell_adhesion" />
+<theme idref="A5" />
+<clue>Agonist-induced monocytic cell <clueType>adhesion</clueType>, but not basal adhesion, was inhibited in a time- and concentration-dependent manner by alpha-tcp.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="A6" />
+<clue>Agonist-<clueType>induced</clueType> monocytic cell adhesion, but not basal adhesion, was inhibited in a time- and concentration-dependent manner by alpha-tcp.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="T22" />
+<clue>Agonist-induced monocytic cell adhesion, but not basal adhesion, was <clueType>inhibited</clueType> in a time- and concentration-dependent manner <linkCause>by</linkCause> alpha-tcp.</clue>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Negative_regulation" />
+<theme idref="T20" />
+<cause idref="T22" />
+<clue>Agonist-induced monocytic cell adhesion, but not basal adhesion, was <clueType>inhibited</clueType> in a time- and concentration-dependent manner <linkCause>by</linkCause> alpha-tcp.</clue>
+</event>
+<sentence id="S6">The IC50 of <term sem="Organic_compound_other" id="T23" lex="alpha-tcp">alpha-tcp</term> on an <term sem="Other" id="T24" lex="IL-1-induced_response"><term sem="Protein_molecule" id="T25" lex="IL-1">IL-1</term>-induced response</term> was 45 microM.</sentence>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<cause idref="T25" />
+<clue>The IC50 of alpha-tcp on an IL-1-<clueType>induced</clueType> <corefTheme>response</corefTheme> was 45 microM.</clue>
+</event>
+<sentence id="S7">The inhibition correlated with a decrease in steady state levels of <term sem="RNA_molecule" id="T26" lex="E-selectin_mRNA">E-selectin mRNA</term> and <term sem="Other" id="T27" lex="cell_surface_expression">cell surface expression</term> of <term sem="Protein_molecule" id="T28" lex="E-selectin">E-selectin</term> which is consistent with the ability of a <term sem="Protein_family_or_group" id="A8"><term sem="Protein_family_or_group" id="T29" lex="monoclonal_antibody">monoclonal antibody</term> to <term sem="Protein_molecule" id="T30" lex="E-selectin">E-selectin</term></term> to inhibit <term sem="Other" id="T31" lex="monocytic_cell_adhesion"><term sem="Cell_natural" id="A7">monocytic cell</term> adhesion</term> in this system.</sentence>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="T26" />
+<clue>The inhibition correlated with a <clueType>decrease</clueType> <linkTheme>in</linkTheme> steady state levels of E-selectin mRNA and cell surface expression of E-selectin which is consistent with the ability of a monoclonal antibody to E-selectin to inhibit monocytic cell adhesion in this system.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<clue>The inhibition correlated with a <clueType>decrease</clueType> <linkTheme>in</linkTheme> steady state levels of E-selectin mRNA and cell surface expression of E-selectin which is consistent with the ability of a monoclonal antibody to E-selectin to inhibit monocytic cell adhesion in this system.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T28" />
+<clue>The inhibition correlated with a decrease in steady state levels of E-selectin mRNA and <clueLoc>cell surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> E-selectin which is consistent with the ability of a monoclonal antibody to E-selectin to inhibit monocytic cell adhesion in this system.</clue>
+</event>
+<event id="E22">
+<type class="Correlation" />
+<theme idref="E15" />
+<theme idref="E19" />
+<clue><corefTheme>The inhibition</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> a decrease in steady state levels of E-selectin mRNA and cell surface expression of E-selectin which is consistent with the ability of a monoclonal antibody to E-selectin to inhibit monocytic cell adhesion in this system.</clue>
+</event>
+<event id="E23">
+<type class="Correlation" />
+<theme idref="E15" />
+<theme idref="E19" />
+<clue><corefTheme>The inhibition</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> a decrease in steady state levels of E-selectin mRNA and cell surface expression of E-selectin which is consistent with the ability of a monoclonal antibody to E-selectin to inhibit monocytic cell adhesion in this system.</clue>
+</event>
+<event id="E24">
+<type class="Cell_adhesion" />
+<theme idref="A7" />
+<clue>The inhibition correlated with a decrease in steady state levels of E-selectin mRNA and cell surface expression of E-selectin which is consistent with the ability of a monoclonal antibody to E-selectin to inhibit monocytic cell <clueType>adhesion</clueType> in this system.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="A8" />
+<clue>The inhibition correlated with a decrease in steady state levels of E-selectin mRNA and cell surface expression of E-selectin which is consistent with the ability <linkCause>of</linkCause> a monoclonal antibody to E-selectin to <clueType>inhibit</clueType> monocytic cell adhesion <clueExperiment>in this system</clueExperiment>.</clue>
+<comment>TPS: A8</comment>
+</event>
+<sentence id="S8"><term sem="Organic_compound_other" id="T32" lex="Probucol">Probucol</term> (50 microM) and <term sem="Amino_acid_monomer" id="T33" lex="N-acetylcysteine">N-acetylcysteine</term> (20 mM) also inhibited <term sem="Other" id="T34" lex="agonist-induced_monocytic_cell_adhesion"><term sem="Organic_compound_other" id="A10">agonist</term>-induced <term sem="Other" id="T35" lex="monocytic_cell_adhesion"><term sem="Cell_natural" id="A9">monocytic cell</term> adhesion</term></term>; whereas, <term sem="Organic_compound_other" id="A11">several other antioxidants</term> had no significant effect.</sentence>
+<event id="E26">
+<type class="Cell_adhesion" />
+<theme idref="A9" />
+<clue>Probucol (50 microM) and N-acetylcysteine (20 mM) also inhibited agonist-induced monocytic cell <clueType>adhesion</clueType>; whereas, several other antioxidants had no significant effect.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="A10" />
+<clue>Probucol (50 microM) and N-acetylcysteine (20 mM) also inhibited agonist-<clueType>induced</clueType> monocytic cell adhesion; whereas, several other antioxidants had no significant effect.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="E27" />
+<cause idref="T32" />
+<clue>Probucol (50 microM) and N-acetylcysteine (20 mM) also <clueType>inhibited</clueType> agonist-induced monocytic cell adhesion; whereas, several other antioxidants had no significant effect.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="E27" />
+<cause idref="T33" />
+<clue>Probucol (50 microM) and N-acetylcysteine (20 mM) also <clueType>inhibited</clueType> agonist-induced monocytic cell adhesion; whereas, several other antioxidants had no significant effect.</clue>
+</event>
+<event assertion="non-exist" id="E30">
+<type class="Negative_regulation" />
+<theme idref="E27" />
+<cause idref="A11" />
+<clue>Probucol (50 microM) and N-acetylcysteine (20 mM) also inhibited agonist-induced monocytic cell adhesion; whereas, several other antioxidants had no significant <clueType>effect</clueType>.</clue>
+<comment>CAUTION: effect = inhibitory effect</comment>
+</event>
+<sentence id="S9"><term sem="Protein_molecule" id="T36" lex="protein_kinase_C">Protein kinase C</term> (<term sem="Protein_molecule" id="T37" lex="PKC">PKC</term>) does not appear to play a role in the <term sem="Organic_compound_other" id="T38" lex="alpha-tcp">alpha-tcp</term> effect since no suppression of <term sem="Other" id="T39" lex="phosphorylation">phosphorylation</term> of <term sem="Protein_molecule" id="A12"><term sem="Protein_molecule" id="T40" lex="PKC">PKC</term> substrates</term> was observed.</sentence>
+<event assertion="non-exist" uncertainty="probable" id="E31">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="T37" />
+<clue>Protein kinase C (PKC) does not appear to <clueType>play a role</clueType> <linkTheme>in</linkTheme> <corefTheme>the alpha-tcp effect</corefTheme> since no suppression of phosphorylation of PKC substrates was observed.</clue>
+</event>
+<event assertion="non-exist" id="E32">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<clue>Protein kinase C (PKC) does not appear to play a role in the alpha-tcp effect since no <clueType>suppression</clueType> <linkTheme>of</linkTheme> phosphorylation of PKC substrates was observed.</clue>
+</event>
+<event id="E33">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="A12" />
+<clue>Protein kinase C (PKC) does not appear to play a role in the alpha-tcp effect since no suppression of <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> PKC substrates was observed.</clue>
+</event>
+<sentence id="S10">Activation of the <term sem="Protein_family_or_group" id="T41" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T42" lex="NF-kappa_B">NF-kappa B</term> is reported to be necessary but not sufficient for <term sem="Protein_molecule" id="T43" lex="E-selectin">E-selectin</term> expression in <term sem="Cell_cultured" id="T44" lex="EC">EC</term>.</sentence>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> the transcription factor NF-kappa B is reported to be necessary but not sufficient for E-selectin expression in EC.</clue>
+</event>
+<event id="E35">
+<type class="Gene_expression" />
+<theme idref="T43" />
+<clue>Activation of the transcription factor NF-kappa B is reported to be necessary but not sufficient for E-selectin <clueType>expression</clueType> <clueLoc>in EC</clueLoc>.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="E34" />
+<clue>Activation of the transcription factor NF-kappa B is reported to be <clueType>necessary</clueType> but not sufficient <linkTheme>for</linkTheme> E-selectin expression in EC.</clue>
+</event>
+<sentence id="S11">Electrophoretic mobility shift assays failed to show an <term sem="Other" id="T45" lex="alpha-tcp-induced_decrease_in_activation"><term sem="Organic_compound_other" id="T46" lex="alpha-tcp">alpha-tcp</term>-induced decrease in activation</term> of this <term sem="Protein_family_or_group" id="T47" lex="transcription_factor">transcription factor</term> after <term sem="Other" id="T48" lex="cytokine_stimulation"><term sem="Protein_family_or_group" id="T49" lex="cytokine">cytokine</term> stimulation</term>.</sentence>
+<event assertion="non-exist" id="E37">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="T46" />
+<clue><clueExperiment>Electrophoretic mobility shift assays</clueExperiment> failed to show an alpha-tcp<linkCause>-induced</linkCause> <clueType>decrease</clueType> <linkTheme>in</linkTheme> activation of this transcription factor after cytokine stimulation.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<cause idref="E39" />
+<clue>Electrophoretic mobility shift assays failed to show an alpha-tcp-induced decrease in <clueType>activation</clueType> <linkTheme>of</linkTheme> <corefTheme>this transcription factor</corefTheme> <linkCause>after</linkCause> cytokine stimulation.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="T44" />
+<cause idref="T49" />
+<clue>Electrophoretic mobility shift assays failed to show an alpha-tcp-induced decrease in activation of this transcription factor after cytokine <clueType>stimulation</clueType>.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<sentence id="S12">It has been hypothesized that <term sem="Organic_compound_other" id="T50" lex="alpha-tcp">alpha-tcp</term> acts as an <term sem="Organic_compound_other" id="T51" lex="anti-atherosclerotic_molecule">anti-atherosclerotic molecule</term> by inhibiting generation of <term sem="Lipid" id="T52" lex="oxidized_LDL">oxidized LDL</term>--a <term sem="Organic_compound_other" id="T53" lex="putative_triggering_molecule">putative triggering molecule</term> in the <term sem="Other" id="T54" lex="atherosclerotic_process">atherosclerotic process</term>.</sentence>
+<event id="E40">
+<type class="Metabolism" />
+<theme idref="T52" />
+<clue>It has been hypothesized that alpha-tcp acts as an anti-atherosclerotic molecule by inhibiting <clueType>generation</clueType> <linkTheme>of</linkTheme> oxidized LDL--a putative triggering molecule in the atherosclerotic process.</clue>
+</event>
+<event uncertainty="probable" id="E41">
+<type class="Negative_regulation" />
+<theme idref="E40" />
+<cause idref="T50" />
+<clue>It has been hypothesized that alpha-tcp acts as an anti-atherosclerotic molecule by <clueType>inhibiting</clueType> generation of oxidized LDL--a putative triggering molecule in the atherosclerotic process.</clue>
+</event>
+<event uncertainty="probable" id="E42">
+<type class="Positive_regulation" />
+<theme idref="T54" />
+<cause idref="T52" />
+<clue>It has been hypothesized that alpha-tcp acts as an anti-atherosclerotic molecule by inhibiting generation of oxidized LDL--a putative <clueType>triggering</clueType> molecule <linkTheme>in</linkTheme> the atherosclerotic process.</clue>
+</event>
+<sentence id="S13">Our results point to a novel alternative mechanism of action of <term sem="Organic_compound_other" id="T55" lex="alpha-tcp">alpha-tcp</term>.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

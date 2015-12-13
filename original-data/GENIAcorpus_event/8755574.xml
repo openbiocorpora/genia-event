@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="21/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8755574" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8755574</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="transgenic_expression">Transgenic expression</term> of <term sem="Protein_molecule" id="T2" lex="PML/RARalpha">PML/RARalpha</term> impairs <term sem="Other" id="T3" lex="myelopoiesis">myelopoiesis</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue><clueType>Transgenic expression</clueType> <linkTheme>of</linkTheme> PML/RARalpha impairs myelopoiesis.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue><clueType>Transgenic expression</clueType> of PML/RARalpha impairs myelopoiesis.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="T3" />
+<cause idref="E2" />
+<clue>Transgenic expression of PML/RARalpha <clueType>impairs</clueType> myelopoiesis.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The translocation found in <term sem="Other" id="T4" lex="acute_promyelocytic_leukemia">acute promyelocytic leukemia</term> rearranges the <term sem="DNA_domain_or_region" id="T5" lex="promyelocytic_leukemia_gene">promyelocytic leukemia gene</term> (<term sem="DNA_domain_or_region" id="T6" lex="PML">PML</term>) on <term sem="DNA_molecule" id="T7" lex="chromosome_15">chromosome 15</term> with the <term sem="DNA_domain_or_region" id="T8" lex="retinoic_acid_receptor_alpha_gene">retinoic acid receptor alpha</term> (<term sem="Protein_molecule" id="T9" lex="RARalpha">RARalpha</term>) on <term sem="DNA_molecule" id="T10" lex="chromosome_17">chromosome 17</term>.</sentence>
+<event id="E5">
+<type class="DNA_recombination" />
+<theme idref="T6" />
+<theme idref="T9" />
+<clue>The translocation found <clueLoc>in acute promyelocytic leukemia</clueLoc> <clueType>rearranges</clueType> the promyelocytic leukemia gene (PML) on chromosome 15 <linkTheme>with</linkTheme> the retinoic acid receptor alpha (RARalpha) on chromosome 17.</clue>
+</event>
+<sentence id="S3">This yields a fusion transcript, <term sem="Protein_molecule" id="T11" lex="PML/RARalpha">PML/RARalpha</term>, a <term sem="Protein_family_or_group" id="T12" lex="transcription_factor">transcription factor</term> with reported dominant negative functions in the absence of hormone.</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<cause idref="E5" />
+<clue><corefCause>This</corefCause> <clueType>yields</clueType> a fusion transcript, PML/RARalpha, a transcription factor with reported dominant negative functions in the absence of hormone.</clue>
+</event>
+<sentence id="S4"><term sem="Other" id="T13" lex="clinical_remission">Clinical remissions</term> induced with <term sem="Organic_compound_other" id="T14" lex="all-trans_retinoic_acid">all-trans retinoic acid</term> (<term sem="Organic_compound_other" id="T15" lex="RA">RA</term>) treatment in <term sem="Other" id="T16" lex="acute_promyelocytic_leukemia">acute promyelocytic leukemia</term> are linked to <term sem="Other" id="T17" lex="PML/RARalpha_expression"><term sem="Protein_molecule" id="T18" lex="PML/RARalpha">PML/RARalpha</term> expression</term> in <term sem="Cell_natural" id="T19" lex="leukemic_cell">leukemic cells</term>.</sentence>
+<event id="E7">
+<type class="Artificial_process" />
+<theme idref="T15" />
+<theme idref="T16" />
+<clue>Clinical remissions induced with all-trans retinoic acid (RA) <clueType>treatment</clueType> <linkTheme>in</linkTheme> acute promyelocytic leukemia are linked to PML/RARalpha expression in leukemic cells.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<cause idref="E7" />
+<clue>Clinical remissions <clueType>induced</clueType> <linkCause>with</linkCause> all-trans retinoic acid (RA) treatment in acute promyelocytic leukemia are linked to PML/RARalpha expression in leukemic cells.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T18" />
+<clue>Clinical remissions induced with all-trans retinoic acid (RA) treatment in acute promyelocytic leukemia are linked to PML/RARalpha <clueType>expression</clueType> <clueLoc>in leukemic cells</clueLoc>.</clue>
+</event>
+<event id="E10">
+<type class="Correlation" />
+<theme idref="E8" />
+<theme idref="E9" />
+<clue>Clinical remissions induced with all-trans retinoic acid (RA) treatment in acute promyelocytic leukemia are <clueType>linked</clueType> <linkTheme>to</linkTheme> PML/RARalpha expression in leukemic cells.</clue>
+</event>
+<sentence id="S5">To evaluate the <term sem="Protein_molecule" id="T20" lex="PML/RARalpha">PML/RARalpha</term> role in <term sem="Other" id="T21" lex="myelopoiesis">myelopoiesis</term>, <term sem="Multicellular_organism_genetically_modified" id="T22" lex="transgenic_mouse">transgenic mice</term> expressing <term sem="Protein_molecule" id="T23" lex="PML/RARalpha">PML/RARalpha</term> were engineered.</sentence>
+<event uncertainty="doubtful" id="E11">
+<type class="Regulation" />
+<cause idref="T20" />
+<clue>To evaluate the PML/RARalpha <clueType>role</clueType> <clueLoc>in myelopoiesis</clueLoc>, transgenic mice expressing PML/RARalpha were engineered.</clue>
+</event>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue>To evaluate the PML/RARalpha role in myelopoiesis, <clueLoc>transgenic mice</clueLoc> <clueType>expressing</clueType> PML/RARalpha were engineered.</clue>
+</event>
+<sentence id="S6">A full-length <term sem="DNA_molecule" id="T24" lex="PML/RARalpha_cDNA"><term sem="Protein_molecule" id="T25" lex="PML/RARalpha">PML/RARalpha</term> cDNA</term> driven by the <term sem="DNA_domain_or_region" id="T26" lex="CD11b_promoter">CD11b promoter</term> was expressed in <term sem="Multicellular_organism_genetically_modified" id="T27" lex="transgenic_mouse">transgenic mice</term>.</sentence>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>A full-length PML/RARalpha cDNA driven by the CD11b promoter was <clueType>expressed</clueType> <clueLoc>in transgenic mice.</clueLoc></clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="T26" />
+<clue>A full-length PML/RARalpha cDNA <clueType>driven</clueType> <linkCause>by</linkCause> the CD11b promoter was expressed in transgenic mice.</clue>
+</event>
+<sentence id="S7">Expression was confirmed in the <term sem="Tissue_natural" id="T28" lex="bone_marrow">bone marrow</term> with a <term sem="Other" id="T29" lex="reverse_transcription_PCR_assay">reverse transcription PCR assay</term>.</sentence>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue><clueType>Expression</clueType> was confirmed <clueLoc>in the bone marrow</clueLoc> with <clueExperiment>a reverse transcription PCR assay</clueExperiment>.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<sentence id="S8">Basal total <cons sem="(AND Other Other)" id="C1" lex="(AND white_blood_cell_counts granulocyte_counts)"><frag id="F4">white blood cell</frag> and <frag id="F5">granulocyte</frag> <frag id="F6">counts</frag></cons> did not appreciably differ between <term sem="Protein_molecule" id="T32" lex="PML/RARalpha">PML/RARalpha</term> <term sem="Multicellular_organism_genetically_modified" id="T33" lex="transgenic_mouse">transgenic</term> and <term sem="Multicellular_organism_natural" id="T34" lex="control_mouse">control mice</term>.</sentence>
+<event assertion="non-exist" id="E100">
+<type class="Regulation" />
+<theme idref1="F6" idref="F4" />
+<clue>Basal total white blood cell and granulocyte counts did not appreciably <clueType>differ</clueType> between <clueLoc>PML/RARalpha transgenic</clueLoc> and control <clueLoc>mice</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E101">
+<type class="Regulation" />
+<theme idref1="F6" idref="F5" />
+<clue>Basal total white blood cell and granulocyte counts did not appreciably <clueType>differ</clueType> between <clueLoc>PML/RARalpha transgenic</clueLoc> and control <clueLoc>mice</clueLoc>.</clue>
+</event>
+<sentence id="S9">Cell sorter analysis of <term sem="Cell_natural" id="T35" lex="CD11b+_bone_marrow_cell">CD11b+ <term sem="Tissue_natural" id="T36" lex="bone_marrow">bone marrow</term> cells</term> revealed similar <term sem="Cell_natural" id="T37" lex="CD11b+_population">CD11b+ populations</term> in <term sem="Multicellular_organism_genetically_modified" id="T38" lex="transgenic_mouse">transgenic</term> and <term sem="Multicellular_organism_natural" id="T39" lex="control_mouse">control mice</term>.</sentence>
+<sentence id="S10">However, <term sem="Other" id="T40" lex="in_vitro_clonal_growth_assay">in vitro clonal growth assays</term> performed on <term sem="Tissue_natural" id="T41" lex="peripheral_blood">peripheral blood</term> from <term sem="Multicellular_organism_genetically_modified" id="T42" lex="transgenic_mouse">transgenic</term> versus <term sem="Multicellular_organism_natural" id="T43" lex="control_mouse">control mice</term> revealed a marked reduction of <term sem="Cell_natural" id="T44" lex="myeloid_progenitor">myeloid progenitors</term>, especially in those responding to <term sem="Protein_molecule" id="T45" lex="granulocyte/_macrophage_colony-stimulating_factor">granulocyte/ macrophage colony-stimulating factor</term>.</sentence>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="T44" />
+<cause idref="T45" />
+<clue>However, in vitro clonal growth assays performed on peripheral blood from transgenic versus control mice revealed a marked reduction of myeloid progenitors, especially <linkTheme>in</linkTheme> <corefTheme>those</corefTheme> <clueType>responding</clueType> <linkCause>to</linkCause> granulocyte/ macrophage colony-stimulating factor.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<clue>However, <clueExperiment>in vitro clonal growth assays</clueExperiment> performed on <clueLoc>peripheral blood from transgenic</clueLoc> versus control <clueLoc>mice</clueLoc> revealed a marked <clueType>reduction</clueType> <linkTheme>of</linkTheme> myeloid progenitors, especially in those responding to granulocyte/ macrophage colony-stimulating factor.</clue>
+</event>
+<sentence id="S11"><term sem="Protein_molecule" id="T46" lex="granulocyte/macrophage_colony-stimulating_factor">Granulocyte/macrophage colony-stimulating factor</term> and <term sem="Other" id="T47" lex="kit_ligand_cotreatment"><term sem="Protein_molecule" id="A3">kit ligand</term> cotreatment</term> did not overcome this inhibition.</sentence>
+<event id="E18">
+<type class="Artificial_process" />
+<theme idref="T46" />
+<theme idref="A3" />
+<clue>Granulocyte/macrophage colony-stimulating factor and kit ligand <clueType>cotreatment</clueType> did not overcome this inhibition.</clue>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="E18" />
+<clue>Granulocyte/macrophage colony-stimulating factor and kit ligand cotreatment did not <clueType>overcome</clueType> <corefTheme>this inhibition</corefTheme>.</clue>
+</event>
+<sentence id="S12">Impaired <term sem="Other" id="T48" lex="myelopoiesis">myelopoiesis</term> in vivo was shown by stressing these <term sem="Multicellular_organism_natural" id="T49" lex="mouse">mice</term> with sublethal <term sem="Other" id="T50" lex="irradiation">irradiation</term>.</sentence>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="T48" />
+<clue><clueType>Impaired</clueType> myelopoiesis in vivo was shown by stressing these mice with sublethal irradiation.</clue>
+</event>
+<event id="E21">
+<type class="Artificial_process" />
+<theme idref="T49" />
+<theme idref="T27" />
+<clue>Impaired myelopoiesis in vivo was shown by <clueType>stressing</clueType> <corefTheme idref1="T27">these mice</corefTheme> <linkTheme>with</linkTheme> sublethal irradiation.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E21" />
+<clue>Impaired myelopoiesis in vivo was <clueType>shown</clueType> <linkCause>by</linkCause> stressing these mice with sublethal irradiation.</clue>
+</event>
+<sentence id="S13">Following <term sem="Other" id="T51" lex="irradiation">irradiation</term>, <term sem="Protein_molecule" id="T52" lex="PML/RARalpha">PML/RARalpha</term> <term sem="Multicellular_organism_genetically_modified" id="T53" lex="transgenic_mouse">transgenic <term sem="Multicellular_organism_natural" id="T54" lex="mouse">mice</term></term>, as compared with controls, more rapidly depressed <cons sem="(AND Other Other)" id="T55" lex="(AND peripheral_white_blood_cell_count granulocyte_count)"><frag id="F1"><term sem="Cell_natural" id="A4">peripheral white blood cell</term></frag> and <frag id="F2"><term sem="Cell_natural" id="A5">granulocyte</term></frag> <frag id="F3">counts</frag></cons>.</sentence>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="A4" />
+<cause idref="T51" />
+<clue><linkCause>Following</linkCause> irradiation, PML/RARalpha transgenic mice, as compared with <clueLoc>controls</clueLoc>, more rapidly <clueType>depressed</clueType> peripheral white blood cell and granulocyte counts.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="A5" />
+<cause idref="T51" />
+<clue><linkCause>Following</linkCause> irradiation, PML/RARalpha transgenic mice, as compared with <clueLoc>controls</clueLoc>, more rapidly <clueType>depressed</clueType> peripheral white blood cell and granulocyte counts.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="A4" />
+<cause idref="T51" />
+<clue><linkCause>Following</linkCause> irradiation, PML/RARalpha transgenic mice, as compared with controls, more rapidly <clueType>depressed</clueType> peripheral white blood cell and granulocyte counts.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="A5" />
+<cause idref="T51" />
+<clue><linkCause>Following</linkCause> irradiation, PML/RARalpha transgenic mice, as compared with controls, more rapidly <clueType>depressed</clueType> peripheral white blood cell and granulocyte counts.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<clue>Following irradiation, <clueLoc>PML/RARalpha transgenic mice</clueLoc>, as compared with controls, <clueType>more rapidly</clueType> depressed peripheral white blood cell and granulocyte counts.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<clue>Following irradiation, <clueLoc>PML/RARalpha transgenic mice</clueLoc>, as compared with controls, <clueType>more rapidly</clueType> depressed peripheral white blood cell and granulocyte counts.</clue>
+</event>
+<sentence id="S14">As expected, nearly all <term sem="Multicellular_organism_natural" id="T56" lex="control_mouse">control mice</term> (94.4%) survived <term sem="Other" id="T57" lex="irradiation">irradiation</term>, yet this <term sem="Other" id="T58" lex="irradiation">irradiation</term> was lethal to 45.8% of <term sem="Multicellular_organism_natural" id="A20"><term sem="Protein_molecule" id="T59" lex="PML/RARalpha">PML/RARalpha</term> <term sem="Multicellular_organism_genetically_modified" id="T60" lex="transgenic_mouse">transgenic mice</term></term>.</sentence>
+<event id="E50">
+<type class="Cellular_physiological_process" />
+<theme idref="T56" />
+<clue>As expected, nearly all control mice (94.4%) <clueType>survived</clueType> irradiation, yet this irradiation was lethal to 45.8% of PML/RARalpha transgenic mice.</clue>
+</event>
+<event assertion="non-exist" id="E150">
+<type class="Regulation" />
+<theme idref="E50" />
+<cause idref="T57" />
+<clue>As expected, nearly all control mice (94.4%) survived irradiation, yet this irradiation was lethal to 45.8% of PML/RARalpha transgenic mice.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E51">
+<type />
+<theme idref="A20" />
+<clue>As expected, nearly all control mice (94.4%) survived irradiation, yet this irradiation was <clueType>lethal</clueType> to 45.8% of PML/RARalpha transgenic mice.</clue>
+<comment>SOO</comment>
+</event>
+<event id="E151">
+<type class="Positive_regulation" />
+<theme idref="E51" />
+<cause idref="T58" />
+<clue>As expected, nearly all control mice (94.4%) survived irradiation, yet this irradiation was <clueType>lethal</clueType> to 45.8% of PML/RARalpha transgenic mice.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S15"><term sem="Other" id="A6">Lethality</term> was associated with more severe <term sem="Other" id="T61" lex="leukopenia">leukopenia</term> in <term sem="Multicellular_organism_genetically_modified" id="T62" lex="transgenic_mouse">transgenic</term> versus <term sem="Multicellular_organism_natural" id="T63" lex="control_mouse">control mice</term>.</sentence>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T61" />
+<clue>Lethality was associated with <clueType>more severe</clueType> leukopenia <clueLoc>in transgenic</clueLoc> versus control <clueLoc>mice</clueLoc>.</clue>
+</event>
+<event id="E30">
+<type class="Correlation" />
+<theme idref="E29" />
+<theme idref="A6" />
+<clue>Lethality was <clueType>associated</clueType> <linkTheme>with</linkTheme> more severe leukopenia in transgenic versus control mice.</clue>
+</event>
+<sentence id="S16"><term sem="Organic_compound_other" id="T64" lex="retinoic_acid">Retinoic acid</term> treatment of <term sem="Multicellular_organism_genetically_modified" id="A7">irradiated <term sem="Multicellular_organism_genetically_modified" id="T65" lex="PML/RARalpha_mouse"><term sem="Protein_molecule" id="T66" lex="PML/RARalpha">PML/RARalpha</term> mice</term></term> enhanced <term sem="Cell_natural" id="T67" lex="granulocyte">granulocyte</term> recovery.</sentence>
+<event id="E31">
+<type class="Artificial_process" />
+<theme idref="T64" />
+<theme idref="A7" />
+<clue>Retinoic acid <clueType>treatment</clueType> <linkTheme>of</linkTheme> irradiated PML/RARalpha mice enhanced granulocyte recovery.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="T67" />
+<clue>Retinoic acid treatment of irradiated PML/RARalpha mice enhanced granulocyte <clueType>recovery</clueType>.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="E31" />
+<clue>Retinoic acid treatment of irradiated PML/RARalpha mice <clueType>enhanced</clueType> granulocyte recovery.</clue>
+</event>
+<sentence id="S17">These data suggest that <term sem="Other" id="A8">abnormal myelopoiesis</term> due to <term sem="Other" id="T69" lex="PML/RARalpha_expression"><term sem="Protein_molecule" id="T70" lex="PML/RARalpha">PML/RARalpha</term> expression</term> is an early event in <term sem="Other" id="T71" lex="oncogenic_transformation">oncogenic transformation</term>.</sentence>
+<event id="E34">
+<type class="Gene_expression" />
+<theme idref="T70" />
+<clue>These data suggest that abnormal myelopoiesis due to PML/RARalpha <clueType>expression</clueType> is an early event in oncogenic transformation.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<cause idref="E34" />
+<clue>These data suggest that abnormal myelopoiesis <clueType>due</clueType> <linkCause>to</linkCause> PML/RARalpha expression is an early event in oncogenic transformation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/03/05" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9166418" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9166418</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">An <term sem="Other" id="T1" lex="isotype-specific_activator">isotype-specific activator</term> of <term sem="DNA_family_or_group" id="T2" lex="major_histocompatibility_complex_(MHC)_class_II_gene">major histocompatibility complex (MHC) class II genes</term> that is independent of <term sem="Protein_family_or_group" id="T3" lex="class_II_transactivator">class II transactivator</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>An isotype-specific <clueType>activator</clueType> <linkTheme>of</linkTheme> major histocompatibility complex (MHC) class II genes that is independent of class II transactivator.</clue>
+</event>
+<event assertion="non-exist" id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T3" />
+<clue>An isotype-specific activator of major histocompatibility complex (MHC) class II genes that is <clueType>independent</clueType> <linkCause>of</linkCause> class II transactivator.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Multicellular_organism_natural" id="T4" lex="patient">Patients</term> with one type of <term sem="Other" id="T5" lex="major_histocompatibility_complex_class_II_combined_immunodeficiency"><term sem="Protein_complex" id="T6" lex="major_histocompatibility_complex_class_II">major histocompatibility complex class II</term> combined <term sem="Other" id="A1">immunodeficiency</term></term> have mutations in a gene termed <term sem="Protein_family_or_group" id="T7" lex="class_II_transactivator">class II transactivator</term> (<term sem="Protein_molecule" id="T8" lex="CIITA">CIITA</term>), which coordinately controls the transcription of the three major <term sem="DNA_family_or_group" id="T9" lex="human_class_II_gene">human class II genes</term>, <cons sem="(AND DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region)" id="T10" lex="(AND HLA-DR HLA-DQ HLA-DP)"><frag id="F1"><term sem="DNA_domain_or_region" id="A2">HLA</term></frag><frag id="F2"><term sem="DNA_domain_or_region" id="A3">-DR</term></frag>, <frag id="F3"><term sem="DNA_domain_or_region" id="A4">-DQ</term></frag>, and <frag id="F4"><term sem="DNA_domain_or_region" id="A5">-DP</term></frag></cons>.</sentence>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="T6" />
+<theme idref="A1" />
+<clue>Patients with one type of major histocompatibility complex class II <clueType>combined</clueType> immunodeficiency have mutations in a gene termed class II transactivator (CIITA), which coordinately controls the transcription of the three major human class II genes, HLA-DR, -DQ, and -DP.</clue>
+</event>
+<event id="E4">
+<type class="Mutagenesis" />
+<theme idref="T8" />
+<clue><clueLoc>Patients with one type of major histocompatibility complex class II combined immunodeficiency</clueLoc> have <clueType>mutations</clueType> <linkTheme>in</linkTheme> a gene termed class II transactivator (CIITA), which coordinately controls the transcription of the three major human class II genes, HLA-DR, -DQ, and -DP.</clue>
+</event>
+<event id="E5">
+<type class="Transcription" />
+<theme idref1="A3" idref="A2" />
+<clue>Patients with one type of major histocompatibility complex class II combined immunodeficiency have mutations in a gene termed class II transactivator (CIITA), which coordinately controls the <clueType>transcription</clueType> <linkTheme>of</linkTheme> the three major human class II genes, HLA-DR, -DQ, and -DP.</clue>
+</event>
+<event id="E6">
+<type class="Transcription" />
+<theme idref1="A4" idref="A2" />
+<clue>Patients with one type of major histocompatibility complex class II combined immunodeficiency have mutations in a gene termed class II transactivator (CIITA), which coordinately controls the <clueType>transcription</clueType> <linkTheme>of</linkTheme> the three major human class II genes, HLA-DR, -DQ, and -DP.</clue>
+</event>
+<event id="E7">
+<type class="Transcription" />
+<theme idref1="A5" idref="A2" />
+<clue>Patients with one type of major histocompatibility complex class II combined immunodeficiency have mutations in a gene termed class II transactivator (CIITA), which coordinately controls the <clueType>transcription</clueType> <linkTheme>of</linkTheme> the three major human class II genes, HLA-DR, -DQ, and -DP.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="E4" />
+<clue><clueLoc>Patients with one type of major histocompatibility complex class II combined immunodeficiency</clueLoc> have mutations in a gene termed class II transactivator (CIITA), which coordinately <clueType>controls</clueType> the transcription of the three major human class II genes, HLA-DR, -DQ, and -DP.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="E4" />
+<clue><clueLoc>Patients with one type of major histocompatibility complex class II combined immunodeficiency</clueLoc> have mutations in a gene termed class II transactivator (CIITA), which coordinately <clueType>controls</clueType> the transcription of the three major human class II genes, HLA-DR, -DQ, and -DP.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="E4" />
+<clue><clueLoc>Patients with one type of major histocompatibility complex class II combined immunodeficiency</clueLoc> have mutations in a gene termed class II transactivator (CIITA), which coordinately <clueType>controls</clueType> the transcription of the three major human class II genes, HLA-DR, -DQ, and -DP.</clue>
+</event>
+<sentence id="S3">However, the experimentally derived <term sem="Cell_cultured" id="T11" lex="B-lymphoblastoid_cell_line">B-lymphoblastoid cell line</term>, <term sem="Cell_cultured" id="T12" lex="clone_13">clone 13</term>, expresses high levels of <term sem="Protein_molecule" id="T13" lex="HLADQ">HLADQ</term> in the absence of <term sem="DNA_domain_or_region" id="T14" lex="HLA-DR">HLA-DR</term> and <term sem="DNA_domain_or_region" id="T15" lex="HLA-DP">HLA-DP</term>, despite its mapping by complementation analysis to this group.</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>However, the experimentally derived <clueLoc>B-lymphoblastoid cell line, clone 13</clueLoc>, <clueType>expresses</clueType> high levels <linkTheme>of</linkTheme> HLADQ in the absence of HLA-DR and HLA-DP, despite its mapping by complementation analysis to this group.</clue>
+</event>
+<event assertion="non-exist" id="E12">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>However, the experimentally derived <clueLoc>B-lymphoblastoid cell line, clone 13</clueLoc>, expresses high levels of HLADQ in the <clueType>absence</clueType> <linkTheme>of</linkTheme> HLA-DR and HLA-DP, despite its mapping by complementation analysis to this group.</clue>
+</event>
+<event assertion="non-exist" id="E13">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>However, the experimentally derived <clueLoc>B-lymphoblastoid cell line, clone 13</clueLoc>, expresses high levels of HLADQ in the <clueType>absence</clueType> <linkTheme>of</linkTheme> HLA-DR and HLA-DP, despite its mapping by complementation analysis to this group.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<clue>However, the experimentally derived <clueLoc>B-lymphoblastoid cell line, clone 13</clueLoc>, expresses <clueType>high levels</clueType> of HLADQ in the absence of HLA-DR and HLA-DP, despite its mapping by complementation analysis to this group.</clue>
+</event>
+<sentence id="S4">It was possible that one of the <term sem="DNA_domain_or_region" id="T16" lex="clone_13_CIITA_allele"><term sem="Cell_cultured" id="T17" lex="clone_13">clone 13</term> <term sem="Protein_molecule" id="T18" lex="CIITA">CIITA</term> alleles</term> bore a mutation that allowed <term sem="DNA_domain_or_region" id="T19" lex="HLA-DQ">HLA-DQ</term>, but not <cons sem="(OR Other Other)" id="T20" lex="(OR HLA-DR_transcription HLA-DP_transcription)"><frag id="F5"><term sem="DNA_domain_or_region" id="A6">HLA</term></frag><frag id="F6"><term sem="DNA_domain_or_region" id="A7">-DR</term></frag> or <frag id="F7"><term sem="DNA_domain_or_region" id="A8">-DP</term></frag> <frag id="F8">transcription</frag></cons>.</sentence>
+<event uncertainty="probable" id="E15">
+<type class="Transcription" />
+<theme idref="T19" />
+<clue>It was possible that one of the clone 13 CIITA alleles bore a mutation that allowed HLA-DQ, but not HLA-DR or -DP <clueType>transcription</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E16">
+<type class="Transcription" />
+<theme idref1="A7" idref="A6" />
+<clue>It was possible that one of the clone 13 CIITA alleles bore a mutation that allowed HLA-DQ, but not HLA-DR or -DP <clueType>transcription</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E17">
+<type class="Transcription" />
+<theme idref1="A8" idref="A6" />
+<clue>It was possible that one of the clone 13 CIITA alleles bore a mutation that allowed HLA-DQ, but not HLA-DR or -DP <clueType>transcription</clueType>.</clue>
+</event>
+<event id="E32">
+<type class="Mutagenesis" />
+<theme idref="T18" />
+<clue>It was possible that one of the <clueLoc>clone 13</clueLoc> CIITA alleles bore a <clueType>mutation</clueType> that allowed HLA-DQ, but not HLA-DR or -DP transcription.</clue>
+</event>
+<event uncertainty="probable" id="E18">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E32" />
+<clue>It was possible that one of the <clueLoc>clone 13</clueLoc> CIITA alleles bore a mutation that <clueType>allowed</clueType> HLA-DQ, but not HLA-DR or -DP transcription.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E19">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="E32" />
+<clue>It was possible that one of the <clueLoc>clone 13</clueLoc> CIITA alleles bore a mutation that <clueType>allowed</clueType> HLA-DQ, but not HLA-DR or -DP transcription.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E20">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E32" />
+<clue>It was possible that one of the <clueLoc>clone 13</clueLoc> CIITA alleles bore a mutation that <clueType>allowed</clueType> HLA-DQ, but not HLA-DR or -DP transcription.</clue>
+</event>
+<sentence id="S5">Alternatively, <term sem="Protein_molecule" id="A9">another factor</term>, distinct from <term sem="Protein_molecule" id="T21" lex="CIITA">CIITA</term>, might control <term sem="Other" id="T22" lex="HLA-DQ_expression"><term sem="DNA_domain_or_region" id="T23" lex="HLA-DQ">HLA-DQ</term> expression</term>.</sentence>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue>Alternatively, another factor, distinct from CIITA, might control HLA-DQ <clueType>expression</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E22">
+<type class="Regulation" />
+<theme idref="E21" />
+<cause idref="A9" />
+<clue>Alternatively, another factor, distinct from CIITA, might <clueType>control</clueType> HLA-DQ expression.</clue>
+</event>
+<sentence id="S6">We report here that ectopic expression of <term sem="DNA_family_or_group" id="T24" lex="CIITA_cDNA"><term sem="Protein_molecule" id="T25" lex="CIITA">CIITA</term> cDNAs</term> derived by reverse transcriptase polymerase chain reaction from <term sem="Cell_cultured" id="T26" lex="clone_13">clone 13</term> do not restore expression of <term sem="DNA_domain_or_region" id="T27" lex="HLA-DQ">HLA-DQ</term> in another <term sem="Cell_cultured" id="T28" lex="CIITA-deficient_cell_line"><term sem="Protein_molecule" id="T29" lex="CIITA">CIITA</term>-deficient cell line</term>, <term sem="Cell_cultured" id="T30" lex="RJ2.2.5">RJ2.2.5</term>.</sentence>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>We report here that ectopic <clueType>expression</clueType> <linkTheme>of</linkTheme> CIITA cDNAs derived <clueExperiment>by reverse transcriptase polymerase chain reaction</clueExperiment> <clueLoc>from clone 13</clueLoc> do not restore expression of HLA-DQ in another CIITA-deficient cell line, RJ2.2.5.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression" />
+<theme idref="T27" />
+<clue>We report here that ectopic expression of CIITA cDNAs derived by reverse transcriptase polymerase chain reaction from clone 13 do not restore <clueType>expression</clueType> <linkTheme>of</linkTheme> HLA-DQ <clueLoc>in another CIITA-deficient cell line, RJ2.2.5</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E25">
+<type class="Regulation" />
+<theme idref="E24" />
+<cause idref="E23" />
+<clue>We report here that ectopic expression of CIITA cDNAs derived by reverse transcriptase polymerase chain reaction from clone 13 do not <clueType>restore</clueType> expression of HLA-DQ in another CIITA-deficient cell line, RJ2.2.5.</clue>
+</event>
+<sentence id="S7">In addition, no <term sem="Protein_molecule" id="T31" lex="CIITA">CIITA</term> protein is detectable in <term sem="Cell_component" id="T32" lex="clone_13_nuclear_extract"><term sem="Cell_cultured" id="T33" lex="clone_13">clone 13</term> nuclear extracts</term>.</sentence>
+<event assertion="non-exist" id="E26">
+<type class="Gene_expression" />
+<theme idref="T31" />
+<clue>In addition, no CIITA protein is <clueType>detectable</clueType> <clueLoc>in clone 13 nuclear extracts</clueLoc>.</clue>
+</event>
+<sentence id="S8">In contrast, <term sem="Other" id="T34" lex="somatic_cell_fusion">somatic cell fusion</term> between <term sem="Cell_cultured" id="T35" lex="clone_13">clone 13</term> and <term sem="Cell_cultured" id="T36" lex="RJ2.2.5">RJ2.2.5</term> restored expression of the <term sem="DNA_family_or_group" id="T37" lex="HLA-DQ_haplotype"><term sem="DNA_domain_or_region" id="T38" lex="HLA-DQ">HLA-DQ</term> haplotype</term> encoded by the <term sem="DNA_domain_or_region" id="T39" lex="RJ2.2.5_DQB_gene"><term sem="Cell_cultured" id="T40" lex="RJ2.2.5">RJ2.2.5</term> DQB gene</term>.</sentence>
+<event id="E27">
+<type class="Cellular_physiological_process" />
+<theme idref="T36" />
+<theme idref="T35" />
+<clue>In contrast, somatic cell <clueType>fusion</clueType> between clone 13 and RJ2.2.5 restored expression of the HLA-DQ haplotype encoded by the RJ2.2.5 DQB gene.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<clue>In contrast, somatic cell fusion between clone 13 and RJ2.2.5 restored <clueType>expression</clueType> <linkTheme>of</linkTheme> the HLA-DQ haplotype encoded by the RJ2.2.5 DQB gene.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E27" />
+<clue>In contrast, somatic cell fusion between clone 13 and RJ2.2.5 <clueType>restored</clueType> expression of the HLA-DQ haplotype encoded by the RJ2.2.5 DQB gene.</clue>
+</event>
+<sentence id="S9">Taken together, these data demonstrate the existence of an <term sem="Protein_domain_or_region" id="T41" lex="HLA-DQ_isotype-specific_trans-acting_factor"><term sem="DNA_domain_or_region" id="T42" lex="HLA-DQ">HLA-DQ</term> isotype-specific trans-acting factor</term>, which functions independently of <term sem="Protein_molecule" id="T43" lex="CIITA">CIITA</term>.</sentence>
+<event id="E30">
+<type class="Regulation" />
+<cause idref="T41" />
+<clue>Taken together, these data demonstrate the existence of an HLA-DQ isotype-specific trans-acting factor, which <clueType>functions</clueType> independently of CIITA.</clue>
+<comment>NO THEME</comment>
+</event>
+<event assertion="non-exist" id="E31">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="T43" />
+<clue>Taken together, these data demonstrate the existence of an HLA-DQ isotype-specific trans-acting factor, which functions <clueType>independently</clueType> <linkCause>of</linkCause> CIITA.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

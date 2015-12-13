@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="02/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9733846" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9733846</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Molecular and cellular analysis of <term sem="Virus" id="T2" lex="human_immunodeficiency_virus">human immunodeficiency virus</term>-induced <term sem="Other" id="T3" lex="apoptosis">apoptosis</term> in <term sem="Cell_cultured" id="T4" lex="lymphoblastoid_T-cell-line">lymphoblastoid T-cell-line</term>-expressing <cons sem="(AND Protein_molecule Protein_molecule)" id="C1" lex="(AND wild-type_CD4_receptor mutated_CD4_receptor)"><frag id="F1">wild-type</frag> and <frag id="F2">mutated</frag> <frag id="F3">CD4 receptors</frag></cons>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T2" />
+<clue>Molecular and cellular analysis of human immunodeficiency virus-<clueType>induced</clueType> apoptosis in lymphoblastoid T-cell-line-expressing wild-type and mutated CD4 receptors.</clue>
+<comment>NER: T1 del &quot; human immunodeficiency virus-induced apoptosis&quot;</comment>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref1="F3" idref="F1" />
+<clue>Molecular and cellular analysis of human immunodeficiency virus-induced apoptosis in <clueLoc>lymphoblastoid T-cell-line</clueLoc>-<clueType>expressing</clueType> wild-type and mutated CD4 receptors.</clue>
+<comment>NER: T5 del &quot;receptors&quot;; NER: T4 mod as C1</comment>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref1="F3" idref="F2" />
+<clue>Molecular and cellular analysis of human immunodeficiency virus-induced apoptosis in <clueLoc>lymphoblastoid T-cell-line</clueLoc>-<clueType>expressing</clueType> wild-type and mutated CD4 receptors.</clue>
+</event>
+<event id="E5">
+<type class="Cellular_physiological_process" />
+<theme idref="T4" />
+<clue>Molecular and cellular analysis of human immunodeficiency virus-induced <clueType>apoptosis</clueType> <linkTheme>in</linkTheme> lymphoblastoid T-cell-line-expressing wild-type and mutated CD4 receptors.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We have previously shown that the presence of the <term sem="Protein_domain_or_region" id="T6" lex="CD4_cytoplasmic_tail">CD4 cytoplasmic tail</term> is critical for <term sem="Virus" id="T8" lex="human_immunodeficiency_virus">human immunodeficiency virus</term> (<term sem="Virus" id="A6">HIV</term>)-induced <term sem="Other" id="A5">apoptosis</term> (J.Corbeil, M.Tremblay, and D.D.Richman, J.Exp.Med.183:39-48, 1996).</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="A6" />
+<clue>We have previously shown that the presence of the CD4 cytoplasmic tail is critical for human immunodeficiency virus (HIV)-<clueType>induced</clueType> apoptosis (J.Corbeil, M.Tremblay, and D.D.Richman, J.Exp.Med.183:39-48, 1996).</clue>
+<comment>NER: T7 del &quot;human immunodeficiency virus (HIV)-induced apoptosis&quot;</comment>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T6" />
+<clue>We have previously shown that <linkCause>the presence of</linkCause> the CD4 cytoplasmic tail is <clueType>critical</clueType> <linkTheme>for</linkTheme> human immunodeficiency virus (HIV)-induced apoptosis (J.Corbeil, M.Tremblay, and D.D.Richman, J.Exp.Med.183:39-48, 1996).</clue>
+</event>
+<sentence id="S3">We have pursued our investigation of the role of the <term sem="Other" id="T9" lex="CD4_transduction_pathway"><term sem="Protein_molecule" id="T10" lex="CD4">CD4</term> transduction pathway</term> in <term sem="Virus" id="A7">HIV</term>-induced <term sem="Other" id="A8">apoptosis</term>.</sentence>
+<event uncertainty="doubtful" id="E9">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="E54" />
+<clue>We have pursued our investigation of the <clueType>role</clueType> <linkCause>of</linkCause> the CD4 transduction pathway <linkTheme>in</linkTheme> HIV-induced apoptosis.</clue>
+</event>
+<event id="E54">
+<type class="Cell_communication" />
+<theme idref="T10" />
+<clue>We have pursued our investigation of the role of the CD4 <clueType>transduction pathway</clueType> in HIV-induced apoptosis.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<cause idref="A7" />
+<clue>We have pursued our investigation of the role of the CD4 transduction pathway in HIV-<clueType>induced</clueType> apoptosis.</clue>
+<comment>NER: T11 del &quot;HIV-induced apoptosis&quot;</comment>
+</event>
+<sentence id="S4">To do this, <term sem="Protein_domain_or_region" id="A9">wild-type</term> and <term sem="Protein_domain_or_region" id="A10">mutant</term> forms of the <term sem="Protein_domain_or_region" id="T12" lex="CD4_cytoplasmic_tail"><term sem="Protein_molecule" id="T13" lex="CD4">CD4</term> cytoplasmic tail</term> were stably expressed in the <term sem="Cell_cultured" id="T14" lex="lymphoblastoid_T-cell_line">lymphoblastoid T-cell line</term> <term sem="Cell_cultured" id="T15" lex="A2.01">A2.01</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref1="T12" idref="A9" />
+<clue>To do this, wild-type and mutant forms of the CD4 cytoplasmic tail were stably <clueType>expressed</clueType> <clueLoc>in the lymphoblastoid T-cell line A2.01</clueLoc>.</clue>
+</event>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref1="T12" idref="A10" />
+<clue>To do this, wild-type and mutant forms of the CD4 cytoplasmic tail were stably <clueType>expressed</clueType> <clueLoc>in the lymphoblastoid T-cell line A2.01</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term sem="Other" id="T16" lex="apoptosis">Apoptosis</term> was prevented when <term sem="Protein_molecule" id="A25"><term sem="Protein_molecule" id="T17" lex="CD4">CD4</term> truncated at <term sem="Amino_acid_monomer" id="T18" lex="residue_402">residue 402</term></term> was expressed; however, cells expressing mutated receptors that do not associate with <term sem="Protein_molecule" id="T19" lex="p56(lck)">p56(lck)</term> (<term sem="Protein_molecule" id="A1">mutated at the <term sem="Protein_substructure" id="T20" lex="dicysteine_motif">dicysteine motif</term> and truncated at <term sem="Amino_acid_monomer" id="T21" lex="residue_418">residue 418</term></term>) but which conserved proximal domains of the <term sem="Protein_domain_or_region" id="T22" lex="cytoplasmic_tail">cytoplasmic tail</term> underwent <term sem="Other" id="T23" lex="apoptosis">apoptosis</term> like <term sem="Protein_molecule" id="T24" lex="wild-_type_CD4">wild- type <term sem="Protein_molecule" id="T25" lex="CD4">CD4</term></term>.</sentence>
+<event id="E13">
+<type class="Mutagenesis" />
+<theme idref="T17" />
+<theme idref="T18" />
+<clue>Apoptosis was prevented when CD4 <clueType>truncated</clueType> <linkTheme>at</linkTheme> residue 402 was expressed; however, cells expressing mutated receptors that do not associate with p56(lck) (mutated at the dicysteine motif and truncated at residue 418) but which conserved proximal domains of the cytoplasmic tail underwent apoptosis like wild- type CD4.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="A25" />
+<clue>Apoptosis was prevented when CD4 truncated at residue 402 was <clueType>expressed</clueType>; however, cells expressing mutated receptors that do not associate with p56(lck) (mutated at the dicysteine motif and truncated at residue 418) but which conserved proximal domains of the cytoplasmic tail underwent apoptosis like wild- type CD4.</clue>
+<comment>TPS: A25</comment>
+</event>
+<event id="E21">
+<type class="Cellular_physiological_process" />
+<theme idref="T15" />
+<clue><clueType>Apoptosis</clueType> was prevented when CD4 truncated at residue 402 was expressed; however, cells expressing mutated receptors that do not associate with p56(lck) (mutated at the dicysteine motif and truncated at residue 418) but which conserved proximal domains of the cytoplasmic tail underwent apoptosis like wild- type CD4.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="E14" />
+<clue>Apoptosis was <clueType>prevented</clueType> <linkCause>when</linkCause> CD4 truncated at residue 402 was expressed; however, cells expressing mutated receptors that do not associate with p56(lck) (mutated at the dicysteine motif and truncated at residue 418) but which conserved proximal domains of the cytoplasmic tail underwent apoptosis like wild- type CD4.</clue>
+</event>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref1="A1" idref="T17" />
+<clue>Apoptosis was prevented when CD4 truncated at residue 402 was expressed; however, <clueLoc>cells</clueLoc> <clueType>expressing</clueType> mutated receptors that do not associate with p56(lck) (mutated at the dicysteine motif and truncated at residue 418) but which conserved proximal domains of the cytoplasmic tail underwent apoptosis like wild- type CD4.</clue>
+<comment>TPS: A1</comment>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Binding" />
+<theme idref1="A1" idref="T17" />
+<theme idref="T19" />
+<clue>Apoptosis was prevented when CD4 truncated at residue 402 was expressed; however, cells expressing <corefTheme idref1="T17" idref2="A1">mutated receptors</corefTheme> that do not <clueType>associate</clueType> <linkTheme>with</linkTheme> p56(lck) (mutated at the dicysteine motif and truncated at residue 418) but which conserved proximal domains of the cytoplasmic tail underwent apoptosis like wild- type CD4.</clue>
+</event>
+<event id="E22">
+<type class="Mutagenesis" />
+<theme idref="T17" />
+<clue>Apoptosis was prevented when CD4 truncated at residue 402 was expressed; however, cells expressing mutated <corefTheme>receptors</corefTheme> that do not associate with p56(lck) (<clueType>mutated</clueType> at the dicysteine motif and truncated at residue 418) but which conserved proximal domains of the cytoplasmic tail underwent apoptosis like wild- type CD4.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E23">
+<type class="Mutagenesis" />
+<theme idref="T17" />
+<clue>Apoptosis was prevented when CD4 truncated at residue 402 was expressed; however, cells expressing mutated <corefTheme>receptors</corefTheme> that do not associate with p56(lck) (mutated at the dicysteine motif and <clueType>truncated</clueType> at residue 418) but which conserved proximal domains of the cytoplasmic tail underwent apoptosis like wild- type CD4.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event assertion="non-exist" id="E52">
+<type class="DNA_metabolism" />
+<theme idref="T22" />
+<clue>Apoptosis was prevented when CD4 truncated at residue 402 was expressed; however, <clueLoc>cells</clueLoc> expressing mutated <corefTheme>receptors</corefTheme> that do not associate with p56(lck) (mutated at the dicysteine motif and truncated at residue 418) but which <clueType>conserved</clueType> proximal domains of the cytoplasmic tail underwent apoptosis like wild- type CD4.</clue>
+<comment>CAUTION: truncated, not</comment>
+</event>
+<event id="E56">
+<type class="Correlation" />
+<theme idref="E18" />
+<theme idref="E52" />
+<clue>Apoptosis was prevented when CD4 truncated at residue 402 was expressed; however, cells expressing mutated receptors that do not associate with p56(lck) (mutated at the dicysteine motif and truncated at residue 418) <clueType>but</clueType> which conserved proximal domains of the cytoplasmic tail underwent apoptosis like wild- type CD4.</clue>
+</event>
+<event id="E19">
+<type class="Physiological_process" />
+<theme idref="T23" />
+<cause idref="E17" />
+<clue>Apoptosis was prevented when CD4 truncated at residue 402 was expressed; however, cells expressing mutated receptors that do not associate with p56(lck) (mutated at the dicysteine motif and truncated at residue 418) but which conserved proximal domains of the cytoplasmic tail <clueType>underwent</clueType> apoptosis like wild- type CD4.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>Apoptosis was prevented when CD4 truncated at residue 402 was expressed; however, <clueLoc>cells</clueLoc> <clueType>expressing</clueType> mutated receptors that do not associate with p56(lck) (mutated at the dicysteine motif and truncated at residue 418) but which conserved proximal domains of the cytoplasmic tail underwent apoptosis like wild- type CD4.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E26">
+<type class="Physiological_process" />
+<theme idref="T23" />
+<cause idref="E20" />
+<clue>Apoptosis was prevented when CD4 truncated at residue 402 was expressed; however, cells expressing mutated receptors that do not associate with p56(lck) (mutated at the dicysteine motif and truncated at residue 418) but which conserved proximal domains of the cytoplasmic tail <clueType>underwent</clueType> apoptosis like wild- type CD4.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<sentence id="S6">The differences between <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T26" lex="(AND wild-type_receptor mutated_receptor)"><frag id="F5">wild-type</frag> and <frag id="F6">mutated</frag> <frag id="F7">receptors</frag></cons> in the induction of <term sem="Other" id="T27" lex="apoptosis">apoptosis</term> were not related to levels of <term sem="Protein_molecule" id="T28" lex="p56(lck)">p56(lck)</term> or <term sem="Other" id="T29" lex="NF-_kappaB_activation"><term sem="Protein_complex" id="T30" lex="NF-_kappaB">NF- kappaB</term> activation</term>.</sentence>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="T24" />
+<clue>The differences between <corefCause>wild-type</corefCause> and mutated <corefCause>receptors</corefCause> in the <clueType>induction</clueType> <linkTheme>of</linkTheme> apoptosis were not related to levels of p56(lck) or NF- kappaB activation.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="A25" />
+<clue>The differences between wild-type and <corefCause>mutated receptors</corefCause> in the <clueType>induction</clueType> <linkTheme>of</linkTheme> apoptosis were not related to levels of p56(lck) or NF- kappaB activation.</clue>
+</event>
+<event assertion="non-exist" id="E49">
+<type class="Regulation" />
+<theme idref="E24" />
+<cause idref="T28" />
+<clue>The differences between wild-type and mutated receptors in the induction of apoptosis were not <clueType>related</clueType> <linkCause>to</linkCause> levels of p56(lck) or NF- kappaB activation.</clue>
+</event>
+<event assertion="non-exist" id="E50">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="E27" />
+<clue>The differences between wild-type and mutated receptors in the induction of apoptosis were not <clueType>related</clueType> <linkCause>to</linkCause> levels of p56(lck) or NF- kappaB activation.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<clue>The differences between wild-type and mutated receptors in the induction of apoptosis were not related to levels of p56(lck) or NF- kappaB <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S7">Initial signaling through the <term sem="Protein_molecule" id="T31" lex="CD4_receptor"><term sem="Protein_molecule" id="T32" lex="CD4">CD4</term> receptor</term> played a major role in the sensitization of <term sem="Cell_natural" id="T33" lex="HIV-infected_T_cell"><term sem="Virus" id="A11">HIV</term>-infected <term sem="Cell_natural" id="A12">T cells</term></term> to undergo <term sem="Other" id="T34" lex="apoptosis">apoptosis</term>.</sentence>
+<event id="E28">
+<type class="Cell_communication" />
+<theme idref="T31" />
+<clue><clueTime>Initial</clueTime> <clueType>signaling</clueType> <linkTheme>through</linkTheme> the CD4 receptor played a major role in the sensitization of HIV-infected T cells to undergo apoptosis.</clue>
+</event>
+<event id="E29">
+<type class="Regulation" />
+<theme idref="E57" />
+<cause idref="E28" />
+<clue>Initial signaling through the CD4 receptor <clueType>played</clueType> a major <clueType>role</clueType> <linkTheme>in</linkTheme> the sensitization of HIV-infected T cells to undergo apoptosis.</clue>
+</event>
+<event id="E57">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<clue>Initial signaling through the CD4 receptor played a major role in the <clueType>sensitization</clueType> <linkTheme>of</linkTheme> HIV-infected T cells to undergo apoptosis.</clue>
+</event>
+<event id="E30">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A12" />
+<theme idref="A11" />
+<clue>Initial signaling through the CD4 receptor played a major role in the sensitization of HIV-<clueType>infected</clueType> T cells to undergo apoptosis.</clue>
+</event>
+<event id="E31">
+<type class="Cellular_physiological_process" />
+<theme idref="T33" />
+<clue>Initial signaling through the CD4 receptor played a major role in the sensitization of HIV-infected T cells to <clueType>undergo apoptosis</clueType>.</clue>
+</event>
+<sentence id="S8">Incubation of <term sem="Cell_natural" id="T35" lex="HIV-infected_cell"><term sem="Virus" id="A13">HIV</term>-infected cells</term> with <term sem="Protein_molecule" id="T36" lex="monoclonal_antibody_(MAb)_13B8-2">monoclonal antibody (MAb) <term sem="Protein_molecule" id="A15">13B8-2</term></term>, which binds to <term sem="Protein_domain_or_region" id="A24"><term sem="Protein_molecule" id="T37" lex="CD4">CD4</term> in a region critical for dimerization of the receptor</term>, prevented <term sem="Other" id="T38" lex="apoptosis">apoptosis</term> without inhibiting <term sem="Other" id="T39" lex="HIV_replication"><term sem="Virus" id="A16">HIV</term> replication</term>.</sentence>
+<event id="E37">
+<type class="Artificial_process" />
+<theme idref="E32" />
+<theme idref="A15" />
+<clue><clueType>Incubation</clueType> <linkTheme>of</linkTheme> HIV-infected cells <linkTheme>with</linkTheme> monoclonal antibody (MAb) 13B8-2, which binds to CD4 in a region critical for dimerization of the receptor, prevented apoptosis without inhibiting HIV replication.</clue>
+</event>
+<event id="E32">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A12" />
+<theme idref="A13" />
+<clue>Incubation of HIV-<clueType>infected</clueType> <corefTheme>cells</corefTheme> with monoclonal antibody (MAb) 13B8-2, which binds to CD4 in a region critical for dimerization of the receptor, prevented apoptosis without inhibiting HIV replication.</clue>
+</event>
+<event id="E33">
+<type class="Binding" />
+<theme idref="A15" />
+<theme idref="A24" />
+<clue>Incubation of HIV-infected cells with monoclonal antibody (MAb) 13B8-2, which <clueType>binds</clueType> <linkTheme>to</linkTheme> CD4 in a region critical for dimerization of the receptor, prevented apoptosis without inhibiting HIV replication.</clue>
+<comment>TPS: A24</comment>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="E37" />
+<clue>Incubation of HIV-infected cells with monoclonal antibody (MAb) 13B8-2, which binds to CD4 in a region critical for dimerization of the receptor, <clueType>prevented</clueType> apoptosis without inhibiting HIV replication.</clue>
+</event>
+<event id="E16">
+<type class="Cellular_physiological_process" />
+<theme idref="T35" />
+<clue>Incubation of HIV-infected cells with monoclonal antibody (MAb) 13B8-2, which binds to CD4 in a region critical for dimerization of the receptor, prevented <clueType>apoptosis</clueType> without inhibiting HIV replication.</clue>
+</event>
+<event id="E35">
+<type class="Viral_life_cycle" />
+<theme idref="A16" />
+<clue>Incubation of HIV-infected cells with monoclonal antibody (MAb) 13B8-2, which binds to CD4 in a region critical for dimerization of the receptor, prevented apoptosis without inhibiting HIV <clueType>replication</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E36">
+<type class="Negative_regulation" />
+<theme idref="E35" />
+<cause idref="E37" />
+<clue>Incubation of HIV-infected cells with monoclonal antibody (MAb) 13B8-2, which binds to CD4 in a region critical for dimerization of the receptor, prevented apoptosis without <clueType>inhibiting</clueType> HIV replication.</clue>
+</event>
+<sentence id="S9">Moreover, the <term sem="Other" id="A17">apoptotic process</term> was not related to <term sem="Other" id="T40" lex="Fas-Fas_ligand_interaction"><term sem="Protein_molecule" id="T41" lex="Fas">Fas</term><term sem="Protein_molecule" id="T42" lex="Fas_ligand">-Fas ligand</term> interaction</term>; however, an antagonistic anti-Fas MAb (<term sem="Protein_molecule" id="A18">ZB-4</term>) enhanced <term sem="Other" id="T43" lex="apoptosis">apoptosis</term> in <term sem="Cell_natural" id="T44" lex="HIV-infected_cell"><term sem="Virus" id="A19">HIV</term>-infected <term sem="Cell_natural" id="A20">cells</term></term> without inducing <term sem="Other" id="T45" lex="apoptosis">apoptosis</term> in <term sem="Cell_natural" id="T46" lex="uninfected_cell">uninfected <term sem="Cell_natural" id="A21">cells</term></term>.</sentence>
+<event assertion="non-exist" id="E38">
+<type class="Regulation" />
+<theme idref="A17" />
+<cause idref="E39" />
+<clue>Moreover, the apoptotic process was not <clueType>related</clueType> <linkCause>to</linkCause> Fas-Fas ligand interaction; however, an antagonistic anti-Fas MAb (ZB-4) enhanced apoptosis in HIV-infected cells without inducing apoptosis in uninfected cells.</clue>
+</event>
+<event id="E39">
+<type class="Binding" />
+<theme idref="T41" />
+<theme idref="T42" />
+<clue>Moreover, the apoptotic process was not related to Fas-Fas ligand <clueType>interaction</clueType>; however, an antagonistic anti-Fas MAb (ZB-4) enhanced apoptosis in HIV-infected cells without inducing apoptosis in uninfected cells.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="A18" />
+<clue>Moreover, the apoptotic process was not related to Fas-Fas ligand interaction; however, an antagonistic anti-Fas MAb (ZB-4) <clueType>enhanced</clueType> apoptosis in HIV-infected cells without inducing apoptosis in uninfected cells.</clue>
+</event>
+<event id="E25">
+<type class="Cellular_physiological_process" />
+<theme idref="T44" />
+<clue>Moreover, the apoptotic process was not related to Fas-Fas ligand interaction; however, an antagonistic anti-Fas MAb (ZB-4) enhanced <clueType>apoptosis</clueType> <linkTheme>in</linkTheme> HIV-infected cells without inducing apoptosis in uninfected cells.</clue>
+</event>
+<event id="E41">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A20" />
+<theme idref="A19" />
+<clue>Moreover, the apoptotic process was not related to Fas-Fas ligand interaction; however, an antagonistic anti-Fas MAb (ZB-4) enhanced apoptosis in HIV-<clueType>infected</clueType> cells without inducing apoptosis in uninfected cells.</clue>
+</event>
+<event assertion="non-exist" id="E42">
+<type class="Positive_regulation" />
+<theme idref="E53" />
+<cause idref="A18" />
+<clue>Moreover, the apoptotic process was not related to Fas-Fas ligand interaction; however, an antagonistic anti-Fas MAb (ZB-4) enhanced apoptosis in HIV-infected cells without <clueType>inducing</clueType> apoptosis <clueLoc>in uninfected cells</clueLoc>.</clue>
+</event>
+<event id="E53">
+<type class="Cellular_physiological_process" />
+<theme idref="T46" />
+<clue>Moreover, the apoptotic process was not related to Fas-Fas ligand interaction; however, an antagonistic anti-Fas MAb (ZB-4) enhanced apoptosis in HIV-infected cells without inducing <clueType>apoptosis</clueType> <linkTheme>in</linkTheme> uninfected cells.</clue>
+</event>
+<event assertion="non-exist" id="E43">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A21" />
+<theme idref="A19" />
+<clue>Moreover, the apoptotic process was not related to Fas-Fas ligand interaction; however, an antagonistic anti-Fas MAb (ZB-4) enhanced apoptosis in HIV-infected cells without inducing apoptosis in <clueType>uninfected</clueType> cells.</clue>
+</event>
+<sentence id="S10">These observations demonstrate that <term sem="Other" id="T47" lex="CD4_signaling"><term sem="Protein_molecule" id="T48" lex="CD4">CD4</term> signaling</term> mediates <term sem="Virus" id="A22">HIV</term>-induced <term sem="Other" id="A23">apoptosis</term> by a mechanism independent of <term sem="Other" id="T50" lex="Fas-Fas_ligand_interaction"><term sem="Protein_molecule" id="T51" lex="Fas">Fas</term><term sem="Protein_molecule" id="T52" lex="Fas_ligand">-Fas ligand</term> interaction</term>, does not require <term sem="Other" id="T53" lex="p56(lck)_signaling"><term sem="Protein_molecule" id="T54" lex="p56(lck)">p56(lck)</term> signaling</term>, and may involve a <term sem="Protein_domain_or_region" id="A26">critical region for <term sem="Other" id="T55" lex="CD4_dimerization"><term sem="Protein_molecule" id="T56" lex="CD4">CD4</term> dimerization</term>.</term></sentence>
+<event id="E58">
+<type class="Cell_communication" />
+<theme idref="T48" />
+<clue>These observations demonstrate that CD4 <clueType>signaling</clueType> mediates HIV-induced apoptosis by a mechanism independent of Fas-Fas ligand interaction, does not require p56(lck) signaling, and may involve a critical region for CD4 dimerization.</clue>
+</event>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="E58" />
+<clue>These observations demonstrate that CD4 signaling <clueType>mediates</clueType> HIV-induced apoptosis by a mechanism independent of Fas-Fas ligand interaction, does not require p56(lck) signaling, and may involve a critical region for CD4 dimerization.</clue>
+</event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="A23" />
+<cause idref="A22" />
+<clue>These observations demonstrate that CD4 signaling mediates HIV-<clueType>induced</clueType> apoptosis by a mechanism independent of Fas-Fas ligand interaction, does not require p56(lck) signaling, and may involve a critical region for CD4 dimerization.</clue>
+<comment>NER: T49 del &quot;HIV-induced apoptosis&quot;</comment>
+</event>
+<event assertion="non-exist" id="E46">
+<type class="Correlation" />
+<theme idref="E44" />
+<theme idref="E47" />
+<clue>These observations demonstrate that CD4 signaling mediates HIV-induced apoptosis by a mechanism <clueType>independent</clueType> <linkTheme>of</linkTheme> Fas-Fas ligand interaction, does not require p56(lck) signaling, and may involve a critical region for CD4 dimerization.</clue>
+</event>
+<event id="E47">
+<type class="Binding" />
+<theme idref="T51" />
+<theme idref="T52" />
+<clue>These observations demonstrate that CD4 signaling mediates HIV-induced apoptosis by a mechanism independent of Fas-Fas ligand <clueType>interaction</clueType>, does not require p56(lck) signaling, and may involve a critical region for CD4 dimerization.</clue>
+</event>
+<event assertion="non-exist" id="E48">
+<type class="Regulation" />
+<theme idref="E44" />
+<cause idref="T53" />
+<clue>These observations demonstrate that CD4 signaling mediates HIV-induced apoptosis by a mechanism independent of Fas-Fas ligand interaction, does not <clueType>require</clueType> p56(lck) signaling, and may involve a critical region for CD4 dimerization.</clue>
+</event>
+<event uncertainty="probable" id="E55">
+<type class="Regulation" />
+<theme idref="E44" />
+<cause idref="A26" />
+<clue>These observations demonstrate that CD4 signaling mediates HIV-induced apoptosis by a mechanism independent of Fas-Fas ligand interaction, does not require p56(lck) signaling, and may <clueType>involve</clueType> a critical region for CD4 dimerization.</clue>
+</event>
+<event id="E51">
+<type class="Binding" />
+<theme idref="T56" />
+<clue>These observations demonstrate that CD4 signaling mediates HIV-induced apoptosis by a mechanism independent of Fas-Fas ligand interaction, does not require p56(lck) signaling, and may involve a critical region for CD4 <clueType>dimerization</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

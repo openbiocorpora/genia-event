@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="25/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9878608" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9878608</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Reactivation of <term sem="Other" id="T1" lex="Kaposi&apos;s_sarcoma-associated_herpesvirus_infection"><term sem="Virus" id="A6"><term sem="Other" id="T2" lex="Kaposi&apos;s_sarcoma">Kaposi&apos;s sarcoma</term>-associated <term sem="Virus" id="T3" lex="herpesvirus">herpesvirus</term></term> infection</term> from <term sem="Other" id="A1">latency</term> by expression of the <term sem="Protein_molecule" id="T5" lex="ORF_50_transactivator">ORF 50 transactivator</term>, a homolog of the <term sem="Protein_molecule" id="T6" lex="EBV_R_protein">EBV R protein</term>.</sentence>
+<event id="E1">
+<type class="Viral_life_cycle" />
+<theme idref="E2" />
+<clue><clueType>Reactivation</clueType> <linkTheme>of</linkTheme> Kaposi&apos;s sarcoma-associated herpesvirus infection from latency by expression of the ORF 50 transactivator, a homolog of the EBV R protein.</clue>
+</event>
+<event id="E2">
+<type class="Viral_life_cycle" />
+<theme idref="A6" />
+<clue>Reactivation of Kaposi&apos;s sarcoma-associated herpesvirus <clueType>infection</clueType> from <clueType>latency</clueType> by expression of the ORF 50 transactivator, a homolog of the EBV R protein.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="E3" />
+<clue>Reactivation of Kaposi&apos;s sarcoma-associated herpesvirus infection from latency <linkCause>by</linkCause> expression of the ORF 50 transactivator, a homolog of the EBV R protein.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>Reactivation of Kaposi&apos;s sarcoma-associated herpesvirus infection from latency by <clueType>expression</clueType> <linkTheme>of</linkTheme> the ORF 50 transactivator, a <corefTheme>homolog of the EBV R protein</corefTheme>.</clue>
+<comment>NER: T4 del &quot;latency by expression&quot;</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Virus" id="T7" lex="Kaposi&apos;s_sarcoma_(KS)-associated_herpesvirus"><term sem="Other" id="T8" lex="Kaposi&apos;s_sarcoma">Kaposi&apos;s sarcoma</term> (KS)-associated herpesvirus</term> (<term sem="Virus" id="T9" lex="KSHV">KSHV</term>), or <term sem="Virus" id="T10" lex="human_herpesvirus_8">human herpesvirus 8</term>, is a <term sem="Virus" id="T11" lex="lymphotropic_virus">lymphotropic virus</term> strongly linked to several <term sem="Other" id="T12" lex="AIDS-related_neoplasm">AIDS-related neoplasms</term>.</sentence>
+<event id="E4">
+<type class="Correlation" />
+<theme idref="T9" />
+<theme idref="T12" />
+<clue>Kaposi&apos;s sarcoma (KS)-associated herpesvirus (KSHV), or human herpesvirus 8, is a lymphotropic virus strongly <clueType>linked</clueType> <linkTheme>to</linkTheme> several AIDS-related neoplasms.</clue>
+</event>
+<sentence id="S3">The primary reservoir of infection consists of latently infected <term sem="Cell_natural" id="T13" lex="B_lymphocyte">B lymphocytes</term> and possibly other <term sem="Cell_natural" id="T14" lex="mononuclear_cell">mononuclear cells</term>.</sentence>
+<event id="E5">
+<type class="Viral_life_cycle" />
+<theme idref="T13" />
+<clue>The primary reservoir of infection consists of <clueType>latently infected</clueType> B lymphocytes and possibly other mononuclear cells.</clue>
+</event>
+<event id="E6">
+<type class="Viral_life_cycle" />
+<theme idref="T14" />
+<clue>The primary reservoir of infection consists of <clueType>latently infected</clueType> B lymphocytes and possibly other mononuclear cells.</clue>
+</event>
+<sentence id="S4"><term sem="Virus" id="A2">Viral</term> reactivation from latency and spread from this <term sem="Body_region" id="T15" lex="lymphoid_reservoir">lymphoid reservoir</term> is presumably required for development of <term sem="Tissue_natural" id="T16" lex="nonlymphoid_tumor">nonlymphoid tumors</term> like <term sem="Other" id="T17" lex="KS">KS</term>.</sentence>
+<event id="E7">
+<type class="Viral_life_cycle" />
+<theme idref="A2" />
+<clue>Viral <clueType>reactivation from latency</clueType> and spread <clueLoc>from this lymphoid reservoir</clueLoc> is presumably required for development of nonlymphoid tumors like KS.</clue>
+</event>
+<event id="E8">
+<type class="Localization" />
+<theme idref="A2" />
+<clue>Viral reactivation from latency and <clueType>spread</clueType> <clueLoc>from this lymphoid reservoir</clueLoc> is presumably required for development of nonlymphoid tumors like KS.</clue>
+</event>
+<event uncertainty="probable" id="E9">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="E7" />
+<clue>Viral reactivation from latency and spread from this lymphoid reservoir is presumably <clueType>required</clueType> <linkTheme>for</linkTheme> development of nonlymphoid tumors like KS.</clue>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="E8" />
+<clue>Viral reactivation from latency and spread from this lymphoid reservoir is presumably <clueType>required</clueType> <linkTheme>for</linkTheme> development of nonlymphoid tumors like KS.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<clue>Viral reactivation from latency and spread from this lymphoid reservoir is presumably required for <clueType>development</clueType> <linkTheme>of</linkTheme> <corefTheme>nonlymphoid tumors</corefTheme> like KS.</clue>
+</event>
+<sentence id="S5">Here we show that deregulated expression of a single <term sem="DNA_family_or_group" id="T18" lex="viral_gene">viral gene</term>, <term sem="DNA_domain_or_region" id="T19" lex="ORF_50">ORF 50</term>, which encodes a <term sem="Protein_molecule" id="A3">transactivator</term> able to selectively upregulate <term sem="DNA_family_or_group" id="T20" lex="delayed-early_viral_gene">delayed-early viral genes</term>, suffices to disrupt <term sem="Other" id="A4">latency</term> and induce the <term sem="Other" id="T21" lex="lytic_gene_cascade">lytic gene cascade</term> in <term sem="Cell_natural" id="T22" lex="latently_infected_B_cell">latently infected <term sem="Cell_natural" id="A5">B cells</term></term>.</sentence>
+<event assertion="non-exist" id="E17">
+<type class="Regulation" />
+<theme idref="E12" />
+<clue>Here we show that <clueType>deregulated</clueType> expression of a single viral gene, ORF 50, which encodes a transactivator able to selectively upregulate delayed-early viral genes, suffices to disrupt latency and induce the lytic gene cascade in latently infected B cells.</clue>
+</event>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>Here we show that deregulated <clueType>expression</clueType> <linkTheme>of</linkTheme> a single viral gene, ORF 50, which encodes a transactivator able to selectively upregulate delayed-early viral genes, suffices to disrupt latency and induce the lytic gene cascade in latently infected B cells.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<cause idref="A3" />
+<clue>Here we show that deregulated expression of a single viral gene, ORF 50, which encodes a transactivator able to selectively <clueType>upregulate</clueType> delayed-early viral genes, suffices to disrupt latency and induce the lytic gene cascade in latently infected B cells.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="A4" />
+<cause idref="E12" />
+<clue>Here we show that deregulated expression of a single viral gene, ORF 50, which encodes a transactivator able to selectively upregulate delayed-early viral genes, suffices to <clueType>disrupt</clueType> latency and induce the lytic gene cascade in latently infected B cells.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<cause idref="E12" />
+<clue>Here we show that deregulated expression of a single viral gene, ORF 50, which encodes a transactivator able to selectively upregulate delayed-early viral genes, suffices to disrupt latency and <clueType>induce</clueType> the lytic gene cascade <clueLoc>in latently infected B cells</clueLoc>.</clue>
+</event>
+<event id="E16">
+<type class="Viral_life_cycle" />
+<theme idref="A5" />
+<clue>Here we show that deregulated expression of a single viral gene, ORF 50, which encodes a transactivator able to selectively upregulate delayed-early viral genes, suffices to disrupt latency and induce the lytic gene cascade in <clueType>latently infected</clueType> B cells.</clue>
+</event>
+<sentence id="S6">The identification of this gene opens the way to studies of the <term sem="Other" id="T23" lex="physiologic_mechanism">physiologic mechanisms</term> controlling reactvation of <term sem="Virus" id="T24" lex="KSHV">KSHV</term> from latency.</sentence>
+<event uncertainty="doubtful" id="E19">
+<type class="Regulation" />
+<theme idref="E18" />
+<cause idref="T23" />
+<clue>The identification of this gene opens the way to studies of the physiologic mechanisms <clueType>controlling</clueType> reactvation of KSHV from latency.</clue>
+</event>
+<event id="E18">
+<type class="Viral_life_cycle" />
+<theme idref="T24" />
+<clue>The identification of this gene opens the way to studies of the physiologic mechanisms controlling <clueType>reactvation</clueType> <linkTheme>of</linkTheme> KSHV <clueType>from latency</clueType>.</clue>
+</event>
+<sentence id="S7">Copyright 1998 Academic Press.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

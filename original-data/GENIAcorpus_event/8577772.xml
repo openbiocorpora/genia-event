@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/05/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8577772"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8577772</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">In vivo <term sem="Cell_cultured" id="T1" lex="anergized_CD4+_T_cell">anergized CD4+ <term sem="Cell_natural" id="T2" lex="T_cell">T cells</term></term> express perturbed <term sem="Protein_complex" id="A1">AP-1</term> and <term sem="Protein_complex" id="T3" lex="NF-kappa_B">NF-kappa B</term> <term sem="Protein_family_or_group" id="T4" lex="transcription_factor">transcription factors</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue><clueLoc>In vivo anergized CD4+ T cells</clueLoc> <clueType>express</clueType> perturbed AP-1 and NF-kappa B transcription factors.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue><clueLoc>In vivo anergized CD4+ T cells</clueLoc> <clueType>express</clueType> perturbed AP-1 and NF-kappa B transcription factors.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Anergy is a major mechanism to ensure <term sem="Other" id="T5" lex="antigen-specific_tolerance">antigen-specific tolerance</term> in <term sem="Cell_natural" id="T6" lex="T_lymphocyte">T lymphocytes</term> in the adult.</sentence>
+<sentence id="S3">In vivo, anergy has mainly been studied at the cellular level.</sentence>
+<sentence id="S4">In this study, we used the <term sem="Protein_molecule" id="T7" lex="T-cell-activating_superantigen"><term sem="Cell_natural" id="A21">T-cell</term>-activating superantigen</term> <term sem="Protein_molecule" id="T8" lex="staphylococcal_enterotoxin_A">staphylococcal enterotoxin A</term> (<term sem="Protein_molecule" id="T9" lex="SEA">SEA</term>) to investigate molecular mechanisms of <term sem="Other" id="T10" lex="T-lymphocyte_anergy">T-lymphocyte anergy</term> in vivo.</sentence>
+<event id="E61">
+<type class="Physiological_process" />
+<theme idref="A21" />
+<cause idref="T9" />
+<clue>In this study, we used the T-cell-<clueType>activating</clueType> <corefCause>superantigen</corefCause> staphylococcal enterotoxin A (SEA) to investigate molecular mechanisms of T-lymphocyte anergy in vivo.</clue>
+</event>
+<sentence id="S5">Injection of <term sem="Protein_molecule" id="T11" lex="SEA">SEA</term> to <term sem="Multicellular_organism_natural" id="A22">adult mice</term> activates <term sem="Cell_natural" id="A2"><term sem="Cell_natural" id="T12" lex="CD4+_T_cell">CD4+ <term sem="Cell_natural" id="T13" lex="T_cell">T cells</term></term> expressing certain <term sem="Protein_family_or_group" id="T14" lex="T-cell_receptor_(TCR)_variable_region_beta-chain_families">T-cell receptor (TCR) variable region beta-chain families</term></term> and induces strong and rapid production of interleukin 2 (<term sem="Protein_molecule" id="T15" lex="IL-2">IL-2</term>).</sentence>
+<event id="E3">
+<type class="Artificial_process" />
+<theme idref="T11" />
+<theme idref="A22" />
+<clue><clueType>Injection</clueType> <linkTheme>of</linkTheme> SEA <linkTheme>to</linkTheme> adult mice activates CD4+ T cells expressing certain T-cell receptor (TCR) variable region beta-chain families and induces strong and rapid production of interleukin 2 (IL-2).</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>Injection of SEA to adult mice activates <clueLoc>CD4+ T cells</clueLoc> <clueType>expressing</clueType> certain T-cell receptor (TCR) variable region beta-chain families and induces strong and rapid production of interleukin 2 (IL-2).</clue>
+</event>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<cause idref="E3" />
+<clue>Injection of SEA to adult mice <clueType>activates</clueType> CD4+ T cells expressing certain T-cell receptor (TCR) variable region beta-chain families and induces strong and rapid production of interleukin 2 (IL-2).</clue>
+<comment>TPS: A2</comment></event>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>Injection of SEA to adult mice activates CD4+ T cells expressing certain T-cell receptor (TCR) variable region beta-chain families and induces strong and rapid <clueType>production</clueType> <linkTheme>of</linkTheme> interleukin 2 (IL-2).</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="E3" />
+<clue>Injection of SEA to adult mice activates CD4+ T cells expressing certain T-cell receptor (TCR) variable region beta-chain families and <clueType>induces</clueType> strong and rapid production of interleukin 2 (IL-2).</clue>
+</event>
+<sentence id="S6">In contrast, repeated injections of <term sem="Protein_molecule" id="T16" lex="SEA">SEA</term> cause <term sem="Other" id="T17" lex="CD4+_T-cell_deletion"><term sem="Cell_natural" id="T18" lex="CD4+_T-cell">CD4+ T-cell</term> deletion</term> and <term sem="Other" id="A3">anergy</term> in the remaining <term sem="Cell_natural" id="T19" lex="CD4+_T_cells">CD4+ T cells</term>, characterized by reduced expression of <term sem="Protein_molecule" id="T20" lex="IL-2">IL-2</term> at <term sem="RNA_molecule" id="A4">mRNA</term> and <term sem="Protein_molecule" id="A5">protein</term> levels.</sentence>
+<event id="E8">
+<type class="Artificial_process" />
+<theme idref="T16" />
+<clue>In contrast, <clueType>repeated injections</clueType> <linkTheme>of</linkTheme> SEA cause CD4+ T-cell deletion and anergy in the remaining CD4+ T cells, characterized by reduced expression of IL-2 at mRNA and protein levels.</clue>
+</event>
+<event id="E109">
+<type class="Cellular_physiological_process" />
+<theme idref="T18" />
+<clue>In contrast, repeated injections of SEA cause CD4+ T-cell <clueType>deletion</clueType> and anergy in the remaining CD4+ T cells, characterized by reduced expression of IL-2 at mRNA and protein levels.</clue>
+</event>
+<event id="E110">
+<type class="Positive_regulation" />
+<theme idref="E109" />
+<cause idref="E8" />
+<clue>In contrast, repeated injections of SEA <clueType>cause</clueType> CD4+ T-cell deletion and anergy in the remaining CD4+ T cells, characterized by reduced expression of IL-2 at mRNA and protein levels.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="E8" />
+<clue>In contrast, repeated injections of SEA <clueType>cause</clueType> CD4+ T-cell deletion and anergy <clueLoc>in the remaining CD4+ T cells</clueLoc>, characterized by reduced expression of IL-2 at mRNA and protein levels.</clue>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<theme idref1="A4" idref="T20" />
+<clue>In contrast, repeated injections of SEA cause CD4+ T-cell deletion and anergy in the remaining CD4+ T cells, characterized by reduced <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-2 at mRNA and protein levels.</clue>
+<comment>NER: T21 DEL</comment></event>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref1="A5" idref="T20" />
+<clue>In contrast, repeated injections of SEA cause CD4+ T-cell deletion and anergy in the remaining CD4+ T cells, characterized by reduced <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-2 at mRNA and protein levels.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="E8" />
+<clue>In contrast, repeated injections of SEA cause CD4+ T-cell deletion and anergy <clueLoc>in the remaining CD4+ T cells</clueLoc>, characterized by <clueType>reduced</clueType> expression of IL-2 at mRNA and protein levels.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="E8" />
+<clue>In contrast, repeated injections of SEA cause CD4+ T-cell deletion and anergy <clueLoc>in the remaining CD4+ T cells</clueLoc>, characterized by <clueType>reduced</clueType> expression of IL-2 at mRNA and protein levels.</clue>
+</event>
+<sentence id="S7">We analyzed expression of <term sem="Protein_molecule" id="T22" lex="AP-1">AP-1</term>, <term sem="Protein_complex" id="T23" lex="NF-kappa_B">NF-kappa B</term>, <term sem="Protein_family_or_group" id="T24" lex="NF-AT">NF-AT</term>, and <term sem="Protein_family_or_group" id="T25" lex="octamer_binding_transcription_factor">octamer binding <term sem="Protein_family_or_group" id="T26" lex="transcription_factor">transcription factors</term></term>, which are known to be involved in the regulation of <term sem="Other" id="T27" lex="IL-2_gene_promoter_activity"><term sem="Protein_molecule" id="T28" lex="IL-2">IL-2</term> gene promoter activity</term>.</sentence>
+<event uncertainty="doubtful" id="E15">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>We analyzed <clueType>expression</clueType> <linkTheme>of</linkTheme> AP-1, NF-kappa B, NF-AT, and octamer binding transcription factors, which are known to be involved in the regulation of IL-2 gene promoter activity.</clue>
+</event>
+<event uncertainty="doubtful" id="E16">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue>We analyzed <clueType>expression</clueType> <linkTheme>of</linkTheme> AP-1, NF-kappa B, NF-AT, and octamer binding transcription factors, which are known to be involved in the regulation of IL-2 gene promoter activity.</clue>
+</event>
+<event uncertainty="doubtful" id="E17">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>We analyzed <clueType>expression</clueType> <linkTheme>of</linkTheme> AP-1, NF-kappa B, NF-AT, and octamer binding transcription factors, which are known to be involved in the regulation of IL-2 gene promoter activity.</clue>
+</event>
+<event uncertainty="doubtful" id="E18">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue>We analyzed <clueType>expression</clueType> <linkTheme>of</linkTheme> AP-1, NF-kappa B, NF-AT, and octamer binding transcription factors, which are known to be involved in the regulation of IL-2 gene promoter activity.</clue>
+</event>
+<event id="E19">
+<type class="Regulation" />
+<theme idref="T27" />
+<clue>We analyzed expression of AP-1, NF-kappa B, NF-AT, and octamer binding transcription factors, which are known to be involved in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> IL-2 gene promoter activity.</clue>
+</event>
+<event id="E20">
+<type class="Correlation" />
+<theme idref="E19" />
+<theme idref="E15" />
+<clue>We analyzed expression of AP-1, NF-kappa B, NF-AT, and octamer binding transcription factors, which are known to be <clueType>involved</clueType> <linkTheme>in</linkTheme> the regulation of IL-2 gene promoter activity.</clue>
+</event>
+<event id="E21">
+<type class="Correlation" />
+<theme idref="E19" />
+<theme idref="E16" />
+<clue>We analyzed expression of AP-1, NF-kappa B, NF-AT, and octamer binding transcription factors, which are known to be <clueType>involved</clueType> <linkTheme>in</linkTheme> the regulation of IL-2 gene promoter activity.</clue>
+</event>
+<event id="E22">
+<type class="Correlation" />
+<theme idref="E19" />
+<theme idref="E17" />
+<clue>We analyzed expression of AP-1, NF-kappa B, NF-AT, and octamer binding transcription factors, which are known to be <clueType>involved</clueType> <linkTheme>in</linkTheme> the regulation of IL-2 gene promoter activity.</clue>
+</event>
+<event id="E23">
+<type class="Correlation" />
+<theme idref="E19" />
+<theme idref="E18" />
+<clue>We analyzed expression of AP-1, NF-kappa B, NF-AT, and octamer binding transcription factors, which are known to be <clueType>involved</clueType> <linkTheme>in</linkTheme> the regulation of IL-2 gene promoter activity.</clue>
+</event>
+<sentence id="S8">Large amounts of <term sem="Protein_molecule" id="T29" lex="AP-1">AP-1</term> and <term sem="Protein_molecule" id="T30" lex="NF-kappa_B">NF-kappa B</term> and significant quantities of <term sem="Protein_family_or_group" id="T31" lex="NF-AT">NF-AT</term> were induced in <term sem="Cell_cultured" id="T32" lex="SEA-activated_CD4+_spleen_T_cell"><term sem="Protein_molecule" id="T33" lex="SEA">SEA</term>-activated <term sem="Cell_natural" id="A6">CD4+ spleen T cells</term></term>, whereas <term sem="Protein_molecule" id="A7">Oct-1</term> and <term sem="Protein_molecule" id="A8">Oct-2</term> <term sem="DNA_molecule" id="A9">DNA</term> binding activity was similar in both resting and <term sem="Cell_natural" id="T35" lex="activated_T_cell">activated T cells</term>.</sentence>
+<event id="E24">
+<type class="Physiological_process" />
+<theme idref="A6" />
+<cause idref="T33" />
+<clue>Large amounts of AP-1 and NF-kappa B and significant quantities of NF-AT were induced in SEA-<clueType>activated</clueType> CD4+ spleen T cells, whereas Oct-1 and Oct-2 DNA binding activity was similar in both resting and activated T cells.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<clue>Large amounts of AP-1 and NF-kappa B and significant quantities of NF-AT were <clueType>induced</clueType> <clueLoc>in SEA-activated CD4+ spleen T cells</clueLoc>, whereas Oct-1 and Oct-2 DNA binding activity was similar in both resting and activated T cells.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<clue>Large amounts of AP-1 and NF-kappa B and significant quantities of NF-AT were <clueType>induced</clueType> <clueLoc>in SEA-activated CD4+ spleen T cells</clueLoc>, whereas Oct-1 and Oct-2 DNA binding activity was similar in both resting and activated T cells.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T31" />
+<clue>Large amounts of AP-1 and NF-kappa B and significant quantities of NF-AT were <clueType>induced</clueType> <clueLoc>in SEA-activated CD4+ spleen T cells</clueLoc>, whereas Oct-1 and Oct-2 DNA binding activity was similar in both resting and activated T cells.</clue>
+</event>
+<event id="E28">
+<type class="Binding" />
+<theme idref="A7" />
+<theme idref="A9" />
+<clue>Large amounts of AP-1 and NF-kappa B and significant quantities of NF-AT were induced in SEA-activated CD4+ spleen T cells, whereas Oct-1 and Oct-2 DNA <clueType>binding activity</clueType> was similar in both resting and activated T cells.</clue>
+<comment>NER: T34 DEL</comment></event>
+<event id="E300">
+<type class="Binding" />
+<theme idref="A8" />
+<theme idref="A9" />
+<clue>Large amounts of AP-1 and NF-kappa B and significant quantities of NF-AT were induced in SEA-activated CD4+ spleen T cells, whereas Oct-1 and Oct-2 DNA <clueType>binding activity</clueType> was similar <clueLoc>in</clueLoc> both <clueLoc>resting</clueLoc> and activated <clueLoc>T cells</clueLoc>.</clue>
+</event>
+<event id="E301">
+<type class="Binding" />
+<theme idref="A8" />
+<theme idref="A9" />
+<clue>Large amounts of AP-1 and NF-kappa B and significant quantities of NF-AT were induced in SEA-activated CD4+ spleen T cells, whereas Oct-1 and Oct-2 DNA <clueType>binding activity</clueType> was similar <clueLoc>in</clueLoc> both resting and <clueLoc>activated T cells</clueLoc>.</clue>
+</event>
+<sentence id="S9">In contrast, <term sem="Cell_natural" id="T36" lex="anergic_CD4+_T_cell">anergic CD4+ T cells</term> contained severely reduced levels of <term sem="Protein_molecule" id="T37" lex="AP-1">AP-1</term> and <term sem="Protein_complex" id="T38" lex="Fos/Jun-containing_NF-AT_complex">Fos/Jun-containing <term sem="Protein_family_or_group" id="T39" lex="NF-AT">NF-AT</term> complexes</term> but expressed significant amounts of <term sem="Protein_complex" id="T40" lex="NF-kappa_B">NF-kappa B</term> and <term sem="Protein_family_or_group" id="T41" lex="Oct_binding_protein">Oct binding proteins</term> after <term sem="Other" id="T42" lex="SEA_stimulation"><term sem="Protein_molecule" id="T43" lex="SEA">SEA</term> stimulation</term>.</sentence>
+<event id="E62">
+<type class="Physiological_process" />
+<theme idref="T36" />
+<cause idref="T43" />
+<clue>In contrast, anergic CD4+ T cells contained severely reduced levels of AP-1 and Fos/Jun-containing NF-AT complexes but expressed significant amounts of NF-kappa B and Oct binding proteins after SEA <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="T37" />
+<cause idref="E62" />
+<clue>In contrast, anergic CD4+ T cells contained severely <clueType>reduced</clueType> levels of AP-1 and Fos/Jun-containing NF-AT complexes but expressed significant amounts of NF-kappa B and Oct binding proteins <linkCause>after</linkCause> SEA stimulation.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="T38" />
+<cause idref="E62" />
+<clue>In contrast, anergic CD4+ T cells contained severely <clueType>reduced</clueType> levels of AP-1 and Fos/Jun-containing NF-AT complexes but expressed significant amounts of NF-kappa B and Oct binding proteins <linkCause>after</linkCause> SEA stimulation.</clue>
+</event>
+<event id="E35">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>In contrast, anergic CD4+ T cells contained severely reduced levels of AP-1 and Fos/Jun-containing NF-AT complexes but <clueType>expressed</clueType> significant amounts of NF-kappa B and Oct binding proteins after SEA stimulation.</clue>
+</event>
+<event id="E50">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>In contrast, anergic CD4+ T cells contained severely reduced levels of AP-1 and Fos/Jun-containing NF-AT complexes but <clueType>expressed</clueType> significant amounts of NF-kappa B and Oct binding proteins after SEA stimulation.</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="E62" />
+<clue>In contrast, anergic CD4+ T cells contained severely reduced levels of AP-1 and Fos/Jun-containing NF-AT complexes but expressed significant amounts of NF-kappa B and Oct binding proteins <linkCause>after</linkCause> SEA stimulation.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E50" />
+<cause idref="E62" />
+<clue>In contrast, anergic CD4+ T cells contained severely reduced levels of AP-1 and Fos/Jun-containing NF-AT complexes but expressed significant amounts of NF-kappa B and Oct binding proteins <linkCause>after</linkCause> SEA stimulation.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S10">Resolution of the <term sem="Protein_complex" id="T44" lex="NF-kappa_B_complex"><term sem="Protein_complex" id="T45" lex="NF-kappa_B">NF-kappa B</term> complex</term> demonstrated predominant expression of <term sem="Protein_complex" id="T46" lex="p50-p65_heterodimer">p50-p65 heterodimers</term> in <term sem="Cell_natural" id="T47" lex="activated_CD4+_T_cell">activated <term sem="Cell_natural" id="A24">CD4+ T cells</term></term>, while anergic cells mainly expressed the transcriptionally inactive <term sem="Protein_molecule" id="T48" lex="p50_homodimer">p50 homodimer</term>.</sentence>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="T46" />
+<clue>Resolution of the NF-kappa B complex demonstrated predominant <clueType>expression</clueType> <linkTheme>of</linkTheme> p50-p65 heterodimers <clueLoc>in activated CD4+ T cells</clueLoc>, while anergic cells mainly expressed the transcriptionally inactive p50 homodimer.</clue>
+</event>
+<event id="E38">
+<type class="Gene_expression" />
+<theme idref="T48" />
+<clue>Resolution of the NF-kappa B complex demonstrated predominant expression of p50-p65 heterodimers in activated CD4+ T cells, while <clueLoc>anergic cells</clueLoc> mainly <clueType>expressed</clueType> the transcriptionally inactive p50 homodimer.</clue>
+</event>
+<event id="E63">
+<type class="Physiological_process" />
+<theme idref="A24" />
+<clue>Resolution of the NF-kappa B complex demonstrated predominant expression of p50-p65 heterodimers in <clueType>activated</clueType> CD4+ T cells, while anergic cells mainly expressed the transcriptionally inactive p50 homodimer.</clue>
+</event>
+<sentence id="S11">These alterations of <term sem="Protein_family_or_group" id="T49" lex="transcription_factor">transcription factors</term> are likely to be responsible for repression of <term sem="Protein_molecule" id="T50" lex="IL-2">IL-2</term> in <term sem="Cell_natural" id="T51" lex="anergic_T_cell">anergic T cells</term>.</sentence>
+<event uncertainty="probable" id="E39">
+<type class="Negative_regulation" />
+<theme idref="T50" />
+<cause idref="E38" />
+<clue><corefCause>These alterations of transcription factors</corefCause> are likely to be responsible for <clueType>repression</clueType> <linkTheme>of</linkTheme> IL-2 <clueLoc>in anergic T cells.</clueLoc></clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

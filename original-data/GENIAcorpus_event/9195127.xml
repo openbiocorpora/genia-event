@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/04/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9195127">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9195127</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Biphasic control of <term sem="Protein_complex" id="T1" lex="NF-kappa_Bo">NF-kappa B</term> activation induced by the triggering of <term sem="Protein_family_or_group" id="T2" lex="HLA-DR_antigen">HLA-DR antigens</term> expressed on <term sem="Cell_natural" id="T3" lex="B_cell">B cells</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Biphasic control of NF-kappa B activation induced by the triggering of HLA-DR antigens <clueType>expressed</clueType> <clueLoc>on B cells</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<cause idref="T2" />
+<clue>Biphasic control of NF-kappa B <clueType>activation</clueType> <linkCause>induced by the triggering of</linkCause> HLA-DR antigens expressed on B cells.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E2" />
+<clue>Biphasic <clueType>control</clueType> <linkTheme>of</linkTheme> NF-kappa B activation induced by the triggering of HLA-DR antigens expressed on B cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The regulation of <term sem="Protein_complex" id="T4" lex="NF-kappa_Bo">NF-kappa B</term> activation following the triggering of <term sem="Protein_family_or_group" id="T5" lex="HLA-DR_antigen">HLA-DR antigens</term> by <term sem="Protein_molecule" id="T6" lex="mAb_L243">mAb L243</term> has been studied at various times in <term sem="Cell_cultured" id="T7" lex="Raji_cell">Raji cells</term>.</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T5" />
+<cause idref="T6" />
+<clue>The regulation of NF-kappa B activation following the <clueType>triggering</clueType> <linkTheme>of</linkTheme> HLA-DR antigens <linkCause>by</linkCause> mAb L243 has been studied at various times in Raji cells.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<cause idref="E4" />
+<clue>The regulation of NF-kappa B <clueType>activation</clueType> <linkCause>following</linkCause> the triggering of HLA-DR antigens by mAb L243 has been studied at various times in Raji cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<clue>The <clueType>regulation</clueType> <linkTheme>of</linkTheme> NF-kappa B activation following the triggering of HLA-DR antigens by mAb L243 has been studied <clueTime>at various times</clueTime> <clueLoc>in Raji cells</clueLoc>.</clue>
+</event>
+<sentence id="S3">Electrophoretic mobility shift assays demonstrated a strong increase of <term sem="Other" id="T8" lex="NF-kappa_B_DNA_binding"><term sem="Protein_complex" id="T9" lex="NF-kappa_Bo">NF-kappa B</term> <term sem="DNA_domain_or_region" id="A1">DNA</term> binding</term> after triggering of <term sem="Protein_family_or_group" id="T10" lex="HLA-DR_antigen">HLA-DR antigens</term>.</sentence>
+<event id="E7">
+<type class="Binding" />
+<theme idref="T9" />
+<theme idref="A1" />
+<clue>Electrophoretic mobility shift assays demonstrated a strong increase of NF-kappa B DNA <clueType>binding</clueType> after triggering of HLA-DR antigens.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<clue>Electrophoretic mobility shift assays demonstrated a strong increase of NF-kappa B DNA binding after <clueType>triggering</clueType> <linkTheme>of</linkTheme> HLA-DR antigens.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E8" />
+<clue><clueExperiment>Electrophoretic mobility shift assays</clueExperiment> demonstrated a strong <clueType>increase</clueType> <linkTheme>of</linkTheme> NF-kappa B DNA binding <linkCause>after</linkCause> triggering of HLA-DR antigens.</clue>
+</event>
+<sentence id="S4">Using <term sem="Protein_family_or_group" id="T11" lex="TNF-alpha-activity_neutralizing_antibodie">TNF-alpha-activity neutralizing antibodies</term>, the authors demonstrated that the upregulation of <term sem="Protein_complex" id="T12" lex="NF-kappa_Bo">NF-kappa B</term> was found to depend, at later time point, on an autocrine effect of <term sem="Protein_molecule" id="T13" lex="TNF-alpha">TNF-alpha</term> secreted following triggering of <term sem="Protein_family_or_group" id="T14" lex="HLA-DR_antigen">HLA-DR antigens</term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<clue>Using TNF-alpha-activity neutralizing antibodies, the authors demonstrated that the <clueType>upregulation</clueType> <linkTheme>of</linkTheme> NF-kappa B was found to depend, at later time point, on an autocrine effect of TNF-alpha secreted following triggering of HLA-DR antigens.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T13" />
+<clue>Using TNF-alpha-activity neutralizing antibodies, the authors demonstrated that the upregulation of NF-kappa B was found to <clueType>depend</clueType>, <clueTime>at later time point</clueTime>, <linkCause>on</linkCause> an autocrine effect of TNF-alpha secreted following triggering of HLA-DR antigens.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<clue>Using TNF-alpha-activity neutralizing antibodies, the authors demonstrated that the upregulation of NF-kappa B was found to depend, at later time point, on an autocrine effect of TNF-alpha secreted following <clueType>triggering</clueType> <linkTheme>of</linkTheme> HLA-DR antigens.</clue>
+</event>
+<event id="E13">
+<type class="Localization" />
+<theme idref="T13" />
+<clue>Using TNF-alpha-activity neutralizing antibodies, the authors demonstrated that the upregulation of NF-kappa B was found to depend, at later time point, on an autocrine effect of TNF-alpha <clueType>secreted</clueType> following triggering of HLA-DR antigens.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E12" />
+<clue>Using TNF-alpha-activity neutralizing antibodies, the authors demonstrated that the upregulation of NF-kappa B was found to depend, at later time point, on an autocrine effect of TNF-alpha secreted <clueType>following</clueType> triggering of HLA-DR antigens.</clue>
+</event>
+<sentence id="S5">In contrast, it was found to be <term sem="Other" id="T15" lex="TNF-alpha_independent"><term sem="Protein_molecule" id="T16" lex="TNF-alpha">TNF-alpha</term> independent</term> in the early time point.</sentence>
+<event assertion="non-exist" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T16" />
+<clue>In contrast, <corefTheme>it</corefTheme> was found to be TNF-alpha <clueType>independent</clueType> <clueTime>in the early time point</clueTime>.</clue>
+</event>
+<sentence id="S6">Moreover, the upregulation of <term sem="Other" id="T17" lex="NF-kappa_B_binding_activity"><term sem="Protein_complex" id="T18" lex="NF-kappa_Bo">NF-kappa B</term> binding activity</term> is regulated by the triggering of <term sem="Protein_domain_or_region" id="A2">selected <term sem="Protein_domain_or_region" id="T19" lex="epitope">epitopes</term> of <term sem="Protein_family_or_group" id="T20" lex="HLA-DR_antigen">HLA-DR antigens</term></term>.</sentence>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T18" />
+<clue>Moreover, the upregulation of NF-kappa B <clueType>binding</clueType> activity is regulated by the triggering of selected epitopes of HLA-DR antigens.</clue>
+<comment>TPS A2</comment>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<clue>Moreover, the <clueType>upregulation</clueType> <linkTheme>of</linkTheme> NF-kappa B binding activity is regulated by the triggering of selected epitopes of HLA-DR antigens.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<clue>Moreover, the upregulation of NF-kappa B binding activity is regulated by the <clueType>triggering</clueType> <linkTheme>of</linkTheme> selected epitopes of HLA-DR antigens.</clue>
+</event>
+<event id="E19">
+<type class="Regulation" />
+<theme idref="E17" />
+<cause idref="E18" />
+<clue>Moreover, the upregulation of NF-kappa B binding activity is <clueType>regulated</clueType> <linkCause>by</linkCause> the triggering of selected epitopes of HLA-DR antigens.</clue>
+</event>
+<sentence id="S7">In fact, <term sem="Protein_molecule" id="T21" lex="mAb_L243">mAb L243</term> but not the <term sem="Protein_family_or_group" id="T22" lex="staphylococcal_superantigen">staphylococcal superantigens</term>, <term sem="Protein_molecule" id="T23" lex="staphylococcal_exotoxin_toxic_shock_syndrome_toxin-I">staphylococcal exotoxin toxic shock syndrome toxin-I</term> or <term sem="Protein_molecule" id="T24" lex="staphylococcal_enterotoxin_B">staphylococcal enterotoxin B</term>, regulate the <term sem="Other" id="T25" lex="NF-kappa_B_binding_activity"><term sem="Protein_complex" id="T26" lex="NF-kappa_B">NF-kappa B</term> binding activity</term>.</sentence>
+<event id="E20">
+<type class="Binding" />
+<theme idref="T26" />
+<clue>In fact, mAb L243 but not the staphylococcal superantigens, staphylococcal exotoxin toxic shock syndrome toxin-I or staphylococcal enterotoxin B, regulate the NF-kappa B <clueType>binding</clueType> activity.</clue>
+</event>
+<event id="E21">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="T21" />
+<clue>In fact, mAb L243 but not the staphylococcal superantigens, staphylococcal exotoxin toxic shock syndrome toxin-I or staphylococcal enterotoxin B, <clueType>regulate</clueType> the NF-kappa B binding activity.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="T22" />
+<clue>In fact, mAb L243 but not the staphylococcal superantigens, staphylococcal exotoxin toxic shock syndrome toxin-I or staphylococcal enterotoxin B, <clueType>regulate</clueType> the NF-kappa B binding activity.</clue>
+</event>
+<event assertion="non-exist" id="E23">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="T23" />
+<clue>In fact, mAb L243 but not the staphylococcal superantigens, staphylococcal exotoxin toxic shock syndrome toxin-I or staphylococcal enterotoxin B, <clueType>regulate</clueType> the NF-kappa B binding activity.</clue>
+</event>
+<event assertion="non-exist" id="E24">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="T24" />
+<clue>In fact, mAb L243 but not the staphylococcal superantigens, staphylococcal exotoxin toxic shock syndrome toxin-I or staphylococcal enterotoxin B, <clueType>regulate</clueType> the NF-kappa B binding activity.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

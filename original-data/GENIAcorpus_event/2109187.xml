@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="2006/10/30" creator="Yumiko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2109187"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>2109187</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification of a <term sem="Protein_molecule" id="T1" lex="novel_factor">novel factor</term> that interacts with an <term sem="DNA_domain_or_region" id="T2" lex="immunoglobulin_heavy-chain_promoter">immunoglobulin heavy-chain promoter</term> and stimulates <term sem="Other" id="T3" lex="transcription">transcription</term> in conjunction with the <term sem="Protein_family_or_group" id="T4" lex="lymphoid_cell-specific_factor">lymphoid cell-specific factor</term> <term sem="Protein_molecule" id="T5" lex="OTF2">OTF2</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T1" />
+<theme idref="T2" />
+<clue>Identification of a novel factor that <clueType>interacts</clueType> <linkTheme>with</linkTheme> an immunoglobulin heavy-chain promoter and stimulates transcription in conjunction with the lymphoid cell-specific factor OTF2.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E200" />
+<cause idref="E3" />
+<clue>Identification of a novel factor that interacts with an immunoglobulin heavy-chain promoter and <clueType>stimulates</clueType> transcription in conjunction with the lymphoid cell-specific factor OTF2.</clue>
+</event>
+<event id="E200">
+<type class="Transcription" />
+<theme idref="T2" />
+<clue>Identification of a novel factor that interacts with an immunoglobulin heavy-chain promoter and stimulates <clueType>transcription</clueType> in conjunction with the lymphoid cell-specific factor OTF2.</clue>
+<comment>NO COFRETHEME</comment></event>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="T1" />
+<theme idref="T5" />
+<clue>Identification of a novel factor that interacts with an immunoglobulin heavy-chain promoter and stimulates transcription in <clueType>conjunction</clueType> <linkTheme>with</linkTheme> the <clueLoc>lymphoid cell</clueLoc>-specific factor OTF2.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Other" id="T6" lex="tissue-specific_expression">tissue-specific expression</term> of the <term sem="DNA_domain_or_region" id="T7" lex="MOPC_141_immunoglobulin_heavy-chain_gene">MOPC 141 immunoglobulin heavy-chain gene</term> was studied by using in vitro <term sem="Other" id="T8" lex="transcription">transcription</term>.</sentence>
+<event uncertainty="doubtful" id="E4">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue>The tissue-specific <clueType>expression</clueType> <linkTheme>of</linkTheme> the MOPC 141 immunoglobulin heavy-chain gene was studied <clueExperiment>by using in vitro transcription</clueExperiment>.</clue>
+</event>
+<sentence id="S3">B-cell-specific transcription of this gene was dependent on the <term sem="DNA_domain_or_region" id="T9" lex="octamer_element">octamer element</term> <term sem="Polynucleotide" id="T10" lex="5&apos;-ATGCAAAG-3&apos;">5&apos;-ATGCAAAG-3&apos;</term>, located in the <term sem="DNA_domain_or_region" id="T11" lex="upstream_region">upstream region</term> of this <term sem="DNA_domain_or_region" id="T12" lex="promoter">promoter</term> and in the <term sem="DNA_domain_or_region" id="T13" lex="promoter">promoters</term> of all other <cons sem="(AND DNA_family_or_group DNA_family_or_group)" id="T14" lex="(AND immunoglobulin_heavy-chain_gene immunoglobulin_light-chain_gene)"><frag id="F1">immunoglobulin</frag> <frag id="F2">heavy-</frag> and <frag id="F3">light-</frag><frag id="F4">chain genes</frag></cons>.</sentence>
+<event id="E5">
+<type class="Transcription" />
+<theme idref="T7" />
+<clue><clueLoc>B-cell</clueLoc>-specific <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>this gene</corefTheme> was dependent on the octamer element 5&apos;-ATGCAAAG-3&apos;, located in the upstream region of this promoter and in the promoters of all other immunoglobulin heavy- and light-chain genes.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T9" />
+<clue>B-cell-specific transcription of this gene was <clueType>dependent</clueType> <linkCause>on</linkCause> the octamer element 5&apos;-ATGCAAAG-3&apos;, located in the upstream region of this promoter and in the promoters of all other immunoglobulin heavy- and light-chain genes.</clue>
+</event>
+<sentence id="S4">The interaction of purified <term sem="Protein_family_or_group" id="T15" lex="octamer_transcription_factor">octamer <term sem="Protein_family_or_group" id="T16" lex="transcription_factor">transcription factors</term></term> 1 and 2 (<term sem="Protein_molecule" id="T17" lex="OTF1">OTF1</term> and <term sem="Protein_molecule" id="T18" lex="OTF2">OTF2</term>) with the <term sem="DNA_domain_or_region" id="T19" lex="MOPC_141_promoter">MOPC 141 promoter</term> was studied by using <term sem="Other" id="T20" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assays</term> and <term sem="Other" id="T21" lex="DNase_I_footprinting"><term sem="Protein_molecule" id="T22" lex="DNase_I">DNase I</term> footprinting</term>.</sentence>
+<event uncertainty="doubtful" id="E7">
+<type class="Correlation" />
+<theme idref="T17" />
+<theme idref="T19" />
+<clue>The <clueType>interaction</clueType> <linkTheme>of</linkTheme> purified octamer transcription factors 1 and 2 (OTF1 and OTF2) <linkTheme>with</linkTheme> the MOPC 141 promoter was studied <clueExperiment>by using electrophoretic mobility shift assays and DNase I footprinting</clueExperiment>.</clue>
+</event>
+<event uncertainty="doubtful" id="E8">
+<type class="Correlation" />
+<theme idref="T18" />
+<theme idref="T19" />
+<clue>The <clueType>interaction</clueType> <linkTheme>of</linkTheme> purified octamer transcription factors 1 and 2 (OTF1 and OTF2) <linkTheme>with</linkTheme> the MOPC 141 promoter was studied <clueExperiment>by using electrophoretic mobility shift assays and DNase I footprinting</clueExperiment>.</clue>
+</event>
+<sentence id="S5">Purified <term sem="Protein_molecule" id="T23" lex="OTF1">OTF1</term> <term sem="Protein_molecule" id="A1">from <term sem="Cell_cultured" id="T24" lex="HeLa_cell">HeLa cells</term></term> and <term sem="Protein_molecule" id="T25" lex="OTF1">OTF1</term> and <term sem="Protein_molecule" id="T26" lex="OTF2">OTF2</term> <term sem="Protein_molecule" id="A2">from <term sem="Cell_natural" id="T27" lex="B_cell">B cells</term></term> bound to <term sem="DNA_domain_or_region" id="A101">identical sequences within the <term sem="DNA_domain_or_region" id="T28" lex="heavy-chain_promoter">heavy-chain promoter</term></term>.</sentence>
+<event id="E9">
+<type class="Binding" />
+<theme idref1="A1" idref="T23" />
+<theme idref="A101" />
+<clue>Purified OTF1 from HeLa cells and OTF1 and OTF2 from B cells <clueType>bound</clueType> <linkTheme>to</linkTheme> identical sequences within the heavy-chain promoter.</clue>
+<comment>TPS A1, TPS A101</comment></event>
+<event id="E10">
+<type class="Binding" />
+<theme idref1="A2" idref="T25" />
+<theme idref="A101" />
+<clue>Purified OTF1 from HeLa cells and OTF1 and OTF2 from B cells <clueType>bound</clueType> <linkTheme>to</linkTheme> identical sequences within the heavy-chain promoter.</clue>
+<comment>TPS A2</comment></event>
+<event id="E11">
+<type class="Binding" />
+<theme idref1="A2" idref="T26" />
+<theme idref="A101" />
+<clue>Purified OTF1 from HeLa cells and OTF1 and OTF2 from B cells <clueType>bound</clueType> <linkTheme>to</linkTheme> identical sequences within the heavy-chain promoter.</clue>
+<comment>TPS A2</comment></event>
+<sentence id="S6">The <term sem="Other" id="T29" lex="OTF_interaction"><term sem="Protein_molecule" id="A100">OTF</term> interactions</term> we observed extended over the <term sem="DNA_domain_or_region" id="T30" lex="heptamer_element">heptamer element</term> <term sem="Polynucleotide" id="T31" lex="5&apos;-CTCAGGA-3&apos;">5&apos;-CTCAGGA-3&apos;</term>, and it seems likely that the binding of the <term sem="Protein_family_or_group" id="T32" lex="purified_factor">purified factors</term> involves cooperation between <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T33" lex="(AND octamer_site heptamer_site)"><frag id="F5"><term sem="DNA_domain_or_region" id="A4">octamer</term></frag> and <frag id="F6"><term sem="DNA_domain_or_region" id="A5">heptamer</term></frag> <frag id="F7"><term sem="DNA_domain_or_region" id="A6">sites</term></frag></cons> in this <term sem="DNA_domain_or_region" id="T34" lex="promoter">promoter</term>.</sentence>
+<event id="E121">
+<type class="Binding" />
+<theme idref="A100" />
+<theme idref="T30" />
+<clue>The OTF <clueType>interactions</clueType> we observed <linkTheme>extended over</linkTheme> the heptamer element 5&apos;-CTCAGGA-3&apos;, and it seems likely that the binding of the purified factors involves cooperation between octamer and heptamer sites in this promoter.</clue>
+</event>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T17" />
+<clue>The OTF interactions we observed extended over the heptamer element 5&apos;-CTCAGGA-3&apos;, and it seems likely that the <clueType>binding</clueType> <linkTheme>of</linkTheme> the <corefTheme>purified factor</corefTheme>s involves cooperation between octamer and heptamer sites in this promoter.</clue>
+</event>
+<event id="E120">
+<type class="Binding" />
+<theme idref="T18" />
+<clue>The OTF interactions we observed extended over the heptamer element 5&apos;-CTCAGGA-3&apos;, and it seems likely that the <clueType>binding</clueType> <linkTheme>of</linkTheme> the <corefTheme>purified factor</corefTheme>s involves cooperation between octamer and heptamer sites in this promoter.</clue>
+</event>
+<event id="E13">
+<type class="Correlation" />
+<theme idref1="A6" idref="A4" />
+<theme idref1="A6" idref="A5" />
+<clue>The OTF interactions we observed extended over the heptamer element 5&apos;-CTCAGGA-3&apos;, and it seems likely that the binding of the purified factors involves <clueType>cooperation</clueType> <linkTheme>between</linkTheme> octamer and heptamer sites in this promoter.</clue>
+</event>
+<event uncertainty="probable" id="E14">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="E13" />
+<clue>The OTF interactions we observed extended over the heptamer element 5&apos;-CTCAGGA-3&apos;, and it seems likely that the binding of the purified factors <clueType>involves</clueType> cooperation between octamer and heptamer sites in this promoter.</clue>
+</event>
+<event uncertainty="probable" id="E140">
+<type class="Regulation" />
+<theme idref="E120" />
+<cause idref="E13" />
+<clue>The OTF interactions we observed extended over the heptamer element 5&apos;-CTCAGGA-3&apos;, and it seems likely that the binding of the purified factors <clueType>involves</clueType> cooperation between octamer and heptamer sites in this promoter.</clue>
+</event>
+<sentence id="S7">In addition to these elements, we identified a second <term sem="DNA_domain_or_region" id="T35" lex="regulatory_element">regulatory element</term>, the <term sem="DNA_domain_or_region" id="T36" lex="N_element">N element</term> with the sequence <term sem="Polynucleotide" id="T37" lex="5&apos;-GGAACCTCCCCC-3&apos;">5&apos;-GGAACCTCCCCC-3&apos;</term>.</sentence>
+<sentence id="S8">The <term sem="DNA_domain_or_region" id="T38" lex="N_element">N element</term> could independently mediate low levels of <term sem="Other" id="A3" lex="transcription">transcription</term> in both <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T39" lex="(AND B-cell_extract HeLa-cell_extract)"><frag id="F8">B-cell</frag> and <frag id="F9">HeLa-cell</frag> <frag id="F10">extracts</frag></cons>, and, in conjunction with the <term sem="DNA_domain_or_region" id="T40" lex="octamer_element">octamer element</term>, it can promote high levels of <term sem="Other" id="A7" lex="transcription">transcription</term> in <term sem="Other" id="T41" lex="B-cell_extract">B-cell extracts</term>.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T38" />
+<clue>The N element could independently <clueType>mediate</clueType> low levels of transcription <clueLoc>in</clueLoc> both <clueLoc>B-cell</clueLoc> and HeLa-cell <clueLoc>extracts</clueLoc>, and, in conjunction with the octamer element, it can promote high levels of transcription in B-cell extracts.</clue>
+</event>
+<event id="E150">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T38" />
+<clue>The N element could independently <clueType>mediate</clueType> low levels of transcription <clueLoc>in</clueLoc> both B-cell and <clueLoc>HeLa-cell extracts</clueLoc>, and, in conjunction with the octamer element, it can promote high levels of transcription in B-cell extracts.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T38" />
+<theme idref="T40" />
+<clue>The N element could independently mediate low levels of transcription in both B-cell and HeLa-cell extracts, and, in <clueType>conjunction</clueType> <linkTheme>with</linkTheme> the octamer element, it can promote high levels of transcription in B-cell extracts.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="E16" />
+<clue>The N element could independently mediate low levels of transcription in both B-cell and HeLa-cell extracts, and, in conjunction with the octamer element, it can <clueType>promote</clueType> high levels of transcription <clueLoc>in B-cell extracts</clueLoc>.</clue>
+</event>
+<sentence id="S9">The <term sem="DNA_domain_or_region" id="T42" lex="N_element">N element</term> bound a <term sem="Protein_family_or_group" id="T43" lex="transcription_factor">transcription factor</term>, <term sem="Protein_molecule" id="T44" lex="NTF">NTF</term>, that is ubiquitous in <term sem="Other" id="T45" lex="cell-type_distribution">cell-type distribution</term>, and <term sem="Protein_molecule" id="T46" lex="NTF">NTF</term> was distinct from any of the <term sem="Protein_family_or_group" id="T47" lex="previously_described_protein">previously described proteins</term> that bind to <term sem="DNA_domain_or_region" id="A8">similar sequences</term>.</sentence>
+<event id="E18">
+<type class="Binding" />
+<theme idref="T42" />
+<theme idref="T44" />
+<clue>The N element <clueType>bound</clueType> a transcription factor, NTF, that is ubiquitous in cell-type distribution, and NTF was distinct from any of the previously described proteins that bind to similar sequences.</clue>
+</event>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T47" />
+<theme idref="A8" />
+<clue>The N element bound a transcription factor, NTF, that is ubiquitous in cell-type distribution, and NTF was distinct from any of the previously described proteins that <clueType>bind</clueType> <linkTheme>to</linkTheme> similar sequences.</clue>
+</event>
+<sentence id="S10">Based on these results, we propose that <term sem="Other" id="T48" lex="NTF_and_OTF2_interaction"><term sem="Protein_molecule" id="T49" lex="NTF">NTF</term> and <term sem="Protein_molecule" id="T50" lex="OTF2">OTF2</term> interactions</term> (both with their <term sem="DNA_domain_or_region" id="T51" lex="cognate_DNA_element">cognate DNA elements</term> and possibly at the protein-protein level) may be critical to <term sem="Other" id="T53" lex="B-cell-specific_expression">B-cell-specific expression</term> and that these interactions provide additional <term sem="Other" id="T54" lex="pathway">pathways</term> for regulating <term sem="Other" id="T55" lex="gene_expression">gene expression</term>.</sentence>
+<event id="E20">
+<type class="Correlation" />
+<theme idref="T49" />
+<theme idref="T51" />
+<clue>Based on these results, we propose that NTF and OTF2 <clueType>interactions</clueType> (both <linkTheme>with</linkTheme> their cognate DNA elements and <clueType>possibly at the protein-protein level</clueType>) may be critical to B-cell-specific expression and that these interactions provide additional pathways for regulating gene expression.</clue>
+</event>
+<event id="E21">
+<type class="Correlation" />
+<theme idref="T50" />
+<theme idref="T51" />
+<clue>Based on these results, we propose that NTF and OTF2 <clueType>interactions</clueType> (both <linkTheme>with</linkTheme> their cognate DNA elements and <clueType>possibly at the protein-protein level</clueType>) may be critical to B-cell-specific expression and that these interactions provide additional pathways for regulating gene expression.</clue>
+</event>
+<event id="E201">
+<type class="Correlation" />
+<theme idref="T49" />
+<theme idref="T50" />
+<clue>Based on these results, we propose that NTF and OTF2 <clueType>interactions</clueType> (both with their cognate DNA elements and <clueType>possibly at the protein-protein level</clueType>) may be critical to B-cell-specific expression and that these interactions provide additional pathways for regulating gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E24">
+<type class="Regulation" />
+<theme idref="T53" />
+<cause idref="E20" />
+<clue>Based on these results, we propose that NTF and OTF2 interactions (both with their cognate DNA elements and possibly at the protein-protein level) may be <clueType>critical</clueType> <linkTheme>to</linkTheme> B-cell-specific expression and that these interactions provide additional pathways for regulating gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Regulation" />
+<theme idref="T53" />
+<cause idref="E21" />
+<clue>Based on these results, we propose that NTF and OTF2 interactions (both with their cognate DNA elements and possibly at the protein-protein level) may be <clueType>critical</clueType> <linkTheme>to</linkTheme> B-cell-specific expression and that these interactions provide additional pathways for regulating gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E250">
+<type class="Regulation" />
+<theme idref="T53" />
+<cause idref="E200" />
+<clue>Based on these results, we propose that NTF and OTF2 interactions (both with their cognate DNA elements and possibly at the protein-protein level) may be <clueType>critical</clueType> <linkTheme>to</linkTheme> B-cell-specific expression and that these interactions provide additional pathways for regulating gene expression.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E20" />
+<clue>Based on these results, we propose that NTF and OTF2 interactions (both with their cognate DNA elements and possibly at the protein-protein level) may be critical to B-cell-specific expression and that <corefCause>these interactions</corefCause> <clueType>provide</clueType> additional pathways for regulating gene expression.</clue>
+</event>
+<event id="E28">
+<type class="Regulation" />
+<theme idref="T55" />
+<cause idref="T54" />
+<clue>Based on these results, we propose that NTF and OTF2 interactions (both with their cognate DNA elements and possibly at the protein-protein level) may be critical to B-cell-specific expression and that these interactions provide additional pathways for <clueType>regulating</clueType> gene expression.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E21" />
+<clue>Based on these results, we propose that NTF and OTF2 interactions (both with their cognate DNA elements and possibly at the protein-protein level) may be critical to B-cell-specific expression and that <corefCause>these interactions</corefCause> <clueType>provide</clueType> additional pathways for regulating gene expression.</clue>
+</event>
+<event id="E300">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E200" />
+<clue>Based on these results, we propose that NTF and OTF2 interactions (both with their cognate DNA elements and possibly at the protein-protein level) may be critical to B-cell-specific expression and that <corefCause>these interactions</corefCause> <clueType>provide</clueType> additional pathways for regulating gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

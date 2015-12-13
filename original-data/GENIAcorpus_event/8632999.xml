@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="16/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8632999" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8632999</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="CNI-1493">CNI-1493</term> inhibits <term sem="Protein_family_or_group" id="T2" lex="monocyte/macrophage_tumor_necrosis_factor">monocyte/macrophage <term sem="Protein_molecule" id="A1">tumor necrosis factor</term></term> by suppression of <term sem="Other" id="T3" lex="translation_efficiency">translation efficiency</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="T3" />
+<cause idref="T1" />
+<clue>CNI-1493 inhibits monocyte/macrophage tumor necrosis factor by <clueType>suppression</clueType> <linkTheme>of</linkTheme> translation efficiency.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="A1" />
+<cause idref="E1" />
+<clue>CNI-1493 <clueType>inhibits</clueType> <clueLoc>monocyte/macrophage</clueLoc> tumor necrosis factor <linkCause>by</linkCause> suppression of translation efficiency.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_family_or_group" id="T4" lex="tumor_necrosis_factor">Tumor necrosis factor</term> (<term sem="Protein_family_or_group" id="T5" lex="TNF">TNF</term>) mediates a wide variety of disease states including <term sem="Other" id="T6" lex="septic_shock">septic shock</term>, <cons sem="(AND Other Other)" id="C1" lex="(AND acute_inflammation chronic_inflammation)"><frag id="F1">acute</frag> and <frag id="F2">chronic</frag> <frag id="F3">inflammation</frag></cons>, and <term sem="Other" id="T8" lex="cachexia">cachexia</term>.</sentence>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<cause idref="T5" />
+<clue>Tumor necrosis factor (TNF) <clueType>mediates</clueType> a wide variety of disease states including septic shock, acute and chronic inflammation, and cachexia.</clue>
+</event>
+<event id="E61">
+<type class="Positive_regulation" />
+<theme idref1="F3" idref="F1" />
+<cause idref="T5" />
+<clue>Tumor necrosis factor (TNF) <clueType>mediates</clueType> a wide variety of disease states including septic shock, acute and chronic inflammation, and cachexia.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref1="F3" idref="F2" />
+<cause idref="T5" />
+<clue>Tumor necrosis factor (TNF) <clueType>mediates</clueType> a wide variety of disease states including septic shock, acute and chronic inflammation, and cachexia.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="T5" />
+<clue>Tumor necrosis factor (TNF) <clueType>mediates</clueType> a wide variety of disease states including septic shock, acute and chronic inflammation, and cachexia.</clue>
+</event>
+<sentence id="S3">Recently, a <term sem="Organic_compound_other" id="T9" lex="multivalent_guanylhydrazone">multivalent guanylhydrazone</term> (<term sem="Organic_compound_other" id="T10" lex="CNI-1493">CNI-1493</term>) developed as an inhibitor of <term sem="Other" id="T11" lex="macrophage_activation"><term sem="Cell_natural" id="A5">macrophage</term> activation</term> was shown to suppress <term sem="Other" id="T12" lex="TNF_production"><term sem="Protein_family_or_group" id="T13" lex="TNF">TNF</term> production</term> and protect against <term sem="Other" id="A6">tissue inflammation</term> and <term sem="Other" id="A7">endotoxin lethality</term> [Bianchi, M., Ulrich, P., Bloom, O., Meistrell, M., Zimmerman, G.A., Schmidtmayerova, H., Bukrinsky, M., Donnelley, T., Bucala, R., Sherry, B., Manogue, K.R., Tortolani, A.J., Cerami, A.&amp; Tracey, K.J.(1995) Mol.Med.1, 254-266, and Bianchi, M., Bloom, O., Raabe, T., Cohen, P. S., Chesney, J., Sherry, B., Schmidtmayerova, H., Zhang, X., Bukrinsky, M., Ulrich, P., Cerami, A.&amp; Tracey, J.(1996) J.Exp.Med., in press].</sentence>
+<event id="E6">
+<type class="Physiological_process" />
+<theme idref="A5" />
+<clue>Recently, a multivalent guanylhydrazone (CNI-1493) developed as an inhibitor of macrophage <clueType>activation</clueType> was shown to suppress TNF production and protect against tissue inflammation and endotoxin lethality [Bianchi, M., Ulrich, P., Bloom, O., Meistrell, M., Zimmerman, G.A., Schmidtmayerova, H., Bukrinsky, M., Donnelley, T., Bucala, R., Sherry, B., Manogue, K.R., Tortolani, A.J., Cerami, A.&amp; Tracey, K.J.(1995) Mol.Med.1, 254-266, and Bianchi, M., Bloom, O., Raabe, T., Cohen, P. S., Chesney, J., Sherry, B., Schmidtmayerova, H., Zhang, X., Bukrinsky, M., Ulrich, P., Cerami, A.&amp; Tracey, J.(1996) J.Exp.Med., in press].</clue>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>Recently, a multivalent guanylhydrazone (CNI-1493) developed as an inhibitor of macrophage activation was shown to suppress TNF <clueType>production</clueType> and protect against tissue inflammation and endotoxin lethality [Bianchi, M., Ulrich, P., Bloom, O., Meistrell, M., Zimmerman, G.A., Schmidtmayerova, H., Bukrinsky, M., Donnelley, T., Bucala, R., Sherry, B., Manogue, K.R., Tortolani, A.J., Cerami, A.&amp; Tracey, K.J.(1995) Mol.Med.1, 254-266, and Bianchi, M., Bloom, O., Raabe, T., Cohen, P. S., Chesney, J., Sherry, B., Schmidtmayerova, H., Zhang, X., Bukrinsky, M., Ulrich, P., Cerami, A.&amp; Tracey, J.(1996) J.Exp.Med., in press].</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="T10" />
+<clue>Recently, a multivalent guanylhydrazone (CNI-1493) developed as an <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> macrophage activation was shown to suppress TNF production and protect against tissue inflammation and endotoxin lethality [Bianchi, M., Ulrich, P., Bloom, O., Meistrell, M., Zimmerman, G.A., Schmidtmayerova, H., Bukrinsky, M., Donnelley, T., Bucala, R., Sherry, B., Manogue, K.R., Tortolani, A.J., Cerami, A.&amp; Tracey, K.J.(1995) Mol.Med.1, 254-266, and Bianchi, M., Bloom, O., Raabe, T., Cohen, P. S., Chesney, J., Sherry, B., Schmidtmayerova, H., Zhang, X., Bukrinsky, M., Ulrich, P., Cerami, A.&amp; Tracey, J.(1996) J.Exp.Med., in press].</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="E7" />
+<cause idref="T10" />
+<clue>Recently, a multivalent guanylhydrazone (CNI-1493) developed as an inhibitor of macrophage activation was shown to <clueType>suppress</clueType> TNF production and protect against tissue inflammation and endotoxin lethality [Bianchi, M., Ulrich, P., Bloom, O., Meistrell, M., Zimmerman, G.A., Schmidtmayerova, H., Bukrinsky, M., Donnelley, T., Bucala, R., Sherry, B., Manogue, K.R., Tortolani, A.J., Cerami, A.&amp; Tracey, K.J.(1995) Mol.Med.1, 254-266, and Bianchi, M., Bloom, O., Raabe, T., Cohen, P. S., Chesney, J., Sherry, B., Schmidtmayerova, H., Zhang, X., Bukrinsky, M., Ulrich, P., Cerami, A.&amp; Tracey, J.(1996) J.Exp.Med., in press].</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="A6" />
+<cause idref="T10" />
+<clue>Recently, a multivalent guanylhydrazone (CNI-1493) developed as an inhibitor of macrophage activation was shown to suppress TNF production and <clueType>protect</clueType> <linkTheme>against</linkTheme> tissue inflammation and endotoxin lethality [Bianchi, M., Ulrich, P., Bloom, O., Meistrell, M., Zimmerman, G.A., Schmidtmayerova, H., Bukrinsky, M., Donnelley, T., Bucala, R., Sherry, B., Manogue, K.R., Tortolani, A.J., Cerami, A.&amp; Tracey, K.J.(1995) Mol.Med.1, 254-266, and Bianchi, M., Bloom, O., Raabe, T., Cohen, P. S., Chesney, J., Sherry, B., Schmidtmayerova, H., Zhang, X., Bukrinsky, M., Ulrich, P., Cerami, A.&amp; Tracey, J.(1996) J.Exp.Med., in press].</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="A7" />
+<cause idref="T10" />
+<clue>Recently, a multivalent guanylhydrazone (CNI-1493) developed as an inhibitor of macrophage activation was shown to suppress TNF production and <clueType>protect</clueType> <linkTheme>against</linkTheme> tissue inflammation and endotoxin lethality [Bianchi, M., Ulrich, P., Bloom, O., Meistrell, M., Zimmerman, G.A., Schmidtmayerova, H., Bukrinsky, M., Donnelley, T., Bucala, R., Sherry, B., Manogue, K.R., Tortolani, A.J., Cerami, A.&amp; Tracey, K.J.(1995) Mol.Med.1, 254-266, and Bianchi, M., Bloom, O., Raabe, T., Cohen, P. S., Chesney, J., Sherry, B., Schmidtmayerova, H., Zhang, X., Bukrinsky, M., Ulrich, P., Cerami, A.&amp; Tracey, J.(1996) J.Exp.Med., in press].</clue>
+</event>
+<sentence id="S4">We have now elucidated the mechanism by which <term sem="Organic_compound_other" id="T14" lex="CNI-1493">CNI-1493</term> inhibits macrophage <term sem="Protein_family_or_group" id="T15" lex="TNF">TNF</term> synthesis and show here that it acts through suppression of <term sem="Protein_family_or_group" id="T16" lex="TNF">TNF</term> <term sem="Other" id="T17" lex="translation_efficiency">translation efficiency</term>.</sentence>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>We have now elucidated the mechanism by which CNI-1493 inhibits <clueLoc>macrophage</clueLoc> TNF <clueType>synthesis</clueType> and show here that it acts through suppression of TNF translation efficiency.</clue>
+</event>
+<event id="E14">
+<type class="Translation" />
+<theme idref="T16" />
+<clue>We have now elucidated the mechanism by which CNI-1493 inhibits macrophage TNF synthesis and show here that it acts through suppression of TNF <clueType>translation efficiency</clueType>.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T14" />
+<clue>We have now elucidated the mechanism by which CNI-1493 inhibits macrophage TNF synthesis and show here that it acts through <clueType>suppression</clueType> <linkTheme>of</linkTheme> TNF translation efficiency.</clue>
+</event>
+<event id="E62">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="E15" />
+<clue>We have now elucidated the mechanism by which CNI-1493 <clueType>inhibits</clueType> macrophage TNF synthesis and show here that it acts <linkCause>through</linkCause> suppression of TNF translation efficiency.</clue>
+</event>
+<sentence id="S5"><term sem="Organic_compound_other" id="T18" lex="CNI-1493">CNI-1493</term> blocked neither the <term sem="Lipid" id="T19" lex="lipopolysaccharide">lipopolysaccharide</term> (LPS)-induced increases in the expression of <term sem="RNA_family_or_group" id="T20" lex="TNF_mRNA"><term sem="Protein_family_or_group" id="T21" lex="TNF">TNF</term> mRNA</term> nor the translocation of <term sem="Protein_molecule" id="T22" lex="nuclear_factor_NF-kappa_B">nuclear factor NF-kappa B</term> to the <term sem="Cell_component" id="T23" lex="nucleus">nucleus</term> in <term sem="Cell_natural" id="T24" lex="macrophage">macrophages</term> activated by 15 min of <term sem="Other" id="T25" lex="LPS_stimulation"><term sem="Lipid" id="T26" lex="LPS">LPS</term> stimulation</term>, indicating that <term sem="Organic_compound_other" id="T27" lex="CNI-1493">CNI-1493</term> does not interfere with early <term sem="Other" id="T28" lex="NF-kappa_B-mediated_transcriptional_regulation"><term sem="Protein_complex" id="T29" lex="NF-kappa_B">NF-kappa B</term>-mediated transcriptional regulation</term> of <term sem="Protein_family_or_group" id="T30" lex="TNF">TNF</term>.</sentence>
+<event id="E16">
+<type class="Transcription" />
+<theme idref="T20" />
+<clue>CNI-1493 blocked neither the lipopolysaccharide (LPS)-induced increases in the <clueType>expression</clueType> <linkTheme>of</linkTheme> TNF mRNA nor the translocation of nuclear factor NF-kappa B to the nucleus in macrophages activated by 15 min of LPS stimulation, indicating that CNI-1493 does not interfere with early NF-kappa B-mediated transcriptional regulation of TNF.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T19" />
+<clue>CNI-1493 blocked neither the lipopolysaccharide (LPS)-<linkCause>induced</linkCause> <clueType>increases</clueType> <linkTheme>in</linkTheme> the expression of TNF mRNA nor the translocation of nuclear factor NF-kappa B to the nucleus in macrophages activated by 15 min of LPS stimulation, indicating that CNI-1493 does not interfere with early NF-kappa B-mediated transcriptional regulation of TNF.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="T18" />
+<clue>CNI-1493 <clueType>blocked neither</clueType> the lipopolysaccharide (LPS)-induced increases in the expression of TNF mRNA nor the translocation of nuclear factor NF-kappa B to the nucleus in macrophages activated by 15 min of LPS stimulation, indicating that CNI-1493 does not interfere with early NF-kappa B-mediated transcriptional regulation of TNF.</clue>
+</event>
+<event id="E19">
+<type class="Localization" />
+<theme idref="T22" />
+<clue>CNI-1493 blocked neither the lipopolysaccharide (LPS)-induced increases in the expression of TNF mRNA nor the <clueType>translocation</clueType> <linkTheme>of</linkTheme> nuclear factor NF-kappa B <clueLoc>to the nucleus</clueLoc> <clueLoc>in macrophages activated by 15 min of LPS stimulation</clueLoc>, indicating that CNI-1493 does not interfere with early NF-kappa B-mediated transcriptional regulation of TNF.</clue>
+</event>
+<event id="E21">
+<type class="Physiological_process" />
+<theme idref="T24" />
+<cause idref="E26" />
+<clue>CNI-1493 blocked neither the lipopolysaccharide (LPS)-induced increases in the expression of TNF mRNA nor the translocation of nuclear factor NF-kappa B to the nucleus in macrophages <clueType>activated</clueType> <linkCause>by</linkCause> 15 min of LPS stimulation, indicating that CNI-1493 does not interfere with early NF-kappa B-mediated transcriptional regulation of TNF.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T18" />
+<clue>CNI-1493 <clueType>blocked</clueType> neither the lipopolysaccharide (LPS)-induced increases in the expression of TNF mRNA nor the translocation of nuclear factor NF-kappa B to the nucleus in macrophages activated by 15 min of LPS stimulation, indicating that CNI-1493 does not interfere with early NF-kappa B-mediated transcriptional regulation of TNF.</clue>
+</event>
+<event id="E23">
+<type class="Transcription" />
+<theme idref="T30" />
+<clue>CNI-1493 blocked neither the lipopolysaccharide (LPS)-induced increases in the expression of TNF mRNA nor the translocation of nuclear factor NF-kappa B to the nucleus in macrophages activated by 15 min of LPS stimulation, indicating that CNI-1493 does not interfere with early NF-kappa B-mediated <clueType>transcriptional</clueType> regulation <linkTheme>of</linkTheme> TNF.</clue>
+</event>
+<event id="E24">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="T29" />
+<clue>CNI-1493 blocked neither the lipopolysaccharide (LPS)-induced increases in the expression of TNF mRNA nor the translocation of nuclear factor NF-kappa B to the nucleus in macrophages activated by 15 min of LPS stimulation, indicating that CNI-1493 does not interfere with early NF-kappa B-<linkCause>mediated</linkCause> transcriptional <clueType>regulation</clueType> of TNF.</clue>
+</event>
+<event assertion="non-exist" id="E25">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="T27" />
+<clue>CNI-1493 blocked neither the lipopolysaccharide (LPS)-induced increases in the expression of TNF mRNA nor the translocation of nuclear factor NF-kappa B to the nucleus in macrophages activated by 15 min of LPS stimulation, indicating that CNI-1493 does not <clueType>interfere</clueType> <linkTheme>with</linkTheme> early NF-kappa B-mediated transcriptional regulation of TNF.</clue>
+</event>
+<sentence id="S6">However, synthesis of the <term sem="Protein_molecule" id="A8"><term sem="Protein_molecule" id="T31" lex="26-kDa_membrane_form">26-kDa membrane form</term> of <term sem="Protein_family_or_group" id="T32" lex="TNF">TNF</term></term> was effectively blocked by <term sem="Organic_compound_other" id="T33" lex="CNI-1493">CNI-1493</term>.</sentence>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="A8" />
+<clue>However, <clueType>synthesis</clueType> <linkTheme>of</linkTheme> the 26-kDa membrane form of TNF was effectively blocked by CNI-1493.</clue>
+<comment>TPS: A8</comment>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="E26" />
+<cause idref="T33" />
+<clue>However, synthesis of the 26-kDa membrane form of TNF was effectively <clueType>blocked</clueType> <linkCause>by</linkCause> CNI-1493.</clue>
+</event>
+<sentence id="S7">Further evidence for the <term sem="Other" id="T34" lex="translational_suppression">translational suppression</term> of <term sem="Protein_family_or_group" id="T35" lex="TNF">TNF</term> is given by experiments using <term sem="DNA_family_or_group" id="T36" lex="chloram-phenicol_acetyltransferase_(CAT)_construct"><term sem="Protein_molecule" id="T37" lex="chloram-phenicol_acetyltransferase">chloram-phenicol acetyltransferase</term> (CAT) constructs</term> containing <term sem="DNA_domain_or_region" id="A9">elements of the <term sem="DNA_domain_or_region" id="T38" lex="TNF_gene"><term sem="Protein_family_or_group" id="T39" lex="TNF">TNF</term> gene</term></term> that are involved in <term sem="Other" id="T40" lex="TNF_translational_regulation"><term sem="Protein_family_or_group" id="T41" lex="TNF">TNF</term> translational regulation</term>.</sentence>
+<event id="E28">
+<type class="Translation" />
+<theme idref="T35" />
+<clue>Further evidence for the <clueType>translational</clueType> suppression <linkTheme>of</linkTheme> TNF is given by experiments using chloram-phenicol acetyltransferase (CAT) constructs containing elements of the TNF gene that are involved in TNF translational regulation.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<clue>Further evidence for the translational <clueType>suppression</clueType> of TNF is given by experiments using chloram-phenicol acetyltransferase (CAT) constructs containing elements of the TNF gene that are involved in TNF translational regulation.</clue>
+</event>
+<event id="E30">
+<type class="Translation" />
+<theme idref="T41" />
+<clue>Further evidence for the translational suppression of TNF is given by experiments using chloram-phenicol acetyltransferase (CAT) constructs containing elements of the TNF gene that are involved in TNF <clueType>translational</clueType> regulation.</clue>
+</event>
+<event id="E31">
+<type class="Regulation" />
+<theme idref="E30" />
+<clue>Further evidence for the translational suppression of TNF is given by experiments using chloram-phenicol acetyltransferase (CAT) constructs containing elements of the TNF gene that are involved in TNF translational <clueType>regulation</clueType>.</clue>
+</event>
+<event id="E32">
+<type class="Correlation" />
+<theme idref="E31" />
+<theme idref="A9" />
+<clue>Further evidence for the translational suppression of TNF is given by experiments using chloram-phenicol acetyltransferase (CAT) constructs containing elements of the TNF gene that are involved in TNF translational regulation.</clue>
+<comment>TPS: A9</comment>
+</event>
+<sentence id="S8">Both the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T42" lex="(AND 5&apos;_untranslated_region 3&apos;_untranslated_region)"><frag id="F4">5&apos;</frag> and <frag id="F5">3&apos;</frag> <frag id="F6">untranslated regions</frag></cons> of the <term sem="DNA_domain_or_region" id="T43" lex="TNF_gene">TNF gene</term> were required to elicit maximal <term sem="Other" id="T45" lex="translational_suppression">translational suppression</term> by <term sem="Organic_compound_other" id="T46" lex="CNI-1493">CNI-1493</term>.</sentence>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="T43" />
+<cause idref="T46" />
+<clue>Both the 5&apos; and 3&apos; untranslated regions of the TNF gene were required to elicit maximal <clueType>translational suppression</clueType> <linkCause>by</linkCause> CNI-1493.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref1="F6" idref2="T43" idref="F4" />
+<clue>Both the 5&apos; and 3&apos; untranslated regions of the TNF gene were <clueType>required</clueType> to elicit maximal translational suppression by CNI-1493.</clue>
+<comment>NER: T24 del &quot;TNF&quot;</comment>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref1="F6" idref2="T43" idref="F5" />
+<clue>Both the 5&apos; and 3&apos; untranslated regions of the TNF gene were <clueType>required</clueType> to elicit maximal translational suppression by CNI-1493.</clue>
+</event>
+<sentence id="S9">Identification of the molecular target through which <term sem="Organic_compound_other" id="T47" lex="CNI-_1493">CNI- 1493</term> inhibits <term sem="Other" id="T48" lex="TNF_translation"><term sem="Protein_family_or_group" id="T49" lex="TNF">TNF</term> translation</term> should provide insight into the regulation of <term sem="Other" id="T50" lex="macrophage_activation"><term sem="Cell_natural" id="A14">macrophage</term> activation</term> and <term sem="Other" id="T51" lex="mechanism_of_inflammation">mechanisms of inflammation</term>.</sentence>
+<event id="E37">
+<type class="Translation" />
+<theme idref="T49" />
+<clue>Identification of the molecular target through which CNI- 1493 inhibits TNF <clueType>translation</clueType> should provide insight into the regulation of macrophage activation and mechanisms of inflammation.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation" />
+<theme idref="E37" />
+<cause idref="T47" />
+<clue>Identification of the molecular target through which CNI- 1493 <clueType>inhibits</clueType> TNF translation should provide insight into the regulation of macrophage activation and mechanisms of inflammation.</clue>
+</event>
+<event id="E39">
+<type class="Physiological_process" />
+<theme idref="A14" />
+<clue>Identification of the molecular target through which CNI- 1493 inhibits TNF translation should provide insight into the regulation of macrophage <clueType>activation</clueType> and mechanisms of inflammation.</clue>
+</event>
+<event id="E40">
+<type class="Regulation" />
+<theme idref="E39" />
+<clue>Identification of the molecular target through which CNI- 1493 inhibits TNF translation should provide insight into the <clueType>regulation</clueType> <linkTheme>of</linkTheme> macrophage activation and mechanisms of inflammation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

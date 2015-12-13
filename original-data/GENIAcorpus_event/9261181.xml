@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="15/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9261181" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9261181</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="transcription_factor_GATA-3">Transcription factor GATA-3</term> is differentially expressed in <cons sem="(AND Cell_cultured Cell_cultured)" id="T2" lex="(AND murine_Th1_cell murine_Th2_cell)"><frag id="F1">murine</frag> <frag id="F2">Th1</frag> and <frag id="F3">Th2</frag> <frag id="F4">cells</frag></cons> and controls <term sem="Other" id="T3" lex="Th2-specific_expression"><term sem="Cell_natural" id="A1">Th2</term>-specific expression</term> of the <term sem="DNA_domain_or_region" id="T4" lex="interleukin-5_gene">interleukin-5 gene</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T1" />
+<clue>Transcription factor GATA-3 is differentially <clueType>expressed</clueType> <clueLoc>in murine Th1</clueLoc> and Th2 <clueLoc>cells</clueLoc> and controls Th2-specific expression of the interleukin-5 gene.</clue>
+</event>
+<event id="E101">
+<type class="Gene_expression" />
+<theme idref="T1" />
+<clue>Transcription factor GATA-3 is differentially <clueType>expressed</clueType> <clueLoc>in</clueLoc> murine Th1 and <clueLoc>Th2 cells</clueLoc> and controls Th2-specific expression of the interleukin-5 gene.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>Transcription factor GATA-3 is differentially expressed in murine Th1 and Th2 cells and controls <clueLoc>Th2-specific</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> the interleukin-5 gene.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Transcription factor GATA-3 is differentially expressed in murine Th1 and Th2 cells and <clueType>controls</clueType> Th2-specific expression of the interleukin-5 gene.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T5" lex="Interleukin-5">Interleukin-5</term> (<term sem="Protein_molecule" id="T6" lex="IL-5">IL-5</term>), which is produced by <term sem="Cell_natural" id="T7" lex="CD4(+)_T_helper_2_(Th2)_cell">CD4(+) T helper 2 (Th2) cells</term>, but not by <term sem="Cell_natural" id="T8" lex="Th1_cell">Th1 cells</term>, plays a key role in the development of <term sem="Other" id="T9" lex="eosinophilia">eosinophilia</term> in <term sem="Other" id="T10" lex="asthma">asthma</term>.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Interleukin-5 (IL-5), which is <clueType>produced</clueType> <clueLoc>by CD4(+) T helper 2 (Th2) cells</clueLoc>, but not by Th1 cells, plays a key role in the development of eosinophilia in asthma.</clue>
+</event>
+<event assertion="non-exist" id="E5">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Interleukin-5 (IL-5), which is <clueType>produced</clueType> by CD4(+) T helper 2 (Th2) cells, but not <clueLoc>by Th1 cells</clueLoc>, plays a key role in the development of eosinophilia in asthma.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T9" />
+<clue>Interleukin-5 (IL-5), which is produced by CD4(+) T helper 2 (Th2) cells, but not by Th1 cells, plays a key role in the <clueType>development</clueType> <linkTheme>of</linkTheme> eosinophilia in asthma.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T6" />
+<clue>Interleukin-5 (IL-5), which is produced by CD4(+) T helper 2 (Th2) cells, but not by Th1 cells, <clueType>plays a key role</clueType> <linkTheme>in</linkTheme> the development of eosinophilia in asthma.</clue>
+</event>
+<sentence id="S3">Despite increasing evidence that the outcome of <term sem="Other" id="A2">many diseases</term> is determined by the ratio of the two subsets of <term sem="Cell_natural" id="T11" lex="CD4(+)_T_helper_cell">CD4(+) T helper cells</term>, <term sem="Cell_natural" id="T12" lex="Th1">Th1</term> and <term sem="Cell_natural" id="T13" lex="Th2">Th2</term>, the molecular basis for <cons sem="(AND Other Biologicai_process)" id="T14" lex="(AND Th1-_specific_gene_expression Th2-_specific_gene_expression)"><frag id="F5">Th1-</frag> and <frag id="F6">Th2-</frag> <frag id="F7">specific gene expression</frag></cons> remains to be elucidated.</sentence>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="A2" />
+<cause idref="T12" />
+<cause idref="T13" />
+<clue>Despite increasing evidence that the outcome of many diseases is <clueType>determined</clueType> <linkCause>by the ratio of</linkCause> the two subsets of CD4(+) T helper cells, Th1 and Th2, the molecular basis for Th1- and Th2- specific gene expression remains to be elucidated.</clue>
+</event>
+<sentence id="S4">We previously established a critical role for the <term sem="Protein_family_or_group" id="T15" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T16" lex="GATA-3">GATA-3</term> in <term sem="DNA_domain_or_region" id="T17" lex="IL-5_promoter"><term sem="Protein_molecule" id="T18" lex="IL-5">IL-5</term> promoter</term> activation in <term sem="Cell_cultured" id="T19" lex="EL-4_cell">EL-4 cells</term>, which express both <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T20" lex="(AND Th1-type_cytokine Th2-type_cytokine)"><frag id="F8"><term sem="Protein_family_or_group" id="A5">Th1-</term></frag> and <frag id="F9"><term sem="Protein_family_or_group" id="A6">Th2-</term></frag><frag id="F10"><term sem="Protein_family_or_group" id="A7">type cytokines</term></frag></cons>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<clue>We previously established a critical role for the transcription factor GATA-3 in IL-5 promoter <clueType>activation</clueType> in EL-4 cells, which express both Th1- and Th2-type cytokines.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T16" />
+<clue>We previously established a <clueType>critical role</clueType> <linkCause>for</linkCause> the transcription factor GATA-3 <linkTheme>in</linkTheme> IL-5 promoter activation <clueLoc>in EL-4 cells</clueLoc>, which express both Th1- and Th2-type cytokines.</clue>
+</event>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref1="A7" idref="A5" />
+<clue>We previously established a critical role for the transcription factor GATA-3 in IL-5 promoter activation in <clueLoc>EL-4 cells</clueLoc>, which <clueType>express</clueType> both Th1- and Th2-type cytokines.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref1="A7" idref="A6" />
+<clue>We previously established a critical role for the transcription factor GATA-3 in IL-5 promoter activation in <clueLoc>EL-4 cells</clueLoc>, which <clueType>express</clueType> both Th1- and Th2-type cytokines.</clue>
+</event>
+<sentence id="S5">Our studies reported here demonstrate that <term sem="Protein_molecule" id="T21" lex="GATA-3">GATA-3</term> is critical for expression of the <term sem="DNA_domain_or_region" id="T22" lex="IL-5">IL-5 gene</term> in <term sem="Cell_natural" id="T23" lex="bona_fide_Th2_cell">bona fide Th2 cells</term>.</sentence>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>Our studies reported here demonstrate that GATA-3 is critical for <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL-5 gene <clueLoc>in bona fide Th2 cells</clueLoc>.</clue>
+<comment>NER T22 MOD</comment>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T21" />
+<clue>Our studies reported here demonstrate that GATA-3 is <clueType>critical</clueType> <linkTheme>for</linkTheme> expression of the IL-5 gene <clueLoc>in bona fide Th2 cells</clueLoc>.</clue>
+</event>
+<sentence id="S6">Whereas mutations in the <term sem="DNA_domain_or_region" id="T24" lex="GATA-3">GATA-3 site</term> abolished <cons sem="(OR Other Other)" id="T25" lex="(OR antigen-_stimulated_IL-5_promoter_activation cAMP-_stimulated_IL-5_promoter_activation)"><frag id="F11"><term sem="Protein_family_or_group" id="A9">antigen</term>-</frag> or <frag id="F12"><term sem="Nucleotide" id="A10">cAMP</term>-</frag> <frag id="F13">stimulated <term sem="DNA_domain_or_region" id="A11">IL-5 promoter</term> activation</frag></cons> in <term sem="Cell_natural" id="A12">Th2 cells</term>, ectopic expression of <term sem="Protein_molecule" id="T26" lex="GATA-3">GATA-3</term> in <term sem="Cell_natural" id="T27" lex="Th1_cell">Th1 cells</term> or in a <term sem="Cell_cultured" id="T28" lex="non-lymphoid,_non-IL-5-producing_cell_line">non-lymphoid, non-<term sem="Protein_molecule" id="T29" lex="IL-5">IL-5</term>-producing cell line</term> activated the <term sem="DNA_domain_or_region" id="T30" lex="IL-5_promoter"><term sem="Protein_molecule" id="T31" lex="IL-5">IL-5</term> promoter</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="A11" />
+<cause idref="A9" />
+<clue>Whereas mutations in the GATA-3 site abolished antigen- or cAMP- <linkCause>stimulated</linkCause> IL-5 promoter <clueType>activation</clueType> in Th2 cells, ectopic expression of GATA-3 in Th1 cells or in a non-lymphoid, non-IL-5-producing cell line activated the IL-5 promoter.</clue>
+<comment>NER T24 MOD</comment>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="A11" />
+<cause idref="A10" />
+<clue>Whereas mutations in the GATA-3 site abolished antigen- or cAMP- <linkCause>stimulated</linkCause> IL-5 promoter <clueType>activation</clueType> in Th2 cells, ectopic expression of GATA-3 in Th1 cells or in a non-lymphoid, non-IL-5-producing cell line activated the IL-5 promoter.</clue>
+</event>
+<event id="E18">
+<type class="Mutagenesis" />
+<theme idref="T24" />
+<clue>Whereas <clueType>mutations</clueType> <linkTheme>in</linkTheme> the GATA-3 site abolished antigen- or cAMP- stimulated IL-5 promoter activation in Th2 cells, ectopic expression of GATA-3 in Th1 cells or in a non-lymphoid, non-IL-5-producing cell line activated the IL-5 promoter.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="E18" />
+<clue>Whereas mutations in the GATA-3 site <clueType>abolished</clueType> antigen- or cAMP- stimulated IL-5 promoter activation <clueLoc>in Th2 cells</clueLoc>, ectopic expression of GATA-3 in Th1 cells or in a non-lymphoid, non-IL-5-producing cell line activated the IL-5 promoter.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="E18" />
+<clue>Whereas mutations in the GATA-3 site <clueType>abolished</clueType> antigen- or cAMP- stimulated IL-5 promoter activation <clueLoc>in Th2 cells</clueLoc>, ectopic expression of GATA-3 in Th1 cells or in a non-lymphoid, non-IL-5-producing cell line activated the IL-5 promoter.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>Whereas mutations in the GATA-3 site abolished antigen- or cAMP- stimulated IL-5 promoter activation in Th2 cells, ectopic <clueType>expression</clueType> <linkTheme>of</linkTheme> GATA-3 <clueLoc>in Th1 cells</clueLoc> or in a non-lymphoid, non-IL-5-producing cell line activated the IL-5 promoter.</clue>
+</event>
+<event id="E121">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>Whereas mutations in the GATA-3 site abolished antigen- or cAMP- stimulated IL-5 promoter activation in Th2 cells, ectopic <clueType>expression</clueType> <linkTheme>of</linkTheme> GATA-3 in Th1 cells or <clueLoc>in a non-lymphoid, non-IL-5-producing cell line</clueLoc> activated the IL-5 promoter.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>Whereas mutations in the GATA-3 site abolished antigen- or cAMP- stimulated IL-5 promoter activation in Th2 cells, ectopic expression of GATA-3 in Th1 cells or in a <clueLoc>non-lymphoid</clueLoc>, non-IL-5-<clueType>producing</clueType> <clueLoc>cell line</clueLoc> activated the IL-5 promoter.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<cause idref="E21" />
+<clue>Whereas mutations in the GATA-3 site abolished antigen- or cAMP- stimulated IL-5 promoter activation in Th2 cells, ectopic expression of GATA-3 in Th1 cells or in a non-lymphoid, non-IL-5-producing cell line <clueType>activated</clueType> the IL-5 promoter.</clue>
+</event>
+<event id="E123">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<cause idref="E121" />
+<clue>Whereas mutations in the GATA-3 site abolished antigen- or cAMP- stimulated IL-5 promoter activation in Th2 cells, ectopic expression of GATA-3 in Th1 cells or in a non-lymphoid, non-IL-5-producing cell line <clueType>activated</clueType> the IL-5 promoter.</clue>
+</event>
+<sentence id="S7">During the differentiation of <term sem="Cell_natural" id="T32" lex="naive_CD4(+)_T_cell">naive CD4(+) T cells</term> isolated from <term sem="Multicellular_organism_genetically_modified" id="T33" lex="T_cell_receptor_transgenic_mouse">T cell receptor transgenic mice</term>, <term sem="DNA_domain_or_region" id="T34" lex="GATA-3">GATA-3 gene</term> expression was up-regulated in developing <term sem="Cell_natural" id="T35" lex="Th2_cell">Th2 cells</term>, but was down-regulated in <term sem="Cell_natural" id="T36" lex="Th1_cell">Th1 cells</term>, and <term sem="Cell_natural" id="T37" lex="antigen-_or_cAMP-activated_Th2_cell"><term sem="Protein_family_or_group" id="A14">antigen</term>- or <term sem="Nucleotide" id="A15">cAMP</term>-activated <term sem="Cell_natural" id="T38" lex="Th2_cell">Th2 cells</term></term> (but not <term sem="Cell_natural" id="T39" lex="Th1_cell">Th1 cells</term>) expressed the <term sem="Protein_molecule" id="T40" lex="GATA-3_protein"><term sem="Protein_molecule" id="T41" lex="GATA-3">GATA-3</term> protein</term>.</sentence>
+<event id="E24">
+<type class="Cell_differentiation" />
+<theme idref="T32" />
+<clue>During the <clueType>differentiation</clueType> <linkTheme>of</linkTheme> naive CD4(+) T cells isolated from T cell receptor transgenic mice, GATA-3 gene expression was up-regulated in developing Th2 cells, but was down-regulated in Th1 cells, and antigen- or cAMP-activated Th2 cells (but not Th1 cells) expressed the GATA-3 protein.</clue>
+</event>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref="T34" />
+<clue>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice, GATA-3 gene <clueType>expression</clueType> was up-regulated in developing Th2 cells, but was down-regulated in Th1 cells, and antigen- or cAMP-activated Th2 cells (but not Th1 cells) expressed the GATA-3 protein.</clue>
+<comment>NER T34 MOD</comment>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<clue><clueTime>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice</clueTime>, GATA-3 gene expression was <clueType>up-regulated</clueType> <clueLoc>in developing Th2 cells</clueLoc>, but was down-regulated in Th1 cells, and antigen- or cAMP-activated Th2 cells (but not Th1 cells) expressed the GATA-3 protein.</clue>
+</event>
+<event id="E27">
+<type class="Cell_differentiation" />
+<theme idref="T35" />
+<clue>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice, GATA-3 gene expression was up-regulated in <clueType>developing</clueType> Th2 cells, but was down-regulated in Th1 cells, and antigen- or cAMP-activated Th2 cells (but not Th1 cells) expressed the GATA-3 protein.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<clue><clueTime>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice</clueTime>, GATA-3 gene expression was up-regulated in developing Th2 cells, but was <clueType>down-regulated</clueType> <clueLoc>in Th1 cells</clueLoc>, and antigen- or cAMP-activated Th2 cells (but not Th1 cells) expressed the GATA-3 protein.</clue>
+</event>
+<event id="E128">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<clue><clueTime>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice</clueTime>, GATA-3 gene expression was up-regulated in developing Th2 cells, but was <clueType>down-regulated</clueType> <clueLoc>in</clueLoc> Th1 cells, and <clueLoc>antigen-</clueLoc> or cAMP-<clueLoc>activated Th2 cells</clueLoc> (but not Th1 cells) <clueLoc>expressed the GATA-3 protein</clueLoc>.</clue>
+</event>
+<event id="E228">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<clue><clueTime>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice</clueTime>, GATA-3 gene expression was up-regulated in developing Th2 cells, but was <clueType>down-regulated</clueType> <clueLoc>in</clueLoc> Th1 cells, and antigen- or <clueLoc>cAMP-activated Th2 cells</clueLoc> (but not Th1 cells) <clueLoc>expressed the GATA-3 protein</clueLoc>.</clue>
+</event>
+<event id="E29">
+<type class="Physiological_process" />
+<theme idref="T38" />
+<cause idref="A14" />
+<clue>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice, GATA-3 gene expression was up-regulated in developing Th2 cells, but was down-regulated in Th1 cells, and antigen- or cAMP-<clueType>activated</clueType> Th2 cells (but not Th1 cells) expressed the GATA-3 protein.</clue>
+</event>
+<event id="E30">
+<type class="Physiological_process" />
+<theme idref="T38" />
+<cause idref="A15" />
+<clue>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice, GATA-3 gene expression was up-regulated in developing Th2 cells, but was down-regulated in Th1 cells, and antigen- or cAMP-<clueType>activated</clueType> Th2 cells (but not Th1 cells) expressed the GATA-3 protein.</clue>
+</event>
+<event id="E31">
+<type class="Physiological_process" />
+<theme idref="T39" />
+<cause idref="A14" />
+<clue>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice, GATA-3 gene expression was up-regulated in developing Th2 cells, but was down-regulated in Th1 cells, and antigen- or cAMP-<clueType>activated</clueType> Th2 cells (but not Th1 cells) expressed the GATA-3 protein.</clue>
+</event>
+<event id="E32">
+<type class="Physiological_process" />
+<theme idref="T39" />
+<cause idref="A15" />
+<clue>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice, GATA-3 gene expression was up-regulated in developing Th2 cells, but was down-regulated in Th1 cells, and antigen- or cAMP-<clueType>activated</clueType> Th2 cells (but not Th1 cells) expressed the GATA-3 protein.</clue>
+</event>
+<event id="E33">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice, GATA-3 gene expression was up-regulated in developing Th2 cells, but was down-regulated in Th1 cells, and <clueLoc>antigen-</clueLoc> or cAMP-<clueLoc>activated Th2 cells</clueLoc> (but not Th1 cells) <clueType>expressed</clueType> the GATA-3 protein.</clue>
+</event>
+<event id="E133">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice, GATA-3 gene expression was up-regulated in developing Th2 cells, but was down-regulated in Th1 cells, and antigen- or <clueLoc>cAMP-activated Th2 cells</clueLoc> (but not Th1 cells) <clueType>expressed</clueType> the GATA-3 protein.</clue>
+</event>
+<event assertion="non-exist" id="E34">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<clue>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice, GATA-3 gene expression was up-regulated in developing Th2 cells, but was <clueType>down-regulated</clueType> <clueLoc>in</clueLoc> Th1 cells, and <clueLoc>antigen-</clueLoc> or cAMP-<clueLoc>activated</clueLoc> Th2 cells (but not <clueLoc>Th1 cells</clueLoc>) expressed the GATA-3 protein.</clue>
+</event>
+<event assertion="non-exist" id="E134">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<clue>During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice, GATA-3 gene expression was up-regulated in developing Th2 cells, but was <clueType>down-regulated</clueType> <clueLoc>in</clueLoc> Th1 cells, and antigen- or <clueLoc>cAMP-activated</clueLoc> Th2 cells (but not <clueLoc>Th1 cells</clueLoc>) expressed the GATA-3 protein.</clue>
+</event>
+<sentence id="S8">Thus, <term sem="Protein_molecule" id="T42" lex="GATA-3">GATA-3</term> may play an important role in the balance between <term sem="Cell_natural" id="T43" lex="Th1">Th1</term> and <term sem="Cell_natural" id="T44" lex="Th2_subset">Th2 subsets</term> in <term sem="Other" id="T45" lex="immune_response">immune responses</term>.</sentence>
+<event uncertainty="probable" id="E35">
+<type class="Regulation" />
+<theme idref="T43" />
+<theme idref="T44" />
+<cause idref="T42" />
+<clue>Thus, GATA-3 may <clueType>play an important role in the balance</clueType> <linkTheme>between</linkTheme> Th1 <linkTheme>and</linkTheme> Th2 subsets <clueTime>in immune responses</clueTime>.</clue>
+</event>
+<sentence id="S9">Inhibition of <term sem="Other" id="T46" lex="GATA-3_activity"><term sem="Protein_molecule" id="T47" lex="GATA-3">GATA-3</term> activity</term> has therapeutic potential in the treatment of <term sem="Other" id="T48" lex="asthma">asthma</term> and other <term sem="Other" id="T49" lex="hypereosinophilic_disease">hypereosinophilic diseases</term>.</sentence>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="T47" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> GATA-3 activity has therapeutic potential in the treatment of asthma and other hypereosinophilic diseases.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

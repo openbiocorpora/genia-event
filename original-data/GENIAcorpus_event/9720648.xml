@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="24/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9720648" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9720648</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="nuclear_factor-kappaB_induction"><term sem="Protein_molecule" id="T2" lex="nuclear_factor-kappaB">Nuclear factor-kappaB</term> induction</term> in <cons sem="(AND Cell_natural Cell_natural)" id="T3" lex="(AND CD45RO+_T_cell_subset CD45RA+_T_cell_subset)"><frag id="F1">CD45RO+</frag> and <frag id="F2">CD45RA+</frag> <frag id="F3">T cell subsets</frag></cons> during aging.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>Nuclear factor-kappaB <clueType>induction</clueType> <clueLoc>in CD45RO+</clueLoc> and CD45RA+ <clueLoc>T cell subsets</clueLoc> <clueTime>during aging</clueTime>.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>Nuclear factor-kappaB <clueType>induction</clueType> <clueLoc>in</clueLoc> CD45RO+ and <clueLoc>CD45RA+ T cell subsets</clueLoc> <clueTime>during aging</clueTime>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">An <term sem="Other" id="T37">increase</term> in the ratio of <cons sem="(TO Cell_natural Cell_natural)" id="C1" lex="(TO memory_T_cell naive_T_cell)"><frag id="F16">memory</frag> to <frag id="F17">naive</frag> <frag id="F18">T cells</frag></cons> has been postulated to underlie <term sem="Other" id="T5" lex="immune_hyporesponsiveness">immune hyporesponsiveness</term> accompanying <term sem="Other" id="A2">aging</term>.</sentence>
+<event id="E47">
+<type class="Cellular_physiological_process" />
+<theme idref1="F18" idref="F16" />
+<theme idref1="F18" idref="F17" />
+<clue>An increase in the ratio of memory <linkTheme>to</linkTheme> naive T cells has been postulated to underlie immune hyporesponsiveness accompanying aging.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E48">
+<type class="Positive_regulation" />
+<theme idref="E47" />
+<clue>An <clueType>increase</clueType> <linkTheme>in</linkTheme> the ratio of memory to naive T cells has been postulated to underlie immune hyporesponsiveness accompanying aging.</clue>
+</event>
+<event uncertainty="doubtful" id="E2">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="E48" />
+<clue>An increase in the ratio of memory to naive T cells has been postulated to <clueType>underlie</clueType> immune hyporesponsiveness accompanying aging.</clue>
+</event>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="T5" />
+<theme idref="A2" />
+<clue>An increase in the ratio of memory to naive T cells has been postulated to underlie immune hyporesponsiveness <clueType>accompanying</clueType> aging.</clue>
+</event>
+<sentence id="S3">Our analyses of the induction of <term sem="Protein_complex" id="T6" lex="nuclear_factor-kappaB">nuclear factor-kappaB</term> (<term sem="Protein_complex" id="T7" lex="NFkappaB">NFkappaB</term>) in activated <cons sem="(AND Cell_natural Cell_natural)" id="T8" lex="(AND memory_(CD45RO+)_T_cell_subset naive_(CD45RA+)_T_cell_subset)"><frag id="F4"><term sem="Cell_natural" id="A3">memory (CD45RO+)</term></frag> and <frag id="F5"><term sem="Cell_natural" id="A4">naive (CD45RA+)</term></frag> <frag id="F6"><term sem="Cell_natural" id="A5">T cell subsets</term></frag></cons> from young and elderly donors has demonstrated that, regardless of <term sem="Other" id="A6">donor age</term>, <term sem="Cell_natural" id="T9" lex="memory_T_cell">memory T cells</term> are not significantly altered in their responsiveness to <term sem="Protein_molecule" id="T11" lex="TNF-alpha">TNF-alpha</term>-mediated <term sem="Other" id="T10">induction</term> of <term sem="Protein_complex" id="T12" lex="NFkappaB">NFkappaB</term>.</sentence>
+<event uncertainty="doubtful" id="E4">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<clue>Our analyses of the <clueType>induction</clueType> <linkTheme>of</linkTheme> nuclear factor-kappaB (NFkappaB) <clueLoc>in activated memory (CD45RO+) and naive (CD45RA+) T cell subsets from young and elderly donors</clueLoc> has demonstrated that, regardless of donor age, memory T cells are not significantly altered in their responsiveness to TNF-alpha-mediated induction of NFkappaB.</clue>
+</event>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref1="A5" idref="A3" />
+<clue>Our analyses of the induction of nuclear factor-kappaB (NFkappaB) in <clueType>activated</clueType> memory (CD45RO+) and naive (CD45RA+) T cell subsets from young and elderly donors has demonstrated that, regardless of donor age, memory T cells are not significantly altered in their responsiveness to TNF-alpha-mediated induction of NFkappaB.</clue>
+</event>
+<event id="E6">
+<type class="Physiological_process" />
+<theme idref1="A5" idref="A4" />
+<clue>Our analyses of the induction of nuclear factor-kappaB (NFkappaB) in <clueType>activated</clueType> memory (CD45RO+) and naive (CD45RA+) T cell subsets from young and elderly donors has demonstrated that, regardless of donor age, memory T cells are not significantly altered in their responsiveness to TNF-alpha-mediated induction of NFkappaB.</clue>
+</event>
+<event assertion="non-exist" id="E7">
+<type class="Correlation" />
+<theme idref="E8" />
+<theme idref="A6" />
+<clue>Our analyses of the induction of nuclear factor-kappaB (NFkappaB) in activated memory (CD45RO+) and naive (CD45RA+) T cell subsets from young and elderly donors has demonstrated that, <clueType>regardless</clueType> <linkTheme>of</linkTheme> donor age, memory T cells are not significantly altered in their responsiveness to TNF-alpha-mediated induction of NFkappaB.</clue>
+</event>
+<event assertion="non-exist" id="E8">
+<type class="Regulation" />
+<theme idref="E9" />
+<clue>Our analyses of the induction of nuclear factor-kappaB (NFkappaB) in activated memory (CD45RO+) and naive (CD45RA+) T cell subsets from young and elderly donors has demonstrated that, regardless of donor age, memory T cells are not significantly <clueType>altered</clueType> <linkTheme>in</linkTheme> their responsiveness to TNF-alpha-mediated induction of NFkappaB.</clue>
+</event>
+<event id="E9">
+<type class="Physiological_process" />
+<theme idref="T9" />
+<cause idref="E10" />
+<clue>Our analyses of the induction of nuclear factor-kappaB (NFkappaB) in activated memory (CD45RO+) and naive (CD45RA+) T cell subsets from young and elderly donors has demonstrated that, regardless of donor age, memory T cells are not significantly altered in <corefTheme>their</corefTheme> <clueType>responsiveness</clueType> <linkCause>to</linkCause> TNF-alpha-mediated induction of NFkappaB.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="T11" />
+<clue>Our analyses of the induction of nuclear factor-kappaB (NFkappaB) in activated memory (CD45RO+) and naive (CD45RA+) T cell subsets from young and elderly donors has demonstrated that, regardless of donor age, memory T cells are not significantly altered in their responsiveness to TNF-alpha<linkCause>-mediated</linkCause> <clueType>induction</clueType> <linkTheme>of</linkTheme> NFkappaB.</clue>
+</event>
+<sentence id="S4">Although treatment with <term sem="Protein_molecule" id="T13" lex="TNF-alpha">TNF-alpha</term> induced <term sem="Other" id="T14" lex="nuclear_localization"><term sem="Cell_component" id="T4">nuclear</term> localization</term> of <term sem="Protein_complex" id="T15" lex="NFkappaB">NFkappaB</term> in both <cons sem="(AND Cell_natural Cell_natural)" id="T16" lex="(AND memory_T_cell_subset naive_T_cell_subset)"><frag id="F7">memory</frag> and <frag id="F8">naive</frag> <frag id="F9">T cell subsets</frag></cons>, irrespective of the <term sem="Other" id="T36">age</term> of the donor, the levels of induced <term sem="Protein_complex" id="T17" lex="NFkappaB">NFkappaB</term> were significantly lower in both subsets of <term sem="Cell_natural" id="T18" lex="T_cell">T cells</term> obtained from the elderly, when compared to those in young.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T13" />
+<clue>Although treatment with TNF-alpha <clueType>induced</clueType> nuclear localization of NFkappaB in both memory and naive T cell subsets, irrespective of the age of the donor, the levels of induced NFkappaB were significantly lower in both subsets of T cells obtained from the elderly, when compared to those in young.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation" />
+<theme idref="E41" />
+<cause idref="T13" />
+<clue>Although treatment with TNF-alpha <clueType>induced</clueType> nuclear localization of NFkappaB in both memory and naive T cell subsets, irrespective of the age of the donor, the levels of induced NFkappaB were significantly lower in both subsets of T cells obtained from the elderly, when compared to those in young.</clue>
+</event>
+<event id="E12">
+<type class="Localization" />
+<theme idref="T15" />
+<clue>Although treatment with TNF-alpha induced <clueLoc>nuclear</clueLoc> <clueType>localization</clueType> <linkTheme>of</linkTheme> NFkappaB <clueLoc>in</clueLoc> both <clueLoc>memory</clueLoc> and naive <clueLoc>T cell subsets</clueLoc>, irrespective of the age of the donor, the levels of induced NFkappaB were significantly lower in both subsets of T cells obtained from the elderly, when compared to those in young.</clue>
+</event>
+<event id="E41">
+<type class="Localization" />
+<theme idref="T15" />
+<clue>Although treatment with TNF-alpha induced <clueLoc>nuclear</clueLoc> <clueType>localization</clueType> <linkTheme>of</linkTheme> NFkappaB <clueLoc>in</clueLoc> both memory and <clueLoc>naive T cell subsets</clueLoc>, irrespective of the age of the donor, the levels of induced NFkappaB were significantly lower in both subsets of T cells obtained from the elderly, when compared to those in young.</clue>
+</event>
+<event assertion="non-exist" id="E13">
+<type class="Correlation" />
+<theme idref="E11" />
+<theme idref="T36" />
+<clue>Although treatment with TNF-alpha induced nuclear localization of NFkappaB in both memory and naive T cell subsets, <clueType>irrespective</clueType> <linkTheme>of</linkTheme> the age of the donor, the levels of induced NFkappaB were significantly lower in both subsets of T cells obtained from the elderly, when compared to those in young.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<clue>Although treatment with TNF-alpha induced nuclear localization of NFkappaB in both memory and naive T cell subsets, irrespective of the age of the donor, the levels of <clueType>induced</clueType> NFkappaB were significantly lower <clueLoc>in both subsets of T cells obtained from the elderly</clueLoc>, when compared to those in young.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue>Although treatment with TNF-alpha induced nuclear localization of NFkappaB in both memory and naive T cell subsets, irrespective of the age of the donor, the levels of <clueType>induced</clueType> NFkappaB were significantly lower in both subsets of T cells obtained from the elderly, when compared to <corefTheme>those</corefTheme> <clueLoc>in young</clueLoc>.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<sentence id="S5">Examination of <term sem="Other" id="T19" lex="IkappaB_alpha_regulation"><term sem="Protein_molecule" id="T20" lex="IkappaB_alpha">IkappaB alpha</term> regulation</term> revealed that <term sem="Protein_molecule" id="T22" lex="TNF-alpha">TNF-alpha</term>-mediated <term sem="Other" id="T21">degradation</term> of <term sem="Protein_molecule" id="T23" lex="IkappaB_alpha">IkappaB alpha</term> in both <cons sem="(AND Cell_natural Cell_natural)" id="T24" lex="(AND memory_T_cell naive_T_cell)"><frag id="F10">memory</frag> and <frag id="F11">naive</frag> <frag id="F12">T cells</frag></cons> from the elderly was severely impaired, thus contributing to the lowered induction of the observed <term sem="Protein_complex" id="T25" lex="NFkappaB">NFkappaB</term>.</sentence>
+<event uncertainty="doubtful" id="E16">
+<type class="Regulation" />
+<theme idref="T20" />
+<clue>Examination of IkappaB alpha <clueType>regulation</clueType> revealed that TNF-alpha-mediated degradation of IkappaB alpha in both memory and naive T cells from the elderly was severely impaired, thus contributing to the lowered induction of the observed NFkappaB.</clue>
+</event>
+<event id="E17">
+<type class="Protein_catabolism" />
+<theme idref="T23" />
+<clue>Examination of IkappaB alpha regulation revealed that TNF-alpha-mediated <clueType>degradation</clueType> <linkTheme>of</linkTheme> IkappaB alpha <clueLoc>in</clueLoc> both <clueLoc>memory</clueLoc> and naive <clueLoc>T cells from the elderly</clueLoc> was severely impaired, thus contributing to the lowered induction of the observed NFkappaB.</clue>
+</event>
+<event id="E43">
+<type class="Protein_catabolism" />
+<theme idref="T23" />
+<clue>Examination of IkappaB alpha regulation revealed that TNF-alpha-mediated <clueType>degradation</clueType> <linkTheme>of</linkTheme> IkappaB alpha <clueLoc>in</clueLoc> both memory and <clueLoc>naive T cells from the elderly</clueLoc> was severely impaired, thus contributing to the lowered induction of the observed NFkappaB.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T22" />
+<clue>Examination of IkappaB alpha regulation revealed that TNF-alpha-<clueType>mediated</clueType> degradation of IkappaB alpha in both memory and naive T cells from the elderly was severely impaired, thus contributing to the lowered induction of the observed NFkappaB.</clue>
+</event>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="E43" />
+<cause idref="T22" />
+<clue>Examination of IkappaB alpha regulation revealed that TNF-alpha-<clueType>mediated</clueType> degradation of IkappaB alpha in both memory and naive T cells from the elderly was severely impaired, thus contributing to the lowered induction of the observed NFkappaB.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<clue>Examination of IkappaB alpha regulation revealed that TNF-alpha-mediated degradation of IkappaB alpha in both memory and naive T cells from the elderly was severely <clueType>impaired</clueType>, thus contributing to the lowered induction of the observed NFkappaB.</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<clue>Examination of IkappaB alpha regulation revealed that TNF-alpha-mediated degradation of IkappaB alpha in both memory and naive T cells from the elderly was severely <clueType>impaired</clueType>, thus contributing to the lowered induction of the observed NFkappaB.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="E18" />
+<clue>Examination of IkappaB alpha regulation revealed that TNF-alpha-mediated degradation of IkappaB alpha in both memory and naive T cells from the elderly was severely impaired, thus <clueType>contributing</clueType> <linkTheme>to</linkTheme> the <clueType>lowered</clueType> induction of the observed NFkappaB.</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="E45" />
+<clue>Examination of IkappaB alpha regulation revealed that TNF-alpha-mediated degradation of IkappaB alpha in both memory and naive T cells from the elderly was severely impaired, thus <clueType>contributing</clueType> <linkTheme>to</linkTheme> the <clueType>lowered</clueType> induction of the observed NFkappaB.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<clue>Examination of IkappaB alpha regulation revealed that TNF-alpha-mediated degradation of IkappaB alpha in both memory and naive T cells from the elderly was severely impaired, thus contributing to the lowered <clueType>induction</clueType> <linkTheme>of</linkTheme> the observed NFkappaB.</clue>
+</event>
+<sentence id="S6">In addition, this <term sem="Other" id="A8">age</term>-related decrease in induction of <term sem="Protein_complex" id="T26" lex="nuclear_NFkappaB">nuclear <term sem="Protein_complex" id="T27" lex="NFkappaB">NFkappaB</term></term> correlated with decrease in intracellular <term sem="Other" id="T28" lex="IL-2_receptor_expression"><term sem="Protein_molecule" id="A9"><term sem="Protein_molecule" id="T29" lex="IL-2">IL-2</term> receptor</term> expression</term> and <term sem="Protein_molecule" id="T31" lex="anti-CD3">anti-CD3</term>-induced <term sem="Other" id="T30">proliferation</term> of both <cons sem="(AND Cell_natural Cell_natural)" id="T32" lex="(AND memory_T_cell_subset naive_T_cell_subset)"><frag id="F13"><term sem="Cell_natural" id="A10">memory</term></frag> and <frag id="F14"><term sem="Cell_natural" id="A11">naive</term></frag> <frag id="F15"><term sem="Cell_natural" id="A12">T cells subsets</term></frag></cons>.</sentence>
+<event id="E21">
+<type class="Correlation" />
+<theme idref="A8" />
+<theme idref="E22" />
+<clue>In addition, this age-<clueType>related</clueType> decrease in induction of nuclear NFkappaB correlated with decrease in intracellular IL-2 receptor expression and anti-CD3-induced proliferation of both memory and naive T cells subsets.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<clue>In addition, this age-related <clueType>decrease</clueType> <linkTheme>in</linkTheme> induction of nuclear NFkappaB correlated with decrease in intracellular IL-2 receptor expression and anti-CD3-induced proliferation of both memory and naive T cells subsets.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<clue>In addition, this age-related decrease in <clueType>induction</clueType> <linkTheme>of</linkTheme> nuclear NFkappaB correlated with decrease in intracellular IL-2 receptor expression and anti-CD3-induced proliferation of both memory and naive T cells subsets.</clue>
+</event>
+<event id="E24">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E26" />
+<clue>In addition, this age-related decrease in induction of nuclear NFkappaB <clueType>correlated</clueType> <linkTheme>with</linkTheme> decrease in intracellular IL-2 receptor expression and anti-CD3-induced proliferation of both memory and naive T cells subsets.</clue>
+</event>
+<event id="E25">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E27" />
+<clue>In addition, this age-related decrease in induction of nuclear NFkappaB <clueType>correlated</clueType> <linkTheme>with</linkTheme> decrease in intracellular IL-2 receptor expression and anti-CD3-induced proliferation of both memory and naive T cells subsets.</clue>
+</event>
+<event id="E33">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E32" />
+<clue>In addition, this age-related decrease in induction of nuclear NFkappaB <clueType>correlated</clueType> <linkTheme>with</linkTheme> decrease in intracellular IL-2 receptor expression and anti-CD3-induced proliferation of both memory and naive T cells subsets.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<clue>In addition, this age-related decrease in induction of nuclear NFkappaB correlated with <clueType>decrease</clueType> <linkTheme>in</linkTheme> intracellular IL-2 receptor expression and anti-CD3-induced proliferation <clueLoc>of</clueLoc> both <clueLoc>memory</clueLoc> and naive <clueLoc>T cells subsets</clueLoc>.</clue>
+</event>
+<event id="E39">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<clue>In addition, this age-related decrease in induction of nuclear NFkappaB correlated with <clueType>decrease</clueType> <linkTheme>in</linkTheme> intracellular IL-2 receptor expression and anti-CD3-induced proliferation <clueLoc>of</clueLoc> both memory and <clueLoc>naive T cells subsets</clueLoc>.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<clue>In addition, this age-related decrease in induction of nuclear NFkappaB correlated with <clueType>decrease</clueType> <linkTheme>in</linkTheme> intracellular IL-2 receptor expression and anti-CD3-induced proliferation of both memory and naive T cells subsets.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="E30" />
+<clue>In addition, this age-related decrease in induction of nuclear NFkappaB correlated with <clueType>decrease</clueType> <linkTheme>in</linkTheme> intracellular IL-2 receptor expression and anti-CD3-induced proliferation of both memory and naive T cells subsets.</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="A9" />
+<clue>In addition, this age-related decrease in induction of nuclear NFkappaB correlated with decrease in <clueLoc>intracellular</clueLoc> IL-2 receptor <clueType>expression</clueType> and anti-CD3-induced proliferation of both memory and naive T cells subsets.</clue>
+</event>
+<event id="E29">
+<type class="Cellular_physiological_process" />
+<theme idref1="A12" idref="A10" />
+<clue>In addition, this age-related decrease in induction of nuclear NFkappaB correlated with decrease in intracellular IL-2 receptor expression and anti-CD3-induced <clueType>proliferation</clueType> <linkTheme>of</linkTheme> both memory and naive T cells subsets.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="T31" />
+<clue>In addition, this age-related decrease in induction of nuclear NFkappaB correlated with decrease in intracellular IL-2 receptor expression and anti-CD3-<clueType>induced</clueType> proliferation of both memory and naive T cells subsets.</clue>
+</event>
+<event id="E30">
+<type class="Cellular_physiological_process" />
+<theme idref1="A12" idref="A11" />
+<clue>In addition, this age-related decrease in induction of nuclear NFkappaB correlated with decrease in intracellular IL-2 receptor expression and anti-CD3-induced <clueType>proliferation</clueType> <linkTheme>of</linkTheme> both memory and naive T cells subsets.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="T31" />
+<clue>In addition, this age-related decrease in induction of nuclear NFkappaB correlated with decrease in intracellular IL-2 receptor expression and anti-CD3-<clueType>induced</clueType> proliferation of both memory and naive T cells subsets.</clue>
+</event>
+<sentence id="S7">Taken together, our results suggest that the <term sem="Other" id="A13">age</term>-related <term sem="Other" id="T33" lex="hyporesponsiveness">hyporesponsiveness</term> cannot be attributed to a skewing of the <term sem="Cell_natural" id="T34" lex="T_cell_population">T cell population</term> towards a <term sem="Cell_natural" id="T35" lex="memory_phenotype">memory phenotype</term> in the elderly.</sentence>
+<event id="E31">
+<type class="Correlation" />
+<theme idref="A13" />
+<theme idref="T33" />
+<clue>Taken together, our results suggest that the age-<clueType>related</clueType> hyporesponsiveness cannot be attributed to a skewing of the T cell population towards a memory phenotype in the elderly.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E34">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<cause idref="E35" />
+<clue>Taken together, our results suggest that the age-related hyporesponsiveness cannot be <clueType>attributed</clueType> <linkCause>to</linkCause> a skewing of the T cell population towards a memory phenotype in the elderly.</clue>
+</event>
+<event id="E35">
+<type class="Regulation" />
+<theme idref="T34" />
+<clue>Taken together, our results suggest that the age-related hyporesponsiveness cannot be attributed to a <clueType>skewing</clueType> <linkTheme>of</linkTheme> the T cell population towards a memory phenotype <clueLoc>in the elderly</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="23/08/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8872606" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8872606</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="T1" lex="soluble_factor">Soluble factors</term> secreted by <term sem="Cell_natural" id="T2" lex="activated_T-lymphocyte">activated <term sem="Cell_natural" id="A1">T-lymphocytes</term></term> modulate the transcription of the <term sem="Protein_family_or_group" id="T3" lex="immunosuppressive_cytokine">immunosuppressive cytokine</term> <term sem="Protein_molecule" id="T4" lex="TGF-beta_2">TGF-beta 2</term> in <term sem="Cell_natural" id="T5" lex="glial_cell">glial cells</term>.</sentence>
+<event id="E1">
+<type class="Localization" />
+<theme idref="T1" />
+<clue>Soluble factors <clueType>secreted</clueType> <clueLoc>by activated T-lymphocytes</clueLoc> modulate the transcription of the immunosuppressive cytokine TGF-beta 2 in glial cells.</clue>
+</event>
+<event id="E2">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<clue>Soluble factors secreted by <clueType>activated</clueType> T-lymphocytes modulate the transcription of the immunosuppressive cytokine TGF-beta 2 in glial cells.</clue>
+</event>
+<event id="E3">
+<type class="Transcription" />
+<theme idref="T4" />
+<clue>Soluble factors secreted by activated T-lymphocytes modulate the <clueType>transcription</clueType> <linkTheme>of</linkTheme> the immunosuppressive cytokine TGF-beta 2 <clueLoc>in glial cells</clueLoc>.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="T1" />
+<clue>Soluble factors secreted by activated T-lymphocytes <clueType>modulate</clueType> the transcription of the immunosuppressive cytokine TGF-beta 2 in glial cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Coordination of the immune response to <term sem="Other" id="A2">injury</term> or <term sem="Other" id="A3">disease</term> in the <term sem="Body_region" id="T6" lex="brain">brain</term> is postulated to involve bi-directional discourse between the <term sem="Body_region" id="T7" lex="immune_system">immune system</term> and the <term sem="Body_region" id="T8" lex="central_nervous_system">central nervous system</term>.</sentence>
+<event id="E5">
+<type class="Physiological_process" />
+<cause idref="A1" />
+<clue>Coordination of the <clueType>immune response</clueType> <linkCause>to</linkCause> injury or disease in the brain is postulated to involve bi-directional discourse between the immune system and the central nervous system.</clue>
+</event>
+<event id="E6">
+<type class="Physiological_process" />
+<cause idref="A2" />
+<clue>Coordination of the <clueType>immune response</clueType> <linkCause>to</linkCause> injury or disease in the brain is postulated to involve bi-directional discourse between the immune system and the central nervous system.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="E5" />
+<clue><clueType>Coordination</clueType> <linkTheme>of</linkTheme> the immune response to injury or disease <clueLoc>in the brain</clueLoc> is postulated to involve bi-directional discourse between the immune system and the central nervous system.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="E6" />
+<clue><clueType>Coordination</clueType> <linkTheme>of</linkTheme> the immune response to injury or disease <clueLoc>in the brain</clueLoc> is postulated to involve bi-directional discourse between the immune system and the central nervous system.</clue>
+</event>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="T7" />
+<theme idref="T8" />
+<clue>Coordination of the immune response to injury or disease in the brain is postulated to involve bi-directional <clueType>discourse</clueType> <linkTheme>between</linkTheme> the immune system and the central nervous system.</clue>
+</event>
+<event uncertainty="probable" id="E9">
+<type class="Correlation" />
+<theme idref="E7" />
+<theme idref="E8" />
+<clue>Coordination of the immune response to injury or disease in the brain is postulated to <clueType>involve</clueType> bi-directional discourse between the immune system and the central nervous system.</clue>
+</event>
+<event uncertainty="probable" id="E26">
+<type class="Correlation" />
+<theme idref="E10" />
+<theme idref="E8" />
+<clue>Coordination of the immune response to injury or disease in the brain is postulated to <clueType>involve</clueType> bi-directional discourse between the immune system and the central nervous system.</clue>
+</event>
+<sentence id="S3">This cross communication involves soluble mediators, including various <term sem="Protein_family_or_group" id="T9" lex="growth_factor">growth factors</term>, <term sem="Protein_family_or_group" id="T10" lex="cytokine">cytokines</term>, and <term sem="Peptide" id="T11" lex="neuropeptide">neuropeptides</term>.</sentence>
+<event id="E11">
+<type class="Correlation" />
+<theme idref="E8" />
+<theme idref="T9" />
+<clue><corefTheme idref1="E8">This cross communication</corefTheme> <clueType>involves</clueType> <corefTheme idref1="T9">soluble mediators</corefTheme>, including various growth factors, cytokines, and neuropeptides.</clue>
+</event>
+<event id="E12">
+<type class="Correlation" />
+<theme idref="E8" />
+<theme idref="T10" />
+<clue><corefTheme idref1="E8">This cross communication</corefTheme> <clueType>involves</clueType> <corefTheme idref1="T10">soluble mediators</corefTheme>, including various growth factors, cytokines, and neuropeptides.</clue>
+</event>
+<event id="E13">
+<type class="Correlation" />
+<theme idref="E8" />
+<theme idref="T11" />
+<clue><corefTheme idref1="E8">This cross communication</corefTheme> <clueType>involves</clueType> <corefTheme idref1="T11">soluble mediators</corefTheme>, including various growth factors, cytokines, and neuropeptides.</clue>
+</event>
+<sentence id="S4">In this report, we demonstrate that the <term sem="Tissue_natural" id="A4">supernatant from <term sem="Cell_natural" id="T12" lex="activated_T-lymphocyte">activated <term sem="Cell_natural" id="A5">T-lymphocyte</term>s</term></term> is able to induce the transcription of a potent <term sem="Protein_family_or_group" id="T13" lex="cytokine">cytokine</term>, <term sem="Protein_molecule" id="T14" lex="TGF-beta_2">TGF-beta 2</term> in <term sem="Cell_natural" id="T15" lex="glial_cell">glial cells</term>.</sentence>
+<event id="E14">
+<type class="Transcription" />
+<theme idref="T14" />
+<clue>In this report, we demonstrate that the supernatant from activated T-lymphocytes is able to induce the <clueType>transcription</clueType> <linkTheme>of</linkTheme> a potent cytokine, TGF-beta 2 in glial cells.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="A4" />
+<clue>In this report, we demonstrate that the supernatant from activated T-lymphocytes is able to <clueType>induce</clueType> the transcription of a potent cytokine, TGF-beta 2 <clueLoc>in glial cells</clueLoc>.</clue>
+</event>
+<event id="E16">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<clue>In this report, we demonstrate that the supernatant from <clueType>activated</clueType> T-lymphocytes is able to induce the transcription of a potent cytokine, TGF-beta 2 in glial cells.</clue>
+<comment>TPS A4</comment>
+</event>
+<sentence id="S5">The activating stimulus invokes signaling mechanisms distinct from known <cons sem="(OR Other Other)" id="T16" lex="(OR kinase_pathway protease_pathway)"><frag id="F1">kinase</frag> or <frag id="F2">protease</frag> <frag id="F3">pathways</frag></cons>.</sentence>
+<sentence id="S6">Activation of <term sem="Other" id="T17" lex="TGF-beta_2_transcription"><term sem="Protein_molecule" id="T18" lex="TGF-beta_2">TGF-beta 2</term> transcription</term> correlates with the loss of binding activity for an <term sem="Protein_molecule" id="T19" lex="80_kDA_glial_labile_repressor_protein">80 kDA glial labile repressor protein</term>, <term sem="Protein_molecule" id="T20" lex="GLRP">GLRP</term>, to a responsive region within the <term sem="DNA_domain_or_region" id="T21" lex="TFG-beta_2_promoter">TFG-beta 2 promoter</term>.</sentence>
+<event id="E17">
+<type class="Transcription" />
+<theme idref="T18" />
+<clue>Activation of TGF-beta 2 <clueType>transcription</clueType> correlates with the loss of binding activity for an 80 kDA glial labile repressor protein, GLRP, to a responsive region within the TFG-beta 2 promoter.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> TGF-beta 2 transcription correlates with the loss of binding activity for an 80 kDA glial labile repressor protein, GLRP, to a responsive region within the TFG-beta 2 promoter.</clue>
+</event>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T20" />
+<theme idref="T21" />
+<clue>Activation of TGF-beta 2 transcription correlates with the loss of <clueType>binding activity</clueType> <linkTheme>for</linkTheme> an 80 kDA glial labile repressor protein, GLRP, <linkTheme>to</linkTheme> a responsive region within the TFG-beta 2 promoter.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<clue>Activation of TGF-beta 2 transcription correlates with the <clueType>loss</clueType> <linkTheme>of</linkTheme> binding activity for an 80 kDA glial labile repressor protein, GLRP, to a responsive region within the TFG-beta 2 promoter.</clue>
+</event>
+<event id="E21">
+<type class="Correlation" />
+<theme idref="E18" />
+<theme idref="E20" />
+<clue>Activation of TGF-beta 2 transcription <clueType>correlates</clueType> <linkTheme>with</linkTheme> the loss of binding activity for an 80 kDA glial labile repressor protein, GLRP, to a responsive region within the TFG-beta 2 promoter.</clue>
+</event>
+<sentence id="S7">Although <term sem="Protein_molecule" id="T22" lex="GLRP">GLRP</term> shares some characteristics with the inducible <term sem="Protein_family_or_group" id="T23" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T24" lex="AP-1">AP-1</term>, it appears to be distinct from known <term sem="Protein_family_or_group" id="T25" lex="AP-1_family_members"><term sem="Protein_molecule" id="T26" lex="AP-1">AP-1</term> family members</term>.</sentence>
+<sentence id="S8">These data along with previous observations demonstrating the potent <term sem="Other" id="T27" lex="immunosuppressive_activity"><term sem="Other" id="A6">immuno</term>suppressive activity</term> of <term sem="Protein_molecule" id="T28" lex="TGF-beta_2">TGF-beta 2</term>, support a model for a feedback mechanism between the <term sem="Cell_natural" id="T29" lex="T-lymphocyte">activated <term sem="Cell_natural" id="A101">T-lymphocytes</term></term> and <term sem="Cell_natural" id="T30" lex="astrocyte">astrocytes</term> via <term sem="Protein_molecule" id="T31" lex="TGF-beta_2">TGF-beta 2</term> to regulate the <term sem="Other" id="T32" lex="immune_response">immune response</term>.</sentence>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="A6" />
+<cause idref="T28" />
+<clue>These data along with previous observations demonstrating the potent <clueType>immunosuppressive activity</clueType> <linkCause>of</linkCause> TGF-beta 2, support a model for a feedback mechanism between the activated T-lymphocytes and astrocytes via TGF-beta 2 to regulate the immune response.</clue>
+<comment>NER T29 MOD</comment>
+</event>
+<event id="E23">
+<type class="Regulation" />
+<theme idref="T29" />
+<cause idref="T30" />
+<clue>These data along with previous observations demonstrating the potent immunosuppressive activity of TGF-beta 2, support a model for a <clueType>feedback mechanism</clueType> <linkTheme>between</linkTheme> the activated T-lymphocytes and astrocytes via TGF-beta 2 to regulate the immune response.</clue>
+</event>
+<event id="E123">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="T31" />
+<clue>These data along with previous observations demonstrating the potent immunosuppressive activity of TGF-beta 2, support a model for a feedback mechanism between the activated T-lymphocytes and astrocytes <linkCause>via</linkCause> TGF-beta 2 to regulate the immune response.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E24">
+<type class="Regulation" />
+<theme idref="T32" />
+<cause idref="E123" />
+<clue>These data along with previous observations demonstrating the potent immunosuppressive activity of TGF-beta 2, support a model for a feedback mechanism between the activated T-lymphocytes and astrocytes via TGF-beta 2 to <clueType>regulate</clueType> the immune response.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="A101" />
+<clue>These data along with previous observations demonstrating the potent immunosuppressive activity of TGF-beta 2, support a model for a feedback mechanism between the <clueType>activated</clueType> T-lymphocytes and astrocytes via TGF-beta 2 to regulate the immune response.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

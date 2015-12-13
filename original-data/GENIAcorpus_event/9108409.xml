@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/06/28" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9108409" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9108409</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Two distinct pathways of <term sem="Other" id="T1" lex="interleukin-5_synthesis"><term sem="Protein_molecule" id="T2" lex="interleukin-5">interleukin-5</term> synthesis</term> in <term sem="Cell_cultured" id="T3" lex="allergen-specific_human_T-cell_clone">allergen-specific human T-cell clones</term> are suppressed by <term sem="Lipid" id="T4" lex="glucocorticoid">glucocorticoids</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Two distinct pathways of interleukin-5 <clueType>synthesis</clueType> <clueLoc>in allergen-specific human T-cell clones</clueLoc> are suppressed by glucocorticoids.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T4" />
+<clue>Two distinct pathways of interleukin-5 synthesis <clueLoc>in allergen-specific human T-cell clones</clueLoc> are <clueType>suppressed</clueType> <linkCause>by</linkCause> glucocorticoids.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Lipid" id="T5" lex="glucocorticoid">Glucocorticoids</term> (<term sem="Lipid" id="T6" lex="GC">GC</term>) have long been used as the most effective agents for the treatment of <term sem="Other" id="T7" lex="allergic_disease">allergic diseases</term> accompanied by <term sem="Other" id="T8" lex="eosinophilia">eosinophilia</term> such as <term sem="Other" id="T9" lex="chronic_asthma">chronic asthma</term> and <term sem="Other" id="T10" lex="atopic_dermatitis">atopic dermatitis</term>.</sentence>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="T7" />
+<cause idref="T6" />
+<clue>Glucocorticoids (GC) have long been used as the most <clueType>effective agents</clueType> <linkTheme>for</linkTheme> the treatment of allergic diseases accompanied by eosinophilia such as chronic asthma and atopic dermatitis.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="T7" />
+<cause idref="T9" />
+<clue>Glucocorticoids (GC) have long been used as the most effective agents for the treatment of allergic diseases <clueType>accompanied</clueType> <linkCause>by</linkCause> <corefCause>eosinophilia</corefCause> such as chronic asthma and atopic dermatitis.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T7" />
+<cause idref="T10" />
+<clue>Glucocorticoids (GC) have long been used as the most effective agents for the treatment of allergic diseases <clueType>accompanied</clueType> <linkCause>by</linkCause> <corefCause>eosinophilia</corefCause> such as chronic asthma and atopic dermatitis.</clue>
+</event>
+<sentence id="S3">The development of <term sem="Other" id="T11" lex="chronic_eosinophilic_inflammation">chronic eosinophilic inflammation</term> is dependent on <term sem="Protein_molecule" id="T12" lex="interleukin-5">interleukin-5</term> (<term sem="Protein_molecule" id="T13" lex="IL-5">IL-5</term>), a <term sem="Protein_family_or_group" id="T14" lex="selective_eosinophil-activating_factor">selective eosinophil-activating factor</term>, produced by <term sem="Cell_natural" id="T15" lex="helper_T_cell">helper T cells</term>.</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<clue>The <clueType>development</clueType> <linkTheme>of</linkTheme> chronic eosinophilic inflammation is dependent on interleukin-5 (IL-5), a selective eosinophil-activating factor, produced by helper T cells.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T13" />
+<clue>The development of chronic eosinophilic inflammation is <clueType>dependent</clueType> <linkCause>on</linkCause> interleukin-5 (IL-5), a selective eosinophil-activating factor, produced by helper T cells.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>The development of chronic eosinophilic inflammation is dependent on interleukin-5 (IL-5), a selective eosinophil-activating factor, <clueType>produced</clueType> <clueLoc>by helper T cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">To delineate the regulatory mechanisms of <term sem="Other" id="T16" lex="human_IL-5_synthesis">human <term sem="Protein_molecule" id="T17" lex="IL-5">IL-5</term> synthesis</term>, we established <term sem="Cell_cultured" id="T18" lex="allergen-specific_CD4+_T-cell_clone">allergen-specific CD4+ T-cell clones</term> from <term sem="Multicellular_organism_natural" id="T19" lex="asthmatic_patient">asthmatic patients</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>To delineate the regulatory mechanisms of human IL-5 <clueType>synthesis</clueType>, we established <clueLoc>allergen-specific CD4+ T-cell clones from asthmatic patients</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E10">
+<type class="Regulation" />
+<theme idref="E9" />
+<clue>To delineate the <clueType>regulatory</clueType> mechanisms <linkTheme>of</linkTheme> human IL-5 synthesis, we established <clueLoc>allergen-specific CD4+ T-cell clones from asthmatic patients</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term sem="Lipid" id="T20" lex="GC">GC</term> efficiently suppressed <term sem="Other" id="T21" lex="IL-5_synthesis"><term sem="Protein_molecule" id="T22" lex="IL-5">IL-5</term> synthesis</term> of <term sem="Cell_cultured" id="A8">T-cell clones</term> activated via either <term sem="Protein_family_or_group" id="T23" lex="T-cell_receptor">T-cell receptor</term> (<term sem="Protein_family_or_group" id="T24" lex="TCR">TCR</term>) or <term sem="Protein_molecule" id="T25" lex="IL-2_receptor">IL-2 receptor</term> (<term sem="Protein_molecule" id="T26" lex="IL-2R">IL-2R</term>).</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>GC efficiently suppressed IL-5 <clueType>synthesis</clueType> <clueLoc>of T-cell clones</clueLoc> activated via either T-cell receptor (TCR) or IL-2 receptor (IL-2R).</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="T20" />
+<clue>GC efficiently <clueType>suppressed</clueType> IL-5 synthesis <clueLoc>of T-cell clones</clueLoc> activated via either T-cell receptor (TCR) or IL-2 receptor (IL-2R).</clue>
+</event>
+<event id="E13">
+<type class="Physiological_process" />
+<theme idref="A8" />
+<cause idref="T24" />
+<clue>GC efficiently suppressed IL-5 synthesis of T-cell clones <clueType>activated</clueType> <linkCause>via</linkCause> either T-cell receptor (TCR) or IL-2 receptor (IL-2R).</clue>
+</event>
+<event id="E14">
+<type class="Physiological_process" />
+<theme idref="A8" />
+<cause idref="T26" />
+<clue>GC efficiently suppressed IL-5 synthesis of T-cell clones <clueType>activated</clueType> <linkCause>via</linkCause> either T-cell receptor (TCR) or IL-2 receptor (IL-2R).</clue>
+</event>
+<sentence id="S6">Induction of <term sem="RNA_molecule" id="T27" lex="IL-5_mRNA"><term sem="Protein_molecule" id="T28" lex="IL-5">IL-5</term> mRNA</term> upon <term sem="Protein_family_or_group" id="T29" lex="TCR">TCR</term> and <term sem="Other" id="T30" lex="IL-2R_stimulation"><term sem="Protein_molecule" id="T31" lex="IL-2R">IL-2R</term> stimulation</term> was totally inhibited by <term sem="Lipid" id="T32" lex="dexamethasone">dexamethasone</term>.</sentence>
+<event id="E15">
+<type class="Transcription" />
+<theme idref="T28" />
+<clue>Induction of IL-5 <clueType>mRNA</clueType> upon TCR and IL-2R stimulation was totally inhibited by dexamethasone.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E20" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> IL-5 mRNA <linkCause>upon</linkCause> TCR and IL-2R stimulation was totally inhibited by dexamethasone.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E21" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> IL-5 mRNA <linkCause>upon</linkCause> TCR and IL-2R stimulation was totally inhibited by dexamethasone.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T32" />
+<clue>Induction of IL-5 mRNA upon TCR and IL-2R stimulation was totally <clueType>inhibited</clueType> <linkCause>by</linkCause> dexamethasone.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="T32" />
+<clue>Induction of IL-5 mRNA upon TCR and IL-2R stimulation was totally <clueType>inhibited</clueType> <linkCause>by</linkCause> dexamethasone.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<cause idref="T29" />
+<clue>Induction of IL-5 mRNA upon TCR and IL-2R <clueType>stimulation</clueType> was totally inhibited by dexamethasone.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<cause idref="T31" />
+<clue>Induction of IL-5 mRNA upon TCR and IL-2R <clueType>stimulation</clueType> was totally inhibited by dexamethasone.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S7">Human <term sem="DNA_domain_or_region" id="A2"><term sem="Protein_molecule" id="T33" lex="IL-5">IL-5</term> promoter/enhancer-luciferase gene construct</term> transfected to <term sem="Cell_cultured" id="T34" lex="T-cell_clone">T-cell clones</term> was transcribed on either <term sem="Protein_family_or_group" id="T35" lex="TCR">TCR</term> or <term sem="Other" id="T36" lex="IL-2R_stimulation"><term sem="Protein_molecule" id="T37" lex="IL-2R">IL-2R</term> stimulation</term> and was clearly downregulated by <term sem="Lipid" id="T38" lex="dexamethasone">dexamethasone</term>, indicating that the approximately <term sem="DNA_domain_or_region" id="T39" lex="500-bp_human_IL-5_gene_segment">500-bp human <term sem="Protein_molecule" id="T40" lex="IL-5">IL-5</term> gene segment</term> located <term sem="DNA_domain_or_region" id="T41" lex="5&apos;_upstream">5&apos; upstream</term> of the coding region contains <term sem="DNA_family_or_group" id="T42" lex="activation-inducible_enhancer_element"><term sem="Other" id="A1">activation</term>-inducible <term sem="DNA_domain_or_region" id="A6">enhancer elements</term></term> responsible for the regulation by <term sem="Lipid" id="T43" lex="GC">GC</term>.</sentence>
+<event id="E22">
+<type class="Artificial_process" />
+<theme idref="A2" />
+<theme idref="T34" />
+<clue>Human IL-5 promoter/enhancer-luciferase gene construct <clueType>transfected</clueType> <linkTheme>to</linkTheme> T-cell clones was transcribed on either TCR or IL-2R stimulation and was clearly downregulated by dexamethasone, indicating that the approximately 500-bp human IL-5 gene segment located 5&apos; upstream of the coding region contains activation-inducible enhancer elements responsible for the regulation by GC.</clue>
+</event>
+<event id="E24">
+<type class="Transcription" />
+<theme idref="A2" />
+<clue>Human IL-5 promoter/enhancer-luciferase gene construct transfected to T-cell clones was <clueType>transcribed</clueType> on either TCR or IL-2R stimulation and was clearly downregulated by dexamethasone, indicating that the approximately 500-bp human IL-5 gene segment located 5&apos; upstream of the coding region contains activation-inducible enhancer elements responsible for the regulation by GC.</clue>
+</event>
+<event id="E28">
+<type class="Regulation" />
+<theme idref="E24" />
+<cause idref="T35" />
+<clue>Human IL-5 promoter/enhancer-luciferase gene construct transfected to T-cell clones was transcribed <linkCause>on</linkCause> either TCR or IL-2R <clueType>stimulation</clueType> and was clearly downregulated by dexamethasone, indicating that the approximately 500-bp human IL-5 gene segment located 5&apos; upstream of the coding region contains activation-inducible enhancer elements responsible for the regulation by GC.</clue>
+</event>
+<event id="E30">
+<type class="Regulation" />
+<theme idref="E24" />
+<cause idref="T37" />
+<clue>Human IL-5 promoter/enhancer-luciferase gene construct transfected to T-cell clones was transcribed <linkCause>on</linkCause> either TCR or IL-2R <clueType>stimulation</clueType> and was clearly downregulated by dexamethasone, indicating that the approximately 500-bp human IL-5 gene segment located 5&apos; upstream of the coding region contains activation-inducible enhancer elements responsible for the regulation by GC.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="A2" />
+<cause idref="T38" />
+<clue>Human IL-5 promoter/enhancer-luciferase gene construct transfected to T-cell clones was transcribed on either TCR or IL-2R stimulation and was clearly <clueType>downregulated</clueType> <linkCause>by</linkCause> dexamethasone, indicating that the approximately 500-bp human IL-5 gene segment located 5&apos; upstream of the coding region contains activation-inducible enhancer elements responsible for the regulation by GC.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="A6" />
+<clue>Human IL-5 promoter/enhancer-luciferase gene construct transfected to T-cell clones was transcribed on either TCR or IL-2R stimulation and was clearly downregulated by dexamethasone, indicating that the approximately 500-bp human IL-5 gene segment located 5&apos; upstream of the coding region contains activation-<clueType>inducible</clueType> enhancer elements responsible for the regulation by GC.</clue>
+</event>
+<event id="E35">
+<type class="Regulation" />
+<cause idref="T43" />
+<clue>Human IL-5 promoter/enhancer-luciferase gene construct transfected to T-cell clones was transcribed on either TCR or IL-2R stimulation and was clearly downregulated by dexamethasone, indicating that the approximately 500-bp human IL-5 gene segment located 5&apos; upstream of the coding region contains activation-inducible enhancer elements responsible for the <clueType>regulation</clueType> <linkCause>by</linkCause> GC.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E36">
+<type class="Regulation" />
+<theme idref="E35" />
+<cause idref="A6" />
+<clue>Human IL-5 promoter/enhancer-luciferase gene construct transfected to T-cell clones was transcribed on either TCR or IL-2R stimulation and was clearly downregulated by dexamethasone, indicating that the approximately 500-bp human IL-5 gene segment located 5&apos; upstream of the coding region contains activation-inducible enhancer elements <clueType>responsible</clueType> <linkTheme>for</linkTheme> the regulation by GC.</clue>
+</event>
+<sentence id="S8"><term sem="Other" id="T44" lex="electrophoretic_mobility_shift_assay_analysis">Electrophoretic mobility shift assay analysis</term> suggested that <term sem="Protein_molecule" id="T45" lex="AP-1">AP-1</term> and <term sem="Protein_complex" id="T46" lex="NF-kappaB">NF-kappaB</term> are among the possible targets of <term sem="Other" id="T47" lex="GC_action"><term sem="Lipid" id="T48" lex="GC">GC</term> actions</term> on <term sem="Cell_natural" id="T49" lex="TCR-stimulated_T_cell"><term sem="Protein_family_or_group" id="T50" lex="TCR">TCR</term>-stimulated <term sem="Cell_natural" id="A7">T cells</term></term>.</sentence>
+<event id="E37">
+<type class="Physiological_process" />
+<theme idref="A7" />
+<cause idref="T50" />
+<clue>Electrophoretic mobility shift assay analysis suggested that AP-1 and NF-kappaB are among the possible targets of GC actions on TCR-<clueType>stimulated</clueType> T cells.</clue>
+</event>
+<event uncertainty="probable" id="E23">
+<type class="Regulation" />
+<theme idref="T45" />
+<cause idref="T48" />
+<clue><clueExperiment>Electrophoretic mobility shift assay analysis</clueExperiment> suggested that AP-1 and NF-kappaB are among the possible <clueType>targets</clueType> <linkCause>of</linkCause> GC actions <clueLoc>on TCR-stimulated T cells</clueLoc>.</clue>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Regulation" />
+<theme idref="T46" />
+<cause idref="T48" />
+<clue><clueExperiment>Electrophoretic mobility shift assay analysis</clueExperiment> suggested that AP-1 and NF-kappaB are among the possible <clueType>targets</clueType> <linkCause>of</linkCause> GC actions <clueLoc>on TCR-stimulated T cells</clueLoc>.</clue>
+</event>
+<sentence id="S9"><term sem="Protein_molecule" id="T51" lex="NF-AT">NF-AT</term> and <term sem="Protein_complex" id="T52" lex="NF-kappaB">NF-kappaB</term> were not significantly induced by <term sem="Other" id="T53" lex="IL-2_stimulation"><term sem="Protein_molecule" id="T54" lex="IL-2">IL-2</term> stimulation</term>.</sentence>
+<event assertion="non-exist" id="E38">
+<type class="Positive_regulation" />
+<theme idref="T51" />
+<cause idref="T54" />
+<clue>NF-AT and NF-kappaB were not significantly <clueType>induced</clueType> <linkCause>by</linkCause> IL-2 stimulation.</clue>
+</event>
+<event assertion="non-exist" id="E39">
+<type class="Positive_regulation" />
+<theme idref="T52" />
+<cause idref="T54" />
+<clue>NF-AT and NF-kappaB were not significantly <clueType>induced</clueType> <linkCause>by</linkCause> IL-2 stimulation.</clue>
+</event>
+<sentence id="S10">Our results showing that <term sem="Lipid" id="T55" lex="GC">GC</term> suppressed <term sem="Protein_molecule" id="T56" lex="IL-5">IL-5</term> production by <term sem="Cell_natural" id="T57" lex="human_CD4+_T_cell">human <term sem="Cell_natural" id="A9">CD4+ T cells</term></term> activated by two distinct stimuli, <term sem="Protein_family_or_group" id="T58" lex="TCR">TCR</term> and <term sem="Other" id="T59" lex="IL-2R_stimulation"><term sem="Protein_molecule" id="T60" lex="IL-2R">IL-2R</term> stimulation</term>, underscore the efficacy of <term sem="Lipid" id="T61" lex="GC">GC</term> in the treatment of <term sem="Other" id="T62" lex="allergic_disease">allergic diseases</term> via suppression of <term sem="Other" id="T63" lex="T-cell_IL-5_synthesis">T-cell <term sem="Protein_molecule" id="T64" lex="IL-5">IL-5</term> synthesis</term>.</sentence>
+<event id="E40">
+<type class="Gene_expression" />
+<theme idref="T56" />
+<clue>Our results showing that GC suppressed IL-5 <clueType>production</clueType> <clueLoc>by human CD4+ T cells activated by two distinct stimuli, TCR and IL-2R stimulation</clueLoc>, underscore the efficacy of GC in the treatment of allergic diseases via suppression of T-cell IL-5 synthesis.</clue>
+</event>
+<event id="E41">
+<type class="Negative_regulation" />
+<theme idref="E40" />
+<cause idref="T55" />
+<clue>Our results showing that GC <clueType>suppressed</clueType> IL-5 production <clueLoc>by human CD4+ T cells activated by two distinct stimuli, TCR and IL-2R stimulation</clueLoc>, underscore the efficacy of GC in the treatment of allergic diseases via suppression of T-cell IL-5 synthesis.</clue>
+</event>
+<event id="E42">
+<type class="Physiological_process" />
+<theme idref="A9" />
+<cause idref="T58" />
+<clue>Our results showing that GC suppressed IL-5 production by human CD4+ T cells <clueType>activated</clueType> <linkCause>by</linkCause> two distinct stimuli, TCR and IL-2R stimulation, underscore the efficacy of GC in the treatment of allergic diseases via suppression of T-cell IL-5 synthesis.</clue>
+</event>
+<event id="E43">
+<type class="Physiological_process" />
+<theme idref="A9" />
+<cause idref="T60" />
+<clue>Our results showing that GC suppressed IL-5 production by human CD4+ T cells <clueType>activated</clueType> <linkCause>by</linkCause> two distinct stimuli, TCR and IL-2R stimulation, underscore the efficacy of GC in the treatment of allergic diseases via suppression of T-cell IL-5 synthesis.</clue>
+</event>
+<event id="E44">
+<type class="Regulation" />
+<theme idref="E47" />
+<cause idref="T61" />
+<clue>Our results showing that GC suppressed IL-5 production by human CD4+ T cells activated by two distinct stimuli, TCR and IL-2R stimulation, underscore the <clueType>efficacy</clueType> <linkCause>of</linkCause> GC in the treatment of allergic diseases <linkTheme>via</linkTheme> suppression of T-cell IL-5 synthesis.</clue>
+</event>
+<event id="E45">
+<type class="Regulation" />
+<theme idref="T62" />
+<cause idref="E47" />
+<clue>Our results showing that GC suppressed IL-5 production by human CD4+ T cells activated by two distinct stimuli, TCR and IL-2R stimulation, underscore the efficacy of GC in the treatment of allergic diseases <linkCause>via</linkCause> suppression of T-cell IL-5 synthesis.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E46">
+<type class="Gene_expression" />
+<theme idref="T64" />
+<clue>Our results showing that GC suppressed IL-5 production by human CD4+ T cells activated by two distinct stimuli, TCR and IL-2R stimulation, underscore the efficacy of GC in the treatment of allergic diseases via suppression of <clueLoc>T-cell</clueLoc> IL-5 <clueType>synthesis</clueType>.</clue>
+</event>
+<event id="E47">
+<type class="Negative_regulation" />
+<theme idref="E46" />
+<clue>Our results showing that GC suppressed IL-5 production by human CD4+ T cells activated by two distinct stimuli, TCR and IL-2R stimulation, underscore the efficacy of GC in the treatment of allergic diseases via <clueType>suppression</clueType> <linkTheme>of</linkTheme> <clueLoc>T-cell</clueLoc> IL-5 synthesis.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

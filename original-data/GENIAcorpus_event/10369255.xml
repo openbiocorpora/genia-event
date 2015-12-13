@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="28/01/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10369255" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10369255</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A <term sem="Other" id="T1" lex="polymorphism">polymorphism</term> that affects <term sem="Other" id="T2" lex="OCT-1_binding"><term sem="Protein_molecule" id="T3" lex="OCT-1">OCT-1</term> binding</term> to the <term sem="DNA_domain_or_region" id="T4" lex="TNF_promoter_region"><term sem="DNA_domain_or_region" id="T5" lex="TNF_promoter">TNF promoter</term> region</term> is associated with <term sem="Other" id="T6" lex="severe_malaria">severe malaria</term> [see comments]</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T3" />
+<theme idref="T4" />
+<clue>A polymorphism that affects OCT-1 <clueType>binding</clueType> <linkTheme>to</linkTheme> the TNF promoter region is associated with severe malaria [see comments]</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>A polymorphism that <clueType>affects</clueType> OCT-1 binding to the TNF promoter region is associated with severe malaria [see comments]</clue>
+</event>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="E2" />
+<theme idref="T6" />
+<clue>A polymorphism that affects OCT-1 binding to the TNF promoter region is <clueType>associated</clueType> <linkTheme>with</linkTheme> severe malaria [see comments]</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T7" lex="genetic_variation">Genetic variation</term> in <term sem="DNA_family_or_group" id="T8" lex="cytokine_promoter_region">cytokine promoter regions</term> is postulated to influence susceptibility to <term sem="Other" id="A2">infection</term>, but the <term sem="Other" id="T9" lex="molecular_mechanism">molecular mechanisms</term> by which such <term sem="Other" id="T10" lex="polymorphism">polymorphisms</term> might affect <term sem="Other" id="A1">gene regulation</term> are unknown.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="A1" />
+<cause idref="T10" />
+<clue>Genetic variation in cytokine promoter regions is postulated to influence susceptibility to infection, but the molecular mechanisms by which such polymorphisms might <clueType>affect</clueType> gene regulation are unknown.</clue>
+</event>
+<event id="E5">
+<type />
+<cause idref="A2" />
+<clue>Genetic variation in cytokine promoter regions is postulated to influence <clueType>susceptibility</clueType> <linkCause>to</linkCause> infection, but the molecular mechanisms by which such polymorphisms might affect gene regulation are unknown.</clue>
+<comment>SUSCEPTIBILITY</comment>
+</event>
+<event id="E6">
+<type class="Mutagenesis" />
+<theme idref="T8" />
+<clue><clueType>Genetic variation</clueType> <linkTheme>in</linkTheme> cytokine promoter regions is postulated to influence susceptibility to infection, but the molecular mechanisms by which such polymorphisms might affect gene regulation are unknown.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="E6" />
+<clue>Genetic variation in cytokine promoter regions is postulated to <clueType>influence</clueType> susceptibility to infection, but the molecular mechanisms by which such polymorphisms might affect gene regulation are unknown.</clue>
+</event>
+<sentence id="S3">Through systematic DNA footprinting of the TNF (encoding tumour necrosis factor, <term sem="DNA_domain_or_region" id="A6">TNF</term>) promoter region, we have identified a single nucleotide polymorphism (SNP) that causes the helix-turn-helix <term sem="Protein_family_or_group" id="T11" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="A5">OCT-1</term> to bind to a <term sem="DNA_domain_or_region" id="A4">novel region of <term sem="Other" id="T12" lex="complex_protein-DNA_interaction">complex protein-DNA interactions</term></term> and alters <term sem="Other" id="T13" lex="gene_expression">gene expression</term> in <term sem="Cell_natural" id="T14" lex="human_monocyte">human monocytes</term>.</sentence>
+<event id="E8">
+<type class="Binding" />
+<theme idref="A4" />
+<theme idref="A5" />
+<clue>Through systematic DNA footprinting of the TNF (encoding tumour necrosis factor, TNF) promoter region, we have identified a single nucleotide polymorphism (SNP) that causes the helix-turn-helix transcription factor OCT-1 to <clueType>bind</clueType> <linkTheme>to</linkTheme> a novel region of complex protein-DNA interactions and alters gene expression in human monocytes.</clue>
+<comment>TPS: A4</comment>
+</event>
+<event id="E9">
+<type class="Mutagenesis" />
+<theme idref="A6" />
+<clue>Through systematic DNA footprinting of the TNF (encoding tumour necrosis factor, TNF) promoter region, we have identified a <clueType>single nucleotide polymorphism</clueType> (SNP) that causes the helix-turn-helix transcription factor OCT-1 to bind to a novel region of complex protein-DNA interactions and alters gene expression in human monocytes.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E9" />
+<clue><clueExperiment>Through systematic DNA footprinting of the TNF (encoding tumour necrosis factor, TNF) promoter region</clueExperiment>, we have identified a single nucleotide polymorphism (SNP) that <clueType>causes</clueType> the helix-turn-helix transcription factor OCT-1 to bind to a novel region of complex protein-DNA interactions and alters gene expression in human monocytes.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="A6" />
+<clue>Through systematic DNA footprinting of the TNF (encoding tumour necrosis factor, TNF) promoter region, we have identified a single nucleotide polymorphism (SNP) that causes the helix-turn-helix transcription factor OCT-1 to bind to a novel region of complex protein-DNA interactions and alters gene <clueType>expression</clueType> <clueLoc>in human monocytes</clueLoc>.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="E9" />
+<clue>Through systematic DNA footprinting of the TNF (encoding tumour necrosis factor, TNF) promoter region, we have identified a single nucleotide polymorphism (SNP) that causes the helix-turn-helix transcription factor OCT-1 to bind to a novel region of complex protein-DNA interactions and <clueType>alters</clueType> gene expression in human monocytes.</clue>
+</event>
+<sentence id="S4">The <term sem="Other" id="T15" lex="OCT-1-binding_genotype"><term sem="Protein_molecule" id="A7">OCT-1</term>-binding genotype</term>, found in approximately 5% of <term sem="Multicellular_organism_natural" id="T16" lex="African">Africans</term>, is associated with fourfold increased susceptibility to <term sem="Other" id="T17" lex="cerebral_malaria">cerebral malaria</term> in large case-control studies of <cons sem="(AND Multicellular_organism_natural Multicellular_organism_natural)" id="T18" lex="(AND West_African_population East_African_population)"><frag id="F1">West African</frag> and <frag id="F2">East African</frag> <frag id="F3">populations</frag></cons>, after correction for other known <term sem="Other" id="T19" lex="TNF_polymorphism"><term sem="Protein_family_or_group" id="T20" lex="TNF">TNF</term> polymorphisms</term> and linked <term sem="DNA_domain_or_region" id="T21" lex="HLA_allele">HLA alleles</term>.</sentence>
+<event id="E13">
+<type class="Binding" />
+<theme idref="A7" />
+<theme idref="T4" />
+<clue>The OCT-1-<clueType>binding genotype</clueType>, found <clueLoc>in approximately 5% of Africans</clueLoc>, is associated with fourfold increased susceptibility to cerebral malaria in large case-control studies of West African and East African populations, after correction for other known TNF polymorphisms and linked HLA alleles.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E14">
+<type />
+<cause idref="T17" />
+<clue>The OCT-1-binding genotype, found in approximately 5% of Africans, is associated with fourfold increased <clueType>susceptibility</clueType> <linkCause>to</linkCause> cerebral malaria in large case-control studies of West African and East African populations, after correction for other known TNF polymorphisms and linked HLA alleles.</clue>
+<comment>SUSCEPTIBILITY</comment>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue>The OCT-1-binding genotype, found <clueLoc>in approximately 5% of Africans</clueLoc>, is associated with fourfold <clueType>increased</clueType> susceptibility to cerebral malaria in large case-control studies of West African and East African populations, after correction for other known TNF polymorphisms and linked HLA alleles.</clue>
+</event>
+<event id="E16">
+<type class="Correlation" />
+<theme idref="E13" />
+<theme idref="E15" />
+<clue>The OCT-1-binding genotype, found in approximately 5% of Africans, is <clueType>associated</clueType> <linkTheme>with</linkTheme> fourfold increased susceptibility to cerebral malaria in large case-control studies of West African and East African populations, after correction for other known TNF polymorphisms and linked HLA alleles.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

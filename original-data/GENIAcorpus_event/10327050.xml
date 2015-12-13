@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="27/10/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10327050"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10327050</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="A1">Cell growth</term>-regulated expression of <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T1" lex="(AND mammalian_MCM5_gene mammalian_MCM6_gene)"><frag id="F1">mammalian</frag> <frag id="F2"><term sem="DNA_domain_or_region" id="A2">MCM5</term></frag> and <frag id="F3"><term sem="DNA_domain_or_region" id="A3">MCM6</term></frag> <frag id="F4"><term sem="DNA_domain_or_region" id="A21">genes</term></frag></cons> mediated by the <term sem="Protein_family_or_group" id="T2" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T3" lex="E2F">E2F</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="A1" />
+<clue>Cell growth-<clueType>regulated</clueType> expression of mammalian MCM5 and MCM6 genes mediated by the transcription factor E2F.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="A1" />
+<clue>Cell growth-<clueType>regulated</clueType> expression of mammalian MCM5 and MCM6 genes mediated by the transcription factor E2F.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="Gene_expression" />
+<theme idref1="A21" idref="A2" />
+<clue>Cell growth-regulated <clueType>expression</clueType> <linkTheme>of</linkTheme> mammalian MCM5 and MCM6 genes mediated by the transcription factor E2F.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E4">
+<type class="Gene_expression" />
+<theme idref1="A21" idref="A3" />
+<clue>Cell growth-regulated <clueType>expression</clueType> <linkTheme>of</linkTheme> mammalian MCM5 and MCM6 genes mediated by the transcription factor E2F.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E5">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T3" />
+<clue>Cell growth-regulated expression of mammalian MCM5 and MCM6 genes <clueType>mediated</clueType> <linkCause>by</linkCause> the transcription factor E2F.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T3" />
+<clue>Cell growth-regulated expression of mammalian MCM5 and MCM6 genes <clueType>mediated</clueType> <linkCause>by</linkCause> the transcription factor E2F.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Initiation of <term sem="Other" id="T4" lex="DNA_replication"><term sem="DNA_molecule" id="A4">DNA</term> replication</term> requires the function of <term sem="Protein_family_or_group" id="T5" lex="MCM_gene_product">MCM gene products</term>, which participate in ensuring that <term sem="Other" id="T6" lex="DNA_replication"><term sem="DNA_molecule" id="A6">DNA</term> replication</term> occurs only once in the <term sem="Other" id="T7" lex="cell_cycle">cell cycle</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E7">
+<type class="DNA_metabolism" />
+<theme idref="A4" />
+<clue><clueType>Initiation</clueType> <linkTheme>of</linkTheme> DNA <clueType>replication</clueType> requires the function of MCM gene products, which participate in ensuring that DNA replication occurs only once in the cell cycle.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E42">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E41" />
+<clue>Initiation of DNA replication <clueType>requires</clueType> the function of MCM gene products, which participate in ensuring that DNA replication occurs only once in the cell cycle.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E41">
+<type class="Regulation" />
+<cause idref="T5" />
+<clue>Initiation of DNA replication requires the <clueType>function</clueType> <linkCause>of</linkCause> MCM gene products, which participate in ensuring that DNA replication occurs only once in the cell cycle.</clue>
+<comment>NO THEME</comment></event>
+<event assertion="exist" uncertainty="certain" id="E10">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="T5" />
+<clue>Initiation of DNA replication requires the function of MCM gene products, which <clueType>participate</clueType> <linkTheme>in</linkTheme> ensuring that DNA replication occurs only once in the cell cycle.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E11">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<clue>Initiation of DNA replication requires the function of MCM gene products, which participate in <clueType>ensuring</clueType> that DNA replication <clueType>occurs only once</clueType> in the cell cycle.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="DNA_metabolism" />
+<theme idref="A6" />
+<clue>Initiation of DNA replication requires the function of MCM gene products, which participate in ensuring that DNA <clueType>replication</clueType> occurs only once <clueTime>in the cell cycle</clueTime>.</clue>
+</event>
+<sentence id="S3">Expression of all mammalian <term sem="DNA_domain_or_region" id="A7">genes of the <term sem="DNA_family_or_group" id="T9" lex="MCM_family">MCM family</term></term> is induced by <term sem="Other" id="T10" lex="growth_stimulation">growth stimulation</term>, unlike <term sem="Unicellular_organism" id="T11" lex="yeast">yeast</term>, and the <term sem="Other" id="T12" lex="mRNA_level"><term sem="RNA_molecule" id="A9">mRNA</term> levels</term> peak at <term sem="Other" id="T13" lex="G1/S_boundary">G1/S boundary</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Gene_expression" />
+<theme idref="A7" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> all mammalian genes of the MCM family is induced by growth stimulation, unlike yeast, and the mRNA levels peak at G1/S boundary.</clue>
+<comment>NER: T8 del &quot;mammalian genes&quot;; TPS: A7</comment></event>
+<event assertion="exist" uncertainty="certain" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T10" />
+<clue>Expression of all mammalian genes of the MCM family is <clueType>induced</clueType> <linkCause>by</linkCause> growth stimulation, unlike yeast, and the mRNA levels peak at G1/S boundary.</clue>
+</event>
+<event assertion="non-exist" uncertainty="certain" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T10" />
+<clue>Expression of all mammalian genes of the MCM family is <clueType>induced</clueType> <linkCause>by</linkCause> growth stimulation, <clueType>unlike</clueType> <clueLoc>yeast</clueLoc>, and the mRNA levels peak at G1/S boundary.</clue>
+<comment>CAUTION: SEE</comment></event>
+<event assertion="exist" uncertainty="certain" id="E17">
+<type class="Positive_regulation" />
+<theme idref="A9" />
+<clue>Expression of all mammalian genes of the MCM family is induced by growth stimulation, unlike yeast, and the mRNA <clueType>levels peak</clueType> <clueTime>at G1/S boundary</clueTime>.</clue>
+</event>
+<sentence id="S4">In this study, we examined the transcriptional activities of <term sem="DNA_domain_or_region" id="T14" lex="isolated_human_MCM_gene_promoter">isolated human <term sem="DNA_domain_or_region" id="A10">MCM gene promoters</term></term>.</sentence>
+<event assertion="exist" uncertainty="doubtful" id="E18">
+<type class="Positive_regulation" />
+<cause idref="A10" />
+<clue>In this study, we examined the <clueType>transcriptional activities</clueType> <linkCause>of</linkCause> isolated human MCM gene promoters.</clue>
+<comment>NO THEME</comment></event>
+<sentence id="S5"><cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T15" lex="(AND human_MCM5_promoter human_MCM6_promoter)"><frag id="F5">Human</frag> <frag id="F6"><term sem="DNA_domain_or_region" id="A11">MCM5</term></frag> and <frag id="F7"><term sem="DNA_domain_or_region" id="A12">MCM6</term></frag> <frag id="F8"><term sem="DNA_domain_or_region" id="A13">promoters</term></frag></cons> with mutation in the <term sem="DNA_domain_or_region" id="T16" lex="E2F_site"><term sem="Protein_molecule" id="T17" lex="E2F">E2F</term> sites</term> failed in <term sem="Other" id="T18" lex="promoter_regulation">promoter regulation</term> following <term sem="Body_region" id="A15">serum</term> stimulation and <term sem="Other" id="T19" lex="exogenous_E2F_expression">exogenous <term sem="Protein_molecule" id="T20" lex="E2F">E2F</term> expression</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E19">
+<type class="Mutagenesis" />
+<theme idref1="A13" idref2="T16" idref="A11" />
+<clue>Human MCM5 and MCM6 promoters with <clueType>mutation</clueType> in the E2F sites failed in promoter regulation following serum stimulation and exogenous E2F expression.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event assertion="exist" uncertainty="certain" id="E9">
+<type class="Mutagenesis" />
+<theme idref1="A13" idref2="T16" idref="A12" />
+<clue>Human MCM5 and MCM6 promoters with <clueType>mutation</clueType> in the E2F sites failed in promoter regulation following serum stimulation and exogenous E2F expression.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event assertion="exist" uncertainty="certain" id="E20">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<cause idref="E19" />
+<clue>Human MCM5 and MCM6 promoters with mutation in the E2F sites <clueType>failed</clueType> <linkTheme>in</linkTheme> promoter regulation following serum stimulation and exogenous E2F expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E21">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="E19" />
+<clue>Human MCM5 and MCM6 promoters with mutation in the E2F sites <clueType>failed</clueType> <linkTheme>in</linkTheme> promoter regulation following serum stimulation and exogenous E2F expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E22">
+<type class="Regulation" />
+<theme idref1="A13" idref="A11" />
+<cause idref="E24" />
+<cause idref="E25" />
+<clue>Human MCM5 and MCM6 promoters with mutation in the E2F sites failed in <corefTheme>promoter</corefTheme> <clueType>regulation</clueType> <linkCause>following</linkCause> serum stimulation and exogenous E2F expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E23">
+<type class="Regulation" />
+<theme idref1="A13" idref="A12" />
+<cause idref="E24" />
+<cause idref="E25" />
+<clue>Human MCM5 and MCM6 promoters with mutation in the E2F sites failed in <corefTheme>promoter</corefTheme> <clueType>regulation</clueType> <linkCause>following</linkCause> serum stimulation and exogenous E2F expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E24">
+<type class="Positive_regulation" />
+<cause idref="A15" />
+<clue>Human MCM5 and MCM6 promoters with mutation in the E2F sites failed in promoter regulation following serum <clueType>stimulation</clueType> and exogenous E2F expression.</clue>
+<comment>NO THEME</comment></event>
+<event assertion="exist" uncertainty="certain" id="E25">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue>Human MCM5 and MCM6 promoters with mutation in the E2F sites failed in promoter regulation following serum stimulation and exogenous E2F <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S6">In addition, we identified a novel <term sem="DNA_domain_or_region" id="T21" lex="E2F-like_sequence"><term sem="Protein_molecule" id="T22" lex="E2F">E2F</term>-like sequence</term> in <term sem="DNA_domain_or_region" id="T23" lex="human_MCM6_promoter">human MCM6 promoter</term> which cooperates with the authentic <term sem="DNA_domain_or_region" id="T24" lex="E2F_site"><term sem="Protein_molecule" id="T25" lex="E2F">E2F</term> sites</term> in <term sem="Other" id="T26" lex="E2F-dependent_regulation"><term sem="Protein_molecule" id="T27" lex="E2F">E2F</term>-dependent regulation</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E26">
+<type class="Regulation" />
+<theme idref="E22" />
+<cause idref="T21" />
+<cause idref="T24" />
+<clue>In addition, we identified a novel E2F-like sequence in human MCM6 promoter which <clueType>cooperates</clueType> with the authentic E2F sites <linkTheme>in</linkTheme> <corefTheme>E2F-dependent regulation</corefTheme>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E27">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="T21" />
+<cause idref="T24" />
+<clue>In addition, we identified a novel E2F-like sequence in human MCM6 promoter which <clueType>cooperates</clueType> with the authentic E2F sites <linkTheme>in</linkTheme> <corefTheme>E2F-dependent regulation</corefTheme>.</clue>
+</event>
+<sentence id="S7">Forced expression of <term sem="Protein_molecule" id="T28" lex="E2F1">E2F1</term> could induce expression of all members of the <term sem="DNA_family_or_group" id="T29" lex="endogenous_MCM_gene">endogenous MCM genes</term> in <term sem="Cell_cultured" id="T30" lex="rat_embryonal_fibroblast_REF52_cell">rat embryonal fibroblast REF52 cells</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E28">
+<type class="Gene_expression" />
+<theme idref="T28" />
+<clue>Forced <clueType>expression</clueType> <linkTheme>of</linkTheme> E2F1 could induce expression of all members of the endogenous MCM genes <clueLoc>in rat embryonal fibroblast REF52 cells</clueLoc>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E29">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="E28" />
+<clue>Forced expression of E2F1 could <clueType>induce</clueType> expression of all members of the endogenous MCM genes in rat embryonal fibroblast REF52 cells.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E30">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>Forced expression of E2F1 could induce <clueType>expression</clueType> <linkTheme>of</linkTheme> all members of the endogenous MCM genes <clueLoc>in rat embryonal fibroblast REF52 cells</clueLoc>.</clue>
+</event>
+<sentence id="S8">Our results demonstrated that the <term sem="Other" id="T31" lex="growth-regulated_expression"><term sem="Other" id="A20">growth</term>-regulated expression</term> of <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T32" lex="(AND mammalian_MCM5_gene mammalian_MCM6_gene)"><frag id="F9">mammalian</frag> <frag id="F10"><term sem="DNA_domain_or_region" id="A16">MCM5</term></frag> and <frag id="F11"><term sem="DNA_domain_or_region" id="A17">MCM6</term></frag> <frag id="F12"><term sem="DNA_domain_or_region" id="A18">genes</term></frag></cons>, and presumably other <term sem="DNA_domain_or_region" id="A19">MCM members</term>, is primarily regulated by <term sem="Protein_molecule" id="T33" lex="E2F">E2F</term> through binding to <term sem="DNA_domain_or_region" id="T34" lex="multiple_E2F_site">multiple <term sem="DNA_domain_or_region" id="T35" lex="E2F_site"><term sem="Protein_molecule" id="T36" lex="E2F">E2F</term> sites</term></term> in the <term sem="DNA_domain_or_region" id="T37" lex="promoter">promoters</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E31">
+<type class="Gene_expression" />
+<theme idref1="A18" idref="A16" />
+<clue>Our results demonstrated that the growth-regulated <clueType>expression</clueType> <linkTheme>of</linkTheme> mammalian MCM5 and MCM6 genes, and presumably other MCM members, is primarily regulated by E2F through binding to multiple E2F sites in the promoters.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E32">
+<type class="Gene_expression" />
+<theme idref1="A18" idref="A17" />
+<clue>Our results demonstrated that the growth-regulated <clueType>expression</clueType> <linkTheme>of</linkTheme> mammalian MCM5 and MCM6 genes, and presumably other MCM members, is primarily regulated by E2F through binding to multiple E2F sites in the promoters.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E33">
+<type class="Gene_expression" />
+<theme idref="A19" />
+<clue>Our results demonstrated that the growth-regulated <clueType>expression</clueType> <linkTheme>of</linkTheme> mammalian MCM5 and MCM6 genes, and presumably other MCM members, is primarily regulated by E2F through binding to multiple E2F sites in the promoters.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E34">
+<type class="Regulation" />
+<theme idref="E31" />
+<cause idref="E37" />
+<clue>Our results demonstrated that the growth-regulated expression of mammalian MCM5 and MCM6 genes, and presumably other MCM members, is primarily <clueType>regulated</clueType> by E2F <linkCause>through</linkCause> binding to multiple E2F sites in the promoters.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E35">
+<type class="Regulation" />
+<theme idref="E32" />
+<cause idref="E37" />
+<clue>Our results demonstrated that the growth-regulated expression of mammalian MCM5 and MCM6 genes, and presumably other MCM members, is primarily <clueType>regulated</clueType> by E2F <linkCause>through</linkCause> binding to multiple E2F sites in the promoters.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E36">
+<type class="Regulation" />
+<theme idref="E33" />
+<cause idref="E37" />
+<clue>Our results demonstrated that the growth-regulated expression of mammalian MCM5 and MCM6 genes, and presumably other MCM members, is primarily <clueType>regulated</clueType> by E2F <linkCause>through</linkCause> binding to multiple E2F sites in the promoters.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E37">
+<type class="Binding" />
+<theme idref="T32" />
+<theme idref="T33" />
+<clue>Our results demonstrated that the growth-regulated expression of mammalian MCM5 and MCM6 genes, and presumably other MCM members, is primarily regulated by E2F through <clueType>binding</clueType> <linkTheme>to</linkTheme> multiple E2F sites <clueLoc>in the promoters</clueLoc>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E38">
+<type class="Regulation" />
+<theme idref="E31" />
+<cause idref="A20" />
+<clue>Our results demonstrated that the growth-<clueType>regulated</clueType> expression of mammalian MCM5 and MCM6 genes, and presumably other MCM members, is primarily regulated by E2F through binding to multiple E2F sites in the promoters.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E39">
+<type class="Regulation" />
+<theme idref="E32" />
+<cause idref="A20" />
+<clue>Our results demonstrated that the growth-<clueType>regulated</clueType> expression of mammalian MCM5 and MCM6 genes, and presumably other MCM members, is primarily regulated by E2F through binding to multiple E2F sites in the promoters.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E40">
+<type class="Regulation" />
+<theme idref="E33" />
+<cause idref="A20" />
+<clue>Our results demonstrated that the growth-<clueType>regulated</clueType> expression of mammalian MCM5 and MCM6 genes, and presumably other MCM members, is primarily regulated by E2F through binding to multiple E2F sites in the promoters.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

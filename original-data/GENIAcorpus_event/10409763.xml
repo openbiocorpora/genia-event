@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="02/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10409763" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10409763</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term sem="Protein_molecule" id="T1" lex="Epstein-Barr_virus_oncoprotein_latent_membrane_protein_1"><term sem="Protein_family_or_group" id="T2" lex="Epstein-Barr_virus_oncoprotein"><term sem="Virus" id="T3" lex="Epstein-Barr_virus">Epstein-Barr virus</term> oncoprotein</term> <term sem="Protein_molecule" id="A1">latent membrane protein 1</term></term> engages the <term sem="Protein_family_or_group" id="T4" lex="tumor_necrosis_factor_receptor-associated_protein">tumor necrosis factor receptor-associated proteins</term> <term sem="Protein_family_or_group" id="T5" lex="TRADD">TRADD</term> and <term sem="Protein_molecule" id="T6" lex="receptor-interacting_protein">receptor-interacting protein</term> (<term sem="Protein_molecule" id="T7" lex="RIP">RIP</term>) but does not induce <term sem="Other" id="T8" lex="apoptosis">apoptosis</term> or require <term sem="Protein_molecule" id="T9" lex="RIP">RIP</term> for <term sem="Other" id="T10" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T11" lex="NF-kappaB">NF-kappaB</term> activation</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T5" />
+<clue>The Epstein-Barr virus oncoprotein latent membrane protein 1 <clueType>engages</clueType> the tumor necrosis factor receptor-associated proteins TRADD and receptor-interacting protein (RIP) but does not induce apoptosis or require RIP for NF-kappaB activation.</clue>
+</event>
+<event id="E2">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T7" />
+<clue>The Epstein-Barr virus oncoprotein latent membrane protein 1 <clueType>engages</clueType> the tumor necrosis factor receptor-associated proteins TRADD and receptor-interacting protein (RIP) but does not induce apoptosis or require RIP for NF-kappaB activation.</clue>
+</event>
+<event assertion="non-exist" id="E3">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="A1" />
+<clue>The Epstein-Barr virus oncoprotein latent membrane protein 1 engages the tumor necrosis factor receptor-associated proteins TRADD and receptor-interacting protein (RIP) but does not <clueType>induce</clueType> apoptosis or require RIP for NF-kappaB activation.</clue>
+</event>
+<event assertion="non-exist" id="E4">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T9" />
+<clue>The Epstein-Barr virus oncoprotein latent membrane protein 1 engages the tumor necrosis factor receptor-associated proteins TRADD and receptor-interacting protein (RIP) but does not induce apoptosis or <clueType>require</clueType> RIP <linkTheme>for</linkTheme> NF-kappaB activation.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<cause idref="A1" />
+<clue>The Epstein-Barr virus oncoprotein latent membrane protein 1 engages the tumor necrosis factor receptor-associated proteins TRADD and receptor-interacting protein (RIP) but does not induce apoptosis or require RIP for NF-kappaB <clueType>activation</clueType>.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A site in the <term sem="Protein_family_or_group" id="T12" lex="Epstein-Barr_virus_(EBV)_transforming_protein"><term sem="Virus" id="T13" lex="Epstein-Barr_virus">Epstein-Barr virus</term> (<term sem="Virus" id="T14" lex="EBV">EBV</term>) transforming protein</term> <term sem="Protein_molecule" id="T15" lex="LMP1">LMP1</term> that constitutively associates with the <term sem="Protein_molecule" id="T16" lex="tumor_necrosis_factor_receptor_1_(TNFR1)-associated_death_domain_protein"><term sem="Protein_molecule" id="T17" lex="tumor_necrosis_factor_receptor_1">tumor necrosis factor receptor 1</term> (<term sem="Protein_molecule" id="T18" lex="TNFR1">TNFR1</term>)-associated death domain protein</term> <term sem="Protein_family_or_group" id="T19" lex="TRADD">TRADD</term> to mediate <term sem="Protein_complex" id="T20" lex="NF-kappaB">NF-kappaB</term> and <term sem="Other" id="T21" lex="c-Jun_N-terminal_kinase_activation"><term sem="Protein_molecule" id="T22" lex="c-Jun_N-terminal_kinase">c-Jun N-terminal kinase</term> activation</term> is critical for <term sem="Other" id="T23" lex="long-term_lymphoblastoid_cell_proliferation">long-term <term sem="Cell_cultured" id="A2">lymphoblastoid cell</term> proliferation</term>.</sentence>
+<event id="E6">
+<type class="Binding" />
+<theme idref="T15" />
+<theme idref="T19" />
+<clue>A site in the Epstein-Barr virus (EBV) transforming protein LMP1 that constitutively <clueType>associates</clueType> <linkTheme>with</linkTheme> the tumor necrosis factor receptor 1 (TNFR1)-associated death domain protein TRADD to mediate NF-kappaB and c-Jun N-terminal kinase activation is critical for long-term lymphoblastoid cell proliferation.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E6" />
+<clue>A site in the Epstein-Barr virus (EBV) transforming protein LMP1 that constitutively associates with the tumor necrosis factor receptor 1 (TNFR1)-associated death domain protein TRADD to <clueType>mediate</clueType> NF-kappaB and c-Jun N-terminal kinase activation is critical for long-term lymphoblastoid cell proliferation.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="E6" />
+<clue>A site in the Epstein-Barr virus (EBV) transforming protein LMP1 that constitutively associates with the tumor necrosis factor receptor 1 (TNFR1)-associated death domain protein TRADD to <clueType>mediate</clueType> NF-kappaB and c-Jun N-terminal kinase activation is critical for long-term lymphoblastoid cell proliferation.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<clue>A site in the Epstein-Barr virus (EBV) transforming protein LMP1 that constitutively associates with the tumor necrosis factor receptor 1 (TNFR1)-associated death domain protein TRADD to mediate NF-kappaB and c-Jun N-terminal kinase <clueType>activation</clueType> is critical for long-term lymphoblastoid cell proliferation.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<clue>A site in the Epstein-Barr virus (EBV) transforming protein LMP1 that constitutively associates with the tumor necrosis factor receptor 1 (TNFR1)-associated death domain protein TRADD to mediate NF-kappaB and c-Jun N-terminal kinase <clueType>activation</clueType> is critical for long-term lymphoblastoid cell proliferation.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T15" />
+<clue>A site in the Epstein-Barr virus (EBV) transforming protein LMP1 that constitutively associates with the tumor necrosis factor receptor 1 (TNFR1)-associated death domain protein TRADD to mediate NF-kappaB and c-Jun N-terminal kinase activation <clueType>is critical</clueType> <linkTheme>for</linkTheme> long-term lymphoblastoid cell proliferation.</clue>
+</event>
+<event id="E12">
+<type class="Cellular_physiological_process" />
+<theme idref="A2" />
+<clue>A site in the Epstein-Barr virus (EBV) transforming protein LMP1 that constitutively associates with the tumor necrosis factor receptor 1 (TNFR1)-associated death domain protein TRADD to mediate NF-kappaB and c-Jun N-terminal kinase activation is critical for long-term lymphoblastoid cell <clueType>proliferation</clueType>.</clue>
+</event>
+<sentence id="S3">We now find that <term sem="Protein_molecule" id="T24" lex="LMP1">LMP1</term> signaling through <term sem="Protein_family_or_group" id="T25" lex="TRADD">TRADD</term> differs from <term sem="Other" id="T26" lex="TNFR1_signaling"><term sem="Protein_molecule" id="T27" lex="TNFR1">TNFR1</term> signaling</term> through <term sem="Protein_family_or_group" id="T28" lex="TRADD">TRADD</term>.</sentence>
+<event id="E13">
+<type class="Cell_communication" />
+<theme idref="T25" />
+<clue>We now find that LMP1 <clueType>signaling</clueType> <linkTheme>through</linkTheme> TRADD differs from TNFR1 signaling through TRADD.</clue>
+</event>
+<event id="E53">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T24" />
+<clue>We now find that LMP1 signaling through TRADD differs from TNFR1 signaling through TRADD.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E14">
+<type class="Cell_communication" />
+<theme idref="T28" />
+<clue>We now find that LMP1 signaling through TRADD differs from TNFR1 <clueType>signaling</clueType> <linkTheme>through</linkTheme> TRADD.</clue>
+</event>
+<event id="E54">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T27" />
+<clue>We now find that LMP1 signaling through TRADD differs from TNFR1 signaling through TRADD.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S4"><term sem="Protein_molecule" id="T29" lex="LMP1">LMP1</term> needs only <term sem="Peptide" id="A7">11 <term sem="Amino_acid_monomer" id="T30" lex="amino_acid">amino acids</term></term> to activate <term sem="Protein_complex" id="T31" lex="NF-kappaB">NF-kappaB</term> or synergize with <term sem="Protein_family_or_group" id="T32" lex="TRADD">TRADD</term> in <term sem="Other" id="T33" lex="NF-kappaB_activation"><term sem="Protein_molecule" id="T34" lex="NF-kappaB">NF-kappaB</term> activation</term>, while <term sem="Protein_molecule" id="T35" lex="TNFR1">TNFR1</term> requires approximately <term sem="Peptide" id="A8">70 <term sem="Amino_acid_monomer" id="T36" lex="residue">residues</term></term>.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T31" />
+<cause idref1="A7" idref="T29" />
+<clue>LMP1 needs only 11 amino acids to <clueType>activate</clueType> NF-kappaB or synergize with TRADD in NF-kappaB activation, while TNFR1 requires approximately 70 residues.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<clue>LMP1 needs only 11 amino acids to activate NF-kappaB or synergize with TRADD in NF-kappaB <clueType>activation</clueType>, while TNFR1 requires approximately 70 residues.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T31" />
+<cause idref1="A8" idref="T35" />
+<clue>LMP1 needs only 11 amino acids to <clueType>activate</clueType> NF-kappaB or synergize with TRADD in NF-kappaB activation, while TNFR1 requires approximately 70 residues.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref1="A7" idref="T29" />
+<cause idref="T32" />
+<clue>LMP1 needs only 11 amino acids to activate NF-kappaB or <clueType>synergize</clueType> with TRADD <linkTheme>in</linkTheme> NF-kappaB <clueType>activation</clueType>, while TNFR1 requires approximately 70 residues.</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref1="A8" idref="T35" />
+<cause idref="T32" />
+<clue>LMP1 needs only 11 amino acids to activate NF-kappaB or <clueType>synergize</clueType> with TRADD <linkTheme>in</linkTheme> NF-kappaB <clueType>activation</clueType>, while TNFR1 requires approximately 70 residues.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<sentence id="S5">Further, <term sem="Protein_molecule" id="T37" lex="LMP1">LMP1</term> does not require <term sem="Protein_domain_or_region" id="A3"><term sem="Protein_family_or_group" id="T38" lex="TRADD">TRADD</term> residues 294 to 312</term> for <term sem="Other" id="T39" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T40" lex="NF-kappaB">NF-kappaB</term> activation</term>, while <term sem="Protein_molecule" id="T41" lex="TNFR1">TNFR1</term> requires <term sem="Protein_family_or_group" id="T42" lex="TRADD">TRADD</term> residues <term sem="Protein_domain_or_region" id="A4">296 to 302</term>.</sentence>
+<event assertion="non-exist" id="E23">
+<type class="Regulation" />
+<theme idref="E19" />
+<cause idref="A3" />
+<clue>Further, LMP1 does not <clueType>require</clueType> TRADD residues 294 to 312 <linkTheme>for</linkTheme> NF-kappaB activation, while TNFR1 requires TRADD residues 296 to 302.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<cause idref="T37" />
+<clue>Further, LMP1 does not require TRADD residues 294 to 312 for NF-kappaB <clueType>activation</clueType>, while TNFR1 requires TRADD residues 296 to 302.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref1="A4" idref="T42" />
+<clue>Further, LMP1 does not require TRADD residues 294 to 312 <linkTheme>for</linkTheme> NF-kappaB activation, while TNFR1 <clueType>requires</clueType> TRADD residues 296 to 302.</clue>
+<comment>CAUTION: SEE; TPS: A4</comment>
+</event>
+<event id="E48">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<cause idref="T41" />
+<clue>Further, LMP1 does not require TRADD residues 294 to 312 for NF-kappaB <clueType>activation</clueType>, while TNFR1 requires TRADD residues 296 to 302.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<sentence id="S6"><term sem="Protein_molecule" id="T43" lex="LMP1">LMP1</term> is partially blocked for <term sem="Other" id="T44" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T45" lex="NF-kappaB">NF-kappaB</term> activation</term> by a <term sem="Protein_molecule" id="A5"><term sem="Protein_family_or_group" id="T46" lex="TRADD">TRADD</term> mutant</term> consisting of <term sem="Peptide" id="T47" lex="residue_122_to_293"><term sem="Amino_acid_monomer" id="T48" lex="residue">residues</term> 122 to 293</term>.</sentence>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T45" />
+<cause idref="T43" />
+<clue>LMP1 is partially blocked for NF-kappaB <clueType>activation</clueType> by a TRADD mutant consisting of residues 122 to 293.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref1="T47" idref="A5" />
+<clue>LMP1 is partially <clueType>blocked</clueType> <linkTheme>for</linkTheme> NF-kappaB activation <linkCause>by</linkCause> a TRADD mutant consisting of residues 122 to 293.</clue>
+<comment>NER: T47 sem mod, Protein_domain_or_region -&gt; Peptide</comment>
+</event>
+<sentence id="S7">Unlike <term sem="Protein_molecule" id="T49" lex="TNFR1">TNFR1</term>, <term sem="Protein_molecule" id="T50" lex="LMP1">LMP1</term> can interact directly with <term sem="Protein_molecule" id="T51" lex="receptor-interacting_protein">receptor-interacting protein</term> (<term sem="Protein_molecule" id="T52" lex="RIP">RIP</term>) and stably associates with <term sem="Protein_molecule" id="T53" lex="RIP">RIP</term> in <term sem="Cell_cultured" id="T54" lex="EBV-transformed_lymphoblastoid_cell_line"><term sem="Virus" id="T55" lex="EBV">EBV</term>-transformed <term sem="Cell_cultured" id="A9">lymphoblastoid cell lines</term></term>.</sentence>
+<event id="E24">
+<type class="Binding" />
+<theme idref="T50" />
+<theme idref="T52" />
+<clue>Unlike TNFR1, LMP1 can <clueType>interact</clueType> directly <linkTheme>with</linkTheme> receptor-interacting protein (RIP) and stably associates with RIP in EBV-transformed lymphoblastoid cell lines.</clue>
+</event>
+<event id="E25">
+<type class="Binding" />
+<theme idref="T50" />
+<theme idref="T53" />
+<clue>Unlike TNFR1, LMP1 can interact directly with receptor-interacting protein (RIP) and stably <clueType>associates</clueType> <linkTheme>with</linkTheme> RIP <clueLoc>in EBV-transformed lymphoblastoid cell lines</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E26">
+<type class="Binding" />
+<theme idref="T49" />
+<theme idref="T52" />
+<clue><clueType>Unlike</clueType> TNFR1, LMP1 can <clueType>interact</clueType> directly <linkTheme>with</linkTheme> receptor-interacting protein (RIP) and stably associates with RIP in EBV-transformed lymphoblastoid cell lines.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event assertion="non-exist" id="E27">
+<type class="Binding" />
+<theme idref="T49" />
+<theme idref="T53" />
+<clue><clueType>Unlike</clueType> TNFR1, LMP1 can interact directly with receptor-interacting protein (RIP) and stably <clueType>associates</clueType> <linkTheme>with</linkTheme> RIP <clueLoc>in EBV-transformed lymphoblastoid cell lines</clueLoc>.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E49">
+<type class="Biological_process" />
+<theme idref="A9" />
+<clue>Unlike TNFR1, LMP1 can interact directly with receptor-interacting protein (RIP) and stably associates with RIP in EBV-<clueType>transformed</clueType> lymphoblastoid cell lines.</clue>
+</event>
+<event id="E55">
+<type class="Positive_regulation" />
+<theme idref="A9" />
+<cause idref="T55" />
+<clue>Unlike TNFR1, LMP1 can interact directly with receptor-interacting protein (RIP) and stably associates with RIP in EBV-<clueType>transformed</clueType> lymphoblastoid cell lines.</clue>
+</event>
+<sentence id="S8">Surprisingly, <term sem="Protein_molecule" id="T56" lex="LMP1">LMP1</term> does not require <term sem="Protein_molecule" id="T57" lex="RIP">RIP</term> for <term sem="Other" id="T58" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T59" lex="NF-kappaB">NF-kappaB</term> activation</term>.</sentence>
+<event assertion="non-exist" id="E28">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="T57" />
+<clue>Surprisingly, LMP1 does not <clueType>require</clueType> RIP <linkTheme>for</linkTheme> NF-kappaB activation.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T59" />
+<cause idref="T56" />
+<clue>Surprisingly, LMP1 does not require RIP for NF-kappaB <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S9">Despite <term sem="Other" id="T60" lex="constitutive_association">constitutive association</term> with <term sem="Protein_family_or_group" id="T61" lex="TRADD">TRADD</term> or <term sem="Protein_molecule" id="T62" lex="RIP">RIP</term>, <term sem="Protein_molecule" id="T63" lex="LMP1">LMP1</term> does not induce <term sem="Other" id="T64" lex="apoptosis">apoptosis</term> in <cons sem="(OR Cell_cultured Cell_cultured)" id="T65" lex="(OR EBV-negative_Burkitt_lymphoma_cell human_embryonic_kidney_293_cell)"><frag id="F1">EBV-negative Burkitt lymphoma</frag> or <frag id="F2">human embryonic kidney 293</frag> <frag id="F3">cells</frag></cons>.</sentence>
+<event id="E30">
+<type class="Binding" />
+<theme idref="T63" />
+<theme idref="T61" />
+<clue>Despite constitutive <clueType>association</clueType> <linkTheme>with</linkTheme> TRADD or RIP, LMP1 does not induce apoptosis in EBV-negative Burkitt lymphoma or human embryonic kidney 293 cells.</clue>
+</event>
+<event id="E31">
+<type class="Binding" />
+<theme idref="T63" />
+<theme idref="T62" />
+<clue>Despite constitutive <clueType>association</clueType> <linkTheme>with</linkTheme> TRADD or RIP, LMP1 does not induce apoptosis in EBV-negative Burkitt lymphoma or human embryonic kidney 293 cells.</clue>
+</event>
+<event assertion="non-exist" id="E32">
+<type class="Positive_regulation" />
+<theme idref="E50" />
+<cause idref="T63" />
+<clue>Despite constitutive association with TRADD or RIP, LMP1 does not <clueType>induce</clueType> apoptosis in EBV-negative Burkitt lymphoma or human embryonic kidney 293 cells.</clue>
+</event>
+<event assertion="non-exist" id="E52">
+<type class="Positive_regulation" />
+<theme idref="E51" />
+<cause idref="T63" />
+<clue>Despite constitutive association with TRADD or RIP, LMP1 does not <clueType>induce</clueType> apoptosis in EBV-negative Burkitt lymphoma or human embryonic kidney 293 cells.</clue>
+</event>
+<event id="E50">
+<type class="Cellular_physiological_process" />
+<theme idref1="F3" idref="F1" />
+<clue>Despite constitutive association with TRADD or RIP, LMP1 does not induce <clueType>apoptosis</clueType> <linkTheme>in</linkTheme> EBV-negative Burkitt lymphoma or human embryonic kidney 293 cells.</clue>
+</event>
+<event id="E51">
+<type class="Cellular_physiological_process" />
+<theme idref1="F3" idref="F2" />
+<clue>Despite constitutive association with TRADD or RIP, LMP1 does not induce <clueType>apoptosis</clueType> <linkTheme>in</linkTheme> EBV-negative Burkitt lymphoma or human embryonic kidney 293 cells.</clue>
+</event>
+<sentence id="S10">These results add a different perspective to the <term sem="Other" id="T66" lex="molecular_interaction">molecular interactions</term> through which <term sem="Protein_molecule" id="T67" lex="LMP1">LMP1</term>, <term sem="Protein_family_or_group" id="T68" lex="TRADD">TRADD</term>, and <term sem="Protein_molecule" id="T69" lex="RIP">RIP</term> participate in <cons sem="(AND Other Other)" id="T70" lex="(AND B-lymphocyte_activation B-lymphocyte_growth)"><frag id="F4"><term sem="Cell_natural" id="A6">B-lymphocyte</term></frag> <frag id="F5">activation</frag> and <frag id="F6">growth</frag></cons>.</sentence>
+<event id="E33">
+<type class="Regulation" />
+<theme idref="E39" />
+<cause idref="T67" />
+<clue>These results add a different perspective to the molecular interactions through which LMP1, TRADD, and RIP <clueType>participate</clueType> <linkTheme>in</linkTheme> B-lymphocyte activation and growth.</clue>
+</event>
+<event id="E34">
+<type class="Regulation" />
+<theme idref="E40" />
+<cause idref="T67" />
+<clue>These results add a different perspective to the molecular interactions through which LMP1, TRADD, and RIP <clueType>participate</clueType> <linkTheme>in</linkTheme> B-lymphocyte activation and growth.</clue>
+</event>
+<event id="E35">
+<type class="Regulation" />
+<theme idref="E39" />
+<cause idref="T68" />
+<clue>These results add a different perspective to the molecular interactions through which LMP1, TRADD, and RIP <clueType>participate</clueType> <linkTheme>in</linkTheme> B-lymphocyte activation and growth.</clue>
+</event>
+<event id="E36">
+<type class="Regulation" />
+<theme idref="E40" />
+<cause idref="T68" />
+<clue>These results add a different perspective to the molecular interactions through which LMP1, TRADD, and RIP <clueType>participate</clueType> <linkTheme>in</linkTheme> B-lymphocyte activation and growth.</clue>
+</event>
+<event id="E37">
+<type class="Regulation" />
+<theme idref="E39" />
+<cause idref="T69" />
+<clue>These results add a different perspective to the molecular interactions through which LMP1, TRADD, and RIP <clueType>participate</clueType> <linkTheme>in</linkTheme> B-lymphocyte activation and growth.</clue>
+</event>
+<event id="E38">
+<type class="Regulation" />
+<theme idref="E40" />
+<cause idref="T69" />
+<clue>These results add a different perspective to the molecular interactions through which LMP1, TRADD, and RIP <clueType>participate</clueType> <linkTheme>in</linkTheme> B-lymphocyte activation and growth.</clue>
+</event>
+<event id="E39">
+<type class="Physiological_process" />
+<theme idref="A6" />
+<clue>These results add a different perspective to the molecular interactions through which LMP1, TRADD, and RIP participate in B-lymphocyte <clueType>activation</clueType> and growth.</clue>
+</event>
+<event id="E40">
+<type class="Cellular_physiological_process" />
+<theme idref="A6" />
+<clue>These results add a different perspective to the molecular interactions through which LMP1, TRADD, and RIP participate in B-lymphocyte activation and <clueType>growth</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E41">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="T66" />
+<clue>These results add a different perspective to the molecular interactions <linkCause>through</linkCause> which LMP1, TRADD, and RIP participate in B-lymphocyte activation and growth.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event uncertainty="probable" id="E42">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="T66" />
+<clue>These results add a different perspective to the molecular interactions <linkCause>through</linkCause> which LMP1, TRADD, and RIP participate in B-lymphocyte activation and growth.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event uncertainty="probable" id="E43">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="T66" />
+<clue>These results add a different perspective to the molecular interactions <linkCause>through</linkCause> which LMP1, TRADD, and RIP participate in B-lymphocyte activation and growth.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event uncertainty="probable" id="E44">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="T66" />
+<clue>These results add a different perspective to the molecular interactions <linkCause>through</linkCause> which LMP1, TRADD, and RIP participate in B-lymphocyte activation and growth.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event uncertainty="probable" id="E45">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T66" />
+<clue>These results add a different perspective to the molecular interactions <linkCause>through</linkCause> which LMP1, TRADD, and RIP participate in B-lymphocyte activation and growth.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event uncertainty="probable" id="E46">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="T66" />
+<clue>These results add a different perspective to the molecular interactions <linkCause>through</linkCause> which LMP1, TRADD, and RIP participate in B-lymphocyte activation and growth.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

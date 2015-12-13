@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9218534" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9218534</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Role of the <term sem="DNA_domain_or_region" id="T1" lex="X2_box">X2 box</term> in activated transcription from the <term sem="DNA_domain_or_region" id="T2" lex="DRA_promoter">DRA promoter</term> in <term sem="Cell_natural" id="T3" lex="B_cell">B cells</term>.</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T2" />
+<clue>Role of the X2 box in activated <clueType>transcription</clueType> <linkTheme>from</linkTheme> the DRA promoter in B cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue>Role of the X2 box in <clueType>activated</clueType> transcription from the DRA promoter in B cells.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue><clueType>Role</clueType> <linkCause>of</linkCause> the X2 box <linkTheme>in</linkTheme> activated transcription from the DRA promoter <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We investigated the function of the evolutionary conserved <term sem="DNA_domain_or_region" id="T4" lex="X2_box">X2 box</term> in the <term sem="DNA_domain_or_region" id="T5" lex="promoter">promoter</term> of the <term sem="DNA_domain_or_region" id="T6" lex="HLA-DRA_gene">HLA-DRA gene</term> from the <term sem="Protein_family_or_group" id="T7" lex="human_major_histocompatibility_complex">human major histocompatibility complex</term> (<term sem="Protein_family_or_group" id="T8" lex="MHC">MHC</term>) in resting and activated <term sem="Cell_natural" id="T9" lex="B_cell">B cells</term>.</sentence>
+<event uncertainty="doubtful" id="E4">
+<type class="Regulation" />
+<cause idref="T4" />
+<clue>We investigated the <clueType>function</clueType> <linkCause>of</linkCause> the evolutionary conserved X2 box in the promoter of the HLA-DRA gene from the human major histocompatibility complex (MHC) <clueLoc>in resting</clueLoc> and activated <clueLoc>B cells</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E104">
+<type class="Regulation" />
+<cause idref="T4" />
+<clue>We investigated the <clueType>function</clueType> <linkCause>of</linkCause> the evolutionary conserved X2 box in the promoter of the HLA-DRA gene from the human major histocompatibility complex (MHC) <clueLoc>in</clueLoc> resting and <clueLoc>activated B cells</clueLoc>.</clue>
+</event>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="T9" />
+<clue>We investigated the function of the evolutionary conserved X2 box in the promoter of the HLA-DRA gene from the human major histocompatibility complex (MHC) in resting and <clueType>activated</clueType> B cells.</clue>
+</event>
+<sentence id="S3"><term sem="Protein_complex" id="T10" lex="NF-X2">NF-X2</term>, which contains members of the <term sem="Protein_family_or_group" id="T11" lex="AP-1/ATF/CREB_family">AP-1/ATF/CREB families</term> of <term sem="Protein_family_or_group" id="T12" lex="transcription_factor">transcription factors</term>, interacts with the <term sem="DNA_domain_or_region" id="T13" lex="X2_box">X2 box</term> (<term sem="Polynucleotide" id="T14" lex="5&apos;-TGCGTCA-3&apos;">5'-TGCGTCA-3'</term>) from positions -97 to -91 in the <term sem="DNA_domain_or_region" id="T15" lex="DRA_promoter">DRA promoter</term>.</sentence>
+<event id="E6">
+<type class="Binding" />
+<theme idref="T10" />
+<theme idref="T13" />
+<clue>NF-X2, which contains members of the AP-1/ATF/CREB families of transcription factors, <clueType>interacts</clueType> <linkTheme>with</linkTheme> the X2 box (5'-TGCGTCA-3') from positions -97 to -91 in the DRA promoter.</clue>
+<comment>NER T10 MOD</comment>
+</event>
+<sentence id="S4">In resting <term sem="Cell_cultured" id="T16" lex="Raji_cell">Raji cells</term>, little to no binding to the <term sem="DNA_domain_or_region" id="T17" lex="X2_box">X2 box</term> was observed.</sentence>
+<event assertion="non-exist" id="E7">
+<type class="Binding" />
+<theme idref="T17" />
+<theme idref="T10" />
+<clue><clueLoc>In resting Raji cells</clueLoc>, little to no <clueType>binding</clueType> <linkTheme>to</linkTheme> the X2 box was observed.</clue>
+<comment>NO COREFETHEME FOR T10</comment>
+</event>
+<sentence id="S5">In sharp contrast, in <term sem="Cell_natural" id="T18" lex="B_cell">B cells</term> treated with the <term sem="Organic_compound_other" id="T19" lex="phorbol_ester">phorbol ester</term> <term sem="Organic_compound_other" id="T20" lex="12-O-tetradecanoylphorbol-13-acetate">12-O-tetradecanoylphorbol-13-acetate</term> (<term sem="Organic_compound_other" id="T21" lex="TPA">TPA</term>), strong interactions between the <term sem="DNA_domain_or_region" id="T22" lex="X2_box">X2 box</term> and <term sem="Protein_complex" id="T23" lex="NF-X2">NF-X2</term> containing <term sem="Protein_molecule" id="T24" lex="c-Fos">c-Fos</term> were observed.</sentence>
+<event id="E8">
+<type class="Artificial_process" />
+<theme idref="T18" />
+<theme idref="T21" />
+<clue>In sharp contrast, in B cells <clueType>treated</clueType> <linkTheme>with</linkTheme> the phorbol ester 12-O-tetradecanoylphorbol-13-acetate (TPA), strong interactions between the X2 box and NF-X2 containing c-Fos were observed.</clue>
+<comment>NER T23 MOD</comment>
+</event>
+<event id="E9">
+<type class="Binding" />
+<theme idref="T22" />
+<theme idref="T23" />
+<clue>In sharp contrast, <clueLoc>in B cells treated with the phorbol ester 12-O-tetradecanoylphorbol-13-acetate (TPA)</clueLoc>, strong <clueType>interactions</clueType> <linkTheme>between</linkTheme> the X2 box <linkTheme>and</linkTheme> NF-X2 containing c-Fos were observed.</clue>
+</event>
+<sentence id="S6">As determined by transient expression and RNA analyses, the activation of <term sem="Protein_molecule" id="A1">protein kinase C</term> (<term sem="Protein_molecule" id="A2">PKC</term>) also increased rates of transcription from the <term sem="DNA_domain_or_region" id="T25" lex="DRA_promoter">wild-type DRA promoter</term> but not from a <term sem="DNA_domain_or_region" id="A3"><term sem="DNA_domain_or_region" id="T26" lex="DRA_promoter">DRA promoter</term> bearing clustered point mutations in the <term sem="DNA_domain_or_region" id="T27" lex="X2_box">X2 box</term></term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<clue>As determined by transient expression and RNA analyses, the <clueType>activation</clueType> <linkTheme>of</linkTheme> protein kinase C (PKC) also increased rates of transcription from the wild-type DRA promoter but not from a DRA promoter bearing clustered point mutations in the X2 box.</clue>
+<comment>NER T25 MOD, TPS A3</comment>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<theme idref="T25" />
+<clue>As determined by transient expression and RNA analyses, the activation of protein kinase C (PKC) also increased rates of <clueType>transcription</clueType> <linkTheme>from</linkTheme> the wild-type DRA promoter but not from a DRA promoter bearing clustered point mutations in the X2 box.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="E10" />
+<clue><clueExperiment>As determined by transient expression and RNA analyses</clueExperiment>, the activation of protein kinase C (PKC) also <clueType>increased rates</clueType> <linkTheme>of</linkTheme> transcription from the wild-type DRA promoter but not from a DRA promoter bearing clustered point mutations in the X2 box.</clue>
+</event>
+<event id="E13">
+<type class="Transcription" />
+<theme idref="A3" />
+<clue>As determined by transient expression and RNA analyses, the activation of protein kinase C (PKC) also increased rates of <clueType>transcription</clueType> from the wild-type DRA promoter but not <linkTheme>from</linkTheme> a DRA promoter bearing clustered point mutations in the X2 box.</clue>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E10" />
+<clue><clueExperiment>As determined by transient expression and RNA analyses</clueExperiment>, the activation of protein kinase C (PKC) also <clueType>increased rates</clueType> <linkTheme>of</linkTheme> transcription from the wild-type DRA promoter but not from a DRA promoter bearing clustered point mutations in the X2 box.</clue>
+</event>
+<event id="E15">
+<type class="Mutagenesis" />
+<theme idref="T27" />
+<clue>As determined by transient expression and RNA analyses, the activation of protein kinase C (PKC) also increased rates of transcription from the wild-type DRA promoter but not from a DRA promoter bearing clustered point <clueType>mutations</clueType> <linkTheme>in</linkTheme> the X2 box.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<sentence id="S7">Since the co-expression with a <term sem="Protein_molecule" id="A4">dominant negative <term sem="Protein_molecule" id="T28" lex="c-Fos">c-Fos</term></term> abolished the responsiveness to <term sem="Organic_compound_other" id="T29" lex="TPA">TPA</term>, we conclude that activated transcription of the <term sem="DNA_domain_or_region" id="T30" lex="DRA_gene">DRA gene</term> depends on interactions between the <term sem="DNA_domain_or_region" id="T31" lex="X2_box">X2 box</term> and <term sem="Protein_complex" id="T32" lex="NF-X2">NF-X2</term>, which contains <term sem="Protein_molecule" id="T33" lex="c-Fos">c-Fos</term>.</sentence>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>Since the <clueType>co-expression</clueType> <linkTheme>with</linkTheme> a dominant negative c-Fos abolished the responsiveness to TPA, we conclude that activated transcription of the DRA gene depends on interactions between the X2 box and NF-X2, which contains c-Fos.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E17">
+<type class="Regulation" />
+<cause idref="T29" />
+<clue>Since the co-expression with a dominant negative c-Fos abolished the <clueType>responsiveness</clueType> <linkCause>to</linkCause> TPA, we conclude that activated transcription of the DRA gene depends on interactions between the X2 box and NF-X2, which contains c-Fos.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="E16" />
+<clue>Since the co-expression with a dominant negative c-Fos <clueType>abolished</clueType> the responsiveness to TPA, we conclude that activated transcription of the DRA gene depends on interactions between the X2 box and NF-X2, which contains c-Fos.</clue>
+</event>
+<event id="E19">
+<type class="Transcription" />
+<theme idref="T30" />
+<clue>Since the co-expression with a dominant negative c-Fos abolished the responsiveness to TPA, we conclude that activated <clueType>transcription</clueType> <linkTheme>of</linkTheme> the DRA gene depends on interactions between the X2 box and NF-X2, which contains c-Fos.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<clue>Since the co-expression with a dominant negative c-Fos abolished the responsiveness to TPA, we conclude that <clueType>activated</clueType> transcription of the DRA gene depends on interactions between the X2 box and NF-X2, which contains c-Fos.</clue>
+</event>
+<event id="E21">
+<type class="Binding" />
+<theme idref="T31" />
+<theme idref="T32" />
+<clue>Since the co-expression with a dominant negative c-Fos abolished the responsiveness to TPA, we conclude that activated transcription of the DRA gene depends on <clueType>interactions</clueType> <linkTheme>between</linkTheme> the X2 box <linkTheme>and</linkTheme> NF-X2, which contains c-Fos.</clue>
+<comment>NER T32 MOD</comment>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E21" />
+<clue>Since the co-expression with a dominant negative c-Fos abolished the responsiveness to TPA, we conclude that activated transcription of the DRA gene <clueType>depends</clueType> <linkCause>on</linkCause> interactions between the X2 box and NF-X2, which contains c-Fos.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

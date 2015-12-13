@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="13/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9751756" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9751756</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term sem="Other" id="T1" lex="PEBP2betaMYH11_fusion"><term sem="Protein_molecule" id="T2" lex="PEBP2betaMYH11"><term sem="DNA_domain_or_region" id="A3"><term sem="DNA_domain_or_region" id="A2">PEBP2beta</term>MYH11</term></term> fusion</term> created by <term sem="Other" id="T3" lex="Inv(16)(p13;q22)">Inv(<term sem="DNA_domain_or_region" id="A44">16</term>)(<term sem="DNA_domain_or_region" id="A45">p13</term>;<term sem="DNA_domain_or_region" id="A46">q22</term>)</term> in <term sem="Other" id="T4" lex="myeloid_leukemia">myeloid leukemia</term> impairs <term sem="Cell_natural" id="A1">neutrophil</term> maturation and contributes to <term sem="Other" id="T5" lex="granulocytic_dysplasia">granulocytic dysplasia</term>.</sentence>
+<event id="E1">
+<type class="DNA_recombination" />
+<theme idref="A2" />
+<theme idref="A3" />
+<clue>The PEBP2betaMYH11 <clueType>fusion</clueType> created by Inv(16)(p13;q22) in myeloid leukemia impairs neutrophil maturation and contributes to granulocytic dysplasia.</clue>
+<comment>NER T3 MOD</comment>
+</event>
+<event id="E101">
+<type class="DNA_recombination" />
+<theme idref1="A45" idref="A44" />
+<theme idref1="A46" idref="A44" />
+<clue>The PEBP2betaMYH11 fusion created by <clueType>Inv</clueType>(16)(p13;q22) in myeloid leukemia impairs neutrophil maturation and contributes to granulocytic dysplasia.</clue>
+</event>
+<event id="E201">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="E101" />
+<clue>The PEBP2betaMYH11 fusion <clueType>created</clueType> <linkCause>by</linkCause> Inv(16)(p13;q22) <clueLoc>in myeloid leukemia</clueLoc> impairs neutrophil maturation and contributes to granulocytic dysplasia.</clue>
+</event>
+<event id="E2">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>The PEBP2betaMYH11 fusion created by Inv(16)(p13;q22) in myeloid leukemia impairs neutrophil <clueType>maturation</clueType> and contributes to granulocytic dysplasia.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="E201" />
+<clue>The PEBP2betaMYH11 fusion created by Inv(16)(p13;q22) in myeloid leukemia <clueType>impairs</clueType> neutrophil maturation and contributes to granulocytic dysplasia.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T5" />
+<cause idref="E1" />
+<clue>The PEBP2betaMYH11 fusion created by Inv(16)(p13;q22) in myeloid leukemia impairs neutrophil maturation and <clueType>contributes</clueType> <linkTheme>to</linkTheme> granulocytic dysplasia.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T6" lex="chromosomal_translocation">Chromosomal translocations</term> involving <term sem="DNA_domain_or_region" id="A4">the genes encoding the</term> <cons sem="(AND Protein_molecule Protein_molecule)" id="T7" lex="(AND alpha_subunit beta_subunit)"><frag id="F1"><term sem="DNA_domain_or_region" id="A5">alpha</term></frag> and <frag id="F2"><term sem="DNA_domain_or_region" id="A6">beta</term></frag> <frag id="F3"><term sem="DNA_domain_or_region" id="A7">subunits</term></frag></cons> <term sem="DNA_domain_or_region" id="A8">of the <term sem="Protein_molecule" id="T8" lex="Pebp2/Cbf_transcription_factor">Pebp2/Cbf transcription factor</term></term> have been associated with human <term sem="Other" id="T9" lex="myeloid_leukemia">acute myeloid leukemia</term> and the <term sem="Other" id="T10" lex="preleukemic_condition">preleukemic condition</term>, <term sem="Other" id="T11" lex="myelodysplasia">myelodysplasia</term>.</sentence>
+<event id="E5">
+<type class="DNA_recombination" />
+<theme idref1="A5" idref2="A7" idref3="A8" idref="A4" />
+<theme idref1="A6" idref2="A7" idref3="A8" idref="A4" />
+<clue><clueType>Chromosomal translocations</clueType> i<linkTheme>nvolving</linkTheme> the genes encoding the alpha and beta subunits of the Pebp2/Cbf transcription factor have been associated with human acute myeloid leukemia and the preleukemic condition, myelodysplasia.</clue>
+<comment>NER T9 MOD</comment>
+</event>
+<event id="E6">
+<type class="Correlation" />
+<theme idref="E5" />
+<theme idref="T9" />
+<clue>Chromosomal translocations involving the genes encoding the alpha and beta subunits of the Pebp2/Cbf transcription factor have been <clueType>associated</clueType> <linkTheme>with</linkTheme> human acute myeloid leukemia and the preleukemic condition, myelodysplasia.</clue>
+</event>
+<event id="E7">
+<type class="Correlation" />
+<theme idref="E5" />
+<theme idref="T11" />
+<clue>Chromosomal translocations involving the genes encoding the alpha and beta subunits of the Pebp2/Cbf transcription factor have been <clueType>associated</clueType> <linkTheme>with</linkTheme> human acute myeloid leukemia and the preleukemic condition, myelodysplasia.</clue>
+</event>
+<sentence id="S3"><term sem="Other" id="T12" lex="Inv(16)(p13;q22)">Inv(<term sem="DNA_domain_or_region" id="A47">16</term>)(<term sem="DNA_domain_or_region" id="A48">p13</term>;<term sem="DNA_domain_or_region" id="A49">q22</term>)</term> fuses <term sem="DNA_domain_or_region" id="A9">the gene encoding the <term sem="Protein_molecule" id="T13" lex="beta_subunit">beta subunit</term> of <term sem="Protein_molecule" id="T14" lex="Pebp2">Pebp2</term></term> to the <term sem="DNA_domain_or_region" id="T15" lex="MYH11_gene">MYH11 gene</term> encoding a <term sem="Protein_molecule" id="T16" lex="smooth_muscle_myosin_heavy_chain">smooth muscle myosin heavy chain</term> (<term sem="Protein_molecule" id="T17" lex="Smmhc">Smmhc</term>).</sentence>
+<event id="E8">
+<type class="DNA_recombination" />
+<theme idref="A9" />
+<theme idref="T15" />
+<clue>Inv(16)(p13;q22) <clueType>fuses</clueType> the gene encoding the beta subunit of Pebp2 to the MYH11 gene encoding a smooth muscle myosin heavy chain (Smmhc).</clue>
+<comment>NER T12 MOD, TPS A9</comment>
+</event>
+<event id="E108">
+<type class="DNA_recombination" />
+<theme idref1="A48" idref="A47" />
+<theme idref1="A49" idref="A47" />
+<clue><clueType>Inv</clueType>(16)(p13;q22) fuses the gene encoding the beta subunit of Pebp2 to the MYH11 gene encoding a smooth muscle myosin heavy chain (Smmhc).</clue>
+</event>
+<event id="E208">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E108" />
+<clue>Inv(16)(p13;q22) <clueType>fuses</clueType> the gene encoding the beta subunit of Pebp2 to the MYH11 gene encoding a smooth muscle myosin heavy chain (Smmhc).</clue>
+</event>
+<sentence id="S4">To examine the effect of the <term sem="Other" id="T18" lex="inv(16)(p13;q22)">inv(16)(p13;q22)</term> on <term sem="Other" id="T19" lex="myelopoiesis">myelopoiesis</term>, we used the <term sem="DNA_domain_or_region" id="T20" lex="hMRP8_promoter_element">hMRP8 promoter element</term> to generate <term sem="Multicellular_organism_genetically_modified" id="T21" lex="transgenic_mouse">transgenic mice</term> expressing the <term sem="Protein_molecule" id="T22" lex="Pebp2beta">Pebp2beta</term> <term sem="Protein_molecule" id="T23" lex="Smmhc_chimeric_fusion_protein"><term sem="Protein_molecule" id="T24" lex="Smmhc">Smmhc</term> chimeric fusion protein</term> in <term sem="Cell_natural" id="T25" lex="myeloid_cell">myeloid cells</term>.</sentence>
+<event uncertainty="doubtful" id="E9">
+<type class="Regulation" />
+<theme idref="T19" />
+<cause idref="T18" />
+<clue>To examine the <clueType>effect</clueType> <linkCause>of</linkCause> the inv(16)(p13;q22) <linkTheme>on</linkTheme> myelopoiesis, we used the hMRP8 promoter element to generate transgenic mice expressing the Pebp2beta Smmhc chimeric fusion protein in myeloid cells.</clue>
+<comment>NER T18 MOD</comment>
+</event>
+<sentence id="S5"><term sem="Other" id="T26" lex="neutrophil_maturation"><term sem="Cell_natural" id="A10">Neutrophil</term> maturation</term> was impaired in <term sem="Protein_molecule" id="T27" lex="PEBP2betaMYH11">PEBP2betaMYH11</term> <term sem="Multicellular_organism_genetically_modified" id="T28" lex="transgenic_mouse">transgenic mice</term>.</sentence>
+<event id="E10">
+<type class="Cell_differentiation" />
+<theme idref="A10" />
+<clue>Neutrophil <clueType>maturation</clueType> was impaired in PEBP2betaMYH11 transgenic mice.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="E10" />
+<clue>Neutrophil maturation was <clueType>impaired</clueType> <clueLoc>in PEBP2betaMYH11 transgenic mice</clueLoc>.</clue>
+</event>
+<sentence id="S6">Although the <term sem="Multicellular_organism_genetically_modified" id="T29" lex="transgenic_mouse">transgenic mice</term> had normal numbers of <term sem="Cell_natural" id="T30" lex="circulating_neutrophil">circulating neutrophils</term>, their <term sem="Tissue_natural" id="T31" lex="bone_marrow">bone marrow</term> contained increased numbers of <term sem="Cell_natural" id="T32" lex="immature_neutrophilic_cell">immature neutrophilic cells</term>, which exhibited abnormal characteristics.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<clue>Although <clueLoc>the transgenic mice</clueLoc> had normal numbers of circulating neutrophils, <clueLoc>their bone marrow</clueLoc> <clueType>contained increased numbers</clueType> <linkTheme>of</linkTheme> immature neutrophilic cells, which exhibited abnormal characteristics.</clue>
+</event>
+<sentence id="S7">In addition, <term sem="Protein_molecule" id="T33" lex="PEBP2betaMYH11">PEBP2betaMYH11</term> inhibited <term sem="Other" id="T34" lex="neutrophilic_differentiation">neutrophilic differentiation</term> in <term sem="Cell_natural" id="A11">colonies derived from <term sem="Cell_natural" id="T35" lex="hematopoietic_progenitor">hematopoietic progenitors</term></term>.</sentence>
+<event id="E13">
+<type class="Cell_differentiation" />
+<theme idref="A11" />
+<clue>In addition, PEBP2betaMYH11 inhibited <clueType>neutrophilic differentiation</clueType> <linkTheme>in</linkTheme> colonies derived from hematopoietic progenitors.</clue>
+<comment>TPS A11</comment>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="T33" />
+<clue>In addition, PEBP2betaMYH11 <clueType>inhibited</clueType> neutrophilic differentiation in colonies derived from hematopoietic progenitors.</clue>
+</event>
+<sentence id="S8">Coexpression of both <term sem="Protein_molecule" id="T36" lex="PEBP2betaMYH11">PEBP2betaMYH11</term> and activated <term sem="Protein_molecule" id="T37" lex="activated_NRAS">NRAS</term> induced a more severe phenotype characterized by <term sem="Other" id="T38" lex="abnormal_nuclear_morphology">abnormal nuclear morphology</term> indicative of <term sem="Other" id="T39" lex="granulocytic_dysplasia">granulocytic dysplasia</term>.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<clue>Coexpression of both PEBP2betaMYH11 and <clueType>activated</clueType> NRAS induced a more severe phenotype characterized by abnormal nuclear morphology indicative of granulocytic dysplasia.</clue>
+<comment>NER T37 MOD</comment>
+</event>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T36" />
+<clue>Co<clueType>expression</clueType> <linkTheme>of</linkTheme> both PEBP2betaMYH11 and activated NRAS induced a more severe phenotype characterized by abnormal nuclear morphology indicative of granulocytic dysplasia.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<cause idref="E15" />
+<cause idref="E16" />
+<clue><linkCause>Co</linkCause>expression <linkCause>of both</linkCause> PEBP2betaMYH11 and activated NRAS <clueType>induced</clueType> a more severe phenotype characterized by abnormal nuclear morphology indicative of granulocytic dysplasia.</clue>
+</event>
+<sentence id="S9">These results show that <term sem="Protein_molecule" id="T40" lex="PEBP2betaMYH11">PEBP2betaMYH11</term> can impair <term sem="Other" id="T41" lex="neutrophil_development"><term sem="Cell_natural" id="A12">neutrophil</term> development</term> and provide evidence that alterations of <term sem="Protein_molecule" id="T42" lex="Pebp2">Pebp2</term> can contribute to the genesis of <term sem="Other" id="T43" lex="myelodysplasia">myelodysplasia</term>.</sentence>
+<event id="E18">
+<type class="Cell_differentiation" />
+<theme idref="A12" />
+<clue>These results show that PEBP2betaMYH11 can impair neutrophil <clueType>development</clueType> and provide evidence that alterations of Pebp2 can contribute to the genesis of myelodysplasia.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="T40" />
+<clue>These results show that PEBP2betaMYH11 can <clueType>impair</clueType> neutrophil development and provide evidence that alterations of Pebp2 can contribute to the genesis of myelodysplasia.</clue>
+</event>
+<event id="E20">
+<type class="Regulation" />
+<theme idref="T42" />
+<clue>These results show that PEBP2betaMYH11 can impair neutrophil development and provide evidence that <clueType>alterations</clueType> <linkTheme>of</linkTheme> Pebp2 can contribute to the genesis of myelodysplasia.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T43" />
+<cause idref="E20" />
+<clue>These results show that PEBP2betaMYH11 can impair neutrophil development and provide evidence that alterations of Pebp2 can <clueType>contribute to the genesis</clueType> <linkTheme>of</linkTheme> myelodysplasia.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

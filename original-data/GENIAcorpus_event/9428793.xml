@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="2007/03/09" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9428793" creator="Maki Niihori">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9428793</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="cyclosporin_A">Cyclosporin A</term> inhibits <term sem="Other" id="T2" lex="early_mRNA_expression">early mRNA expression</term> of <term sem="DNA_domain_or_region" id="T3" lex="G0/G1_switch_gene_2">G0/G1 switch gene 2</term> (<term sem="DNA_domain_or_region" id="T4" lex="G0S2">G0S2</term>) in <term sem="Cell_cultured" id="T5" lex="cultured_human_blood_mononuclear_cell">cultured human blood mononuclear cells</term>.</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T4" />
+<clue>Cyclosporin A inhibits early <clueType>mRNA expression</clueType> <linkTheme>of</linkTheme> G0/G1 switch gene 2 (G0S2) in cultured human blood mononuclear cells.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Cyclosporin A <clueType>inhibits</clueType> early mRNA expression of G0/G1 switch gene 2 (G0S2) <clueLoc>in cultured human blood mononuclear cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Organic_compound_other" id="T6" lex="cyclosporin_A">Cyclosporin A</term> (<term sem="Organic_compound_other" id="T7" lex="CsA">CsA</term>) may achieve its <term sem="Other" id="T8" lex="immunosuppressive_effect">immunosuppressive effects</term> by inhibiting the <term sem="Protein_family_or_group" id="A1"><term sem="Protein_family_or_group" id="T9" lex="calcium-_and_calmodulin-dependent_phosphatase">calcium- and calmodulin-dependent phosphatase</term> <term sem="Protein_molecule" id="T10" lex="calcineurin">calcineurin</term></term> which is required for activation of <term sem="DNA_family_or_group" id="T11" lex="target_gene">target genes</term> by members of the <term sem="Protein_family_or_group" id="T12" lex="NFAT_(nuclear_factor_of_activated_T_cells)_transcription_factor_family">NFAT (<term sem="Protein_family_or_group" id="T13" lex="nuclear_factor_of_activated_T_cells">nuclear factor of activated T cells</term>) transcription factor family</term>.</sentence>
+<event uncertainty="probable" id="E3">
+<type class="Negative_regulation" />
+<theme idref="A1" />
+<cause idref="T7" />
+<clue>Cyclosporin A (CsA) may achieve its immunosuppressive effects by <clueType>inhibiting</clueType> the calcium- and calmodulin-dependent phosphatase calcineurin which is required for activation of target genes by members of the NFAT (nuclear factor of activated T cells) transcription factor family.</clue>
+<comment>TPS: A1</comment>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<cause idref="E3" />
+<clue>Cyclosporin A (CsA) may <clueType>achieve its immunosuppressive effects</clueType> <linkCause>by</linkCause> inhibiting the calcium- and calmodulin-dependent phosphatase calcineurin which is required for activation of target genes by members of the NFAT (nuclear factor of activated T cells) transcription factor family.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<cause idref="T12" />
+<clue>Cyclosporin A (CsA) may achieve its immunosuppressive effects by inhibiting the calcium- and calmodulin-dependent phosphatase calcineurin which is required for <clueType>activation</clueType> <linkTheme>of</linkTheme> target genes <linkCause>by</linkCause> members of the NFAT (nuclear factor of activated T cells) transcription factor family.</clue>
+</event>
+<event id="E105">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T10" />
+<clue>Cyclosporin A (CsA) may achieve its immunosuppressive effects by inhibiting the calcium- and calmodulin-dependent phosphatase calcineurin which is <clueType>required</clueType> <linkTheme>for</linkTheme> activation of target genes by members of the NFAT (nuclear factor of activated T cells) transcription factor family.</clue>
+</event>
+<sentence id="S3">Among these <term sem="DNA_family_or_group" id="T14" lex="target_gene">target genes</term> is the gene encoding <term sem="Protein_molecule" id="T15" lex="interleukin-2">interleukin-2</term> (<term sem="Protein_molecule" id="T16" lex="IL2">IL2</term>), a <term sem="Protein_family_or_group" id="T17" lex="cytokine">cytokine</term> facilitating progression through the <term sem="Other" id="T18" lex="G1_phase">G1 phase</term> of the <term sem="Other" id="T19" lex="cell_cycle">cell cycle</term>.</sentence>
+<event id="E7">
+<type class="Cellular_physiological_process" />
+<theme idref="T18" />
+<clue>Among these target genes is the gene encoding interleukin-2 (IL2), a cytokine facilitating <clueType>progression</clueType> <linkTheme>through</linkTheme> the G1 phase of the cell cycle.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T16" />
+<clue>Among these target genes is the gene encoding interleukin-2 (IL2), a cytokine <clueType>facilitating</clueType> progression through the G1 phase of the cell cycle.</clue>
+</event>
+<sentence id="S4">However, <term sem="Protein_molecule" id="T20" lex="IL2">IL2</term> does not reverse <term sem="Organic_compound_other" id="T21" lex="CsA">CsA</term> inhibition, suggesting that at least one other <term sem="DNA_domain_or_region" id="T22" lex="NFAT-sensitive_gene">NFAT-sensitive gene</term> may be involved.</sentence>
+<event id="E12">
+<type class="Negative_regulation" />
+<cause idref="T21" />
+<clue>However, IL2 does not reverse CsA <clueType>inhibition</clueType>, suggesting that at least one other NFAT-sensitive gene may be involved.</clue>
+</event>
+<event assertion="non-exist" id="E9">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="T20" />
+<clue>However, IL2 does not <clueType>reverse</clueType> CsA inhibition, suggesting that at least one other NFAT-sensitive gene may be involved.</clue>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="T22" />
+<clue>However, IL2 does not reverse CsA inhibition, suggesting that at least one other NFAT-sensitive gene may be <clueType>involved</clueType>.</clue>
+</event>
+<sentence id="S5">The <term sem="DNA_domain_or_region" id="T23" lex="human_G0/G1_switch_gene">human G0/G1 switch gene</term>, <term sem="DNA_domain_or_region" id="T24" lex="G0S2">G0S2</term>, has potential <term sem="DNA_domain_or_region" id="T25" lex="NFAT-binding_site">NFAT-binding sites</term> in the <term sem="DNA_domain_or_region" id="T26" lex="5&apos;_flank">5&apos; flank</term> and encodes a <term sem="Protein_family_or_group" id="T27" lex="small_basic_potential_phosphoprotein">small basic potential phosphoprotein</term> of unknown function.</sentence>
+<sentence id="S6">Using a sensitive, <term sem="Other" id="T28" lex="reverse_transcription-polymerase_chain_reaction_(RT-PCR)_assay">reverse transcription-polymerase chain reaction (RT-PCR) assay</term>, <term sem="RNA_molecule" id="T30" lex="G0S2">G0S2 mRNA</term> levels were assayed in <term sem="Cell_cultured" id="T31" lex="cultured_blood_mononuclear_cell">cultured blood mononuclear cells</term>.</sentence>
+<event uncertainty="doubtful" id="E6">
+<type class="Transcription" />
+<theme idref="T30" />
+<clue>Using a sensitive, reverse transcription-polymerase chain reaction (RT-PCR) assay, G0S2 mRNA <clueType>levels</clueType> were assayed <clueLoc>in cultured blood mononuclear cells</clueLoc>.</clue>
+<comment>NER T30 MOD</comment>
+</event>
+<sentence id="S7">Freshly isolated cells contain high levels of <term sem="RNA_molecule" id="T32" lex="G0S2_mRNA"><term sem="DNA_domain_or_region" id="T33" lex="G0S2">G0S2</term> mRNA</term> which rapidly decline.</sentence>
+<event id="E11">
+<type class="Transcription" />
+<theme idref="T32" />
+<clue>Freshly isolated cells contain high <clueType>levels</clueType> <linkTheme>of</linkTheme> G0S2 mRNA which rapidly decline.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<clue><clueLoc>Freshly isolated cells</clueLoc> contain <clueType>high</clueType> levels of G0S2 mRNA which rapidly decline.</clue>
+</event>
+<event id="E14">
+<type class="RNA_metabolism" />
+<theme idref="T32" />
+<clue>Freshly isolated cells contain high levels of G0S2 mRNA which rapidly <clueType>decline</clueType>.</clue>
+</event>
+<sentence id="S8">This &quot;spontaneous stimulation&quot; is also noted with some other <term sem="DNA_family_or_group" id="T34" lex="G0S_gene">G0S genes</term> and has been attributed to some aspect of the isolation procedure.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<clue>This &quot;spontaneous <clueType>stimulation</clueType>&quot; is also noted <linkTheme>with</linkTheme> some other G0S genes and has been attributed to some aspect of the isolation procedure.</clue>
+</event>
+<sentence id="S9">In cells that have been preincubated to lower mRNA levels, there is a transient increase in <term sem="RNA_molecule" id="T36" lex="G0S2_mRNA"><term sem="DNA_domain_or_region" id="T37" lex="G0S2">G0S2</term> mRNA</term>, peaking between 1-2 h, in response to <term sem="Organic_compound_other" id="T38" lex="Concanavalin-A">Concanavalin-A</term> (<term sem="Organic_compound_other" id="T39" lex="ConA">ConA</term>), or to the combination of <term sem="Organic_compound_other" id="T40" lex="phorbol_ester">phorbol ester</term> (<term sem="Organic_compound_other" id="T41" lex="TPA">TPA</term>), and the calcium ionophore, <term sem="Lipid" id="A101">ionomycin</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<cause idref="T39" />
+<clue><clueLoc>In cells that have been preincubated to lower mRNA levels</clueLoc>, there is a transient <clueType>increase</clueType> <linkTheme>in</linkTheme> G0S2 mRNA, peaking <clueTime>between 1-2 h</clueTime>, <linkCause>in response to</linkCause> Concanavalin-A (ConA), or to the combination of phorbol ester (TPA), and the calcium ionophore, ionomycin.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<cause idref="T41" />
+<cause idref="A101" />
+<clue><clueLoc>In cells that have been preincubated to lower mRNA levels</clueLoc>, there is a transient <clueType>increase</clueType> <linkTheme>in</linkTheme> G0S2 mRNA, peaking <clueTime>between 1-2 h</clueTime>, <linkCause>in response</linkCause> to Concanavalin-A (ConA), or <linkCause>to the combination of</linkCause> phorbol ester (TPA), <linkCause>and</linkCause> the calcium ionophore, ionomycin.</clue>
+</event>
+<sentence id="S10">Both these responses are inhibited by <term sem="Organic_compound_other" id="T42" lex="CsA">CsA</term>.</sentence>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T42" />
+<clue><corefTheme>Both these responses</corefTheme> are <clueType>inhibited</clueType> <linkCause>by</linkCause> CsA.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="T42" />
+<clue><corefTheme>Both these responses</corefTheme> are <clueType>inhibited</clueType> <linkCause>by</linkCause> CsA.</clue>
+</event>
+<sentence id="S11">Our results suggest that <term sem="Other" id="T43" lex="G0S2_expression"><term sem="DNA_domain_or_region" id="T44" lex="G0S2">G0S2</term> expression</term> is required to commit <term sem="Cell_natural" id="A102">cells</term> to enter the <term sem="Other" id="T45" lex="G1_phase">G1 phase</term> of the <term sem="Other" id="T46" lex="cell_cycle">cell cycle</term>, and that, while not excluding other possible targets, early inhibition of <term sem="Other" id="T47" lex="G0S2_expression"><term sem="DNA_domain_or_region" id="T48" lex="G0S2">G0S2</term> expression</term> by <term sem="Organic_compound_other" id="T49" lex="CsA">CsA</term> may be important in achieving <term sem="Other" id="A103" lex="immunosuppresion">immunosuppression</term>.</sentence>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>Our results suggest that G0S2 <clueType>expression</clueType> is required to commit cells to enter the G1 phase of the cell cycle, and that, while not excluding other possible targets, early inhibition of G0S2 expression by CsA may be important in achieving immunosuppression.</clue>
+</event>
+<event id="E21">
+<type class="Cellular_physiological_process" />
+<theme idref="A102" />
+<clue>Our results suggest that G0S2 expression is required to <clueType>commit</clueType> cells <clueType>to enter the G1 phase of the cell cycle</clueType>, and that, while not excluding other possible targets, early inhibition of G0S2 expression by CsA may be important in achieving immunosuppression.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="E20" />
+<clue>Our results suggest that G0S2 expression is <clueType>required</clueType> <linkTheme>to</linkTheme> commit cells to enter the G1 phase of the cell cycle, and that, while not excluding other possible targets, early inhibition of G0S2 expression by CsA may be important in achieving immunosuppression.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="T48" />
+<clue>Our results suggest that G0S2 expression is required to commit cells to enter the G1 phase of the cell cycle, and that, while not excluding other possible targets, early inhibition of G0S2 <clueType>expression</clueType> by CsA may be important in achieving immunosuppression.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="T49" />
+<clue>Our results suggest that G0S2 expression is required to commit cells to enter the G1 phase of the cell cycle, and that, while not excluding other possible targets, early <clueType>inhibition</clueType> <linkTheme>of</linkTheme> G0S2 expression <linkCause>by</linkCause> CsA may be important in achieving immunosuppression.</clue>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Positive_regulation" />
+<theme idref="A103" />
+<cause idref="E24" />
+<clue>Our results suggest that G0S2 expression is required to commit cells to enter the G1 phase of the cell cycle, and that, while not excluding other possible targets, early inhibition of G0S2 expression by CsA may be <clueType>important in achieving</clueType> immunosuppression.</clue>
+</event>
+<sentence id="S12"><term sem="DNA_domain_or_region" id="T50" lex="G0S2">G0S2</term> may be of value as a reporter gene for analyzing the mechanism of action of <term sem="Organic_compound_other" id="T51" lex="CsA">CsA</term> and its influence on the positive and negative selection of <term sem="Cell_natural" id="T52" lex="lymphocyte">lymphocytes</term> in response to <term sem="Protein_family_or_group" id="A104">self</term> and <term sem="Protein_family_or_group" id="A105">not-self</term> <term sem="Protein_family_or_group" id="A106">antigens</term>.</sentence>
+<event id="E26">
+<type class="Correlation" />
+<theme idref="T52" />
+<theme idref1="A106" idref="A104" />
+<clue>G0S2 may be of value as a reporter gene for analyzing the mechanism of action of CsA and its influence on the <clueType>positive</clueType> and negative <clueType>selection</clueType> <linkTheme>of</linkTheme> lymphocytes <linkCause>in response to</linkCause> self and not-self antigens.</clue>
+</event>
+<event id="E30">
+<type class="Correlation" />
+<theme idref="T52" />
+<theme idref1="A106" idref="A104" />
+<clue>G0S2 may be of value as a reporter gene for analyzing the mechanism of action of CsA and its influence on the positive and <clueType>negative selection</clueType> <linkTheme>of</linkTheme> lymphocytes <linkCause>in response to</linkCause> self and not-self antigens.</clue>
+</event>
+<event id="E27">
+<type class="Correlation" />
+<theme idref="T52" />
+<theme idref1="A106" idref="A105" />
+<clue>G0S2 may be of value as a reporter gene for analyzing the mechanism of action of CsA and its influence on the <clueType>positive</clueType> and negative <clueType>selection</clueType> <linkTheme>of</linkTheme> lymphocytes <linkCause>in response to</linkCause> self and not-self antigens.</clue>
+</event>
+<event id="E31">
+<type class="Correlation" />
+<theme idref="T52" />
+<theme idref1="A106" idref="A105" />
+<clue>G0S2 may be of value as a reporter gene for analyzing the mechanism of action of CsA and its influence on the positive and <clueType>negative selection</clueType> <linkTheme>of</linkTheme> lymphocytes <linkCause>in response to</linkCause> self and not-self antigens.</clue>
+</event>
+<event id="E28">
+<type class="Regulation" />
+<theme idref="E26" />
+<cause idref="T51" />
+<clue>G0S2 may be of value as a reporter gene for analyzing the mechanism of action of CsA and <corefCause>its</corefCause> <clueType>influence</clueType> <linkTheme>on</linkTheme> the positive and negative selection of lymphocytes in response to self and not-self antigens.</clue>
+</event>
+<event id="E29">
+<type class="Regulation" />
+<theme idref="E27" />
+<cause idref="T51" />
+<clue>G0S2 may be of value as a reporter gene for analyzing the mechanism of action of CsA and <corefCause>its</corefCause> <clueType>influence</clueType> <linkTheme>on</linkTheme> the positive and negative selection of lymphocytes in response to self and not-self antigens.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

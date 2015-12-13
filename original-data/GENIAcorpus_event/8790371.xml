@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="24/05/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8790371">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8790371</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="apoptosis">Apoptosis</term> mediated by <term sem="Protein_molecule" id="T2" lex="HIV_protease">HIV protease</term> is preceded by cleavage of <term sem="Protein_molecule" id="T3" lex="Bcl-2">Bcl-2</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T1" />
+<cause idref="T2" />
+<clue>Apoptosis <clueType>mediated</clueType> <linkCause>by</linkCause> HIV protease is preceded by cleavage of Bcl-2.</clue>
+</event>
+<event id="E2">
+<type class="Protein_catabolism" />
+<theme idref="T3" />
+<clue>Apoptosis mediated by HIV protease is preceded by <clueType>cleavage</clueType> <linkTheme>of</linkTheme> Bcl-2.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Expression of the <term sem="Protein_molecule" id="T4" lex="human_immunodeficiency_virus_type_1_(HIV)_protease"><term sem="Virus" id="T5" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> (<term sem="Virus" id="T6" lex="HIV">HIV</term>) protease</term> in <term sem="Cell_cultured" id="T7" lex="cultured_cell">cultured cells</term> leads to <term sem="Other" id="T8" lex="apoptosis">apoptosis</term>, preceded by cleavage of <term sem="Protein_molecule" id="T9" lex="bcl-2">bcl-2</term>, a key negative regulator of <term sem="Other" id="A1">cell death</term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> the human immunodeficiency virus type 1 (HIV) protease <clueLoc>in cultured cells</clueLoc> leads to apoptosis, preceded by cleavage of bcl-2, a key negative regulator of cell death.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="E3" />
+<clue>Expression of the human immunodeficiency virus type 1 (HIV) protease in cultured cells <clueType>leads</clueType> <linkTheme>to</linkTheme> apoptosis, preceded by cleavage of bcl-2, a key negative regulator of cell death.</clue>
+</event>
+<event id="E5">
+<type class="Protein_catabolism" />
+<theme idref="T9" />
+<clue>Expression of the human immunodeficiency virus type 1 (HIV) protease in cultured cells leads to apoptosis, preceded by <clueType>cleavage</clueType> <linkTheme>of</linkTheme> bcl-2, a key negative regulator of cell death.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="A1" />
+<cause idref="T9" />
+<clue>Expression of the human immunodeficiency virus type 1 (HIV) protease in cultured cells leads to apoptosis, preceded by cleavage of bcl-2, a key <clueType>negative regulator</clueType> <linkTheme>of</linkTheme> cell death.</clue>
+</event>
+<sentence id="S3">In contrast, a high level of <term sem="Protein_molecule" id="T10" lex="bcl-2">bcl-2</term> protects <term sem="Multicellular_organism_natural" id="A3">cells</term> in vitro and in vivo from the <term sem="Protein_family_or_group" id="T11" lex="viral_protease">viral protease</term> and prevents <term sem="Other" id="A2">cell death</term> following <term sem="Other" id="T12" lex="HIV_infection"><term sem="Virus" id="A4">HIV</term> infection</term> of <term sem="Cell_natural" id="T13" lex="human_lymphocyte">human lymphocytes</term>, while reducing the yields of <term sem="Protein_family_or_group" id="T14" lex="viral_structural_protein">viral structural proteins</term>, <term sem="Other" id="A5">infectivity</term>, and <term sem="Protein_molecule" id="T15" lex="tumor_necrosis_factor_alpha">tumor necrosis factor alpha</term>.</sentence>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="T11" />
+<cause idref="T10" />
+<clue>In contrast, a high level of bcl-2 <clueType>protects</clueType> cells in vitro and in vivo from the viral protease and prevents cell death following HIV infection of human lymphocytes, while reducing the yields of viral structural proteins, infectivity, and tumor necrosis factor alpha.</clue>
+<comment>CAUTION: CLUETYPE</comment>
+</event>
+<event id="E9">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A4" />
+<theme idref="T13" />
+<clue>In contrast, a high level of bcl-2 protects cells in vitro and in vivo from the viral protease and prevents cell death following HIV <clueType>infection</clueType> of human lymphocytes, while reducing the yields of viral structural proteins, infectivity, and tumor necrosis factor alpha.</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="E9" />
+<clue>In contrast, a high level of bcl-2 protects cells in vitro and in vivo from the viral protease and prevents cell death <clueType>following</clueType> HIV infection of human lymphocytes, while reducing the yields of viral structural proteins, infectivity, and tumor necrosis factor alpha.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E51" />
+<cause idref="E7" />
+<clue>In contrast, a high level of bcl-2 protects cells in vitro and in vivo from the viral protease and <clueType>prevents</clueType> cell death following HIV infection of human lymphocytes, while reducing the yields of viral structural proteins, infectivity, and tumor necrosis factor alpha.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="T14" />
+<cause idref="T10" />
+<clue>In contrast, a high level of bcl-2 protects cells in vitro and in vivo from the viral protease and prevents cell death following HIV infection of human lymphocytes, while <clueType>reducing</clueType> the yields of viral structural proteins, infectivity, and tumor necrosis factor alpha.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="A5" />
+<cause idref="T10" />
+<clue>In contrast, a high level of bcl-2 protects cells in vitro and in vivo from the viral protease and prevents cell death following HIV infection of human lymphocytes, while <clueType>reducing</clueType> the yields of viral structural proteins, infectivity, and tumor necrosis factor alpha.</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="T15" />
+<cause idref="T10" />
+<clue>In contrast, a high level of bcl-2 protects cells in vitro and in vivo from the viral protease and prevents cell death following HIV infection of human lymphocytes, while <clueType>reducing</clueType> the yields of viral structural proteins, infectivity, and tumor necrosis factor alpha.</clue>
+</event>
+<sentence id="S4">We present a model for <term sem="Other" id="T16" lex="HIV_replication"><term sem="Virus" id="A7">HIV</term> replication</term> in which the <term sem="Protein_family_or_group" id="T17" lex="viral_protease">viral protease</term> depletes the infected cells of <term sem="Protein_molecule" id="T18" lex="bcl-2">bcl-2</term>, leading to <term sem="Other" id="T19" lex="oxidative_stress-dependent_activation"><term sem="Other" id="A6">oxidative stress</term>-dependent activation</term> of <term sem="Protein_molecule" id="T20" lex="NF_kappa_B">NF kappa B</term>, a <term sem="Protein_family_or_group" id="T21" lex="cellular_factor">cellular factor</term> required for <term sem="Other" id="T22" lex="HIV_transcription"><term sem="Virus" id="A8">HIV</term> transcription</term>, and ultimately to <term sem="Other" id="T23" lex="cell_death">cell death</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<cause idref="A6" />
+<clue>We present a model for HIV replication in which the viral protease depletes the infected cells of bcl-2, leading to oxidative stress-<linkCause>dependent</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> NF kappa B, a cellular factor required for HIV transcription, and ultimately to cell death.</clue>
+</event>
+<event id="E14">
+<type class="Transcription" />
+<theme idref="A8" />
+<clue>We present a model for HIV replication in which the viral protease depletes the infected cells of bcl-2, leading to oxidative stress-dependent activation of NF kappa B, a cellular factor required for HIV <clueType>transcription</clueType>, and ultimately to cell death.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T20" />
+<clue>We present a model for HIV replication in which the viral protease depletes the infected cells of bcl-2, leading to oxidative stress-dependent activation of NF kappa B, a cellular factor <clueType>required</clueType> <linkTheme>for</linkTheme> HIV transcription, and ultimately to cell death.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="T18" />
+<cause idref="T17" />
+<clue>We present a model for HIV replication in which the viral protease <clueType>depletes</clueType> the <clueLoc>infected cells</clueLoc> <linkTheme>of</linkTheme> bcl-2, leading to oxidative stress-dependent activation of NF kappa B, a cellular factor required for HIV transcription, and ultimately to cell death.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E17" />
+<clue>We present a model for HIV replication in which the viral protease depletes the infected cells of bcl-2, <clueType>leading</clueType> <linkTheme>to</linkTheme> oxidative stress-dependent activation of NF kappa B, a cellular factor required for HIV transcription, and ultimately to cell death.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="E17" />
+<clue>We present a model for HIV replication in which the viral protease depletes the infected cells of bcl-2, <clueType>leading</clueType> to oxidative stress-dependent activation of NF kappa B, a cellular factor required for HIV transcription, and ultimately <linkTheme>to</linkTheme> cell death.</clue>
+</event>
+<event id="E19">
+<type class="Viral_life_cycle" />
+<theme idref="A7" />
+<clue>We present a model for HIV <clueType>replication</clueType> in which the viral protease depletes the infected cells of bcl-2, leading to oxidative stress-dependent activation of NF kappa B, a cellular factor required for HIV transcription, and ultimately to cell death.</clue>
+</event>
+<sentence id="S5">Purified <term sem="Protein_molecule" id="T24" lex="bcl-2">bcl-2</term> is cleaved by <term sem="Protein_molecule" id="T25" lex="HIV_protease">HIV protease</term> between <term sem="Amino_acid_monomer" id="T26" lex="phenylalanine_112">phenylalanine 112</term> and <term sem="Amino_acid_monomer" id="T27" lex="alanine_113">alanine 113</term>.</sentence>
+<event id="E20">
+<type class="Protein_catabolism" />
+<theme idref="T24" />
+<clue>Purified bcl-2 is <clueType>cleaved</clueType> <linkCause>by</linkCause> HIV protease <clueLoc>between phenylalanine 112 and alanine 113.</clueLoc></clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T25" />
+<clue>Purified bcl-2 is cleaved <linkCause>by</linkCause> HIV protease between phenylalanine 112 and alanine 113.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S6">The results suggest a new option for <term sem="Other" id="T28" lex="HIV_gene_therapy">HIV gene therapy</term>; <term sem="Protein_family_or_group" id="T29" lex="bcl-2_mutein">bcl-2 muteins</term> that have <term sem="Protein_domain_or_region" id="T30" lex="noncleavable_alteration">noncleavable alterations</term> surrounding the <term sem="Protein_domain_or_region" id="T31" lex="HIV_protease_cleavage_site"><term sem="Protein_molecule" id="T32" lex="HIV_protease">HIV protease</term> cleavage site</term>.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

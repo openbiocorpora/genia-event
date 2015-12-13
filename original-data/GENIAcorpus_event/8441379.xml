@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="31/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8441379" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8441379</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term sem="DNA_domain_or_region" id="T1" lex="human_prointerleukin_1_beta_gene"><term sem="Protein_molecule" id="T2" lex="human_prointerleukin_1_beta">human prointerleukin 1 beta</term> gene</term> requires <term sem="DNA_domain_or_region" id="A1">DNA sequences</term> both <term sem="DNA_domain_or_region" id="A2">proximal</term> and <term sem="DNA_domain_or_region" id="A3">distal</term> <term sem="DNA_domain_or_region" id="A4">to</term> the <term sem="DNA_domain_or_region" id="T3" lex="transcription_start_site">transcription start site</term> for tissue-specific induction.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<clue>The human prointerleukin 1 beta gene requires DNA sequences both proximal and distal to the transcription start site for <clueLoc>tissue-specific</clueLoc> <clueType>induction</clueType>.</clue>
+<comment>NO COREFTHEME FOR T1</comment>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref1="A2" idref2="A4" idref3="T3" idref="A1" />
+<clue>The human prointerleukin 1 beta gene <clueType>requires</clueType> DNA sequences both proximal and distal to the transcription start site <linkTheme>for</linkTheme> tissue-specific induction.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref1="A3" idref2="A4" idref3="T3" idref="A1" />
+<clue>The human prointerleukin 1 beta gene <clueType>requires</clueType> DNA sequences both proximal and distal to the transcription start site <linkTheme>for</linkTheme> tissue-specific induction.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">In these studies, we have identified <term sem="DNA_domain_or_region" id="T4" lex="DNA_sequence">DNA sequences</term> and specific <term sem="Other" id="A5">protein interactions</term> necessary for <term sem="Other" id="T5" lex="transcriptional_regulation">transcriptional regulation</term> of the <term sem="DNA_domain_or_region" id="T6" lex="human_prointerleukin_1_beta_(proIL-1_beta)_gene"><term sem="Protein_molecule" id="T7" lex="human_prointerleukin_1_beta">human prointerleukin 1 beta</term> (<term sem="Protein_molecule" id="T8" lex="proIL-1_beta">proIL-1 beta</term>) gene</term>.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T6" />
+<clue>In these studies, we have identified DNA sequences and specific protein interactions necessary for <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> the human prointerleukin 1 beta (proIL-1 beta) gene.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T4" />
+<clue>In these studies, we have identified DNA sequences and specific protein interactions <clueType>necessary</clueType> <linkTheme>for</linkTheme> transcriptional regulation of the human prointerleukin 1 beta (proIL-1 beta) gene.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="A5" />
+<clue>In these studies, we have identified DNA sequences and specific protein interactions <clueType>necessary</clueType> <linkTheme>for</linkTheme> transcriptional regulation of the human prointerleukin 1 beta (proIL-1 beta) gene.</clue>
+</event>
+<sentence id="S3">A <term sem="Cell_natural" id="A201">cell-type</term>-independent <term sem="Lipid" id="T10" lex="lipopolysaccharide">lipopolysaccharide</term> (<term sem="Lipid" id="T11" lex="LPS">LPS</term>)-responsive <term sem="DNA_domain_or_region" id="T51">enhancer element</term> located between <term sem="DNA_domain_or_region" id="T12" lex="-3757_and_-2729_bp_upstream">-3757 and -2729 bp upstream</term> from the <term sem="DNA_domain_or_region" id="T13" lex="transcription_start_site">transcription start site</term> (<term sem="DNA_domain_or_region" id="T14" lex="cap_site">cap site</term>) consisted of at least <term sem="DNA_domain_or_region" id="A6">six discrete subregions</term> which were essential to the maximal induction by <term sem="Lipid" id="T15" lex="LPS">LPS</term> in <term sem="Cell_cultured" id="T16" lex="transfected_monocyte">transfected monocytes</term>.</sentence>
+<event assertion="non-exist" id="E107">
+<type class="Positive_regulation" />
+<theme idref="T51" />
+<cause idref="A201" />
+<clue>A cell-type-<clueType>independent</clueType> lipopolysaccharide (LPS)-responsive enhancer element located between -3757 and -2729 bp upstream from the transcription start site (cap site) consisted of at least six discrete subregions which were essential to the maximal induction by LPS in transfected monocytes.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<cause idref="T15" />
+<clue>A cell-type-independent lipopolysaccharide (LPS)-responsive enhancer element located between -3757 and -2729 bp upstream from the transcription start site (cap site) consisted of at least six discrete subregions which were essential to the maximal <clueType>induction</clueType> <linkCause>by</linkCause> LPS in transfected monocytes.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="A6" />
+<clue>A cell-type-independent lipopolysaccharide (LPS)-responsive enhancer element located between -3757 and -2729 bp upstream from the transcription start site (cap site) consisted of at least six discrete subregions which were <clueType>essential</clueType> <linkTheme>to</linkTheme> the maximal induction by LPS <clueLoc>in transfected monocytes</clueLoc>.</clue>
+</event>
+<sentence id="S4">The enhancer also appeared to mediate <term sem="Other" id="T17" lex="phorbol_myristate_acetate_induction"><term sem="Organic_compound_other" id="T18" lex="phorbol_myristate_acetate">phorbol myristate acetate</term> induction</term> in <term sem="Cell_natural" id="T19" lex="monocyte">monocytes</term> and <term sem="Other" id="T20" lex="IL-1_responsiveness"><term sem="Protein_molecule" id="T21" lex="IL-1">IL-1</term> responsiveness</term> in <term sem="Cell_natural" id="T22" lex="fibroblast">fibroblasts</term>.</sentence>
+<event id="E9">
+<type class="Positive_regulation" />
+<cause idref="T18" />
+<clue>The enhancer also appeared to mediate phorbol myristate acetate <clueType>induction</clueType> in monocytes and IL-1 responsiveness in fibroblasts.</clue>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T51" />
+<clue><corefCause>The enhancer</corefCause> also appeared to <clueType>mediate</clueType> phorbol myristate acetate induction <clueLoc>in monocytes</clueLoc> and IL-1 responsiveness in fibroblasts.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<cause idref="T21" />
+<clue>The enhancer also appeared to mediate phorbol myristate acetate induction in monocytes and IL-1 <clueType>responsiveness</clueType> in fibroblasts.</clue>
+</event>
+<event uncertainty="probable" id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T51" />
+<clue><corefCause>The enhancer</corefCause> also appeared to <clueType>mediate</clueType> phorbol myristate acetate induction in monocytes and IL-1 responsiveness <clueLoc>in fibroblasts</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term sem="Other" id="T9">Deletion</term> and <term sem="Other" id="T23">base substitution mutations</term> along with DNA binding studies demonstrated that the enhancer contained a minimum of three functional <term sem="DNA_domain_or_region" id="T24" lex="protein_binding_sequences"><term sem="Protein_family_or_group" id="A7">protein</term> binding sequences</term>, two of which appeared to be important for <term sem="Other" id="T52">gene induction</term>.</sentence>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T51" />
+<theme idref="A7" />
+<clue><clueExperiment>Deletion and base substitution mutations along with DNA binding studies</clueExperiment> demonstrated that <corefTheme>the enhancer</corefTheme> <clueType>contained</clueType> a minimum of three functional protein <clueType>binding sequences</clueType>, two of which appeared to be important for gene induction.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Deletion and base substitution mutations along with DNA binding studies demonstrated that the enhancer contained a minimum of three functional protein binding sequences, two of which appeared to be important for <corefTheme>gene</corefTheme> <clueType>induction</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T24" />
+<clue>Deletion and base substitution mutations along with DNA binding studies demonstrated that the enhancer contained a minimum of three functional protein binding sequences, two of which appeared to be <clueType>important</clueType> <linkTheme>for</linkTheme> gene induction.</clue>
+</event>
+<sentence id="S6"><term sem="Protein_molecule" id="A8">One of the essential proteins</term> which bound to the enhancer was similar or identical to members of the <term sem="Protein_family_or_group" id="T25" lex="C/EBP_family">C/EBP family</term> of <term sem="Protein_family_or_group" id="T26" lex="transcription_factor">transcription factors</term> required for both <cons sem="(AND Other Other)" id="C1" lex="(AND IL-1-specific_induction LPS-specific_induction)"><frag id="F4">IL-1</frag>- and <frag id="F5">LPS</frag>-<frag id="F6">specific induction</frag></cons> of the <term sem="DNA_domain_or_region" id="T30" lex="IL-6_gene">IL-6 gene</term> (i.e., the <term sem="Protein_molecule" id="T31" lex="NF-IL6_protein">NF-IL6 proteins</term>).</sentence>
+<event id="E16">
+<type class="Binding" />
+<theme idref="A8" />
+<theme idref="T51" />
+<clue>One of the essential proteins which <clueType>bound</clueType> <linkTheme>to</linkTheme> <corefTheme>the enhancer</corefTheme> was similar or identical to members of the C/EBP family of transcription factors required for both IL-1- and LPS-specific induction of the IL-6 gene (i.e., the NF-IL6 proteins).</clue>
+<comment>TPS A8, NER T31 MOD</comment>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<cause idref="F4" />
+<clue>One of the essential proteins which bound to the enhancer was similar or identical to members of the C/EBP family of transcription factors required for both IL-1- and LPS-<linkCause>specific</linkCause> <clueType>induction</clueType> <linkTheme>of</linkTheme> the IL-6 gene (i.e., the NF-IL6 proteins).</clue>
+</event>
+<event id="E118">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<cause idref="F5" />
+<clue>One of the essential proteins which bound to the enhancer was similar or identical to members of the C/EBP family of transcription factors required for both IL-1- and LPS-<linkCause>specific</linkCause> <clueType>induction</clueType> <linkTheme>of</linkTheme> the IL-6 gene (i.e., the NF-IL6 proteins).</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T25" />
+<clue>One of the essential proteins which bound to the enhancer was similar or identical to members of the C/EBP family of transcription factors <clueType>required</clueType> <linkTheme>for</linkTheme> both IL-1- and LPS-specific induction of the IL-6 gene (i.e., the NF-IL6 proteins).</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E118" />
+<cause idref="T25" />
+<clue>One of the essential proteins which bound to the enhancer was similar or identical to members of the C/EBP family of transcription factors <clueType>required</clueType> <linkTheme>for</linkTheme> both IL-1- and LPS-specific induction of the IL-6 gene (i.e., the NF-IL6 proteins).</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T31" />
+<clue>One of the essential proteins which bound to the enhancer was similar or identical to <corefCause>members of the C/EBP family of transcription factors</corefCause> <clueType>required</clueType> <linkTheme>for</linkTheme> both IL-1- and LPS-specific induction of the IL-6 gene (i.e., the NF-IL6 proteins).</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E118" />
+<cause idref="T31" />
+<clue>One of the essential proteins which bound to the enhancer was similar or identical to <corefCause>members of the C/EBP family of transcription factors</corefCause> <clueType>required</clueType> <linkTheme>for</linkTheme> both IL-1- and LPS-specific induction of the IL-6 gene (i.e., the NF-IL6 proteins).</clue>
+</event>
+<sentence id="S7">When ligated to the <term sem="DNA_domain_or_region" id="T35" lex="proximal_region"><term sem="DNA_domain_or_region" id="T32" lex="proIL-1_beta_cap_site"><term sem="Protein_molecule" id="T33" lex="proIL-1_beta">proIL-1 beta</term> <term sem="DNA_domain_or_region" id="T34" lex="cap_site">cap site</term></term>-proximal region</term> (located between -131 to +12), both the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T36" lex="(AND proIL-1_beta_enhancer_element simian_virus_40_enhancer_element)"><frag id="F1">proIL-1 beta</frag> and the <frag id="F2">simian virus 40</frag> <frag id="F3">enhancer elements</frag></cons> functioned more efficiently in <term sem="Cell_natural" id="T37" lex="monocyte">monocytes</term> than in <term sem="Cell_natural" id="T38" lex="HeLa_cell">HeLa cells</term>, which are not normally competent for <term sem="Other" id="T39" lex="IL-1_beta_expression"><term sem="Protein_molecule" id="T40" lex="IL-1_beta">IL-1 beta</term> expression</term>.</sentence>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>When ligated to the proIL-1 beta cap site-proximal region (located between -131 to +12), both the proIL-1 beta and the simian virus 40 enhancer elements functioned more efficiently in monocytes than in HeLa cells, which are not normally competent for IL-1 beta <clueType>expression</clueType>.</clue>
+<comment>NER T35 MOD</comment>
+</event>
+<event id="E24">
+<type class="Artificial_process" />
+<theme idref="T35" />
+<theme idref1="F3" idref="F1" />
+<clue>When <clueType>ligated</clueType> <linkTheme>to</linkTheme> the proIL-1 beta cap site-proximal region (located between -131 to +12), both the proIL-1 beta and the simian virus 40 enhancer elements functioned more efficiently in monocytes than in HeLa cells, which are not normally competent for IL-1 beta expression.</clue>
+</event>
+<event id="E25">
+<type class="Artificial_process" />
+<theme idref="T35" />
+<theme idref1="F3" idref="F2" />
+<clue>When <clueType>ligated</clueType> <linkTheme>to</linkTheme> the proIL-1 beta cap site-proximal region (located between -131 to +12), both the proIL-1 beta and the simian virus 40 enhancer elements functioned more efficiently in monocytes than in HeLa cells, which are not normally competent for IL-1 beta expression.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<cause idref="E24" />
+<clue>When ligated to the proIL-1 beta cap site-proximal region (located between -131 to +12), both the proIL-1 beta and the simian virus 40 enhancer elements <clueType>functioned</clueType> more efficiently <clueLoc>in monocytes</clueLoc> than <clueLoc>in HeLa cells</clueLoc>, which are not normally competent for IL-1 beta expression.</clue>
+</event>
+<event id="E126">
+<type class="Positive_regulation" />
+<cause idref="E25" />
+<clue>When ligated to the proIL-1 beta cap site-proximal region (located between -131 to +12), both the proIL-1 beta and the simian virus 40 enhancer elements <clueType>functioned</clueType> more efficiently <clueLoc>in monocytes</clueLoc> than <clueLoc>in HeLa cells</clueLoc>, which are not normally competent for IL-1 beta expression.</clue>
+</event>
+<event assertion="non-exist" id="E27">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>When ligated to the proIL-1 beta cap site-proximal region (located between -131 to +12), both the proIL-1 beta and the simian virus 40 enhancer elements functioned more efficiently in monocytes than in <clueLoc>HeLa cells</clueLoc>, which are not normally competent for IL-1 beta <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S8">When ligated to the <term sem="DNA_domain_or_region" id="T41" lex="murine_c-fos_promoter">murine <term sem="DNA_domain_or_region" id="T42" lex="c-fos">c-fos</term> promoter</term>, however, the <term sem="DNA_domain_or_region" id="T43" lex="proIL-1_beta_enhancer"><term sem="Protein_molecule" id="T44" lex="proIL-1_beta">proIL-1 beta</term> enhancer</term> was inducible in <term sem="Cell_cultured" id="T45" lex="phorbol_myristate_acetate-stimulated_HeLa_cell"><term sem="Organic_compound_other" id="T46" lex="phorbol_myristate_acetate">phorbol myristate acetate</term>-stimulated <term sem="Cell_natural" id="T47" lex="HeLa_cell">HeLa cells</term></term>, suggesting the existence of a <term sem="Other" id="T48" lex="proIL-1_beta_promoter-proximal_requirement"><term sem="DNA_domain_or_region" id="A12"><term sem="Protein_molecule" id="T49" lex="proIL-1_beta">proIL-1 beta</term> promoter</term>-proximal requirement</term> for <term sem="Other" id="T50" lex="tissue_specificity">tissue specificity</term>.</sentence>
+<event id="E130">
+<type class="Artificial_process" />
+<theme idref="T41" />
+<theme idref="T43" />
+<clue>When <clueType>ligated</clueType> <linkTheme>to</linkTheme> the murine c-fos promoter, however, the proIL-1 beta enhancer was inducible in phorbol myristate acetate-stimulated HeLa cells, suggesting the existence of a proIL-1 beta promoter-proximal requirement for tissue specificity.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="T43" />
+<clue>When ligated to the murine c-fos promoter, however, the proIL-1 beta enhancer was <clueType>inducible</clueType> <clueLoc>in phorbol myristate acetate-stimulated HeLa cells</clueLoc>, suggesting the existence of a proIL-1 beta promoter-proximal requirement for tissue specificity.</clue>
+</event>
+<event id="E230">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="E130" />
+<clue><linkCause>When</linkCause> ligated to the murine c-fos promoter, however, the proIL-1 beta enhancer was inducible in phorbol myristate acetate-stimulated HeLa cells, suggesting the existence of a proIL-1 beta promoter-proximal requirement for tissue specificity.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E31">
+<type class="Physiological_process" />
+<theme idref="T47" />
+<cause idref="T46" />
+<clue>When ligated to the murine c-fos promoter, however, the proIL-1 beta enhancer was inducible in phorbol myristate acetate-<clueType>stimulated</clueType> HeLa cells, suggesting the existence of a proIL-1 beta promoter-proximal requirement for tissue specificity.</clue>
+</event>
+<event uncertainty="probable" id="E32">
+<type class="Positive_regulation" />
+<theme idref="A12" />
+<cause idref="T43" />
+<clue>When ligated to the murine c-fos promoter, however, the proIL-1 beta enhancer was inducible in phorbol myristate acetate-stimulated HeLa cells, suggesting the existence of a proIL-1 beta promoter-<linkTheme>proximal</linkTheme> <clueType>requirement</clueType> for tissue specificity.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<event uncertainty="probable" id="E132">
+<type class="Positive_regulation" />
+<theme idref="T50" />
+<cause idref="E32" />
+<clue>When ligated to the murine c-fos promoter, however, the proIL-1 beta enhancer was inducible in phorbol myristate acetate-stimulated HeLa cells, suggesting the existence of a proIL-1 beta promoter-proximal requirement <linkTheme>for</linkTheme> tissue specificity.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

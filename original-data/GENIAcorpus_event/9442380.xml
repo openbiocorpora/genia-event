@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="01/04/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9442380">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9442380</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Lipid" id="T1" lex="LPS">LPS</term> tolerance in <term sem="Cell_natural" id="T2" lex="monocytes/macrophage">monocytes/macrophages</term>: <term sem="Amino_acid_monomer" id="A3">three 3&apos; cytosins</term> are required in the <term sem="Amino_acid_monomer" id="A5"><term sem="DNA_domain_or_region" id="T3" lex="DNA_binding_motif">DNA binding motif</term></term> for detection of upregulated <term sem="Protein_complex" id="T4" lex="NF-kappa_B_p50_homodimer">NF-kappa B p50 homodimers</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<clue>LPS tolerance <clueLoc>in monocytes/macrophages</clueLoc>: three 3&apos; cytosins are required in the DNA binding motif for detection of <clueType>upregulated</clueType> NF-kappa B p50 homodimers.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref1="A5" idref="A3" />
+<clue>LPS tolerance in monocytes/macrophages: three 3&apos; cytosins are <clueType>required</clueType> in the DNA binding motif <clueExperiment>for detection of upregulated NF-kappa B p50 homodimers</clueExperiment>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">When <term sem="Cell_natural" id="T5" lex="monocyte">monocytes</term> are stimulated with <term sem="Lipid" id="T6" lex="LPS">LPS</term> (<term sem="Lipid" id="T7" lex="lipopolysaccharide">lipopolysaccharide</term>) repeatedly then the initially high expression of the <term sem="DNA_domain_or_region" id="T8" lex="TNF_(tumor_necrosis_factor)_gene"><term sem="Protein_family_or_group" id="T9" lex="TNF">TNF</term> (<term sem="Protein_family_or_group" id="T10" lex="tumor_necrosis_factor">tumor necrosis factor</term>) gene</term> is only very low, i.e. the cells are tolerant to <term sem="Lipid" id="T11" lex="LPS">LPS</term>.</sentence>
+<event id="E4">
+<type class="Physiological_process" />
+<theme idref="T5" />
+<theme idref="T6" />
+<clue>When monocytes are <clueType>stimulated</clueType> <linkTheme>with</linkTheme> LPS (lipopolysaccharide) repeatedly then the initially high expression of the TNF (tumor necrosis factor) gene is only very low, i.e. the cells are tolerant to LPS.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>When <clueLoc>monocytes</clueLoc> are stimulated with LPS (lipopolysaccharide) repeatedly then the initially high <clueType>expression</clueType> <linkTheme>of</linkTheme> the TNF (tumor necrosis factor) gene is only very low, i.e. the cells are tolerant to LPS.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="E4" />
+<clue>When monocytes are stimulated with LPS (lipopolysaccharide) repeatedly then the initially high expression of the TNF (tumor necrosis factor) gene is only very <clueType>low</clueType>, i.e. the cells are tolerant to LPS.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="E6" />
+<clue>When monocytes are stimulated with LPS (lipopolysaccharide) repeatedly then the initially high expression of the TNF (tumor necrosis factor) gene is only very low, i.e. the cells <clueType>are tolerant</clueType> <linkCause>to</linkCause> LPS.</clue>
+<comment>CAUTION, clueType</comment>
+</event>
+<sentence id="S3"><term sem="Cell_natural" id="A1">Tolerant cells</term> still express the <term sem="Protein_molecule" id="T12" lex="CD14_receptor">CD14 receptor</term> and they can still be activated to mobilize <term sem="Protein_complex" id="T13" lex="NF-kappa_B">NF-kappa B</term> into <term sem="Cell_component" id="T14" lex="nucleus">nucleus</term>.</sentence>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T12" />
+<clue><clueLoc>Tolerant cells</clueLoc> still <clueType>express</clueType> the CD14 receptor and they can still be activated to mobilize NF-kappa B into nucleus.</clue>
+</event>
+<event id="E9">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<clue>Tolerant cells still express the CD14 receptor and they can still be <clueType>activated</clueType> to mobilize NF-kappa B into nucleus.</clue>
+</event>
+<event id="E10">
+<type class="Localization" />
+<theme idref="T13" />
+<clue><clueLoc>Tolerant cells</clueLoc> still express the CD14 receptor and they can still be activated to <clueType>mobilize</clueType> NF-kappa B <clueLoc>into nucleus</clueLoc>.</clue>
+</event>
+<sentence id="S4">Analysis of the binding proteins employing the <term sem="DNA_domain_or_region" id="A2">-605 motif of the <term sem="DNA_domain_or_region" id="T15" lex="human_TNF_promoter">human TNF promoter</term></term> (<term sem="Polynucleotide" id="T16" lex="GGGGCTGTCCC">GGGGCTGTCCC</term>) revealed that in tolerant cells of the <term sem="Cell_cultured" id="T17" lex="human_monocytic_cell_line">human monocytic cell line</term> <term sem="Cell_cultured" id="T18" lex="Mono_Mac_6">Mono Mac 6</term> there is a predominance of <term sem="Protein_complex" id="T19" lex="p50p50">p50p50</term> of <term sem="Protein_complex" id="T20" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E11">
+<type class="Binding" />
+<theme idref1="T20" idref="T19" />
+<theme idref="A2" />
+<clue>Analysis of the <clueType>binding</clueType> proteins employing the -605 motif of the human TNF promoter (GGGGCTGTCCC) revealed that <clueLoc>in tolerant cells of the human monocytic cell line Mono Mac 6</clueLoc> there is a predominance <linkTheme>of</linkTheme> p50p50 of NF-kappa B.</clue>
+<comment>TPS: A2</comment>
+</event>
+<sentence id="S5">We now show that a <term sem="DNA_domain_or_region" id="T21" lex="mutant_motif">mutant motif</term> that exchanges the terminal <term sem="Nucleotide" id="T22" lex="3&apos;_C">3&apos; C</term> for a <term sem="Nucleotide" id="T23" lex="G">G</term> fails to bind the <term sem="Protein_complex" id="T24" lex="p50_homodimer">p50 homodimer</term> that is upregulated in <term sem="Lipid" id="T25" lex="LPS">LPS</term> toler ant <term sem="Cell_cultured" id="T26" lex="human_Mono_Mac_6_cell">human Mono Mac 6 cells</term>.</sentence>
+<event id="E12">
+<type class="Mutagenesis" />
+<theme idref1="A2" idref="T22" />
+<theme idref="T23" />
+<clue>We now show that a mutant motif that <clueType>exchanges</clueType> the terminal 3&apos; C <linkTheme>for</linkTheme> a G fails to bind the p50 homodimer that is upregulated in LPS toler ant human Mono Mac 6 cells.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event assertion="non-exist" id="E13">
+<type class="Binding" />
+<theme idref="T21" />
+<theme idref="T24" />
+<clue>We now show that a mutant motif that exchanges the terminal 3&apos; C for a G fails to <clueType>bind</clueType> the p50 homodimer that is upregulated in LPS toler ant human Mono Mac 6 cells.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<clue>We now show that a mutant motif that exchanges the terminal 3&apos; C for a G fails to bind the p50 homodimer that is <clueType>upregulated</clueType> <clueLoc>in LPS toler ant human Mono Mac 6 cells</clueLoc>.</clue>
+<comment>CAUTION, &quot;toler ant&quot;, correctly &quot;tolerant&quot;</comment>
+</event>
+<sentence id="S6">The same is true for nuclear extracts taken from the <term sem="Cell_cultured" id="T27" lex="murine_P388D1_macrophage_cell_line">murine P388D1 macrophage cell line</term> when tested with the <term sem="DNA_domain_or_region" id="T28" lex="-516_motif">-516 motif</term> of the <term sem="DNA_domain_or_region" id="T29" lex="murine_TNF_promoter">murine TNF promoter</term> (<term sem="Polynucleotide" id="T30" lex="GGGGGCTTTCCC">GGGGGCTTTCCC</term>).</sentence>
+<event id="E15">
+<type class="Artificial_process" />
+<theme idref="T22" />
+<theme idref="T23" />
+<clue><corefTheme>The same</corefTheme> is true for nuclear extracts taken from the murine P388D1 macrophage cell line <clueExperiment>when tested with the -516 motif of the murine TNF promoter (GGGGGCTTTCCC)</clueExperiment>.</clue>
+<comment>CAUTION: clueType=E12</comment>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Binding" />
+<theme idref="T28" />
+<theme idref="T24" />
+<clue><corefTheme>The same</corefTheme> <clueType>is true</clueType> <clueLoc>for nuclear extracts taken from the murine P388D1 macrophage cell line</clueLoc> when tested <linkTheme>with</linkTheme> the -516 motif of the murine TNF promoter (GGGGGCTTTCCC).</clue>
+<comment>CAUTION: clueType=E13</comment>
+</event>
+<sentence id="S7">Here the <term sem="DNA_domain_or_region" id="T31" lex="wild_type_motif">wild type motif</term> gives efficient binding of <term sem="Protein_complex" id="T32" lex="p50p50">p50p50</term> that again is upregulated in <term sem="Cell_natural" id="T33" lex="tolerant_cell">tolerant cells</term> whereas a <term sem="DNA_domain_or_region" id="A20">mutant with a <term sem="Nucleotide" id="T34" lex="3&apos;_G">3&apos; G</term></term> shows hardly any binding of <term sem="Protein_complex" id="T35" lex="p50p50">p50p50</term>.</sentence>
+<event id="E18">
+<type class="Binding" />
+<theme idref="T31" />
+<theme idref="T32" />
+<clue>Here the wild type motif gives efficient <clueType>binding</clueType> <linkTheme>of</linkTheme> p50p50 that again is upregulated in tolerant cells whereas a mutant with a 3&apos; G shows hardly any binding of p50p50.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<clue>Here the wild type motif gives efficient binding of p50p50 that again is <clueType>upregulated</clueType> <clueLoc>in tolerant cells</clueLoc> whereas a mutant with a 3&apos; G shows hardly any binding of p50p50.</clue>
+</event>
+<event id="E20">
+<type class="Mutagenesis" />
+<theme idref="T34" />
+<clue>Here the wild type motif gives efficient binding of p50p50 that again is upregulated in tolerant cells whereas a <clueType>mutant</clueType> <linkTheme>with</linkTheme> a 3&apos; G shows hardly any binding of p50p50.</clue>
+<comment>CAUTION, mutant; ARTIFICIAL</comment>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Binding" />
+<theme idref="A20" />
+<theme idref="T35" />
+<clue>Here the wild type motif gives efficient binding of p50p50 that again is upregulated in tolerant cells whereas a mutant with a 3&apos; G shows hardly any <clueType>binding</clueType> <linkTheme>of</linkTheme> p50p50.</clue>
+</event>
+<sentence id="S8">Conversely, the <term sem="DNA_domain_or_region" id="T36" lex="murine_kappa_light_chain_enhancer_motif">murine kappa light chain enhancer motif</term> (<term sem="Polynucleotide" id="T37" lex="GGGGACTTTCCG">GGGGACTTTCCG</term>) does not efficiently bind the nuclear <term sem="Protein_complex" id="T38" lex="p50p50">p50p50</term> from <term sem="Cell_cultured" id="T39" lex="tolerant_murine_P388_macrophage">tolerant murine P388 macrophages</term>.</sentence>
+<event assertion="non-exist" id="E22">
+<type class="Binding" />
+<theme idref="T36" />
+<theme idref="T38" />
+<clue>Conversely, the murine kappa light chain enhancer motif (GGGGACTTTCCG) does not efficiently <clueType>bind</clueType> the nuclear p50p50 from tolerant murine P388 macrophages.</clue>
+</event>
+<sentence id="S9">Binding is, however, readily detected when the <term sem="Nucleotide" id="T40" lex="3&apos;_G">3&apos; G</term> is replaced by a <term sem="Nucleotide" id="T41" lex="C">C</term>.</sentence>
+<event id="E23">
+<type class="Metabolism" />
+<theme idref="T37" />
+<clue>Binding is, however, readily detected when the <clueType>3&apos; G is replaced by a C</clueType>.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<cause idref="E23" />
+<clue><corefTheme>Binding</corefTheme> is, <clueType>however</clueType>, readily <clueType>detected</clueType> <linkCause>when</linkCause> the 3&apos; G is replaced by a C.</clue>
+</event>
+<sentence id="S10">These data show that the detection of upregulated <term sem="Protein_complex" id="T42" lex="p50_homodimer">p50 homodimers</term> in <term sem="Lipid" id="T43" lex="LPS">LPS</term> <term sem="Cell_natural" id="T44" lex="tolerant_cell">tolerant cells</term> is dependent on subtle differences in the sequence of the <term sem="DNA_domain_or_region" id="T45" lex="DNA_binding_motif">DNA binding motif</term>.</sentence>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<clue>These data show that the detection of <clueType>upregulated</clueType> p50 homodimers <clueLoc>in LPS tolerant cells</clueLoc> is dependent on subtle differences in the sequence of the DNA binding motif.</clue>
+</event>
+<event id="E26">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="T45" />
+<clue>These data show that the detection of upregulated p50 homodimers in LPS tolerant cells is <clueType>dependent</clueType> <linkCause>on</linkCause> subtle differences in the sequence of the DNA binding motif.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

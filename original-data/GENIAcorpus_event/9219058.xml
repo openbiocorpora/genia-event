@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="19/03/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9219058">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9219058</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Association between expression of <term sem="Protein_molecule" id="T1" lex="intercellular_adhesion_molecule-1">intercellular adhesion molecule-1</term> and integration of <term sem="Virus" id="T2" lex="human_T-cell-leukemia_virus_type_1">human T-cell-leukemia virus type 1</term> in <term sem="Cell_natural" id="T3" lex="adult_T-cell_leukemia_cell">adult T-cell leukemia cells</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T1" />
+<clue>Association between <clueType>expression</clueType> <linkTheme>of</linkTheme> intercellular adhesion molecule-1 and integration of human T-cell-leukemia virus type 1 in adult T-cell leukemia cells.</clue>
+</event>
+<event id="E2">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T2" />
+<clue>Association between expression of intercellular adhesion molecule-1 and <clueType>integration</clueType> <linkCause>of</linkCause> human T-cell-leukemia virus type 1 <linkTheme>in</linkTheme> adult T-cell leukemia cells.</clue>
+</event>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="E1" />
+<theme idref="E2" />
+<clue><clueType>Association</clueType> <linkTheme>between</linkTheme> expression of intercellular adhesion molecule-1 and integration of human T-cell-leukemia virus type 1 <clueLoc>in adult T-cell leukemia cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">It is known that the expression levels of <term sem="Protein_molecule" id="T4" lex="intercellular_adhesion_molecule-1">intercellular adhesion molecule-1</term> (<term sem="Protein_molecule" id="T5" lex="ICAM-1">ICAM-1</term>) in <term sem="Cell_natural" id="T6" lex="adult_T_cell_leukemia(ATL)_cell">adult T cell leukemia(ATL) cells</term> are high, whereas those in <term sem="Cell_natural" id="T7" lex="T-lymphoid_cell">T-lymphoid cells</term> are not.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>It is known that the <clueType>expression</clueType> levels <linkTheme>of</linkTheme> intercellular adhesion molecule-1 (ICAM-1) <clueLoc>in adult T cell leukemia(ATL) cells</clueLoc> are high, whereas those in T-lymphoid cells are not.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>It is known that the <clueType>expression</clueType> levels <linkTheme>of</linkTheme> intercellular adhesion molecule-1 (ICAM-1) in adult T cell leukemia(ATL) cells are high, whereas those <clueLoc>in T-lymphoid cells</clueLoc> are not.</clue>
+</event>
+<sentence id="S3">In order to investigate the <term sem="Other" id="A1">factors</term> that influence the induction of <term sem="Protein_molecule" id="T8" lex="ICAM-1">ICAM-1</term> molecules, <term sem="Other" id="T9" lex="Northern_blot_analysis">Northern blot analysis</term> to measure the expression level of <term sem="RNA_family_or_group" id="T10" lex="ICAM-1_mRNA"><term sem="Protein_molecule" id="T11" lex="ICAM-1">ICAM-1</term> mRNAs</term> and <term sem="Other" id="T12" lex="Southern_blot_hybridization">Southern blot hybridization</term> to analyze the integration of <term sem="Virus" id="T13" lex="human_T-cell-leukemia_virus_type_1_(HTLV-1)_provirus"><term sem="Virus" id="T14" lex="human_T-cell-leukemia_virus_type_1">human T-cell-leukemia virus type 1</term> (<term sem="Virus" id="T15" lex="HTLV-1">HTLV-1</term>) <term sem="Virus" id="A2">provirus</term></term> were done.</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<clue>In order to investigate the factors that influence the <clueType>induction</clueType> <linkTheme>of</linkTheme> ICAM-1 molecules, Northern blot analysis to measure the expression level of ICAM-1 mRNAs and Southern blot hybridization to analyze the integration of human T-cell-leukemia virus type 1 (HTLV-1) provirus were done.</clue>
+</event>
+<event uncertainty="doubtful" id="E7">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="A1" />
+<clue>In order to investigate the factors that <clueType>influence</clueType> the induction of ICAM-1 molecules, Northern blot analysis to measure the expression level of ICAM-1 mRNAs and Southern blot hybridization to analyze the integration of human T-cell-leukemia virus type 1 (HTLV-1) provirus were done.</clue>
+</event>
+<event uncertainty="doubtful" id="E8">
+<type class="Transcription" />
+<theme idref="T10" />
+<clue>In order to investigate the factors that influence the induction of ICAM-1 molecules, <clueExperiment>Northern blot analysis</clueExperiment> to measure the <clueType>expression</clueType> level <linkTheme>of</linkTheme> ICAM-1 mRNAs and Southern blot hybridization to analyze the integration of human T-cell-leukemia virus type 1 (HTLV-1) provirus were done.</clue>
+</event>
+<event uncertainty="doubtful" id="E9">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T13" />
+<clue>In order to investigate the factors that influence the induction of ICAM-1 molecules, Northern blot analysis to measure the expression level of ICAM-1 mRNAs and <clueExperiment>Southern blot hybridization</clueExperiment> to analyze the <clueType>integration</clueType> <linkTheme>of</linkTheme> human T-cell-leukemia virus type 1 (HTLV-1) provirus were done.</clue>
+</event>
+<sentence id="S4">The levels of <term sem="Other" id="T16" lex="ICAM-1_mRNA_expression"><term sem="RNA_molecule" id="T17" lex="ICAM-1_mRNA"><term sem="Protein_molecule" id="T18" lex="ICAM-1">ICAM-1</term> mRNA</term> expression</term> of <term sem="Cell_cultured" id="T19" lex="ATL_cell">ATL cells</term> were generally higher than those of <term sem="Cell_natural" id="T20" lex="T-lymphoid_cell">T-lymphoid cells</term>.</sentence>
+<event id="E10">
+<type class="Transcription" />
+<theme idref="T17" />
+<clue>The levels <linkTheme>of</linkTheme> ICAM-1 mRNA <clueType>expression</clueType> <clueLoc>of ATL cells</clueLoc> were generally higher than those of T-lymphoid cells.</clue>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<theme idref="T17" />
+<clue>The levels <linkTheme>of</linkTheme> ICAM-1 mRNA <clueType>expression</clueType> of ATL cells were generally higher than those <clueLoc>of T-lymphoid cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">However, <term sem="Cell_cultured" id="T21" lex="ILT-mat_cell">ILT-mat cells</term> and <term sem="Cell_cultured" id="T22" lex="ATL16T(-)_cell">ATL16T(-) cells</term>, although they were <term sem="Cell_cultured" id="T23" lex="ATL_cell">ATL cells</term>, showed rather low surface <term sem="Protein_molecule" id="T24" lex="ICAM-1">ICAM-1</term> expression and <term sem="Other" id="T25" lex="ICAM-1_mRNA_expression"><term sem="RNA_molecule" id="T26" lex="ICAM-1_mRNA"><term sem="Protein_molecule" id="T27" lex="ICAM-1">ICAM-1</term> mRNA</term> expression</term>.</sentence>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>However, <clueLoc>ILT-mat cells</clueLoc> and ATL16T(-) cells, although they were ATL cells, showed rather low <clueLoc>surface</clueLoc> ICAM-1 <clueType>expression</clueType> and ICAM-1 mRNA expression.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>However, ILT-mat cells and <clueLoc>ATL16T(-) cells</clueLoc>, although they were ATL cells, showed rather low <clueLoc>surface</clueLoc> ICAM-1 <clueType>expression</clueType> and ICAM-1 mRNA expression.</clue>
+</event>
+<event id="E13">
+<type class="Transcription" />
+<theme idref="T26" />
+<clue>However, <clueLoc>ILT-mat cells</clueLoc> and ATL16T(-) cells, although they were ATL cells, showed rather low surface ICAM-1 expression and ICAM-1 mRNA <clueType>expression</clueType>.</clue>
+</event>
+<event id="E15">
+<type class="Transcription" />
+<theme idref="T26" />
+<clue>However, ILT-mat cells and <clueLoc>ATL16T(-) cells</clueLoc>, although they were ATL cells, showed rather low surface ICAM-1 expression and ICAM-1 mRNA <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S6"><term sem="Other" id="T28" lex="Southern_blot_hybridization">Southern blot hybridization</term> showed that only two and four bands were found in <term sem="Cell_cultured" id="T29" lex="ILT-mat">ILT-mat</term> and <term sem="Cell_cultured" id="T30" lex="ATL16T(-)_cell">ATL16T(-) cells</term>, respectively, whereas &gt; 10 bands were detected in other <term sem="Cell_cultured" id="T31" lex="ATL_cell">ATL cells</term>.</sentence>
+<sentence id="S7">These results suggest that <term sem="Other" id="T32" lex="monoclonal_integration">monoclonal integration</term> of <term sem="Virus" id="T33" lex="HTLV-1_provirus">HTLV-1 provirus</term> to the <term sem="DNA_molecule" id="A3">genome of <term sem="Cell_natural" id="T34" lex="T_cell">T cell</term></term>, especially the number of integration sites, is one of the factors for induction of <term sem="Protein_family_or_group" id="T35" lex="ICAM-1_molecule"><term sem="Protein_molecule" id="T36" lex="ICAM-1">ICAM-1</term> molecules</term>.</sentence>
+<event id="E16">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A3" />
+<theme idref="T33" />
+<clue>These results suggest that monoclonal <clueType>integration</clueType> <linkTheme>of</linkTheme> HTLV-1 provirus <linkTheme>to</linkTheme> the genome of T cell, especially the number of integration sites, is one of the factors for induction of ICAM-1 molecules.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event uncertainty="probable" id="E17">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<cause idref="E16" />
+<clue>These results suggest that monoclonal integration of HTLV-1 provirus to the genome of T cell, especially the number of integration sites, is one of the factors for <clueType>induction</clueType> <linkTheme>of</linkTheme> ICAM-1 molecules.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

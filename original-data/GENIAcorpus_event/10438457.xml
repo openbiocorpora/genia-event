@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="04/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10438457" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10438457</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="protein_kinase_C">Protein kinase C</term> and <term sem="Protein_molecule" id="T2" lex="calcineurin">calcineurin</term> synergize to activate <term sem="Protein_molecule" id="T3" lex="IkappaB_kinase">IkappaB kinase</term> and <term sem="Protein_complex" id="T4" lex="NF-kappaB">NF-kappaB</term> in <term sem="Cell_natural" id="T5" lex="T_lymphocyte">T lymphocytes</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T3" />
+<cause idref="T1" />
+<cause idref="T2" />
+<clue>Protein kinase C and calcineurin <clueType>synergize to activate</clueType> IkappaB kinase and NF-kappaB <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<cause idref="T1" />
+<cause idref="T2" />
+<clue>Protein kinase C and calcineurin <clueType>synergize to activate</clueType> IkappaB kinase and NF-kappaB <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The nuclear factor of kappaB (<term sem="Protein_complex" id="T6" lex="NF-kappaB">NF-kappaB</term>) is a <term sem="Protein_family_or_group" id="T7" lex="ubiquitous_transcription_factor">ubiquitous transcription factor</term> that is key in the regulation of the <term sem="Other" id="T8" lex="immune_response">immune response</term> and <term sem="Other" id="T9" lex="inflammation">inflammation</term>.</sentence>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="T8" />
+<cause idref="T6" />
+<clue>The nuclear factor of kappaB (NF-kappaB) is a ubiquitous transcription factor that is key in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> the immune response and inflammation.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T9" />
+<cause idref="T6" />
+<clue>The nuclear factor of kappaB (NF-kappaB) is a ubiquitous transcription factor that is key in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> the immune response and inflammation.</clue>
+</event>
+<sentence id="S3"><term sem="Other" id="T10" lex="T_cell_receptor_(TCR)_cross-linking"><term sem="Protein_family_or_group" id="T11" lex="T_cell_receptor">T cell receptor</term> (<term sem="Protein_family_or_group" id="T12" lex="TCR">TCR</term>) cross-linking</term> is in part required for activation of <term sem="Protein_complex" id="T13" lex="NF-kappaB">NF-kappaB</term>, which is dependent on the <term sem="Other" id="T14" lex="phosphorylation">phosphorylation</term> and degradation of <term sem="Protein_molecule" id="T15" lex="IkappaBalpha">IkappaBalpha</term>.</sentence>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T12" />
+<clue>T cell receptor (TCR) <clueType>cross-linking</clueType> is in part required for activation of NF-kappaB, which is dependent on the phosphorylation and degradation of IkappaBalpha.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E5" />
+<clue>T cell receptor (TCR) cross-linking is in part <clueType>required</clueType> <linkTheme>for</linkTheme> activation of NF-kappaB, which is dependent on the phosphorylation and degradation of IkappaBalpha.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<clue>T cell receptor (TCR) cross-linking is in part required for <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB, which is dependent on the phosphorylation and degradation of IkappaBalpha.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="E10" />
+<clue>T cell receptor (TCR) cross-linking is in part required for activation of NF-kappaB, which is <clueType>dependent</clueType> <linkCause>on</linkCause> the phosphorylation and degradation of IkappaBalpha.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="E11" />
+<clue>T cell receptor (TCR) cross-linking is in part required for activation of NF-kappaB, which is <clueType>dependent</clueType> <linkCause>on</linkCause> the phosphorylation and degradation of IkappaBalpha.</clue>
+</event>
+<event id="E10">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T15" />
+<clue>T cell receptor (TCR) cross-linking is in part required for activation of NF-kappaB, which is dependent on the <clueType>phosphorylation</clueType> and degradation <linkTheme>of</linkTheme> IkappaBalpha.</clue>
+</event>
+<event id="E11">
+<type class="Protein_catabolism" />
+<theme idref="T15" />
+<clue>T cell receptor (TCR) cross-linking is in part required for activation of NF-kappaB, which is dependent on the phosphorylation and <clueType>degradation</clueType> <linkTheme>of</linkTheme> IkappaBalpha.</clue>
+</event>
+<sentence id="S4">By using <term sem="Cell_cultured" id="T16" lex="Jurkat">Jurkat</term> and <term sem="Cell_natural" id="T17" lex="primary_human_T_lymphocyte">primary human <term sem="Cell_natural" id="T18" lex="T_lymphocyte">T lymphocytes</term></term>, we demonstrate that the simultaneous activation of two second messengers of the <term sem="Other" id="T19" lex="TCR-initiated_signal_transduction"><term sem="Protein_family_or_group" id="T20" lex="TCR">TCR</term>-initiated signal transduction</term>, <term sem="Protein_molecule" id="T21" lex="protein_kinase_C">protein kinase C</term> (<term sem="Protein_molecule" id="T22" lex="PKC">PKC</term>) and <term sem="Protein_molecule" id="T23" lex="calcineurin">calcineurin</term>, results in the synergistic activation of the <term sem="Protein_complex" id="T24" lex="IkappaBalpha_kinase_(IKK)_complex"><term sem="Protein_molecule" id="T25" lex="IkappaBalpha">IkappaBalpha</term> kinase (<term sem="Protein_complex" id="A1">IKK) complex</term></term> but not of another <term sem="Protein_family_or_group" id="T26" lex="putative_IkappaBalpha_kinase">putative <term sem="Protein_molecule" id="T27" lex="IkappaBalpha">IkappaBalpha</term> kinase</term>, <term sem="Protein_molecule" id="T28" lex="p90(rsk)">p90(rsk)</term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<clue>By using <clueLoc>Jurkat</clueLoc> and primary human T lymphocytes, we demonstrate that the <clueTime>simultaneous</clueTime> <clueType>activation</clueType> <linkTheme>of</linkTheme> <corefTheme>two second messengers of the TCR-initiated signal transduction</corefTheme>, protein kinase C (PKC) and calcineurin, results in the synergistic activation of the IkappaBalpha kinase (IKK) complex but not of another putative IkappaBalpha kinase, p90(rsk).</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<clue>By using Jurkat and <clueLoc>primary human T lymphocytes</clueLoc>, we demonstrate that the <clueTime>simultaneous</clueTime> <clueType>activation</clueType> <linkTheme>of</linkTheme> <corefTheme>two second messengers of the TCR-initiated signal transduction</corefTheme>, protein kinase C (PKC) and calcineurin, results in the synergistic activation of the IkappaBalpha kinase (IKK) complex but not of another putative IkappaBalpha kinase, p90(rsk).</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<clue>By using <clueLoc>Jurkat</clueLoc> and primary human T lymphocytes, we demonstrate that the <clueTime>simultaneous</clueTime> <clueType>activation</clueType> <linkTheme>of</linkTheme> <corefTheme>two second messengers of the TCR-initiated signal transduction</corefTheme>, protein kinase C (PKC) and calcineurin, results in the synergistic activation of the IkappaBalpha kinase (IKK) complex but not of another putative IkappaBalpha kinase, p90(rsk).</clue>
+</event>
+<event id="E48">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<clue>By using Jurkat and <clueLoc>primary human T lymphocytes</clueLoc>, we demonstrate that the <clueTime>simultaneous</clueTime> <clueType>activation</clueType> <linkTheme>of</linkTheme> <corefTheme>two second messengers of the TCR-initiated signal transduction</corefTheme>, protein kinase C (PKC) and calcineurin, results in the synergistic activation of the IkappaBalpha kinase (IKK) complex but not of another putative IkappaBalpha kinase, p90(rsk).</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="E12" />
+<cause idref="E13" />
+<clue>By using Jurkat and primary human T lymphocytes, we demonstrate that the simultaneous activation of two second messengers of the TCR-initiated signal transduction, protein kinase C (PKC) and calcineurin, results in the <clueType>synergistic activation</clueType> <linkTheme>of</linkTheme> the IkappaBalpha kinase (IKK) complex but not of another putative IkappaBalpha kinase, p90(rsk).</clue>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref="E12" />
+<cause idref="E13" />
+<clue>By using Jurkat and primary human T lymphocytes, we demonstrate that the simultaneous activation of two second messengers of the TCR-initiated signal transduction, protein kinase C (PKC) and calcineurin, results in the <clueType>synergistic activation</clueType> of the IkappaBalpha kinase (IKK) complex but not <linkTheme>of</linkTheme> another putative IkappaBalpha kinase, p90(rsk).</clue>
+</event>
+<event id="E16">
+<type class="Cell_communication" />
+<theme idref="T20" />
+<clue>By using Jurkat and primary human T lymphocytes, we demonstrate that the simultaneous activation of two second messengers of the TCR<linkTheme>-initiated</linkTheme> <clueType>signal transduction</clueType>, protein kinase C (PKC) and calcineurin, results in the synergistic activation of the IkappaBalpha kinase (IKK) complex but not of another putative IkappaBalpha kinase, p90(rsk).</clue>
+</event>
+<sentence id="S5">We also demonstrate that the <term sem="Protein_complex" id="T29" lex="IKK_complex">IKK complex</term>, but not <term sem="Protein_molecule" id="T30" lex="p90(rsk)">p90(rsk)</term>, is responsible for the in vivo phosphorylation of <term sem="Protein_molecule" id="T31" lex="IkappaBalpha">IkappaBalpha</term> mediated by the co-activation of <term sem="Protein_molecule" id="T32" lex="PKC">PKC</term> and <term sem="Protein_molecule" id="T33" lex="calcineurin">calcineurin</term>.</sentence>
+<event id="E17">
+<type class="Regulation" />
+<theme idref="E19" />
+<cause idref="T29" />
+<clue>We also demonstrate that the IKK complex, but not p90(rsk), is <clueType>responsible</clueType> <linkTheme>for</linkTheme> the in vivo phosphorylation of IkappaBalpha mediated by the co-activation of PKC and calcineurin.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Regulation" />
+<theme idref="E19" />
+<cause idref="T30" />
+<clue>We also demonstrate that the IKK complex, but not p90(rsk), is <clueType>responsible</clueType> <linkTheme>for</linkTheme> the in vivo phosphorylation of IkappaBalpha mediated by the co-activation of PKC and calcineurin.</clue>
+</event>
+<event id="E19">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T31" />
+<clue>We also demonstrate that the IKK complex, but not p90(rsk), is responsible for the in vivo <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> IkappaBalpha mediated by the co-activation of PKC and calcineurin.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="E22" />
+<clue>We also demonstrate that the IKK complex, but not p90(rsk), is responsible for the in vivo phosphorylation of IkappaBalpha <clueType>mediated</clueType> <linkCause>by</linkCause> the co-activation of PKC and calcineurin.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="E23" />
+<clue>We also demonstrate that the IKK complex, but not p90(rsk), is responsible for the in vivo phosphorylation of IkappaBalpha <clueType>mediated</clueType> <linkCause>by</linkCause> the co-activation of PKC and calcineurin.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<clue>We also demonstrate that the IKK complex, but not p90(rsk), is responsible for the in vivo phosphorylation of IkappaBalpha mediated by the <clueType>co-activation</clueType> <linkTheme>of</linkTheme> PKC and calcineurin.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<clue>We also demonstrate that the IKK complex, but not p90(rsk), is responsible for the in vivo phosphorylation of IkappaBalpha mediated by the <clueType>co-activation</clueType> <linkTheme>of</linkTheme> PKC and calcineurin.</clue>
+</event>
+<sentence id="S6">Each second messenger is necessary, as inhibition of either one reverses the activation of the <term sem="Protein_complex" id="T34" lex="IKK_complex">IKK complex</term> and <term sem="Other" id="T35" lex="IkappaBalpha_phosphorylation"><term sem="Protein_molecule" id="T36" lex="IkappaBalpha">IkappaBalpha</term> phosphorylation</term> in vivo.</sentence>
+<event id="E24">
+<type class="Positive_regulation" />
+<cause idref="T32" />
+<clue><corefCause>Each second messenger</corefCause> is <clueType>necessary</clueType>, as inhibition of either one reverses the activation of the IKK complex and IkappaBalpha phosphorylation in vivo.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<cause idref="T33" />
+<clue><corefCause>Each second messenger</corefCause> is <clueType>necessary</clueType>, as inhibition of either one reverses the activation of the IKK complex and IkappaBalpha phosphorylation in vivo.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<clue>Each second messenger is necessary, as <clueType>inhibition</clueType> <linkTheme>of</linkTheme> <corefTheme>either one</corefTheme> reverses the activation of the IKK complex and IkappaBalpha phosphorylation in vivo.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<clue>Each second messenger is necessary, as <clueType>inhibition</clueType> <linkTheme>of</linkTheme> <corefTheme>either one</corefTheme> reverses the activation of the IKK complex and IkappaBalpha phosphorylation in vivo.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E26" />
+<clue>Each second messenger is necessary, as inhibition of either one <clueType>reverses</clueType> the activation of the IKK complex and IkappaBalpha phosphorylation in vivo.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="E26" />
+<clue>Each second messenger is necessary, as inhibition of either one <clueType>reverses</clueType> the activation of the IKK complex and IkappaBalpha phosphorylation in vivo.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E27" />
+<clue>Each second messenger is necessary, as inhibition of either one <clueType>reverses</clueType> the activation of the IKK complex and IkappaBalpha phosphorylation in vivo.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E27" />
+<clue>Each second messenger is necessary, as inhibition of either one <clueType>reverses</clueType> the activation of the IKK complex and IkappaBalpha phosphorylation in vivo.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<clue>Each second messenger is necessary, as inhibition of either one reverses the <clueType>activation</clueType> <linkTheme>of</linkTheme> the IKK complex and IkappaBalpha phosphorylation in vivo.</clue>
+</event>
+<event id="E33">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T36" />
+<clue>Each second messenger is necessary, as inhibition of either one reverses the activation of the IKK complex and IkappaBalpha <clueType>phosphorylation</clueType> in vivo.</clue>
+</event>
+<sentence id="S7">Overexpression of <term sem="Protein_molecule" id="A2">dominant negative forms</term> of <cons sem="(AND Protein_molecule Protein_molecule)" id="T37" lex="(AND IKKalpha IKK-beta)"><frag id="F1"><term sem="Protein_molecule" id="A3">IKK</term></frag><frag id="F2"><term sem="Protein_molecule" id="A4">alpha</term></frag> and <frag id="F3"><term sem="Protein_molecule" id="A5">-beta</term></frag></cons> demonstrates that only <term sem="Protein_molecule" id="T38" lex="IKKbeta">IKKbeta</term> is the target for <term sem="Protein_molecule" id="T39" lex="PKC">PKC</term> and <term sem="Protein_molecule" id="T40" lex="calcineurin">calcineurin</term>.</sentence>
+<event id="E34">
+<type class="Gene_expression" />
+<theme idref1="A3" idref2="A4" idref="A2" />
+<clue><clueType>Overexpression</clueType> <linkTheme>of</linkTheme> dominant negative forms of IKKalpha and -beta demonstrates that only IKKbeta is the target for PKC and calcineurin.</clue>
+</event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<clue><clueType>Overexpression</clueType> of dominant negative forms of IKKalpha and -beta demonstrates that only IKKbeta is the target for PKC and calcineurin.</clue>
+</event>
+<event id="E35">
+<type class="Gene_expression" />
+<theme idref1="A3" idref2="A5" idref="A2" />
+<clue><clueType>Overexpression</clueType> <linkTheme>of</linkTheme> dominant negative forms of IKKalpha and -beta demonstrates that only IKKbeta is the target for PKC and calcineurin.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<clue><clueType>Overexpression</clueType> of dominant negative forms of IKKalpha and -beta demonstrates that only IKKbeta is the target for PKC and calcineurin.</clue>
+</event>
+<event id="E36">
+<type class="Binding" />
+<theme idref="T38" />
+<theme idref="T39" />
+<clue>Overexpression of dominant negative forms of IKKalpha and -beta demonstrates that only IKKbeta <clueType>is the target</clueType> <linkTheme>for</linkTheme> PKC and calcineurin.</clue>
+</event>
+<event id="E37">
+<type class="Binding" />
+<theme idref="T38" />
+<theme idref="T40" />
+<clue>Overexpression of dominant negative forms of IKKalpha and -beta demonstrates that only IKKbeta is the <clueType>target</clueType> <linkTheme>for</linkTheme> PKC and calcineurin.</clue>
+</event>
+<sentence id="S8">These results indicate that within the <term sem="Other" id="T41" lex="TCR/CD3_signal_transduction_pathway"><term sem="Protein_family_or_group" id="A20"><term sem="Protein_family_or_group" id="T42" lex="TCR">TCR</term><term sem="Protein_molecule" id="T43" lex="CD3">/CD3</term></term> signal transduction pathway</term> both <term sem="Protein_molecule" id="T44" lex="PKC">PKC</term> and <term sem="Protein_molecule" id="T45" lex="calcineurin">calcineurin</term> are required for the effective activation of the <term sem="Protein_complex" id="T46" lex="IKK_complex">IKK complex</term> and <term sem="Protein_complex" id="T47" lex="NF-kappaB">NF-kappaB</term> in <term sem="Cell_natural" id="T48" lex="T_lymphocyte">T lymphocytes</term>.</sentence>
+<event id="E38">
+<type class="Cell_communication" />
+<theme idref="A20" />
+<clue>These results indicate that within the TCR/CD3 <clueType>signal transduction</clueType> pathway both PKC and calcineurin are required for the effective activation of the IKK complex and NF-kappaB in T lymphocytes.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E43" />
+<cause idref="T44" />
+<clue>These results indicate that within the TCR/CD3 signal transduction pathway both PKC and calcineurin are <clueType>required</clueType> <linkTheme>for</linkTheme> the effective activation of the IKK complex and NF-kappaB in T lymphocytes.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<cause idref="T44" />
+<clue>These results indicate that within the TCR/CD3 signal transduction pathway both PKC and calcineurin are <clueType>required</clueType> <linkTheme>for</linkTheme> the effective activation of the IKK complex and NF-kappaB in T lymphocytes.</clue>
+</event>
+<event id="E41">
+<type class="Positive_regulation" />
+<theme idref="E43" />
+<cause idref="T45" />
+<clue>These results indicate that within the TCR/CD3 signal transduction pathway both PKC and calcineurin are <clueType>required</clueType> <linkTheme>for</linkTheme> the effective activation of the IKK complex and NF-kappaB in T lymphocytes.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<cause idref="T45" />
+<clue>These results indicate that within the TCR/CD3 signal transduction pathway both PKC and calcineurin are <clueType>required</clueType> <linkTheme>for</linkTheme> the effective activation of the IKK complex and NF-kappaB in T lymphocytes.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="T46" />
+<clue>These results indicate that within the TCR/CD3 signal transduction pathway both PKC and calcineurin are required for the effective <clueType>activation</clueType> <linkTheme>of</linkTheme> the IKK complex and NF-kappaB <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="T47" />
+<clue>These results indicate that within the TCR/CD3 signal transduction pathway both PKC and calcineurin are required for the effective <clueType>activation</clueType> <linkTheme>of</linkTheme> the IKK complex and NF-kappaB <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

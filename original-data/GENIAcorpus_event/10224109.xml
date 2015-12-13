@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="19/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10224109" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10224109</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="immunosuppressant">Immunosuppressant</term> <term sem="Organic_compound_other" id="T2" lex="PG490">PG490</term> (<term sem="Organic_compound_other" id="T3" lex="triptolide">triptolide</term>) inhibits <term sem="Other" id="T4" lex="T-cell_interleukin-2_expression"><term sem="Cell_natural" id="A1">T-cell</term> <term sem="Protein_molecule" id="T5" lex="T-cell_interleukin-2">interleukin-2</term> expression</term> at the level of <term sem="Protein_family_or_group" id="T6" lex="purine-box/nuclear_factor">purine-box/nuclear factor of <term sem="Cell_natural" id="T7" lex="activated_T-cell">activated T-cells</term></term> and <term sem="Other" id="T8" lex="NF-kappaB_transcriptional_activation"><term sem="Protein_complex" id="T9" lex="NF-kappaB">NF-kappaB</term> transcriptional activation</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>Immunosuppressant PG490 (triptolide) inhibits <clueLoc>T-cell</clueLoc> interleukin-2 <clueType>expression</clueType> at the level of purine-box/nuclear factor of activated T-cells and NF-kappaB transcriptional activation.</clue>
+<comment>NER T5 mod</comment>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<cause idref="T6" />
+<clue>Immunosuppressant PG490 (triptolide) inhibits T-cell interleukin-2 expression at the level of purine-box/nuclear factor of activated T-cells and NF-kappaB transcriptional <clueType>activation</clueType>.</clue>
+<comment>NER T6 mod</comment>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<cause idref="T9" />
+<clue>Immunosuppressant PG490 (triptolide) inhibits T-cell interleukin-2 expression at the level of purine-box/nuclear factor of activated T-cells and NF-kappaB transcriptional <clueType>activation</clueType>.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="T3" />
+<clue>Immunosuppressant PG490 (triptolide) <clueType>inhibits</clueType> T-cell interleukin-2 expression <linkTheme>at</linkTheme> the level of purine-box/nuclear factor of activated T-cells and NF-kappaB transcriptional activation.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="T3" />
+<clue>Immunosuppressant PG490 (triptolide) <clueType>inhibits</clueType> T-cell interleukin-2 expression <linkTheme>at</linkTheme> the level of purine-box/nuclear factor of activated T-cells and NF-kappaB transcriptional activation.</clue>
+</event>
+<event id="E101">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="E5" />
+<clue>Immunosuppressant PG490 (triptolide) <clueType>inhibits</clueType> T-cell interleukin-2 expression at the level of purine-box/nuclear factor of activated T-cells and NF-kappaB transcriptional activation.</clue>
+</event>
+<event id="E102">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="E6" />
+<clue>Immunosuppressant PG490 (triptolide) <clueType>inhibits</clueType> T-cell interleukin-2 expression at the level of purine-box/nuclear factor of activated T-cells and NF-kappaB transcriptional activation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Organic_compound_other" id="T10" lex="PG490">PG490</term> (<term sem="Organic_compound_other" id="T11" lex="triptolide">triptolide</term>) is a <term sem="Organic_compound_other" id="T12" lex="diterpene_triepoxide">diterpene triepoxide</term> with potent <cons sem="(AND Other Other)" id="T13" lex="(AND immunosuppressive_property antiinflammatory_property)"><frag id="F1">immunosuppressive</frag> and <frag id="F2">antiinflammatory</frag> <frag id="F3">properties</frag></cons>.</sentence>
+<sentence id="S3"><term sem="Organic_compound_other" id="T14" lex="PG490">PG490</term> inhibits <term sem="Other" id="T15" lex="interleukin(IL)-2_expression"><term sem="Protein_molecule" id="T16" lex="interleukin(IL)-2">interleukin(IL)-2</term> expression</term> by <term sem="Cell_natural" id="T17" lex="normal_human_peripheral_blood_lymphocyte">normal human peripheral blood lymphocytes</term> stimulated with <term sem="Organic_compound_other" id="T18" lex="phorbol_12-myristate_13-acetate">phorbol 12-myristate 13-acetate</term> (<term sem="Organic_compound_other" id="T19" lex="PMA">PMA</term>) and <term sem="Protein_family_or_group" id="A3">antibody to <term sem="Protein_molecule" id="T20" lex="CD3">CD3</term></term> (IC50 of 10 ng/ml), and with <term sem="Organic_compound_other" id="T21" lex="PMA">PMA</term> and <term sem="Organic_compound_other" id="T22" lex="ionomycin">ionomycin</term> (Iono, IC50 of 40 ng/ml).</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>PG490 inhibits interleukin(IL)-2 <clueType>expression</clueType> <clueLoc>by normal human peripheral blood lymphocytes stimulated with phorbol 12-myristate 13-acetate (PMA) and antibody to CD3 (IC50 of 10 ng/ml)</clueLoc>, and with PMA and ionomycin (Iono, IC50 of 40 ng/ml).</clue>
+<comment>TPS A3</comment>
+</event>
+<event id="E107">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>PG490 inhibits interleukin(IL)-2 <clueType>expression</clueType> <clueLoc>by normal human peripheral blood lymphocytes stimulated</clueLoc> with phorbol 12-myristate 13-acetate (PMA) and antibody to CD3 (IC50 of 10 ng/ml), and <clueLoc>with PMA and ionomycin (Iono, IC50 of 40 ng/ml)</clueLoc>.</clue>
+<comment>TPS A3</comment>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E7" />
+<cause idref="T14" />
+<clue>PG490 <clueType>inhibits</clueType> interleukin(IL)-2 expression by normal human peripheral blood lymphocytes stimulated with phorbol 12-myristate 13-acetate (PMA) and antibody to CD3 (IC50 of 10 ng/ml), and with PMA and ionomycin (Iono, IC50 of 40 ng/ml).</clue>
+</event>
+<event id="E108">
+<type class="Negative_regulation" />
+<theme idref="E107" />
+<cause idref="T14" />
+<clue>PG490 <clueType>inhibits</clueType> interleukin(IL)-2 expression by normal human peripheral blood lymphocytes stimulated with phorbol 12-myristate 13-acetate (PMA) and antibody to CD3 (IC50 of 10 ng/ml), and with PMA and ionomycin (Iono, IC50 of 40 ng/ml).</clue>
+</event>
+<event id="E9">
+<type class="Physiological_process" />
+<theme idref="T17" />
+<cause idref="T19" />
+<cause idref="A3" />
+<clue>PG490 inhibits interleukin(IL)-2 expression by normal human peripheral blood lymphocytes <clueType>stimulated</clueType> <linkCause>with</linkCause> phorbol 12-myristate 13-acetate (PMA) and antibody to CD3 (IC50 of 10 ng/ml), and with PMA and ionomycin (Iono, IC50 of 40 ng/ml).</clue>
+</event>
+<event id="E10">
+<type class="Physiological_process" />
+<theme idref="T17" />
+<cause idref="T21" />
+<cause idref="T22" />
+<clue>PG490 inhibits interleukin(IL)-2 expression by normal human peripheral blood lymphocytes <clueType>stimulated</clueType> with phorbol 12-myristate 13-acetate (PMA) and antibody to CD3 (IC50 of 10 ng/ml), and <linkCause>with</linkCause> PMA and ionomycin (Iono, IC50 of 40 ng/ml).</clue>
+</event>
+<sentence id="S4">In <term sem="Cell_cultured" id="T23" lex="Jurkat_T-cell">Jurkat T-cells</term>, <term sem="Organic_compound_other" id="T24" lex="PG490">PG490</term> inhibits <term sem="Organic_compound_other" id="T26" lex="PMA">PMA</term>/<term sem="Organic_compound_other" id="A4">Iono</term>-stimulated <term sem="Other" id="T270"><term sem="Protein_molecule" id="T27" lex="IL-2">IL-2</term> transcription</term>.</sentence>
+<event id="E11">
+<type class="Transcription" />
+<theme idref="T27" />
+<clue>In Jurkat T-cells, PG490 inhibits PMA/Iono-stimulated IL-2 <clueType>transcription</clueType>.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T26" />
+<cause idref="A4" />
+<clue>In Jurkat T-cells, PG490 inhibits PMA/Iono-<clueType>stimulated</clueType> IL-2 transcription.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="T24" />
+<clue><clueLoc>In Jurkat T-cells</clueLoc>, <clueType>PG490</clueType> inhibits PMA/Iono-stimulated IL-2 transcription.</clue>
+</event>
+<sentence id="S5"><term sem="Organic_compound_other" id="T28" lex="PG490">PG490</term> inhibits the induction of <term sem="Other" id="T29" lex="DNA_binding_activity">DNA binding activity</term> at the <term sem="DNA_domain_or_region" id="T30" lex="purine-box/antigen_receptor_response_element_(ARRE)/nuclear_factor_of_activated_T-cells_(NF-AT)_target_sequence">purine-box/antigen receptor response element (ARRE)/nuclear factor of activated T-cells (NF-AT) target sequence</term> but not at the <term sem="DNA_domain_or_region" id="T31" lex="NF-kappaB_site">NF-kappaB site</term>.</sentence>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T30" />
+<clue>PG490 inhibits the induction of DNA <clueType>binding</clueType> activity <linkTheme>at</linkTheme> the purine-box/antigen receptor response element (ARRE)/nuclear factor of activated T-cells (NF-AT) target sequence but not at the NF-kappaB site.</clue>
+</event>
+<event id="E15">
+<type class="Binding" />
+<theme idref="T31" />
+<clue>PG490 inhibits the induction of DNA <clueType>binding</clueType> activity at the purine-box/antigen receptor response element (ARRE)/nuclear factor of activated T-cells (NF-AT) target sequence but not <linkTheme>at</linkTheme> the NF-kappaB site.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue>PG490 inhibits the <clueType>induction</clueType> <linkTheme>of</linkTheme> DNA binding activity at the purine-box/antigen receptor response element (ARRE)/nuclear factor of activated T-cells (NF-AT) target sequence but not at the NF-kappaB site.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<clue>PG490 inhibits the <clueType>induction</clueType> <linkTheme>of</linkTheme> DNA binding activity at the purine-box/antigen receptor response element (ARRE)/nuclear factor of activated T-cells (NF-AT) target sequence but not at the NF-kappaB site.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T28" />
+<clue>PG490 <clueType>inhibits</clueType> the induction of DNA binding activity at the purine-box/antigen receptor response element (ARRE)/nuclear factor of activated T-cells (NF-AT) target sequence but not at the NF-kappaB site.</clue>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="T28" />
+<clue>PG490 <clueType>inhibits</clueType> the induction of DNA binding activity at the purine-box/antigen receptor response element (ARRE)/nuclear factor of activated T-cells (NF-AT) target sequence but not at the NF-kappaB site.</clue>
+</event>
+<sentence id="S6"><term sem="Organic_compound_other" id="T32" lex="PG490">PG490</term> can completely inhibit transcriptional activation at the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T33" lex="(AND purine-box/ARRE/NF-AT_target_DNA_sequence NF-kappaB_target_DNA_sequence)"><frag id="F4"><term sem="DNA_domain_or_region" id="A5">purine-box/ARRE/NF-AT</term></frag> and <frag id="F5"><term sem="DNA_domain_or_region" id="A6">NF-kappaB</term></frag> <frag id="F6"><term sem="DNA_domain_or_region" id="A7">target DNA sequences</term></frag></cons> triggered by all stimuli examined (<term sem="Organic_compound_other" id="T34" lex="PMA">PMA</term>, <term sem="Organic_compound_other" id="T35" lex="PMA/Iono"><term sem="Organic_compound_other" id="T36" lex="PMA">PMA</term>/Iono</term>, <term sem="Protein_molecule" id="T37" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term>).</sentence>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref1="A7" idref="A5" />
+<clue>PG490 can completely inhibit transcriptional <clueType>activation</clueType> <linkTheme>at</linkTheme> the purine-box/ARRE/NF-AT and NF-kappaB target DNA sequences triggered by all stimuli examined (PMA, PMA/Iono, tumor necrosis factor-alpha).</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref1="A7" idref="A6" />
+<clue>PG490 can completely inhibit transcriptional <clueType>activation</clueType> <linkTheme>at</linkTheme> the purine-box/ARRE/NF-AT and NF-kappaB target DNA sequences triggered by all stimuli examined (PMA, PMA/Iono, tumor necrosis factor-alpha).</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T34" />
+<clue>PG490 can completely inhibit transcriptional activation at the purine-box/ARRE/NF-AT and NF-kappaB target DNA sequences <clueType>triggered</clueType> <linkTheme>by</linkTheme> all stimuli examined (PMA, PMA/Iono, tumor necrosis factor-alpha).</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T35" />
+<cause idref="T36" />
+<clue>PG490 can completely inhibit transcriptional activation at the purine-box/ARRE/NF-AT and NF-kappaB target DNA sequences <clueType>triggered</clueType> <linkTheme>by</linkTheme> all stimuli examined (PMA, PMA/Iono, tumor necrosis factor-alpha).</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T37" />
+<clue>PG490 can completely inhibit transcriptional activation at the purine-box/ARRE/NF-AT and NF-kappaB target DNA sequences <clueType>triggered</clueType> <linkTheme>by</linkTheme> all stimuli examined (PMA, PMA/Iono, tumor necrosis factor-alpha).</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<cause idref="T32" />
+<clue>PG490 can completely <clueType>inhibit</clueType> transcriptional activation at the purine-box/ARRE/NF-AT and NF-kappaB target DNA sequences triggered by all stimuli examined (PMA, PMA/Iono, tumor necrosis factor-alpha).</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="T32" />
+<clue>PG490 can completely <clueType>inhibit</clueType> transcriptional activation at the purine-box/ARRE/NF-AT and NF-kappaB target DNA sequences triggered by all stimuli examined (PMA, PMA/Iono, tumor necrosis factor-alpha).</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="T32" />
+<clue>PG490 can completely <clueType>inhibit</clueType> transcriptional activation at the purine-box/ARRE/NF-AT and NF-kappaB target DNA sequences triggered by all stimuli examined (PMA, PMA/Iono, tumor necrosis factor-alpha).</clue>
+</event>
+<sentence id="S7"><term sem="Organic_compound_other" id="T38" lex="PG490">PG490</term> also inhibits <term sem="Organic_compound_other" id="T40" lex="PMA">PMA</term>-stimulated <term sem="Other" id="T25">activation</term> of a <term sem="Protein_molecule" id="A8"><term sem="Protein_family_or_group" id="T41" lex="chimeric_transcription_factor">chimeric transcription factor</term> in which the <term sem="Protein_domain_or_region" id="T42" lex="C-terminal_TA1_transactivation_domain">C-terminal TA1 transactivation domain</term> of <term sem="Protein_molecule" id="T43" lex="NF-kappaB_p65">NF-kappaB p65</term> is fused to the <term sem="Protein_domain_or_region" id="T44" lex="DNA_binding_domain">DNA binding domain</term> of <term sem="Protein_molecule" id="T45" lex="GAL4">GAL4</term></term>.</sentence>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<clue>PG490 also inhibits PMA-stimulated <clueType>activation</clueType> <linkTheme>of</linkTheme> a chimeric transcription factor in which the C-terminal TA1 transactivation domain of NF-kappaB p65 is fused to the DNA binding domain of GAL4.</clue>
+<comment>TPS A8</comment>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="T40" />
+<clue>PG490 also inhibits PMA-<clueType>stimulated</clueType> activation of a chimeric transcription factor in which the C-terminal TA1 transactivation domain of NF-kappaB p65 is fused to the DNA binding domain of GAL4.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref="T38" />
+<clue>PG490 also <clueType>inhibits</clueType> PMA-stimulated activation of a chimeric transcription factor in which the C-terminal TA1 transactivation domain of NF-kappaB p65 is fused to the DNA binding domain of GAL4.</clue>
+</event>
+<sentence id="S8">In <term sem="Cell_natural" id="T46" lex="16HBE_human_bronchial_epithelial_cell">16HBE human bronchial epithelial cells</term>, <term sem="Other" id="T47" lex="IL-8_expression"><term sem="Protein_molecule" id="T48" lex="IL-8">IL-8</term> expression</term> is regulated predominantly by <term sem="Protein_complex" id="T49" lex="NF-kappaB">NF-kappaB</term>, and <term sem="Organic_compound_other" id="T50" lex="PG490">PG490</term> but not <term sem="Organic_compound_other" id="T51" lex="cyclosporin_A">cyclosporin A</term> can completely inhibit expression of <term sem="Protein_molecule" id="T52" lex="IL-8">IL-8</term>.</sentence>
+<event id="E31">
+<type class="Gene_expression" />
+<theme idref="T48" />
+<clue>In 16HBE human bronchial epithelial cells, IL-8 <clueType>expression</clueType> is regulated predominantly by NF-kappaB, and PG490 but not cyclosporin A can completely inhibit expression of IL-8.</clue>
+</event>
+<event id="E32">
+<type class="Regulation" />
+<theme idref="E31" />
+<cause idref="T49" />
+<clue><clueLoc>In 16HBE human bronchial epithelial cells</clueLoc>, IL-8 expression is <clueType>regulated</clueType> predominantly <linkCause>by</linkCause> NF-kappaB, and PG490 but not cyclosporin A can completely inhibit expression of IL-8.</clue>
+</event>
+<event id="E33">
+<type class="Gene_expression" />
+<theme idref="T52" />
+<clue>In 16HBE human bronchial epithelial cells, IL-8 expression is regulated predominantly by NF-kappaB, and PG490 but not cyclosporin A can completely inhibit <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-8.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T50" />
+<clue><clueLoc>In 16HBE human bronchial epithelial cells</clueLoc>, IL-8 expression is regulated predominantly by NF-kappaB, and PG490 but not cyclosporin A can completely <clueType>inhibit</clueType> expression of IL-8.</clue>
+</event>
+<event assertion="non-exist" id="E35">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T51" />
+<clue><clueLoc>In 16HBE human bronchial epithelial cells</clueLoc>, IL-8 expression is regulated predominantly by NF-kappaB, and PG490 but not cyclosporin A can completely <clueType>inhibit</clueType> expression of IL-8.</clue>
+</event>
+<sentence id="S9">The mechanism of <term sem="Organic_compound_other" id="T53" lex="PG490">PG490</term> inhibition of <term sem="Other" id="T54" lex="cytokine_gene_expression"><term sem="DNA_family_or_group" id="T55" lex="cytokine_gene">cytokine gene</term> expression</term> differs from <term sem="Organic_compound_other" id="T56" lex="cyclosporin_A">cyclosporin A</term> and involves <term sem="Other" id="T57" lex="nuclear_inhibition"><term sem="Cell_component" id="T39">nuclear</term> inhibition</term> of <term sem="Other" id="T58" lex="transcriptional_activation">transcriptional activation</term> of <term sem="Protein_complex" id="T59" lex="NF-kappaB">NF-kappaB</term> and the <term sem="DNA_domain_or_region" id="T60" lex="purine-box_regulator">purine-box regulator</term> operating at the <term sem="DNA_domain_or_region" id="T61" lex="ARRE/NF-AT_site">ARRE/NF-AT site</term> at a step after specific <term sem="Other" id="T62" lex="DNA_binding">DNA binding</term>.</sentence>
+<event id="E36">
+<type class="Gene_expression" />
+<theme idref="T55" />
+<clue>The mechanism of PG490 inhibition of cytokine gene <clueType>expression</clueType> differs from cyclosporin A and involves nuclear inhibition of transcriptional activation of NF-kappaB and the purine-box regulator operating at the ARRE/NF-AT site at a step after specific DNA binding.</clue>
+</event>
+<event id="E37">
+<type class="Negative_regulation" />
+<theme idref="E36" />
+<cause idref="T53" />
+<clue>The mechanism of PG490 <clueType>inhibition</clueType> <linkTheme>of</linkTheme> cytokine gene expression differs from cyclosporin A and involves nuclear inhibition of transcriptional activation of NF-kappaB and the purine-box regulator operating at the ARRE/NF-AT site at a step after specific DNA binding.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="T59" />
+<clue>The mechanism of PG490 inhibition of cytokine gene expression differs from cyclosporin A and involves nuclear inhibition of transcriptional <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB and the purine-box regulator operating at the ARRE/NF-AT site at a step after specific DNA binding.</clue>
+</event>
+<event id="E41">
+<type class="Positive_regulation" />
+<theme idref="T60" />
+<clue>The mechanism of PG490 inhibition of cytokine gene expression differs from cyclosporin A and involves nuclear inhibition of transcriptional <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB and the purine-box regulator operating at the ARRE/NF-AT site at a step after specific DNA binding.</clue>
+</event>
+<event id="E39">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<clue>The mechanism of PG490 inhibition of cytokine gene expression differs from cyclosporin A and involves <clueLoc>nuclear</clueLoc> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> transcriptional activation of NF-kappaB and the purine-box regulator operating at the ARRE/NF-AT site at a step after specific DNA binding.</clue>
+</event>
+<event id="E42">
+<type class="Negative_regulation" />
+<theme idref="E41" />
+<clue>The mechanism of PG490 inhibition of cytokine gene expression differs from cyclosporin A and involves <clueLoc>nuclear</clueLoc> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> transcriptional activation of NF-kappaB and the purine-box regulator operating at the ARRE/NF-AT site at a step after specific DNA binding.</clue>
+</event>
+<event id="E40">
+<type class="Correlation" />
+<theme idref="E37" />
+<theme idref="E39" />
+<clue>The mechanism of PG490 inhibition of cytokine gene expression differs from cyclosporin A and <clueType>involves</clueType> nuclear inhibition of transcriptional activation of NF-kappaB and the purine-box regulator operating at the ARRE/NF-AT site at a step after specific DNA binding.</clue>
+</event>
+<event id="E43">
+<type class="Correlation" />
+<theme idref="E37" />
+<theme idref="E42" />
+<clue>The mechanism of PG490 inhibition of cytokine gene expression differs from cyclosporin A and <clueType>involves</clueType> nuclear inhibition of transcriptional activation of NF-kappaB and the purine-box regulator operating at the ARRE/NF-AT site at a step after specific DNA binding.</clue>
+</event>
+<event id="E44">
+<type class="Correlation" />
+<theme idref="T60" />
+<theme idref="T61" />
+<clue>The mechanism of PG490 inhibition of cytokine gene expression differs from cyclosporin A and involves nuclear inhibition of transcriptional activation of NF-kappaB and the purine-box regulator <clueType>operating</clueType> <linkTheme>at</linkTheme> the ARRE/NF-AT site at a step after specific DNA binding.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="03/04/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1527846">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1527846</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A novel <term sem="Protein_family_or_group" id="T1" lex="Ets-related_transcription_factor">Ets-related transcription factor</term>, <term sem="Protein_molecule" id="T2" lex="Elf-1">Elf-1</term>, binds to <term sem="DNA_domain_or_region" id="T3" lex="human_immunodeficiency_virus_type_2_regulatory_element"><term sem="Virus" id="T4" lex="human_immunodeficiency_virus_type_2">human immunodeficiency virus type 2</term> regulatory elements</term> that are required for inducible <term sem="Other" id="A1">trans activation</term> in <term sem="Cell_natural" id="T5" lex="T_cell">T cells</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T2" />
+<theme idref="T3" />
+<clue>A novel Ets-related transcription factor, Elf-1, <clueType>binds</clueType> <linkCause>to</linkCause> human immunodeficiency virus type 2 regulatory elements that are required for inducible trans activation in T cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E101" />
+<cause idref="T3" />
+<clue>A novel Ets-related transcription factor, Elf-1, binds to human immunodeficiency virus type 2 regulatory elements that are <clueType>required</clueType> <linkTheme>for</linkTheme> inducible trans activation <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<event id="E101">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<clue>A novel Ets-related transcription factor, Elf-1, binds to human immunodeficiency virus type 2 regulatory elements that are required for <clueType>inducible</clueType> trans activation in T cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Virus" id="T6" lex="human_immunodeficiency_virus_type_1">Human immunodeficiency virus type 1</term> (<term sem="Virus" id="T7" lex="HIV-1">HIV-1</term>) and <term sem="Virus" id="T8" lex="HIV-2">HIV-2</term> are structurally related <term sem="Virus" id="T9" lex="retrovirus">retroviruses</term> which both cause <term sem="Other" id="T10" lex="AIDS">AIDS</term> in <term sem="Multicellular_organism_natural" id="T11" lex="human">humans</term>.</sentence>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="T7" />
+<clue>Human immunodeficiency virus type 1 (HIV-1) and HIV-2 are structurally related retroviruses which <corefCause>both</corefCause> <clueType>cause</clueType> AIDS <clueLoc>in humans</clueLoc>.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="T8" />
+<clue>Human immunodeficiency virus type 1 (HIV-1) and HIV-2 are structurally related retroviruses which <corefCause>both</corefCause> <clueType>cause</clueType> AIDS <clueLoc>in humans</clueLoc>.</clue>
+</event>
+<sentence id="S3">Although both viruses establish latency in quiescent <term sem="Cell_natural" id="T12" lex="human-peripheral-blood_T_cell">human-peripheral-blood T cells</term>, the asymptomatic phase of <term sem="Other" id="T13" lex="HIV-2_infection"><term sem="Virus" id="T14" lex="HIV-2">HIV-2</term> infection</term> may be more prolonged than that of <term sem="Virus" id="T15" lex="HIV-1">HIV-1</term>.</sentence>
+<sentence id="S4">The latent phases of both <term sem="Other" id="T16" lex="HIV-1_and_HIV-2_infection"><term sem="Virus" id="T17" lex="HIV-1">HIV-1</term> and <term sem="Virus" id="T18" lex="HIV-2">HIV-2</term> <term sem="Other" id="A2">infection</term></term> have been shown to be disrupted by <term sem="Other" id="T19" lex="T-cell_activation"><term sem="Cell_natural" id="A3">T-cell</term> activation</term>, a process that requires <term sem="Protein_family_or_group" id="A4"><term sem="Cell_natural" id="A5">host cell</term> transcription factors</term>.</sentence>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="A3" />
+<clue>The latent phases of both HIV-1 and HIV-2 infection have been shown to be disrupted by T-cell <clueType>activation</clueType>, a process that requires host cell transcription factors.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="A4" />
+<clue>The latent phases of both HIV-1 and HIV-2 infection have been shown to be disrupted by T-cell activation, <corefTheme>a process</corefTheme> that <clueType>requires</clueType> host cell transcription factors.</clue>
+</event>
+<event id="E7">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T17" />
+<clue>The latent phases of both HIV-1 and HIV-2 <clueType>infection</clueType> have been shown to be disrupted by T-cell activation, a process that requires host cell transcription factors.</clue>
+</event>
+<event id="E8">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T18" />
+<clue>The latent phases of both HIV-1 and HIV-2 <clueType>infection</clueType> have been shown to be disrupted by T-cell activation, a process that requires host cell transcription factors.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="E7" />
+<clue>The <clueType>latent phases</clueType> <linkTheme>of</linkTheme> both HIV-1 and HIV-2 infection have been shown to be disrupted by T-cell activation, a process that requires host cell transcription factors.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<clue>The <clueType>latent phases</clueType> <linkTheme>of</linkTheme> both HIV-1 and HIV-2 infection have been shown to be disrupted by T-cell activation, a process that requires host cell transcription factors.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="E5" />
+<clue>The latent phases of both HIV-1 and HIV-2 infection have been shown to be <clueType>disrupted</clueType> <linkCause>by</linkCause> T-cell activation, a process that requires host cell transcription factors.</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="E10" />
+<cause idref="E5" />
+<clue>The latent phases of both HIV-1 and HIV-2 infection have been shown to be <clueType>disrupted</clueType> <linkCause>by</linkCause> T-cell activation, a process that requires host cell transcription factors.</clue>
+</event>
+<sentence id="S5">In the case of <term sem="Virus" id="T20" lex="HIV-1">HIV-1</term>, the transcription factor <term sem="Protein_molecule" id="T21" lex="NF-kappa_B">NF-kappa B</term> is sufficient for <term sem="Other" id="T22" lex="inducible_transcriptional_activation">inducible transcriptional activation</term>.</sentence>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<clue><linkTheme>In the case of</linkTheme> HIV-1, the transcription factor NF-kappa B is sufficient for inducible <clueType>transcriptional activation</clueType>.</clue>
+</event>
+<event id="E102">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<clue>In the case of HIV-1, the transcription factor NF-kappa B is sufficient for <clueType>inducible</clueType> transcriptional activation.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E102" />
+<cause idref="T21" />
+<clue>In the case of HIV-1, the transcription factor NF-kappa B is <clueType>sufficient</clueType> <linkTheme>for</linkTheme> inducible transcriptional activation.</clue>
+</event>
+<sentence id="S6">In contrast, <term sem="Protein_family_or_group" id="A6">factors</term> in addition to <term sem="Protein_complex" id="T23" lex="NF-kappa_B">NF-kappa B</term> are required to activate <term sem="Other" id="T24" lex="HIV-2_transcription"><term sem="Virus" id="T25" lex="HIV-2">HIV-2</term> transcription</term> in <term sem="Cell_natural" id="T26" lex="infected_T_cell">infected T cells</term>.</sentence>
+<event id="E14">
+<type class="Transcription" />
+<theme idref="T25" />
+<clue>In contrast, factors in addition to NF-kappa B are required to activate HIV-2 <clueType>transcription</clueType> in infected T cells.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="A6" />
+<cause idref="T23" />
+<clue>In contrast, factors <linkCause>in addition to</linkCause> NF-kappa B are <clueType>required to activate</clueType> HIV-2 transcription <clueLoc>in infected T cells</clueLoc>.</clue>
+<comment>NER T23 mod</comment>
+</event>
+<sentence id="S7">In this report, we demonstrate that a novel <term sem="Protein_family_or_group" id="T27" lex="Ets-related_transcription_factor">Ets-related transcription factor</term>, <term sem="Protein_molecule" id="T28" lex="Elf-1">Elf-1</term>, binds specifically to two <term sem="DNA_domain_or_region" id="T29" lex="two_purine-rich_motif">purine-rich motifs</term> in the <term sem="DNA_domain_or_region" id="T30" lex="HIV-2_enhancer"><term sem="Virus" id="T31" lex="HIV-2">HIV-2</term> enhancer</term>.</sentence>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T28" />
+<theme idref="T29" />
+<clue>In this report, we demonstrate that a novel Ets-related transcription factor, Elf-1, <clueType>binds</clueType> specifically <linkTheme>to</linkTheme> two purine-rich motifs in the HIV-2 enhancer.</clue>
+<comment>NER T29 mod</comment>
+</event>
+<sentence id="S8">Mutagenesis experiments demonstrated that these <term sem="DNA_domain_or_region" id="T32" lex="Elf-1_binding_site"><term sem="Protein_molecule" id="T33" lex="Elf-1">Elf-1</term> binding sites</term> are required for induction of <term sem="Other" id="T34" lex="HIV-2_transcription"><term sem="Virus" id="T35" lex="HIV-2">HIV-2</term> transcription</term> following <term sem="Other" id="T36" lex="T-cell-receptor-mediated_T-cell_activation"><term sem="Protein_family_or_group" id="A8">T-cell-receptor</term>-mediated <term sem="Cell_natural" id="A7">T-cell</term> activation</term>.</sentence>
+<event id="E17">
+<type class="Transcription" />
+<theme idref="T35" />
+<clue>Mutagenesis experiments demonstrated that these Elf-1 binding sites are required for induction of HIV-2 <clueType>transcription</clueType> following T-cell-receptor-mediated T-cell activation.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<clue>Mutagenesis experiments demonstrated that these Elf-1 binding sites are required for <clueType>induction</clueType> <linkTheme>of</linkTheme> HIV-2 transcription following T-cell-receptor-mediated T-cell activation.</clue>
+</event>
+<event id="E19">
+<type class="Physiological_process" />
+<theme idref="A7" />
+<clue>Mutagenesis experiments demonstrated that these Elf-1 binding sites are required for induction of HIV-2 transcription following T-cell-receptor-mediated T-cell <clueType>activation</clueType>.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="A8" />
+<clue>Mutagenesis experiments demonstrated that these Elf-1 binding sites are required for induction of HIV-2 transcription following T-cell-receptor-<clueType>mediated</clueType> T-cell activation.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="E20" />
+<clue>Mutagenesis experiments demonstrated that these Elf-1 binding sites are required for induction of HIV-2 transcription <clueType>following</clueType> T-cell-receptor-mediated T-cell activation.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T32" />
+<clue><clueExperiment>Mutagenesis experiments</clueExperiment> demonstrated that these Elf-1 binding sites are <clueType>required</clueType> <linkTheme>for</linkTheme> induction of HIV-2 transcription following T-cell-receptor-mediated T-cell activation.</clue>
+</event>
+<sentence id="S9">Moreover, <term sem="Protein_molecule" id="T37" lex="Elf-1">Elf-1</term> is the only factor present in activated <term sem="Cell_component" id="T38" lex="T-cell_nuclear_extract"><term sem="Cell_natural" id="A101">T-cell</term> nuclear extracts</term> that binds to these sites in <term sem="Other" id="T39" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assays</term>.</sentence>
+<event id="E23">
+<type class="Binding" />
+<theme idref="T32" />
+<theme idref="T29" />
+<clue>Moreover, Elf-1 is the only factor present in activated T-cell nuclear extracts that <clueType>binds</clueType> <linkTheme>to</linkTheme> <corefTheme>these sites</corefTheme> <clueExperiment>in electrophoretic mobility shift assays</clueExperiment>.</clue>
+<comment>OKAP more THEME</comment>
+</event>
+<event id="E103">
+<type class="Physiological_process" />
+<theme idref="A101" />
+<clue>Moreover, Elf-1 is the only factor present in <clueType>activated</clueType> T-cell nuclear extracts that binds to these sites in electrophoretic mobility shift assays.</clue>
+</event>
+<sentence id="S10">Thus, <term sem="Protein_molecule" id="T40" lex="Elf-1">Elf-1</term> is a <term sem="Protein_family_or_group" id="T41" lex="novel_transcription_factor">novel transcription factor</term> that appears to be required for the <term sem="Other" id="T42" lex="T-cell-receptor-mediated_trans_activation"><term sem="Protein_family_or_group" id="A10">T-cell-receptor</term>-mediated trans activation</term> of <term sem="Other" id="T43" lex="HIV-2_gene_expression"><term sem="DNA_family_or_group" id="A11"><term sem="Virus" id="T44" lex="HIV-2">HIV-2</term> gene</term> expression</term>.</sentence>
+<event id="E24">
+<type class="Gene_expression" />
+<theme idref="A11" />
+<clue>Thus, Elf-1 is a novel transcription factor that appears to be required for the T-cell-receptor-mediated trans activation of HIV-2 gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="A10" />
+<clue>Thus, Elf-1 is a novel transcription factor that appears to be required for the T-cell-receptor-<linkCause>mediated</linkCause> <clueType>trans activation</clueType> <linkTheme>of</linkTheme> HIV-2 gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E26">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="T40" />
+<clue>Thus, Elf-1 is a novel transcription factor that appears to be <clueType>required</clueType> <linkTheme>for</linkTheme> the T-cell-receptor-mediated trans activation of HIV-2 gene expression.</clue>
+</event>
+<sentence id="S11">These results may explain differences in the clinical spectra of <term sem="Other" id="A102">diseases</term> caused by <term sem="Virus" id="T45" lex="HIV-1">HIV-1</term> and <term sem="Virus" id="T46" lex="HIV-2">HIV-2</term> and may also have implications for the design of therapeutic approaches to <term sem="Other" id="T47" lex="HIV-2_infection"><term sem="Virus" id="T48" lex="HIV-2">HIV-2</term> infection</term>.</sentence>
+<event id="E104">
+<type class="Positive_regulation" />
+<theme idref="A102" />
+<cause idref="T45" />
+<clue>These results may explain differences in the clinical spectra of diseases <clueType>caused</clueType> <linkCause>by</linkCause> HIV-1 and HIV-2 and may also have implications for the design of therapeutic approaches to HIV-2 infection.</clue>
+</event>
+<event id="E105">
+<type class="Positive_regulation" />
+<theme idref="A102" />
+<cause idref="T46" />
+<clue>These results may explain differences in the clinical spectra of diseases <clueType>caused</clueType> <linkCause>by</linkCause> HIV-1 and HIV-2 and may also have implications for the design of therapeutic approaches to HIV-2 infection.</clue>
+</event>
+<event id="E106">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T48" />
+<clue>These results may explain differences in the clinical spectra of diseases caused by HIV-1 and HIV-2 and may also have implications for the design of therapeutic approaches to HIV-2 <clueType>infection</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

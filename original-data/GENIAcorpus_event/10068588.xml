@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="28/04/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10068588"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10068588</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Activation of <term sem="Other" id="T1" lex="human_immunodeficiency_virus_type_1_expression"><term sem="Virus" id="T2" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> expression</term> by <term sem="Unicellular_organism" id="T3" lex="Gardnerella_vaginalis">Gardnerella vaginalis</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Activation of human immunodeficiency virus type 1 <clueType>expression</clueType> by Gardnerella vaginalis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<cause idref="T3" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus type 1 expression <linkCause>by</linkCause> Gardnerella vaginalis.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T4" lex="bacterial_vaginosis">Bacterial vaginosis</term> (<term sem="Other" id="T5" lex="BV">BV</term>) is associated with an increased rate of sexual transmission of <term sem="Tissue_natural" id="T6" lex="human_immunodeficiency_virus_(HIV)_type_1">human immunodeficiency virus (HIV) type 1</term>, and <term sem="Unicellular_organism" id="T7" lex="Gardnerella_vaginalis">Gardnerella vaginalis</term> is frequently isolated from the <term sem="Body_region" id="T8" lex="genital_tract">genital tracts</term> of <term sem="Multicellular_organism_natural" id="T9" lex="woman">women</term> with <term sem="Other" id="T10" lex="BV">BV</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E26">
+<type class="Viral_life_cycle" />
+<theme idref="T6" />
+<clue>Bacterial vaginosis (BV) is associated with an increased rate of sexual <clueType>transmission</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus (HIV) type 1, and Gardnerella vaginalis is frequently isolated from the genital tracts of women with BV.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E27">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<clue>Bacterial vaginosis (BV) is associated with an <clueType>increased rate</clueType> <linkTheme>of</linkTheme> sexual transmission of human immunodeficiency virus (HIV) type 1, and Gardnerella vaginalis is frequently isolated from the genital tracts of women with BV.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E28">
+<type class="Correlation" />
+<theme idref="T5" />
+<theme idref="E27" />
+<clue>Bacterial vaginosis (BV) is <clueType>associated</clueType> <linkTheme>with</linkTheme> an increased rate of sexual transmission of human immunodeficiency virus (HIV) type 1, and Gardnerella vaginalis is frequently isolated from the genital tracts of women with BV.</clue>
+</event>
+<sentence id="S3"><term sem="Cell_component" id="T11" lex="G._vaginalis_lysate"><term sem="Unicellular_organism" id="T12" lex="G._vaginalis">G. vaginalis</term> lysates</term> were found to significantly stimulate <term sem="Other" id="T13" lex="HIV_expression"><term sem="Virus" id="T14" lex="HIV">HIV</term> expression</term> in <term sem="Cell_natural" id="T15" lex="monocytoid_cell">monocytoid cells</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>G. vaginalis lysates were found to significantly stimulate HIV <clueType>expression</clueType> in monocytoid cells.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E4">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T11" />
+<clue>G. vaginalis lysates were found to significantly <clueType>stimulate</clueType> HIV expression <clueLoc>in monocytoid cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">Stimulation was significantly higher when <term sem="Cell_component" id="A1">lysates</term> were heated at 100 degrees C for 5 min but was reduced by treatment with <term sem="Protein_family_or_group" id="T16" lex="lysozyme">lysozyme</term> or <term sem="Protein_family_or_group" id="T17" lex="protease">protease</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E5">
+<type class="Artificial_process" />
+<theme idref="A1" />
+<clue>Stimulation was significantly higher when lysates were <clueType>heated</clueType> at 100 degrees C <clueTime>for 5 min</clueTime> but was reduced by treatment with lysozyme or protease.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E5" />
+<clue><corefTheme>Stimulation</corefTheme> was significantly <clueType>higher</clueType> when lysates were heated at 100 degrees C for 5 min but was reduced by treatment with lysozyme or protease.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E7">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="T16" />
+<clue><corefTheme>Stimulation</corefTheme> was significantly higher when lysates were heated at 100 degrees C for 5 min but was <clueType>reduced</clueType> <linkCause>by treatment with</linkCause> lysozyme or protease.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E8">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="T17" />
+<clue><corefTheme>Stimulation</corefTheme> was significantly higher when lysates were heated at 100 degrees C for 5 min but was <clueType>reduced</clueType> <linkCause>by treatment with</linkCause> lysozyme or protease.</clue>
+</event>
+<sentence id="S5"><term sem="Cell_component" id="A2"><term sem="Unicellular_organism" id="T18" lex="G._vaginalis">G. vaginalis</term> lysates</term> also activated <term sem="Other" id="T19" lex="HIV_expression"><term sem="Virus" id="T20" lex="HIV">HIV</term> expression</term> in certain <term sem="Cell_cultured" id="T21" lex="T_cell_line">T cell lines</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E9">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue>G. vaginalis lysates also activated HIV <clueType>expression</clueType> in certain T cell lines.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="A2" />
+<clue>G. vaginalis lysates also <clueType>activated</clueType> HIV expression <clueLoc>in certain T cell lines</clueLoc>.</clue>
+</event>
+<sentence id="S6"><term sem="Cell_component" id="A3"><term sem="Unicellular_organism" id="T22" lex="G._vaginalis">G. vaginalis</term> lysates</term> activated <term sem="Other" id="T23" lex="HIV_long-terminal_repeat_transcriptio"><term sem="DNA_domain_or_region" id="A4"><term sem="Virus" id="T24" lex="HIV">HIV</term> long-terminal repeat</term> transcription</term> in <term sem="Cell_natural" id="T25" lex="HIV-infected_cell"><term sem="Virus" id="T26" lex="HIV">HIV</term>-infected cells</term> and increased <term sem="Other" id="T27" lex="NF-kappaB_binding_activity"><term sem="Protein_complex" id="T28" lex="NF-kappaB">NF-kappaB</term> binding activity</term>, indicating an effect by <term sem="Unicellular_organism" id="T29" lex="G._vaginalis">G. vaginalis</term> on <term sem="Virus" id="T30" lex="HIV">HIV</term> transcription.</sentence>
+<event assertion="exist" uncertainty="certain" id="E11">
+<type class="Transcription" />
+<theme idref="A4" />
+<clue>G. vaginalis lysates activated HIV long-terminal repeat <clueType>transcription</clueType> in HIV-infected cells and increased NF-kappaB binding activity, indicating an effect by G. vaginalis on HIV transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="A3" />
+<clue>G. vaginalis lysates <clueType>activated</clueType> HIV long-terminal repeat transcription <clueLoc>in HIV-infected cells</clueLoc> and increased NF-kappaB binding activity, indicating an effect by G. vaginalis on HIV transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Binding" />
+<theme idref="T28" />
+<clue>G. vaginalis lysates activated HIV long-terminal repeat transcription in HIV-infected cells and increased NF-kappaB <clueType>binding</clueType> activity, indicating an effect by G. vaginalis on HIV transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="A3" />
+<clue>G. vaginalis lysates activated HIV long-terminal repeat transcription in HIV-infected cells and <clueType>increased</clueType> NF-kappaB binding activity, indicating an effect by G. vaginalis on HIV transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E15">
+<type class="Transcription" />
+<theme idref="T30" />
+<clue>G. vaginalis lysates activated HIV long-terminal repeat transcription in HIV-infected cells and increased NF-kappaB binding activity, indicating an effect by G. vaginalis on HIV <clueType>transcription</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E16">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="T29" />
+<clue>G. vaginalis lysates activated HIV long-terminal repeat transcription in HIV-infected cells and increased NF-kappaB binding activity, indicating an <clueType>effect</clueType> <linkCause>by</linkCause> G. vaginalis <linkTheme>on</linkTheme> HIV transcription.</clue>
+</event>
+<sentence id="S7">The activation of <term sem="Virus" id="T31" lex="HIV">HIV</term> production by <term sem="Unicellular_organism" id="T32" lex="G._vaginalis">G. vaginalis</term> suggests that <term sem="Other" id="T33" lex="genital_tract_infection"><term sem="Tissue_natural" id="T44">genital tract</term> infection</term> with <term sem="Unicellular_organism" id="T34" lex="G._vaginalis">G. vaginalis</term> increases the risk of <term sem="Other" id="T35" lex="HIV_transmission"><term sem="Virus" id="T36" lex="HIV">HIV</term> transmission</term> by increasing <term sem="Other" id="T37" lex="HIV_expression"><term sem="Virus" id="T38" lex="HIV">HIV</term> expression</term> in the <term sem="Body_region" id="T39" lex="genital_tract">genital tract</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E17">
+<type class="Gene_expression" />
+<theme idref="T31" />
+<clue>The activation of HIV <clueType>production</clueType> by G. vaginalis suggests that genital tract infection with G. vaginalis increases the risk of HIV transmission by increasing HIV expression in the genital tract.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T32" />
+<clue>The <clueType>activation</clueType> <linkTheme>of</linkTheme> HIV production <linkCause>by</linkCause> G. vaginalis suggests that genital tract infection with G. vaginalis increases the risk of HIV transmission by increasing HIV expression in the genital tract.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E19">
+<type class="UNCLASSIFIED" />
+<theme idref="T34" />
+<clue>The activation of HIV production by G. vaginalis suggests that genital tract <clueType>infection</clueType> <linkTheme>with</linkTheme> G. vaginalis increases the risk of HIV transmission by increasing HIV expression in the genital tract.</clue>
+<comment>SOO</comment></event>
+<event assertion="exist" uncertainty="certain" id="E20">
+<type class="Gene_expression" />
+<theme idref="T38" />
+<clue>The activation of HIV production by G. vaginalis suggests that genital tract infection with G. vaginalis increases the risk of HIV transmission by increasing HIV <clueType>expression</clueType> in the genital tract.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E19" />
+<clue>The activation of HIV production by G. vaginalis suggests that genital tract infection with G. vaginalis increases the risk of HIV transmission by <clueType>increasing</clueType> HIV expression <clueLoc>in the genital tract</clueLoc>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E22">
+<type class="Viral_life_cycle" />
+<theme idref="T36" />
+<clue>The activation of HIV production by G. vaginalis suggests that genital tract infection with G. vaginalis increases the risk of HIV <clueType>transmission</clueType> by increasing HIV expression in the genital tract.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E23">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E21" />
+<clue>The activation of HIV production by G. vaginalis suggests that genital tract infection with G. vaginalis <clueType>increases</clueType> the risk of HIV transmission <linkCause>by</linkCause> increasing HIV expression in the genital tract.</clue>
+</event>
+<sentence id="S8">This may explain, at least in part, the increased rate of <term sem="Other" id="T40" lex="HIV_transmission"><term sem="Virus" id="T41" lex="HIV">HIV</term> transmission</term> in <term sem="Multicellular_organism_natural" id="T42" lex="woman">women</term> with <term sem="Other" id="T43" lex="BV">BV</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E24">
+<type class="Viral_life_cycle" />
+<theme idref="T41" />
+<clue>This may explain, at least in part, the increased rate of HIV <clueType>transmission</clueType> in women with BV.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E25">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<clue>This may explain, at least in part, the <clueType>increased</clueType> rate of HIV transmission <clueLoc>in women with BV</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

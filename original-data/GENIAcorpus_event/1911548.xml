@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/03/2006" creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1911548"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1911548</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A <term sem="Protein_family_or_group" id="T1" lex="nuclear_factor">nuclear factor</term> <term sem="Protein_molecule" id="T2" lex="NF-GM2">NF-GM2</term> that interacts with a <term sem="DNA_domain_or_region" id="A100"><term sem="DNA_domain_or_region" id="T3" lex="regulatory_region">regulatory region</term> of the <term sem="DNA_domain_or_region" id="T4" lex="GM-CSF_gene">GM-CSF gene</term></term> essential for its induction in responses to <term sem="Cell_natural" id="A1">T-cell</term> activation: purification from human <term sem="Cell_cultured" id="T5" lex="T-cell_leukemia_line_Jurkat_cell">T-cell leukemia line <term sem="Cell_cultured" id="T6" lex="Jurkat_cell">Jurkat cells</term></term> and similarity to <term sem="Protein_molecule" id="T7" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T2" />
+<theme idref="A100" />
+<clue>A nuclear factor NF-GM2 that <clueType>interacts</clueType> <linkTheme>with</linkTheme> a regulatory region of the GM-CSF gene essential for its induction in responses to T-cell activation: purification from human T-cell leukemia line Jurkat cells and similarity to NF-kappa B.</clue>
+<comment>TPS: A100</comment></event>
+<event id="E2">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<clue>A nuclear factor NF-GM2 that interacts with a regulatory region of the GM-CSF gene essential for its induction in responses to T-cell <clueType>activation</clueType>: purification from human T-cell leukemia line Jurkat cells and similarity to NF-kappa B.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>A nuclear factor NF-GM2 that interacts with a regulatory region of the GM-CSF gene essential for <corefTheme>its</corefTheme> <clueType>induction</clueType> in responses to T-cell activation: purification from human T-cell leukemia line Jurkat cells and similarity to NF-kappa B.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="E2" />
+<clue>A nuclear factor NF-GM2 that interacts with a regulatory region of the GM-CSF gene essential for its induction <linkTheme>in</linkTheme> <clueType>responses</clueType> <linkCause>to</linkCause> T-cell activation: purification from human T-cell leukemia line Jurkat cells and similarity to NF-kappa B.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E1" />
+<clue>A nuclear factor NF-GM2 that interacts with a regulatory region of the GM-CSF gene <clueType>essential</clueType> <linkTheme>for</linkTheme> its induction in responses to T-cell activation: purification from human T-cell leukemia line Jurkat cells and similarity to NF-kappa B.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Activation of <term sem="Cell_natural" id="T8" lex="T_cell">T cells</term> by <term sem="Other" id="A12">antigen</term>, <term sem="Protein_family_or_group" id="T9" lex="lectin">lectin</term>, or a combination of <term sem="Organic_compound_other" id="T10" lex="phorbol-12-myristate_acetate">phorbol-12-myristate acetate</term> (<term sem="Organic_compound_other" id="T11" lex="PMA">PMA</term>) and <term sem="Organic_compound_other" id="T12" lex="calcium_ionophore">calcium ionophore</term> (<term sem="Organic_compound_other" id="T13" lex="A23187">A23187</term>) leads to the induction of <term sem="DNA_family_or_group" id="A2">genes for a set of <term sem="Protein_family_or_group" id="T14" lex="lymphokine">lymphokines</term></term>, including <term sem="Protein_molecule" id="T15" lex="granulocyte-macrophage_colony-stimulating_factor">granulocyte-macrophage colony-stimulating factor</term> (<term sem="Protein_molecule" id="T16" lex="GM-CSF">GM-CSF</term>).</sentence>
+<event id="E31">
+<type class="Physiological_process" />
+<theme idref="T8" />
+<cause idref="A12" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> T cells <linkCause>by</linkCause> antigen, lectin, or a combination of phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) leads to the induction of genes for a set of lymphokines, including granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<event id="E6">
+<type class="Physiological_process" />
+<theme idref="T8" />
+<cause idref="T9" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> T cells <linkCause>by</linkCause> antigen, lectin, or a combination of phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) leads to the induction of genes for a set of lymphokines, including granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<event id="E7">
+<type class="Physiological_process" />
+<theme idref="T8" />
+<cause idref="T11" />
+<cause idref="T13" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> T cells <linkCause>by</linkCause> antigen, lectin, or a combination of phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) leads to the induction of genes for a set of lymphokines, including granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>Activation of T cells by antigen, lectin, or a combination of phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) leads to the <clueType>induction</clueType> <linkTheme>of</linkTheme> <corefTheme>genes for a set of lymphokines</corefTheme>, <linkTheme>including</linkTheme> granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<event id="E35">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>Activation of T cells by antigen, lectin, or a combination of phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) leads to the <clueType>induction</clueType> <linkTheme>of</linkTheme> genes for a set of lymphokines, including granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+<comment>TPS: A2</comment></event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E31" />
+<clue>Activation of T cells by antigen, lectin, or a combination of phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) <clueType>leads</clueType> <linkTheme>to</linkTheme> the induction of genes for a set of lymphokines, including granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E6" />
+<clue>Activation of T cells by antigen, lectin, or a combination of phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) <clueType>leads</clueType> <linkTheme>to</linkTheme> the induction of genes for a set of lymphokines, including granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E7" />
+<clue>Activation of T cells by antigen, lectin, or a combination of phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) <clueType>leads</clueType> <linkTheme>to</linkTheme> the induction of genes for a set of lymphokines, including granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<event id="E100">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="E31" />
+<clue>Activation of T cells by antigen, lectin, or a combination of phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) <clueType>leads</clueType> <linkTheme>to</linkTheme> the induction of genes for a set of lymphokines, including granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<event id="E101">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="E6" />
+<clue>Activation of T cells by antigen, lectin, or a combination of phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) <clueType>leads</clueType> <linkTheme>to</linkTheme> the induction of genes for a set of lymphokines, including granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<event id="E102">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="E7" />
+<clue>Activation of T cells by antigen, lectin, or a combination of phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) <clueType>leads</clueType> <linkTheme>to</linkTheme> the induction of genes for a set of lymphokines, including granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<sentence id="S3">We demonstrated in earlier studies that the <term sem="DNA_domain_or_region" id="A101"><term sem="DNA_domain_or_region" id="T17" lex="upstream_region">upstream region</term> of the <term sem="DNA_domain_or_region" id="T18" lex="mouse_GM-CSF_promoter">mouse <term sem="Protein_molecule" id="T19" lex="GM-CSF">GM-CSF</term> promoter</term> at positions between <term sem="DNA_domain_or_region" id="T20" lex="-95_and_-73">-95 and -73</term></term> is essential for <term sem="Other" id="T21" lex="transcriptional_activation">transcriptional activation</term> in response to <term sem="Organic_compound_other" id="T22" lex="PMA/A23187"><term sem="Organic_compound_other" id="A4">PMA</term>/<term sem="Organic_compound_other" id="A5">A23187</term></term>.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T19" />
+<cause idref="A4" />
+<cause idref="A5" />
+<clue>We demonstrated in earlier studies that the upstream region of the mouse GM-CSF promoter at positions between -95 and -73 is essential for <clueType>transcriptional activation</clueType> <linkCause>in response to</linkCause> PMA/A23187.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="A101" />
+<clue>We demonstrated in earlier studies that the upstream region of the mouse GM-CSF promoter at positions between -95 and -73 is <clueType>essential</clueType> <linkTheme>for</linkTheme> transcriptional activation in response to PMA/A23187.</clue>
+<comment>TPS: A101</comment></event>
+<sentence id="S4">This region contains two <term sem="DNA_domain_or_region" id="T23" lex="DNA-binding_motif">DNA-binding motifs</term>, <term sem="DNA_domain_or_region" id="T24" lex="GM2">GM2</term> and <term sem="DNA_domain_or_region" id="T25" lex="GC-box">GC-box</term>.</sentence>
+<sentence id="S5">The <term sem="DNA_domain_or_region" id="T26" lex="GM2_sequence">GM2 sequence</term> (<term sem="Polynucleotide" id="T27" lex="GGTAGTTCCC">GGTAGTTCCC</term>) is recognized by an <term sem="Protein_molecule" id="T28" lex="inducible_factor_NF-GM2">inducible factor <term sem="Protein_molecule" id="A6">NF-GM2</term></term>; the other (<term sem="Polynucleotide" id="T29" lex="CCGCCC">CCGCCC</term>) by <term sem="Protein_family_or_group" id="T30" lex="constitutive_factor">constitutive factors</term> <term sem="Protein_molecule" id="T31" lex="A1">A1</term>, <term sem="Protein_molecule" id="T32" lex="A2">A2</term>, and <term sem="Protein_molecule" id="T33" lex="B">B</term>.</sentence>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="A6" />
+<clue>The GM2 sequence (GGTAGTTCCC) is <clueType>recognized</clueType> <linkTheme>by</linkTheme> an inducible factor NF-GM2; the other (CCGCCC) by constitutive factors A1, A2, and B.</clue>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref1="T31" idref="T30" />
+<clue>The GM2 sequence (GGTAGTTCCC) is <clueType>recognized</clueType> by an inducible factor NF-GM2; <corefTheme>the other</corefTheme> (CCGCCC) <linkTheme>by</linkTheme> constitutive factors A1, A2, and B.</clue>
+</event>
+<event id="E15">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref1="T32" idref="T30" />
+<clue>The GM2 sequence (GGTAGTTCCC) is <clueType>recognized</clueType> by an inducible factor NF-GM2; <corefTheme>the other</corefTheme> (CCGCCC) <linkTheme>by</linkTheme> constitutive factors A1, A2, and B.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref1="T33" idref="T30" />
+<clue>The GM2 sequence (GGTAGTTCCC) is <clueType>recognized</clueType> by an inducible factor NF-GM2; <corefTheme>the other</corefTheme> (CCGCCC) <linkTheme>by</linkTheme> constitutive factors A1, A2, and B.</clue>
+</event>
+<sentence id="S6">To elucidate the mechanism of <term sem="Other" id="T34" lex="GM-CSF_gene_activation"><term sem="DNA_domain_or_region" id="A102"><term sem="Protein_molecule" id="T35" lex="GM-CSF">GM-CSF</term> gene</term> activation</term>, we have purified the <term sem="Protein_molecule" id="T36" lex="inducible_factor_NF-GM2">inducible factor NF-GM2</term> from the nuclear extract of stimulated <term sem="Cell_cultured" id="T37" lex="Jurkat_cell">Jurkat cells</term> on the basis of <term sem="Other" id="T38" lex="specific_DNA-binding_activity">specific DNA-binding activity</term>.</sentence>
+<event id="E103">
+<type class="Positive_regulation" />
+<theme idref="A102" />
+<clue>To elucidate the mechanism of GM-CSF gene <clueType>activation</clueType>, we have purified the inducible factor NF-GM2 from the nuclear extract of stimulated Jurkat cells on the basis of specific DNA-binding activity.</clue>
+</event>
+<sentence id="S7">The purified <term sem="Protein_molecule" id="T39" lex="NF-GM2">NF-GM2</term> consists of 50 (<term sem="Protein_molecule" id="T40" lex="p50">p50</term>) and 65 kDa (<term sem="Protein_molecule" id="T41" lex="p65">p65</term>) polypeptides and has a binding activity specific for both the <term sem="Protein_molecule" id="T42" lex="GM-CSF">GM-CSF</term> and <term sem="DNA_domain_or_region" id="T43" lex="immunoglobulin_kappa_(GGAAAGTCCC)_enhancers">immunoglobulin kappa (<term sem="Polynucleotide" id="T44" lex="GGAAAGTCCC">GGAAAGTCCC</term>) <term sem="DNA_domain_or_region" id="A9">enhancers</term></term>.</sentence>
+<event id="E17">
+<type class="Binding" />
+<theme idref="T39" />
+<theme idref1="A9" idref="T42" />
+<clue>The purified NF-GM2 consists of 50 (p50) and 65 kDa (p65) polypeptides and <clueType>has</clueType> a <clueType>binding activity</clueType> specific <linkTheme>for</linkTheme> both the GM-CSF and immunoglobulin kappa (GGAAAGTCCC) enhancers.</clue>
+</event>
+<event id="E18">
+<type class="Binding" />
+<theme idref="T39" />
+<theme idref="T43" />
+<clue>The purified NF-GM2 consists of 50 (p50) and 65 kDa (p65) polypeptides and <clueType>has</clueType> a <clueType>binding activity</clueType> specific <linkTheme>for</linkTheme> both the GM-CSF and immunoglobulin kappa (GGAAAGTCCC) enhancers.</clue>
+</event>
+<sentence id="S8">Electrophoretically purified <term sem="Protein_molecule" id="T45" lex="p50">p50</term> alone can form a <term sem="Protein_complex" id="T46" lex="protein-DNA_complex">protein-<term sem="DNA_domain_or_region" id="A7">DNA</term> complex</term>, but in the mixture, <term sem="Protein_molecule" id="T47" lex="p50">p50</term> associates preferentially with <term sem="Protein_molecule" id="T48" lex="p65">p65</term> to form the <term sem="Protein_complex" id="T49" lex="NF-GM2_complex">NF-GM2 complex</term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T45" />
+<theme idref="A7" />
+<clue>Electrophoretically purified p50 alone can <clueType>form</clueType> a <corefTheme>protein</corefTheme>-DNA <clueType>complex</clueType>, but in the mixture, p50 associates preferentially with p65 to form the NF-GM2 complex.</clue>
+</event>
+<event id="E20">
+<type class="Binding" />
+<theme idref="T47" />
+<theme idref="T48" />
+<clue>Electrophoretically purified p50 alone can form a protein-DNA complex, but in the mixture, p50 <clueType>associates</clueType> preferentially <linkTheme>with</linkTheme> p65 to form the NF-GM2 complex.</clue>
+</event>
+<sentence id="S9">In addition, <term sem="Protein_molecule" id="T50" lex="p65">p65</term> gave per se, with low affinity, a <term sem="Protein_complex" id="T51" lex="protein-DNA_complex">protein-<term sem="DNA_domain_or_region" id="A8">DNA</term> complex</term> that migrated more slowly than native <term sem="Protein_complex" id="T52" lex="NF-GM2_complex">NF-GM2 complex</term>.</sentence>
+<event id="E21">
+<type class="Binding" />
+<theme idref="T50" />
+<theme idref="A8" />
+<clue>In addition, p65 <clueType>gave</clueType> per se, with low affinity, a <corefTheme>protein</corefTheme>-DNA <clueType>complex</clueType> that migrated more slowly than native NF-GM2 complex.</clue>
+</event>
+<sentence id="S10">Furthermore, an <term sem="Protein_molecule" id="A13">antiserum against <term sem="Protein_molecule" id="T53" lex="KBF1">KBF1</term></term> (identical to <term sem="Protein_molecule" id="T54" lex="50_kDa_NF-kappa_B_protein">50 kDa NF-kappa B protein</term>) reacted with the <term sem="Protein_molecule" id="T55" lex="p50">p50</term> of <term sem="Protein_molecule" id="T56" lex="NF-GM2">NF-GM2</term>, indicating that the <term sem="Protein_molecule" id="T57" lex="NF-GM2_polypeptide">NF-GM2 polypeptide</term> cannot be immunologically differentiated from the <term sem="Protein_molecule" id="T58" lex="50_kDa_subunit">50 kDa subunit</term> of <term sem="Protein_molecule" id="T59" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E23">
+<type class="Binding" />
+<theme idref="A13" />
+<theme idref1="T56" idref="T57" />
+<clue>Furthermore, an antiserum against KBF1 (identical to 50 kDa NF-kappa B protein) <clueType>reacted</clueType> <linkTheme>with</linkTheme> the p50 of NF-GM2, indicating that the NF-GM2 polypeptide cannot be immunologically differentiated from the 50 kDa subunit of NF-kappa B.</clue>
+<comment>TPS: A13</comment></event>
+<sentence id="S11">The purified <term sem="Protein_molecule" id="T60" lex="NF-GM2">NF-GM2</term> activated in <term sem="Other" id="T61" lex="vitro_transcription">vitro transcription</term> from the <term sem="DNA_domain_or_region" id="T62" lex="kappa_B_enhancer">kappa B enhancer</term>, while it failed to stimulate transcription from the <term sem="DNA_domain_or_region" id="T63" lex="GM-CSF_promoter">GM-CSF promoter</term> harboring the <term sem="DNA_substructure" id="T64" lex="GM2_sequence">GM2 sequence</term>.</sentence>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="T60" />
+<clue>The purified NF-GM2 <clueType>activated</clueType> in vitro transcription from the kappa B enhancer, while it failed to stimulate transcription from the GM-CSF promoter harboring the GM2 sequence.</clue>
+</event>
+<event id="E33">
+<type class="Transcription" />
+<theme idref="T62" />
+<clue>The purified NF-GM2 activated in vitro <clueType>transcription</clueType> <linkCause>from</linkCause> the kappa B enhancer, while it failed to stimulate transcription from the GM-CSF promoter harboring the GM2 sequence.</clue>
+</event>
+<event id="E34">
+<type class="Transcription" />
+<theme idref="T63" />
+<clue>The purified NF-GM2 activated in vitro transcription from the kappa B enhancer, while it failed to stimulate <clueType>transcription</clueType> <linkCause>from</linkCause> the GM-CSF promoter harboring the GM2 sequence.</clue>
+</event>
+<event assertion="non-exist" id="E26">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="T60" />
+<clue>The purified NF-GM2 activated in vitro transcription from the kappa B enhancer, while <corefCause>it</corefCause> failed to <clueType>stimulate</clueType> transcription from the GM-CSF promoter harboring the GM2 sequence.</clue>
+</event>
+<sentence id="S12">This suggests that the activation mechanism of the <term sem="DNA_domain_or_region" id="T65" lex="GM-CSF_gene"><term sem="Protein_molecule" id="T66" lex="GM-CSF">GM-CSF</term> gene</term> through the <term sem="DNA_domain_or_region" id="T67" lex="GM2/GC-box_sequence">GM2/GC-box sequence</term> is different from that of <term sem="DNA_family_or_group" id="A11">genes carrying the <term sem="DNA_domain_or_region" id="T68" lex="kappa_B_enhancer">kappa B enhancer</term></term> alone.</sentence>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T66" />
+<clue>This suggests that the <clueType>activation</clueType> mechanism <linkTheme>of</linkTheme> the GM-CSF gene through the GM2/GC-box sequence is different from that of genes carrying the kappa B enhancer alone.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="T67" />
+<clue>This suggests that the activation mechanism of the GM-CSF gene <linkCause>through</linkCause> the GM2/GC-box sequence is different from that of genes carrying the kappa B enhancer alone.</clue>
+<comment>No clueType</comment></event>
+<event id="E29">
+<type class="Gene_expression" />
+<theme idref="A11" />
+<clue>This suggests that the <clueType>activation</clueType> mechanism of the GM-CSF gene through the GM2/GC-box sequence is different from that <linkTheme>of</linkTheme> genes carrying the kappa B enhancer alone.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

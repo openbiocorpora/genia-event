@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="18/04/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7516328">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7516328</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Tolerance to <term sem="Lipid" id="T1" lex="lipopolysaccharide">lipopolysaccharide</term> involves mobilization of <term sem="Protein_molecule" id="T2" lex="nuclear_factor_kappa_B">nuclear factor kappa B</term> with predominance of <term sem="Protein_molecule" id="T3" lex="p50">p50</term> homodimers.</sentence>
+<event id="E2">
+<type class="Localization" />
+<theme idref="T2" />
+<clue>Tolerance to lipopolysaccharide involves <clueType>mobilization</clueType> <linkTheme>of</linkTheme> nuclear factor kappa B with predominance of p50 homodimers.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Stimulation of the <term sem="Cell_cultured" id="T4" lex="human_monocytic_cell_line">human monocytic cell line</term> <term sem="Cell_cultured" id="T5" lex="Mono_Mac_6">Mono Mac 6</term> with <term sem="Lipid" id="T6" lex="lipopolysaccharide">lipopolysaccharide</term> (<term sem="Lipid" id="T7" lex="LPS">LPS</term>) leads to rapid and transient expression of <term sem="Protein_family_or_group" id="T8" lex="cytokine">cytokines</term> like <term sem="Protein_family_or_group" id="T9" lex="tumor_necrosis_factor">tumor necrosis factor</term> (<term sem="Protein_family_or_group" id="T10" lex="TNF">TNF</term>).</sentence>
+<event id="E4">
+<type class="Physiological_process" />
+<theme idref="T5" />
+<cause idref="T7" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> the human monocytic cell line Mono Mac 6 <linkCause>with</linkCause> lipopolysaccharide (LPS) leads to rapid and transient expression of cytokines like tumor necrosis factor (TNF).</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="E4" />
+<clue>Stimulation of the human monocytic cell line Mono Mac 6 with lipopolysaccharide (LPS) <clueType>leads</clueType> <linkTheme>to</linkTheme> rapid and transient expression of cytokines like tumor necrosis factor (TNF).</clue>
+</event>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>Stimulation of the human monocytic cell line Mono Mac 6 with lipopolysaccharide (LPS) leads to rapid and transient <clueType>expression</clueType> <linkTheme>of</linkTheme> cytokines like tumor necrosis factor (TNF).</clue>
+</event>
+<sentence id="S3">When such cells are precultured for 2 days with a low dose of <term sem="Lipid" id="T11" lex="LPS">LPS</term> (20 ng/ml) followed by stimulation with a high dose of <term sem="Lipid" id="T12" lex="LPS">LPS</term> (1 microgram/ml), expression of the <term sem="DNA_domain_or_region" id="T13" lex="TNF_gene"><term sem="Protein_family_or_group" id="T14" lex="TNF">TNF</term> gene</term> is minimal, i.e. the cells are tolerant.</sentence>
+<event id="E7">
+<type class="Artificial_process" />
+<theme idref="T5" />
+<theme idref="T11" />
+<clue>When <corefTheme>such cells</corefTheme> are <clueType>precultured</clueType> <clueTime>for 2 days</clueTime> <linkTheme>with</linkTheme> a low dose of LPS (20 ng/ml) followed by stimulation with a high dose of LPS (1 microgram/ml), expression of the TNF gene is minimal, i.e. the cells are tolerant.</clue>
+</event>
+<event id="E8">
+<type class="Physiological_process" />
+<theme idref="T5" />
+<cause idref="T12" />
+<clue>When <corefTheme>such cells</corefTheme> are precultured for 2 days with a low dose of LPS (20 ng/ml) followed by <clueType>stimulation</clueType> <linkCause>with</linkCause> a high dose of LPS (1 microgram/ml), expression of the TNF gene is minimal, i.e. the cells are tolerant.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>When such cells are precultured for 2 days with a low dose of LPS (20 ng/ml) followed by stimulation with a high dose of LPS (1 microgram/ml), <clueType>expression</clueType> <linkTheme>of</linkTheme> the TNF gene is minimal, i.e. the cells are tolerant.</clue>
+</event>
+<event assertion="non-exist" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E7" />
+<cause idref="E8" />
+<clue>When such cells are precultured for 2 days with a low dose of LPS (20 ng/ml) followed by stimulation with a high dose of LPS (1 microgram/ml), expression of the TNF gene is <clueType>minimal</clueType>, i.e. the cells are tolerant.</clue>
+</event>
+<sentence id="S4">In <term sem="Other" id="T15" lex="nuclear_run-on_analysis">nuclear run-on analysis</term>, such <term sem="Cell_natural" id="T16" lex="tolerant_cell">tolerant cells</term> show only a low degree of <term sem="Other" id="A1">transcription</term>, indicating that <term sem="Other" id="A2">tolerance</term> operates at or upstream of the <term sem="Other" id="T17" lex="transcription_level">transcription level</term>.</sentence>
+<event assertion="non-exist" id="E11">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<clue><clueExperiment>In nuclear run-on analysis</clueExperiment>, such <clueLoc>tolerant cells</clueLoc> show only a <clueType>low degree</clueType> <linkTheme>of</linkTheme> transcription, indicating that tolerance operates at or upstream of the transcription level.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="A2" />
+<clue>In nuclear run-on analysis, such tolerant cells show only a low degree of transcription, indicating that tolerance <clueType>operates</clueType> at or upstream of the transcription level.</clue>
+</event>
+<sentence id="S5">The <term sem="Protein_molecule" id="T18" lex="CD14">CD14</term> <term sem="Lipid" id="T19" lex="LPS">LPS</term> receptor is, however, up-regulated (not down-regulated) in <term sem="Cell_cultured" id="T20" lex="tolerant_cell">tolerant cells</term>, and <term sem="Lipid" id="T21" lex="LPS">LPS</term> can, in fact, still lead to activation of <term sem="Cell_cultured" id="T22" lex="tolerant_cell">tolerant cells</term> as evidenced by mobilization of the <term sem="Protein_family_or_group" id="T23" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T24" lex="nuclear_factor_kappa_B">nuclear factor kappa B</term> (<term sem="Protein_molecule" id="T25" lex="NF-kappa_B">NF-kappa B</term>).</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T18" />
+<clue>The CD14 LPS receptor is, however, <clueType>up-regulated</clueType> (not down-regulated) <clueLoc>in tolerant cells</clueLoc>, and LPS can, in fact, still lead to activation of tolerant cells as evidenced by mobilization of the transcription factor nuclear factor kappa B (NF-kappa B).</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="T21" />
+<clue>The CD14 LPS receptor is, however, up-regulated (not down-regulated) in tolerant cells, and LPS can, in fact, still <clueType>lead</clueType> <linkTheme>to</linkTheme> activation of tolerant cells as evidenced by mobilization of the transcription factor nuclear factor kappa B (NF-kappa B).</clue>
+</event>
+<event id="E15">
+<type class="Physiological_process" />
+<theme idref="T22" />
+<clue>The CD14 LPS receptor is, however, up-regulated (not down-regulated) in tolerant cells, and LPS can, in fact, still lead to <clueType>activation</clueType> <linkTheme>of</linkTheme> tolerant cells as evidenced by mobilization of the transcription factor nuclear factor kappa B (NF-kappa B).</clue>
+</event>
+<event id="E16">
+<type class="Localization" />
+<theme idref="T25" />
+<clue>The CD14 LPS receptor is, however, up-regulated (not down-regulated) in tolerant cells, and LPS can, in fact, still lead to activation of tolerant cells as evidenced by <clueType>mobilization</clueType> <linkTheme>of</linkTheme> the transcription factor nuclear factor kappa B (NF-kappa B).</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T21" />
+<clue>The CD14 LPS receptor is, however, up-regulated (not down-regulated) in tolerant cells, and LPS can, in fact, still <clueType>lead</clueType> <linkTheme>to</linkTheme> activation of tolerant cells as evidenced by mobilization of the transcription factor nuclear factor kappa B (NF-kappa B).</clue>
+</event>
+<sentence id="S6">Resolution of the <term sem="Protein_complex" id="T26" lex="NF-kappa_B_complex"><term sem="Protein_molecule" id="T27" lex="NF-kappa_B">NF-kappa B</term> complex</term> in gel shift analysis shows that the <term sem="Protein_family_or_group" id="T28" lex="binding_protein">binding protein</term>, mobilized in <term sem="Cell_cultured" id="T29" lex="naive_Mono_Mac_6_cell">naive Mono Mac 6 cells</term>, consists mainly of <term sem="Protein_complex" id="T30" lex="p50-_p65_heterodimer"><term sem="Protein_molecule" id="T31" lex="p50">p50</term><term sem="Protein_molecule" id="T32" lex="p65">-p65</term> heterodimers</term>, while in <term sem="Cell_cultured" id="T33" lex="tolerant_cell">tolerant cells</term>, the <term sem="Protein_complex" id="T34" lex="p50_homodimer"><term sem="Protein_molecule" id="T35" lex="p50">p50</term> homodimer</term> is predominant.</sentence>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="T26" />
+<clue><clueType>Resolution</clueType> <linkTheme>of</linkTheme> the NF-kappa B complex <clueExperiment>in gel shift analysis</clueExperiment> shows that the binding protein, mobilized in naive Mono Mac 6 cells, consists mainly of p50-p65 heterodimers, while in tolerant cells, the p50 homodimer is predominant.</clue>
+</event>
+<event id="E19">
+<type class="Localization" />
+<theme idref="T30" />
+<clue>Resolution of the NF-kappa B complex in gel shift analysis shows that the binding protein, <clueType>mobilized</clueType> <clueLoc>in naive Mono Mac 6 cells</clueLoc>, consists mainly of p50-p65 heterodimers, while in tolerant cells, the p50 homodimer is predominant.</clue>
+</event>
+<event id="E20">
+<type class="Localization" />
+<theme idref="T34" />
+<clue>Resolution of the NF-kappa B complex in gel shift analysis shows that the binding protein, <clueType>mobilized</clueType> in naive Mono Mac 6 cells, consists mainly of p50-p65 heterodimers, while <clueLoc>in tolerant cells</clueLoc>, the p50 homodimer is predominant.</clue>
+</event>
+<sentence id="S7">This increase in <term sem="Protein_complex" id="T36" lex="p50_homodimer"><term sem="Protein_molecule" id="T37" lex="p50">p50</term> homodimers</term> coincides with an increase in <term sem="RNA_molecule" id="T38" lex="p105_mRNA">p105 mRNA</term>, suggestive of a transcriptional up-regulation of <term sem="Protein_molecule" id="T39" lex="p50">p50</term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T36" />
+<clue>This <clueType>increase</clueType> <linkTheme>in</linkTheme> p50 homodimers coincides with an increase in p105 mRNA, suggestive of a transcriptional up-regulation of p50.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<clue>This increase in p50 homodimers coincides with an <clueType>increase</clueType> <linkTheme>in</linkTheme> p105 mRNA, suggestive of a transcriptional up-regulation of p50.</clue>
+</event>
+<event id="E24">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E23" />
+<clue>This increase in p50 homodimers <clueType>coincides</clueType> <linkTheme>with</linkTheme> an increase in p105 mRNA, suggestive of a transcriptional up-regulation of p50.</clue>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<clue>This increase in p50 homodimers coincides with an increase in p105 mRNA, suggestive of a <clueType>transcriptional up-regulation</clueType> <linkTheme>of</linkTheme> p50.</clue>
+</event>
+<sentence id="S8">Reporter gene analysis reveals that the <term sem="Protein_complex" id="T40" lex="NF-kappa_B_complex"><term sem="Protein_molecule" id="T41" lex="NF-kappa_B">NF-kappa B</term> complex</term> mobilized in <term sem="Cell_cultured" id="T42" lex="tolerant_cell">tolerant cells</term> is functionally inactive in that <term sem="DNA_molecule" id="T43" lex="NF-kappa_B-dependent_luciferase_construct"><term sem="Protein_molecule" id="T44" lex="NF-kappa_B">NF-kappa B</term>-dependent luciferase constructs</term> containing the <term sem="DNA_domain_or_region" id="T45" lex="human_immunodeficiency_virus_long_terminal_repeat">human immunodeficiency virus long terminal repeat</term> or the <term sem="DNA_domain_or_region" id="T46" lex="TNF_5&apos;-region"><term sem="Protein_family_or_group" id="T47" lex="TNF">TNF</term> 5'-region</term> show only minimal transactivation after <term sem="Lipid" id="T48" lex="LPS">LPS</term> stimulation.</sentence>
+<event id="E26">
+<type class="Localization" />
+<theme idref="T40" />
+<clue><clueExperiment>Reporter gene analysis</clueExperiment> reveals that the NF-kappa B complex <clueType>mobilized</clueType> <clueLoc>in tolerant cells</clueLoc> is functionally inactive in that NF-kappa B-dependent luciferase constructs containing the human immunodeficiency virus long terminal repeat or the TNF 5'-region show only minimal transactivation after LPS stimulation.</clue>
+</event>
+<event id="E27">
+<type class="Physiological_process" />
+<theme idref="T42" />
+<cause idref="T48" />
+<clue>Reporter gene analysis reveals that the NF-kappa B complex mobilized in tolerant cells is functionally inactive in that NF-kappa B-dependent luciferase constructs containing the human immunodeficiency virus long terminal repeat or the TNF 5'-region show only minimal transactivation after LPS <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T43" />
+<clue>Reporter gene analysis reveals that the NF-kappa B complex mobilized in tolerant cells is functionally inactive in that NF-kappa B-dependent luciferase constructs containing the human immunodeficiency virus long terminal repeat or the TNF 5'-region show only minimal <clueType>transactivation</clueType> after LPS stimulation.</clue>
+</event>
+<event assertion="non-exist" id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E27" />
+<clue>Reporter gene analysis reveals that the NF-kappa B complex mobilized in tolerant cells is functionally inactive in that NF-kappa B-dependent luciferase constructs containing the human immunodeficiency virus long terminal repeat or the TNF 5'-region show only <clueType>minimal</clueType> transactivation <linkCause>after</linkCause> LPS stimulation.</clue>
+</event>
+<sentence id="S9">Similar to <term sem="Cell_cultured" id="T49" lex="Mono_Mac_6_cell">Mono Mac 6 cells</term>, <term sem="Cell_natural" id="T50" lex="primary_blood_monocyte">primary blood monocytes</term>, when precultured with a low dose of <term sem="Lipid" id="T51" lex="LPS">LPS</term>, also become tolerant and produce little <term sem="Protein_family_or_group" id="T52" lex="TNF">TNF</term> after <term sem="Other" id="T53" lex="LPS_stimulation"><term sem="Lipid" id="T54" lex="LPS">LPS</term> stimulation</term>.</sentence>
+<event id="E30">
+<type class="Artificial_process" />
+<theme idref="T50" />
+<theme idref="T51" />
+<clue>Similar to Mono Mac 6 cells, primary blood monocytes, when <clueType>precultured</clueType> <linkTheme>with</linkTheme> a low dose of LPS, also become tolerant and produce little TNF after LPS stimulation.</clue>
+</event>
+<event id="E31">
+<type class="Physiological_process" />
+<theme idref="T50" />
+<cause idref="T54" />
+<clue>Similar to Mono Mac 6 cells, primary blood monocytes, when precultured with a low dose of LPS, also become tolerant and produce little TNF after LPS <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="T50" />
+<cause idref="E31" />
+<clue>Similar to Mono Mac 6 cells, primary blood monocytes, when precultured with a low dose of LPS, also <clueType>become tolerant</clueType> and produce little TNF <linkCause>after</linkCause> LPS stimulation.</clue>
+</event>
+<event id="E33">
+<type class="Gene_expression" />
+<theme idref="T52" />
+<clue>Similar to Mono Mac 6 cells, primary blood monocytes, when precultured with a low dose of LPS, also become tolerant and <clueType>produce</clueType> little TNF after LPS stimulation.</clue>
+</event>
+<event assertion="non-exist" id="E1">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="E31" />
+<clue>Similar to Mono Mac 6 cells, primary blood monocytes, when precultured with a low dose of LPS, also become tolerant and produce <clueType>little</clueType> TNF <linkCause>after</linkCause> LPS stimulation.</clue>
+</event>
+<sentence id="S10">The <term sem="Cell_natural" id="T55" lex="tolerant_blood_monocyte">tolerant blood monocytes</term> also up-regulate <term sem="Protein_molecule" id="T56" lex="CD14">CD14</term>, and they mobilize <term sem="Protein_molecule" id="T57" lex="NF-kappa_B">NF-kappa B</term> with a predominance of <term sem="Protein_complex" id="T58" lex="p50_homodimer"><term sem="Protein_molecule" id="T59" lex="p50">p50</term> homodimers</term>.</sentence>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="T56" />
+<cause idref="E31" />
+<clue><clueLoc>The tolerant blood monocytes</clueLoc> also <clueType>up-regulate</clueType> CD14, and they mobilize NF-kappa B with a predominance of p50 homodimers.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<event id="E35">
+<type class="Localization" />
+<theme idref="T57" />
+<clue><clueLoc>The tolerant blood monocytes</clueLoc> also up-regulate CD14, and they <clueType>mobilize</clueType> NF-kappa B with a predominance of p50 homodimers.</clue>
+</event>
+<sentence id="S11">Taken together, these results demonstrate that <term sem="Other" id="A3">tolerance to <term sem="Lipid" id="T60" lex="LPS">LPS</term></term> is determined by <term sem="Other" id="T61" lex="post-receptor_mechanism">post-receptor mechanisms</term> that involve an altered composition of the <term sem="Protein_complex" id="T62" lex="NF-kappa_B_complex"><term sem="Protein_molecule" id="T63" lex="NF-kappa_B">NF-kappa B</term> complex</term>.</sentence>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="T62" />
+<clue>Taken together, these results demonstrate that tolerance to LPS is determined by post-receptor mechanisms that involve an <clueType>altered composition</clueType> <linkTheme>of</linkTheme> the NF-kappa B complex.</clue>
+</event>
+<event id="E38">
+<type class="Regulation" />
+<theme idref="A3" />
+<cause idref="E37" />
+<clue>Taken together, these results demonstrate that tolerance to LPS is <clueType>determined</clueType> <linkCause>by</linkCause> <corefCause>post-receptor mechanisms</corefCause> that involve an altered composition of the NF-kappa B complex.</clue>
+<comment>TPS: A3</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

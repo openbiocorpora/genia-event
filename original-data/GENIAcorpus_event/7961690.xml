@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="12/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7961690" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7961690</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="erythropoietin-dependent_induction"><term sem="Protein_molecule" id="T2" lex="erythropoietin">Erythropoietin</term>-dependent induction</term> of <term sem="Other" id="T3" lex="hemoglobin_synthesis"><term sem="Protein_complex" id="T4" lex="hemoglobin">hemoglobin</term> synthesis</term> in a <term sem="Cell_cultured" id="T5" lex="cytokine-dependent_cell_line"><term sem="Protein_family_or_group" id="T6" lex="cytokine">cytokine</term>-dependent cell line</term> <term sem="Cell_cultured" id="T7" lex="M-TAT">M-TAT</term>.</sentence>
+<event id="E1">
+<type class="Protein_metabolism" />
+<theme idref="T4" />
+<clue>Erythropoietin-dependent induction of hemoglobin <clueType>synthesis</clueType> in a cytokine-dependent cell line M-TAT.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T2" />
+<clue>Erythropoietin-<linkCause>dependent</linkCause> <clueType>induction</clueType> <linkTheme>of</linkTheme> hemoglobin synthesis <clueLoc>in a cytokine-dependent cell line M-TAT.</clueLoc></clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="T7" />
+<cause idref="T6" />
+<clue>Erythropoietin-dependent induction of hemoglobin synthesis in a cytokine-<clueType>dependent</clueType> cell line M-TAT.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Cell_cultured" id="T8" lex="M-TAT">M-TAT</term> is a <term sem="Cell_cultured" id="T9" lex="cytokine-dependent_cell_line"><term sem="Protein_family_or_group" id="T10" lex="cytokine">cytokine</term>-dependent cell line</term> with the potential to differentiate along the <cons sem="(AND Cell_natural Cell_natural)" id="T11" lex="(AND erythroid_lineage megakaryocytic_lineage)"><frag id="F1"><term sem="Cell_natural" id="A1">erythroid</term></frag> and <frag id="F2"><term sem="Cell_natural" id="A2">megakaryocytic</term></frag> <frag id="F3"><term sem="Cell_natural" id="A3">lineages</term></frag></cons>.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T8" />
+<cause idref="T10" />
+<clue>M-TAT is a cytokine-<clueType>dependent</clueType> cell line with the potential to differentiate along the erythroid and megakaryocytic lineages.</clue>
+</event>
+<event id="E5">
+<type class="Cell_differentiation" />
+<theme idref="T8" />
+<theme idref1="A3" idref="A1" />
+<clue>M-TAT is a cytokine-dependent cell line with the potential to <clueType>differentiate</clueType> along the erythroid and megakaryocytic lineages.</clue>
+</event>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="T8" />
+<theme idref1="A3" idref="A2" />
+<clue>M-TAT is a cytokine-dependent cell line with the potential to <clueType>differentiate</clueType> along the erythroid and megakaryocytic lineages.</clue>
+</event>
+<sentence id="S3">We cultured <term sem="Cell_cultured" id="T12" lex="M-TAT_cell">M-TAT cells</term> long term (&gt; 1 year) in the continuous presence of <term sem="Protein_molecule" id="T13" lex="erythropoietin">erythropoietin</term> (<term sem="Protein_molecule" id="T14" lex="EPO">EPO</term>), <term sem="Protein_molecule" id="T15" lex="granulocyte-macrophage_colony-stimulating_factor">granulocyte-macrophage colony-stimulating factor</term> (<term sem="Protein_molecule" id="T16" lex="GM-CSF">GM-CSF</term>), or <term sem="Protein_molecule" id="T17" lex="stem_cell_factor">stem cell factor</term> (<term sem="Protein_molecule" id="T18" lex="SCF">SCF</term>).</sentence>
+<event id="E7">
+<type class="Artificial_process" />
+<theme idref="T12" />
+<theme idref="T14" />
+<clue>We <clueType>cultured</clueType> M-TAT cells long term (&gt; 1 year) in the continuous <linkTheme>presence of</linkTheme> erythropoietin (EPO), granulocyte-macrophage colony-stimulating factor (GM-CSF), or stem cell factor (SCF).</clue>
+</event>
+<event id="E8">
+<type class="Artificial_process" />
+<theme idref="T12" />
+<theme idref="T16" />
+<clue>We <clueType>cultured</clueType> M-TAT cells long term (&gt; 1 year) in the continuous <linkTheme>presence of</linkTheme> erythropoietin (EPO), granulocyte-macrophage colony-stimulating factor (GM-CSF), or stem cell factor (SCF).</clue>
+</event>
+<event id="E9">
+<type class="Artificial_process" />
+<theme idref="T12" />
+<theme idref="T18" />
+<clue>We <clueType>cultured</clueType> M-TAT cells long term (&gt; 1 year) in the continuous <linkTheme>presence of</linkTheme> erythropoietin (EPO), granulocyte-macrophage colony-stimulating factor (GM-CSF), or stem cell factor (SCF).</clue>
+</event>
+<sentence id="S4">These long term cultures are referred to as <cons sem="(AND Cell_cultured Cell_cultured Cell_cultured)" id="T19" lex="(AND M-TAT/EPO_cell M-TAT/GM-CSF_cell M-TAT/SCF_cell)"><frag id="F4">M-TAT/EPO</frag>, <frag id="F5">M-TAT/GM-CSF</frag>, and <frag id="F6">M-TAT/SCF</frag> <frag id="F7">cells</frag></cons>, respectively.</sentence>
+<sentence id="S5"><term sem="Other" id="T20" lex="hemoglobin_concentration"><term sem="Protein_molecule" id="T21" lex="hemoglobin">Hemoglobin</term> concentration</term> and <term sem="RNA_molecule" id="T22" lex="gamma-globin">gamma-globin</term> and <term sem="Other" id="T23" lex="erythroid_delta-aminolevulinate_synthase_mRNA_level"><term sem="RNA_molecule" id="T24" lex="erythroid_delta-aminolevulinate_synthase_mRNA"><term sem="Protein_molecule" id="T25" lex="erythroid_delta-aminolevulinate_synthase">erythroid delta-aminolevulinate synthase</term> <term sem="RNA_molecule" id="A4">mRNA</term></term> levels</term> were significantly higher in <term sem="Cell_cultured" id="T26" lex="M-TAT/EPO_cell">M-TAT/EPO cells</term> than in <term sem="Cell_cultured" id="T27" lex="M-TAT/GM-CSF_cell">M-TAT/GM-CSF cells</term>.</sentence>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>Hemoglobin <clueType>concentration</clueType> and gamma-globin and erythroid delta-aminolevulinate synthase mRNA levels were significantly higher <clueLoc>in M-TAT/EPO cells</clueLoc> than in M-TAT/GM-CSF cells.</clue>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<theme idref1="A4" idref="T22" />
+<clue>Hemoglobin concentration and gamma-globin and erythroid delta-aminolevulinate synthase <clueType>mRNA levels</clueType> were significantly higher <clueLoc>in M-TAT/EPO cells</clueLoc> than in M-TAT/GM-CSF cells.</clue>
+<comment>NER: T22 MOD</comment>
+</event>
+<event id="E12">
+<type class="Transcription" />
+<theme idref="T24" />
+<clue>Hemoglobin concentration and gamma-globin and erythroid delta-aminolevulinate synthase <clueType>mRNA levels</clueType> were significantly higher <clueLoc>in M-TAT/EPO cells</clueLoc> than in M-TAT/GM-CSF cells.</clue>
+</event>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>Hemoglobin <clueType>concentration</clueType> and gamma-globin and erythroid delta-aminolevulinate synthase mRNA levels were significantly higher in M-TAT/EPO cells than <clueLoc>in M-TAT/GM-CSF cells.</clueLoc></clue>
+</event>
+<event id="E17">
+<type class="Transcription" />
+<theme idref1="A4" idref="T22" />
+<clue>Hemoglobin concentration and gamma-globin and erythroid delta-aminolevulinate synthase <clueType>mRNA levels</clueType> were significantly higher in M-TAT/EPO cells than <clueLoc>in M-TAT/GM-CSF cells.</clueLoc></clue>
+</event>
+<event id="E18">
+<type class="Transcription" />
+<theme idref="T24" />
+<clue>Hemoglobin concentration and gamma-globin and erythroid delta-aminolevulinate synthase <clueType>mRNA levels</clueType> were significantly higher in M-TAT/EPO cells than <clueLoc>in M-TAT/GM-CSF cells</clueLoc>.</clue>
+</event>
+<sentence id="S6">When the supplemented <term sem="Protein_family_or_group" id="T28" lex="cytokine">cytokine</term> was switched from <term sem="Protein_molecule" id="T29" lex="GM-CSF">GM-CSF</term> to <term sem="Protein_molecule" id="T30" lex="EPO">EPO</term>, <term sem="Other" id="T31" lex="hemoglobin_synthesis"><term sem="Protein_complex" id="T32" lex="hemoglobin">hemoglobin</term> synthesis</term> in <term sem="Cell_cultured" id="T33" lex="M-TAT/GM-CSF_cell">M-TAT/GM-CSF cells</term> increased rapidly (within 5 h), and the level of <term sem="RNA_molecule" id="T34" lex="GATA-1_mRNA">GATA-1 mRNA</term> increased.</sentence>
+<event id="E19">
+<type class="Artificial_process" />
+<theme idref="T29" />
+<theme idref="T33" />
+<clue>When the <clueType>supplemented</clueType> cytokine was switched from GM-CSF to EPO, hemoglobin synthesis in M-TAT/GM-CSF cells increased rapidly (within 5 h), and the level of GATA-1 mRNA increased.</clue>
+</event>
+<event id="E20">
+<type class="Artificial_process" />
+<theme idref="T30" />
+<theme idref="T33" />
+<clue>When the <clueType>supplemented</clueType> cytokine was switched from GM-CSF to EPO, hemoglobin synthesis in M-TAT/GM-CSF cells increased rapidly (within 5 h), and the level of GATA-1 mRNA increased.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<clue>When the supplemented cytokine was <clueType>switched</clueType> <linkTheme>from</linkTheme> GM-CSF to EPO, hemoglobin synthesis in M-TAT/GM-CSF cells increased rapidly (within 5 h), and the level of GATA-1 mRNA increased.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<clue>When the supplemented cytokine was <clueType>switched</clueType> from GM-CSF <linkTheme>to</linkTheme> EPO, hemoglobin synthesis in M-TAT/GM-CSF cells increased rapidly (within 5 h), and the level of GATA-1 mRNA increased.</clue>
+</event>
+<event id="E23">
+<type class="Protein_metabolism" />
+<theme idref="T32" />
+<clue>When the supplemented cytokine was switched from GM-CSF to EPO, hemoglobin <clueType>synthesis</clueType> <clueLoc>in M-TAT/GM-CSF cells</clueLoc> increased rapidly (within 5 h), and the level of GATA-1 mRNA increased.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E22" />
+<cause idref="E21" />
+<clue>When the supplemented cytokine was switched from GM-CSF to EPO, hemoglobin synthesis in M-TAT/GM-CSF cells <clueType>increased</clueType> rapidly (within 5 h), and the level of GATA-1 mRNA increased.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<cause idref="E22" />
+<cause idref="E21" />
+<clue>When the supplemented cytokine was switched from GM-CSF to EPO, hemoglobin synthesis in M-TAT/GM-CSF cells increased rapidly (within 5 h), and the level of GATA-1 mRNA <clueType>increased</clueType>.</clue>
+</event>
+<sentence id="S7">In contrast, the addition of <term sem="Protein_molecule" id="T35" lex="GM-CSF">GM-CSF</term> to the <term sem="Cell_cultured" id="T36" lex="M-TAT/EPO_cell_culture">M-TAT/EPO cell culture</term> decreased the amount of <term sem="Protein_complex" id="A5">hemoglobin</term>, even in the presence of <term sem="Protein_molecule" id="T37" lex="EPO">EPO</term>, indicating that the <term sem="Protein_molecule" id="T38" lex="EPO">EPO</term> signal for <term sem="Other" id="T39" lex="erythroid_differentiation"><term sem="Cell_natural" id="A7">erythroid</term> differentiation</term> is suppressed by <term sem="Protein_molecule" id="T40" lex="GM-CSF">GM-CSF</term>.</sentence>
+<event id="E26">
+<type class="Artificial_process" />
+<theme idref="T35" />
+<theme idref="T36" />
+<clue>In contrast, the <clueType>addition</clueType> <linkTheme>of</linkTheme> GM-CSF <linkTheme>to</linkTheme> the M-TAT/EPO cell culture decreased the amount of hemoglobin, even in the presence of EPO, indicating that the EPO signal for erythroid differentiation is suppressed by GM-CSF.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="A5" />
+<cause idref="E26" />
+<clue>In contrast, the addition of GM-CSF to the M-TAT/EPO cell culture <clueType>decreased</clueType> the amount of hemoglobin, even in the presence of EPO, indicating that the EPO signal for erythroid differentiation is suppressed by GM-CSF.</clue>
+</event>
+<event assertion="non-exist" id="E28">
+<type class="Negative_regulation" />
+<theme idref="E27" />
+<cause idref="T37" />
+<clue>In contrast, the addition of GM-CSF to the M-TAT/EPO cell culture decreased the amount of hemoglobin, even <linkCause>in the presence of</linkCause> EPO, indicating that the EPO signal for erythroid differentiation is suppressed by GM-CSF.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E29">
+<type class="Cell_differentiation" />
+<theme idref="A7" />
+<clue>In contrast, the addition of GM-CSF to the M-TAT/EPO cell culture decreased the amount of hemoglobin, even in the presence of EPO, indicating that the EPO signal for erythroid <clueType>differentiation</clueType> is suppressed by GM-CSF.</clue>
+</event>
+<event id="E30">
+<type class="Cell_communication" />
+<theme idref="T38" />
+<clue>In contrast, the addition of GM-CSF to the M-TAT/EPO cell culture decreased the amount of hemoglobin, even in the presence of EPO, indicating that the EPO <clueType>signal</clueType> for erythroid differentiation is suppressed by GM-CSF.</clue>
+</event>
+<event id="E131">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="E30" />
+<clue>In contrast, the addition of GM-CSF to the M-TAT/EPO cell culture decreased the amount of hemoglobin, even in the presence of EPO, indicating that the EPO <clueType>signal</clueType> <linkTheme>for</linkTheme> erythroid differentiation is suppressed by GM-CSF.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="E30" />
+<cause idref="T40" />
+<clue>In contrast, the addition of GM-CSF to the M-TAT/EPO cell culture decreased the amount of hemoglobin, even in the presence of EPO, indicating that the EPO signal for erythroid differentiation is <clueType>suppressed</clueType> <linkCause>by</linkCause> GM-CSF.</clue>
+</event>
+<sentence id="S8">Thus, <term sem="Cell_natural" id="A30">erythroid</term> development of <term sem="Cell_cultured" id="T41" lex="M-TAT_cell">M-TAT cells</term> is promoted by <term sem="Protein_molecule" id="T42" lex="EPO">EPO</term> and suppressed by <term sem="Protein_molecule" id="T43" lex="GM-CSF">GM-CSF</term>.</sentence>
+<event id="E32">
+<type class="Cell_differentiation" />
+<theme idref="T41" />
+<theme idref="A30" />
+<clue>Thus, erythroid <clueType>development</clueType> <linkTheme>of</linkTheme> M-TAT cells is promoted by EPO and suppressed by GM-CSF.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="T42" />
+<clue>Thus, erythroid development of M-TAT cells is <clueType>promoted</clueType> <linkCause>by</linkCause> EPO and suppressed by GM-CSF.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="T43" />
+<clue>Thus, erythroid development of M-TAT cells is promoted by EPO and <clueType>suppressed</clueType> <linkCause>by</linkCause> GM-CSF.</clue>
+</event>
+<sentence id="S9">These results support the hypothesis that <term sem="Protein_molecule" id="T44" lex="EPO">EPO</term> actively influences the programming of <term sem="Other" id="A8">gene expression</term> required for <term sem="Other" id="T45" lex="erythroid_progenitor_cell_differentiation"><term sem="Cell_natural" id="T46" lex="erythroid_progenitor_cell">erythroid progenitor cell</term> differentiation</term>.</sentence>
+<event id="E35">
+<type class="Regulation" />
+<theme idref="A8" />
+<clue>These results support the hypothesis that EPO actively influences the <clueType>programming</clueType> <linkTheme>of</linkTheme> gene expression required for erythroid progenitor cell differentiation.</clue>
+</event>
+<event uncertainty="probable" id="E36">
+<type class="Regulation" />
+<theme idref="E35" />
+<cause idref="T44" />
+<clue>These results support the hypothesis that EPO actively <clueType>influences</clueType> the programming of gene expression required for erythroid progenitor cell differentiation.</clue>
+</event>
+<event id="E37">
+<type class="Cell_differentiation" />
+<theme idref="T46" />
+<clue>These results support the hypothesis that EPO actively influences the programming of gene expression required for erythroid progenitor cell <clueType>differentiation</clueType>.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="A8" />
+<clue>These results support the hypothesis that EPO actively influences the programming of gene expression <clueType>required</clueType> <linkTheme>for</linkTheme> erythroid progenitor cell differentiation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

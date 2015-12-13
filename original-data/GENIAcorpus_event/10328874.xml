@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="20/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10328874" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10328874</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="anti-inflammatory_drug">Non-steroidal anti-inflammatory drugs</term> inhibit the expression of <term sem="Protein_family_or_group" id="T2" lex="cytokine">cytokines</term> and induce <term sem="Protein_molecule" id="T3" lex="HSP70">HSP70</term> in <term sem="Cell_natural" id="T4" lex="human_monocyte">human monocytes</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Non-steroidal anti-inflammatory drugs inhibit the <clueType>expression</clueType> <linkTheme>of</linkTheme> cytokines and induce HSP70 in human monocytes.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Non-steroidal anti-inflammatory drugs <clueType>inhibit</clueType> the expression of cytokines and induce HSP70 <clueLoc>in human monocytes</clueLoc>.</clue>
+<comment>NER T1 mod</comment>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T3" />
+<cause idref="T1" />
+<clue>Non-steroidal anti-inflammatory drugs inhibit the expression of cytokines and <clueType>induce</clueType> HSP70 <clueLoc>in human monocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Recent studies have shown that the <term sem="Organic_compound_other" id="T5" lex="non-steroidal_anti-inflammatory_drug">non-steroidal <term sem="Organic_compound_other" id="T6" lex="anti-inflammatory_drug">anti-inflammatory drugs</term></term> (<term sem="Organic_compound_other" id="T7" lex="NSAID">NSAIDs</term>) activate <term sem="Protein_family_or_group" id="T8" lex="heat_shock_transcription_factor">heat shock <term sem="Protein_family_or_group" id="T9" lex="transcription_factor">transcription factor</term></term> (<term sem="Protein_molecule" id="T10" lex="HSF1">HSF1</term>) from a <term sem="Protein_family_or_group" id="T11" lex="latent_cytoplasmic_form"><term sem="Protein_molecule" id="A101">latent cytoplasmic</term> form</term> to a <term sem="Protein_family_or_group" id="T12" lex="nuclear,_DNA_binding_state"><term sem="Protein_molecule" id="A102">nuclear, <term sem="DNA_domain_or_region" id="A1">DNA</term> binding</term> state</term>.</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="T7" />
+<clue>Recent studies have shown that the non-steroidal anti-inflammatory drugs (NSAIDs) <clueType>activate</clueType> heat shock transcription factor (HSF1) from a latent cytoplasmic form to a nuclear, DNA binding state.</clue>
+</event>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T10" />
+<theme idref="A1" />
+<clue>Recent studies have shown that the non-steroidal anti-inflammatory drugs (NSAIDs) activate heat shock transcription factor (HSF1) from a latent cytoplasmic form to a nuclear, DNA <clueType>binding</clueType> <corefTheme>state</corefTheme>.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T6" />
+<clue>Recent studies have shown that the non-steroidal anti-inflammatory drugs (NSAIDs) <clueType>activate</clueType> heat shock transcription factor (HSF1) from a latent cytoplasmic form <linkTheme>to</linkTheme> a nuclear, DNA binding state.</clue>
+</event>
+<event id="E101">
+<type class="Localization" />
+<theme idref="T10" />
+<clue>Recent studies have shown that the non-steroidal anti-inflammatory drugs (NSAIDs) activate heat shock transcription factor (HSF1) <clueLoc>from</clueLoc> a latent <clueLoc>cytoplasmic</clueLoc> form <clueLoc>to</clueLoc> a <clueLoc>nuclear</clueLoc>, DNA binding state.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E102">
+<type class="Positive_regulation" />
+<theme idref="E101" />
+<cause idref="T6" />
+<clue>Recent studies have shown that the non-steroidal anti-inflammatory drugs (NSAIDs) <clueType>activate</clueType> heat shock transcription factor (HSF1) from a latent cytoplasmic form to a nuclear, DNA binding state.</clue>
+</event>
+<sentence id="S3">As <term sem="Protein_molecule" id="T13" lex="HSF1">HSF1</term> can function as both an activator of <term sem="DNA_family_or_group" id="T14" lex="heat_shock_gene">heat shock genes</term> and a repressor of <term sem="DNA_family_or_group" id="T15" lex="non-heat_shock_gene">non-heat shock genes</term> such as <term sem="DNA_domain_or_region" id="A2">IL1B</term> and <term sem="DNA_domain_or_region" id="A3">c- fos</term>, we have examined the potential role of <term sem="Protein_molecule" id="T16" lex="HSF1">HSF1</term> in the effects of <term sem="Organic_compound_other" id="T17" lex="NSAID">NSAIDs</term> on <term sem="Other" id="T18" lex="gene_expression">gene expression</term> in a human <term sem="Cell_cultured" id="T19" lex="monocytic_cell_line_THP-1">monocytic cell line THP-1</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<cause idref="T13" />
+<clue>As HSF1 can <clueType>function as</clueType> both an <clueType>activator</clueType> <linkTheme>of</linkTheme> heat shock genes and a repressor of non-heat shock genes such as IL1B and c- fos, we have examined the potential role of HSF1 in the effects of NSAIDs on gene expression in a human monocytic cell line THP-1.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="T15" />
+<cause idref="T13" />
+<clue>As HSF1 can <clueType>function as</clueType> both an activator of heat shock genes and a <clueType>repressor</clueType> <linkTheme>of</linkTheme> non-heat shock genes such as IL1B and c- fos, we have examined the potential role of HSF1 in the effects of NSAIDs on gene expression in a human monocytic cell line THP-1.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="A2" />
+<cause idref="T13" />
+<clue>As HSF1 can <clueType>function as</clueType> both an activator of heat shock genes and a <clueType>repressor</clueType> <linkTheme>of</linkTheme> <corefTheme>non-heat shock genes</corefTheme> such as IL1B and c- fos, we have examined the potential role of HSF1 in the effects of NSAIDs on gene expression in a human monocytic cell line THP-1.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="A3" />
+<cause idref="T13" />
+<clue>As HSF1 can <clueType>function as</clueType> both an activator of heat shock genes and a <clueType>repressor</clueType> <linkTheme>of</linkTheme> <corefTheme>non-heat shock genes</corefTheme> such as IL1B and c- fos, we have examined the potential role of HSF1 in the effects of NSAIDs on gene expression in a human monocytic cell line THP-1.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="T18" />
+<cause idref="T17" />
+<clue>As HSF1 can function as both an activator of heat shock genes and a repressor of non-heat shock genes such as IL1B and c- fos, we have examined the potential role of HSF1 in the <clueType>effects</clueType> <linkCause>of</linkCause> NSAIDs <linkTheme>on</linkTheme> gene expression <clueLoc>in a human monocytic cell line THP-1</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E12">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="T16" />
+<clue>As HSF1 can function as both an activator of heat shock genes and a repressor of non-heat shock genes such as IL1B and c- fos, we have examined the potential <clueType>role</clueType> <linkCause>of</linkCause> HSF1 <linkTheme>in</linkTheme> the effects of NSAIDs on gene expression in a human monocytic cell line THP-1.</clue>
+</event>
+<sentence id="S4">We found that two members of the <term sem="Organic_compound_other" id="T20" lex="NSAID">NSAIDs</term>, <term sem="Organic_compound_other" id="T21" lex="sodium_salicylate">sodium salicylate</term> and <term sem="Organic_compound_other" id="T22" lex="sulindac">sulindac</term> repress the <term sem="DNA_domain_or_region" id="T23" lex="IL1B_promoter">IL1B promoter</term> to similar degree to <term sem="Protein_family_or_group" id="A4">heat shock</term> or <term sem="Other" id="T24" lex="HSF1_overexpression"><term sem="Protein_molecule" id="T25" lex="HSF1">HSF1</term> overexpression</term>.</sentence>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<cause idref="T21" />
+<clue>We found that two members of the NSAIDs, sodium salicylate and sulindac <clueType>repress</clueType> the IL1B promoter to similar degree to heat shock or HSF1 overexpression.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<cause idref="T22" />
+<clue>We found that two members of the NSAIDs, sodium salicylate and sulindac <clueType>repress</clueType> the IL1B promoter to similar degree to heat shock or HSF1 overexpression.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>We found that two members of the NSAIDs, sodium salicylate and sulindac repress the IL1B promoter to similar degree to heat shock or HSF1 over<clueType>expression</clueType>.</clue>
+</event>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue>We found that two members of the NSAIDs, sodium salicylate and sulindac repress the IL1B promoter to similar degree to heat shock or HSF1 over<clueType>expression</clueType>.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<clue>We found that two members of the NSAIDs, sodium salicylate and sulindac repress the IL1B promoter to similar degree to heat shock or HSF1 <clueType>over</clueType>expression.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<clue>We found that two members of the NSAIDs, sodium salicylate and sulindac repress the IL1B promoter to similar degree to heat shock or HSF1 <clueType>over</clueType>expression.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="T21" />
+<clue>We found that two members of the NSAIDs, sodium salicylate and sulindac <clueType>repress</clueType> the IL1B promoter to <linkTheme>similar degree to</linkTheme> heat shock or HSF1 overexpression.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="T21" />
+<clue>We found that two members of the NSAIDs, sodium salicylate and sulindac <clueType>repress</clueType> the IL1B promoter to <linkTheme>similar degree to</linkTheme> heat shock or HSF1 overexpression.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="T22" />
+<clue>We found that two members of the NSAIDs, sodium salicylate and sulindac <clueType>repress</clueType> the IL1B promoter to <linkTheme>similar degree to</linkTheme> heat shock or HSF1 overexpression.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="T22" />
+<clue>We found that two members of the NSAIDs, sodium salicylate and sulindac <clueType>repress</clueType> the IL1B promoter to <linkTheme>similar degree to</linkTheme> heat shock or HSF1 overexpression.</clue>
+</event>
+<sentence id="S5">In addition, <term sem="Organic_compound_other" id="T26" lex="sodium_salicylate">sodium salicylate</term> and <term sem="Organic_compound_other" id="T27" lex="NSAID">additional NSAIDs</term> used at concentrations that activate <term sem="Protein_molecule" id="T28" lex="HSF1">HSF1</term> also inhibited the expression of other <term sem="DNA_family_or_group" id="T29" lex="monocytic_gene">monocytic genes</term> (<term sem="DNA_domain_or_region" id="T30" lex="TNF-alpha">TNF-alpha</term>, <term sem="DNA_domain_or_region" id="T31" lex="IL-1beta">IL-1beta</term>, <term sem="DNA_domain_or_region" id="T32" lex="IL-6">IL-6</term>, <term sem="DNA_domain_or_region" id="T33" lex="IL-8">IL-8</term>, <term sem="DNA_domain_or_region" id="T34" lex="IL-10">IL-10</term>, <term sem="DNA_domain_or_region" id="T35" lex="ICAM-1">ICAM-1</term>) activated by exposure to a <term sem="Other" id="T36" lex="pro-inflammatory_stimulus">pro-inflammatory stimulus</term> (<term sem="Lipid" id="T37" lex="lipopolysaccharide">lipopolysaccharide</term>, <term sem="Lipid" id="T38" lex="LPS">LPS</term>).</sentence>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref="T26" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that <clueType>activate</clueType> HSF1 also inhibited the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref="T27" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that <clueType>activate</clueType> HSF1 also inhibited the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+<comment>NER T27 mod</comment>
+</event>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref="T30" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the <clueType>expression</clueType> <linkTheme>of</linkTheme> other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T31" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the <clueType>expression</clueType> <linkTheme>of</linkTheme> other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the <clueType>expression</clueType> <linkTheme>of</linkTheme> other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the <clueType>expression</clueType> <linkTheme>of</linkTheme> other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E29">
+<type class="Gene_expression" />
+<theme idref="T34" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the <clueType>expression</clueType> <linkTheme>of</linkTheme> other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E30">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the <clueType>expression</clueType> <linkTheme>of</linkTheme> other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="T38" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) <clueType>activated</clueType> <linkCause>by exposure to</linkCause> a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T38" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) <clueType>activated</clueType> <linkCause>by exposure to</linkCause> a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="T38" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) <clueType>activated</clueType> <linkCause>by exposure to</linkCause> a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="T38" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) <clueType>activated</clueType> <linkCause>by exposure to</linkCause> a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="T38" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) <clueType>activated</clueType> <linkCause>by exposure to</linkCause> a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="T38" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) <clueType>activated</clueType> <linkCause>by exposure to</linkCause> a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="T26" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also <clueType>inhibited</clueType> the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E44">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="T27" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also <clueType>inhibited</clueType> the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E39">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T26" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also <clueType>inhibited</clueType> the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T27" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also <clueType>inhibited</clueType> the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation" />
+<theme idref="E34" />
+<cause idref="T26" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also <clueType>inhibited</clueType> the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation" />
+<theme idref="E34" />
+<cause idref="T27" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also <clueType>inhibited</clueType> the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E41">
+<type class="Negative_regulation" />
+<theme idref="E35" />
+<cause idref="T26" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also <clueType>inhibited</clueType> the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E47">
+<type class="Negative_regulation" />
+<theme idref="E35" />
+<cause idref="T27" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also <clueType>inhibited</clueType> the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E42">
+<type class="Negative_regulation" />
+<theme idref="E36" />
+<cause idref="T26" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also <clueType>inhibited</clueType> the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E48">
+<type class="Negative_regulation" />
+<theme idref="E36" />
+<cause idref="T27" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also <clueType>inhibited</clueType> the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E43">
+<type class="Negative_regulation" />
+<theme idref="E37" />
+<cause idref="T26" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also <clueType>inhibited</clueType> the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<event id="E49">
+<type class="Negative_regulation" />
+<theme idref="E37" />
+<cause idref="T27" />
+<clue>In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also <clueType>inhibited</clueType> the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).</clue>
+</event>
+<sentence id="S6">At least in the case of the <term sem="DNA_domain_or_region" id="T39" lex="IL1B_promoter">IL1B promoter</term>, repression did not seem to involve another factor whose activity is affected by the <term sem="Organic_compound_other" id="T40" lex="NSAID">NSAIDs</term>, <term sem="Protein_complex" id="T41" lex="NFkappaB">NFkappaB</term> as the <term sem="DNA_molecule" id="T42" lex="IL1B_promoter_fragment"><term sem="DNA_domain_or_region" id="T43" lex="IL1B_promoter">IL1B promoter</term> fragment</term> used in our studies is not <term sem="Protein_complex" id="T44" lex="NFkappaB">NFkappaB</term> responsive and binds specifically to <term sem="Protein_molecule" id="T45" lex="HSF1">HSF1</term>.</sentence>
+<event id="E50">
+<type class="Negative_regulation" />
+<theme idref="T39" />
+<clue>At least <linkTheme>in the case of</linkTheme> the IL1B promoter, <clueType>repression</clueType> did not seem to involve another factor whose activity is affected by the NSAIDs, NFkappaB as the IL1B promoter fragment used in our studies is not NFkappaB responsive and binds specifically to HSF1.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E51">
+<type class="Correlation" />
+<theme idref="E50" />
+<theme idref="T41" />
+<clue>At least in the case of the IL1B promoter, repression did not seem to <clueType>involve</clueType> <corefTheme>another factor</corefTheme> whose activity is affected by the NSAIDs, NFkappaB as the IL1B promoter fragment used in our studies is not NFkappaB responsive and binds specifically to HSF1.</clue>
+</event>
+<event id="E52">
+<type class="Regulation" />
+<theme idref="T41" />
+<cause idref="T40" />
+<clue>At least in the case of the IL1B promoter, repression did not seem to involve <corefTheme>another factor</corefTheme> whose activity is <clueType>affected</clueType> <linkCause>by</linkCause> the NSAIDs, NFkappaB as the IL1B promoter fragment used in our studies is not NFkappaB responsive and binds specifically to HSF1.</clue>
+</event>
+<event assertion="non-exist" id="E53">
+<type class="Regulation" />
+<theme idref="T43" />
+<cause idref="T44" />
+<clue>At least in the case of the IL1B promoter, repression did not seem to involve another factor whose activity is affected by the NSAIDs, NFkappaB as the IL1B promoter fragment used in our studies is not NFkappaB <clueType>responsive</clueType> and binds specifically to HSF1.</clue>
+</event>
+<event id="E54">
+<type class="Binding" />
+<theme idref="T43" />
+<theme idref="T45" />
+<clue>At least in the case of the IL1B promoter, repression did not seem to involve another factor whose activity is affected by the NSAIDs, NFkappaB as the IL1B promoter fragment used in our studies is not NFkappaB responsive and <clueType>binds</clueType> specifically <linkTheme>to</linkTheme> HSF1.</clue>
+</event>
+<sentence id="S7">Exposure to <term sem="Organic_compound_other" id="T46" lex="NSAID">NSAIDs</term> had a complex effect on <term sem="Other" id="T47" lex="HSP_gene_expression"><term sem="DNA_family_or_group" id="T48" lex="gene_expression">HSP gene</term> expression</term> and while <term sem="Organic_compound_other" id="T49" lex="sulindac">sulindac</term> activated the <term sem="DNA_domain_or_region" id="T50" lex="HSP70B promoter"><term sem="Other" id="A5">stress</term> responsive <term sem="DNA_domain_or_region" id="A103"><term sem="Protein_molecule" id="T51" lex="HSP70B">HSP70B</term> promoter</term></term>, <term sem="Organic_compound_other" id="T52" lex="sodium_salicylate">sodium salicylate</term> did not.</sentence>
+<event id="E55">
+<type class="Gene_expression" />
+<theme idref="T48" />
+<clue>Exposure to NSAIDs had a complex effect on HSP gene <clueType>expression</clueType> and while sulindac activated the stress responsive HSP70B promoter, sodium salicylate did not.</clue>
+<comment>NER T48 mod</comment>
+</event>
+<event id="E57">
+<type class="Regulation" />
+<theme idref="E55" />
+<cause idref="T46" />
+<clue><linkCause>Exposure to</linkCause> NSAIDs had a complex <clueType>effect</clueType> <linkTheme>on</linkTheme> HSP gene expression and while sulindac activated the stress responsive HSP70B promoter, sodium salicylate did not.</clue>
+</event>
+<event id="E58">
+<type class="Positive_regulation" />
+<theme idref="A103" />
+<cause idref="A5" />
+<clue>Exposure to NSAIDs had a complex effect on HSP gene expression and while sulindac activated the stress <clueType>responsive</clueType> HSP70B promoter, sodium salicylate did not.</clue>
+</event>
+<event id="E59">
+<type class="Positive_regulation" />
+<theme idref="T50" />
+<cause idref="T49" />
+<clue>Exposure to NSAIDs had a complex effect on HSP gene expression and while sulindac <clueType>activated</clueType> the stress responsive HSP70B promoter, sodium salicylate did not.</clue>
+<comment>NER T50 mod</comment>
+</event>
+<event assertion="non-exist" id="E60">
+<type class="Positive_regulation" />
+<theme idref="T50" />
+<cause idref="T52" />
+<clue>Exposure to NSAIDs had a complex effect on HSP gene expression and while sulindac <clueType>activated</clueType> the stress responsive HSP70B promoter, sodium salicylate did not.</clue>
+</event>
+<sentence id="S8">In addition, only a subset of the <term sem="Organic_compound_other" id="T53" lex="NSAID">NSAIDs</term> induced <term sem="RNA_family_or_group" id="T54" lex="HSP70_mRNA_specie"><term sem="Protein_molecule" id="T55" lex="HSP70">HSP70</term> mRNA species</term>.</sentence>
+<event id="E61">
+<type class="Positive_regulation" />
+<theme idref="T54" />
+<cause idref="T53" />
+<clue>In addition, only a subset of the NSAIDs <clueType>induced</clueType> HSP70 mRNA species.</clue>
+</event>
+<sentence id="S9">These findings reflect the properties of <term sem="Protein_molecule" id="T56" lex="HSF1">HSF1</term> which can be activated to at least two <term sem="Protein_family_or_group" id="T57" lex="DNA_binding_form"><term sem="DNA_domain_or_region" id="A6">DNA</term> binding forms</term> only one of which activates <term sem="DNA_family_or_group" id="T58" lex="heat_shock_promoter">heat shock promoters</term> and suggest that individual <term sem="Organic_compound_other" id="T59" lex="NSAID_family_member">NSAID family members</term> may differentially induce one or other of these forms.</sentence>
+<event id="E62">
+<type class="Positive_regulation" />
+<theme idref="E63" />
+<clue>These findings reflect the properties of HSF1 which can be <clueType>activated</clueType> to at least two DNA binding forms only one of which activates heat shock promoters and suggest that individual NSAID family members may differentially induce one or other of these forms.</clue>
+</event>
+<event id="E63">
+<type class="Binding" />
+<theme idref="T56" />
+<theme idref="A6" />
+<clue>These findings reflect the properties of HSF1 which can be activated to at least two DNA <clueType>binding</clueType> <corefTheme>forms</corefTheme> only one of which activates heat shock promoters and suggest that individual NSAID family members may differentially induce one or other of these forms.</clue>
+</event>
+<event id="E64">
+<type class="Positive_regulation" />
+<theme idref="T58" />
+<cause idref="E62" />
+<clue>These findings reflect the properties of HSF1 which can be activated to at least two DNA binding forms only one of which <clueType>activates</clueType> heat shock promoters and suggest that individual NSAID family members may differentially induce one or other of these forms.</clue>
+</event>
+<event uncertainty="probable" id="E65">
+<type class="Positive_regulation" />
+<theme idref="T56" />
+<cause idref="T59" />
+<clue>These findings reflect the properties of HSF1 which can be activated to at least two DNA binding forms only one of which activates heat shock promoters and suggest that individual NSAID family members may differentially <clueType>induce</clueType> one or other of <corefTheme>these forms</corefTheme>.</clue>
+</event>
+<sentence id="S10">Overall therefore, exposure to <term sem="Organic_compound_other" id="T60" lex="NSAID">NSAIDs</term> leads to a profound switch in <term sem="Other" id="T61" lex="gene_expression">gene expression</term> in <term sem="Cell_natural" id="T62" lex="monocytic_cell">monocytic cells</term>, with suppression of <term sem="DNA_family_or_group" id="A7">genes</term> involved in <term sem="Other" id="T63" lex="macrophage_activation"><term sem="Cell_natural" id="A8">macrophage</term> activation</term> and induction of <term sem="DNA_family_or_group" id="T64" lex="stress_gene">stress genes</term> and <term sem="Protein_molecule" id="T65" lex="HSF1">HSF1</term> appears to play a regulatory role in these effects.</sentence>
+<event id="E67">
+<type class="Regulation" />
+<theme idref="T61" />
+<cause idref="T60" />
+<clue>Overall therefore, <linkCause>exposure to</linkCause> NSAIDs leads to a profound <clueType>switch</clueType> <linkTheme>in</linkTheme> gene expression <clueLoc>in monocytic cells</clueLoc>, with suppression of genes involved in macrophage activation and induction of stress genes and HSF1 appears to play a regulatory role in these effects.</clue>
+</event>
+<event id="E68">
+<type class="Physiological_process" />
+<theme idref="A8" />
+<clue>Overall therefore, exposure to NSAIDs leads to a profound switch in gene expression in monocytic cells, with suppression of genes involved in macrophage <clueType>activation</clueType> and induction of stress genes and HSF1 appears to play a regulatory role in these effects.</clue>
+</event>
+<event id="E69">
+<type class="Positive_regulation" />
+<theme idref="T64" />
+<cause idref="T60" />
+<clue>Overall therefore, exposure to NSAIDs leads to a profound switch in gene expression in monocytic cells, with suppression of genes involved in macrophage activation and <clueType>induction</clueType> <linkTheme>of</linkTheme> stress genes and HSF1 appears to play a regulatory role in these effects.</clue>
+</event>
+<event id="E70">
+<type class="Regulation" />
+<theme idref="E68" />
+<cause idref="A7" />
+<clue>Overall therefore, exposure to NSAIDs leads to a profound switch in gene expression in monocytic cells, with suppression of genes <clueType>involved</clueType> <linkTheme>in</linkTheme> macrophage activation and induction of stress genes and HSF1 appears to play a regulatory role in these effects.</clue>
+</event>
+<event id="E72">
+<type class="Negative_regulation" />
+<theme idref="E70" />
+<cause idref="T60" />
+<clue>Overall therefore, exposure to NSAIDs leads to a profound switch in gene expression in monocytic cells, with <clueType>suppression</clueType> <linkTheme>of</linkTheme> genes involved in macrophage activation and induction of stress genes and HSF1 appears to play a regulatory role in these effects.</clue>
+</event>
+<event uncertainty="probable" id="E73">
+<type class="Regulation" />
+<theme idref="E69" />
+<cause idref="T65" />
+<clue>Overall therefore, exposure to NSAIDs leads to a profound switch in gene expression in monocytic cells, with suppression of genes involved in macrophage activation and induction of stress genes and HSF1 appears to <clueType>play a regulatory role</clueType> <linkTheme>in</linkTheme> <corefTheme>these effects</corefTheme>.</clue>
+</event>
+<event uncertainty="probable" id="E74">
+<type class="Regulation" />
+<theme idref="E72" />
+<cause idref="T65" />
+<clue>Overall therefore, exposure to NSAIDs leads to a profound switch in gene expression in monocytic cells, with suppression of genes involved in macrophage activation and induction of stress genes and HSF1 appears to <clueType>play a regulatory role</clueType> <linkTheme>in</linkTheme> <corefTheme>these effects</corefTheme>.</clue>
+</event>
+<sentence id="S11">Copyright 1999 Academic Press.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

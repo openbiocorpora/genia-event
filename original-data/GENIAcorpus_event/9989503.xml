@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="01/12/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9989503"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9989503</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Functional association of <term sem="Protein_molecule" id="T1" lex="Nmi">Nmi</term> with <term sem="Protein_molecule" id="T2" lex="Stat5">Stat5</term> and <term sem="Protein_molecule" id="T3" lex="Stat1">Stat1</term> in <term sem="Protein_molecule" id="T5" lex="IL-2">IL-2</term>- and <term sem="Protein_molecule" id="T6" lex="IFNgamma">IFNgamma</term>-mediated <term sem="Other" id="A1">signaling</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T1" />
+<cause idref="T2" />
+<clue><clueType>Functional</clueType> <linkCause>association of</linkCause> Nmi <linkCause>with</linkCause> Stat5 and Stat1 <linkTheme>in</linkTheme> IL-2- and IFNgamma-mediated signaling.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T1" />
+<cause idref="T3" />
+<clue><clueType>Functional</clueType> <linkCause>association of</linkCause> Nmi <linkCause>with</linkCause> Stat5 and Stat1 <linkTheme>in</linkTheme> IL-2- and IFNgamma-mediated signaling.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E4">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="T1" />
+<cause idref="T2" />
+<clue><clueType>Functional</clueType> <linkCause>association of</linkCause> Nmi <linkCause>with</linkCause> Stat5 and Stat1 <linkTheme>in</linkTheme> IL-2- and IFNgamma-mediated signaling.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="T1" />
+<cause idref="T3" />
+<clue><clueType>Functional</clueType> <linkCause>association of</linkCause> Nmi <linkCause>with</linkCause> Stat5 and Stat1 <linkTheme>in</linkTheme> IL-2- and IFNgamma-mediated signaling.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E5">
+<type class="Cell_communication" />
+<theme idref="T5" />
+<clue>Functional association of Nmi with Stat5 and Stat1 in IL-2- and IFNgamma-<linkTheme>mediated</linkTheme> <clueType>signaling</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E6">
+<type class="Cell_communication" />
+<theme idref="T6" />
+<clue>Functional association of Nmi with Stat5 and Stat1 in IL-2- and IFNgamma-<linkTheme>mediated</linkTheme> <clueType>signaling</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Using the coiled-coil region of <term sem="Protein_molecule" id="T7" lex="Stat5b">Stat5b</term> as the bait in a <term sem="Other" id="T8" lex="yeast_two-hybrid_screen"><term sem="Unicellular_organism" id="T9" lex="yeast">yeast</term> two-hybrid screen</term>, we identified the association of <term sem="Protein_molecule" id="T10" lex="Nmi">Nmi</term>, a protein of unknown function previously reported as an <term sem="Protein_molecule" id="T11" lex="N-Myc_interactor">N-Myc interactor</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E7">
+<type class="Binding" />
+<theme idref="T7" />
+<theme idref="T10" />
+<clue>Using the coiled-coil region of Stat5b as the bait in a <clueExperiment>yeast two-hybrid screen</clueExperiment>, we identified the <clueType>association</clueType> <linkTheme>of</linkTheme> Nmi, a protein of unknown function previously reported as an N-Myc interactor.</clue>
+<comment>NER: T12 del &quot;N-Myc&quot;</comment></event>
+<sentence id="S3">We further show that <term sem="Protein_molecule" id="T13" lex="Nmi">Nmi</term> interacts with all <term sem="Protein_family_or_group" id="T14" lex="STAT">STATs</term> except <term sem="Protein_molecule" id="T15" lex="Stat2">Stat2</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E9">
+<type class="Binding" />
+<theme idref="T13" />
+<theme idref="T14" />
+<clue>We further show that Nmi <clueType>interacts</clueType> <linkTheme>with</linkTheme> all STATs except Stat2.</clue>
+</event>
+<event assertion="non-exist" uncertainty="certain" id="E10">
+<type class="Binding" />
+<theme idref="T13" />
+<theme idref="T15" />
+<clue>We further show that Nmi <clueType>interacts</clueType> <linkTheme>with</linkTheme> all STATs <clueType>except</clueType> Stat2.</clue>
+</event>
+<sentence id="S4">We evaluated two cytokine systems, <term sem="Protein_molecule" id="T16" lex="IL-2">IL-2</term> and <term sem="Protein_molecule" id="T17" lex="IFNgamma">IFNgamma</term>, and demonstrate that <term sem="Protein_molecule" id="T18" lex="Nmi">Nmi</term> augments <term sem="Protein_family_or_group" id="T20" lex="STAT">STAT</term>-mediated <term sem="Other" id="A3">transcription</term> in response to these <term sem="Protein_family_or_group" id="T21" lex="cytokine">cytokines</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E11">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T18" />
+<clue>We evaluated two cytokine systems, IL-2 and IFNgamma, and demonstrate that Nmi <clueType>augments</clueType> STAT-mediated transcription in response to these cytokines.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="T16" />
+<clue>We evaluated two cytokine systems, IL-2 and IFNgamma, and demonstrate that Nmi augments STAT-mediated transcription <linkCause>in response to</linkCause> <corefCause>these cytokines</corefCause>.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="T17" />
+<clue>We evaluated two cytokine systems, IL-2 and IFNgamma, and demonstrate that Nmi augments STAT-mediated transcription <linkCause>in response to</linkCause> <corefCause>these cytokines</corefCause>.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event assertion="exist" uncertainty="certain" id="E14">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T20" />
+<clue>We evaluated two cytokine systems, IL-2 and IFNgamma, and demonstrate that Nmi augments STAT-<clueType>mediated</clueType> transcription in response to these cytokines.</clue>
+<comment>NER: T19 del &quot;STAT-mediated transcription&quot;</comment></event>
+<sentence id="S5">Interestingly, <term sem="Protein_molecule" id="T22" lex="Nmi">Nmi</term> lacks an intrinsic <term sem="Protein_domain_or_region" id="T23" lex="transcriptional_activation_domain">transcriptional activation domain</term>; instead, <term sem="Protein_molecule" id="T24" lex="Nmi">Nmi</term> enhances the association of <term sem="Protein_family_or_group" id="T25" lex="CBP/p300_coactivator_protein">CBP/p300 coactivator proteins</term> with <term sem="Protein_molecule" id="T26" lex="Stat1">Stat1</term> and <term sem="Protein_molecule" id="T27" lex="Stat5">Stat5</term>, and together with <term sem="Protein_molecule" id="T28" lex="CBP/p300">CBP/p300</term> can augment <cons sem="(AND Other Biological_process.)" id="T29" lex="(AND IL-2-dependent_transcription IFNgamma-dependent_transcription)"><frag id="F1"><term sem="Protein_molecule" id="A4">IL-2</term>-</frag> and <frag id="F2"><term sem="Protein_molecule" id="A5">IFNgamma</term>-</frag><frag id="F3">dependent <term sem="Other" id="A6">transcription</term></frag></cons>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T24" />
+<clue>Interestingly, Nmi lacks an intrinsic transcriptional activation domain; instead, Nmi <clueType>enhances</clueType> the association of CBP/p300 coactivator proteins with Stat1 and Stat5, and together with CBP/p300 can augment IL-2- and IFNgamma-dependent transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E22">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T24" />
+<clue>Interestingly, Nmi lacks an intrinsic transcriptional activation domain; instead, Nmi <clueType>enhances</clueType> the association of CBP/p300 coactivator proteins with Stat1 and Stat5, and together with CBP/p300 can augment IL-2- and IFNgamma-dependent transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E16">
+<type class="Binding" />
+<theme idref="T25" />
+<theme idref="T26" />
+<clue>Interestingly, Nmi lacks an intrinsic transcriptional activation domain; instead, Nmi enhances the <clueType>association</clueType> <linkTheme>of</linkTheme> CBP/p300 coactivator proteins <linkTheme>with</linkTheme> Stat1 and Stat5, and together with CBP/p300 can augment IL-2- and IFNgamma-dependent transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E17">
+<type class="Binding" />
+<theme idref="T25" />
+<theme idref="T27" />
+<clue>Interestingly, Nmi lacks an intrinsic transcriptional activation domain; instead, Nmi enhances the <clueType>association</clueType> <linkTheme>of</linkTheme> CBP/p300 coactivator proteins <linkTheme>with</linkTheme> Stat1 and Stat5, and together with CBP/p300 can augment IL-2- and IFNgamma-dependent transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E18">
+<type class="Positive_regulation" />
+<theme idref1="F3" idref="F1" />
+<cause idref="T24" />
+<cause idref="T28" />
+<clue>Interestingly, Nmi lacks an intrinsic transcriptional activation domain; instead, Nmi enhances the association of CBP/p300 coactivator proteins with Stat1 and Stat5, and <linkCause>together with</linkCause> CBP/p300 can <clueType>augment</clueType> IL-2- and IFNgamma-dependent transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E8">
+<type class="Positive_regulation" />
+<theme idref1="F3" idref="F2" />
+<cause idref="T24" />
+<cause idref="T28" />
+<clue>Interestingly, Nmi lacks an intrinsic transcriptional activation domain; instead, Nmi enhances the association of CBP/p300 coactivator proteins with Stat1 and Stat5, and <linkCause>together with</linkCause> CBP/p300 can <clueType>augment</clueType> IL-2- and IFNgamma-dependent transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E19">
+<type class="Positive_regulation" />
+<theme idref1="F3" idref="F1" />
+<cause idref="T24" />
+<cause idref="T28" />
+<clue>Interestingly, Nmi lacks an intrinsic transcriptional activation domain; instead, Nmi enhances the association of CBP/p300 coactivator proteins with Stat1 and Stat5, and <linkCause>together with</linkCause> CBP/p300 can <clueType>augment</clueType> IL-2- and IFNgamma-dependent transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E27">
+<type class="Positive_regulation" />
+<theme idref1="F3" idref="F2" />
+<cause idref="T24" />
+<cause idref="T28" />
+<clue>Interestingly, Nmi lacks an intrinsic transcriptional activation domain; instead, Nmi enhances the association of CBP/p300 coactivator proteins with Stat1 and Stat5, and <linkCause>together with</linkCause> CBP/p300 can <clueType>augment</clueType> IL-2- and IFNgamma-dependent transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E20">
+<type class="Regulation" />
+<theme idref="A6" />
+<cause idref="A4" />
+<clue>Interestingly, Nmi lacks an intrinsic transcriptional activation domain; instead, Nmi enhances the association of CBP/p300 coactivator proteins with Stat1 and Stat5, and together with CBP/p300 can augment IL-2- and IFNgamma-<clueType>dependent</clueType> transcription.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E21">
+<type class="Regulation" />
+<theme idref="A6" />
+<cause idref="A5" />
+<clue>Interestingly, Nmi lacks an intrinsic transcriptional activation domain; instead, Nmi enhances the association of CBP/p300 coactivator proteins with Stat1 and Stat5, and together with CBP/p300 can augment IL-2- and IFNgamma-<clueType>dependent</clueType> transcription.</clue>
+</event>
+<sentence id="S6">Therefore, our data not only reveal that <term sem="Protein_molecule" id="T30" lex="Nmi">Nmi</term> can potentiate <term sem="Protein_family_or_group" id="T32" lex="STAT">STAT</term>-dependent <term sem="Other" id="A7">transcription</term>, but also suggest that it can augment <term sem="Protein_molecule" id="A8">coactivator protein</term> recruitment to at least some members of a group of <term sem="Protein_family_or_group" id="T33" lex="sequence-specific_transcription_factor">sequence-specific transcription factors</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E23">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="T30" />
+<clue>Therefore, our data not only reveal that Nmi can <clueType>potentiate</clueType> STAT-dependent transcription, but also suggest that it can augment coactivator protein recruitment to at least some members of a group of sequence-specific transcription factors.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E24">
+<type class="Regulation" />
+<theme idref="A7" />
+<cause idref="T32" />
+<clue>Therefore, our data not only reveal that Nmi can potentiate STAT-<clueType>dependent</clueType> transcription, but also suggest that it can augment coactivator protein recruitment to at least some members of a group of sequence-specific transcription factors.</clue>
+<comment>NER: T31 del &quot;STAT-dependent transcription&quot;</comment></event>
+<event assertion="exist" uncertainty="certain" id="E25">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T30" />
+<clue>Therefore, our data not only reveal that Nmi can potentiate STAT-dependent transcription, but also suggest that <corefCause>it</corefCause> can <clueType>augment</clueType> coactivator protein recruitment to at least some members of a group of sequence-specific transcription factors.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E26">
+<type class="Binding" />
+<theme idref="A8" />
+<theme idref="T33" />
+<clue>Therefore, our data not only reveal that Nmi can potentiate STAT-dependent transcription, but also suggest that it can augment coactivator protein <clueType>recruitment</clueType> <linkTheme>to</linkTheme> at least some members of a group of sequence-specific transcription factors.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

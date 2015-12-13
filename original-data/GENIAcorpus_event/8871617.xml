@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/01/26" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8871617" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8871617</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="IL-12-induced_activation"><term sem="Protein_molecule" id="T2" lex="IL-12">IL-12</term>-induced activation</term> of <cons sem="(AND Cell_natural Cell_natural)" id="T3" lex="(AND NK_cell T_cell)"><frag id="F1"><term sem="Cell_natural" id="A1">NK</term></frag> and <frag id="F2"><term sem="Cell_natural" id="A2">T</term></frag> <frag id="F3"><term sem="Cell_natural" id="A3">cells</term></frag></cons> occurs in the absence of <term sem="Other" id="T4" lex="immediate-early_activation_gene_expression"><term sem="DNA_domain_or_region" id="T5" lex="immediate-early_activation_gene">immediate-early activation gene</term> expression</term>.</sentence>
+<event id="E1">
+<type class="Physiological_process" />
+<theme idref1="A3" idref="A1" />
+<cause idref="T2" />
+<clue>IL-12-<linkCause>induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> NK and T cells occurs in the absence of immediate-early activation gene expression.</clue>
+</event>
+<event id="E2">
+<type class="Physiological_process" />
+<theme idref1="A3" idref="A2" />
+<cause idref="T2" />
+<clue>IL-12-<linkCause>induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> NK and T cells occurs in the absence of immediate-early activation gene expression.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>IL-12-induced activation of NK and T cells occurs in the absence of immediate-early activation gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<clue>IL-12-induced activation of NK and T cells occurs in the <clueType>absence</clueType> <linkTheme>of</linkTheme> immediate-early activation gene expression.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="E4" />
+<clue>IL-12-induced activation of NK and T cells <clueType>occurs</clueType> <linkCause>in</linkCause> the absence of immediate-early activation gene expression.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E4" />
+<clue>IL-12-induced activation of NK and T cells <clueType>occurs</clueType> <linkCause>in</linkCause> the absence of immediate-early activation gene expression.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The responses of <term sem="Cell_natural" id="T6" lex="lymphocyte">lymphocytes</term> to <term sem="Protein_molecule" id="T7" lex="IL-2">IL-2</term> and <term sem="Protein_molecule" id="T8" lex="IL-12">IL-12</term>, involving <term sem="Other" id="T9" lex="proliferation">proliferation</term>, <term sem="Other" id="T10" lex="differentiation">differentiation</term>, and <term sem="Other" id="T11" lex="cytokine_production"><term sem="Protein_family_or_group" id="T12" lex="cytokine">cytokine</term> production</term>, are only partially overlapping, and may depend on induced differential expression of specific sets of <term sem="Protein_family_or_group" id="T13" lex="gene">genes</term>.</sentence>
+<event id="E7">
+<type class="Physiological_process" />
+<theme idref="T6" />
+<cause idref="T7" />
+<clue>The <clueType>responses</clueType> <linkTheme>of</linkTheme> lymphocytes <linkCause>to</linkCause> IL-2 and IL-12, involving proliferation, differentiation, and cytokine production, are only partially overlapping, and may depend on induced differential expression of specific sets of genes.</clue>
+</event>
+<event id="E8">
+<type class="Physiological_process" />
+<theme idref="T6" />
+<cause idref="T8" />
+<clue>The <clueType>responses</clueType> <linkTheme>of</linkTheme> lymphocytes <linkCause>to</linkCause> IL-2 and IL-12, involving proliferation, differentiation, and cytokine production, are only partially overlapping, and may depend on induced differential expression of specific sets of genes.</clue>
+</event>
+<event id="E9">
+<type class="Cellular_physiological_process" />
+<theme idref="T6" />
+<clue>The responses of lymphocytes to IL-2 and IL-12, involving <clueType>proliferation</clueType>, differentiation, and cytokine production, are only partially overlapping, and may depend on induced differential expression of specific sets of genes.</clue>
+</event>
+<event id="E10">
+<type class="Cell_differentiation" />
+<theme idref="T6" />
+<clue>The responses of lymphocytes to IL-2 and IL-12, involving proliferation, <clueType>differentiation</clueType>, and cytokine production, are only partially overlapping, and may depend on induced differential expression of specific sets of genes.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T12" />
+<clue>The responses of <clueLoc>lymphocytes</clueLoc> to IL-2 and IL-12, involving proliferation, differentiation, and cytokine <clueType>production</clueType>, are only partially overlapping, and may depend on induced differential expression of specific sets of genes.</clue>
+</event>
+<event id="E12">
+<type class="Correlation" />
+<theme idref="E7" />
+<theme idref="E9" />
+<clue>The responses of lymphocytes to IL-2 and IL-12, <clueType>involving</clueType> proliferation, differentiation, and cytokine production, are only partially overlapping, and may depend on induced differential expression of specific sets of genes.</clue>
+</event>
+<event id="E13">
+<type class="Correlation" />
+<theme idref="E7" />
+<theme idref="E10" />
+<clue>The responses of lymphocytes to IL-2 and IL-12, <clueType>involving</clueType> proliferation, differentiation, and cytokine production, are only partially overlapping, and may depend on induced differential expression of specific sets of genes.</clue>
+</event>
+<event id="E14">
+<type class="Correlation" />
+<theme idref="E7" />
+<theme idref="E11" />
+<clue>The responses of lymphocytes to IL-2 and IL-12, <clueType>involving</clueType> proliferation, differentiation, and cytokine production, are only partially overlapping, and may depend on induced differential expression of specific sets of genes.</clue>
+</event>
+<event id="E15">
+<type class="Correlation" />
+<theme idref="E8" />
+<theme idref="E9" />
+<clue>The responses of lymphocytes to IL-2 and IL-12, <clueType>involving</clueType> proliferation, differentiation, and cytokine production, are only partially overlapping, and may depend on induced differential expression of specific sets of genes.</clue>
+</event>
+<event id="E16">
+<type class="Correlation" />
+<theme idref="E8" />
+<theme idref="E10" />
+<clue>The responses of lymphocytes to IL-2 and IL-12, <clueType>involving</clueType> proliferation, differentiation, and cytokine production, are only partially overlapping, and may depend on induced differential expression of specific sets of genes.</clue>
+</event>
+<event id="E17">
+<type class="Correlation" />
+<theme idref="E8" />
+<theme idref="E11" />
+<clue>The responses of lymphocytes to IL-2 and IL-12, <clueType>involving</clueType> proliferation, differentiation, and cytokine production, are only partially overlapping, and may depend on induced differential expression of specific sets of genes.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>The responses of lymphocytes to IL-2 and IL-12, involving proliferation, differentiation, and cytokine production, are only partially overlapping, and may depend on induced differential <clueType>expression</clueType> <linkTheme>of</linkTheme> specific sets of genes.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<clue>The responses of lymphocytes to IL-2 and IL-12, involving proliferation, differentiation, and cytokine production, are only partially overlapping, and may depend on <clueType>induced</clueType> differential expression of specific sets of genes.</clue>
+</event>
+<event uncertainty="probable" id="E20">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E19" />
+<clue>The responses of lymphocytes to IL-2 and IL-12, involving proliferation, differentiation, and cytokine production, are only partially overlapping, and may <clueType>depend</clueType> <linkCause>on</linkCause> induced differential expression of specific sets of genes.</clue>
+</event>
+<event uncertainty="probable" id="E21">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E19" />
+<clue>The responses of lymphocytes to IL-2 and IL-12, involving proliferation, differentiation, and cytokine production, are only partially overlapping, and may <clueType>depend</clueType> <linkCause>on</linkCause> induced differential expression of specific sets of genes.</clue>
+</event>
+<sentence id="S3">Using <term sem="Other" id="T14" lex="reverse-transcription_PCR_differential_display">reverse-transcription PCR differential display</term>, we isolated an <term sem="RNA_family_or_group" id="T15" lex="mRNA_specie">mRNA species</term> expressed in <cons sem="(BUT_NOT Cell_natural Cell_natural)" id="T16" lex="(BUT_NOT IL-2-stimulated_NK_cell IL-12-stimulated_NK_cell)"><frag id="F4"><term sem="Protein_molecule" id="T17" lex="IL-2">IL-2</term></frag>- but not <frag id="F5"><term sem="Protein_molecule" id="T18" lex="IL-12">IL-12</term></frag><frag id="F6">-stimulated <term sem="Cell_natural" id="A4">NK cells</term></frag></cons>.</sentence>
+<event id="E22">
+<type class="Transcription" />
+<theme idref="T15" />
+<clue><clueExperiment>Using reverse-transcription PCR differential display</clueExperiment>, we isolated an mRNA species <clueType>expressed</clueType> <clueLoc>in IL-2-</clueLoc> but not IL-12-<clueLoc>stimulated NK cells</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E23">
+<type class="Transcription" />
+<theme idref="T15" />
+<clue><clueExperiment>Using reverse-transcription PCR differential display</clueExperiment>, we isolated an mRNA species <clueType>expressed</clueType> in IL-2- but not <clueLoc>IL-12-stimulated NK cells</clueLoc>.</clue>
+</event>
+<event id="E24">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<cause idref="T17" />
+<clue>Using reverse-transcription PCR differential display, we isolated an mRNA species expressed in IL-2- but not IL-12-<clueType>stimulated</clueType> NK cells.</clue>
+</event>
+<event id="E25">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<cause idref="T18" />
+<clue>Using reverse-transcription PCR differential display, we isolated an mRNA species expressed in IL-2- but not IL-12-<clueType>stimulated</clueType> NK cells.</clue>
+</event>
+<sentence id="S4">This was identified as the <term sem="RNA_family_or_group" id="T19" lex="mRNA">mRNA</term> encoding the <term sem="Protein_family_or_group" id="T20" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T21" lex="egr-1">egr-1</term>, which is expressed with fast kinetics in <cons sem="(AND Cell_natural Cell_natural)" id="T22" lex="(AND T_cell NK_cell)"><frag id="F7"><term sem="Cell_natural" id="A5">T</term></frag> and <frag id="F8"><term sem="Cell_natural" id="A6">NK</term></frag> <frag id="F9"><term sem="Cell_natural" id="A7">cells</term></frag></cons> upon <term sem="Protein_molecule" id="T23" lex="IL-2">IL-2</term>, but not <term sem="Protein_molecule" id="T24" lex="IL-12">IL-12</term>, stimulation.</sentence>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>This was identified as the mRNA encoding the transcription factor egr-1, which is <clueType>expressed</clueType> with fast kinetics <clueLoc>in T</clueLoc> and NK <clueLoc>cells upon IL-2</clueLoc>, but not IL-12, stimulation.</clue>
+</event>
+<event id="E261">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>This was identified as the mRNA encoding the transcription factor egr-1, which is <clueType>expressed</clueType> with fast kinetics in T and <clueLoc>NK cells upon IL-2</clueLoc>, but not IL-12, stimulation.</clue>
+</event>
+<event assertion="non-exist" id="E260">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>This was identified as the mRNA encoding the transcription factor egr-1, which is <clueType>expressed</clueType> with fast kinetics <clueLoc>in T</clueLoc> and NK <clueLoc>cells upon</clueLoc> IL-2, but not <clueLoc>IL-12, stimulation</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E262">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>This was identified as the mRNA encoding the transcription factor egr-1, which is <clueType>expressed</clueType> with fast kinetics <clueLoc>in</clueLoc> T and <clueLoc>NK cells upon</clueLoc> IL-2, but not <clueLoc>IL-12, stimulation</clueLoc>.</clue>
+</event>
+<event id="E27">
+<type class="Physiological_process" />
+<theme idref1="A7" idref="A5" />
+<cause idref="T23" />
+<clue>This was identified as the mRNA encoding the transcription factor egr-1, which is expressed with fast kinetics in T and NK cells <linkCause>upon</linkCause> IL-2, but not IL-12, <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E28">
+<type class="Physiological_process" />
+<theme idref1="A7" idref="A6" />
+<cause idref="T23" />
+<clue>This was identified as the mRNA encoding the transcription factor egr-1, which is expressed with fast kinetics in T and NK cells <linkCause>upon</linkCause> IL-2, but not IL-12, <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E29">
+<type class="Physiological_process" />
+<theme idref1="A7" idref="A5" />
+<cause idref="T24" />
+<clue>This was identified as the mRNA encoding the transcription factor egr-1, which is expressed with fast kinetics in T and NK cells <linkCause>upon</linkCause> IL-2, but not IL-12, <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E30">
+<type class="Physiological_process" />
+<theme idref1="A7" idref="A6" />
+<cause idref="T24" />
+<clue>This was identified as the mRNA encoding the transcription factor egr-1, which is expressed with fast kinetics in T and NK cells <linkCause>upon</linkCause> IL-2, but not IL-12, <clueType>stimulation</clueType>.</clue>
+</event>
+<sentence id="S5">Analysis of the accumulation of <term sem="Protein_family_or_group" id="T25" lex="mRNA-encoding_member"><term sem="RNA_family_or_group" id="T26" lex="mRNA">mRNA</term>-encoding members</term> of the <term sem="Protein_family_or_group" id="T27" lex="AP-1_transcription_factor_family">AP-1 transcription factor family</term> demonstrated that <term sem="DNA_domain_or_region" id="T28" lex="c-fos">c-fos</term> and <term sem="DNA_domain_or_region" id="T29" lex="junB">junB</term> are also expressed upon stimulation of <cons sem="(AND Cell_natural Cell_natural)" id="T30" lex="(AND NK_cell T_cell)"><frag id="F10"><term sem="Cell_natural" id="A8">NK</term></frag> and <frag id="F11"><term sem="Cell_natural" id="A9">T</term></frag> <frag id="F12"><term sem="Cell_natural" id="A10">cells</term></frag></cons> with <term sem="Protein_molecule" id="T31" lex="IL-2">IL-2</term>, but not <term sem="Protein_molecule" id="T32" lex="IL-12">IL-12</term>, whereas expression of <term sem="DNA_domain_or_region" id="T33" lex="c-jun">c-jun</term> and <term sem="DNA_domain_or_region" id="T34" lex="junD">junD</term> is not modified by either <term sem="Protein_family_or_group" id="T35" lex="cytokine">cytokine</term>.</sentence>
+<event id="E31">
+<type class="Gene_expression" />
+<theme idref="T28" />
+<clue>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family demonstrated that c-fos and junB are also <clueType>expressed</clueType> upon stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+</event>
+<event id="E32">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family demonstrated that c-fos and junB are also <clueType>expressed</clueType> upon stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+</event>
+<event id="E33">
+<type class="Physiological_process" />
+<theme idref1="A10" idref="A8" />
+<cause idref="T31" />
+<clue>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family demonstrated that c-fos and junB are also expressed upon <clueType>stimulation</clueType> <linkTheme>of</linkTheme> NK and T cells <linkCause>with</linkCause> IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+</event>
+<event id="E34">
+<type class="Physiological_process" />
+<theme idref1="A10" idref="A9" />
+<cause idref="T31" />
+<clue>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family demonstrated that c-fos and junB are also expressed upon <clueType>stimulation</clueType> <linkTheme>of</linkTheme> NK and T cells <linkCause>with</linkCause> IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+</event>
+<event id="E35">
+<type class="Physiological_process" />
+<theme idref1="A10" idref="A8" />
+<cause idref="T32" />
+<clue>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family demonstrated that c-fos and junB are also expressed upon <clueType>stimulation</clueType> <linkTheme>of</linkTheme> NK and T cells <linkCause>with</linkCause> IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+</event>
+<event id="E36">
+<type class="Physiological_process" />
+<theme idref1="A10" idref="A9" />
+<cause idref="T32" />
+<clue>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family demonstrated that c-fos and junB are also expressed upon <clueType>stimulation</clueType> <linkTheme>of</linkTheme> NK and T cells <linkCause>with</linkCause> IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+</event>
+<event id="E">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<cause idref="E33" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed <linkCause>upon</linkCause> stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<cause idref="E34" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed <linkCause>upon</linkCause> stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="E33" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed <linkCause>upon</linkCause> stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="E34" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed <linkCause>upon</linkCause> stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event assertion="non-exist" id="E40">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<cause idref="E35" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed <linkCause>upon</linkCause> stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event assertion="non-exist" id="E41">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<cause idref="E36" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed <linkCause>upon</linkCause> stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event assertion="non-exist" id="E42">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="E35" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed <linkCause>upon</linkCause> stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event assertion="non-exist" id="E43">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="E36" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed <linkCause>upon</linkCause> stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E44">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed upon stimulation of NK and T cells with IL-2, but not IL-12, whereas <clueType>expression</clueType> <linkTheme>of</linkTheme> c-jun and junD is not modified by either cytokine.</clue>
+</event>
+<event id="E45">
+<type class="Gene_expression" />
+<theme idref="T34" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed upon stimulation of NK and T cells with IL-2, but not IL-12, whereas <clueType>expression</clueType> <linkTheme>of</linkTheme> c-jun and junD is not modified by either cytokine.</clue>
+</event>
+<event assertion="non-exist" id="E46">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<cause idref="T31" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed upon stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not <clueType>modified</clueType> <linkCause>by</linkCause> <corefCause>either cytokine</corefCause>.</clue>
+</event>
+<event assertion="non-exist" id="E47">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="T31" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed upon stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not <clueType>modified</clueType> <linkCause>by</linkCause> <corefCause>either cytokine</corefCause>.</clue>
+</event>
+<event assertion="non-exist" id="E48">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<cause idref="T32" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed upon stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not <clueType>modified</clueType> <linkCause>by</linkCause> <corefCause>either cytokine</corefCause>.</clue>
+</event>
+<event assertion="non-exist" id="E49">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="T32" />
+<clue><clueExperiment>Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family</clueExperiment> demonstrated that c-fos and junB are also expressed upon stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not <clueType>modified</clueType> <linkCause>by</linkCause> <corefCause>either cytokine</corefCause>.</clue>
+</event>
+<sentence id="S6">Accordingly, increased <term sem="Other" id="T36" lex="AP-1_DNA-binding_activity"><term sem="Protein_molecule" id="T37" lex="AP-1">AP-1</term> <term sem="DNA_molecule" id="A11">DNA</term>-binding activity</term> and <term sem="Other" id="T38" lex="AP-1-dependent_transcriptional_activity"><term sem="Protein_molecule" id="T39" lex="AP-1">AP-1</term>-dependent <term sem="Other" id="A12">transcriptional activity</term></term> were detected exclusively in <term sem="Cell_cultured" id="T40" lex="IL-2-stimulated_cell"><term sem="Protein_molecule" id="T41" lex="IL-2">IL-2</term>-stimulated <term sem="Cell_natural" id="A13">cells</term></term>.</sentence>
+<event id="E50">
+<type class="Binding" />
+<theme idref="T37" />
+<theme idref="A11" />
+<clue>Accordingly, increased AP-1 DNA-<clueType>binding</clueType> activity and AP-1-dependent transcriptional activity were detected exclusively <clueLoc>in IL-2-stimulated cells</clueLoc>.</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation" />
+<theme idref="E50" />
+<clue>Accordingly, <clueType>increased</clueType> AP-1 DNA-binding activity and AP-1-dependent transcriptional activity were detected exclusively <clueLoc>in IL-2-stimulated cells</clueLoc>.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation" />
+<theme idref="A12" />
+<cause idref="T39" />
+<clue>Accordingly, increased AP-1 DNA-binding activity and AP-1-<clueType>dependent</clueType> transcriptional activity were detected exclusively <clueLoc>in IL-2-stimulated cells</clueLoc>.</clue>
+</event>
+<event id="E53">
+<type class="Physiological_process" />
+<theme idref="A13" />
+<cause idref="T41" />
+<clue>Accordingly, increased AP-1 DNA-binding activity and AP-1-dependent transcriptional activity were detected exclusively in IL-2-<clueType>stimulated</clueType> cells.</clue>
+</event>
+<sentence id="S7">Analysis of the expression of <term sem="DNA_domain_or_region" id="A15"><term sem="DNA_domain_or_region" id="T42" lex="gene">genes</term> reported to regulate <term sem="Other" id="T43" lex="cytokine-induced_proliferation"><term sem="Protein_family_or_group" id="T44" lex="cytokine">cytokine</term>-induced <term sem="Other" id="A14">proliferation</term></term></term> demonstrated that both <term sem="Protein_molecule" id="T45" lex="IL-2">IL-2</term> and <term sem="Protein_molecule" id="T46" lex="IL-12">IL-12</term> induce <term sem="Other" id="T47" lex="c-myc_mRNA_accumulation"><term sem="RNA_molecule" id="T48" lex="c-myc_mRNA">c-myc mRNA</term> accumulation</term> in <cons sem="(AND Cell_natural Cell_natural)" id="T49" lex="(AND NK_cell T_cell)"><frag id="F13">NK</frag> and <frag id="F14">T</frag> <frag id="F15">cells</frag></cons>, whereas only <term sem="Protein_molecule" id="T50" lex="IL-2">IL-2</term> induces <term sem="Other" id="T51" lex="bcl-2_expression"><term sem="DNA_domain_or_region" id="T52" lex="bcl-2">bcl-2</term> expression</term>.</sentence>
+<event uncertainty="doubtful" id="E54">
+<type class="Gene_expression" />
+<theme idref="A15" />
+<clue>Analysis of the <clueType>expression</clueType> <linkTheme>of</linkTheme> genes reported to regulate cytokine-induced proliferation demonstrated that both IL-2 and IL-12 induce c-myc mRNA accumulation in NK and T cells, whereas only IL-2 induces bcl-2 expression.</clue>
+<comment>TPS A15</comment>
+</event>
+<event id="E55">
+<type class="Positive_regulation" />
+<theme idref="A14" />
+<cause idref="T44" />
+<clue>Analysis of the expression of genes reported to regulate cytokine-<clueType>induced</clueType> proliferation demonstrated that both IL-2 and IL-12 induce c-myc mRNA accumulation in NK and T cells, whereas only IL-2 induces bcl-2 expression.</clue>
+</event>
+<event id="E56">
+<type class="Regulation" />
+<theme idref="E55" />
+<cause idref="T42" />
+<clue>Analysis of the expression of genes reported to <clueType>regulate</clueType> cytokine-induced proliferation demonstrated that both IL-2 and IL-12 induce c-myc mRNA accumulation in NK and T cells, whereas only IL-2 induces bcl-2 expression.</clue>
+<comment>NER T42 MOD</comment>
+</event>
+<event id="E57">
+<type class="Positive_regulation" />
+<theme idref="T48" />
+<clue>Analysis of the expression of genes reported to regulate cytokine-induced proliferation demonstrated that both IL-2 and IL-12 induce c-myc mRNA <clueType>accumulation</clueType> in NK and T cells, whereas only IL-2 induces bcl-2 expression.</clue>
+</event>
+<event id="E58">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref="T45" />
+<clue>Analysis of the expression of genes reported to regulate cytokine-induced proliferation demonstrated that both IL-2 and IL-12 <clueType>induce</clueType> c-myc mRNA accumulation <clueLoc>in NK</clueLoc> and T <clueLoc>cells</clueLoc>, whereas only IL-2 induces bcl-2 expression.</clue>
+</event>
+<event id="E580">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref="T45" />
+<clue>Analysis of the expression of genes reported to regulate cytokine-induced proliferation demonstrated that both IL-2 and IL-12 <clueType>induce</clueType> c-myc mRNA accumulation <clueLoc>in</clueLoc> NK and <clueLoc>T cells</clueLoc>, whereas only IL-2 induces bcl-2 expression.</clue>
+</event>
+<event id="E59">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref="T46" />
+<clue>Analysis of the expression of genes reported to regulate cytokine-induced proliferation demonstrated that both IL-2 and IL-12 <clueType>induce</clueType> c-myc mRNA accumulation <clueLoc>in NK</clueLoc> and T <clueLoc>cells</clueLoc>, whereas only IL-2 induces bcl-2 expression.</clue>
+</event>
+<event id="E590">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref="T46" />
+<clue>Analysis of the expression of genes reported to regulate cytokine-induced proliferation demonstrated that both IL-2 and IL-12 <clueType>induce</clueType> c-myc mRNA accumulation <clueLoc>in</clueLoc> NK and <clueLoc>T cells</clueLoc>, whereas only IL-2 induces bcl-2 expression.</clue>
+</event>
+<event id="E60">
+<type class="Gene_expression" />
+<theme idref="T52" />
+<clue>Analysis of the expression of genes reported to regulate cytokine-induced proliferation demonstrated that both IL-2 and IL-12 induce c-myc mRNA accumulation in NK and T cells, whereas only IL-2 induces bcl-2 <clueType>expression</clueType>.</clue>
+</event>
+<event id="E61">
+<type class="Positive_regulation" />
+<theme idref="E60" />
+<cause idref="T50" />
+<clue>Analysis of the expression of genes reported to regulate cytokine-induced proliferation demonstrated that both IL-2 and IL-12 induce c-myc mRNA accumulation in NK and T cells, whereas only IL-2 <clueType>induces</clueType> bcl-2 expression.</clue>
+</event>
+<sentence id="S8">Our data provide the first demonstration that <term sem="Other" id="T53" lex="IL-12-mediated_activation"><term sem="Protein_molecule" id="T54" lex="IL-12">IL-12</term>-mediated activation</term> of <cons sem="(AND Cell_natural Cell_natural)" id="T55" lex="(AND T_cell NK_cell)"><frag id="F16"><term sem="Cell_natural" id="A18">T</term></frag> and <frag id="F17"><term sem="Cell_natural" id="A16">NK</term></frag> <frag id="F18"><term sem="Cell_natural" id="A17">cells</term></frag></cons> does not involve expression of members of the <term sem="DNA_family_or_group" id="T56" lex="immediate-early_activation_genes_family">immediate-early activation genes family</term> (<term sem="DNA_domain_or_region" id="T57" lex="egr-1">egr-1</term>, <term sem="DNA_domain_or_region" id="T58" lex="c-fos">c-fos</term>, and <term sem="DNA_domain_or_region" id="T59" lex="junB">junB</term>), <term sem="Other" id="T60" lex="AP-1_transcriptional_activity"><term sem="Protein_molecule" id="T61" lex="AP-1">AP-1</term> transcriptional activity</term>, or <term sem="Other" id="T62" lex="bcl-2_expression"><term sem="DNA_domain_or_region" id="T63" lex="bcl-2">bcl-2</term> expression</term>.</sentence>
+<event id="E62">
+<type class="Physiological_process" />
+<theme idref1="A17" idref="A18" />
+<cause idref="T54" />
+<clue>Our data provide the first demonstration that IL-12-<linkCause>mediated</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> T and NK cells does not involve expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event id="E63">
+<type class="Physiological_process" />
+<theme idref1="A17" idref="A16" />
+<cause idref="T54" />
+<clue>Our data provide the first demonstration that IL-12-<linkCause>mediated</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> T and NK cells does not involve expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event id="E64">
+<type class="Gene_expression" />
+<theme idref="T57" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not involve <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>members of the immediate-early activation genes family</corefTheme> (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event id="E65">
+<type class="Gene_expression" />
+<theme idref="T58" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not involve <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>members of the immediate-early activation genes family</corefTheme> (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event id="E66">
+<type class="Gene_expression" />
+<theme idref="T59" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not involve <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>members of the immediate-early activation genes family</corefTheme> (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event id="E67">
+<type class="Positive_regulation" />
+<cause idref="T61" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not involve expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 <clueType>transcriptional activity</clueType>, or bcl-2 expression.</clue>
+</event>
+<event id="E68">
+<type class="Gene_expression" />
+<theme idref="T63" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not involve expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 <clueType>expression</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E69">
+<type class="Correlation" />
+<theme idref="E62" />
+<theme idref="E64" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not <clueType>involve</clueType> expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event assertion="non-exist" id="E70">
+<type class="Correlation" />
+<theme idref="E62" />
+<theme idref="E65" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not <clueType>involve</clueType> expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event assertion="non-exist" id="E71">
+<type class="Correlation" />
+<theme idref="E62" />
+<theme idref="E66" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not <clueType>involve</clueType> expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event assertion="non-exist" id="E72">
+<type class="Correlation" />
+<theme idref="E62" />
+<theme idref="E67" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not <clueType>involve</clueType> expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event assertion="non-exist" id="E73">
+<type class="Correlation" />
+<theme idref="E62" />
+<theme idref="E68" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not <clueType>involve</clueType> expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event assertion="non-exist" id="E74">
+<type class="Correlation" />
+<theme idref="E63" />
+<theme idref="E64" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not <clueType>involve</clueType> expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event assertion="non-exist" id="E75">
+<type class="Correlation" />
+<theme idref="E63" />
+<theme idref="E68" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not <clueType>involve</clueType> expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event assertion="non-exist" id="E76">
+<type class="Correlation" />
+<theme idref="E63" />
+<theme idref="E65" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not <clueType>involve</clueType> expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event assertion="non-exist" id="E77">
+<type class="Correlation" />
+<theme idref="E63" />
+<theme idref="E66" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not <clueType>involve</clueType> expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<event assertion="non-exist" id="E78">
+<type class="Correlation" />
+<theme idref="E63" />
+<theme idref="E67" />
+<clue>Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not <clueType>involve</clueType> expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.</clue>
+</event>
+<sentence id="S9">This indicates that functional differences observed in <cons sem="(AND Cell_cultured Cell_cultured)" id="T64" lex="(AND IL-2-stimulated_cell IL-12-stimulated_cell)"><frag id="F19"><term sem="Protein_family_or_group" id="A19">IL-2</term>-</frag> and <frag id="F20"><term sem="Protein_family_or_group" id="A20">IL-12</term>-</frag><frag id="F21">stimulated <term sem="Cell_natural" id="A21">cells</term></frag></cons> may depend, at least in part, on <term sem="Other" id="T65" lex="differential_gene_regulation">differential gene regulation</term>.</sentence>
+<event uncertainty="probable" id="E79">
+<type class="Physiological_process" />
+<theme idref="A21" />
+<cause idref="A19" />
+<clue>This indicates that functional differences observed in IL-2- and IL-12-<clueType>stimulated</clueType> cells may depend, at least in part, on differential gene regulation.</clue>
+</event>
+<event uncertainty="probable" id="E80">
+<type class="Physiological_process" />
+<theme idref="A21" />
+<cause idref="A20" />
+<clue>This indicates that functional differences observed in IL-2- and IL-12-<clueType>stimulated</clueType> cells may depend, at least in part, on differential gene regulation.</clue>
+</event>
+<event uncertainty="probable" id="E81">
+<type class="Positive_regulation" />
+<theme idref="E79" />
+<cause idref="T65" />
+<clue>This indicates that functional differences observed in IL-2- and IL-12-stimulated cells may <clueType>depend</clueType>, at least in part, <linkCause>on</linkCause> differential gene regulation.</clue>
+</event>
+<event uncertainty="probable" id="E82">
+<type class="Positive_regulation" />
+<theme idref="E80" />
+<cause idref="T65" />
+<clue>This indicates that functional differences observed in IL-2- and IL-12-stimulated cells may <clueType>depend</clueType>, at least in part, <linkCause>on</linkCause> differential gene regulation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

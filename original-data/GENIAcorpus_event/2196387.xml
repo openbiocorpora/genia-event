@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="08/04/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2196387">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2196387</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="inducible_nuclear_factor_binding">Inducible <term sem="Protein_family_or_group" id="T2" lex="nuclear_factor">nuclear factor</term> binding</term> to the <term sem="DNA_family_or_group" id="T3" lex="kappa_B_element">kappa B elements</term> of the <term sem="DNA_domain_or_region" id="T4" lex="human_immunodeficiency_virus_enhancer"><term sem="Virus" id="T5" lex="human_immunodeficiency_virus">human immunodeficiency virus</term> enhancer</term> in <term sem="Cell_natural" id="T6" lex="T_cell">T cells</term> can be blocked by <term sem="Organic_compound_other" id="T7" lex="cyclosporin_A">cyclosporin A</term> in a <term sem="Other" id="T8" lex="signal-dependent_manner">signal-dependent manner</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T2" />
+<theme idref="T3" />
+<clue>Inducible nuclear factor <clueType>binding</clueType> <linkTheme>to</linkTheme> the kappa B elements of the human immunodeficiency virus enhancer <clueLoc>in T cells</clueLoc> can be blocked by cyclosporin A in a signal-dependent manner.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue><clueType>Inducible</clueType> nuclear factor binding to the kappa B elements of the human immunodeficiency virus enhancer in T cells can be blocked by cyclosporin A in a signal-dependent manner.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="T7" />
+<clue>Inducible nuclear factor binding to the kappa B elements of the human immunodeficiency virus enhancer in T cells can be <clueType>blocked</clueType> <linkCause>by</linkCause> cyclosporin A in a signal-dependent manner.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Organic_compound_other" id="T9" lex="cyclosporin_A">Cyclosporin A</term> (<term sem="Organic_compound_other" id="T10" lex="CsA">CsA</term>) is thought to exert its <term sem="Other" id="T11" lex="immunosuppressive_effect">immunosuppressive effects</term> by inhibiting the expression of a distinct set of <term sem="DNA_domain_or_region" id="T12" lex="lymphokine_gene">lymphokine genes</term> which are induced upon <term sem="Other" id="T13" lex="T-cell_activation"><term sem="Cell_natural" id="A1">T-cell</term> activation</term>, among them the <term sem="DNA_domain_or_region" id="A2">gene coding for <term sem="Protein_molecule" id="T14" lex="interleukin-2">interleukin-2</term></term>.</sentence>
+<event id="E26">
+<type class="Negative_regulation" />
+<cause idref="E8" />
+<clue>Cyclosporin A (CsA) is thought to exert its <clueType>immunosuppressive effects</clueType> <linkCause>by</linkCause> inhibiting the expression of a distinct set of lymphokine genes which are induced upon T-cell activation, among them the gene coding for interleukin-2.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<cause idref="E10" />
+<clue>Cyclosporin A (CsA) is thought to exert its <clueType>immunosuppressive effects</clueType> <linkCause>by</linkCause> inhibiting the expression of a distinct set of lymphokine genes which are induced upon T-cell activation, among them the gene coding for interleukin-2.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T12" />
+<clue>Cyclosporin A (CsA) is thought to exert its immunosuppressive effects by inhibiting the <clueType>expression</clueType> <linkTheme>of</linkTheme> a distinct set of lymphokine genes which are induced upon T-cell activation, among them the gene coding for interleukin-2.</clue>
+</event>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<clue>Cyclosporin A (CsA) is thought to exert its immunosuppressive effects by inhibiting the expression of a distinct set of lymphokine genes which are induced upon T-cell <clueType>activation</clueType>, among them the gene coding for interleukin-2.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E5" />
+<clue>Cyclosporin A (CsA) is thought to exert its immunosuppressive effects by inhibiting the expression of a distinct set of lymphokine genes which are <clueType>induced</clueType> <linkCause>upon</linkCause> T-cell activation, among them the gene coding for interleukin-2.</clue>
+</event>
+<event uncertainty="probable" id="E8">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="T10" />
+<clue>Cyclosporin A (CsA) is thought to exert its immunosuppressive effects by <clueType>inhibiting</clueType> the expression of a distinct set of lymphokine genes which are induced upon T-cell activation, among them the gene coding for interleukin-2.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>Cyclosporin A (CsA) is thought to exert its immunosuppressive effects by inhibiting the <clueType>expression</clueType> <linkTheme>of</linkTheme> a <corefTheme>distinct set of lymphokine genes which are induced upon T-cell activation</corefTheme>, among them the gene coding for interleukin-2.</clue>
+<comment>TPS: A2</comment>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="T10" />
+<clue>Cyclosporin A (CsA) is thought to exert its immunosuppressive effects by <clueType>inhibiting</clueType> the expression of a distinct set of lymphokine genes which are induced upon T-cell activation, among them the gene coding for interleukin-2.</clue>
+</event>
+<sentence id="S3">In addition, the activation of the <term sem="Virus" id="T15" lex="human_immunodeficiency_virus">human immunodeficiency virus</term> (<term sem="Virus" id="T16" lex="HIV">HIV</term>) is partially suppressed.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<clue>In addition, the <clueType>activation</clueType> <linkTheme>of</linkTheme> the human immunodeficiency virus (HIV) is partially suppressed.</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="T16" />
+<cause idref="T10" />
+<clue>In addition, the activation of the human immunodeficiency virus (HIV) is partially <clueType>suppressed</clueType>.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<sentence id="S4">To better understand the molecular mechanisms underlying suppression by <term sem="Organic_compound_other" id="T17" lex="CsA">CsA</term>, we have investigated the effects of this drug on <term sem="Protein_family_or_group" id="T18" lex="transcription_factor">transcription factors</term> in <term sem="Cell_natural" id="T19" lex="T_cell">T cells</term>.</sentence>
+<event id="E13">
+<type class="Negative_regulation" />
+<cause idref="T17" />
+<clue>To better understand the molecular mechanisms underlying <clueType>suppression</clueType> <linkCause>by</linkCause> CsA, we have investigated the effects of this drug on transcription factors in T cells.</clue>
+<comment>NO THEME</comment>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Regulation" />
+<theme idref="T18" />
+<cause idref="T17" />
+<clue>To better understand the molecular mechanisms underlying suppression by CsA, we have investigated the <clueType>effects</clueType> <linkCause>of</linkCause> <corefCause>this drug</corefCause> <linkTheme>on</linkTheme> transcription factors <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">Here we report that the formation of two distinct <term sem="Protein_complex" id="T20" lex="mitogen-inducible_DNA-binding_complex">mitogen-inducible DNA-binding complexes</term>, the <term sem="Protein_complex" id="T21" lex="kappa_B_complex">kappa B complex</term> within the <term sem="DNA_domain_or_region" id="T22" lex="HIV_enhancer">HIV enhancer</term> and the <term sem="Protein_complex" id="T23" lex="NFAT-1_complex">NFAT-1 complex</term> within the <term sem="DNA_domain_or_region" id="T24" lex="interleukin-2_enhancer"><term sem="Protein_molecule" id="T25" lex="interleukin-2">interleukin-2</term> enhancer</term>, is inhibited in the presence of <term sem="Organic_compound_other" id="T26" lex="CsA">CsA</term>.</sentence>
+<event id="E15">
+<type class="Protein_metabolism" />
+<theme idref="T20" />
+<clue>Here we report that the <clueType>formation</clueType> <linkTheme>of</linkTheme> two distinct mitogen-inducible DNA-binding complexes, the kappa B complex within the HIV enhancer and the NFAT-1 complex within the interleukin-2 enhancer, is inhibited in the presence of CsA.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T21" />
+<theme idref="T22" />
+<clue>Here we report that the <clueType>formation</clueType> of two distinct mitogen-inducible DNA-binding complexes, the kappa B complex <linkTheme>within</linkTheme> the HIV enhancer and the NFAT-1 complex within the interleukin-2 enhancer, is inhibited in the presence of CsA.</clue>
+</event>
+<event id="E7">
+<type class="Binding" />
+<theme idref="T23" />
+<theme idref="T24" />
+<clue>Here we report that the <clueType>formation</clueType> of two distinct mitogen-inducible DNA-binding complexes, the kappa B complex within the HIV enhancer and the NFAT-1 complex <linkTheme>within</linkTheme> the interleukin-2 enhancer, is inhibited in the presence of CsA.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T26" />
+<clue>Here we report that the formation of two distinct mitogen-inducible DNA-binding complexes, the kappa B complex within the HIV enhancer and the NFAT-1 complex within the interleukin-2 enhancer, is <clueType>inhibited</clueType> <linkCause>in the presence of</linkCause> CsA.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E7" />
+<cause idref="T26" />
+<clue>Here we report that the formation of two distinct mitogen-inducible DNA-binding complexes, the kappa B complex within the HIV enhancer and the NFAT-1 complex within the interleukin-2 enhancer, is <clueType>inhibited</clueType> <linkCause>in the presence of</linkCause> CsA.</clue>
+</event>
+<sentence id="S6">The <term sem="Other" id="T27" lex="kappa_B-binding_activity"><term sem="Protein_complex" id="A3">kappa B</term>-binding activity</term> with the <term sem="DNA_domain_or_region" id="T28" lex="HIV_enhancer">HIV enhancer</term> is inhibited only if it is activated via the <term sem="Protein_family_or_group" id="T29" lex="mitogen">mitogen</term> <term sem="Protein_molecule" id="T30" lex="phytohemagglutinin">phytohemagglutinin</term> whereas <term sem="Other" id="T31" lex="phorbol_myristate_acetate-mediated_activation"><term sem="Organic_compound_other" id="T32" lex="phorbol_myristate_acetate">phorbol myristate acetate</term>-mediated activation</term> is completely insensitive to the drug.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="A3" />
+<theme idref="T28" />
+<clue>The kappa B-<clueType>binding activity</clueType> <linkTheme>with</linkTheme> the HIV enhancer is inhibited only if it is activated via the mitogen phytohemagglutinin whereas phorbol myristate acetate-mediated activation is completely insensitive to the drug.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="E22" />
+<clue>The kappa B-binding activity with the HIV enhancer is <clueType>inhibited</clueType> <linkCause>only if</linkCause> it is activated via the mitogen phytohemagglutinin whereas phorbol myristate acetate-mediated activation is completely insensitive to the drug.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="T26" />
+<clue>The kappa B-binding activity with the HIV enhancer is inhibited only if it is activated via the mitogen phytohemagglutinin whereas phorbol myristate acetate-mediated activation is completely <clueType>insensitive</clueType> <linkCause>to</linkCause> <corefCause>the drug</corefCause>.</clue>
+<comment>CAUTION, inhibited not</comment>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T30" />
+<clue>The kappa B-binding activity with the HIV enhancer is inhibited only if <corefTheme>it</corefTheme> is <clueType>activated</clueType> <linkCause>via</linkCause> the mitogen phytohemagglutinin whereas phorbol myristate acetate-mediated activation is completely insensitive to the drug.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T32" />
+<clue>The kappa B-binding activity with the HIV enhancer is inhibited only if it is activated via the mitogen phytohemagglutinin whereas phorbol myristate acetate<linkCause>-mediated</linkCause> <clueType>activation</clueType> is completely insensitive to the drug.</clue>
+</event>
+<sentence id="S7">This suggests a model in which functionally indistinguishable <term sem="Protein_complex" id="T33" lex="kappa_B_complex">kappa B complexes</term> can be activated via two separate <term sem="Other" id="A4">pathways of <term sem="Other" id="T34" lex="signal_transduction">signal transduction</term></term> distinguishable by <term sem="Organic_compound_other" id="T35" lex="CsA">CsA</term>.</sentence>
+<event uncertainty="probable" id="E24">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="T35" />
+<clue>This suggests a model in which functionally indistinguishable kappa B complexes can be activated via two separate pathways of signal transduction <clueType>distinguishable</clueType> <linkCause>by</linkCause> CsA.</clue>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="A4" />
+<clue>This suggests a model in which functionally indistinguishable kappa B complexes can be <clueType>activated</clueType> <linkCause>via</linkCause> two separate pathways of signal transduction distinguishable by CsA.</clue>
+<comment>TPS: A4</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

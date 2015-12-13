@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/12/02" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2278044" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2278044</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Functional analysis of <term sem="DNA_domain_or_region" id="A101"><term sem="DNA_family_or_group" id="T1" lex="cis-linked_regulatory_sequence">cis-linked regulatory sequences</term> in the <term sem="DNA_domain_or_region" id="T2" lex="HLA_DRA_promoter">HLA DRA promoter</term></term> by <term sem="Other" id="T3" lex="transcription">transcription</term> in vitro.</sentence>
+<event id="E100">
+<type class="Transcription" />
+<theme idref="A101" />
+<clue>Functional analysis of cis-linked regulatory sequences in the HLA DRA promoter by <clueType>transcription</clueType> in vitro.</clue>
+</event>
+<event uncertainty="doubtful" id="E101">
+<type class="Regulation" />
+<cause idref="A101" />
+<clue><clueType>Functional</clueType> analysis <linkCause>of</linkCause> cis-linked regulatory sequences in the HLA DRA promoter by transcription in vitro.</clue>
+<comment>NO THEME</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Two consensus sequences, called <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T4" lex="(AND X_box Y_box)"><frag id="F1">X</frag> and <frag id="F2">Y</frag> <frag id="F3">boxes</frag></cons>, capable of binding <term sem="Protein_family_or_group" id="T5" lex="nuclear_protein">nuclear proteins</term> and regulating <term sem="Other" id="T6" lex="expression">expression</term> in <term sem="Cell_natural" id="T7" lex="B_cell">B cells</term> have been defined within the immediate upstream region of <term sem="DNA_domain_or_region" id="T8" lex="major_histocompatibility_complex_(MHC)_class_II_promoter">major histocompatibility complex (MHC) class II promoters</term>.</sentence>
+<event id="E2">
+<type class="Binding" />
+<theme idref1="F3" idref="F1" />
+<theme idref="T5" />
+<clue>Two <corefTheme idref1="F1" idref2="F3">consensus sequences</corefTheme>, called X and Y boxes, capable of <clueType>binding</clueType> nuclear proteins and regulating expression in B cells have been defined within the immediate upstream region of major histocompatibility complex (MHC) class II promoters.</clue>
+</event>
+<event id="E3">
+<type class="Binding" />
+<theme idref1="F3" idref="F2" />
+<theme idref="T5" />
+<clue>Two <corefTheme idref1="F2" idref2="F3">consensus sequences</corefTheme>, called X and Y boxes, capable of <clueType>binding</clueType> nuclear proteins and regulating expression in B cells have been defined within the immediate upstream region of major histocompatibility complex (MHC) class II promoters.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T6" />
+<cause idref1="F3" idref="F1" />
+<clue>Two consensus sequences, called X and Y boxes, capable of binding nuclear proteins and <clueType>regulating</clueType> expression <clueLoc>in B cells</clueLoc> have been defined within the immediate upstream region of major histocompatibility complex (MHC) class II promoters.</clue>
+</event>
+<event id="E40">
+<type class="Regulation" />
+<theme idref="T6" />
+<cause idref1="F3" idref="F2" />
+<clue>Two consensus sequences, called X and Y boxes, capable of binding nuclear proteins and <clueType>regulating</clueType> expression <clueLoc>in B cells</clueLoc> have been defined within the immediate upstream region of major histocompatibility complex (MHC) class II promoters.</clue>
+</event>
+<sentence id="S3">Unlike other <term sem="DNA_family_or_group" id="T9" lex="class_II_promoter">class II promoters</term>, the <term sem="DNA_domain_or_region" id="T10" lex="HLA-DR_alpha_(DRA)_promoter">HLA-DR alpha (DRA) promoter</term> also contains one element identical to the <term sem="DNA_domain_or_region" id="A30"><term sem="DNA_domain_or_region" id="T11" lex="&quot;octamer&quot;_motif">&quot;octamer&quot; motif</term> of <term sem="DNA_family_or_group" id="T12" lex="immunoglobulin_variable_region_promoter">immunoglobulin variable region promoters</term></term> that is responsible for B cell-specific <term sem="Other" id="T14" lex="transcription">transcription</term>.</sentence>
+<event id="E300">
+<type class="Regulation" />
+<theme idref="T14" />
+<cause idref="A30" />
+<clue>Unlike other class II promoters, the HLA-DR alpha (DRA) promoter also contains one element identical to the &quot;octamer&quot; motif of immunoglobulin variable region promoters that is <clueType>responsible</clueType> <linkTheme>for</linkTheme> <clueLoc>B cell</clueLoc>-specific transcription.</clue>
+<comment>TPS A30: NER: T13 del &quot;B cell-specific transcription!</comment>
+</event>
+<sentence id="S4">This &quot;<term sem="DNA_domain_or_region" id="T15" lex="octamer">octamer</term>&quot; in the context of <term sem="Protein_molecule" id="T16" lex="DRA">DRA</term> appears capable of binding both the <term sem="Protein_family_or_group" id="T17" lex="ubiquitous_octamer_binding_protein">ubiquitous</term> (<term sem="Protein_molecule" id="T18" lex="OTF-1">OTF-1</term>) and <term sem="Protein_molecule" id="T19" lex="lymphoid-specific_(OTF-2)_&quot;octamer&quot;_binding_protein">lymphoid-specific (<term sem="Protein_molecule" id="T20" lex="OTF-2">OTF-2</term>) &quot;octamer&quot; binding proteins</term>, but at least one other distinct <term sem="Protein_complex" id="T21" lex="&quot;octamer&quot;_complex">&quot;octamer&quot; complex</term> was found.</sentence>
+<event id="E5">
+<type class="Binding" />
+<theme idref="A30" />
+<theme idref="T18" />
+<clue><corefTheme idref1="A30">This &quot;octamer</corefTheme>&quot; in the context of DRA appears capable of <clueType>binding</clueType> both the ubiquitous (OTF-1) and lymphoid-specific (OTF-2) &quot;octamer&quot; binding proteins, but at least one other distinct &quot;octamer&quot; complex was found.</clue>
+</event>
+<event id="E6">
+<type class="Binding" />
+<theme idref="A30" />
+<theme idref="T20" />
+<clue><corefTheme idref1="A30">This &quot;octamer</corefTheme>&quot; in the context of DRA appears capable of <clueType>binding</clueType> both the ubiquitous (OTF-1) and lymphoid-specific (OTF-2) &quot;octamer&quot; binding proteins, but at least one other distinct &quot;octamer&quot; complex was found.</clue>
+</event>
+<sentence id="S5">In order to characterize the function of <term sem="DNA_family_or_group" id="T22" lex="cis-acting_element">cis-acting elements</term>, we have developed an in vitro system in which a <term sem="DNA_molecule" id="T23" lex="DRA_promoter_construct">DRA promoter construct</term> is transcribed more efficiently in <term sem="Cell_component" id="T24" lex="extract">extracts</term> from <term sem="Cell_natural" id="T25" lex="B_cell">B cells</term> than in <term sem="Cell_component" id="T26" lex="extract">extracts</term> from <term sem="Cell_cultured" id="T27" lex="class_II-negative_HeLa_cell">class II-negative HeLa cells</term>.</sentence>
+<event uncertainty="doubtful" id="E7">
+<type class="Regulation" />
+<cause idref="T22" />
+<clue>In order to characterize the <clueType>function</clueType> <linkCause>of</linkCause> cis-acting elements, we have developed an in vitro system in which a DRA promoter construct is transcribed more efficiently in extracts from B cells than in extracts from class II-negative HeLa cells.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E8">
+<type class="Transcription" />
+<theme idref="T23" />
+<clue>In order to characterize the function of cis-acting elements, we have developed an in vitro system in which a DRA promoter construct is <clueType>transcribed</clueType> more efficiently <clueLoc>in extracts from B cells</clueLoc> than in extracts from class II-negative HeLa cells.</clue>
+</event>
+<event id="E9">
+<type class="Transcription" />
+<theme idref="T23" />
+<clue>In order to characterize the function of cis-acting elements, we have developed an in vitro system in which a DRA promoter construct is <clueType>transcribed</clueType> more efficiently in extracts from B cells than <clueLoc>in extracts from class II-negative HeLa cells</clueLoc>.</clue>
+</event>
+<sentence id="S6">5&apos; deletion constructs which lacked the <term sem="DNA_domain_or_region" id="T28" lex="Y_box">Y box</term>, but retained the <term sem="DNA_domain_or_region" id="T29" lex="&quot;octamer&quot;_motif">&quot;octamer&quot; motif</term> and <term sem="DNA_domain_or_region" id="T30" lex="TATA_box">TATA box</term> were completely inactive, and internal deletion of the <term sem="DNA_domain_or_region" id="T31" lex="Y_box">Y box</term> reduced <term sem="Other" id="T32" lex="transcription">transcription</term> by 95%.</sentence>
+<event id="E600">
+<type class="Mutagenesis" />
+<theme idref="T28" />
+<clue><clueLoc>5&apos; deletion constructs</clueLoc> which <clueType>lacked</clueType> the Y box, but retained the &quot;octamer&quot; motif and TATA box were completely inactive, and internal deletion of the Y box reduced transcription by 95%.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<cause idref="E12" />
+<clue>5&apos; deletion constructs which lacked the Y box, but retained the &quot;octamer&quot; motif and TATA box were completely inactive, and internal deletion of the Y box <clueType>reduced</clueType> <corefTheme>transcription</corefTheme> by 95%.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="E12" />
+<clue>5&apos; deletion constructs which lacked the Y box, but retained the &quot;octamer&quot; motif and TATA box were completely inactive, and internal deletion of the Y box <clueType>reduced</clueType> <corefTheme>transcription</corefTheme> by 95%.</clue>
+</event>
+<event id="E12">
+<type class="Mutagenesis" />
+<theme idref="T31" />
+<clue>5&apos; deletion constructs which lacked the Y box, but retained the &quot;octamer&quot; motif and TATA box were completely inactive, and internal <clueType>deletion</clueType> <linkTheme>of</linkTheme> the Y box reduced transcription by 95%.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E60">
+<type class="Negative_regulation" />
+<theme idref="T30" />
+<cause idref="E600" />
+<clue><clueExperiment>5&apos; deletion constructs which lacked the Y box</clueExperiment>, but retained the &quot;octamer&quot; motif and TATA box were completely <clueType>inactive</clueType>, and internal deletion of the Y box reduced transcription by 95%.</clue>
+</event>
+<event id="E61">
+<type class="Negative_regulation" />
+<theme idref="T29" />
+<cause idref="E600" />
+<clue><clueExperiment>5&apos; deletion constructs which lacked the Y box</clueExperiment>, but retained the &quot;octamer&quot; motif and TATA box were completely <clueType>inactive</clueType>, and internal deletion of the Y box reduced transcription by 95%.</clue>
+</event>
+<event id="E110">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<cause idref="E600" />
+<clue>5&apos; deletion constructs which lacked the Y box, but retained the &quot;octamer&quot; motif and TATA box were completely inactive, and internal deletion of the Y box <clueType>reduced</clueType> <corefTheme>transcription</corefTheme> by 95%.</clue>
+</event>
+<event id="E111">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="E600" />
+<clue>5&apos; deletion constructs which lacked the Y box, but retained the &quot;octamer&quot; motif and TATA box were completely inactive, and internal deletion of the Y box <clueType>reduced</clueType> <corefTheme>transcription</corefTheme> by 95%.</clue>
+</event>
+<sentence id="S7">Using supercoiled, but not linear templates, we observed differences in <term sem="Other" id="T33" lex="transcription_efficiency"><term sem="Other" id="T34" lex="transcription">transcription</term> efficiencies</term> from templates lacking or disrupting the <term sem="DNA_domain_or_region" id="T35" lex="X_consensus_element">X consensus element</term> that reflect effects of random replacement of <term sem="DNA_domain_or_region" id="T36" lex="X_box_sequence">X box sequences</term> in <term sem="Other" id="T37" lex="transient_expression_assay">transient expression assays</term>.</sentence>
+<event uncertainty="doubtful" id="E70">
+<type class="Transcription" />
+<theme idref="T35" />
+<clue>Using supercoiled, but not linear templates, we observed differences in <clueType>transcription</clueType> efficiencies from templates lacking or disrupting the X consensus element that reflect effects of random replacement of X box sequences in transient expression assays.</clue>
+<comment>NER: T38 del &quot;expression&quot;</comment>
+</event>
+<event uncertainty="doubtful" id="E701">
+<type class="Mutagenesis" />
+<theme idref="T35" />
+<clue>Using supercoiled, but not linear templates, we observed differences in transcription efficiencies from templates <clueType>lacking</clueType> or disrupting the X consensus element that reflect effects of random replacement of X box sequences in transient expression assays.</clue>
+</event>
+<event uncertainty="doubtful" id="E702">
+<type class="Mutagenesis" />
+<theme idref="T35" />
+<clue>Using supercoiled, but not linear templates, we observed differences in transcription efficiencies from templates lacking or <clueType>disrupting</clueType> the X consensus element that reflect effects of random replacement of X box sequences in transient expression assays.</clue>
+</event>
+<event id="E71">
+<type class="Mutagenesis" />
+<theme idref="T36" />
+<clue>Using supercoiled, but not linear templates, we observed differences in transcription efficiencies from templates lacking or disrupting the X consensus element that reflect effects of random <clueType>replacement</clueType> <linkTheme>of</linkTheme> X box sequences <clueExperiment>in transient expression assays</clueExperiment>.</clue>
+</event>
+<event id="E710">
+<type class="Regulation" />
+<theme idref="E701" />
+<cause idref="E71" />
+<clue>Using supercoiled, but not linear templates, we observed differences in transcription efficiencies from templates lacking or disrupting the X consensus element that reflect <clueType>effects</clueType> <linkCause>of</linkCause> random replacement of X box sequences in transient expression assays.</clue>
+</event>
+<event id="E711">
+<type class="Regulation" />
+<theme idref="E702" />
+<cause idref="E71" />
+<clue>Using supercoiled, but not linear templates, we observed differences in transcription efficiencies from templates lacking or disrupting the X consensus element that reflect <clueType>effects</clueType> <linkCause>of</linkCause> random replacement of X box sequences in transient expression assays.</clue>
+</event>
+<sentence id="S8">Demonstration of the complete dependence on the <term sem="DNA_domain_or_region" id="T39" lex="Y_box">Y box</term> in this system suggests that, despite its demonstrated importance in the <term sem="DNA_domain_or_region" id="T40" lex="DRA_promoter">DRA promoter</term>, the <term sem="DNA_domain_or_region" id="T41" lex="DRA_&quot;octamer&quot;">DRA &quot;octamer&quot;</term> does not utilize <term sem="Protein_molecule" id="T42" lex="OTF-2">OTF-2</term> in a manner analogous to <term sem="DNA_family_or_group" id="T43" lex="immunoglobulin_promoter">immunoglobulin promoters</term> in <term sem="Cell_natural" id="T44" lex="B_cell">B cells</term>.</sentence>
+<event uncertainty="doubtful" id="E13">
+<type class="Positive_regulation" />
+<cause idref="T39" />
+<clue>Demonstration of the complete <clueType>dependence</clueType> <linkCause>on</linkCause> the Y box in this system suggests that, despite its demonstrated importance in the DRA promoter, the DRA &quot;octamer&quot; does not utilize OTF-2 in a manner analogous to immunoglobulin promoters in B cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Regulation" />
+<theme idref="T40" />
+<cause idref="T39" />
+<clue>Demonstration of the complete dependence on the Y box in this system suggests that, despite <corefCause>its</corefCause> demonstrated <clueType>importance</clueType> <linkTheme>in</linkTheme> the DRA promoter, the DRA &quot;octamer&quot; does not utilize OTF-2 in a manner analogous to immunoglobulin promoters in B cells.</clue>
+</event>
+<event assertion="non-exist" uncertainty="doubtful" id="E15">
+<type class="Regulation" />
+<theme idref="T42" />
+<cause idref="T41" />
+<clue>Demonstration of the complete dependence on the Y box in this system suggests that, despite its demonstrated importance in the DRA promoter, the DRA &quot;octamer&quot; does not <clueType>utilize</clueType> OTF-2 in a manner analogous to immunoglobulin promoters <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

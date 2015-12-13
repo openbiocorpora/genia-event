@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="05/10/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9031085"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9031085</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Expression of <term sem="DNA_family_or_group" id="T1" lex="erythroid-specific_gene">erythroid-specific genes</term> in <term sem="Other" id="T2" lex="megakaryoblastic_disorder">megakaryoblastic disorders</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T1" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> erythroid-specific genes in megakaryoblastic disorders.</clue>
+</event>
+<event id="E2">
+<type class="Correlation" />
+<theme idref="E1" />
+<theme idref="T2" />
+<clue>Expression of erythroid-specific genes <linkTheme>in</linkTheme> megakaryoblastic disorders.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Currently available data indicate that <cons sem="(AND Other Other)" id="T3" lex="(AND erythroid_differentiation_pathway megakaryocytic_differentiation_pathway)"><frag id="F1"><term sem="Cell_natural" id="A1">erythroid</term></frag> and <frag id="F2"><term sem="Cell_natural" id="A2">megakaryocytic</term></frag> <frag id="F3">differentiation pathways</frag></cons> are closely related to each other, and there may exist <term sem="Cell_natural" id="T4" lex="progenitor_cell">progenitor cells</term> common to those two lineages may exist.</sentence>
+<event id="E3">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>Currently available data indicate that erythroid and megakaryocytic <clueType>differentiation</clueType> pathways are closely related to each other, and there may exist progenitor cells common to those two lineages may exist.</clue>
+</event>
+<event id="E4">
+<type class="Cell_differentiation" />
+<theme idref="A2" />
+<clue>Currently available data indicate that erythroid and megakaryocytic <clueType>differentiation</clueType> pathways are closely related to each other, and there may exist progenitor cells common to those two lineages may exist.</clue>
+</event>
+<event id="E5">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="E4" />
+<clue>Currently available data indicate that erythroid and megakaryocytic differentiation pathways are closely <clueType>related</clueType> <linkTheme>to</linkTheme> <corefTheme>each other</corefTheme>, and there may exist progenitor cells common to those two lineages may exist.</clue>
+</event>
+<sentence id="S3"><term sem="Other" id="T5" lex="acute_megakaryoblastic_leukemia">Acute megakaryoblastic leukemia</term> (<term sem="Other" id="T6" lex="AML-M7">AML-M7</term>) and <term sem="Other" id="T7" lex="transient_myeloproliferative_disorder">transient myeloproliferative disorder</term> in <term sem="Other" id="T8" lex="Down&apos;s_syndrome">Down&apos;s syndrome</term> (<term sem="Other" id="T9" lex="TMD">TMD</term>) are characterized by rapid growth of <term sem="Cell_natural" id="T10" lex="abnormal_blast_cell">abnormal blast cells</term> which express <term sem="Protein_family_or_group" id="T11" lex="megakaryocytic_marker">megakaryocytic markers</term>.</sentence>
+<event id="E6">
+<type class="Cellular_physiological_process" />
+<theme idref="T10" />
+<clue>Acute megakaryoblastic leukemia (AML-M7) and transient myeloproliferative disorder in Down&apos;s syndrome (TMD) are characterized by <clueType>rapid growth</clueType> <linkTheme>of</linkTheme> abnormal blast cells which express megakaryocytic markers.</clue>
+</event>
+<event id="E7">
+<type class="Correlation" />
+<theme idref="T6" />
+<theme idref="E6" />
+<clue>Acute megakaryoblastic leukemia (AML-M7) and transient myeloproliferative disorder in Down&apos;s syndrome (TMD) are <clueType>characterized</clueType> <linkTheme>by</linkTheme> rapid growth of abnormal blast cells which express megakaryocytic markers.</clue>
+</event>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="T7" />
+<theme idref="E6" />
+<clue>Acute megakaryoblastic leukemia (AML-M7) and transient myeloproliferative disorder in Down&apos;s syndrome (TMD) are <clueType>characterized</clueType> <linkTheme>by</linkTheme> rapid growth of abnormal blast cells which express megakaryocytic markers.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>Acute megakaryoblastic leukemia (AML-M7) and transient myeloproliferative disorder in Down&apos;s syndrome (TMD) are characterized by rapid growth of abnormal blast cells which <clueType>express</clueType> megakaryocytic markers.</clue>
+</event>
+<sentence id="S4">These <term sem="Cell_natural" id="T12" lex="blast_cell">blast cells</term> express <term sem="Protein_family_or_group" id="T13" lex="lineage-specific_transcription_factor">lineage-specific transcription factors</term> such as <term sem="Protein_molecule" id="T14" lex="GATA-1">GATA-1</term> common to these lineages and frequently express <term sem="RNA_molecule" id="T15" lex="erythroid-specific_mRNA">erythroid-specific mRNAs</term> such as <term sem="Protein_family_or_group" id="T16" lex="gamma-globin">gamma-globin</term> and <term sem="Protein_molecule" id="T17" lex="erythroid_delta-aminolevulinate_synthase">erythroid delta-aminolevulinate synthase</term> (<term sem="Protein_molecule" id="T18" lex="ALAS-E">ALAS-E</term>), indicating that most of the blasts in <cons sem="(AND Other Other)" id="T19" lex="(AND M7_case TMD_case)"><frag id="F4">M7</frag> and <frag id="F5">TMD</frag> <frag id="F6">cases</frag></cons> have <cons sem="(AND Other Other)" id="T20" lex="(AND erythroid_phenotype megakaryocytic_phenotype)"><frag id="F7">erythroid</frag> and <frag id="F8">megakaryocytic</frag> <frag id="F9">phenotypes</frag></cons>.</sentence>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue><clueLoc>These blast cells</clueLoc> <clueType>express</clueType> lineage-specific transcription factors such as GATA-1 common to these lineages and frequently express erythroid-specific mRNAs such as gamma-globin and erythroid delta-aminolevulinate synthase (ALAS-E), indicating that most of the blasts in M7 and TMD cases have erythroid and megakaryocytic phenotypes.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue><clueLoc>These blast cells</clueLoc> <clueType>express</clueType> <corefTheme>lineage-specific transcription factors</corefTheme> such as GATA-1 common to these lineages and frequently express erythroid-specific mRNAs such as gamma-globin and erythroid delta-aminolevulinate synthase (ALAS-E), indicating that most of the blasts in M7 and TMD cases have erythroid and megakaryocytic phenotypes.</clue>
+</event>
+<event id="E12">
+<type class="Transcription" />
+<theme idref="T15" />
+<clue><clueLoc>These blast cells</clueLoc> express lineage-specific transcription factors such as GATA-1 common to these lineages and frequently <clueType>express</clueType> erythroid-specific mRNAs such as gamma-globin and erythroid delta-aminolevulinate synthase (ALAS-E), indicating that most of the blasts in M7 and TMD cases have erythroid and megakaryocytic phenotypes.</clue>
+</event>
+<event id="E13">
+<type class="Transcription" />
+<theme idref="T16" />
+<clue><clueLoc>These blast cells</clueLoc> express lineage-specific transcription factors such as GATA-1 common to these lineages and frequently <clueType>express</clueType> <corefTheme>erythroid-specific mRNAs</corefTheme> such as gamma-globin and erythroid delta-aminolevulinate synthase (ALAS-E), indicating that most of the blasts in M7 and TMD cases have erythroid and megakaryocytic phenotypes.</clue>
+</event>
+<event id="E14">
+<type class="Transcription" />
+<theme idref="T18" />
+<clue><clueLoc>These blast cells</clueLoc> express lineage-specific transcription factors such as GATA-1 common to these lineages and frequently <clueType>express</clueType> <corefTheme>erythroid-specific mRNAs</corefTheme> such as gamma-globin and erythroid delta-aminolevulinate synthase (ALAS-E), indicating that most of the blasts in M7 and TMD cases have erythroid and megakaryocytic phenotypes.</clue>
+</event>
+<sentence id="S5">These results suggest that <term sem="Cell_natural" id="T21" lex="blast">blasts</term> in <term sem="Other" id="T22" lex="M7">M7</term> and <term sem="Other" id="T23" lex="TMD">TMD</term> may correspond to <term sem="Cell_natural" id="T24" lex="progenitor">progenitors</term> of both <cons sem="(AND Cell_natural Cell_natural)" id="T25" lex="(AND erythroid_lineage megakaryocytic_lineage)"><frag id="F10">erythroid</frag> and <frag id="F11">megakaryocytic</frag> <frag id="F12">lineages</frag></cons>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

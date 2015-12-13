@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="25/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7572682" creator="Junko Mstsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7572682</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Pathogenesis of <term sem="Other" id="T1" lex="atherosclerosis">atherosclerosis</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The earliest lesion in the development of an <term sem="Tissue_natural" id="T2" lex="atherosclerotic_plaque">atherosclerotic plaque</term> is the <term sem="Tissue_natural" id="T3" lex="fatty_streak">fatty streak</term>.</sentence>
+<sentence id="S3">This <term sem="Other" id="T4" lex="chronic_inflammatory_reaction">chronic inflammatory reaction</term> results from a sequence of events that begins with the trapping of <term sem="Lipid" id="T5" lex="low_density_lipoprotein">low density lipoprotein</term> (<term sem="Lipid" id="T6" lex="LDL">LDL</term>) in the <term sem="Tissue_natural" id="A20"><term sem="Tissue_natural" id="T7" lex="subendothelial_space">subendothelial space</term> of the <term sem="Tissue_natural" id="T8" lex="artery_wall">artery wall</term>.</term></sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T6" />
+<theme idref="A20" />
+<clue>This chronic inflammatory reaction results from a sequence of events that begins with the <clueType>trapping</clueType> <linkTheme>of</linkTheme> low density lipoprotein (LDL) <linkTheme>in</linkTheme> the subendothelial space of the artery wall.</clue>
+<comment>TPS: A20</comment>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<cause idref="E1" />
+<clue>This chronic inflammatory reaction <clueType>results</clueType> <linkCause>from</linkCause> a sequence of events that begins with the trapping of low density lipoprotein (LDL) in the subendothelial space of the artery wall.</clue>
+</event>
+<sentence id="S4">The trapped <term sem="Lipid" id="T9" lex="LDL">LDL</term> is seeded with <term sem="Other" id="A2">oxidative species</term> released by the overlying <term sem="Tissue_natural" id="T10" lex="endothelium">endothelium</term>, and <term sem="Other" id="T11" lex="lipid_oxidation"><term sem="Lipid" id="A3">lipid</term> oxidation</term> is initiated within the <term sem="Lipid" id="T12" lex="LDL">LDL</term> particle.</sentence>
+<event id="E3">
+<type class="Binding" />
+<theme idref="T9" />
+<theme idref="A20" />
+<clue>The <clueType>trapped</clueType> LDL is seeded with oxidative species released by the overlying endothelium, and lipid oxidation is initiated within the LDL particle.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T9" />
+<cause idref="A2" />
+<clue>The trapped LDL is <clueType>seeded</clueType> <linkCause>with</linkCause> oxidative species released by the overlying endothelium, and lipid oxidation is initiated within the LDL particle.</clue>
+</event>
+<event id="E5">
+<type class="Localization" />
+<theme idref="A2" />
+<clue>The trapped LDL is seeded with oxidative species <clueType>released</clueType> <clueLoc>by the overlying endothelium</clueLoc>, and lipid oxidation is initiated within the LDL particle.</clue>
+</event>
+<event id="E6">
+<type class="Metabolism" />
+<theme idref="A3" />
+<clue>The trapped LDL is seeded with oxidative species released by the overlying endothelium, and lipid <clueType>oxidation</clueType> is initiated <clueLoc>within the LDL particle</clueLoc>.</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<clue>The trapped LDL is seeded with oxidative species released by the overlying endothelium, and lipid oxidation is <clueType>initiated</clueType> <clueLoc>within the LDL particle</clueLoc>.</clue>
+</event>
+<sentence id="S5">Some of the <term sem="Lipid" id="A5">lipids</term> that result lead to the activation of <term sem="Protein_family_or_group" id="T13" lex="NFkB-like_transcription_factor">NFkB-like <term sem="Protein_family_or_group" id="T14" lex="transcription_factor">transcription factors</term></term> that cause the expression of genes whose <term sem="Protein_family_or_group" id="T15" lex="protein_product">protein products</term> mediate <term sem="Other" id="T16" lex="monocyte_binding"><term sem="Cell_natural" id="A4">monocyte</term> binding</term>, <term sem="Other" id="T17" lex="monocyte_chemotaxis"><term sem="Cell_natural" id="T18" lex="monocyte">monocyte</term> chemotaxis</term> into the <term sem="Tissue_natural" id="T19" lex="subendothelial_space">subendothelial space</term>, and conversion into <term sem="Cell_natural" id="T20" lex="macrophage">macrophages</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<cause idref="A5" />
+<clue>Some of the lipids that result lead to the <clueType>activation</clueType> <linkTheme>of</linkTheme> NFkB-like transcription factors that cause the expression of genes whose protein products mediate monocyte binding, monocyte chemotaxis into the subendothelial space, and conversion into macrophages.</clue>
+</event>
+<event id="E8">
+<type class="Cell_adhesion" />
+<theme idref="A4" />
+<clue>Some of the lipids that result lead to the activation of NFkB-like transcription factors that cause the expression of genes whose protein products mediate monocyte <clueType>binding</clueType>, monocyte chemotaxis into the subendothelial space, and conversion into macrophages.</clue>
+</event>
+<event id="E9">
+<type class="Physiological_process" />
+<theme idref="T18" />
+<clue>Some of the lipids that result lead to the activation of NFkB-like transcription factors that cause the expression of genes whose protein products mediate monocyte binding, monocyte <clueType>chemotaxis</clueType> <clueLoc>into the subendothelial space</clueLoc>, and conversion into macrophages.</clue>
+</event>
+<event id="E10">
+<type class="Cell_differentiation" />
+<theme idref="T18" />
+<theme idref="T20" />
+<clue>Some of the lipids that result lead to the activation of NFkB-like transcription factors that cause the expression of genes whose protein products mediate monocyte binding, monocyte chemotaxis into the subendothelial space, and <clueType>conversion</clueType> <linkTheme>into</linkTheme> macrophages.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T15" />
+<clue>Some of the lipids that result lead to the activation of NFkB-like transcription factors that cause the expression of genes whose protein products <clueType>mediate</clueType> monocyte binding, monocyte chemotaxis into the subendothelial space, and conversion into macrophages.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T15" />
+<clue>Some of the lipids that result lead to the activation of NFkB-like transcription factors that cause the expression of genes whose protein products <clueType>mediate</clueType> monocyte binding, monocyte chemotaxis into the subendothelial space, and conversion into macrophages.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T15" />
+<clue>Some of the lipids that result lead to the activation of NFkB-like transcription factors that cause the expression of genes whose protein products <clueType>mediate</clueType> monocyte binding, monocyte chemotaxis into the subendothelial space, and conversion into macrophages.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>Some of the lipids that result lead to the activation of NFkB-like transcription factors that cause the <clueType>expression</clueType> <linkTheme>of</linkTheme> genes whose protein products mediate monocyte binding, monocyte chemotaxis into the subendothelial space, and conversion into macrophages.</clue>
+</event>
+<sentence id="S6">At least 1 <term sem="DNA_family_or_group" id="T21" lex="major_gene">major gene</term> modulates the oxidation of <term sem="Lipid" id="T22" lex="LDL">LDL</term> lipids and/or the biologic response to these lipids.</sentence>
+<event id="E11">
+<type class="Metabolism" />
+<theme idref="T22" />
+<clue>At least 1 major gene modulates the <clueType>oxidation</clueType> <linkTheme>of</linkTheme> LDL lipids and/or the biologic response to these lipids.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="T21" />
+<clue>At least 1 major gene <clueType>modulates</clueType> the oxidation of LDL lipids and/or the biologic response to these lipids.</clue>
+</event>
+<event id="E52">
+<type class="Regulation" />
+<cause idref="T22" />
+<clue>At least 1 major gene modulates the oxidation of LDL lipids and/or the <clueType>biologic response</clueType> <linkCause>to</linkCause> <corefCause>these lipids.</corefCause></clue>
+</event>
+<event id="E53">
+<type class="Regulation" />
+<theme idref="E52" />
+<cause idref="T21" />
+<clue>At least 1 major gene <clueType>modulates</clueType> the oxidation of LDL lipids and/or the biologic response to these lipids.</clue>
+</event>
+<sentence id="S7">The inverse relation between <term sem="Lipid" id="T23" lex="high_density_lipoprotein">high density lipoprotein</term> (<term sem="Lipid" id="T24" lex="HDL">HDL</term>) and <term sem="Other" id="T25" lex="atherosclerotic_event">atherosclerotic events</term> may in part be due to <term sem="Protein_molecule" id="A21"><term sem="Protein_family_or_group" id="T26" lex="enzymes">enzymes</term> associated with <term sem="Lipid" id="T27" lex="HDL">HDL</term></term> that destroy the biologically active <term sem="Lipid" id="T28" lex="lipid">lipids</term> generated in <term sem="Lipid" id="T29" lex="LDL">LDL</term>.</sentence>
+<event id="E13">
+<type class="Correlation" />
+<theme idref="T24" />
+<theme idref="T25" />
+<clue>The <clueType>inverse relation</clueType> <linkTheme>between</linkTheme> high density lipoprotein (HDL) and atherosclerotic events may in part be due to enzymes associated with HDL that destroy the biologically active lipids generated in LDL.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="T28" />
+<cause idref="A21" />
+<clue>The inverse relation between high density lipoprotein (HDL) and atherosclerotic events may in part be due to enzymes associated with HDL that <clueType>destroy</clueType> the biologically active lipids generated in LDL.</clue>
+<comment>TPS: A21</comment>
+</event>
+<event uncertainty="probable" id="E15">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E14" />
+<clue>The inverse relation between high density lipoprotein (HDL) and atherosclerotic events may in part be <clueType>due to</clueType> enzymes associated with HDL that destroy the biologically active lipids generated in LDL.</clue>
+</event>
+<event uncertainty="probable" id="E55">
+<type class="Metabolism" />
+<theme idref="T28" />
+<clue>The inverse relation between high density lipoprotein (HDL) and atherosclerotic events may in part be <clueType>due to</clueType> enzymes associated with HDL that destroy the biologically active lipids <clueType>generated</clueType> <clueLoc>in LDL.</clueLoc></clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/12/23" creator="Yumiko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7688596"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7688596</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="A1">Cytokine</term> modulation of <term sem="Other" id="T1" lex="HIV_expression"><term sem="Virus" id="T2" lex="HIV">HIV</term> expression</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Cytokine modulation of HIV <clueType>expression</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="A1" />
+<clue>Cytokine <clueType>modulation</clueType> of HIV expression.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_family_or_group" id="T3" lex="cytokine">Cytokines</term>, the <term sem="Protein_family_or_group" id="T4" lex="peptide_hormone">peptide hormones</term> which control the homeostasis of the <term sem="Body_region" id="T5" lex="immune_system">immune system</term> and also play a fundamental role in <cons sem="(AND Biologicai_process Other)" id="T6" lex="(AND inflammatory_reaction immune_mediated_reaction)"><frag id="F1">inflammatory</frag> and <frag id="F2">immune mediated</frag> <frag id="F3">reactions</frag></cons>, have been involved at multiple levels in the pathogenesis of the <term sem="Other" id="T7" lex="acquired_immune_deficiency_syndrome">acquired immune deficiency syndrome</term> (<term sem="Other" id="T8" lex="AIDS">AIDS</term>).</sentence>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="T5" />
+<cause idref="T3" />
+<clue>Cytokines, the peptide hormones which <clueType>control</clueType> the homeostasis of the immune system and also play a fundamental role in inflammatory and immune mediated reactions, have been involved at multiple levels in the pathogenesis of the acquired immune deficiency syndrome (AIDS).</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref1="F3" idref="F1" />
+<cause idref="T3" />
+<clue>Cytokines, the peptide hormones which control the homeostasis of the immune system and also <clueType>play</clueType> a fundamental <clueType>role</clueType> <linkTheme>in</linkTheme> inflammatory and immune mediated reactions, have been involved at multiple levels in the pathogenesis of the acquired immune deficiency syndrome (AIDS).</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref1="F3" idref="F2" />
+<cause idref="T3" />
+<clue>Cytokines, the peptide hormones which control the homeostasis of the immune system and also <clueType>play</clueType> a fundamental <clueType>role</clueType> <linkTheme>in</linkTheme> inflammatory and immune mediated reactions, have been involved at multiple levels in the pathogenesis of the acquired immune deficiency syndrome (AIDS).</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="T3" />
+<clue>Cytokines, the peptide hormones which control the homeostasis of the immune system and also play a fundamental role in inflammatory and immune mediated reactions, have been <clueType>involved</clueType> at multiple levels <linkTheme>in</linkTheme> the pathogenesis of the acquired immune deficiency syndrome (AIDS).</clue>
+</event>
+<event id="E7">
+<type />
+<theme idref="T8" />
+<clue>Cytokines, the peptide hormones which control the homeostasis of the immune system and also play a fundamental role in inflammatory and immune mediated reactions, have been involved at multiple levels in the <clueType>pathogenesis</clueType> <linkTheme>of</linkTheme> the acquired immune deficiency syndrome (AIDS).</clue>
+<comment>SOO</comment></event>
+<event id="E70">
+<type class="Physiological_process" />
+<theme idref="T5" />
+<clue>Cytokines, the peptide hormones which control the <clueType>homeostasis</clueType> <linkTheme>of</linkTheme> the immune system and also play a fundamental role in inflammatory and immune mediated reactions, have been involved at multiple levels in the pathogenesis of the acquired immune deficiency syndrome (AIDS).</clue>
+</event>
+<sentence id="S3">Infection with the <term sem="Virus" id="T9" lex="human_immunodeficiency_virus">human immunodeficiency virus</term> (<term sem="Virus" id="T10" lex="HIV">HIV</term>) has been shown to induce production of several <term sem="Protein_family_or_group" id="T11" lex="cytokine">cytokines</term> both in vitro and in vivo.</sentence>
+<event id="E8">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T10" />
+<clue><clueType>Infection</clueType> <linkTheme>with</linkTheme> the human immunodeficiency virus (HIV) has been shown to induce production of several cytokines both in vitro and in vivo.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>Infection with the human immunodeficiency virus (HIV) has been shown to induce <clueType>production</clueType> <linkTheme>of</linkTheme> several cytokines both in vitro and in vivo.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E8" />
+<clue>Infection with the human immunodeficiency virus (HIV) has been shown to <clueType>induce</clueType> production of several cytokines both in vitro and in vivo.</clue>
+</event>
+<sentence id="S4">Conversely, several <term sem="Protein_family_or_group" id="T12" lex="cytokine">cytokines</term> modulate the levels of <term sem="Other" id="T13" lex="HIV_expression"><term sem="Virus" id="T14" lex="HIV">HIV</term> expression</term> in infected cells of both <cons sem="(AND Cell_natural Cell_natural)" id="T15" lex="(AND T_lymphocytic_lineage mononuclear_phagocytic_lineage)"><frag id="F4">T lymphocytic</frag> and <frag id="F5">mononuclear phagocytic</frag> <frag id="F6">lineage</frag></cons>.</sentence>
+<event id="E11">
+<type class="Transcription" />
+<theme idref="T14" />
+<clue>Conversely, several cytokines modulate the levels of HIV <clueType>expression</clueType> in infected cells of both T lymphocytic and mononuclear phagocytic lineage.</clue>
+</event>
+<event id="E12">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T14" />
+<theme idref1="F6" idref="F4" />
+<clue>Conversely, several cytokines modulate the levels of HIV expression in <clueType>infected</clueType> cells <linkTheme>of</linkTheme> both T lymphocytic and mononuclear phagocytic lineage.</clue>
+</event>
+<event id="E13">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T14" />
+<theme idref1="F6" idref="F5" />
+<clue>Conversely, several cytokines modulate the levels of HIV expression in <clueType>infected</clueType> cells <linkTheme>of</linkTheme> both T lymphocytic and mononuclear phagocytic lineage.</clue>
+</event>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="T12" />
+<clue>Conversely, several cytokines <clueType>modulate</clueType> the levels of HIV expression <clueLoc>in infected cells of</clueLoc> both <clueLoc>T lymphocytic</clueLoc> and mononuclear phagocytic <clueLoc>lineage</clueLoc>.</clue>
+</event>
+<event id="E140">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="T12" />
+<clue>Conversely, several cytokines <clueType>modulate</clueType> the levels of HIV expression <clueLoc>in infected cells of</clueLoc> both T lymphocytic and <clueLoc>mononuclear phagocytic lineage</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term sem="Cell_natural" id="T16" lex="Activated_mononuclear_cell">Activated <term sem="Cell_natural" id="A8">mononuclear cells</term></term>, particularly <term sem="Cell_natural" id="T17" lex="B_cell">B cells</term> which are in a state of chronic activation in <term sem="Multicellular_organism_natural" id="T18" lex="HIV_infected_individual"><term sem="Virus" id="T19" lex="HIV">HIV</term> infected <term sem="Multicellular_organism_natural" id="A9">individuals</term></term>, release <term sem="Protein_family_or_group" id="T20" lex="HIV-inductive_cytokine"><term sem="Virus" id="T21" lex="HIV">HIV</term>-inductive <term sem="Protein_family_or_group" id="T22" lex="cytokine">cytokines</term></term> and thus play a potentially important role in the pathogenesis of <term sem="Other" id="T23" lex="HIV_infection"><term sem="Virus" id="T24" lex="HIV">HIV</term> infection</term>.</sentence>
+<event id="E15">
+<type class="Physiological_process" />
+<theme idref="A8" />
+<clue><clueType>Activated</clueType> mononuclear cells, particularly B cells which are in a state of chronic activation in HIV infected individuals, release HIV-inductive cytokines and thus play a potentially important role in the pathogenesis of HIV infection.</clue>
+</event>
+<event id="E17">
+<type class="Physiological_process" />
+<theme idref="T17" />
+<clue>Activated mononuclear cells, particularly B cells which are in a state of chronic <clueType>activation</clueType> <clueLoc>in HIV infected individuals</clueLoc>, release HIV-inductive cytokines and thus play a potentially important role in the pathogenesis of HIV infection.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<cause idref="T21" />
+<clue>Activated mononuclear cells, particularly B cells which are in a state of chronic activation in HIV infected individuals, release HIV-<clueType>inductive</clueType> cytokines and thus play a potentially important role in the pathogenesis of HIV infection.</clue>
+</event>
+<event id="E18">
+<type class="Localization" />
+<theme idref="T20" />
+<clue><clueLoc>Activated mononuclear cells, particularly B cells which are in a state of chronic activation in HIV infected individuals</clueLoc>, <clueType>release</clueType> HIV-inductive cytokines and thus play a potentially important role in the pathogenesis of HIV infection.</clue>
+</event>
+<event id="E180">
+<type class="Localization" />
+<theme idref="T20" />
+<clue><clueLoc>Activated mononuclear cells, particularly B cells which are in a state of chronic activation in HIV infected individuals</clueLoc>, <clueType>release</clueType> HIV-inductive cytokines and thus play a potentially important role in the pathogenesis of HIV infection.</clue>
+</event>
+<event id="E19">
+<type class="Regulation" />
+<theme idref="E21" />
+<cause idref="E15" />
+<clue>Activated mononuclear cells, particularly B cells which are in a state of chronic activation in HIV infected individuals, release HIV-inductive cytokines and thus <clueType>play</clueType> a potentially important <clueType>role</clueType> <linkTheme>in</linkTheme> the pathogenesis of HIV infection.</clue>
+</event>
+<event id="E20">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T24" />
+<clue>Activated mononuclear cells, particularly B cells which are in a state of chronic activation in HIV infected individuals, release HIV-inductive cytokines and thus play a potentially important role in the pathogenesis of HIV <clueType>infection</clueType>.</clue>
+</event>
+<event id="E21">
+<type />
+<cause idref="E20" />
+<clue>Activated mononuclear cells, particularly B cells which are in a state of chronic activation in HIV infected individuals, release HIV-inductive cytokines and thus play a potentially important role in the <clueType>pathogenesis</clueType> of HIV infection.</clue>
+<comment>SOO</comment></event>
+<event id="E22">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T19" />
+<theme idref="A9" />
+<clue>Activated mononuclear cells, particularly B cells which are in a state of chronic activation in HIV <clueType>infected</clueType> individuals, release HIV-inductive cytokines and thus play a potentially important role in the pathogenesis of HIV infection.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

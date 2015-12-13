@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="31/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8454603" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8454603</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="transcriptional_regulation">Transcriptional regulation</term> of <term sem="Protein_molecule" id="T2" lex="interleukin_3">interleukin 3</term> (<term sem="Protein_molecule" id="T3" lex="IL3">IL3</term>) in <term sem="Cell_natural" id="T4" lex="primary_human_T_lymphocyte">primary human T lymphocytes</term>.</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T3" />
+<clue><clueType>Transcriptional</clueType> regulation <linkTheme>of</linkTheme> interleukin 3 (IL3) in primary human T lymphocytes.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<clue>Transcriptional <clueType>regulation</clueType> <linkTheme>of</linkTheme> interleukin 3 (IL3) <clueLoc>in primary human T lymphocytes</clueLoc>.</clue>
+</event>
+<sentence id="S2">Role of <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T5" lex="(AND AP-1-binding_protein octamer-binding_protein)"><frag id="F1"><term sem="Protein_complex" id="A1">AP-1</term>-</frag> and <frag id="F2"><term sem="Peptide" id="A2">octamer</term>-</frag><frag id="F3">binding proteins</frag></cons> in control of <term sem="Other" id="T6" lex="IL3_gene_expression"><term sem="DNA_domain_or_region" id="T7" lex="IL3">IL3 gene</term> expression</term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue>Role of AP-1- and octamer-binding proteins in control of IL3 gene <clueType>expression</clueType>.</clue>
+<comment>NER T7 MOD</comment>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E3" />
+<clue>Role of AP-1- and octamer-binding proteins in <clueType>control</clueType> <linkTheme>of</linkTheme> IL3 gene expression.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref1="F3" idref="F1" />
+<clue><clueType>Role</clueType> <linkCause>of</linkCause> AP-1- and octamer-binding proteins <linkTheme>in</linkTheme> control of IL3 gene expression.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref1="F3" idref="F2" />
+<clue><clueType>Role</clueType> <linkCause>of</linkCause> AP-1- and octamer-binding proteins <linkTheme>in</linkTheme> control of IL3 gene expression.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">We have investigated the molecular and biochemical basis for activation of <term sem="Other" id="T8" lex="interleukin_3_(IL3)_gene_expression"><term sem="Protein_molecule" id="T9" lex="interleukin_3">interleukin 3</term> (<term sem="DNA_domain_or_region" id="T10" lex="IL3">IL3</term>) <term sem="DNA_domain_or_region" id="A4">gene</term> expression</term> in <term sem="Cell_natural" id="T11" lex="primary_human_T_lymphocyte">primary human T lymphocytes</term> following <cons sem="(AND Other Other)" id="T12" lex="(AND CD3_receptor_stimulation CD2_receptor_stimulation)"><frag id="F4"><term sem="Protein_molecule" id="A5">CD3</term></frag> and <frag id="F5"><term sem="Protein_molecule" id="A6">CD2</term></frag> <frag id="F6"><term sem="Protein_molecule" id="A7">receptor</term> stimulation</frag></cons> or activation by <term sem="Protein_molecule" id="T13" lex="phytohemagglutinin">phytohemagglutinin</term> plus <term sem="Organic_compound_other" id="T14" lex="phorbol_12-myristate_13-acetate">phorbol 12-myristate 13-acetate</term>.</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref1="A4" idref="T10" />
+<clue>We have investigated the molecular and biochemical basis for activation of interleukin 3 (IL3) gene <clueType>expression</clueType> in primary human T lymphocytes following CD3 and CD2 receptor stimulation or activation by phytohemagglutinin plus phorbol 12-myristate 13-acetate.</clue>
+<comment>NER T10 MOD</comment>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref1="A7" idref="A5" />
+<clue>We have investigated the molecular and biochemical basis for activation of interleukin 3 (IL3) gene expression in primary human T lymphocytes following CD3 and CD2 receptor <clueType>stimulation</clueType> or activation by phytohemagglutinin plus phorbol 12-myristate 13-acetate.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref1="A7" idref="A6" />
+<clue>We have investigated the molecular and biochemical basis for activation of interleukin 3 (IL3) gene expression in primary human T lymphocytes following CD3 and CD2 receptor <clueType>stimulation</clueType> or activation by phytohemagglutinin plus phorbol 12-myristate 13-acetate.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<theme idref="T14" />
+<clue>We have investigated the molecular and biochemical basis for activation of interleukin 3 (IL3) gene expression in primary human T lymphocytes following CD3 and CD2 receptor stimulation or <clueType>activation</clueType> <linkCause>by</linkCause> phytohemagglutinin <linkCause>plus</linkCause> phorbol 12-myristate 13-acetate.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E8" />
+<clue>We have investigated the molecular and biochemical basis for <clueType>activation</clueType> <linkTheme>of</linkTheme> interleukin 3 (IL3) gene expression <clueLoc>in primary human T lymphocytes</clueLoc> <linkCause>following</linkCause> CD3 and CD2 receptor stimulation or activation by phytohemagglutinin plus phorbol 12-myristate 13-acetate.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E9" />
+<clue>We have investigated the molecular and biochemical basis for <clueType>activation</clueType> <linkTheme>of</linkTheme> interleukin 3 (IL3) gene expression <clueLoc>in primary human T lymphocytes</clueLoc> <linkCause>following</linkCause> CD3 and CD2 receptor stimulation or activation by phytohemagglutinin plus phorbol 12-myristate 13-acetate.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E10" />
+<clue>We have investigated the molecular and biochemical basis for <clueType>activation</clueType> <linkTheme>of</linkTheme> interleukin 3 (IL3) gene expression <clueLoc>in primary human T lymphocytes</clueLoc> <linkCause>following</linkCause> CD3 and CD2 receptor stimulation or activation by phytohemagglutinin plus phorbol 12-myristate 13-acetate.</clue>
+</event>
+<sentence id="S4">Using transfection and reporter gene assays specifically designed for <term sem="Cell_natural" id="T15" lex="primary_T_lymphocyte">primary T lymphocytes</term> in conjunction with <term sem="Other" id="T16" lex="gel_retardation_assay">gel retardation assays</term>, <term sem="Other" id="T17" lex="Western_blot_analysis">Western blot analyses</term> and <term sem="Other" id="T18" lex="UV_cross-linking_study">UV cross-linking studies</term>, we found that <term sem="Protein_molecule" id="T19" lex="c-Jun">c-Jun</term>, <term sem="Protein_molecule" id="T20" lex="c-Fos">c-Fos</term>, and <term sem="Protein_family_or_group" id="T21" lex="octamer-binding_protein">octamer-binding proteins</term> play a major role in <term sem="Other" id="T22" lex="transcriptional_activation">transcriptional activation</term> of the <term sem="DNA_domain_or_region" id="T23" lex="IL3_gene"><term sem="Protein_molecule" id="T24" lex="IL3">IL3</term> gene</term> via their interaction with two <term sem="DNA_domain_or_region" id="A8">specific regions</term> contained within the <term sem="DNA_domain_or_region" id="T25" lex="IL3_5&apos;-flanking_sequence"><term sem="Protein_molecule" id="T26" lex="IL3">IL3</term> 5&apos;-flanking sequence</term>.</sentence>
+<event id="E14">
+<type class="Transcription" />
+<theme idref="T23" />
+<clue>Using transfection and reporter gene assays specifically designed for primary T lymphocytes in conjunction with gel retardation assays, Western blot analyses and UV cross-linking studies, we found that c-Jun, c-Fos, and octamer-binding proteins play a major role in <clueType>transcriptional</clueType> activation <linkTheme>of</linkTheme> the IL3 gene via their interaction with two specific regions contained within the IL3 5&apos;-flanking sequence.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<clue>Using transfection and reporter gene assays specifically designed for primary T lymphocytes in conjunction with gel retardation assays, Western blot analyses and UV cross-linking studies, we found that c-Jun, c-Fos, and octamer-binding proteins play a major role in transcriptional <clueType>activation</clueType> <linkTheme>of</linkTheme> the IL3 gene via their interaction with two specific regions contained within the IL3 5&apos;-flanking sequence.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref="A8" />
+<clue>Using transfection and reporter gene assays specifically designed for primary T lymphocytes in conjunction with gel retardation assays, Western blot analyses and UV cross-linking studies, we found that c-Jun, c-Fos, and octamer-binding proteins play a major role in transcriptional activation of the IL3 gene via <corefTheme>their</corefTheme> <clueType>interaction</clueType> with two specific regions contained within the IL3 5&apos;-flanking sequence.</clue>
+</event>
+<event id="E17">
+<type class="Binding" />
+<theme idref="T20" />
+<theme idref="A8" />
+<clue>Using transfection and reporter gene assays specifically designed for primary T lymphocytes in conjunction with gel retardation assays, Western blot analyses and UV cross-linking studies, we found that c-Jun, c-Fos, and octamer-binding proteins play a major role in transcriptional activation of the IL3 gene via <corefTheme>their</corefTheme> <clueType>interaction</clueType> with two specific regions contained within the IL3 5&apos;-flanking sequence.</clue>
+</event>
+<event id="E18">
+<type class="Binding" />
+<theme idref="T21" />
+<theme idref="A8" />
+<clue>Using transfection and reporter gene assays specifically designed for primary T lymphocytes in conjunction with gel retardation assays, Western blot analyses and UV cross-linking studies, we found that c-Jun, c-Fos, and octamer-binding proteins play a major role in transcriptional activation of the IL3 gene via <corefTheme>their</corefTheme> <clueType>interaction</clueType> with two specific regions contained within the IL3 5&apos;-flanking sequence.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E16" />
+<clue><clueExperiment>Using transfection and reporter gene assays specifically designed for primary T lymphocytes in conjunction with gel retardation assays, Western blot analyses and UV cross-linking studies</clueExperiment>, we found that c-Jun, c-Fos, and octamer-binding proteins <clueType>play a major role</clueType> <linkTheme>in</linkTheme> transcriptional activation of the IL3 gene <linkCause>via</linkCause> their interaction with two specific regions contained within the IL3 5&apos;-flanking sequence.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E17" />
+<clue><clueExperiment>Using transfection and reporter gene assays specifically designed for primary T lymphocytes in conjunction with gel retardation assays, Western blot analyses and UV cross-linking studies</clueExperiment>, we found that c-Jun, c-Fos, and octamer-binding proteins <clueType>play a major role</clueType> <linkTheme>in</linkTheme> transcriptional activation of the IL3 gene <linkCause>via</linkCause> their interaction with two specific regions contained within the IL3 5&apos;-flanking sequence.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E18" />
+<clue><clueExperiment>Using transfection and reporter gene assays specifically designed for primary T lymphocytes in conjunction with gel retardation assays, Western blot analyses and UV cross-linking studies</clueExperiment>, we found that c-Jun, c-Fos, and octamer-binding proteins <clueType>play a major role</clueType> <linkTheme>in</linkTheme> transcriptional activation of the IL3 gene <linkCause>via</linkCause> their interaction with two specific regions contained within the IL3 5&apos;-flanking sequence.</clue>
+</event>
+<sentence id="S5">Additionally, the region between bases <term sem="DNA_domain_or_region" id="T27" lex="-107_and_-59">-107 and -59</term> of the <term sem="DNA_domain_or_region" id="T28" lex="IL3_promoter"><term sem="Protein_molecule" id="T29" lex="IL3">IL3</term> promoter</term> containing putative <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T30" lex="(AND AP-2_binding_motif Sp1_binding_motif)"><frag id="F7"><term sem="Protein_family_or_group" id="A9">AP-2</term></frag> and <frag id="F8"><term sem="Protein_molecule" id="A10">Sp1</term></frag> <frag id="F9">binding motifs</frag></cons> appears necessary for <term sem="Other" id="T31" lex="basal_level_expression">basal level expression</term> of the <term sem="DNA_domain_or_region" id="T32" lex="IL3">IL3 gene</term>.</sentence>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>Additionally, the region between bases -107 and -59 of the IL3 promoter containing putative AP-2 and Sp1 binding motifs appears necessary for basal level <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL3 gene.</clue>
+<comment>NER T32 MOD</comment>
+</event>
+<event uncertainty="probable" id="E23">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref1="F9" idref="F7" />
+<clue>Additionally, the region between bases -107 and -59 of the IL3 promoter containing putative AP-2 and Sp1 binding motifs appears <clueType>necessary</clueType> <linkTheme>for</linkTheme> basal level expression of the IL3 gene.</clue>
+</event>
+<event uncertainty="probable" id="E24">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref1="F9" idref="F8" />
+<clue>Additionally, the region between bases -107 and -59 of the IL3 promoter containing putative AP-2 and Sp1 binding motifs appears <clueType>necessary</clueType> <linkTheme>for</linkTheme> basal level expression of the IL3 gene.</clue>
+</event>
+<sentence id="S6">The data also indicate that <term sem="Other" id="T33" lex="CD2_receptor_activation"><term sem="Protein_molecule" id="T34" lex="CD2">CD2 receptor</term> activation</term> and <term sem="Protein_molecule" id="T35" lex="phytohemagglutinin">phytohemagglutinin</term> plus <term sem="Organic_compound_other" id="T36" lex="phorbol_12-myristate_13-acetate">phorbol 12-myristate 13-acetate</term> stimulation augment <term sem="Other" id="T37" lex="T_cell_IL3_gene_expression"><term sem="Cell_natural" id="A12">T cell</term> <term sem="DNA_domain_or_region" id="T38" lex="IL3">IL3 gene</term> expression</term> through the same <cons sem="(AND Biologicai_process Other)" id="C1" lex="(AND cis-activating_signal trans-activating_signal)"><frag id="F10">cis-</frag> and <frag id="F11">trans-</frag><frag id="F12">activating signals</frag></cons>.</sentence>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<clue>The data also indicate that CD2 receptor <clueType>activation</clueType> and phytohemagglutinin plus phorbol 12-myristate 13-acetate stimulation augment T cell IL3 gene expression through the same cis- and trans-activating signals.</clue>
+<comment>NER T34,T38,T39 MOD</comment>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<cause idref="T35" />
+<cause idref="T36" />
+<clue>The data also indicate that CD2 receptor activation and phytohemagglutinin <linkCause>plus</linkCause> phorbol 12-myristate 13-acetate <clueType>stimulation</clueType> augment T cell IL3 gene expression through the same cis- and trans-activating signals.</clue>
+</event>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T38" />
+<clue>The data also indicate that CD2 receptor activation and phytohemagglutinin plus phorbol 12-myristate 13-acetate stimulation augment T cell IL3 gene <clueType>expression</clueType> through the same cis- and trans-activating signals.</clue>
+</event>
+<event id="E28">
+<type class="Regulation" />
+<theme idref1="F12" idref="F10" />
+<cause idref="E25" />
+<clue>The data also indicate that CD2 receptor activation and phytohemagglutinin plus phorbol 12-myristate 13-acetate stimulation <clueType>augment</clueType> T cell IL3 gene expression <linkTheme>through</linkTheme> the same cis- and trans-activating signals.</clue>
+</event>
+<event id="E29">
+<type class="Regulation" />
+<theme idref1="F12" idref="F11" />
+<cause idref="E25" />
+<clue>The data also indicate that CD2 receptor activation and phytohemagglutinin plus phorbol 12-myristate 13-acetate stimulation <clueType>augment</clueType> T cell IL3 gene expression <linkTheme>through</linkTheme> the same cis- and trans-activating signals.</clue>
+</event>
+<event id="E30">
+<type class="Regulation" />
+<theme idref1="F12" idref="F10" />
+<cause idref="E26" />
+<clue>The data also indicate that CD2 receptor activation and phytohemagglutinin plus phorbol 12-myristate 13-acetate stimulation <clueType>augment</clueType> T cell IL3 gene expression <linkTheme>through</linkTheme> the same cis- and trans-activating signals.</clue>
+</event>
+<event id="E31">
+<type class="Regulation" />
+<theme idref1="F12" idref="F11" />
+<cause idref="E26" />
+<clue>The data also indicate that CD2 receptor activation and phytohemagglutinin plus phorbol 12-myristate 13-acetate stimulation <clueType>augment</clueType> T cell IL3 gene expression <linkTheme>through</linkTheme> the same cis- and trans-activating signals.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="E28" />
+<clue>The data also indicate that CD2 receptor activation and phytohemagglutinin plus phorbol 12-myristate 13-acetate stimulation <clueType>augment</clueType> T cell IL3 gene expression <linkCause>through</linkCause> the same cis- and trans-activating signals.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="E29" />
+<clue>The data also indicate that CD2 receptor activation and phytohemagglutinin plus phorbol 12-myristate 13-acetate stimulation <clueType>augment</clueType> T cell IL3 gene expression <linkCause>through</linkCause> the same cis- and trans-activating signals.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="E30" />
+<clue>The data also indicate that CD2 receptor activation and phytohemagglutinin plus phorbol 12-myristate 13-acetate stimulation <clueType>augment</clueType> T cell IL3 gene expression <linkCause>through</linkCause> the same cis- and trans-activating signals.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="E31" />
+<clue>The data also indicate that CD2 receptor activation and phytohemagglutinin plus phorbol 12-myristate 13-acetate stimulation <clueType>augment</clueType> T cell IL3 gene expression <linkCause>through</linkCause> the same cis- and trans-activating signals.</clue>
+</event>
+<sentence id="S7">These results should contribute to a better understanding of the regulation of <term sem="Other" id="T40" lex="IL3_gene_expression"><term sem="DNA_domain_or_region" id="T41" lex="IL3">IL3 gene</term> expression</term> in <term sem="Cell_natural" id="T42" lex="human_T_lymphocyte">human T lymphocytes</term>.</sentence>
+<event id="E36">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>These results should contribute to a better understanding of the regulation of IL3 gene <clueType>expression</clueType> in human T lymphocytes.</clue>
+<comment>NER T41 MOD</comment>
+</event>
+<event id="E37">
+<type class="Regulation" />
+<theme idref="E36" />
+<clue>These results should contribute to a better understanding of the <clueType>regulation</clueType> <linkTheme>of</linkTheme> IL3 gene expression <clueLoc>in human T lymphocytes</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

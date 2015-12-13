@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="12/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10089566" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10089566</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Involvement of <term sem="Protein_complex" id="T1" lex="adenylate_cyclase">adenylate cyclase</term> and <term sem="Other" id="T2" lex="p70(S6)-kinase_activation"><term sem="Protein_molecule" id="T3" lex="p70(S6)-kinase">p70(S6)-kinase</term> activation</term> in <term sem="Other" id="T4" lex="IL-10_up-regulation"><term sem="Protein_molecule" id="T5" lex="IL-10">IL-10</term> up-regulation</term> in <term sem="Cell_natural" id="T6" lex="human_monocyte">human monocytes</term> by <term sem="Protein_molecule" id="T7" lex="gp41_envelope_protein">gp41 envelope protein</term> of <term sem="Virus" id="T8" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<clue>Involvement of adenylate cyclase and p70(S6)-kinase <clueType>activation</clueType> in IL-10 up-regulation in human monocytes by gp41 envelope protein of human immunodeficiency virus type 1.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T3" />
+<clue>Involvement of adenylate cyclase and p70(S6)-kinase <clueType>activation</clueType> in IL-10 up-regulation in human monocytes by gp41 envelope protein of human immunodeficiency virus type 1.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T5" />
+<cause idref="T7" />
+<clue>Involvement of adenylate cyclase and p70(S6)-kinase activation in IL-10 <clueType>up-regulation</clueType> <clueLoc>in human monocytes</clueLoc> <linkCause>by</linkCause> gp41 envelope protein of human immunodeficiency virus type 1.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="E1" />
+<clue><clueType>Involvement</clueType> of adenylate cyclase and p70(S6)-kinase activation <linkTheme>in</linkTheme> IL-10 up-regulation in human monocytes by gp41 envelope protein of human immunodeficiency virus type 1.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="E2" />
+<clue><clueType>Involvement</clueType> of adenylate cyclase and p70(S6)-kinase activation <linkTheme>in</linkTheme> IL-10 up-regulation in human monocytes by gp41 envelope protein of human immunodeficiency virus type 1.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Our previous results show that <term sem="Protein_molecule" id="T9" lex="recombinant_gp41">recombinant gp41</term> (<term sem="Protein_molecule" id="T10" lex="aa565-647">aa565-647</term>), the <term sem="Protein_domain_or_region" id="T11" lex="extracellular_domain">extracellular domain</term> of <term sem="Protein_family_or_group" id="T12" lex="HIV-1_transmembrane_glycoprotein">HIV-1 transmembrane glycoprotein</term>, stimulates <term sem="Other" id="T13" lex="interleukin-10_(IL-10)_production"><term sem="Protein_molecule" id="T14" lex="interleukin-10">interleukin-10</term> (<term sem="Protein_molecule" id="T15" lex="IL-10">IL-10</term>) production</term> in <term sem="Cell_natural" id="T16" lex="human_monocyte">human monocytes</term>.</sentence>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>Our previous results show that recombinant gp41 (aa565-647), the extracellular domain of HIV-1 transmembrane glycoprotein, stimulates interleukin-10 (IL-10) <clueType>production</clueType> in human monocytes.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T9" />
+<clue>Our previous results show that recombinant gp41 (aa565-647), the extracellular domain of HIV-1 transmembrane glycoprotein, <clueType>stimulates</clueType> interleukin-10 (IL-10) production <clueLoc>in human monocytes</clueLoc>.</clue>
+</event>
+<sentence id="S3">The signal cascade transducing this effect is not yet clear.</sentence>
+<sentence id="S4">In this study, we examined whether <term sem="Protein_molecule" id="T18" lex="gp41">gp41</term>-induced <term sem="Other" id="T19" lex="IL-10_up-regulation"><term sem="Protein_molecule" id="T20" lex="IL-10">IL-10</term> up-regulation</term> is mediated by the previously described synergistic activation of <term sem="Nucleotide" id="T21" lex="cAMP">cAMP</term> and <term sem="Other" id="T22" lex="NF-kappaB_pathway"><term sem="Protein_complex" id="T23" lex="NF-kappaB">NF-kappaB</term> pathways</term>.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<clue>In this study, we examined whether gp41-induced IL-10 <clueType>up-regulation</clueType> is mediated by the previously described synergistic activation of cAMP and NF-kappaB pathways.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T18" />
+<clue>In this study, we examined whether gp41-<clueType>induced</clueType> IL-10 up-regulation is mediated by the previously described synergistic activation of cAMP and NF-kappaB pathways.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<clue>In this study, we examined whether gp41-induced IL-10 up-regulation is mediated by the previously described <clueType>synergistic activation</clueType> <linkTheme>of</linkTheme> cAMP and NF-kappaB pathways.</clue>
+</event>
+<event id="E110">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<clue>In this study, we examined whether gp41-induced IL-10 up-regulation is mediated by the previously described <clueType>synergistic activation</clueType> <linkTheme>of</linkTheme> cAMP and NF-kappaB pathways.</clue>
+</event>
+<event uncertainty="doubtful" id="E11">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E10" />
+<cause idref="E110" />
+<clue>In this study, we examined whether gp41-induced IL-10 up-regulation is <clueType>mediated</clueType> <linkCause>by</linkCause> the previously described synergistic activation of cAMP and NF-kappaB pathways.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T24" lex="gp41">gp41</term> induced <term sem="Nucleotide" id="T25" lex="cAMP">cAMP</term> accumulation in <term sem="Cell_natural" id="T26" lex="monocyte">monocytes</term> in a time- and concentration-dependent manner and the <term sem="Organic_compound_other" id="T27" lex="adenylate_cyclase_inhibitor"><term sem="Protein_complex" id="T28" lex="adenylate_cyclase">adenylate cyclase</term> inhibitor</term> <term sem="Organic_compound_other" id="T29" lex="SQ_22536">SQ 22536</term> suppressed <term sem="Protein_molecule" id="T31" lex="gp41">gp41</term>-induced <term sem="Other" id="T17"><term sem="Protein_molecule" id="T32" lex="IL-10">IL-10</term> production</term> in <term sem="Cell_natural" id="T33" lex="monocyte">monocytes</term>.</sentence>
+<event id="E12">
+<type class="Metabolism" />
+<theme idref="T25" />
+<clue>gp41 induced cAMP <clueType>accumulation</clueType> in monocytes in a time- and concentration-dependent manner and the adenylate cyclase inhibitor SQ 22536 suppressed gp41-induced IL-10 production in monocytes.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T24" />
+<clue>gp41 <clueType>induced</clueType> cAMP accumulation <clueLoc>in monocytes</clueLoc> in a time- and concentration-dependent manner and the adenylate cyclase inhibitor SQ 22536 suppressed gp41-induced IL-10 production in monocytes.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>gp41 induced cAMP accumulation in monocytes in a time- and concentration-dependent manner and the adenylate cyclase inhibitor SQ 22536 suppressed gp41-induced IL-10 <clueType>production</clueType> in monocytes.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T31" />
+<clue>gp41 induced cAMP accumulation in monocytes in a time- and concentration-dependent manner and the adenylate cyclase inhibitor SQ 22536 suppressed gp41-<clueType>induced</clueType> IL-10 production in monocytes.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T29" />
+<clue>gp41 induced cAMP accumulation in monocytes in a time- and concentration-dependent manner and the adenylate cyclase inhibitor SQ 22536 <clueType>suppressed</clueType> gp41-induced IL-10 production in monocytes.</clue>
+</event>
+<sentence id="S6">In contrast, <term sem="Protein_molecule" id="T34" lex="gp41">gp41</term> failed to stimulate <term sem="Other" id="T35" lex="NF-kappaB_binding_activity"><term sem="Protein_complex" id="T36" lex="NF-kappaB">NF-kappaB</term> binding activity</term> in as much as no <term sem="Protein_complex" id="T37" lex="NF-kappaB">NF-kappaB</term> bound to the <term sem="DNA_domain_or_region" id="T38" lex="main_NF-kappaB-binding_site">main <term sem="Protein_complex" id="T39" lex="NF-kappaB">NF-kappaB</term>-binding site 2</term> of the <term sem="DNA_domain_or_region" id="T40" lex="IL-10_promoter"><term sem="Protein_molecule" id="T41" lex="IL-10">IL-10</term> promoter</term> after addition of <term sem="Protein_molecule" id="T42" lex="gp41">gp41</term>.</sentence>
+<event id="E17">
+<type class="Binding" />
+<theme idref="T36" />
+<clue>In contrast, gp41 failed to stimulate NF-kappaB <clueType>binding</clueType> activity in as much as no NF-kappaB bound to the main NF-kappaB-binding site 2 of the IL-10 promoter after addition of gp41.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T34" />
+<clue>In contrast, gp41 failed to <clueType>stimulate</clueType> NF-kappaB binding activity in as much as no NF-kappaB bound to the main NF-kappaB-binding site 2 of the IL-10 promoter after addition of gp41.</clue>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Binding" />
+<theme idref="T37" />
+<theme idref="T38" />
+<clue>In contrast, gp41 failed to stimulate NF-kappaB binding activity in as much as no NF-kappaB <clueType>bound</clueType> <linkTheme>to</linkTheme> the main NF-kappaB-binding site 2 of the IL-10 promoter <clueTime>after addition of gp41</clueTime>.</clue>
+<comment>NER T38 mod</comment>
+</event>
+<sentence id="S7">We also examined the involvement of other <term sem="Other" id="T43" lex="signal_transduction_pathway">signal transduction pathways</term>.</sentence>
+<sentence id="S8">Specific inhibitors of <term sem="Protein_molecule" id="T44" lex="p70(S6)-kinase">p70(S6)-kinase</term> (<term sem="Organic_compound_other" id="T45" lex="rapamycin">rapamycin</term>), and <term sem="Protein_molecule" id="T46" lex="Gi_protein">Gi protein</term> (<term sem="Protein_molecule" id="T47" lex="pertussis_toxin">pertussis toxin</term>), prevented induction of <term sem="Other" id="T48" lex="IL-10_production"><term sem="Protein_molecule" id="T49" lex="IL-10">IL-10</term> production</term> by <term sem="Protein_molecule" id="T50" lex="gp41">gp41</term> in <term sem="Cell_natural" id="T51" lex="monocyte">monocytes</term>, while inhibitors of the <term sem="Protein_molecule" id="T52" lex="phosphatidylinositol_3-kinase">phosphatidylinositol 3-kinase</term> (<term sem="Protein_molecule" id="T53" lex="PI_3-kinase">PI 3-kinase</term>) (<term sem="Organic_compound_other" id="T54" lex="wortmannin">wortmannin</term>) and <term sem="Other" id="T55" lex="mitogen-activated_protein_kinase_(MAPK)_pathway"><term sem="Protein_molecule" id="T30">mitogen-activated protein kinase</term> (<term sem="Protein_family_or_group" id="T56" lex="MAPK">MAPK</term>) pathway</term> (<term sem="Organic_compound_other" id="T57" lex="PD_98059">PD 98059</term>) did not.</sentence>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="T49" />
+<clue>Specific inhibitors of p70(S6)-kinase (rapamycin), and Gi protein (pertussis toxin), prevented induction of IL-10 <clueType>production</clueType> by gp41 in monocytes, while inhibitors of the phosphatidylinositol 3-kinase (PI 3-kinase) (wortmannin) and mitogen-activated protein kinase (MAPK) pathway (PD 98059) did not.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T50" />
+<clue>Specific inhibitors of p70(S6)-kinase (rapamycin), and Gi protein (pertussis toxin), prevented <clueType>induction</clueType> <linkTheme>of</linkTheme> IL-10 production <linkCause>by</linkCause> gp41 in monocytes, while inhibitors of the phosphatidylinositol 3-kinase (PI 3-kinase) (wortmannin) and mitogen-activated protein kinase (MAPK) pathway (PD 98059) did not.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T45" />
+<clue>Specific inhibitors of p70(S6)-kinase (rapamycin), and Gi protein (pertussis toxin), <clueType>prevented</clueType> induction of IL-10 production by gp41 <clueLoc>in monocytes</clueLoc>, while inhibitors of the phosphatidylinositol 3-kinase (PI 3-kinase) (wortmannin) and mitogen-activated protein kinase (MAPK) pathway (PD 98059) did not.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T47" />
+<clue>Specific inhibitors of p70(S6)-kinase (rapamycin), and Gi protein (pertussis toxin), <clueType>prevented</clueType> induction of IL-10 production by gp41 <clueLoc>in monocytes</clueLoc>, while inhibitors of the phosphatidylinositol 3-kinase (PI 3-kinase) (wortmannin) and mitogen-activated protein kinase (MAPK) pathway (PD 98059) did not.</clue>
+</event>
+<event assertion="non-exist" id="E24">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T54" />
+<clue>Specific inhibitors of p70(S6)-kinase (rapamycin), and Gi protein (pertussis toxin), <clueType>prevented</clueType> induction of IL-10 production by gp41 in monocytes, while inhibitors of the phosphatidylinositol 3-kinase (PI 3-kinase) (wortmannin) and mitogen-activated protein kinase (MAPK) pathway (PD 98059) did not.</clue>
+</event>
+<event assertion="non-exist" id="E25">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T57" />
+<clue>Specific inhibitors of p70(S6)-kinase (rapamycin), and Gi protein (pertussis toxin), <clueType>prevented</clueType> induction of IL-10 production by gp41 in monocytes, while inhibitors of the phosphatidylinositol 3-kinase (PI 3-kinase) (wortmannin) and mitogen-activated protein kinase (MAPK) pathway (PD 98059) did not.</clue>
+</event>
+<sentence id="S9">Thus <term sem="Virus" id="T59" lex="HIV-1">HIV-1</term> <term sem="Protein_molecule" id="T60" lex="gp41">gp41</term>-induced <term sem="Other" id="T61" lex="IL-10_up-regulation"><term sem="Protein_molecule" id="T62" lex="IL-10">IL-10</term> up-regulation</term> in <term sem="Cell_natural" id="T63" lex="monocyte">monocytes</term> may not involve <cons sem="(OR Other Other Other)" id="C1" lex="(OR NF-kappaB_activation MAPK_activation PI3-kinase_activation)"><frag id="F1">NF-kappaB</frag>, <frag id="F2">MAPK</frag>, or <frag id="F3">PI 3-kinase</frag> <frag id="F4">activation</frag></cons>, but rather may operate through activation of <term sem="Protein_complex" id="T68" lex="adenylate_cyclase">adenylate cyclase</term> and <term sem="Protein_molecule" id="T69" lex="pertussis-toxin-sensitive_Gi/Go_protein">pertussis-toxin-sensitive Gi/Go protein</term> to effect <term sem="Other" id="T70" lex="p70(S6)-kinase_activation"><term sem="Protein_molecule" id="T71" lex="p70(S6)-kinase">p70(S6)-kinase</term> activation</term>.</sentence>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T62" />
+<clue>Thus HIV-1 gp41-induced IL-10 <clueType>up-regulation</clueType> in monocytes may not involve NF-kappaB, MAPK, or PI 3-kinase activation, but rather may operate through activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T60" />
+<clue>Thus HIV-1 gp41-<clueType>induced</clueType> IL-10 up-regulation <clueLoc>in monocytes</clueLoc> may not involve NF-kappaB, MAPK, or PI 3-kinase activation, but rather may operate through activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="F1" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not involve NF-kappaB, MAPK, or PI 3-kinase <clueType>activation</clueType>, but rather may operate through activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="F2" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not involve NF-kappaB, MAPK, or PI 3-kinase <clueType>activation</clueType>, but rather may operate through activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="F3" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not involve NF-kappaB, MAPK, or PI 3-kinase <clueType>activation</clueType>, but rather may operate through activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E31">
+<type class="Correlation" />
+<theme idref="E27" />
+<theme idref="E28" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not <clueType>involve</clueType> NF-kappaB, MAPK, or PI 3-kinase activation, but rather may operate through activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E32">
+<type class="Correlation" />
+<theme idref="E27" />
+<theme idref="E29" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not <clueType>involve</clueType> NF-kappaB, MAPK, or PI 3-kinase activation, but rather may operate through activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E33">
+<type class="Correlation" />
+<theme idref="E27" />
+<theme idref="E30" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not <clueType>involve</clueType> NF-kappaB, MAPK, or PI 3-kinase activation, but rather may operate through activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="T68" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not involve NF-kappaB, MAPK, or PI 3-kinase activation, but rather may operate through <clueType>activation</clueType> <linkTheme>of</linkTheme> adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="T69" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not involve NF-kappaB, MAPK, or PI 3-kinase activation, but rather may operate through <clueType>activation</clueType> <linkTheme>of</linkTheme> adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="T71" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not involve NF-kappaB, MAPK, or PI 3-kinase activation, but rather may operate through activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase <clueType>activation</clueType>.</clue>
+</event>
+<event id="E37">
+<type class="Regulation" />
+<theme idref="E36" />
+<cause idref="E34" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not involve NF-kappaB, MAPK, or PI 3-kinase activation, but rather may operate through activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to <clueType>effect</clueType> p70(S6)-kinase activation.</clue>
+</event>
+<event id="E38">
+<type class="Regulation" />
+<theme idref="E36" />
+<cause idref="E35" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not involve NF-kappaB, MAPK, or PI 3-kinase activation, but rather may operate through activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to <clueType>effect</clueType> p70(S6)-kinase activation.</clue>
+</event>
+<event uncertainty="probable" id="E39">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="E37" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not involve NF-kappaB, MAPK, or PI 3-kinase activation, but rather may <clueType>operate</clueType> <linkCause>through</linkCause> activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.</clue>
+</event>
+<event uncertainty="probable" id="E40">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="E38" />
+<clue>Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not involve NF-kappaB, MAPK, or PI 3-kinase activation, but rather may <clueType>operate</clueType> <linkCause>through</linkCause> activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

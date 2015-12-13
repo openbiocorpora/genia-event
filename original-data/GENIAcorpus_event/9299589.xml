@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="23/03/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9299589">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9299589</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_complex" id="T1" lex="Rel/NF-kappa_B">Rel/NF-kappa B</term> <term sem="Protein_family_or_group" id="T2" lex="transcription_factor">transcription factors</term> and the control of <term sem="Other" id="T3" lex="apoptosis">apoptosis</term>.</sentence>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="T3" />
+<clue>Rel/NF-kappa B transcription factors and the <clueType>control</clueType> of apoptosis.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The process of <term sem="Other" id="T4" lex="apoptosis">apoptosis</term> is used to eliminate <term sem="Cell_natural" id="T5" lex="unwanted_cell">unwanted cells</term> from a wide variety of organisms.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="T5" />
+<cause idref="T4" />
+<clue>The process of apoptosis is used to <clueType>eliminate</clueType> unwanted cells from a wide variety of organisms.</clue>
+</event>
+<sentence id="S3">Various <term sem="Other" id="T6" lex="extracellular_signal">extracellular signals</term>, often converging in common <term sem="Other" id="T7" lex="intracellular_pathway">intracellular pathways</term>, can induce <term sem="Other" id="T8" lex="apoptosis">apoptosis</term> in a <term sem="Other" id="T9" lex="cell-type-specific_fashion">cell-type-specific fashion</term>.</sentence>
+<event id="E2">
+<type class="Correlation" />
+<theme idref="T6" />
+<clue>Various extracellular signals, often <clueType>converging</clueType> <clueLoc>in common intracellular pathways</clueLoc>, can induce apoptosis in a cell-type-specific fashion.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="T7" />
+<clue>Various extracellular signals, often converging in common intracellular pathways, can <clueType>induce</clueType> apoptosis in a cell-type-specific fashion.</clue>
+</event>
+<sentence id="S4">Recent work from several laboratories has demonstrated that <term sem="Protein_complex" id="T10" lex="Rel/NF-kappa_B">Rel/NF-kappa B</term> <term sem="Protein_family_or_group" id="T11" lex="transcription_factor">transcription factors</term> regulate <term sem="Other" id="T12" lex="apoptosis">apoptosis</term> in many cell types.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T12" />
+<cause idref="T10" />
+<clue>Recent work from several laboratories has demonstrated that Rel/NF-kappa B transcription factors <clueType>regulate</clueType> apoptosis <clueLoc>in many cell types</clueLoc>.</clue>
+</event>
+<sentence id="S5">In most cells, <term sem="Protein_complex" id="T13" lex="Rel/NF-kappa_B">Rel/NF-kappa B</term> <term sem="Protein_family_or_group" id="T14" lex="transcription_factor">transcription factors</term> appear to mediate <term sem="Other" id="T15" lex="survival_signal">survival signals</term> that protect cells from <term sem="Other" id="T16" lex="apoptosis">apoptosis</term>; however, under some circumstances, activation of these factors may also promote <term sem="Other" id="T17" lex="apoptosis">apoptosis</term>.</sentence>
+<event uncertainty="probable" id="E5">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T13" />
+<clue><clueLoc>In most cells</clueLoc>, Rel/NF-kappa B transcription factors appear to <clueType>mediate</clueType> survival signals that protect cells from apoptosis; however, under some circumstances, activation of these factors may also promote apoptosis.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="T16" />
+<cause idref="T15" />
+<clue>In most cells, Rel/NF-kappa B transcription factors appear to mediate survival signals that <clueType>protect</clueType> cells <linkTheme>from</linkTheme> apoptosis; however, under some circumstances, activation of these factors may also promote apoptosis.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<clue>In most cells, Rel/NF-kappa B transcription factors appear to mediate survival signals that protect cells from apoptosis; however, under some circumstances, <clueType>activation</clueType> <linkTheme>of</linkTheme> <corefTheme>these factors</corefTheme> may also promote apoptosis.</clue>
+</event>
+<event uncertainty="probable" id="E8">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<cause idref="E7" />
+<clue><clueLoc>In most cells</clueLoc>, Rel/NF-kappa B transcription factors appear to mediate survival signals that protect cells from apoptosis; however, under some circumstances, activation of these factors may also <clueType>promote</clueType> apoptosis.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="03/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9285527" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9285527</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term sem="Protein_domain_or_region" id="T1" lex="carboxyl-terminal_cytoplasmic_domain">carboxyl-terminal cytoplasmic domain</term> of <term sem="Protein_molecule" id="T2" lex="CD36">CD36</term> is required for <term sem="Lipid" id="A2">oxidized low-density lipoprotein</term> modulation of <term sem="Other" id="T5" lex="NF-kappaB_activity"><term sem="Protein_complex" id="T6" lex="NF-kappaB">NF-kappaB</term> activity</term> by <term sem="Protein_molecule" id="T7" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>The carboxyl-terminal cytoplasmic domain of CD36 is <clueType>required</clueType> <linkTheme>for</linkTheme> oxidized low-density lipoprotein modulation of NF-kappaB activity by tumor necrosis factor-alpha.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="T5" />
+<cause idref="A2" />
+<clue>The carboxyl-terminal cytoplasmic domain of CD36 is required for oxidized low-density lipoprotein <clueType>modulation</clueType> <linkTheme>of</linkTheme> NF-kappaB activity by tumor necrosis factor-alpha.</clue>
+<comment>NER: T3 del &quot;low-density lipoprotein modulation&quot;</comment>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T7" />
+<clue>The carboxyl-terminal cytoplasmic domain of CD36 is required for oxidized low-density lipoprotein modulation of NF-kappaB activity <linkCause>by</linkCause> tumor necrosis factor-alpha.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The binding of <term sem="Lipid" id="T3">oxidized low-density lipoprotein</term> (<term sem="Lipid" id="T9" lex="Ox_LDL">Ox LDL</term>) by <term sem="Cell_natural" id="A4"><term sem="Cell_natural" id="T10" lex="monocyte">monocyte</term>-<term sem="Cell_natural" id="T4">macrophages</term></term> causes <term sem="Other" id="T12" lex="pleiotropic_effect">pleiotropic effects</term>, including changes in <term sem="Other" id="A3">gene expression</term>, and is thought to represent an early event in <term sem="Other" id="T13" lex="atherogenesis">atherogenesis</term>.</sentence>
+<event id="E4">
+<type class="Cell_adhesion" />
+<theme idref="T9" />
+<theme idref="A4" />
+<clue>The <clueType>binding</clueType> <linkTheme>of</linkTheme> oxidized low-density lipoprotein (Ox LDL) <linkTheme>by</linkTheme> monocyte-macrophages causes pleiotropic effects, including changes in gene expression, and is thought to represent an early event in atherogenesis.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="E4" />
+<clue>The binding of oxidized low-density lipoprotein (Ox LDL) by monocyte-macrophages <clueType>causes</clueType> <corefTheme>pleiotropic effects</corefTheme>, including changes in gene expression, and is thought to represent an early event in atherogenesis.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="A3" />
+<clue>The binding of oxidized low-density lipoprotein (Ox LDL) by monocyte-macrophages causes pleiotropic effects, including <clueType>changes</clueType> <linkTheme>in</linkTheme> gene expression, and is thought to represent an early event in atherogenesis.</clue>
+</event>
+<sentence id="S3">The integral membrane <term sem="Protein_molecule" id="T14" lex="glycoprotein_CD36">glycoprotein <term sem="Protein_molecule" id="T15" lex="CD36">CD36</term></term> appears to play a physiological role in binding and uptake of <term sem="Lipid" id="T16" lex="Ox_LDL">Ox LDL</term> by <term sem="Cell_natural" id="T17" lex="monocyte-_macrophage">monocyte-<term sem="Cell_natural" id="T18" lex="macrophage">macrophages</term></term>, although the molecular events associated with <term sem="Other" id="T19" lex="CD36-Ox_LDL_interaction"><term sem="Protein_molecule" id="T20" lex="CD36">CD36</term>-<term sem="Lipid" id="T21">Ox LDL</term> interaction</term> are unknown.</sentence>
+<event uncertainty="probable" id="E7">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="T15" />
+<clue>The integral <clueLoc>membrane</clueLoc> glycoprotein CD36 appears to <clueType>play</clueType> a physiological <clueType>role</clueType> <linkTheme>in</linkTheme> binding and uptake of Ox LDL by monocyte-macrophages, although the molecular events associated with CD36-Ox LDL interaction are unknown.</clue>
+</event>
+<event id="E27">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T15" />
+<clue>The integral <clueLoc>membrane</clueLoc> glycoprotein CD36 appears to <clueType>play</clueType> a physiological <clueType>role</clueType> <linkTheme>in</linkTheme> binding and uptake of Ox LDL by monocyte-macrophages, although the molecular events associated with CD36-Ox LDL interaction are unknown.</clue>
+</event>
+<event id="E9">
+<type class="Cell_adhesion" />
+<theme idref="T16" />
+<theme idref="T17" />
+<clue>The integral membrane glycoprotein CD36 appears to play a physiological role in <clueType>binding</clueType> and uptake <linkTheme>of</linkTheme> Ox LDL <linkTheme>by</linkTheme> monocyte-macrophages, although the molecular events associated with CD36-Ox LDL interaction are unknown.</clue>
+</event>
+<event id="E10">
+<type class="Localization" />
+<theme idref="T16" />
+<clue>The integral membrane glycoprotein CD36 appears to play a physiological role in binding and <clueType>uptake</clueType> <linkTheme>of</linkTheme> Ox LDL <clueLoc>by monocyte-macrophages</clueLoc>, although the molecular events associated with CD36-Ox LDL interaction are unknown.</clue>
+</event>
+<event uncertainty="doubtful" id="E11">
+<type class="Binding" />
+<theme idref="T20" />
+<theme idref="T21" />
+<clue>The integral membrane glycoprotein CD36 appears to play a physiological role in binding and uptake of Ox LDL by monocyte-macrophages, although the molecular events associated with CD36-Ox LDL <clueType>interaction</clueType> are unknown.</clue>
+</event>
+<sentence id="S4">To approach this issue, we used <term sem="Protein_molecule" id="T22" lex="CD36">CD36</term> transfected <term sem="Cell_natural" id="T23" lex="Chinese_hampster_ovary_(CHO)_cell">Chinese hampster ovary (CHO) cells</term>, exposed them to <term sem="Lipid" id="T24" lex="Ox_LDL">Ox LDL</term>, and determined changes in the activity of the <term sem="Protein_family_or_group" id="T25" lex="transcription_factor">transcription factor</term> <term sem="Protein_complex" id="T26" lex="NF-kappaB">NF-kappaB</term>.</sentence>
+<event id="E12">
+<type class="Artificial_process" />
+<theme idref="T22" />
+<theme idref="T23" />
+<clue>To approach this issue, we used CD36 <clueType>transfected</clueType> Chinese hampster ovary (CHO) cells, exposed them to Ox LDL, and determined changes in the activity of the transcription factor NF-kappaB.</clue>
+</event>
+<event id="E13">
+<type class="Artificial_process" />
+<theme idref="T23" />
+<theme idref="T24" />
+<clue>To approach this issue, we used CD36 transfected Chinese hampster ovary (CHO) cells, <clueType>exposed</clueType> them <linkTheme>to</linkTheme> Ox LDL, and determined changes in the activity of the transcription factor NF-kappaB.</clue>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Regulation" />
+<theme idref="T26" />
+<cause idref="E13" />
+<clue>To approach this issue, we used CD36 transfected Chinese hampster ovary (CHO) cells, exposed them to Ox LDL, and determined <clueType>changes in the activity</clueType> <linkTheme>of</linkTheme> the transcription factor NF-kappaB.</clue>
+</event>
+<sentence id="S5">We report here that <term sem="Lipid" id="T27" lex="Ox_LDL">Ox LDL</term> enhanced DNA binding activity of <term sem="Cell_component" id="T28" lex="nuclear_extract">nuclear extracts</term> to an <term sem="DNA_domain_or_region" id="T29" lex="NF-kappaB_sequence"><term sem="Protein_complex" id="T30" lex="NF-kappaB">NF-kappaB</term> sequence</term> following activation of <term sem="Cell_cultured" id="T31" lex="CD36-producing_CHO_cell"><term sem="Protein_molecule" id="T32" lex="CD36">CD36</term>-producing CHO cells</term> with the <term sem="Protein_family_or_group" id="T33" lex="proinflammatory_cytokine">proinflammatory cytokine</term> <term sem="Protein_molecule" id="T34" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term> (<term sem="Protein_molecule" id="T35" lex="TNF-alpha">TNF-alpha</term>).</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T27" />
+<clue>We report here that Ox LDL <clueType>enhanced</clueType> DNA binding activity of nuclear extracts to an NF-kappaB sequence following activation of CD36-producing CHO cells with the proinflammatory cytokine tumor necrosis factor-alpha (TNF-alpha).</clue>
+</event>
+<event id="E16">
+<type class="Cell_adhesion" />
+<theme idref="T28" />
+<theme idref="T29" />
+<clue>We report here that Ox LDL enhanced DNA <clueType>binding</clueType> activity <linkTheme>of</linkTheme> nuclear extracts <linkTheme>to</linkTheme> an NF-kappaB sequence following activation of CD36-producing CHO cells with the proinflammatory cytokine tumor necrosis factor-alpha (TNF-alpha).</clue>
+</event>
+<event id="E17">
+<type class="Physiological_process" />
+<theme idref="T31" />
+<cause idref="T35" />
+<clue>We report here that Ox LDL enhanced DNA binding activity of nuclear extracts to an NF-kappaB sequence following <clueType>activation</clueType> <linkTheme>of</linkTheme> CD36-producing CHO cells <linkCause>with</linkCause> the proinflammatory cytokine tumor necrosis factor-alpha (TNF-alpha).</clue>
+</event>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>We report here that Ox LDL enhanced DNA binding activity of nuclear extracts to an NF-kappaB sequence following activation of CD36-<clueType>producing</clueType> <clueLoc>CHO cells</clueLoc> with the proinflammatory cytokine tumor necrosis factor-alpha (TNF-alpha).</clue>
+</event>
+<event uncertainty="probable" id="E18">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E17" />
+<clue>We report here that Ox LDL enhanced DNA binding activity of nuclear extracts to an NF-kappaB sequence <linkCause>following</linkCause> activation of CD36-producing CHO cells with the proinflammatory cytokine tumor necrosis factor-alpha (TNF-alpha).</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S6">This enhanced DNA binding activity was inhibited by coincubation of <term sem="Cell_cultured" id="A6"><term sem="Protein_molecule" id="T36" lex="CD36">CD36</term> transfected cells</term> with the <term sem="Protein_family_or_group" id="T37" lex="human_CD36-specific_antibody">human <term sem="Protein_molecule" id="T38" lex="CD36">CD36</term>-specific antibody</term> <term sem="Protein_molecule" id="T39" lex="OKM5">OKM5</term>.</sentence>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="E20" />
+<clue><corefTheme>This enhanced DNA binding activity</corefTheme> was <clueType>inhibited</clueType> <linkCause>by</linkCause> coincubation of CD36 transfected cells with the human CD36-specific antibody OKM5.</clue>
+</event>
+<event id="E20">
+<type class="Artificial_process" />
+<theme idref="A6" />
+<theme idref="T39" />
+<clue>This enhanced DNA binding activity was inhibited by <clueType>coincubation</clueType> <linkTheme>of</linkTheme> CD36 transfected cells <linkTheme>with</linkTheme> the human CD36-specific antibody OKM5.</clue>
+</event>
+<sentence id="S7">We also determined that activation of <term sem="Other" id="T40" lex="NF-kappaB_DNA_binding_activity"><term sem="Protein_complex" id="T41" lex="NF-kappaB">NF-kappaB</term> <term sem="DNA_domain_or_region" id="A7">DNA</term> binding activity</term> required an intact <term sem="Protein_domain_or_region" id="A5"><term sem="Protein_domain_or_region" id="T42" lex="carboxyl-terminal_cytoplasmic_segment">carboxyl-terminal cytoplasmic segment</term> on <term sem="Protein_molecule" id="T43" lex="CD36">CD36</term></term>.</sentence>
+<event id="E21">
+<type class="Binding" />
+<theme idref="T41" />
+<theme idref="A7" />
+<clue>We also determined that activation of NF-kappaB DNA <clueType>binding</clueType> activity required an intact carboxyl-terminal cytoplasmic segment on CD36.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<clue>We also determined that <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB DNA binding activity required an intact carboxyl-terminal cytoplasmic segment on CD36.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="A5" />
+<clue>We also determined that activation of NF-kappaB DNA binding activity <clueType>required</clueType> an intact carboxyl-terminal cytoplasmic segment on CD36.</clue>
+<comment>TPS: A5</comment>
+</event>
+<sentence id="S8">Our results support the idea that <term sem="Protein_molecule" id="T44" lex="human_CD36">human <term sem="Protein_molecule" id="T45" lex="CD36">CD36</term></term> mediates <term sem="Other" id="T46" lex="signal_transduction_event">signal transduction events</term> in response to <term sem="Lipid" id="T47" lex="Ox_LDL">Ox LDL</term>.</sentence>
+<event uncertainty="probable" id="E24">
+<type class="Positive_regulation" />
+<theme idref="T46" />
+<cause idref="T45" />
+<clue>Our results support the idea that human CD36 <clueType>mediates</clueType> signal transduction events in response to Ox LDL.</clue>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Regulation" />
+<theme idref="E24" />
+<cause idref="T47" />
+<clue>Our results support the idea that human CD36 mediates signal transduction events <linkCause>in response to</linkCause> Ox LDL.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

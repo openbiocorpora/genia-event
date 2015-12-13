@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/04/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9170401">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9170401</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Induction of <term sem="Other" id="T1" lex="cytokine_expression"><term sem="Protein_family_or_group" id="T2" lex="cytokine">cytokine</term> expression</term> in <term sem="Cell_natural" id="T3" lex="leukocyte">leukocytes</term> by binding of <term sem="Cell_natural" id="T4" lex="thrombin-stimulated_platelet">thrombin-stimulated platelets</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Induction of cytokine <clueType>expression</clueType> in leukocytes by binding of thrombin-stimulated platelets.</clue>
+</event>
+<event id="E2">
+<type class="Cell_adhesion" />
+<theme idref="T4" />
+<theme idref="T3" />
+<clue>Induction of cytokine expression in leukocytes by <clueType>binding</clueType> <linkTheme>of</linkTheme> thrombin-stimulated platelets.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="E2" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> cytokine expression <clueLoc>in leukocytes</clueLoc> <linkCause>by</linkCause> binding of thrombin-stimulated platelets.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">BACKGROUND: <term sem="Cell_natural" id="T5" lex="activated_platelet">Activated <term sem="Cell_natural" id="A1">platelets</term></term> tether and activate <term sem="Cell_natural" id="T6" lex="myeloid_leukocyte">myeloid <term sem="Cell_natural" id="T7" lex="leukocyte">leukocytes</term></term>.</sentence>
+<event id="E4">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<clue>BACKGROUND: <clueType>Activated</clueType> platelets tether and activate myeloid leukocytes.</clue>
+</event>
+<event id="E5">
+<type class="Cell_adhesion" />
+<theme idref="T5" />
+<theme idref="T6" />
+<clue>BACKGROUND: Activated platelets <clueType>tether</clueType> and activate myeloid leukocytes.</clue>
+</event>
+<event id="E6">
+<type class="Physiological_process" />
+<theme idref="T6" />
+<cause idref="T5" />
+<clue>BACKGROUND: Activated platelets tether and <clueType>activate</clueType> myeloid leukocytes.</clue>
+</event>
+<sentence id="S3">To investigate the potential relevance of this mechanism in <term sem="Other" id="T8" lex="acute_myocardial_infarction">acute myocardial infarction</term> (<term sem="Other" id="T9" lex="AMI">AMI</term>), we examined <term sem="Other" id="T10" lex="cytokine_induction"><term sem="Protein_family_or_group" id="T11" lex="cytokine">cytokine</term> induction</term> by <term sem="Other" id="T12" lex="leukocyte-platelet_adhesion"><term sem="Cell_natural" id="A2">leukocyte</term>-<term sem="Cell_natural" id="A3">platelet</term> adhesion</term> and the occurrence of <term sem="Other" id="T13" lex="leukocyte-platelet_conjugate"><term sem="Cell_natural" id="A4">leukocyte</term>-<term sem="Cell_natural" id="A5">platelet</term> conjugates</term> in <term sem="Multicellular_organism_natural" id="T14" lex="patient">patients</term> with <term sem="Other" id="T15" lex="AMI">AMI</term>.</sentence>
+<event uncertainty="doubtful" id="E7">
+<type class="Correlation" />
+<theme idref="E6" />
+<theme idref="T9" />
+<clue>To investigate the potential <clueType>relevance</clueType> <linkTheme>of</linkTheme> this mechanism <linkTheme>in</linkTheme> acute myocardial infarction (AMI), we examined cytokine induction by leukocyte-platelet adhesion and the occurrence of leukocyte-platelet conjugates in patients with AMI.</clue>
+</event>
+<event id="E8">
+<type class="Cell_adhesion" />
+<theme idref="A2" />
+<theme idref="A3" />
+<clue>To investigate the potential relevance of this mechanism in acute myocardial infarction (AMI), we examined cytokine induction by leukocyte-platelet <clueType>adhesion</clueType> and the occurrence of leukocyte-platelet conjugates in patients with AMI.</clue>
+</event>
+<event uncertainty="doubtful" id="E9">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<cause idref="E8" />
+<clue>To investigate the potential relevance of this mechanism in acute myocardial infarction (AMI), we examined cytokine <clueType>induction</clueType> <linkCause>by</linkCause> leukocyte-platelet adhesion and the occurrence of leukocyte-platelet conjugates in patients with AMI.</clue>
+</event>
+<event id="E10">
+<type class="Cell_adhesion" />
+<theme idref="A4" />
+<theme idref="A5" />
+<clue>To investigate the potential relevance of this mechanism in acute myocardial infarction (AMI), we examined cytokine induction by leukocyte-platelet adhesion and the occurrence of leukocyte-platelet <clueType>conjugates</clueType> in patients with AMI.</clue>
+</event>
+<event uncertainty="doubtful" id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<clue>To investigate the potential relevance of this mechanism in acute myocardial infarction (AMI), we examined cytokine induction by leukocyte-platelet adhesion and the <clueType>occurrence</clueType> <linkTheme>of</linkTheme> leukocyte-platelet conjugates <clueLoc>in patients with AMI</clueLoc>.</clue>
+</event>
+<sentence id="S4">METHODS AND RESULTS: We obtained <term sem="Tissue_natural" id="T16" lex="peripheral_venous_blood_sample">peripheral venous blood samples</term> in 20 <term sem="Multicellular_organism_natural" id="T17" lex="patient">patients</term> with <term sem="Other" id="T18" lex="AMI">AMI</term> before and daily for 5 days after direct <term sem="Other" id="T19" lex="percutaneous_transluminal_coronary_angioplasty">percutaneous transluminal coronary angioplasty</term> (<term sem="Other" id="T20" lex="PTCA">PTCA</term>) and in 20 <term sem="Multicellular_organism_natural" id="T21" lex="patient">patients</term> undergoing elective <term sem="Other" id="T22" lex="PTCA">PTCA</term>.</sentence>
+<sentence id="S5">Throughout the study period, <term sem="Other" id="T23" lex="CD41_immunofluorescence">CD41 immunofluorescence</term> of <term sem="Cell_natural" id="T24" lex="leukocyte">leukocytes</term> (<term sem="Other" id="T25" lex="flow_cytometry">flow cytometry</term>) revealed increased <term sem="Other" id="T26" lex="leukocyte-platelet_adhesion"><term sem="Cell_natural" id="A6">leukocyte</term>-<term sem="Cell_natural" id="A7">platelet</term> adhesion</term> in <term sem="Multicellular_organism_natural" id="T27" lex="patient">patients</term> with <term sem="Other" id="T28" lex="AMI">AMI</term> compared with control <term sem="Multicellular_organism_natural" id="T29" lex="patient">patients</term> (mean +/- SE of fluorescence [channels] before <term sem="Other" id="T30" lex="PTCA">PTCA</term>: 77 +/- 16 versus 35 +/- 9; P = .003).</sentence>
+<event id="E12">
+<type class="Cell_adhesion" />
+<theme idref="A6" />
+<theme idref="A7" />
+<clue>Throughout the study period, CD41 immunofluorescence of leukocytes (flow cytometry) revealed increased leukocyte-platelet <clueType>adhesion</clueType> in patients with AMI compared with control patients (mean +/- SE of fluorescence [channels] before PTCA: 77 +/- 16 versus 35 +/- 9; P = .003).</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<clue>Throughout the study period, <clueExperiment>CD41 immunofluorescence of leukocytes (flow cytometry)</clueExperiment> revealed <clueType>increased</clueType> leukocyte-platelet adhesion <clueLoc>in patients with AMI</clueLoc> compared with control patients (mean +/- SE of fluorescence [channels] before PTCA: 77 +/- 16 versus 35 +/- 9; P = .003).</clue>
+</event>
+<sentence id="S6">In vitro, <term sem="Cell_natural" id="T31" lex="thrombin-stimulated_fixed_platelet"><term sem="Protein_molecule" id="A14">thrombin</term>-stimulated fixed <term sem="Cell_natural" id="A15">platelets</term></term> bound to <term sem="Cell_natural" id="T32" lex="neutrophil">neutrophils</term> and <term sem="Cell_natural" id="T33" lex="monocyte">monocytes</term>.</sentence>
+<event id="E46">
+<type class="Physiological_process" />
+<theme idref="A15" />
+<cause idref="A14" />
+<clue>In vitro, thrombin-<clueType>stimulated</clueType> fixed platelets bound to neutrophils and monocytes.</clue>
+</event>
+<event id="E14">
+<type class="Cell_adhesion" />
+<theme idref="T31" />
+<theme idref="T32" />
+<clue>In vitro, thrombin-stimulated fixed platelets <clueType>bound</clueType> <linkTheme>to</linkTheme> neutrophils and monocytes.</clue>
+</event>
+<event id="E15">
+<type class="Cell_adhesion" />
+<theme idref="T31" />
+<theme idref="T33" />
+<clue>In vitro, thrombin-stimulated fixed platelets <clueType>bound</clueType> <linkTheme>to</linkTheme> neutrophils and monocytes.</clue>
+</event>
+<sentence id="S7">Within 2 hours, this resulted in increased <term sem="RNA_molecule" id="A8">mRNA for</term> <term sem="RNA_molecule" id="T34" lex="interleukin_(IL),1_beta">interleukin (IL),1 beta</term>, <term sem="RNA_molecule" id="T35" lex="IL-8">IL-8</term>, and <term sem="RNA_molecule" id="T36" lex="monocyte_chemoattractant_protein_(MCP)-1">monocyte chemoattractant protein (MCP)-1</term> in unfractionated <term sem="Cell_natural" id="T37" lex="leukocyte">leukocytes</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref1="T34" idref="A8" />
+<cause idref="E14" />
+<clue><clueTime>Within 2 hours</clueTime>, <corefCause>this</corefCause> <clueType>resulted in increased</clueType> mRNA for interleukin (IL),1 beta, IL-8, and monocyte chemoattractant protein (MCP)-1 <clueLoc>in unfractionated leukocytes</clueLoc>.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref1="T34" idref="A8" />
+<cause idref="E15" />
+<clue><clueTime>Within 2 hours</clueTime>, <corefCause>this</corefCause> <clueType>resulted in increased</clueType> mRNA for interleukin (IL),1 beta, IL-8, and monocyte chemoattractant protein (MCP)-1 <clueLoc>in unfractionated leukocytes</clueLoc>.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref1="T35" idref="A8" />
+<cause idref="E14" />
+<clue><clueTime>Within 2 hours</clueTime>, <corefCause>this</corefCause> <clueType>resulted in increased</clueType> mRNA for interleukin (IL),1 beta, IL-8, and monocyte chemoattractant protein (MCP)-1 <clueLoc>in unfractionated leukocytes</clueLoc>.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref1="T35" idref="A8" />
+<cause idref="E15" />
+<clue><clueTime>Within 2 hours</clueTime>, <corefCause>this</corefCause> <clueType>resulted in increased</clueType> mRNA for interleukin (IL),1 beta, IL-8, and monocyte chemoattractant protein (MCP)-1 <clueLoc>in unfractionated leukocytes</clueLoc>.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref1="T36" idref="A8" />
+<cause idref="E14" />
+<clue><clueTime>Within 2 hours</clueTime>, <corefCause>this</corefCause> <clueType>resulted in increased</clueType> mRNA for interleukin (IL),1 beta, IL-8, and monocyte chemoattractant protein (MCP)-1 <clueLoc>in unfractionated leukocytes</clueLoc>.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref1="T36" idref="A8" />
+<cause idref="E15" />
+<clue><clueTime>Within 2 hours</clueTime>, <corefCause>this</corefCause> <clueType>resulted in increased</clueType> mRNA for interleukin (IL),1 beta, IL-8, and monocyte chemoattractant protein (MCP)-1 <clueLoc>in unfractionated leukocytes</clueLoc>.</clue>
+</event>
+<sentence id="S8">After 4 hours, <term sem="Protein_molecule" id="T38" lex="IL-1_beta">IL-1 beta</term> and <term sem="Protein_molecule" id="T39" lex="IL-8">IL-8</term> concentration of the cell-free supernatant had increased by 268 +/- 36% and 210 +/- 7%, respectively, and <term sem="Other" id="T40" lex="cellular_MCP-1_content">cellular <term sem="Protein_molecule" id="T41" lex="MCP-1">MCP-1</term> content</term> had increased by 170 +/- 8%.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<cause idref="E14" />
+<clue><clueTime>After 4 hours</clueTime>, IL-1 beta and IL-8 concentration of the <clueLoc>cell-free supernatant</clueLoc> had <clueType>increased</clueType> by 268 +/- 36% and 210 +/- 7%, respectively, and cellular MCP-1 content had increased by 170 +/- 8%.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<cause idref="E15" />
+<clue><clueTime>After 4 hours</clueTime>, IL-1 beta and IL-8 concentration of the <clueLoc>cell-free supernatant</clueLoc> had <clueType>increased</clueType> by 268 +/- 36% and 210 +/- 7%, respectively, and cellular MCP-1 content had increased by 170 +/- 8%.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<cause idref="E14" />
+<clue><clueTime>After 4 hours</clueTime>, IL-1 beta and IL-8 concentration of the <clueLoc>cell-free supernatant</clueLoc> had <clueType>increased</clueType> by 268 +/- 36% and 210 +/- 7%, respectively, and cellular MCP-1 content had increased by 170 +/- 8%.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<cause idref="E15" />
+<clue><clueTime>After 4 hours</clueTime>, IL-1 beta and IL-8 concentration of the <clueLoc>cell-free supernatant</clueLoc> had <clueType>increased</clueType> by 268 +/- 36% and 210 +/- 7%, respectively, and cellular MCP-1 content had increased by 170 +/- 8%.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<cause idref="E14" />
+<clue><clueTime>After 4 hours</clueTime>, IL-1 beta and IL-8 concentration of the cell-free supernatant had increased by 268 +/- 36% and 210 +/- 7%, respectively, and <clueLoc>cellular</clueLoc> MCP-1 content had <clueType>increased</clueType> by 170 +/- 8%.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<cause idref="E15" />
+<clue><clueTime>After 4 hours</clueTime>, IL-1 beta and IL-8 concentration of the cell-free supernatant had increased by 268 +/- 36% and 210 +/- 7%, respectively, and <clueLoc>cellular</clueLoc> MCP-1 content had <clueType>increased</clueType> by 170 +/- 8%.</clue>
+</event>
+<sentence id="S9">Addition of <term sem="Cell_natural" id="T42" lex="activated_platelet">activated platelets</term> to adherent <term sem="Cell_natural" id="T43" lex="monocyte">monocytes</term> had a similar effect and was associated with <term sem="Other" id="T44" lex="nuclear_factor-kappa_B_activation"><term sem="Protein_complex" id="T45" lex="nuclear_factor-kappa_B">nuclear factor-kappa B</term> activation</term>.</sentence>
+<event id="E45">
+<type class="Artificial_process" />
+<theme idref="T42" />
+<theme idref="T43" />
+<clue><clueType>Addition</clueType> <linkTheme>of</linkTheme> activated platelets <linkTheme>to</linkTheme> adherent monocytes had a similar effect and was associated with nuclear factor-kappa B activation.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<cause idref="E45" />
+<clue>Addition of activated platelets to adherent monocytes <clueType>had a similar effect</clueType> and was associated with nuclear factor-kappa B activation.</clue>
+<comment>CAUTION: similar effect = E16-E27</comment>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T45" />
+<clue>Addition of activated platelets to adherent monocytes had a similar effect and was associated with nuclear factor-kappa B <clueType>activation</clueType>.</clue>
+</event>
+<event id="E30">
+<type class="Correlation" />
+<theme idref="E45" />
+<theme idref="E29" />
+<clue>Addition of activated platelets to adherent monocytes had a similar effect and was <clueType>associated</clueType> <linkTheme>with</linkTheme> nuclear factor-kappa B activation.</clue>
+</event>
+<sentence id="S10">Inhibition of binding by <term sem="Protein_molecule" id="T46" lex="anti-P_selectin_antibody">anti-P selectin antibodies</term> reduced the effect of <term sem="Cell_natural" id="T47" lex="activated_platelet">activated platelets</term> on <term sem="Other" id="T48" lex="cytokine_production"><term sem="Protein_family_or_group" id="T49" lex="cytokine">cytokine</term> production</term>.</sentence>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="E45" />
+<cause idref="T46" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> <corefTheme>binding</corefTheme> <linkCause>by</linkCause> anti-P selectin antibodies reduced the effect of activated platelets on cytokine production.</clue>
+</event>
+<event id="E33">
+<type class="Gene_expression" />
+<theme idref="T49" />
+<clue>Inhibition of binding by anti-P selectin antibodies reduced the effect of activated platelets on cytokine <clueType>production</clueType>.</clue>
+</event>
+<event id="E34">
+<type class="Regulation" />
+<theme idref="E33" />
+<cause idref="T47" />
+<clue>Inhibition of binding by anti-P selectin antibodies reduced the <clueType>effect</clueType> <linkCause>of</linkCause> activated platelets <linkTheme>on</linkTheme> cytokine production.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="E34" />
+<cause idref="E31" />
+<clue>Inhibition of binding by anti-P selectin antibodies <clueType>reduced</clueType> the effect of activated platelets on cytokine production.</clue>
+</event>
+<sentence id="S11">CONCLUSIONS: In <term sem="Multicellular_organism_natural" id="T50" lex="patient">patients</term> with <term sem="Other" id="T51" lex="AMI">AMI</term>, <term sem="Other" id="T52" lex="leukocyte-platelet_adhesion"><term sem="Cell_natural" id="A10">leukocyte</term>-<term sem="Cell_natural" id="A11">platelet</term> adhesion</term> is increased.</sentence>
+<event id="E36">
+<type class="Cell_adhesion" />
+<theme idref="A10" />
+<theme idref="A11" />
+<clue>CONCLUSIONS: In patients with AMI, leukocyte-platelet <clueType>adhesion</clueType> is increased.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<clue>CONCLUSIONS: <clueLoc>In patients with AMI</clueLoc>, leukocyte-platelet adhesion is <clueType>increased</clueType>.</clue>
+</event>
+<sentence id="S12">Binding of <term sem="Cell_natural" id="T53" lex="activated_platelet">activated platelets</term> induces <term sem="Protein_molecule" id="T54" lex="IL-1_beta">IL-1 beta</term>, <term sem="Protein_molecule" id="T55" lex="IL-8">IL-8</term>, and <term sem="Protein_molecule" id="T56" lex="MCP-1">MCP-1</term> in <term sem="Cell_natural" id="T57" lex="leukocyte">leukocytes</term>.</sentence>
+<event id="E38">
+<type class="Cell_adhesion" />
+<theme idref="T53" />
+<theme idref="T57" />
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> activated platelets induces IL-1 beta, IL-8, and MCP-1 in leukocytes.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="T54" />
+<cause idref="E38" />
+<clue>Binding of activated platelets <clueType>induces</clueType> IL-1 beta, IL-8, and MCP-1 <clueLoc>in leukocytes</clueLoc>.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="T55" />
+<cause idref="E38" />
+<clue>Binding of activated platelets <clueType>induces</clueType> IL-1 beta, IL-8, and MCP-1 <clueLoc>in leukocytes</clueLoc>.</clue>
+</event>
+<event id="E41">
+<type class="Positive_regulation" />
+<theme idref="T56" />
+<cause idref="E38" />
+<clue>Binding of activated platelets <clueType>induces</clueType> IL-1 beta, IL-8, and MCP-1 <clueLoc>in leukocytes</clueLoc>.</clue>
+</event>
+<sentence id="S13">Our findings suggest that <term sem="Other" id="T58" lex="leukocyte-platelet_adhesion"><term sem="Cell_natural" id="A12">leukocyte</term>-<term sem="Cell_natural" id="A13">platelet</term> adhesion</term> contributes to the regulation of <term sem="Other" id="T59" lex="inflammatory_response">inflammatory responses</term> in <term sem="Other" id="T60" lex="AMI">AMI</term>.</sentence>
+<event id="E42">
+<type class="Cell_adhesion" />
+<theme idref="A12" />
+<theme idref="A13" />
+<clue>Our findings suggest that leukocyte-platelet <clueType>adhesion</clueType> contributes to the regulation of inflammatory responses in AMI.</clue>
+</event>
+<event id="E43">
+<type class="Regulation" />
+<theme idref="T59" />
+<clue>Our findings suggest that leukocyte-platelet adhesion contributes to the <clueType>regulation</clueType> <linkTheme>of</linkTheme> inflammatory responses <clueLoc>in AMI</clueLoc>.</clue>
+</event>
+<event id="E44">
+<type class="Regulation" />
+<theme idref="E43" />
+<cause idref="E42" />
+<clue>Our findings suggest that leukocyte-platelet adhesion <clueType>contributes</clueType> <linkTheme>to</linkTheme> the regulation of inflammatory responses in AMI.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

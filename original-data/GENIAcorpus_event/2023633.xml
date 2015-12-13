@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="18/04/2006" creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2023633">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2023633</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="HIV_enhancer_activity"><term sem="DNA_domain_or_region" id="T2" lex="HIV_enhancer"><term sem="Virus" id="T3" lex="HIV">HIV</term> enhancer</term> activity</term> perpetuated by <term sem="Protein_molecule" id="T4" lex="NF-kappa_B">NF-kappa B</term> induction on infection of <term sem="Cell_natural" id="T5" lex="monocyte">monocytes</term> [see comments]</sentence>
+<event id="E1">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T5" />
+<theme idref="T3" />
+<clue>HIV enhancer activity perpetuated by NF-kappa B induction on <clueType>infection</clueType> <linkTheme>of</linkTheme> monocytes [see comments]</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T4" />
+<clue>HIV enhancer activity perpetuated by NF-kappa B <clueType>induction</clueType> <linkTheme>on</linkTheme> infection of monocytes [see comments]</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<cause idref="E2" />
+<clue>HIV enhancer activity <clueType>perpetuated</clueType> <linkCause>by</linkCause> NF-kappa B induction on infection of monocytes [see comments]</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Permissiveness to replication of human immunodeficiency virus (<term sem="Virus" id="T6" lex="HIV">HIV</term>) differs in <term sem="Cell_natural" id="T7" lex="T_lymphocyte">T lymphocytes</term> and <term sem="Cell_natural" id="T8" lex="macrophage">macrophages</term>.</sentence>
+<event id="E100">
+<type class="Viral_life_cycle" />
+<theme idref="T6" />
+<clue>Permissiveness to <clueType>replication</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus (HIV) differs in T lymphocytes and macrophages.</clue>
+</event>
+<sentence id="S3">In <term sem="Cell_natural" id="T9" lex="T_cell">T cells</term>, <term sem="Virus" id="T10" lex="HIV">HIV</term> transcription is poorly detected <term sem="Other" id="T11" lex="in_vivo">in vivo</term>.</sentence>
+<event id="E4">
+<type class="Transcription" />
+<theme idref="T10" />
+<clue><clueLoc>In T cells</clueLoc>, HIV <clueType>transcription</clueType> is poorly detected in vivo.</clue>
+</event>
+<sentence id="S4">Cloned, normal <term sem="Cell_natural" id="T12" lex="T_lymphocyte">T lymphocytes</term> show very little, if any, <term sem="Other" id="T13" lex="basal_activity">basal activity</term> of the <term sem="DNA_domain_or_region" id="T14" lex="HIV_enhancer"><term sem="Virus" id="T15" lex="HIV">HIV</term> enhancer</term> and low <term sem="Other" id="T16" lex="nuclear_expression">nuclear expression</term> of <term sem="Protein_molecule" id="T17" lex="NF-kappa_B">NF-kappa B</term>, a <term sem="Protein_family_or_group" id="T18" lex="potent_transcriptional_activator">potent transcriptional activator</term> of the <term sem="DNA_domain_or_region" id="T19" lex="HIV_enhancer"><term sem="Virus" id="T20" lex="HIV">HIV</term> enhancer</term>.</sentence>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>Cloned, normal <clueLoc>T lymphocytes</clueLoc> show very little, if any, basal activity of the HIV enhancer and low <clueLoc>nuclear</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> NF-kappa B, a potent transcriptional activator of the HIV enhancer.</clue>
+</event>
+<sentence id="S5">In contrast, fixed tissue <term sem="Cell_natural" id="T21" lex="macrophage">macrophages</term> express detectable <term sem="Protein_family_or_group" id="T22" lex="HIV_protein"><term sem="Virus" id="T23" lex="HIV">HIV</term> proteins</term>, indicating <term sem="Other" id="T24" lex="permanent_virus_transcription">permanent virus transcription</term>.</sentence>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>In contrast, fixed tissue <clueLoc>macrophages</clueLoc> <clueType>express</clueType> detectable HIV proteins, indicating permanent virus transcription.</clue>
+</event>
+<event id="E101">
+<type class="Transcription" />
+<theme idref="T23" />
+<clue>In contrast, fixed tissue macrophages express detectable HIV proteins, indicating permanent <corefTheme>virus</corefTheme> <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S6">One explanation for the perpetuation of <term sem="Other" id="T25" lex="virus_infection"><term sem="Virus" id="A1">virus</term> infection</term> in <term sem="Cell_natural" id="T26" lex="macrophage">macrophages</term> could be sustained <term sem="Other" id="T27" lex="nuclear_NF-kappa_B_expression">nuclear <term sem="Protein_molecule" id="T28" lex="NF-kappa_B">NF-kappa B</term> expression</term>.</sentence>
+<event id="E7">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A1" />
+<clue>One explanation for the perpetuation of virus <clueType>infection</clueType> in macrophages could be sustained nuclear NF-kappa B expression.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<clue>One explanation for the <clueType>perpetuation</clueType> <linkTheme>of</linkTheme> virus infection <clueLoc>in macrophages</clueLoc> could be sustained nuclear NF-kappa B expression.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T28" />
+<clue>One explanation for the perpetuation of virus infection <clueLoc>in macrophages</clueLoc> could be sustained <clueLoc>nuclear</clueLoc> NF-kappa B <clueType>expression</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E11">
+<type class="Correlation" />
+<theme idref="E9" />
+<theme idref="E8" />
+<clue>One explanation for the perpetuation of virus infection in macrophages could be <clueType>sustained</clueType> nuclear NF-kappa B expression.</clue>
+</event>
+<sentence id="S7">However, the <term sem="Cell_cultured" id="T29" lex="U937_monocytic_cell_line">U937 monocytic cell line</term>, which is fully permissive to <term sem="Other" id="T30" lex="HIV_replication"><term sem="Virus" id="T31" lex="HIV">HIV</term> replication</term>, is known to express only low levels of <term sem="Protein_molecule" id="T32" lex="nuclear_NF-kappa_B">nuclear <term sem="Protein_molecule" id="T33" lex="NF-kappa_B">NF-kappa B</term></term>.</sentence>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>However, the <clueLoc>U937 monocytic cell line</clueLoc>, which is fully permissive to HIV replication, is known to <clueType>express</clueType> only low levels of <clueLoc>nuclear</clueLoc> NF-kappa B.</clue>
+</event>
+<sentence id="S8">We show here that chronic <term sem="Other" id="T34" lex="HIV_infection"><term sem="Virus" id="T35" lex="HIV">HIV</term> infection</term> results in both induction of a <term sem="Protein_molecule" id="A2"><term sem="Protein_molecule" id="T36" lex="nuclear_factor">nuclear factor</term> with antigenic properties indistinguishable from those of <term sem="Protein_molecule" id="T37" lex="NF-kappa_B">NF-kappa B</term></term> and permanently increased <term sem="Other" id="T38" lex="HIV_enhancer_activity"><term sem="DNA_domain_or_region" id="T39" lex="HIV_enhancer"><term sem="Virus" id="T40" lex="HIV">HIV</term> enhancer</term> activity</term>.</sentence>
+<event id="E13">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T35" />
+<clue>We show here that chronic HIV <clueType>infection</clueType> results in both induction of a nuclear factor with antigenic properties indistinguishable from those of NF-kappa B and permanently increased HIV enhancer activity.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="E13" />
+<clue>We show here that chronic HIV infection <linkCause>results in</linkCause> both <clueType>induction</clueType> <linkTheme>of</linkTheme> a nuclear factor with antigenic properties indistinguishable from those of NF-kappa B and permanently increased HIV enhancer activity.</clue>
+<comment>TPS: A2</comment>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<cause idref="E13" />
+<clue>We show here that chronic HIV infection <linkCause>results in</linkCause> both induction of a nuclear factor with antigenic properties indistinguishable from those of NF-kappa B and permanently <clueType>increased</clueType> HIV enhancer activity.</clue>
+</event>
+<sentence id="S9">This phenomenon, which is independent of <term sem="Protein_molecule" id="T41" lex="tumour_necrosis_factor">tumour necrosis factor</term>, is associated with <term sem="Other" id="T42" lex="HIV_replication"><term sem="Virus" id="T43" lex="HIV">HIV</term> replication</term>, and is thus likely to explain at least in part the perpetuation of <term sem="Other" id="T44" lex="HIV_infection"><term sem="Virus" id="T45" lex="HIV">HIV</term> infection</term> in <term sem="Cell_natural" id="T46" lex="monocyte">monocytes</term>.</sentence>
+<event assertion="non-exist" id="E16">
+<type class="Correlation" />
+<theme idref="E14" />
+<theme idref="T41" />
+<clue><corefTheme>This phenomenon</corefTheme>, which is <clueType>independent</clueType> <linkTheme>of</linkTheme> tumour necrosis factor, is associated with HIV replication, and is thus likely to explain at least in part the perpetuation of HIV infection in monocytes.</clue>
+</event>
+<event assertion="non-exist" id="E17">
+<type class="Correlation" />
+<theme idref="E15" />
+<theme idref="T41" />
+<clue><corefTheme>This phenomenon</corefTheme>, which is <clueType>independent</clueType> <linkTheme>of</linkTheme> tumour necrosis factor, is associated with HIV replication, and is thus likely to explain at least in part the perpetuation of HIV infection in monocytes.</clue>
+</event>
+<event id="E18">
+<type class="Viral_life_cycle" />
+<theme idref="T43" />
+<clue>This phenomenon, which is independent of tumour necrosis factor, is associated with HIV <clueType>replication</clueType>, and is thus likely to explain at least in part the perpetuation of HIV infection in monocytes.</clue>
+</event>
+<event id="E19">
+<type class="Correlation" />
+<theme idref="E14" />
+<theme idref="E18" />
+<clue><corefTheme>This phenomenon</corefTheme>, which is independent of tumour necrosis factor, is <clueType>associated</clueType> <linkTheme>with</linkTheme> HIV replication, and is thus likely to explain at least in part the perpetuation of HIV infection in monocytes.</clue>
+</event>
+<event id="E20">
+<type class="Correlation" />
+<theme idref="E15" />
+<theme idref="E18" />
+<clue><corefTheme>This phenomenon</corefTheme>, which is independent of tumour necrosis factor, is <clueType>associated</clueType> <linkTheme>with</linkTheme> HIV replication, and is thus likely to explain at least in part the perpetuation of HIV infection in monocytes.</clue>
+</event>
+<event id="E21">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T46" />
+<theme idref="T45" />
+<clue>This phenomenon, which is independent of tumour necrosis factor, is associated with HIV replication, and is thus likely to explain at least in part the perpetuation of HIV <clueType>infection</clueType> <linkTheme>in</linkTheme> monocytes.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<clue>This phenomenon, which is independent of tumour necrosis factor, is associated with HIV replication, and is thus likely to explain at least in part the <clueType>perpetuation</clueType> <linkTheme>of</linkTheme> HIV infection in monocytes.</clue>
+</event>
+<event uncertainty="probable" id="E23">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E14" />
+<clue>This phenomenon, which is independent of tumour necrosis factor, is associated with HIV replication, and is thus likely to <clueType>explain</clueType> at least in part the perpetuation of HIV infection in monocytes.</clue>
+</event>
+<event uncertainty="probable" id="E24">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E15" />
+<clue>This phenomenon, which is independent of tumour necrosis factor, is associated with HIV replication, and is thus likely to <clueType>explain</clueType> at least in part the perpetuation of HIV infection in monocytes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

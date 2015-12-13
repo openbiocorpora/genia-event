@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="15/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10096561" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10096561</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Stimulation of <term sem="Protein_molecule" id="T1" lex="CD40">CD40</term> on <term sem="Tissue_natural" id="T2" lex="immunogenic_human_malignant_melanoma">immunogenic human malignant melanomas</term> augments their <term sem="Cell_natural" id="T4" lex="cytotoxic_T_lymphocyte">cytotoxic T lymphocyte</term>-mediated <term sem="Other" id="A1">lysis</term> and induces <term sem="Other" id="T5" lex="apoptosis">apoptosis</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> CD40 <clueLoc>on immunogenic human malignant melanomas</clueLoc> augments their cytotoxic T lymphocyte-mediated lysis and induces apoptosis.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="T4" />
+<clue>Stimulation of CD40 on immunogenic human malignant melanomas augments their cytotoxic T lymphocyte-<clueType>mediated</clueType> lysis and induces apoptosis.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue>Stimulation of CD40 on immunogenic human malignant melanomas <clueType>augments</clueType> their cytotoxic T lymphocyte-mediated lysis and induces apoptosis.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T5" />
+<cause idref="E1" />
+<clue>Stimulation of CD40 on immunogenic human malignant melanomas augments their cytotoxic T lymphocyte-mediated lysis and <clueType>induces</clueType> apoptosis.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Here, we report the functional expression of <term sem="Protein_molecule" id="T6" lex="CD40">CD40</term> on <term sem="Tissue_natural" id="T7" lex="human_malignant_melanoma">human malignant melanomas</term> (<term sem="Tissue_natural" id="T8" lex="MM">MMs</term>).</sentence>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Here, we report the functional <clueType>expression</clueType> <linkTheme>of</linkTheme> CD40 <clueLoc>on human malignant melanomas (MMs)</clueLoc>.</clue>
+</event>
+<sentence id="S3">Comparison of <term sem="Tissue_natural" id="T9" lex="tumor_specimen">tumor specimen</term> from <term sem="Tissue_natural" id="T10" lex="MM_precursor_lesion">MM precursor lesions</term>, <term sem="Tissue_natural" id="T11" lex="primary_tumor">primary tumors</term>, and <term sem="Other" id="T12" lex="metastase">metastases</term> revealed that <term sem="Other" id="T13" lex="CD40_surface_expression"><term sem="Protein_molecule" id="T14" lex="CD40">CD40</term> surface expression</term> is down-regulated during <term sem="Other" id="T15" lex="tumor_progression"><term sem="Other" id="A30">tumor</term> progression</term>.</sentence>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>Comparison of tumor specimen from MM precursor lesions, primary tumors, and metastases revealed that CD40 <clueLoc>surface</clueLoc> <clueType>expression</clueType> is down-regulated during tumor progression.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<clue>Comparison of tumor specimen from MM precursor lesions, primary tumors, and metastases revealed that CD40 surface expression is <clueType>down-regulated</clueType> <clueTime>during tumor progression</clueTime>.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation" />
+<theme idref="A30" />
+<clue>Comparison of tumor specimen from MM precursor lesions, primary tumors, and metastases revealed that CD40 surface expression is down-regulated during tumor <clueType>progression</clueType>.</clue>
+</event>
+<event id="E53">
+<type class="Correlation" />
+<theme idref="E7" />
+<theme idref="E50" />
+<clue>Comparison of tumor specimen from MM precursor lesions, primary tumors, and metastases revealed that CD40 surface expression is down-regulated <clueType>during</clueType> tumor progression.</clue>
+</event>
+<sentence id="S4"><term sem="Other" id="T16" lex="CD40_expression"><term sem="Protein_molecule" id="T17" lex="CD40">CD40</term> expression</term> was confirmed in 7 <term sem="Cell_cultured" id="T18" lex="human_MM_cell_line">human MM cell lines</term> established from <term sem="Tissue_natural" id="T19" lex="immunogenic_primary_tumor">immunogenic <term sem="Tissue_natural" id="T20" lex="primary_tumor">primary tumors</term></term> or <term sem="Other" id="T21" lex="metastase">metastases</term>, whereas 11 <term sem="Cell_cultured" id="T22" lex="cell_line">cell lines</term> established from advanced stages were <term sem="Other" id="T23" lex="CD40_negative"><term sem="Protein_molecule" id="T24" lex="CD40">CD40</term> negative</term>.</sentence>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>CD40 <clueType>expression</clueType> was confirmed <clueLoc>in 7 human MM cell lines established from immunogenic primary tumors or metastases</clueLoc>, whereas 11 cell lines established from advanced stages were CD40 negative.</clue>
+</event>
+<event assertion="non-exist" id="E9">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>CD40 expression was confirmed in 7 human MM cell lines established from immunogenic primary tumors or metastases, whereas <clueLoc>11 cell lines established from advanced stages</clueLoc> were CD40 <clueType>negative</clueType>.</clue>
+</event>
+<sentence id="S5"><term sem="Other" id="T25" lex="CD40_expression"><term sem="Protein_molecule" id="T26" lex="CD40">CD40</term> expression</term> could be enhanced in <term sem="Tissue_natural" id="T27" lex="CD40-positive_MM"><term sem="Protein_molecule" id="T28" lex="CD40">CD40</term>-positive MM</term> by stimulation with <term sem="Protein_molecule" id="T29" lex="IFN-gamma">IFN-gamma</term> and <term sem="Protein_molecule" id="T30" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term> but not by <term sem="Protein_molecule" id="T31" lex="interleukin_(IL)-1beta">interleukin (IL)-1beta</term> or <term sem="Other" id="T32" lex="CD40_triggering"><term sem="Protein_molecule" id="T33" lex="CD40">CD40</term> triggering</term>.</sentence>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>CD40 <clueType>expression</clueType> could be enhanced in CD40-positive MM by stimulation with IFN-gamma and tumor necrosis factor-alpha but not by interleukin (IL)-1beta or CD40 triggering.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T29" />
+<clue>CD40 expression could be <clueType>enhanced</clueType> <clueLoc>in CD40-positive MM</clueLoc> <linkCause>by stimulation with</linkCause> IFN-gamma and tumor necrosis factor-alpha but not by interleukin (IL)-1beta or CD40 triggering.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T30" />
+<clue>CD40 expression could be <clueType>enhanced</clueType> <clueLoc>in CD40-positive MM</clueLoc> <linkCause>by stimulation with</linkCause> IFN-gamma and tumor necrosis factor-alpha but not by interleukin (IL)-1beta or CD40 triggering.</clue>
+</event>
+<event assertion="non-exist" id="E13">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T31" />
+<clue>CD40 expression could be <clueType>enhanced</clueType> <clueLoc>in CD40-positive MM</clueLoc> by stimulation with IFN-gamma and tumor necrosis factor-alpha but not <linkCause>by</linkCause> interleukin (IL)-1beta or CD40 triggering.</clue>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T33" />
+<clue>CD40 expression could be <clueType>enhanced</clueType> <clueLoc>in CD40-positive MM</clueLoc> by stimulation with IFN-gamma and tumor necrosis factor-alpha but not <linkCause>by</linkCause> interleukin (IL)-1beta or CD40 triggering.</clue>
+</event>
+<sentence id="S6"><term sem="Other" id="T34" lex="CD40_ligation"><term sem="Protein_molecule" id="T35" lex="CD40">CD40</term> ligation</term> on <term sem="Tissue_natural" id="T36" lex="MM">MM</term> by <term sem="Cell_cultured" id="T37" lex="CD40L-transfected_murine_L-cell"><term sem="Protein_molecule" id="T38" lex="CD40L">CD40L</term>-transfected murine L-cells</term> or by a soluble <term sem="Protein_molecule" id="T39" lex="CD40L_fusion_protein"><term sem="Protein_molecule" id="T40" lex="CD40L">CD40L</term> fusion protein</term> up-regulated their expression of <term sem="Protein_molecule" id="T41" lex="intercellular_adhesion_molecule-1">intercellular adhesion molecule-1</term> and <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T42" lex="(AND MHC_class_I_molecule MHC_class_II_molecule)"><frag id="F1"><term sem="Protein_family_or_group" id="A2">MHC</term></frag> <frag id="F2"><term sem="Protein_family_or_group" id="A3">class I</term></frag> and <frag id="F3"><term sem="Protein_family_or_group" id="A4">class II</term></frag> <frag id="F4"><term sem="Protein_family_or_group" id="A5">molecules</term></frag></cons> and their secretion of <term sem="Protein_molecule" id="T43" lex="IL-6">IL-6</term>, <term sem="Protein_molecule" id="T44" lex="IL-8">IL-8</term>, <term sem="Protein_molecule" id="T45" lex="tumor_necrosis_factor-a">tumor necrosis factor-a</term>, and <term sem="Protein_molecule" id="T46" lex="granulocyte_macrophage_colony-stimulating_factor">granulocyte macrophage colony-stimulating factor</term> and also induced a rapid activation of the <term sem="Protein_family_or_group" id="T47" lex="transcription_factor">transcription factor</term> <term sem="Protein_complex" id="T48" lex="nuclear_factor_kappaB">nuclear factor kappaB</term>.</sentence>
+<event id="E15">
+<type class="Cell_adhesion" />
+<theme idref="T35" />
+<theme idref="T37" />
+<clue>CD40 <clueType>ligation</clueType> <clueLoc>on MM</clueLoc> <linkTheme>by</linkTheme> CD40L-transfected murine L-cells or by a soluble CD40L fusion protein up-regulated their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T35" />
+<theme idref="T39" />
+<clue>CD40 <clueType>ligation</clueType> <clueLoc>on MM</clueLoc> by CD40L-transfected murine L-cells or <linkTheme>by</linkTheme> a soluble CD40L fusion protein up-regulated their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein up-regulated their <clueType>expression</clueType> <linkTheme>of</linkTheme> intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref1="A3" idref2="A5" idref="A2" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein up-regulated their <clueType>expression</clueType> <linkTheme>of</linkTheme> intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref1="A4" idref2="A5" idref="A2" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein up-regulated their <clueType>expression</clueType> <linkTheme>of</linkTheme> intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E20">
+<type class="Localization" />
+<theme idref="T43" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein up-regulated their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their <clueType>secretion</clueType> <linkTheme>of</linkTheme> IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E21">
+<type class="Localization" />
+<theme idref="T44" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein up-regulated their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their <clueType>secretion</clueType> <linkTheme>of</linkTheme> IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E22">
+<type class="Localization" />
+<theme idref="T45" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein up-regulated their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their <clueType>secretion</clueType> <linkTheme>of</linkTheme> IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E23">
+<type class="Localization" />
+<theme idref="T46" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein up-regulated their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their <clueType>secretion</clueType> <linkTheme>of</linkTheme> IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E15" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E16" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="E15" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="E16" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="E15" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="E16" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E15" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E16" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="E15" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="E16" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E15" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E16" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E15" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E16" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein <clueType>up-regulated</clueType> their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="T48" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein up-regulated their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid <clueType>activation</clueType> <linkTheme>of</linkTheme> the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="E15" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein up-regulated their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also <clueType>induced</clueType> a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="E16" />
+<clue>CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein up-regulated their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also <clueType>induced</clueType> a rapid activation of the transcription factor nuclear factor kappaB.</clue>
+</event>
+<sentence id="S7">Furthermore, <term sem="Other" id="T49" lex="CD40_ligation"><term sem="Protein_molecule" id="T50" lex="CD40">CD40</term> ligation</term> of a <term sem="Cell_cultured" id="T51" lex="HLA-A2+,_MelanA/MART1+_MM_cell_line">HLA-A2+, MelanA/MART1+ <term sem="Tissue_natural" id="T52" lex="MM">MM</term> cell line</term> enhanced its susceptibility to specific lysis by a <term sem="Cell_cultured" id="T53" lex="HLA-A2-restricted,_MelanA/MART-1-specific_CTL_clone">HLA-A2-restricted, MelanA/MART-1-specific CTL clone</term>.</sentence>
+<event id="E41">
+<type class="Binding" />
+<theme idref="T50" />
+<clue>Furthermore, CD40 <clueType>ligation</clueType> of a <clueLoc>HLA-A2+, MelanA/MART1+ MM cell line</clueLoc> enhanced its susceptibility to specific lysis by a HLA-A2-restricted, MelanA/MART-1-specific CTL clone.</clue>
+</event>
+<event id="E42">
+<type class="Cellular_physiological_process" />
+<cause idref="T53" />
+<clue>Furthermore, CD40 ligation of a HLA-A2+, MelanA/MART1+ MM cell line enhanced its susceptibility to specific <clueType>lysis</clueType> <linkCause>by</linkCause> a HLA-A2-restricted, MelanA/MART-1-specific CTL clone.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="E42" />
+<cause idref="E41" />
+<clue>Furthermore, CD40 ligation of a HLA-A2+, MelanA/MART1+ MM cell line <clueType>enhanced</clueType> its <clueType>susceptibility</clueType> <linkTheme>to</linkTheme> specific lysis by a HLA-A2-restricted, MelanA/MART-1-specific CTL clone.</clue>
+<comment>SUSCEPTIBILITY</comment>
+</event>
+<sentence id="S8">Finally, <term sem="Other" id="T54" lex="CD40_ligation"><term sem="Protein_molecule" id="T55" lex="CD40">CD40</term> ligation</term> induced <term sem="Other" id="A6">growth</term> inhibition and <term sem="Other" id="T57" lex="apoptosis">apoptosis</term> in <term sem="Tissue_natural" id="T58" lex="MM">MM</term>.</sentence>
+<event id="E44">
+<type class="Binding" />
+<theme idref="T55" />
+<clue>Finally, CD40 <clueType>ligation</clueType> induced growth inhibition and apoptosis in MM.</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation" />
+<theme idref="A6" />
+<clue>Finally, CD40 ligation induced growth <clueType>inhibition</clueType> and apoptosis in MM.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="E44" />
+<clue>Finally, CD40 ligation <clueType>induced</clueType> growth inhibition and apoptosis <clueLoc>in MM</clueLoc>.</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="T57" />
+<cause idref="E44" />
+<clue>Finally, CD40 ligation <clueType>induced</clueType> growth inhibition and apoptosis <clueLoc>in MM</clueLoc>.</clue>
+</event>
+<sentence id="S9">These results indicate that <term sem="Other" id="T59" lex="CD40-CD40L_interaction"><term sem="Protein_molecule" id="T60" lex="CD40">CD40</term>-<term sem="Protein_molecule" id="T61" lex="CD40L">CD40L</term> interactions</term> may play an important role in augmenting <term sem="Other" id="T62" lex="antitumor_immunity">antitumor immunity</term> and inducing <term sem="Other" id="T63" lex="apoptosis">apoptosis</term> in some <term sem="Tissue_natural" id="T64" lex="CD40-positive_immunogenic_human_MM"><term sem="Protein_molecule" id="T65" lex="CD40">CD40</term>-positive immunogenic human <term sem="Tissue_natural" id="T66" lex="MM">MMs</term></term>.</sentence>
+<event id="E48">
+<type class="Binding" />
+<theme idref="T60" />
+<theme idref="T61" />
+<clue>These results indicate that CD40-CD40L <clueType>interactions</clueType> may play an important role in augmenting antitumor immunity and inducing apoptosis in some CD40-positive immunogenic human MMs.</clue>
+</event>
+<event id="E49">
+<type class="Positive_regulation" />
+<theme idref="T62" />
+<clue>These results indicate that CD40-CD40L interactions may play an important role in <clueType>augmenting</clueType> antitumor immunity and inducing apoptosis in some CD40-positive immunogenic human MMs.</clue>
+</event>
+<event uncertainty="probable" id="E50">
+<type class="Positive_regulation" />
+<theme idref="T63" />
+<clue>These results indicate that CD40-CD40L interactions may play an important role in augmenting antitumor immunity and <clueType>inducing</clueType> apoptosis in some CD40-positive immunogenic human MMs.</clue>
+</event>
+<event uncertainty="probable" id="E51">
+<type class="Positive_regulation" />
+<theme idref="E49" />
+<cause idref="E48" />
+<clue>These results indicate that CD40-CD40L interactions may <clueType>play</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> augmenting antitumor immunity and inducing apoptosis <clueLoc>in some CD40-positive immunogenic human MMs</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

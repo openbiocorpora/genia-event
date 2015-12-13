@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="24/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9796702" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9796702</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="p21ras">p21ras</term> initiates <term sem="Protein_molecule" id="T2" lex="Rac-1">Rac-1</term> but not <term sem="Protein_molecule" id="T3" lex="phosphatidyl_inositol_3_kinase/PKB"><term sem="Protein_molecule" id="T4" lex="phosphatidyl_inositol_3_kinase">phosphatidyl inositol 3 kinase</term><term sem="Protein_molecule" id="T5" lex="PKB">/PKB</term></term>, mediated signaling pathways in <term sem="Cell_natural" id="T6" lex="T_lymphocyte">T lymphocytes</term>.</sentence>
+<event id="E1">
+<type class="Cell_communication" />
+<theme idref="T2" />
+<clue>p21ras initiates Rac-1 but not phosphatidyl inositol 3 kinase/PKB, <linkTheme>mediated</linkTheme> <clueType>signaling pathways</clueType> in T lymphocytes.</clue>
+<comment>NER T8,T9,T12,T14,T16,T22,T32,T40,T46,T48,T49,T51,T55,T59,T66,T69,T73,T74,T77 MOD</comment>
+</event>
+<event id="E2">
+<type class="Cell_communication" />
+<theme idref="T4" />
+<theme idref="T5" />
+<clue>p21ras initiates Rac-1 but not phosphatidyl inositol 3 kinase/PKB, <linkTheme>mediated</linkTheme> <clueType>signaling pathways</clueType> in T lymphocytes.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>p21ras <clueType>initiates</clueType> Rac-1 but not phosphatidyl inositol 3 kinase/PKB, mediated signaling pathways <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E4">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>p21ras <clueType>initiates</clueType> Rac-1 but not phosphatidyl inositol 3 kinase/PKB, mediated signaling pathways <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T7" lex="p21ras">p21ras</term> is activated by the <term sem="Protein_complex" id="T8" lex="T_cell_antigen_receptor">T cell antigen receptor</term> (<term sem="Protein_complex" id="T9" lex="TCR">TCR</term>) and then co-ordinates important signaling pathways for <term sem="Other" id="T10" lex="T_lymphocyte_activation"><term sem="Cell_natural" id="T11" lex="T_lymphocyte">T lymphocyte</term> activation</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<cause idref="T9" />
+<clue>p21ras is <clueType>activated</clueType> <linkCause>by</linkCause> the T cell antigen receptor (TCR) and then co-ordinates important signaling pathways for T lymphocyte activation.</clue>
+<comment>NER T8,T9,T11 MOD</comment>
+</event>
+<event id="E6">
+<type class="Physiological_process" />
+<theme idref="T11" />
+<clue>p21ras is activated by the T cell antigen receptor (TCR) and then co-ordinates important signaling pathways for T lymphocyte <clueType>activation</clueType>.</clue>
+</event>
+<event id="E7">
+<type class="Cell_communication" />
+<theme idref="E6" />
+<clue>p21ras is activated by the T cell antigen receptor (TCR) and then co-ordinates important <clueType>signaling pathways</clueType> <linkTheme>for</linkTheme> T lymphocyte activation.</clue>
+</event>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="E5" />
+<theme idref="E7" />
+<clue>p21ras is activated by the T cell antigen receptor (TCR) and then <clueType>co-ordinates</clueType> important signaling pathways for T lymphocyte activation.</clue>
+</event>
+<sentence id="S3">Effector pathways for this <term sem="Protein_family_or_group" id="T12" lex="guanine_nucleotide_binding_protein">guanine nucleotide binding protein</term> in <term sem="Cell_natural" id="T13" lex="T_cell">T cells</term> are mediated by the <term sem="Protein_family_or_group" id="T14" lex="serine/threonine_kinase">serine/threonine kinase</term> <term sem="Protein_molecule" id="T15" lex="Raf-1">Raf-1</term> and the <term sem="Protein_family_or_group" id="T16" lex="Ras-related_GTPase">Ras-related GTPase</term> <term sem="Protein_molecule" id="T17" lex="Rac-1">Rac-1</term>.</sentence>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="T7" />
+<clue><clueType>Effector pathways</clueType> <linkTheme>for</linkTheme> <corefTheme>this guanine nucleotide binding protein</corefTheme> <clueLoc>in T cells</clueLoc> are mediated by the serine/threonine kinase Raf-1 and the Ras-related GTPase Rac-1.</clue>
+<comment>NER T12,T14,T16 MOD</comment>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T15" />
+<clue>Effector pathways for this guanine nucleotide binding protein in T cells are <clueType>mediated</clueType> <linkCause>by</linkCause> the serine/threonine kinase Raf-1 and the Ras-related GTPase Rac-1.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T17" />
+<clue>Effector pathways for this guanine nucleotide binding protein in T cells are <clueType>mediated</clueType> <linkCause>by</linkCause> the serine/threonine kinase Raf-1 and the Ras-related GTPase Rac-1.</clue>
+</event>
+<sentence id="S4">In <term sem="Cell_natural" id="T18" lex="fibroblast">fibroblasts</term>, an important effector for the <term sem="DNA_domain_or_region" id="T19" lex="Ras_oncogene">Ras oncogene</term> is <term sem="Protein_molecule" id="T20" lex="Phosphatidylinositol_3-kinase">Phosphatidylinositol 3-kinase</term> (<term sem="Protein_molecule" id="T21" lex="PtdIns_3-kinase">PtdIns 3-kinase</term>).</sentence>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="T19" />
+<cause idref="T21" />
+<clue>In fibroblasts, an important <clueType>effector</clueType> <linkTheme>for</linkTheme> the Ras oncogene is Phosphatidylinositol 3-kinase (PtdIns 3-kinase).</clue>
+</event>
+<sentence id="S5">Activation of this <term sem="Protein_family_or_group" id="T22" lex="lipid_kinase">lipid kinase</term> is able to induce critical <term sem="Other" id="T23" lex="Rac-1_signaling_pathway"><term sem="Protein_molecule" id="T24" lex="Rac-1">Rac-1</term> signaling pathways</term> and can couple <term sem="Protein_molecule" id="T25" lex="p21ras">p21ras</term> to <term sem="Cell_natural" id="A1">cell</term> <term sem="Other" id="T26" lex="survival_mechanism">survival mechanisms</term> via the <term sem="Protein_molecule" id="T27" lex="serine/threonine_kinase_Akt/PKB"><term sem="Amino_acid_monomer" id="T28" lex="serine">serine</term><term sem="Amino_acid_monomer" id="T29" lex="threonine">/threonine</term> kinase Akt/PKB</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> <corefTheme>this lipid kinase</corefTheme> is able to induce critical Rac-1 signaling pathways and can couple p21ras to cell survival mechanisms via the serine/threonine kinase Akt/PKB.</clue>
+<comment>NER T22 MOD</comment>
+</event>
+<event id="E14">
+<type class="Cell_communication" />
+<theme idref="T24" />
+<clue>Activation of this lipid kinase is able to induce critical Rac-1 <clueType>signaling pathways</clueType> and can couple p21ras to cell survival mechanisms via the serine/threonine kinase Akt/PKB.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E13" />
+<clue>Activation of this lipid kinase is able to <clueType>induce</clueType> critical Rac-1 signaling pathways and can couple p21ras to cell survival mechanisms via the serine/threonine kinase Akt/PKB.</clue>
+</event>
+<event id="E16">
+<type class="Cellular_physiological_process" />
+<theme idref="A1" />
+<clue>Activation of this lipid kinase is able to induce critical Rac-1 signaling pathways and can couple p21ras to cell <clueType>survival mechanisms</clueType> via the serine/threonine kinase Akt/PKB.</clue>
+</event>
+<event id="E18">
+<type class="Correlation" />
+<theme idref="T25" />
+<theme idref="E16" />
+<clue>Activation of this lipid kinase is able to induce critical Rac-1 signaling pathways and can <clueType>couple</clueType> p21ras <linkTheme>to</linkTheme> cell survival mechanisms via the serine/threonine kinase Akt/PKB.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="E13" />
+<clue>Activation of this lipid kinase is able to induce critical Rac-1 signaling pathways and can <clueType>couple</clueType> p21ras to cell survival mechanisms <linkTheme>via</linkTheme> the serine/threonine kinase Akt/PKB.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="E19" />
+<clue>Activation of this lipid kinase is able to induce critical Rac-1 signaling pathways and can <clueType>couple</clueType> p21ras to cell survival mechanisms <linkCause>via</linkCause> the serine/threonine kinase Akt/PKB.</clue>
+</event>
+<sentence id="S6">The role of <term sem="Protein_molecule" id="T30" lex="PtdIns_3-kinase">PtdIns 3-kinase</term> in <term sem="Other" id="T31" lex="Ras_signaling"><term sem="Protein_family_or_group" id="T32" lex="Ras">Ras</term> signaling</term> in <term sem="Cell_natural" id="T33" lex="T_cell">T cells</term> has not been explored.</sentence>
+<event id="E21">
+<type class="Cell_communication" />
+<theme idref="T32" />
+<clue>The role of PtdIns 3-kinase in Ras <clueType>signaling</clueType> <clueLoc>in T cells</clueLoc> has not been explored.</clue>
+<comment>NER T32 MOD</comment>
+</event>
+<event uncertainty="doubtful" id="E22">
+<type class="Regulation" />
+<theme idref="E21" />
+<cause idref="T30" />
+<clue>The <clueType>role</clueType> <linkCause>of</linkCause> PtdIns 3-kinase <linkTheme>in</linkTheme> Ras signaling in T cells has not been explored.</clue>
+</event>
+<sentence id="S7">In the present study, we examined the ability of <term sem="Protein_molecule" id="T34" lex="PtdIns_3-kinase">PtdIns 3-kinase</term> to initiate the <term sem="Other" id="T35" lex="Rac-1_signaling_pathway"><term sem="Protein_molecule" id="T36" lex="Rac-1">Rac-1</term> signaling pathways</term> important for <term sem="Other" id="T37" lex="T_cell_activation"><term sem="Cell_natural" id="A2">T cell</term> activation</term>.</sentence>
+<event id="E23">
+<type class="Cell_communication" />
+<theme idref="T36" />
+<clue>In the present study, we examined the ability of PtdIns 3-kinase to initiate the Rac-1 <clueType>signaling pathways</clueType> important for T cell activation.</clue>
+</event>
+<event id="E24">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<clue>In the present study, we examined the ability of PtdIns 3-kinase to initiate the Rac-1 signaling pathways important for T cell <clueType>activation</clueType>.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E23" />
+<clue>In the present study, we examined the ability of PtdIns 3-kinase to initiate the Rac-1 signaling pathways <clueType>important</clueType> <linkTheme>for</linkTheme> T cell activation.</clue>
+</event>
+<event uncertainty="doubtful" id="E26">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T34" />
+<clue>In the present study, we examined the ability of PtdIns 3-kinase to <clueType>initiate</clueType> the Rac-1 signaling pathways important for T cell activation.</clue>
+</event>
+<sentence id="S8">We also examined the possibility that <term sem="Protein_molecule" id="T38" lex="Akt/PKB">Akt/PKB</term> is regulated by <term sem="Protein_family_or_group" id="A3">Ras</term> signaling pathways in <term sem="Cell_natural" id="T39" lex="T_lymphocyte">T lymphocytes</term>.</sentence>
+<event id="E27">
+<type class="Cell_communication" />
+<theme idref="A3" />
+<clue>We also examined the possibility that Akt/PKB is regulated by Ras <clueType>signaling pathways</clueType> in T lymphocytes.</clue>
+</event>
+<event uncertainty="doubtful" id="E28">
+<type class="Regulation" />
+<theme idref="T38" />
+<cause idref="E27" />
+<clue>We also examined the possibility that Akt/PKB is <clueType>regulated</clueType> <linkCause>by</linkCause> Ras signaling pathways <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+<sentence id="S9">The results show that <term sem="Protein_family_or_group" id="T40" lex="Ras">Ras</term> can initiate a <term sem="Protein_molecule" id="T41" lex="Rac-1">Rac-1</term> mediated pathway that regulates the transcriptional function of <term sem="Protein_complex" id="T42" lex="AP-1_complex">AP-1 complexes</term>.</sentence>
+<event id="E29">
+<type class="Cell_communication" />
+<theme idref="T41" />
+<clue>The results show that Ras can initiate a Rac-1 <linkTheme>mediated</linkTheme> <clueType>pathway</clueType> that regulates the transcriptional function of AP-1 complexes.</clue>
+<comment>NER T40 MOD</comment>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<cause idref="T42" />
+<clue>The results show that Ras can initiate a Rac-1 mediated pathway that regulates the <clueType>transcriptional function</clueType> <linkCause>of</linkCause> AP-1 complexes.</clue>
+</event>
+<event id="E31">
+<type class="Regulation" />
+<theme idref="E30" />
+<cause idref="E29" />
+<clue>The results show that Ras can initiate a Rac-1 mediated pathway that <clueType>regulates</clueType> the transcriptional function of AP-1 complexes.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<cause idref="T40" />
+<clue>The results show that Ras can <clueType>initiate</clueType> a Rac-1 mediated pathway that regulates the transcriptional function of AP-1 complexes.</clue>
+</event>
+<sentence id="S10"><term sem="Protein_molecule" id="T43" lex="PtdIns_3-kinase">PtdIns 3-kinase</term> signals cannot mimic <term sem="Protein_molecule" id="T44" lex="p21ras">p21ras</term> and induce the <term sem="Other" id="T45" lex="Rac_mediated_response"><term sem="Protein_family_or_group" id="T46" lex="Rac">Rac</term> mediated responses</term> of <term sem="Other" id="T47" lex="AP-1_transcriptional_activation"><term sem="Protein_complex" id="T48" lex="AP-1">AP-1</term> transcriptional activation</term>.</sentence>
+<event id="E33">
+<type class="Positive_regulation" />
+<cause idref="T48" />
+<clue>PtdIns 3-kinase signals cannot mimic p21ras and induce the Rac mediated responses of AP-1 <clueType>transcriptional activation</clueType>.</clue>
+<comment>NER T46,T48,T49 MOD</comment>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="T46" />
+<clue>PtdIns 3-kinase signals cannot mimic p21ras and induce the Rac <linkCause>mediated</linkCause> <clueType>responses</clueType> <linkTheme>of</linkTheme> AP-1 transcriptional activation.</clue>
+</event>
+<event assertion="non-exist" id="E35">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="T43" />
+<clue>PtdIns 3-kinase signals cannot mimic p21ras and <clueType>induce</clueType> the Rac mediated responses of AP-1 transcriptional activation.</clue>
+</event>
+<sentence id="S11">Moreover, neither <term sem="Protein_complex" id="T49" lex="TCR">TCR</term> or <term sem="Other" id="T50" lex="Ras_activation"><term sem="Protein_family_or_group" id="T51" lex="Ras">Ras</term> activation</term> of <term sem="Protein_complex" id="T52" lex="AP-1">AP-1</term> is dependent on <term sem="Protein_molecule" id="T53" lex="PtdIns_3-kinase">PtdIns 3-kinase</term>.</sentence>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="T52" />
+<cause idref="T49" />
+<clue>Moreover, neither TCR or Ras <clueType>activation</clueType> <linkTheme>of</linkTheme> AP-1 is dependent on PtdIns 3-kinase.</clue>
+<comment>NER T51,T52 MOD</comment>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="T52" />
+<cause idref="T51" />
+<clue>Moreover, neither TCR or Ras <clueType>activation</clueType> <linkTheme>of</linkTheme> AP-1 is dependent on PtdIns 3-kinase.</clue>
+</event>
+<event assertion="non-exist" id="E38">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="T53" />
+<clue>Moreover, neither TCR or Ras activation of AP-1 is <clueType>dependent</clueType> <linkTheme>on</linkTheme> PtdIns 3-kinase.</clue>
+</event>
+<event assertion="non-exist" id="E39">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T53" />
+<clue>Moreover, neither TCR or Ras activation of AP-1 is <clueType>dependent</clueType> <linkTheme>on</linkTheme> PtdIns 3-kinase.</clue>
+</event>
+<sentence id="S12"><term sem="Protein_molecule" id="T54" lex="PKB">PKB</term> is activated in response to triggering of the <term sem="Protein_complex" id="T55" lex="T_cell_antigen_receptor">T cell antigen receptor</term>; <term sem="Other" id="T56" lex="PtdIns_3-kinase_activity"><term sem="Protein_molecule" id="T57" lex="PtdIns_3-kinase">PtdIns 3-kinase</term> activity</term> is both required and sufficient for this <term sem="Other" id="T58" lex="TCR_response"><term sem="Protein_complex" id="T59" lex="TCR">TCR</term> response</term>.</sentence>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="T55" />
+<clue>PKB is activated in response to <clueType>triggering</clueType> <linkTheme>of</linkTheme> the T cell antigen receptor; PtdIns 3-kinase activity is both required and sufficient for this TCR response.</clue>
+<comment>NER T55,T59 MOD</comment>
+</event>
+<event id="E41">
+<type class="Positive_regulation" />
+<theme idref="T54" />
+<cause idref="E40" />
+<clue>PKB is <clueType>activated</clueType> <linkCause>in response to</linkCause> triggering of the T cell antigen receptor; PtdIns 3-kinase activity is both required and sufficient for this TCR response.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation" />
+<theme idref="E41" />
+<cause idref="T57" />
+<clue>PKB is activated in response to triggering of the T cell antigen receptor; PtdIns 3-kinase activity is both <clueType>required and sufficient</clueType> <linkTheme>for</linkTheme> <corefTheme>this TCR response</corefTheme>.</clue>
+</event>
+<sentence id="S13">In contrast, <term sem="Other" id="T60" lex="p21ras_signal"><term sem="Protein_molecule" id="T61" lex="p21ras">p21ras</term> signals</term> are unable to induce <term sem="Other" id="T62" lex="Akt/PKB_activity"><term sem="Protein_molecule" id="T63" lex="Akt/PKB">Akt/PKB</term> activity</term> in <term sem="Cell_natural" id="T64" lex="T_cell">T cell</term> nor is <term sem="Other" id="T65" lex="Ras_function"><term sem="Protein_family_or_group" id="T66" lex="Ras">Ras</term> function</term> required for <term sem="Other" id="T67" lex="Akt/PKB_activation"><term sem="Protein_molecule" id="T68" lex="Akt/PKB">Akt/PKB</term> activation</term> in response to the <term sem="Protein_complex" id="T69" lex="TCR">TCR</term>.</sentence>
+<event assertion="non-exist" id="E43">
+<type class="Positive_regulation" />
+<theme idref="T63" />
+<cause idref="T61" />
+<clue>In contrast, p21ras signals are unable to <clueType>induce</clueType> Akt/PKB activity <clueLoc>in T cell</clueLoc> nor is Ras function required for Akt/PKB activation in response to the TCR.</clue>
+<comment>NER T66,T69 MOD</comment>
+</event>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="T68" />
+<cause idref="T69" />
+<clue>In contrast, p21ras signals are unable to induce Akt/PKB activity in T cell nor is Ras function required for Akt/PKB <clueType>activation</clueType> <linkCause>in response to</linkCause> the TCR.</clue>
+</event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<cause idref="T66" />
+<clue>In contrast, p21ras signals are unable to induce Akt/PKB activity in T cell nor is Ras function <clueType>required</clueType> <linkTheme>for</linkTheme> Akt/PKB activation in response to the TCR.</clue>
+</event>
+<event assertion="non-exist" id="E46">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<cause idref="T61" />
+<clue>In contrast, p21ras signals are unable to induce Akt/PKB activity in T cell nor is <corefCause>Ras function</corefCause> <clueType>required</clueType> for Akt/PKB activation in response to the TCR.</clue>
+</event>
+<sentence id="S14">The present data thus highlight that <term sem="Protein_molecule" id="T70" lex="PtdIns_3-kinase">PtdIns 3-kinase</term> and <term sem="Protein_molecule" id="T71" lex="Akt/PKB">Akt/PKB</term> are not universal <term sem="Protein_family_or_group" id="T72" lex="Ras_effector_molecule"><term sem="Protein_family_or_group" id="T73" lex="Ras">Ras</term> effector molecules</term>.</sentence>
+<event assertion="non-exist" id="E47">
+<type class="Regulation" />
+<theme idref="T73" />
+<cause idref="T70" />
+<clue>The present data thus highlight that PtdIns 3-kinase and Akt/PKB are not universal Ras <clueType>effector</clueType> molecules.</clue>
+<comment>NER T73 MOD</comment>
+</event>
+<event assertion="non-exist" id="E48">
+<type class="Regulation" />
+<theme idref="T73" />
+<cause idref="T71" />
+<clue>The present data thus highlight that PtdIns 3-kinase and Akt/PKB are not universal Ras <clueType>effector</clueType> molecules.</clue>
+</event>
+<sentence id="S15"><term sem="Protein_family_or_group" id="T74" lex="Ras">Ras</term> can initiate <term sem="Other" id="T75" lex="Rac-1_regulated_signaling_pathway"><term sem="Protein_molecule" id="T76" lex="Rac-1">Rac-1</term> regulated signaling pathways</term> in the context of <term sem="Protein_complex" id="T77" lex="T_cell_antigen_receptor">T cell antigen receptor</term> function independently of <term sem="Other" id="T78" lex="PtdIns_3-kinase_activity"><term sem="Protein_molecule" id="T79" lex="PtdIns_3-kinase">PtdIns 3-kinase</term> activity</term>.</sentence>
+<event id="E49">
+<type class="Cell_communication" />
+<theme idref="T76" />
+<clue>Ras can initiate Rac-1 <linkTheme>regulated</linkTheme> <clueType>signaling pathways</clueType> in the context of T cell antigen receptor function independently of PtdIns 3-kinase activity.</clue>
+<comment>NER T74,T77 MOD</comment>
+</event>
+<event id="E50">
+<type class="Positive_regulation" />
+<theme idref="E49" />
+<cause idref="T74" />
+<clue>Ras can <clueType>initiate</clueType> Rac-1 regulated signaling pathways in the context of T cell antigen receptor function independently of PtdIns 3-kinase activity.</clue>
+</event>
+<event id="E51">
+<type class="Correlation" />
+<theme idref="E50" />
+<theme idref="T77" />
+<clue>Ras can initiate Rac-1 regulated signaling pathways <clueType>in the context</clueType> <linkTheme>of</linkTheme> T cell antigen receptor function independently of PtdIns 3-kinase activity.</clue>
+</event>
+<event assertion="non-exist" id="E52">
+<type class="Correlation" />
+<theme idref="E50" />
+<theme idref="T79" />
+<clue>Ras can initiate Rac-1 regulated signaling pathways in the context of T cell antigen receptor function <clueType>independently</clueType> <linkTheme>of</linkTheme> PtdIns 3-kinase activity.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

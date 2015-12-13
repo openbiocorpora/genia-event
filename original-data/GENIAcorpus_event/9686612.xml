@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="20/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9686612" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9686612</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="fibrinogen">Fibrinogen</term> activates <term sem="Protein_family_or_group" id="T2" lex="NF-kappa_B_transcription_factor"><term sem="Protein_complex" id="T3" lex="NF-kappa_B">NF-kappa B</term> transcription factors</term> in <term sem="Cell_natural" id="T4" lex="mononuclear_phagocyte">mononuclear phagocytes</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T3" />
+<cause idref="T1" />
+<clue>Fibrinogen <clueType>activates</clueType> NF-kappa B transcription factors <clueLoc>in mononuclear phagocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Adhesion to <term sem="Tissue_natural" id="T5" lex="extracellular_matrix">extracellular matrices</term> is known to modulate <term sem="Other" id="T6" lex="leukocyte_activation"><term sem="Cell_natural" id="A1">leukocyte</term> activation</term>, although the mechanisms are not fully understood.</sentence>
+<event id="E2">
+<type class="Cell_adhesion" />
+<theme idref="T5" />
+<theme idref="A1" />
+<clue><clueType>Adhesion</clueType> <linkTheme>to</linkTheme> extracellular matrices is known to modulate leukocyte activation, although the mechanisms are not fully understood.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="E2" />
+<clue>Adhesion to extracellular matrices is known to <clueType>modulate</clueType> leukocyte activation, although the mechanisms are not fully understood.</clue>
+</event>
+<event id="E4">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<clue>Adhesion to extracellular matrices is known to modulate leukocyte <clueType>activation</clueType>, although the mechanisms are not fully understood.</clue>
+</event>
+<sentence id="S3"><term sem="Cell_natural" id="T7" lex="mononuclear_phagocyte">Mononuclear phagocytes</term> are exposed to <term sem="Tissue_natural" id="T8" lex="fibrinous_provisional_matrix">fibrinous provisional matrix</term> throughout migration into inflammatory foci, so this study was undertaken to determine whether <term sem="Protein_molecule" id="A3">fibrinogen</term> triggers activation of <term sem="Protein_family_or_group" id="T9" lex="NF-kappa_B_transcription_factor"><term sem="Protein_complex" id="A2">NF-kappa B</term> transcription factors</term>.</sentence>
+<event id="E5">
+<type class="Artificial_process" />
+<theme idref="T7" />
+<theme idref="T8" />
+<clue>Mononuclear phagocytes are <clueType>exposed</clueType> <linkTheme>to</linkTheme> fibrinous provisional matrix <clueTime>throughout migration into inflammatory foci</clueTime>, so this study was undertaken to determine whether fibrinogen triggers activation of NF-kappa B transcription factors.</clue>
+</event>
+<event id="E6">
+<type class="Cellular_physiological_process" />
+<theme idref="T7" />
+<clue>Mononuclear phagocytes are exposed to fibrinous provisional matrix throughout <clueType>migration</clueType> <clueLoc>into inflammatory foci</clueLoc>, so this study was undertaken to determine whether fibrinogen triggers activation of NF-kappa B transcription factors.</clue>
+</event>
+<event uncertainty="doubtful" id="E7">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="A3" />
+<clue>Mononuclear phagocytes are exposed to fibrinous provisional matrix throughout migration into inflammatory foci, so this study was undertaken to determine whether fibrinogen <clueType>triggers</clueType> activation of NF-kappa B transcription factors.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<clue>Mononuclear phagocytes are exposed to fibrinous provisional matrix throughout migration into inflammatory foci, so this study was undertaken to determine whether fibrinogen triggers <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B transcription factors.</clue>
+</event>
+<sentence id="S4"><term sem="Cell_cultured" id="T10" lex="U937_cell">U937 cells</term> differentiated with <term sem="Organic_compound_other" id="T11" lex="PMA">PMA</term> in <term sem="Cell_cultured" id="T12" lex="nonadherent_culture">nonadherent culture</term> were shown to express two <term sem="Protein_family_or_group" id="T13" lex="fibrinogen-binding_integrin">fibrinogen-binding integrins</term>, predominately <term sem="Protein_molecule" id="T14" lex="CD11b/CD18">CD11b/CD18</term>, and to a lesser extent, <term sem="Protein_molecule" id="T15" lex="CD11c/CD18">CD11c/CD18</term>.</sentence>
+<event id="E9">
+<type class="Cell_differentiation" />
+<theme idref="T10" />
+<clue>U937 cells <clueType>differentiated</clueType> with PMA <clueLoc>in nonadherent culture</clueLoc> were shown to express two fibrinogen-binding integrins, predominately CD11b/CD18, and to a lesser extent, CD11c/CD18.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T11" />
+<clue>U937 cells differentiated <linkCause>with</linkCause> PMA in nonadherent culture were shown to express two fibrinogen-binding integrins, predominately CD11b/CD18, and to a lesser extent, CD11c/CD18.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue><clueLoc>U937 cells differentiated with PMA in nonadherent culture</clueLoc> were shown to <clueType>express</clueType> two <linkTheme>fibrinogen-binding integrins</linkTheme>, predominately CD11b/CD18, and to a lesser extent, CD11c/CD18.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue><clueLoc>U937 cells differentiated with PMA in nonadherent culture</clueLoc> were shown to <clueType>express</clueType> two <linkTheme>fibrinogen-binding integrins</linkTheme>, predominately CD11b/CD18, and to a lesser extent, CD11c/CD18.</clue>
+</event>
+<sentence id="S5"><term sem="Cell_cultured" id="A4">Cells</term> stimulated with <term sem="Protein_molecule" id="T16" lex="fibrinogen">fibrinogen</term> (10-100 microg/ml)/<term sem="Element" id="A5">Mn2+</term> (50 microM) for 2 h were examined by <term sem="Other" id="T17" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assay</term>.</sentence>
+<event id="E12">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<cause idref="T16" />
+<cause idref="A5" />
+<clue>Cells <clueType>stimulated</clueType> <linkCause>with</linkCause> fibrinogen (10-100 microg/ml)/Mn2+ (50 microM) <clueTime>for 2 h</clueTime> were examined by <clueExperiment>electrophoretic mobility shift assay</clueExperiment>.</clue>
+</event>
+<sentence id="S6"><term sem="Other" id="T18" lex="NF-kappa_B_activation"><term sem="Protein_complex" id="T19" lex="NF-kappa_B">NF-kappa B</term> activation</term>, minimal in <term sem="Cell_natural" id="T20" lex="unstimulated_cell">unstimulated cells</term>, was substantially up-regulated by <term sem="Protein_molecule" id="T21" lex="fibrinogen">fibrinogen</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T19" />
+<clue>NF-kappa B <clueType>activation</clueType>, minimal in unstimulated cells, was substantially up-regulated by fibrinogen.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T21" />
+<clue>NF-kappa B activation, minimal in unstimulated cells, was substantially <clueType>up-regulated</clueType> <linkCause>by</linkCause> fibrinogen.</clue>
+</event>
+<sentence id="S7"><term sem="Protein_molecule" id="T22" lex="fibrinogen">Fibrinogen</term> also caused activation of <term sem="Protein_molecule" id="T23" lex="AP-1">AP-1</term>, but not <term sem="Protein_molecule" id="T24" lex="SP1">SP1</term> or <term sem="Protein_family_or_group" id="T25" lex="cAMP_response_element-binding_protein_(CREB)_factor"><term sem="Polynucleotide" id="T26" lex="cAMP">cAMP</term> response element-binding protein (<term sem="Protein_family_or_group" id="A6">CREB) factors</term></term>.</sentence>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T22" />
+<clue>Fibrinogen also <clueType>caused</clueType> activation of AP-1, but not SP1 or cAMP response element-binding protein (CREB) factors.</clue>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T22" />
+<clue>Fibrinogen also <clueType>caused</clueType> activation of AP-1, but not SP1 or cAMP response element-binding protein (CREB) factors.</clue>
+</event>
+<event assertion="non-exist" id="E17">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T22" />
+<clue>Fibrinogen also <clueType>caused</clueType> activation of AP-1, but not SP1 or cAMP response element-binding protein (CREB) factors.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<clue>Fibrinogen also caused <clueType>activation</clueType> <linkTheme>of</linkTheme> AP-1, but not SP1 or cAMP response element-binding protein (CREB) factors.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<clue>Fibrinogen also caused <clueType>activation</clueType> <linkTheme>of</linkTheme> AP-1, but not SP1 or cAMP response element-binding protein (CREB) factors.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<clue>Fibrinogen also caused <clueType>activation</clueType> <linkTheme>of</linkTheme> AP-1, but not SP1 or cAMP response element-binding protein (CREB) factors.</clue>
+</event>
+<sentence id="S8">Blocking <term sem="Protein_family_or_group" id="T27" lex="mAb">mAbs</term> against <term sem="Protein_molecule" id="T28" lex="CD18">CD18</term> and <term sem="Protein_molecule" id="T29" lex="CD11b">CD11b</term> abrogated <term sem="Protein_molecule" id="T31" lex="fibrinogen">fibrinogen</term>-induced <term sem="Other" id="T32" lex="NF-kappa_B_activation"><term sem="Protein_complex" id="T33" lex="NF-kappa_B">NF-kappa B</term> activation</term>.</sentence>
+<event id="E21">
+<type class="Binding" />
+<theme idref1="T28" idref="T27" />
+<theme idref="T28" />
+<clue><clueType>Blocking</clueType> mAbs <linkTheme>against</linkTheme> CD18 and CD11b abrogated fibrinogen-induced NF-kappa B activation.</clue>
+</event>
+<event id="E22">
+<type class="Binding" />
+<theme idref1="T29" idref="T27" />
+<theme idref="T29" />
+<clue><clueType>Blocking</clueType> mAbs <linkTheme>against</linkTheme> CD18 and CD11b abrogated fibrinogen-induced NF-kappa B activation.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="E21" />
+<clue>Blocking mAbs against CD18 and CD11b <clueType>abrogated</clueType> fibrinogen-induced NF-kappa B activation.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="E22" />
+<clue>Blocking mAbs against CD18 and CD11b <clueType>abrogated</clueType> fibrinogen-induced NF-kappa B activation.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="T31" />
+<clue>Blocking mAbs against CD18 and CD11b abrogated fibrinogen<linkCause>-induced</linkCause> NF-kappa B <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S9">To determine the effects on <term sem="Other" id="T34" lex="transcriptional_regulation">transcriptional regulation</term>, <term sem="Cell_cultured" id="T35" lex="U937_cell">U937 cells</term> were transfected with a <term sem="DNA_domain_or_region" id="A9">plasmid containing the <term sem="DNA_domain_or_region" id="T36" lex="HIV-1_enhancer">HIV-1 enhancer</term> (bearing two <term sem="DNA_domain_or_region" id="T37" lex="NF-kappa_B_site"><term sem="Protein_complex" id="T38" lex="NF-kappa_B">NF-kappa B</term> sites</term>) coupled to a <term sem="DNA_family_or_group" id="T39" lex="chloramphenicol_acetyltransferase_(CAT)_reporter"><term sem="Protein_molecule" id="T40" lex="chloramphenicol_acetyltransferase">chloramphenicol acetyltransferase</term> (<term sem="Protein_molecule" id="T41" lex="CAT">CAT</term>) reporter</term></term>.</sentence>
+<event uncertainty="doubtful" id="E26">
+<type class="Regulation" />
+<theme idref="T34" />
+<clue>To determine the <clueType>effects</clueType> <linkTheme>on</linkTheme> transcriptional regulation, U937 cells were transfected with a plasmid containing the HIV-1 enhancer (bearing two NF-kappa B sites) coupled to a chloramphenicol acetyltransferase (CAT) reporter.</clue>
+</event>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="A9" />
+<clue>To determine the effects on transcriptional regulation, <clueLoc>U937 cells</clueLoc> were <clueType>transfected</clueType> <linkTheme>with</linkTheme> a plasmid containing the HIV-1 enhancer (bearing two NF-kappa B sites) coupled to a chloramphenicol acetyltransferase (CAT) reporter.</clue>
+<comment>TPS: A9; ARTIFICIAL</comment>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<clue>To determine the effects on transcriptional regulation, <clueLoc>U937 cells</clueLoc> were <clueType>transfected</clueType> <linkTheme>with</linkTheme> a plasmid containing the HIV-1 enhancer (bearing two NF-kappa B sites) coupled to a chloramphenicol acetyltransferase (CAT) reporter.</clue>
+</event>
+<sentence id="S10">Cells were subsequently stimulated with 1) <term sem="Organic_compound_other" id="T42" lex="PMA">PMA</term> for 24 h, inducing <term sem="Other" id="T43" lex="CAT_activity"><term sem="Protein_molecule" id="T44" lex="CAT">CAT</term> activity</term> by 2.6-fold, 2) <term sem="Protein_molecule" id="T45" lex="fibrinogen">fibrinogen</term>/<term sem="Element" id="A7">Mn2+</term> for 2 h, inducing <term sem="Other" id="T46" lex="CAT_activity"><term sem="Protein_molecule" id="T47" lex="CAT">CAT</term> activity</term> by 3.2-fold, or 3) costimulation with <term sem="Protein_molecule" id="T48" lex="fibrinogen">fibrinogen</term> and <term sem="Organic_compound_other" id="T49" lex="PMA">PMA</term>, inducing 5.7-fold the <term sem="Other" id="T50" lex="CAT_activity"><term sem="Protein_molecule" id="T51" lex="CAT">CAT</term> activity</term> induced by <term sem="Organic_compound_other" id="T52" lex="PMA">PMA</term> alone.</sentence>
+<event id="E29">
+<type class="Physiological_process" />
+<theme idref="T35" />
+<cause idref="T42" />
+<clue><corefTheme>Cells</corefTheme> were subsequently <clueType>stimulated</clueType> <linkCause>with</linkCause> 1) PMA <clueTime>for 24 h</clueTime>, inducing CAT activity by 2.6-fold, 2) fibrinogen/Mn2+ for 2 h, inducing CAT activity by 3.2-fold, or 3) costimulation with fibrinogen and PMA, inducing 5.7-fold the CAT activity induced by PMA alone.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="T44" />
+<cause idref="E29" />
+<clue>Cells were subsequently stimulated with 1) PMA for 24 h, <clueType>inducing</clueType> CAT activity by 2.6-fold, 2) fibrinogen/Mn2+ for 2 h, inducing CAT activity by 3.2-fold, or 3) costimulation with fibrinogen and PMA, inducing 5.7-fold the CAT activity induced by PMA alone.</clue>
+</event>
+<event id="E32">
+<type class="Physiological_process" />
+<theme idref="T35" />
+<cause idref="T45" />
+<cause idref="A7" />
+<clue><corefTheme>Cells</corefTheme> were subsequently <clueType>stimulated</clueType> <linkCause>with</linkCause> 1) PMA for 24 h, inducing CAT activity by 2.6-fold, 2) fibrinogen/Mn2+ <clueTime>for 2 h</clueTime>, inducing CAT activity by 3.2-fold, or 3) costimulation with fibrinogen and PMA, inducing 5.7-fold the CAT activity induced by PMA alone.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="T47" />
+<cause idref="E32" />
+<clue>Cells were subsequently stimulated with 1) PMA for 24 h, inducing CAT activity by 2.6-fold, 2) fibrinogen/Mn2+ for 2 h, <clueType>inducing</clueType> CAT activity by 3.2-fold, or 3) costimulation with fibrinogen and PMA, inducing 5.7-fold the CAT activity induced by PMA alone.</clue>
+</event>
+<event id="E35">
+<type class="Physiological_process" />
+<theme idref="T35" />
+<cause idref="T48" />
+<cause idref="T49" />
+<clue><corefTheme>Cells</corefTheme> were subsequently stimulated with 1) PMA for 24 h, inducing CAT activity by 2.6-fold, 2) fibrinogen/Mn2+ for 2 h, inducing CAT activity by 3.2-fold, or 3) <clueType>costimulation</clueType> <linkCause>with</linkCause> fibrinogen and PMA, inducing 5.7-fold the CAT activity induced by PMA alone.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="T51" />
+<cause idref="E35" />
+<clue>Cells were subsequently stimulated with 1) PMA for 24 h, inducing CAT activity by 2.6-fold, 2) fibrinogen/Mn2+ for 2 h, inducing CAT activity by 3.2-fold, or 3) costimulation with fibrinogen and PMA, <clueType>inducing</clueType> 5.7-fold the CAT activity induced by PMA alone.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="T51" />
+<cause idref="T52" />
+<clue>Cells were subsequently stimulated with 1) PMA for 24 h, inducing CAT activity by 2.6-fold, 2) fibrinogen/Mn2+ for 2 h, inducing CAT activity by 3.2-fold, or 3) costimulation with fibrinogen and PMA, inducing 5.7-fold the CAT activity <clueType>induced</clueType> <linkCause>by</linkCause> PMA alone.</clue>
+</event>
+<sentence id="S11">We conclude that contact with <term sem="Protein_family_or_group" id="T53" lex="fibrinogen-derived_protein"><term sem="Protein_molecule" id="T54" lex="fibrinogen">fibrinogen</term>-derived proteins</term> may contribute to <term sem="Other" id="T55" lex="mononuclear_phagocyte_activation"><term sem="Cell_natural" id="A8">mononuclear phagocyte</term> activation</term> by signaling through <term sem="Protein_molecule" id="T56" lex="CD11b/CD18">CD11b/CD18</term>, resulting in selective activation of <term sem="Protein_family_or_group" id="T57" lex="transcriptional_regulatory_factor">transcriptional regulatory factors</term>, including <term sem="Protein_complex" id="T58" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E38">
+<type class="Binding" />
+<theme idref="T53" />
+<clue>We conclude that <clueType>contact</clueType> <linkTheme>with</linkTheme> fibrinogen-derived proteins may contribute to <clueLoc>mononuclear phagocyte</clueLoc> activation by signaling through CD11b/CD18, resulting in selective activation of transcriptional regulatory factors, including NF-kappa B.</clue>
+</event>
+<event id="E39">
+<type class="Physiological_process" />
+<theme idref="A8" />
+<cause idref="E40" />
+<clue>We conclude that contact with fibrinogen-derived proteins may contribute to mononuclear phagocyte <clueType>activation</clueType> <linkCause>by</linkCause> signaling through CD11b/CD18, resulting in selective activation of transcriptional regulatory factors, including NF-kappa B.</clue>
+</event>
+<event id="E40">
+<type class="Cell_communication" />
+<theme idref="T56" />
+<clue>We conclude that contact with fibrinogen-derived proteins may contribute to mononuclear phagocyte activation by <clueType>signaling</clueType> <linkTheme>through</linkTheme> CD11b/CD18, resulting in selective activation of transcriptional regulatory factors, including NF-kappa B.</clue>
+</event>
+<event uncertainty="probable" id="E41">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref="E38" />
+<clue>We conclude that contact with fibrinogen-derived proteins may <clueType>contribute</clueType> <linkTheme>to</linkTheme> mononuclear phagocyte activation by signaling through CD11b/CD18, resulting in selective activation of transcriptional regulatory factors, including NF-kappa B.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation" />
+<theme idref="E43" />
+<cause idref="E41" />
+<clue>We conclude that contact with fibrinogen-derived proteins may contribute to mononuclear phagocyte activation by signaling through CD11b/CD18, <clueType>resulting</clueType> <linkTheme>in</linkTheme> selective activation of transcriptional regulatory factors, including NF-kappa B.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="T58" />
+<clue>We conclude that contact with fibrinogen-derived proteins may contribute to mononuclear phagocyte activation by signaling through CD11b/CD18, resulting in selective <clueType>activation</clueType> <linkTheme>of</linkTheme> <corefTheme>transcriptional regulatory factors</corefTheme>, including NF-kappa B.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

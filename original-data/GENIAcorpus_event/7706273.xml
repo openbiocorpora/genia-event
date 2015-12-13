@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/12/23" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7706273" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7706273</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="transcriptional_regulation">Transcriptional regulation</term> of the <term sem="DNA_domain_or_region" id="T2" lex="vacuolar_H(+)-ATPase_B2_subunit_gene"><term sem="Protein_molecule" id="T3" lex="vacuolar_H(+)-ATPase_B2_subunit">vacuolar H(+)-ATPase B2 subunit</term> gene</term> in <term sem="Cell_cultured" id="T4" lex="differentiating_THP-1_cell">differentiating <term sem="Cell_natural" id="A1">THP-1 cells</term></term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<cause idref="T2" />
+<clue><clueType>Transcriptional regulation</clueType> <linkCause>of</linkCause> the vacuolar H(+)-ATPase B2 subunit gene <clueLoc>in differentiating THP-1 cells</clueLoc>.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E2">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>Transcriptional regulation of the vacuolar H(+)-ATPase B2 subunit gene in <clueType>differentiating</clueType> THP-1 cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T5" lex="monocyte-macrophage_differentiation"><term sem="Cell_natural" id="A2">Monocyte</term>-<term sem="Cell_natural" id="A20">macrophage</term> differentiation</term> was used as a model system for studying <term sem="Other" id="T6" lex="gene_regulation">gene regulation</term> of the <term sem="Protein_molecule" id="T7" lex="human_vacuolar_H(+)-ATPase">human vacuolar H(+)-ATPase</term> (<term sem="Protein_molecule" id="T8" lex="V-ATPase">V-ATPase</term>).</sentence>
+<event id="E3">
+<type class="Cell_differentiation" />
+<theme idref="A2" />
+<theme idref="A20" />
+<clue>Monocyte-macrophage <clueType>differentiation</clueType> was used as a model system for studying gene regulation of the human vacuolar H(+)-ATPase (V-ATPase).</clue>
+</event>
+<event uncertainty="doubtful" id="E4">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>Monocyte-macrophage differentiation was used as a model system for studying <clueType>gene regulation</clueType> <linkTheme>of</linkTheme> the human vacuolar H(+)-ATPase (V-ATPase).</clue>
+</event>
+<sentence id="S3">We examined <term sem="Other" id="T9" lex="mRNA_level"><term sem="RNA_family_or_group" id="T10" lex="mRNA">mRNA</term> levels</term> of various <term sem="Protein_molecule" id="T11" lex="V-ATPase">V-ATPase</term> subunits during differentiation of both <term sem="Cell_natural" id="T12" lex="native_monocyte">native monocytes</term> and the <term sem="Cell_cultured" id="T13" lex="cell_line">cell line</term> <term sem="Cell_cultured" id="T14" lex="THP-1">THP-1</term>, and found that <cons sem="(AND Other Other)" id="T15" lex="(AND transcriptional_mechanism post-transcriptional_mechanism)"><frag id="F1">transcriptional</frag> and <frag id="F2">post-transcriptional</frag> <frag id="F3">mechanisms</frag></cons> could account for increases in <term sem="Other" id="T16" lex="cell_V-ATPase_content">cell <term sem="Protein_molecule" id="T17" lex="V-ATPase">V-ATPase</term> content</term>.</sentence>
+<event uncertainty="doubtful" id="E30">
+<type class="Transcription" />
+<theme idref="T11" />
+<clue>We examined <clueType>mRNA levels</clueType> <linkTheme>of</linkTheme> various V-ATPase subunits <clueTime>during differentiation of both native monocytes and the cell line THP-1</clueTime>, and found that transcriptional and post-transcriptional mechanisms could account for increases in cell V-ATPase content.</clue>
+</event>
+<event id="E5">
+<type class="Cell_differentiation" />
+<theme idref="T12" />
+<clue>We examined mRNA levels of various V-ATPase subunits during <clueType>differentiation</clueType> <linkTheme>of</linkTheme> both native monocytes and the cell line THP-1, and found that transcriptional and post-transcriptional mechanisms could account for increases in cell V-ATPase content.</clue>
+</event>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="T14" />
+<clue>We examined mRNA levels of various V-ATPase subunits during <clueType>differentiation</clueType> <linkTheme>of</linkTheme> both native monocytes and the cell line THP-1, and found that transcriptional and post-transcriptional mechanisms could account for increases in cell V-ATPase content.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<clue>We examined mRNA levels of various V-ATPase subunits during differentiation of both native monocytes and the cell line THP-1, and found that transcriptional and post-transcriptional mechanisms could account for <clueType>increases</clueType> <linkTheme>in</linkTheme> cell V-ATPase content.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref1="F3" idref="F1" />
+<clue>We examined mRNA levels of various V-ATPase subunits during differentiation of both native monocytes and the cell line THP-1, and found that transcriptional and post-transcriptional mechanisms could <clueType>account</clueType> <linkTheme>for</linkTheme> increases in cell V-ATPase content.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref1="F3" idref="F2" />
+<clue>We examined mRNA levels of various V-ATPase subunits during differentiation of both native monocytes and the cell line THP-1, and found that transcriptional and post-transcriptional mechanisms could <clueType>account</clueType> <linkTheme>for</linkTheme> increases in cell V-ATPase content.</clue>
+</event>
+<sentence id="S4">From <term sem="Other" id="A14">nuclear runoff experiments</term>, we found that one subunit in particular, the <term sem="Protein_molecule" id="T18" lex="B2_isoform">B2 isoform</term> (Mr = 56,000), was amplified primarily by <term sem="Other" id="T19" lex="transcriptional_mean">transcriptional means</term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T18" />
+<cause idref="T19" />
+<clue><clueExperiment>From nuclear runoff experiments</clueExperiment>, we found that one subunit in particular, the B2 isoform (Mr = 56,000), was <clueType>amplified</clueType> primarily <linkCause>by</linkCause> transcriptional means.</clue>
+</event>
+<sentence id="S5">We have begun to examine the structure of the <term sem="DNA_domain_or_region" id="T20" lex="B2_subunit_promoter_region"><term sem="Protein_molecule" id="T21" lex="B2_subunit">B2 subunit</term> <term sem="DNA_domain_or_region" id="T22" lex="promoter_region">promoter region</term></term>.</sentence>
+<sentence id="S6">Isolation and sequencing of the <term sem="DNA_domain_or_region" id="T23" lex="first_exon">first exon</term> and <term sem="DNA_domain_or_region" id="T24" lex="5&apos;-flanking_region">5&apos;-flanking region</term> of this gene reveal a <term sem="DNA_domain_or_region" id="T25" lex="TATA-less_promoter">TATA-less promoter</term> with a high <term sem="Other" id="T26" lex="G_+_C_content"><term sem="Nucleotide" id="T27" lex="G">G</term> + <term sem="Nucleotide" id="T28" lex="C">C</term> content</term>.</sentence>
+<sentence id="S7"><term sem="Other" id="T29" lex="primer_extension">Primer extension</term> and <term sem="Other" id="T30" lex="ribonuclease_protection_analysis"><term sem="Protein_molecule" id="T31" lex="ribonuclease">ribonuclease</term> protection analyses</term> indicate a single <term sem="DNA_domain_or_region" id="T32" lex="major_transcriptional_start_site">major transcriptional start site</term>.</sentence>
+<sentence id="S8">We transfected <term sem="DNA_molecule" id="T33" lex="promoter-luciferase_reporter_plasmid">promoter-luciferase reporter plasmids</term> into <term sem="Cell_cultured" id="T34" lex="THP-1_cell">THP-1 cells</term> to define <term sem="DNA_domain_or_region" id="A8">sequences</term> that mediate <term sem="Other" id="T35" lex="transcriptional_control">transcriptional control</term> during <term sem="Other" id="T36" lex="monocyte_differentiation"><term sem="Cell_natural" id="A7">monocyte</term> differentiation</term>.</sentence>
+<event id="E11">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="T34" />
+<clue>We <clueType>transfected</clueType> promoter-luciferase reporter plasmids <linkTheme>into</linkTheme> THP-1 cells to define sequences that mediate transcriptional control during monocyte differentiation.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T35" />
+<cause idref="A8" />
+<clue>We transfected promoter-luciferase reporter plasmids into THP-1 cells to define sequences that <clueType>mediate</clueType> transcriptional control <clueTime>during monocyte differentiation</clueTime>.</clue>
+</event>
+<event id="E13">
+<type class="Cell_differentiation" />
+<theme idref="A7" />
+<clue>We transfected promoter-luciferase reporter plasmids into THP-1 cells to define sequences that mediate transcriptional control during monocyte <clueType>differentiation</clueType>.</clue>
+</event>
+<sentence id="S9">We found that <term sem="DNA_domain_or_region" id="A9">sequences downstream from the transcriptional start site</term> were sufficient to confer increased <term sem="Other" id="A10">expression</term> during <term sem="Other" id="T37" lex="THP-1_differentiation"><term sem="Cell_cultured" id="T38" lex="THP-1">THP-1</term> differentiation</term>.</sentence>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="A9" />
+<clue>We found that sequences downstream from the transcriptional start site were sufficient to <clueType>confer</clueType> increased expression during THP-1 differentiation.</clue>
+<comment>TPS A9</comment>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="A10" />
+<clue>We found that sequences downstream from the transcriptional start site were sufficient to confer <clueType>increased</clueType> expression <clueTime>during THP-1 differentiation</clueTime>.</clue>
+</event>
+<event id="E16">
+<type class="Cell_differentiation" />
+<theme idref="T38" />
+<clue>We found that sequences downstream from the transcriptional start site were sufficient to confer increased expression during THP-1 <clueType>differentiation</clueType>.</clue>
+</event>
+<sentence id="S10"><term sem="Other" id="T39" lex="DNase_I_footprinting"><term sem="Protein_molecule" id="T40" lex="DNase_I">DNase I</term> footprinting</term> and <term sem="Other" id="T41" lex="sequence_analysis">sequence analysis</term> revealed the existence of multiple <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T42" lex="(AND AP2_binding_site Sp1_binding_site)"><frag id="F4"><term sem="Protein_molecule" id="A12">AP2</term></frag> and <frag id="F5"><term sem="Protein_molecule" id="A13">Sp1</term></frag> <frag id="F6">binding sites</frag></cons> in the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T43" lex="(AND 5&apos;-untranslated_region proximal_coding_region)"><term sem="DNA_domain_or_region" id="A11"><frag id="F7">5&apos;-untranslated</frag> and <frag id="F8">proximal coding</frag> <frag id="F9">regions</frag></term></cons>.</sentence>
+<event id="E17">
+<type class="Binding" />
+<theme idref="A12" />
+<theme idref="A11" />
+<clue><clueExperiment>DNase I footprinting and sequence analysis</clueExperiment> revealed the existence of multiple AP2 and Sp1 <clueType>binding</clueType> sites <linkTheme>in</linkTheme> the 5&apos;-untranslated and proximal coding regions.</clue>
+<comment>TPS A11</comment>
+</event>
+<event id="E18">
+<type class="Binding" />
+<theme idref="A13" />
+<theme idref="A11" />
+<clue><clueExperiment>DNase I footprinting and sequence analysis</clueExperiment> revealed the existence of multiple AP2 and Sp1 <clueType>binding</clueType> sites <linkTheme>in</linkTheme> the 5&apos;-untranslated and proximal coding regions.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

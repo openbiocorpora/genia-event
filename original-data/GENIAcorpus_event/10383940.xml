@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="28/01/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10383940" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10383940</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="STAT1_activation"><term sem="Protein_molecule" id="T2" lex="STAT1">STAT1</term> activation</term> during <term sem="Other" id="T3" lex="monocyte_to_macrophage_maturation"><term sem="Cell_natural" id="A1">monocyte</term> to <term sem="Cell_natural" id="A2">macrophage</term> maturation</term>: role of <term sem="Protein_family_or_group" id="T4" lex="adhesion_molecule">adhesion molecules</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>STAT1 <clueType>activation</clueType> <clueLoc>during monocyte to macrophage maturation</clueLoc>: role of adhesion molecules.</clue>
+</event>
+<event id="E2">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<theme idref="A2" />
+<clue>STAT1 activation during monocyte <linkTheme>to</linkTheme> macrophage <clueType>maturation</clueType>: role of adhesion molecules.</clue>
+</event>
+<event uncertainty="doubtful" id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T4" />
+<clue>STAT1 activation during monocyte to macrophage maturation: <clueType>role</clueType> <linkTheme>of</linkTheme> adhesion molecules.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Cell_natural" id="T5" lex="human_monocyte">Human monocytes</term> isolated from <term sem="Tissue_natural" id="T6" lex="peripheral_blood">peripheral blood</term> of <term sem="Body_region" id="T7" lex="healthy_donor">healthy donors</term> show a <term sem="Other" id="A3">time</term>-dependent differentiation into <term sem="Cell_natural" id="T8" lex="macrophage">macrophages</term> upon in vitro cultivation, closely mimicking their in vivo <term sem="Other" id="T9" lex="migration">migration</term> and <term sem="Other" id="T10" lex="maturation">maturation</term> into <term sem="Tissue_natural" id="T11" lex="extravascular_tissue">extravascular tissues</term>.</sentence>
+<event id="E4">
+<type class="Cell_differentiation" />
+<theme idref="T5" />
+<theme idref="T8" />
+<clue>Human monocytes isolated from peripheral blood of healthy donors show a time-dependent <clueType>differentiation</clueType> <linkTheme>into</linkTheme> macrophages upon <clueExperiment>in vitro cultivation</clueExperiment>, closely mimicking their in vivo migration and maturation into extravascular tissues.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="A3" />
+<clue>Human monocytes isolated from peripheral blood of healthy donors show a time-<clueType>dependent</clueType> differentiation into macrophages upon in vitro cultivation, closely mimicking their in vivo migration and maturation into extravascular tissues.</clue>
+</event>
+<event id="E6">
+<type class="Cellular_physiological_process" />
+<theme idref="T8" />
+<clue>Human monocytes isolated from peripheral blood of healthy donors show a time-dependent differentiation into macrophages upon in vitro cultivation, closely mimicking <corefTheme>their</corefTheme> in vivo <clueType>migration</clueType> and maturation <clueLoc>into extravascular tissues</clueLoc>.</clue>
+</event>
+<event id="E7">
+<type class="Cell_differentiation" />
+<theme idref="T5" />
+<theme idref="T11" />
+<clue>Human monocytes isolated from peripheral blood of healthy donors show a time-dependent differentiation into macrophages upon in vitro cultivation, closely mimicking their in vivo migration and <clueType>maturation</clueType> <linkTheme>into</linkTheme> extravascular tissues.</clue>
+</event>
+<sentence id="S3">The <term sem="Other" id="A5">mediator(s)</term> of this maturation process has not been yet defined.</sentence>
+<event uncertainty="doubtful" id="E8">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="A5" />
+<clue>The <clueType>mediator(s)</clueType> <linkTheme>of</linkTheme> <corefTheme>this maturation process</corefTheme> has not been yet defined.</clue>
+</event>
+<sentence id="S4">We investigated the involvement of <term sem="Protein_family_or_group" id="T12" lex="signal_transducers_and_activators_of_transcription_(STAT)_factor">signal transducers and activators of transcription (STAT) factors</term> in this phenomenon and reported the specific, time-dependent, activation of <term sem="Protein_molecule" id="T13" lex="STAT1">STAT1</term> protein starting at day 0/1 of cultivation and maximally expressed at day 5.</sentence>
+<event uncertainty="doubtful" id="E9">
+<type class="Correlation" />
+<theme idref="T12" />
+<theme idref="E4" />
+<clue>We investigated the <clueType>involvement</clueType> <linkTheme>of</linkTheme> signal transducers and activators of transcription (STAT) factors <linkTheme>in</linkTheme> <corefTheme idref1="E4">this phenomenon</corefTheme> and reported the specific, time-dependent, activation of STAT1 protein starting at day 0/1 of cultivation and maximally expressed at day 5.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<clue>We investigated the involvement of signal transducers and activators of transcription (STAT) factors in this phenomenon and reported the specific, time-dependent, <clueType>activation</clueType> <linkTheme>of</linkTheme> STAT1 protein <clueTime>starting at day 0/1 of cultivation</clueTime> and maximally expressed at day 5.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<clue>We investigated the involvement of signal transducers and activators of transcription (STAT) factors in this phenomenon and reported the specific, time-dependent, activation of STAT1 protein starting at day 0/1 of cultivation and <clueType>maximally expressed</clueType> <clueTime>at day 5</clueTime>.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T14" lex="STAT1">STAT1</term> activity was evident on the <term sem="DNA_domain_or_region" id="T15" lex="STAT_binding_sequence">STAT binding sequences</term> <term sem="DNA_domain_or_region" id="A7"><term sem="DNA_domain_or_region" id="A9">(<term sem="DNA_domain_or_region" id="T16" lex="SBE">SBE</term>) present in the <term sem="DNA_family_or_group" id="T17" lex="promoter">promoters</term> of</term> genes which are up-regulated during <term sem="Cell_natural" id="A10">monocyte</term> to <term sem="Cell_natural" id="A11">macrophage</term> maturation</term> such as <term sem="DNA_domain_or_region" id="T18" lex="FcgammaRI">FcgammaRI</term> and <term sem="DNA_domain_or_region" id="T19" lex="ICAM-1">ICAM-1</term>, and <term sem="DNA_domain_or_region" id="A8">in the promoter of the <term sem="DNA_domain_or_region" id="T20" lex="transcription_factor_IFN_regulatory_factor-1"><term sem="Protein_family_or_group" id="T21" lex="transcription_factor">transcription factor</term> IFN regulatory factor-1</term></term>.</sentence>
+<event id="E13">
+<type class="Binding" />
+<theme idref="A7" />
+<theme idref="T14" />
+<clue>STAT1 activity was <clueType>evident</clueType> on the STAT <clueType>binding</clueType> sequences (SBE) present in the promoters of genes which are up-regulated during monocyte to macrophage maturation such as FcgammaRI and ICAM-1, and in the promoter of the transcription factor IFN regulatory factor-1.</clue>
+<comment>TPS: A7</comment>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref1="T18" idref="A9" />
+<theme idref="T14" />
+<clue>STAT1 activity was <clueType>evident</clueType> on the STAT <clueType>binding</clueType> sequences <corefTheme idref1="A9">(SBE) present in the promoters of genes which are up-regulated during monocyte to macrophage maturation</corefTheme> such as FcgammaRI and ICAM-1, and in the promoter of the transcription factor IFN regulatory factor-1.</clue>
+<comment>TPS: A9</comment>
+</event>
+<event id="E15">
+<type class="Binding" />
+<theme idref1="T19" idref="A9" />
+<theme idref="T14" />
+<clue>STAT1 activity was <clueType>evident</clueType> on the STAT <clueType>binding</clueType> sequences <corefTheme idref1="A9">(SBE) present in the promoters of genes which are up-regulated during monocyte to macrophage maturation</corefTheme> such as FcgammaRI and ICAM-1, and in the promoter of the transcription factor IFN regulatory factor-1.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref1="A8" idref="T16" />
+<theme idref="T14" />
+<clue>STAT1 activity was <clueType>evident</clueType> on the STAT <clueType>binding</clueType> sequences (SBE) present in the promoters of genes which are up-regulated during monocyte to macrophage maturation such as FcgammaRI and ICAM-1, and in the promoter of the transcription factor IFN regulatory factor-1.</clue>
+<comment>TPS: A8</comment>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T18" />
+<clue>STAT1 activity was evident on the STAT binding sequences (SBE) present in the promoters of <corefTheme>genes</corefTheme> which are <clueType>up-regulated</clueType> <clueTime>during monocyte to macrophage maturation</clueTime> such as FcgammaRI and ICAM-1, and in the promoter of the transcription factor IFN regulatory factor-1.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T19" />
+<clue>STAT1 activity was evident on the STAT binding sequences (SBE) present in the promoters of <corefTheme>genes</corefTheme> which are <clueType>up-regulated</clueType> <clueTime>during monocyte to macrophage maturation</clueTime> such as FcgammaRI and ICAM-1, and in the promoter of the transcription factor IFN regulatory factor-1.</clue>
+</event>
+<event id="E19">
+<type class="Cell_differentiation" />
+<theme idref="A10" />
+<theme idref="A11" />
+<clue>STAT1 activity was evident on the STAT binding sequences (SBE) present in the promoters of genes which are up-regulated during monocyte <linkTheme>to</linkTheme> macrophage <clueType>maturation</clueType> such as FcgammaRI and ICAM-1, and in the promoter of the transcription factor IFN regulatory factor-1.</clue>
+</event>
+<sentence id="S6">Moreover, the effect of cell adhesion to <term sem="Protein_molecule" id="A13">fibronectin</term> or <term sem="Protein_molecule" id="A14">laminin</term> was studied to investigate mechanisms involved in <term sem="Other" id="T22" lex="STAT1_activation"><term sem="Protein_molecule" id="T23" lex="STAT1">STAT1</term> activation</term>.</sentence>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<clue>Moreover, the effect of cell adhesion to fibronectin or laminin was studied to investigate mechanisms involved in STAT1 <clueType>activation</clueType>.</clue>
+</event>
+<event uncertainty="doubtful" id="E21">
+<type class="Cell_adhesion" />
+<theme idref="A10" />
+<theme idref="A13" />
+<clue>Moreover, the effect of <corefTheme idref1="A10">cell</corefTheme> <clueType>adhesion</clueType> <linkTheme>to</linkTheme> fibronectin or laminin was studied to investigate mechanisms involved in STAT1 activation.</clue>
+</event>
+<event uncertainty="doubtful" id="E22">
+<type class="Cell_adhesion" />
+<theme idref="A10" />
+<theme idref="A14" />
+<clue>Moreover, the effect of <corefTheme idref1="A10">cell</corefTheme> <clueType>adhesion</clueType> <linkTheme>to</linkTheme> fibronectin or laminin was studied to investigate mechanisms involved in STAT1 activation.</clue>
+</event>
+<event uncertainty="doubtful" id="E23">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="E21" />
+<clue>Moreover, the <clueType>effect</clueType> <linkCause>of</linkCause> cell adhesion to fibronectin or laminin was studied to investigate mechanisms involved in STAT1 activation.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event uncertainty="doubtful" id="E24">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="E22" />
+<clue>Moreover, the <clueType>effect</clueType> <linkCause>of</linkCause> cell adhesion to fibronectin or laminin was studied to investigate mechanisms involved in STAT1 activation.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<sentence id="S7">Compared with <term sem="Cell_natural" id="T24" lex="monocyte">monocytes</term> adherent on <term sem="Organic_compound_other" id="T25" lex="plastic_surface">plastic surfaces</term>, <term sem="Cell_natural" id="A50">freshly isolated</term> cells allowed to adhere either to <cons sem="(OR Other Other)" id="T26" lex="(OR fibronectin-coated_flask laminin-coated_flask)"><frag id="F1"><term sem="Multicellular_organism_genetically_modified" id="A15">fibronectin-</term></frag> or <frag id="F2"><term sem="Multicellular_organism_genetically_modified" id="A16">laminin-</term></frag><frag id="F3"><term sem="Multicellular_organism_genetically_modified" id="A17">coated flasks</term></frag></cons> exhibited an increased <term sem="Other" id="T27" lex="STAT1_binding_activity"><term sem="Protein_molecule" id="T28" lex="STAT1">STAT1</term> binding activity</term> both in control and in <term sem="Cell_cultured" id="T29" lex="IFN-gamma-treated_cell"><term sem="Protein_molecule" id="A19">IFN-gamma</term>-treated cells</term>.</sentence>
+<event id="E25">
+<type class="Cell_adhesion" />
+<theme idref="T24" />
+<theme idref="T25" />
+<clue>Compared with monocytes <clueType>adherent</clueType> <linkTheme>on</linkTheme> plastic surfaces, freshly isolated cells allowed to adhere either to fibronectin- or laminin-coated flasks exhibited an increased STAT1 binding activity both in control and in IFN-gamma-treated cells.</clue>
+</event>
+<event id="E26">
+<type class="Cell_adhesion" />
+<theme idref1="T24" idref="A50" />
+<theme idref1="A17" idref="A15" />
+<clue>Compared with monocytes adherent on plastic surfaces, freshly isolated <corefTheme idref1="T24">cells</corefTheme> allowed to <clueType>adhere</clueType> either <linkTheme>to</linkTheme> fibronectin- or laminin-coated flasks exhibited an increased STAT1 binding activity both in control and in IFN-gamma-treated cells.</clue>
+</event>
+<event id="E27">
+<type class="Cell_adhesion" />
+<theme idref1="T24" idref="A50" />
+<theme idref1="A17" idref="A16" />
+<clue>Compared with monocytes adherent on plastic surfaces, freshly isolated <corefTheme idref1="T24">cells</corefTheme> allowed to <clueType>adhere</clueType> either <linkTheme>to</linkTheme> fibronectin- or laminin-coated flasks exhibited an increased STAT1 binding activity both in control and in IFN-gamma-treated cells.</clue>
+</event>
+<event id="E28">
+<type class="Binding" />
+<theme idref="T28" />
+<clue>Compared with monocytes adherent on plastic surfaces, freshly isolated cells allowed to adhere either to fibronectin- or laminin-coated flasks exhibited an increased STAT1 <clueType>binding activity</clueType> both in control and in IFN-gamma-treated cells.</clue>
+</event>
+<event id="E300">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E26" />
+<clue>Compared with monocytes adherent on plastic surfaces, freshly isolated cells allowed to adhere either to fibronectin- or laminin-coated flasks exhibited an <clueType>increased</clueType> STAT1 binding activity both <clueLoc>in control</clueLoc> and in IFN-gamma-treated <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event id="E301">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E26" />
+<clue>Compared with monocytes adherent on plastic surfaces, freshly isolated cells allowed to adhere either to fibronectin- or laminin-coated flasks exhibited an <clueType>increased</clueType> STAT1 binding activity both in control and <clueLoc>in IFN-gamma-treated cells</clueLoc>.</clue>
+</event>
+<event id="E302">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E27" />
+<clue>Compared with monocytes adherent on plastic surfaces, freshly isolated cells allowed to adhere either to fibronectin- or laminin-coated flasks exhibited an <clueType>increased</clueType> STAT1 binding activity both <clueLoc>in control</clueLoc> and in IFN-gamma-treated <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event id="E303">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E27" />
+<clue>Compared with monocytes adherent on plastic surfaces, freshly isolated cells allowed to adhere either to fibronectin- or laminin-coated flasks exhibited an <clueType>increased</clueType> STAT1 binding activity both in control and <clueLoc>in IFN-gamma-treated cells</clueLoc>.</clue>
+</event>
+<event id="E31">
+<type class="Artificial_process" />
+<theme idref="A19" />
+<theme idref="T24" />
+<clue>Compared with monocytes adherent on plastic surfaces, freshly isolated cells allowed to adhere either to fibronectin- or laminin-coated flasks exhibited an increased STAT1 binding activity both in control and in IFN-gamma-<clueType>treated</clueType> <corefTheme idref1="T24">cells</corefTheme>.</clue>
+</event>
+<sentence id="S8">The <term sem="Other" id="A20">molecular events</term> leading to enhanced <term sem="Other" id="T30" lex="STAT1_activation"><term sem="Protein_molecule" id="T31" lex="STAT1">STAT1</term> activation</term> and <term sem="Other" id="T32" lex="cytokine_responsiveness"><term sem="Protein_family_or_group" id="T33" lex="cytokine">cytokine</term> responsiveness</term> concerned both <term sem="Other" id="T34" lex="Y701_and_S727_STAT1_phosphorylation"><term sem="Protein_molecule" id="T35" lex="Y701_STAT1">Y701</term> and <term sem="Protein_molecule" id="T36" lex="S727_STAT1">S727 <term sem="Protein_molecule" id="T37" lex="STAT1">STAT1</term></term> phosphorylation</term>.</sentence>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="T31" />
+<clue>The molecular events leading to enhanced STAT1 <clueType>activation</clueType> and cytokine responsiveness concerned both Y701 and S727 STAT1 phosphorylation.</clue>
+</event>
+<event id="E33">
+<type class="Regulation" />
+<cause idref="T33" />
+<clue>The molecular events leading to enhanced STAT1 activation and cytokine <clueType>responsiveness</clueType> concerned both Y701 and S727 STAT1 phosphorylation.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="A20" />
+<clue>The molecular events leading to <clueType>enhanced</clueType> STAT1 activation and cytokine responsiveness concerned both Y701 and S727 STAT1 phosphorylation.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="A20" />
+<clue>The molecular events leading to <clueType>enhanced</clueType> STAT1 activation and cytokine responsiveness concerned both Y701 and S727 STAT1 phosphorylation.</clue>
+</event>
+<event id="E36">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref1="T37" idref="T35" />
+<clue>The molecular events leading to enhanced STAT1 activation and cytokine responsiveness concerned both Y701 and S727 STAT1 <clueType>phosphorylation</clueType>.</clue>
+</event>
+<event id="E37">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T36" />
+<clue>The molecular events leading to enhanced STAT1 activation and cytokine responsiveness concerned both Y701 and S727 STAT1 <clueType>phosphorylation</clueType>.</clue>
+</event>
+<event id="E38">
+<type class="Correlation" />
+<theme idref="E34" />
+<theme idref="E36" />
+<clue>The molecular events leading to enhanced STAT1 activation and cytokine responsiveness <clueType>concerned</clueType> both Y701 and S727 STAT1 phosphorylation.</clue>
+</event>
+<event id="E39">
+<type class="Correlation" />
+<theme idref="E34" />
+<theme idref="E37" />
+<clue>The molecular events leading to enhanced STAT1 activation and cytokine responsiveness <clueType>concerned</clueType> both Y701 and S727 STAT1 phosphorylation.</clue>
+</event>
+<event id="E40">
+<type class="Correlation" />
+<theme idref="E35" />
+<theme idref="E36" />
+<clue>The molecular events leading to enhanced STAT1 activation and cytokine responsiveness <clueType>concerned</clueType> both Y701 and S727 STAT1 phosphorylation.</clue>
+</event>
+<event id="E41">
+<type class="Correlation" />
+<theme idref="E35" />
+<theme idref="E37" />
+<clue>The molecular events leading to enhanced STAT1 activation and cytokine responsiveness <clueType>concerned</clueType> both Y701 and S727 STAT1 phosphorylation.</clue>
+</event>
+<sentence id="S9">Exogenous addition of <term sem="Protein_molecule" id="T38" lex="transforming_growth_factor-beta">transforming growth factor-beta</term>, which exerts an inhibitory effect on some <term sem="Protein_family_or_group" id="T39" lex="monocytic_differentiation_marker">monocytic differentiation markers</term>, inhibited <term sem="Cell_natural" id="A22">macrophage</term> maturation, <term sem="Protein_molecule" id="A23">integrin</term> expression and <term sem="Other" id="T40" lex="STAT1_binding_activity"><term sem="Protein_molecule" id="T41" lex="STAT1">STAT1</term> binding activity</term>.</sentence>
+<event id="E42">
+<type class="Artificial_process" />
+<theme idref="T38" />
+<clue>Exogenous <clueType>addition</clueType> <linkTheme>of</linkTheme> transforming growth factor-beta, which exerts an inhibitory effect on some monocytic differentiation markers, inhibited macrophage maturation, integrin expression and STAT1 binding activity.</clue>
+</event>
+<event id="E43">
+<type class="Cellular_physiological_process" />
+<theme idref="A22" />
+<clue>Exogenous addition of transforming growth factor-beta, which exerts an inhibitory effect on some monocytic differentiation markers, inhibited macrophage <clueType>maturation</clueType>, integrin expression and STAT1 binding activity.</clue>
+</event>
+<event id="E44">
+<type class="Gene_expression" />
+<theme idref="A23" />
+<clue>Exogenous addition of transforming growth factor-beta, which exerts an inhibitory effect on some monocytic differentiation markers, inhibited macrophage maturation, integrin <clueType>expression</clueType> and STAT1 binding activity.</clue>
+</event>
+<event id="E45">
+<type class="Binding" />
+<theme idref="T41" />
+<clue>Exogenous addition of transforming growth factor-beta, which exerts an inhibitory effect on some monocytic differentiation markers, inhibited macrophage maturation, integrin expression and STAT1 <clueType>binding activity</clueType>.</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="E42" />
+<clue>Exogenous addition of transforming growth factor-beta, which exerts an inhibitory effect on some monocytic differentiation markers, <clueType>inhibited</clueType> macrophage maturation, integrin expression and STAT1 binding activity.</clue>
+</event>
+<event id="E47">
+<type class="Negative_regulation" />
+<theme idref="E44" />
+<cause idref="E42" />
+<clue>Exogenous addition of transforming growth factor-beta, which exerts an inhibitory effect on some monocytic differentiation markers, <clueType>inhibited</clueType> macrophage maturation, integrin expression and STAT1 binding activity.</clue>
+</event>
+<event id="E48">
+<type class="Negative_regulation" />
+<theme idref="E45" />
+<cause idref="E42" />
+<clue>Exogenous addition of transforming growth factor-beta, which exerts an inhibitory effect on some monocytic differentiation markers, <clueType>inhibited</clueType> macrophage maturation, integrin expression and STAT1 binding activity.</clue>
+</event>
+<event id="E49">
+<type class="Negative_regulation" />
+<theme idref="T39" />
+<cause idref="T38" />
+<clue>Exogenous addition of transforming growth factor-beta, which exerts an <clueType>inhibitory effect</clueType> <linkTheme>on</linkTheme> some monocytic differentiation markers, inhibited macrophage maturation, integrin expression and STAT1 binding activity.</clue>
+</event>
+<sentence id="S10">Taken together these results indicate that <term sem="Protein_molecule" id="T42" lex="STAT1">STAT1</term> plays a pivotal role in the <term sem="Other" id="T43" lex="differentiation/maturation_process">differentiation/maturation process</term> of <term sem="Cell_natural" id="T44" lex="monocyte">monocytes</term> as an early <term sem="Protein_family_or_group" id="T45" lex="transcription_factor">transcription factor</term> initially activated by <term sem="Other" id="A24">adherence</term> and then able to modulate the expression of <term sem="DNA_family_or_group" id="T46" lex="functional_gene">functional genes</term>, such as <term sem="Protein_molecule" id="T47" lex="ICAM-1"><term sem="DNA_domain_or_region" id="T48" lex="ICAM-1">ICAM-1</term></term> and <term sem="Protein_molecule" id="T49" lex="FcgammaRI"><term sem="DNA_domain_or_region" id="T50" lex="FcgammaRI">FcgammaRI</term></term>.</sentence>
+<event id="E150">
+<type class="Cell_differentiation" />
+<theme idref="T44" />
+<clue>Taken together these results indicate that STAT1 plays a pivotal role in the <clueType>differentiation</clueType>/maturation process <linkTheme>of</linkTheme> monocytes as an early transcription factor initially activated by adherence and then able to modulate the expression of functional genes, such as ICAM-1 and FcgammaRI.</clue>
+</event>
+<event id="E151">
+<type class="Cellular_physiological_process" />
+<theme idref="T44" />
+<clue>Taken together these results indicate that STAT1 plays a pivotal role in the differentiation/<clueType>maturation</clueType> process <linkTheme>of</linkTheme> monocytes as an early transcription factor initially activated by adherence and then able to modulate the expression of functional genes, such as ICAM-1 and FcgammaRI.</clue>
+</event>
+<event id="E152">
+<type class="Positive_regulation" />
+<theme idref="E150" />
+<cause idref="T42" />
+<clue>Taken together these results indicate that STAT1 <clueType>plays a pivotal role</clueType> <linkTheme>in</linkTheme> the differentiation/maturation process of monocytes as an early transcription factor initially activated by adherence and then able to modulate the expression of functional genes, such as ICAM-1 and FcgammaRI.</clue>
+</event>
+<event id="E153">
+<type class="Positive_regulation" />
+<theme idref="E151" />
+<cause idref="T42" />
+<clue>Taken together these results indicate that STAT1 <clueType>plays a pivotal role</clueType> <linkTheme>in</linkTheme> the differentiation/maturation process of monocytes as an early transcription factor initially activated by adherence and then able to modulate the expression of functional genes, such as ICAM-1 and FcgammaRI.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<cause idref="A24" />
+<clue>Taken together these results indicate that STAT1 plays a pivotal role in the differentiation/maturation process of monocytes as an <corefTheme>early transcription factor</corefTheme> initially <clueType>activated</clueType> <linkCause>by</linkCause> adherence and then able to modulate the expression of functional genes, such as ICAM-1 and FcgammaRI.</clue>
+</event>
+<event id="E53">
+<type class="Gene_expression" />
+<theme idref="T48" />
+<clue>Taken together these results indicate that STAT1 plays a pivotal role in the differentiation/maturation process of monocytes as an early transcription factor initially activated by adherence and then able to modulate the <clueType>expression</clueType> <linkTheme>of</linkTheme> functional genes, such as ICAM-1 and FcgammaRI.</clue>
+</event>
+<event id="E54">
+<type class="Gene_expression" />
+<theme idref="T50" />
+<clue>Taken together these results indicate that STAT1 plays a pivotal role in the differentiation/maturation process of monocytes as an early transcription factor initially activated by adherence and then able to modulate the <clueType>expression</clueType> <linkTheme>of</linkTheme> functional genes, such as ICAM-1 and FcgammaRI.</clue>
+</event>
+<event id="E55">
+<type class="Regulation" />
+<theme idref="E53" />
+<cause idref="E52" />
+<clue>Taken together these results indicate that STAT1 plays a pivotal role in the differentiation/maturation process of monocytes as an early transcription factor initially activated by adherence and then able to <clueType>modulate</clueType> the expression of functional genes, such as ICAM-1 and FcgammaRI.</clue>
+</event>
+<event id="E56">
+<type class="Regulation" />
+<theme idref="E54" />
+<cause idref="E52" />
+<clue>Taken together these results indicate that STAT1 plays a pivotal role in the differentiation/maturation process of monocytes as an early transcription factor initially activated by adherence and then able to <clueType>modulate</clueType> the expression of functional genes, such as ICAM-1 and FcgammaRI.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

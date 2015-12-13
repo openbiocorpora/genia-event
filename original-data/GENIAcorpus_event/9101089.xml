@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="11/04/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9101089">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9101089</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Induction of <term sem="Protein_molecule" id="T1" lex="relA(p65)">relA(p65)</term> and <term sem="Other" id="T2" lex="I_kappa_B_alpha_subunit_expression"><term sem="Protein_molecule" id="T3" lex="I_kappa_B_alpha_subunit">I kappa B alpha subunit</term> expression</term> during differentiation of <term sem="Cell_natural" id="T4" lex="human_peripheral_blood_monocyte">human peripheral blood monocytes</term> to <term sem="Cell_natural" id="T5" lex="macrophage">macrophages</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T1" />
+<clue>Induction of relA(p65) and I kappa B alpha subunit <clueType>expression</clueType> during differentiation of human peripheral blood monocytes to macrophages.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>Induction of relA(p65) and I kappa B alpha subunit <clueType>expression</clueType> during differentiation of human peripheral blood monocytes to macrophages.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> relA(p65) and I kappa B alpha subunit expression <clueTime>during differentiation of human peripheral blood monocytes to macrophages</clueTime>.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> relA(p65) and I kappa B alpha subunit expression <clueTime>during differentiation of human peripheral blood monocytes to macrophages</clueTime>.</clue>
+</event>
+<event id="E5">
+<type class="Cell_differentiation" />
+<theme idref="T4" />
+<theme idref="T5" />
+<clue>Induction of relA(p65) and I kappa B alpha subunit expression during <clueType>differentiation</clueType> <linkTheme>of</linkTheme> human peripheral blood monocytes <linkTheme>to</linkTheme> macrophages.</clue>
+</event>
+<event uncertainty="doubtful" id="E6">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="E5" />
+<clue>Induction of relA(p65) and I kappa B alpha subunit expression <clueType>during</clueType> differentiation of human peripheral blood monocytes to macrophages.</clue>
+</event>
+<event uncertainty="doubtful" id="E7">
+<type class="Correlation" />
+<theme idref="E4" />
+<theme idref="E5" />
+<clue>Induction of relA(p65) and I kappa B alpha subunit expression <clueType>during</clueType> differentiation of human peripheral blood monocytes to macrophages.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We evaluated the expression and <term sem="DNA_domain_or_region" id="A1">DNA</term> binding activity of <term sem="Protein_molecule" id="T6" lex="nuclear_factor_(NF)-kappa_B_subunit">nuclear factor (NF)-kappa B subunits</term> in <term sem="Cell_natural" id="T7" lex="human_peripheral_blood_monocyte">human peripheral blood monocytes</term> and in <term sem="Cell_natural" id="T8" lex="monocyte-derived_macrophage">monocyte-derived <term sem="Cell_natural" id="T9" lex="macrophage">macrophages</term></term> (<term sem="Cell_natural" id="T10" lex="MDM">MDMs</term>).</sentence>
+<event uncertainty="doubtful" id="E8">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>We evaluated the <clueType>expression</clueType> and DNA binding activity of nuclear factor (NF)-kappa B subunits <clueLoc>in human peripheral blood monocytes</clueLoc> and in monocyte-derived macrophages (MDMs).</clue>
+</event>
+<event uncertainty="doubtful" id="E108">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>We evaluated the <clueType>expression</clueType> and DNA binding activity of nuclear factor (NF)-kappa B subunits in human peripheral blood monocytes and <clueLoc>in monocyte-derived macrophages (MDMs)</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E9">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T6" />
+<clue>We evaluated the expression and DNA <clueType>binding</clueType> activity <linkTheme>of</linkTheme> nuclear factor (NF)-kappa B subunits <clueLoc>in human peripheral blood monocytes</clueLoc> and in monocyte-derived macrophages (MDMs).</clue>
+</event>
+<event uncertainty="doubtful" id="E109">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T6" />
+<clue>We evaluated the expression and DNA <clueType>binding</clueType> activity <linkTheme>of</linkTheme> nuclear factor (NF)-kappa B subunits in human peripheral blood monocytes and <clueLoc>in monocyte-derived macrophages (MDMs)</clueLoc>.</clue>
+</event>
+<sentence id="S3">Constitutive <term sem="DNA_domain_or_region" id="A2">DNA</term> binding activity consisting of <term sem="Protein_complex" id="T11" lex="p50_homodimer">p50 homodimers</term> was detected in nuclear extracts from both cell types.</sentence>
+<event id="E10">
+<type class="Binding" />
+<theme idref="A2" />
+<theme idref="T11" />
+<clue>Constitutive DNA <clueType>binding</clueType> activity <linkTheme>consisting of</linkTheme> p50 homodimers was detected <clueLoc>in nuclear extracts from both cell types</clueLoc>.</clue>
+</event>
+<sentence id="S4">An additional <term sem="Protein_complex" id="A3">complex composed of <term sem="Protein_complex" id="T12" lex="p50/RelA(p65)_heterodimer">p50/RelA(p65) heterodimers</term></term> appeared only in <term sem="Cell_component" id="T13" lex="nuclear_extract">nuclear extracts</term> from 7-day <term sem="Cell_natural" id="T14" lex="MDM">MDMs</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="A3" />
+<clue>An additional complex composed of p50/RelA(p65) heterodimers <clueType>appeared</clueType> only <clueLoc>in nuclear extracts from 7-day MDMs</clueLoc>.</clue>
+<comment>TPS A3</comment>
+</event>
+<sentence id="S5">Immunoblot analysis showed that the <term sem="Protein_molecule" id="A4">p50 subunit</term> was constitutively expressed in <term sem="Cell_natural" id="T15" lex="monocyte">monocytes</term> and <term sem="Cell_natural" id="T16" lex="MDM">MDMs</term>.</sentence>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue><clueExperiment>Immunoblot analysis</clueExperiment> showed that the p50 subunit was constitutively <clueType>expressed</clueType> <clueLoc>in monocytes</clueLoc> and MDMs.</clue>
+</event>
+<event id="E112">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue><clueExperiment>Immunoblot analysis</clueExperiment> showed that the p50 subunit was constitutively <clueType>expressed</clueType> <clueLoc>in</clueLoc> monocytes and <clueLoc>MDMs</clueLoc>.</clue>
+</event>
+<sentence id="S6">In contrast, the <term sem="Protein_molecule" id="T17" lex="RelA(p65)_subunit">RelA(p65) subunit</term> was barely detectable in <term sem="Cell_natural" id="T18" lex="monocyte">monocytes</term>, but its level increased markedly in <term sem="Cell_natural" id="T19" lex="MDM">MDMs</term>.</sentence>
+<event assertion="non-exist" id="E13">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>In contrast, the RelA(p65) subunit was barely <clueType>detectable</clueType> <clueLoc>in monocytes</clueLoc>, but its level increased markedly in MDMs.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<clue>In contrast, the RelA(p65) subunit was barely detectable in monocytes, but <corefTheme>its level</corefTheme> <clueType>increased</clueType> markedly <clueLoc>in MDMs</clueLoc>.</clue>
+</event>
+<sentence id="S7">Analysis of <term sem="RNA_molecule" id="T20" lex="RelA(p65)_mRNA">RelA(p65) mRNA</term> revealed that the stability of <term sem="RNA_molecule" id="T21" lex="RelA(p65)_mRNA">RelA(p65) mRNA</term> was significantly higher in <term sem="Cell_natural" id="T22" lex="MDM">MDMs</term>, compared with <term sem="Cell_natural" id="T23" lex="monocyte">monocytes</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<clue>Analysis of RelA(p65) mRNA revealed that the <clueType>stability</clueType> <linkTheme>of</linkTheme> RelA(p65) mRNA was significantly <clueType>higher</clueType> <clueLoc>in MDMs</clueLoc>, compared with monocytes.</clue>
+</event>
+<sentence id="S8">In <term sem="Cell_natural" id="T24" lex="MDM">MDMs</term>, an upregulation of <term sem="Other" id="T25" lex="I_kappa_B_alpha_synthesis"><term sem="Protein_molecule" id="T26" lex="I_kappa_B_alpha">I kappa B alpha</term> synthesis</term> as well as the appearance of <term sem="Protein_molecule" id="A5">a novel M(r) 40,000 form of <term sem="Protein_molecule" id="T27" lex="I_kappa_B_alpha">I kappa B alpha</term></term> were also observed.</sentence>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>In MDMs, an upregulation of I kappa B alpha <clueType>synthesis</clueType> as well as the appearance of a novel M(r) 40,000 form of I kappa B alpha were also observed.</clue>
+<comment>TPS A5</comment>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<clue><clueLoc>In MDMs</clueLoc>, an <clueType>upregulation</clueType> <linkTheme>of</linkTheme> I kappa B alpha synthesis as well as the appearance of a novel M(r) 40,000 form of I kappa B alpha were also observed.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="A5" />
+<clue><clueLoc>In MDMs</clueLoc>, an upregulation of I kappa B alpha synthesis as well as the <clueType>appearance</clueType> <linkTheme>of</linkTheme> a novel M(r) 40,000 form of I kappa B alpha were also observed.</clue>
+</event>
+<sentence id="S9">These results suggest that <term sem="Other" id="T28" lex="macrophage_differentiation"><term sem="Cell_natural" id="A6">macrophage</term> differentiation</term> results in the expression of active <term sem="Protein_complex" id="T29" lex="p50/RelA(p65)_heterodimer">p50/RelA(p65) heterodimers</term> with the capacity to activate <term sem="DNA_domain_or_region" id="A7">target gene</term> expression.</sentence>
+<event id="E20">
+<type class="Cell_differentiation" />
+<theme idref="A6" />
+<clue>These results suggest that macrophage <clueType>differentiation</clueType> results in the expression of active p50/RelA(p65) heterodimers with the capacity to activate target gene expression.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>These results suggest that macrophage differentiation results in the <clueType>expression</clueType> <linkTheme>of</linkTheme> active p50/RelA(p65) heterodimers with the capacity to activate target gene expression.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="E20" />
+<clue>These results suggest that macrophage differentiation <clueType>results</clueType> <linkTheme>in</linkTheme> the expression of active p50/RelA(p65) heterodimers with the capacity to activate target gene expression.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="A7" />
+<clue>These results suggest that macrophage differentiation results in the expression of active p50/RelA(p65) heterodimers with the capacity to activate target gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T29" />
+<clue>These results suggest that macrophage differentiation results in the expression of active p50/RelA(p65) heterodimers <clueType>with</clueType> the <clueType>capacity to activate</clueType> target gene expression.</clue>
+</event>
+<sentence id="S10">The parallel induction of <term sem="Other" id="T30" lex="I_kappa_B_alpha_synthesis"><term sem="Protein_molecule" id="T31" lex="I_kappa_B_alpha">I kappa B alpha</term> synthesis</term> may allow for the continuous presence of a cytoplasmic reservoir of <term sem="Protein_complex" id="T32" lex="p50/RelA(p65)_complex">p50/RelA(p65) complexes</term> that are readily available for <term sem="Other" id="T33" lex="inducer-mediated_stimulation">inducer-mediated stimulation</term>.</sentence>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref="T31" />
+<clue>The parallel induction of I kappa B alpha <clueType>synthesis</clueType> may allow for the continuous presence of a cytoplasmic reservoir of p50/RelA(p65) complexes that are readily available for inducer-mediated stimulation.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<clue>The parallel <clueType>induction</clueType> <linkTheme>of</linkTheme> I kappa B alpha synthesis may allow for the continuous presence of a cytoplasmic reservoir of p50/RelA(p65) complexes that are readily available for inducer-mediated stimulation.</clue>
+</event>
+<event id="E27">
+<type class="Localization" />
+<theme idref="T32" />
+<clue>The parallel induction of I kappa B alpha synthesis may allow for the continuous presence of a <clueLoc>cytoplasmic</clueLoc> <clueType>reservoir</clueType> <linkTheme>of</linkTheme> p50/RelA(p65) complexes that are readily available for inducer-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="E26" />
+<clue>The parallel induction of I kappa B alpha synthesis may <clueType>allow</clueType> <linkTheme>for</linkTheme> the continuous <linkTheme>presence of</linkTheme> a cytoplasmic reservoir of p50/RelA(p65) complexes that are readily available for inducer-mediated stimulation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

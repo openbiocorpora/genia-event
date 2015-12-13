@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/04/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7492771">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7492771</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="salicylate">Salicylates</term> inhibit <term sem="Other" id="T2" lex="lipopolysaccharide-induced_transcriptional_activation"><term sem="Lipid" id="T3" lex="lipopolysaccharide">lipopolysaccharide</term>-induced transcriptional activation</term> of the <term sem="DNA_domain_or_region" id="A1">tissue factor gene</term> in <term sem="Cell_natural" id="T4" lex="human_monocytic_cell">human monocytic cells</term>.</sentence>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="T3" />
+<clue>Salicylates inhibit lipopolysaccharide<linkCause>-induced</linkCause> <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> the tissue factor gene in human monocytic cells.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Salicylates <clueType>inhibit</clueType> lipopolysaccharide-induced transcriptional activation of the tissue factor gene <clueLoc>in human monocytic cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Binding of <term sem="Protein_molecule" id="T5" lex="plasma_Factor_VII/VIIa">plasma Factor VII/VIIa</term> to the <term sem="Protein_family_or_group" id="T6" lex="tissue_factor_(TF)_receptor">tissue factor (TF) receptor</term> initiates the <term sem="Other" id="T7" lex="coagulation_protease_cascade"><term sem="Protein_family_or_group" id="T8" lex="coagulation_protease">coagulation protease</term> cascades</term>.</sentence>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T5" />
+<theme idref="T6" />
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> plasma Factor VII/VIIa <linkTheme>to</linkTheme> the tissue factor (TF) receptor initiates the coagulation protease cascades.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<cause idref="E4" />
+<clue>Binding of plasma Factor VII/VIIa to the tissue factor (TF) receptor <clueType>initiates</clueType> the coagulation protease cascades.</clue>
+</event>
+<sentence id="S3"><term sem="Other" id="T9" lex="TF_expression"><term sem="Protein_molecule" id="A2">TF</term> expression</term> by <term sem="Cell_natural" id="T10" lex="circulating_monocyte">circulating monocytes</term> is associated with <term sem="Other" id="T11" lex="thrombotic_complication">thrombotic</term> and <term sem="Other" id="T12" lex="inflammatory_complication"><term sem="Other" id="A3">inflammatory</term> <term sem="Other" id="A4">complications</term></term> in a variety of diseases.</sentence>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>TF <clueType>expression</clueType> <clueLoc>by circulating monocytes</clueLoc> is associated with thrombotic and inflammatory complications in a variety of diseases.</clue>
+</event>
+<sentence id="S4">Transcriptional activation of the <term sem="DNA_domain_or_region" id="T13" lex="human_TF_gene">human TF gene</term> in <term sem="Cell_natural" id="T14" lex="monocytic_cell">monocytic cells</term> exposed to <term sem="Lipid" id="T15" lex="bacterial_lipopolysaccharide">bacterial <term sem="Lipid" id="T16" lex="lipopolysaccharide">lipopolysaccharide</term></term> (<term sem="Lipid" id="T17" lex="LPS">LPS</term>) is mediated by binding of <term sem="Protein_complex" id="T18" lex="c-Rel/p65_heterodimer">c-Rel/p65 heterodimers</term> to a <term sem="DNA_domain_or_region" id="T19" lex="kappa_B_site">kappa B site</term> in the <term sem="DNA_domain_or_region" id="T20" lex="TF_promoter">TF promoter</term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<clue><clueType>Transcriptional activation</clueType> <linkTheme>of</linkTheme> the human TF gene <clueLoc>in monocytic cells exposed to bacterial lipopolysaccharide (LPS)</clueLoc> is mediated by binding of c-Rel/p65 heterodimers to a kappa B site in the TF promoter.</clue>
+</event>
+<event id="E11">
+<type class="Physiological_process" />
+<theme idref="T14" />
+<cause idref="T17" />
+<clue>Transcriptional activation of the human TF gene in monocytic cells <clueType>exposed</clueType> <linkCause>to</linkCause> bacterial lipopolysaccharide (LPS) is mediated by binding of c-Rel/p65 heterodimers to a kappa B site in the TF promoter.</clue>
+<comment>CAUTION: exposed = stimulated</comment>
+</event>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T18" />
+<theme idref="T19" />
+<clue>Transcriptional activation of the human TF gene in monocytic cells exposed to bacterial lipopolysaccharide (LPS) is mediated by <clueType>binding</clueType> <linkTheme>of</linkTheme> c-Rel/p65 heterodimers <linkTheme>to</linkTheme> a kappa B site in the TF promoter.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="E12" />
+<clue>Transcriptional activation of the human TF gene in monocytic cells exposed to bacterial lipopolysaccharide (LPS) is <clueType>mediated</clueType> <linkCause>by</linkCause> binding of c-Rel/p65 heterodimers to a kappa B site in the TF promoter.</clue>
+</event>
+<sentence id="S5">Here, we report that a family of <term sem="Other" id="T21" lex="anti-inflammatory_agent">anti-inflammatory agents</term>, known as the <term sem="Organic_compound_other" id="A5">salicylates</term>, inhibited <term sem="Lipid" id="T22" lex="LPS">LPS</term> induction of <term sem="Other" id="T23" lex="TF_activity">TF activity</term> and <term sem="Other" id="T24" lex="TF_gene_transcription"><term sem="DNA_domain_or_region" id="T25" lex="TF_gene">TF gene</term> transcription</term> in <term sem="Cell_natural" id="T26" lex="human_monocyte">human monocytes</term> and <term sem="Cell_cultured" id="T27" lex="monocytic_THP-1_cell">monocytic THP-1 cells</term> at clinically relevant doses.</sentence>
+<event id="E14">
+<type class="Transcription" />
+<theme idref="T25" />
+<clue>Here, we report that a family of anti-inflammatory agents, known as the salicylates, inhibited LPS induction of TF activity and TF gene <clueType>transcription</clueType> in human monocytes and monocytic THP-1 cells at clinically relevant doses.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="T22" />
+<clue>Here, we report that a family of anti-inflammatory agents, known as the salicylates, inhibited LPS <clueType>induction</clueType> <linkTheme>of</linkTheme> TF activity and TF gene transcription <clueLoc>in human monocytes and monocytic THP-1 cells</clueLoc> <clueExperiment>at clinically relevant doses</clueExperiment>.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T22" />
+<clue>Here, we report that a family of anti-inflammatory agents, known as the salicylates, inhibited LPS <clueType>induction</clueType> <linkTheme>of</linkTheme> TF activity and TF gene transcription <clueLoc>in human monocytes and monocytic THP-1 cells</clueLoc> <clueExperiment>at clinically relevant doses</clueExperiment>.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="A5" />
+<clue>Here, we report that a family of anti-inflammatory agents, known as the salicylates, <clueType>inhibited</clueType> LPS induction of TF activity and TF gene transcription in human monocytes and monocytic THP-1 cells at clinically relevant doses.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="A5" />
+<clue>Here, we report that a family of anti-inflammatory agents, known as the salicylates, <clueType>inhibited</clueType> LPS induction of TF activity and TF gene transcription in human monocytes and monocytic THP-1 cells at clinically relevant doses.</clue>
+</event>
+<sentence id="S6">Furthermore, <term sem="Organic_compound_other" id="A6">sodium salicylate</term> blocked the <term sem="Other" id="T28" lex="LPS-induced_proteolytic_degradation"><term sem="Lipid" id="T29" lex="LPS">LPS</term>-induced proteolytic degradation</term> of <term sem="Protein_molecule" id="T30" lex="I_kappa_B_alpha">I kappa B alpha</term>, which prevented the <term sem="Other" id="T31" lex="nuclear_translocation">nuclear translocation</term> of <term sem="Protein_complex" id="T32" lex="c-Rel/p65_heterodimer">c-Rel/p65 heterodimers</term>.</sentence>
+<event id="E19">
+<type class="Protein_catabolism" />
+<theme idref="T30" />
+<clue>Furthermore, sodium salicylate blocked the LPS-induced <clueType>proteolytic degradation</clueType> <linkTheme>of</linkTheme> I kappa B alpha, which prevented the nuclear translocation of c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T29" />
+<clue>Furthermore, sodium salicylate blocked the LPS-<clueType>induced</clueType> proteolytic degradation of I kappa B alpha, which prevented the nuclear translocation of c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="A6" />
+<clue>Furthermore, sodium salicylate <clueType>blocked</clueType> the LPS-induced proteolytic degradation of I kappa B alpha, which prevented the nuclear translocation of c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E22">
+<type class="Localization" />
+<theme idref="T32" />
+<clue>Furthermore, sodium salicylate blocked the LPS-induced proteolytic degradation of I kappa B alpha, which prevented the <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<cause idref="E21" />
+<clue>Furthermore, sodium salicylate blocked the LPS-induced proteolytic degradation of I kappa B alpha, which <clueType>prevented</clueType> the nuclear translocation of c-Rel/p65 heterodimers.</clue>
+</event>
+<sentence id="S7">In contrast, two other <term sem="Other" id="T33" lex="nonsteroidal_anti-inflammatory_drug">nonsteroidal anti-inflammatory drugs</term>, <term sem="Organic_compound_other" id="T34" lex="ibuprofen">ibuprofen</term> and <term sem="Organic_compound_other" id="T35" lex="indomethacin">indomethacin</term>, did not inhibit <term sem="Lipid" id="T36" lex="LPS">LPS</term> induction of the <term sem="DNA_domain_or_region" id="T37" lex="TF_gene">TF gene</term>.</sentence>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<cause idref="T36" />
+<clue>In contrast, two other nonsteroidal anti-inflammatory drugs, ibuprofen and indomethacin, did not inhibit LPS <clueType>induction</clueType> <linkTheme>of</linkTheme> the TF gene.</clue>
+</event>
+<event assertion="non-exist" id="E25">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="T34" />
+<clue>In contrast, two other nonsteroidal anti-inflammatory drugs, ibuprofen and indomethacin, did not <clueType>inhibit</clueType> LPS induction of the TF gene.</clue>
+</event>
+<event assertion="non-exist" id="E26">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="T35" />
+<clue>In contrast, two other nonsteroidal anti-inflammatory drugs, ibuprofen and indomethacin, did not <clueType>inhibit</clueType> LPS induction of the TF gene.</clue>
+</event>
+<sentence id="S8">These results indicated that <term sem="Organic_compound_other" id="T38" lex="salicylate">salicylates</term> inhibited <term sem="Lipid" id="T39" lex="LPS">LPS</term> induction of <term sem="Other" id="T40" lex="TF_gene_transcription"><term sem="DNA_domain_or_region" id="T41" lex="TF_gene">TF gene</term> transcription</term> in <term sem="Cell_natural" id="T42" lex="monocytic_cell">monocytic cells</term> by preventing <term sem="Other" id="T43" lex="nuclear_translocation">nuclear translocation</term> of <term sem="Protein_complex" id="T44" lex="c-Rel/p65_heterodimer">c-Rel/p65 heterodimers</term>.</sentence>
+<event id="E27">
+<type class="Transcription" />
+<theme idref="T41" />
+<clue>These results indicated that salicylates inhibited LPS induction of TF gene <clueType>transcription</clueType> in monocytic cells by preventing nuclear translocation of c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="T39" />
+<clue>These results indicated that salicylates inhibited LPS <clueType>induction</clueType> <linkTheme>of</linkTheme> TF gene transcription <clueLoc>in monocytic cells</clueLoc> by preventing nuclear translocation of c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E29">
+<type class="Localization" />
+<theme idref="T44" />
+<clue>These results indicated that salicylates inhibited LPS induction of TF gene transcription in monocytic cells by preventing <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation" />
+<theme idref="E29" />
+<cause idref="T38" />
+<clue>These results indicated that salicylates inhibited LPS induction of TF gene transcription in monocytic cells by <clueType>preventing</clueType> nuclear translocation of c-Rel/p65 heterodimers.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="E28" />
+<cause idref="E30" />
+<clue>These results indicated that salicylates <clueType>inhibited</clueType> LPS induction of TF gene transcription in monocytic cells <linkCause>by</linkCause> preventing nuclear translocation of c-Rel/p65 heterodimers.</clue>
+</event>
+<sentence id="S9">The clinical benefits of <term sem="Organic_compound_other" id="T45" lex="salicylate">salicylates</term> in the treatment of several diseases, including <term sem="Other" id="T46" lex="atherosclerosis">atherosclerosis</term> and <term sem="Other" id="T47" lex="rheumatoid_arthritis">rheumatoid arthritis</term>, may be related to their ability to reduce <term sem="Other" id="T48" lex="monocyte_gene_expression"><term sem="Cell_natural" id="A7">monocyte</term> gene expression</term>.</sentence>
+<event uncertainty="probable" id="E34">
+<type class="Negative_regulation" />
+<theme idref="T48" />
+<cause idref="T45" />
+<clue>The clinical benefits of salicylates in the treatment of several diseases, including atherosclerosis and rheumatoid arthritis, may be related to their ability to <clueType>reduce</clueType> <clueLoc>monocyte</clueLoc> gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

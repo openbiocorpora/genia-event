@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="23/01/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10206983" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10206983</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Inhibition of <term sem="Other" id="T1" lex="T_cell_signaling"><term sem="Cell_natural" id="A1">T cell</term> signaling</term> by <term sem="Protein_molecule" id="T2" lex="mitogen-activated_protein_kinase-targeted_hematopoietic_tyrosine_phosphatase"><term sem="Protein_family_or_group" id="T3" lex="mitogen-activated_protein_kinase">mitogen-activated protein kinase</term>-targeted <term sem="Protein_molecule" id="T4" lex="hematopoietic_tyrosine_phosphatase">hematopoietic <term sem="Amino_acid_monomer" id="T5" lex="tyrosine">tyrosine</term> phosphatase</term></term> (<term sem="Protein_molecule" id="T6" lex="HePTP">HePTP</term>).</sentence>
+<event id="E1">
+<type class="Cell_communication" />
+<theme idref="A1" />
+<clue>Inhibition of T cell <clueType>signaling</clueType> by mitogen-activated protein kinase-targeted hematopoietic tyrosine phosphatase (HePTP).</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T6" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> T cell signaling <linkCause>by</linkCause> mitogen-activated protein kinase-targeted hematopoietic tyrosine phosphatase (HePTP).</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="T3" />
+<cause idref="T6" />
+<clue>Inhibition of T cell signaling by mitogen-activated protein kinase-<clueType>targeted</clueType> hematopoietic tyrosine phosphatase (HePTP).</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Activation of <term sem="Cell_natural" id="T7" lex="T_lymphocyte">T lymphocytes</term> to produce <term sem="Protein_family_or_group" id="T8" lex="cytokine">cytokines</term> is regulated by the <term sem="Other" id="A22">counterbalance of <term sem="Protein_family_or_group" id="T9" lex="protein-tyrosine_kinase">protein-<term sem="Amino_acid_monomer" id="T10" lex="tyrosine">tyrosine</term> kinases</term> and <term sem="Protein_molecule" id="A2">protein-<term sem="Amino_acid_monomer" id="T11" lex="tyrosine">tyrosine</term> phosphatases</term></term>, many of which have a high degree of substrate specificity because of <term sem="Other" id="T12" lex="physical_association">physical association</term> with their <term sem="Protein_molecule" id="A3">targets</term>.</sentence>
+<event id="E4">
+<type class="Physiological_process" />
+<theme idref="T7" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> T lymphocytes to produce cytokines is regulated by the counterbalance of protein-tyrosine kinases and protein-tyrosine phosphatases, many of which have a high degree of substrate specificity because of physical association with their targets.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="E4" />
+<clue>Activation of T lymphocytes to <clueType>produce</clueType> cytokines is regulated by the counterbalance of protein-tyrosine kinases and protein-tyrosine phosphatases, many of which have a high degree of substrate specificity because of physical association with their targets.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="A22" />
+<clue>Activation of T lymphocytes to produce cytokines is <clueType>regulated</clueType> <linkCause>by</linkCause> the counterbalance of protein-tyrosine kinases and protein-tyrosine phosphatases, many of which have a high degree of substrate specificity because of physical association with their targets.</clue>
+<comment>TPS: A22</comment>
+</event>
+<event id="E7">
+<type class="Binding" />
+<theme idref="T9" />
+<theme idref="A3" />
+<clue>Activation of T lymphocytes to produce cytokines is regulated by the counterbalance of protein-tyrosine kinases and protein-tyrosine phosphatases, many of which have a high degree of substrate specificity because of <clueType>physical association</clueType> <linkTheme>with</linkTheme> their targets.</clue>
+</event>
+<event id="E8">
+<type class="Binding" />
+<theme idref="A2" />
+<theme idref="A3" />
+<clue>Activation of T lymphocytes to produce cytokines is regulated by the counterbalance of protein-tyrosine kinases and protein-tyrosine phosphatases, many of which have a high degree of substrate specificity because of <clueType>physical association</clueType> <linkTheme>with</linkTheme> their targets.</clue>
+</event>
+<sentence id="S3">Overexpression of <term sem="Protein_molecule" id="T13" lex="hematopoietic_protein-tyrosine_phosphatase">hematopoietic protein-<term sem="Amino_acid_monomer" id="T14" lex="tyrosine">tyrosine</term> phosphatase</term> (<term sem="Protein_molecule" id="T15" lex="HePTP">HePTP</term>) results in suppression of <term sem="Other" id="T16" lex="T_lymphocyte_activation"><term sem="Cell_natural" id="A4">T lymphocyte</term> activation</term> as measured by <term sem="Other" id="T17" lex="T_cell_antigen_receptor-induced_activation"><term sem="Protein_family_or_group" id="T18" lex="T_cell_antigen_receptor">T cell antigen receptor</term>-induced activation</term> of <term sem="Protein_family_or_group" id="T19" lex="transcription_factor">transcription factors</term> binding to the <term sem="DNA_domain_or_region" id="T20" lex="5&apos;_promoter">5&apos; promoter</term> of the <term sem="DNA_domain_or_region" id="T21" lex="interleukin-2_gene">interleukin-2 gene</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue><clueType>Overexpression</clueType> <linkTheme>of</linkTheme> hematopoietic protein-tyrosine phosphatase (HePTP) results in suppression of T lymphocyte activation as measured by T cell antigen receptor-induced activation of transcription factors binding to the 5&apos; promoter of the interleukin-2 gene.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<clue><clueType>Overexpression</clueType> <linkTheme>of</linkTheme> hematopoietic protein-tyrosine phosphatase (HePTP) results in suppression of T lymphocyte activation as measured by T cell antigen receptor-induced activation of transcription factors binding to the 5&apos; promoter of the interleukin-2 gene.</clue>
+</event>
+<event id="E11">
+<type class="Physiological_process" />
+<theme idref="A4" />
+<clue>Overexpression of hematopoietic protein-tyrosine phosphatase (HePTP) results in suppression of T lymphocyte <clueType>activation</clueType> as measured by T cell antigen receptor-induced activation of transcription factors binding to the 5&apos; promoter of the interleukin-2 gene.</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="E10" />
+<clue>Overexpression of hematopoietic protein-tyrosine phosphatase (HePTP) results in <clueType>suppression</clueType> of T lymphocyte activation <clueExperiment>as measured by T cell antigen receptor-induced activation of transcription factors binding to the 5&apos; promoter of the interleukin-2 gene.</clueExperiment></clue>
+</event>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref="T21" />
+<clue>Overexpression of hematopoietic protein-tyrosine phosphatase (HePTP) results in suppression of T lymphocyte activation as measured by T cell antigen receptor-induced activation of transcription factors <clueType>binding</clueType> <linkTheme>to</linkTheme> the 5&apos; promoter of the interleukin-2 gene.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T18" />
+<clue>Overexpression of hematopoietic protein-tyrosine phosphatase (HePTP) results in suppression of T lymphocyte activation as measured by T cell antigen receptor-<linkCause>induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> transcription factors binding to the 5&apos; promoter of the interleukin-2 gene.</clue>
+</event>
+<sentence id="S4">Efforts to pinpoint the exact site of action and specificity of <term sem="Protein_molecule" id="T22" lex="HePTP">HePTP</term> in the signaling cascade revealed that <term sem="Protein_molecule" id="T23" lex="HePTP">HePTP</term> acts directly on the <term sem="Protein_family_or_group" id="T24" lex="mitogen-activated_protein_(MAP)_kinase">mitogen-activated protein (MAP) kinases</term> <cons sem="(AND Protein_molecule Protein_molecule)" id="T25" lex="(AND Erk1 Erk2)"><frag id="F1"><term sem="Protein_molecule" id="A13">Erk</term></frag><frag id="F2"><term sem="Protein_molecule" id="A14">1</term></frag> and <frag id="F3"><term sem="Protein_molecule" id="A15">2</term></frag></cons> and consequently reduces the magnitude and duration of their catalytic activation in <term sem="Cell_natural" id="T26" lex="intact_T_cell">intact T cells</term>.</sentence>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="T24" />
+<cause idref="T23" />
+<clue>Efforts to pinpoint the exact site of action and specificity of HePTP in the signaling cascade revealed that HePTP <clueType>acts</clueType> directly <linkTheme>on</linkTheme> the mitogen-activated protein (MAP) kinases Erk1 and 2 and consequently reduces the magnitude and duration of their catalytic activation in intact T cells.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<theme idref1="A15" idref="A13" />
+<cause idref="T23" />
+<clue>Efforts to pinpoint the exact site of action and specificity of HePTP in the signaling cascade revealed that HePTP <clueType>acts</clueType> directly <linkTheme>on</linkTheme> the <corefTheme>mitogen-activated protein (MAP) kinases</corefTheme> Erk1 and 2 and consequently reduces the magnitude and duration of their catalytic activation in intact T cells.</clue>
+</event>
+<event id="E17">
+<type class="Regulation" />
+<theme idref1="A15" idref="A14" />
+<cause idref="T23" />
+<clue>Efforts to pinpoint the exact site of action and specificity of HePTP in the signaling cascade revealed that HePTP <clueType>acts</clueType> directly <linkTheme>on</linkTheme> the <corefTheme>mitogen-activated protein (MAP) kinases</corefTheme> Erk1 and 2 and consequently reduces the magnitude and duration of their catalytic activation in intact T cells.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<clue>Efforts to pinpoint the exact site of action and specificity of HePTP in the signaling cascade revealed that HePTP acts directly on the mitogen-activated protein (MAP) kinases Erk1 and 2 and consequently reduces the magnitude and duration of <corefTheme>their</corefTheme> <clueType>catalytic activation</clueType> <clueLoc>in intact T cells</clueLoc>.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="T23" />
+<clue>Efforts to pinpoint the exact site of action and specificity of HePTP in the signaling cascade revealed that HePTP acts directly on the mitogen-activated protein (MAP) kinases Erk1 and 2 and consequently <clueType>reduces</clueType> the magnitude and duration of their catalytic activation in intact T cells.</clue>
+</event>
+<sentence id="S5">In contrast, <term sem="Protein_molecule" id="T27" lex="HePTP">HePTP</term> had no effects on <term sem="Protein_molecule" id="T28" lex="N-terminal_c-Jun_kinase">N-terminal c-Jun kinase</term> or on <term sem="Other" id="A16">events</term> upstream of the <term sem="Protein_family_or_group" id="A17">MAP kinases</term>.</sentence>
+<event assertion="non-exist" id="E20">
+<type class="Regulation" />
+<theme idref="T29" />
+<cause idref="T27" />
+<clue>In contrast, HePTP had no <clueType>effects</clueType> <linkTheme>on</linkTheme> N-terminal c-Jun kinase or on events upstream of the MAP kinases.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Regulation" />
+<theme idref="A2" />
+<cause idref="T27" />
+<clue>In contrast, HePTP had no <clueType>effects</clueType> on N-terminal c-Jun kinase or <linkTheme>on</linkTheme> events upstream of the MAP kinases.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="A17" />
+<cause idref="A16" />
+<clue>In contrast, HePTP had no effects on N-terminal c-Jun kinase or on events <clueType>upstream</clueType> <linkTheme>of</linkTheme> the MAP kinases.</clue>
+</event>
+<sentence id="S6">The <term sem="Other" id="A18">specificity of <term sem="Protein_molecule" id="T29" lex="HePTP">HePTP</term></term> correlated with its physical association through its noncatalytic <term sem="Protein_domain_or_region" id="T30" lex="N_terminus">N terminus</term> with <term sem="Protein_family_or_group" id="T31" lex="Erk">Erk</term> and another <term sem="Protein_family_or_group" id="T32" lex="MAP_kinase">MAP kinase</term>, <term sem="Protein_molecule" id="T33" lex="p38">p38</term>, but not <term sem="Protein_molecule" id="T34" lex="Jnk">Jnk</term> or <term sem="Protein_molecule" id="A19">other proteins.</term></sentence>
+<event id="E23">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="T31" />
+<clue>The specificity of HePTP correlated with <linkTheme>its</linkTheme> <clueType>physical association</clueType> through its noncatalytic N terminus <linkTheme>with</linkTheme> Erk and another MAP kinase, p38, but not Jnk or other proteins.</clue>
+</event>
+<event id="E24">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="T32" />
+<clue>The specificity of HePTP correlated with <linkTheme>its</linkTheme> <clueType>physical association</clueType> through its noncatalytic N terminus <linkTheme>with</linkTheme> Erk and another MAP kinase, p38, but not Jnk or other proteins.</clue>
+</event>
+<event id="E25">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="T33" />
+<clue>The specificity of HePTP correlated with <linkTheme>its</linkTheme> <clueType>physical association</clueType> through its noncatalytic N terminus <linkTheme>with</linkTheme> Erk and another MAP kinase, p38, but not Jnk or other proteins.</clue>
+</event>
+<event assertion="non-exist" id="E26">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="T34" />
+<clue>The specificity of HePTP correlated with <linkTheme>its</linkTheme> <clueType>physical association</clueType> through its noncatalytic N terminus <linkTheme>with</linkTheme> Erk and another MAP kinase, p38, but not Jnk or other proteins.</clue>
+</event>
+<event assertion="non-exist" id="E27">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="A19" />
+<clue>The specificity of HePTP correlated with <linkTheme>its</linkTheme> <clueType>physical association</clueType> through its noncatalytic N terminus <linkTheme>with</linkTheme> Erk and another MAP kinase, p38, but not Jnk or other proteins.</clue>
+</event>
+<event id="E28">
+<type class="Correlation" />
+<theme idref="A18" />
+<theme idref="E23" />
+<clue>The specificity of HePTP <clueType>correlated</clueType> <linkTheme>with</linkTheme> its physical association through its noncatalytic N terminus with Erk and another MAP kinase, p38, but not Jnk or other proteins.</clue>
+</event>
+<event id="E29">
+<type class="Correlation" />
+<theme idref="A18" />
+<theme idref="E24" />
+<clue>The specificity of HePTP <clueType>correlated</clueType> <linkTheme>with</linkTheme> its physical association through its noncatalytic N terminus with Erk and another MAP kinase, p38, but not Jnk or other proteins.</clue>
+</event>
+<event id="E30">
+<type class="Correlation" />
+<theme idref="A18" />
+<theme idref="E25" />
+<clue>The specificity of HePTP <clueType>correlated</clueType> <linkTheme>with</linkTheme> its physical association through its noncatalytic N terminus with Erk and another MAP kinase, p38, but not Jnk or other proteins.</clue>
+</event>
+<event id="E31">
+<type class="Correlation" />
+<theme idref="A18" />
+<theme idref="E26" />
+<clue>The specificity of HePTP <clueType>correlated</clueType> <linkTheme>with</linkTheme> its physical association through its noncatalytic N terminus with Erk and another MAP kinase, p38, but not Jnk or other proteins.</clue>
+</event>
+<event id="E32">
+<type class="Correlation" />
+<theme idref="A18" />
+<theme idref="E27" />
+<clue>The specificity of HePTP <clueType>correlated</clueType> <linkTheme>with</linkTheme> its physical association through its noncatalytic N terminus with Erk and another MAP kinase, p38, but not Jnk or other proteins.</clue>
+</event>
+<sentence id="S7">We propose that <term sem="Protein_molecule" id="T35" lex="HePTP">HePTP</term> plays a negative role in <term sem="Protein_family_or_group" id="A20">antigen receptor</term> signaling by specifically regulating <term sem="Protein_family_or_group" id="T36" lex="MAP_kinase">MAP kinases</term> in the <term sem="Cell_component" id="T37" lex="cytosol">cytosol</term> and at early time points of <term sem="Other" id="T38" lex="T_cell_activation"><term sem="Cell_natural" id="A21">T cell</term> activation</term> before the <term sem="Other" id="T39" lex="activation-induced_expression">activation-induced expression</term> of <term sem="Protein_family_or_group" id="T40" lex="nuclear_dual-specific_MAP_kinase_phosphatase">nuclear dual-specific MAP kinase phosphatases</term>.</sentence>
+<event id="E33">
+<type class="Cell_communication" />
+<theme idref="A20" />
+<clue>We propose that HePTP plays a negative role in antigen receptor <clueType>signaling</clueType> by specifically regulating MAP kinases in the cytosol and at early time points of T cell activation before the activation-induced expression of nuclear dual-specific MAP kinase phosphatases.</clue>
+</event>
+<event id="E34">
+<type class="Regulation" />
+<theme idref="T36" />
+<cause idref="T35" />
+<clue>We propose that HePTP plays a negative role in antigen receptor signaling by specifically <clueType>regulating</clueType> MAP kinases <clueLoc>in the cytosol</clueLoc> and <clueTime>at early time points of T cell activation before the activation-induced expression of nuclear dual-specific MAP kinase phosphatases.</clueTime></clue>
+</event>
+<event uncertainty="probable" id="E35">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="E34" />
+<clue>We propose that HePTP <clueType>plays a negative role</clueType> <linkTheme>in</linkTheme> antigen receptor signaling by specifically regulating MAP kinases in the cytosol and at early time points of T cell activation before the activation-induced expression of nuclear dual-specific MAP kinase phosphatases.</clue>
+</event>
+<event id="E36">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>We propose that HePTP plays a negative role in antigen receptor signaling by specifically regulating MAP kinases in the cytosol and at early time points of T cell activation before the activation-induced <clueType>expression</clueType> <linkTheme>of</linkTheme> nuclear dual-specific MAP kinase phosphatases.</clue>
+</event>
+<event id="E37">
+<type class="Physiological_process" />
+<theme idref="A21" />
+<clue>We propose that HePTP plays a negative role in antigen receptor signaling by specifically regulating MAP kinases in the cytosol and at early time points of T cell <clueType>activation</clueType> before the activation-induced expression of nuclear dual-specific MAP kinase phosphatases.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="E37" />
+<clue>We propose that HePTP plays a negative role in antigen receptor signaling by specifically regulating MAP kinases in the cytosol and at early time points of T cell activation before <corefCause>the activation</corefCause>-<clueType>induced</clueType> expression of nuclear dual-specific MAP kinase phosphatases.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/11/03" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2123468" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2123468</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Single cell assay of a <term sem="Protein_family_or_group" id="T1" lex="transcription_factor">transcription factor</term> reveals a threshold in <term sem="Other" id="T2" lex="transcription">transcription</term> activated by signals emanating from the <term sem="Protein_family_or_group" id="T3" lex="T-cell_antigen_receptor">T-cell antigen receptor</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<cause idref="E1" />
+<clue><clueExperiment>Single cell assay of a transcription factor</clueExperiment> reveals a threshold in transcription <clueType>activated</clueType> <linkCause>by</linkCause> signals emanating from the T-cell antigen receptor.</clue>
+</event>
+<event id="E100">
+<type class="Cell_communication" />
+<theme idref="T3" />
+<clue><clueExperiment>Single cell assay of a transcription factor</clueExperiment> reveals a threshold in transcription activated by <clueType>signals emanating</clueType> <linkTheme>from</linkTheme> the T-cell antigen receptor.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Stimulation of <term sem="Cell_natural" id="T4" lex="T_lymphocyte">T lymphocytes</term> through their <term sem="Protein_family_or_group" id="T5" lex="antigen_receptor">antigen receptor</term> leads to the appearance of several <term sem="Protein_family_or_group" id="T6" lex="transcription_factor">transcription factors</term>, including <term sem="Protein_molecule" id="T7" lex="NF-AT">NF-AT</term> and <term sem="Protein_molecule" id="T8" lex="NF-kappa_B">NF-kappa B</term>, which are involved in regulating <term sem="DNA_family_or_group" id="A3">genes</term> required for <term sem="Other" id="A2">immunologic activation</term>.</sentence>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="A3" />
+<clue>Stimulation of T lymphocytes through their antigen receptor leads to the appearance of several transcription factors, including NF-AT and NF-kappa B, which are involved in regulating genes <clueType>required</clueType> <linkTheme>for</linkTheme> immunologic activation.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="T7" />
+<clue>Stimulation of T lymphocytes through their antigen receptor leads to the appearance of several <corefCause>transcription factors</corefCause>, including NF-AT and NF-kappa B, which are <clueType>involved</clueType> <linkTheme>in</linkTheme> regulating genes required for immunologic activation.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="T8" />
+<clue>Stimulation of T lymphocytes through their antigen receptor leads to the appearance of several <corefCause>transcription factors</corefCause>, including NF-AT and NF-kappa B, which are <clueType>involved</clueType> <linkTheme>in</linkTheme> regulating genes required for immunologic activation.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue>Stimulation of T lymphocytes through their antigen receptor leads to the <clueType>appearance</clueType> <linkTheme>of</linkTheme> <corefTheme>several transcription factors</corefTheme>, including NF-AT and NF-kappa B, which are involved in regulating genes required for immunologic activation.</clue>
+</event>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>Stimulation of T lymphocytes through their antigen receptor leads to the <clueType>appearance</clueType> <linkTheme>of</linkTheme> <corefTheme>several transcription factors</corefTheme>, including NF-AT and NF-kappa B, which are involved in regulating genes required for immunologic activation.</clue>
+</event>
+<event id="E7">
+<type class="Physiological_process" />
+<theme idref="T4" />
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> T lymphocytes through their antigen receptor leads to the appearance of several transcription factors, including NF-AT and NF-kappa B, which are involved in regulating genes required for immunologic activation.</clue>
+</event>
+<event id="E70">
+<type class="Physiological_process" />
+<theme idref="E7" />
+<cause idref="T5" />
+<clue>Stimulation of T lymphocytes <linkCause>through</linkCause> their antigen receptor leads to the appearance of several transcription factors, including NF-AT and NF-kappa B, which are involved in regulating genes required for immunologic activation.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="A3" />
+<clue>Stimulation of T lymphocytes through their antigen receptor leads to the appearance of several transcription factors, including NF-AT and NF-kappa B, which are involved in <clueType>regulating</clueType> genes required for immunologic activation.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E7" />
+<clue>Stimulation of T lymphocytes through their antigen receptor <clueType>leads</clueType> <linkTheme>to</linkTheme> the appearance of several transcription factors, including NF-AT and NF-kappa B, which are involved in regulating genes required for immunologic activation.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="E7" />
+<clue>Stimulation of T lymphocytes through their antigen receptor <clueType>leads</clueType> <linkTheme>to</linkTheme> the appearance of several transcription factors, including NF-AT and NF-kappa B, which are involved in regulating genes required for immunologic activation.</clue>
+</event>
+<sentence id="S3">To investigate the activity of a single <term sem="Protein_family_or_group" id="T9" lex="transcription_factor">transcription factor</term> in <term sem="Cell_natural" id="T10" lex="individual_viable_cell">individual viable cells</term>, we have applied an assay that uses the fluorescence-activated cell sorter to quantitate <term sem="Protein_molecule" id="T11" lex="beta-galactosidase">beta-galactosidase</term> (<term sem="Protein_molecule" id="T12" lex="beta-gal">beta-gal</term>).</sentence>
+<event uncertainty="doubtful" id="E11">
+<type class="Positive_regulation" />
+<theme idref="T9" />
+<clue>To investigate the <clueType>activity</clueType> <linkTheme>of</linkTheme> a single transcription factor <clueLoc>in individual viable cells</clueLoc>, we have applied an assay that uses the <clueExperiment>fluorescence-activated cell sorter to quantitate beta-galactosidase (beta-gal)</clueExperiment>.</clue>
+</event>
+<sentence id="S4">We have analyzed the distribution of <term sem="Other" id="T13" lex="NF-AT_transcriptional_activity"><term sem="Protein_molecule" id="T14" lex="NF-AT">NF-AT</term> transcriptional activity</term> among <term sem="Cell_natural" id="T15" lex="T_cell">T cells</term> undergoing activation by using a construct in which three <term sem="DNA_domain_or_region" id="A101">tandem copies of the <term sem="DNA_domain_or_region" id="T16" lex="NF-AT-binding_site"><term sem="Protein_molecule" id="T17" lex="NF-AT">NF-AT</term>-binding site</term></term> directs <term sem="Other" id="T18" lex="transcription">transcription</term> of the <term sem="DNA_domain_or_region" id="T19" lex="lacZ_gene">lacZ gene</term>.</sentence>
+<event uncertainty="doubtful" id="E12">
+<type class="Positive_regulation" />
+<cause idref="T14" />
+<clue>We have analyzed the distribution of NF-AT <clueType>transcriptional activity</clueType> <clueLoc>among T cells</clueLoc> undergoing activation <clueExperiment>by using a construct in which three tandem copies of the NF-AT-binding site directs transcription of the lacZ gene</clueExperiment>.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E13">
+<type class="Physiological_process" />
+<theme idref="T15" />
+<clue>We have analyzed the distribution of NF-AT transcriptional activity among T cells undergoing <clueType>activation</clueType> by using a construct in which three tandem copies of the NF-AT-binding site directs transcription of the lacZ gene.</clue>
+</event>
+<event id="E15">
+<type class="Transcription" />
+<theme idref="T19" />
+<clue>We have analyzed the distribution of NF-AT transcriptional activity among T cells undergoing activation by using a construct in which three tandem copies of the NF-AT-binding site directs <clueType>transcription</clueType> <linkTheme>of</linkTheme> the lacZ gene.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="A101" />
+<clue>We have analyzed the distribution of NF-AT transcriptional activity among T cells undergoing activation by using a construct in which three tandem copies of the NF-AT-binding site <clueType>directs</clueType> transcription of the lacZ gene.</clue>
+</event>
+<sentence id="S5">Unexpectedly, stimulation of <term sem="Cell_cultured" id="T20" lex="cloned_stably_transfected_Jurkat_T_cell">cloned stably transfected Jurkat T cells</term> leads to a bimodal pattern of <term sem="Protein_molecule" id="A4">beta-gal</term> expression in which some cells express no <term sem="Protein_molecule" id="T22" lex="beta-gal">beta-gal</term> and others express high levels.</sentence>
+<event id="E17">
+<type class="Physiological_process" />
+<theme idref="T20" />
+<clue>Unexpectedly, <clueType>stimulation</clueType> <linkTheme>of</linkTheme> cloned stably transfected Jurkat T cells leads to a bimodal pattern of beta-gal expression in which some cells express no beta-gal and others express high levels.</clue>
+<comment>NER: T21 del &quot;T cells&quot;</comment>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>Unexpectedly, stimulation of cloned stably transfected Jurkat T cells leads to a bimodal pattern of beta-gal <clueType>expression</clueType> in which some cells express no beta-gal and others express high levels.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E17" />
+<clue>Unexpectedly, stimulation of cloned stably transfected Jurkat T cells <clueType>leads</clueType> <linkTheme>to</linkTheme> a bimodal pattern of beta-gal expression in which some cells express no beta-gal and others express high levels.</clue>
+</event>
+<event id="E190">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="E17" />
+<clue>Unexpectedly, stimulation of cloned stably transfected Jurkat T cells <clueType>leads</clueType> <linkTheme>to</linkTheme> a bimodal pattern of beta-gal expression in which some cells express no beta-gal and others express high levels.</clue>
+</event>
+<event assertion="non-exist" id="E20">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>Unexpectedly, stimulation of <clueLoc>cloned stably transfected Jurkat T cells</clueLoc> leads to a bimodal pattern of beta-gal expression in which <clueLoc>some cells</clueLoc> <clueType>express</clueType> no beta-gal and others express high levels.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>Unexpectedly, stimulation of <clueLoc>cloned stably transfected Jurkat T cells</clueLoc> leads to a bimodal pattern of beta-gal expression in which some cells express no beta-gal and <clueLoc>others</clueLoc> <clueType>express</clueType> high levels.</clue>
+</event>
+<event id="E210">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<clue>Unexpectedly, stimulation of <clueLoc>cloned stably transfected Jurkat T cells</clueLoc> leads to a bimodal pattern of beta-gal expression in which some cells express no beta-gal and <clueLoc>others</clueLoc> express <clueType>high levels</clueType>.</clue>
+</event>
+<sentence id="S6">This expression pattern cannot be accounted for by <term sem="Other" id="A5">cell-cycle position</term> or <term sem="Cell_cultured" id="A6">heritable variation</term>.</sentence>
+<event assertion="non-exist" id="E22">
+<type class="Regulation" />
+<theme idref="E18" />
+<cause idref="A5" />
+<clue><corefTheme>This expression pattern</corefTheme> cannot be <clueType>accounted</clueType> <linkTheme>for</linkTheme> <linkCause>by</linkCause> cell-cycle position or heritable variation.</clue>
+</event>
+<event assertion="non-exist" id="E23">
+<type class="Regulation" />
+<theme idref="E18" />
+<cause idref="A6" />
+<clue><corefTheme>This expression pattern</corefTheme> cannot be <clueType>accounted</clueType> <linkTheme>for</linkTheme> <linkCause>by</linkCause> cell-cycle position or heritable variation.</clue>
+</event>
+<sentence id="S7">Further results, in which <term sem="Other" id="T23" lex="beta-gal_activity"><term sem="Protein_molecule" id="T24" lex="beta-gal">beta-gal</term> activity</term> is correlated with <term sem="Other" id="T25" lex="NF-AT-binding_activity"><term sem="Protein_molecule" id="T26" lex="NF-AT">NF-AT</term>-binding activity</term>, indicate that the concentration of <term sem="Protein_molecule" id="T27" lex="NF-AT">NF-AT</term> must exceed a critical threshold before <term sem="Other" id="T28" lex="transcription">transcription</term> initiates.</sentence>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T27" />
+<clue>Further results, in which beta-gal activity is correlated with NF-AT-binding activity, indicate that the concentration of NF-AT must <clueType>exceed a critical threshold</clueType> <linkTheme>before</linkTheme> transcription initiates.</clue>
+</event>
+<event id="E24">
+<type class="Binding" />
+<theme idref="T26" />
+<clue>Further results, in which beta-gal activity is correlated with NF-AT-<clueType>binding</clueType> activity, indicate that the concentration of NF-AT must exceed a critical threshold before transcription initiates.</clue>
+</event>
+<event id="E25">
+<type class="Correlation" />
+<theme idref="T24" />
+<theme idref="E24" />
+<clue>Further results, in which beta-gal activity is <clueType>correlated</clueType> <linkTheme>with</linkTheme> NF-AT-binding activity, indicate that the concentration of NF-AT must exceed a critical threshold before transcription initiates.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<clue>Further results, in which beta-gal activity is correlated with NF-AT-binding activity, indicate that the concentration of NF-AT must exceed a critical threshold before transcription <clueType>initiates</clueType>.</clue>
+</event>
+<sentence id="S8">This threshold likely reflects the <term sem="Other" id="T29" lex="NF-AT_concentration-dependent_assembly"><term sem="Other" id="A7"><term sem="Protein_molecule" id="T30" lex="NF-AT">NF-AT</term> concentration</term>-dependent assembly</term> of <term sem="Protein_complex" id="T31" lex="transcription_complex">transcription complexes</term> at the <term sem="DNA_domain_or_region" id="T32" lex="promoter">promoter</term>.</sentence>
+<event id="E27">
+<type class="Binding" />
+<theme idref="T31" />
+<theme idref="T32" />
+<clue>This threshold likely reflects the NF-AT concentration-dependent <clueType>assembly</clueType> <linkTheme>of</linkTheme> transcription complexes <linkTheme>at</linkTheme> the promoter.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="A7" />
+<clue>This threshold likely reflects the NF-AT concentration-<clueType>dependent</clueType> assembly of transcription complexes at the promoter.</clue>
+</event>
+<sentence id="S9">Similar <term sem="DNA_domain_or_region" id="A8">constructs</term> controlled by <term sem="Protein_molecule" id="T33" lex="NF-kappa_B">NF-kappa B</term> or the entire <term sem="DNA_domain_or_region" id="T34" lex="interleukin-2_enhancer">interleukin-2 enhancer</term> show <term sem="Other" id="T35" lex="bimodal_expression_pattern">bimodal expression patterns</term> during induction, suggesting that thresholds set by the concentration of <term sem="Protein_family_or_group" id="T36" lex="transcription_factor">transcription factors</term> may be a common property of <term sem="DNA_family_or_group" id="T37" lex="inducible_gene">inducible <term sem="DNA_family_or_group" id="A9">genes</term></term>.</sentence>
+<event id="E29">
+<type class="Regulation" />
+<theme idref="A8" />
+<cause idref="T33" />
+<clue>Similar constructs <clueType>controlled</clueType> <linkCause>by</linkCause> NF-kappa B or the entire interleukin-2 enhancer show bimodal expression patterns during induction, suggesting that thresholds set by the concentration of transcription factors may be a common property of inducible genes.</clue>
+</event>
+<event id="E30">
+<type class="Gene_expression" />
+<theme idref="A8" />
+<clue>Similar constructs controlled by NF-kappa B or the entire interleukin-2 enhancer show bimodal <clueType>expression</clueType> patterns during induction, suggesting that thresholds set by the concentration of transcription factors may be a common property of inducible genes.</clue>
+</event>
+<event id="E31">
+<type class="Gene_expression" />
+<theme idref="T34" />
+<clue>Similar constructs controlled by NF-kappa B or the entire interleukin-2 enhancer show bimodal <clueType>expression</clueType> patterns during induction, suggesting that thresholds set by the concentration of transcription factors may be a common property of inducible genes.</clue>
+</event>
+<event id="E300">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<clue>Similar constructs controlled by NF-kappa B or the entire interleukin-2 enhancer show bimodal expression patterns during <clueType>induction</clueType>, suggesting that thresholds set by the concentration of transcription factors may be a common property of inducible genes.</clue>
+</event>
+<event id="E301">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<clue>Similar constructs controlled by NF-kappa B or the entire interleukin-2 enhancer show bimodal expression patterns during <clueType>induction</clueType>, suggesting that thresholds set by the concentration of transcription factors may be a common property of inducible genes.</clue>
+</event>
+<event id="E32">
+<type class="Regulation" />
+<theme idref="E30" />
+<cause idref="A8" />
+<clue>Similar constructs controlled by NF-kappa B or the entire interleukin-2 enhancer <clueType>show</clueType> <corefTheme>bimodal expression patterns</corefTheme> <clueTime>during induction</clueTime>, suggesting that thresholds set by the concentration of transcription factors may be a common property of inducible genes.</clue>
+</event>
+<event id="E320">
+<type class="Regulation" />
+<theme idref="E31" />
+<cause idref="A8" />
+<clue>Similar constructs controlled by NF-kappa B or the entire interleukin-2 enhancer <clueType>show</clueType> <corefTheme>bimodal expression patterns</corefTheme> <clueTime>during induction</clueTime>, suggesting that thresholds set by the concentration of transcription factors may be a common property of inducible genes.</clue>
+</event>
+<event uncertainty="probable" id="E33">
+<type class="Positive_regulation" />
+<theme idref="A9" />
+<clue>Similar constructs controlled by NF-kappa B or the entire interleukin-2 enhancer show bimodal expression patterns during induction, suggesting that thresholds set by the concentration of transcription factors may be a common property of <clueType>inducible</clueType> genes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="11/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10082134" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10082134</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Inorganic_compound" id="T2" lex="cobalt_chloride">Cobalt chloride</term>-induced <term sem="Other" id="T1">signaling</term> in <term sem="Tissue_natural" id="T3" lex="endothelium">endothelium</term> leading to the augmented <term sem="Other" id="T5">adherence</term> of <term sem="Cell_natural" id="T4" lex="sickle_red_blood_cell">sickle red blood cells</term> and <term sem="Other" id="T55">transendothelial migration</term> of <term sem="Cell_cultured" id="T6" lex="monocyte-like_HL-60_cell">monocyte-like HL-60 cells</term> is blocked by <term sem="Organic_compound_other" id="T7" lex="PAF-receptor_antagonist"><term sem="Protein_molecule" id="T84">PAF-receptor</term> antagonist</term>.</sentence>
+<event id="E71">
+<type class="Cell_adhesion" />
+<theme idref="T4" />
+<clue>Cobalt chloride-induced signaling in endothelium leading to the augmented <clueType>adherence</clueType> of sickle red blood cells and transendothelial migration of monocyte-like HL-60 cells is blocked by PAF-receptor antagonist.</clue>
+</event>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="E71" />
+<clue>Cobalt chloride-induced signaling in endothelium leading to the <clueType>augmented</clueType> adherence of sickle red blood cells and transendothelial migration of monocyte-like HL-60 cells is blocked by PAF-receptor antagonist.</clue>
+<comment>TPS A1</comment>
+</event>
+<event id="E2">
+<type class="Cellular_physiological_process" />
+<theme idref="T6" />
+<clue>Cobalt chloride-induced signaling in endothelium leading to the augmented adherence of sickle red blood cells and <clueLoc>transendothelial</clueLoc> <clueType>migration</clueType> <linkTheme>of</linkTheme> monocyte-like HL-60 cells is blocked by PAF-receptor antagonist.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Cobalt chloride-induced signaling in endothelium <clueType>leading</clueType> <linkTheme>to</linkTheme> the augmented adherence of sickle red blood cells and transendothelial migration of monocyte-like HL-60 cells is blocked by PAF-receptor antagonist.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Cobalt chloride-induced signaling in endothelium <clueType>leading</clueType> <linkTheme>to</linkTheme> the augmented adherence of sickle red blood cells and transendothelial migration of monocyte-like HL-60 cells is blocked by PAF-receptor antagonist.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T2" />
+<clue>Cobalt chloride-<clueType>induced</clueType> signaling <clueLoc>in endothelium</clueLoc> leading to the augmented adherence of sickle red blood cells and transendothelial migration of monocyte-like HL-60 cells is blocked by PAF-receptor antagonist.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T2" />
+<clue>Cobalt chloride-<clueType>induced</clueType> signaling <clueLoc>in endothelium</clueLoc> leading to the augmented adherence of sickle red blood cells and transendothelial migration of monocyte-like HL-60 cells is blocked by PAF-receptor antagonist.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="T7" />
+<clue>Cobalt chloride-induced signaling in endothelium leading to the augmented adherence of sickle red blood cells and transendothelial migration of monocyte-like HL-60 cells is <clueType>blocked</clueType> <linkCause>by</linkCause> PAF-receptor antagonist.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="T7" />
+<clue>Cobalt chloride-induced signaling in endothelium leading to the augmented adherence of sickle red blood cells and transendothelial migration of monocyte-like HL-60 cells is <clueType>blocked</clueType> <linkCause>by</linkCause> PAF-receptor antagonist.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">In response to <term sem="Other" id="A3">hypoxia</term>, <term sem="Cell_natural" id="T8" lex="sickle_red_blood_cell">sickle red blood cells</term> (<term sem="Cell_natural" id="T9" lex="SS_RBC">SS RBC</term>) and <term sem="Cell_natural" id="T10" lex="leukocyte\">leukocytes</term> exhibit increased <term sem="Other" id="T83">adherence</term> to the <term sem="Body_region" id="A4">vascular endothelium</term>, while diapedesis of <term sem="Cell_natural" id="T11" lex="leukocyte\">leukocytes</term> through the <term sem="Other" id="T12" lex="blood_vessel_increase"><term sem="Body_region" id="T13" lex="blood_vessel">blood vessel</term> increases</term>.</sentence>
+<event id="E9">
+<type class="Cell_adhesion" />
+<theme idref="T9" />
+<theme idref="A4" />
+<clue>In response to hypoxia, sickle red blood cells (SS RBC) and leukocytes exhibit increased <clueType>adherence</clueType> to the vascular endothelium, while diapedesis of leukocytes through the blood vessel increases.</clue>
+</event>
+<event id="E10">
+<type class="Cell_adhesion" />
+<theme idref="T10" />
+<theme idref="A4" />
+<clue>In response to hypoxia, sickle red blood cells (SS RBC) and leukocytes exhibit increased <clueType>adherence</clueType> to the vascular endothelium, while diapedesis of leukocytes through the blood vessel increases.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="A3" />
+<clue><linkCause>In response to</linkCause> hypoxia, sickle red blood cells (SS RBC) and leukocytes exhibit <clueType>increased</clueType> adherence to the vascular endothelium, while diapedesis of leukocytes through the blood vessel increases.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="A3" />
+<clue><linkCause>In response to</linkCause> hypoxia, sickle red blood cells (SS RBC) and leukocytes exhibit <clueType>increased</clueType> adherence to the vascular endothelium, while diapedesis of leukocytes through the blood vessel increases.</clue>
+</event>
+<event id="E13">
+<type class="Cellular_physiological_process" />
+<theme idref="T11" />
+<clue>In response to hypoxia, sickle red blood cells (SS RBC) and leukocytes exhibit increased adherence to the vascular endothelium, while <clueType>diapedesis</clueType> <linkTheme>of</linkTheme> leukocytes <clueLoc>through the blood vessel</clueLoc> increases.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="A3" />
+<clue><linkCause>In response to</linkCause> hypoxia, sickle red blood cells (SS RBC) and leukocytes exhibit increased adherence to the vascular endothelium, while diapedesis of leukocytes through the blood vessel <clueType>increases</clueType>.</clue>
+</event>
+<sentence id="S3">However, the <term sem="Other" id="T14" lex="cellular_signaling_pathway">cellular signaling pathway</term>(s) caused by <term sem="Other" id="T15" lex="hypoxia">hypoxia</term> is poorly understood.</sentence>
+<sentence id="S4">We utilized CoCl2 as a mimetic molecule for <term sem="Other" id="T16" lex="hypoxia">hypoxia</term> to study <term sem="Other" id="T17" lex="cellular_signaling_pathway">cellular signaling pathways</term>.</sentence>
+<sentence id="S5">We found that in <term sem="Cell_natural" id="T18" lex="human_umbilical_vein_endothelial_cell">human umbilical vein endothelial cells</term> (<term sem="Cell_natural" id="T19" lex="HUVEC">HUVEC</term>), <term sem="Inorganic_compound" id="T20" lex="CoCl2">CoCl2</term> at 2 mM concentration induced the surface expression of a subset of <term sem="Protein_family_or_group" id="T21" lex="CAM">CAMs</term> (<term sem="Protein_molecule" id="T22" lex="VCAM-1">VCAM-1</term>) and activation of <term sem="Protein_complex" id="T24">transcription factor NF-kappaB</term> in the <term sem="Cell_component" id="T25" lex="nuclear_extract">nuclear extracts</term> of <term sem="Cell_natural" id="T26" lex="HUVEC">HUVEC</term>.</sentence>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>We found that in human umbilical vein endothelial cells (HUVEC), CoCl2 at 2 mM concentration induced the <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> a subset of CAMs (VCAM-1) and activation of transcription factor NF-kappaB in the nuclear extracts of HUVEC.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="T20" />
+<clue>We found that <clueLoc>in human umbilical vein endothelial cells (HUVEC)</clueLoc>, CoCl2 at 2 mM concentration <clueType>induced</clueType> the surface expression of a subset of CAMs (VCAM-1) and activation of transcription factor NF-kappaB in the nuclear extracts of HUVEC.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<clue>We found that in human umbilical vein endothelial cells (HUVEC), CoCl2 at 2 mM concentration induced the surface expression of a subset of CAMs (VCAM-1) and <clueType>activation</clueType> <linkTheme>of</linkTheme> transcription factor NF-kappaB in the nuclear extracts of HUVEC.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T20" />
+<clue>We found that <clueLoc>in human umbilical vein endothelial cells (HUVEC)</clueLoc>, CoCl2 at 2 mM concentration <clueType>induced</clueType> the surface expression of a subset of CAMs (VCAM-1) and activation of transcription factor NF-kappaB <clueLoc>in the nuclear extracts of HUVEC</clueLoc>.</clue>
+</event>
+<sentence id="S6">Furthermore, <term sem="Inorganic_compound" id="T27" lex="CoCl2">CoCl2</term> also caused time-dependent <term sem="Other" id="T28" lex="tyrosine_phosphorylation"><term sem="Amino_acid_monomer" id="T29" lex="tyrosine">tyrosine</term> phosphorylation</term> of <term sem="Protein_family_or_group" id="T30" lex="mitogen-activated_protein_(MAP)_kinase">mitogen-activated protein (MAP) kinase</term> isoform <term sem="Protein_molecule" id="T31" lex="ERK2">ERK2</term> without significantly affecting <term sem="Protein_molecule" id="T32" lex="ERK1">ERK1</term>, indicating <term sem="Protein_molecule" id="T33" lex="ERK2">ERK2</term> is the preferred substrate for <term sem="Protein_family_or_group" id="T34" lex="upstream_kinase">upstream kinase</term> of the <term sem="Other" id="T35" lex="MAPK_pathway"><term sem="Protein_family_or_group" id="T36" lex="MAPK">MAPK</term> pathway</term>.</sentence>
+<event id="E19">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T31" />
+<clue>Furthermore, CoCl2 also caused time-dependent tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> mitogen-activated protein (MAP) kinase isoform ERK2 without significantly affecting ERK1, indicating ERK2 is the preferred substrate for upstream kinase of the MAPK pathway.</clue>
+<comment>TPS A10</comment>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T27" />
+<clue>Furthermore, CoCl2 also <clueType>caused</clueType> time-dependent tyrosine phosphorylation of mitogen-activated protein (MAP) kinase isoform ERK2 without significantly affecting ERK1, indicating ERK2 is the preferred substrate for upstream kinase of the MAPK pathway.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Regulation" />
+<theme idref="T32" />
+<cause idref="T27" />
+<clue>Furthermore, CoCl2 also caused time-dependent tyrosine phosphorylation of mitogen-activated protein (MAP) kinase isoform ERK2 without significantly <clueType>affecting</clueType> ERK1, indicating ERK2 is the preferred substrate for upstream kinase of the MAPK pathway.</clue>
+</event>
+<event id="E69">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T33" />
+<clue>Furthermore, CoCl2 also caused time-dependent tyrosine phosphorylation of mitogen-activated protein (MAP) kinase isoform ERK2 without significantly affecting ERK1, indicating ERK2 is the preferred <clueType>substrate</clueType> for upstream kinase of the MAPK pathway.</clue>
+</event>
+<event id="E70">
+<type class="Positive_regulation" />
+<theme idref="E69" />
+<cause idref="T34" />
+<clue>Furthermore, CoCl2 also caused time-dependent tyrosine phosphorylation of mitogen-activated protein (MAP) kinase isoform ERK2 without significantly affecting ERK1, indicating ERK2 is the preferred substrate <linkCause>for</linkCause> upstream kinase of the MAPK pathway.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S7"><term sem="Organic_compound_other" id="T23">Inhibitors</term> of <term sem="Protein_family_or_group" id="T37" lex="MAP_kinase">MAP kinase</term> (<term sem="Organic_compound_other" id="T38" lex="PD98059">PD98059</term>) or <term sem="Organic_compound_other" id="T39" lex="platelet-activating_factor_(PAF)-_receptor_antagonist">platelet-activating factor (PAF)- receptor antagonist</term> (<term sem="Organic_compound_other" id="T40" lex="CV3988">CV3988</term>) inhibited the <term sem="Other" id="T41" lex="CoCl2-induced_NF-kappaB_activation"><term sem="Inorganic_compound" id="T42" lex="CoCl2">CoCl2</term>-induced <term sem="Protein_complex" id="T43" lex="NF-kappaB">NF-kappaB</term> activation</term> and <term sem="Other" id="T44" lex="VCAM-1_expression"><term sem="Protein_molecule" id="T45" lex="VCAM-1">VCAM-1</term> expression</term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T43" />
+<clue>Inhibitors of MAP kinase (PD98059) or platelet-activating factor (PAF)- receptor antagonist (CV3988) inhibited the CoCl2-induced NF-kappaB <clueType>activation</clueType> and VCAM-1 expression.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="T45" />
+<clue>Inhibitors of MAP kinase (PD98059) or platelet-activating factor (PAF)- receptor antagonist (CV3988) inhibited the CoCl2-induced NF-kappaB activation and VCAM-1 <clueType>expression</clueType>.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="T42" />
+<clue>Inhibitors of MAP kinase (PD98059) or platelet-activating factor (PAF)- receptor antagonist (CV3988) inhibited the CoCl2-<clueType>induced</clueType> NF-kappaB activation and VCAM-1 expression.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T42" />
+<clue>Inhibitors of MAP kinase (PD98059) or platelet-activating factor (PAF)- receptor antagonist (CV3988) inhibited the CoCl2-<clueType>induced</clueType> NF-kappaB activation and VCAM-1 expression.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="T38" />
+<clue>Inhibitors of MAP kinase (PD98059) or platelet-activating factor (PAF)- receptor antagonist (CV3988) <clueType>inhibited</clueType> the CoCl2-induced NF-kappaB activation and VCAM-1 expression.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="T40" />
+<clue>Inhibitors of MAP kinase (PD98059) or platelet-activating factor (PAF)- receptor antagonist (CV3988) <clueType>inhibited</clueType> the CoCl2-induced NF-kappaB activation and VCAM-1 expression.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="T38" />
+<clue>Inhibitors of MAP kinase (PD98059) or platelet-activating factor (PAF)- receptor antagonist (CV3988) <clueType>inhibited</clueType> the CoCl2-induced NF-kappaB activation and VCAM-1 expression.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<cause idref="T40" />
+<clue>Inhibitors of MAP kinase (PD98059) or platelet-activating factor (PAF)- receptor antagonist (CV3988) <clueType>inhibited</clueType> the CoCl2-induced NF-kappaB activation and VCAM-1 expression.</clue>
+</event>
+<sentence id="S8">Augmented expression of <term sem="Protein_molecule" id="T46" lex="VCAM-1">VCAM-1</term> led to increased <term sem="Other" id="T47" lex="SS_RBC_adhesion"><term sem="Cell_natural" id="T48" lex="SS_RBC">SS RBC</term> adhesion</term>, inhibitable by a <term sem="Protein_family_or_group" id="T49" lex="VCAM-1_antibody"><term sem="Protein_molecule" id="T50" lex="VCAM-1">VCAM-1</term> antibody</term>.</sentence>
+<event id="E30">
+<type class="Gene_expression" />
+<theme idref="T46" />
+<clue>Augmented <clueType>expression</clueType> <linkTheme>of</linkTheme> VCAM-1 led to increased SS RBC adhesion, inhibitable by a VCAM-1 antibody.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<clue><clueType>Augmented</clueType> expression of VCAM-1 led to increased SS RBC adhesion, inhibitable by a VCAM-1 antibody.</clue>
+</event>
+<event id="E32">
+<type class="Cell_adhesion" />
+<theme idref="T48" />
+<clue>Augmented expression of VCAM-1 led to increased SS RBC <clueType>adhesion</clueType>, inhibitable by a VCAM-1 antibody.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="E31" />
+<clue>Augmented expression of VCAM-1 <clueType>led to increased</clueType> SS RBC adhesion, inhibitable by a VCAM-1 antibody.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T49" />
+<clue>Augmented expression of VCAM-1 led to increased SS RBC adhesion, <clueType>inhibitable</clueType> <linkCause>by</linkCause> a VCAM-1 antibody.</clue>
+</event>
+<sentence id="S9">Additionally, <term sem="Inorganic_compound" id="T51" lex="CoCl2">CoCl2</term> caused a two- to threefold increase in the rate of <term sem="Other" id="T52" lex="transendothelial_migration">transendothelial migration</term> of <term sem="Cell_cultured" id="T53" lex="monocyte-like_HL-60_cell">monocyte-like HL-60 cells</term> and a twentyfold increase in <term sem="Other" id="T85">phosphorylation</term> of <term sem="Protein_family_or_group" id="T54" lex="platelet_endothelial_cell_adhesion_molecule">platelet endothelial cell adhesion molecules</term> (<term sem="Protein_molecule" id="T56" lex="PECAM-1">PECAM-1</term>).</sentence>
+<event id="E35">
+<type class="Cellular_physiological_process" />
+<theme idref="T53" />
+<clue>Additionally, CoCl2 caused a two- to threefold increase in the rate of <clueLoc>transendothelial</clueLoc> <clueType>migration</clueType> <linkTheme>of</linkTheme> monocyte-like HL-60 cells and a twentyfold increase in phosphorylation of platelet endothelial cell adhesion molecules (PECAM-1).</clue>
+</event>
+<event id="E36">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T56" />
+<clue>Additionally, CoCl2 caused a two- to threefold increase in the rate of transendothelial migration of monocyte-like HL-60 cells and a twentyfold increase in <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> platelet endothelial cell adhesion molecules (PECAM-1).</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<clue>Additionally, CoCl2 caused a two- to threefold increase in the rate of transendothelial migration of monocyte-like HL-60 cells and a twentyfold <clueType>increase</clueType> <linkTheme>in</linkTheme> phosphorylation of platelet endothelial cell adhesion molecules (PECAM-1).</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<clue>Additionally, CoCl2 caused a two- to threefold <clueType>increase</clueType> <linkTheme>in</linkTheme> the rate of transendothelial migration of monocyte-like HL-60 cells and a twentyfold increase in phosphorylation of platelet endothelial cell adhesion molecules (PECAM-1).</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T51" />
+<clue>Additionally, CoCl2 <clueType>caused</clueType> a two- to threefold increase in the rate of transendothelial migration of monocyte-like HL-60 cells and a twentyfold increase in phosphorylation of platelet endothelial cell adhesion molecules (PECAM-1).</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="T51" />
+<clue>Additionally, CoCl2 <clueType>caused</clueType> a two- to threefold increase in the rate of transendothelial migration of monocyte-like HL-60 cells and a twentyfold increase in phosphorylation of platelet endothelial cell adhesion molecules (PECAM-1).</clue>
+</event>
+<sentence id="S10">The <term sem="Other" id="T57" lex="transendothelial_migration">transendothelial migration</term> of <term sem="Cell_natural" id="T58" lex="monocyte">monocytes</term> was inhibited by an <term sem="Protein_family_or_group" id="A5">antibody to <term sem="Protein_molecule" id="T59" lex="PECAM-1">PECAM-1</term></term>.</sentence>
+<event id="E41">
+<type class="Cellular_physiological_process" />
+<theme idref="T58" />
+<clue>The <clueLoc>transendothelial</clueLoc> <clueType>migration</clueType> <linkTheme>of</linkTheme> monocytes was inhibited by an antibody to PECAM-1.</clue>
+<comment>TPS A5</comment>
+</event>
+<event id="E42">
+<type class="Negative_regulation" />
+<theme idref="E41" />
+<cause idref="A5" />
+<clue>The transendothelial migration of monocytes was <clueType>inhibited</clueType> <linkCause>by</linkCause> an antibody to PECAM-1.</clue>
+</event>
+<sentence id="S11">Both phosphorylation of <term sem="Protein_molecule" id="T60" lex="PECAM-1">PECAM-1</term> and <term sem="Other" id="T61" lex="transendothelial_migration">transendothelial migration</term> of <term sem="Cell_natural" id="T62" lex="monocyte">monocytes</term> in response to <term sem="Inorganic_compound" id="T63" lex="CoCl2">CoCl2</term> were inhibited by <term sem="Organic_compound_other" id="T64" lex="protein_kinase_inhibitor">protein kinase inhibitor</term> (<term sem="Organic_compound_other" id="T65" lex="GF109203X">GF109203X</term>) and augmented by <term sem="Organic_compound_other" id="T66" lex="protein_phosphatase_inhibitor">protein phosphatase inhibitor</term> (<term sem="Organic_compound_other" id="T67" lex="Calyculin_A">Calyculin A</term>).</sentence>
+<event id="E43">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T60" />
+<clue>Both <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> PECAM-1 and transendothelial migration of monocytes in response to CoCl2 were inhibited by protein kinase inhibitor (GF109203X) and augmented by protein phosphatase inhibitor (Calyculin A).</clue>
+</event>
+<event id="E143">
+<type class="Positive_regulation" />
+<theme idref="E43" />
+<cause idref="T63" />
+<clue>Both phosphorylation of PECAM-1 and transendothelial migration of monocytes <clueType>in response</clueType> <linkCause>to</linkCause> CoCl2 were inhibited by protein kinase inhibitor (GF109203X) and augmented by protein phosphatase inhibitor (Calyculin A).</clue>
+</event>
+<event id="E44">
+<type class="Cellular_physiological_process" />
+<theme idref="T62" />
+<clue>Both phosphorylation of PECAM-1 and <clueLoc>transendothelial</clueLoc> <clueType>migration</clueType> <linkTheme>of</linkTheme> monocytes in response to CoCl2 were inhibited by protein kinase inhibitor (GF109203X) and augmented by protein phosphatase inhibitor (Calyculin A).</clue>
+</event>
+<event id="E144">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<cause idref="T63" />
+<clue>Both phosphorylation of PECAM-1 and transendothelial migration of monocytes <clueType>in response</clueType> <linkCause>to</linkCause> CoCl2 were inhibited by protein kinase inhibitor (GF109203X) and augmented by protein phosphatase inhibitor (Calyculin A).</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="T65" />
+<clue>Both phosphorylation of PECAM-1 and transendothelial migration of monocytes in response to CoCl2 were <clueType>inhibited</clueType> <linkCause>by</linkCause> protein kinase inhibitor (GF109203X) and augmented by protein phosphatase inhibitor (Calyculin A).</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation" />
+<theme idref="E44" />
+<cause idref="T65" />
+<clue>Both phosphorylation of PECAM-1 and transendothelial migration of monocytes in response to CoCl2 were <clueType>inhibited</clueType> <linkCause>by</linkCause> protein kinase inhibitor (GF109203X) and augmented by protein phosphatase inhibitor (Calyculin A).</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="E43" />
+<cause idref="T67" />
+<clue>Both phosphorylation of PECAM-1 and transendothelial migration of monocytes in response to CoCl2 were inhibited by protein kinase inhibitor (GF109203X) and <clueType>augmented</clueType> <linkCause>by</linkCause> protein phosphatase inhibitor (Calyculin A).</clue>
+</event>
+<event id="E48">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<cause idref="T67" />
+<clue>Both phosphorylation of PECAM-1 and transendothelial migration of monocytes in response to CoCl2 were inhibited by protein kinase inhibitor (GF109203X) and <clueType>augmented</clueType> <linkCause>by</linkCause> protein phosphatase inhibitor (Calyculin A).</clue>
+</event>
+<sentence id="S12">Our data suggests that <term sem="Inorganic_compound" id="T68" lex="CoCl2">CoCl2</term>-induced <term sem="Protein_family_or_group" id="A6">cellular signals</term> directing increased <term sem="Other" id="T77">expression</term> of <term sem="Protein_molecule" id="T69" lex="VCAM-1">VCAM-1</term> in <term sem="Cell_natural" id="T70" lex="HUVEC">HUVEC</term> involve <term sem="Other" id="T86">downstream activation</term> of <term sem="Protein_family_or_group" id="T71" lex="MAP_kinase">MAP kinase</term> and <term sem="Protein_complex" id="T72" lex="NF-kappaB">NF-kappaB</term>, while the <term sem="Other" id="T87">phosphorylation</term> of <term sem="Protein_molecule" id="T73" lex="PECAM-1">PECAM-1</term> occurs as a result of <term sem="Other" id="T88">activation</term> of <term sem="Protein_molecule" id="T74" lex="PKC">PKC</term>.</sentence>
+<event id="E49">
+<type class="Gene_expression" />
+<theme idref="T69" />
+<clue>Our data suggests that CoCl2-induced cellular signals directing increased <clueType>expression</clueType> <linkTheme>of</linkTheme> VCAM-1 in HUVEC involve downstream activation of MAP kinase and NF-kappaB, while the phosphorylation of PECAM-1 occurs as a result of activation of PKC.</clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation" />
+<theme idref="E49" />
+<clue>Our data suggests that CoCl2-induced cellular signals directing <clueType>increased</clueType> expression of VCAM-1 in HUVEC involve downstream activation of MAP kinase and NF-kappaB, while the phosphorylation of PECAM-1 occurs as a result of activation of PKC.</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation" />
+<theme idref="E50" />
+<cause idref="A6" />
+<clue>Our data suggests that CoCl2-induced cellular signals <clueType>directing</clueType> increased expression of VCAM-1 in HUVEC involve downstream activation of MAP kinase and NF-kappaB, while the phosphorylation of PECAM-1 occurs as a result of activation of PKC.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation" />
+<theme idref="E51" />
+<cause idref="T68" />
+<clue>Our data suggests that CoCl2-<clueType>induced</clueType> cellular signals directing increased expression of VCAM-1 <clueLoc>in HUVEC</clueLoc> involve downstream activation of MAP kinase and NF-kappaB, while the phosphorylation of PECAM-1 occurs as a result of activation of PKC.</clue>
+</event>
+<event id="E53">
+<type class="Positive_regulation" />
+<theme idref="T71" />
+<clue>Our data suggests that CoCl2-induced cellular signals directing increased expression of VCAM-1 in HUVEC involve downstream <clueType>activation</clueType> <linkTheme>of</linkTheme> MAP kinase and NF-kappaB, while the phosphorylation of PECAM-1 occurs as a result of activation of PKC.</clue>
+</event>
+<event id="E54">
+<type class="Positive_regulation" />
+<theme idref="T72" />
+<clue>Our data suggests that CoCl2-induced cellular signals directing increased expression of VCAM-1 in HUVEC involve downstream <clueType>activation</clueType> <linkTheme>of</linkTheme> MAP kinase and NF-kappaB, while the phosphorylation of PECAM-1 occurs as a result of activation of PKC.</clue>
+</event>
+<event id="E55">
+<type class="Correlation" />
+<theme idref="E52" />
+<theme idref="E53" />
+<clue>Our data suggests that CoCl2-induced cellular signals directing increased expression of VCAM-1 in HUVEC <clueType>involve</clueType> downstream activation of MAP kinase and NF-kappaB, while the phosphorylation of PECAM-1 occurs as a result of activation of PKC.</clue>
+</event>
+<event id="E56">
+<type class="Correlation" />
+<theme idref="E52" />
+<theme idref="E54" />
+<clue>Our data suggests that CoCl2-induced cellular signals directing increased expression of VCAM-1 in HUVEC <clueType>involve</clueType> downstream activation of MAP kinase and NF-kappaB, while the phosphorylation of PECAM-1 occurs as a result of activation of PKC.</clue>
+</event>
+<event id="E57">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T73" />
+<clue>Our data suggests that CoCl2-induced cellular signals directing increased expression of VCAM-1 in HUVEC involve downstream activation of MAP kinase and NF-kappaB, while the <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> PECAM-1 occurs as a result of activation of PKC.</clue>
+</event>
+<event id="E58">
+<type class="Positive_regulation" />
+<theme idref="T74" />
+<clue>Our data suggests that CoCl2-induced cellular signals directing increased expression of VCAM-1 in HUVEC involve downstream activation of MAP kinase and NF-kappaB, while the phosphorylation of PECAM-1 occurs as a result of <clueType>activation</clueType> <linkTheme>of</linkTheme> PKC.</clue>
+</event>
+<event id="E59">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref="E58" />
+<clue>Our data suggests that CoCl2-induced cellular signals directing increased expression of VCAM-1 in HUVEC involve downstream activation of MAP kinase and NF-kappaB, while the phosphorylation of PECAM-1 <clueType>occurs</clueType> <linkCause>as a result of</linkCause> activation of PKC.</clue>
+</event>
+<sentence id="S13">We conclude that <term sem="Organic_compound_other" id="T75" lex="PAF-receptor_antagonist">PAF-receptor antagonist</term> inhibits the <cons sem="(OR Other Other)" id="C1" lex="(OR CoC12-induced_increase hypoxia-induced_increase)"><frag id="F1">CoCl2</frag><frag id="F2">-</frag> or <frag id="F3">hypoxia</frag><frag id="F4">-</frag><frag id="F5">induced increase</frag></cons> in the <term sem="Other" id="T76">adhesion</term> of <term sem="Cell_natural" id="T79" lex="SS_RBC">SS RBC</term>, <term sem="Other" id="T78"><term sem="Protein_molecule" id="T80" lex="PECAM-1">PECAM-1</term> phosphorylation</term>, and the concomitant <term sem="Other" id="T81" lex="transendothelial_migration">transendothelial migration</term> of <term sem="Cell_natural" id="T82" lex="monocyte">monocytes</term>.</sentence>
+<event id="E60">
+<type class="Cell_adhesion" />
+<theme idref="T79" />
+<clue>We conclude that PAF-receptor antagonist inhibits the CoCl2- or hypoxia-induced increase in the <clueType>adhesion</clueType> <linkTheme>of</linkTheme> SS RBC, PECAM-1 phosphorylation, and the concomitant transendothelial migration of monocytes.</clue>
+</event>
+<event id="E61">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T80" />
+<clue>We conclude that PAF-receptor antagonist inhibits the CoCl2- or hypoxia-induced increase in the adhesion of SS RBC, PECAM-1 <clueType>phosphorylation</clueType>, and the concomitant transendothelial migration of monocytes.</clue>
+</event>
+<event id="E62">
+<type class="Cellular_physiological_process" />
+<theme idref="T82" />
+<clue>We conclude that PAF-receptor antagonist inhibits the CoCl2- or hypoxia-induced increase in the adhesion of SS RBC, PECAM-1 phosphorylation, and the concomitant <clueLoc>transendothelial</clueLoc> <clueType>migration</clueType> <linkTheme>of</linkTheme> monocytes.</clue>
+</event>
+<event id="E63">
+<type class="Positive_regulation" />
+<theme idref="E60" />
+<clue>We conclude that PAF-receptor antagonist inhibits the CoCl2- or hypoxia-induced <clueType>increase</clueType> <linkTheme>in</linkTheme> the adhesion of SS RBC, PECAM-1 phosphorylation, and the concomitant transendothelial migration of monocytes.</clue>
+</event>
+<event id="E64">
+<type class="Positive_regulation" />
+<theme idref="E61" />
+<clue>We conclude that PAF-receptor antagonist inhibits the CoCl2- or hypoxia-induced <clueType>increase</clueType> <linkTheme>in</linkTheme> the adhesion of SS RBC, PECAM-1 phosphorylation, and the concomitant transendothelial migration of monocytes.</clue>
+</event>
+<event id="E65">
+<type class="Positive_regulation" />
+<theme idref="E62" />
+<clue>We conclude that PAF-receptor antagonist inhibits the CoCl2- or hypoxia-induced <clueType>increase</clueType> <linkTheme>in</linkTheme> the adhesion of SS RBC, PECAM-1 phosphorylation, and the concomitant transendothelial migration of monocytes.</clue>
+</event>
+<event id="E66">
+<type class="Negative_regulation" />
+<theme idref="E63" />
+<cause idref="T75" />
+<clue>We conclude that PAF-receptor antagonist <clueType>inhibits</clueType> the CoCl2- or hypoxia-induced increase in the adhesion of SS RBC, PECAM-1 phosphorylation, and the concomitant transendothelial migration of monocytes.</clue>
+</event>
+<event id="E67">
+<type class="Negative_regulation" />
+<theme idref="E64" />
+<cause idref="T75" />
+<clue>We conclude that PAF-receptor antagonist <clueType>inhibits</clueType> the CoCl2- or hypoxia-induced increase in the adhesion of SS RBC, PECAM-1 phosphorylation, and the concomitant transendothelial migration of monocytes.</clue>
+</event>
+<event id="E68">
+<type class="Negative_regulation" />
+<theme idref="E65" />
+<cause idref="T75" />
+<clue>We conclude that PAF-receptor antagonist <clueType>inhibits</clueType> the CoCl2- or hypoxia-induced increase in the adhesion of SS RBC, PECAM-1 phosphorylation, and the concomitant transendothelial migration of monocytes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

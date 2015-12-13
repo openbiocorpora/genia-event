@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="24/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10318942" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10318942</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Defining therapeutic targets by using <term sem="Virus" id="T1" lex="adenovirus">adenovirus</term>: blocking <term sem="Protein_complex" id="T2" lex="NF-kappaB">NF-kappaB</term> inhibits both <cons sem="(AND Other Other)" id="C1" lex="(AND inflammatory_mechanism destructive_mechanism)"><frag id="F7">inflammatory</frag> and <frag id="F8">destructive</frag> <frag id="F9">mechanisms</frag></cons> in <term sem="Tissue_natural" id="T6" lex="rheumatoid_synovium">rheumatoid synovium</term> but spares <term sem="Protein_family_or_group" id="T7" lex="anti-inflammatory_mediator">anti-inflammatory mediators</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="T2" />
+<clue>Defining therapeutic targets by using adenovirus: <clueType>blocking</clueType> NF-kappaB inhibits both inflammatory and destructive mechanisms in rheumatoid synovium but spares anti-inflammatory mediators.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref1="F9" idref="F7" />
+<cause idref="E1" />
+<clue>Defining therapeutic targets by using adenovirus: blocking NF-kappaB <clueType>inhibits</clueType> both inflammatory and destructive mechanisms <clueLoc>in rheumatoid synovium</clueLoc> but spares anti-inflammatory mediators.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref1="F9" idref="F8" />
+<cause idref="E1" />
+<clue>Defining therapeutic targets by using adenovirus: blocking NF-kappaB <clueType>inhibits</clueType> both inflammatory and destructive mechanisms <clueLoc>in rheumatoid synovium</clueLoc> but spares anti-inflammatory mediators.</clue>
+</event>
+<event assertion="non-exist" id="E4">
+<type class="Negative_regulation" />
+<theme idref="T7" />
+<cause idref="E1" />
+<clue>Defining therapeutic targets by using adenovirus: blocking NF-kappaB inhibits both inflammatory and destructive mechanisms in rheumatoid synovium but <clueType>spares</clueType> anti-inflammatory mediators.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The role of the <term sem="Protein_family_or_group" id="T8" lex="transcription_factor">transcription factor</term> <term sem="Protein_complex" id="T9" lex="NF-kappaB">NF-kappaB</term> in the <term sem="Other" id="T3">pathogenesis</term> of <term sem="Other" id="T10" lex="rheumatoid_arthritis">rheumatoid arthritis</term> has long been a subject of controversy.</sentence>
+<event id="E11">
+<type />
+<theme idref="T10" />
+<clue>The role of the transcription factor NF-kappaB in the <clueType>pathogenesis</clueType> <linkTheme>of</linkTheme> rheumatoid arthritis has long been a subject of controversy.</clue>
+<comment>SOO</comment>
+</event>
+<event uncertainty="doubtful" id="E5">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="T9" />
+<clue>The <clueType>role</clueType> <linkCause>of</linkCause> the transcription factor NF-kappaB <linkTheme>in</linkTheme> the pathogenesis of rheumatoid arthritis has long been a subject of controversy.</clue>
+</event>
+<sentence id="S3">We used an <term sem="Other" id="T11" lex="adenoviral_technique">adenoviral technique</term> of blocking <term sem="Protein_complex" id="T12" lex="NF-kappaB">NF-kappaB</term> through <term sem="Other" id="T13" lex="overexpression">overexpression</term> of the <term sem="Protein_molecule" id="T14" lex="inhibitory_subunit">inhibitory subunit</term> <term sem="Protein_molecule" id="T15" lex="IkappaBalpha">IkappaBalpha</term>, which has the advantage that it can be used in the diseased tissue itself, with &gt;90% of the <term sem="Cell_natural" id="T16" lex="synovial_macrophage">synovial macrophages</term>, <term sem="Cell_natural" id="T17" lex="fibroblast">fibroblasts</term>, and <term sem="Cell_natural" id="T18" lex="T_cell">T cells</term> infected.</sentence>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="T15" />
+<clue>We used an adenoviral technique of blocking NF-kappaB through <clueType>overexpression</clueType> <linkTheme>of</linkTheme> the inhibitory subunit IkappaBalpha, which has the advantage that it can be used in the diseased tissue itself, with &gt;90% of the synovial macrophages, fibroblasts, and T cells infected.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<clue>We used an adenoviral technique of blocking NF-kappaB through <clueType>overexpression</clueType> of the inhibitory subunit IkappaBalpha, which has the advantage that it can be used in the diseased tissue itself, with &gt;90% of the synovial macrophages, fibroblasts, and T cells infected.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="T12" />
+<cause idref="E7" />
+<clue>We used an adenoviral technique of <clueType>blocking</clueType> NF-kappaB <linkCause>through</linkCause> overexpression of the inhibitory subunit IkappaBalpha, which has the advantage that it can be used in the diseased tissue itself, with &gt;90% of the synovial macrophages, fibroblasts, and T cells infected.</clue>
+</event>
+<sentence id="S4">We found that the <term sem="Other" id="T19" lex="spontaneous_production">spontaneous production</term> of <term sem="Protein_molecule" id="T20" lex="tumor_necrosis_factor_alpha">tumor necrosis factor alpha</term> and other <term sem="Protein_family_or_group" id="T21" lex="pro-inflammatory_cytokine">pro-inflammatory <term sem="Protein_family_or_group" id="T22" lex="cytokine">cytokines</term></term> is <term sem="Protein_complex" id="T23" lex="NF-kappaB">NF-kappaB</term>-dependent in <term sem="Tissue_natural" id="T24" lex="rheumatoid_synovial_tissue">rheumatoid synovial tissue</term>, in contrast to the main <term sem="Protein_family_or_group" id="T25" lex="anti-inflammatory_mediator">anti-inflammatory mediators</term>, like <cons sem="(AND Protein_molecule Protein_molecule)" id="T26" lex="(AND IL-10 IL-11)"><frag id="F1"><term sem="Protein_molecule" id="A3">IL</term></frag><frag id="F2"><term sem="Protein_molecule" id="A4">-10</term></frag> and <frag id="F3"><term sem="Protein_molecule" id="A5">-11</term></frag></cons>, and the <term sem="Protein_molecule" id="T27" lex="IL-1_receptor_antagonist">IL-1 receptor antagonist</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue>We found that the spontaneous <clueType>production</clueType> <linkTheme>of</linkTheme> tumor necrosis factor alpha and other pro-inflammatory cytokines is NF-kappaB-dependent in rheumatoid synovial tissue, in contrast to the main anti-inflammatory mediators, like IL-10 and -11, and the IL-1 receptor antagonist.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>We found that the spontaneous <clueType>production</clueType> <linkTheme>of</linkTheme> tumor necrosis factor alpha and other pro-inflammatory cytokines is NF-kappaB-dependent in rheumatoid synovial tissue, in contrast to the main anti-inflammatory mediators, like IL-10 and -11, and the IL-1 receptor antagonist.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="T23" />
+<clue>We found that the spontaneous production of tumor necrosis factor alpha and other pro-inflammatory cytokines is NF-kappaB-<clueType>dependent</clueType> <clueLoc>in rheumatoid synovial tissue</clueLoc>, in contrast to the main anti-inflammatory mediators, like IL-10 and -11, and the IL-1 receptor antagonist.</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T23" />
+<clue>We found that the spontaneous production of tumor necrosis factor alpha and other pro-inflammatory cytokines is NF-kappaB-<clueType>dependent</clueType> <clueLoc>in rheumatoid synovial tissue</clueLoc>, in contrast to the main anti-inflammatory mediators, like IL-10 and -11, and the IL-1 receptor antagonist.</clue>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Regulation" />
+<theme idref="T25" />
+<cause idref="T23" />
+<clue>We found that the spontaneous production of tumor necrosis factor alpha and other pro-inflammatory cytokines is NF-kappaB-<clueType>dependent</clueType> in rheumatoid synovial tissue, <linkTheme>in contrast to</linkTheme> the main anti-inflammatory mediators, like IL-10 and -11, and the IL-1 receptor antagonist.</clue>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Regulation" />
+<theme idref1="A4" idref="A3" />
+<cause idref="T23" />
+<clue>We found that the spontaneous production of tumor necrosis factor alpha and other pro-inflammatory cytokines is NF-kappaB-<clueType>dependent</clueType> in rheumatoid synovial tissue, <linkTheme>in contrast to</linkTheme> the main anti-inflammatory mediators, like IL-10 and -11, and the IL-1 receptor antagonist.</clue>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Regulation" />
+<theme idref1="A5" idref="A3" />
+<cause idref="T23" />
+<clue>We found that the spontaneous production of tumor necrosis factor alpha and other pro-inflammatory cytokines is NF-kappaB-<clueType>dependent</clueType> in rheumatoid synovial tissue, <linkTheme>in contrast to</linkTheme> the main anti-inflammatory mediators, like IL-10 and -11, and the IL-1 receptor antagonist.</clue>
+</event>
+<event assertion="non-exist" id="E17">
+<type class="Regulation" />
+<theme idref="T27" />
+<cause idref="T23" />
+<clue>We found that the spontaneous production of tumor necrosis factor alpha and other pro-inflammatory cytokines is NF-kappaB-<clueType>dependent</clueType> in rheumatoid synovial tissue, <linkTheme>in contrast to</linkTheme> the main anti-inflammatory mediators, like IL-10 and -11, and the IL-1 receptor antagonist.</clue>
+</event>
+<sentence id="S5">Of even more interest, <term sem="Other" id="T28" lex="IkappaBalpha_overexpression"><term sem="Protein_molecule" id="T29" lex="IkappaBalpha">IkappaBalpha</term> overexpression</term> inhibited the production of <cons sem="(AND Protein_molecule Protein_molecule)" id="T30" lex="(AND matrix_metalloproteinase_1 matrix_metalloproteinase_3)"><frag id="F4"><term sem="Protein_molecule" id="A6">matrix metalloproteinases</term></frag> <frag id="F5"><term sem="Protein_molecule" id="A7">1</term></frag> and <frag id="F6"><term sem="Protein_molecule" id="A8">3</term></frag></cons> while not affecting their <term sem="Protein_molecule" id="T31" lex="tissue_inhibitor">tissue inhibitor</term>.</sentence>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>Of even more interest, IkappaBalpha <clueType>overexpression</clueType> inhibited the production of matrix metalloproteinases 1 and 3 while not affecting their tissue inhibitor.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<clue>Of even more interest, IkappaBalpha <clueType>overexpression</clueType> inhibited the production of matrix metalloproteinases 1 and 3 while not affecting their tissue inhibitor.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref1="A7" idref="A6" />
+<clue>Of even more interest, IkappaBalpha overexpression inhibited the <clueType>production</clueType> <linkTheme>of</linkTheme> matrix metalloproteinases 1 and 3 while not affecting their tissue inhibitor.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref1="A8" idref="A6" />
+<clue>Of even more interest, IkappaBalpha overexpression inhibited the <clueType>production</clueType> <linkTheme>of</linkTheme> matrix metalloproteinases 1 and 3 while not affecting their tissue inhibitor.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="E19" />
+<clue>Of even more interest, IkappaBalpha overexpression <clueType>inhibited</clueType> the production of matrix metalloproteinases 1 and 3 while not affecting their tissue inhibitor.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="E19" />
+<clue>Of even more interest, IkappaBalpha overexpression <clueType>inhibited</clueType> the production of matrix metalloproteinases 1 and 3 while not affecting their tissue inhibitor.</clue>
+</event>
+<event assertion="non-exist" id="E24">
+<type class="Regulation" />
+<theme idref1="A7" idref2="T31" idref="A6" />
+<cause idref="E19" />
+<clue>Of even more interest, IkappaBalpha overexpression inhibited the production of matrix metalloproteinases 1 and 3 while not <clueType>affecting</clueType> <corefTheme>their tissue inhibitor</corefTheme>.</clue>
+</event>
+<event assertion="non-exist" id="E25">
+<type class="Regulation" />
+<theme idref1="A8" idref2="T31" idref="A6" />
+<cause idref="E19" />
+<clue>Of even more interest, IkappaBalpha overexpression inhibited the production of matrix metalloproteinases 1 and 3 while not <clueType>affecting</clueType> <corefTheme>their tissue inhibitor</corefTheme>.</clue>
+</event>
+<sentence id="S6">Blocking <term sem="Protein_complex" id="T32" lex="NF-kappaB">NF-kappaB</term> in the <term sem="Body_region" id="T33" lex="rheumatoid_joint">rheumatoid joint</term> thus has a very beneficial profile, reducing both the <term sem="Other" id="T34" lex="inflammatory_response">inflammatory response</term> and the <term sem="Other" id="T35" lex="tissue_destruction"><term sem="Tissue_natural" id="T4">tissue</term> destruction</term>.</sentence>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<clue><clueType>Blocking</clueType> NF-kappaB <clueLoc>in the rheumatoid joint</clueLoc> thus has a very beneficial profile, reducing both the inflammatory response and the tissue destruction.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="T34" />
+<cause idref="E26" />
+<clue>Blocking NF-kappaB in the rheumatoid joint thus has a very beneficial profile, <clueType>reducing</clueType> both the inflammatory response and the tissue destruction.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="T35" />
+<cause idref="E26" />
+<clue>Blocking NF-kappaB in the rheumatoid joint thus has a very beneficial profile, <clueType>reducing</clueType> both the inflammatory response and the tissue destruction.</clue>
+</event>
+<sentence id="S7">The <term sem="Other" id="T36" lex="adenoviral_technique">adenoviral technique</term> described here has widespread applicability, allowing rapid testing of the effects of blocking a <term sem="Other" id="T37" lex="potential_therapeutic_target">potential therapeutic target</term> in either cultures of <term sem="Cell_natural" id="T38" lex="normal_cell">normal cells</term> or in the <term sem="Tissue_natural" id="T39" lex="diseased_tissue">diseased tissue</term> itself.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

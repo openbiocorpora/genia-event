@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="03/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10416957" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10416957</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term sem="Other" id="T1" lex="p53_paradox"><term sem="Protein_molecule" id="T2" lex="p53">p53</term> paradox</term> in the pathogenesis of <term sem="Other" id="T3" lex="tumor_progression"><term sem="Multicellular_organism_genetically_modified" id="A2">tumor</term> progression</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<clue>The p53 paradox in the pathogenesis of tumor <clueType>progression</clueType>.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<cause idref="E1" />
+<clue>The p53 paradox in the <clueType>pathogenesis</clueType> <linkCause>of</linkCause> tumor progression.</clue>
+<comment>SOO; NO THEME</comment>
+</event>
+<event id="E21">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T2" />
+<clue>The p53 <clueType>paradox</clueType> <linkTheme>in</linkTheme> the pathogenesis of tumor progression.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Recent evidence suggests that the <term sem="Protein_molecule" id="T4" lex="p53_molecule">p53 molecule</term> appears in two different forms: the <term sem="Protein_molecule" id="T5" lex="mutant_p53">mutant p53</term> that stimulates <term sem="Other" id="T6" lex="tumor_progression">tumor progression</term>, and <term sem="Protein_molecule" id="T7" lex="wild_type_p53">wild type p53</term> that inhibits <term sem="Other" id="T8" lex="tumor_progression">tumor progression</term>.</sentence>
+<event uncertainty="probable" id="E2">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<cause idref="T5" />
+<clue>Recent evidence suggests that the p53 molecule appears in two different forms: the mutant p53 that <clueType>stimulates</clueType> tumor progression, and wild type p53 that inhibits tumor progression.</clue>
+</event>
+<event uncertainty="probable" id="E3">
+<type class="Negative_regulation" />
+<theme idref="T8" />
+<cause idref="T7" />
+<clue>Recent evidence suggests that the p53 molecule appears in two different forms: the mutant p53 that stimulates tumor progression, and wild type p53 that <clueType>inhibits</clueType> tumor progression.</clue>
+</event>
+<sentence id="S3">In addition, it has been established that <term sem="Protein_molecule" id="T9" lex="tumor_necrosis_factor-alpha">tumor necrosis factor-alpha</term> (<term sem="Protein_molecule" id="T10" lex="TNF-alpha">TNF-alpha</term>) can activate the expression of <term sem="Protein_molecule" id="T11" lex="wild_type_p53">wild type p53</term> in concert with the <term sem="Protein_family_or_group" id="T12" lex="nuclear_transcription_factor">nuclear transcription factor</term>, <term sem="Protein_complex" id="T13" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T10" />
+<cause idref="T13" />
+<clue>In addition, it has been established that tumor necrosis factor-alpha (TNF-alpha) can <clueType>activate</clueType> the expression of wild type p53 <linkCause>in concert with</linkCause> the nuclear transcription factor, NF-kappa B.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>In addition, it has been established that tumor necrosis factor-alpha (TNF-alpha) can activate the <clueType>expression</clueType> <linkTheme>of</linkTheme> wild type p53 in concert with the nuclear transcription factor, NF-kappa B.</clue>
+</event>
+<sentence id="S4">Both <term sem="Protein_molecule" id="T14" lex="TNF-alpha">TNF-alpha</term> and <term sem="Protein_complex" id="T15" lex="NF-kappa_B">NF-kappa B</term> are also involved in the stimulation of the <term sem="Other" id="A1">pathway</term> that leads to the expression of <term sem="Protein_family_or_group" id="T16" lex="major_histocompatibility_complex_(MHC)_class_I_molecule">major histocompatibility complex (MHC) class I molecules</term> and, hence, antigen presentation to the <term sem="Cell_natural" id="T17" lex="T_cell">T cells</term>.</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T14" />
+<clue>Both TNF-alpha and NF-kappa B are also <clueType>involved in the stimulation</clueType> <linkTheme>of</linkTheme> the pathway that leads to the expression of major histocompatibility complex (MHC) class I molecules and, hence, antigen presentation to the T cells.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T15" />
+<clue>Both TNF-alpha and NF-kappa B are also <clueType>involved in the stimulation</clueType> <linkTheme>of</linkTheme> the pathway that leads to the expression of major histocompatibility complex (MHC) class I molecules and, hence, antigen presentation to the T cells.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="A1" />
+<clue>Both TNF-alpha and NF-kappa B are also involved in the stimulation of the pathway that <clueType>leads</clueType> <linkTheme>to</linkTheme> the expression of major histocompatibility complex (MHC) class I molecules and, hence, antigen presentation to the T cells.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>Both TNF-alpha and NF-kappa B are also involved in the stimulation of the pathway that leads to the <clueType>expression</clueType> <linkTheme>of</linkTheme> major histocompatibility complex (MHC) class I molecules and, hence, antigen presentation to the T cells.</clue>
+</event>
+<event id="E11">
+<type />
+<theme idref="T17" />
+<clue>Both TNF-alpha and NF-kappa B are also involved in the stimulation of the pathway that leads to the expression of major histocompatibility complex (MHC) class I molecules and, hence, <clueType>antigen presentation</clueType> <linkTheme>to</linkTheme> the T cells.</clue>
+<comment>SOO, immune response</comment>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T14" />
+<clue>Both TNF-alpha and NF-kappa B are also <clueType>involved in the stimulation</clueType> <linkTheme>of</linkTheme> the pathway that leads to the expression of major histocompatibility complex (MHC) class I molecules and, hence, antigen presentation to the T cells.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T15" />
+<clue>Both TNF-alpha and NF-kappa B are also <clueType>involved in the stimulation</clueType> <linkTheme>of</linkTheme> the pathway that leads to the expression of major histocompatibility complex (MHC) class I molecules and, hence, antigen presentation to the T cells.</clue>
+</event>
+<sentence id="S5">In this paper we shall advance the hypothesis that: (i) <term sem="Protein_molecule" id="T18" lex="TNF-alpha">TNF-alpha</term> indirectly controls <term sem="Other" id="T19" lex="immune_surveillance">immune surveillance</term>; and (ii) <term sem="Protein_molecule" id="T20" lex="TNF-alpha">TNF-alpha</term> controls <term sem="Other" id="T21" lex="DNA_repair">DNA repair</term> and <term sem="Other" id="T22" lex="tumor_suppression">tumor suppression</term> through the regulation of <term sem="Protein_molecule" id="T23" lex="wild_type_p53">wild type p53</term>.</sentence>
+<event uncertainty="probable" id="E14">
+<type class="Regulation" />
+<theme idref="T19" />
+<cause idref="T18" />
+<clue>In this paper we shall advance the hypothesis that: (i) TNF-alpha indirectly <clueType>controls</clueType> immune surveillance; and (ii) TNF-alpha controls DNA repair and tumor suppression through the regulation of wild type p53.</clue>
+</event>
+<event uncertainty="probable" id="E15">
+<type class="Regulation" />
+<theme idref="T21" />
+<cause idref="E17" />
+<clue>In this paper we shall advance the hypothesis that: (i) TNF-alpha indirectly controls immune surveillance; and (ii) TNF-alpha <clueType>controls</clueType> DNA repair and tumor suppression <linkCause>through</linkCause> the regulation of wild type p53.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="T22" />
+<cause idref="E17" />
+<clue>In this paper we shall advance the hypothesis that: (i) TNF-alpha indirectly controls immune surveillance; and (ii) TNF-alpha <clueType>controls</clueType> DNA repair and tumor suppression <linkCause>through</linkCause> the regulation of wild type p53.</clue>
+</event>
+<event uncertainty="probable" id="E17">
+<type class="Regulation" />
+<theme idref="T23" />
+<cause idref="T20" />
+<clue>In this paper we shall advance the hypothesis that: (i) TNF-alpha indirectly controls immune surveillance; and (ii) TNF-alpha controls DNA repair and tumor suppression through the <clueType>regulation</clueType> <linkTheme>of</linkTheme> wild type p53.</clue>
+</event>
+<sentence id="S6">Thus, it is hypothesized that elevated <term sem="Protein_molecule" id="T24" lex="TNF-alpha">TNF-alpha</term> is primarily responsible for promoting <term sem="Other" id="T25" lex="tumor_progression"><term sem="Multicellular_organism_genetically_modified" id="A5">tumor</term> progression</term>.</sentence>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<clue>Thus, it is hypothesized that <clueType>elevated</clueType> TNF-alpha is primarily responsible for promoting tumor progression.</clue>
+</event>
+<event id="E19">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="E18" />
+<clue>Thus, it is hypothesized that elevated TNF-alpha is primarily <clueType>responsible</clueType> <linkTheme>for</linkTheme> promoting tumor progression.</clue>
+</event>
+<event uncertainty="probable" id="E20">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<clue>Thus, it is hypothesized that elevated TNF-alpha is primarily responsible for <clueType>promoting</clueType> tumor progression.</clue>
+</event>
+<event id="E23">
+<type />
+<theme idref="A5" />
+<clue>Thus, it is hypothesized that elevated TNF-alpha is primarily responsible for promoting tumor <clueType>progression</clueType>.</clue>
+<comment>SOO</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

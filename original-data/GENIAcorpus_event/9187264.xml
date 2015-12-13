@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="10/10/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9187264"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9187264</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T1" lex="histamine">Histamine</term> modulates the expression of <term sem="DNA_domain_or_region" id="T2" lex="c-fos">c-fos</term> through <term sem="Other" id="T3" lex="cyclic_AMP_production"><term sem="Nucleotide" id="T4" lex="cyclic_AMP">cyclic AMP</term> production</term> via the <term sem="Protein_complex" id="T5" lex="H2_receptor">H2 receptor</term> in the <term sem="Cell_cultured" id="T6" lex="human_promonocytic_cell_line_U937">human promonocytic cell line U937</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Histamine modulates the <clueType>expression</clueType> <linkTheme>of</linkTheme> c-fos through cyclic AMP production via the H2 receptor in the human promonocytic cell line U937.</clue>
+</event>
+<event id="E2">
+<type class="Metabolism" />
+<theme idref="T4" />
+<clue>Histamine modulates the expression of c-fos through cyclic AMP <clueType>production</clueType> via the H2 receptor in the human promonocytic cell line U937.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="T5" />
+<cause idref="T1" />
+<clue>Histamine <clueType>modulates</clueType> the expression of c-fos through cyclic AMP production <linkTheme>via</linkTheme> the H2 receptor in the human promonocytic cell line U937.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="E3" />
+<clue>Histamine <clueType>modulates</clueType> the expression of c-fos <linkTheme>through</linkTheme> cyclic AMP production <linkCause>via</linkCause> the H2 receptor in the human promonocytic cell line U937.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="E4" />
+<clue>Histamine <clueType>modulates</clueType> the expression of c-fos <linkCause>through</linkCause> cyclic AMP production via the H2 receptor in the human promonocytic cell line U937.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We examined the effects of <term sem="Organic_compound_other" id="A1">histamine</term> and <term sem="Organic_compound_other" id="A2">its agonists</term> on the expression of the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T7" lex="(AND c-fos_proto-oncogene c-myc_proto-oncogene)"><frag id="F1">c-fos</frag> and <frag id="F2">c-myc</frag> <frag id="F3">proto-oncogenes</frag></cons> at the transcriptional and translational levels in the <term sem="Cell_cultured" id="T8" lex="human_promonocytic_U937_cell_line">human promonocytic U937 cell line</term>.</sentence>
+<event id="E6">
+<type class="Transcription" />
+<theme idref1="F3" idref="F1" />
+<clue>We examined the effects of histamine and its agonists on the <clueType>expression</clueType> <linkTheme>of</linkTheme> the c-fos and c-myc proto-oncogenes <clueType>at the transcriptional</clueType> and translational <clueType>levels</clueType> in the human promonocytic U937 cell line.</clue>
+</event>
+<event id="E7">
+<type class="Transcription" />
+<theme idref1="F3" idref="F2" />
+<clue>We examined the effects of histamine and its agonists on the <clueType>expression</clueType> <linkTheme>of</linkTheme> the c-fos and c-myc proto-oncogenes <clueType>at the transcriptional</clueType> and translational <clueType>levels</clueType> in the human promonocytic U937 cell line.</clue>
+</event>
+<event id="E8">
+<type class="Translation" />
+<theme idref1="F3" idref="F1" />
+<clue>We examined the effects of histamine and its agonists on the <clueType>expression</clueType> <linkTheme>of</linkTheme> the c-fos and c-myc proto-oncogenes <clueType>at</clueType> the transcriptional and <clueType>translational levels</clueType> in the human promonocytic U937 cell line.</clue>
+</event>
+<event id="E9">
+<type class="Translation" />
+<theme idref1="F3" idref="F2" />
+<clue>We examined the effects of histamine and its agonists on the <clueType>expression</clueType> <linkTheme>of</linkTheme> the c-fos and c-myc proto-oncogenes <clueType>at</clueType> the transcriptional and <clueType>translational levels</clueType> in the human promonocytic U937 cell line.</clue>
+</event>
+<event uncertainty="doubtful" id="E10">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="A1" />
+<clue>We examined the <clueType>effects</clueType> <linkCause>of</linkCause> histamine and its agonists <linkTheme>on</linkTheme> the expression of the c-fos and c-myc proto-oncogenes at the transcriptional and translational levels <clueLoc>in the human promonocytic U937 cell line</clueLoc>.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="A1" />
+<clue>We examined the <clueType>effects</clueType> <linkCause>of</linkCause> histamine and its agonists <linkTheme>on</linkTheme> the expression of the c-fos and c-myc proto-oncogenes at the transcriptional and translational levels <clueLoc>in the human promonocytic U937 cell line</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E12">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="A1" />
+<clue>We examined the <clueType>effects</clueType> <linkCause>of</linkCause> histamine and its agonists <linkTheme>on</linkTheme> the expression of the c-fos and c-myc proto-oncogenes at the transcriptional and translational levels <clueLoc>in the human promonocytic U937 cell line</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E13">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="A1" />
+<clue>We examined the <clueType>effects</clueType> <linkCause>of</linkCause> histamine and its agonists <linkTheme>on</linkTheme> the expression of the c-fos and c-myc proto-oncogenes at the transcriptional and translational levels <clueLoc>in the human promonocytic U937 cell line</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="A2" />
+<clue>We examined the <clueType>effects</clueType> <linkCause>of</linkCause> histamine and its agonists <linkTheme>on</linkTheme> the expression of the c-fos and c-myc proto-oncogenes at the transcriptional and translational levels <clueLoc>in the human promonocytic U937 cell line</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E15">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="A2" />
+<clue>We examined the <clueType>effects</clueType> <linkCause>of</linkCause> histamine and its agonists <linkTheme>on</linkTheme> the expression of the c-fos and c-myc proto-oncogenes at the transcriptional and translational levels <clueLoc>in the human promonocytic U937 cell line</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E16">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="A2" />
+<clue>We examined the <clueType>effects</clueType> <linkCause>of</linkCause> histamine and its agonists <linkTheme>on</linkTheme> the expression of the c-fos and c-myc proto-oncogenes at the transcriptional and translational levels <clueLoc>in the human promonocytic U937 cell line</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E17">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="A2" />
+<clue>We examined the <clueType>effects</clueType> <linkCause>of</linkCause> histamine and its agonists <linkTheme>on</linkTheme> the expression of the c-fos and c-myc proto-oncogenes at the transcriptional and translational levels <clueLoc>in the human promonocytic U937 cell line</clueLoc>.</clue>
+</event>
+<sentence id="S3"><term sem="Organic_compound_other" id="T9" lex="histamine">Histamine</term> transiently increased <term sem="Nucleotide" id="A6">cAMP</term> and <term sem="DNA_domain_or_region" id="T10" lex="c-fos">c-fos</term> expression through <term sem="Protein_family_or_group" id="T11" lex="H2_receptor">H2 receptors</term>.</sentence>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>Histamine transiently increased cAMP and c-fos <clueType>expression</clueType> through H2 receptors.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<cause idref="T9" />
+<clue>Histamine transiently <clueType>increased</clueType> cAMP and c-fos expression <linkTheme>through</linkTheme> H2 receptors.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="E19" />
+<clue>Histamine transiently <clueType>increased</clueType> cAMP and c-fos expression <linkCause>through</linkCause> H2 receptors.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="E19" />
+<clue>Histamine transiently <clueType>increased</clueType> cAMP and c-fos expression <linkCause>through</linkCause> H2 receptors.</clue>
+</event>
+<sentence id="S4"><term sem="Nucleotide" id="T12" lex="dibutyryl_cAMP">Dibutyryl cAMP</term> also increased <cons sem="(AND RNA_molecule Protein_molecule)" id="C1" lex="(AND c-fos_mRNA c-fos_protein)"><frag id="F4">c-fos</frag> <frag id="F5">mRNA</frag> and <frag id="F6">protein</frag></cons>, and levels remained elevated even after 12 hr of treatment.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref1="F5" idref="F4" />
+<cause idref="T12" />
+<clue>Dibutyryl cAMP also <clueType>increased</clueType> c-fos mRNA and protein, and levels remained elevated even after 12 hr of treatment.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref1="F6" idref="F4" />
+<cause idref="T12" />
+<clue>Dibutyryl cAMP also <clueType>increased</clueType> c-fos mRNA and protein, and levels remained elevated even after 12 hr of treatment.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref1="F5" idref="F4" />
+<clue>Dibutyryl cAMP also increased c-fos mRNA and protein, and <corefTheme>levels</corefTheme> <clueType>remained elevated</clueType> <clueTime>even after 12 hr of treatment</clueTime>.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref1="F6" idref="F4" />
+<clue>Dibutyryl cAMP also increased c-fos mRNA and protein, and <corefTheme>levels</corefTheme> <clueType>remained elevated</clueType> <clueTime>even after 12 hr of treatment</clueTime>.</clue>
+</event>
+<sentence id="S5">Dose-dependence studies using <term sem="Organic_compound_other" id="A7">histamine</term> and <term sem="Organic_compound_other" id="A8">dimaprit</term> showed that the <term sem="Other" id="T16" lex="EC50_value">EC50 values</term> for <term sem="Other" id="T17" lex="cAMP_production"><term sem="Nucleotide" id="T18" lex="cAMP">cAMP</term> production</term> and <term sem="Protein_molecule" id="T19" lex="c-fos">c-fos</term> increase were similar, suggesting that <term sem="Nucleotide" id="T20" lex="cAMP">cAMP</term> might be involved in <term sem="DNA_domain_or_region" id="T21" lex="c-fos">c-fos</term> induction via <term sem="Protein_family_or_group" id="T22" lex="H2_receptor">H2 receptors</term>.</sentence>
+<event id="E26">
+<type class="Metabolism" />
+<theme idref="T18" />
+<clue>Dose-dependence studies using histamine and dimaprit showed that the EC50 values for cAMP <clueType>production</clueType> and c-fos increase were similar, suggesting that cAMP might be involved in c-fos induction via H2 receptors.</clue>
+<comment>NER T19 MOD</comment></event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T19" />
+<clue>Dose-dependence studies using histamine and dimaprit showed that the EC50 values for cAMP production and c-fos <clueType>increase</clueType> were similar, suggesting that cAMP might be involved in c-fos induction via H2 receptors.</clue>
+</event>
+<event id="E28">
+<type class="Regulation" />
+<theme idref="E26" />
+<cause idref="A7" />
+<clue><clueExperiment>Dose-dependence studies</clueExperiment> using histamine and dimaprit showed that the <clueType>EC50 values</clueType> <linkTheme>for</linkTheme> cAMP production and c-fos increase were similar, suggesting that cAMP might be involved in c-fos induction via H2 receptors.</clue>
+</event>
+<event id="E29">
+<type class="Regulation" />
+<theme idref="E27" />
+<cause idref="A7" />
+<clue><clueExperiment>Dose-dependence studies</clueExperiment> using histamine and dimaprit showed that the <clueType>EC50 values</clueType> <linkTheme>for</linkTheme> cAMP production and c-fos increase were similar, suggesting that cAMP might be involved in c-fos induction via H2 receptors.</clue>
+</event>
+<event id="E30">
+<type class="Regulation" />
+<theme idref="E26" />
+<cause idref="A8" />
+<clue><clueExperiment>Dose-dependence studies</clueExperiment> using histamine and dimaprit showed that the <clueType>EC50 values</clueType> <linkTheme>for</linkTheme> cAMP production and c-fos increase were similar, suggesting that cAMP might be involved in c-fos induction via H2 receptors.</clue>
+</event>
+<event id="E31">
+<type class="Regulation" />
+<theme idref="E27" />
+<cause idref="A8" />
+<clue><clueExperiment>Dose-dependence studies</clueExperiment> using histamine and dimaprit showed that the <clueType>EC50 values</clueType> <linkTheme>for</linkTheme> cAMP production and c-fos increase were similar, suggesting that cAMP might be involved in c-fos induction via H2 receptors.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<cause idref="T22" />
+<clue>Dose-dependence studies using histamine and dimaprit showed that the EC50 values for cAMP production and c-fos increase were similar, suggesting that cAMP might be involved in c-fos <clueType>induction</clueType> <linkCause>via</linkCause> H2 receptors.</clue>
+</event>
+<sentence id="S6">Furthermore, studies carried out using <term sem="Protein_molecule" id="T23" lex="H7">H7</term>, a <term sem="Protein_family_or_group" id="T24" lex="protein_kinase_A/protein_kinase_C_inhibitor"><term sem="Protein_molecule" id="T25" lex="protein_kinase_A">protein kinase A</term><term sem="Protein_molecule" id="T26" lex="protein_kinase_C">/protein kinase C</term> inhibitor</term>, blocked <term sem="DNA_domain_or_region" id="T27" lex="c-fos">c-fos</term> induction, whereas no effect was observed with <term sem="Organic_compound_other" id="T28" lex="bisindolylmaleimide">bisindolylmaleimide</term>, a specific <term sem="Organic_compound_other" id="T29" lex="protein_kinase_C_inhibitor"><term sem="Protein_molecule" id="T30" lex="protein_kinase_C">protein kinase C</term> inhibitor</term>.</sentence>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<clue>Furthermore, studies carried out using H7, a protein kinase A/protein kinase C inhibitor, blocked c-fos <clueType>induction</clueType>, whereas no effect was observed with bisindolylmaleimide, a specific protein kinase C inhibitor.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T23" />
+<clue>Furthermore, studies carried out using H7, a protein kinase A/protein kinase C inhibitor, <clueType>blocked</clueType> c-fos induction, whereas no effect was observed with bisindolylmaleimide, a specific protein kinase C inhibitor.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="T25" />
+<cause idref="T23" />
+<clue>Furthermore, studies carried out using H7, a protein kinase A/protein kinase C <clueType>inhibitor</clueType>, blocked c-fos induction, whereas no effect was observed with bisindolylmaleimide, a specific protein kinase C inhibitor.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="T26" />
+<cause idref="T23" />
+<clue>Furthermore, studies carried out using H7, a protein kinase A/protein kinase C <clueType>inhibitor</clueType>, blocked c-fos induction, whereas no effect was observed with bisindolylmaleimide, a specific protein kinase C inhibitor.</clue>
+</event>
+<event assertion="non-exist" id="E37">
+<type class="Regulation" />
+<theme idref="E33" />
+<cause idref="T28" />
+<clue>Furthermore, studies carried out using H7, a protein kinase A/protein kinase C inhibitor, blocked c-fos induction, whereas no <clueType>effect</clueType> was observed <linkCause>with</linkCause> bisindolylmaleimide, a specific protein kinase C inhibitor.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event id="E38">
+<type class="Negative_regulation" />
+<theme idref="T30" />
+<cause idref="T28" />
+<clue>Furthermore, studies carried out using H7, a protein kinase A/protein kinase C inhibitor, blocked c-fos induction, whereas no effect was observed with bisindolylmaleimide, a specific protein kinase C <clueType>inhibitor</clueType>.</clue>
+</event>
+<sentence id="S7">No modification of <term sem="Other" id="T31" lex="c-myc_expression"><term sem="DNA_domain_or_region" id="T32" lex="c-myc">c-myc</term> expression</term> could be detected on treatment with <term sem="Organic_compound_other" id="T33" lex="histamine">histamine</term> or <term sem="Organic_compound_other" id="A9">its analogues</term>.</sentence>
+<event id="E39">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>No modification of c-myc <clueType>expression</clueType> could be detected on treatment with histamine or its analogues.</clue>
+</event>
+<event assertion="non-exist" id="E40">
+<type class="Regulation" />
+<theme idref="E39" />
+<cause idref="T33" />
+<clue>No <clueType>modification</clueType> <linkTheme>of</linkTheme> c-myc expression could be <linkCause>detected on treatment with</linkCause> histamine or its analogues.</clue>
+</event>
+<event assertion="non-exist" id="E41">
+<type class="Regulation" />
+<theme idref="E39" />
+<cause idref="A9" />
+<clue>No <clueType>modification</clueType> <linkTheme>of</linkTheme> c-myc expression could be <linkCause>detected on treatment with</linkCause> histamine or its analogues.</clue>
+</event>
+<sentence id="S8">Nevertheless, <term sem="Nucleotide" id="T34" lex="dibutyryl_cAMP">dibutyryl cAMP</term> induced a down-regulation of the levels of this <term sem="DNA_family_or_group" id="T35" lex="proto-oncogene">proto-oncogene</term>.</sentence>
+<event id="E42">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<cause idref="T34" />
+<clue>Nevertheless, dibutyryl cAMP <clueType>induced a down-regulation</clueType> <linkTheme>of</linkTheme> the levels of <corefTheme>this proto-oncogene</corefTheme>.</clue>
+</event>
+<sentence id="S9">In addition, <term sem="Nucleotide" id="T36" lex="dibutyryl_cAMP">dibutyryl cAMP</term> inhibited <term sem="Cell_natural" id="A10">cell</term> growth in a dose-dependent manner, whereas <term sem="Organic_compound_other" id="T37" lex="histamine">histamine</term> failed to affect proliferation and differentiation of <term sem="Cell_cultured" id="T38" lex="U937_cell">U937 cells</term>.</sentence>
+<event id="E43">
+<type class="Cellular_physiological_process" />
+<theme idref="A10" />
+<clue>In addition, dibutyryl cAMP inhibited cell <clueType>growth</clueType> in a dose-dependent manner, whereas histamine failed to affect proliferation and differentiation of U937 cells.</clue>
+</event>
+<event id="E44">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="T36" />
+<clue>In addition, dibutyryl cAMP <clueType>inhibited</clueType> cell growth in a dose-dependent manner, whereas histamine failed to affect proliferation and differentiation of U937 cells.</clue>
+</event>
+<event id="E45">
+<type class="Cellular_physiological_process" />
+<theme idref="T38" />
+<clue>In addition, dibutyryl cAMP inhibited cell growth in a dose-dependent manner, whereas histamine failed to affect <clueType>proliferation</clueType> and differentiation <linkTheme>of</linkTheme> U937 cells.</clue>
+</event>
+<event id="E46">
+<type class="Cell_differentiation" />
+<theme idref="T38" />
+<clue>In addition, dibutyryl cAMP inhibited cell growth in a dose-dependent manner, whereas histamine failed to affect proliferation and <clueType>differentiation</clueType> <linkTheme>of</linkTheme> U937 cells.</clue>
+</event>
+<event assertion="non-exist" id="E47">
+<type class="Regulation" />
+<theme idref="E45" />
+<cause idref="T37" />
+<clue>In addition, dibutyryl cAMP inhibited cell growth in a dose-dependent manner, whereas histamine failed to <clueType>affect</clueType> proliferation and differentiation of U937 cells.</clue>
+</event>
+<event assertion="non-exist" id="E48">
+<type class="Regulation" />
+<theme idref="E46" />
+<cause idref="T37" />
+<clue>In addition, dibutyryl cAMP inhibited cell growth in a dose-dependent manner, whereas histamine failed to <clueType>affect</clueType> proliferation and differentiation of U937 cells.</clue>
+</event>
+<sentence id="S10">Cells pretreated with <term sem="Organic_compound_other" id="A11">dimaprit</term> showed a decrease in the <term sem="Other" id="T39" lex="cAMP_response"><term sem="Nucleotide" id="T40" lex="cAMP">cAMP</term> response</term> to subsequent addition of <term sem="Organic_compound_other" id="T41" lex="H2_agonist">H2 agonists</term>, whereas the <term sem="Other" id="T42" lex="cAMP_response"><term sem="Nucleotide" id="T43" lex="cAMP">cAMP</term> response</term> to <term sem="Organic_compound_other" id="T44" lex="prostaglandin_E2">prostaglandin E2</term> remained unaltered.</sentence>
+<event id="E49">
+<type class="Artificial_process" />
+<theme idref="A11" />
+<clue>Cells <clueType>pretreated</clueType> <linkTheme>with</linkTheme> dimaprit showed a decrease in the cAMP response to subsequent addition of H2 agonists, whereas the cAMP response to prostaglandin E2 remained unaltered.</clue>
+</event>
+<event id="E50">
+<type class="Regulation" />
+<theme idref="T40" />
+<cause idref="T41" />
+<clue>Cells pretreated with dimaprit showed a decrease in the cAMP <clueType>response</clueType> <linkCause>to subsequent addition of</linkCause> H2 agonists, whereas the cAMP response to prostaglandin E2 remained unaltered.</clue>
+</event>
+<event id="E51">
+<type class="Negative_regulation" />
+<theme idref="E50" />
+<cause idref="E49" />
+<clue>Cells pretreated with dimaprit showed a <clueType>decrease</clueType> <linkTheme>in</linkTheme> the cAMP response to subsequent addition of H2 agonists, whereas the cAMP response to prostaglandin E2 remained unaltered.</clue>
+</event>
+<event id="E52">
+<type class="Regulation" />
+<theme idref="T43" />
+<cause idref="T44" />
+<clue>Cells pretreated with dimaprit showed a decrease in the cAMP response to subsequent addition of H2 agonists, whereas the cAMP <clueType>response</clueType> <linkCause>to</linkCause> prostaglandin E2 remained unaltered.</clue>
+</event>
+<event assertion="non-exist" id="E53">
+<type class="Regulation" />
+<theme idref="E52" />
+<cause idref="E49" />
+<clue>Cells pretreated with dimaprit showed a decrease in the cAMP response to subsequent addition of H2 agonists, whereas the cAMP response to prostaglandin E2 <clueType>remained unaltered</clueType>.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<sentence id="S11">This homologous mechanism of <term sem="Other" id="T45" lex="H2_receptor_desensitization"><term sem="Protein_complex" id="T46" lex="H2_receptor">H2 receptor</term> desensitization</term> was time dependent.</sentence>
+<event id="E54">
+<type class="Negative_regulation" />
+<theme idref="T46" />
+<clue>This homologous mechanism of H2 receptor <clueType>desensitization</clueType> was time dependent.</clue>
+</event>
+<sentence id="S12">These results indicate that <term sem="Organic_compound_other" id="T47" lex="histamine">histamine</term> activates several mechanisms involved in the induction of <term sem="Other" id="A12">differentiation</term>, such as <term sem="Nucleotide" id="T48" lex="cAMP">cAMP</term> and <term sem="Other" id="T49" lex="c-fos_production"><term sem="DNA_domain_or_region" id="T50" lex="c-fos">c-fos</term> production</term>, but fails to promote differentiation of <term sem="Cell_cultured" id="T51" lex="U937_cell">U937 cells</term>, apparently due to the <term sem="Other" id="T52" lex="rapid_desensitization">rapid desensitization</term> of <term sem="Protein_family_or_group" id="T53" lex="H2_receptor">H2 receptors</term>.</sentence>
+<event id="E55">
+<type class="Positive_regulation" />
+<theme idref="A12" />
+<clue>These results indicate that histamine activates several mechanisms involved in the <clueType>induction</clueType> <linkTheme>of</linkTheme> differentiation, such as cAMP and c-fos production, but fails to promote differentiation of U937 cells, apparently due to the rapid desensitization of H2 receptors.</clue>
+</event>
+<event id="E56">
+<type class="Metabolism" />
+<theme idref="T48" />
+<clue>These results indicate that histamine activates several mechanisms involved in the induction of differentiation, such as cAMP and c-fos <clueType>production</clueType>, but fails to promote differentiation of U937 cells, apparently due to the rapid desensitization of H2 receptors.</clue>
+</event>
+<event id="E57">
+<type class="Gene_expression" />
+<theme idref="T50" />
+<clue>These results indicate that histamine activates several mechanisms involved in the induction of differentiation, such as cAMP and c-fos <clueType>production</clueType>, but fails to promote differentiation of U937 cells, apparently due to the rapid desensitization of H2 receptors.</clue>
+<comment>ERROR &quot;THEME is not T48 but T50&quot;</comment></event>
+<event id="E58">
+<type class="Positive_regulation" />
+<theme idref="E55" />
+<cause idref="E56" />
+<clue>These results indicate that histamine activates <corefCause>several mechanisms</corefCause> <clueType>involved</clueType> <linkTheme>in</linkTheme> the induction of differentiation, such as cAMP and c-fos production, but fails to promote differentiation of U937 cells, apparently due to the rapid desensitization of H2 receptors.</clue>
+</event>
+<event id="E158">
+<type class="Positive_regulation" />
+<theme idref="E55" />
+<cause idref="E57" />
+<clue>These results indicate that histamine activates <corefCause>several mechanisms</corefCause> <clueType>involved</clueType> <linkTheme>in</linkTheme> the induction of differentiation, such as cAMP and c-fos production, but fails to promote differentiation of U937 cells, apparently due to the rapid desensitization of H2 receptors.</clue>
+</event>
+<event id="E59">
+<type class="Positive_regulation" />
+<theme idref="E56" />
+<cause idref="T47" />
+<clue>These results indicate that histamine <clueType>activates</clueType> <corefTheme>several mechanisms</corefTheme> involved in the induction of differentiation, such as cAMP and c-fos production, but fails to promote differentiation of U937 cells, apparently due to the rapid desensitization of H2 receptors.</clue>
+</event>
+<event id="E60">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref="T47" />
+<clue>These results indicate that histamine <clueType>activates</clueType> <corefTheme>several mechanisms</corefTheme> involved in the induction of differentiation, such as cAMP and c-fos production, but fails to promote differentiation of U937 cells, apparently due to the rapid desensitization of H2 receptors.</clue>
+</event>
+<event id="E61">
+<type class="Cell_differentiation" />
+<theme idref="T51" />
+<clue>These results indicate that histamine activates several mechanisms involved in the induction of differentiation, such as cAMP and c-fos production, but fails to promote <clueType>differentiation</clueType> <linkTheme>of</linkTheme> U937 cells, apparently due to the rapid desensitization of H2 receptors.</clue>
+</event>
+<event assertion="non-exist" id="E62">
+<type class="Positive_regulation" />
+<theme idref="E61" />
+<cause idref="T47" />
+<clue>These results indicate that histamine activates several mechanisms involved in the induction of differentiation, such as cAMP and c-fos production, but fails to <clueType>promote</clueType> differentiation of U937 cells, apparently due to the rapid desensitization of H2 receptors.</clue>
+</event>
+<event id="E63">
+<type class="Negative_regulation" />
+<theme idref="T53" />
+<clue>These results indicate that histamine activates several mechanisms involved in the induction of differentiation, such as cAMP and c-fos production, but fails to promote differentiation of U937 cells, apparently due to the rapid <clueType>desensitization</clueType> <linkTheme>of</linkTheme> H2 receptors.</clue>
+</event>
+<event id="E64">
+<type class="Positive_regulation" />
+<theme idref="E62" />
+<cause idref="E63" />
+<clue>These results indicate that histamine activates several mechanisms involved in the induction of differentiation, such as cAMP and c-fos production, but fails to promote differentiation of U937 cells, apparently <clueType>due</clueType> <linkCause>to</linkCause> the rapid desensitization of H2 receptors.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

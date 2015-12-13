@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/04/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8977228" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8977228</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The state of maturation of <term sem="Cell_natural" id="T1" lex="monocyte">monocytes</term> into <term sem="Cell_natural" id="T2" lex="macrophage">macrophages</term> determines the effects of <term sem="Protein_molecule" id="T3" lex="IL-4">IL-4</term> and <term sem="Protein_molecule" id="T4" lex="IL-13">IL-13</term> on <term sem="Other" id="T5" lex="HIV_replicationon"><term sem="Virus" id="A1">HIV</term> replication</term>.</sentence>
+<event id="E1">
+<type class="Cell_differentiation" />
+<theme idref="T1" />
+<theme idref="T2" />
+<clue>The state of <clueType>maturation</clueType> <linkTheme>of</linkTheme> monocytes <linkTheme>into</linkTheme> macrophages determines the effects of IL-4 and IL-13 on HIV replication.</clue>
+</event>
+<event id="E2">
+<type class="Viral_life_cycle" />
+<theme idref="A1" />
+<clue>The state of maturation of monocytes into macrophages determines the effects of IL-4 and IL-13 on HIV <clueType>replication</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T3" />
+<clue>The state of maturation of monocytes into macrophages determines the <clueType>effects</clueType> <linkCause>of</linkCause> IL-4 and IL-13 <linkTheme>on</linkTheme> HIV replication.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T4" />
+<clue>The state of maturation of monocytes into macrophages determines the <clueType>effects</clueType> <linkCause>of</linkCause> IL-4 and IL-13 <linkTheme>on</linkTheme> HIV replication.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="E1" />
+<clue>The state of maturation of monocytes into macrophages <clueType>determines</clueType> the effects of IL-4 and IL-13 on HIV replication.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="E1" />
+<clue>The state of maturation of monocytes into macrophages <clueType>determines</clueType> the effects of IL-4 and IL-13 on HIV replication.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Other" id="T6" lex="molecular_mechanism">molecular mechanisms</term> of the effects of <term sem="Protein_molecule" id="T7" lex="IL-4">IL-4</term> and <term sem="Protein_molecule" id="T8" lex="IL-13">IL-13</term> on <term sem="Other" id="T9" lex="HIV_infection"><term sem="Virus" id="A101">HIV</term> infection</term> in <term sem="Cell_natural" id="T10" lex="human_monocyte">human monocytes</term> as they matured into <term sem="Cell_natural" id="T11" lex="monocyte-derived_macrophage">monocyte-derived macrophages</term> over 7 days were investigated using <term sem="Virus" id="T12" lex="HIV-1(BaL)">HIV-1(BaL)</term>, and low passage clinical strains.</sentence>
+<event id="E7">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A101" />
+<clue>The molecular mechanisms of the effects of IL-4 and IL-13 on HIV <clueType>infection</clueType> in human monocytes as they matured into monocyte-derived macrophages over 7 days were investigated using HIV-1(BaL), and low passage clinical strains.</clue>
+</event>
+<event uncertainty="doubtful" id="E8">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="T7" />
+<clue>The molecular mechanisms of the <clueType>effects</clueType> <linkCause>of</linkCause> IL-4 and IL-13 <linkTheme>on</linkTheme> HIV infection <clueLoc>in human monocytes as they matured into monocyte-derived macrophages over 7</clueLoc> days were investigated using HIV-1(BaL), and low passage clinical strains.</clue>
+</event>
+<event uncertainty="doubtful" id="E9">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="T8" />
+<clue>The molecular mechanisms of the <clueType>effects</clueType> <linkCause>of</linkCause> IL-4 and IL-13 <linkTheme>on</linkTheme> HIV infection <clueLoc>in human monocytes as they matured into monocyte-derived macrophages over 7</clueLoc> days were investigated using HIV-1(BaL), and low passage clinical strains.</clue>
+</event>
+<event id="E10">
+<type class="Cell_differentiation" />
+<theme idref="T10" />
+<theme idref="T11" />
+<clue>The molecular mechanisms of the effects of IL-4 and IL-13 on HIV infection in human monocytes as <corefTheme>they</corefTheme> <clueType>matured</clueType> <linkTheme>into</linkTheme> monocyte-derived macrophages <clueTime>over 7 days</clueTime> were investigated using HIV-1(BaL), and low passage clinical strains.</clue>
+</event>
+<sentence id="S3"><term sem="Protein_molecule" id="T13" lex="IL-4">IL-4</term> and <term sem="Protein_molecule" id="T14" lex="IL-13">IL-13</term> up-regulated the expression of both genomic and spliced <term sem="RNA_family_or_group" id="T15" lex="HIV_mRNA">HIV mRNA</term> in <term sem="Cell_natural" id="T16" lex="monocyte">monocytes</term> cultured on <term sem="Inorganic_compound" id="T17" lex="Teflon">Teflon</term>, as determined by <term sem="Other" id="T18" lex="Northern_analysis">Northern analysis</term> and <term sem="Other" id="T19" lex="p24_Ag_assay"><term sem="Protein_molecule" id="T20" lex="p24_Ag">p24 Ag</term> assay</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>IL-4 and IL-13 up-regulated the <clueType>expression</clueType> <linkTheme>of</linkTheme> both genomic and spliced HIV mRNA in monocytes cultured on Teflon, as determined by Northern analysis and p24 Ag assay.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T13" />
+<clue>IL-4 and IL-13 <clueType>up-regulated</clueType> the expression of both genomic and spliced HIV mRNA <clueLoc>in monocytes cultured on Teflon</clueLoc>, as determined <clueExperiment>by Northern analysis and p24 Ag assay</clueExperiment>.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T14" />
+<clue>IL-4 and IL-13 <clueType>up-regulated</clueType> the expression of both genomic and spliced HIV mRNA <clueLoc>in monocytes cultured on Teflon</clueLoc>, as determined <clueExperiment>by Northern analysis and p24 Ag assay</clueExperiment>.</clue>
+</event>
+<sentence id="S4">Using a <term sem="Other" id="T21" lex="nuclear_run-on_assay">nuclear run-on assay</term>, <term sem="Other" id="T22" lex="IL-4_stimulation"><term sem="Protein_molecule" id="T23" lex="IL-4">IL-4</term> stimulation</term> was shown to enhance <term sem="Other" id="A2">transcription</term> by two- to threefold.</sentence>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T23" />
+<clue>Using a <clueExperiment>nuclear run-on assay</clueExperiment>, IL-4 stimulation was shown to <clueType>enhance</clueType> transcription by two- to threefold.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T24" lex="IL-4">IL-4</term> stimulated <term sem="Other" id="T25" lex="nuclear_factor-kappaB_nuclear_translocation"><term sem="Protein_molecule" id="T26" lex="nuclear_factor-kappaB">nuclear factor-kappaB</term> nuclear translocation</term> and binding before enhancement of <term sem="Other" id="T27" lex="HIV_RNA_expression"><term sem="RNA_family_or_group" id="T28" lex="HIV_RNA">HIV RNA</term> expression</term>.</sentence>
+<event id="E15">
+<type class="Localization" />
+<theme idref="T26" />
+<clue>IL-4 stimulated nuclear factor-kappaB <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> and binding before enhancement of HIV RNA expression.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="T26" />
+<clue>IL-4 stimulated nuclear factor-kappaB nuclear translocation and <clueType>binding</clueType> before enhancement of HIV RNA expression.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="T24" />
+<clue>IL-4 <clueType>stimulated</clueType> nuclear factor-kappaB nuclear translocation and binding before enhancement of HIV RNA expression.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T24" />
+<clue>IL-4 <clueType>stimulated</clueType> nuclear factor-kappaB nuclear translocation and binding before enhancement of HIV RNA expression.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="T28" />
+<clue>IL-4 stimulated nuclear factor-kappaB nuclear translocation and binding before enhancement of HIV RNA <clueType>expression</clueType>.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="E17" />
+<clue>IL-4 stimulated nuclear factor-kappaB nuclear translocation and binding before <clueType>enhancement</clueType> <linkTheme>of</linkTheme> HIV RNA expression.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="E18" />
+<clue>IL-4 stimulated nuclear factor-kappaB nuclear translocation and binding before <clueType>enhancement</clueType> <linkTheme>of</linkTheme> HIV RNA expression.</clue>
+</event>
+<sentence id="S6">Conversely, <term sem="Protein_molecule" id="T29" lex="IL-4">IL-4</term> and <term sem="Protein_molecule" id="T30" lex="IL-13">IL-13</term> markedly and significantly inhibited <term sem="Other" id="T31" lex="HIV_replicationon"><term sem="Virus" id="A3">HIV</term> replication</term> at the transcriptional level in <term sem="Cell_natural" id="T32" lex="monocyte-derived_macrophage">monocyte-derived macrophages</term>, and this occurred whether these <term sem="Protein_family_or_group" id="T33" lex="cytokine">cytokines</term> were added before or after <term sem="Other" id="T34" lex="HIV_infection">HIV infection</term>.</sentence>
+<event id="E22">
+<type class="Transcription" />
+<theme idref="A3" />
+<clue>Conversely, IL-4 and IL-13 markedly and significantly inhibited HIV <clueType>replication at the transcriptional level</clueType> in monocyte-derived macrophages, and this occurred whether these cytokines were added before or after HIV infection.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<cause idref="T29" />
+<clue>Conversely, IL-4 and IL-13 markedly and significantly <clueType>inhibited</clueType> HIV replication at the transcriptional level <clueLoc>in monocyte-derived macrophages</clueLoc>, and this occurred whether these cytokines were added before or after HIV infection.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E22" />
+<cause idref="T30" />
+<clue>Conversely, IL-4 and IL-13 markedly and significantly <clueType>inhibited</clueType> HIV replication at the transcriptional level <clueLoc>in monocyte-derived macrophages</clueLoc>, and this occurred whether these cytokines were added before or after HIV infection.</clue>
+</event>
+<sentence id="S7">The reversal from stimulation to inhibition occurred after 3 to 5 days of adherence to plastic.</sentence>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<clue>The <clueType>reversal</clueType> <linkTheme>from</linkTheme> <corefTheme>stimulation to inhibition</corefTheme> <clueType>occurred</clueType> <clueTime>after 3 to 5 days of adherence to plastic</clueTime>.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<clue>The <clueType>reversal</clueType> <linkTheme>from</linkTheme> <corefTheme>stimulation to inhibition</corefTheme> <clueType>occurred</clueType> <clueTime>after 3 to 5 days of adherence to plastic</clueTime>.</clue>
+</event>
+<sentence id="S8"><term sem="Protein_molecule" id="T35" lex="IL-4">IL-4</term> had no significant effect on <term sem="Other" id="T36" lex="HIV_reverse_transcription"><term sem="Virus" id="A4">HIV</term> reverse transcription</term>.</sentence>
+<event id="E27">
+<type class="Viral_life_cycle" />
+<theme idref="A4" />
+<clue>IL-4 had no significant effect on HIV <clueType>reverse transcription</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E28">
+<type class="Regulation" />
+<theme idref="E27" />
+<cause idref="T35" />
+<clue>IL-4 <clueType>had</clueType> no significant <clueType>effect</clueType> <linkTheme>on</linkTheme> HIV reverse transcription.</clue>
+</event>
+<sentence id="S9">The effect of both <term sem="Protein_family_or_group" id="T37" lex="cytokine">cytokines</term> on the <term sem="Other" id="T38" lex="monocyte_maturation/differentiation"><term sem="Cell_natural" id="A6">monocyte</term> maturation/differentiation</term> (<term sem="Protein_molecule" id="T39" lex="CD11b">CD11b</term>, <term sem="Protein_molecule" id="T40" lex="CD13">CD13</term>, and <term sem="Protein_molecule" id="T41" lex="CD26">CD26</term>) and other <term sem="Protein_family_or_group" id="T42" lex="macrophage_marker">macrophage markers</term> (<term sem="Protein_molecule" id="T43" lex="CD14">CD14</term> and <term sem="Protein_molecule" id="T44" lex="CD68">CD68</term>) was examined.</sentence>
+<event uncertainty="doubtful" id="E29">
+<type class="Cell_differentiation" />
+<theme idref="A6" />
+<clue>The effect of both cytokines on the monocyte <clueType>maturation/differentiation</clueType> (CD11b, CD13, and CD26) and other macrophage markers (CD14 and CD68) was examined.</clue>
+</event>
+<event uncertainty="doubtful" id="E30">
+<type class="Regulation" />
+<theme idref="E29" />
+<cause idref="T29" />
+<clue>The <clueType>effect</clueType> <linkCause>of</linkCause> <corefCause>both cytokines</corefCause> <linkTheme>on</linkTheme> the monocyte maturation/differentiation (CD11b, CD13, and CD26) and other macrophage markers (CD14 and CD68) was examined.</clue>
+</event>
+<event uncertainty="doubtful" id="E31">
+<type class="Regulation" />
+<theme idref="T39" />
+<cause idref="T29" />
+<clue>The <clueType>effect</clueType> <linkCause>of</linkCause> <corefCause>both cytokines</corefCause> <linkTheme>on</linkTheme> <corefTheme idref1="T39">the monocyte maturation/differentiation</corefTheme> (CD11b, CD13, and CD26) and other macrophage <corefTheme idref1="T39">markers</corefTheme> (CD14 and CD68) was examined.</clue>
+</event>
+<event uncertainty="doubtful" id="E32">
+<type class="Regulation" />
+<theme idref="T40" />
+<cause idref="T29" />
+<clue>The <clueType>effect</clueType> <linkCause>of</linkCause> <corefCause>both cytokines</corefCause> <linkTheme>on</linkTheme> <corefTheme idref1="T40">the monocyte maturation/differentiation</corefTheme> (CD11b, CD13, and CD26) and other macrophage <corefTheme idref1="T40">markers</corefTheme> (CD14 and CD68) was examined.</clue>
+</event>
+<event uncertainty="doubtful" id="E33">
+<type class="Regulation" />
+<theme idref="T41" />
+<cause idref="T29" />
+<clue>The <clueType>effect</clueType> <linkCause>of</linkCause> <corefCause>both cytokines</corefCause> <linkTheme>on</linkTheme> <corefTheme idref1="T41">the monocyte maturation/differentiation</corefTheme> (CD11b, CD13, and CD26) and other macrophage <corefTheme idref1="T41">markers</corefTheme> (CD14 and CD68) was examined.</clue>
+</event>
+<event uncertainty="doubtful" id="E35">
+<type class="Regulation" />
+<theme idref="T43" />
+<cause idref="T29" />
+<clue>The <clueType>effect</clueType> <linkCause>of</linkCause> <corefCause>both cytokines</corefCause> <linkTheme>on</linkTheme> the monocyte maturation/differentiation (CD11b, CD13, and CD26) and <corefTheme>other macrophage markers</corefTheme> (CD14 and CD68) was examined.</clue>
+</event>
+<event uncertainty="doubtful" id="E36">
+<type class="Regulation" />
+<theme idref="T44" />
+<cause idref="T29" />
+<clue>The <clueType>effect</clueType> <linkCause>of</linkCause> <corefCause>both cytokines</corefCause> <linkTheme>on</linkTheme> the monocyte maturation/differentiation (CD11b, CD13, and CD26) and <corefTheme>other macrophage markers</corefTheme> (CD14 and CD68) was examined.</clue>
+</event>
+<sentence id="S10"><term sem="Protein_molecule" id="T45" lex="IL-4">IL-4</term> enhanced <term sem="Protein_molecule" id="T46" lex="CD11b">CD11b</term>, but inhibited <term sem="Other" id="T47" lex="CD26_expression"><term sem="Protein_molecule" id="T48" lex="CD26">CD26</term> expression</term> and delayed <term sem="Protein_molecule" id="T49" lex="CD13">CD13</term> loss.</sentence>
+<event id="E34">
+<type class="Gene_expression" />
+<theme idref="T46" />
+<clue>IL-4 enhanced CD11b, but inhibited CD26 <clueType>expression</clueType> and delayed CD13 loss.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="T45" />
+<clue>IL-4 <clueType>enhanced</clueType> CD11b, but inhibited CD26 expression and delayed CD13 loss.</clue>
+</event>
+<event id="E38">
+<type class="Gene_expression" />
+<theme idref="T48" />
+<clue>IL-4 enhanced CD11b, but inhibited CD26 <clueType>expression</clueType> and delayed CD13 loss.</clue>
+</event>
+<event id="E39">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="T46" />
+<clue>IL-4 enhanced CD11b, but <clueType>inhibited</clueType> CD26 expression and delayed CD13 loss.</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation" />
+<theme idref="T49" />
+<clue>IL-4 enhanced CD11b, but inhibited CD26 expression and delayed CD13 <clueType>loss</clueType>.</clue>
+</event>
+<event id="E41">
+<type class="Negative_regulation" />
+<theme idref="E40" />
+<cause idref="T46" />
+<clue>IL-4 enhanced CD11b, but inhibited CD26 expression and <clueType>delayed</clueType> CD13 loss.</clue>
+</event>
+<sentence id="S11"><term sem="Protein_molecule" id="T50" lex="IL-13">IL-13</term> had similar effects on <term sem="Protein_molecule" id="T51" lex="CD11b">CD11b</term> and <term sem="Protein_molecule" id="T52" lex="CD13">CD13</term>, but no effect on <term sem="Protein_molecule" id="T53" lex="CD26">CD26</term>.</sentence>
+<event id="E42">
+<type class="Positive_regulation" />
+<theme idref="T51" />
+<cause idref="T50" />
+<clue>IL-13 <clueType>had similar effects</clueType> <linkTheme>on</linkTheme> CD11b and CD13, but no effect on CD26.</clue>
+<comment>CAUTION: had similar effects = E37</comment>
+</event>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="T52" />
+<cause idref="T50" />
+<clue>IL-13 <clueType>had similar effects</clueType> <linkTheme>on</linkTheme> CD11b and CD13, but no effect on CD26.</clue>
+<comment>CAUTION: similar effect = E41</comment>
+</event>
+<event assertion="non-exist" id="E44">
+<type class="Regulation" />
+<theme idref="T53" />
+<cause idref="T50" />
+<clue>IL-13 <clueType>had</clueType> similar effects on CD11b and CD13, but no <clueType>effect</clueType> <linkTheme>on</linkTheme> CD26.</clue>
+</event>
+<sentence id="S12">Hence, these <term sem="Protein_family_or_group" id="T54" lex="cytokine">cytokines</term> do not simply enhance <term sem="Other" id="T55" lex="monocyte_differentiation"><term sem="Cell_natural" id="A7">monocyte</term> differentiation</term>, but have complex and slightly divergent effects that impact on <term sem="Other" id="T56" lex="HIV_replicationon"><term sem="Virus" id="A8">HIV</term> replication</term> probably through <term sem="Other" id="T57" lex="cell_signaling_pathway">cell signaling pathways</term> and <term sem="Other" id="T58" lex="nuclear_factor-kappaB_translocation"><term sem="Protein_complex" id="T59" lex="nuclear_factor-kappaB">nuclear factor-kappaB</term> translocation</term>.</sentence>
+<event id="E45">
+<type class="Cell_differentiation" />
+<theme idref="A7" />
+<clue>Hence, these cytokines do not simply enhance monocyte <clueType>differentiation</clueType>, but have complex and slightly divergent effects that impact on HIV replication probably through cell signaling pathways and nuclear factor-kappaB translocation.</clue>
+</event>
+<event assertion="non-exist" id="E46">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="T45" />
+<clue>Hence, <corefCause>these cytokines</corefCause> do not simply <clueType>enhance</clueType> monocyte differentiation, but have complex and slightly divergent effects that impact on HIV replication probably through cell signaling pathways and nuclear factor-kappaB translocation.</clue>
+</event>
+<event assertion="non-exist" id="E47">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="T50" />
+<clue>Hence, <corefCause>these cytokines</corefCause> do not simply <clueType>enhance</clueType> monocyte differentiation, but have complex and slightly divergent effects that impact on HIV replication probably through cell signaling pathways and nuclear factor-kappaB translocation.</clue>
+</event>
+<event id="E48">
+<type class="Viral_life_cycle" />
+<theme idref="A8" />
+<clue>Hence, these cytokines do not simply enhance monocyte differentiation, but have complex and slightly divergent effects that impact on HIV <clueType>replication</clueType> probably through cell signaling pathways and nuclear factor-kappaB translocation.</clue>
+</event>
+<event id="E49">
+<type class="Localization" />
+<theme idref="T59" />
+<clue>Hence, these cytokines do not simply enhance monocyte differentiation, but have complex and slightly divergent effects that impact on HIV replication probably through cell signaling pathways and nuclear factor-kappaB <clueType>translocation</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E50">
+<type class="Regulation" />
+<theme idref="T57" />
+<cause idref="T45" />
+<clue>Hence, <corefCause>these cytokines</corefCause> do not simply enhance monocyte differentiation, but <clueType>have</clueType> complex and slightly divergent <clueType>effects</clueType> that impact on HIV replication probably <linkTheme>through</linkTheme> cell signaling pathways and nuclear factor-kappaB translocation.</clue>
+</event>
+<event uncertainty="probable" id="E51">
+<type class="Regulation" />
+<theme idref="E49" />
+<cause idref="T45" />
+<clue>Hence, <corefCause>these cytokines</corefCause> do not simply enhance monocyte differentiation, but <clueType>have</clueType> complex and slightly divergent <clueType>effects</clueType> that impact on HIV replication probably <linkTheme>through</linkTheme> cell signaling pathways and nuclear factor-kappaB translocation.</clue>
+</event>
+<event uncertainty="probable" id="E52">
+<type class="Regulation" />
+<theme idref="T57" />
+<cause idref="T50" />
+<clue>Hence, <corefCause>these cytokines</corefCause> do not simply enhance monocyte differentiation, but <clueType>have</clueType> complex and slightly divergent <clueType>effects</clueType> that impact on HIV replication probably <linkTheme>through</linkTheme> cell signaling pathways and nuclear factor-kappaB translocation.</clue>
+</event>
+<event uncertainty="probable" id="E53">
+<type class="Regulation" />
+<theme idref="E49" />
+<cause idref="T50" />
+<clue>Hence, <corefCause>these cytokines</corefCause> do not simply enhance monocyte differentiation, but <clueType>have</clueType> complex and slightly divergent <clueType>effects</clueType> that impact on HIV replication probably <linkTheme>through</linkTheme> cell signaling pathways and nuclear factor-kappaB translocation.</clue>
+</event>
+<event uncertainty="probable" id="E54">
+<type class="Regulation" />
+<theme idref="E48" />
+<cause idref="E50" />
+<clue>Hence, these cytokines do not simply enhance monocyte differentiation, but have complex and slightly divergent effects that <clueType>impact</clueType> <linkTheme>on</linkTheme> HIV replication probably <linkCause>through</linkCause> cell signaling pathways and nuclear factor-kappaB translocation.</clue>
+</event>
+<event uncertainty="probable" id="E55">
+<type class="Regulation" />
+<theme idref="E48" />
+<cause idref="E51" />
+<clue>Hence, these cytokines do not simply enhance monocyte differentiation, but have complex and slightly divergent effects that <clueType>impact</clueType> <linkTheme>on</linkTheme> HIV replication probably <linkCause>through</linkCause> cell signaling pathways and nuclear factor-kappaB translocation.</clue>
+</event>
+<event uncertainty="probable" id="E56">
+<type class="Regulation" />
+<theme idref="E48" />
+<cause idref="E52" />
+<clue>Hence, these cytokines do not simply enhance monocyte differentiation, but have complex and slightly divergent effects that <clueType>impact</clueType> <linkTheme>on</linkTheme> HIV replication probably <linkCause>through</linkCause> cell signaling pathways and nuclear factor-kappaB translocation.</clue>
+</event>
+<event uncertainty="probable" id="E57">
+<type class="Regulation" />
+<theme idref="E48" />
+<cause idref="E53" />
+<clue>Hence, these cytokines do not simply enhance monocyte differentiation, but have complex and slightly divergent effects that <clueType>impact</clueType> <linkTheme>on</linkTheme> HIV replication probably <linkCause>through</linkCause> cell signaling pathways and nuclear factor-kappaB translocation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

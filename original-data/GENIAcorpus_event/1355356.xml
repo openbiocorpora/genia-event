@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1355356" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1355356</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Functional interaction between the two <term sem="Protein_domain_or_region" id="T1" lex="zinc_finger_domain">zinc finger domains</term> of the <term sem="Protein_family_or_group" id="T2" lex="v-erb_A_oncoprotein">v-erb A oncoprotein</term>.</sentence>
+<event id="E1">
+<type class="Correlation" />
+<theme idref="T1" />
+<clue>Functional <clueType>interaction</clueType> <linkTheme>between</linkTheme> the two zinc finger domains of the v-erb A oncoprotein.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="DNA_domain_or_region" id="T3" lex="v-erb_A_oncogene">v-erb A oncogene</term> of <term sem="Virus" id="T4" lex="avian_erythroblastosis_virus">avian erythroblastosis virus</term> is a mutated and virally transduced copy of a <term sem="DNA_family_or_group" id="A2"><term sem="DNA_family_or_group" id="T5" lex="host_cell_gene">host cell gene</term> encoding a <term sem="Protein_family_or_group" id="T6" lex="thyroid_hormone_receptor">thyroid hormone receptor</term></term>.</sentence>
+<event id="E2">
+<type class="Mutagenesis" />
+<theme idref="A2" />
+<clue>The v-erb A oncogene of avian erythroblastosis virus is a <clueType>mutated</clueType> and virally transduced copy of a host cell gene encoding a thyroid hormone receptor.</clue>
+<comment>TPS: A2</comment>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>The v-erb A oncogene of avian erythroblastosis virus is a mutated and virally <clueType>transduced</clueType> copy of a host cell gene encoding a thyroid hormone receptor.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T4" />
+<clue>The v-erb A oncogene of avian erythroblastosis virus is a mutated and <corefCause>virally</corefCause> transduced copy of a host cell gene encoding a thyroid hormone receptor.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S3">The <term sem="Protein_family_or_group" id="T34">protein</term> expressed by the <term sem="DNA_domain_or_region" id="T7" lex="v-erb_A_oncogene">v-erb A oncogene</term> binds to <term sem="Other" id="T8" lex="DNA">DNA</term> and acts as a <term sem="Protein_family_or_group" id="T9" lex="dominant_negative_inhibitor">dominant negative inhibitor</term> of both the <term sem="Protein_family_or_group" id="T10" lex="thyroid_hormone_receptor">thyroid hormone receptor</term> and the closely related <term sem="Protein_molecule" id="T11" lex="retinoic_acid_receptor">retinoic acid receptor</term>.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T34" />
+<clue>The protein <clueType>expressed</clueType> by the v-erb A oncogene binds to DNA and acts as a dominant negative inhibitor of both the thyroid hormone receptor and the closely related retinoic acid receptor.</clue>
+</event>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T34" />
+<theme idref="T8" />
+<clue>The protein expressed by the v-erb A oncogene <clueType>binds</clueType> <linkTheme>to</linkTheme> DNA and acts as a dominant negative inhibitor of both the thyroid hormone receptor and the closely related retinoic acid receptor.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="T10" />
+<cause idref="T34" />
+<clue>The protein expressed by the v-erb A oncogene binds to DNA and <clueType>acts as a dominant negative inhibitor</clueType> <linkTheme>of</linkTheme> both the thyroid hormone receptor and the closely related retinoic acid receptor.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="T11" />
+<cause idref="T34" />
+<clue>The protein expressed by the v-erb A oncogene binds to DNA and <clueType>acts as a dominant negative inhibitor</clueType> <linkTheme>of</linkTheme> both the thyroid hormone receptor and the closely related retinoic acid receptor.</clue>
+</event>
+<sentence id="S4">The <term sem="Protein_molecule" id="T12" lex="v-erb_A_protein">v-erb A protein</term> has sustained two <term sem="Other" id="T13" lex="amino_acid_alteration"><term sem="Amino_acid_monomer" id="A4">amino acid</term> alterations</term> within its <term sem="Protein_domain_or_region" id="T14" lex="DNA-binding_domain">DNA-binding domain</term> relative to that of <term sem="Protein_molecule" id="T15" lex="c-erb_A">c-erb A</term>, one of which, at <term sem="Amino_acid_monomer" id="T16" lex="serine_61">serine 61</term>, is known to be important for <term sem="Other" id="T17" lex="v-erb_A_function"><term sem="Protein_molecule" id="T18" lex="v-erb_A">v-erb A</term> function</term> in the <term sem="Cell_natural" id="T19" lex="neoplastic_cell">neoplastic cell</term>.</sentence>
+<event id="E22">
+<type class="Mutagenesis" />
+<theme idref1="T14" idref="T12" />
+<clue>The v-erb A protein has sustained two <clueType>amino acid alterations</clueType> <linkTheme>within</linkTheme> its DNA-binding domain relative to that of c-erb A, one of which, at serine 61, is known to be important for v-erb A function in the neoplastic cell.</clue>
+</event>
+<event id="E9">
+<type class="Mutagenesis" />
+<theme idref="T16" />
+<clue>The v-erb A protein has sustained <corefTheme>two amino acid</corefTheme> <clueType>alterations</clueType> within its DNA-binding domain relative to that of c-erb A, one of which, at serine 61, is known to be important for v-erb A function in the neoplastic cell.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="T18" />
+<cause idref="T16" />
+<clue>The v-erb A protein has sustained two amino acid alterations within its DNA-binding domain relative to that of c-erb A, one of which, at serine 61, is known to be <clueType>important</clueType> <linkTheme>for</linkTheme> v-erb A function <clueLoc>in the neoplastic cell</clueLoc>.</clue>
+</event>
+<sentence id="S5">We report here that the second alteration, at <term sem="Amino_acid_monomer" id="T20" lex="threonine_78">threonine 78</term>, also plays an important, although more indirect, role: alteration of the sequence at <term sem="Amino_acid_monomer" id="A5">threonine 78</term> such that it resembles that of <term sem="Protein_molecule" id="T21" lex="c-erb_A">c-erb A</term> can act as an <term sem="Protein_molecule" id="T22" lex="intragenic_suppressor">intragenic suppressor</term> and can partially restore function to a <term sem="Protein_family_or_group" id="T23" lex="v-erb_A_protein"><term sem="Protein_molecule" id="T24" lex="v-erb_A">v-erb A</term> protein</term> rendered defective due to a mutation at <term sem="Protein_domain_or_region" id="T25" lex="position_61">position 61</term>.</sentence>
+<event id="E11">
+<type class="Mutagenesis" />
+<theme idref="T20" />
+<clue>We report here that the second <clueType>alteration</clueType>, <linkTheme>at</linkTheme> threonine 78, also plays an important, although more indirect, role: alteration of the sequence at threonine 78 such that it resembles that of c-erb A can act as an intragenic suppressor and can partially restore function to a v-erb A protein rendered defective due to a mutation at position 61.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="T18" />
+<cause idref="E11" />
+<clue>We report here that the second alteration, at threonine 78, also <clueType>plays</clueType> an important, although more indirect, <clueType>role</clueType>: alteration of the sequence at threonine 78 such that it resembles that of c-erb A can act as an intragenic suppressor and can partially restore function to a v-erb A protein rendered defective due to a mutation at position 61.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E13">
+<type class="Mutagenesis" />
+<theme idref="A5" />
+<clue>We report here that the second alteration, at threonine 78, also plays an important, although more indirect, role: <clueType>alteration</clueType> of the sequence <linkTheme>at</linkTheme> threonine 78 such that it resembles that of c-erb A can act as an intragenic suppressor and can partially restore function to a v-erb A protein rendered defective due to a mutation at position 61.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<cause idref="E13" />
+<clue>We report here that the second alteration, at threonine 78, also plays an important, although more indirect, role: alteration of the sequence at threonine 78 such that it resembles that of c-erb A can <clueType>act as an intragenic suppressor</clueType> and can partially restore function <linkTheme>to</linkTheme> a v-erb A protein rendered defective due to a mutation at position 61.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="E13" />
+<clue>We report here that the second alteration, at threonine 78, also plays an important, although more indirect, role: alteration of the sequence at threonine 78 such that it resembles that of c-erb A can act as an intragenic suppressor and can partially <clueType>restore function</clueType> <linkTheme>to</linkTheme> a v-erb A protein rendered defective due to a mutation at position 61.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<cause idref="E17" />
+<clue>We report here that the second alteration, at threonine 78, also plays an important, although more indirect, role: alteration of the sequence at threonine 78 such that it resembles that of c-erb A can act as an intragenic suppressor and can partially restore function to a v-erb A protein <clueType>rendered defective</clueType> <linkCause>due to</linkCause> a mutation at position 61.</clue>
+</event>
+<event id="E17">
+<type class="Mutagenesis" />
+<theme idref="T25" />
+<clue>We report here that the second alteration, at threonine 78, also plays an important, although more indirect, role: alteration of the sequence at threonine 78 such that it resembles that of c-erb A can act as an intragenic suppressor and can partially restore function to a v-erb A protein rendered defective due to a <clueType>mutation</clueType> <linkTheme>at</linkTheme> position 61.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<sentence id="S6"><term sem="Amino_acid_monomer" id="T26" lex="Threonine_78">Threonine 78</term> lies within the <term sem="Protein_domain_or_region" id="A30"><term sem="Protein_domain_or_region" id="T27" lex="D-box">D-box</term> of the <term sem="Protein_molecule" id="T28" lex="v-erb_A_protein"><term sem="Protein_molecule" id="T29" lex="v-erb_A">v-erb A</term> protein</term></term>, a region thought to mediate <term sem="Other" id="T30" lex="receptor-receptor_dimerization"><term sem="Protein_molecule" id="A6">receptor</term>-<term sem="Protein_molecule" id="A7">receptor</term> dimerizations</term>, and is not in physical proximity to the <term sem="Amino_acid_monomer" id="A8">serine at <term sem="Protein_domain_or_region" id="T31" lex="position_61">position 61</term></term>.</sentence>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="A30" />
+<clue>Threonine 78 lies within the D-box of the v-erb A protein, a region thought to <clueType>mediate</clueType> receptor-receptor dimerizations, and is not in physical proximity to the serine at position 61.</clue>
+</event>
+<event id="E19">
+<type class="Binding" />
+<theme idref="A6" />
+<theme idref="A7" />
+<clue>Threonine 78 lies within the D-box of the v-erb A protein, a region thought to mediate receptor-receptor <clueType>dimerizations</clueType>, and is not in physical proximity to the serine at position 61.</clue>
+</event>
+<sentence id="S7">It therefore appears that an indirect interaction occurs between these two sites and that this interaction is crucial for <term sem="Other" id="T32" lex="v-erb_A_function"><term sem="Protein_molecule" id="T33" lex="v-erb_A">v-erb A</term> function</term>.</sentence>
+<event id="E20">
+<type class="Correlation" />
+<theme idref="T26" />
+<theme idref="A8" />
+<clue>It therefore appears that an indirect <clueType>interaction</clueType> occurs <linkTheme>between</linkTheme> <corefTheme>these two sites</corefTheme> and that this interaction is crucial for v-erb A function.</clue>
+<comment>TPS: A8</comment>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="E20" />
+<clue>It therefore appears that an indirect interaction occurs between these two sites and that this interaction is <clueType>crucial</clueType> <linkTheme>for</linkTheme> v-erb A function.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

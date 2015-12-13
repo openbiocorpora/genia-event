@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="13/05/2006" creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7802642">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7802642</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="T1" lex="platelet-activating_factor">Platelet-activating factor</term> (<term sem="Protein_family_or_group" id="T2" lex="PAF">PAF</term>) positively auto-regulates the expression of <term sem="Protein_molecule" id="T3" lex="human_PAF_receptor_transcript_1">human PAF receptor transcript 1</term> (<term sem="Other" id="T4" lex="leukocyte-type">leukocyte-type</term>) through <term sem="Protein_molecule" id="T5" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T3" />
+<clue>Platelet-activating factor (PAF) positively auto-regulates the <clueType>expression</clueType> <linkTheme>of</linkTheme> human PAF receptor transcript 1 (leukocyte-type) through NF-kappa B.</clue>
+</event>
+<event id="E2">
+<type class="Correlation" />
+<theme idref="E1" />
+<theme idref="T5" />
+<clue>Platelet-activating factor (PAF) positively auto-regulates the expression of human PAF receptor transcript 1 (leukocyte-type) <linkCause>through</linkCause> NF-kappa B.</clue>
+<comment>No clueType</comment>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T2" />
+<clue>Platelet-activating factor (PAF) <clueType>positively auto-regulates</clueType> the expression of human PAF receptor transcript 1 (leukocyte-type) through NF-kappa B.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="DNA_domain_or_region" id="T6" lex="human_platelet-activating_factor_receptor_(PAFR)_gene"><term sem="Protein_molecule" id="T7" lex="human_platelet-activating_factor_receptor">human platelet-activating factor receptor</term> (<term sem="Protein_molecule" id="T8" lex="PAFR">PAFR</term>) gene</term> is transcribed by two distinct <term sem="DNA_domain_or_region" id="T9" lex="promoter">promoters</term> (<term sem="DNA_domain_or_region" id="T10" lex="promoter_1">promoter 1</term> and <term sem="DNA_domain_or_region" id="T11" lex="promoter_2">promoter 2</term>) to generate two transcripts (designated as <term sem="RNA_molecule" id="T12" lex="PAFR_transcript_1"><term sem="Protein_molecule" id="T13" lex="PAFR">PAFR</term> transcript 1</term> and <term sem="RNA_molecule" id="T14" lex="PAFR_transcript_2"><term sem="Protein_molecule" id="T15" lex="PAFR">PAFR</term> transcript 2</term>), though their open reading frames are identical.</sentence>
+<event id="E4">
+<type class="Transcription" />
+<theme idref="T8" />
+<clue>The human platelet-activating factor receptor (PAFR) gene is <clueType>transcribed</clueType> by two distinct promoters (promoter 1 and promoter 2) to generate two transcripts (designated as PAFR transcript 1 and PAFR transcript 2), though their open reading frames are identical.</clue>
+</event>
+<event id="E105">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T10" />
+<clue>The human platelet-activating factor receptor (PAFR) gene is transcribed <linkCause>by</linkCause> two distinct promoters (promoter 1 and promoter 2) to generate two transcripts (designated as PAFR transcript 1 and PAFR transcript 2), though their open reading frames are identical.</clue>
+<comment>No clueType</comment>
+</event>
+<event id="E106">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T11" />
+<clue>The human platelet-activating factor receptor (PAFR) gene is transcribed <linkCause>by</linkCause> two distinct promoters (promoter 1 and promoter 2) to generate two transcripts (designated as PAFR transcript 1 and PAFR transcript 2), though their open reading frames are identical.</clue>
+<comment>No clueType</comment>
+</event>
+<sentence id="S3">By primer extension analysis to discriminate two transcripts, we found that the <term sem="Other" id="A1"><term sem="Other" id="A2">levels of</term> <term sem="RNA_family_or_group" id="T16" lex="PAFR_transcript_1"><term sem="Protein_molecule" id="T17" lex="PAFR">PAFR</term> transcript 1</term></term> (<term sem="Other" id="T18" lex="leukocyte-type">leukocyte-type</term>), but not <term sem="RNA_domain_or_region" id="T19" lex="PAFR_transcript_2"><term sem="Protein_molecule" id="T20" lex="PAFR">PAFR</term> transcript 2</term> (<term sem="Other" id="T21" lex="tissue-type">tissue-type</term>), are upregulated by <term sem="Protein_molecule" id="T22" lex="PAF">PAF</term> as well as by <term sem="Organic_compound_other" id="T23" lex="12-O-tetradecanoylphorbol-13-acetate">12-O-tetradecanoylphorbol-13-acetate</term> (<term sem="Organic_compound_other" id="T24" lex="TPA">TPA</term>) in the <term sem="Cell_cultured" id="T25" lex="human_stomach_cancer_cell_line">human stomach cancer cell line</term> (<term sem="Cell_cultured" id="T26" lex="JR-St_cell">JR-St cells</term>) which expresses both functional <term sem="RNA_molecule" id="T27" lex="PAFR_transcript_1"><term sem="Protein_molecule" id="T28" lex="PAFR">PAFR</term> transcript 1</term> and <term sem="RNA_molecule" id="T29" lex="PAFR_transcript_2"><term sem="Protein_molecule" id="T30" lex="PAFR">PAFR</term> transcript 2</term> endogenously.</sentence>
+<event id="E107">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="T22" />
+<clue><clueExperiment>By primer extension analysis to discriminate two transcripts</clueExperiment>, we found that the levels of PAFR transcript 1 (leukocyte-type), but not PAFR transcript 2 (tissue-type), are <clueType>upregulated</clueType> <linkCause>by</linkCause> PAF as well as by 12-O-tetradecanoylphorbol-13-acetate (TPA) <clueLoc>in the human stomach cancer cell line (JR-St cells)</clueLoc> which expresses both functional PAFR transcript 1 and PAFR transcript 2 endogenously.</clue>
+<comment>TPS: A1</comment>
+</event>
+<event assertion="non-exist" id="E108">
+<type class="Positive_regulation" />
+<theme idref1="T19" idref="A2" />
+<cause idref="T22" />
+<clue><clueExperiment>By primer extension analysis to discriminate two transcripts</clueExperiment>, we found that the levels of PAFR transcript 1 (leukocyte-type), but not PAFR transcript 2 (tissue-type), are <clueType>upregulated</clueType> <linkCause>by</linkCause> PAF as well as by 12-O-tetradecanoylphorbol-13-acetate (TPA) <clueLoc>in the human stomach cancer cell line (JR-St cells)</clueLoc> which expresses both functional PAFR transcript 1 and PAFR transcript 2 endogenously.</clue>
+<comment>TPS: A2</comment>
+</event>
+<event id="E109">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="T24" />
+<clue><clueExperiment>By primer extension analysis to discriminate two transcripts</clueExperiment>, we found that the levels of PAFR transcript 1 (leukocyte-type), but not PAFR transcript 2 (tissue-type), are <clueType>upregulated</clueType> <linkCause>by</linkCause> PAF as well as by 12-O-tetradecanoylphorbol-13-acetate (TPA) <clueLoc>in the human stomach cancer cell line (JR-St cells)</clueLoc> which expresses both functional PAFR transcript 1 and PAFR transcript 2 endogenously.</clue>
+</event>
+<event assertion="non-exist" id="E208">
+<type class="Positive_regulation" />
+<theme idref1="T19" idref="A2" />
+<cause idref="T24" />
+<clue><clueExperiment>By primer extension analysis to discriminate two transcripts</clueExperiment>, we found that the levels of PAFR transcript 1 (leukocyte-type), but not PAFR transcript 2 (tissue-type), are <clueType>upregulated</clueType> <linkCause>by</linkCause> PAF as well as by 12-O-tetradecanoylphorbol-13-acetate (TPA) <clueLoc>in the human stomach cancer cell line (JR-St cells)</clueLoc> which expresses both functional PAFR transcript 1 and PAFR transcript 2 endogenously.</clue>
+</event>
+<event id="E209">
+<type class="Gene_expression" />
+<theme idref="T27" />
+<clue>By primer extension analysis to discriminate two transcripts, we found that the levels of PAFR transcript 1 (leukocyte-type), but not PAFR transcript 2 (tissue-type), are upregulated by PAF as well as by 12-O-tetradecanoylphorbol-13-acetate (TPA) <clueLoc>in the human stomach cancer cell line (JR-St cells)</clueLoc> which <clueType>expresses</clueType> both functional PAFR transcript 1 and PAFR transcript 2 endogenously.</clue>
+</event>
+<event id="E110">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>By primer extension analysis to discriminate two transcripts, we found that the levels of PAFR transcript 1 (leukocyte-type), but not PAFR transcript 2 (tissue-type), are upregulated by PAF as well as by 12-O-tetradecanoylphorbol-13-acetate (TPA) <clueLoc>in the human stomach cancer cell line (JR-St cells)</clueLoc> which <clueType>expresses</clueType> both functional PAFR transcript 1 and PAFR transcript 2 endogenously.</clue>
+</event>
+<sentence id="S4">Functional analysis of the <term sem="DNA_domain_or_region" id="T31" lex="promoter_1">promoter 1</term> with a transient expression assay using <term sem="DNA_molecule" id="T32" lex="chloramphenicol_acetyltransferase_(CAT)_gene">chloramphenicol acetyltransferase (CAT) gene</term> as a reporter showed that both <term sem="Protein_molecule" id="T33" lex="PAF">PAF</term> and <term sem="Organic_compound_other" id="T34" lex="TPA">TPA</term> activated the <term sem="DNA_domain_or_region" id="T35" lex="promoter_1">promoter 1</term> but not the <term sem="DNA_domain_or_region" id="A3"><term sem="DNA_substructure" id="T36" lex="deleted_promoter">deleted promoter</term> lacking the three <term sem="DNA_domain_or_region" id="T37" lex="consensus_binding_site">consensus binding sites</term> for <term sem="Protein_molecule" id="T38" lex="NF-kappa_B">NF-kappa B</term></term> located from -571 bp to -459 bp.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T35" />
+<cause idref="T33" />
+<clue><clueExperiment>Functional analysis of the promoter 1 with a transient expression assay using chloramphenicol acetyltransferase (CAT) gene as a reporter</clueExperiment> showed that both PAF and TPA <clueType>activated</clueType> the promoter 1 but not the deleted promoter lacking the three consensus binding sites for NF-kappa B located from -571 bp to -459 bp.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T35" />
+<cause idref="T34" />
+<clue><clueExperiment>Functional analysis of the promoter 1 with a transient expression assay using chloramphenicol acetyltransferase (CAT) gene as a reporter</clueExperiment> showed that both PAF and TPA <clueType>activated</clueType> the promoter 1 but not the deleted promoter lacking the three consensus binding sites for NF-kappa B located from -571 bp to -459 bp.</clue>
+</event>
+<event assertion="non-exist" id="E13">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T33" />
+<clue><clueExperiment>Functional analysis of the promoter 1 with a transient expression assay using chloramphenicol acetyltransferase (CAT) gene as a reporter</clueExperiment> showed that both PAF and TPA <clueType>activated</clueType> the promoter 1 but not the deleted promoter lacking the three consensus binding sites for NF-kappa B located from -571 bp to -459 bp.</clue>
+<comment>TPS: A3</comment>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T34" />
+<clue><clueExperiment>Functional analysis of the promoter 1 with a transient expression assay using chloramphenicol acetyltransferase (CAT) gene as a reporter</clueExperiment> showed that both PAF and TPA <clueType>activated</clueType> the promoter 1 but not the deleted promoter lacking the three consensus binding sites for NF-kappa B located from -571 bp to -459 bp.</clue>
+</event>
+<sentence id="S5">These findings suggest a <term sem="Other" id="T39" lex="molecular_mechanism">molecular mechanism</term> of positive regulation of <term sem="Other" id="T40" lex="PAFR_gene_expression"><term sem="DNA_domain_or_region" id="A4"><term sem="Protein_molecule" id="T41" lex="PAFR">PAFR</term> gene</term> expression</term> by <term sem="Protein_molecule" id="T42" lex="PAF">PAF</term> through <term sem="Protein_molecule" id="T43" lex="NF-kappa_B">NF-kappa B</term>, possibly by a <term sem="Other" id="A108">phosphorylation reaction</term> involving <term sem="Protein_molecule" id="T44" lex="protein_kinase_C">protein kinase C</term> by <term sem="Protein_molecule" id="T45" lex="PAF">PAF</term>.</sentence>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>These findings suggest a molecular mechanism of positive regulation of PAFR gene <clueType>expression</clueType> by PAF through NF-kappa B, possibly by a phosphorylation reaction involving protein kinase C by PAF.</clue>
+</event>
+<event id="E6">
+<type class="Correlation" />
+<theme idref="E7" />
+<theme idref="T43" />
+<clue>These findings suggest a molecular mechanism of positive regulation of PAFR gene expression by PAF <linkCause>through</linkCause> NF-kappa B, possibly by a phosphorylation reaction involving protein kinase C by PAF.</clue>
+<comment>No clueType</comment>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T42" />
+<clue>These findings suggest a molecular mechanism of <clueType>positive regulation</clueType> <linkTheme>of</linkTheme> PAFR gene expression <linkCause>by</linkCause> PAF through NF-kappa B, possibly by a phosphorylation reaction involving protein kinase C by PAF.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="A108" />
+<cause idref="T44" />
+<clue>These findings suggest a molecular mechanism of positive regulation of PAFR gene expression by PAF through NF-kappa B, possibly by a phosphorylation reaction <clueType>involving</clueType> protein kinase C by PAF.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T45" />
+<clue>These findings suggest a molecular mechanism of positive regulation of PAFR gene expression by PAF through NF-kappa B, possibly by a phosphorylation reaction involving protein kinase C <linkCause>by</linkCause> PAF.</clue>
+<comment>No clueType</comment>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E9" />
+<clue>These findings suggest a molecular mechanism of <clueType>positive regulation</clueType> <linkTheme>of</linkTheme> PAFR gene expression by PAF through NF-kappa B, possibly <linkCause>by</linkCause> a phosphorylation reaction involving protein kinase C by PAF.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

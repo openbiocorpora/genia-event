@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="28/01/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8319574" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8319574</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Differential autoregulation of <term sem="Other" id="T1" lex="glucocorticoid_receptor_expression"><term sem="Protein_family_or_group" id="T2" lex="glucocorticoid_receptor">glucocorticoid receptor</term> expression</term> in <cons sem="(AND Cell_cultured Cell_cultured)" id="T3" lex="(AND human_T-cell_line human_B-cell_line)"><frag id="F1">human</frag> <frag id="F2">T-</frag> and <frag id="F3">B-</frag><frag id="F4">cell lines</frag></cons>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="E2" />
+<clue>Differential <clueType>autoregulation</clueType> <linkTheme>of</linkTheme> glucocorticoid receptor expression in human T- and B-cell lines.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Differential autoregulation of glucocorticoid receptor <clueType>expression</clueType> <clueLoc>in human T- and B-cell lines</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Regulation of <term sem="Other" id="T4" lex="glucocorticoid_receptor_(GR)_expression"><term sem="Protein_family_or_group" id="T5" lex="glucocorticoid_receptor">glucocorticoid receptor</term> (<term sem="Protein_molecule" id="A1">GR</term>) expression</term> by its cognate ligand was examined in the <term sem="Cell_cultured" id="T6" lex="glucocorticoid-sensitive_human_leukemic_T-cell_line_6TG1.1"><term sem="Organic_compound_other" id="A2">glucocorticoid</term>-sensitive human leukemic T-cell line <term sem="Cell_cultured" id="A3">6TG1.1</term></term> and in the <term sem="Cell_cultured" id="T7" lex="human_B-cell_line_IM-9">human B-cell line <term sem="Cell_cultured" id="A20">IM-9</term></term>.</sentence>
+<event uncertainty="doubtful" id="E3">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="A2" />
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> glucocorticoid receptor (GR) expression <linkCause>by</linkCause> its cognate <corefCause>ligand</corefCause> was examined <clueLoc>in the glucocorticoid-sensitive human leukemic T-cell line 6TG1.1</clueLoc> and in the human B-cell line IM-9.</clue>
+</event>
+<event uncertainty="doubtful" id="E37">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="A2" />
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> glucocorticoid receptor (GR) expression <linkCause>by</linkCause> its cognate <corefCause>ligand</corefCause> was examined in the glucocorticoid-sensitive human leukemic T-cell line 6TG1.1 and <clueLoc>in the human B-cell line IM-9</clueLoc>.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Regulation of glucocorticoid receptor (GR) <clueType>expression</clueType> by its cognate ligand was examined in the glucocorticoid-sensitive human leukemic T-cell line 6TG1.1 and in the human B-cell line IM-9.</clue>
+</event>
+<sentence id="S3">In contrast to the decrease in <term sem="RNA_family_or_group" id="T8" lex="GR_mRNA">GR mRNA</term> seen in <term sem="Cell_cultured" id="T9" lex="IM-9_cell">IM-9 cells</term> after treatment with 1 microM <term sem="Lipid" id="A4">dexamethasone</term> for 16-18 h, treatment of <term sem="Cell_cultured" id="T10" lex="6TG1.1_cell">6TG1.1 cells</term> resulted in an 8-fold increase in <term sem="RNA_family_or_group" id="T11" lex="GR_mRNA">GR mRNA</term>, as determined by <term sem="Other" id="T12" lex="Northern_blot">Northern blot</term> and <term sem="Other" id="T13" lex="RNase_protection_analysis"><term sem="Protein_molecule" id="T14" lex="RNase">RNase</term> protection analysis</term>, with a corresponding 3- to 4-fold increase in <term sem="Protein_molecule" id="T15" lex="GR_protein">GR protein</term>.</sentence>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="T8" />
+<cause idref="E7" />
+<clue>In contrast to the <clueType>decrease</clueType> <linkTheme>in</linkTheme> GR mRNA seen <clueLoc>in IM-9 cells</clueLoc> <linkCause>after</linkCause> treatment with 1 microM dexamethasone for 16-18 h, treatment of 6TG1.1 cells resulted in an 8-fold increase in GR mRNA, <clueExperiment>as determined by Northern blot and RNase protection analysis</clueExperiment>, with a corresponding 3- to 4-fold increase in GR protein.</clue>
+</event>
+<event id="E7">
+<type class="Artificial_process" />
+<theme idref="T9" />
+<theme idref="A4" />
+<clue>In contrast to the decrease in GR mRNA seen in IM-9 cells after <clueType>treatment</clueType> <linkTheme>with</linkTheme> 1 microM dexamethasone <clueTime>for 16-18 h</clueTime>, treatment of 6TG1.1 cells resulted in an 8-fold increase in GR mRNA, as determined by Northern blot and RNase protection analysis, with a corresponding 3- to 4-fold increase in GR protein.</clue>
+</event>
+<event id="E8">
+<type class="Artificial_process" />
+<theme idref="T10" />
+<theme idref="A4" />
+<clue>In contrast to the decrease in GR mRNA seen in IM-9 cells after treatment <linkTheme>with</linkTheme> 1 microM dexamethasone for 16-18 h, <clueType>treatment</clueType> <linkTheme>of</linkTheme> 6TG1.1 cells resulted in an 8-fold increase in GR mRNA, as determined by Northern blot and RNase protection analysis, with a corresponding 3- to 4-fold increase in GR protein.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T11" />
+<cause idref="E8" />
+<clue>In contrast to the decrease in GR mRNA seen in IM-9 cells after treatment with 1 microM dexamethasone for 16-18 h, treatment of 6TG1.1 cells <clueType>resulted in</clueType> an 8-fold <clueType>increase</clueType> <linkTheme>in</linkTheme> GR mRNA, as determined <clueExperiment>by Northern blot and RNase protection analysis</clueExperiment>, with a corresponding 3- to 4-fold increase in GR protein.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<cause idref="E8" />
+<clue>In contrast to the decrease in GR mRNA seen in IM-9 cells after treatment with 1 microM dexamethasone for 16-18 h, treatment of 6TG1.1 cells <clueType>resulted in</clueType> an 8-fold increase in GR mRNA, as determined <clueExperiment>by Northern blot and RNase protection analysis</clueExperiment>, with a corresponding 3- to 4-fold <clueType>increase</clueType> <linkTheme>in</linkTheme> GR protein.</clue>
+</event>
+<sentence id="S4">Half-maximal induction of <term sem="RNA_family_or_group" id="T16" lex="GR_mRNA"><term sem="Protein_molecule" id="A5">GR</term> mRNA</term> and <term sem="Protein_molecule" id="A6">protein</term> in <term sem="Cell_cultured" id="T17" lex="6TG1.1_cell">6TG1.1 cells</term> was observed between <term sem="Lipid" id="T18" lex="10-100_nM_dexamethasone">10-100 nM <term sem="Lipid" id="A7">dexamethasone</term></term>, and inclusion of <term sem="Organic_compound_other" id="T19" lex="1_microM_RU_38486">1 microM <term sem="Organic_compound_other" id="A8">RU 38486</term></term> completely blocked the effects of <term sem="Lipid" id="T20" lex="100_nM_dexamethasone">100 nM dexamethasone</term>, demonstrating that positive autoregulation of <term sem="Other" id="T21" lex="GR_expression"><term sem="Protein_family_or_group" id="T22" lex="GR">GR</term> expression</term> in <term sem="Cell_cultured" id="T23" lex="6TG1.1_cell">6TG1.1 cells</term> is a receptor-mediated response.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<cause idref="A7" />
+<clue>Half-maximal <clueType>induction</clueType> <linkTheme>of</linkTheme> GR mRNA and protein <clueLoc>in 6TG1.1 cells</clueLoc> was observed between 10-100 nM dexamethasone, and inclusion of 1 microM RU 38486 completely blocked the effects of 100 nM dexamethasone, demonstrating that positive autoregulation of GR expression in 6TG1.1 cells is a receptor-mediated response.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref1="A6" idref="A5" />
+<cause idref="A7" />
+<clue>Half-maximal <clueType>induction</clueType> <linkTheme>of</linkTheme> GR mRNA and protein <clueLoc>in 6TG1.1 cells</clueLoc> was observed between 10-100 nM dexamethasone, and inclusion of 1 microM RU 38486 completely blocked the effects of 100 nM dexamethasone, demonstrating that positive autoregulation of GR expression in 6TG1.1 cells is a receptor-mediated response.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="A8" />
+<clue>Half-maximal induction of GR mRNA and protein in 6TG1.1 cells was observed between 10-100 nM dexamethasone, and inclusion of 1 microM RU 38486 completely <clueType>blocked</clueType> <corefTheme idref1="E12">the effects of</corefTheme> 100 nM <corefTheme idref1="E12">dexamethasone</corefTheme>, demonstrating that positive autoregulation of GR expression in 6TG1.1 cells is a receptor-mediated response.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="A8" />
+<clue>Half-maximal induction of GR mRNA and protein in 6TG1.1 cells was observed between 10-100 nM dexamethasone, and inclusion of 1 microM RU 38486 completely <clueType>blocked</clueType> <corefTheme idref1="E13">the effects of</corefTheme> 100 nM <corefTheme idref1="E13">dexamethasone</corefTheme>, demonstrating that positive autoregulation of GR expression in 6TG1.1 cells is a receptor-mediated response.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T22" />
+<clue>Half-maximal induction of GR mRNA and protein in 6TG1.1 cells was observed between 10-100 nM dexamethasone, and inclusion of 1 microM RU 38486 completely blocked the effects of 100 nM dexamethasone, demonstrating that <clueType>positive autoregulation</clueType> <linkTheme>of</linkTheme> GR expression in 6TG1.1 cells is a <corefCause>receptor</corefCause><linkCause>-mediated</linkCause> response.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>Half-maximal induction of GR mRNA and protein in 6TG1.1 cells was observed between 10-100 nM dexamethasone, and inclusion of 1 microM RU 38486 completely blocked the effects of 100 nM dexamethasone, demonstrating that positive autoregulation of GR <clueType>expression</clueType> <clueLoc>in 6TG1.1 cells</clueLoc> is a receptor-mediated response.</clue>
+</event>
+<sentence id="S5">Positive autoregulation of <term sem="Other" id="T24" lex="GR_expression"><term sem="Protein_family_or_group" id="T25" lex="GR">GR</term> expression</term> was also observed in <term sem="Cell_cultured" id="T26" lex="glucocorticoid-resistant_CEM-C1_cell">glucocorticoid-resistant <term sem="Cell_cultured" id="A10">CEM-C1 cells</term></term>, which contain functional <term sem="Protein_family_or_group" id="T27" lex="GR">GR</term>, but whose growth is unaffected by <term sem="Lipid" id="T28" lex="glucocorticoid">glucocorticoids</term>.</sentence>
+<event id="E17">
+<type class="Regulation" />
+<theme idref="E18" />
+<clue><clueType>Positive autoregulation</clueType> <linkTheme>of</linkTheme> GR expression was also observed <clueLoc>in glucocorticoid-resistant CEM-C1 cells</clueLoc>, which contain functional GR, but whose growth is unaffected by glucocorticoids.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue>Positive autoregulation of GR <clueType>expression</clueType> was also observed in glucocorticoid-resistant CEM-C1 cells, which contain functional GR, but whose growth is unaffected by glucocorticoids.</clue>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Regulation" />
+<theme idref="E20" />
+<cause idref="T28" />
+<clue>Positive autoregulation of GR expression was also observed in glucocorticoid-resistant CEM-C1 cells, which contain functional GR, but whose growth is <clueType>unaffected</clueType> <linkCause>by</linkCause> glucocorticoids.</clue>
+</event>
+<event id="E20">
+<type class="Cellular_physiological_process" />
+<theme idref="A10" />
+<clue>Positive autoregulation of GR expression was also observed in glucocorticoid-resistant CEM-C1 cells, which contain functional GR, but whose <clueType>growth</clueType> is unaffected by glucocorticoids.</clue>
+</event>
+<sentence id="S6">Thus, positive autoregulation is neither a consequence nor the sole cause of growth arrest.</sentence>
+<event assertion="non-exist" id="E21">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E5" />
+<clue>Thus, <corefTheme>positive autoregulation</corefTheme> is neither a <clueType>consequence</clueType> nor the sole cause <linkCause>of</linkCause> growth arrest.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E17" />
+<clue>Thus, <corefCause>positive autoregulation</corefCause> is neither a consequence nor the sole <clueType>cause</clueType> <linkTheme>of</linkTheme> growth arrest.</clue>
+<comment>CAUTION, &quot;nor the sole cause&quot;, but one of the causes</comment>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<clue>Thus, positive autoregulation is neither a consequence nor the sole cause of <corefTheme>growth</corefTheme> <clueType>arrest</clueType>.</clue>
+</event>
+<sentence id="S7">The degree of negative autoregulation in <term sem="Cell_cultured" id="T29" lex="IM-9_cell">IM-9 cells</term> and <term sem="Other" id="T30" lex="positive_autoregulation">positive autoregulation</term> in <term sem="Cell_cultured" id="T31" lex="6TG1.1_cell">6TG1.1 cells</term> was unaffected by inhibition of <term sem="Other" id="T32" lex="protein_synthesis">protein synthesis</term> with <term sem="Organic_compound_other" id="T33" lex="cycloheximide">cycloheximide</term>.</sentence>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<clue>The degree of <clueType>negative autoregulation</clueType> <clueLoc>in IM-9 cells</clueLoc> and positive autoregulation in 6TG1.1 cells was unaffected by inhibition of protein synthesis with cycloheximide.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<clue>The degree of negative autoregulation in IM-9 cells and <clueType>positive autoregulation</clueType> <clueLoc>in 6TG1.1 cells</clueLoc> was unaffected by inhibition of protein synthesis with cycloheximide.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event assertion="non-exist" id="E25">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="E27" />
+<clue>The degree of negative autoregulation in IM-9 cells and positive autoregulation in 6TG1.1 cells was <clueType>unaffected</clueType> <linkCause>by</linkCause> inhibition of protein synthesis with cycloheximide.</clue>
+</event>
+<event assertion="non-exist" id="E26">
+<type class="Regulation" />
+<theme idref="E24" />
+<cause idref="E27" />
+<clue>The degree of negative autoregulation in IM-9 cells and positive autoregulation in 6TG1.1 cells was <clueType>unaffected</clueType> <linkCause>by</linkCause> inhibition of protein synthesis with cycloheximide.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<cause idref="T33" />
+<clue>The degree of negative autoregulation in IM-9 cells and positive autoregulation in 6TG1.1 cells was unaffected by <clueType>inhibition</clueType> <linkTheme>of</linkTheme> protein synthesis <linkCause>with</linkCause> cycloheximide.</clue>
+</event>
+<sentence id="S8">Measurement of <term sem="RNA_family_or_group" id="T34" lex="GR_mRNA">GR mRNA</term> turnover in <term sem="Cell_cultured" id="T35" lex="6TG1.1_cell">6TG1.1 cells</term> treated with <term sem="Organic_compound_other" id="T36" lex="actinomycin-D">actinomycin-D</term> revealed a half-life of 2.5 h, which was unaffected by <term sem="Other" id="T37" lex="dexamethasone_treatment"><term sem="Lipid" id="T38" lex="dexamethasone">dexamethasone</term> treatment</term>.</sentence>
+<event uncertainty="doubtful" id="E28">
+<type class="RNA_metabolism" />
+<theme idref="T34" />
+<clue>Measurement of GR mRNA <clueType>turnover</clueType> <clueLoc>in 6TG1.1 cells treated with actinomycin-D</clueLoc> revealed a half-life of 2.5 h, which was unaffected by dexamethasone treatment.</clue>
+</event>
+<event id="E29">
+<type class="Artificial_process" />
+<theme idref="T35" />
+<theme idref="T36" />
+<clue>Measurement of GR mRNA turnover in 6TG1.1 cells <clueType>treated</clueType> <linkTheme>with</linkTheme> actinomycin-D revealed a half-life of 2.5 h, which was unaffected by dexamethasone treatment.</clue>
+</event>
+<event assertion="non-exist" id="E31">
+<type class="Regulation" />
+<theme idref="T34" />
+<cause idref="E32" />
+<clue>Measurement of GR mRNA turnover in 6TG1.1 cells treated with actinomycin-D revealed a <clueType>half-life</clueType> of 2.5 h, which was <clueType>unaffected</clueType> <linkCause>by</linkCause> dexamethasone treatment.</clue>
+</event>
+<event id="E32">
+<type class="Artificial_process" />
+<theme idref="T35" />
+<theme idref="T38" />
+<clue>Measurement of GR mRNA turnover in 6TG1.1 cells treated with actinomycin-D revealed a half-life of 2.5 h, which was unaffected by dexamethasone <clueType>treatment</clueType>.</clue>
+</event>
+<sentence id="S9">A similar half-life was determined in <term sem="Cell_cultured" id="T39" lex="IM-9_cell">IM-9 cells</term> and was also unaffected by <term sem="Other" id="T40" lex="steroid_treatment">steroid treatment</term>.</sentence>
+<event id="E33">
+<type class="Artificial_process" />
+<theme idref="T39" />
+<theme idref="T38" />
+<clue>A similar half-life was determined in IM-9 cells and was also unaffected by <corefTheme idref1="T38">steroid</corefTheme> <clueType>treatment</clueType>.</clue>
+<comment>NO COREFTHEME for T39</comment>
+</event>
+<event assertion="non-exist" id="E34">
+<type class="Regulation" />
+<theme idref="T34" />
+<cause idref="E33" />
+<clue>A similar <clueType>half-life</clueType> was determined <clueLoc>in IM-9 cells</clueLoc> and was also <clueType>unaffected</clueType> <linkCause>by</linkCause> steroid treatment.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<sentence id="S10">These results are consistent with the interpretation that <term sem="Other" id="T41" lex="glucocorticoid-mediated_autoregulation"><term sem="Lipid" id="T42" lex="glucocorticoid">glucocorticoid</term>-mediated autoregulation</term> of <term sem="Other" id="T43" lex="GR_expression"><term sem="DNA_domain_or_region" id="A12">GR</term> expression</term> is a <term sem="Other" id="T44" lex="tissue-specific_primary_transcriptional_response">tissue-specific primary transcriptional response</term>.</sentence>
+<event uncertainty="probable" id="E35">
+<type class="Regulation" />
+<theme idref="E36" />
+<cause idref="T42" />
+<clue>These results are consistent with the interpretation that glucocorticoid<linkCause>-mediated</linkCause> <clueType>autoregulation</clueType> <linkTheme>of</linkTheme> GR expression is a tissue-specific primary transcriptional response.</clue>
+</event>
+<event id="E36">
+<type class="Transcription" />
+<theme idref="A12" />
+<clue>These results are consistent with the interpretation that glucocorticoid-mediated autoregulation of GR <clueType>expression</clueType> is a <clueLoc>tissue</clueLoc>-specific primary <clueType>transcriptional</clueType> response.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

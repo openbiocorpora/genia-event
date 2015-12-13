@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="25/02/2006" creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1883525">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1883525</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of <term sem="Other" id="T1" lex="M-CSF_expression"><term sem="Protein_molecule" id="T2" lex="M-CSF">M-CSF</term> expression</term> by <term sem="Protein_molecule" id="T3" lex="M-CSF">M-CSF</term>: role of <term sem="Protein_molecule" id="T4" lex="protein_kinase_C">protein kinase C</term> and <term sem="Protein_molecule" id="T5" lex="transcription_factor_NF_kappa_B">transcription factor NF kappa B</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Regulation of M-CSF <clueType>expression</clueType> by M-CSF: role of protein kinase C and transcription factor NF kappa B.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T3" />
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> M-CSF expression <linkCause>by</linkCause> M-CSF: role of protein kinase C and transcription factor NF kappa B.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T6" lex="macrophage-colony-stimulating_factor">Macrophage-colony-stimulating factor</term> (<term sem="Protein_molecule" id="T7" lex="M-CSF">M-CSF</term>), also referred to as <term sem="Protein_molecule" id="T8" lex="CSF-1">CSF-1</term>, regulates the <term sem="Other" id="A7">survival</term>, <term sem="Other" id="T9" lex="growth">growth</term>, <term sem="Other" id="T10" lex="differentiation">differentiation</term> and <term sem="Other" id="T11" lex="functional_activity">functional activity</term> <term sem="Other" id="A10">of <term sem="Cell_natural" id="T12" lex="monocyte">monocytes</term></term> by binding to a single class of <term sem="Protein_family_or_group" id="T13" lex="high-affinity_cell_surface_receptor">high-affinity cell surface receptors</term>, known to be the product of the <term sem="DNA_domain_or_region" id="T14" lex="c-fms_protooncogene">c-fms protooncogene</term>.</sentence>
+<event id="E3">
+<type class="Binding" />
+<theme idref="T7" />
+<theme idref="T13" />
+<clue>Macrophage-colony-stimulating factor (M-CSF), also referred to as CSF-1, regulates the survival, growth, differentiation and functional activity of monocytes by <clueType>binding</clueType> <linkTheme>to</linkTheme> a single class of high-affinity cell surface receptors, known to be the product of the c-fms protooncogene.</clue>
+</event>
+<event id="E5">
+<type class="Cellular_physiological_process" />
+<theme idref="T12" />
+<clue>Macrophage-colony-stimulating factor (M-CSF), also referred to as CSF-1, regulates the survival, <clueType>growth</clueType>, differentiation and functional activity <linkTheme>of</linkTheme> monocytes by binding to a single class of high-affinity cell surface receptors, known to be the product of the c-fms protooncogene.</clue>
+</event>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="T12" />
+<clue>Macrophage-colony-stimulating factor (M-CSF), also referred to as CSF-1, regulates the survival, growth, <clueType>differentiation</clueType> and functional activity <linkTheme>of</linkTheme> monocytes by binding to a single class of high-affinity cell surface receptors, known to be the product of the c-fms protooncogene.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref1="A10" idref="A7" />
+<cause idref="E3" />
+<clue>Macrophage-colony-stimulating factor (M-CSF), also referred to as CSF-1, <clueType>regulates</clueType> the survival, growth, differentiation and functional activity of monocytes <linkCause>by</linkCause> binding to a single class of high-affinity cell surface receptors, known to be the product of the c-fms protooncogene.</clue>
+<comment>TPS: A10</comment>
+</event>
+<event id="E33">
+<type class="Regulation" />
+<theme idref="E5" />
+<clue>Macrophage-colony-stimulating factor (M-CSF), also referred to as CSF-1, <clueType>regulates</clueType> the survival, growth, differentiation and functional activity of monocytes <linkCause>by</linkCause> binding to a single class of high-affinity cell surface receptors, known to be the product of the c-fms protooncogene.</clue>
+</event>
+<event id="E34">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="E3" />
+<clue>Macrophage-colony-stimulating factor (M-CSF), also referred to as CSF-1, <clueType>regulates</clueType> the survival, growth, differentiation and functional activity of monocytes <linkCause>by</linkCause> binding to a single class of high-affinity cell surface receptors, known to be the product of the c-fms protooncogene.</clue>
+</event>
+<event id="E35">
+<type class="Regulation" />
+<theme idref1="A10" idref="T11" />
+<cause idref="E3" />
+<clue>Macrophage-colony-stimulating factor (M-CSF), also referred to as CSF-1, <clueType>regulates</clueType> the survival, growth, differentiation and functional activity of monocytes <linkCause>by</linkCause> binding to a single class of high-affinity cell surface receptors, known to be the product of the c-fms protooncogene.</clue>
+</event>
+<sentence id="S3">The detection of both <cons sem="(AND Other Other)" id="T15" lex="(AND M-CSF_expression c-fms_expression)"><frag id="F1"><term sem="Protein_molecule" id="A1">M-CSF</term></frag> and <frag id="F2"><term sem="Protein_molecule" id="A2">c-fms</term></frag> <frag id="F3">expression</frag></cons> by cells of the <term sem="Cell_natural" id="T16" lex="monocyte_lineage">monocyte lineage</term> has suggested that <term sem="Protein_molecule" id="T17" lex="M-CSF">M-CSF</term> may act by an <term sem="Other" id="T18" lex="autocrine_mechanism">autocrine mechanism</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>The detection of both M-CSF and c-fms expression <clueLoc>by cells of the monocyte lineage</clueLoc> has suggested that M-CSF may act by an autocrine mechanism.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>The detection of both M-CSF and c-fms expression <clueLoc>by cells of the monocyte lineage</clueLoc> has suggested that M-CSF may act by an autocrine mechanism.</clue>
+</event>
+<event uncertainty="probable" id="E11">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="T18" />
+<clue>The detection of both M-CSF and c-fms expression by cells of the monocyte lineage has suggested that M-CSF may <clueType>act</clueType> <linkCause>by</linkCause> an autocrine mechanism.</clue>
+</event>
+<sentence id="S4">Interestingly, it has been shown that <term sem="Protein_molecule" id="T19" lex="M-CSF">M-CSF</term> can induce the expression of its own gene.</sentence>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>Interestingly, it has been shown that M-CSF can induce the <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>its own gene</corefTheme>.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T19" />
+<clue>Interestingly, it has been shown that M-CSF can <clueType>induce</clueType> the expression of its own gene.</clue>
+</event>
+<sentence id="S5">Although <term sem="Other" id="A9">sensitivity to <term sem="Protein_molecule" id="T20" lex="M-CSF">M-CSF</term></term> can be modulated by regulation of <term sem="Other" id="T21" lex="receptor_expression"><term sem="Protein_family_or_group" id="A3">receptor</term> expression</term> and <term sem="Other" id="A4">function</term>, <term sem="Other" id="T22" lex="M-CSF_responsiveness"><term sem="Protein_molecule" id="T23" lex="M-CSF">M-CSF</term> responsiveness</term> is largely determined at a <term sem="Other" id="T24" lex="postreceptor_level">postreceptor level</term>.</sentence>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="A3" />
+<clue>Although sensitivity to M-CSF can be modulated by regulation of receptor <clueType>expression</clueType> and function, M-CSF responsiveness is largely determined at a postreceptor level.</clue>
+</event>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="E14" />
+<clue>Although sensitivity to M-CSF can be modulated by <clueType>regulation</clueType> <linkTheme>of</linkTheme> receptor expression and function, M-CSF responsiveness is largely determined at a postreceptor level.</clue>
+</event>
+<event id="E100">
+<type class="Regulation" />
+<theme idref1="A4" idref="A3" />
+<clue>Although sensitivity to M-CSF can be modulated by <clueType>regulation</clueType> <linkTheme>of</linkTheme> receptor expression and function, M-CSF responsiveness is largely determined at a postreceptor level.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="A9" />
+<cause idref="E15" />
+<clue>Although sensitivity to M-CSF can be <clueType>modulated</clueType> <linkCause>by</linkCause> regulation of receptor expression and function, M-CSF responsiveness is largely determined at a postreceptor level.</clue>
+</event>
+<event id="E101">
+<type class="Regulation" />
+<theme idref="A9" />
+<cause idref="E100" />
+<clue>Although sensitivity to M-CSF can be <clueType>modulated</clueType> <linkCause>by</linkCause> regulation of receptor expression and function, M-CSF responsiveness is largely determined at a postreceptor level.</clue>
+<comment>TPS: A9</comment>
+</event>
+<sentence id="S6">To date, little is known about the <term sem="Other" id="T25" lex="intracellular_pathway">intracellular pathway</term> of <term sem="Other" id="T26" lex="M-CSF_signal_transduction"><term sem="Protein_molecule" id="T27" lex="M-CSF">M-CSF</term> signal transduction</term>.</sentence>
+<sentence id="S7">We have therefore investigated the changes in <term sem="Other" id="T28" lex="protein_kinase_C_(PKC)_activity"><term sem="Protein_molecule" id="T29" lex="protein_kinase_C">protein kinase C</term> (<term sem="Protein_molecule" id="T30" lex="PKC">PKC</term>) <term sem="Other" id="A5">activity</term></term> upon exposure of <term sem="Cell_natural" id="T31" lex="monocyte">monocytes</term> to <term sem="Protein_molecule" id="T32" lex="M-CSF">M-CSF</term>.</sentence>
+<sentence id="S8">We show that <term sem="Protein_molecule" id="T33" lex="M-CSF">M-CSF</term> activates and translocates <term sem="Protein_molecule" id="T34" lex="PKC">PKC</term>.</sentence>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<cause idref="T33" />
+<clue>We show that M-CSF <clueType>activates</clueType> and translocates PKC.</clue>
+</event>
+<event id="E21">
+<type class="Localization" />
+<theme idref="T34" />
+<clue>We show that M-CSF activates and <clueType>translocates</clueType> PKC.</clue>
+</event>
+<event id="E121">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T33" />
+<clue>We show that M-CSF activates and <clueType>translocates</clueType> PKC.</clue>
+</event>
+<sentence id="S9">Inhibition of <term sem="Protein_molecule" id="T35" lex="PKC">PKC</term> by the <term sem="Organic_compound_other" id="T36" lex="isoquinoline_derivative_H7"><term sem="Organic_compound_other" id="T37" lex="isoquinoline_derivative">isoquinoline derivative</term> <term sem="Organic_compound_other" id="T38" lex="H7">H7</term></term> abolishes induction of <term sem="Protein_molecule" id="T39" lex="M-CSF">M-CSF</term> by <term sem="Protein_molecule" id="T40" lex="M-CSF">M-CSF</term>.</sentence>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="T35" />
+<cause idref="T36" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> PKC <linkCause>by</linkCause> the isoquinoline derivative H7 abolishes induction of M-CSF by M-CSF.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T39" />
+<cause idref="T40" />
+<clue>Inhibition of PKC by the isoquinoline derivative H7 abolishes <clueType>induction</clueType> <linkTheme>of</linkTheme> M-CSF <linkCause>by</linkCause> M-CSF.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="E22" />
+<clue>Inhibition of PKC by the isoquinoline derivative H7 <clueType>abolishes</clueType> induction of M-CSF by M-CSF.</clue>
+</event>
+<sentence id="S10">Furthermore, activation of <term sem="Protein_molecule" id="T41" lex="PKC">PKC</term> was <term sem="Other" id="T42" lex="pertussis-toxin-sensitive"><term sem="Protein_molecule" id="A6">pertussis-toxin</term>-sensitive</term> and was associated with the detection of an <term sem="Protein_molecule" id="T43" lex="NF_kappa_B_protein">NF kappa B protein</term> in <term sem="Cell_component" id="T44" lex="nuclear_extract">nuclear extracts</term> of <term sem="Cell_cultured" id="T45" lex="M-CSF-induced_blood_monocyte"><term sem="Protein_molecule" id="T46" lex="M-CSF">M-CSF</term>-induced blood <term sem="Cell_natural" id="T47" lex="monocyte">monocytes</term></term> but not in <term sem="Cell_natural" id="T48" lex="monocyte">monocytes</term> exposed to <term sem="Other" id="T49" lex="medium_treatment">medium treatment</term> only.</sentence>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<clue>Furthermore, <clueType>activation</clueType> <linkTheme>of</linkTheme> PKC was pertussis-toxin-sensitive and was associated with the detection of an NF kappa B protein in nuclear extracts of M-CSF-induced blood monocytes but not in monocytes exposed to medium treatment only.</clue>
+</event>
+<event id="E27">
+<type class="Correlation" />
+<theme idref="E25" />
+<theme idref="T43" />
+<clue>Furthermore, activation of PKC was pertussis-toxin-sensitive and was <clueType>associated</clueType> <linkTheme>with</linkTheme> the detection of an NF kappa B protein <clueLoc>in nuclear extracts of M-CSF-induced blood monocytes</clueLoc> but not in monocytes exposed to medium treatment only.</clue>
+</event>
+<event assertion="non-exist" id="E28">
+<type class="Correlation" />
+<theme idref="E25" />
+<theme idref="T43" />
+<clue>Furthermore, activation of PKC was pertussis-toxin-sensitive and was <clueType>associated</clueType> <linkTheme>with</linkTheme> the detection of an NF kappa B protein in nuclear extracts of M-CSF-induced blood monocytes but not <clueLoc>in monocytes exposed to medium treatment</clueLoc> only.</clue>
+</event>
+<sentence id="S11">The results suggest that <term sem="Protein_molecule" id="T50" lex="M-CSF">M-CSF</term> induction of <term sem="Protein_molecule" id="T51" lex="M-CSF">M-CSF</term> involves <term sem="Protein_family_or_group" id="T52" lex="G_protein">G proteins</term>, <term sem="Protein_molecule" id="T53" lex="PKC">PKC</term> and <term sem="Protein_molecule" id="T54" lex="NF_kappa_B">NF kappa B</term>.</sentence>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T51" />
+<cause idref="T50" />
+<clue>The results suggest that M-CSF <clueType>induction</clueType> <linkTheme>of</linkTheme> M-CSF involves G proteins, PKC and NF kappa B.</clue>
+</event>
+<event uncertainty="probable" id="E30">
+<type class="Correlation" />
+<theme idref="E29" />
+<theme idref="T52" />
+<clue>The results suggest that M-CSF induction of M-CSF <clueType>involves</clueType> G proteins, PKC and NF kappa B.</clue>
+</event>
+<event uncertainty="probable" id="E31">
+<type class="Correlation" />
+<theme idref="E29" />
+<theme idref="T53" />
+<clue>The results suggest that M-CSF induction of M-CSF <clueType>involves</clueType> G proteins, PKC and NF kappa B.</clue>
+</event>
+<event uncertainty="probable" id="E32">
+<type class="Correlation" />
+<theme idref="E29" />
+<theme idref="T54" />
+<clue>The results suggest that M-CSF induction of M-CSF <clueType>involves</clueType> G proteins, PKC and NF kappa B.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

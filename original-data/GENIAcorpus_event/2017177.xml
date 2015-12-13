@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="2006/10/23" creator="Yumiko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2017177"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>2017177</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T1" lex="(AND murine_T-lymphocyte_GATA-3_factor human_T-lymphocyte_GATA-3_factor)"><frag id="F1">Murine</frag> and <frag id="F2">human</frag> <frag id="F3">T-lymphocyte <term sem="Protein_molecule" id="A2">GATA-3 factors</term></frag></cons> mediate <term sem="Other" id="A1" lex="transcliption">transcription</term> through a <term sem="DNA_domain_or_region" id="A109"><term sem="DNA_domain_or_region" id="T2" lex="cis-regulatory_element">cis-regulatory element</term> within the <term sem="DNA_domain_or_region" id="T3" lex="human_T-cell_receptor_delta_gene_enhancer">human T-cell receptor delta gene enhancer</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="E100" />
+<clue><clueLoc>Murine</clueLoc> and human <clueLoc>T-lymphocyte</clueLoc> GATA-3 factors <clueType>mediate</clueType> transcription through a cis-regulatory element within the human T-cell receptor delta gene enhancer.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="E100" />
+<clue>Murine and <clueLoc>human T-lymphocyte</clueLoc> GATA-3 factors <clueType>mediate</clueType> transcription through a cis-regulatory element within the human T-cell receptor delta gene enhancer.</clue>
+</event>
+<event id="E100">
+<type class="Binding" />
+<theme idref="A2" />
+<theme idref="A109" />
+<clue>Murine and human T-lymphocyte GATA-3 factors mediate transcription <clueType>through</clueType> a cis-regulatory element within the human T-cell receptor delta gene enhancer.</clue>
+<comment>TPS A109</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A family of <term sem="Protein_family_or_group" id="T4" lex="transcriptional_activator">transcriptional activators</term> has recently been identified in <term sem="Multicellular_organism_natural" id="T5" lex="chicken">chickens</term>; these <term sem="Protein_family_or_group" id="T6" lex="transcriptional_activator">transcriptional activators</term> recognize a common <term sem="DNA_domain_or_region" id="T7" lex="consensus_motif">consensus motif</term> (<term sem="DNA_domain_or_region" id="T8" lex="WGATAR">WGATAR</term>) through a conserved <term sem="Protein_domain_or_region" id="T9" lex="C4_zinc_finger_DNA-binding_domain">C4 zinc finger DNA-binding domain</term>.</sentence>
+<event id="E2">
+<type class="Binding" />
+<theme idref="T9" />
+<theme idref="T8" />
+<clue>A family of transcriptional activators has recently been identified in chickens; these transcriptional activators <clueType>recognize</clueType> a common consensus motif (WGATAR) <linkTheme>through</linkTheme> a conserved C4 zinc finger DNA-binding domain.</clue>
+</event>
+<sentence id="S3">One of the members of this multigene family, <term sem="Protein_molecule" id="T10" lex="cGATA-3">cGATA-3</term>, is most abundantly expressed in the <term sem="Cell_natural" id="T11" lex="T-lymphocyte_cell_lineage">T-lymphocyte cell lineage</term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>One of the members of this multigene family, cGATA-3, is most abundantly <clueType>expressed</clueType> <clueLoc>in the T-lymphocyte cell lineage</clueLoc>.</clue>
+</event>
+<sentence id="S4">Analysis of <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T12" lex="(AND human_GATA-3_factor murine_GATA-3_factor)"><frag id="F4">human</frag> and <frag id="F5">murine</frag> <frag id="F6"><term sem="Protein_molecule" id="A40">GATA-3 factors</term></frag></cons> shows a striking degree of <term sem="Other" id="T14" lex="amino_acid_sequence">amino acid sequence</term> identity and similar patterns of tissue specificity of expression in these three organisms.</sentence>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="A40" />
+<clue>Analysis of human and murine GATA-3 factors shows a striking degree of amino acid sequence identity and similar patterns of tissue specificity of <clueType>expression</clueType> <clueLoc>in these three organisms</clueLoc>.</clue>
+</event>
+<sentence id="S5">The <cons sem="(AND Protein_domain_or_region Protein_domain_or_region)" id="T16" lex="(AND murine_factor human_factor)"><frag id="F7">murine</frag> and <frag id="F8">human</frag> <frag id="F9">factors</frag></cons> are abundantly expressed in a variety of <term sem="Cell_cultured" id="T17" lex="human_and_murine_T-cell_line"><term sem="Cell_cultured" id="T18" lex="human_T-cell_line">human</term> and <term sem="Cell_cultured" id="T19" lex="murine_T-cell_line">murine T-cell lines</term></term> and can activate <term sem="Other" id="A5" lex="transcription">transcription</term> through a <term sem="DNA_domain_or_region" id="A108"><term sem="DNA_domain_or_region" id="T20" lex="tissue-specific_GATA-binding_site">tissue-specific <term sem="Protein_molecule" id="A6">GATA</term>-binding site</term> identified within the <term sem="DNA_domain_or_region" id="T21" lex="human_T-cell_receptor_delta_gene_enhancer">human T-cell receptor delta gene enhancer</term></term>.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="A40" />
+<clue><corefTheme>The murine and human factors</corefTheme> are abundantly <clueType>expressed</clueType> <clueLoc>in a variety of human and murine T-cell lines</clueLoc> and can activate transcription through a tissue-specific GATA-binding site identified within the human T-cell receptor delta gene enhancer.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="E6" />
+<clue>The murine and human factors are abundantly expressed in a variety of human and murine T-cell lines and can <clueType>activate</clueType> transcription <linkCause>through</linkCause> a tissue-specific GATA-binding site identified within the human T-cell receptor delta gene enhancer.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="A108" />
+<cause idref="A40" />
+<clue><corefCause>The murine and human factors</corefCause> are abundantly expressed in a variety of human and murine T-cell lines and can <clueType>activate</clueType> transcription <linkTheme>through</linkTheme> a tissue-specific GATA-binding site identified within the human T-cell receptor delta gene enhancer.</clue>
+<comment>TPS A108</comment></event>
+<sentence id="S6">We infer that the <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T22" lex="(AND murine_GATA-3_protein human_GATA-3_protein)"><frag id="F10">murine</frag> and <frag id="F11">human</frag> <frag id="F12"><term sem="Protein_molecule" id="A8">GATA-3 proteins</term></frag></cons> play a central and highly conserved role in <term sem="Other" id="T23" lex="vertebrate_T-cell-specific_transcriptional_regulation">vertebrate T-cell-specific <term sem="Other" id="A7" lex="transcriptional">transcriptional</term> regulation</term>.</sentence>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="A8" />
+<clue>We infer that the murine and human GATA-3 proteins <clueType>play</clueType> a central and highly conserved <clueType>role</clueType> <linkTheme>in</linkTheme> vertebrate T-cell-specific transcriptional regulation.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="A7" />
+<clue>We infer that the murine and human GATA-3 proteins play a central and highly conserved role in vertebrate T-cell-specific transcriptional <clueType>regulation</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

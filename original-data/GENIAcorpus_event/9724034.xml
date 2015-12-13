@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="26/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9724034" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9724034</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Organic_compound_other" id="T2" lex="glucocorticoid">Glucocorticoid</term>-induced <term sem="Other" id="T3" lex="apoptosis">apoptosis</term> and regulation of <term sem="Protein_complex" id="T4" lex="NF-kappaB">NF-kappaB</term> activity in <term sem="Cell_natural" id="T5" lex="human_leukemic_T_cell">human leukemic T cells</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="T2" />
+<clue>Glucocorticoid-<clueType>induced</clueType> apoptosis and regulation of NF-kappaB activity <clueLoc>in human leukemic T cells</clueLoc>.</clue>
+<comment>NER: T2, sem mod, Lipid -&gt; Other_organic_compound</comment>
+</event>
+<event id="E32">
+<type class="Cellular_physiological_process" />
+<theme idref="T5" />
+<clue>Glucocorticoid-induced <clueType>apoptosis</clueType> and regulation of NF-kappaB activity in human leukemic T cells.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="T4" />
+<clue>Glucocorticoid-induced apoptosis and <clueType>regulation</clueType> <linkTheme>of</linkTheme> NF-kappaB activity <clueLoc>in human leukemic T cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Organic_compound_other" id="T6" lex="glucocorticoid">Glucocorticoid</term>-induced <term sem="Other" id="T7" lex="apoptosis">apoptosis</term> was investigated in <term sem="Cell_cultured" id="T8" lex="glucocorticoid-sensitive_6TG1.1">glucocorticoid-sensitive 6TG1.1</term> and <term sem="Cell_cultured" id="T9" lex="resistant_ICR27TK.3">resistant ICR27TK.3</term> <term sem="Cell_natural" id="T10" lex="human_leukemic_T_cell">human leukemic T cells</term>.</sentence>
+<event uncertainty="doubtful" id="E3">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T6" />
+<clue>Glucocorticoid-<clueType>induced</clueType> apoptosis was investigated in glucocorticoid-sensitive 6TG1.1 and resistant ICR27TK.3 human leukemic T cells.</clue>
+<comment>NER: T6 sem mod, Lipid -&gt; Other_organic_compound</comment>
+</event>
+<event uncertainty="doubtful" id="E27">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T6" />
+<clue>Glucocorticoid-<clueType>induced</clueType> apoptosis was investigated in glucocorticoid-sensitive 6TG1.1 and resistant ICR27TK.3 human leukemic T cells.</clue>
+<comment>NER: T6 sem mod, Lipid -&gt; Other_organic_compound</comment>
+</event>
+<event id="E4">
+<type class="Cellular_physiological_process" />
+<theme idref="T8" />
+<clue>Glucocorticoid-induced <clueType>apoptosis</clueType> was investigated <linkTheme>in</linkTheme> glucocorticoid-sensitive 6TG1.1 and resistant ICR27TK.3 human leukemic T cells.</clue>
+</event>
+<event id="E5">
+<type class="Cellular_physiological_process" />
+<theme idref="T9" />
+<clue>Glucocorticoid-induced <clueType>apoptosis</clueType> was investigated <linkTheme>in</linkTheme> glucocorticoid-sensitive 6TG1.1 and resistant ICR27TK.3 human leukemic T cells.</clue>
+</event>
+<sentence id="S3">Following <term sem="Other" id="T11" lex="glucocorticoid_treatment"><term sem="Organic_compound_other" id="A3">glucocorticoid</term> treatment</term> of <term sem="Cell_cultured" id="T12" lex="6TG1.1_cell">6TG1.1 cells</term>, <term sem="Other" id="T13" lex="chromatin_fragmentation"><term sem="DNA_family_or_group" id="T14" lex="chromatin">chromatin</term> fragmentation</term> was observed after a delay of 24 h.</sentence>
+<event id="E6">
+<type class="DNA_metabolism" />
+<theme idref="T14" />
+<clue>Following glucocorticoid treatment of 6TG1.1 cells, chromatin <clueType>fragmentation</clueType> was observed <clueTime>after a delay of 24 h</clueTime>.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="E29" />
+<clue><linkCause>Following</linkCause> glucocorticoid treatment <clueLoc>of 6TG1.1 cells</clueLoc>, chromatin fragmentation was observed after a delay of 24 h.</clue>
+</event>
+<event id="E29">
+<type class="Artificial_process" />
+<theme idref="T12" />
+<theme idref="A3" />
+<clue>Following glucocorticoid <clueType>treatment</clueType> <linkTheme>of</linkTheme> 6TG1.1 cells, chromatin fragmentation was observed after a delay of 24 h.</clue>
+</event>
+<sentence id="S4">Fragmentation was not observed in <term sem="Cell_cultured" id="T15" lex="ICR27TK.3_cell">ICR27TK.3 cells</term> containing <term sem="DNA_domain_or_region" id="T16" lex="mutant_glucocorticoid_receptor">mutant glucocorticoid receptors</term> (<term sem="DNA_domain_or_region" id="T17" lex="L753F">L753F</term>) that are activation-deficient but retain the ability to repress <term sem="Other" id="T18" lex="AP-1_activity"><term sem="Protein_molecule" id="T19" lex="AP-1">AP-1</term> activity</term>.</sentence>
+<event assertion="non-exist" id="E7">
+<type class="DNA_metabolism" />
+<theme idref="T14" />
+<clue><clueType>Fragmentation</clueType> was not observed <clueLoc>in ICR27TK.3 cells containing mutant glucocorticoid receptors (L753F)</clueLoc> that are activation-deficient but retain the ability to repress AP-1 activity.</clue>
+<comment>NO THEME; NER: T16, sem mod, Protein_family_or_group -&gt; DNA_domain_or_region ; NER: sem mod, T17, Cell_line -&gt; DNA_domain_or_region</comment>
+</event>
+<event assertion="non-exist" id="E8">
+<type class="Physiological_process" />
+<theme idref="T15" />
+<clue>Fragmentation was not observed in ICR27TK.3 cells containing mutant glucocorticoid receptors (L753F) that are <clueType>activation-deficient</clueType> but retain the ability to repress AP-1 activity.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="T19" />
+<clue>Fragmentation was not observed <clueLoc>in ICR27TK.3 cells containing mutant glucocorticoid receptors (L753F)</clueLoc> that are activation-deficient but retain the ability to <clueType>repress</clueType> AP-1 activity.</clue>
+</event>
+<sentence id="S5">Nor was fragmentation observed after treatment with <term sem="Organic_compound_other" id="T20" lex="RU38486">RU38486</term>, indicating that repression of <term sem="Other" id="T21" lex="AP-1_activity"><term sem="Protein_molecule" id="T22" lex="AP-1">AP-1</term> activity</term> is not involved.</sentence>
+<event id="E10">
+<type class="DNA_metabolism" />
+<theme idref="T14" />
+<clue>Nor was <clueType>fragmentation</clueType> observed after treatment with RU38486, indicating that repression of AP-1 activity is not involved.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event assertion="non-exist" id="E30">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="E31" />
+<clue>Nor was fragmentation observed <linkCause>after</linkCause> treatment with RU38486, indicating that repression of AP-1 activity is not involved.</clue>
+</event>
+<event id="E31">
+<type class="Artificial_process" />
+<theme idref="T15" />
+<theme idref="T20" />
+<clue>Nor was fragmentation observed after <clueType>treatment</clueType> <linkTheme>with</linkTheme> RU38486, indicating that repression of AP-1 activity is not involved.</clue>
+<comment>NO COREFTHEME for T15</comment>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="T22" />
+<clue>Nor was fragmentation observed after treatment with RU38486, indicating that <clueType>repression</clueType> <linkTheme>of</linkTheme> AP-1 activity is not involved.</clue>
+</event>
+<event assertion="non-exist" id="E12">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="E11" />
+<clue>Nor was fragmentation observed after treatment with RU38486, indicating that repression of AP-1 activity is not <clueType>involved</clueType>.</clue>
+</event>
+<sentence id="S6">As described in other systems, <term sem="Other" id="A5">fragmentation</term> required ongoing <term sem="Other" id="T23" lex="protein_synthesis">protein synthesis</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="T23" />
+<clue>As described in other systems, fragmentation <clueType>required</clueType> <clueTime>ongoing</clueTime> protein synthesis.</clue>
+</event>
+<sentence id="S7">However, inhibition of <term sem="Other" id="T24" lex="protein_synthesis">protein synthesis</term> with <term sem="Organic_compound_other" id="T25" lex="cycloheximide">cycloheximide</term> anytime during the first 18 h of <term sem="Other" id="T26" lex="steroid_treatment">steroid treatment</term> was as effective in blocking <term sem="DNA_family_or_group" id="A6">chromatin</term> fragmentation as inhibition for the entire period, suggesting that <term sem="Other" id="A7">synthesis of a component</term> with a <term sem="Other" id="T27" lex="rapid_turnover_rate">rapid turnover rate</term> is required.</sentence>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="T24" />
+<cause idref="T25" />
+<clue>However, <clueType>inhibition</clueType> <linkTheme>of</linkTheme> protein synthesis <linkCause>with</linkCause> cycloheximide <clueTime>anytime during the first 18 h of steroid treatment</clueTime> was as effective in blocking chromatin fragmentation as inhibition for the entire period, suggesting that synthesis of a component with a rapid turnover rate is required.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="E14" />
+<clue>However, inhibition of protein synthesis with cycloheximide anytime during the first 18 h of steroid treatment was as <clueType>effective in blocking</clueType> chromatin fragmentation as inhibition for the entire period, suggesting that synthesis of a component with a rapid turnover rate is required.</clue>
+</event>
+<event id="E16">
+<type class="DNA_metabolism" />
+<theme idref="A6" />
+<clue>However, inhibition of protein synthesis with cycloheximide anytime during the first 18 h of steroid treatment was as effective in blocking chromatin <clueType>fragmentation</clueType> as inhibition for the entire period, suggesting that synthesis of a component with a rapid turnover rate is required.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="A7" />
+<clue>However, inhibition of protein synthesis with cycloheximide anytime during the first 18 h of steroid treatment was as effective in blocking chromatin fragmentation as inhibition for the entire period, suggesting that synthesis of a component with a rapid turnover rate is <clueType>required</clueType>.</clue>
+<comment>TPS: A7</comment>
+</event>
+<sentence id="S8"><term sem="Other" id="T28" lex="dexamethasone_treatment"><term sem="Lipid" id="T29" lex="dexamethasone">Dexamethasone</term> treatment</term> completely blocked <term sem="Organic_compound_other" id="T30" lex="12-O-tetradecanoylphorbol_13-acetate">12-O-tetradecanoylphorbol 13-acetate</term> induction of <term sem="Protein_complex" id="T31" lex="nuclear_factor-kappaB">nuclear factor-kappaB</term> (<term sem="Protein_complex" id="T32" lex="NF-kappaB">NF-kappaB</term>) activity and elicited an increase in the amount of <term sem="Protein_molecule" id="T33" lex="immunoreactive_IkappaB_alpha">immunoreactive IkappaB alpha</term> in sensitive <term sem="Cell_cultured" id="T34" lex="6TG1.1_cell">6TG1.1 cells</term> but not in resistant <term sem="Cell_cultured" id="T35" lex="ICR27TK.3_cell">ICR27TK.3 cells</term>.</sentence>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="T29" />
+<clue>Dexamethasone treatment completely <clueType>blocked</clueType> 12-O-tetradecanoylphorbol 13-acetate induction of nuclear factor-kappaB (NF-kappaB) activity and elicited an increase in the amount of immunoreactive IkappaB alpha in sensitive 6TG1.1 cells but not in resistant ICR27TK.3 cells.</clue>
+<comment>NER: T29, sem mod, Lipid -&gt; Other_organic_compound</comment>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<cause idref="T30" />
+<clue>Dexamethasone treatment completely blocked 12-O-tetradecanoylphorbol 13-acetate <clueType>induction</clueType> <linkTheme>of</linkTheme> nuclear factor-kappaB (NF-kappaB) activity and elicited an increase in the amount of immunoreactive IkappaB alpha in sensitive 6TG1.1 cells but not in resistant ICR27TK.3 cells.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="T29" />
+<clue>Dexamethasone treatment completely blocked 12-O-tetradecanoylphorbol 13-acetate induction of nuclear factor-kappaB (NF-kappaB) activity and elicited an <clueType>increase</clueType> <linkTheme>in</linkTheme> the amount of immunoreactive IkappaB alpha <clueLoc>in sensitive 6TG1.1 cells</clueLoc> but not in resistant ICR27TK.3 cells.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="T29" />
+<clue>Dexamethasone treatment completely blocked 12-O-tetradecanoylphorbol 13-acetate induction of nuclear factor-kappaB (NF-kappaB) activity and elicited an <clueType>increase</clueType> <linkTheme>in</linkTheme> the amount of immunoreactive IkappaB alpha in sensitive 6TG1.1 cells but not <clueLoc>in resistant ICR27TK.3 cells</clueLoc>.</clue>
+</event>
+<sentence id="S9">In addition, mild detergent treatment of cell extracts indicated that a substantial amount of <term sem="Protein_molecule" id="T36" lex="cytoplasmic_NF-kappaB">cytoplasmic <term sem="Protein_complex" id="T37" lex="NF-kappaB">NF-kappaB</term></term> is complexed with <term sem="Protein_molecule" id="T38" lex="IkappaB_alpha">IkappaB alpha</term> or some other <term sem="Protein_family_or_group" id="A8">inhibitory factor</term>.</sentence>
+<event id="E22">
+<type class="Binding" />
+<theme idref="T37" />
+<theme idref="T38" />
+<clue>In addition, <clueExperiment>mild detergent treatment of cell extracts</clueExperiment> indicated that a substantial amount of <clueLoc>cytoplasmic</clueLoc> NF-kappaB is <clueType>complexed</clueType> <linkTheme>with</linkTheme> IkappaB alpha or some other inhibitory factor.</clue>
+</event>
+<event id="E23">
+<type class="Binding" />
+<theme idref="T37" />
+<theme idref="A8" />
+<clue>In addition, <clueExperiment>mild detergent treatment of cell extracts</clueExperiment> indicated that a substantial amount of <clueLoc>cytoplasmic</clueLoc> NF-kappaB is <clueType>complexed</clueType> <linkTheme>with</linkTheme> IkappaB alpha or some other inhibitory factor.</clue>
+</event>
+<sentence id="S10">These results suggest that induction of a <term sem="Protein_family_or_group" id="T39" lex="labile_inhibitory_factor">labile inhibitory factor</term> such as <term sem="Protein_molecule" id="T40" lex="IkappaB_alpha">IkappaB alpha</term> may contribute to <term sem="Organic_compound_other" id="A9">glucocorticoid</term>-induced <term sem="Other" id="T41" lex="apoptosis">apoptosis</term>.</sentence>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<clue>These results suggest that <clueType>induction</clueType> <linkTheme>of</linkTheme> a <corefTheme>labile inhibitory factor</corefTheme> such as IkappaB alpha may contribute to glucocorticoid-induced apoptosis.</clue>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="E24" />
+<clue>These results suggest that induction of a labile inhibitory factor such as IkappaB alpha may <clueType>contribute</clueType> <linkTheme>to</linkTheme> glucocorticoid-induced apoptosis.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<cause idref="A9" />
+<clue>These results suggest that induction of a labile inhibitory factor such as IkappaB alpha may contribute to glucocorticoid-<clueType>induced</clueType> apoptosis.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

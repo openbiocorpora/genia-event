@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="02/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9271588" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9271588</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Virus" id="T1" lex="Epstein-Barr_virus">Epstein-Barr virus</term> binding to <term sem="Protein_molecule" id="T2" lex="CD21">CD21</term> activates the initial <term sem="DNA_domain_or_region" id="T3" lex="viral_promoter">viral promoter</term> via <term sem="Other" id="T4" lex="NF-kappaB_induction"><term sem="Protein_complex" id="T5" lex="NF-kappaB">NF-kappaB</term> induction</term>.</sentence>
+<event id="E1">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T1" />
+<theme idref="T2" />
+<clue>Epstein-Barr virus <clueType>binding</clueType> <linkTheme>to</linkTheme> CD21 activates the initial viral promoter via NF-kappaB induction.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T5" />
+<cause idref="E1" />
+<clue>Epstein-Barr virus binding to CD21 activates the initial viral promoter via NF-kappaB <clueType>induction</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T3" />
+<cause idref="E2" />
+<clue>Epstein-Barr virus binding to CD21 <clueType>activates</clueType> the initial viral promoter <linkCause>via</linkCause> NF-kappaB induction.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Virus" id="T6" lex="Epstein-Barr_virus">Epstein-Barr virus</term> (<term sem="Virus" id="T7" lex="EBV">EBV</term>), an <term sem="Virus" id="T8" lex="oncogenic_human_herpesvirus">oncogenic human herpesvirus</term>, binds to and infects <term sem="Cell_natural" id="T9" lex="normal_human_B_lymphocyte">normal human B lymphocytes</term> via <term sem="Protein_molecule" id="T10" lex="CD21">CD21</term>, the <term sem="Protein_molecule" id="T11" lex="CR2_complement_receptor">CR2 complement receptor</term>.</sentence>
+<event id="E4">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T7" />
+<theme idref="T10" />
+<clue>Epstein-Barr virus (EBV), an oncogenic human herpesvirus, <clueType>binds</clueType> <linkTheme>to</linkTheme> and infects <clueLoc>normal human B lymphocytes</clueLoc> <linkTheme>via</linkTheme> CD21, the <corefTheme>CR2 complement receptor</corefTheme>.</clue>
+</event>
+<event id="E5">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T7" />
+<theme idref="T9" />
+<clue>Epstein-Barr virus (EBV), an oncogenic human herpesvirus, binds to and <clueType>infects</clueType> normal human B lymphocytes via CD21, the CR2 complement receptor.</clue>
+</event>
+<sentence id="S3">Studies of the mechanisms that enable <term sem="Virus" id="T12" lex="EBV">EBV</term> to infect nonactivated, <term sem="Cell_natural" id="T13" lex="noncycling_B_cell">noncycling <term sem="Cell_natural" id="A1">B cells</term></term> provide compelling evidence for a sequence of events in which <term sem="Virus" id="T14" lex="EBV">EBV</term> binding to <term sem="Protein_molecule" id="T15" lex="CD21">CD21</term> on purified <term sem="Cell_natural" id="T16" lex="resting_human_B_cell">resting human B cells</term> rapidly activates the <term sem="Protein_complex" id="T17" lex="NF-kappaB">NF-kappaB</term> <term sem="Protein_family_or_group" id="T18" lex="transcription_factor">transcription factor</term>, which, in turn, binds to and mediates transcriptional activation of <term sem="DNA_domain_or_region" id="A2">Wp</term>, the initial <term sem="DNA_domain_or_region" id="T19" lex="viral_latent_gene_promoter">viral latent gene promoter</term>.</sentence>
+<event uncertainty="doubtful" id="E6">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T12" />
+<theme idref="A1" />
+<clue>Studies of the mechanisms that enable EBV to <clueType>infect</clueType> nonactivated, noncycling B cells provide compelling evidence for a sequence of events in which EBV binding to CD21 on purified resting human B cells rapidly activates the NF-kappaB transcription factor, which, in turn, binds to and mediates transcriptional activation of Wp, the initial viral latent gene promoter.</clue>
+</event>
+<event id="E7">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T14" />
+<theme idref="T15" />
+<clue>Studies of the mechanisms that enable EBV to infect nonactivated, noncycling B cells provide compelling evidence for a sequence of events in which EBV <clueType>binding</clueType> <linkTheme>to</linkTheme> CD21 <clueLoc>on purified resting human B cells</clueLoc> rapidly activates the NF-kappaB transcription factor, which, in turn, binds to and mediates transcriptional activation of Wp, the initial viral latent gene promoter.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="E7" />
+<clue>Studies of the mechanisms that enable EBV to infect nonactivated, noncycling B cells provide compelling evidence for a sequence of events in which EBV binding to CD21 on purified resting human B cells rapidly <clueType>activates</clueType> the NF-kappaB transcription factor, which, in turn, binds to and mediates transcriptional activation of Wp, the initial viral latent gene promoter.</clue>
+</event>
+<event id="E9">
+<type class="Binding" />
+<theme idref="T17" />
+<theme idref="A2" />
+<clue>Studies of the mechanisms that enable EBV to infect nonactivated, noncycling B cells provide compelling evidence for a sequence of events in which EBV binding to CD21 on purified resting human B cells rapidly activates the NF-kappaB transcription factor, <corefTheme>which</corefTheme>, in turn, <clueType>binds</clueType> <linkTheme>to</linkTheme> and mediates transcriptional activation of Wp, the initial viral latent gene promoter.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T17" />
+<clue>Studies of the mechanisms that enable EBV to infect nonactivated, noncycling B cells provide compelling evidence for a sequence of events in which EBV binding to CD21 on purified resting human B cells rapidly activates the NF-kappaB transcription factor, which, in turn, binds to and <clueType>mediates</clueType> transcriptional activation of Wp, the initial viral latent gene promoter.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<clue>Studies of the mechanisms that enable EBV to infect nonactivated, noncycling B cells provide compelling evidence for a sequence of events in which EBV binding to CD21 on purified resting human B cells rapidly activates the NF-kappaB transcription factor, which, in turn, binds to and mediates <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> Wp, the <corefTheme>initial viral latent gene promoter</corefTheme>.</clue>
+</event>
+<sentence id="S4">Thus, <term sem="Virus" id="T20" lex="EBV">EBV</term> binding to its cellular receptor on resting B cells triggers an <term sem="Protein_complex" id="T22" lex="NF-kappaB">NF-kappaB</term>-dependent intracellular <term sem="Other" id="A4">signaling pathway</term> which is required for <term sem="Other" id="A3">infection</term>.</sentence>
+<event id="E12">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T20" />
+<theme idref="T15" />
+<clue>Thus, EBV <clueType>binding</clueType> <linkTheme>to</linkTheme> <corefTheme>its cellular receptor</corefTheme> <clueLoc>on resting B cells</clueLoc> triggers an NF-kappaB-dependent intracellular signaling pathway which is required for infection.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="E12" />
+<clue>Thus, EBV binding to its cellular receptor on resting B cells <clueType>triggers</clueType> an NF-kappaB-dependent intracellular signaling pathway which is required for infection.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="T22" />
+<clue>Thus, EBV binding to its cellular receptor on resting B cells triggers an NF-kappaB-<clueType>dependent</clueType> <clueLoc>intracellular</clueLoc> signaling pathway which is required for infection.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="A4" />
+<clue>Thus, EBV binding to its cellular receptor on resting B cells triggers an NF-kappaB-dependent intracellular signaling pathway which is <clueType>required</clueType> <linkTheme>for</linkTheme> infection.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

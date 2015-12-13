@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="31/05/2006" creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7848679">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7848679</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Association of alterations in <term sem="Protein_family_or_group" id="T1" lex="NF-kappa_B_moiety">NF-kappa B moieties</term> with <term sem="Other" id="T2" lex="HIV_type_1_proviral_latency"><term sem="Virus" id="T3" lex="HIV_type_1">HIV type 1</term> proviral latency</term> in certain <term sem="Cell_natural" id="T4" lex="monocytic_cell">monocytic cells</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T1" />
+<clue>Association of <clueType>alterations</clueType> <linkTheme>in</linkTheme> NF-kappa B moieties with HIV type 1 proviral latency in certain monocytic cells.</clue>
+</event>
+<event id="E2">
+<type class="Correlation" />
+<theme idref="E1" />
+<theme idref="T2" />
+<clue><clueType>Association</clueType> <linkTheme>of</linkTheme> alterations in NF-kappa B moieties <linkTheme>with</linkTheme> HIV type 1 proviral latency <clueLoc>in certain monocytic cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T5" lex="Human_immunodeficiency_virus_type_1_(HIV-1)_replication"><term sem="Virus" id="T6" lex="human_immunodeficiency_virus_type_1">Human immunodeficiency virus type 1</term> (<term sem="Virus" id="T7" lex="HIV-1">HIV-1</term>) replication</term> is controlled by a complex array of <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T8" lex="(AND virally_encoded_protein cellular_protein)"><frag id="F1"><term sem="Protein_family_or_group" id="A1">virally encoded</term></frag> and <term sem="Protein_family_or_group" id="A3"><frag id="F2">cellular</frag> <frag id="F3"><term sem="Protein_family_or_group" id="A2">proteins</term></frag></term></cons>.</sentence>
+<event id="E3">
+<type class="Viral_life_cycle" />
+<theme idref="T7" />
+<clue>Human immunodeficiency virus type 1 (HIV-1) <clueType>replication</clueType> is controlled by a complex array of virally encoded and cellular proteins.</clue>
+</event>
+<event id="E4">
+<type class="Binding" />
+<theme idref1="A2" idref="A1" />
+<theme idref="A3" />
+<clue>Human immunodeficiency virus type 1 (HIV-1) replication is controlled by a <clueType>complex</clueType> array <linkTheme>of</linkTheme> virally encoded and cellular proteins.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="E4" />
+<clue>Human immunodeficiency virus type 1 (HIV-1) replication is <clueType>controlled</clueType> <linkCause>by</linkCause> a complex array of virally encoded and cellular proteins.</clue>
+</event>
+<sentence id="S3">A wide spectrum of levels of <term sem="Other" id="T9" lex="HIV-1_expression"><term sem="Virus" id="T10" lex="HIV-1">HIV-1</term> expression</term> have been demonstrated in various cells, both in <term sem="Other" id="T11" lex="cell_culture">cell culture</term> and <term sem="Other" id="T12" lex="in_vivo">in vivo</term>.</sentence>
+<event id="E200">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>A wide spectrum of levels of HIV-1 <clueType>expression</clueType> have been demonstrated in various cells, both in cell culture and in vivo.</clue>
+</event>
+<sentence id="S4"><term sem="Other" id="A5">Molecular mechanisms</term> leading to restricted <term sem="Other" id="T13" lex="HIV-1_replication"><term sem="Virus" id="T14" lex="HIV-1">HIV-1</term> replication</term> may differ between certain cell types.</sentence>
+<event id="E6">
+<type class="Viral_life_cycle" />
+<theme idref="T14" />
+<clue>Molecular mechanisms leading to restricted HIV-1 <clueType>replication</clueType> may differ between certain cell types.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<clue>Molecular mechanisms leading to <clueType>restricted</clueType> HIV-1 replication may differ between certain cell types.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="A5" />
+<clue>Molecular mechanisms <clueType>leading</clueType> <linkTheme>to</linkTheme> restricted HIV-1 replication may differ between certain cell types.</clue>
+</event>
+<sentence id="S5">It is now demonstrated that <term sem="Other" id="T15" lex="HIV-1_proviral_latency"><term sem="Virus" id="T16" lex="HIV-1">HIV-1</term> proviral latency</term> in the <term sem="Cell_cultured" id="T17" lex="monocytic_cell_line_U1">monocytic cell line U1</term>, in which only extremely low levels of <term sem="Other" id="T18" lex="HIV-1_expression"><term sem="Virus" id="T19" lex="HIV-1">HIV-1</term> expression</term> are detected in the baseline unstimulated state, is associated with alterations in nuclear <term sem="Protein_family_or_group" id="T20" lex="factor-kappa_B_(NF-kappa_B)_moiety">factor-kappa B (<term sem="Protein_molecule" id="T21" lex="NF-kappa_B">NF-kappa B</term>) <term sem="Protein_family_or_group" id="A6">moieties</term></term> demonstrated in these cells by <term sem="Other" id="T22" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assays</term> (<term sem="Other" id="T23" lex="EMSA">EMSAs</term>) and <term sem="Other" id="T24" lex="in_situ_UV_cross-linking_study">in situ UV cross-linking studies</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>It is now demonstrated that HIV-1 proviral latency <clueLoc>in the monocytic cell line U1</clueLoc>, in which only extremely low levels of HIV-1 <clueType>expression</clueType> are detected in the baseline unstimulated state, is associated with alterations in nuclear factor-kappa B (NF-kappa B) moieties demonstrated in these cells by electrophoretic mobility shift assays (EMSAs) and in situ UV cross-linking studies.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<theme idref1="A6" idref="T21" />
+<clue>It is now demonstrated that HIV-1 proviral latency in the monocytic cell line U1, in which only extremely low levels of HIV-1 expression are detected in the baseline unstimulated state, is associated with <clueType>alterations</clueType> <linkTheme>in</linkTheme> nuclear factor-kappa B (NF-kappa B) moieties demonstrated in these cells by electrophoretic mobility shift assays (EMSAs) and in situ UV cross-linking studies.</clue>
+</event>
+<event id="E11">
+<type class="Correlation" />
+<theme idref="T15" />
+<theme idref="E10" />
+<clue>It is now demonstrated that HIV-1 proviral latency <clueLoc>in the monocytic cell line U1</clueLoc>, in which only extremely low levels of HIV-1 expression are detected in the baseline unstimulated state, is <clueType>associated</clueType> <linkTheme>with</linkTheme> alterations in nuclear factor-kappa B (NF-kappa B) moieties demonstrated in these cells <clueExperiment>by electrophoretic mobility shift assays (EMSAs) and in situ UV cross-linking studies</clueExperiment>.</clue>
+</event>
+<sentence id="S6">A predominance of <term sem="Protein_family_or_group" id="T25" lex="p50_NF-kappa_B_moiety">p50 <term sem="Protein_family_or_group" id="T26" lex="NF-kappa_B_moiety">NF-kappa B moieties</term></term> and possibly <term sem="Protein_complex" id="T27" lex="p50_homodimer"><term sem="Protein_molecule" id="A200">p50</term> homodimers</term> or closely related species, rather than the <term sem="Protein_complex" id="T28" lex="p50-p56_heterodimer"><term sem="Protein_molecule" id="A201">p50</term>-<term sem="Protein_molecule" id="A202">p56</term> heterodimer</term> of <term sem="Protein_molecule" id="T29" lex="NF-kappa_B">NF-kappa B</term> that is the predominant <term sem="Protein_molecule" id="T30" lex="NF-kappa_B">NF-kappa B</term> species in most <cons sem="(AND Cell_natural Cell_natural)" id="T31" lex="(AND T_lymphocytic_cell monocytic_cell)"><frag id="F4">T lymphocytic</frag> and <frag id="F5">monocytic</frag> <frag id="F6">cells</frag></cons>, is demonstrated in the <term sem="Cell_component" id="T32" lex="nuclei">nuclei</term> of <term sem="Cell_cultured" id="T33" lex="U1_cell">U1 cells</term>.</sentence>
+<event id="E201">
+<type class="Binding" />
+<theme idref="A200" />
+<theme idref="A200" />
+<clue>A predominance of p50 NF-kappa B moieties and possibly p50 <clueType>homodimers</clueType> or closely related species, rather than the p50-p56 heterodimer of NF-kappa B that is the predominant NF-kappa B species in most T lymphocytic and monocytic cells, is demonstrated in the nuclei of U1 cells.</clue>
+</event>
+<event id="E202">
+<type class="Binding" />
+<theme idref="A201" />
+<theme idref="A202" />
+<clue>A predominance of p50 NF-kappa B moieties and possibly p50 homodimers or closely related species, rather than the p50-p56 <clueType>heterodimer</clueType> of NF-kappa B that is the predominant NF-kappa B species in most T lymphocytic and monocytic cells, is demonstrated in the nuclei of U1 cells.</clue>
+</event>
+<sentence id="S7">This pattern of <term sem="Protein_family_or_group" id="T34" lex="NF-kappa_B-related_moiety">NF-kappa B-related moieties</term> differs from the <term sem="Cell_cultured" id="T35" lex="latently_infected_T_lymphocytic_cell_line_ACH-2">latently infected T lymphocytic cell line ACH-2</term>, and from the <term sem="Cell_cultured" id="T36" lex="U937_monocytic_line">U937 monocytic line</term>, the <term sem="Cell_cultured" id="T37" lex="parental_cell_line">parental cell line</term> of the <term sem="Cell_cultured" id="T38" lex="U1_cellular_clone">U1 cellular clone</term>.</sentence>
+<sentence id="S8">As such, these data suggest that different <term sem="Other" id="T39" lex="proximal_mechanism">proximal mechanisms</term> may lead to restricted <term sem="Other" id="T40" lex="HIV-1_replication"><term sem="Virus" id="T41" lex="HIV-1">HIV-1</term> replication</term> in various cell types.</sentence>
+<event id="E12">
+<type class="Viral_life_cycle" />
+<theme idref="T41" />
+<clue>As such, these data suggest that different proximal mechanisms may lead to restricted HIV-1 <clueType>replication</clueType> in various cell types.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<clue>As such, these data suggest that different proximal mechanisms may lead to <clueType>restricted</clueType> HIV-1 replication in various cell types.</clue>
+</event>
+<event uncertainty="probable" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T39" />
+<clue>As such, these data suggest that different proximal mechanisms may <clueType>lead</clueType> <linkTheme>to</linkTheme> restricted HIV-1 replication in various cell types.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

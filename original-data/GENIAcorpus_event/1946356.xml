@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="12/03/2006" creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1946356"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1946356</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="negative_regulation">Negative regulation</term> of <term sem="Other" id="T2" lex="human_immunodeficiency_virus_type_1_expression"><term sem="Virus" id="T3" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> expression</term> in monocytes: role of the <term sem="Protein_molecule" id="T4" lex="65-kDa">65-kDa</term> plus <term sem="Protein_complex" id="T5" lex="50-kDa_NF-kappa_B_dimer">50-kDa <term sem="Protein_molecule" id="T6" lex="NF-kappa_B">NF-kappa B</term> dimer</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>Negative regulation of human immunodeficiency virus type 1 <clueType>expression</clueType> <clueLoc>in monocytes</clueLoc>: role of the 65-kDa plus 50-kDa NF-kappa B dimer.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<clue><clueType>Negative regulation</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus type 1 expression in monocytes: role of the 65-kDa plus 50-kDa NF-kappa B dimer.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Although <term sem="Cell_natural" id="A2">monocytic cells</term> can provide a reservoir for viral production in vivo, their regulation of <term sem="Other" id="T7" lex="human_immunodeficiency_virus_type_1_(HIV-1)_transcription"><term sem="Virus" id="T8" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> (<term sem="Virus" id="T9" lex="HIV-1">HIV-1</term>) transcription</term> can be either latent, restricted, or productive.</sentence>
+<event id="E3">
+<type class="Transcription" />
+<theme idref="T9" />
+<clue>Although monocytic cells can provide a reservoir for viral production in vivo, their regulation of human immunodeficiency virus type 1 (HIV-1) <clueType>transcription</clueType> can be either latent, restricted, or productive.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="A2" />
+<clue>Although monocytic cells can provide a reservoir for viral production in vivo, <corefCause>their</corefCause> <clueType>regulation</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus type 1 (HIV-1) transcription can be either latent, restricted, or productive.</clue>
+</event>
+<event id="E100">
+<type class="Viral_life_cycle" />
+<theme idref="T9" />
+<clue>Although monocytic cells can provide a reservoir for <clueType>viral production</clueType> in vivo, their regulation of human immunodeficiency virus type 1 (HIV-1) transcription can be either latent, restricted, or productive.</clue>
+</event>
+<sentence id="S3">These differences in gene expression have not been molecularly defined.</sentence>
+<sentence id="S4">In <term sem="Cell_cultured" id="T10" lex="THP-1_cell">THP-1 cells</term> with restricted <term sem="Other" id="T11" lex="HIV_expression"><term sem="Virus" id="A3">HIV</term> expression</term>, there is an absence of <term sem="Protein_complex" id="T12" lex="DNA-protein_binding_complex"><term sem="DNA_domain_or_region" id="A11">DNA</term>-<term sem="Protein_molecule" id="A12">protein</term> binding complex</term> formation with the <term sem="DNA_domain_or_region" id="T13" lex="HIV-1_promoter-enhancer"><term sem="Virus" id="T14" lex="HIV-1">HIV-1</term> promoter-enhancer</term> associated with markedly less <term sem="Other" id="T15" lex="viral_RNA_production"><term sem="RNA_family_or_group" id="T16" lex="viral_RNA">viral RNA</term> production</term>.</sentence>
+<event id="E101">
+<type class="Gene_expression" />
+<theme idref="A3" />
+<clue>In THP-1 cells with restricted HIV <clueType>expression</clueType>, there is an absence of DNA-protein binding complex formation with the HIV-1 promoter-enhancer associated with markedly less viral RNA production.</clue>
+</event>
+<event id="E102">
+<type class="Negative_regulation" />
+<theme idref="E101" />
+<clue><clueLoc>In THP-1 cells</clueLoc> with <clueType>restricted</clueType> HIV expression, there is an absence of DNA-protein binding complex formation with the HIV-1 promoter-enhancer associated with markedly less viral RNA production.</clue>
+</event>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T14" />
+<theme idref="A12" />
+<clue>In THP-1 cells with restricted HIV expression, there is an absence of <corefTheme>DNA</corefTheme>-protein <clueType>binding complex formation</clueType> with the HIV-1 promoter-enhancer associated with markedly less viral RNA production.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<clue><clueLoc>In THP-1 cells with restricted HIV expression</clueLoc>, there is an <clueType>absence</clueType> <linkTheme>of</linkTheme> DNA-protein binding complex formation with the HIV-1 promoter-enhancer associated with markedly less viral RNA production.</clue>
+</event>
+<event id="E103">
+<type class="Transcription" />
+<theme idref="T16" />
+<clue>In THP-1 cells with restricted HIV expression, there is an absence of DNA-protein binding complex formation with the HIV-1 promoter-enhancer associated with markedly less viral RNA <clueType>production</clueType>.</clue>
+</event>
+<event id="E104">
+<type class="Negative_regulation" />
+<theme idref="E103" />
+<clue><clueLoc>In THP-1 cells with restricted HIV expression</clueLoc>, there is an absence of DNA-protein binding complex formation with the HIV-1 promoter-enhancer associated with markedly <clueType>less</clueType> viral RNA production.</clue>
+</event>
+<event id="E105">
+<type class="Correlation" />
+<theme idref="E104" />
+<theme idref="E6" />
+<clue>In THP-1 cells with restricted HIV expression, there is an absence of DNA-protein binding complex formation with the HIV-1 promoter-enhancer <clueType>associated</clueType> <linkTheme>with</linkTheme> markedly less viral RNA production.</clue>
+</event>
+<sentence id="S5">This absence of binding was localized to the <term sem="DNA_domain_or_region" id="T17" lex="NF-kappa_B_region"><term sem="Protein_molecule" id="T18" lex="NF-kappa_B">NF-kappa B</term> region</term> of the <term sem="DNA_domain_or_region" id="T19" lex="HIV-1_enhancer"><term sem="Virus" id="T20" lex="HIV-1">HIV-1</term> enhancer</term>; the <term sem="Protein_complex" id="T21" lex="65-kDa_plus_50-kDa_NF-kappa_B_heterodimer"><term sem="Protein_molecule" id="A4">65-kDa</term> plus <term sem="Protein_molecule" id="A5">50-kDa</term> <term sem="Protein_molecule" id="T22" lex="NF-kappa_B">NF-kappa B</term> heterodimer</term> was preferentially lost.</sentence>
+<event id="E11">
+<type class="Binding" />
+<theme idref="A4" />
+<theme idref="A5" />
+<clue>This absence of binding was localized to the NF-kappa B region of the HIV-1 enhancer; the 65-kDa <linkTheme>plus</linkTheme> 50-kDa NF-kappa B <clueType>heterodimer</clueType> was preferentially lost.</clue>
+</event>
+<event id="E106">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<clue>This absence of binding was localized to the NF-kappa B region of the HIV-1 enhancer; the 65-kDa plus 50-kDa NF-kappa B heterodimer was preferentially <clueType>lost</clueType>.</clue>
+</event>
+<sentence id="S6">Adding purified <term sem="Protein_molecule" id="T23" lex="NF-kappa_B_protein"><term sem="Protein_molecule" id="T24" lex="NF-kappa_B">NF-kappa B</term> protein</term> to <term sem="Cell_component" id="T25" lex="nuclear_extract">nuclear extracts</term> from cells with <term sem="Other" id="T26" lex="restricted_expression">restricted expression</term> overcomes this lack of binding.</sentence>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="E106" />
+<cause idref="T23" />
+<clue>Adding purified NF-kappa B protein to <clueLoc>nuclear extracts from cells with restricted expression</clueLoc> <clueType>overcomes</clueType> <corefTheme>this lack of binding</corefTheme>.</clue>
+</event>
+<sentence id="S7">In addition, treatment of these <term sem="Cell_component" id="T27" lex="nuclear_extract">nuclear extracts</term> with <term sem="Organic_compound_other" id="T28" lex="sodium_deoxycholate">sodium deoxycholate</term> restored their ability to form the <term sem="Protein_complex" id="T29" lex="heterodimer">heterodimer</term>, suggesting the presence of an inhibitor of <term sem="Other" id="T30" lex="NF-kappa_B_activity"><term sem="Protein_molecule" id="T31" lex="NF-kappa_B">NF-kappa B</term> activity</term>.</sentence>
+<event id="E107">
+<type class="Artificial_process" />
+<theme idref="T27" />
+<theme idref="T28" />
+<clue>In addition, <clueType>treatment</clueType> <linkTheme>of</linkTheme> these nuclear extracts <linkTheme>with</linkTheme> sodium deoxycholate restored their ability to form the heterodimer, suggesting the presence of an inhibitor of NF-kappa B activity.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="E107" />
+<clue>In addition, treatment of <clueLoc>these nuclear extracts</clueLoc> with sodium deoxycholate <clueType>restored</clueType> their ability to <linkTheme>form the heterodimer</linkTheme>, suggesting the presence of an inhibitor of NF-kappa B activity.</clue>
+</event>
+<sentence id="S8">Furthermore, treatment of <term sem="Cell_component" id="A100"><term sem="Cell_component" id="T32" lex="nuclear_extract">nuclear extracts</term> from these cells that had <term sem="Other" id="T33" lex="restricted_expression">restricted expression</term></term> with <term sem="Lipid" id="T34" lex="lipopolysaccharide">lipopolysaccharide</term> increased <term sem="Virus" id="A6">viral</term> production and <term sem="Other" id="T35" lex="NF-kappa_B_activity"><term sem="Protein_molecule" id="T36" lex="NF-kappa_B">NF-kappa B</term> activity</term>.</sentence>
+<event id="E12">
+<type class="Viral_life_cycle" />
+<theme idref="A6" />
+<clue>Furthermore, treatment of nuclear extracts from these cells that had restricted expression with lipopolysaccharide increased viral <clueType>production</clueType> and NF-kappa B activity.</clue>
+</event>
+<event id="E108">
+<type class="Artificial_process" />
+<theme idref="A100" />
+<theme idref="T34" />
+<clue>Furthermore, <clueType>treatment</clueType> <linkTheme>of</linkTheme> nuclear extracts from these cells that had restricted expression <linkTheme>with</linkTheme> lipopolysaccharide increased viral production and NF-kappa B activity.</clue>
+<comment>TPS: A100</comment></event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E108" />
+<clue>Furthermore, treatment of nuclear extracts from these cells that had restricted expression with lipopolysaccharide <clueType>increased</clueType> viral production and NF-kappa B activity.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T35" />
+<cause idref="E108" />
+<clue>Furthermore, treatment of nuclear extracts from these cells that had restricted expression with lipopolysaccharide <clueType>increased</clueType> viral production and NF-kappa B activity.</clue>
+</event>
+<sentence id="S9"><term sem="Protein_family_or_group" id="A7">Antiserum specific for <term sem="Protein_family_or_group" id="T37" lex="NF-kappa_B_binding_protein"><term sem="Protein_molecule" id="T38" lex="NF-kappa_B">NF-kappa B</term> binding proteins</term></term>, but not <term sem="Organic_compound_other" id="T39" lex="c-rel-specific_antiserum">c-rel-specific antiserum</term>, disrupted <term sem="Other" id="T40" lex="heterodimer_complex_formation"><term sem="Protein_complex" id="T41" lex="heterodimer_complex">heterodimer complex</term> formation</term>.</sentence>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="A7" />
+<clue>Antiserum specific for NF-kappa B binding proteins, but not c-rel-specific antiserum, <clueType>disrupted</clueType> <linkTheme>heterodimer complex formation</linkTheme>.</clue>
+<comment>TPS: A7</comment></event>
+<event assertion="non-exist" id="E16">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="T39" />
+<clue>Antiserum specific for NF-kappa B binding proteins, but not c-rel-specific antiserum, <clueType>disrupted</clueType> <linkTheme>heterodimer complex formation</linkTheme>.</clue>
+</event>
+<sentence id="S10">Thus, both <term sem="Protein_complex" id="T42" lex="NF-kappa_B-binding_complex"><term sem="Protein_molecule" id="T43" lex="NF-kappa_B">NF-kappa B</term>-binding complexes</term> are needed for <term sem="Other" id="T44" lex="optimal_viral_transcription">optimal <term sem="Virus" id="A8">viral</term> transcription</term>.</sentence>
+<event id="E17">
+<type class="Transcription" />
+<theme idref="A8" />
+<clue>Thus, both NF-kappa B-binding complexes are needed for optimal viral <clueType>transcription</clueType>.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T42" />
+<clue>Thus, both NF-kappa B-binding complexes are <clueType>needed</clueType> <linkTheme>for</linkTheme> optimal viral transcription.</clue>
+</event>
+<sentence id="S11">Binding of the <term sem="Protein_molecule" id="T45" lex="65-kDa">65-kDa</term> plus <term sem="Protein_complex" id="T46" lex="50-kDa_heterodimer"><term sem="Protein_molecule" id="A9">50-kDa</term> heterodimer</term> to the <term sem="DNA_domain_or_region" id="T47" lex="HIV-1_enhancer"><term sem="Virus" id="T48" lex="HIV-1">HIV-1</term> enhancer</term> can be negatively regulated in <term sem="Cell_natural" id="T49" lex="monocyte">monocytes</term>, providing one <term sem="Other" id="A10">mechanism</term> restricting <term sem="Other" id="T50" lex="HIV-1_gene_expressionp"><term sem="DNA_domain_or_region" id="T51" lex="HIV-1_gene"><term sem="Virus" id="T52" lex="HIV-1">HIV-1</term> gene</term> expression</term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T45" />
+<theme idref="A9" />
+<clue>Binding of the 65-kDa <linkTheme>plus</linkTheme> 50-kDa <clueType>heterodimer</clueType> to the HIV-1 enhancer can be negatively regulated in monocytes, providing one mechanism restricting HIV-1 gene expression.</clue>
+</event>
+<event id="E20">
+<type class="Binding" />
+<theme idref1="T46" idref="T45" />
+<theme idref="T47" />
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> the 65-kDa plus 50-kDa heterodimer <linkTheme>to</linkTheme> the HIV-1 enhancer can be negatively regulated in monocytes, providing one mechanism restricting HIV-1 gene expression.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T52" />
+<clue>Binding of the 65-kDa plus 50-kDa heterodimer to the HIV-1 enhancer can be negatively regulated in monocytes, providing one mechanism restricting HIV-1 gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="E23" />
+<clue>Binding of the 65-kDa plus 50-kDa heterodimer to the HIV-1 enhancer can be negatively regulated in monocytes, providing one mechanism <clueType>restricting</clueType> HIV-1 gene expression.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<clue>Binding of the 65-kDa plus 50-kDa heterodimer to the HIV-1 enhancer can be <clueType>negatively regulated</clueType> <clueLoc>in monocytes</clueLoc>, providing one mechanism restricting HIV-1 gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

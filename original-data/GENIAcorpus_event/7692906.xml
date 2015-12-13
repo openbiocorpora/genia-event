@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="28/02/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7692906">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7692906</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Inhibition of <term sem="Other" id="T1" lex="HIV-1_latency_reactivation"><term sem="Virus" id="T2" lex="HIV-1">HIV-1</term> latency reactivation</term> by <term sem="Lipid" id="T3" lex="dehydroepiandrosterone">dehydroepiandrosterone</term> (<term sem="Lipid" id="T4" lex="DHEA">DHEA</term>) and an <term sem="Lipid" id="A1">analog of <term sem="Lipid" id="T5" lex="DHEA">DHEA</term></term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="T1" />
+<cause idref="T4" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> HIV-1 latency reactivation <linkCause>by</linkCause> dehydroepiandrosterone (DHEA) and an analog of DHEA.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="T1" />
+<cause idref="A1" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> HIV-1 latency reactivation <linkCause>by</linkCause> dehydroepiandrosterone (DHEA) and an analog of DHEA.</clue>
+<comment>TPS: A1</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The initial infection with <term sem="Virus" id="T6" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> (<term sem="Virus" id="T7" lex="HIV-1">HIV-1</term>) in most individuals usually results in the establishment of a latent or <term sem="Other" id="T8" lex="chronic_infection">chronic infection</term> before eventual progression toward <term sem="Other" id="T9" lex="acquired_immunodeficiency_syndrome">acquired immunodeficiency syndrome</term>.</sentence>
+<event id="E3">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T7" />
+<clue>The initial <clueType>infection</clueType> <linkTheme>with</linkTheme> human immunodeficiency virus type 1 (HIV-1) in most individuals usually results in the establishment of a latent or chronic infection before eventual progression toward acquired immunodeficiency syndrome.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E50" />
+<cause idref="E3" />
+<clue>The initial infection with human immunodeficiency virus type 1 (HIV-1) <clueLoc>in most individuals</clueLoc> usually <clueType>results in</clueType> the establishment of a latent or chronic infection <clueTime>before eventual progression toward acquired immunodeficiency syndrome.</clueTime></clue>
+</event>
+<event id="E50">
+<type class="Viral_life_cycle" />
+<theme idref="T7" />
+<clue>The initial infection with human immunodeficiency virus type 1 (HIV-1) in most individuals usually results in the establishment of a latent or <clueType>chronic infection</clueType> before eventual progression toward acquired immunodeficiency syndrome.</clue>
+</event>
+<event id="E150">
+<type class="Positive_regulation" />
+<theme idref="T9" />
+<cause idref="E3" />
+<clue>The initial infection with human immunodeficiency virus type 1 (HIV-1) in most individuals usually results in the establishment of a latent or chronic infection before eventual <clueType>progression</clueType> <linkTheme>toward</linkTheme> acquired immunodeficiency syndrome.</clue>
+</event>
+<sentence id="S3"><term sem="Virus" id="T10" lex="HIV-1">HIV-1</term> can also establish a latent or persistent infection in some <term sem="Cell_cultured" id="T11" lex="T_cell_line">T cell lines</term> that show minimal <term sem="Other" id="T12" lex="constitutive_virus_expression">constitutive virus expression</term>.</sentence>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>HIV-1 can also establish a latent or persistent infection <clueLoc>in some T cell lines</clueLoc> that show minimal constitutive virus <clueType>expression</clueType>.</clue>
+</event>
+<event id="E6">
+<type class="Viral_life_cycle" />
+<theme idref="T10" />
+<clue>HIV-1 can also establish a latent or <clueType>persistent infection</clueType> <clueLoc>in some T cell lines</clueLoc> that show minimal constitutive virus expression.</clue>
+</event>
+<sentence id="S4">However, activation of the <term sem="Cell_cultured" id="T13" lex="T_cell_line">T cell lines</term> leading to enhanced <term sem="Virus" id="T14" lex="HIV-1">HIV-1</term> replication can be induced by <term sem="Protein_family_or_group" id="T15" lex="antigen">antigens</term>, <term sem="Other" id="T16" lex="mitogen">mitogens</term>, and <term sem="Protein_family_or_group" id="T17" lex="cytokine">cytokines</term> (<term sem="Protein_family_or_group" id="T18" lex="tumor_necrosis_factor_alpha">tumor necrosis factor alpha</term> [<term sem="Protein_molecule" id="T19" lex="TNF-alpha">TNF-alpha</term>], <term sem="Protein_molecule" id="T20" lex="interleukin_1">interleukin 1</term>, and <term sem="Protein_molecule" id="T21" lex="interleukin-2">interleukin-2</term>).</sentence>
+<event id="E7">
+<type class="Physiological_process" />
+<theme idref="T13" />
+<clue>However, <clueType>activation</clueType> <linkTheme>of</linkTheme> the T cell lines leading to enhanced HIV-1 replication can be induced by antigens, mitogens, and cytokines (tumor necrosis factor alpha [TNF-alpha], interleukin 1, and interleukin-2).</clue>
+</event>
+<event id="E8">
+<type class="Viral_life_cycle" />
+<theme idref="T14" />
+<clue>However, activation of the T cell lines leading to enhanced HIV-1 <clueType>replication</clueType> can be induced by antigens, mitogens, and cytokines (tumor necrosis factor alpha [TNF-alpha], interleukin 1, and interleukin-2).</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<clue>However, activation of the T cell lines leading to <clueType>enhanced</clueType> HIV-1 replication can be induced by antigens, mitogens, and cytokines (tumor necrosis factor alpha [TNF-alpha], interleukin 1, and interleukin-2).</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E7" />
+<clue>However, activation of the T cell lines <clueType>leading to</clueType> enhanced HIV-1 replication can be induced by antigens, mitogens, and cytokines (tumor necrosis factor alpha [TNF-alpha], interleukin 1, and interleukin-2).</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T15" />
+<clue>However, activation of the T cell lines leading to enhanced HIV-1 replication can be <clueType>induced</clueType> <linkCause>by</linkCause> antigens, mitogens, and cytokines (tumor necrosis factor alpha [TNF-alpha], interleukin 1, and interleukin-2).</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T16" />
+<clue>However, activation of the T cell lines leading to enhanced HIV-1 replication can be <clueType>induced</clueType> <linkCause>by</linkCause> antigens, mitogens, and cytokines (tumor necrosis factor alpha [TNF-alpha], interleukin 1, and interleukin-2).</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T17" />
+<clue>However, activation of the T cell lines leading to enhanced HIV-1 replication can be <clueType>induced</clueType> <linkCause>by</linkCause> antigens, mitogens, and cytokines (tumor necrosis factor alpha [TNF-alpha], interleukin 1, and interleukin-2).</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T19" />
+<clue>However, activation of the T cell lines leading to enhanced HIV-1 replication can be <clueType>induced</clueType> <linkCause>by</linkCause> antigens, mitogens, and <corefCause>cytokines</corefCause> (tumor necrosis factor alpha [TNF-alpha], interleukin 1, and interleukin-2).</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T20" />
+<clue>However, activation of the T cell lines leading to enhanced HIV-1 replication can be <clueType>induced</clueType> <linkCause>by</linkCause> antigens, mitogens, and <corefCause>cytokines</corefCause> (tumor necrosis factor alpha [TNF-alpha], interleukin 1, and interleukin-2).</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T21" />
+<clue>However, activation of the T cell lines leading to enhanced HIV-1 replication can be <clueType>induced</clueType> <linkCause>by</linkCause> antigens, mitogens, and <corefCause>cytokines</corefCause> (tumor necrosis factor alpha [TNF-alpha], interleukin 1, and interleukin-2).</clue>
+</event>
+<sentence id="S5">Various <term sem="Protein_molecule" id="A2">gene products from</term> other viruses (<term sem="Virus" id="T22" lex="HTLV-1">HTLV-1</term>, <term sem="Virus" id="T23" lex="HSV">HSV</term>, <term sem="Virus" id="T24" lex="EBV">EBV</term>, <term sem="Virus" id="T25" lex="CMV">CMV</term>, <term sem="Virus" id="T26" lex="HBV">HBV</term>, and <term sem="Virus" id="T27" lex="HHV-6">HHV-6</term>) can also enhance <term sem="Other" id="T28" lex="HIV-1_long_terminal_repeat_(LTR)-driven_reporter_gene_activity"><term sem="Virus" id="T29" lex="HIV-1">HIV-1</term> <term sem="DNA_domain_or_region" id="T30" lex="long_terminal_repeat">long terminal repeat</term> (<term sem="DNA_domain_or_region" id="T31" lex="LTR">LTR</term>)-driven <term sem="DNA_family_or_group" id="T32" lex="reporter_gene">reporter gene</term> activity</term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref1="T22" idref="A2" />
+<clue>Various gene products from other viruses (HTLV-1, HSV, EBV, CMV, HBV, and HHV-6) can also <clueType>enhance</clueType> HIV-1 long terminal repeat (LTR)-driven reporter gene activity.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref1="T23" idref="A2" />
+<clue>Various gene products from other viruses (HTLV-1, HSV, EBV, CMV, HBV, and HHV-6) can also <clueType>enhance</clueType> HIV-1 long terminal repeat (LTR)-driven reporter gene activity.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref1="T24" idref="A2" />
+<clue>Various gene products from other viruses (HTLV-1, HSV, EBV, CMV, HBV, and HHV-6) can also <clueType>enhance</clueType> HIV-1 long terminal repeat (LTR)-driven reporter gene activity.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref1="T25" idref="A2" />
+<clue>Various gene products from other viruses (HTLV-1, HSV, EBV, CMV, HBV, and HHV-6) can also <clueType>enhance</clueType> HIV-1 long terminal repeat (LTR)-driven reporter gene activity.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref1="T26" idref="A2" />
+<clue>Various gene products from other viruses (HTLV-1, HSV, EBV, CMV, HBV, and HHV-6) can also <clueType>enhance</clueType> HIV-1 long terminal repeat (LTR)-driven reporter gene activity.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<cause idref1="T27" idref="A2" />
+<clue>Various gene products from other viruses (HTLV-1, HSV, EBV, CMV, HBV, and HHV-6) can also <clueType>enhance</clueType> HIV-1 long terminal repeat (LTR)-driven reporter gene activity.</clue>
+</event>
+<sentence id="S6">On the basis of these observations, it has been proposed that reactivation of latent <term sem="Virus" id="T33" lex="HIV-1">HIV-1</term> harbored in <term sem="Cell_natural" id="T34" lex="chronically_infected_T_lymphocyte">chronically infected T lymphocytes</term>, <term sem="Cell_natural" id="T35" lex="monocyte">monocytes</term>, or <term sem="Cell_natural" id="T36" lex="macrophage">macrophages</term> plays an important role in the pathogenesis of <term sem="Other" id="T37" lex="AIDS">AIDS</term>.</sentence>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<clue>On the basis of these observations, it has been proposed that <clueType>reactivation</clueType> <linkTheme>of</linkTheme> latent HIV-1 harbored <clueLoc>in chronically infected T lymphocytes, monocytes, or macrophages</clueLoc> plays an important role in the pathogenesis of AIDS.</clue>
+</event>
+<event id="E29">
+<type />
+<theme idref="T37" />
+<clue>On the basis of these observations, it has been proposed that reactivation of latent HIV-1 harbored in chronically infected T lymphocytes, monocytes, or macrophages plays an important role in the <clueType>pathogenesis</clueType> <linkTheme>of</linkTheme> AIDS.</clue>
+<comment>SOO</comment>
+</event>
+<event uncertainty="probable" id="E30">
+<type class="Correlation" />
+<theme idref="E28" />
+<theme idref="E29" />
+<clue>On the basis of these observations, it has been proposed that reactivation of latent HIV-1 harbored in chronically infected T lymphocytes, monocytes, or macrophages <clueType>plays</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> the pathogenesis of AIDS.</clue>
+</event>
+<sentence id="S7">So far, there are no <term sem="Other" id="A4">drugs</term> or <term sem="Other" id="A5">therapy</term> available that can provide protection against <term sem="Other" id="T38" lex="HIV-1_latency_reactivation"><term sem="Virus" id="T39" lex="HIV-1">HIV-1</term> latency reactivation</term>.</sentence>
+<event id="E52">
+<type class="Viral_life_cycle" />
+<theme idref="T39" />
+<clue>So far, there are no drugs or therapy available that can provide protection against HIV-1 latency <clueType>reactivation</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E31">
+<type class="Negative_regulation" />
+<theme idref="E52" />
+<cause idref="A4" />
+<clue>So far, there are no drugs or therapy available that can provide <clueType>protection</clueType> <linkTheme>against</linkTheme> HIV-1 latency reactivation.</clue>
+</event>
+<event assertion="non-exist" id="E32">
+<type class="Negative_regulation" />
+<theme idref="E52" />
+<cause idref="A5" />
+<clue>So far, there are no drugs or therapy available that can provide <clueType>protection</clueType> <linkTheme>against</linkTheme> HIV-1 latency reactivation.</clue>
+</event>
+<sentence id="S8"><term sem="Cell_cultured" id="T40" lex="ACH-2">ACH-2</term>, derived from a <term sem="Cell_cultured" id="T41" lex="human_T_cell_line">human T cell line</term> (<term sem="Cell_cultured" id="T42" lex="CEM">CEM</term>), is chronically infected with <term sem="Virus" id="T43" lex="HIV-1">HIV-1</term>, with low levels of <term sem="Other" id="T44" lex="constitutive_virus_expression">constitutive virus expression</term>.</sentence>
+<event id="E53">
+<type class="Viral_life_cycle" />
+<theme idref="T43" />
+<theme idref="T40" />
+<clue>ACH-2, derived from a human T cell line (CEM), is <clueType>chronically infected</clueType> <linkTheme>with</linkTheme> HIV-1, with low levels of constitutive virus expression.</clue>
+</event>
+<event id="E33">
+<type class="Gene_expression" />
+<theme idref="T43" />
+<clue><clueLoc>ACH-2</clueLoc>, derived from a human T cell line (CEM), is chronically infected with HIV-1, with low levels of constitutive virus <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S9"><term sem="Cell_cultured" id="T45" lex="ACH-2">ACH-2</term> can be converted to <term sem="Other" id="A6">productive infection</term> by stimulation of the cells with <term sem="Organic_compound_other" id="T46" lex="12-O-tetradecanoylphorbol-13-acetate">12-O-tetradecanoylphorbol-13-acetate</term> (<term sem="Organic_compound_other" id="T47" lex="TPA">TPA</term>), <term sem="Organic_compound_other" id="T48" lex="mitogen">mitogen</term> or <term sem="Protein_family_or_group" id="T49" lex="cytokine">cytokines</term> (<term sem="Protein_molecule" id="T50" lex="TNF-alpha">TNF-alpha</term>), or infection with <term sem="Virus" id="T51" lex="HSV">HSV</term>.</sentence>
+<event id="E34">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T51" />
+<theme idref="T45" />
+<clue>ACH-2 can be converted to productive infection by stimulation of the cells with 12-O-tetradecanoylphorbol-13-acetate (TPA), mitogen or cytokines (TNF-alpha), or <clueType>infection</clueType> <linkTheme>with</linkTheme> HSV.</clue>
+</event>
+<event id="E54">
+<type class="Physiological_process" />
+<theme idref="T45" />
+<cause idref="T47" />
+<clue>ACH-2 can be converted to productive infection by <clueType>stimulation</clueType> <linkTheme>of</linkTheme> <corefTheme>the cells</corefTheme> <linkCause>with</linkCause> 12-O-tetradecanoylphorbol-13-acetate (TPA), mitogen or cytokines (TNF-alpha), or infection with HSV.</clue>
+</event>
+<event id="E55">
+<type class="Physiological_process" />
+<theme idref="T45" />
+<cause idref="T48" />
+<clue>ACH-2 can be converted to productive infection by <clueType>stimulation</clueType> <linkTheme>of</linkTheme> <corefTheme>the cells</corefTheme> <linkCause>with</linkCause> 12-O-tetradecanoylphorbol-13-acetate (TPA), mitogen or cytokines (TNF-alpha), or infection with HSV.</clue>
+</event>
+<event id="E56">
+<type class="Physiological_process" />
+<theme idref="T45" />
+<cause idref="T50" />
+<clue>ACH-2 can be converted to productive infection by <clueType>stimulation</clueType> <linkTheme>of</linkTheme> <corefTheme>the cells</corefTheme> <linkCause>with</linkCause> 12-O-tetradecanoylphorbol-13-acetate (TPA), mitogen or cytokines (TNF-alpha), or infection with HSV.</clue>
+</event>
+<event id="E57">
+<type class="Physiological_process" />
+<theme idref="T45" />
+<cause idref="E34" />
+<clue>ACH-2 can be converted to productive infection by <clueType>stimulation</clueType> <linkTheme>of</linkTheme> <corefTheme>the cells</corefTheme> <linkCause>with</linkCause> 12-O-tetradecanoylphorbol-13-acetate (TPA), mitogen or cytokines (TNF-alpha), or infection with HSV.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="E54" />
+<clue>ACH-2 can be <clueType>converted to</clueType> productive infection by stimulation of the cells <linkCause>with</linkCause> 12-O-tetradecanoylphorbol-13-acetate (TPA), mitogen or cytokines (TNF-alpha), or infection with HSV.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="E55" />
+<clue>ACH-2 can be <clueType>converted to</clueType> productive infection by stimulation of the cells <linkCause>with</linkCause> 12-O-tetradecanoylphorbol-13-acetate (TPA), mitogen or cytokines (TNF-alpha), or infection with HSV.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="E56" />
+<clue>ACH-2 can be <clueType>converted to</clueType> productive infection by stimulation of the cells <linkCause>with</linkCause> 12-O-tetradecanoylphorbol-13-acetate (TPA), mitogen or cytokines (TNF-alpha), or infection with HSV.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="E57" />
+<clue>ACH-2 can be <clueType>converted to</clueType> productive infection by stimulation of the cells <linkCause>with</linkCause> 12-O-tetradecanoylphorbol-13-acetate (TPA), mitogen or cytokines (TNF-alpha), or infection with HSV.</clue>
+</event>
+<sentence id="S10">Therefore the <term sem="Cell_cultured" id="T52" lex="ACH-2">ACH-2</term> cell line is a good candidate for studying the effects of <term sem="Other" id="A7">drugs</term> on <term sem="Virus" id="T53" lex="HIV-1">HIV-1</term> activation.</sentence>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="T53" />
+<clue>Therefore the ACH-2 cell line is a good candidate for studying the effects of drugs on HIV-1 <clueType>activation</clueType>.</clue>
+</event>
+<event uncertainty="doubtful" id="E40">
+<type class="Regulation" />
+<theme idref="E39" />
+<cause idref="A7" />
+<clue>Therefore the <clueLoc>ACH-2 cell line</clueLoc> is a good candidate for studying the <clueType>effects</clueType> <linkCause>of</linkCause> drugs <linkTheme>on</linkTheme> HIV-1 activation.</clue>
+</event>
+<sentence id="S11">Previously, we have reported that <term sem="Lipid" id="T54" lex="DHEA">DHEA</term> and synthetic <term sem="Lipid" id="A8">analogs of <term sem="Lipid" id="T55" lex="DHEA">DHEA</term></term> can be modest inhibitors of <term sem="Other" id="T56" lex="HIV-1_IIIB_replication"><term sem="Virus" id="T57" lex="HIV-1">HIV-1</term> IIIB replication</term> in <term sem="Cell_cultured" id="T58" lex="phytohemagglutinin-stimulated_peripheral_blood_lymphocyte_culture"><term sem="Protein_molecule" id="A16">phytohemagglutinin</term>-stimulated <term sem="Cell_natural" id="A17">peripheral blood lymphocyte</term> cultures</term>.</sentence>
+<event id="E58">
+<type class="Viral_life_cycle" />
+<theme idref="T57" />
+<clue>Previously, we have reported that DHEA and synthetic analogs of DHEA can be modest inhibitors of HIV-1 IIIB <clueType>replication</clueType> in phytohemagglutinin-stimulated peripheral blood lymphocyte cultures.</clue>
+</event>
+<event id="E59">
+<type class="Physiological_process" />
+<theme idref="A17" />
+<cause idref="A16" />
+<clue>Previously, we have reported that DHEA and synthetic analogs of DHEA can be modest inhibitors of HIV-1 IIIB replication in phytohemagglutinin-<clueType>stimulated</clueType> peripheral blood lymphocyte cultures.</clue>
+</event>
+<event id="E41">
+<type class="Negative_regulation" />
+<theme idref="E58" />
+<cause idref="T54" />
+<clue>Previously, we have reported that DHEA and synthetic analogs of DHEA can be modest <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> HIV-1 IIIB replication <clueLoc>in phytohemagglutinin-stimulated peripheral blood lymphocyte cultures.</clueLoc></clue>
+</event>
+<event id="E42">
+<type class="Negative_regulation" />
+<theme idref="E58" />
+<cause idref="A8" />
+<clue>Previously, we have reported that DHEA and synthetic analogs of DHEA can be modest <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> HIV-1 IIIB replication <clueLoc>in phytohemagglutinin-stimulated peripheral blood lymphocyte cultures.</clueLoc></clue>
+<comment>TPS: A8</comment>
+</event>
+<sentence id="S12">(ABSTRACT TRUNCATED AT 250 WORDS)</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

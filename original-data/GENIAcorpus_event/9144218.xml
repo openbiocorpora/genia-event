@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="13/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9144218" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9144218</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">An <term sem="DNA_domain_or_region" id="T1" lex="enhancer-blocking_element">enhancer-blocking element</term> between <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T2" lex="(AND alpha_gene_segment delta_gene_segment)"><frag id="F1">alpha</frag> and <frag id="F2">delta</frag> <frag id="F3">gene segments</frag></cons> within the <term sem="DNA_domain_or_region" id="T3" lex="human_T_cell_receptor_alpha/delta_locus">human T cell receptor alpha/delta locus</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="DNA_domain_or_region" id="T4" lex="T_cell_receptor_(TCR)_alpha">T cell receptor (TCR)</term> <term sem="DNA_domain_or_region" id="A1">alpha</term> and <term sem="DNA_domain_or_region" id="A2">delta</term> <term sem="DNA_domain_or_region" id="A3">gene</term> segments are organized within a single genetic locus but are differentially regulated during <term sem="Other" id="T5" lex="T_cell_development"><term sem="Cell_natural" id="A4">T cell</term> development</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref1="A1" idref2="A3" idref="T4" />
+<clue>T cell receptor (TCR) alpha and delta gene segments are organized within a single genetic locus but are differentially <clueType>regulated</clueType> <clueTime>during T cell development</clueTime>.</clue>
+<comment>NER T4 MOD</comment>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref1="A2" idref2="A3" idref="T4" />
+<clue>T cell receptor (TCR) alpha and delta gene segments are organized within a single genetic locus but are differentially <clueType>regulated</clueType> <clueTime>during T cell development</clueTime>.</clue>
+</event>
+<sentence id="S3">An <term sem="DNA_domain_or_region" id="T6" lex="enhancer-blocking_element">enhancer-blocking element</term> (<term sem="DNA_domain_or_region" id="T7" lex="BEAD-1">BEAD-1</term>, for blocking <term sem="DNA_domain_or_region" id="T8" lex="element_alpha/delta_1">element alpha/delta 1</term>) was localized to a <term sem="DNA_domain_or_region" id="T9" lex="2.0-kb_region">2.0-kb region</term> 3&apos; of <term sem="DNA_domain_or_region" id="T10" lex="TCR_delta_gene_segment">TCR delta gene segments</term> and 5&apos; of <term sem="DNA_domain_or_region" id="T11" lex="TCR_alpha_joining_gene_segment">TCR alpha joining gene segments</term> within this locus.</sentence>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="T8" />
+<cause idref="T7" />
+<clue>An enhancer-blocking element (BEAD-1, <linkCause>for</linkCause> <clueType>blocking</clueType> element alpha/delta 1) was localized to a 2.0-kb region 3&apos; of TCR delta gene segments and 5&apos; of TCR alpha joining gene segments within this locus.</clue>
+</event>
+<sentence id="S4"><term sem="DNA_domain_or_region" id="T12" lex="BEAD-1">BEAD-1</term> blocked the ability of the <term sem="DNA_domain_or_region" id="T13" lex="TCR_delta_enhancer">TCR delta enhancer</term> (<term sem="DNA_domain_or_region" id="T14" lex="Edelta">Edelta</term>) to activate a <term sem="DNA_family_or_group" id="A5">promoter</term> when located between the two in a <term sem="DNA_family_or_group" id="T15" lex="chromatin-integrated_construct">chromatin-integrated construct</term>.</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="T14" />
+<clue>BEAD-1 blocked the ability of the TCR delta enhancer (Edelta) to <clueType>activate</clueType> a promoter when located between the two in a chromatin-integrated construct.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="E6" />
+<clue>BEAD-1 <clueType>blocked</clueType> the ability of the TCR delta enhancer (Edelta) to activate a promoter <linkCause>when</linkCause> located between the two in a chromatin-integrated construct.</clue>
+</event>
+<event id="E6">
+<type class="Artificial_process" />
+<theme idref="T12" />
+<clue>BEAD-1 blocked the ability of the TCR delta enhancer (Edelta) to activate a promoter when <clueType>located</clueType> <clueLoc>between the two in a chromatin-integrated construct</clueLoc>.</clue>
+</event>
+<sentence id="S5">We propose that <term sem="DNA_domain_or_region" id="T16" lex="BEAD-1">BEAD-1</term> functions as a boundary that separates the <term sem="DNA_domain_or_region" id="T17" lex="TCR_alpha/delta_locus">TCR alpha/delta locus</term> into distinct <term sem="DNA_domain_or_region" id="T18" lex="regulatory_domain">regulatory domains</term> controlled by <term sem="DNA_domain_or_region" id="T19" lex="Edelta">Edelta</term> and the <term sem="DNA_domain_or_region" id="T20" lex="TCR_alpha_enhancer">TCR alpha enhancer</term>, and that it prevents <term sem="DNA_domain_or_region" id="T21" lex="Edelta">Edelta</term> from opening the <term sem="DNA_family_or_group" id="T22" lex="chromatin">chromatin</term> of the <term sem="DNA_domain_or_region" id="T23" lex="TCR_alpha">TCR alpha joining gene segments</term> for <term sem="Other" id="T24" lex="VDJ_recombination">VDJ recombination</term> at an early stage of <term sem="Other" id="T25" lex="T_cell_development"><term sem="Cell_natural" id="A6">T cell</term> development</term>.</sentence>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="T17" />
+<cause idref="T19" />
+<clue>We propose that BEAD-1 functions as a boundary that separates the TCR alpha/delta locus into distinct regulatory domains <clueType>controlled</clueType> <linkCause>by</linkCause> Edelta and the TCR alpha enhancer, and that it prevents Edelta from opening the chromatin of the TCR alpha joining gene segments for VDJ recombination at an early stage of T cell development.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="T17" />
+<cause idref="T20" />
+<clue>We propose that BEAD-1 functions as a boundary that separates the TCR alpha/delta locus into distinct regulatory domains <clueType>controlled</clueType> <linkCause>by</linkCause> Edelta and the TCR alpha enhancer, and that it prevents Edelta from opening the chromatin of the TCR alpha joining gene segments for VDJ recombination at an early stage of T cell development.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="T16" />
+<clue>We propose that BEAD-1 functions as a boundary that <clueType>separates</clueType> the TCR alpha/delta locus <clueType>into distinct regulatory domains</clueType> controlled by Edelta and the TCR alpha enhancer, and that it prevents Edelta from opening the chromatin of the TCR alpha joining gene segments for VDJ recombination at an early stage of T cell development.</clue>
+</event>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref="T16" />
+<clue>We propose that BEAD-1 functions as a boundary that <clueType>separates</clueType> the TCR alpha/delta locus <clueType>into distinct regulatory domains</clueType> controlled by Edelta and the TCR alpha enhancer, and that it prevents Edelta from opening the chromatin of the TCR alpha joining gene segments for VDJ recombination at an early stage of T cell development.</clue>
+</event>
+<event id="E11">
+<type class="DNA_recombination" />
+<theme idref="T23" />
+<clue>We propose that BEAD-1 functions as a boundary that separates the TCR alpha/delta locus into distinct regulatory domains controlled by Edelta and the TCR alpha enhancer, and that it prevents Edelta from <clueType>opening the chromatin</clueType> <linkTheme>of</linkTheme> the TCR alpha joining gene segments <clueType>for VDJ recombination</clueType> <clueTime>at an early stage of T cell development</clueTime>.</clue>
+<comment>NER T23 MOD</comment>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T21" />
+<clue>We propose that BEAD-1 functions as a boundary that separates the TCR alpha/delta locus into distinct regulatory domains controlled by Edelta and the TCR alpha enhancer, and that it prevents Edelta <linkTheme>from</linkTheme> opening the chromatin of the TCR alpha joining gene segments for VDJ recombination at an early stage of T cell development.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="T16" />
+<clue>We propose that BEAD-1 functions as a boundary that separates the TCR alpha/delta locus into distinct regulatory domains controlled by Edelta and the TCR alpha enhancer, and that <corefCause>it</corefCause> <clueType>prevents</clueType> Edelta from opening the chromatin of the TCR alpha joining gene segments for VDJ recombination at an early stage of T cell development.</clue>
+</event>
+<event id="E14">
+<type class="Cell_differentiation" />
+<theme idref="A6" />
+<clue>We propose that BEAD-1 functions as a boundary that separates the TCR alpha/delta locus into distinct regulatory domains controlled by Edelta and the TCR alpha enhancer, and that it prevents Edelta from opening the chromatin of the TCR alpha joining gene segments for VDJ recombination at an early stage of T cell <clueType>development</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

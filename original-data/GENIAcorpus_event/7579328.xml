@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/12/08" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7579328" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7579328</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term sem="DNA_domain_or_region" id="T1" lex="myeloid_zinc_finger_gene">myeloid zinc finger gene</term>, <term sem="DNA_domain_or_region" id="T2" lex="MZF-1">MZF-1</term>, regulates the <term sem="DNA_domain_or_region" id="T3" lex="CD34_promoter">CD34 promoter</term> in vitro.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T3" />
+<cause idref="T2" />
+<clue>The myeloid zinc finger gene, MZF-1, <clueType>regulates</clueType> the CD34 promoter in vitro.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="DNA_domain_or_region" id="T4" lex="MZF-1">MZF-1</term> is a <term sem="DNA_family_or_group" id="T5" lex="C2H2_zinc_finger_gene">C2H2 zinc finger gene</term> encoding a <term sem="Protein_family_or_group" id="T6" lex="putative_transcriptional_regulator">putative transcriptional regulator</term> of <term sem="Other" id="T7" lex="myeloid_differentiation"><term sem="Cell_natural" id="A1">myeloid</term> differentiation</term>.</sentence>
+<event id="E2">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>MZF-1 is a C2H2 zinc finger gene encoding a putative transcriptional regulator of myeloid <clueType>differentiation</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T4" />
+<clue>MZF-1 is a C2H2 zinc finger gene encoding a putative <clueType>transcriptional regulator</clueType> <linkTheme>of</linkTheme> myeloid differentiation.</clue>
+</event>
+<sentence id="S3">The <term sem="Protein_molecule" id="A10"><term sem="DNA_domain_or_region" id="T8" lex="MZF-1">MZF-1</term> protein</term> contains 13 <term sem="Protein_substructure" id="T9" lex="C2H2_zinc_finger">C2H2 zinc fingers</term> arranged in bipartite <term sem="Protein_domain_or_region" id="T10" lex="DNA_binding_domain">DNA binding domains</term> containing <term sem="Protein_substructure" id="T11" lex="zinc_finger">zinc fingers</term> through 4 and, in the <term sem="Protein_domain_or_region" id="T12" lex="carboxy-terminus">carboxy-terminus</term>, 5 through 13.</sentence>
+<sentence id="S4">We previously identified the <term sem="DNA_domain_or_region" id="T13" lex="DNA_consensus_binding_site">DNA consensus binding site</term> recognized by the two <term sem="Protein_domain_or_region" id="T14" lex="DNA_binding_domain">DNA binding domains</term>.</sentence>
+<sentence id="S5">To assess the <term sem="Other" id="T15" lex="transcription_regulatory_function">transcription regulatory function</term> of <term sem="Protein_molecule" id="T16" lex="MZF-1">MZF-1</term>, the full-length <term sem="DNA_domain_or_region" id="T17" lex="MZF-1">MZF-1</term> coding region was fused to the <term sem="Protein_domain_or_region" id="A109"><term sem="Protein_domain_or_region" id="T18" lex="DNA_binding_domain">DNA binding domain</term> of the <term sem="Protein_molecule" id="T19" lex="yeast_transactivator_GAL4">yeast transactivator <term sem="Protein_molecule" id="T20" lex="GAL4">GAL4</term></term></term>.</sentence>
+<event uncertainty="doubtful" id="E500">
+<type class="Regulation" />
+<cause idref="T16" />
+<clue>To assess the <clueType>transcription regulatory function</clueType> <linkCause>of</linkCause> MZF-1, the full-length MZF-1 coding region was fused to the DNA binding domain of the yeast transactivator GAL4.</clue>
+<comment>NO THEME; NER: T16, DNA_domain_or_region -&gt; Protein_molecule</comment>
+</event>
+<event id="E50">
+<type class="DNA_recombination" />
+<theme idref="T17" />
+<theme idref="A109" />
+<clue>To assess the transcription regulatory function of MZF-1, the full-length MZF-1 coding region was <clueType>fused</clueType> <linkTheme>to</linkTheme> the DNA binding domain of the yeast transactivator GAL4.</clue>
+<comment>TPS A109</comment>
+</event>
+<sentence id="S6">The expression vector was cotransfected with the <term sem="DNA_molecule" id="T21" lex="chloramphenicol_acetyl_transferase_(CAT)_reporter_gene"><term sem="Protein_molecule" id="T22" lex="chloramphenicol_acetyl_transferase">chloramphenicol acetyl transferase</term> (CAT) reporter gene</term> regulated by the <term sem="DNA_domain_or_region" id="A115"><term sem="DNA_domain_or_region" id="T23" lex="thymidine_kinase_promoter"><term sem="Protein_molecule" id="T24" lex="thymidine_kinase">thymidine kinase</term> promoter</term> containing <term sem="DNA_domain_or_region" id="T25" lex="GAL4_DNA_binding_site"><term sem="Protein_molecule" id="T26" lex="GAL4">GAL4</term> DNA binding sites</term></term> into <term sem="Cell_cultured" id="T27" lex="NIH_3T3">NIH 3T3</term>, <term sem="Cell_cultured" id="T28" lex="293">293</term>, <term sem="Cell_cultured" id="T29" lex="K562">K562</term>, and <term sem="Cell_cultured" id="T30" lex="Jurkat_cell_line">Jurkat <term sem="Cell_cultured" id="A101">cell lines</term></term>.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T21" />
+<cause idref="A115" />
+<clue>The expression vector was cotransfected with the chloramphenicol acetyl transferase (CAT) reporter gene <clueType>regulated</clueType> <linkCause>by</linkCause> the thymidine kinase promoter containing GAL4 DNA binding sites into NIH 3T3, 293, K562, and Jurkat cell lines.</clue>
+<comment>TPS A115</comment>
+</event>
+<event id="E60">
+<type class="Artificial_process" />
+<theme idref="T17" />
+<theme idref="T21" />
+<theme idref1="A101" idref="T27" />
+<clue><corefTheme>The expression vector</corefTheme> was <clueType>cotransfected</clueType> <linkTheme>with</linkTheme> the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites <linkTheme>into</linkTheme> NIH 3T3, 293, K562, and Jurkat cell lines.</clue>
+</event>
+<event id="E61">
+<type class="Artificial_process" />
+<theme idref="T17" />
+<theme idref="T21" />
+<theme idref1="A101" idref="T28" />
+<clue><corefTheme>The expression vector</corefTheme> was <clueType>cotransfected</clueType> <linkTheme>with</linkTheme> the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites <linkTheme>into</linkTheme> NIH 3T3, 293, K562, and Jurkat cell lines.</clue>
+</event>
+<event id="E62">
+<type class="Artificial_process" />
+<theme idref="T17" />
+<theme idref="T21" />
+<theme idref1="A101" idref="T29" />
+<clue><corefTheme>The expression vector</corefTheme> was <clueType>cotransfected</clueType> <linkTheme>with</linkTheme> the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites <linkTheme>into</linkTheme> NIH 3T3, 293, K562, and Jurkat cell lines.</clue>
+</event>
+<event id="E63">
+<type class="Artificial_process" />
+<theme idref="T17" />
+<theme idref="T21" />
+<theme idref1="A101" idref="T30" />
+<clue><corefTheme>The expression vector</corefTheme> was <clueType>cotransfected</clueType> <linkTheme>with</linkTheme> the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites <linkTheme>into</linkTheme> NIH 3T3, 293, K562, and Jurkat cell lines.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue><corefTheme>The expression vector</corefTheme> was <clueType>cotransfected</clueType> with the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites <clueLoc>into NIH 3T3</clueLoc>, 293, K562, and Jurkat <clueLoc>cell lines</clueLoc>.</clue>
+</event>
+<event id="E140">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue><corefTheme>The expression vector</corefTheme> was <clueType>cotransfected</clueType> with the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites <clueLoc>into</clueLoc> NIH 3T3, <clueLoc>293</clueLoc>, K562, and Jurkat <clueLoc>cell lines</clueLoc>.</clue>
+</event>
+<event id="E141">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue><corefTheme>The expression vector</corefTheme> was <clueType>cotransfected</clueType> with the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites <clueLoc>into</clueLoc> NIH 3T3, 293, <clueLoc>K562</clueLoc>, and Jurkat <clueLoc>cell lines</clueLoc>.</clue>
+</event>
+<event id="E142">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue><corefTheme>The expression vector</corefTheme> was <clueType>cotransfected</clueType> with the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites <clueLoc>into</clueLoc> NIH 3T3, 293, K562, and <clueLoc>Jurkat cell lines</clueLoc>.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E60" />
+<clue>The expression vector was <clueType>cotransfected</clueType> with the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites <clueLoc>into NIH 3T3</clueLoc>, 293, K562, and Jurkat <clueLoc>cell lines</clueLoc>.</clue>
+</event>
+<event id="E240">
+<type class="Positive_regulation" />
+<theme idref="E140" />
+<cause idref="E61" />
+<clue>The expression vector was <clueType>cotransfected</clueType> with the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites <clueLoc>into</clueLoc> NIH 3T3, <clueLoc>293</clueLoc>, K562, and Jurkat <clueLoc>cell lines</clueLoc>.</clue>
+</event>
+<event id="E241">
+<type class="Positive_regulation" />
+<theme idref="E141" />
+<cause idref="E62" />
+<clue>The expression vector was <clueType>cotransfected</clueType> with the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites <clueLoc>into</clueLoc> NIH 3T3, 293, <clueLoc>K562</clueLoc>, and Jurkat <clueLoc>cell lines</clueLoc>.</clue>
+</event>
+<event id="E242">
+<type class="Positive_regulation" />
+<theme idref="E142" />
+<cause idref="E63" />
+<clue>The expression vector was <clueType>cotransfected</clueType> with the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites <clueLoc>into</clueLoc> NIH 3T3, 293, K562, and <clueLoc>Jurkat cell lines</clueLoc>.</clue>
+</event>
+<sentence id="S7"><term sem="Protein_molecule" id="T31" lex="MZF-1">MZF-1</term> represses <term sem="Other" id="T32" lex="CAT_reporter_gene_expression"><term sem="DNA_molecule" id="T33" lex="CAT_reporter_gene">CAT reporter gene</term> expression</term> via <term sem="Protein_molecule" id="T34" lex="GAL4">GAL4</term> binding sites in the <term sem="Cell_cultured" id="T35" lex="nonhematopoietic_cell_line">nonhematopoietic cell lines</term> <term sem="Cell_cultured" id="T36" lex="NIH_3T3">NIH 3T3</term> and <term sem="Cell_cultured" id="T37" lex="293">293</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T34" />
+<clue>MZF-1 represses CAT reporter gene expression <linkCause>via</linkCause> GAL4 binding sites <clueLoc>in the nonhematopoietic cell lines NIH 3T3</clueLoc> and 293.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E7" />
+<cause idref="T31" />
+<clue>MZF-1 <clueType>represses</clueType> CAT reporter gene expression via GAL4 binding sites <clueLoc>in the nonhematopoietic cell lines NIH 3T3</clueLoc> and 293.</clue>
+<comment>NER: T31, DNA_domain_or_region -&gt; Protein_molecule</comment>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>MZF-1 represses CAT reporter gene <clueType>expression</clueType> via GAL4 binding sites <clueLoc>in the nonhematopoietic cell lines NIH 3T3</clueLoc> and 293.</clue>
+</event>
+<event id="E501">
+<type class="Positive_regulation" />
+<theme idref="E601" />
+<cause idref="T34" />
+<clue>MZF-1 represses CAT reporter gene expression <linkCause>via</linkCause> GAL4 binding sites <clueLoc>in the nonhematopoietic cell lines</clueLoc> NIH 3T3 and <clueLoc>293</clueLoc>.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E601">
+<type class="Negative_regulation" />
+<theme idref="E701" />
+<cause idref="T31" />
+<clue>MZF-1 <clueType>represses</clueType> CAT reporter gene expression via GAL4 binding sites <clueLoc>in the nonhematopoietic cell lines</clueLoc> NIH 3T3 and <clueLoc>293</clueLoc>.</clue>
+<comment>NER: T31, DNA_domain_or_region -&gt; Protein_molecule</comment>
+</event>
+<event id="E701">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>MZF-1 represses CAT reporter gene <clueType>expression</clueType> via GAL4 binding sites <clueLoc>in the nonhematopoietic cell lines</clueLoc> NIH 3T3 and <clueLoc>293</clueLoc>.</clue>
+</event>
+<sentence id="S8">In contrast, <term sem="Protein_molecule" id="T38" lex="MZF-1">MZF-1</term> activates <term sem="Other" id="T39" lex="CAT_reporter_gene_expression"><term sem="DNA_molecule" id="T40" lex="CAT_reporter_gene">CAT reporter gene</term> expression</term> in the <term sem="Cell_cultured" id="T41" lex="hematopoietic_cell_line">hematopoietic cell lines</term> <term sem="Cell_cultured" id="T42" lex="K562">K562</term> and <term sem="Cell_cultured" id="T43" lex="Jurkat">Jurkat</term>.</sentence>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>In contrast, MZF-1 activates CAT reporter gene <clueType>expression</clueType> <clueLoc>in the hematopoietic cell lines K562</clueLoc> and Jurkat.</clue>
+</event>
+<event id="E801">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>In contrast, MZF-1 activates CAT reporter gene <clueType>expression</clueType> <clueLoc>in the hematopoietic cell lines</clueLoc> K562 and <clueLoc>Jurkat</clueLoc>.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T38" />
+<clue>In contrast, MZF-1 <clueType>activates</clueType> CAT reporter gene expression <clueLoc>in the hematopoietic cell lines K562</clueLoc> and Jurkat.</clue>
+<comment>NER: T38, DNA_domain_or_region -&gt; Protein_molecule</comment>
+</event>
+<event id="E901">
+<type class="Positive_regulation" />
+<theme idref="E801" />
+<cause idref="T38" />
+<clue>In contrast, MZF-1 <clueType>activates</clueType> CAT reporter gene expression <clueLoc>in the hematopoietic cell lines</clueLoc> K562 and <clueLoc>Jurkat</clueLoc>.</clue>
+<comment>NER: T38, DNA_domain_or_region -&gt; Protein_molecule</comment>
+</event>
+<sentence id="S9">The <term sem="DNA_domain_or_region" id="T44" lex="MZF-1_binding_site"><term sem="Protein_molecule" id="T45" lex="MZF-1">MZF-1</term> binding sites</term> are present in the <term sem="DNA_domain_or_region" id="T46" lex="promoter">promoters</term> of several <term sem="DNA_family_or_group" id="T47" lex="gene">genes</term> expressed during <term sem="Other" id="T48" lex="myeloid_differentiation"><term sem="Cell_natural" id="A2">myeloid</term> differentiation</term>, including the <term sem="DNA_domain_or_region" id="T49" lex="CD34_promoter">CD34 promoter</term>.</sentence>
+<event id="E10">
+<type class="Cell_differentiation" />
+<theme idref="A2" />
+<clue>The MZF-1 binding sites are present in the promoters of several genes expressed during myeloid <clueType>differentiation</clueType>, including the CD34 promoter.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T49" />
+<clue>The MZF-1 binding sites are present in the <corefTheme>promoters of several genes</corefTheme> <clueType>expressed</clueType> <clueTime>during myeloid differentiation</clueTime>, including the CD34 promoter.</clue>
+<comment>NER: T45, DNA_domain_or_region -&gt; Protein_molecule</comment>
+</event>
+<sentence id="S10"><term sem="Other" id="T50" lex="MZF-1_transcriptional_regulation"><term sem="Protein_molecule" id="T51" lex="MZF-1">MZF-1</term> transcriptional regulation</term> of this <term sem="DNA_domain_or_region" id="T52" lex="physiologically_relevant_promoter">physiologically relevant promoter</term> was assessed in both <term sem="Cell_cultured" id="T53" lex="hematopoietic_cell_line">hematopoietic</term> and <term sem="Cell_cultured" id="T54" lex="nonhematopoietic_cell_line">nonhematopoietic cell lines</term>.</sentence>
+<event uncertainty="doubtful" id="E12">
+<type class="Regulation" />
+<theme idref="T49" />
+<cause idref="T51" />
+<clue>MZF-1 <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> <corefTheme>this physiologically relevant promoter</corefTheme> was assessed <clueLoc>in</clueLoc> both <clueLoc>hematopoietic</clueLoc> and nonhematopoietic <clueLoc>cell lines</clueLoc>.</clue>
+<comment>NER: T51, DNA_domain_or_region -&gt; Protein_molecule</comment>
+</event>
+<event uncertainty="doubtful" id="E151">
+<type class="Regulation" />
+<theme idref="T49" />
+<cause idref="T51" />
+<clue>MZF-1 <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> <corefTheme>this physiologically relevant promoter</corefTheme> was assessed <clueLoc>in</clueLoc> both hematopoietic and <clueLoc>nonhematopoietic cell lines</clueLoc>.</clue>
+<comment>NER: T51, DNA_domain_or_region -&gt; Protein_molecule</comment>
+</event>
+<sentence id="S11"><term sem="Protein_molecule" id="T55" lex="recombinant_MZF-1_protein">Recombinant MZF-1 protein</term> specifically binds to the <term sem="DNA_domain_or_region" id="A110"><term sem="DNA_domain_or_region" id="T57" lex="consensus_binding_site">consensus binding sites</term> in the <term sem="DNA_domain_or_region" id="T58" lex="CD34_promoter">CD34 promoter</term></term> in <term sem="Other" id="T59" lex="mobility_shift_assay">mobility shift assays</term>.</sentence>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T55" />
+<theme idref="A110" />
+<clue>Recombinant MZF-1 protein specifically <clueType>binds</clueType> <linkTheme>to</linkTheme> the consensus binding sites in the CD34 promoter <clueExperiment>in mobility shift assays</clueExperiment>.</clue>
+<comment>TPS A110; NER: T56, del</comment>
+</event>
+<sentence id="S12"><term sem="Multicellular_organism_genetically_modified" id="T60" lex="MZF-1_expression_vector"><term sem="DNA_domain_or_region" id="T61" lex="MZF-1">MZF-1</term> expression vectors</term> were cotransfected with the <term sem="DNA_molecule" id="T62" lex="luciferase_reporter_plasmid">luciferase reporter plasmids</term> regulated by the <term sem="DNA_domain_or_region" id="T63" lex="CD34_promoter">CD34 promoter</term> into both <cons sem="(AND Cell_cultured Cell_cultured)" id="T64" lex="(AND nonhematopoietic_cell_line hematopoietic_cell_line)"><frag id="F1">nonhematopoietic</frag> and <frag id="F2">hematopoietic</frag> <frag id="F3">cell lines</frag></cons>.</sentence>
+<event id="E23">
+<type class="Regulation" />
+<theme idref="T62" />
+<cause idref="T63" />
+<clue>MZF-1 expression vectors were cotransfected with the luciferase reporter plasmids <clueType>regulated</clueType> <linkCause>by</linkCause> the CD34 promoter into both nonhematopoietic and hematopoietic cell lines.</clue>
+</event>
+<event id="E120">
+<type class="Artificial_process" />
+<theme idref="T60" />
+<theme idref="T62" />
+<theme idref1="F3" idref="F1" />
+<clue>MZF-1 expression vectors were <clueType>cotransfected</clueType> <linkTheme>with</linkTheme> the luciferase reporter plasmids regulated by the CD34 promoter <linkTheme>into</linkTheme> both nonhematopoietic and hematopoietic cell lines.</clue>
+</event>
+<event id="E121">
+<type class="Artificial_process" />
+<theme idref="T60" />
+<theme idref="T62" />
+<theme idref1="F3" idref="F2" />
+<clue>MZF-1 expression vectors were <clueType>cotransfected</clueType> <linkTheme>with</linkTheme> the luciferase reporter plasmids regulated by the CD34 promoter <linkTheme>into</linkTheme> both nonhematopoietic and hematopoietic cell lines.</clue>
+</event>
+<sentence id="S13">As with the heterologous <term sem="Protein_domain_or_region" id="T65" lex="DNA_binding_domain">DNA binding domain</term>, <term sem="Protein_molecule" id="T66" lex="MZF-1">MZF-1</term> represses <term sem="Other" id="T67" lex="reporter_gene_expression"><term sem="DNA_family_or_group" id="T68" lex="reporter_gene">reporter gene</term> expression</term> in <term sem="Cell_cultured" id="T69" lex="nonhematopoietic_cell_line">nonhematopoietic cell lines</term> and activates expression in <term sem="Cell_cultured" id="T70" lex="hematopoietic_cell_line">hematopoietic cell lines</term>.</sentence>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T68" />
+<clue>As with the heterologous DNA binding domain, MZF-1 represses reporter gene <clueType>expression</clueType> <clueLoc>in nonhematopoietic cell lines</clueLoc> and activates expression in hematopoietic cell lines.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E15" />
+<cause idref="T66" />
+<clue>As with the heterologous DNA binding domain, MZF-1 <clueType>represses</clueType> reporter gene expression <clueLoc>in nonhematopoietic cell lines</clueLoc> and activates expression in hematopoietic cell lines.</clue>
+<comment>NER: T66, DNA_domain_or_region -&gt; Protein_molecule</comment>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="T66" />
+<clue>As with the heterologous DNA binding domain, MZF-1 represses reporter gene expression in nonhematopoietic cell lines and <clueType>activates</clueType> <corefTheme>expression</corefTheme> <clueLoc>in hematopoietic cell lines</clueLoc>.</clue>
+<comment>NER: T66, DNA_domain_or_region -&gt; Protein_molecule</comment>
+</event>
+<sentence id="S14">Activation of <term sem="Other" id="T71" lex="CD34_expression"><term sem="Protein_molecule" id="T72" lex="CD34">CD34</term> expression</term> in <term sem="Cell_cultured" id="T73" lex="hematopoietic_cell_line">hematopoietic cell lines</term> is dependent on the presence of intact <term sem="DNA_domain_or_region" id="T74" lex="MZF-1_binding_site"><term sem="Protein_molecule" id="T75" lex="MZF-1">MZF-1</term> binding sites</term>.</sentence>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T72" />
+<clue>Activation of CD34 <clueType>expression</clueType> <clueLoc>in hematopoietic cell lines</clueLoc> is dependent on the presence of intact MZF-1 binding sites.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> CD34 expression <clueLoc>in hematopoietic cell lines</clueLoc> is dependent on the presence of intact MZF-1 binding sites.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T74" />
+<clue>Activation of CD34 expression in hematopoietic cell lines is <clueType>dependent</clueType> <linkCause>on</linkCause> the presence of intact MZF-1 binding sites.</clue>
+<comment>NER: T75, DNA_domain_or_region -&gt; Protein_molecule</comment>
+</event>
+<sentence id="S15">The cell type-specific regulation of the <term sem="DNA_domain_or_region" id="T76" lex="CD34_promoter">CD34 promoter</term> by <term sem="Protein_molecule" id="T77" lex="MZF-1">MZF-1</term> suggests the presence of tissue-specific <term sem="Protein_family_or_group" id="A15">regulators/adapters</term> or differential <term sem="Other" id="T78" lex="MZF-1_modification"><term sem="Protein_molecule" id="T79" lex="MZF-1">MZF-1</term> modifications</term> that determine <term sem="Protein_molecule" id="T80" lex="MZF-1">MZF-1</term> <term sem="Other" id="T81" lex="transcriptional_regulatory_function">transcriptional regulatory function</term>.</sentence>
+<event id="E21">
+<type class="Regulation" />
+<theme idref="T76" />
+<cause idref="T77" />
+<clue>The cell type-specific <clueType>regulation</clueType> <linkTheme>of</linkTheme> the CD34 promoter <linkCause>by</linkCause> MZF-1 suggests the presence of tissue-specific regulators/adapters or differential MZF-1 modifications that determine MZF-1 transcriptional regulatory function.</clue>
+</event>
+<event id="E22">
+<type class="Protein_modification" />
+<theme idref="T79" />
+<clue>The cell type-specific regulation of the CD34 promoter by MZF-1 suggests the presence of tissue-specific regulators/adapters or differential MZF-1 <clueType>modifications</clueType> that determine MZF-1 transcriptional regulatory function.</clue>
+<comment>NER: T77, T79 &amp; T80, DNA_domain_or_region -&gt; Protein_molecule</comment>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Regulation" />
+<theme idref="E21" />
+<cause idref="A15" />
+<clue>The cell type-specific regulation of the CD34 promoter by MZF-1 suggests the presence of tissue-specific regulators/adapters or differential MZF-1 modifications that <clueType>determine</clueType> <corefTheme>MZF-1 transcriptional regulatory function</corefTheme>.</clue>
+</event>
+<event uncertainty="probable" id="E26">
+<type class="Regulation" />
+<theme idref="E21" />
+<cause idref="E22" />
+<clue>The cell type-specific regulation of the CD34 promoter by MZF-1 suggests the presence of tissue-specific regulators/adapters or differential MZF-1 modifications that <clueType>determine</clueType> <corefTheme>MZF-1 transcriptional regulatory function</corefTheme>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

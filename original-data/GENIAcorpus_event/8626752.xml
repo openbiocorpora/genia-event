@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="08/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8626752" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8626752</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Preassociation of <term sem="Protein_molecule" id="T1" lex="STAT1">STAT1</term> with <term sem="Protein_molecule" id="T2" lex="STAT2">STAT2</term> and <term sem="Protein_molecule" id="T3" lex="STAT3">STAT3</term> in separate <term sem="Protein_complex" id="T4" lex="signalling_complex">signalling complexes</term> prior to <term sem="Other" id="T5" lex="cytokine_stimulation"><term sem="Protein_family_or_group" id="T6" lex="cytokine">cytokine</term> stimulation</term>.</sentence>
+<event id="E1">
+<type class="Correlation" />
+<theme idref="T1" />
+<theme idref="T2" />
+<clue>Pre<clueType>association</clueType> <linkTheme>of</linkTheme> STAT1 <linkTheme>with</linkTheme> STAT2 and STAT3 in separate signalling complexes prior to cytokine stimulation.</clue>
+</event>
+<event id="E2">
+<type class="Correlation" />
+<theme idref="T1" />
+<theme idref="T3" />
+<clue>Pre<clueType>association</clueType> <linkTheme>of</linkTheme> STAT1 <linkTheme>with</linkTheme> STAT2 and STAT3 in separate signalling complexes prior to cytokine stimulation.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<cause idref="T6" />
+<clue>Preassociation of STAT1 with STAT2 and STAT3 in separate signalling complexes prior to cytokine <clueType>stimulation</clueType>.</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T4" />
+<cause idref="E1" />
+<clue>Preassociation of STAT1 with STAT2 and STAT3 in <clueType>separate</clueType> signalling complexes <clueTime>prior to cytokine stimulation</clueTime>.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="T4" />
+<cause idref="E2" />
+<clue>Preassociation of STAT1 with STAT2 and STAT3 in <clueType>separate</clueType> signalling complexes <clueTime>prior to cytokine stimulation</clueTime>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A variety of <term sem="Protein_family_or_group" id="T7" lex="cytokine">cytokines</term> and <term sem="Protein_family_or_group" id="T8" lex="growth_factor">growth factors</term> act through an induction of <term sem="Other" id="T9" lex="gene_expression">gene expression</term> mediated by a family of <term sem="Protein_family_or_group" id="T10" lex="latent_transcription_factor">latent transcription factors</term> called <term sem="Protein_family_or_group" id="T11" lex="STAT_(signal_transducers_and_activators_of_transcription)_protein"><term sem="Protein_family_or_group" id="T12" lex="STAT">STAT</term> (signal transducers and activators of transcription) proteins</term>.</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T9" />
+<cause idref="T12" />
+<clue>A variety of cytokines and growth factors act through an induction of gene expression <clueType>mediated</clueType> <linkCause>by</linkCause> <corefCause>a family of latent transcription factors</corefCause> called STAT (signal transducers and activators of transcription) proteins.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T7" />
+<clue>A variety of cytokines and growth factors <clueType>act through an induction</clueType> <linkTheme>of</linkTheme> gene expression mediated by a family of latent transcription factors called STAT (signal transducers and activators of transcription) proteins.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T8" />
+<clue>A variety of cytokines and growth factors <clueType>act through an induction</clueType> <linkTheme>of</linkTheme> gene expression mediated by a family of latent transcription factors called STAT (signal transducers and activators of transcription) proteins.</clue>
+</event>
+<sentence id="S3"><term sem="Other" id="T13" lex="ligand-induced_tyrosine_phosphorylation"><term sem="Protein_family_or_group" id="A1">Ligand</term>-induced <term sem="Amino_acid_monomer" id="A5" lex="tyrosine">tyrosine</term> phosphorylation</term> of the <term sem="Protein_family_or_group" id="T14" lex="STAT">STATs</term> promotes their <cons sem="(AND Biologicai_process Other)" id="T15" lex="(AND homodimer_formation heterodimer_formation)"><frag id="F1">homodimer</frag> and <frag id="F2">heterodimer</frag> <frag id="F3">formation</frag></cons> and subsequent <term sem="Other" id="T16" lex="nuclear_translocation">nuclear translocation</term>.</sentence>
+<event id="E9">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T14" />
+<site idref="A5" /><clue>Ligand-induced tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> the STATs promotes their homodimer and heterodimer formation and subsequent nuclear translocation.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="A1" />
+<clue>Ligand-<linkCause>induced</linkCause> tyrosine phosphorylation of the STATs promotes their homodimer and heterodimer formation and subsequent nuclear translocation.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E10">
+<type class="Binding" />
+<theme idref="T14" />
+<theme idref="T14" />
+<clue>Ligand-induced tyrosine phosphorylation of the STATs promotes <corefTheme>their</corefTheme> <clueType>homodimer</clueType> and heterodimer <clueType>formation</clueType> and subsequent nuclear translocation.</clue>
+</event>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T14" />
+<theme idref="T14" />
+<clue>Ligand-induced tyrosine phosphorylation of the STATs promotes <corefTheme>their</corefTheme> homodimer and <clueType>heterodimer formation</clueType> and subsequent nuclear translocation.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="E9" />
+<clue>Ligand-induced tyrosine phosphorylation of the STATs <clueType>promotes</clueType> their homodimer and heterodimer formation and subsequent nuclear translocation.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="E9" />
+<clue>Ligand-induced tyrosine phosphorylation of the STATs <clueType>promotes</clueType> their homodimer and heterodimer formation and subsequent nuclear translocation.</clue>
+</event>
+<event id="E14">
+<type class="Localization" />
+<theme idref="E10" />
+<clue>Ligand-induced tyrosine phosphorylation of the STATs promotes their homodimer and heterodimer formation and subsequent <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType>.</clue>
+<comment>CAUTION: E10 =STAT homodimer</comment>
+</event>
+<event id="E15">
+<type class="Localization" />
+<theme idref="E11" />
+<clue>Ligand-induced tyrosine phosphorylation of the STATs promotes their homodimer and heterodimer formation and subsequent <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType>.</clue>
+<comment>CAUTION: E11 =STAT heterodimer</comment>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E12" />
+<clue>Ligand-induced tyrosine phosphorylation of the STATs <clueType>promotes</clueType> their homodimer and heterodimer formation and <linkCause>subsequent</linkCause> nuclear translocation.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<cause idref="E13" />
+<clue>Ligand-induced tyrosine phosphorylation of the STATs <clueType>promotes</clueType> their homodimer and heterodimer formation and <linkCause>subsequent</linkCause> nuclear translocation.</clue>
+</event>
+<sentence id="S4">We demonstrate here that <term sem="Protein_complex" id="T17" lex="STAT_protein_heterocomplex">STAT protein heterocomplexes</term> exist prior to <term sem="Other" id="T18" lex="cytokine_treatment"><term sem="Protein_family_or_group" id="T19" lex="cytokine">cytokine</term> treatment</term>.</sentence>
+<sentence id="S5">When <term sem="Cell_cultured" id="T20" lex="unstimulated_HeLa_cell">unstimulated HeLa cells</term> are ruptured in <term sem="Organic_compound_other" id="T21" lex="hypotonic_buffer">hypotonic buffer</term> without <term sem="Inorganic_compound" id="T22" lex="salt">salt</term> or <term sem="Organic_compound_other" id="T23" lex="detergent">detergent</term>, <term sem="Other" id="T24" lex="immunoadsorption">immunoadsorption</term> of either <term sem="Protein_molecule" id="T25" lex="STAT1">STAT1</term> or <term sem="Protein_molecule" id="T26" lex="STAT2">STAT2</term> from the resulting <term sem="Cell_component" id="T27" lex="cytosol">cytosol</term> yields <term sem="Other" id="T28" lex="coimmunoadsorption">coimmunoadsorption</term> of the other <term sem="Protein_family_or_group" id="T29" lex="STAT_protein">STAT protein</term>.</sentence>
+<event id="E18">
+<type class="Binding" />
+<theme idref="T25" />
+<theme idref="T29" />
+<clue><clueExperiment>When unstimulated HeLa cells are ruptured in hypotonic buffer without salt or detergent</clueExperiment>, immunoadsorption of either STAT1 or STAT2 from the resulting <clueLoc>cytosol</clueLoc> <clueType>yields coimmunoadsorption</clueType> <linkTheme>of</linkTheme> the other STAT protein.</clue>
+</event>
+<event id="E118">
+<type class="Binding" />
+<theme idref="T26" />
+<theme idref="T29" />
+<clue><clueExperiment>When unstimulated HeLa cells are ruptured in hypotonic buffer without salt or detergent</clueExperiment>, immunoadsorption of either STAT1 or STAT2 from the resulting <clueLoc>cytosol</clueLoc> <clueType>yields coimmunoadsorption</clueType> <linkTheme>of</linkTheme> the other STAT protein.</clue>
+</event>
+<sentence id="S6">Similarly, <term sem="Protein_complex" id="A2"><term sem="Protein_molecule" id="T30" lex="STAT1">STAT1</term><term sem="Protein_molecule" id="T31" lex="STAT3">-STAT3</term> heterocomplexes</term> are coimmunoadsorbed from <term sem="Cell_component" id="T32" lex="hypotonic_cytosol">hypotonic <term sem="Cell_component" id="T33" lex="cytosol">cytosol</term></term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T30" />
+<theme idref="T31" />
+<clue>Similarly, STAT1-STAT3 <clueType>heterocomplexes are coimmunoadsorbed</clueType> <clueLoc>from hypotonic cytosol</clueLoc>.</clue>
+</event>
+<sentence id="S7"><term sem="Protein_molecule" id="T34" lex="STAT1">STAT1</term> and <term sem="Protein_molecule" id="T35" lex="STAT2">STAT2</term> or <term sem="Protein_molecule" id="T36" lex="STAT1">STAT1</term> and <term sem="Protein_molecule" id="T37" lex="STAT3">STAT3</term> translated in <term sem="Protein_family_or_group" id="T38" lex="reticulocyte_lysate">reticulocyte lysate</term> spontaneously form heterocomplexes when the <term sem="Protein_family_or_group" id="T39" lex="translation_lysate">translation lysates</term> are mixed at 0 degrees C.</sentence>
+<event id="E20">
+<type class="Translation" />
+<theme idref="T34" />
+<clue>STAT1 and STAT2 or STAT1 and STAT3 <clueType>translated</clueType> <clueLoc>in reticulocyte lysate</clueLoc> spontaneously form heterocomplexes when the translation lysates are mixed at 0 degrees C.</clue>
+</event>
+<event id="E21">
+<type class="Translation" />
+<theme idref="T35" />
+<clue>STAT1 and STAT2 or STAT1 and STAT3 <clueType>translated</clueType> <clueLoc>in reticulocyte lysate</clueLoc> spontaneously form heterocomplexes when the translation lysates are mixed at 0 degrees C.</clue>
+</event>
+<event id="E22">
+<type class="Translation" />
+<theme idref="T36" />
+<clue>STAT1 and STAT2 or STAT1 and STAT3 <clueType>translated</clueType> <clueLoc>in reticulocyte lysate</clueLoc> spontaneously form heterocomplexes when the translation lysates are mixed at 0 degrees C.</clue>
+</event>
+<event id="E23">
+<type class="Translation" />
+<theme idref="T37" />
+<clue>STAT1 and STAT2 or STAT1 and STAT3 <clueType>translated</clueType> <clueLoc>in reticulocyte lysate</clueLoc> spontaneously form heterocomplexes when the translation lysates are mixed at 0 degrees C.</clue>
+</event>
+<event id="E24">
+<type class="Binding" />
+<theme idref="T34" />
+<theme idref="T35" />
+<clue>STAT1 and STAT2 or STAT1 and STAT3 translated in reticulocyte lysate <clueType>spontaneously form heterocomplexes</clueType> when the translation lysates are mixed at 0 degrees C.</clue>
+</event>
+<event id="E25">
+<type class="Binding" />
+<theme idref="T36" />
+<theme idref="T37" />
+<clue>STAT1 and STAT2 or STAT1 and STAT3 translated in reticulocyte lysate <clueType>spontaneously form heterocomplexes</clueType> when the translation lysates are mixed at 0 degrees C.</clue>
+</event>
+<event id="E26">
+<type class="Artificial_process" />
+<theme idref="T34" />
+<theme idref="T35" />
+<clue>STAT1 and STAT2 or STAT1 and STAT3 translated in reticulocyte lysate spontaneously form heterocomplexes when <corefTheme>the translation lysates</corefTheme> are <clueType>mixed</clueType> at 0 degrees C.</clue>
+</event>
+<event id="E27">
+<type class="Artificial_process" />
+<theme idref="T36" />
+<theme idref="T37" />
+<clue>STAT1 and STAT2 or STAT1 and STAT3 translated in reticulocyte lysate spontaneously form heterocomplexes when <corefTheme>the translation lysates</corefTheme> are <clueType>mixed</clueType> at 0 degrees C.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E26" />
+<clue>STAT1 and STAT2 or STAT1 and STAT3 translated in reticulocyte lysate spontaneously form heterocomplexes <linkCause>when</linkCause> the translation lysates are mixed at 0 degrees C.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="E27" />
+<clue>STAT1 and STAT2 or STAT1 and STAT3 translated in reticulocyte lysate spontaneously form heterocomplexes <linkCause>when</linkCause> the translation lysates are mixed at 0 degrees C.</clue>
+</event>
+<sentence id="S8">Our data suggest that <term sem="Other" id="T40" lex="interferon-alpha_/beta-induced_tyrosine_phosphorylation"><term sem="Protein_molecule" id="A3">interferon-</term><term sem="Protein_molecule" id="T41" lex="interferon-alpha">alpha</term> /<term sem="Protein_molecule" id="A4">beta</term>-induced <term sem="Amino_acid_monomer" id="A6" lex="tyrosine">tyrosine</term> phosphorylation</term> increases the stability of a preexisting, latent, <term sem="Protein_complex" id="T43" lex="STAT2_signaling_complex"><term sem="Protein_molecule" id="T42" lex="STAT1">STAT1</term>-<term sem="Protein_molecule" id="T44" lex="STAT2">STAT2</term> signaling complex</term>.</sentence>
+<event id="E30">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T43" />
+<site idref="A6" /><clue>Our data suggest that interferon-alpha /beta-induced tyrosine <clueType>phosphorylation</clueType> increases the stability of a preexisting, latent, STAT1-STAT2 signaling complex.</clue>
+<comment>NER T41,T43 MOD, NO COREFTHEME</comment>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref1="T41" idref="A3" />
+<clue>Our data suggest that interferon-alpha /beta-<clueType>induced</clueType> tyrosine phosphorylation increases the stability of a preexisting, latent, STAT1-STAT2 signaling complex.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref1="A4" idref="A3" />
+<clue>Our data suggest that interferon-alpha /beta-<clueType>induced</clueType> tyrosine phosphorylation increases the stability of a preexisting, latent, STAT1-STAT2 signaling complex.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="T43" />
+<cause idref="E31" />
+<clue>Our data suggest that interferon-alpha /beta-induced tyrosine phosphorylation <clueType>increases the stability</clueType> <linkTheme>of</linkTheme> a preexisting, latent, STAT1-STAT2 signaling complex.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="T43" />
+<cause idref="E32" />
+<clue>Our data suggest that interferon-alpha /beta-induced tyrosine phosphorylation <clueType>increases the stability</clueType> <linkTheme>of</linkTheme> a preexisting, latent, STAT1-STAT2 signaling complex.</clue>
+</event>
+<sentence id="S9">Newly translated <term sem="Protein_molecule" id="T45" lex="STAT1">STAT1</term> binds in equilibrium fashion to <term sem="Protein_molecule" id="T46" lex="STAT2">STAT2</term> and <term sem="Protein_molecule" id="T47" lex="STAT3">STAT3</term>, but we show that <term sem="Protein_molecule" id="T48" lex="STAT2">STAT2</term> and <term sem="Protein_molecule" id="T49" lex="STAT3">STAT3</term> exist in separate <term sem="Protein_complex" id="T50" lex="heterocomplex">heterocomplexes</term> with <term sem="Protein_molecule" id="T51" lex="STAT1">STAT1</term>, consistent with a model in which <term sem="Protein_molecule" id="T52" lex="STAT1">STAT1</term> contains a common binding site for other <term sem="Protein_family_or_group" id="T53" lex="STAT_protein">STAT proteins</term>.</sentence>
+<event id="E36">
+<type class="Translation" />
+<theme idref="T45" />
+<clue>Newly <clueType>translated</clueType> STAT1 binds in equilibrium fashion to STAT2 and STAT3, but we show that STAT2 and STAT3 exist in separate heterocomplexes with STAT1, consistent with a model in which STAT1 contains a common binding site for other STAT proteins.</clue>
+</event>
+<event id="E37">
+<type class="Binding" />
+<theme idref="T45" />
+<theme idref="T46" />
+<clue>Newly translated STAT1 <clueType>binds</clueType> in equilibrium fashion to STAT2 and STAT3, but we show that STAT2 and STAT3 exist in separate heterocomplexes with STAT1, consistent with a model in which STAT1 contains a common binding site for other STAT proteins.</clue>
+</event>
+<event id="E38">
+<type class="Binding" />
+<theme idref="T45" />
+<theme idref="T47" />
+<clue>Newly translated STAT1 <clueType>binds</clueType> in equilibrium fashion to STAT2 and STAT3, but we show that STAT2 and STAT3 exist in separate heterocomplexes with STAT1, consistent with a model in which STAT1 contains a common binding site for other STAT proteins.</clue>
+</event>
+<event id="E39">
+<type class="Binding" />
+<theme idref="T48" />
+<theme idref="T51" />
+<clue>Newly translated STAT1 binds in equilibrium fashion to STAT2 and STAT3, but we show that STAT2 and STAT3 <clueType>exist in separate heterocomplexes</clueType> <linkTheme>with</linkTheme> STAT1, consistent with a model in which STAT1 contains a common binding site for other STAT proteins.</clue>
+</event>
+<event id="E40">
+<type class="Binding" />
+<theme idref="T49" />
+<theme idref="T51" />
+<clue>Newly translated STAT1 binds in equilibrium fashion to STAT2 and STAT3, but we show that STAT2 and STAT3 <clueType>exist in separate heterocomplexes</clueType> <linkTheme>with</linkTheme> STAT1, consistent with a model in which STAT1 contains a common binding site for other STAT proteins.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

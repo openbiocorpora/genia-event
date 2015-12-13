@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="20/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10329626" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10329626</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="T1" lex="Rel/NF-kappaB">Rel/NF-kappaB</term> can trigger the <term sem="Other" id="T2" lex="Notch_signaling_pathway"><term sem="Protein_family_or_group" id="A45">Notch</term> signaling pathway</term> by inducing the expression of <term sem="Protein_molecule" id="T3" lex="Jagged1">Jagged1</term>, a ligand for <term sem="Protein_family_or_group" id="T4" lex="Notch_receptor">Notch receptors</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T3" />
+<theme idref="T4" />
+<clue>Rel/NF-kappaB can trigger the Notch signaling pathway by inducing the expression of Jagged1, a <clueType>ligand</clueType> <linkTheme>for</linkTheme> Notch receptors.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>Rel/NF-kappaB can trigger the Notch signaling pathway by inducing the <clueType>expression</clueType> <linkTheme>of</linkTheme> Jagged1, a ligand for Notch receptors.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Rel/NF-kappaB can trigger the Notch signaling pathway by <clueType>inducing</clueType> the expression of Jagged1, a ligand for Notch receptors.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E104" />
+<cause idref="E3" />
+<clue>Rel/NF-kappaB can <clueType>trigger</clueType> the Notch signaling pathway <linkCause>by</linkCause> inducing the expression of Jagged1, a ligand for Notch receptors.</clue>
+</event>
+<event id="E104">
+<type class="Cell_communication" />
+<theme idref="A45" />
+<clue>Rel/NF-kappaB can trigger the Notch <clueType>signaling pathway</clueType> by inducing the expression of Jagged1, a ligand for Notch receptors.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T5" lex="Jagged1">Jagged1</term> belongs to the <term sem="Protein_family_or_group" id="T6" lex="DSL_family_of_ligand"><term sem="Protein_family_or_group" id="A101">DSL family</term> of ligands</term> for <term sem="Protein_family_or_group" id="T7" lex="Notch_receptor">Notch receptors</term> that control the proliferation and differentiation of <term sem="Cell_natural" id="T8" lex="cell_lineage">various cell lineages</term>.</sentence>
+<event id="E5">
+<type class="Cellular_physiological_process" />
+<theme idref="T8" />
+<clue>Jagged1 belongs to the DSL family of ligands for Notch receptors that control the <clueType>proliferation</clueType> and differentiation <linkTheme>of</linkTheme> various cell lineages.</clue>
+<comment>NER T8 mod</comment>
+</event>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="T8" />
+<clue>Jagged1 belongs to the DSL family of ligands for Notch receptors that control the proliferation and <clueType>differentiation</clueType> <linkTheme>of</linkTheme> various cell lineages.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T7" />
+<clue>Jagged1 belongs to the DSL family of ligands for Notch receptors that <clueType>control</clueType> the proliferation and differentiation of various cell lineages.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="T7" />
+<clue>Jagged1 belongs to the DSL family of ligands for Notch receptors that <clueType>control</clueType> the proliferation and differentiation of various cell lineages.</clue>
+</event>
+<event id="E9">
+<type class="Binding" />
+<theme idref="A101" />
+<theme idref="T7" />
+<clue>Jagged1 belongs to the DSL family of <clueType>ligands</clueType> <linkTheme>for</linkTheme> Notch receptors that control the proliferation and differentiation of various cell lineages.</clue>
+</event>
+<sentence id="S3">However, little is known about the <term sem="Protein_family_or_group" id="T9" lex="transcription_factor">transcription factors</term> that regulate its expression.</sentence>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>However, little is known about the transcription factors that regulate <corefTheme>its</corefTheme> <clueType>expression</clueType>.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="T9" />
+<clue>However, little is known about the transcription factors that <clueType>regulate</clueType> its expression.</clue>
+</event>
+<sentence id="S4">Here, we show that <term sem="DNA_domain_or_region" id="T10" lex="Jagged1">Jagged1</term> is a <term sem="DNA_domain_or_region" id="T11" lex="Rel/NF-kappaB-responsive_gene"><term sem="Protein_molecule" id="T12" lex="Rel/NF-kappaB">Rel/NF-kappaB</term>-responsive gene</term>.</sentence>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="T10" />
+<cause idref="T12" />
+<clue>Here, we show that Jagged1 is a Rel/NF-kappaB-<clueType>responsive</clueType> gene.</clue>
+<comment>NER T10 MOD</comment>
+</event>
+<sentence id="S5">Both <term sem="Protein_molecule" id="T13" lex="c-Rel">c-Rel</term> and <term sem="Protein_molecule" id="T14" lex="RelA">RelA</term> induced <term sem="Other" id="T15" lex="jagged1_gene_expression"><term sem="DNA_domain_or_region" id="A1">jagged1 gene</term> expression</term>, whereas a <term sem="Protein_molecule" id="A2"><term sem="Protein_molecule" id="A44">mutant</term> defective for transactivation</term> did not.</sentence>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Both c-Rel and RelA induced jagged1 gene <clueType>expression</clueType>, whereas a mutant defective for transactivation did not.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T13" />
+<clue>Both c-Rel and RelA <clueType>induced</clueType> jagged1 gene expression, whereas a mutant defective for transactivation did not.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T14" />
+<clue>Both c-Rel and RelA <clueType>induced</clueType> jagged1 gene expression, whereas a mutant defective for transactivation did not.</clue>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref1="A2" idref="T13" />
+<clue>Both c-Rel and RelA <clueType>induced</clueType> jagged1 gene expression, whereas a mutant defective for transactivation did not.</clue>
+<comment>TPS A2</comment>
+</event>
+<event assertion="non-exist" id="E216">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref1="A2" idref="T14" />
+<clue>Both c-Rel and RelA <clueType>induced</clueType> jagged1 gene expression, whereas a mutant defective for transactivation did not.</clue>
+</event>
+<event assertion="non-exist" id="E116">
+<type class="Positive_regulation" />
+<cause idref1="A44" idref="T13" />
+<clue>Both c-Rel and RelA induced jagged1 gene expression, whereas a mutant defective for <clueType>transactivation</clueType> did not.</clue>
+</event>
+<event assertion="non-exist" id="E316">
+<type class="Positive_regulation" />
+<cause idref1="A44" idref="T14" />
+<clue>Both c-Rel and RelA induced jagged1 gene expression, whereas a mutant defective for <clueType>transactivation</clueType> did not.</clue>
+</event>
+<event assertion="non-exist" id="E17">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="A2" />
+<clue>Both c-Rel and RelA <clueType>induced</clueType> jagged1 gene expression, whereas a mutant defective for transactivation did not.</clue>
+</event>
+<sentence id="S6">Importantly, <term sem="RNA_molecule" id="T16" lex="jagged1_transcript">jagged1 transcripts</term> were also upregulated by endogenous <term sem="Other" id="T17" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T18" lex="NF-kappaB">NF-kappaB</term> activation</term> and this effect was inhibited by a <term sem="Protein_molecule" id="A3">dominant mutant of <term sem="Protein_molecule" id="T19" lex="IkappaBalpha">IkappaBalpha</term></term>, a physiological inhibitor of <term sem="Protein_complex" id="T20" lex="NF-kappaB">NF-kappaB</term>.</sentence>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T18" />
+<clue>Importantly, jagged1 transcripts were also upregulated by endogenous NF-kappaB <clueType>activation</clueType> and this effect was inhibited by a dominant mutant of IkappaBalpha, a physiological inhibitor of NF-kappaB.</clue>
+<comment>TPS A3</comment>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<cause idref="E18" />
+<clue>Importantly, jagged1 transcripts were also <clueType>upregulated</clueType> <linkCause>by</linkCause> endogenous NF-kappaB activation and this effect was inhibited by a dominant mutant of IkappaBalpha, a physiological inhibitor of NF-kappaB.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="A3" />
+<clue>Importantly, jagged1 transcripts were also upregulated by endogenous NF-kappaB activation and this effect was <clueType>inhibited</clueType> <linkCause>by</linkCause> a dominant mutant of IkappaBalpha, a physiological inhibitor of NF-kappaB.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="T20" />
+<cause idref="A3" />
+<clue>Importantly, jagged1 transcripts were also upregulated by endogenous NF-kappaB activation and this effect was inhibited by a dominant mutant of IkappaBalpha, a physiological <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> NF-kappaB.</clue>
+</event>
+<sentence id="S7">Cell surface expression of <term sem="Protein_molecule" id="T21" lex="Jagged1">Jagged1</term> in <term sem="Cell_cultured" id="T22" lex="c-Rel-expressing_cell_monolayer"><term sem="Protein_molecule" id="T23" lex="c-Rel">c-Rel</term>-expressing cell monolayers</term> led to a functional interaction with <term sem="Cell_natural" id="T24" lex="lymphocyte">lymphocytes</term> expressing the <term sem="Protein_molecule" id="T25" lex="Notch1/TAN-1_receptor">Notch1/TAN-1 receptor</term>.</sentence>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue><clueLoc>Cell surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> Jagged1 <clueLoc>in c-Rel-expressing cell monolayers</clueLoc> led to a functional interaction with lymphocytes expressing the Notch1/TAN-1 receptor.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue>Cell surface expression of Jagged1 in c-Rel-<clueType>expressing</clueType> <clueLoc>cell</clueLoc> monolayers led to a functional interaction with lymphocytes expressing the Notch1/TAN-1 receptor.</clue>
+</event>
+<event id="E24">
+<type class="Correlation" />
+<theme idref="T24" />
+<clue>Cell surface expression of Jagged1 in c-Rel-expressing cell monolayers led to a <clueType>functional interaction</clueType> <linkTheme>with</linkTheme> lymphocytes expressing the Notch1/TAN-1 receptor.</clue>
+</event>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue>Cell surface expression of Jagged1 in c-Rel-expressing cell monolayers led to a functional interaction with <clueLoc>lymphocytes</clueLoc> <clueType>expressing</clueType> the Notch1/TAN-1 receptor.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E22" />
+<clue>Cell surface expression of Jagged1 in c-Rel-expressing cell monolayers <clueType>led</clueType> <linkTheme>to</linkTheme> a functional interaction with lymphocytes expressing the Notch1/TAN-1 receptor.</clue>
+</event>
+<sentence id="S8">This correlated with the initiation of signaling downstream of <term sem="Protein_family_or_group" id="A4">Notch</term>, as evidenced by increased levels of <term sem="RNA_family_or_group" id="T26" lex="HES-1_transcript">HES-1 transcripts</term> in <term sem="Cell_cultured" id="T27" lex="co-cultivated_T_cell">co-cultivated T cells</term> and of <term sem="RNA_family_or_group" id="T28" lex="CD23_transcript"><term sem="Protein_molecule" id="T29" lex="CD23">CD23</term> transcripts</term> in co-cultivated <term sem="Cell_natural" id="T30" lex="B_cell">B cells</term>.</sentence>
+<event id="E27">
+<type class="Cell_communication" />
+<theme idref="A4" />
+<clue>This correlated with the initiation of <clueType>signaling</clueType> <linkTheme>downstream of</linkTheme> Notch, as evidenced by increased levels of HES-1 transcripts in co-cultivated T cells and of CD23 transcripts in co-cultivated B cells.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<clue>This correlated with the <clueType>initiation</clueType> <linkTheme>of</linkTheme> signaling downstream of Notch, as evidenced by increased levels of HES-1 transcripts in co-cultivated T cells and of CD23 transcripts in co-cultivated B cells.</clue>
+</event>
+<event id="E29">
+<type class="Correlation" />
+<theme idref="E26" />
+<theme idref="E28" />
+<clue><corefTheme>This</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> the initiation of signaling downstream of Notch, as evidenced by increased levels of HES-1 transcripts in co-cultivated T cells and of CD23 transcripts in co-cultivated B cells.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<clue>This correlated with the initiation of signaling downstream of Notch, as evidenced by <clueType>increased levels</clueType> <linkTheme>of</linkTheme> HES-1 transcripts <clueLoc>in co-cultivated T cells</clueLoc> and of CD23 transcripts in co-cultivated B cells.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<clue>This correlated with the initiation of signaling downstream of Notch, as evidenced by <clueType>increased levels</clueType> of HES-1 transcripts in co-cultivated T cells and <linkTheme>of</linkTheme> CD23 transcripts <clueLoc>in co-cultivated B cells</clueLoc>.</clue>
+</event>
+<sentence id="S9">Consistent with its <term sem="Other" id="T31" lex="Rel/NF-kappaB-dependent_induction"><term sem="Protein_family_or_group" id="T32" lex="Rel/NF-kappaB">Rel/NF-kappaB</term>-dependent induction</term>, <term sem="Protein_molecule" id="T33" lex="Jagged1">Jagged1</term> was found to be highly expressed in <term sem="Cell_natural" id="T34" lex="splenic_B_cell">splenic <term sem="Cell_natural" id="T35" lex="B_cell">B cells</term></term> where <term sem="Protein_molecule" id="T36" lex="c-Rel">c-Rel</term> is expressed constitutively.</sentence>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="T32" />
+<clue>Consistent with <corefTheme>its</corefTheme> Rel/NF-kappaB-<linkCause>dependent</linkCause> <clueType>induction</clueType>, Jagged1 was found to be highly expressed in splenic B cells where c-Rel is expressed constitutively.</clue>
+</event>
+<event id="E33">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>Consistent with its Rel/NF-kappaB-dependent induction, Jagged1 was found to be highly <clueType>expressed</clueType> in splenic B cells where c-Rel is expressed constitutively.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<clue>Consistent with its Rel/NF-kappaB-dependent induction, Jagged1 was found to be <clueType>highly</clueType> expressed <clueLoc>in splenic B cells</clueLoc> where c-Rel is expressed constitutively.</clue>
+</event>
+<event id="E35">
+<type class="Gene_expression" />
+<theme idref="T36" />
+<clue>Consistent with its Rel/NF-kappaB-dependent induction, Jagged1 was found to be highly expressed in <clueLoc>splenic B cells</clueLoc> where c-Rel is <clueType>expressed</clueType> constitutively.</clue>
+</event>
+<sentence id="S10">These results demonstrate that <term sem="Protein_molecule" id="T37" lex="c-Rel">c-Rel</term> can trigger the <term sem="Other" id="T38" lex="Notch_signaling_pathway"><term sem="Protein_family_or_group" id="A46">Notch</term> signaling pathway</term> in neighboring cells by inducing <term sem="Other" id="T39" lex="jagged1_gene_expression"><term sem="DNA_domain_or_region" id="A6">jagged1 gene</term> expression</term>, and suggest a role for <term sem="Protein_molecule" id="T40" lex="Jagged1">Jagged1</term> in <cons sem="(OR Other Other Other)" id="T41" lex="(OR B-cell_activation B-cell_differentiation B-cell_function)"><frag id="F1"><term sem="Cell_natural" id="A7">B-cell</term></frag> <frag id="F2">activation</frag>, <frag id="F3">differentiation</frag> or <frag id="F4">function</frag></cons>.</sentence>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="A6" />
+<clue>These results demonstrate that c-Rel can trigger the Notch signaling pathway in neighboring cells by inducing jagged1 gene <clueType>expression</clueType>, and suggest a role for Jagged1 in B-cell activation, differentiation or function.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T37" />
+<clue>These results demonstrate that c-Rel can trigger the Notch signaling pathway in neighboring cells by <clueType>inducing</clueType> jagged1 gene expression, and suggest a role for Jagged1 in B-cell activation, differentiation or function.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E139" />
+<cause idref="E38" />
+<clue>These results demonstrate that c-Rel can <clueType>trigger</clueType> the Notch signaling pathway <clueLoc>in neighboring cells</clueLoc> <linkCause>by</linkCause> inducing jagged1 gene expression, and suggest a role for Jagged1 in B-cell activation, differentiation or function.</clue>
+</event>
+<event id="E139">
+<type class="Cell_communication" />
+<theme idref="A46" />
+<clue>These results demonstrate that c-Rel can trigger the Notch <clueType>signaling pathway</clueType> in neighboring cells by inducing jagged1 gene expression, and suggest a role for Jagged1 in B-cell activation, differentiation or function.</clue>
+</event>
+<event id="E40">
+<type class="Physiological_process" />
+<theme idref="A7" />
+<clue>These results demonstrate that c-Rel can trigger the Notch signaling pathway in neighboring cells by inducing jagged1 gene expression, and suggest a role for Jagged1 in B-cell <clueType>activation</clueType>, differentiation or function.</clue>
+</event>
+<event id="E41">
+<type class="Cell_differentiation" />
+<theme idref="A7" />
+<clue>These results demonstrate that c-Rel can trigger the Notch signaling pathway in neighboring cells by inducing jagged1 gene expression, and suggest a role for Jagged1 in B-cell activation, <clueType>differentiation</clueType> or function.</clue>
+</event>
+<event id="E141">
+<type class="Physiological_process" />
+<theme idref="A7" />
+<clue>These results demonstrate that c-Rel can trigger the Notch signaling pathway in neighboring cells by inducing jagged1 gene expression, and suggest a role for Jagged1 in B-cell activation, differentiation or <clueType>function</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E42">
+<type class="Regulation" />
+<theme idref="E40" />
+<cause idref="T40" />
+<clue>These results demonstrate that c-Rel can trigger the Notch signaling pathway in neighboring cells by inducing jagged1 gene expression, and suggest a <clueType>role</clueType> <linkCause>for</linkCause> Jagged1 <linkTheme>in</linkTheme> B-cell activation, differentiation or function.</clue>
+</event>
+<event uncertainty="probable" id="E43">
+<type class="Regulation" />
+<theme idref="E41" />
+<cause idref="T40" />
+<clue>These results demonstrate that c-Rel can trigger the Notch signaling pathway in neighboring cells by inducing jagged1 gene expression, and suggest a <clueType>role</clueType> <linkCause>for</linkCause> Jagged1 <linkTheme>in</linkTheme> B-cell activation, differentiation or function.</clue>
+</event>
+<event id="E44">
+<type class="Regulation" />
+<theme idref="E141" />
+<cause idref="T40" />
+<clue>These results demonstrate that c-Rel can trigger the Notch signaling pathway in neighboring cells by inducing jagged1 gene expression, and suggest a <clueType>role</clueType> <linkCause>for</linkCause> Jagged1 <linkTheme>in</linkTheme> B-cell activation, differentiation or function.</clue>
+</event>
+<sentence id="S11">These findings also highlight the potential for an interplay between the <cons sem="(AND Other Other)" id="T42" lex="(AND Notch_signaling_pathway NF-kappaB_signaling_pathway)"><frag id="F5"><term sem="Protein_family_or_group" id="A8">Notch</term></frag> and <frag id="F6"><term sem="Protein_family_or_group" id="A9">NF-kappaB</term></frag> <frag id="F7">signaling pathways</frag></cons> in the <term sem="Body_region" id="T43" lex="immune_system">immune system</term>.</sentence>
+<event uncertainty="probable" id="E45">
+<type class="Correlation" />
+<theme idref="E145" />
+<theme idref="E146" />
+<clue>These findings also highlight the potential for an <clueType>interplay</clueType> <linkTheme>between</linkTheme> the Notch and NF-kappaB signaling pathways <clueLoc>in the immune system</clueLoc>.</clue>
+</event>
+<event uncertainty="probable" id="E145">
+<type class="Cell_communication" />
+<theme idref="A8" />
+<clue>These findings also highlight the potential for an interplay between the Notch and NF-kappaB <clueType>signaling pathways</clueType> in the immune system.</clue>
+</event>
+<event uncertainty="probable" id="E146">
+<type class="Cell_communication" />
+<theme idref="A9" />
+<clue>These findings also highlight the potential for an interplay between the Notch and NF-kappaB <clueType>signaling pathways</clueType> in the immune system.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

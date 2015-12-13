@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/02/22" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9047239" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9047239</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A <term sem="DNA_domain_or_region" id="A101"><term sem="DNA_domain_or_region" id="T1" lex="T_cell-specific_enhancer">T cell-specific enhancer</term> in the <term sem="DNA_domain_or_region" id="T2" lex="interleukin-3_locus">interleukin-3 locus</term></term> is activated cooperatively by <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T3" lex="(AND Oct_element NFAT_element)"><frag id="F1"><term sem="DNA_domain_or_region" id="A2">Oct</term></frag> and <frag id="F2"><term sem="DNA_domain_or_region" id="A3">NFAT</term></frag> <frag id="F3"><term sem="DNA_domain_or_region" id="A4">elements</term></frag></cons> <term sem="DNA_domain_or_region" id="A102">within a <term sem="DNA_domain_or_region" id="T4" lex="DNase_I-hypersensitive_site">DNase I-hypersensitive site</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="A101" />
+<cause idref1="A4" idref2="A102" idref="A2" />
+<cause idref1="A4" idref2="A102" idref="A3" />
+<clue>A T cell-specific enhancer in the interleukin-3 locus is <clueType>activated cooperatively</clueType> <linkCause>by</linkCause> Oct and NFAT elements within a DNase I-hypersensitive site.</clue>
+<comment>TPS A101, TPS A102</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T5" lex="interleukin-3">Interleukin-3</term> (<term sem="Protein_molecule" id="T6" lex="IL-3">IL-3</term>) is a <term sem="Protein_family_or_group" id="T7" lex="cytokine">cytokine</term> that is expressed primarily in <term sem="Cell_natural" id="T8" lex="activated_T_cell">activated <term sem="Cell_natural" id="A1">T cells</term></term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Interleukin-3 (IL-3) is a cytokine that is <clueType>expressed</clueType> primarily <clueLoc>in activated T cells</clueLoc>.</clue>
+</event>
+<event id="E4">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<clue>Interleukin-3 (IL-3) is a cytokine that is expressed primarily in <clueType>activated</clueType> T cells.</clue>
+</event>
+<sentence id="S3">Here we identified an inducible <term sem="DNA_domain_or_region" id="T9" lex="T_cell-specific_enhancer">T cell-specific enhancer</term> 14 kb upstream of the <term sem="DNA_domain_or_region" id="T10" lex="IL-3_gene"><term sem="Protein_molecule" id="T11" lex="IL-3">IL-3</term> gene</term> that responded to activation of <term sem="Other" id="T12" lex="T_cell_receptor_signaling_pathway"><term sem="Protein_family_or_group" id="T13" lex="T_cell_receptor">T cell receptor</term> signaling pathways</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<clue>Here we identified an <clueType>inducible</clueType> <clueLoc>T cell</clueLoc>-specific enhancer 14 kb upstream of the IL-3 gene that responded to activation of T cell receptor signaling pathways.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<clue>Here we identified an inducible T cell-specific enhancer 14 kb upstream of the IL-3 gene that responded to <clueType>activation</clueType> <linkTheme>of</linkTheme> T cell receptor signaling pathways.</clue>
+</event>
+<event id="E7">
+<type class="Correlation" />
+<theme idref="T10" />
+<theme idref="E6" />
+<clue>Here we identified an inducible T cell-specific enhancer 14 kb upstream of the IL-3 gene that <clueType>responded</clueType> <linkTheme>to</linkTheme> activation of T cell receptor signaling pathways.</clue>
+</event>
+<sentence id="S4">The <term sem="DNA_domain_or_region" id="A8"><term sem="Protein_molecule" id="T14" lex="IL-3">IL-3</term> enhancer</term> spanned an inducible <term sem="DNA_domain_or_region" id="T15" lex="cyclosporin_A-sensitive_DNase_I-hypersensitive_site"><term sem="Organic_compound_other" id="T16" lex="cyclosporin_A">cyclosporin A</term>-sensitive <term sem="DNA_domain_or_region" id="T17" lex="DNase_I-hypersensitive_site">DNase I-hypersensitive site</term></term> found only in <term sem="Cell_natural" id="T18" lex="T_cell">T cells</term>.</sentence>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="T16" />
+<theme idref="T17" />
+<clue>The IL-3 enhancer spanned an inducible cyclosporin A-<clueType>sensitive</clueType> DNase I-hypersensitive site found only <clueLoc>in T cells</clueLoc>.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<clue>The IL-3 enhancer spanned an <clueType>inducible</clueType> cyclosporin A-sensitive DNase I-hypersensitive site found only <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">Four <term sem="DNA_family_or_group" id="T19" lex="NFAT-like_element">NFAT-like elements</term> exist within the enhancer.</sentence>
+<sentence id="S6">The two most active <term sem="DNA_family_or_group" id="T20" lex="NFAT-like_element">NFAT-like elements</term> were located at the center of the <term sem="DNA_domain_or_region" id="T21" lex="DNase_I-hypersensitive_site">DNase I-hypersensitive site</term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<clue>The two most <clueType>active</clueType> NFAT-like elements were located at the center of the DNase I-hypersensitive site.</clue>
+</event>
+<sentence id="S7">One of these <term sem="DNA_family_or_group" id="T22" lex="NFAT-like_element">NFAT-like elements</term> encompassed overlapping <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T23" lex="(AND Oct-binding_site NFATp/c-binding_site)"><frag id="F4"><term sem="DNA_domain_or_region" id="A5">Oct-</term></frag> and <frag id="F5"><term sem="DNA_domain_or_region" id="A6">NFATp/c-</term></frag><frag id="F6"><term sem="DNA_domain_or_region" id="A7">binding sites</term></frag></cons>, which functioned in a highly synergistic manner.</sentence>
+<event id="E11">
+<type class="Regulation" />
+<cause idref1="A7" idref="A5" />
+<cause idref1="A7" idref="A6" />
+<clue>One of these NFAT-like elements encompassed overlapping Oct- and NFATp/c-binding sites, which <clueType>functioned</clueType> in a highly <clueType>synergistic</clueType> manner.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S8">We suggest that the <term sem="Other" id="T24" lex="T_cell-specific_expression">T cell-specific expression</term> of the <term sem="DNA_domain_or_region" id="T25" lex="IL-3_gene"><term sem="Protein_molecule" id="T26" lex="IL-3">IL-3</term> gene</term> is partly controlled through the enhancer by cooperation between <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T27" lex="(AND Oct_family_protein NFAT_family_protein)"><frag id="F7"><term sem="Protein_family_or_group" id="A9">Oct</term></frag> and <frag id="F8"><term sem="Protein_family_or_group" id="A10">NFAT</term></frag> <frag id="F9"><term sem="Protein_family_or_group" id="A11">family proteins</term></frag></cons>.</sentence>
+<event uncertainty="probable" id="E12">
+<type class="Gene_expression" />
+<theme idref="T25" />
+<clue>We suggest that the <clueLoc>T cell</clueLoc>-specific <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL-3 gene is partly controlled through the enhancer by cooperation between Oct and NFAT family proteins.</clue>
+</event>
+<event uncertainty="probable" id="E13">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref1="A11" idref="A9" />
+<cause idref1="A11" idref="A10" />
+<clue>We suggest that the T cell-specific expression of the IL-3 gene is partly <clueType>controlled</clueType> through the enhancer <linkCause>by cooperation between</linkCause> Oct and NFAT family proteins.</clue>
+</event>
+<event uncertainty="probable" id="E14">
+<type class="Regulation" />
+<theme idref="E13" />
+<cause idref="A8" />
+<clue>We suggest that the T cell-specific expression of the IL-3 gene is partly controlled <linkCause>through</linkCause> <corefCause>the enhancer</corefCause> by cooperation between Oct and NFAT family proteins.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

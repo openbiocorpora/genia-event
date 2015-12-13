@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="27/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9817603" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9817603</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="transcriptional_regulation">Transcriptional regulation</term> of the <term sem="DNA_domain_or_region" id="T2" lex="beta-casein_gene"><term sem="Protein_molecule" id="T3" lex="beta-casein">beta-casein</term> gene</term> by <term sem="Protein_family_or_group" id="T4" lex="cytokine">cytokines</term>: cross-talk between <term sem="Protein_molecule" id="T5" lex="STAT5">STAT5</term> and other <term sem="Protein_family_or_group" id="T6" lex="signaling_molecule">signaling molecules</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T2" />
+<cause idref="T4" />
+<clue><clueType>Transcriptional regulation</clueType> <linkTheme>of</linkTheme> the beta-casein gene <linkCause>by</linkCause> cytokines: cross-talk between STAT5 and other signaling molecules.</clue>
+</event>
+<event id="E2">
+<type class="Correlation" />
+<theme idref="T5" />
+<theme idref="T6" />
+<clue>Transcriptional regulation of the beta-casein gene by cytokines: <clueType>cross-talk</clueType> <linkTheme>between</linkTheme> STAT5 <linkTheme>and</linkTheme> other signaling molecules.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="DNA_domain_or_region" id="T7" lex="beta-casein_promoter"><term sem="Protein_molecule" id="T8" lex="beta-casein">beta-casein</term> promoter</term> has been widely used to monitor the activation of <term sem="Protein_molecule" id="T9" lex="STAT_(signal_transducer_and_activator_of_transcription)5">STAT (signal transducer and activator of transcription)5</term> since <term sem="Protein_molecule" id="T10" lex="STAT5">STAT5</term> was originally found as a mediator of <term sem="Other" id="T11" lex="PRL-inducible_beta-casein_expression"><term sem="Protein_molecule" id="A1">PRL</term>-inducible <term sem="Protein_molecule" id="T12" lex="beta-casein">beta-casein</term> expression</term>.</sentence>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<cause idref="T9" />
+<clue>The beta-casein promoter has been widely used to monitor the <clueType>activation</clueType> <linkCause>of</linkCause> STAT (signal transducer and activator of transcription)5 since STAT5 was originally found as a mediator of PRL-inducible beta-casein expression.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T12" />
+<clue>The beta-casein promoter has been widely used to monitor the activation of STAT (signal transducer and activator of transcription)5 since STAT5 was originally found as a mediator of PRL-inducible beta-casein <clueType>expression</clueType>.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="A1" />
+<clue>The beta-casein promoter has been widely used to monitor the activation of STAT (signal transducer and activator of transcription)5 since STAT5 was originally found as a mediator of PRL-<clueType>inducible</clueType> beta-casein expression.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T10" />
+<clue>The beta-casein promoter has been widely used to monitor the activation of STAT (signal transducer and activator of transcription)5 since STAT5 was originally found as a <clueType>mediator</clueType> <linkTheme>of</linkTheme> PRL-inducible beta-casein expression.</clue>
+</event>
+<sentence id="S3">However, not only is expression of the <term sem="DNA_domain_or_region" id="T13" lex="beta-casein_gene"><term sem="Protein_molecule" id="T14" lex="beta-casein">beta-casein</term> gene</term> regulated by <term sem="Protein_molecule" id="T15" lex="STAT5">STAT5</term> but it is also affected by other molecules such as <term sem="Lipid" id="T16" lex="glucocorticoid">glucocorticoid</term> and <term sem="Protein_molecule" id="T17" lex="Ras">Ras</term>.</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>However, not only is <clueType>expression</clueType> <linkTheme>of</linkTheme> the beta-casein gene regulated by STAT5 but it is also affected by other molecules such as glucocorticoid and Ras.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="T15" />
+<clue>However, not only is expression of the beta-casein gene <clueType>regulated</clueType> <linkCause>by</linkCause> STAT5 but it is also affected by other molecules such as glucocorticoid and Ras.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="T16" />
+<clue>However, not only is expression of the beta-casein gene regulated by STAT5 but <corefTheme>it</corefTheme> is also <clueType>affected</clueType> <linkCause>by</linkCause> <corefCause>other molecules</corefCause> such as glucocorticoid and Ras.</clue>
+</event>
+<event id="E109">
+<type class="Regulation" />
+<theme idref="E7" />
+<cause idref="T17" />
+<clue>However, not only is expression of the beta-casein gene regulated by STAT5 but <corefTheme>it</corefTheme> is also <clueType>affected</clueType> <linkCause>by</linkCause> <corefCause>other molecules</corefCause> such as glucocorticoid and Ras.</clue>
+</event>
+<sentence id="S4">In this report, we describe the <term sem="Other" id="T18" lex="transcriptional_regulation">transcriptional regulation</term> of the <term sem="DNA_domain_or_region" id="T19" lex="beta-casein_gene"><term sem="Protein_molecule" id="T20" lex="beta-casein">beta-casein</term> gene</term> by <term sem="Protein_family_or_group" id="T21" lex="cytokine">cytokines</term> in <term sem="Cell_natural" id="T22" lex="T_cell">T cells</term>.</sentence>
+<event id="E10">
+<type class="Regulation" />
+<theme idref="T19" />
+<cause idref="T21" />
+<clue>In this report, we describe the <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> the beta-casein gene <linkCause>by</linkCause> cytokines <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">We have found that the <term sem="DNA_domain_or_region" id="T23" lex="beta-casein_gene"><term sem="Protein_molecule" id="T24" lex="beta-casein">beta-casein</term> gene</term> is expressed in a <term sem="Cell_cultured" id="T25" lex="cytotoxic_T_cell_line">cytotoxic T cell line</term>, <term sem="Cell_cultured" id="T26" lex="CTLL-2">CTLL-2</term>, in response to <term sem="Protein_molecule" id="T27" lex="interleukin-2">interleukin-2</term> (<term sem="Protein_molecule" id="T28" lex="IL-2">IL-2</term>), which activates <term sem="Protein_molecule" id="T29" lex="STAT5">STAT5</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue>We have found that the beta-casein gene is <clueType>expressed</clueType> <clueLoc>in a cytotoxic T cell line, CTLL-2</clueLoc>, in response to interleukin-2 (IL-2), which activates STAT5.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T28" />
+<clue>We have found that the beta-casein gene is expressed in a cytotoxic T cell line, CTLL-2, <clueType>in response</clueType> <linkCause>to</linkCause> interleukin-2 (IL-2), which activates STAT5.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="T28" />
+<clue>We have found that the beta-casein gene is expressed in a cytotoxic T cell line, CTLL-2, in response to interleukin-2 (IL-2), which <clueType>activates</clueType> STAT5.</clue>
+</event>
+<sentence id="S6">While <term sem="Protein_molecule" id="T30" lex="IL-4">IL-4</term> does not activate <term sem="Protein_molecule" id="T31" lex="STAT5">STAT5</term>, it induces expression of <term sem="DNA_family_or_group" id="T32" lex="STAT5-regulated_gene"><term sem="Protein_molecule" id="T33" lex="STAT5">STAT5</term>-regulated genes</term> in <term sem="Cell_cultured" id="T34" lex="CTLL-2">CTLL-2</term>, i.e. <term sem="Protein_molecule" id="T35" lex="beta-casein">beta-casein</term>, a <term sem="Protein_family_or_group" id="T36" lex="cytokine-inducible_SH2-containing_protein">cytokine-inducible SH2-containing protein</term> (<term sem="Protein_molecule" id="T37" lex="CIS">CIS</term>), and <term sem="Protein_molecule" id="T38" lex="oncostatin_M">oncostatin M</term> (<term sem="Protein_molecule" id="T39" lex="OSM">OSM</term>), suggesting that <term sem="Protein_molecule" id="A2">STAT6</term> activated by <term sem="Protein_molecule" id="T40" lex="IL-4">IL-4</term> substitutes for the function of <term sem="Protein_molecule" id="T41" lex="STAT5">STAT5</term> in <term sem="Cell_natural" id="T42" lex="T_cell">T cells</term>.</sentence>
+<event assertion="non-exist" id="E14">
+<type class="Positive_regulation" />
+<theme idref="T31" />
+<cause idref="T30" />
+<clue>While IL-4 does not <clueType>activate</clueType> STAT5, it induces expression of STAT5-regulated genes in CTLL-2, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="T35" />
+<cause idref="T33" />
+<clue>While IL-4 does not activate STAT5, it induces expression of STAT5-<clueType>regulated</clueType> <corefTheme>genes</corefTheme> in CTLL-2, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="T37" />
+<cause idref="T33" />
+<clue>While IL-4 does not activate STAT5, it induces expression of STAT5-<clueType>regulated</clueType> <corefTheme>genes</corefTheme> in CTLL-2, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<event id="E17">
+<type class="Regulation" />
+<theme idref="T39" />
+<cause idref="T33" />
+<clue>While IL-4 does not activate STAT5, it induces expression of STAT5-<clueType>regulated</clueType> <corefTheme>genes</corefTheme> in CTLL-2, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>While IL-4 does not activate STAT5, it induces <clueType>expression</clueType> <linkTheme>of</linkTheme> STAT5-regulated genes in CTLL-2, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="T35" />
+<clue>While IL-4 does not activate STAT5, it induces <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>STAT5-regulated genes</corefTheme> in CTLL-2, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="T37" />
+<clue>While IL-4 does not activate STAT5, it induces <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>STAT5-regulated genes</corefTheme> in CTLL-2, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T39" />
+<clue>While IL-4 does not activate STAT5, it induces <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>STAT5-regulated genes</corefTheme> in CTLL-2, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T30" />
+<clue>While IL-4 does not activate STAT5, <corefCause>it</corefCause> <clueType>induces</clueType> expression of STAT5-regulated genes <clueLoc>in CTLL-2</clueLoc>, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T30" />
+<clue>While IL-4 does not activate STAT5, <corefCause>it</corefCause> <clueType>induces</clueType> expression of STAT5-regulated genes <clueLoc>in CTLL-2</clueLoc>, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T30" />
+<clue>While IL-4 does not activate STAT5, <corefCause>it</corefCause> <clueType>induces</clueType> expression of STAT5-regulated genes <clueLoc>in CTLL-2</clueLoc>, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T30" />
+<clue>While IL-4 does not activate STAT5, <corefCause>it</corefCause> <clueType>induces</clueType> expression of STAT5-regulated genes <clueLoc>in CTLL-2</clueLoc>, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T40" />
+<clue>While IL-4 does not activate STAT5, it induces expression of STAT5-regulated genes in CTLL-2, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 <clueType>activated</clueType> <linkCause>by</linkCause> IL-4 substitutes for the function of STAT5 in T cells.</clue>
+</event>
+<sentence id="S7"><term sem="Other" id="T43" lex="IL-2-induced_beta-casein_expression"><term sem="Protein_molecule" id="T44" lex="IL-2">IL-2</term>-induced <term sem="Protein_molecule" id="T45" lex="beta-casein">beta-casein</term> expression</term> was enhanced by <term sem="Lipid" id="A3">dexamethasone</term>, and this synergistic effect of <term sem="Lipid" id="T46" lex="Dexamethasone">Dexamethasone</term> requires the <term sem="DNA_domain_or_region" id="T47" lex="-155_and_-193">sequence between -155 and -193</term> in the <term sem="DNA_domain_or_region" id="T48" lex="beta-casein_promoter"><term sem="Protein_molecule" id="T49" lex="beta-casein">beta-casein</term> promoter</term>.</sentence>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T45" />
+<clue>IL-2-induced beta-casein <clueType>expression</clueType> was enhanced by dexamethasone, and this synergistic effect of Dexamethasone requires the sequence between -155 and -193 in the beta-casein promoter.</clue>
+<comment>NER T47 MOD, TPS T47</comment>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="T44" />
+<clue>IL-2-<clueType>induced</clueType> beta-casein expression was enhanced by dexamethasone, and this synergistic effect of Dexamethasone requires the sequence between -155 and -193 in the beta-casein promoter.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="A3" />
+<clue>IL-2-induced beta-casein expression was <clueType>enhanced</clueType> <linkCause>by</linkCause> dexamethasone, and this synergistic effect of Dexamethasone requires the sequence between -155 and -193 in the beta-casein promoter.</clue>
+</event>
+<event id="E30">
+<type class="Correlation" />
+<theme idref="E29" />
+<theme idref="T47" />
+<clue>IL-2-induced beta-casein expression was enhanced by dexamethasone, and <corefTheme>this synergistic effect of Dexamethasone</corefTheme> <clueType>requires</clueType> the sequence between -155 and -193 in the beta-casein promoter.</clue>
+</event>
+<sentence id="S8">Coincidentally, a deletion of this region enhanced the <term sem="Other" id="T50" lex="IL-2-induced_expression"><term sem="Protein_molecule" id="T51" lex="IL-2">IL-2</term>-induced expression</term> of <term sem="Protein_molecule" id="T52" lex="beta-casein">beta-casein</term>.</sentence>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="T47" />
+<clue>Coincidentally, a <clueType>deletion</clueType> <linkTheme>of</linkTheme> <corefTheme>this region</corefTheme> enhanced the IL-2-induced expression of beta-casein.</clue>
+</event>
+<event id="E32">
+<type class="Gene_expression" />
+<theme idref="T52" />
+<clue>Coincidentally, a deletion of this region enhanced the IL-2-induced <clueType>expression</clueType> <linkTheme>of</linkTheme> beta-casein.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="T51" />
+<clue>Coincidentally, a deletion of this region enhanced the IL-2-<clueType>induced</clueType> expression of beta-casein.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="E31" />
+<clue>Coincidentally, a deletion of this region <clueType>enhanced</clueType> the IL-2-induced expression of beta-casein.</clue>
+</event>
+<sentence id="S9">Expression of an active form of <term sem="Protein_molecule" id="T53" lex="Ras">Ras</term>, <term sem="Protein_molecule" id="T54" lex="Ras(G12V)">Ras(G12V)</term>, suppressed the <term sem="Protein_molecule" id="T56" lex="IL-2">IL-2</term>-induced <cons sem="(AND Other Biologicial_process)" id="C1" lex="(AND beta-casein_gene_expression OSM_gene_expression)"><frag id="F1">beta-casein</frag> and <frag id="F2">OSM</frag> <frag id="F3">gene</frag> <frag id="F4">expression</frag></cons>, and the negative effect of <term sem="Protein_molecule" id="T60" lex="Ras">Ras</term> is mediated by the <term sem="DNA_domain_or_region" id="T61" lex="-105_and_-193">region between -105 and -193</term> in the <term sem="DNA_domain_or_region" id="T62" lex="beta-casein_promoter"><term sem="Protein_molecule" id="T63" lex="beta-casein">beta-casein</term> promoter</term>.</sentence>
+<event id="E35">
+<type class="Gene_expression" />
+<theme idref1="F3" idref="F1" />
+<clue>Expression of an active form of Ras, Ras(G12V), suppressed the IL-2-induced beta-casein and OSM gene <clueType>expression</clueType>, and the negative effect of Ras is mediated by the region between -105 and -193 in the beta-casein promoter.</clue>
+<comment>NER T61 MOD , TPS T61; NER: T55, T57, T58, T59 del &quot;IL-2-induced beta-casein&quot;&quot;beta-casein&quot;&quot;OSM gene expression&quot;&quot;OSM&quot;</comment>
+</event>
+<event id="E36">
+<type class="Gene_expression" />
+<theme idref1="F3" idref="F2" />
+<clue>Expression of an active form of Ras, Ras(G12V), suppressed the IL-2-induced beta-casein and OSM gene <clueType>expression</clueType>, and the negative effect of Ras is mediated by the region between -105 and -193 in the beta-casein promoter.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="T56" />
+<clue>Expression of an active form of Ras, Ras(G12V), suppressed the IL-2-<clueType>induced</clueType> beta-casein and OSM gene expression, and the negative effect of Ras is mediated by the region between -105 and -193 in the beta-casein promoter.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="T56" />
+<clue>Expression of an active form of Ras, Ras(G12V), suppressed the IL-2-<clueType>induced</clueType> beta-casein and OSM gene expression, and the negative effect of Ras is mediated by the region between -105 and -193 in the beta-casein promoter.</clue>
+</event>
+<event id="E39">
+<type class="Gene_expression" />
+<theme idref="T54" />
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> an active form of Ras, Ras(G12V), suppressed the IL-2-induced beta-casein and OSM gene expression, and the negative effect of Ras is mediated by the region between -105 and -193 in the beta-casein promoter.</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation" />
+<theme idref="E37" />
+<cause idref="E39" />
+<clue>Expression of an active form of Ras, Ras(G12V), <clueType>suppressed</clueType> the IL-2-induced beta-casein and OSM gene expression, and the negative effect of Ras is mediated by the region between -105 and -193 in the beta-casein promoter.</clue>
+</event>
+<event id="E41">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="E39" />
+<clue>Expression of an active form of Ras, Ras(G12V), <clueType>suppressed</clueType> the IL-2-induced beta-casein and OSM gene expression, and the negative effect of Ras is mediated by the region between -105 and -193 in the beta-casein promoter.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation" />
+<theme idref="E40" />
+<cause idref="T61" />
+<clue>Expression of an active form of Ras, Ras(G12V), suppressed the IL-2-induced beta-casein and OSM gene expression, and <corefTheme>the negative effect of Ras</corefTheme> is <clueType>mediated</clueType> <linkTheme>by</linkTheme> the region between -105 and -193 in the beta-casein promoter.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="E41" />
+<cause idref="T61" />
+<clue>Expression of an active form of Ras, Ras(G12V), suppressed the IL-2-induced beta-casein and OSM gene expression, and <corefTheme>the negative effect of Ras</corefTheme> is <clueType>mediated</clueType> <linkTheme>by</linkTheme> the region between -105 and -193 in the beta-casein promoter.</clue>
+</event>
+<sentence id="S10">In apparent contradiction, expression of a dominant negative form of <term sem="Protein_molecule" id="T64" lex="Ras">Ras</term>, <term sem="Protein_molecule" id="T65" lex="RasN17">RasN17</term>, also inhibited <term sem="Other" id="T66" lex="IL-2-induced_activation"><term sem="Protein_molecule" id="T67" lex="IL-2">IL-2</term>-induced activation</term> of the <term sem="DNA_domain_or_region" id="A5">promoter containing the minimal <term sem="DNA_domain_or_region" id="T68" lex="beta-casein_STAT5_element"><term sem="Protein_molecule" id="T69" lex="beta-casein">beta-casein</term> <term sem="Protein_molecule" id="T70" lex="STAT5">STAT5</term> element</term></term> as well as the <term sem="DNA_domain_or_region" id="A6">promoters of</term> <term sem="DNA_domain_or_region" id="T71" lex="CIS">CIS</term> and <term sem="DNA_domain_or_region" id="T72" lex="OSM">OSM</term>.</sentence>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="T67" />
+<clue>In apparent contradiction, expression of a dominant negative form of Ras, RasN17, also inhibited IL-2-<linkCause>induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> the promoter containing the minimal beta-casein STAT5 element as well as the promoters of CIS and OSM.</clue>
+<comment>NER T71,T72 MOD, TPS A5,A6</comment>
+</event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref1="T71" idref="A6" />
+<cause idref="T67" />
+<clue>In apparent contradiction, expression of a dominant negative form of Ras, RasN17, also inhibited IL-2-<linkCause>induced</linkCause> <clueType>activation</clueType> of the promoter containing the minimal beta-casein STAT5 element <linkTheme>as well as</linkTheme> the promoters of CIS and OSM.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref1="T72" idref="A6" />
+<cause idref="T67" />
+<clue>In apparent contradiction, expression of a dominant negative form of Ras, RasN17, also inhibited IL-2-<linkCause>induced</linkCause> <clueType>activation</clueType> of the promoter containing the minimal beta-casein STAT5 element <linkTheme>as well as</linkTheme> the promoters of CIS and OSM.</clue>
+</event>
+<event id="E47">
+<type class="Negative_regulation" />
+<theme idref="E44" />
+<cause idref="T65" />
+<clue>In apparent contradiction, expression of a dominant negative form of Ras, RasN17, also <clueType>inhibited</clueType> IL-2-induced activation of the promoter containing the minimal beta-casein STAT5 element as well as the promoters of CIS and OSM.</clue>
+</event>
+<event id="E48">
+<type class="Negative_regulation" />
+<theme idref="E45" />
+<cause idref="T65" />
+<clue>In apparent contradiction, expression of a dominant negative form of Ras, RasN17, also <clueType>inhibited</clueType> IL-2-induced activation of the promoter containing the minimal beta-casein STAT5 element as well as the promoters of CIS and OSM.</clue>
+</event>
+<event id="E49">
+<type class="Negative_regulation" />
+<theme idref="E46" />
+<cause idref="T65" />
+<clue>In apparent contradiction, expression of a dominant negative form of Ras, RasN17, also <clueType>inhibited</clueType> IL-2-induced activation of the promoter containing the minimal beta-casein STAT5 element as well as the promoters of CIS and OSM.</clue>
+</event>
+<sentence id="S11">In addition, <term sem="Protein_molecule" id="T73" lex="Ras(G12V)">Ras(G12V)</term> complemented signaling by an <term sem="Protein_family_or_group" id="T74" lex="erythropoietin_receptor_mutant">erythropoietin receptor mutant</term> defective in <term sem="Protein_molecule" id="T75" lex="Ras">Ras</term> activation and augmented the activation of the <term sem="DNA_domain_or_region" id="T76" lex="beta-casein_promoter"><term sem="Protein_molecule" id="T77" lex="beta-casein">beta-casein</term> promoter</term> by the <term sem="Other" id="T78" lex="mutant_erythropoietin_receptor_signaling"><term sem="Protein_molecule" id="T79" lex="mutant_erythropoietin_receptor">mutant erythropoietin receptor</term> signaling</term>, suggesting a possible role of <term sem="Protein_molecule" id="T80" lex="Ras">Ras</term> in <term sem="Protein_molecule" id="T82" lex="Stat5">Stat5</term>-mediated <term sem="Other" id="A7">gene expression</term>.</sentence>
+<event id="E50">
+<type class="Positive_regulation" />
+<cause idref="T75" />
+<clue>In addition, Ras(G12V) complemented signaling by an erythropoietin receptor mutant defective in Ras <clueType>activation</clueType> and augmented the activation of the beta-casein promoter by the mutant erythropoietin receptor signaling, suggesting a possible role of Ras in Stat5-mediated gene expression.</clue>
+</event>
+<event id="E51">
+<type class="Negative_regulation" />
+<theme idref="E50" />
+<cause idref="T74" />
+<clue>In addition, Ras(G12V) complemented signaling by an erythropoietin receptor mutant <clueType>defective</clueType> <linkTheme>in</linkTheme> Ras activation and augmented the activation of the beta-casein promoter by the mutant erythropoietin receptor signaling, suggesting a possible role of Ras in Stat5-mediated gene expression.</clue>
+</event>
+<event id="E52">
+<type class="Cell_communication" />
+<theme idref="T74" />
+<clue>In addition, Ras(G12V) complemented <clueType>signaling</clueType> <linkTheme>by</linkTheme> an erythropoietin receptor mutant defective in Ras activation and augmented the activation of the beta-casein promoter by the mutant erythropoietin receptor signaling, suggesting a possible role of Ras in Stat5-mediated gene expression.</clue>
+</event>
+<event id="E152">
+<type class="Positive_regulation" />
+<theme idref="E52" />
+<cause idref="T73" />
+<clue>In addition, Ras(G12V) <clueType>complemented</clueType> signaling by an erythropoietin receptor mutant defective in Ras activation and augmented the activation of the beta-casein promoter by the mutant erythropoietin receptor signaling, suggesting a possible role of Ras in Stat5-mediated gene expression.</clue>
+</event>
+<event id="E53">
+<type class="Regulation" />
+<theme idref="T79" />
+<clue>In addition, Ras(G12V) complemented signaling by an erythropoietin receptor mutant defective in Ras activation and augmented the activation of the beta-casein promoter by the mutant erythropoietin receptor <clueType>signaling</clueType>, suggesting a possible role of Ras in Stat5-mediated gene expression.</clue>
+</event>
+<event id="E54">
+<type class="Positive_regulation" />
+<theme idref="T76" />
+<cause idref="E53" />
+<clue>In addition, Ras(G12V) complemented signaling by an erythropoietin receptor mutant defective in Ras activation and augmented the <clueType>activation</clueType> <linkTheme>of</linkTheme> the beta-casein promoter <linkCause>by</linkCause> the mutant erythropoietin receptor signaling, suggesting a possible role of Ras in Stat5-mediated gene expression.</clue>
+</event>
+<event id="E55">
+<type class="Positive_regulation" />
+<theme idref="E54" />
+<cause idref="T73" />
+<clue>In addition, Ras(G12V) complemented signaling by an erythropoietin receptor mutant defective in Ras activation and <clueType>augmented</clueType> the activation of the beta-casein promoter by the mutant erythropoietin receptor signaling, suggesting a possible role of Ras in Stat5-mediated gene expression.</clue>
+</event>
+<event id="E56">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="T82" />
+<clue>In addition, Ras(G12V) complemented signaling by an erythropoietin receptor mutant defective in Ras activation and augmented the activation of the beta-casein promoter by the mutant erythropoietin receptor signaling, suggesting a possible role of Ras in Stat5-<clueType>mediated</clueType> gene expression.</clue>
+<comment>NER: T81 del &quot;Stat5-mediated gene expression&quot;</comment>
+</event>
+<event uncertainty="probable" id="E57">
+<type class="Regulation" />
+<theme idref="E56" />
+<cause idref="T80" />
+<clue>In addition, Ras(G12V) complemented signaling by an erythropoietin receptor mutant defective in Ras activation and augmented the activation of the beta-casein promoter by the mutant erythropoietin receptor signaling, suggesting a possible <clueType>role</clueType> <linkCause>of</linkCause> Ras <linkTheme>in</linkTheme> Stat5-mediated gene expression.</clue>
+</event>
+<sentence id="S12">These results collectively reveal a complex interaction of <term sem="Protein_molecule" id="T83" lex="STAT5">STAT5</term> with other <term sem="Other" id="T84" lex="signaling_pathway">signaling pathways</term> and illustrate that regulation of <term sem="Other" id="T85" lex="gene_expression">gene expression</term> requires integration of <term sem="Other" id="T86" lex="opposing_signal">opposing signals</term>.</sentence>
+<event id="E58">
+<type class="Correlation" />
+<theme idref="T83" />
+<theme idref="T84" />
+<clue>These results collectively reveal a complex <clueType>interaction</clueType> <linkTheme>of</linkTheme> STAT5 <linkTheme>with</linkTheme> other signaling pathways and illustrate that regulation of gene expression requires integration of opposing signals.</clue>
+</event>
+<event id="E59">
+<type class="Regulation" />
+<theme idref="T85" />
+<clue>These results collectively reveal a complex interaction of STAT5 with other signaling pathways and illustrate that <clueType>regulation</clueType> <linkTheme>of</linkTheme> gene expression requires integration of opposing signals.</clue>
+</event>
+<event id="E60">
+<type class="Regulation" />
+<theme idref="T86" />
+<clue>These results collectively reveal a complex interaction of STAT5 with other signaling pathways and illustrate that regulation of gene expression requires <clueType>integration</clueType> <linkTheme>of</linkTheme> opposing signals.</clue>
+</event>
+<event id="E61">
+<type class="Regulation" />
+<theme idref="E59" />
+<cause idref="E60" />
+<clue>These results collectively reveal a complex interaction of STAT5 with other signaling pathways and illustrate that regulation of gene expression <clueType>requires</clueType> integration of opposing signals.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

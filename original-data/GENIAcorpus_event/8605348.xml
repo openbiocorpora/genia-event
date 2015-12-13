@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="30/01/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8605348" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8605348</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Coexpression of the <cons sem="(AND DNA_family_or_group DNA_family_or_group)" id="T1" lex="(AND interleukin-13_gene interleukin-4_gene)"><frag id="F1"><term sem="DNA_domain_or_region" id="A2">interleukin-13</term></frag> and <frag id="F2"><term sem="DNA_domain_or_region" id="A3">interleukin-4</term></frag> <frag id="F3"><term sem="DNA_domain_or_region" id="A4">genes</term></frag></cons> correlates with their <term sem="Other" id="A1">physical linkage in the <term sem="DNA_domain_or_region" id="T2" lex="cytokine_gene_cluster">cytokine gene cluster</term> on <term sem="DNA_molecule" id="T3" lex="human_chromosome_5q23-31">human chromosome 5q23-31</term></term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref1="A4" idref="A2" />
+<clue><clueType>Coexpression</clueType> <linkTheme>of</linkTheme> the interleukin-13 and interleukin-4 genes correlates with their physical linkage in the cytokine gene cluster on human chromosome 5q23-31.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref1="A4" idref="A3" />
+<clue><clueType>Coexpression</clueType> <linkTheme>of</linkTheme> the interleukin-13 and interleukin-4 genes correlates with their physical linkage in the cytokine gene cluster on human chromosome 5q23-31.</clue>
+</event>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="E1" />
+<theme idref="A1" />
+<clue>Coexpression of the interleukin-13 and interleukin-4 genes <clueType>correlates</clueType> <linkTheme>with</linkTheme> their physical linkage in the cytokine gene cluster on human chromosome 5q23-31.</clue>
+<comment>TPS: A1</comment>
+</event>
+<event id="E4">
+<type class="Correlation" />
+<theme idref="E2" />
+<theme idref="A1" />
+<clue>Coexpression of the interleukin-13 and interleukin-4 genes <clueType>correlates</clueType> <linkTheme>with</linkTheme> their physical linkage in the cytokine gene cluster on human chromosome 5q23-31.</clue>
+<comment>TPS: A1</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T4" lex="interleukin-13">Interleukin-13</term> (<term sem="Protein_molecule" id="T5" lex="IL-13">IL-13</term>) and <term sem="Protein_molecule" id="T6" lex="IL-4">IL-4</term> are cytokines produced by T cells that are encoded by the q23-31 region of human chromosome 5.</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T5" />
+<clue>Interleukin-13 (IL-13) and IL-4 are cytokines <clueType>produced</clueType> <clueLoc>by T cells</clueLoc> that are encoded by the q23-31 region of human chromosome 5.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>Interleukin-13 (IL-13) and IL-4 are cytokines <clueType>produced</clueType> <clueLoc>by T cells</clueLoc> that are encoded by the q23-31 region of human chromosome 5.</clue>
+</event>
+<sentence id="S3">To investigate the regulation of <term sem="Other" id="T7" lex="IL-13_gene_expression"><term sem="DNA_domain_or_region" id="T8" lex="IL-13_gene"><term sem="Protein_molecule" id="T9" lex="IL-13">IL-13</term> gene</term> expression</term> by <term sem="Cell_natural" id="T10" lex="T_cell">T cells</term>, we isolated and sequenced the human <term sem="DNA_domain_or_region" id="T11" lex="IL-13_gene"><term sem="Protein_molecule" id="T12" lex="IL-13">IL-13</term> gene</term>, analyzed its <term sem="DNA_domain_or_region" id="T13" lex="5&apos;-flanking_region">5&apos;-flanking region</term> for potential <term sem="DNA_family_or_group" id="T14" lex="transcriptional_activation_element">transcriptional activation elements</term>, and examined its expression in <term sem="Cell_cultured" id="T15" lex="nontransformed_T-lineage_cell_population">nontransformed T-lineage cell populations</term>.</sentence>
+<event uncertainty="doubtful" id="E5">
+<type class="Regulation" />
+<theme idref="E6" />
+<clue>To investigate the <clueType>regulation</clueType> <linkTheme>of</linkTheme> IL-13 gene expression by T cells, we isolated and sequenced the human IL-13 gene, analyzed its 5&apos;-flanking region for potential transcriptional activation elements, and examined its expression in nontransformed T-lineage cell populations.</clue>
+</event>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>To investigate the regulation of IL-13 gene <clueType>expression</clueType> <clueLoc>by T cells</clueLoc>, we isolated and sequenced the human IL-13 gene, analyzed its 5&apos;-flanking region for potential transcriptional activation elements, and examined its expression in nontransformed T-lineage cell populations.</clue>
+</event>
+<event uncertainty="doubtful" id="E9">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>To investigate the regulation of IL-13 gene expression by T cells, we isolated and sequenced the human IL-13 gene, analyzed its 5&apos;-flanking region for potential transcriptional activation elements, and examined <corefTheme>its</corefTheme> <clueType>expression</clueType> <clueLoc>in nontransformed T-lineage cell populations</clueLoc>.</clue>
+</event>
+<sentence id="S4">The <term sem="DNA_domain_or_region" id="T16" lex="human_IL-13_gene">human IL-13 gene</term> was located <term sem="DNA_domain_or_region" id="T17" lex="12.5-kb_upstream">12.5-kb upstream</term> of the <term sem="DNA_domain_or_region" id="T18" lex="IL-4_gene"><term sem="Protein_molecule" id="T19" lex="IL-4">IL-4</term> gene</term> and <term sem="DNA_domain_or_region" id="T20" lex="2-kb_downstream">2-kb downstream</term> of a <term sem="DNA_domain_or_region" id="T21" lex="CpG_island">CpG island</term>.</sentence>
+<sentence id="S5">The <term sem="DNA_domain_or_region" id="T22" lex="IL-13_gene_5&apos;_flank_region"><term sem="DNA_domain_or_region" id="T23" lex="IL-13_gene"><term sem="Protein_molecule" id="T24" lex="IL-13">IL-13</term> gene</term> 5&apos; flank region</term> included a segment with sequence homology to <term sem="DNA_domain_or_region" id="T25" lex="P_element">P elements</term> of the <term sem="DNA_domain_or_region" id="T26" lex="IL-4_promoter"><term sem="Protein_molecule" id="T27" lex="IL-4">IL-4</term> promoter</term> involved in transcriptional activation in <term sem="Cell_natural" id="T28" lex="T_cell">T cells</term>.</sentence>
+<event id="E32">
+<type class="Regulation" />
+<theme idref="E10" />
+<clue>The IL-13 gene 5&apos; flank region included a segment with sequence homology to P elements of the IL-4 promoter <clueType>involved</clueType> <linkTheme>in</linkTheme> transcriptional activation in T cells.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<clue>The IL-13 gene 5&apos; flank region included a segment with sequence homology to P elements of the IL-4 promoter involved in <clueType>transcriptional activation</clueType> <clueLoc>in T cells</clueLoc>.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<sentence id="S6">Mutation of the <term sem="DNA_domain_or_region" id="T29" lex="IL-13_P_element_site">IL-13 P element site</term> significantly reduced <term sem="DNA_domain_or_region" id="A7"><term sem="Protein_molecule" id="T30" lex="IL-13">IL-13</term> promoter</term> activity in response to <term sem="Other" id="T32" lex="T-cell_activation"><term sem="Cell_natural" id="A8">T-cell</term> activation</term>.</sentence>
+<event id="E11">
+<type class="Mutagenesis" />
+<theme idref="T29" />
+<clue><clueType>Mutation</clueType> <linkTheme>of</linkTheme> the IL-13 P element site significantly reduced IL-13 promoter activity in response to T-cell activation.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="E11" />
+<clue>Mutation of the IL-13 P element site significantly <clueType>reduced</clueType> IL-13 promoter activity in response to T-cell activation.</clue>
+<comment>NER: T31 del &quot;promoter activity&quot;</comment>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<theme idref="A7" />
+<cause idref="E14" />
+<clue>Mutation of the IL-13 P element site significantly reduced IL-13 promoter activity <linkCause>in response to</linkCause> T-cell activation.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E14">
+<type class="Physiological_process" />
+<theme idref="A8" />
+<clue>Mutation of the IL-13 P element site significantly reduced IL-13 promoter activity in response to T-cell <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S7"><term sem="Polynucleotide" id="A9">Oligonucleotides containing the</term> <term sem="Polynucleotide" id="A11"><term sem="Protein_molecule" id="T33" lex="IL-13">IL-13</term></term> or <term sem="Polynucleotide" id="A12"><term sem="DNA_domain_or_region" id="T34" lex="IL-4_P_element_site"><term sem="Protein_molecule" id="T35" lex="IL-4">IL-4</term> <term sem="Polynucleotide" id="A13">P element sites</term></term></term> specifically bound the <term sem="Protein_family_or_group" id="T36" lex="transcriptional_activator_protein">transcriptional activator protein</term>, <term sem="Protein_complex" id="T37" lex="nuclear_factor-activated_T_cells">nuclear factor-activated <term sem="Cell_natural" id="T38" lex="T_cell">T cells</term></term>, preformed (<term sem="Protein_molecule" id="T39" lex="NF-ATp">NF-ATp</term>), when incubated with <term sem="Cell_component" id="T40" lex="nuclear_protein_extract">nuclear protein extracts</term> from <term sem="Cell_natural" id="T41" lex="activated_T_cell">activated <term sem="Cell_natural" id="A14">T cells</term></term>.</sentence>
+<event id="E15">
+<type class="Binding" />
+<theme idref1="A11" idref2="A13" idref="A9" />
+<theme idref="T39" />
+<clue>Oligonucleotides containing the IL-13 or IL-4 P element sites specifically <clueType>bound</clueType> the transcriptional activator protein, nuclear factor-activated T cells, preformed (NF-ATp), when incubated with nuclear protein extracts from activated T cells.</clue>
+<comment>TPS: A9</comment>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref1="A12" idref="A9" />
+<theme idref="T39" />
+<clue>Oligonucleotides containing the IL-13 or IL-4 P element sites specifically <clueType>bound</clueType> the transcriptional activator protein, nuclear factor-activated T cells, preformed (NF-ATp), when incubated with nuclear protein extracts from activated T cells.</clue>
+<comment>TPS: A9</comment>
+</event>
+<event id="E17">
+<type class="Physiological_process" />
+<theme idref="A14" />
+<clue>Oligonucleotides containing the IL-13 or IL-4 P element sites specifically bound the transcriptional activator protein, nuclear factor-activated T cells, preformed (NF-ATp), when incubated with nuclear protein extracts from <clueType>activated</clueType> T cells.</clue>
+</event>
+<sentence id="S8">Similar to <term sem="RNA_molecule" id="A15"><term sem="Protein_molecule" id="T42" lex="IL-4">IL-4</term></term>, <term sem="Other" id="T43" lex="IL-13_mRNA_expression"><term sem="RNA_molecule" id="T44" lex="IL-13_mRNA"><term sem="Protein_molecule" id="T45" lex="IL-13">IL-13</term> <term sem="RNA_molecule" id="A16">mRNA</term></term> expression</term> was highest in <term sem="Cell_cultured" id="T46" lex="T-cell_population"><term sem="Cell_natural" id="A17">T-cell</term> populations</term> enriched for cells that had previously been primed in vivo or in vitro, indicating that priming increases the expression of the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T47" lex="(AND IL-13_gene IL-4_gene)"><frag id="F4"><term sem="DNA_domain_or_region" id="A18">IL-13</term></frag> and <frag id="F5"><term sem="DNA_domain_or_region" id="A19">IL-4</term></frag> <frag id="F6"><term sem="DNA_domain_or_region" id="A20">genes</term></frag></cons> in a coordinate manner.</sentence>
+<event id="E18">
+<type class="Transcription" />
+<theme idref1="A16" idref="A15" />
+<clue>Similar to IL-4, IL-13 mRNA <clueType>expression</clueType> was highest <clueLoc>in T-cell populations enriched for cells that had previously been primed in vivo or in vitro</clueLoc>, indicating that priming increases the expression of the IL-13 and IL-4 genes in a coordinate manner.</clue>
+<comment>CAUTION: SEE</comment>
+</event>
+<event id="E19">
+<type class="Transcription" />
+<theme idref="T44" />
+<clue>Similar to IL-4, IL-13 mRNA <clueType>expression</clueType> was highest <clueLoc>in T-cell populations enriched for cells that had previously been primed in vivo or in vitro</clueLoc>, indicating that priming increases the expression of the IL-13 and IL-4 genes in a coordinate manner.</clue>
+</event>
+<event id="E20">
+<type class="Cellular_physiological_process" />
+<theme idref="A17" />
+<clue>Similar to IL-4, IL-13 mRNA expression was highest in T-cell populations enriched for <corefTheme>cells</corefTheme> that had previously been <clueType>primed</clueType> in vivo or in vitro, indicating that priming increases the expression of the IL-13 and IL-4 genes in a coordinate manner.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E22" />
+<cause idref="E20" />
+<clue>Similar to IL-4, IL-13 mRNA expression was highest in T-cell populations enriched for cells that had previously been primed in vivo or in vitro, indicating that <corefCause>priming</corefCause> <clueType>increases</clueType> the expression of the IL-13 and IL-4 genes in a coordinate manner.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="E20" />
+<clue>Similar to IL-4, IL-13 mRNA expression was highest in T-cell populations enriched for cells that had previously been primed in vivo or in vitro, indicating that <corefCause>priming</corefCause> <clueType>increases</clueType> the expression of the IL-13 and IL-4 genes in a coordinate manner.</clue>
+</event>
+<event id="E22">
+<type class="Gene_expression" />
+<theme idref1="A20" idref="A18" />
+<clue>Similar to IL-4, IL-13 mRNA expression was highest in T-cell populations enriched for cells that had previously been primed in vivo or in vitro, indicating that priming increases the <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL-13 and IL-4 genes in a coordinate manner.</clue>
+</event>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref1="A20" idref="A19" />
+<clue>Similar to IL-4, IL-13 mRNA expression was highest in T-cell populations enriched for cells that had previously been primed in vivo or in vitro, indicating that priming increases the <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL-13 and IL-4 genes in a coordinate manner.</clue>
+</event>
+<event id="E23">
+<type class="Correlation" />
+<theme idref="E21" />
+<theme idref="E24" />
+<clue>Similar to IL-4, IL-13 mRNA expression was highest in T-cell populations enriched for cells that had previously been primed in vivo or in vitro, indicating that priming increases the expression of the IL-13 and IL-4 genes in a <clueType>coordinate</clueType> manner.</clue>
+</event>
+<sentence id="S9">Because the <term sem="Cell_cultured" id="T48" lex="primed_T_cell">primed T cells</term> contain higher levels of <term sem="Protein_molecule" id="T49" lex="nuclear_NF-ATp">nuclear <term sem="Protein_molecule" id="T50" lex="NF-ATp">NF-ATp</term></term>, capable of binding to <term sem="DNA_domain_or_region" id="T51" lex="P_element">P elements</term> of the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T52" lex="(AND IL-4_promoter IL-13_promoter)"><frag id="F7"><term sem="DNA_domain_or_region" id="A21">IL-4</term></frag> and <frag id="F8"><term sem="DNA_domain_or_region" id="A22">IL-13</term></frag> <frag id="F9"><term sem="DNA_domain_or_region" id="A23">promoters</term></frag></cons>, than do <term sem="Cell_natural" id="T53" lex="freshly-isolated_T_cell">freshly-isolated T cells</term>, the <term sem="DNA_domain_or_region" id="T54" lex="NF-AT-binding_P_element">NF-AT-binding <term sem="DNA_domain_or_region" id="T55" lex="P_element">P elements</term></term> are attractive candidates to mediate the coordinate expression of these two <term sem="DNA_family_or_group" id="T56" lex="cytokine_gene">cytokine genes</term>.</sentence>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T50" />
+<clue>Because the <clueLoc>primed T cells</clueLoc> contain <clueType>higher levels</clueType> <linkTheme>of</linkTheme> nuclear NF-ATp, capable of binding to P elements of the IL-4 and IL-13 promoters, than do freshly-isolated T cells, the NF-AT-binding P elements are attractive candidates to mediate the coordinate expression of these two cytokine genes.</clue>
+</event>
+<event id="E27">
+<type class="Binding" />
+<theme idref="T50" />
+<theme idref1="A21" idref2="A23" idref="T51" />
+<clue>Because the primed T cells contain higher levels of nuclear NF-ATp, capable of <clueType>binding</clueType> <linkTheme>to</linkTheme> P elements of the IL-4 and IL-13 promoters, than do freshly-isolated T cells, the NF-AT-binding P elements are attractive candidates to mediate the coordinate expression of these two cytokine genes.</clue>
+</event>
+<event uncertainty="probable" id="E28">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="T54" />
+<clue>Because the primed T cells contain higher levels of nuclear NF-ATp, capable of binding to P elements of the IL-4 and IL-13 promoters, than do freshly-isolated T cells, the NF-AT-binding P elements are attractive candidates to <clueType>mediate</clueType> the coordinate expression of these two cytokine genes.</clue>
+</event>
+<event uncertainty="probable" id="E33">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="T54" />
+<clue>Because the primed T cells contain higher levels of nuclear NF-ATp, capable of binding to P elements of the IL-4 and IL-13 promoters, than do freshly-isolated T cells, the NF-AT-binding P elements are attractive candidates to <clueType>mediate</clueType> the coordinate expression of these two cytokine genes.</clue>
+</event>
+<event id="E31">
+<type class="Correlation" />
+<theme idref="E29" />
+<theme idref="E30" />
+<clue>Because the primed T cells contain higher levels of nuclear NF-ATp, capable of binding to P elements of the IL-4 and IL-13 promoters, than do freshly-isolated T cells, the NF-AT-binding P elements are attractive candidates to mediate the <clueType>coordinate</clueType> expression of these two cytokine genes.</clue>
+</event>
+<event id="E29">
+<type class="Gene_expression" />
+<theme idref1="A20" idref="A18" />
+<clue>Because the primed T cells contain higher levels of nuclear NF-ATp, capable of binding to P elements of the IL-4 and IL-13 promoters, than do freshly-isolated T cells, the NF-AT-binding P elements are attractive candidates to mediate the coordinate <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these two cytokine genes</corefTheme>.</clue>
+</event>
+<event id="E30">
+<type class="Gene_expression" />
+<theme idref1="A20" idref="A19" />
+<clue>Because the primed T cells contain higher levels of nuclear NF-ATp, capable of binding to P elements of the IL-4 and IL-13 promoters, than do freshly-isolated T cells, the NF-AT-binding P elements are attractive candidates to mediate the coordinate <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these two cytokine genes</corefTheme>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/04/2006" creator="Yo Shidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1740663"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1740663</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Induction of <term sem="Other" id="A1">monocytic differentiation</term> and <term sem="Other" id="T1" lex="NF-kappa_B-like_activity"><term sem="Protein_molecule" id="T2" lex="NF-kappa_B">NF-kappa B</term>-like activities</term> by <term sem="Other" id="T3" lex="human_immunodeficiency_virus_1_infection"><term sem="Virus" id="T4" lex="human_immunodeficiency_virus_1">human immunodeficiency virus 1</term> infection</term> of <term sem="Cell_natural" id="T5" lex="myelomonoblastic_cell">myelomonoblastic cells</term>.</sentence>
+<event id="E1">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T4" />
+<theme idref="T5" />
+<clue>Induction of monocytic differentiation and NF-kappa B-like activities by human immunodeficiency virus 1 <clueType>infection</clueType> <linkTheme>of</linkTheme> myelomonoblastic cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="E1" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> monocytic differentiation and NF-kappa B-like activities <linkCause>by</linkCause> human immunodeficiency virus 1 infection of myelomonoblastic cells.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<cause idref="E1" />
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> monocytic differentiation and NF-kappa B-like activities <linkCause>by</linkCause> human immunodeficiency virus 1 infection of myelomonoblastic cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The effects of <term sem="Other" id="T6" lex="human_immunodeficiency_virus_1_(HIV-1)_infection"><term sem="Virus" id="T7" lex="human_immunodeficiency_virus_1">human immunodeficiency virus 1</term> (<term sem="Virus" id="T8" lex="HIV-1">HIV-1</term>) infection</term> on <term sem="Other" id="A2">cellular differentiation</term> and <term sem="Other" id="T9" lex="NF-kappa_B_DNA_binding_activity"><term sem="Protein_molecule" id="T10" lex="NF-kappa_B">NF-kappa B</term> <term sem="DNA_domain_or_region" id="A3">DNA</term> binding activity</term> have been investigated in a new model of <term sem="Other" id="A113">myeloid differentiation</term>.</sentence>
+<event id="E4">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T8" />
+<clue>The effects of human immunodeficiency virus 1 (HIV-1) <clueType>infection</clueType> on cellular differentiation and NF-kappa B DNA binding activity have been investigated in a new model of myeloid differentiation.</clue>
+</event>
+<event uncertainty="doubtful" id="E5">
+<type class="Regulation" />
+<theme idref="A2" />
+<cause idref="E4" />
+<clue>The <clueType>effects</clueType> <linkCause>of</linkCause> human immunodeficiency virus 1 (HIV-1) infection <linkTheme>on</linkTheme> cellular differentiation and NF-kappa B DNA binding activity have been investigated in a new model of myeloid differentiation.</clue>
+</event>
+<event uncertainty="doubtful" id="E6">
+<type class="Binding" />
+<theme idref="T10" />
+<theme idref="A3" />
+<clue>The effects of human immunodeficiency virus 1 (HIV-1) infection on cellular differentiation and NF-kappa B DNA <clueType>binding</clueType> activity have been investigated in a new model of myeloid differentiation.</clue>
+</event>
+<event uncertainty="doubtful" id="E7">
+<type class="Regulation" />
+<theme idref="E6" />
+<cause idref="E4" />
+<clue>The <clueType>effects</clueType> <linkCause>of</linkCause> human immunodeficiency virus 1 (HIV-1) infection <linkTheme>on</linkTheme> cellular differentiation and NF-kappa B DNA binding activity have been investigated in a new model of myeloid differentiation.</clue>
+</event>
+<sentence id="S3"><term sem="Cell_cultured" id="T11" lex="PLB-985_cell">PLB-985 cells</term> represent a <term sem="Cell_cultured" id="T12" lex="bipotential_myelomonoblastic_cell_population">bipotential myelomonoblastic cell population</term> capable of either <cons sem="(OR Other Other)" id="T13" lex="(OR granulocytic_differentiation monocytic_differentiation)"><frag id="F1">granulocytic</frag> or <frag id="F2">monocytic</frag> <frag id="F3">differentiation</frag></cons> after induction with <term sem="Organic_compound_other" id="A4">appropriate inducers</term>.</sentence>
+<event id="E8">
+<type class="Cell_differentiation" />
+<theme idref="T11" />
+<clue>PLB-985 cells represent a bipotential myelomonoblastic cell population <clueType>capable of</clueType> either granulocytic or monocytic <clueType>differentiation</clueType> after induction with appropriate inducers.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="A4" />
+<clue>PLB-985 cells represent a bipotential myelomonoblastic cell population capable of either granulocytic or monocytic differentiation after <clueType>induction</clueType> <linkCause>with</linkCause> appropriate inducers.</clue>
+</event>
+<sentence id="S4">By virtue of the presence of <term sem="Protein_molecule" id="T14" lex="CD4">CD4</term> on the <term sem="Cell_component" id="T15" lex="cell_surface">cell surface</term>, <term sem="Cell_cultured" id="T16" lex="PLB-985_cell">PLB-985 cells</term> were chronically infected with <term sem="Virus" id="T17" lex="HIV-1_strain_IIIB"><term sem="Virus" id="T18" lex="HIV-1">HIV-1</term> strain IIIB</term>.</sentence>
+<event id="E10">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T16" />
+<theme idref="T17" />
+<clue>By virtue of the presence of CD4 on the cell surface, PLB-985 cells were chronically <clueType>infected</clueType> <linkTheme>with</linkTheme> HIV-1 strain IIIB.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="T14" />
+<clue><clueType>By virtue of</clueType> the presence of CD4 on the cell surface, PLB-985 cells were chronically infected with HIV-1 strain IIIB.</clue>
+</event>
+<sentence id="S5"><term sem="Cell_cultured" id="T19" lex="PLB-IIIB_cell">PLB-IIIB cells</term> clearly possessed a more monocytic phenotype than the <term sem="Cell_natural" id="T20" lex="parental_myeloblast">parental myeloblasts</term>, as determined by differential staining, increased expression of the <term sem="Protein_family_or_group" id="T21" lex="myeloid-specific_surface_marker">myeloid-specific surface markers</term>, and transcription of the <term sem="DNA_domain_or_region" id="T22" lex="c-fms_proto-oncogene">c-fms proto-oncogene</term>.</sentence>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>PLB-IIIB cells clearly possessed a more monocytic phenotype than the parental myeloblasts, as determined by differential staining, increased <clueType>expression</clueType> <linkTheme>of</linkTheme> the myeloid-specific surface markers, and transcription of the c-fms proto-oncogene.</clue>
+</event>
+<event id="E13">
+<type class="Transcription" />
+<theme idref="T22" />
+<clue>PLB-IIIB cells clearly possessed a more monocytic phenotype than the parental myeloblasts, as determined by differential staining, increased expression of the myeloid-specific surface markers, and <clueType>transcription</clueType> <linkTheme>of</linkTheme> the c-fms proto-oncogene.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<clue><clueLoc>PLB-IIIB cells</clueLoc> clearly possessed a more monocytic phenotype than the parental myeloblasts, as determined <clueExperiment>by differential staining</clueExperiment>, <clueType>increased</clueType> expression of the myeloid-specific surface markers, and transcription of the c-fms proto-oncogene.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<clue><clueLoc>PLB-IIIB cells</clueLoc> clearly possessed a more monocytic phenotype than the parental myeloblasts, as determined <clueExperiment>by differential staining</clueExperiment>, <clueType>increased</clueType> expression of the myeloid-specific surface markers, and transcription of the c-fms proto-oncogene.</clue>
+</event>
+<sentence id="S6"><term sem="Other" id="T23" lex="NF-kappa_B_binding_activity"><term sem="Protein_molecule" id="T24" lex="NF-kappa_B">NF-kappa B</term> binding activity</term> was inducible by <term sem="Protein_molecule" id="T25" lex="tumor_necrosis_factor">tumor necrosis factor</term> and <term sem="Organic_compound_other" id="T26" lex="phorbol_myristate_acetate">phorbol myristate acetate</term> in <term sem="Cell_cultured" id="T27" lex="PLB-985">PLB-985</term>.</sentence>
+<event id="E29">
+<type class="Binding" />
+<theme idref="T24" />
+<clue>NF-kappa B <clueType>binding</clueType> activity was inducible by tumor necrosis factor and phorbol myristate acetate in PLB-985.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="T25" />
+<clue>NF-kappa B binding activity was <clueType>inducible</clueType> <linkCause>by</linkCause> tumor necrosis factor and phorbol myristate acetate <clueLoc>in PLB-985</clueLoc>.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="T26" />
+<clue>NF-kappa B binding activity was <clueType>inducible</clueType> <linkCause>by</linkCause> tumor necrosis factor and phorbol myristate acetate <clueLoc>in PLB-985</clueLoc>.</clue>
+</event>
+<sentence id="S7">However, in <term sem="Cell_cultured" id="T28" lex="PLB-IIIB_cell">PLB-IIIB cells</term>, constitutive expression of a novel <term sem="Protein_complex" id="T29" lex="NF-kappa_B_complex">NF-kappa B complex</term> was detected, composed of <term sem="Protein_family_or_group" id="A5"><term sem="Protein_family_or_group" id="T30" lex="protein">proteins</term> ranging between 70 and 110 kD</term>.</sentence>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>However, <clueLoc>in PLB-IIIB cells</clueLoc>, constitutive <clueType>expression</clueType> <linkTheme>of</linkTheme> a novel NF-kappa B complex was detected, composed of proteins ranging between 70 and 110 kD.</clue>
+<comment>TPS A5</comment></event>
+<sentence id="S8">These <term sem="Protein_family_or_group" id="T31" lex="protein">proteins</term> interacted specifically with the <term sem="DNA_domain_or_region" id="T32" lex="symmetric_NF-kappa_B_site">symmetric <term sem="Protein_complex" id="A115">NF-kappa B</term> site</term> from the <term sem="DNA_domain_or_region" id="T33" lex="interferon_beta_(IFN-beta)_promoter"><term sem="Protein_molecule" id="A114">interferon beta</term> (<term sem="Protein_molecule" id="T34" lex="IFN-beta">IFN-beta</term>) promoter</term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="A5" />
+<theme idref="T32" />
+<clue><corefTheme>These proteins</corefTheme> <clueType>interacted</clueType> specifically <linkTheme>with</linkTheme> the symmetric NF-kappa B site from the interferon beta (IFN-beta) promoter.</clue>
+</event>
+<sentence id="S9">Mutations affecting the <term sem="DNA_domain_or_region" id="T35" lex="5&apos;_guanine_residue">5&apos; guanine residues</term> of the <term sem="DNA_domain_or_region" id="T36" lex="kappa_B_site">kappa B site</term> were unable to compete for these <term sem="Protein_family_or_group" id="T37" lex="NF-kappa_B-related_protein"><term sem="Protein_molecule" id="T38" lex="NF-kappa_B">NF-kappa B</term>-related proteins</term>.</sentence>
+<event id="E28">
+<type class="Mutagenesis" />
+<theme idref="T36" />
+<clue><clueType>Mutations</clueType> <linkTheme>affecting</linkTheme> the 5&apos; guanine residues of the kappa B site were unable to compete for these NF-kappa B-related proteins.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E30">
+<type class="Negative_regulation" />
+<theme idref="E130" />
+<cause idref="E28" />
+<clue>Mutations affecting the 5&apos; guanine residues of the kappa B site were <clueType>unable</clueType> <linkTheme>to</linkTheme> compete for these NF-kappa B-related proteins.</clue>
+</event>
+<event id="E130">
+<type class="Binding" />
+<theme idref="A5" />
+<theme idref="T36" />
+<clue>Mutations affecting the 5&apos; guanine residues of the kappa B site were unable to <clueType>compete</clueType> <linkTheme>for</linkTheme> <corefTheme>these NF-kappa B-related proteins</corefTheme>.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S10">Inducibility of endogenous <cons sem="(AND RNA_molecule RNA_molecule)" id="T39" lex="(AND IFN-beta_RNA IFN-alpha_RNA)"><frag id="F4"><term sem="RNA_molecule" id="A6">IFN-beta</term></frag> and <frag id="F5"><term sem="RNA_molecule" id="A7">IFN-alpha</term></frag> <frag id="F6"><term sem="RNA_molecule" id="A8">RNA</term></frag></cons> was also increased in <term sem="Cell_cultured" id="T40" lex="PLB-IIIB_cell">PLB-IIIB cells</term>.</sentence>
+<event id="E20">
+<type class="Transcription" />
+<theme idref1="A8" idref="A6" />
+<clue><clueType>Inducibility</clueType> of endogenous IFN-beta and IFN-alpha RNA was also increased in PLB-IIIB cells.</clue>
+</event>
+<event id="E21">
+<type class="Transcription" />
+<theme idref1="A8" idref="A7" />
+<clue><clueType>Inducibility</clueType> of endogenous IFN-beta and IFN-alpha RNA was also increased in PLB-IIIB cells.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<clue>Inducibility of endogenous IFN-beta and IFN-alpha RNA was also <clueType>increased</clueType> <clueLoc>in PLB-IIIB cells</clueLoc>.</clue>
+</event>
+<sentence id="S11">These studies indicate that <term sem="Other" id="T41" lex="HIV-1_infection"><term sem="Virus" id="T42" lex="HIV-1">HIV-1</term> infection</term> of <term sem="Cell_natural" id="T43" lex="myelomonoblastic_cell">myelomonoblastic cells</term> may select for a more mature <term sem="Other" id="T44" lex="monocytic_phenotype">monocytic phenotype</term> and that unique subunit associations of <term sem="Protein_family_or_group" id="T45" lex="NF-kappa_B_DNA_binding_protein"><term sem="Protein_molecule" id="T46" lex="NF-kappa_B">NF-kappa B</term> DNA binding proteins</term> may contribute to differential <term sem="Other" id="T47" lex="NF-kappa_B-mediated_gene_expression"><term sem="Protein_molecule" id="T48" lex="NF-kappa_B">NF-kappa B</term>-mediated <term sem="Other" id="A9">gene expression</term></term>.</sentence>
+<event id="E23">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T42" />
+<theme idref="T43" />
+<clue>These studies indicate that HIV-1 <clueType>infection</clueType> <linkTheme>of</linkTheme> myelomonoblastic cells may select for a more mature monocytic phenotype and that unique subunit associations of NF-kappa B DNA binding proteins may contribute to differential NF-kappa B-mediated gene expression.</clue>
+</event>
+<event id="E24">
+<type class="Cell_differentiation" />
+<theme idref="T43" />
+<theme idref="T44" />
+<clue>These studies indicate that HIV-1 infection of myelomonoblastic cells may <clueType>select</clueType> <linkTheme>for</linkTheme> a more mature monocytic phenotype and that unique subunit associations of NF-kappa B DNA binding proteins may contribute to differential NF-kappa B-mediated gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E31">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E23" />
+<clue>These studies indicate that HIV-1 infection of myelomonoblastic cells may <clueType>select</clueType> for a more mature monocytic phenotype and that unique subunit associations of NF-kappa B DNA binding proteins may contribute to differential NF-kappa B-mediated gene expression.</clue>
+</event>
+<event id="E25">
+<type class="Regulation" />
+<theme idref="A9" />
+<cause idref="T48" />
+<clue>These studies indicate that HIV-1 infection of myelomonoblastic cells may select for a more mature monocytic phenotype and that unique subunit associations of NF-kappa B DNA binding proteins may contribute to differential NF-kappa B-<clueType>mediated</clueType> gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E26">
+<type class="Correlation" />
+<theme idref="T45" />
+<clue>These studies indicate that HIV-1 infection of myelomonoblastic cells may select for a more mature monocytic phenotype and that unique subunit <clueType>associations</clueType> <linkTheme>of</linkTheme> NF-kappa B DNA binding proteins may contribute to differential NF-kappa B-mediated gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E27">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="E26" />
+<clue>These studies indicate that HIV-1 infection of myelomonoblastic cells may select for a more mature monocytic phenotype and that unique subunit associations of NF-kappa B DNA binding proteins may <clueType>contribute to differential</clueType> NF-kappa B-mediated gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

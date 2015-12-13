@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="21/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9823774" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9823774</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="granulocyte_colony-stimulating_factor">Granulocyte colony-stimulating factor</term> activates a <term sem="Protein_molecule" id="A1"><term sem="Protein_molecule" id="T2" lex="72-kDa_isoform">72-kDa isoform</term> of <term sem="Protein_molecule" id="T3" lex="STAT3">STAT3</term></term> in <term sem="Cell_natural" id="T4" lex="human_neutrophil">human neutrophils</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="T1" />
+<clue>Granulocyte colony-stimulating factor <clueType>activates</clueType> a 72-kDa isoform of STAT3 <clueLoc>in human neutrophils</clueLoc>.</clue>
+<comment>TPS: A1</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="A3"><term sem="Protein_molecule" id="T5" lex="granulocyte_colony-stimulating_factor">Granulocyte colony-stimulating factor</term> (<term sem="Protein_molecule" id="T6" lex="G-CSF">G-CSF</term>) signaling</term> involves activation of <term sem="Protein_family_or_group" id="T7" lex="STAT">STATs</term>, proteins that serve the dual function of <term sem="Other" id="T8" lex="signal_transduction">signal transduction</term> and activation of <term sem="Other" id="A2">transcription</term>.</sentence>
+<event id="E17">
+<type class="Cell_communication" />
+<theme idref="T6" />
+<clue>Granulocyte colony-stimulating factor (G-CSF) <clueType>signaling</clueType> involves activation of STATs, proteins that serve the dual function of signal transduction and activation of transcription.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E3" />
+<cause idref="E17" />
+<clue>Granulocyte colony-stimulating factor (G-CSF) signaling <clueType>involves</clueType> activation of STATs, proteins that serve the dual function of signal transduction and activation of transcription.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<clue>Granulocyte colony-stimulating factor (G-CSF) signaling involves <clueType>activation</clueType> <linkTheme>of</linkTheme> STATs, proteins that serve the dual function of signal transduction and activation of transcription.</clue>
+</event>
+<event id="E4">
+<type class="Cell_communication" />
+<theme idref="T7" />
+<clue>Granulocyte colony-stimulating factor (G-CSF) signaling involves activation of STATs, proteins that serve the dual function of <clueType>signal transduction</clueType> and activation of transcription.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="T7" />
+<clue>Granulocyte colony-stimulating factor (G-CSF) signaling involves activation of STATs, proteins that serve the dual function of signal transduction and <clueType>activation</clueType> <linkTheme>of</linkTheme> transcription.</clue>
+<comment>NER: T9 del &quot;activation of transcription&quot;</comment>
+</event>
+<sentence id="S3">We previously demonstrated that <term sem="Protein_molecule" id="T10" lex="G-CSF">G-CSF</term> activated a distinct <term sem="Protein_molecule" id="T11" lex="Stat3-like_protein">Stat3-like protein</term> in <cons sem="(AND Cell_natural Cell_natural)" id="T12" lex="(AND immature_normal_myeloid_cell mature_normal_myeloid_cell)"><frag id="F1">immature</frag> and <frag id="F2">mature</frag> <frag id="F3">normal myeloid cells</frag></cons>, <term sem="Protein_molecule" id="T13" lex="StatG">StatG</term>.</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<cause idref="T10" />
+<clue>We previously demonstrated that G-CSF <clueType>activated</clueType> a distinct Stat3-like protein <clueLoc>in immature</clueLoc> and mature <clueLoc>normal myeloid cells</clueLoc>, StatG.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T13" />
+<cause idref="T10" />
+<clue>We previously demonstrated that G-CSF <clueType>activated</clueType> a distinct Stat3-like protein <clueLoc>in</clueLoc> immature and <clueLoc>mature normal myeloid cells</clueLoc>, StatG.</clue>
+</event>
+<sentence id="S4"><term sem="Protein_molecule" id="T14" lex="StatG">StatG</term> in <term sem="Cell_natural" id="T15" lex="normal_immature_human_myeloid_cell">normal immature human myeloid cells</term>, i.e. <term sem="Cell_natural" id="T16" lex="adult_CD34+_bone_marrow_cell">adult CD34+ bone marrow cells</term>, was composed of <term sem="Protein_molecule" id="T17" lex="Stat3beta">Stat3beta</term>.</sentence>
+<sentence id="S5">This investigation was undertaken to determine the composition of <term sem="Protein_molecule" id="T18" lex="StatG">StatG</term> in <term sem="Cell_natural" id="T19" lex="mature_normal_human_myeloid_cell">mature normal human myeloid cells</term>, i.e. <term sem="Cell_natural" id="T20" lex="polymorphonuclear_neutrophilic_granulocyte">polymorphonuclear neutrophilic granulocytes</term> (<term sem="Cell_natural" id="T21" lex="PMN">PMN</term>).</sentence>
+<sentence id="S6">These studies revealed that the <term sem="Protein_family_or_group" id="T22" lex="major_protein">major protein</term> in extracts of <term sem="Cell_natural" id="T23" lex="PMN">PMN</term> activated by <term sem="Protein_molecule" id="T24" lex="G-CSF">G-CSF</term> to bind the <term sem="DNA_domain_or_region" id="T25" lex="high-affinity_serum-inducible_element">high-affinity serum-inducible element</term> (<term sem="DNA_domain_or_region" id="T26" lex="hSIE">hSIE</term>) is a <term sem="Protein_molecule" id="T27" lex="72-kDa_protein">72-kDa protein</term> that cross-reacts with <term sem="Protein_molecule" id="T28" lex="Stat3_monoclonal_antibody">Stat3 monoclonal antibody</term>, which we have designated <term sem="Protein_molecule" id="T29" lex="Stat3gamma">Stat3gamma</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="T24" />
+<clue>These studies revealed that the major protein in extracts of PMN <clueType>activated</clueType> <linkCause>by</linkCause> G-CSF to bind the high-affinity serum-inducible element (hSIE) is a 72-kDa protein that cross-reacts with Stat3 monoclonal antibody, which we have designated Stat3gamma.</clue>
+</event>
+<event id="E8">
+<type class="Binding" />
+<theme idref="T27" />
+<theme idref="T26" />
+<clue>These studies revealed that the major protein in extracts of PMN activated by G-CSF to <clueType>bind</clueType> the high-affinity serum-inducible element (hSIE) is a 72-kDa protein that cross-reacts with Stat3 monoclonal antibody, which we have designated Stat3gamma.</clue>
+</event>
+<event id="E9">
+<type class="Binding" />
+<theme idref="T27" />
+<theme idref="T29" />
+<clue>These studies revealed that the major protein in extracts of PMN activated by G-CSF to bind the high-affinity serum-inducible element (hSIE) is a 72-kDa protein that <clueType>cross-reacts</clueType> <linkTheme>with</linkTheme> Stat3 monoclonal antibody, which we have designated Stat3gamma.</clue>
+</event>
+<sentence id="S7"><term sem="Protein_molecule" id="T30" lex="Stat3gamma">Stat3gamma</term> is derived from <term sem="Protein_molecule" id="T31" lex="Stat3alpha">Stat3alpha</term> by limited <term sem="Other" id="T32" lex="proteolysis">proteolysis</term> and lacks the <term sem="Protein_domain_or_region" id="A4"><term sem="Protein_domain_or_region" id="T33" lex="carboxyl-terminal_portion">carboxyl-terminal portion</term> of <term sem="Protein_molecule" id="T34" lex="Stat3alpha">Stat3alpha</term></term>.</sentence>
+<event id="E10">
+<type class="Protein_catabolism" />
+<theme idref="T31" />
+<clue>Stat3gamma is derived <linkTheme>from</linkTheme> Stat3alpha by limited <clueType>proteolysis</clueType> and lacks the carboxyl-terminal portion of Stat3alpha.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<cause idref="E10" />
+<clue>Stat3gamma is <clueType>derived</clueType> from Stat3alpha <linkCause>by</linkCause> limited proteolysis and lacks the carboxyl-terminal portion of Stat3alpha.</clue>
+</event>
+<sentence id="S8">Because this region of <term sem="Protein_molecule" id="T35" lex="Stat3alpha">Stat3alpha</term> is involved in <term sem="Other" id="T36" lex="transcriptional_activation">transcriptional activation</term>, our findings suggest the possibility that <term sem="Protein_molecule" id="T37" lex="Stat3gamma">Stat3gamma</term> may be transcriptionally inactive and may compete with <term sem="Protein_molecule" id="T38" lex="Stat3alpha">Stat3alpha</term> for <term sem="DNA_domain_or_region" id="T39" lex="Stat3_binding_site"><term sem="Protein_molecule" id="T40" lex="Stat3">Stat3</term> binding sites</term> in these <term sem="Cell_natural" id="T41" lex="terminally_differentiated_myeloid_cell">terminally differentiated <term sem="Cell_natural" id="A5">myeloid cells</term></term>.</sentence>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="T36" />
+<cause idref="A4" />
+<clue>Because <corefCause>this region of Stat3alpha</corefCause> is <clueType>involved</clueType> <linkTheme>in</linkTheme> transcriptional activation, our findings suggest the possibility that Stat3gamma may be transcriptionally inactive and may compete with Stat3alpha for Stat3 binding sites in these terminally differentiated myeloid cells.</clue>
+<comment>TPS: A4</comment>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E12">
+<type class="Positive_regulation" />
+<cause idref="T37" />
+<clue>Because this region of Stat3alpha is involved in transcriptional activation, our findings suggest the possibility that Stat3gamma may be <clueType>transcriptionally inactive</clueType> and may compete with Stat3alpha for Stat3 binding sites in these terminally differentiated myeloid cells.</clue>
+</event>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T37" />
+<theme idref="T39" />
+<clue>Because this region of Stat3alpha is involved in transcriptional activation, our findings suggest the possibility that Stat3gamma may be transcriptionally inactive and may <clueType>compete</clueType> with Stat3alpha for Stat3 <clueType>binding</clueType> sites <clueLoc>in these terminally differentiated myeloid cells</clueLoc>.</clue>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T38" />
+<theme idref="T39" />
+<clue>Because this region of Stat3alpha is involved in transcriptional activation, our findings suggest the possibility that Stat3gamma may be transcriptionally inactive and may compete with Stat3alpha <linkTheme>for</linkTheme> Stat3 binding sites <clueLoc>in these terminally differentiated myeloid cells</clueLoc>.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event uncertainty="probable" id="E15">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<theme idref="T38" />
+<clue>Because this region of Stat3alpha is involved in transcriptional activation, our findings suggest the possibility that Stat3gamma may be transcriptionally inactive and may <clueType>compete</clueType> <linkTheme>with</linkTheme> Stat3alpha for Stat3 binding sites in these terminally differentiated myeloid cells.</clue>
+</event>
+<event id="E16">
+<type class="Cell_differentiation" />
+<theme idref="T37" />
+<clue>Because this region of Stat3alpha is involved in transcriptional activation, our findings suggest the possibility that Stat3gamma may be transcriptionally inactive and may compete with Stat3alpha for Stat3 binding sites in these <clueType>terminally differentiated</clueType> myeloid cells.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

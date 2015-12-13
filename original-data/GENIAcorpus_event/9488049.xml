@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="03/04/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9488049">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9488049</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="cytokine_rescue"><term sem="Protein_family_or_group" id="T2" lex="cytokine">Cytokine</term> rescue</term> from <term sem="Other" id="T3" lex="glucocorticoid_induced_apoptosis"><term sem="Lipid" id="A1">glucocorticoid</term> induced <term sem="Other" id="A2">apoptosis</term></term> in <term sem="Cell_natural" id="T4" lex="T_cell">T cells</term> is mediated through inhibition of <term sem="Protein_molecule" id="T5" lex="IkappaBalpha">IkappaBalpha</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="A1" />
+<clue>Cytokine rescue from glucocorticoid <clueType>induced</clueType> apoptosis <clueLoc>in T cells</clueLoc> is mediated through inhibition of IkappaBalpha.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T2" />
+<clue>Cytokine <clueType>rescue</clueType> <linkTheme>from</linkTheme> glucocorticoid induced apoptosis in T cells is mediated through inhibition of IkappaBalpha.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="T5" />
+<clue>Cytokine rescue from glucocorticoid induced apoptosis in T cells is mediated through <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IkappaBalpha.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E3" />
+<clue>Cytokine rescue from glucocorticoid induced apoptosis in T cells is <clueType>mediated</clueType> <linkCause>through</linkCause> inhibition of IkappaBalpha.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We previously reported that <term sem="Lipid" id="T6" lex="dexamethasone">dexamethasone</term> (<term sem="Lipid" id="T7" lex="DEX">DEX</term>), a <term sem="Lipid" id="T8" lex="synthetic_glucocorticoid">synthetic glucocorticoid</term>, causes <term sem="Other" id="A3">apoptosis</term> in <term sem="Cell_cultured" id="T9" lex="mature_Th_cell_line">mature Th cell lines</term>, and that this induction of cell death is prevented by specific <term sem="Protein_family_or_group" id="T10" lex="cytokine">cytokines</term>, namely, by <term sem="Protein_molecule" id="T11" lex="IL-2">IL-2</term> in <term sem="Cell_natural" id="T12" lex="Th1_cell">Th1 cells</term> and by <term sem="Protein_molecule" id="T13" lex="IL-4">IL-4</term> in <term sem="Cell_natural" id="T14" lex="Th2_cell">Th2 cells</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<cause idref="T7" />
+<clue>We previously reported that dexamethasone (DEX), a synthetic glucocorticoid, <clueType>causes</clueType> apoptosis <clueLoc>in mature Th cell lines</clueLoc>, and that this induction of cell death is prevented by specific cytokines, namely, by IL-2 in Th1 cells and by IL-4 in Th2 cells.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="T11" />
+<clue>We previously reported that dexamethasone (DEX), a synthetic glucocorticoid, causes apoptosis in mature Th cell lines, and that this induction of cell death is <clueType>prevented</clueType> <linkCause>by</linkCause> specific <corefCause>cytokines</corefCause>, namely, by IL-2 <clueLoc>in Th1 cells</clueLoc> and by IL-4 in Th2 cells.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="T13" />
+<clue>We previously reported that dexamethasone (DEX), a synthetic glucocorticoid, causes apoptosis in mature Th cell lines, and that this induction of cell death is <clueType>prevented</clueType> <linkCause>by</linkCause> specific <corefCause>cytokines</corefCause>, namely, by IL-2 in Th1 cells and by IL-4 <clueLoc>in Th2 cells</clueLoc>.</clue>
+</event>
+<sentence id="S3">We now show that this differential rescue by specific <term sem="Protein_family_or_group" id="T15" lex="cytokine">cytokines</term> in <term sem="Cell_natural" id="T16" lex="Th_cell">Th cells</term> correlates with the level of <term sem="Protein_molecule" id="T17" lex="IkappaBalpha">IkappaBalpha</term> that is regulated by <term sem="Lipid" id="T18" lex="DEX">DEX</term> and <term sem="Protein_family_or_group" id="T19" lex="cytokine">cytokines</term>.</sentence>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="T17" />
+<cause idref="T18" />
+<clue>We now show that this differential rescue by specific cytokines in Th cells correlates with the level of IkappaBalpha that is <clueType>regulated</clueType> <linkCause>by</linkCause> DEX and cytokines.</clue>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="T17" />
+<cause idref="T19" />
+<clue>We now show that this differential rescue by specific cytokines in Th cells correlates with the level of IkappaBalpha that is <clueType>regulated</clueType> <linkCause>by</linkCause> DEX and cytokines.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<cause idref="T15" />
+<clue>We now show that this differential <clueType>rescue</clueType> <linkCause>by</linkCause> specific cytokines <clueLoc>in Th cells</clueLoc> correlates with the level of IkappaBalpha that is regulated by DEX and cytokines.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E11">
+<type class="Correlation" />
+<theme idref="E8" />
+<theme idref="E10" />
+<clue>We now show that this differential rescue by specific cytokines in Th cells <clueType>correlates</clueType> <linkTheme>with</linkTheme> the level of IkappaBalpha that is regulated by DEX and cytokines.</clue>
+</event>
+<event id="E12">
+<type class="Correlation" />
+<theme idref="E9" />
+<theme idref="E10" />
+<clue>We now show that this differential rescue by specific cytokines in Th cells <clueType>correlates</clueType> <linkTheme>with</linkTheme> the level of IkappaBalpha that is regulated by DEX and cytokines.</clue>
+</event>
+<sentence id="S4">In both cell types the <term sem="Other" id="T20" lex="cellular_level">cellular levels</term> of <term sem="RNA_molecule" id="T21" lex="IkappaBalpha mRNA"><term sem="Protein_molecule" id="T22" lex="IkappaBalpha">IkappaBalpha</term> mRNA</term> and <term sem="Protein_molecule" id="A9">protein</term> were evaluated by <term sem="Lipid" id="T23" lex="DEX">DEX</term> treatment.</sentence>
+<event uncertainty="doubtful" id="E13">
+<type class="Transcription" />
+<theme idref="T21" />
+<clue><clueLoc>In both cell types</clueLoc> the <clueLoc>cellular</clueLoc> <clueType>levels</clueType> <linkTheme>of</linkTheme> IkappaBalpha mRNA and protein were evaluated <clueExperiment>by DEX treatment</clueExperiment>.</clue>
+<comment>CAUTION, levels</comment>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Gene_expression" />
+<theme idref1="A9" idref="T22" />
+<clue><clueLoc>In both cell types</clueLoc> the <clueLoc>cellular</clueLoc> <clueType>levels</clueType> <linkTheme>of</linkTheme> IkappaBalpha mRNA and protein were evaluated <clueExperiment>by DEX treatment</clueExperiment>.</clue>
+<comment>CAUTION, levels</comment>
+</event>
+<sentence id="S5">Interestingly, the <term sem="Other" id="T24" lex="DEX-mediated_IkappaBalpha_induction"><term sem="Lipid" id="T25" lex="DEX">DEX</term>-mediated <term sem="Protein_molecule" id="T26" lex="IkappaBalpha">IkappaBalpha</term> induction</term> was completely inhibited by <term sem="Protein_molecule" id="T27" lex="IL-2">IL-2</term>, but not <term sem="Protein_molecule" id="T28" lex="IL-4">IL-4</term>, in <term sem="Cell_natural" id="T29" lex="Th1_cell">Th1 cells</term>, while the reverse profile was seen in <term sem="Cell_natural" id="T30" lex="Th2_cell">Th2 cells</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<cause idref="T25" />
+<clue>Interestingly, the DEX<linkCause>-mediated</linkCause> IkappaBalpha <clueType>induction</clueType> was completely inhibited by IL-2, but not IL-4, in Th1 cells, while the reverse profile was seen in Th2 cells.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T27" />
+<clue>Interestingly, the DEX-mediated IkappaBalpha induction was completely <clueType>inhibited</clueType> <linkCause>by</linkCause> IL-2, but not IL-4, <clueLoc>in Th1 cells</clueLoc>, while the reverse profile was seen in Th2 cells.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T28" />
+<clue>Interestingly, the DEX-mediated IkappaBalpha induction was completely <clueType>inhibited</clueType> <linkCause>by</linkCause> IL-2, but not IL-4, <clueLoc>in Th1 cells</clueLoc>, while the reverse profile was seen in Th2 cells.</clue>
+</event>
+<event assertion="non-exist" id="E19">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T27" />
+<clue>Interestingly, the DEX-mediated IkappaBalpha induction was completely <clueType>inhibited</clueType> <linkCause>by</linkCause> IL-2, but not IL-4, in Th1 cells, while the reverse profile was seen <clueLoc>in Th2 cells</clueLoc>.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T28" />
+<clue>Interestingly, the DEX-mediated IkappaBalpha induction was completely <clueType>inhibited</clueType> <linkCause>by</linkCause> IL-2, but not IL-4, in Th1 cells, while the reverse profile was seen <clueLoc>in Th2 cells</clueLoc>.</clue>
+</event>
+<sentence id="S6">In both cell types, the <term sem="Protein_family_or_group" id="T31" lex="cytokine">cytokine</term> that inhibits the induction of <term sem="Protein_molecule" id="T32" lex="IkappaBalpha">IkappaBalpha</term> by <term sem="Lipid" id="T33" lex="DEX">DEX</term>, also rescues these cells from <term sem="Other" id="T34" lex="DEX-induced_apoptosis"><term sem="Lipid" id="T35" lex="DEX">DEX</term>-induced <term sem="Other" id="A4">apoptosis</term></term>, although the rescue cytokine is different in <cons sem="(AND Cell_natural Cell_natural)" id="T36" lex="(AND Th1_cell Th2_cell)"><frag id="F1"><term sem="Cell_natural" id="A5">Th1</term></frag> and <frag id="F2"><term sem="Cell_natural" id="A6">Th2</term></frag> <frag id="F3"><term sem="Cell_natural" id="A7">cells</term></frag></cons>.</sentence>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<cause idref="T33" />
+<clue>In both cell types, the cytokine that inhibits the <clueType>induction</clueType> <linkTheme>of</linkTheme> IkappaBalpha <linkCause>by</linkCause> DEX, also rescues these cells from DEX-induced apoptosis, although the rescue cytokine is different in Th1 and Th2 cells.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T31" />
+<clue>In both cell types, the cytokine that <clueType>inhibits</clueType> the induction of IkappaBalpha by DEX, also rescues these cells from DEX-induced apoptosis, although the rescue cytokine is different in Th1 and Th2 cells.</clue>
+</event>
+<event id="E23">
+<type class="Cellular_physiological_process" />
+<theme idref1="A7" idref="A5" />
+<clue>In both cell types, the cytokine that inhibits the induction of IkappaBalpha by DEX, also rescues <corefTheme>these cells</corefTheme> from DEX-induced <clueType>apoptosis</clueType>, although the rescue cytokine is different in Th1 and Th2 cells.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T35" />
+<clue>In both cell types, the cytokine that inhibits the induction of IkappaBalpha by DEX, also rescues these cells from DEX-<clueType>induced</clueType> apoptosis, although the rescue cytokine is different in Th1 and Th2 cells.</clue>
+</event>
+<event id="E26">
+<type class="Cellular_physiological_process" />
+<theme idref1="A7" idref="A6" />
+<clue>In both cell types, the cytokine that inhibits the induction of IkappaBalpha by DEX, also rescues <corefTheme>these cells</corefTheme> from DEX-induced <clueType>apoptosis</clueType>, although the rescue cytokine is different in Th1 and Th2 cells.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T35" />
+<clue>In both cell types, the cytokine that inhibits the induction of IkappaBalpha by DEX, also rescues these cells from DEX-<clueType>induced</clueType> apoptosis, although the rescue cytokine is different in Th1 and Th2 cells.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="E22" />
+<clue><clueLoc>In both cell types</clueLoc>, the cytokine that inhibits the induction of IkappaBalpha by DEX, also <clueType>rescues</clueType> these cells from DEX-induced apoptosis, although the rescue cytokine is different in Th1 and Th2 cells.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E26" />
+<cause idref="E22" />
+<clue><clueLoc>In both cell types</clueLoc>, the cytokine that inhibits the induction of IkappaBalpha by DEX, also <clueType>rescues</clueType> these cells from DEX-induced apoptosis, although the rescue cytokine is different in Th1 and Th2 cells.</clue>
+</event>
+<sentence id="S7">Our results imply that <term sem="Cell_natural" id="T37" lex="T_cell">T cells</term> need to maintain a certain level of <term sem="Other" id="T38" lex="NF-kappaB_transcriptional_activity"><term sem="Protein_complex" id="T39" lex="NF-kappaB">NF-kappaB</term> transcriptional activity</term> in order to survive; up- or down-regulation of <term sem="Protein_complex" id="T40" lex="nuclear_NF_kappaB">nuclear NF kappaB</term> through modulation of <term sem="Protein_molecule" id="T41" lex="IkappaBalpha">IkappaBalpha</term> expression by <term sem="Protein_family_or_group" id="T42" lex="cytokine">cytokines</term> or <term sem="Lipid" id="T43" lex="DEX">DEX</term> may lead to <term sem="Other" id="T44" lex="cell_survival">cell survival</term> or <term sem="Other" id="T45" lex="cell_death">cell death</term>, respectively.</sentence>
+<event uncertainty="doubtful" id="E27">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<clue>Our results imply that <clueLoc>T cells</clueLoc> need to <clueType>maintain</clueType> a certain level of NF-kappaB transcriptional activity in order to survive; up- or down-regulation of nuclear NF kappaB through modulation of IkappaBalpha expression by cytokines or DEX may lead to cell survival or cell death, respectively.</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>Our results imply that T cells need to maintain a certain level of NF-kappaB transcriptional activity in order to survive; up- or down-regulation of nuclear NF kappaB through modulation of IkappaBalpha <clueType>expression</clueType> by cytokines or DEX may lead to cell survival or cell death, respectively.</clue>
+</event>
+<event id="E29">
+<type class="Regulation" />
+<theme idref="E28" />
+<cause idref="T42" />
+<clue>Our results imply that T cells need to maintain a certain level of NF-kappaB transcriptional activity in order to survive; up- or down-regulation of nuclear NF kappaB through <clueType>modulation</clueType> <linkTheme>of</linkTheme> IkappaBalpha expression <linkCause>by</linkCause> cytokines or DEX may lead to cell survival or cell death, respectively.</clue>
+</event>
+<event id="E30">
+<type class="Regulation" />
+<theme idref="E28" />
+<cause idref="T43" />
+<clue>Our results imply that T cells need to maintain a certain level of NF-kappaB transcriptional activity in order to survive; up- or down-regulation of nuclear NF kappaB through <clueType>modulation</clueType> <linkTheme>of</linkTheme> IkappaBalpha expression <linkCause>by</linkCause> cytokines or DEX may lead to cell survival or cell death, respectively.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<cause idref="E29" />
+<clue>Our results imply that T cells need to maintain a certain level of NF-kappaB transcriptional activity in order to survive; <clueType>up-</clueType> or down-<clueType>regulation</clueType> <linkTheme>of</linkTheme> nuclear NF kappaB <linkCause>through</linkCause> modulation of IkappaBalpha expression by cytokines or DEX may lead to cell survival or cell death, respectively.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="T40" />
+<cause idref="E30" />
+<clue>Our results imply that T cells need to maintain a certain level of NF-kappaB transcriptional activity in order to survive; up- or <clueType>down-regulation</clueType> <linkTheme>of</linkTheme> nuclear NF kappaB <linkCause>through</linkCause> modulation of IkappaBalpha expression by cytokines or DEX may lead to cell survival or cell death, respectively.</clue>
+</event>
+<event uncertainty="probable" id="E33">
+<type class="Positive_regulation" />
+<theme idref="T44" />
+<cause idref="E31" />
+<clue>Our results imply that T cells need to maintain a certain level of NF-kappaB transcriptional activity in order to survive; up- or down-regulation of nuclear NF kappaB through modulation of IkappaBalpha expression by cytokines or DEX may <clueType>lead</clueType> <linkTheme>to</linkTheme> cell survival or cell death, respectively.</clue>
+</event>
+<event uncertainty="probable" id="E34">
+<type class="Positive_regulation" />
+<theme idref="T45" />
+<cause idref="E32" />
+<clue>Our results imply that T cells need to maintain a certain level of NF-kappaB transcriptional activity in order to survive; up- or down-regulation of nuclear NF kappaB through modulation of IkappaBalpha expression by cytokines or DEX may <clueType>lead</clueType> <linkTheme>to</linkTheme> cell survival or cell death, respectively.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

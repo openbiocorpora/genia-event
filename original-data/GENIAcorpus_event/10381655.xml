@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="30/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10381655" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10381655</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_complex" id="T1" lex="NF-kappaB">NF-kappaB</term> functions as both a <cons sem="(AND Protein_family_or_group Protein_family_or_group)" id="T2" lex="(AND proapoptotic_regulatory_factor antiapoptotic_regulatory_factor)"><frag id="F1">proapoptotic</frag> and <frag id="F2">antiapoptotic</frag> <frag id="F3">regulatory factor</frag></cons> within a single cell type.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<cause idref="T1" />
+<clue>NF-kappaB <clueType>functions as</clueType> both a <clueType>proapoptotic</clueType> and antiapoptotic <clueType>regulatory factor</clueType> <clueLoc>within a single cell type</clueLoc>.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<cause idref="T1" />
+<clue>NF-kappaB <clueType>functions as</clueType> both a proapoptotic and <clueType>antiapoptotic regulatory factor</clueType> <clueLoc>within a single cell type</clueLoc>.</clue>
+<comment>NO THEME</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Recently <term sem="Protein_complex" id="T3" lex="NF-kappaB">NF-kappaB</term> has been shown to have both <cons sem="(AND Other Other)" id="T4" lex="(AND proapoptotic_function antiapoptotic_function)"><frag id="F4">proapoptotic</frag> and <frag id="F5">antiapoptotic</frag> <frag id="F6">functions</frag></cons>.</sentence>
+<sentence id="S3">In <term sem="Cell_cultured" id="T5" lex="T_cell_hybridoma">T cell hybridomas</term>, both <term sem="Other" id="T6" lex="T_cell_activator">T cell activators</term> and <term sem="Lipid" id="T7" lex="glucocorticoid">glucocorticoids</term> induce <term sem="Other" id="T8" lex="apoptosis">apoptosis</term>.</sentence>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="T6" />
+<clue><clueLoc>In T cell hybridomas</clueLoc>, both T cell activators and glucocorticoids <clueType>induce</clueType> apoptosis.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="T7" />
+<clue><clueLoc>In T cell hybridomas</clueLoc>, both T cell activators and glucocorticoids <clueType>induce</clueType> apoptosis.</clue>
+</event>
+<sentence id="S4">Here we show that blockade of <term sem="Other" id="T9" lex="NF-kappaB_activity"><term sem="Protein_molecule" id="T10" lex="NF-kappaB">NF-kappaB</term> activity</term>, using a <term sem="Protein_molecule" id="T11" lex="dominant_negative_IkappaBalpha">dominant negative IkappaBalpha</term>, has opposite effects on these two <term sem="Other" id="T12" lex="apoptotic_signal">apoptotic signals</term>.</sentence>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="T10" />
+<cause idref="T11" />
+<clue>Here we show that <clueType>blockade</clueType> <linkTheme>of</linkTheme> NF-kappaB activity, <linkCause>using</linkCause> a dominant negative IkappaBalpha, has opposite effects on these two apoptotic signals.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="T6" />
+<cause idref="E5" />
+<clue>Here we show that blockade of NF-kappaB activity, using a dominant negative IkappaBalpha, has opposite <clueType>effects</clueType> <linkTheme>on</linkTheme> <corefTheme>these two apoptotic signals</corefTheme>.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="T7" />
+<cause idref="E5" />
+<clue>Here we show that blockade of NF-kappaB activity, using a dominant negative IkappaBalpha, has opposite <clueType>effects</clueType> <linkTheme>on</linkTheme> <corefTheme>these two apoptotic signals</corefTheme>.</clue>
+</event>
+<sentence id="S5">Treatment with <term sem="Organic_compound_other" id="T13" lex="PMA">PMA</term> plus <term sem="Organic_compound_other" id="T14" lex="ionomycin">ionomycin</term> (<term sem="Organic_compound_other" id="T15" lex="P/I">P/I</term>) results in the upregulation of <term sem="Protein_molecule" id="T16" lex="Fas_Ligand">Fas Ligand</term> (<term sem="Protein_molecule" id="T17" lex="FasL">FasL</term>) and induction of <term sem="Other" id="T18" lex="apoptosis">apoptosis</term>.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="T15" />
+<clue>Treatment with PMA plus ionomycin (P/I) <clueType>results in the upregulation</clueType> <linkTheme>of</linkTheme> Fas Ligand (FasL) and induction of apoptosis.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T18" />
+<cause idref="T15" />
+<clue>Treatment with PMA plus ionomycin (P/I) <clueType>results in</clueType> the upregulation of Fas Ligand (FasL) and <clueType>induction</clueType> <linkTheme>of</linkTheme> apoptosis.</clue>
+</event>
+<sentence id="S6">Inhibition of <term sem="Protein_complex" id="T19" lex="NF-kappaB">NF-kappaB</term> activity inhibits the <term sem="Organic_compound_other" id="T20" lex="P/I">P/I</term> mediated induction of <term sem="RNA_molecule" id="T21" lex="FasL_mRNA"><term sem="Protein_molecule" id="T22" lex="FasL">FasL</term> mRNA</term> and decreases the level of <term sem="Other" id="T23" lex="apoptosis">apoptosis</term> in these cultures, thus establishing <term sem="Protein_complex" id="T24" lex="NF-kappaB">NF-kappaB</term> as a <term sem="Protein_molecule" id="T25" lex="proapoptotic_factor">proapoptotic factor</term> in this context.</sentence>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="T19" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> NF-kappaB activity inhibits the P/I mediated induction of FasL mRNA and decreases the level of apoptosis in these cultures, thus establishing NF-kappaB as a proapoptotic factor in this context.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="E10" />
+<clue>Inhibition of NF-kappaB activity <clueType>inhibits</clueType> the P/I mediated induction of FasL mRNA and decreases the level of apoptosis in these cultures, thus establishing NF-kappaB as a proapoptotic factor in this context.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T20" />
+<clue>Inhibition of NF-kappaB activity inhibits the P/I <clueType>mediated</clueType> induction of FasL mRNA and decreases the level of apoptosis in these cultures, thus establishing NF-kappaB as a proapoptotic factor in this context.</clue>
+</event>
+<event id="E13">
+<type class="Transcription" />
+<theme idref="T21" />
+<clue>Inhibition of NF-kappaB activity inhibits the P/I mediated <clueType>induction</clueType> <linkTheme>of</linkTheme> FasL mRNA and decreases the level of apoptosis in these cultures, thus establishing NF-kappaB as a proapoptotic factor in this context.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<cause idref="E10" />
+<clue>Inhibition of NF-kappaB activity inhibits the P/I mediated induction of FasL mRNA and <clueType>decreases</clueType> the level of apoptosis <clueLoc>in these cultures</clueLoc>, thus establishing NF-kappaB as a proapoptotic factor in this context.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<cause idref="T24" />
+<clue>Inhibition of NF-kappaB activity inhibits the P/I mediated induction of FasL mRNA and decreases the level of apoptosis in these cultures, thus establishing NF-kappaB as a <clueType>proapoptotic</clueType> factor in this context.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S7">Conversely, inhibition of <term sem="Protein_molecule" id="T26" lex="NF-kappaB">NF-kappaB</term> confers a tenfold increase in <term sem="Lipid" id="A3">glucocorticoid</term> mediated <term sem="Other" id="T27" lex="apoptosis">apoptosis</term>, establishing that <term sem="Protein_complex" id="T28" lex="NF-kappaB">NF-kappaB</term> also functions as an <term sem="Other" id="T29" lex="antiapoptotic_factor">antiapoptotic factor</term>.</sentence>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="T26" />
+<clue>Conversely, <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappaB confers a tenfold increase in glucocorticoid mediated apoptosis, establishing that NF-kappaB also functions as an antiapoptotic factor.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E15" />
+<clue>Conversely, inhibition of NF-kappaB <clueType>confers</clueType> a tenfold <clueType>increase</clueType> <linkTheme>in</linkTheme> glucocorticoid mediated apoptosis, establishing that NF-kappaB also functions as an antiapoptotic factor.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="A3" />
+<clue>Conversely, inhibition of NF-kappaB confers a tenfold increase in glucocorticoid <clueType>mediated</clueType> apoptosis, establishing that NF-kappaB also functions as an antiapoptotic factor.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<cause idref="T28" />
+<clue>Conversely, inhibition of NF-kappaB confers a tenfold increase in glucocorticoid mediated apoptosis, establishing that NF-kappaB also <clueType>functions as</clueType> an antiapoptotic factor.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S8">We conclude that <term sem="Protein_complex" id="T30" lex="NF-kappaB">NF-kappaB</term> is a <term sem="Other" id="T31" lex="context-dependent_apoptosis_regulator">context-dependent <term sem="Other" id="T32" lex="apoptosis">apoptosis</term> regulator</term>.</sentence>
+<event id="E18">
+<type class="Regulation" />
+<theme idref="T32" />
+<cause idref="T30" />
+<clue>We conclude that NF-kappaB is a context-dependent apoptosis <clueType>regulator</clueType>.</clue>
+</event>
+<sentence id="S9">Our data suggests that <term sem="Protein_complex" id="T33" lex="NF-kappaB">NF-kappaB</term> may function as an antiapoptotic factor in <term sem="Cell_natural" id="T34" lex="thymocyte">thymocytes</term> while functioning as a proapoptotic factor in <term sem="Cell_natural" id="T35" lex="mature_peripheral_T_cell">mature peripheral T cells</term>.</sentence>
+<event uncertainty="probable" id="E22">
+<type class="Negative_regulation" />
+<theme idref="T34" />
+<cause idref="T33" />
+<clue>Our data suggests that NF-kappaB may function as an <clueType>antiapoptotic</clueType> factor <clueLoc>in thymocytes</clueLoc> while functioning as a proapoptotic factor in mature peripheral T cells.</clue>
+</event>
+<event uncertainty="probable" id="E23">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<cause idref="T33" />
+<clue>Our data suggests that NF-kappaB may function as an antiapoptotic factor in thymocytes while functioning as a <clueType>proapoptotic</clueType> factor <clueLoc>in mature peripheral T cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

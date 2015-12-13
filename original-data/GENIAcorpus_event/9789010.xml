@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="24/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9789010" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9789010</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Inhibition of <term sem="Other" id="T1" lex="RNA_polymerase_II_transcription"><term sem="Protein_molecule" id="T2" lex="RNA_polymerase_II">RNA polymerase II</term> transcription</term> in <term sem="Cell_natural" id="T3" lex="human_cell">human cells</term> by <term sem="Organic_compound_other" id="T4" lex="synthetic_DNA-binding_ligand">synthetic DNA-binding ligands</term> [see comments]</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T2" />
+<clue>Inhibition of RNA polymerase II <clueType>transcription</clueType> <clueLoc>in human cells</clueLoc> by synthetic DNA-binding ligands [see comments]</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T4" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> RNA polymerase II transcription in human cells <linkCause>by</linkCause> synthetic DNA-binding ligands [see comments]</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Organic_compound_other" id="T5" lex="sequence-specific_DNA-binding_small_molecule">Sequence-specific <term sem="DNA_domain_or_region" id="A2">DNA</term>-binding <term sem="Organic_compound_other" id="A1">small molecules</term></term> that can permeate <term sem="Cell_natural" id="T6" lex="human_cell">human cells</term> potentially could regulate transcription of <term sem="DNA_family_or_group" id="A3">specific genes</term>.</sentence>
+<event id="E3">
+<type class="Localization" />
+<theme idref="T5" />
+<clue>Sequence-specific DNA-binding small molecules that can <clueType>permeate</clueType> <clueLoc>human cells</clueLoc> potentially could regulate transcription of specific genes.</clue>
+</event>
+<event id="E4">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="A2" />
+<clue>Sequence-specific DNA-<clueType>binding</clueType> small molecules that can permeate human cells potentially could regulate transcription of specific genes.</clue>
+</event>
+<event id="E5">
+<type class="Transcription" />
+<theme idref="A3" />
+<clue>Sequence-specific DNA-binding small molecules that can permeate human cells potentially could regulate <clueType>transcription</clueType> <linkTheme>of</linkTheme> specific genes.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T5" />
+<clue>Sequence-specific DNA-binding small molecules that can permeate human cells potentially could <clueType>regulate</clueType> transcription of specific genes.</clue>
+</event>
+<sentence id="S3">Multiple <term sem="Protein_family_or_group" id="T7" lex="cellular_DNA-binding_transcription_factor">cellular DNA-binding transcription factors</term> are required by <term sem="Virus" id="T8" lex="HIV_type_1">HIV type 1</term> for <term sem="Other" id="T9" lex="RNA_synthesis"><term sem="RNA_molecule" id="A5">RNA</term> synthesis</term>.</sentence>
+<event id="E7">
+<type class="Transcription" />
+<theme idref1="A5" idref="T8" />
+<clue>Multiple cellular DNA-binding transcription factors are required by HIV type 1 for RNA <clueType>synthesis</clueType>.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T7" />
+<clue>Multiple cellular DNA-binding transcription factors are <clueType>required</clueType> <linkTheme>by</linkTheme> HIV type 1 <linkTheme>for</linkTheme> RNA synthesis.</clue>
+</event>
+<sentence id="S4">Two <term sem="Organic_compound_other" id="T10" lex="pyrrole-imidazole_polyamide">pyrrole-imidazole polyamides</term> were designed to bind <term sem="DNA_domain_or_region" id="A6">DNA sequences</term> immediately <term sem="DNA_domain_or_region" id="A7">adjacent to binding sites for</term> the <term sem="Protein_family_or_group" id="T11" lex="transcription_factor">transcription factors</term> <term sem="Protein_molecule" id="T12" lex="Ets-1">Ets-1</term>, <term sem="Protein_molecule" id="T13" lex="lymphoid-enhancer_binding_factor_1">lymphoid-enhancer binding factor 1</term>, and <term sem="Protein_molecule" id="T14" lex="TATA-box_binding_protein"><term sem="DNA_domain_or_region" id="T15" lex="TATA-box">TATA-box</term> binding protein</term>.</sentence>
+<event id="E9">
+<type class="Binding" />
+<theme idref="T10" />
+<theme idref1="A7" idref2="T12" idref="A6" />
+<clue>Two pyrrole-imidazole polyamides were designed to <clueType>bind</clueType> DNA sequences immediately adjacent to binding sites for the transcription factors Ets-1, lymphoid-enhancer binding factor 1, and TATA-box binding protein.</clue>
+<comment>TPS A7</comment>
+</event>
+<event id="E10">
+<type class="Binding" />
+<theme idref="T10" />
+<theme idref1="A7" idref2="T13" idref="A6" />
+<clue>Two pyrrole-imidazole polyamides were designed to <clueType>bind</clueType> DNA sequences immediately adjacent to binding sites for the transcription factors Ets-1, lymphoid-enhancer binding factor 1, and TATA-box binding protein.</clue>
+</event>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T10" />
+<theme idref1="A7" idref2="T14" idref="A6" />
+<clue>Two pyrrole-imidazole polyamides were designed to <clueType>bind</clueType> DNA sequences immediately adjacent to binding sites for the transcription factors Ets-1, lymphoid-enhancer binding factor 1, and TATA-box binding protein.</clue>
+</event>
+<sentence id="S5">These synthetic ligands specifically inhibit <term sem="DNA_domain_or_region" id="A8">DNA</term>-binding of each <term sem="Protein_family_or_group" id="T16" lex="transcription_factor">transcription factor</term> and <term sem="Virus" id="T17" lex="HIV_type_1">HIV type 1</term> transcription in <term sem="Other" id="T18" lex="cell-free_assay">cell-free assays</term>.</sentence>
+<event id="E12">
+<type class="Binding" />
+<theme idref="A8" />
+<theme idref="T16" />
+<clue>These synthetic ligands specifically inhibit DNA-<clueType>binding</clueType> <linkTheme>of</linkTheme> each transcription factor and HIV type 1 transcription in cell-free assays.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="T10" />
+<clue><corefCause>These synthetic ligands</corefCause> specifically <clueType>inhibit</clueType> DNA-binding of each transcription factor and HIV type 1 transcription <clueLoc>in cell-free assays</clueLoc>.</clue>
+</event>
+<event id="E14">
+<type class="Transcription" />
+<theme idref="T17" />
+<clue>These synthetic ligands specifically inhibit DNA-binding of each transcription factor and HIV type 1 <clueType>transcription</clueType> in cell-free assays.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E14" />
+<cause idref="T10" />
+<clue><corefCause>These synthetic ligands</corefCause> specifically <clueType>inhibit</clueType> DNA-binding of each transcription factor and HIV type 1 transcription <clueLoc>in cell-free assays</clueLoc>.</clue>
+</event>
+<sentence id="S6">When used in combination, the <term sem="Organic_compound_other" id="T19" lex="polyamide">polyamides</term> inhibit virus replication by &gt;99% in <term sem="Cell_natural" id="T20" lex="isolated_human_peripheral_blood_lymphocyte">isolated human peripheral blood lymphocytes</term>, with no detectable <term sem="Other" id="A10">cell toxicity</term>.</sentence>
+<event id="E16">
+<type class="Viral_life_cycle" />
+<theme idref="T17" />
+<clue>When used in combination, the polyamides inhibit <corefTheme>virus</corefTheme> <clueType>replication</clueType> by &gt;99% in isolated human peripheral blood lymphocytes, with no detectable cell toxicity.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T19" />
+<clue>When used <linkCause>in combination</linkCause>, the polyamides <clueType>inhibit</clueType> virus replication by &gt;99% <clueLoc>in isolated human peripheral blood lymphocytes</clueLoc>, with no detectable cell toxicity.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Correlation" />
+<theme idref="E17" />
+<theme idref="A10" />
+<clue>When used in combination, the polyamides inhibit virus replication by &gt;99% in isolated human peripheral blood lymphocytes, <clueType>with</clueType> no detectable cell toxicity.</clue>
+</event>
+<sentence id="S7">The ability of <term sem="Organic_compound_other" id="A12">small molecules</term> to target predetermined <term sem="DNA_domain_or_region" id="T21" lex="DNA_sequence">DNA sequences</term> located within <term sem="DNA_domain_or_region" id="T22" lex="RNA_polymerase_II_promoter">RNA polymerase II promoters</term> suggests a general approach for regulation of <term sem="Other" id="A13">gene expression</term>, as well as a mechanism for the inhibition of <term sem="Other" id="T23" lex="viral_replication">viral replication</term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="A12" />
+<theme idref="T21" />
+<clue>The ability of small molecules to <clueType>target</clueType> predetermined DNA sequences located within RNA polymerase II promoters suggests a general approach for regulation of gene expression, as well as a mechanism for the inhibition of viral replication.</clue>
+</event>
+<event id="E20">
+<type class="Regulation" />
+<theme idref="A13" />
+<clue>The ability of small molecules to target predetermined DNA sequences located within RNA polymerase II promoters suggests a general approach for <clueType>regulation</clueType> <linkTheme>of</linkTheme> gene expression, as well as a mechanism for the inhibition of viral replication.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="T23" />
+<clue>The ability of small molecules to target predetermined DNA sequences located within RNA polymerase II promoters suggests a general approach for regulation of gene expression, as well as a mechanism for the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> viral replication.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

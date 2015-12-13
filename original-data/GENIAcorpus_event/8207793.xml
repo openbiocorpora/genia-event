@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/05/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8207793">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8207793</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="human_immunodeficiency_virus_type_1_Tat"><term sem="Virus" id="T2" lex="human_immunodeficiency_virus_type_1">Human immunodeficiency virus type 1</term> Tat</term> upregulates <term sem="Other" id="T3" lex="interleukin-2_secretion"><term sem="Protein_molecule" id="T4" lex="interleukin-2">interleukin-2</term> secretion</term> in <term sem="Cell_natural" id="T5" lex="activated_T_cell">activated <term sem="Cell_natural" id="A21">T cells</term></term>.</sentence>
+<event id="E1">
+<type class="Localization" />
+<theme idref="T4" />
+<clue>Human immunodeficiency virus type 1 Tat upregulates interleukin-2 <clueType>secretion</clueType> in activated T cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Human immunodeficiency virus type 1 Tat <clueType>upregulates</clueType> interleukin-2 secretion <clueLoc>in activated T cells.</clueLoc></clue>
+</event>
+<event id="E51">
+<type class="Physiological_process" />
+<theme idref="A21" />
+<clue>Human immunodeficiency virus type 1 Tat upregulates interleukin-2 secretion in <clueType>activated</clueType> T cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Dysregulation of <term sem="Protein_family_or_group" id="T6" lex="cytokine">cytokines</term> secreted by <term sem="Cell_natural" id="T7" lex="T_cell">T cells</term> may play an important role in the <term sem="Other" id="A1">pathogenesis of <term sem="Other" id="T8" lex="AIDS">AIDS</term></term>.</sentence>
+<event id="E3">
+<type class="Localization" />
+<theme idref="T6" />
+<clue>Dysregulation of cytokines <clueType>secreted</clueType> <clueLoc>by T cells</clueLoc> may play an important role in the pathogenesis of AIDS.</clue>
+</event>
+<event id="E50">
+<type class="Regulation" />
+<theme idref="E3" />
+<clue><clueType>Dysregulation</clueType> <linkTheme>of</linkTheme> cytokines secreted by T cells may play an important role in the pathogenesis of AIDS.</clue>
+</event>
+<event id="E4">
+<type class="Correlation" />
+<theme idref="E50" />
+<theme idref="A1" />
+<clue>Dysregulation of cytokines secreted by T cells may <clueType>play</clueType> an <clueType>important role</clueType> <linkTheme>in</linkTheme> the pathogenesis of AIDS.</clue>
+<comment>TPS: A1</comment>
+</event>
+<sentence id="S3">To investigate the effects of <term sem="Protein_molecule" id="T9" lex="human_immunodeficiency_virus_type_1_(HIV-1)_Tat"><term sem="Virus" id="T10" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> (<term sem="Virus" id="T11" lex="HIV-1">HIV-1</term>) Tat</term> on <term sem="Other" id="T12" lex="interleukin-2_(IL-2)_expression"><term sem="Protein_molecule" id="T13" lex="interleukin-2">interleukin-2</term> (<term sem="Protein_molecule" id="T14" lex="IL-2">IL-2</term>) expression</term>, we used <term sem="DNA_family_or_group" id="T15" lex="IL-2_promoter-chloramphenicol_acetyltransferase_construct"><term sem="DNA_domain_or_region" id="T16" lex="IL-2_promoter"><term sem="Protein_molecule" id="T17" lex="IL-2">IL-2</term> promoter</term><term sem="Protein_molecule" id="T18" lex="chloramphenicol_acetyltransferase">-chloramphenicol acetyltransferase</term> constructs</term> and <term sem="Cell_cultured" id="T19" lex="IL-2-secreting_Jurkat_T_cell"><term sem="Protein_molecule" id="T20" lex="IL-2">IL-2</term>-secreting <term sem="Cell_cultured" id="T21" lex="Jurkat_T_cell">Jurkat T cells</term></term> as a model system.</sentence>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>To investigate the effects of human immunodeficiency virus type 1 (HIV-1) Tat on interleukin-2 (IL-2) <clueType>expression</clueType>, we used IL-2 promoter-chloramphenicol acetyltransferase constructs and IL-2-secreting Jurkat T cells as a model system.</clue>
+</event>
+<event uncertainty="doubtful" id="E6">
+<type class="Regulation" />
+<theme idref="E5" />
+<cause idref="T9" />
+<clue>To investigate the <clueType>effects</clueType> <linkCause>of</linkCause> human immunodeficiency virus type 1 (HIV-1) Tat <linkTheme>on</linkTheme> interleukin-2 (IL-2) expression, <clueExperiment>we used IL-2 promoter-chloramphenicol acetyltransferase constructs and IL-2-secreting Jurkat T cells as a model system.</clueExperiment></clue>
+</event>
+<event id="E7">
+<type class="Localization" />
+<theme idref="T20" />
+<clue>To investigate the effects of human immunodeficiency virus type 1 (HIV-1) Tat on interleukin-2 (IL-2) expression, we used IL-2 promoter-chloramphenicol acetyltransferase constructs and IL-2-<clueType>secreting</clueType> <clueLoc>Jurkat T cells</clueLoc> as a model system.</clue>
+</event>
+<sentence id="S4">Transient expression of <term sem="Protein_molecule" id="T22" lex="HIV-1_Tat"><term sem="Virus" id="T23" lex="HIV-1">HIV-1</term> Tat</term> induced a five- to eightfold increase in <term sem="Other" id="T24" lex="IL-2_promoter_activity"><term sem="DNA_domain_or_region" id="T25" lex="IL-2_promoter"><term sem="Protein_molecule" id="T26" lex="IL-2">IL-2</term> promoter</term> activity</term> in <term sem="Cell_cultured" id="T27" lex="Jurkat_T_cell">Jurkat T cells</term> stimulated with <term sem="Protein_molecule" id="T28" lex="phytohemagglutinin">phytohemagglutinin</term> and <term sem="Organic_compound_other" id="T29" lex="phorbol_myristate_acetate">phorbol myristate acetate</term>.</sentence>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>Transient <clueType>expression</clueType> <linkTheme>of</linkTheme> HIV-1 Tat induced a five- to eightfold increase in IL-2 promoter activity in Jurkat T cells stimulated with phytohemagglutinin and phorbol myristate acetate.</clue>
+</event>
+<event id="E9">
+<type class="Physiological_process" />
+<theme idref="T27" />
+<cause idref="T28" />
+<clue>Transient expression of HIV-1 Tat induced a five- to eightfold increase in IL-2 promoter activity in Jurkat T cells <clueType>stimulated</clueType> <linkCause>with</linkCause> phytohemagglutinin and phorbol myristate acetate.</clue>
+</event>
+<event id="E10">
+<type class="Physiological_process" />
+<theme idref="T27" />
+<cause idref="T29" />
+<clue>Transient expression of HIV-1 Tat induced a five- to eightfold increase in IL-2 promoter activity in Jurkat T cells <clueType>stimulated</clueType> <linkCause>with</linkCause> phytohemagglutinin and phorbol myristate acetate.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="E8" />
+<clue>Transient expression of HIV-1 Tat induced a five- to eightfold <clueType>increase</clueType> in IL-2 promoter activity <clueLoc>in Jurkat T cells stimulated with phytohemagglutinin</clueLoc> and phorbol myristate acetate.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="E8" />
+<clue>Transient expression of HIV-1 Tat induced a five- to eightfold <clueType>increase</clueType> in IL-2 promoter activity <clueLoc>in Jurkat T cells stimulated with</clueLoc> phytohemagglutinin and <clueLoc>phorbol myristate acetate</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T30" lex="IL-2">IL-2</term> secretion was increased more than twofold in both <term sem="Cell_cultured" id="T31" lex="Jurkat_T_cell">Jurkat T cells</term> and <term sem="Cell_cultured" id="T32" lex="primary_T_cell">primary T cells</term> stimulated by <term sem="Protein_molecule" id="T33" lex="extracellular_HIV-1_Tat_protein">extracellular <term sem="Protein_molecule" id="T34" lex="HIV-1_Tat"><term sem="Virus" id="T35" lex="HIV-1">HIV-1</term> Tat</term> protein</term>.</sentence>
+<event id="E13">
+<type class="Localization" />
+<theme idref="T30" />
+<clue>IL-2 <clueType>secretion</clueType> was increased more than twofold in both Jurkat T cells and primary T cells stimulated by extracellular HIV-1 Tat protein.</clue>
+</event>
+<event id="E14">
+<type class="Physiological_process" />
+<theme idref="T31" />
+<cause idref="T33" />
+<clue>IL-2 secretion was increased more than twofold in both Jurkat T cells and primary T cells <clueType>stimulated</clueType> <linkCause>by</linkCause> extracellular HIV-1 Tat protein.</clue>
+</event>
+<event id="E15">
+<type class="Physiological_process" />
+<theme idref="T32" />
+<cause idref="T33" />
+<clue>IL-2 secretion was increased more than twofold in both Jurkat T cells and primary T cells <clueType>stimulated</clueType> <linkCause>by</linkCause> extracellular HIV-1 Tat protein.</clue>
+</event>
+<event id="E300">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<clue>IL-2 secretion was <clueType>increased</clueType> more than twofold <clueLoc>in</clueLoc> both <clueLoc>Jurkat T cells</clueLoc> and primary T cells <clueLoc>stimulated by extracellular HIV-1 Tat protein</clueLoc>.</clue>
+</event>
+<event id="E301">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<clue>IL-2 secretion was <clueType>increased</clueType> more than twofold <clueLoc>in</clueLoc> both Jurkat T cells and <clueLoc>primary T cells stimulated by extracellular HIV-1 Tat protein</clueLoc>.</clue>
+</event>
+<sentence id="S6">Analysis of <term sem="RNA_family_or_group" id="T36" lex="mRNA">mRNA</term> suggested that <term sem="Protein_molecule" id="A2">Tat</term> exerts its effect on <term sem="Protein_molecule" id="T37" lex="IL-2">IL-2</term> primarily at the <term sem="Other" id="T38" lex="transcriptional_level">transcriptional level</term>.</sentence>
+<event uncertainty="probable" id="E18">
+<type class="Regulation" />
+<theme idref="T37" />
+<cause idref="A2" />
+<clue>Analysis of mRNA suggested that Tat exerts its <clueType>effect</clueType> <linkTheme>on</linkTheme> IL-2 primarily at the <clueType>transcriptional level</clueType>.</clue>
+</event>
+<sentence id="S7">The <term sem="DNA_domain_or_region" id="T39" lex="NF-kappa_B_site">NF-kappa B site</term> at positions <term sem="DNA_domain_or_region" id="T40" lex="-206_to_-195">-206 to -195</term> of the <term sem="DNA_domain_or_region" id="T41" lex="IL-2_promoter"><term sem="Protein_molecule" id="T42" lex="IL-2">IL-2</term> promoter</term> was required but not sufficient for the <term sem="Other" id="T43" lex="Tat_effect"><term sem="Protein_molecule" id="T44" lex="Tat">Tat</term> effect</term>.</sentence>
+<event id="E19">
+<type class="Regulation" />
+<cause idref="T44" />
+<clue>The NF-kappa B site at positions -206 to -195 of the IL-2 promoter was required but not sufficient for the Tat <clueType>effect</clueType>.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T39" />
+<clue>The NF-kappa B site at positions -206 to -195 of the IL-2 promoter was <clueType>required</clueType> but not sufficient for the Tat effect.</clue>
+</event>
+<sentence id="S8">The <term sem="Other" id="T45" lex="Tat-mediated_increase"><term sem="Protein_molecule" id="T46" lex="Tat">Tat</term>-mediated increase</term> in <term sem="Other" id="T47" lex="IL-2_promoter_activity"><term sem="DNA_domain_or_region" id="T48" lex="IL-2_promoter"><term sem="Protein_molecule" id="T49" lex="IL-2">IL-2</term> promoter</term> activity</term> could selectively be blocked by <term sem="RNA_molecule" id="A3">antisense tat</term> or-unlike the analogous effect of <term sem="Protein_molecule" id="T50" lex="human_T-cell_lymphotropic_virus_type_1_Tax"><term sem="Virus" id="T51" lex="human_T-cell_lymphotropic_virus_type_1">human T-cell lymphotropic virus type 1</term> Tax</term>-by <term sem="Organic_compound_other" id="T52" lex="cyclosporin_A">cyclosporin A</term>.</sentence>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T47" />
+<cause idref="T46" />
+<clue>The Tat-<linkCause>mediated</linkCause> <clueType>increase</clueType> <linkTheme>in</linkTheme> IL-2 promoter activity could selectively be blocked by antisense tat or-unlike the analogous effect of human T-cell lymphotropic virus type 1 Tax-by cyclosporin A.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="A3" />
+<clue>The Tat-mediated increase in IL-2 promoter activity could selectively be <clueType>blocked</clueType> <linkCause>by</linkCause> antisense tat or-unlike the analogous effect of human T-cell lymphotropic virus type 1 Tax-by cyclosporin A.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="T52" />
+<clue>The Tat-mediated increase in IL-2 promoter activity could selectively be <clueType>blocked</clueType> by antisense tat or-unlike the analogous effect of human T-cell lymphotropic virus type 1 Tax-<linkCause>by</linkCause> cyclosporin A.</clue>
+</event>
+<sentence id="S9">The observed increase in <term sem="Protein_molecule" id="T53" lex="IL-2">IL-2</term> levels might facilitate <term sem="Other" id="A4">virus spread</term> from or to <term sem="Cell_natural" id="T54" lex="T_cell">T cells</term>.</sentence>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="E21" />
+<clue><corefCause>The observed increase in IL-2 levels</corefCause> might facilitate virus spread from or to T cells.</clue>
+</event>
+<sentence id="S10">Furthermore, it might contribute to the <term sem="Other" id="T55" lex="hypergammaglobulinemia">hypergammaglobulinemia</term> or, together with other <term sem="Protein_family_or_group" id="T56" lex="cytokine">cytokines</term> found to be dysregulated, the <term sem="Other" id="T57" lex="T-helper_cell_dysfunctions">T-helper cell dysfunctions</term> observed in <term sem="Other" id="T58" lex="AIDS">AIDS</term> <term sem="Multicellular_organism_natural" id="T59" lex="patient">patients</term>.</sentence>
+<event uncertainty="probable" id="E25">
+<type class="Positive_regulation" />
+<theme idref="T55" />
+<cause idref="E21" />
+<clue>Furthermore, <corefCause>it</corefCause> might <clueType>contribute</clueType> <linkTheme>to</linkTheme> the hypergammaglobulinemia or, together with other cytokines found to be dysregulated, the T-helper cell dysfunctions observed in AIDS patients.</clue>
+</event>
+<event id="E26">
+<type class="Regulation" />
+<theme idref="T56" />
+<clue>Furthermore, it might contribute to the hypergammaglobulinemia or, together with other cytokines found to be <clueType>dysregulated</clueType>, the T-helper cell dysfunctions observed in AIDS patients.</clue>
+</event>
+<event uncertainty="probable" id="E27">
+<type class="Positive_regulation" />
+<theme idref="T57" />
+<cause idref="E21" />
+<cause idref="E26" />
+<clue>Furthermore, <corefCause>it</corefCause> might <clueType>contribute</clueType> <linkTheme>to</linkTheme> the hypergammaglobulinemia or, <linkCause>together with</linkCause> other cytokines found to be dysregulated, the T-helper cell dysfunctions observed in AIDS patients.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

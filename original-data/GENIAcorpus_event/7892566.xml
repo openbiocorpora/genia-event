@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7892566"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7892566</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">[Regulation of <term sem="Other" id="T1" lex="transcription">transcription</term> of the <term sem="DNA_domain_or_region" id="T2" lex="interleukin-2_gene"><term sem="Protein_molecule" id="T3" lex="interleukin-2">interleukin-2</term> gene</term> in <term sem="Cell_natural" id="T4" lex="B-lymphocyte">B-lymphocytes</term>]</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T2" />
+<clue>[Regulation of <clueType>transcription</clueType> <linkTheme>of</linkTheme> the interleukin-2 gene in B-lymphocytes]</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<clue>[<clueType>Regulation</clueType> <linkTheme>of</linkTheme> transcription of the interleukin-2 gene <clueLoc>in B-lymphocytes</clueLoc>]</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Since most <term sem="Cell_cultured" id="T5" lex="B_cell_clone">B cell clones</term> immortalized with <term sem="Virus" id="T6" lex="EBV_virus">EBV virus</term> can be induced to produce <term sem="Protein_molecule" id="T7" lex="interleukin-2">interleukin-2</term>, a typical <term sem="Protein_molecule" id="T8" lex="T_cell_cytokine">T cell cytokine</term>, we studied the role of different elements of the <term sem="DNA_domain_or_region" id="T9" lex="IL-2_promoter">IL-2 promoter</term> in such clones by transfection.</sentence>
+<event id="E3">
+<type class="Biological_process" />
+<theme idref="T5" />
+<clue>Since most B cell clones <clueType>immortalized</clueType> with EBV virus can be induced to produce interleukin-2, a typical T cell cytokine, we studied the role of different elements of the IL-2 promoter in such clones by transfection.</clue>
+</event>
+<event id="E103">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T6" />
+<clue>Since most B cell clones <clueType>immortalized</clueType> <linkTheme>with</linkTheme> EBV virus can be induced to produce interleukin-2, a typical T cell cytokine, we studied the role of different elements of the IL-2 promoter in such clones by transfection.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue>Since most <clueLoc>B cell clones</clueLoc> immortalized with EBV virus can be induced to <clueType>produce</clueType> interleukin-2, a typical T cell cytokine, we studied the role of different elements of the IL-2 promoter in such clones by transfection.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E3" />
+<clue>Since most B cell clones immortalized with EBV virus can be <clueType>induced</clueType> <linkTheme>to</linkTheme> produce interleukin-2, a typical T cell cytokine, we studied the role of different elements of the IL-2 promoter in such clones by transfection.</clue>
+</event>
+<sentence id="S3">It was found, in particular, that the element <term sem="DNA_domain_or_region" id="T10" lex="TCEd">TCEd</term>, which binds the <term sem="Protein_family_or_group" id="T11" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T12" lex="NF-kB">NF-kB</term>, is very active in all three <term sem="Cell_cultured" id="T13" lex="B_clone">B clones</term> tested.</sentence>
+<event id="E6">
+<type class="Binding" />
+<theme idref="T10" />
+<theme idref="T12" />
+<clue>It was found, in particular, that the element TCEd, which <clueType>binds</clueType> the transcription factor NF-kB, is very active in all three B clones tested.</clue>
+</event>
+<sentence id="S4">This element has no activity in <term sem="Cell_natural" id="T14" lex="T_cell">T cells</term> of the <term sem="Cell_cultured" id="T15" lex="Jurkat_line">Jurkat line</term>.</sentence>
+<sentence id="S5">The <term sem="DNA_domain_or_region" id="T16" lex="NFATd_element">NFATd element</term>, which binds the <term sem="Protein_family_or_group" id="T17" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T18" lex="NFAT-1">NFAT-1</term> and is very active in <term sem="Cell_natural" id="T19" lex="T_cell">T cells</term>, is only weakly active in one <term sem="Cell_cultured" id="T20" lex="B_clone">B clone</term> and not at all in another.</sentence>
+<event id="E7">
+<type class="Binding" />
+<theme idref="T16" />
+<theme idref="T18" />
+<clue>The NFATd element, which <clueType>binds</clueType> the transcription factor NFAT-1 and is very active in T cells, is only weakly active in one B clone and not at all in another.</clue>
+</event>
+<sentence id="S6">Different elements thus contribute to <term sem="Other" id="A1"><term sem="DNA_domain_or_region" id="T21" lex="IL-2_promoter">IL-2 promoter</term> activity</term> in different cells.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="T10" />
+<clue><corefCause>Different elements</corefCause> thus <clueType>contribute</clueType> <linkTheme>to</linkTheme> IL-2 promoter activity <clueLoc>in different cells</clueLoc>.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="T16" />
+<clue><corefCause>Different elements</corefCause> thus <clueType>contribute</clueType> <linkTheme>to</linkTheme> IL-2 promoter activity <clueLoc>in different cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

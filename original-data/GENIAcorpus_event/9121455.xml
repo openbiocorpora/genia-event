@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/02/24" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9121455" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9121455</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Control of <term sem="Other" id="T1" lex="NFATx1_nuclear_translocation"><term sem="Protein_molecule" id="T2" lex="NFATx1">NFATx1</term> nuclear translocation</term> by a <term sem="Protein_domain_or_region" id="T3" lex="calcineurin-regulated_inhibitory_domain"><term sem="Protein_molecule" id="T4" lex="calcineurin">calcineurin</term>-regulated <term sem="Protein_domain_or_region" id="A1">inhibitory domain</term></term>.</sentence>
+<event id="E1">
+<type class="Localization" />
+<theme idref="T2" />
+<clue>Control of NFATx1 <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> by a calcineurin-regulated inhibitory domain.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="A1" />
+<clue><clueType>Control</clueType> <linkTheme>of</linkTheme> NFATx1 nuclear translocation <linkCause>by</linkCause> a calcineurin-regulated inhibitory domain.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="A1" />
+<cause idref="T4" />
+<clue>Control of NFATx1 nuclear translocation by a calcineurin-<clueType>regulated</clueType> inhibitory domain.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_family_or_group" id="T5" lex="nuclear_factor_of_activated_T_cells">nuclear factor of activated T cells</term> (<term sem="Protein_family_or_group" id="T6" lex="NFAT">NFAT</term>) regulates <term sem="Other" id="T7" lex="cytokine_gene_expression"><term sem="DNA_family_or_group" id="T8" lex="cytokine_gene">cytokine gene</term> expression</term> in <term sem="Cell_natural" id="T9" lex="T_cell">T cells</term> through <term sem="DNA_domain_or_region" id="A100"><term sem="DNA_family_or_group" id="T10" lex="cis-acting_element">cis-acting elements</term> located in the <term sem="DNA_family_or_group" id="T11" lex="promoter">promoters</term> of several <term sem="DNA_family_or_group" id="T12" lex="cytokine_gene">cytokine genes</term></term>.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>The nuclear factor of activated T cells (NFAT) regulates cytokine gene <clueType>expression</clueType> <clueLoc>in T cells</clueLoc> through cis-acting elements located in the promoters of several cytokine genes.</clue>
+<comment>TPS A100</comment>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="T10" />
+<cause idref="T6" />
+<clue>The nuclear factor of activated T cells (NFAT) <clueType>regulates</clueType> cytokine gene expression <clueLoc>in T cells</clueLoc> <linkTheme>through</linkTheme> cis-acting elements located in the promoters of several cytokine genes.</clue>
+</event>
+<event id="E6">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="E5" />
+<clue>The nuclear factor of activated T cells (NFAT) regulates cytokine gene expression <clueLoc>in T cells</clueLoc> <linkCause>through</linkCause> cis-acting elements located in the promoters of several cytokine genes.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S3"><term sem="Protein_molecule" id="T13" lex="NFATx1">NFATx1</term>, which is preferentially expressed in the thymus and <term sem="Cell_natural" id="T14" lex="peripheral_blood_leukocyte">peripheral blood leukocytes</term>, is one of four members of the <term sem="Protein_family_or_group" id="T15" lex="NFAT_family"><term sem="Protein_family_or_group" id="T16" lex="NFAT">NFAT</term> family</term> of <term sem="Protein_family_or_group" id="T17" lex="transcription_factor">transcription factors</term>.</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>NFATx1, which is preferentially <clueType>expressed</clueType> <clueLoc>in the thymus</clueLoc> and peripheral blood <clueLoc>leukocytes</clueLoc>, is one of four members of the NFAT family of transcription factors.</clue>
+</event>
+<event id="E701">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>NFATx1, which is preferentially <clueType>expressed</clueType> <clueLoc>in</clueLoc> the thymus and <clueLoc>peripheral blood leukocytes</clueLoc>, is one of four members of the NFAT family of transcription factors.</clue>
+</event>
+<sentence id="S4">We have performed <term sem="Other" id="T18" lex="domain_analysis">domain analysis</term> of <term sem="Protein_molecule" id="T19" lex="NFATx1">NFATx1</term> by examining the effects of <term sem="Other" id="T20" lex="deletion_mutation">deletion mutations</term>.</sentence>
+<event id="E35">
+<type class="Mutagenesis" />
+<theme idref="T19" />
+<clue>We have performed domain analysis of NFATx1 by examining the effects of <clueType>deletion mutations</clueType>.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event uncertainty="doubtful" id="E36">
+<type class="Regulation" />
+<cause idref="E35" />
+<clue>We have performed domain analysis of NFATx1 by examining the <clueType>effects</clueType> <linkCause>of</linkCause> deletion mutations.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S5">We found that <term sem="Other" id="T21" lex="NFATx1_DNA_binding_activity"><term sem="Protein_molecule" id="T22" lex="NFATx1">NFATx1</term> <term sem="DNA_molecule" id="A2">DNA</term> binding activity</term> and interaction with <term sem="Peptide" id="T23" lex="AP-1_polypeptide">AP-1 polypeptides</term> were dependent on its <term sem="Protein_domain_or_region" id="T24" lex="central_Rel_similarity_region">central Rel similarity region</term> and that <term sem="Other" id="T25" lex="transcriptional_activation">transcriptional activation</term> was reduced by deletions of either its <term sem="Protein_domain_or_region" id="T26" lex="N-terminal_domain">N-terminal domain</term> or its <term sem="Protein_domain_or_region" id="T27" lex="C-terminal_domain">C-terminal domain</term>, suggesting the presence of <term sem="Protein_substructure" id="T28" lex="intrinsic_transcriptional_activation_motif">intrinsic <term sem="Other" id="T29" lex="transcriptional_activation">transcriptional activation</term> motifs</term> in both regions.</sentence>
+<event id="E8">
+<type class="Binding" />
+<theme idref="T22" />
+<theme idref="A2" />
+<clue>We found that NFATx1 DNA <clueType>binding</clueType> activity and interaction with AP-1 polypeptides were dependent on its central Rel similarity region and that transcriptional activation was reduced by deletions of either its N-terminal domain or its C-terminal domain, suggesting the presence of intrinsic transcriptional activation motifs in both regions.</clue>
+</event>
+<event id="E9">
+<type class="Correlation" />
+<theme idref="T22" />
+<theme idref="T23" />
+<clue>We found that NFATx1 DNA binding activity and <clueType>interaction</clueType> <linkTheme>with</linkTheme> AP-1 polypeptides were dependent on its central Rel similarity region and that transcriptional activation was reduced by deletions of either its N-terminal domain or its C-terminal domain, suggesting the presence of intrinsic transcriptional activation motifs in both regions.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="T24" />
+<clue>We found that NFATx1 DNA binding activity and interaction with AP-1 polypeptides were <clueType>dependent</clueType> <linkCause>on</linkCause> its central Rel similarity region and that transcriptional activation was reduced by deletions of either its N-terminal domain or its C-terminal domain, suggesting the presence of intrinsic transcriptional activation motifs in both regions.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T24" />
+<clue>We found that NFATx1 DNA binding activity and interaction with AP-1 polypeptides were <clueType>dependent</clueType> <linkCause>on</linkCause> its central Rel similarity region and that transcriptional activation was reduced by deletions of either its N-terminal domain or its C-terminal domain, suggesting the presence of intrinsic transcriptional activation motifs in both regions.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<clue>We found that NFATx1 DNA binding activity and interaction with AP-1 polypeptides were dependent on its central Rel similarity region and that <clueType>transcriptional activation</clueType> was reduced by deletions of either its N-terminal domain or its C-terminal domain, suggesting the presence of intrinsic transcriptional activation motifs in both regions.</clue>
+</event>
+<event id="E13">
+<type class="Mutagenesis" />
+<theme idref="T26" />
+<clue>We found that NFATx1 DNA binding activity and interaction with AP-1 polypeptides were dependent on its central Rel similarity region and that transcriptional activation was reduced by <clueType>deletions</clueType> <linkTheme>of</linkTheme> either its N-terminal domain or its C-terminal domain, suggesting the presence of intrinsic transcriptional activation motifs in both regions.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E14">
+<type class="Mutagenesis" />
+<theme idref="T27" />
+<clue>We found that NFATx1 DNA binding activity and interaction with AP-1 polypeptides were dependent on its central Rel similarity region and that transcriptional activation was reduced by <clueType>deletions</clueType> <linkTheme>of</linkTheme> either its N-terminal domain or its C-terminal domain, suggesting the presence of intrinsic transcriptional activation motifs in both regions.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="E13" />
+<clue>We found that NFATx1 DNA binding activity and interaction with AP-1 polypeptides were dependent on its central Rel similarity region and that transcriptional activation was <clueType>reduced</clueType> <linkCause>by</linkCause> deletions of either its N-terminal domain or its C-terminal domain, suggesting the presence of intrinsic transcriptional activation motifs in both regions.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="E14" />
+<clue>We found that NFATx1 DNA binding activity and interaction with AP-1 polypeptides were dependent on its central Rel similarity region and that transcriptional activation was <clueType>reduced</clueType> <linkCause>by</linkCause> deletions of either its N-terminal domain or its C-terminal domain, suggesting the presence of intrinsic transcriptional activation motifs in both regions.</clue>
+</event>
+<sentence id="S6">We also identified a potent <term sem="DNA_domain_or_region" id="A103"><term sem="Protein_domain_or_region" id="T30" lex="inhibitory_sequence">inhibitory sequence</term> within its <term sem="Protein_domain_or_region" id="T31" lex="N-terminal_domain">N-terminal domain</term></term>.</sentence>
+<sentence id="S7">We show that the inactivation of the <term sem="Other" id="A3">inhibition</term> was dependent on the activity of <term sem="Protein_molecule" id="T32" lex="calcineurin">calcineurin</term>, a <term sem="Protein_family_or_group" id="T33" lex="calcium-calmodulin-dependent_phosphatase">calcium-calmodulin-dependent phosphatase</term>.</sentence>
+<event assertion="non-exist" id="E17">
+<type class="Positive_regulation" />
+<theme idref="A103" />
+<clue>We show that the <clueType>inactivation</clueType> <linkTheme>of</linkTheme> <corefTheme>the inhibition</corefTheme> was dependent on the activity of calcineurin, a calcium-calmodulin-dependent phosphatase.</clue>
+<comment>TPS A103</comment>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T32" />
+<clue>We show that the inactivation of the inhibition was <clueType>dependent</clueType> <linkCause>on</linkCause> the activity of calcineurin, a calcium-calmodulin-dependent phosphatase.</clue>
+</event>
+<sentence id="S8">We also show that <term sem="Protein_molecule" id="T34" lex="calcineurin">calcineurin</term> associated with the <term sem="Protein_domain_or_region" id="A104"><term sem="Protein_domain_or_region" id="T35" lex="N-terminal_domain">N-terminal domain</term> of <term sem="Protein_molecule" id="T36" lex="NFATx1">NFATx1</term></term> at <term sem="Protein_domain_or_region" id="T37" lex="multiple_docking_sites">multiple docking sites</term> and caused a reduction of size, indicative of <term sem="Other" id="T38" lex="dephosphorylation">dephosphorylation</term>, in <term sem="Protein_molecule" id="T39" lex="NFATx1">NFATx1</term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T34" />
+<theme idref="A104" />
+<clue>We also show that calcineurin <clueType>associated</clueType> with the N-terminal domain of NFATx1 at multiple docking sites and caused a reduction of size, indicative of dephosphorylation, in NFATx1.</clue>
+<comment>TPS A104</comment>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T34" />
+<clue>We also show that calcineurin associated with the N-terminal domain of NFATx1 at multiple docking sites and <clueType>caused</clueType> a <corefTheme>reduction of size</corefTheme>, indicative of dephosphorylation, in NFATx1.</clue>
+</event>
+<event id="E21">
+<type class="Protein_amino_acid_dephosphorylation" />
+<theme idref="T39" />
+<clue>We also show that calcineurin associated with the N-terminal domain of NFATx1 at multiple docking sites and caused a reduction of size, indicative of <clueType>dephosphorylation</clueType>, <linkTheme>in</linkTheme> NFATx1.</clue>
+</event>
+<sentence id="S9">We have mapped the inhibitory activity to less than <term sem="Protein_domain_or_region" id="T40" lex="60_residues">60 residues</term>, containing motifs that are conserved in all <term sem="Protein_family_or_group" id="T41" lex="NFAT_protein">NFAT proteins</term>.</sentence>
+<sentence id="S10">Finally, we demonstrate that deletion in <term sem="Protein_molecule" id="T42" lex="NFATx1">NFATx1</term> of the mapped <term sem="Protein_domain_or_region" id="T43" lex="60_residues">60 residues</term> leads to its nuclear translocation independent of <term sem="Other" id="T44" lex="calcium_signaling"><term sem="Element" id="T45" lex="calcium">calcium</term> signaling</term>.</sentence>
+<event id="E22">
+<type class="Mutagenesis" />
+<theme idref="T43" />
+<clue>Finally, we demonstrate that <clueType>deletion</clueType> <clueLoc>in NFATx1</clueLoc> <linkTheme>of</linkTheme> the mapped 60 residues leads to its nuclear translocation independent of calcium signaling.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E23">
+<type class="Localization" />
+<theme idref="T42" />
+<clue>Finally, we demonstrate that deletion in NFATx1 of the mapped 60 residues leads to <corefTheme>its</corefTheme> <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> independent of calcium signaling.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E22" />
+<clue>Finally, we demonstrate that deletion in NFATx1 of the mapped 60 residues <clueType>leads</clueType> <linkTheme>to</linkTheme> its nuclear translocation independent of calcium signaling.</clue>
+</event>
+<event assertion="non-exist" id="E25">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T44" />
+<clue>Finally, we demonstrate that deletion in NFATx1 of the mapped 60 residues leads to its nuclear translocation <clueType>independent</clueType> <linkCause>of</linkCause> calcium signaling.</clue>
+</event>
+<sentence id="S11">Our results support the model proposing that the <term sem="Protein_domain_or_region" id="T46" lex="N-terminal_domain">N-terminal domain</term> confers <term sem="Other" id="T47" lex="calcium-signaling_dependence"><term sem="Other" id="A10"><term sem="Element" id="T48" lex="calcium">calcium</term>-signaling</term> dependence</term> on <term sem="Other" id="T49" lex="Molecular_function"><term sem="Protein_molecule" id="T50" lex="NFATx1">NFATx1</term> transactivation activity</term> by regulating its <term sem="Other" id="T51" lex="intracellular_localization">intracellular localization</term> through a <term sem="Protein_domain_or_region" id="A11">protein module</term> that associates with <term sem="Protein_molecule" id="T52" lex="calcineurin">calcineurin</term> and is a target of its <term sem="Other" id="T53" lex="phosphatase_activity"><term sem="Protein_family_or_group" id="T54" lex="phosphatase">phosphatase</term> activity</term>.</sentence>
+<event id="E26">
+<type class="Positive_regulation" />
+<cause idref="T50" />
+<clue>Our results support the model proposing that the N-terminal domain confers calcium-signaling dependence on NFATx1 <clueType>transactivation activity</clueType> by regulating its intracellular localization through a protein module that associates with calcineurin and is a target of its phosphatase activity.</clue>
+<comment>NO THEME</comment>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="A10" />
+<cause idref="E26" />
+<clue>Our results support the model proposing that the N-terminal domain confers calcium-signaling <clueType>dependence</clueType> <linkCause>on</linkCause> NFATx1 transactivation activity by regulating its intracellular localization through a protein module that associates with calcineurin and is a target of its phosphatase activity.</clue>
+</event>
+<event id="E28">
+<type class="Regulation" />
+<theme idref="E30" />
+<cause idref="T46" />
+<clue>Our results support the model proposing that the N-terminal domain confers calcium-signaling dependence on NFATx1 transactivation activity by <clueType>regulating</clueType> its intracellular localization through a protein module that associates with calcineurin and is a target of its phosphatase activity.</clue>
+</event>
+<event id="E29">
+<type class="Regulation" />
+<theme idref="E27" />
+<cause idref="E28" />
+<clue>Our results support the model proposing that the N-terminal domain <clueType>confers</clueType> calcium-signaling dependence on NFATx1 transactivation activity <linkCause>by</linkCause> regulating its intracellular localization through a protein module that associates with calcineurin and is a target of its phosphatase activity.</clue>
+</event>
+<event id="E30">
+<type class="Localization" />
+<theme idref="T50" />
+<clue>Our results support the model proposing that the N-terminal domain confers calcium-signaling dependence on NFATx1 transactivation activity by regulating <corefTheme>its</corefTheme> <clueLoc>intracellular</clueLoc> <clueType>localization</clueType> through a protein module that associates with calcineurin and is a target of its phosphatase activity.</clue>
+</event>
+<event id="E31">
+<type class="Regulation" />
+<theme idref="E28" />
+<cause idref="A11" />
+<clue>Our results support the model proposing that the N-terminal domain confers calcium-signaling dependence on NFATx1 transactivation activity by regulating its intracellular localization <linkCause>through</linkCause> a protein module that associates with calcineurin and is a target of its phosphatase activity.</clue>
+</event>
+<event id="E32">
+<type class="Binding" />
+<theme idref="A11" />
+<theme idref="T52" />
+<clue>Our results support the model proposing that the N-terminal domain confers calcium-signaling dependence on NFATx1 transactivation activity by regulating its intracellular localization through a protein module that <clueType>associates</clueType> <linkTheme>with</linkTheme> calcineurin and is a target of its phosphatase activity.</clue>
+</event>
+<event id="E33">
+<type class="Protein_amino_acid_dephosphorylation" />
+<theme idref="A11" />
+<cause idref="T52" />
+<clue>Our results support the model proposing that the N-terminal domain confers calcium-signaling dependence on NFATx1 transactivation activity by regulating its intracellular localization through a protein module that associates with calcineurin and <linkTheme>is a target of</linkTheme> <corefCause>its</corefCause> <clueType>phosphatase activity</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="30/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9185506" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9185506</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Lipid" id="T2" lex="glucocorticoid">Glucocorticoid</term>-mediated <term sem="Other" id="T1">repression</term> of <term sem="Other" id="T3" lex="cytokine_gene_transcription"><term sem="DNA_family_or_group" id="T4" lex="cytokine_gene">cytokine gene</term> transcription</term> in <term sem="Protein_molecule" id="T5">human arteritis-SCID chimeras</term>.</sentence>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="T2" />
+<clue>Glucocorticoid<linkCause>-mediated</linkCause> <clueType>repression</clueType> <linkTheme>of</linkTheme> cytokine gene transcription in human arteritis-SCID chimeras.</clue>
+</event>
+<event id="E3">
+<type class="Transcription" />
+<theme idref="T4" />
+<clue>Glucocorticoid-mediated repression of cytokine gene <clueType>transcription</clueType> <clueLoc>in human arteritis-SCID chimeras</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T6" lex="giant_cell_arteritis">Giant cell arteritis</term> (<term sem="Other" id="T7" lex="GCA">GCA</term>) is a <term sem="Other" id="T8" lex="vasculitic_syndrome">vasculitic syndrome</term> that preferentially affects <cons sem="(AND Tissue_natural Tissue_natural)" id="C1" lex="(AND medium-sized_artery large-sized_artery)"><frag id="F1">medium</frag> and <frag id="F2">large</frag><frag id="F3">-sized arteries</frag></cons>.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T9" />
+<cause idref="T7" />
+<clue>Giant cell arteritis (GCA) is a <clueLoc>vasculitic</clueLoc> syndrome that preferentially <clueType>affects</clueType> medium and large-sized arteries.</clue>
+</event>
+<sentence id="S3"><term sem="Other" id="T101"><term sem="Lipid" id="T10" lex="glucocorticoid">Glucocorticoid</term> therapy</term> resolves <term sem="Other" id="A1">clinical symptoms</term> within hours to days, but therapy has to be continued over several years to prevent <term sem="Other" id="A2"><term sem="Other" id="T49">disease</term> relapses</term>.</sentence>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="A1" />
+<cause idref="T10" />
+<clue>Glucocorticoid therapy <clueType>resolves</clueType> clinical symptoms <clueTime>within hours to days</clueTime>, but therapy has to be continued over several years to prevent disease relapses.</clue>
+<comment>NER: T10 sem, Lipid-&gt;Other_organic_compound</comment>
+</event>
+<event uncertainty="probable" id="E6">
+<type class="Negative_regulation" />
+<theme idref="T10" />
+<clue>Glucocorticoid therapy resolves clinical symptoms within hours to days, but therapy has to be continued <clueTime>over several years</clueTime> to <clueType>prevent</clueType> disease relapses.</clue>
+</event>
+<sentence id="S4">It is not known whether and how <term sem="Lipid" id="T11" lex="glucocorticoid">glucocorticoids</term> affect the function of the <term sem="Organic_compound_other" id="T12" lex="inflammatory_infiltrate">inflammatory infiltrate</term> or why the disease persists subclinically despite <term sem="Other" id="T13" lex="chronic_treatment">chronic treatment</term>.</sentence>
+<event uncertainty="doubtful" id="E7">
+<type class="Regulation" />
+<theme idref="T12" />
+<cause idref="T11" />
+<clue>It is not known whether and how glucocorticoids <clueType>affect</clueType> the function of the inflammatory infiltrate or why the disease persists subclinically despite chronic treatment.</clue>
+<comment>NER: T11 sem, Lipid-&gt;Other_organic_compound</comment>
+</event>
+<event assertion="non-exist" uncertainty="doubtful" id="E8">
+<type class="Negative_regulation" />
+<theme idref="T7" />
+<cause idref="T13" />
+<clue>It is not known whether and how glucocorticoids affect the function of the inflammatory infiltrate or why <corefTheme>the disease</corefTheme> <clueType>persists</clueType> subclinically <linkCause>despite</linkCause> chronic treatment.</clue>
+</event>
+<sentence id="S5"><term sem="Other" id="T14" lex="GCA">GCA</term> is self-sustained in <term sem="Body_region" id="T15" lex="temporal_artery">temporal arteries</term> engrafted into <term sem="Multicellular_organism_genetically_modified" id="T16" lex="SCID_mouse">SCID mice</term>, providing a model in which the mechanisms of action and limitations of <term sem="Other" id="T17" lex="glucocorticoid_therapy"><term sem="Organic_compound_other" id="T9">glucocorticoid</term> therapy</term> can be examined in vivo.</sentence>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<clue>GCA is <clueType>self-sustained</clueType> <clueLoc>in temporal arteries engrafted into SCID mice</clueLoc>, providing a model in which the mechanisms of action and limitations of glucocorticoid therapy can be examined in vivo.</clue>
+</event>
+<sentence id="S6">Administration of <term sem="Organic_compound_other" id="T18" lex="dexamethasone">dexamethasone</term> to <term sem="Cell_cultured" id="T19" lex="temporal_artery-SCID_chimera">temporal artery-SCID chimeras</term> for 1 wk induced a partial suppression of <term sem="Cell_natural" id="A3">T cell</term> and <term sem="Cell_natural" id="A4">macrophage</term> function as indicated by the reduced tissue concentrations of <cons sem="(AND RNA_molecule RNA_molecule RNA_molecule)" id="T20" lex="(AND IL-2_mRNA IL-1beta_mRNA IL-6_mRNA)"><frag id="F4"><term sem="RNA_molecule" id="A5">IL-2</term></frag>, <frag id="F5"><term sem="RNA_molecule" id="A6">IL-1beta</term></frag>, and <frag id="F6"><term sem="RNA_molecule" id="A7">IL-6</term></frag> <frag id="F7"><term sem="RNA_molecule" id="A11">mRNA</term></frag></cons>, and by the diminished expression of inducible <term sem="Protein_molecule" id="T21" lex="NO_synthase">NO synthase</term>.</sentence>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="A3" />
+<cause idref="T18" />
+<clue>Administration of dexamethasone to <clueLoc>temporal artery-SCID chimeras</clueLoc> <clueTime>for 1 wk</clueTime> <clueType>induced</clueType> a partial <clueType>suppression</clueType> <linkTheme>of</linkTheme> T cell and macrophage function as indicated by the reduced tissue concentrations of IL-2, IL-1beta, and IL-6 mRNA, and by the diminished expression of inducible NO synthase.</clue>
+<comment>NER: T18 sem mod, Lipid-&gt;Other_organic_compound</comment>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="A4" />
+<cause idref="T18" />
+<clue>Administration of dexamethasone to temporal artery-SCID chimeras for 1 wk <clueType>induced</clueType> a partial <clueType>suppression</clueType> <linkTheme>of</linkTheme> T cell and macrophage function as indicated by the reduced tissue concentrations of IL-2, IL-1beta, and IL-6 mRNA, and by the diminished expression of inducible NO synthase.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref1="A11" idref="A5" />
+<clue>Administration of dexamethasone to temporal artery-SCID chimeras for 1 wk induced a partial suppression of T cell and macrophage function as indicated by the <clueType>reduced</clueType> <clueLoc>tissue</clueLoc> concentrations <linkTheme>of</linkTheme> IL-2, IL-1beta, and IL-6 mRNA, and by the diminished expression of inducible NO synthase.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref1="A11" idref="A6" />
+<clue>Administration of dexamethasone to temporal artery-SCID chimeras for 1 wk induced a partial suppression of T cell and macrophage function as indicated by the <clueType>reduced</clueType> <clueLoc>tissue</clueLoc> concentrations <linkTheme>of</linkTheme> IL-2, IL-1beta, and IL-6 mRNA, and by the diminished expression of inducible NO synthase.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref1="A11" idref="A7" />
+<clue>Administration of dexamethasone to temporal artery-SCID chimeras for 1 wk induced a partial suppression of T cell and macrophage function as indicated by the <clueType>reduced</clueType> <clueLoc>tissue</clueLoc> concentrations <linkTheme>of</linkTheme> IL-2, IL-1beta, and IL-6 mRNA, and by the diminished expression of inducible NO synthase.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<clue>Administration of dexamethasone to temporal artery-SCID chimeras for 1 wk induced a partial suppression of T cell and macrophage function as indicated by the reduced tissue concentrations of IL-2, IL-1beta, and IL-6 mRNA, and by the <clueType>diminished</clueType> expression of inducible NO synthase.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>Administration of dexamethasone to temporal artery-SCID chimeras for 1 wk induced a partial suppression of T cell and macrophage function as indicated by the reduced tissue concentrations of IL-2, IL-1beta, and IL-6 mRNA, and by the diminished <clueType>expression</clueType> <linkTheme>of</linkTheme> inducible NO synthase.</clue>
+</event>
+<event id="E53">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<clue>Administration of dexamethasone to temporal artery-SCID chimeras for 1 wk induced a partial suppression of T cell and macrophage function as indicated by the reduced tissue concentrations of IL-2, IL-1beta, and IL-6 mRNA, and by the diminished expression of <clueType>inducible</clueType> NO synthase.</clue>
+</event>
+<sentence id="S7">In contrast, <term sem="Other" id="T45">synthesis</term> of <term sem="RNA_molecule" id="T22" lex="IFN-gamma_mRNA">IFN-gamma mRNA</term> was only slightly decreased, and expression of <term sem="Protein_molecule" id="T23" lex="TGF-beta1">TGF-beta1</term> was unaffected.</sentence>
+<event id="E19">
+<type class="Transcription" />
+<theme idref="T22" />
+<clue>In contrast, <clueType>synthesis</clueType> <linkTheme>of</linkTheme> IFN-gamma mRNA was only slightly decreased, and expression of TGF-beta1 was unaffected.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<clue>In contrast, synthesis of IFN-gamma mRNA was only slightly <clueType>decreased</clueType>, and expression of TGF-beta1 was unaffected.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue>In contrast, synthesis of IFN-gamma mRNA was only slightly decreased, and <clueType>expression</clueType> <linkTheme>of</linkTheme> TGF-beta1 was unaffected.</clue>
+</event>
+<event assertion="non-exist" id="E22">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<clue>In contrast, synthesis of IFN-gamma mRNA was only slightly decreased, and expression of TGF-beta1 was <clueType>unaffected</clueType>.</clue>
+</event>
+<sentence id="S8">These findings correlated with activation of the <term sem="DNA_domain_or_region" id="T24" lex="IkappaBalpha_gene">IkappaBalpha gene</term> and blockade of the nuclear translocation of <term sem="Protein_complex" id="T25" lex="NFkappaB">NFkappaB</term> in the <term sem="Tissue_natural" id="T26" lex="xenotransplanted_tissue">xenotransplanted tissue</term>.</sentence>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<clue>These findings correlated with <clueType>activation</clueType> <linkTheme>of</linkTheme> the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB <clueLoc>in the xenotransplanted tissue</clueLoc>.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E25" />
+<clue>These findings correlated with activation of the IkappaBalpha gene and <clueType>blockade</clueType> <linkTheme>of</linkTheme> the nuclear translocation of NFkappaB <clueLoc>in the xenotransplanted tissue</clueLoc>.</clue>
+</event>
+<event id="E25">
+<type class="Localization" />
+<theme idref="T25" />
+<clue>These findings correlated with activation of the IkappaBalpha gene and blockade of the <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<event id="E26">
+<type class="Correlation" />
+<theme idref="E14" />
+<theme idref="E23" />
+<clue><corefTheme>These findings</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> activation of the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<event id="E27">
+<type class="Correlation" />
+<theme idref="E14" />
+<theme idref="E24" />
+<clue><corefTheme>These findings</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> activation of the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<event id="E28">
+<type class="Correlation" />
+<theme idref="E15" />
+<theme idref="E23" />
+<clue><corefTheme>These findings</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> activation of the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<event id="E29">
+<type class="Correlation" />
+<theme idref="E15" />
+<theme idref="E24" />
+<clue><corefTheme>These findings</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> activation of the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<event id="E30">
+<type class="Correlation" />
+<theme idref="E16" />
+<theme idref="E23" />
+<clue><corefTheme>These findings</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> activation of the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<event id="E31">
+<type class="Correlation" />
+<theme idref="E16" />
+<theme idref="E24" />
+<clue><corefTheme>These findings</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> activation of the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<event id="E32">
+<type class="Correlation" />
+<theme idref="E17" />
+<theme idref="E23" />
+<clue><corefTheme>These findings</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> activation of the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<event id="E33">
+<type class="Correlation" />
+<theme idref="E17" />
+<theme idref="E24" />
+<clue><corefTheme>These findings</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> activation of the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<event id="E49">
+<type class="Correlation" />
+<theme idref="E20" />
+<theme idref="E23" />
+<clue><corefTheme>These findings</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> activation of the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<event id="E50">
+<type class="Correlation" />
+<theme idref="E20" />
+<theme idref="E24" />
+<clue><corefTheme>These findings</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> activation of the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<event id="E51">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E23" />
+<clue><corefTheme>These findings</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> activation of the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<event id="E52">
+<type class="Correlation" />
+<theme idref="E22" />
+<theme idref="E24" />
+<clue><corefTheme>These findings</corefTheme> <clueType>correlated</clueType> <linkTheme>with</linkTheme> activation of the IkappaBalpha gene and blockade of the nuclear translocation of NFkappaB in the xenotransplanted tissue.</clue>
+</event>
+<sentence id="S9"><term sem="Other" id="T46">Dose-response experiments</term> suggested that <term sem="Organic_compound_other" id="A10">steroid</term> doses currently used in clinical medicine are suboptimal in repressing <term sem="Protein_complex" id="T28" lex="NFkappaB">NFkappaB</term>-mediated <term sem="Other" id="T27"><term sem="Protein_family_or_group" id="T29" lex="cytokine">cytokine</term> production</term> in the <term sem="Tissue_natural" id="T30" lex="inflammatory_lesion">inflammatory lesions</term>.</sentence>
+<event uncertainty="probable" id="E34">
+<type class="Negative_regulation" />
+<theme idref="E35" />
+<cause idref="A10" />
+<clue>Dose-response experiments suggested that steroid doses currently used in clinical medicine are suboptimal in <clueType>repressing</clueType> NFkappaB-mediated cytokine production in the inflammatory lesions.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="T28" />
+<clue>Dose-response experiments suggested that steroid doses currently used in clinical medicine are suboptimal in repressing NFkappaB-<clueType>mediated</clueType> cytokine production in the inflammatory lesions.</clue>
+</event>
+<event id="E36">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>Dose-response experiments suggested that steroid doses currently used in clinical medicine are suboptimal in repressing NFkappaB-mediated cytokine <clueType>production</clueType> <clueLoc>in the inflammatory lesions</clueLoc>.</clue>
+</event>
+<sentence id="S10">Chronic <term sem="Other" id="T50"><term sem="Organic_compound_other" id="A12">steroid</term> therapy</term> was able to deplete the <term sem="Protein_family_or_group" id="T31" lex="T_cell_product">T cell products</term> <term sem="Protein_molecule" id="T32" lex="IL-2">IL-2</term> and <term sem="Protein_molecule" id="T33" lex="IFN-gamma">IFN-gamma</term>, whereas the activation of <term sem="Cell_natural" id="T34" lex="tissue-infiltrating_macrophage">tissue-infiltrating macrophages</term> was only partially affected.</sentence>
+<event uncertainty="probable" id="E37">
+<type class="Negative_regulation" />
+<theme idref="E39" />
+<cause idref="A12" />
+<clue>Chronic steroid therapy was able to <clueType>deplete</clueType> the T cell products IL-2 and IFN-gamma, whereas the activation of tissue-infiltrating macrophages was only partially affected.</clue>
+</event>
+<event uncertainty="probable" id="E38">
+<type class="Negative_regulation" />
+<theme idref="E40" />
+<cause idref="A12" />
+<clue>Chronic steroid therapy was able to <clueType>deplete</clueType> the T cell products IL-2 and IFN-gamma, whereas the activation of tissue-infiltrating macrophages was only partially affected.</clue>
+</event>
+<event id="E39">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>Chronic steroid therapy was able to deplete the <clueLoc>T cell</clueLoc> <clueType>products</clueType> IL-2 and IFN-gamma, whereas the activation of tissue-infiltrating macrophages was only partially affected.</clue>
+</event>
+<event id="E40">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>Chronic steroid therapy was able to deplete the <clueLoc>T cell</clueLoc> <clueType>products</clueType> IL-2 and IFN-gamma, whereas the activation of tissue-infiltrating macrophages was only partially affected.</clue>
+</event>
+<event id="E41">
+<type class="Negative_regulation" />
+<theme idref="E42" />
+<cause idref="A12" />
+<clue>Chronic steroid therapy was able to deplete the T cell products IL-2 and IFN-gamma, whereas the activation of tissue-infiltrating macrophages was only partially <clueType>affected</clueType>.</clue>
+</event>
+<event id="E42">
+<type class="Physiological_process" />
+<theme idref="T34" />
+<clue>Chronic steroid therapy was able to deplete the T cell products IL-2 and IFN-gamma, whereas the <clueType>activation</clueType> <linkTheme>of</linkTheme> tissue-infiltrating macrophages was only partially affected.</clue>
+</event>
+<sentence id="S11"><term sem="Other" id="T35" lex="IL-1beta_transcription"><term sem="DNA_domain_or_region" id="A15"><term sem="Protein_molecule" id="T36" lex="IL-1beta">IL-1beta</term></term> transcription</term> was abrogated; in contrast, <term sem="Other" id="T37" lex="TGF-beta1_mRNA_synthesis"><term sem="RNA_molecule" id="T38" lex="TGF-beta1_mRNA"><term sem="Protein_molecule" id="T39" lex="TGF-beta1">TGF-beta1</term> mRNA</term> synthesis</term> was <term sem="Other" id="T40" lex="steroid_resistant"><term sem="Organic_compound_other" id="A14">steroid</term> resistant</term>.</sentence>
+<event id="E43">
+<type class="Transcription" />
+<theme idref="A15" />
+<clue>IL-1beta <clueType>transcription</clueType> was abrogated; in contrast, TGF-beta1 mRNA synthesis was steroid resistant.</clue>
+</event>
+<event id="E44">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<cause idref="T18" />
+<clue>IL-1beta transcription was <clueType>abrogated</clueType>; in contrast, TGF-beta1 mRNA synthesis was steroid resistant.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<event id="E45">
+<type class="Transcription" />
+<theme idref="T38" />
+<clue>IL-1beta transcription was abrogated; in contrast, TGF-beta1 mRNA <clueType>synthesis</clueType> was steroid resistant.</clue>
+</event>
+<event assertion="non-exist" id="E46">
+<type class="Regulation" />
+<theme idref="E45" />
+<cause idref="A14" />
+<clue>IL-1beta transcription was abrogated; in contrast, TGF-beta1 mRNA synthesis was steroid <clueType>resistant</clueType>.</clue>
+</event>
+<sentence id="S12">The persistence of <term sem="Cell_natural" id="T41" lex="TGF-beta1-transcribing_macrophage"><term sem="DNA_domain_or_region" id="A8">TGF-beta1</term>-transcribing macrophages</term>, despite <term sem="Other" id="T48">paralysis</term> of <term sem="Other" id="T42" lex="T_cell_function"><term sem="Cell_natural" id="T47">T cell</term> function</term>, may provide an explanation for the chronicity of the disease, and may identify a novel <term sem="Protein_family_or_group" id="T43" lex="therapeutic_target">therapeutic target</term> in this <term sem="Other" id="T44" lex="inflammatory_vasculopathy">inflammatory vasculopathy</term>.</sentence>
+<event id="E47">
+<type class="Transcription" />
+<theme idref="A8" />
+<clue>The persistence of TGF-beta1-<clueType>transcribing</clueType> <clueLoc>macrophages</clueLoc>, despite paralysis of T cell function, may provide an explanation for the chronicity of the disease, and may identify a novel therapeutic target in this inflammatory vasculopathy.</clue>
+</event>
+<event assertion="non-exist" id="E48">
+<type class="Negative_regulation" />
+<theme idref="E47" />
+<cause idref="T48" />
+<clue>The <clueType>persistence</clueType> <linkTheme>of</linkTheme> TGF-beta1-transcribing macrophages, <linkCause>despite</linkCause> paralysis of T cell function, may provide an explanation for the chronicity of the disease, and may identify a novel therapeutic target in this inflammatory vasculopathy.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

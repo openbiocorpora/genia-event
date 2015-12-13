@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8524232" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8524232</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="T1" lex="initiation_binding_repressor">Initiation binding repressor</term>, a factor that binds to the <term sem="DNA_domain_or_region" id="A1"><term sem="DNA_domain_or_region" id="T2" lex="transcription_initiation_site">transcription initiation site</term> of the <term sem="DNA_domain_or_region" id="T3" lex="histone_h5_gene"><term sem="Protein_molecule" id="T4" lex="histone_h5">histone h5</term> gene</term></term>, is a <term sem="Protein_family_or_group" id="T5" lex="glycosylated_member">glycosylated member</term> of a family of <term sem="Protein_family_or_group" id="T6" lex="cell_growth_regulator">cell growth regulators</term> [corrected] [published erratum appears in Mol Cell Biol 1996 Feb;16(2):735]</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T1" />
+<theme idref="A1" />
+<clue>Initiation binding repressor, a factor that <clueType>binds</clueType> <linkTheme>to</linkTheme> the transcription initiation site of the histone h5 gene, is a glycosylated member of a family of cell growth regulators [corrected] [published erratum appears in Mol Cell Biol 1996 Feb;16(2):735]</clue>
+<comment>TPS A1</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_family_or_group" id="T7" lex="initiation_binding_repressor">Initiation binding repressor</term> [corrected] (<term sem="Protein_molecule" id="T8" lex="IBR">IBR</term>) is a <term sem="Protein_family_or_group" id="T9" lex="chicken_erythrocyte_factor">chicken erythrocyte factor</term> (apparent molecular mass, 70 to 73 kDa) that binds to <term sem="DNA_domain_or_region" id="A2">the sequences spanning the <term sem="DNA_domain_or_region" id="T10" lex="transcription_initiation_site">transcription initiation site</term> of the <term sem="DNA_domain_or_region" id="T11" lex="histone_h5_gene"><term sem="Protein_molecule" id="T12" lex="histone_h5">histone h5</term> gene</term></term>, repressing its <term sem="Other" id="T13" lex="transcription">transcription</term>.</sentence>
+<event id="E2">
+<type class="Binding" />
+<theme idref="T8" />
+<theme idref="A2" />
+<clue>Initiation binding repressor [corrected] (IBR) is a chicken erythrocyte factor (apparent molecular mass, 70 to 73 kDa) that <clueType>binds</clueType> <linkTheme>to</linkTheme> the sequences spanning the transcription initiation site of the histone h5 gene, repressing its transcription.</clue>
+<comment>TPS A2</comment>
+</event>
+<event id="E3">
+<type class="Transcription" />
+<theme idref="T11" />
+<clue>Initiation binding repressor [corrected] (IBR) is a chicken erythrocyte factor (apparent molecular mass, 70 to 73 kDa) that binds to the sequences spanning the transcription initiation site of the histone h5 gene, repressing <corefTheme>its</corefTheme> transcription.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E3" />
+<cause idref="E2" />
+<clue>Initiation binding repressor [corrected] (IBR) is a chicken erythrocyte factor (apparent molecular mass, 70 to 73 kDa) that binds to the sequences spanning the transcription initiation site of the histone h5 gene, <clueType>repressing</clueType> its transcription.</clue>
+</event>
+<sentence id="S3">A variety of other cells, including <term sem="Cell_natural" id="T14" lex="transformed_erythroid_precursor">transformed <term sem="Cell_natural" id="A53">erythroid precursors</term></term>, do not have <term sem="Protein_molecule" id="T15" lex="IBR">IBR</term> but a factor referred to as <term sem="Protein_molecule" id="T16" lex="IBF">IBF</term> (68 to 70 kDa) that recognizes the same <term sem="DNA_domain_or_region" id="A4"><term sem="Protein_molecule" id="T17" lex="IBR">IBR</term> sites</term>.</sentence>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T16" />
+<theme idref="A4" />
+<clue><clueLoc>A variety of other cells, including transformed erythroid precursors</clueLoc>, do not have IBR but a factor referred to as IBF (68 to 70 kDa) that <clueType>recognizes</clueType> the same IBR sites.</clue>
+</event>
+<event assertion="non-exist" id="E6">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue><clueLoc>A variety of other cells, including transformed erythroid precursors</clueLoc>, do not <clueType>have</clueType> IBR but a factor referred to as IBF (68 to 70 kDa) that recognizes the same IBR sites.</clue>
+</event>
+<event id="E106">
+<type class="Biological_process" />
+<theme idref="A53" />
+<clue>A variety of other cells, including <clueType>transformed</clueType> erythroid precursors, do not have IBR but a factor referred to as IBF (68 to 70 kDa) that recognizes the same IBR sites.</clue>
+</event>
+<sentence id="S4">We have cloned the <term sem="DNA_molecule" id="T18" lex="IBR_cDNA"><term sem="Protein_molecule" id="T19" lex="IBR">IBR</term> cDNA</term> and studied the relationship of <term sem="Protein_molecule" id="T20" lex="IBR">IBR</term> and <term sem="Protein_molecule" id="T21" lex="IBF">IBF</term>.</sentence>
+<sentence id="S5"><term sem="Protein_molecule" id="T22" lex="IBR">IBR</term> is a <term sem="Protein_molecule" id="T23" lex="503-amino-acid-long_acidic_protein">503-amino-acid-long acidic protein</term> which is 99.0% identical to the recently reported <term sem="Protein_molecule" id="T24" lex="human_NRF-1/alpha-Pal_factor">human NRF-1/alpha-Pal factor</term> and highly related to the invertebrate <term sem="Protein_family_or_group" id="T25" lex="transcription_factor">transcription factors</term> <term sem="Protein_molecule" id="T26" lex="P3A2">P3A2</term> and <term sem="Protein_molecule" id="T27" lex="erected_wing_gene_product">erected wing gene product</term> (<term sem="Protein_molecule" id="T28" lex="EWG">EWG</term>).</sentence>
+<sentence id="S6">We present evidence that <term sem="Protein_molecule" id="T29" lex="IBR">IBR</term> and <term sem="Protein_molecule" id="T30" lex="IBF">IBF</term> are most likely identical proteins, differing in their degree of <term sem="Other" id="T31" lex="glycosylation">glycosylation</term>.</sentence>
+<event id="E7">
+<type class="Protein_modification" />
+<theme idref="T29" />
+<clue>We present evidence that IBR and IBF are most likely identical proteins, differing in <corefTheme>their</corefTheme> degree of <clueType>glycosylation</clueType>.</clue>
+</event>
+<event id="E8">
+<type class="Protein_modification" />
+<theme idref="T30" />
+<clue>We present evidence that IBR and IBF are most likely identical proteins, differing in <corefTheme>their</corefTheme> degree of <clueType>glycosylation</clueType>.</clue>
+</event>
+<sentence id="S7">We have analyzed several molecular aspects of <term sem="Protein_molecule" id="T32" lex="IBR/F">IBR/F</term> and shown that the factor associates as stable <term sem="Protein_complex" id="T33" lex="homodimer">homodimers</term> and that the <term sem="Protein_molecule" id="T34" lex="dimer">dimer</term> is the <term sem="Protein_family_or_group" id="T35" lex="relevant_DNA-binding_specie">relevant <term sem="DNA_domain_or_region" id="A8">DNA</term>-binding species</term>.</sentence>
+<event id="E9">
+<type class="Binding" />
+<theme idref="T32" />
+<clue>We have analyzed several molecular aspects of IBR/F and shown that <corefTheme>the factor</corefTheme> <clueType>associates as stable homodimers</clueType> and that the dimer is the relevant DNA-binding species.</clue>
+</event>
+<event id="E11">
+<type class="Binding" />
+<theme idref1="T34" idref="T32" />
+<theme idref="A8" />
+<clue>We have analyzed several molecular aspects of IBR/F and shown that the factor associates as stable homodimers and that <corefTheme>the dimer</corefTheme> is the relevant DNA-<clueType>binding</clueType> species.</clue>
+</event>
+<sentence id="S8">The evolutionarily conserved <term sem="Protein_domain_or_region" id="T36" lex="N-terminal_half">N-terminal half</term> of <term sem="Protein_molecule" id="T37" lex="IBR/F">IBR/F</term> harbors the <term sem="Protein_domain_or_region" id="T38" lex="DNA-binding/dimerization_domain">DNA-binding/dimerization domain</term> (outer limits, 127 to 283), one or several <term sem="Protein_domain_or_region" id="T39" lex="casein_kinase_II_site">casein kinase II sites</term> (37 to 67), and a <term sem="Protein_domain_or_region" id="T40" lex="bipartite_nuclear_localization_signal">bipartite nuclear localization signal</term> (89 to 106) which appears to be necessary for <term sem="Other" id="T41" lex="nuclear_targeting"><term sem="Cell_component" id="A9">nuclear</term> targeting</term>.</sentence>
+<event id="E13">
+<type class="Localization" />
+<theme idref="T37" />
+<clue>The evolutionarily conserved N-terminal half of IBR/F harbors the DNA-binding/dimerization domain (outer limits, 127 to 283), one or several casein kinase II sites (37 to 67), and a bipartite nuclear localization signal (89 to 106) which appears to be necessary for <clueLoc>nuclear</clueLoc> <clueType>targeting</clueType>.</clue>
+<comment>NO COREFTEHEME</comment>
+</event>
+<event uncertainty="probable" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T40" />
+<clue>The evolutionarily conserved N-terminal half of IBR/F harbors the DNA-binding/dimerization domain (outer limits, 127 to 283), one or several casein kinase II sites (37 to 67), and a bipartite nuclear localization signal (89 to 106) which appears to be <clueType>necessary</clueType> <linkTheme>for</linkTheme> nuclear targeting.</clue>
+</event>
+<sentence id="S9"><term sem="Other" id="T42" lex="binding_site_selection">Binding site selection</term> revealed that the <term sem="Protein_domain_or_region" id="T43" lex="alternating_RCGCRYGCGY_consensus">alternating RCGCRYGCGY consensus</term> constitutes high-affinity <term sem="DNA_domain_or_region" id="T44" lex="IBR/F_binding_sites"><term sem="Protein_molecule" id="T45" lex="IBR/F">IBR/F</term> binding sites</term> and that the <term sem="DNA_domain_or_region" id="T46" lex="direct-repeat_palindrome">direct-repeat palindrome</term> <term sem="Polynucleotide" id="T47" lex="TGCGCATGCGCA">TGCGCATGCGCA</term> is the <term sem="DNA_domain_or_region" id="T48" lex="optimal_site">optimal site</term>.</sentence>
+<event id="E101">
+<type class="Binding" />
+<theme idref="T43" />
+<theme idref="T45" />
+<clue><clueExperiment>Binding site selection</clueExperiment> revealed that the alternating RCGCRYGCGY consensus <clueType>constitutes</clueType> high-affinity IBR/F <clueType>binding sites</clueType> and that the direct-repeat palindrome TGCGCATGCGCA is the optimal site.</clue>
+</event>
+<event id="E102">
+<type class="Binding" />
+<theme idref="T45" />
+<theme idref="T47" />
+<clue><clueExperiment>Binding site selection</clueExperiment> revealed that the alternating RCGCRYGCGY consensus constitutes high-affinity IBR/F binding sites and that the direct-repeat palindrome TGCGCATGCGCA <clueType>is the optimal site</clueType>.</clue>
+<comment>NO COREFTEHEME FOR T45, OK</comment>
+</event>
+<sentence id="S10">A survey of <term sem="DNA_family_or_group" id="T49" lex="gene">genes</term> potentially regulated by this family of <term sem="Protein_family_or_group" id="T50" lex="factor">factors</term> primarily revealed <term sem="DNA_family_or_group" id="T51" lex="gene">genes</term> involved in <term sem="Other" id="A10">growth</term>-related <term sem="Other" id="A11">metabolism</term>.</sentence>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="T49" />
+<cause idref="T45" />
+<clue>A survey of genes potentially <clueType>regulated</clueType> <linkCause>by</linkCause> <corefCause>this family of factors</corefCause> primarily revealed genes involved in growth-related metabolism.</clue>
+</event>
+<event id="E16">
+<type class="Correlation" />
+<theme idref="A10" />
+<theme idref="A11" />
+<clue>A survey of genes potentially regulated by this family of factors primarily revealed genes involved in growth-<clueType>related</clueType> metabolism.</clue>
+<comment>NER: T52 del &quot;growth-related metabolism&quot;</comment>
+</event>
+<event id="E17">
+<type class="Correlation" />
+<theme idref="T51" />
+<theme idref="E16" />
+<clue>A survey of genes potentially regulated by this family of factors primarily revealed genes <clueType>involved</clueType> <linkTheme>in</linkTheme> growth-related metabolism.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="20/06/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7815555" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7815555</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Characterization of the <term sem="DNA_domain_or_region" id="T1" lex="CD48_gene">CD48 gene</term> demonstrates a positive element that is specific to <term sem="Cell_natural" id="T2" lex="Epstein-Barr_virus-immortalized_B-cell_line"><term sem="Virus" id="T3" lex="Epstein-Barr_virus">Epstein-Barr virus</term>-immortalized <term sem="Cell_natural" id="A5">B-cell lines</term></term> and contains an essential <term sem="DNA_domain_or_region" id="T4" lex="NF-kappa_B_site"><term sem="Protein_molecule" id="T5" lex="NF-kappa_B">NF-kappa B</term> site</term>.</sentence>
+<event id="E150">
+<type class="Physiological_process" />
+<theme idref="A5" />
+<clue>Characterization of the CD48 gene demonstrates a positive element that is specific to Epstein-Barr virus-<clueType>immortalized</clueType> B-cell lines and contains an essential NF-kappa B site.</clue>
+</event>
+<event id="E151">
+<type class="Positive_regulation" />
+<theme idref="E150" />
+<cause idref="T3" />
+<clue>Characterization of the CD48 gene demonstrates a positive element that is specific to Epstein-Barr virus-<clueType>immortalized</clueType> B-cell lines and contains an essential NF-kappa B site.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Virus" id="T6" lex="Epstein-Barr_virus">Epstein-Barr virus</term> (<term sem="Virus" id="T7" lex="EBV">EBV</term>) infection of mature, <term sem="Cell_natural" id="T8" lex="resting_B_cell">resting B cells</term> drives them to become <term sem="Cell_natural" id="A2">lymphoblasts</term> expressing high levels of cell surface molecules, such as <term sem="Protein_molecule" id="T9" lex="CD48">CD48</term>, characteristically expressed on <term sem="Cell_natural" id="T10" lex="normal_activated_B_cell">normal activated <term sem="Cell_natural" id="A3">B cells</term></term>.</sentence>
+<event id="E1">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T7" />
+<theme idref="T8" />
+<clue>Epstein-Barr virus (EBV) <clueType>infection</clueType> <linkTheme>of</linkTheme> mature, resting B cells drives them to become lymphoblasts expressing high levels of cell surface molecules, such as CD48, characteristically expressed on normal activated B cells.</clue>
+</event>
+<event id="E102">
+<type class="Cell_differentiation" />
+<theme idref="T8" />
+<theme idref="A2" />
+<clue>Epstein-Barr virus (EBV) infection of mature, resting B cells drives <corefTheme idref1="T8">them</corefTheme> to <clueType>become</clueType> lymphoblasts expressing high levels of cell surface molecules, such as CD48, characteristically expressed on normal activated B cells.</clue>
+</event>
+<event id="E103">
+<type class="Positive_regulation" />
+<theme idref="E102" />
+<cause idref="E1" />
+<clue>Epstein-Barr virus (EBV) infection of mature, resting B cells <clueType>drives</clueType> them to become lymphoblasts expressing high levels of cell surface molecules, such as CD48, characteristically expressed on normal activated B cells.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>Epstein-Barr virus (EBV) infection of mature, resting B cells drives them to become <clueLoc>lymphoblasts</clueLoc> <clueType>expressing</clueType> high levels of cell surface molecules, such as CD48, characteristically expressed on normal activated B cells.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>Epstein-Barr virus (EBV) infection of mature, resting B cells drives them to become lymphoblasts expressing high levels of cell surface molecules, such as CD48, characteristically <clueType>expressed</clueType> on <clueLoc>normal activated B cells.</clueLoc></clue>
+</event>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="A3" />
+<clue>Epstein-Barr virus (EBV) infection of mature, resting B cells drives them to become lymphoblasts expressing high levels of cell surface molecules, such as CD48, characteristically expressed on normal <clueType>activated</clueType> B cells.</clue>
+</event>
+<sentence id="S3">Here, we report on the identification of an <term sem="DNA_domain_or_region" id="A4"><term sem="DNA_domain_or_region" id="T11" lex="enhancer_element">enhancer element</term> in the <term sem="DNA_domain_or_region" id="T12" lex="CD48_gene"><term sem="Protein_molecule" id="T13" lex="CD48">CD48</term> gene</term></term> which reproducibly confers strong <term sem="Other" id="T14" lex="transcriptional_activity">transcriptional activity</term> only in <term sem="Cell_cultured" id="T15" lex="EBV-positive_B-lymphoblastoid_cell_line"><term sem="Virus" id="T16" lex="EBV">EBV</term>-positive <term sem="Cell_cultured" id="A21">B-lymphoblastoid cell lines</term></term>.</sentence>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<cause idref="A4" />
+<clue>Here, we report on the identification of an enhancer element in the CD48 gene which reproducibly <clueType>confers</clueType> strong transcriptional activity only <clueLoc>in EBV-positive B-lymphoblastoid cell lines.</clueLoc></clue>
+<comment>TPS A4</comment>
+</event>
+<event id="E51">
+<type class="Viral_life_cycle" />
+<theme idref="T16" />
+<theme idref="A21" />
+<clue>Here, we report on the identification of an enhancer element in the CD48 gene which reproducibly confers strong transcriptional activity only in EBV-<clueType>positive</clueType> B-lymphoblastoid cell lines.</clue>
+</event>
+<sentence id="S4">The element is not activated upon infection of established <term sem="Cell_cultured" id="T17" lex="EBV-negative_B-cell_line"><term sem="Virus" id="T18" lex="EBV">EBV</term>-negative B-cell lines</term>, indicating that <term sem="Virus" id="T19" lex="EBV">EBV</term> fails to drive these cells to a fully <term sem="Cell_natural" id="T20" lex="lymphoblastoid_phenotype">lymphoblastoid phenotype</term>.</sentence>
+<event id="E7">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T19" />
+<theme idref="T17" />
+<clue>The element is not activated upon <clueType>infection</clueType> <linkTheme>of</linkTheme> established EBV-negative B-cell lines, indicating that EBV fails to drive these cells to a fully lymphoblastoid phenotype.</clue>
+</event>
+<event assertion="non-exist" id="E8">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="E7" />
+<clue><corefTheme>The element</corefTheme> is not <clueType>activated</clueType> <linkCause>upon</linkCause> infection of established EBV-negative B-cell lines, indicating that EBV fails to drive these cells to a fully lymphoblastoid phenotype.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E109">
+<type class="Cell_differentiation" />
+<theme idref="T17" />
+<theme idref="T20" />
+<clue>The element is not activated upon infection of established EBV-negative B-cell lines, indicating that EBV fails to drive <corefTheme idref1="T17">these cells</corefTheme> <linkTheme>to</linkTheme> a fully lymphoblastoid phenotype.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E110">
+<type class="Positive_regulation" />
+<theme idref="E109" />
+<cause idref="T19" />
+<clue>The element is not activated upon infection of established EBV-negative B-cell lines, indicating that EBV fails to <clueType>drive</clueType> these cells to a fully lymphoblastoid phenotype.</clue>
+</event>
+<sentence id="S5">An <term sem="DNA_substructure" id="T21" lex="NF-kappa_B_binding_site"><term sem="Protein_molecule" id="T22" lex="NF-kappa_B">NF-kappa B</term> binding site</term> is an essential component of the element but alone is not sufficient to account for the activity or the specificity of the element.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="T21" />
+<clue>An NF-kappa B binding site is an <clueType>essential</clueType> component of <corefTheme>the element</corefTheme> but alone is not sufficient to account for the activity or the specificity of the element.</clue>
+</event>
+<sentence id="S6">We have detected a specific <term sem="Protein_complex" id="T23" lex="nuclear_protein_complex">nuclear protein complex</term> that binds to the element and show that <term sem="Protein_molecule" id="T24" lex="NF-kappa_B1">NF-kappa B1</term> (<term sem="Protein_molecule" id="T25" lex="p50">p50</term>) is a part of this complex.</sentence>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T23" />
+<theme idref="A4" />
+<clue>We have detected a specific nuclear protein complex that <clueType>binds</clueType> <linkTheme>to</linkTheme> <corefTheme idref1="A4">the element</corefTheme> and show that NF-kappa B1 (p50) is a part of this complex.</clue>
+</event>
+<event id="E52">
+<type class="Binding" />
+<theme idref="T25" />
+<theme idref="A4" />
+<clue>We have detected a specific nuclear protein complex that <clueType>binds</clueType> <linkTheme>to</linkTheme> <corefTheme idref1="A4">the element</corefTheme> and show that NF-kappa B1 (p50) is a part of this complex.</clue>
+</event>
+<sentence id="S7">The <term sem="Protein_molecule" id="T26" lex="EBV-encoded_latent_membrane_protein_1"><term sem="Virus" id="T27" lex="EBV">EBV</term>-encoded latent membrane protein 1</term> is capable of transactivating the <term sem="DNA_domain_or_region" id="A6">isolated <term sem="DNA_domain_or_region" id="A8"><term sem="Protein_molecule" id="T28" lex="CD48">CD48</term> <term sem="DNA_domain_or_region" id="T29" lex="NF-kappa_B_site"><term sem="Protein_molecule" id="T30" lex="NF-kappa_B">NF-kappa B</term> site</term></term></term> but not the <term sem="DNA_domain_or_region" id="T31" lex="intact_element"><term sem="DNA_domain_or_region" id="A7">intact</term> element</term>, suggesting that the <term sem="Other" id="T32" lex="latent_membrane_protein_1-driven_activation"><term sem="Protein_molecule" id="T33" lex="latent_membrane_protein_1">latent membrane protein 1</term>-driven activation</term> of <term sem="Protein_molecule" id="T34" lex="NF-kappa_B/Rel">NF-kappa B/Rel</term> must interact with <term sem="Other" id="A10">other regulatory pathways</term> to control expression of <term sem="DNA_family_or_group" id="A9">cellular genes</term> as <term sem="Virus" id="T35" lex="EBV">EBV</term> drives <term sem="Cell_natural" id="T36" lex="resting_B_cell">resting <term sem="Cell_natural" id="A20">B cells</term></term> into the <term sem="Other" id="T37" lex="cell_cycle">cell cycle</term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="T26" />
+<clue>The EBV-encoded latent membrane protein 1 is capable of <clueType>transactivating</clueType> the isolated CD48 NF-kappa B site but not the intact element, suggesting that the latent membrane protein 1-driven activation of NF-kappa B/Rel must interact with other regulatory pathways to control expression of cellular genes as EBV drives resting B cells into the cell cycle.</clue>
+<comment>TPS A6</comment>
+</event>
+<event assertion="non-exist" id="E13">
+<type class="Positive_regulation" />
+<theme idref1="A8" idref="A7" />
+<cause idref="T26" />
+<clue>The EBV-encoded latent membrane protein 1 is capable of <clueType>transactivating</clueType> the isolated CD48 NF-kappa B site but not the intact <corefTheme>element</corefTheme>, suggesting that the latent membrane protein 1-driven activation of NF-kappa B/Rel must interact with other regulatory pathways to control expression of cellular genes as EBV drives resting B cells into the cell cycle.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<cause idref="T33" />
+<clue>The EBV-encoded latent membrane protein 1 is capable of transactivating the isolated CD48 NF-kappa B site but not the intact element, suggesting that the latent membrane protein 1-<linkCause>driven</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B/Rel must interact with other regulatory pathways to control expression of cellular genes as EBV drives resting B cells into the cell cycle.</clue>
+</event>
+<event id="E15">
+<type class="Correlation" />
+<theme idref="E14" />
+<theme idref="A10" />
+<clue>The EBV-encoded latent membrane protein 1 is capable of transactivating the isolated CD48 NF-kappa B site but not the intact element, suggesting that the latent membrane protein 1-driven activation of NF-kappa B/Rel must <clueType>interact</clueType> <linkTheme>with</linkTheme> other regulatory pathways to control expression of cellular genes as EBV drives resting B cells into the cell cycle.</clue>
+</event>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="A9" />
+<clue>The EBV-encoded latent membrane protein 1 is capable of transactivating the isolated CD48 NF-kappa B site but not the intact element, suggesting that the latent membrane protein 1-driven activation of NF-kappa B/Rel must interact with other regulatory pathways to control <clueType>expression</clueType> <linkTheme>of</linkTheme> cellular genes as EBV drives resting B cells into the cell cycle.</clue>
+</event>
+<event uncertainty="probable" id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="E15" />
+<clue>The EBV-encoded latent membrane protein 1 is capable of transactivating the isolated CD48 NF-kappa B site but not the intact element, suggesting that the latent membrane protein 1-driven activation of NF-kappa B/Rel must interact with other regulatory pathways to <clueType>control</clueType> expression of cellular genes as EBV drives resting B cells into the cell cycle.</clue>
+</event>
+<event id="E18">
+<type class="Cellular_physiological_process" />
+<theme idref="A20" />
+<clue>The EBV-encoded latent membrane protein 1 is capable of transactivating the isolated CD48 NF-kappa B site but not the intact element, suggesting that the latent membrane protein 1-driven activation of NF-kappa B/Rel must interact with other regulatory pathways to control expression of cellular genes as EBV drives <clueType>resting</clueType> B cells <clueType>into the cell cycle</clueType>.</clue>
+<comment>CAUTION</comment>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E18" />
+<cause idref="T35" />
+<clue>The EBV-encoded latent membrane protein 1 is capable of transactivating the isolated CD48 NF-kappa B site but not the intact element, suggesting that the latent membrane protein 1-driven activation of NF-kappa B/Rel must interact with other regulatory pathways to control expression of cellular genes as EBV <clueType>drives</clueType> resting B cells into the cell cycle.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

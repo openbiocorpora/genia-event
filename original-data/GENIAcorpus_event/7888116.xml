@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="05/10/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7888116"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7888116</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The regulation of <term sem="Virus" id="T1" lex="HIV">HIV</term> by <term sem="Organic_compound_other" id="T2" lex="retinoic_acid">retinoic acid</term> correlates with cellular expression of the <term sem="Protein_family_or_group" id="T3" lex="retinoic_acid_receptor"><term sem="Organic_compound_other" id="T4" lex="retinoic_acid">retinoic acid</term> receptors</term>.</sentence>
+<event id="E1">
+<type class="Regulation" />
+<theme idref="T1" />
+<cause idref="T2" />
+<clue>The <clueType>regulation</clueType> <linkTheme>of</linkTheme> HIV <linkCause>by</linkCause> retinoic acid correlates with cellular expression of the retinoic acid receptors.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>The regulation of HIV by retinoic acid correlates with <clueLoc>cellular</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> the retinoic acid receptors.</clue>
+</event>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="E1" />
+<theme idref="E2" />
+<clue>The regulation of HIV by retinoic acid <clueType>correlates</clueType> <linkTheme>with</linkTheme> cellular expression of the retinoic acid receptors.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">OBJECTIVES: To analyze the effect of <term sem="Organic_compound_other" id="T5" lex="retinoic_acid">retinoic acids</term> (<term sem="Organic_compound_other" id="T6" lex="RA">RA</term>) on <term sem="Other" id="T7" lex="HIV-1_expression"><term sem="DNA_domain_or_region" id="T8" lex="HIV-1">HIV-1</term> expression</term> and correlate this effect with expression levels of <term sem="Protein_family_or_group" id="T9" lex="RA_receptor">RA receptors</term> (<term sem="Protein_family_or_group" id="T10" lex="RAR">RARs</term>) in <cons sem="(AND Cell_cultured Cell_cultured)" id="T11" lex="(AND T-lymphoid_cell_line monocytoid_cell_line)"><frag id="F1">T-lymphoid</frag> and <frag id="F2">monocytoid</frag> <frag id="F3">cell lines</frag></cons>.</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T8" />
+<clue>OBJECTIVES: To analyze the effect of retinoic acids (RA) on HIV-1 <clueType>expression</clueType> and correlate this effect with expression levels of RA receptors (RARs) in T-lymphoid and monocytoid cell lines.</clue>
+<comment>NER: T8 MOD</comment></event>
+<event uncertainty="doubtful" id="E5">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="T6" />
+<clue>OBJECTIVES: To analyze the <clueType>effect</clueType> <linkCause>of</linkCause> retinoic acids (RA) <linkTheme>on</linkTheme> HIV-1 expression and correlate this effect with expression levels of RA receptors (RARs) in T-lymphoid and monocytoid cell lines.</clue>
+</event>
+<event id="E300">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>OBJECTIVES: To analyze the effect of retinoic acids (RA) on HIV-1 expression and correlate this effect with <clueType>expression</clueType> levels <linkTheme>of</linkTheme> RA receptors (RARs) <clueLoc>in T-lymphoid</clueLoc> and monocytoid <clueLoc>cell lines</clueLoc>.</clue>
+</event>
+<event id="E301">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>OBJECTIVES: To analyze the effect of retinoic acids (RA) on HIV-1 expression and correlate this effect with <clueType>expression</clueType> levels <linkTheme>of</linkTheme> RA receptors (RARs) <clueLoc>in</clueLoc> T-lymphoid and <clueLoc>monocytoid cell line</clueLoc>s.</clue>
+</event>
+<event uncertainty="doubtful" id="E302">
+<type class="Correlation" />
+<theme idref="E5" />
+<theme idref="E300" />
+<clue>OBJECTIVES: To analyze the effect of retinoic acids (RA) on HIV-1 expression and <clueType>correlate</clueType> <corefTheme idref1="E5">this effect</corefTheme> <linkTheme>with</linkTheme> expression levels of RA receptors (RARs) in T-lymphoid and monocytoid cell lines.</clue>
+</event>
+<event uncertainty="doubtful" id="E303">
+<type class="Correlation" />
+<theme idref="E5" />
+<theme idref="E301" />
+<clue>OBJECTIVES: To analyze the effect of retinoic acids (RA) on HIV-1 expression and <clueType>correlate</clueType> <corefTheme idref1="E5">this effect</corefTheme> <linkTheme>with</linkTheme> expression levels of RA receptors (RARs) in T-lymphoid and monocytoid cell lines.</clue>
+</event>
+<sentence id="S3">DESIGN AND METHODS: The effect of <cons sem="(AND Organic_compound_other Organic_compound_other)" id="T12" lex="(AND all-trans_RA 9-cis_RA)"><frag id="F4"><term sem="Organic_compound_other" id="A1">all-trans</term></frag> and <frag id="F5"><term sem="Organic_compound_other" id="A2">9-cis</term></frag> <frag id="F6"><term sem="Organic_compound_other" id="A3">RA</term></frag></cons> on <term sem="Other" id="T13" lex="HIV-1_production"><term sem="Virus" id="T14" lex="HIV-1">HIV-1</term> production</term> in <term sem="Cell_cultured" id="T15" lex="T-lymphoid">T-lymphoid</term> (<term sem="Cell_cultured" id="T16" lex="H9,_CEM"><term sem="Cell_cultured" id="A21">H9</term>, <term sem="Cell_cultured" id="A22">CEM</term></term>) and <term sem="Cell_cultured" id="T17" lex="monocytoid_(U937,THP-1)_cell_lines"><term sem="Cell_cultured" id="A25">monocytoid</term> (<term sem="Cell_cultured" id="A23">U937</term>,<term sem="Cell_cultured" id="A24">THP-1</term>) cell lines</term> was measured during <cons sem="(AND Other Other)" id="T18" lex="(AND acute_infection chronic_infection)"><frag id="F7">acute</frag> and <frag id="F8">chronic</frag> <frag id="F9">infection</frag></cons>.</sentence>
+<event id="E8">
+<type class="Viral_life_cycle" />
+<theme idref="T14" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 <clueType>production</clueType> in T-lymphoid (H9, CEM) and monocytoid (U937,THP-1) cell lines was measured during acute and chronic infection.</clue>
+</event>
+<event id="E310">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref1="A3" idref="A1" />
+<clue>DESIGN AND METHODS: The <clueType>effect</clueType> <linkCause>of</linkCause> all-trans and 9-cis RA on HIV-1 production <clueLoc>in T-lymphoid</clueLoc> (<clueLoc>H9</clueLoc>, CEM) and monocytoid (U937,THP-1) <clueLoc>cell lines</clueLoc> was measured <clueTime>during acute and chronic infection</clueTime>.</clue>
+<comment>EXP</comment></event>
+<event id="E311">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref1="A3" idref="A1" />
+<clue>DESIGN AND METHODS: The <clueType>effect</clueType> <linkCause>of</linkCause> all-trans and 9-cis RA on HIV-1 production <clueLoc>in T-lymphoid</clueLoc> (H9, <clueLoc>CEM</clueLoc>) and monocytoid (U937,THP-1) <clueLoc>cell lines</clueLoc> was measured <clueTime>during acute and chronic infection</clueTime>.</clue>
+<comment>EXP</comment></event>
+<event id="E312">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref1="A3" idref="A1" />
+<clue>DESIGN AND METHODS: The <clueType>effect</clueType> <linkCause>of</linkCause> all-trans and 9-cis RA on HIV-1 production <clueLoc>in</clueLoc> T-lymphoid (H9, CEM) and <clueLoc>monocytoid</clueLoc> (<clueLoc>U937</clueLoc>,THP-1) <clueLoc>cell lines</clueLoc> was measured <clueTime>during acute and chronic infection</clueTime>.</clue>
+<comment>EXP</comment></event>
+<event id="E313">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref1="A3" idref="A1" />
+<clue>DESIGN AND METHODS: The <clueType>effect</clueType> <linkCause>of</linkCause> all-trans and 9-cis RA on HIV-1 production <clueLoc>in</clueLoc> T-lymphoid (H9, CEM) and <clueLoc>monocytoid</clueLoc> (U937,<clueLoc>THP-1</clueLoc>) <clueLoc>cell lines</clueLoc> was measured <clueTime>during acute and chronic infection</clueTime>.</clue>
+<comment>EXP</comment></event>
+<event id="E314">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref1="A3" idref="A2" />
+<clue>DESIGN AND METHODS: The <clueType>effect</clueType> <linkCause>of</linkCause> all-trans and 9-cis RA on HIV-1 production <clueLoc>in T-lymphoid</clueLoc> (<clueLoc>H9</clueLoc>, CEM) and monocytoid (U937,THP-1) <clueLoc>cell lines</clueLoc> was measured <clueTime>during acute and chronic infection</clueTime>.</clue>
+<comment>EXP</comment></event>
+<event id="E315">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref1="A3" idref="A2" />
+<clue>DESIGN AND METHODS: The <clueType>effect</clueType> <linkCause>of</linkCause> all-trans and 9-cis RA on HIV-1 production <clueLoc>in T-lymphoid</clueLoc> (H9, <clueLoc>CEM</clueLoc>) and monocytoid (U937,THP-1) <clueLoc>cell lines</clueLoc> was measured <clueTime>during acute and chronic infection</clueTime>.</clue>
+<comment>EXP</comment></event>
+<event id="E316">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref1="A3" idref="A2" />
+<clue>DESIGN AND METHODS: The <clueType>effect</clueType> <linkCause>of</linkCause> all-trans and 9-cis RA on HIV-1 production <clueLoc>in</clueLoc> T-lymphoid (H9, CEM) and <clueLoc>monocytoid</clueLoc> (<clueLoc>U937</clueLoc>,THP-1) <clueLoc>cell lines</clueLoc> was measured <clueTime>during acute and chronic infection</clueTime>.</clue>
+<comment>EXP</comment></event>
+<event id="E317">
+<type class="Regulation" />
+<theme idref="E8" />
+<cause idref1="A3" idref="A2" />
+<clue>DESIGN AND METHODS: The <clueType>effect</clueType> <linkCause>of</linkCause> all-trans and 9-cis RA on HIV-1 production <clueLoc>in</clueLoc> T-lymphoid (H9, CEM) and <clueLoc>monocytoid</clueLoc> (U937,<clueLoc>THP-1</clueLoc>) <clueLoc>cell lines</clueLoc> was measured <clueTime>during acute and chronic infection</clueTime>.</clue>
+<comment>EXP</comment></event>
+<event id="E11">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T14" />
+<theme idref="T15" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in T-lymphoid (H9, CEM) and monocytoid (U937,THP-1) cell lines was measured during <clueType>acute</clueType> and chronic <clueType>infection</clueType>.</clue>
+</event>
+<event id="E70">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T14" />
+<theme idref="A25" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in T-lymphoid (H9, CEM) and monocytoid (U937,THP-1) cell lines was measured during <clueType>acute</clueType> and chronic <clueType>infection</clueType>.</clue>
+</event>
+<event id="E62">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T14" />
+<theme idref="A21" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in <corefTheme idref1="A21">T-lymphoid</corefTheme> (H9, CEM) and monocytoid (U937,THP-1) cell lines was measured during <clueType>acute</clueType> and chronic <clueType>infection</clueType>.</clue>
+</event>
+<event id="E63">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T14" />
+<theme idref="A22" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in <corefTheme idref1="A22">T-lymphoid</corefTheme> (H9, CEM) and monocytoid (U937,THP-1) cell lines was measured during <clueType>acute</clueType> and chronic <clueType>infection</clueType>.</clue>
+</event>
+<event id="E65">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T14" />
+<theme idref="A23" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in T-lymphoid (H9, CEM) and <corefTheme idref1="A23">monocytoid</corefTheme> (U937,THP-1) cell lines was measured during <clueType>acute</clueType> and chronic <clueType>infection</clueType>.</clue>
+</event>
+<event id="E66">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T14" />
+<theme idref="A24" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in T-lymphoid (H9, CEM) and <corefTheme idref1="A24">monocytoid</corefTheme> (U937,THP-1) cell lines was measured during <clueType>acute</clueType> and chronic <clueType>infection</clueType>.</clue>
+</event>
+<event id="E12">
+<type class="Viral_life_cycle" />
+<theme idref="T14" />
+<theme idref="T15" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in T-lymphoid (H9, CEM) and monocytoid (U937,THP-1) cell lines was measured during acute and <clueType>chronic infection</clueType>.</clue>
+</event>
+<event id="E73">
+<type class="Viral_life_cycle" />
+<theme idref="T14" />
+<theme idref="A25" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in T-lymphoid (H9, CEM) and monocytoid (U937,THP-1) cell lines was measured during acute and <clueType>chronic infection</clueType>.</clue>
+</event>
+<event id="E74">
+<type class="Viral_life_cycle" />
+<theme idref="T14" />
+<theme idref="A21" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in <corefTheme idref1="A21">T-lymphoid</corefTheme> (H9, CEM) and monocytoid (U937,THP-1) cell lines was measured during acute and <clueType>chronic infection</clueType>.</clue>
+</event>
+<event id="E75">
+<type class="Viral_life_cycle" />
+<theme idref="T14" />
+<theme idref="A22" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in <corefTheme idref1="A22">T-lymphoid</corefTheme> (H9, CEM) and monocytoid (U937,THP-1) cell lines was measured during acute and <clueType>chronic infection</clueType>.</clue>
+</event>
+<event id="E76">
+<type class="Viral_life_cycle" />
+<theme idref="T14" />
+<theme idref="A23" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in T-lymphoid (H9, CEM) and <corefTheme idref1="A23">monocytoid</corefTheme> (U937,THP-1) cell lines was measured during acute and <clueType>chronic infection</clueType>.</clue>
+</event>
+<event id="E77">
+<type class="Viral_life_cycle" />
+<theme idref="T14" />
+<theme idref="A24" />
+<clue>DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in T-lymphoid (H9, CEM) and <corefTheme idref1="A24">monocytoid</corefTheme> (U937,THP-1) cell lines was measured during acute and <clueType>chronic infection</clueType>.</clue>
+</event>
+<sentence id="S4">The expression levels of <term sem="Protein_molecule" id="T19" lex="human_RAR_alpha">human RAR alpha</term> (<term sem="Protein_molecule" id="T20" lex="hRAR_alpha,_receptor"><term sem="Protein_molecule" id="A4">hRAR alpha</term>, receptor</term> for <term sem="Organic_compound_other" id="T21" lex="all-trans_RA">all-trans RA</term>) and the <term sem="Protein_molecule" id="T22" lex="human_retinoid-X_receptor_alpha">human retinoid-X receptor alpha</term> (<term sem="Protein_molecule" id="T23" lex="hRXR_alpha_receptor"><term sem="Protein_molecule" id="A5">hRXR alpha</term> receptor</term> for <term sem="Organic_compound_other" id="T24" lex="9-cis_RA">9-cis RA</term>) were determined by Northern blot analysis.</sentence>
+<event uncertainty="doubtful" id="E13">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>The <clueType>expression</clueType> levels <linkTheme>of</linkTheme> human RAR alpha (hRAR alpha, receptor for all-trans RA) and the human retinoid-X receptor alpha (hRXR alpha receptor for 9-cis RA) were determined <clueExperiment>by Northern blot analysis.</clueExperiment></clue>
+</event>
+<event uncertainty="doubtful" id="E14">
+<type class="Gene_expression" />
+<theme idref="A5" />
+<clue>The <clueType>expression</clueType> levels <linkTheme>of</linkTheme> human RAR alpha (hRAR alpha, receptor for all-trans RA) and the human retinoid-X receptor alpha (hRXR alpha receptor for 9-cis RA) were determined <clueExperiment>by Northern blot analysis.</clueExperiment></clue>
+</event>
+<event id="E15">
+<type class="Binding" />
+<theme idref="A4" />
+<theme idref="T21" />
+<clue>The expression levels of human RAR alpha (hRAR alpha, <clueType>receptor</clueType> <linkTheme>for</linkTheme> all-trans RA) and the human retinoid-X receptor alpha (hRXR alpha receptor for 9-cis RA) were determined by Northern blot analysis.</clue>
+</event>
+<event id="E16">
+<type class="Binding" />
+<theme idref="A5" />
+<theme idref="T24" />
+<clue>The expression levels of human RAR alpha (hRAR alpha, receptor for all-trans RA) and the human retinoid-X receptor alpha (hRXR alpha <clueType>receptor</clueType> <linkTheme>for</linkTheme> 9-cis RA) were determined by Northern blot analysis.</clue>
+</event>
+<sentence id="S5">RESULTS: Both <cons sem="(AND Organic_compound_other Organic_compound_other)" id="T25" lex="(AND all-trans_RA 9-cis_RA)"><frag id="F10"><term sem="Organic_compound_other" id="A6">all-trans</term></frag> and <frag id="F11"><term sem="Organic_compound_other" id="A7">9-cis</term></frag> <frag id="F12"><term sem="Organic_compound_other" id="A8">RA</term></frag></cons> inhibited <term sem="Other" id="T26" lex="virus_replication">virus replication</term> in <term sem="Cell_cultured" id="T27" lex="HIV-1_IIIB-infected_monocytoid_cell"><term sem="Virus" id="A9"><term sem="Virus" id="T28" lex="HIV-1">HIV-1</term> IIIB</term>-infected <term sem="Cell_natural" id="A10">monocytoid cells</term></term>, in the presence and absence of the co-stimulatory agent <term sem="Organic_compound_other" id="T29" lex="phorbol_myristate_acetate">phorbol myristate acetate</term> (<term sem="Organic_compound_other" id="T30" lex="PMA">PMA</term>).</sentence>
+<event id="E17">
+<type class="Viral_life_cycle" />
+<theme idref="A9" />
+<clue>RESULTS: Both all-trans and 9-cis RA inhibited <corefTheme>virus</corefTheme> <clueType>replication</clueType> <clueLoc>in HIV-1 IIIB-infected monocytoid cells</clueLoc>, in the presence and absence of the co-stimulatory agent phorbol myristate acetate (PMA).</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref1="A8" idref="A6" />
+<clue>RESULTS: Both all-trans and 9-cis RA <clueType>inhibited</clueType> virus replication in HIV-1 IIIB-infected monocytoid cells, in the presence and absence of the co-stimulatory agent phorbol myristate acetate (PMA).</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref1="A8" idref="A7" />
+<clue>RESULTS: Both all-trans and 9-cis RA <clueType>inhibited</clueType> virus replication in HIV-1 IIIB-infected monocytoid cells, in the presence and absence of the co-stimulatory agent phorbol myristate acetate (PMA).</clue>
+</event>
+<event assertion="non-exist" id="E20">
+<type class="Regulation" />
+<theme idref="E18" />
+<cause idref="T30" />
+<clue>RESULTS: Both all-trans and 9-cis RA inhibited virus replication in HIV-1 IIIB-infected monocytoid cells, <clueType>in the presence and absence</clueType> <linkTheme>of</linkTheme> the co-stimulatory agent phorbol myristate acetate (PMA).</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Regulation" />
+<theme idref="E19" />
+<cause idref="T30" />
+<clue>RESULTS: Both all-trans and 9-cis RA inhibited virus replication in HIV-1 IIIB-infected monocytoid cells, <clueType>in the presence and absence</clueType> <linkTheme>of</linkTheme> the co-stimulatory agent phorbol myristate acetate (PMA).</clue>
+<comment>CAUTION</comment></event>
+<event id="E22">
+<type class="Initiation_of_viral_infection" />
+<theme idref="A9" />
+<theme idref="A10" />
+<clue>RESULTS: Both all-trans and 9-cis RA inhibited virus replication in HIV-1 IIIB-<clueType>infected</clueType> monocytoid cells, in the presence and absence of the co-stimulatory agent phorbol myristate acetate (PMA).</clue>
+</event>
+<sentence id="S6">The retinoids had weak or no stimulatory effects on <term sem="Other" id="T31" lex="HIV_production"><term sem="Virus" id="T32" lex="HIV">HIV</term> production</term> by <term sem="Cell_cultured" id="T33" lex="T-cell_line">T-cell lines</term>.</sentence>
+<event id="E23">
+<type class="Viral_life_cycle" />
+<theme idref="T32" />
+<clue>The retinoids had weak or no stimulatory effects on HIV <clueType>production</clueType> <clueLoc>by T-cell lines</clueLoc>.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref1="A8" idref="A6" />
+<clue><corefCause>The retinoids</corefCause> had weak or no stimulatory <clueType>effects</clueType> <linkTheme>on</linkTheme> HIV production by T-cell lines.</clue>
+</event>
+<event id="E80">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref1="A8" idref="A7" />
+<clue><corefCause>The retinoids</corefCause> had weak or no stimulatory <clueType>effects</clueType> <linkTheme>on</linkTheme> HIV production by T-cell lines.</clue>
+</event>
+<event assertion="non-exist" id="E25">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref1="A8" idref="A6" />
+<clue><corefCause>The retinoids</corefCause> had weak or no <clueType>stimulatory effects</clueType> <linkTheme>on</linkTheme> HIV production by T-cell lines.</clue>
+</event>
+<event assertion="non-exist" id="E81">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref1="A8" idref="A7" />
+<clue><corefCause>The retinoids</corefCause> had weak or no <clueType>stimulatory effects</clueType> <linkTheme>on</linkTheme> HIV production by T-cell lines.</clue>
+</event>
+<sentence id="S7"><term sem="Other" id="T34" lex="HIV_production"><term sem="Virus" id="T35" lex="HIV">HIV</term> production</term> by <term sem="Cell_cultured" id="T36" lex="PMA-stimulated_T-cell_line"><term sem="Organic_compound_other" id="T37" lex="PMA">PMA</term>-stimulated <term sem="Cell_cultured" id="T38" lex="T-cell_line">T-cell lines</term></term> was inhibited by these <term sem="Organic_compound_other" id="T39" lex="retinoid">retinoids</term>.</sentence>
+<event id="E26">
+<type class="Viral_life_cycle" />
+<theme idref="T35" />
+<clue>HIV <clueType>production</clueType> <clueLoc>by PMA-stimulated T-cell lines</clueLoc> was inhibited by these retinoids.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="E26" />
+<cause idref1="A8" idref="A6" />
+<clue>HIV production by PMA-stimulated T-cell lines was <clueType>inhibited</clueType> <linkCause>by</linkCause> <corefCause>these retinoids</corefCause>.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="E26" />
+<cause idref1="A8" idref="A7" />
+<clue>HIV production by PMA-stimulated T-cell lines was <clueType>inhibited</clueType> <linkCause>by</linkCause> <corefCause>these retinoids</corefCause>.</clue>
+</event>
+<event id="E29">
+<type class="Physiological_process" />
+<theme idref="T38" />
+<cause idref="T37" />
+<clue>HIV production by PMA-<clueType>stimulated</clueType> T-cell lines was inhibited by these retinoids.</clue>
+</event>
+<sentence id="S8">The <term sem="Organic_compound_other" id="T40" lex="9-cis_RA">9-cis RA</term> was generally more effective than <term sem="Organic_compound_other" id="T41" lex="all-trans_RA">all-trans RA</term> in inhibiting <term sem="Other" id="T42" lex="HIV_production"><term sem="Virus" id="T43" lex="HIV">HIV</term> production</term> and in combination generally more effective than the single agents alone.</sentence>
+<event id="E30">
+<type class="Viral_life_cycle" />
+<theme idref="T43" />
+<clue>The 9-cis RA was generally more effective than all-trans RA in inhibiting HIV <clueType>production</clueType> and in combination generally more effective than the single agents alone.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="E30" />
+<cause idref="T40" />
+<clue>The 9-cis RA was generally more effective than all-trans RA in <clueType>inhibiting</clueType> HIV production and in combination generally more effective than the single agents alone.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="E30" />
+<cause idref="T41" />
+<clue>The 9-cis RA was generally more effective than all-trans RA in <clueType>inhibiting</clueType> HIV production and in combination generally more effective than the single agents alone.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="T40" />
+<cause idref="T41" />
+<clue>The 9-cis RA was generally more effective than all-trans RA in inhibiting HIV production and in combination generally <clueType>more effective</clueType> than the single agents alone.</clue>
+</event>
+<sentence id="S9"><term sem="Protein_molecule" id="T44" lex="human_RAR_alpha">Human RAR alpha</term> was expressed in <term sem="Cell_cultured" id="T45" lex="H9">H9</term>, <term sem="Cell_cultured" id="T46" lex="U937">U937</term> and <term sem="Cell_cultured" id="T47" lex="THP-1_cell">THP-1 cells</term>, but almost undetectable in <term sem="Cell_cultured" id="T48" lex="CEM_cell">CEM cells</term>.</sentence>
+<event id="E320">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>Human RAR alpha was <clueType>expressed</clueType> <clueLoc>in H9</clueLoc>, U937 and THP-1 <clueLoc>cells</clueLoc>, but almost undetectable in CEM cells.</clue>
+</event>
+<event id="E321">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>Human RAR alpha was <clueType>expressed</clueType> <clueLoc>in</clueLoc> H9, <clueLoc>U937</clueLoc> and THP-1 <clueLoc>cells</clueLoc>, but almost undetectable in CEM cells.</clue>
+</event>
+<event id="E323">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>Human RAR alpha was <clueType>expressed</clueType> <clueLoc>in</clueLoc> H9, U937 and <clueLoc>THP-1 cells</clueLoc>, but almost undetectable in CEM cells.</clue>
+</event>
+<event assertion="non-exist" id="E35">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>Human RAR alpha was expressed in H9, U937 and THP-1 cells, but almost <clueType>undetectable</clueType> <clueLoc>in CEM cells.</clueLoc></clue>
+</event>
+<sentence id="S10"><term sem="Protein_molecule" id="T49" lex="human_RXR_alpha">Human RXR alpha</term> was significantly expressed in <cons sem="(AND Cell_cultured Cell_cultured)" id="T50" lex="(AND U937_cell THP-1_cell)"><frag id="F13">U937</frag> and <frag id="F14">THP-1</frag> <frag id="F15">cells</frag></cons>, weakly expressed in <term sem="Cell_cultured" id="T51" lex="H9_cell">H9 cells</term> and not detectable in <term sem="Cell_cultured" id="T52" lex="CEM_cell">CEM cells</term>.</sentence>
+<event id="E330">
+<type class="Gene_expression" />
+<theme idref="T49" />
+<clue>Human RXR alpha was significantly <clueType>expressed</clueType> <clueLoc>in U937</clueLoc> and THP-1 <clueLoc>cells</clueLoc>, weakly expressed in H9 cells and not detectable in CEM cells.</clue>
+</event>
+<event id="E331">
+<type class="Gene_expression" />
+<theme idref="T49" />
+<clue>Human RXR alpha was significantly <clueType>expressed</clueType> <clueLoc>in</clueLoc> U937 and <clueLoc>THP-1 cells</clueLoc>, weakly expressed in H9 cells and not detectable in CEM cells.</clue>
+</event>
+<event id="E37">
+<type class="Gene_expression" />
+<theme idref="T49" />
+<clue>Human RXR alpha was significantly expressed in U937 and THP-1 cells, weakly <clueType>expressed</clueType> <clueLoc>in H9 cells</clueLoc> and not detectable in CEM cells.</clue>
+</event>
+<event assertion="non-exist" id="E38">
+<type class="Gene_expression" />
+<theme idref="T49" />
+<clue>Human RXR alpha was significantly expressed in U937 and THP-1 cells, weakly expressed in H9 cells and not <clueType>detectable</clueType> <clueLoc>in CEM cells</clueLoc>.</clue>
+</event>
+<sentence id="S11">After stimulation by <term sem="Organic_compound_other" id="T53" lex="PMA">PMA</term>, <term sem="Other" id="T54" lex="RXR_alpha_expression"><term sem="Protein_molecule" id="T55" lex="RXR_alpha">RXR alpha</term> expression</term> increased in <term sem="Cell_cultured" id="T56" lex="H9">H9</term> and <term sem="Cell_cultured" id="T57" lex="U937_cell">U937 cells</term> but not in <term sem="Cell_cultured" id="T58" lex="CEM_cell">CEM cells</term>.</sentence>
+<event id="E39">
+<type class="Physiological_process" />
+<cause idref="T53" />
+<clue>After <clueType>stimulation</clueType> <linkCause>by</linkCause> PMA, RXR alpha expression increased in H9 and U937 cells but not in CEM cells.</clue>
+</event>
+<event id="E40">
+<type class="Gene_expression" />
+<theme idref="T55" />
+<clue>After stimulation by PMA, RXR alpha <clueType>expression</clueType> increased in H9 and U937 cells but not in CEM cells.</clue>
+</event>
+<event id="E340">
+<type class="Positive_regulation" />
+<theme idref="E40" />
+<cause idref="E39" />
+<clue><linkCause>After</linkCause> stimulation by PMA, RXR alpha expression <clueType>increased</clueType> <clueLoc>in H9</clueLoc> and U937 <clueLoc>cells</clueLoc> but not in CEM cells.</clue>
+</event>
+<event id="E341">
+<type class="Positive_regulation" />
+<theme idref="E40" />
+<cause idref="E39" />
+<clue><linkCause>After</linkCause> stimulation by PMA, RXR alpha expression <clueType>increased</clueType> <clueLoc>in</clueLoc> H9 and <clueLoc>U937 cells</clueLoc> but not in CEM cells.</clue>
+</event>
+<event assertion="non-exist" id="E42">
+<type class="Positive_regulation" />
+<theme idref="E40" />
+<cause idref="E39" />
+<clue><linkCause>After</linkCause> stimulation by PMA, RXR alpha expression <clueType>increased</clueType> in H9 and U937 cells but not <clueLoc>in CEM cells.</clueLoc></clue>
+</event>
+<sentence id="S12">Human <term sem="Protein_molecule" id="A12">RAR alpha</term> expression was unchanged in <term sem="Cell_cultured" id="T59" lex="H9">H9</term> and <term sem="Cell_cultured" id="T60" lex="CEM_cell">CEM cells</term>, and elevated in <term sem="Cell_cultured" id="T61" lex="U937_cell">U937 cells</term>, after <term sem="Organic_compound_other" id="T62" lex="PMA">PMA</term> stimulation.</sentence>
+<event id="E43">
+<type class="Gene_expression" />
+<theme idref="A12" />
+<clue>Human RAR alpha <clueType>expression</clueType> was unchanged in H9 and CEM cells, and elevated in U937 cells, after PMA stimulation.</clue>
+</event>
+<event id="E44">
+<type class="Physiological_process" />
+<cause idref="T62" />
+<clue>Human RAR alpha expression was unchanged in H9 and CEM cells, and elevated in U937 cells, after PMA <clueType>stimulation</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E350">
+<type class="Regulation" />
+<theme idref="E43" />
+<cause idref="E44" />
+<clue>Human RAR alpha expression was <clueType>unchanged</clueType> <clueLoc>in H9</clueLoc> and CEM <clueLoc>cells</clueLoc>, and elevated in U937 cells, <linkCause>after</linkCause> PMA stimulation.</clue>
+</event>
+<event assertion="non-exist" id="E351">
+<type class="Regulation" />
+<theme idref="E43" />
+<cause idref="E44" />
+<clue>Human RAR alpha expression was <clueType>unchanged</clueType> <clueLoc>in</clueLoc> H9 and <clueLoc>CEM cells</clueLoc>, and elevated in U937 cells, <linkCause>after</linkCause> PMA stimulation.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="E43" />
+<cause idref="E44" />
+<clue>Human RAR alpha expression was unchanged in H9 and CEM cells, and <clueType>elevated</clueType> <clueLoc>in U937 cells</clueLoc>, <linkCause>after</linkCause> PMA stimulation.</clue>
+</event>
+<sentence id="S13">CONCLUSION: The effect of <term sem="Organic_compound_other" id="T63" lex="RA">RA</term> on <term sem="DNA_domain_or_region" id="T64" lex="HIV-1">HIV-1</term> expression was cell-type-dependent and partially correlated with <term sem="Other" id="T65" lex="cellular_expression">cellular expression</term> of <term sem="Protein_family_or_group" id="T66" lex="RAR">RARs</term>.</sentence>
+<event id="E47">
+<type class="Gene_expression" />
+<theme idref="T64" />
+<clue>CONCLUSION: The effect of RA on HIV-1 <clueType>expression</clueType> was cell-type-dependent and partially correlated with cellular expression of RARs.</clue>
+<comment>NER: T64 MOD</comment></event>
+<event id="E48">
+<type class="Regulation" />
+<theme idref="E47" />
+<cause idref="T63" />
+<clue>CONCLUSION: The <clueType>effect</clueType> <linkCause>of</linkCause> RA <linkTheme>on</linkTheme> HIV-1 expression was cell-type-dependent and partially correlated with cellular expression of RARs.</clue>
+</event>
+<event id="E49">
+<type class="Gene_expression" />
+<theme idref="T66" />
+<clue>CONCLUSION: The effect of RA on HIV-1 expression was cell-type-dependent and partially correlated with <clueLoc>cellular</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> RARs.</clue>
+</event>
+<event id="E50">
+<type class="Correlation" />
+<theme idref="E48" />
+<theme idref="E49" />
+<clue>CONCLUSION: The effect of RA on HIV-1 expression was cell-type-dependent and partially <clueType>correlated</clueType> <linkTheme>with</linkTheme> cellular expression of RARs.</clue>
+</event>
+<sentence id="S14">Endogenous or exogenously administered <term sem="Organic_compound_other" id="T67" lex="RA">RA</term> may have a significant role in <term sem="Other" id="T68" lex="HIV_regulation"><term sem="Virus" id="T69" lex="HIV">HIV</term> regulation</term>.</sentence>
+<event id="E51">
+<type class="Artificial_process" />
+<theme idref="T67" />
+<clue>Endogenous or exogenously <clueType>administered</clueType> RA may have a significant role in HIV regulation.</clue>
+</event>
+<event id="E52">
+<type class="Regulation" />
+<theme idref="T69" />
+<clue>Endogenous or exogenously administered RA may have a significant role in HIV <clueType>regulation</clueType>.</clue>
+</event>
+<event uncertainty="probable" id="E53">
+<type class="Positive_regulation" />
+<theme idref="E52" />
+<cause idref="E51" />
+<clue>Endogenous or exogenously administered RA may <clueType>have a significant role</clueType> <linkTheme>in</linkTheme> HIV regulation.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

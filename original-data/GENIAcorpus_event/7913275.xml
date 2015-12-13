@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7913275">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7913275</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><cons sem="(AND Other Other)" id="T1" lex="(AND NF-kappa_B-dependent_pathway NF-kappa_B-independent_pathway)"><frag id="F1"><term sem="Protein_family_or_group" id="A2">NF-kappa B</term></frag><frag id="F2">-dependent</frag> and <frag id="F3">-independent</frag> <frag id="F4">pathways</frag></cons> of <term sem="Other" id="T2" lex="HIV_activation"><term sem="Virus" id="A1">HIV</term> activation</term> in a <term sem="Cell_cultured" id="T3" lex="chronically_infected_T_cell_line">chronically infected T cell line</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<clue>NF-kappa B-dependent and -independent pathways of HIV <clueType>activation</clueType> in a chronically infected T cell line.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="A2" />
+<clue>NF-kappa B-<clueType>dependent</clueType> and -independent <clueType>pathways</clueType> <linkTheme>of</linkTheme> HIV activation <clueLoc>in a chronically infected T cell line</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E3">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="A2" />
+<clue>NF-kappa B-dependent and -<clueType>independent pathways</clueType> <linkTheme>of</linkTheme> HIV activation <clueLoc>in a chronically infected T cell line</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Cell_cultured" id="T4" lex="J_delta_K_cell">J delta K cells</term> were isolated as a <term sem="Cell_cultured" id="T5" lex="chronically_infected_survivor_cell_line">chronically infected survivor cell line</term>, following infection of <term sem="Cell_cultured" id="T6" lex="Jurkat_CD4+_T_cell">Jurkat CD4+ T cells</term> with <term sem="Virus" id="T7" lex="dl-NF">dl-NF</term>, a <term sem="Virus" id="T8" lex="mutated_strain_of_human_immunodeficiency_virus_type_1">mutated strain of human immunodeficiency virus type 1</term> (<term sem="Virus" id="T9" lex="HIV-1">HIV-1</term>) containing a deletion of the <term sem="DNA_domain_or_region" id="T10" lex="long_terminal_repeat">long terminal repeat</term> (<term sem="DNA_domain_or_region" id="T11" lex="LTR">LTR</term>) <term sem="Protein_molecule" id="T12" lex="NF-kappa_B">NF-kappa B</term> sites.</sentence>
+<event id="E4">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T7" />
+<theme idref="T6" />
+<clue>J delta K cells were isolated as a chronically infected survivor cell line, following <clueType>infection</clueType> <linkTheme>of</linkTheme> Jurkat CD4+ T cells <linkTheme>with</linkTheme> dl-NF, a mutated strain of human immunodeficiency virus type 1 (HIV-1) containing a deletion of the long terminal repeat (LTR) NF-kappa B sites.</clue>
+</event>
+<sentence id="S3"><term sem="Cell_cultured" id="T13" lex="J_delta_K_cell">J delta K cells</term> exhibited very low levels of <term sem="Other" id="T14" lex="constitutive_HIV_production">constitutive <term sem="Virus" id="A3">HIV</term> production</term>.</sentence>
+<event id="E5">
+<type class="Viral_life_cycle" />
+<theme idref="A3" />
+<clue><clueLoc>J delta K cells</clueLoc> exhibited very low levels of constitutive HIV <clueType>production</clueType>.</clue>
+</event>
+<sentence id="S4"><term sem="Other" id="T15" lex="HIV-1_expression"><term sem="Virus" id="T16" lex="HIV-1">HIV-1</term> expression</term> was activated from <term sem="Cell_cultured" id="T17" lex="J_delta_K_cell">J delta K cells</term> by treatment with <term sem="Organic_compound_other" id="T18" lex="phorbol_myristate_acetate">phorbol myristate acetate</term> (<term sem="Organic_compound_other" id="T19" lex="PMA">PMA</term>), <term sem="Organic_compound_other" id="T20" lex="sodium_butyrate">sodium butyrate</term> (<term sem="Organic_compound_other" id="T21" lex="NaB">NaB</term>), or <term sem="Organic_compound_other" id="T22" lex="hexamethylene_bisacetamide">hexamethylene bisacetamide</term> (<term sem="Organic_compound_other" id="T23" lex="HMBA">HMBA</term>), but not <term sem="Protein_molecule" id="T24" lex="tumor_necrosis_factor_alpha">tumor necrosis factor alpha</term> (<term sem="Protein_molecule" id="T25" lex="TNF-alpha">TNF-alpha</term>), confirming the role of <term sem="Protein_molecule" id="T26" lex="NF-kappa_B">NF-kappa B</term> in mediating <term sem="Protein_molecule" id="T27" lex="TNF-alpha">TNF-alpha</term> induction of <term sem="Other" id="T28" lex="HIV_transcription"><term sem="Virus" id="T29" lex="HIV">HIV</term> transcription</term>.</sentence>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>HIV-1 <clueType>expression</clueType> was activated from J delta K cells by treatment with phorbol myristate acetate (PMA), sodium butyrate (NaB), or hexamethylene bisacetamide (HMBA), but not tumor necrosis factor alpha (TNF-alpha), confirming the role of NF-kappa B in mediating TNF-alpha induction of HIV transcription.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T19" />
+<clue>HIV-1 expression was <clueType>activated</clueType> from <clueLoc>J delta K cells</clueLoc> <linkCause>by</linkCause> treatment with phorbol myristate acetate (PMA), sodium butyrate (NaB), or hexamethylene bisacetamide (HMBA), but not tumor necrosis factor alpha (TNF-alpha), confirming the role of NF-kappa B in mediating TNF-alpha induction of HIV transcription.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T21" />
+<clue>HIV-1 expression was <clueType>activated</clueType> from <clueLoc>J delta K cells</clueLoc> <linkCause>by</linkCause> treatment with phorbol myristate acetate (PMA), sodium butyrate (NaB), or hexamethylene bisacetamide (HMBA), but not tumor necrosis factor alpha (TNF-alpha), confirming the role of NF-kappa B in mediating TNF-alpha induction of HIV transcription.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T23" />
+<clue>HIV-1 expression was <clueType>activated</clueType> from <clueLoc>J delta K cells</clueLoc> <linkCause>by</linkCause> treatment with phorbol myristate acetate (PMA), sodium butyrate (NaB), or hexamethylene bisacetamide (HMBA), but not tumor necrosis factor alpha (TNF-alpha), confirming the role of NF-kappa B in mediating TNF-alpha induction of HIV transcription.</clue>
+</event>
+<event assertion="non-exist" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T25" />
+<clue>HIV-1 expression was <clueType>activated</clueType> from <clueLoc>J delta K cells</clueLoc> <linkCause>by</linkCause> treatment with phorbol myristate acetate (PMA), sodium butyrate (NaB), or hexamethylene bisacetamide (HMBA), but not tumor necrosis factor alpha (TNF-alpha), confirming the role of NF-kappa B in mediating TNF-alpha induction of HIV transcription.</clue>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<theme idref="T29" />
+<clue>HIV-1 expression was activated from J delta K cells by treatment with phorbol myristate acetate (PMA), sodium butyrate (NaB), or hexamethylene bisacetamide (HMBA), but not tumor necrosis factor alpha (TNF-alpha), confirming the role of NF-kappa B in mediating TNF-alpha induction of HIV <clueType>transcription</clueType>.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T27" />
+<clue>HIV-1 expression was activated from J delta K cells by treatment with phorbol myristate acetate (PMA), sodium butyrate (NaB), or hexamethylene bisacetamide (HMBA), but not tumor necrosis factor alpha (TNF-alpha), confirming the role of NF-kappa B in mediating TNF-alpha <clueType>induction</clueType> <linkTheme>of</linkTheme> HIV transcription.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T26" />
+<clue>HIV-1 expression was activated from J delta K cells by treatment with phorbol myristate acetate (PMA), sodium butyrate (NaB), or hexamethylene bisacetamide (HMBA), but not tumor necrosis factor alpha (TNF-alpha), confirming the role of NF-kappa B <linkCause>in</linkCause> <clueType>mediating</clueType> TNF-alpha induction of HIV transcription.</clue>
+</event>
+<sentence id="S5">The strong induction of <term sem="Other" id="T30" lex="HIV_expression"><term sem="Virus" id="T31" lex="HIV">HIV</term> expression</term> by <term sem="Organic_compound_other" id="T32" lex="NaB">NaB</term> or <term sem="Organic_compound_other" id="T33" lex="HMBA">HMBA</term> in <term sem="Cell_cultured" id="T34" lex="J_delta_K_cell">J delta K cells</term> clearly demonstrates the existence of <term sem="Other" id="T35" lex="NF-kappa_B-independent_mechanism"><term sem="Protein_molecule" id="T36" lex="NF-kappa_B">NF-kappa B</term>-independent mechanisms</term> of <term sem="Other" id="T37" lex="HIV_activation"><term sem="Virus" id="T38" lex="HIV">HIV</term> activation</term> in <term sem="Cell_natural" id="T39" lex="chronically_infected_cell">chronically infected cells</term>.</sentence>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="T31" />
+<clue>The strong induction of HIV <clueType>expression</clueType> by NaB or HMBA in J delta K cells clearly demonstrates the existence of NF-kappa B-independent mechanisms of HIV activation in chronically infected cells.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T32" />
+<clue>The strong <clueType>induction</clueType> <linkTheme>of</linkTheme> HIV expression <linkCause>by</linkCause> NaB or HMBA <clueLoc>in J delta K cells</clueLoc> clearly demonstrates the existence of NF-kappa B-independent mechanisms of HIV activation in chronically infected cells.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T33" />
+<clue>The strong <clueType>induction</clueType> <linkTheme>of</linkTheme> HIV expression <linkCause>by</linkCause> NaB or HMBA <clueLoc>in J delta K cells</clueLoc> clearly demonstrates the existence of NF-kappa B-independent mechanisms of HIV activation in chronically infected cells.</clue>
+</event>
+<event id="E17">
+<type class="Viral_life_cycle" />
+<theme idref="T38" />
+<clue>The strong induction of HIV expression by NaB or HMBA in J delta K cells clearly demonstrates the existence of NF-kappa B-independent mechanisms of HIV <clueType>activation</clueType> in chronically infected cells.</clue>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Regulation" />
+<theme idref="E17" />
+<cause idref="T36" />
+<clue>The strong induction of HIV expression by NaB or HMBA in J delta K cells clearly demonstrates the existence of NF-kappa B-<clueType>independent</clueType> mechanisms <linkTheme>of</linkTheme> HIV activation <clueLoc>in chronically infected cells</clueLoc>.</clue>
+</event>
+<sentence id="S6"><term sem="Cell_cultured" id="T40" lex="J_delta_K_cell">J delta K cells</term> may provide a useful model for characterizing <term sem="Other" id="T41" lex="NF-kappa_B-independent_transcriptional_activation"><term sem="Protein_molecule" id="T42" lex="NF-kappa_B">NF-kappa B</term>-independent transcriptional activation</term> of the <term sem="DNA_domain_or_region" id="T43" lex="HIV_LTR">HIV LTR</term>.</sentence>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="T43" />
+<clue>J delta K cells may provide a useful model for characterizing NF-kappa B-independent <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> the HIV LTR.</clue>
+</event>
+<event assertion="non-exist" id="E20">
+<type class="Regulation" />
+<theme idref="E19" />
+<cause idref="T42" />
+<clue><clueLoc>J delta K cells</clueLoc> may provide a useful model for characterizing NF-kappa B-<clueType>independent</clueType> transcriptional activation of the HIV LTR.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

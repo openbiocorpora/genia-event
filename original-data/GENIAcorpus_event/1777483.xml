@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/04/2006" creator="Yo Sshidahara" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1777483">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1777483</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Activity of the <term sem="DNA_domain_or_region" id="T1" lex="kappa_B_enhancer">kappa B enhancer</term> of the <term sem="Protein_molecule" id="T2" lex="interleukin-2_receptor_alpha_chain">interleukin-2 receptor alpha chain</term> in <term sem="Cell_cultured" id="T3" lex="somatic_cell_hybrid">somatic cell hybrids</term> is accompanied by the nuclear localization of <term sem="Protein_molecule" id="T4" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E1">
+<type class="Localization" />
+<theme idref="T4" />
+<clue>Activity of the kappa B enhancer of the interleukin-2 receptor alpha chain in somatic cell hybrids is accompanied by the <clueLoc>nuclear</clueLoc> <clueType>localization</clueType> <linkTheme>of</linkTheme> NF-kappa B.</clue>
+</event>
+<event id="E2">
+<type class="Correlation" />
+<theme idref="T1" />
+<theme idref="E1" />
+<clue>Activity of the kappa B enhancer of the interleukin-2 receptor alpha chain <clueLoc>in somatic cell hybrids</clueLoc> is <clueType>accompanied</clueType> <linkTheme>by</linkTheme> the nuclear localization of NF-kappa B.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_family_or_group" id="T5" lex="two_nuclear_protein">two nuclear proteins</term> <term sem="Protein_complex" id="T6" lex="NF-kappa_B">NF-kappa B</term> (consisting of subunits <term sem="Protein_molecule" id="T7" lex="p50">p50</term> and <term sem="Protein_molecule" id="T8" lex="dp65">p65</term>) and the <term sem="Protein_molecule" id="T9" lex="DNA-binding_subunit">DNA-binding subunit</term> of <term sem="Protein_complex" id="T10" lex="NF-kappa_B">NF-kappa B</term> (<term sem="Protein_molecule" id="T11" lex="p50">p50</term>) by itself, also called <term sem="Protein_molecule" id="T12" lex="KBF1">KBF1</term>, are constitutively expressed and localized in the nucleus of the <term sem="Cell_cultured" id="T13" lex="human_T-cell_line">human T-cell line</term> <term sem="Cell_cultured" id="T14" lex="IARC_301.5">IARC 301.5</term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>The two nuclear proteins NF-kappa B (consisting of subunits p50 and p65) and the DNA-binding subunit of NF-kappa B (p50) by itself, also called KBF1, are constitutively <clueType>expressed</clueType> and localized <clueLoc>in the nucleus of the human T-cell line IARC 301.5</clueLoc>.</clue>
+<comment>NER T6 mod</comment>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>The two nuclear proteins NF-kappa B (consisting of subunits p50 and p65) and the DNA-binding subunit of NF-kappa B (p50) by itself, also called KBF1, are constitutively <clueType>expressed</clueType> and localized <clueLoc>in the nucleus of the human T-cell line IARC 301.5</clueLoc>.</clue>
+<comment>NER T9 mod, T10 mod</comment>
+</event>
+<event id="E5">
+<type class="Localization" />
+<theme idref="T6" />
+<clue>The two nuclear proteins NF-kappa B (consisting of subunits p50 and p65) and the DNA-binding subunit of NF-kappa B (p50) by itself, also called KBF1, are constitutively expressed and <clueType>localized</clueType> <clueLoc>in the nucleus of the human T-cell line IARC 301.5</clueLoc>.</clue>
+</event>
+<event id="E6">
+<type class="Localization" />
+<theme idref="T11" />
+<clue>The two nuclear proteins NF-kappa B (consisting of subunits p50 and p65) and the DNA-binding subunit of NF-kappa B (p50) by itself, also called KBF1, are constitutively expressed and <clueType>localized</clueType> <clueLoc>in the nucleus of the human T-cell line IARC 301.5</clueLoc>.</clue>
+</event>
+<sentence id="S3">In order to define the roles of these two <term sem="Protein_family_or_group" id="T15" lex="factor">factors</term>, which bind to the same <term sem="DNA_domain_or_region" id="T16" lex="kappa_B_enhancer">kappa B enhancers</term>, in <term sem="Other" id="A11">transcription</term> activation we have prepared somatic cell hybrids between <term sem="Cell_cultured" id="T17" lex="IARC_301.5">IARC 301.5</term> and a <term sem="Cell_cultured" id="T18" lex="murine_myeloma">murine myeloma</term>.</sentence>
+<event id="E7">
+<type class="Binding" />
+<theme idref="T6" />
+<theme idref="T16" />
+<clue>In order to define the roles of <corefTheme>these two factors</corefTheme>, which <clueType>bind</clueType> <linkTheme>to</linkTheme> the same kappa B enhancers, in transcription activation we have prepared somatic cell hybrids between IARC 301.5 and a murine myeloma.</clue>
+</event>
+<event id="E8">
+<type class="Binding" />
+<theme idref="T11" />
+<theme idref="T16" />
+<clue>In order to define the roles of <corefTheme>these two factors</corefTheme>, which <clueType>bind</clueType> <linkTheme>to</linkTheme> the same kappa B enhancers, in transcription activation we have prepared somatic cell hybrids between IARC 301.5 and a murine myeloma.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="A11" />
+<clue>In order to define the roles of these two factors, which bind to the same kappa B enhancers, in transcription <clueType>activation</clueType> we have prepared somatic cell hybrids between IARC 301.5 and a murine myeloma.</clue>
+</event>
+<event uncertainty="doubtful" id="E24">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="T6" />
+<clue>In order to define the <clueType>roles</clueType> <linkCause>of</linkCause> <corefCause>these two factors</corefCause>, which bind to the same kappa B enhancers, <linkTheme>in</linkTheme> transcription activation we have prepared somatic cell hybrids between IARC 301.5 and a murine myeloma.</clue>
+</event>
+<event uncertainty="doubtful" id="E25">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="T11" />
+<clue>In order to define the <clueType>roles</clueType> <linkCause>of</linkCause> <corefCause>these two factors</corefCause>, which bind to the same kappa B enhancers, <linkTheme>in</linkTheme> transcription activation we have prepared somatic cell hybrids between IARC 301.5 and a murine myeloma.</clue>
+</event>
+<sentence id="S4">Most hybrids express both <term sem="Protein_molecule" id="T19" lex="KBF1">KBF1</term> and <term sem="Protein_family_or_group" id="T20" lex="NF-kappa_B">NF-kappa B</term> in their <term sem="Cell_component" id="T21" lex="nuclei">nuclei</term>, but one hybrid expresses only <term sem="Protein_molecule" id="T22" lex="KBF1">KBF1</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue><clueLoc>Most hybrids</clueLoc> <clueType>express</clueType> both KBF1 and NF-kappa B <clueLoc>in their nuclei</clueLoc>, but one hybrid expresses only KBF1.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue><clueLoc>Most hybrids</clueLoc> <clueType>express</clueType> both KBF1 and NF-kappa B <clueLoc>in their nuclei</clueLoc>, but one hybrid expresses only KBF1.</clue>
+<comment>NER T20 mod</comment>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>Most hybrids express both KBF1 and NF-kappa B in their nuclei, but <clueLoc>one hybrid</clueLoc> <clueType>expresses</clueType> only KBF1.</clue>
+</event>
+<sentence id="S5">The <term sem="DNA_domain_or_region" id="T23" lex="kappa_B_enhancer">kappa B enhancer</term> of the gene encoding the <term sem="Protein_molecule" id="T24" lex="interleukin-2_(IL-2)_receptor_alpha_chain"><term sem="Protein_molecule" id="T25" lex="interleukin-2">interleukin-2</term> (<term sem="Protein_molecule" id="T26" lex="IL-2">IL-2</term>) receptor alpha chain</term> (<term sem="Protein_molecule" id="T27" lex="IL-2R_alpha">IL-2R alpha</term>) is functional only in the <term sem="Cell_cultured" id="T28" lex="hybrid">hybrids</term> expressing <term sem="Protein_complex" id="T29" lex="nuclear_NF-kappa_B">nuclear <term sem="Protein_complex" id="T30" lex="NF-kappa_B">NF-kappa B</term></term>.</sentence>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T30" />
+<clue>The kappa B enhancer of the gene encoding the interleukin-2 (IL-2) receptor alpha chain (IL-2R alpha) is functional only in <clueLoc>the hybrids</clueLoc> <clueType>expressing</clueType> nuclear NF-kappa B.</clue>
+<comment>NER T29,T30 mod</comment>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="E12" />
+<clue>The kappa B enhancer of the gene encoding the interleukin-2 (IL-2) receptor alpha chain (IL-2R alpha) is <clueType>functional</clueType> <linkCause>only in</linkCause> the hybrids expressing nuclear NF-kappa B.</clue>
+</event>
+<sentence id="S6">These findings show that <term sem="Protein_complex" id="T31" lex="nuclear_NF-kappa_B">nuclear <term sem="Protein_complex" id="T32" lex="NF-kappa_B">NF-kappa B</term></term> is necessary to activate the <term sem="DNA_domain_or_region" id="T33" lex="kappa_B_enhancer">kappa B enhancer</term>, while <term sem="Protein_molecule" id="T34" lex="KBF1">KBF1</term> by itself is not sufficient.</sentence>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="T31" />
+<clue>These findings show that nuclear NF-kappa B is <clueType>necessary to activate</clueType> the kappa B enhancer, while KBF1 by itself is not sufficient.</clue>
+<comment>NER T31,T32 mod</comment>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="T34" />
+<clue>These findings show that nuclear NF-kappa B is necessary <clueType>to activate</clueType> the kappa B enhancer, while KBF1 by itself is not sufficient.</clue>
+</event>
+<sentence id="S7">We propose that <term sem="Protein_molecule" id="T35" lex="KBF1">KBF1</term> is a competitive inhibitor of <term sem="Protein_complex" id="T36" lex="NF-kappa_B">NF-kappa B</term> and discuss how these factors may be involved in the transient expression of <term sem="DNA_domain_or_region" id="T37" lex="IL-2">IL-2</term> and <term sem="DNA_domain_or_region" id="T38" lex="IL-2R_alpha">IL-2R alpha</term> <term sem="DNA_domain_or_region" id="A1">genes</term> during the <term sem="Other" id="T39" lex="immune_response">immune response</term>.</sentence>
+<event uncertainty="probable" id="E16">
+<type class="Negative_regulation" />
+<theme idref="T36" />
+<cause idref="T35" />
+<clue>We propose that KBF1 is a competitive <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> NF-kappa B and discuss how these factors may be involved in the transient expression of IL-2 and IL-2R alpha genes during the immune response.</clue>
+</event>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref1="A1" idref="T37" />
+<clue>We propose that KBF1 is a competitive inhibitor of NF-kappa B and discuss how these factors may be involved in the transient <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-2 and IL-2R alpha genes during the immune response.</clue>
+<comment>NER T37 mod</comment>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref1="A1" idref="T38" />
+<clue>We propose that KBF1 is a competitive inhibitor of NF-kappa B and discuss how these factors may be involved in the transient <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-2 and IL-2R alpha genes during the immune response.</clue>
+<comment>NER T37 mod</comment>
+</event>
+<event uncertainty="probable" id="E19">
+<type class="Correlation" />
+<theme idref="T35" />
+<theme idref="E17" />
+<clue>We propose that KBF1 is a competitive inhibitor of NF-kappa B and discuss how <corefTheme>these factors</corefTheme> may be <clueType>involved</clueType> <linkTheme>in</linkTheme> the transient expression of IL-2 and IL-2R alpha genes <clueTime>during the immune response.</clueTime></clue>
+</event>
+<event uncertainty="probable" id="E20">
+<type class="Correlation" />
+<theme idref="T35" />
+<theme idref="E18" />
+<clue>We propose that KBF1 is a competitive inhibitor of NF-kappa B and discuss how <corefTheme>these factors</corefTheme> may be <clueType>involved</clueType> <linkTheme>in</linkTheme> the transient expression of IL-2 and IL-2R alpha genes <clueTime>during the immune response.</clueTime></clue>
+</event>
+<event uncertainty="probable" id="E21">
+<type class="Correlation" />
+<theme idref="T36" />
+<theme idref="E17" />
+<clue>We propose that KBF1 is a competitive inhibitor of NF-kappa B and discuss how <corefTheme>these factors</corefTheme> may be <clueType>involved</clueType> <linkTheme>in</linkTheme> the transient expression of IL-2 and IL-2R alpha genes <clueTime>during the immune response.</clueTime></clue>
+</event>
+<event uncertainty="probable" id="E22">
+<type class="Correlation" />
+<theme idref="T36" />
+<theme idref="E18" />
+<clue>We propose that KBF1 is a competitive inhibitor of NF-kappa B and discuss how <corefTheme>these factors</corefTheme> may be <clueType>involved</clueType> <linkTheme>in</linkTheme> the transient expression of IL-2 and IL-2R alpha genes <clueTime>during the immune response.</clueTime></clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

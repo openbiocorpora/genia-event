@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="2007/03/09" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9372447" creator="Maki Niihori">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9372447</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Extinction of <term sem="Other" id="T1" lex="immunoglobulin_gene_expression"><term sem="DNA_family_or_group" id="T2" lex="immunoglobulin_gene">immunoglobulin gene</term> expression</term> in <term sem="Cell_natural" id="T3" lex="B_cell">B cells</term> upon fusion with <term sem="Cell_cultured" id="T4" lex="HeLa_cell">HeLa cells</term> is preceded by rapid <term sem="Other" id="T5" lex="nuclear_depletion">nuclear depletion</term> of <term sem="Protein_family_or_group" id="T6" lex="essential_transcription_factor">essential transcription factors</term> and is accompanied by widespread inactivation of <term sem="DNA_family_or_group" id="A1">genes</term> expressed in a <term sem="Other" id="T7" lex="B_cell-specific_manner">B cell-specific manner</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Extinction of immunoglobulin gene <clueType>expression</clueType> <clueLoc>in B cells</clueLoc> upon fusion with HeLa cells is preceded by rapid nuclear depletion of essential transcription factors and is accompanied by widespread inactivation of genes expressed in a B cell-specific manner.</clue>
+</event>
+<event id="E40">
+<type class="Binding" />
+<theme idref="T3" />
+<theme idref="T4" />
+<clue>Extinction of immunoglobulin gene expression in B cells upon <clueType>fusion</clueType> <linkTheme>with</linkTheme> HeLa cells is preceded by rapid nuclear depletion of essential transcription factors and is accompanied by widespread inactivation of genes expressed in a B cell-specific manner.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="E40" />
+<clue><clueType>Extinction</clueType> <linkTheme>of</linkTheme> immunoglobulin gene expression in B cells upon fusion with HeLa cells is preceded by rapid nuclear depletion of essential transcription factors and is accompanied by widespread inactivation of genes expressed in a B cell-specific manner.</clue>
+</event>
+<event assertion="non-exist" id="E3">
+<type class="Localization" />
+<theme idref="T6" />
+<clue>Extinction of immunoglobulin gene expression in B cells upon fusion with HeLa cells is preceded by rapid <clueLoc>nuclear</clueLoc> <clueType>depletion</clueType> <linkTheme>of</linkTheme> essential transcription factors and is accompanied by widespread inactivation of genes expressed in a B cell-specific manner.</clue>
+</event>
+<event assertion="non-exist" id="E4">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue>Extinction of immunoglobulin gene expression in B cells upon fusion with HeLa cells is preceded by rapid nuclear depletion of essential transcription factors and is accompanied by widespread inactivation of genes <clueType>expressed</clueType> <clueLoc>in a B cell</clueLoc>-specific manner.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<clue>Extinction of immunoglobulin gene expression in B cells upon fusion with HeLa cells is preceded by rapid nuclear depletion of essential transcription factors and is accompanied by widespread <clueType>inactivation</clueType> <linkTheme>of</linkTheme> genes expressed in a B cell-specific manner.</clue>
+</event>
+<event id="E44">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="E5" />
+<clue>Extinction of immunoglobulin gene expression in B cells upon fusion with HeLa cells is preceded by rapid nuclear depletion of essential transcription factors and is <clueType>accompanied</clueType> <linkTheme>by</linkTheme> widespread inactivation of genes expressed in a B cell-specific manner.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">When <term sem="Cell_natural" id="T8" lex="immunoglobulin_(Ig)_expressing_B_cell"><term sem="Protein_family_or_group" id="T9" lex="immunoglobulin">immunoglobulin</term> (<term sem="Protein_family_or_group" id="T10" lex="Ig">Ig</term>) expressing <term sem="Cell_natural" id="T11" lex="B_cell">B cells</term></term> are fused with <term sem="Cell_natural" id="T12" lex="non-B_cell">non-B cells</term>, <term sem="Protein_family_or_group" id="A2">Ig</term> expression is rapidly suppressed at the level of transcription, a phenomenon termed <term sem="Other" id="T13" lex="extinction">extinction</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>When immunoglobulin (Ig) <clueType>expressing</clueType> <clueLoc>B cells</clueLoc> are fused with non-B cells, Ig expression is rapidly suppressed at the level of transcription, a phenomenon termed extinction.</clue>
+</event>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>When immunoglobulin (Ig) expressing B cells are fused with non-B cells, Ig <clueType>expression</clueType> is rapidly suppressed at the level of transcription, a phenomenon termed extinction.</clue>
+</event>
+<event id="E15">
+<type class="Cell_adhesion" />
+<theme idref="T8" />
+<theme idref="T12" />
+<clue>When immunoglobulin (Ig) expressing B cells are <clueType>fused</clueType> with non-B cells, Ig expression is rapidly suppressed at the level of transcription, a phenomenon termed extinction.</clue>
+</event>
+<event id="E8">
+<type class="Transcription" />
+<theme idref="T10" />
+<clue>When immunoglobulin (Ig) expressing B cells are fused with non-B cells, Ig expression is rapidly suppressed at the level of <clueType>transcription</clueType>, a phenomenon termed extinction.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<cause idref="E15" />
+<clue><linkCause>When</linkCause> immunoglobulin (Ig) expressing B cells are fused with non-B cells, Ig expression is rapidly <clueType>suppressed</clueType> at the level of transcription, a phenomenon termed extinction.</clue>
+</event>
+<sentence id="S3">Here we demonstrate that fusion of <term sem="Cell_cultured" id="T14" lex="HeLa_cell">HeLa cells</term> with either <cons sem="(OR Cell_natural Cell_natural)" id="T15" lex="(OR diploid_B_cell tetraploid_B_cell)"><frag id="F1">diploid</frag> or <frag id="F2">tetraploid</frag> <frag id="F3">B cells</frag></cons> (<term sem="Cell_cultured" id="T16" lex="Daudi">Daudi</term>) results in widespread extinction of several other <term sem="DNA_family_or_group" id="T17" lex="B_cell-encoded_gene">B cell-encoded genes</term> that are expressed in a <term sem="Other" id="T18" lex="B_cell-specific_manner">B cell-specific manner</term>.</sentence>
+<event id="E12">
+<type class="Artificial_process" />
+<theme idref="T14" />
+<theme idref="T16" />
+<clue>Here we demonstrate that <clueType>fusion</clueType> <linkTheme>of</linkTheme> HeLa cells <linkTheme>with</linkTheme> either diploid or tetraploid B cells (Daudi) results in widespread extinction of several other B cell-encoded genes that are expressed in a B cell-specific manner.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T17" />
+<clue>Here we demonstrate that fusion of HeLa cells with either diploid or tetraploid B cells (Daudi) results in widespread extinction of several other B cell-encoded genes that are <clueType>expressed</clueType> <clueLoc>in a B cell-specific manner</clueLoc>.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="E10" />
+<cause idref="E12" />
+<clue>Here we demonstrate that fusion of HeLa cells with either diploid or tetraploid B cells (Daudi) <clueType>results in widespread extinction</clueType> <linkTheme>of</linkTheme> several other B cell-encoded genes that are expressed in a B cell-specific manner.</clue>
+</event>
+<sentence id="S4">In contrast, expression of <term sem="DNA_family_or_group" id="T19" lex="B_cell-expressed_gene">B cell-expressed <term sem="DNA_domain_or_region" id="A6">genes</term></term> that are not dependent on <term sem="Other" id="A7" lex="cell-specific_control">cell-specific controls</term> is unaffected.</sentence>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>In contrast, <clueType>expression</clueType> <linkTheme>of</linkTheme> B cell-expressed genes that are not dependent on cell-specific controls is unaffected.</clue>
+</event>
+<event assertion="non-exist" id="E39">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<theme idref="A7" />
+<clue>In contrast, expression of B cell-expressed genes that are not <clueType>dependent</clueType> <linkTheme>on</linkTheme> cell-specific controls is unaffected.</clue>
+</event>
+<event assertion="non-exist" id="E45">
+<type class="Regulation" />
+<theme idref="E13" />
+<clue>In contrast, expression of B cell-expressed genes that are not dependent on cell-specific controls is <clueType>unaffected</clueType>.</clue>
+</event>
+<sentence id="S5">We show that the <term sem="Other" id="T20" lex="molecular_mechanism">molecular mechanism(s)</term> underlying <term sem="Other" id="T21" lex="Ig_gene_extinction"><term sem="DNA_domain_or_region" id="T22" lex="Ig_gene">Ig gene</term> extinction</term> can be explained, at least in part, by a lack of <term sem="Protein_family_or_group" id="T23" lex="transcription_factor">transcription factors</term> that are essential for <term sem="Other" id="T24" lex="Ig_gene_transcription"><term sem="DNA_domain_or_region" id="T25" lex="Ig_gene">Ig gene</term> transcription</term>.</sentence>
+<event id="E16">
+<type class="Transcription" />
+<theme idref="T25" />
+<clue>We show that the molecular mechanism(s) underlying Ig gene extinction can be explained, at least in part, by a lack of transcription factors that are essential for Ig gene <clueType>transcription</clueType>.</clue>
+<comment>NER: T20 MOD</comment>
+</event>
+<event assertion="non-exist" id="E18">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue>We show that the molecular mechanism(s) underlying Ig gene extinction can be explained, at least in part, by a <clueType>lack</clueType> <linkTheme>of</linkTheme> transcription factors that are essential for Ig gene transcription.</clue>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>We show that the molecular mechanism(s) underlying Ig gene <clueType>extinction</clueType> can be explained, at least in part, by a lack of transcription factors that are essential for Ig gene transcription.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T23" />
+<clue>We show that the molecular mechanism(s) underlying Ig gene extinction can be explained, at least in part, by a lack of transcription factors that are <clueType>essential</clueType> <linkTheme>for</linkTheme> Ig gene transcription.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E18" />
+<clue>We show that the molecular mechanism(s) underlying Ig gene extinction can be <clueType>explained</clueType>, at least in part, by a lack of transcription factors that are essential for Ig gene transcription.</clue>
+</event>
+<sentence id="S6">These <term sem="Protein_family_or_group" id="T26" lex="transcription_factor">transcription factors</term> are either not produced due to block of transcription of their respective genes (<term sem="DNA_domain_or_region" id="T27" lex="Oct-2">Oct-2</term>, <term sem="DNA_domain_or_region" id="T28" lex="OBF-1">OBF-1</term>, <term sem="Protein_molecule" id="T29" lex="PU.1">PU.1</term>), or are rendered inactive posttranslationally (<term sem="Protein_complex" id="T30" lex="NF-kappa_B">NF-kappa B</term>, <term sem="DNA_domain_or_region" id="T31" lex="E47">E47</term>).</sentence>
+<event id="E19">
+<type class="Transcription" />
+<theme idref="T27" />
+<clue>These transcription factors are either not produced due to block of <clueType>transcription</clueType> <corefTheme>of</corefTheme> their respective genes (Oct-2, OBF-1, PU.1), or are rendered inactive posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<event id="E20">
+<type class="Transcription" />
+<theme idref="T28" />
+<clue>These transcription factors are either not produced due to block of <clueType>transcription</clueType> <linkTheme>of</linkTheme> their respective genes (Oct-2, OBF-1, PU.1), or are rendered inactive posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<event id="E21">
+<type class="Transcription" />
+<theme idref="T29" />
+<clue>These transcription factors are either not produced due to block of <clueType>transcription</clueType> <linkTheme>of</linkTheme> their respective genes (Oct-2, OBF-1, PU.1), or are rendered inactive posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<clue>These transcription factors are either not produced due to <clueType>block</clueType> <linkTheme>of</linkTheme> transcription of their respective genes (Oct-2, OBF-1, PU.1), or are rendered inactive posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<clue>These transcription factors are either not produced due to <clueType>block</clueType> <linkTheme>of</linkTheme> transcription of their respective genes (Oct-2, OBF-1, PU.1), or are rendered inactive posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<clue>These transcription factors are either not produced due to <clueType>block</clueType> <linkTheme>of</linkTheme> transcription of their respective genes (Oct-2, OBF-1, PU.1), or are rendered inactive posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="T30" />
+<clue>These transcription factors are either not produced due to block of transcription of their respective genes (Oct-2, OBF-1, PU.1), or are rendered <clueType>inactive</clueType> posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="T31" />
+<clue>These transcription factors are either not produced due to block of transcription of their respective genes (Oct-2, OBF-1, PU.1), or are rendered <clueType>inactive</clueType> posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<event assertion="non-exist" id="E25">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>These transcription factors are either not <clueType>produced</clueType> due to block of transcription of their respective genes (Oct-2, OBF-1, PU.1), or are rendered inactive posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E25" />
+<cause idref="E22" />
+<clue>These transcription factors are either not produced <linkCause>due to</linkCause> block of transcription of their respective genes (Oct-2, OBF-1, PU.1), or are rendered inactive posttranslationally (NF-kappa B, E47).</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event assertion="non-exist" id="E26">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>These transcription factors are either not <clueType>produced</clueType> due to block of transcription of their respective genes (Oct-2, OBF-1, PU.1), or are rendered inactive posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="E23" />
+<clue>These transcription factors are either not produced <linkCause>due to</linkCause> block of transcription of their respective genes (Oct-2, OBF-1, PU.1), or are rendered inactive posttranslationally (NF-kappa B, E47).</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event assertion="non-exist" id="E41">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>These transcription factors are either not <clueType>produced</clueType> due to block of transcription of their respective genes (Oct-2, OBF-1, PU.1), or are rendered inactive posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<event id="E48">
+<type class="Positive_regulation" />
+<theme idref="E41" />
+<cause idref="E24" />
+<clue>These transcription factors are either not produced <linkCause>due to</linkCause> block of transcription of their respective genes (Oct-2, OBF-1, PU.1), or are rendered inactive posttranslationally (NF-kappa B, E47).</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event assertion="non-exist" id="E42">
+<type class="Regulation" />
+<theme idref="T26" />
+<cause idref="E34" />
+<clue>These transcription factors are either not produced due to block of transcription of their respective genes (Oct-2, OBF-1, PU.1), or are <clueType>rendered</clueType> inactive posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<event assertion="non-exist" id="E43">
+<type class="Regulation" />
+<theme idref="T26" />
+<cause idref="E35" />
+<clue>These transcription factors are either not produced due to block of transcription of their respective genes (Oct-2, OBF-1, PU.1), or are <clueType>rendered</clueType> inactive posttranslationally (NF-kappa B, E47).</clue>
+</event>
+<sentence id="S7">By isolating <term sem="Cell_cultured" id="T32" lex="Daudi_x_HeLa_heterokaryon"><term sem="Cell_cultured" id="A4">Daudi</term> x <term sem="Cell_cultured" id="A5">HeLa</term> heterokaryons</term> a few hours after fusion, we have studied the initial fate of two <term sem="Protein_family_or_group" id="T33" lex="B_cell-specific_transcription_factor">B cell-specific <term sem="Protein_family_or_group" id="T34" lex="transcription_factor">transcription factors</term></term> involved in <term sem="Other" id="T35" lex="Ig_gene_transcription"><term sem="DNA_domain_or_region" id="T36" lex="Ig_gene">Ig gene</term> transcription</term>, <term sem="DNA_domain_or_region" id="T37" lex="Oct-2">Oct-2</term> and <term sem="Protein_complex" id="T38" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E27">
+<type class="Artificial_process" />
+<theme idref="T32" />
+<clue>By <clueType>isolating</clueType> Daudi x HeLa heterokaryons <clueTime>a few hours after fusion</clueTime>, we have studied the initial fate of two B cell-specific transcription factors involved in Ig gene transcription, Oct-2 and NF-kappa B.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E36">
+<type class="Artificial_process" />
+<theme idref="A4" />
+<theme idref="A5" />
+<clue>By isolating Daudi x HeLa heterokaryons a few hours after <clueType>fusion</clueType>, we have studied the initial fate of two B cell-specific transcription factors involved in Ig gene transcription, Oct-2 and NF-kappa B.</clue>
+<comment>CAUTION; 再検討, ARTIFICIAL</comment>
+</event>
+<event id="E49">
+<type class="Transcription" />
+<theme idref="T36" />
+<clue>By isolating Daudi x HeLa heterokaryons a few hours after fusion, we have studied the initial fate of two B cell-specific transcription factors involved in Ig gene <clueType>transcription</clueType>, Oct-2 and NF-kappa B.</clue>
+</event>
+<event id="E50">
+<type class="Regulation" />
+<theme idref="E49" />
+<cause idref="T33" />
+<clue>By isolating Daudi x HeLa heterokaryons a few hours after fusion, we have studied the initial fate of two B cell-specific transcription factors <clueType>involved</clueType> <linkTheme>in</linkTheme> Ig gene transcription, Oct-2 and NF-kappa B.</clue>
+</event>
+<sentence id="S8">This report provides the first demonstration that upon fusion with <term sem="Cell_cultured" id="T39" lex="HeLa_cell">HeLa cells</term>, the nuclear contents of <term sem="Protein_family_or_group" id="T40" lex="B_cell-expressed_transcription_factor">B cell-expressed <term sem="Protein_family_or_group" id="T41" lex="transcription_factor">transcription factors</term></term> are depleted within a few hours with kinetics that are as fast or faster than that of <term sem="Other" id="T42" lex="Ig_gene_extinction"><term sem="DNA_domain_or_region" id="T43" lex="Ig_gene">Ig gene</term> extinction</term>.</sentence>
+<event id="E30">
+<type class="Artificial_process" />
+<theme idref="T39" />
+<clue>This report provides the first demonstration that upon <clueType>fusion</clueType> <linkTheme>with</linkTheme> HeLa cells, the nuclear contents of B cell-expressed transcription factors are depleted within a few hours with kinetics that are as fast or faster than that of Ig gene extinction.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E31">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>This report provides the first demonstration that upon fusion with HeLa cells, the nuclear contents of <clueLoc>B cell</clueLoc>-<clueType>expressed</clueType> transcription factors are depleted within a few hours with kinetics that are as fast or faster than that of Ig gene extinction.</clue>
+</event>
+<event assertion="non-exist" id="E32">
+<type class="Localization" />
+<theme idref="E31" />
+<clue>This report provides the first demonstration that upon fusion with HeLa cells, the <clueType>nuclear contents</clueType> <linkTheme>of</linkTheme> B cell-expressed transcription factors are depleted within a few hours with kinetics that are as fast or faster than that of Ig gene extinction.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E30" />
+<clue>This report provides the first demonstration that upon fusion with HeLa cells, the nuclear contents of B cell-expressed transcription factors are <clueType>depleted</clueType> <clueTime>within a few hours</clueTime> with kinetics that are as fast or faster than that of Ig gene extinction.</clue>
+</event>
+<event assertion="non-exist" id="E33">
+<type class="Gene_expression" />
+<theme idref="T43" />
+<clue>This report provides the first demonstration that upon fusion with HeLa cells, the nuclear contents of B cell-expressed transcription factors are depleted within a few hours with kinetics that are as fast or faster than that of Ig gene <clueType>extinction</clueType>.</clue>
+</event>
+<sentence id="S9">Thus, the extinguishing mechanism is effective very early after fusion.</sentence>
+<sentence id="S10">We suggest that extinction of <term sem="DNA_family_or_group" id="T44" lex="Ig_gene">Ig genes</term> is part of a <term sem="Other" id="T45" lex="global_mechanism">global mechanism</term> that suppresses the <term sem="Other" id="T46" lex="differentiation_program">differentiation program</term> foreign to the <term sem="Cell_cultured" id="T47" lex="HeLa_phenotype">HeLa phenotype</term>.</sentence>
+<event assertion="non-exist" id="E29">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>We suggest that <clueType>extinction</clueType> <linkTheme>of</linkTheme> Ig genes is part of a global mechanism that suppresses the differentiation program foreign to the HeLa phenotype.</clue>
+</event>
+<event uncertainty="probable" id="E37">
+<type class="Negative_regulation" />
+<theme idref="T46" />
+<cause idref="E29" />
+<clue>We suggest that extinction of Ig genes is part of a global mechanism that <clueType>suppresses</clueType> the differentiation program foreign to the HeLa phenotype.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="03/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9743506" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9743506</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Cell_natural" id="T1" lex="activated_platelet">Activated <term sem="Cell_natural" id="A1">platelets</term></term> induce <term sem="Other" id="T2" lex="monocyte_chemotactic_protein-1_secretion"><term sem="Protein_molecule" id="T3" lex="monocyte_chemotactic_protein-1">monocyte chemotactic protein-1</term> secretion</term> and surface expression of <term sem="Protein_molecule" id="T4" lex="intercellular_adhesion_molecule-1">intercellular adhesion molecule-1</term> on <term sem="Cell_natural" id="T5" lex="endothelial_cell">endothelial cells</term> [see comments]</sentence>
+<event id="E1">
+<type class="Physiological_process" />
+<theme idref="A1" />
+<clue><clueType>Activated</clueType> platelets induce monocyte chemotactic protein-1 secretion and surface expression of intercellular adhesion molecule-1 on endothelial cells [see comments]</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E1" />
+<clue>Activated platelets <clueType>induce</clueType> monocyte chemotactic protein-1 secretion and surface expression of intercellular adhesion molecule-1 on endothelial cells [see comments]</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E1" />
+<clue>Activated platelets <clueType>induce</clueType> monocyte chemotactic protein-1 secretion and surface expression of intercellular adhesion molecule-1 on endothelial cells [see comments]</clue>
+</event>
+<event id="E4">
+<type class="Localization" />
+<theme idref="T3" />
+<clue>Activated platelets induce monocyte chemotactic protein-1 <clueType>secretion</clueType> and surface expression of intercellular adhesion molecule-1 <clueLoc>on endothelial cells</clueLoc> [see comments]</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="T4" />
+<clue>Activated platelets induce monocyte chemotactic protein-1 secretion and <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> intercellular adhesion molecule-1 <clueLoc>on endothelial cells</clueLoc> [see comments]</clue>
+<comment>NER: T4 sem mod, Cell_type -&gt; Protein_molecule</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">BACKGROUND: <term sem="Other" id="T6" lex="platelet/endothelium_interaction"><term sem="Cell_natural" id="A2">Platelet</term>/<term sem="Cell_natural" id="A3">endothelium</term> interaction</term> plays an important role in the pathophysiology of <term sem="Other" id="T7" lex="inflammation">inflammation</term> and <term sem="Other" id="T8" lex="atherosclerosis">atherosclerosis</term>.</sentence>
+<event id="E6">
+<type class="Cell_adhesion" />
+<theme idref="A2" />
+<theme idref="A3" />
+<clue>BACKGROUND: Platelet/endothelium <clueType>interaction</clueType> plays an important role in the pathophysiology of inflammation and atherosclerosis.</clue>
+</event>
+<event id="E7">
+<type class="Regulation" />
+<theme idref="T7" />
+<cause idref="E6" />
+<clue>BACKGROUND: Platelet/endothelium interaction <clueType>plays</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> the pathophysiology of inflammation and atherosclerosis.</clue>
+</event>
+<event id="E8">
+<type class="Regulation" />
+<theme idref="T8" />
+<cause idref="E6" />
+<clue>BACKGROUND: Platelet/endothelium interaction <clueType>plays</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> the pathophysiology of inflammation and atherosclerosis.</clue>
+</event>
+<sentence id="S3">The role of <term sem="Cell_natural" id="A4">platelets</term> for <term sem="Protein_molecule" id="T9" lex="monocyte_chemotactic_protein-1">monocyte chemotactic protein-1</term> (<term sem="Protein_molecule" id="T10" lex="MCP-1">MCP-1</term>) secretion and surface expression of <term sem="Protein_molecule" id="T11" lex="intercellular_adhesion_molecule-1">intercellular adhesion molecule-1</term> (<term sem="Protein_molecule" id="T12" lex="ICAM-1">ICAM-1</term>) on <term sem="Cell_natural" id="T13" lex="endothelial_cell">endothelial cells</term> has been assessed.</sentence>
+<event id="E9">
+<type class="Localization" />
+<theme idref="T10" />
+<clue>The role of platelets for monocyte chemotactic protein-1 (MCP-1) <clueType>secretion</clueType> and surface expression of intercellular adhesion molecule-1 (ICAM-1) <clueLoc>on endothelial cells</clueLoc> has been assessed.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T12" />
+<clue>The role of platelets for monocyte chemotactic protein-1 (MCP-1) secretion and <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> intercellular adhesion molecule-1 (ICAM-1) <clueLoc>on endothelial cells</clueLoc> has been assessed.</clue>
+<comment>NER: T11, sem mod</comment>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="A4" />
+<clue>The <clueType>role</clueType> <linkCause>of</linkCause> platelets <linkTheme>for</linkTheme> monocyte chemotactic protein-1 (MCP-1) secretion and surface expression of intercellular adhesion molecule-1 (ICAM-1) on endothelial cells has been assessed.</clue>
+</event>
+<event id="E12">
+<type class="Regulation" />
+<theme idref="E10" />
+<cause idref="A4" />
+<clue>The <clueType>role</clueType> <linkCause>of</linkCause> platelets <linkTheme>for</linkTheme> monocyte chemotactic protein-1 (MCP-1) secretion and surface expression of intercellular adhesion molecule-1 (ICAM-1) on endothelial cells has been assessed.</clue>
+</event>
+<sentence id="S4">METHODS AND RESULTS: <term sem="Other" id="T14" lex="monolayer">Monolayers</term> of <term sem="Cell_natural" id="T15" lex="human_umbilical_vein_endothelial_cell">human umbilical vein <term sem="Cell_natural" id="T16" lex="endothelial_cell">endothelial cells</term></term> were incubated with <term sem="Cell_natural" id="A5">nonstimulated</term> or <term sem="Cell_natural" id="T17" lex="ADP-activated_platelet"><term sem="Nucleotide" id="A6">ADP</term>-activated <term sem="Cell_natural" id="A7">platelets</term></term> for 6 hours, and secretion of <term sem="Protein_molecule" id="T18" lex="MCP-1">MCP-1</term> and <term sem="Other" id="T19" lex="surface_expression">surface expression</term> of <term sem="Protein_molecule" id="T20" lex="ICAM-1">ICAM-1</term> were determined by <term sem="Other" id="T21" lex="ELISA">ELISA</term> and <term sem="Other" id="T22" lex="flow_cytometry">flow cytometry</term>, respectively.</sentence>
+<event id="E13">
+<type class="Artificial_process" />
+<theme idref="T16" />
+<theme idref1="A7" idref="A5" />
+<clue>METHODS AND RESULTS: Monolayers of human umbilical vein endothelial cells were <clueType>incubated</clueType> <linkTheme>with</linkTheme> nonstimulated or ADP-activated platelets <clueTime>for 6 hours</clueTime>, and secretion of MCP-1 and surface expression of ICAM-1 were determined by ELISA and flow cytometry, respectively.</clue>
+</event>
+<event id="E14">
+<type class="Artificial_process" />
+<theme idref="T16" />
+<theme idref="E15" />
+<clue>METHODS AND RESULTS: Monolayers of human umbilical vein endothelial cells were <clueType>incubated</clueType> <linkTheme>with</linkTheme> nonstimulated or ADP-activated platelets <clueTime>for 6 hours</clueTime>, and secretion of MCP-1 and surface expression of ICAM-1 were determined by ELISA and flow cytometry, respectively.</clue>
+</event>
+<event id="E15">
+<type class="Physiological_process" />
+<theme idref="A7" />
+<cause idref="A6" />
+<clue>METHODS AND RESULTS: Monolayers of human umbilical vein endothelial cells were incubated with nonstimulated or ADP-<clueType>activated</clueType> platelets for 6 hours, and secretion of MCP-1 and surface expression of ICAM-1 were determined by ELISA and flow cytometry, respectively.</clue>
+</event>
+<event uncertainty="doubtful" id="E16">
+<type class="Localization" />
+<theme idref="T18" />
+<clue>METHODS AND RESULTS: Monolayers of human umbilical vein endothelial cells were incubated with nonstimulated or ADP-activated platelets for 6 hours, and <clueType>secretion</clueType> <linkTheme>of</linkTheme> MCP-1 and surface expression of ICAM-1 were determined <clueExperiment>by ELISA</clueExperiment> and flow cytometry, respectively.</clue>
+</event>
+<event uncertainty="doubtful" id="E17">
+<type class="Localization" />
+<theme idref="T20" />
+<clue>METHODS AND RESULTS: Monolayers of human umbilical vein endothelial cells were incubated with nonstimulated or ADP-activated platelets for 6 hours, and secretion of MCP-1 and <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> ICAM-1 were determined <clueExperiment>by</clueExperiment> ELISA and <clueExperiment>flow cytometry</clueExperiment>, respectively.</clue>
+</event>
+<sentence id="S5">In the presence of <term sem="Cell_natural" id="T23" lex="ADP-activated_platelet"><term sem="Nucleotide" id="A8">ADP</term>-activated <term sem="Cell_natural" id="A9">platelets</term></term>, both <term sem="Protein_molecule" id="T24" lex="MCP-1">MCP-1</term> secretion and <term sem="Protein_molecule" id="T25" lex="ICAM-1">ICAM-1</term> <term sem="Other" id="T26" lex="surface_expression">surface expression</term> were significantly increased compared with <term sem="Cell_natural" id="T27" lex="nonstimulated_platelet">nonstimulated platelets</term> (P&lt;0.02).</sentence>
+<event id="E18">
+<type class="Physiological_process" />
+<theme idref="A9" />
+<cause idref="A8" />
+<clue>In the presence of ADP-<clueType>activated</clueType> platelets, both MCP-1 secretion and ICAM-1 surface expression were significantly increased compared with nonstimulated platelets (P&lt;0.02).</clue>
+</event>
+<event id="E19">
+<type class="Localization" />
+<theme idref="T24" />
+<clue>In the presence of ADP-activated platelets, both MCP-1 <clueType>secretion</clueType> and ICAM-1 surface expression were significantly increased compared with nonstimulated platelets (P&lt;0.02).</clue>
+</event>
+<event id="E20">
+<type class="Localization" />
+<theme idref="T25" />
+<clue>In the presence of ADP-activated platelets, both MCP-1 secretion and ICAM-1 <clueLoc>surface</clueLoc> <clueType>expression</clueType> were significantly increased compared with nonstimulated platelets (P&lt;0.02).</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="E18" />
+<clue><linkCause>In the presence of</linkCause> ADP-activated platelets, both MCP-1 secretion and ICAM-1 surface expression were significantly <clueType>increased</clueType> compared with nonstimulated platelets (P&lt;0.02).</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E18" />
+<clue><linkCause>In the presence of</linkCause> ADP-activated platelets, both MCP-1 secretion and ICAM-1 surface expression were significantly <clueType>increased</clueType> compared with nonstimulated platelets (P&lt;0.02).</clue>
+</event>
+<sentence id="S6">Activation of the <term sem="Protein_complex" id="T28" lex="transcription_factor_nuclear_factor-kappaB">transcription factor nuclear factor-kappaB</term> (<term sem="Protein_complex" id="T29" lex="NF-kappaB">NF-kappaB</term>) determined by <term sem="Other" id="T30" lex="electrophoretic_mobility_shift_assay">electrophoretic mobility shift assay</term> and <term sem="Protein_molecule" id="T32" lex="kappaB">kappaB</term>-dependent <term sem="Other" id="A20">transcriptional activity</term> was enhanced in the presence of <term sem="Cell_natural" id="T33" lex="activated_platelet">activated <term sem="Cell_natural" id="A10">platelets</term></term>.</sentence>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> the transcription factor nuclear factor-kappaB (NF-kappaB) determined <clueExperiment>by electrophoretic mobility shift assay and kappaB-dependent transcriptional activity</clueExperiment> was enhanced in the presence of activated platelets.</clue>
+</event>
+<event id="E48">
+<type class="Regulation" />
+<theme idref="A20" />
+<cause idref="T32" />
+<clue>Activation of the transcription factor nuclear factor-kappaB (NF-kappaB) determined by electrophoretic mobility shift assay and kappaB-<clueType>dependent</clueType> transcriptional activity was enhanced in the presence of activated platelets.</clue>
+<comment>NER: T31 del &quot;kappaB-dependent transcriptional activity&quot;</comment>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="E25" />
+<clue>Activation of the transcription factor nuclear factor-kappaB (NF-kappaB) determined by electrophoretic mobility shift assay and kappaB-dependent transcriptional activity was <clueType>enhanced</clueType> <linkCause>in the presence of</linkCause> activated platelets.</clue>
+</event>
+<event id="E25">
+<type class="Physiological_process" />
+<theme idref="A10" />
+<clue>Activation of the transcription factor nuclear factor-kappaB (NF-kappaB) determined by electrophoretic mobility shift assay and kappaB-dependent transcriptional activity was enhanced in the presence of <clueType>activated</clueType> platelets.</clue>
+</event>
+<sentence id="S7">In addition, <term sem="Cell_natural" id="T34" lex="ADP-activated_platelet"><term sem="Nucleotide" id="A11">ADP</term>-<term sem="Cell_natural" id="T35" lex="activated_platelet">activated <term sem="Cell_natural" id="A12">platelets</term></term></term> induced <cons sem="(AND Other Other)" id="T36" lex="(AND MCP-1_promoter-dependent_transcription ICAM-1_promoter-dependent_transcription)"><frag id="F1"><term sem="DNA_domain_or_region" id="A13">MCP-1</term></frag> and <frag id="F2"><term sem="DNA_domain_or_region" id="A14">ICAM-1</term></frag> <frag id="F3"><term sem="DNA_domain_or_region" id="A15">promoter</term>-dependent <term sem="Other" id="A19">transcription</term></frag></cons>.</sentence>
+<event id="E26">
+<type class="Physiological_process" />
+<theme idref="A12" />
+<cause idref="A11" />
+<clue>In addition, ADP-<clueType>activated</clueType> platelets induced MCP-1 and ICAM-1 promoter-dependent transcription.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E29" />
+<cause idref="E26" />
+<clue>In addition, ADP-activated platelets <clueType>induced</clueType> MCP-1 and ICAM-1 promoter-dependent transcription.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E30" />
+<cause idref="E26" />
+<clue>In addition, ADP-activated platelets <clueType>induced</clueType> MCP-1 and ICAM-1 promoter-dependent transcription.</clue>
+</event>
+<event id="E29">
+<type class="Regulation" />
+<theme idref="A19" />
+<cause idref1="A15" idref="A13" />
+<clue>In addition, ADP-activated platelets induced MCP-1 and ICAM-1 promoter-<clueType>dependent</clueType> transcription.</clue>
+</event>
+<event id="E30">
+<type class="Regulation" />
+<theme idref="A19" />
+<cause idref1="A15" idref="A14" />
+<clue>In addition, ADP-activated platelets induced MCP-1 and ICAM-1 promoter-<clueType>dependent</clueType> transcription.</clue>
+</event>
+<sentence id="S8">Liposomal transfection of a <term sem="DNA_molecule" id="A50"><term sem="Polynucleotide" id="T37" lex="double-stranded_kappaB_phosphorothioate_oligonucleotide">double-stranded kappaB phosphorothioate oligonucleotide</term>,</term> but not of the <term sem="DNA_molecule" id="A21">mutated form</term>, inhibited <term sem="Protein_molecule" id="T38" lex="MCP-1">MCP-1</term> secretion and <term sem="Other" id="T39" lex="surface_expression">surface expression</term> of <term sem="Protein_molecule" id="T40" lex="ICAM-1">ICAM-1</term> on <term sem="Tissue_natural" id="T41" lex="activated_endothelium">activated <term sem="Tissue_natural" id="A16">endothelium</term></term> (P&lt;0.05).</sentence>
+<event id="E31">
+<type class="Gene_expression" />
+<theme idref="A50" />
+<clue><clueExperiment>Liposomal</clueExperiment> <clueType>transfection</clueType> <linkTheme>of</linkTheme> a double-stranded kappaB phosphorothioate oligonucleotide, but not of the mutated form, inhibited MCP-1 secretion and surface expression of ICAM-1 on activated endothelium (P&lt;0.05).</clue>
+<comment>ARTIFICIAL, OK</comment>
+</event>
+<event id="E49">
+<type class="Positive_regulation" />
+<theme idref="E31" />
+<clue><clueExperiment>Liposomal</clueExperiment> <clueType>transfection</clueType> <linkTheme>of</linkTheme> a double-stranded kappaB phosphorothioate oligonucleotide, but not of the mutated form, inhibited MCP-1 secretion and surface expression of ICAM-1 on activated endothelium (P&lt;0.05).</clue>
+</event>
+<event id="E32">
+<type class="Gene_expression" />
+<theme idref1="A21" idref="A50" />
+<clue><clueExperiment>Liposomal</clueExperiment> <clueType>transfection</clueType> of a double-stranded kappaB phosphorothioate oligonucleotide, but not <linkTheme>of</linkTheme> the mutated form, inhibited MCP-1 secretion and surface expression of ICAM-1 on activated endothelium (P&lt;0.05).</clue>
+<comment>ARTIFICIAL, OK</comment>
+</event>
+<event id="E50">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<clue><clueExperiment>Liposomal</clueExperiment> <clueType>transfection</clueType> of a double-stranded kappaB phosphorothioate oligonucleotide, but not <linkTheme>of</linkTheme> the mutated form, inhibited MCP-1 secretion and surface expression of ICAM-1 on activated endothelium (P&lt;0.05).</clue>
+</event>
+<event id="E33">
+<type class="Mutagenesis" />
+<theme idref="T37" />
+<clue>Liposomal transfection of a double-stranded kappaB phosphorothioate oligonucleotide, but not of the <clueType>mutated</clueType> form, inhibited MCP-1 secretion and surface expression of ICAM-1 on activated endothelium (P&lt;0.05).</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="E49" />
+<clue>Liposomal transfection of a double-stranded kappaB phosphorothioate oligonucleotide, but not of the mutated form, <clueType>inhibited</clueType> MCP-1 secretion and surface expression of ICAM-1 on activated endothelium (P&lt;0.05).</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="E39" />
+<cause idref="E49" />
+<clue>Liposomal transfection of a double-stranded kappaB phosphorothioate oligonucleotide, but not of the mutated form, <clueType>inhibited</clueType> MCP-1 secretion and surface expression of ICAM-1 on activated endothelium (P&lt;0.05).</clue>
+</event>
+<event assertion="non-exist" id="E36">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="E50" />
+<clue>Liposomal transfection of a double-stranded kappaB phosphorothioate oligonucleotide, but not of the mutated form, <clueType>inhibited</clueType> MCP-1 secretion and surface expression of ICAM-1 on activated endothelium (P&lt;0.05).</clue>
+</event>
+<event assertion="non-exist" id="E37">
+<type class="Negative_regulation" />
+<theme idref="E39" />
+<cause idref="E50" />
+<clue>Liposomal transfection of a double-stranded kappaB phosphorothioate oligonucleotide, but not of the mutated form, <clueType>inhibited</clueType> MCP-1 secretion and surface expression of ICAM-1 on activated endothelium (P&lt;0.05).</clue>
+</event>
+<event id="E38">
+<type class="Localization" />
+<theme idref="T38" />
+<clue>Liposomal transfection of a double-stranded kappaB phosphorothioate oligonucleotide, but not of the mutated form, inhibited MCP-1 <clueType>secretion</clueType> and surface expression of ICAM-1 <clueLoc>on activated endothelium</clueLoc> (P&lt;0.05).</clue>
+</event>
+<event id="E39">
+<type class="Localization" />
+<theme idref="T40" />
+<clue>Liposomal transfection of a double-stranded kappaB phosphorothioate oligonucleotide, but not of the mutated form, inhibited MCP-1 secretion and <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> ICAM-1 <clueLoc>on activated endothelium</clueLoc> (P&lt;0.05).</clue>
+</event>
+<event id="E40">
+<type class="Physiological_process" />
+<theme idref="A16" />
+<clue>Liposomal transfection of a double-stranded kappaB phosphorothioate oligonucleotide, but not of the mutated form, inhibited MCP-1 secretion and surface expression of ICAM-1 on <clueType>activated</clueType> endothelium (P&lt;0.05).</clue>
+</event>
+<sentence id="S9">CONCLUSIONS: The present study indicates that <term sem="Cell_natural" id="T42" lex="activated_platelet">activated <term sem="Cell_natural" id="A17">platelets</term></term> modulate chemotactic (<term sem="Protein_molecule" id="T43" lex="MCP-1">MCP-1</term>) and <term sem="Other" id="T44" lex="adhesive_(ICAM-1)_property">adhesive (<term sem="Protein_molecule" id="T45" lex="ICAM-1">ICAM-1</term>) properties</term> of <term sem="Cell_natural" id="T46" lex="endothelial_cell">endothelial cells</term> via an <term sem="Other" id="T47" lex="NF-kappaB-dependent_mechanism"><term sem="Protein_complex" id="T48" lex="NF-kappaB">NF-kappaB</term>-dependent mechanism</term>.</sentence>
+<event id="E41">
+<type class="Physiological_process" />
+<theme idref="A17" />
+<clue>CONCLUSIONS: The present study indicates that <clueType>activated</clueType> platelets modulate chemotactic (MCP-1) and adhesive (ICAM-1) properties of endothelial cells via an NF-kappaB-dependent mechanism.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation" />
+<theme idref="T43" />
+<cause idref="E41" />
+<clue>CONCLUSIONS: The present study indicates that activated platelets <clueType>modulate</clueType> chemotactic (MCP-1) and adhesive (ICAM-1) properties of <clueLoc>endothelial cells</clueLoc> via an NF-kappaB-dependent mechanism.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="T45" />
+<cause idref="E41" />
+<clue>CONCLUSIONS: The present study indicates that activated platelets <clueType>modulate</clueType> chemotactic (MCP-1) and adhesive (ICAM-1) properties of <clueLoc>endothelial cells</clueLoc> via an NF-kappaB-dependent mechanism.</clue>
+</event>
+<event id="E44">
+<type class="Regulation" />
+<theme idref="E42" />
+<cause idref="T48" />
+<clue>CONCLUSIONS: The present study indicates that activated platelets modulate chemotactic (MCP-1) and adhesive (ICAM-1) properties of endothelial cells via an NF-kappaB-<clueType>dependent</clueType> mechanism.</clue>
+</event>
+<event id="E45">
+<type class="Regulation" />
+<theme idref="E43" />
+<cause idref="T48" />
+<clue>CONCLUSIONS: The present study indicates that activated platelets modulate chemotactic (MCP-1) and adhesive (ICAM-1) properties of endothelial cells via an NF-kappaB-<clueType>dependent</clueType> mechanism.</clue>
+</event>
+<sentence id="S10"><term sem="Other" id="T49" lex="platelet-induced_activation"><term sem="Cell_natural" id="A18">Platelet</term>-induced activation</term> of the <term sem="Other" id="T50" lex="NF-kappaB_system"><term sem="Protein_complex" id="T51" lex="NF-kappaB">NF-kappaB</term> system</term> might contribute to <term sem="Other" id="T52" lex="early_inflammatory_event">early inflammatory events</term> in <term sem="Other" id="T53" lex="atherogenesis">atherogenesis</term>.</sentence>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="T51" />
+<cause idref="A18" />
+<clue>Platelet<linkCause>-induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> the NF-kappaB system might contribute to early inflammatory events in atherogenesis.</clue>
+</event>
+<event uncertainty="probable" id="E47">
+<type class="Regulation" />
+<theme idref="T52" />
+<cause idref="E46" />
+<clue>Platelet-induced activation of the NF-kappaB system might <clueType>contribute</clueType> <linkTheme>to</linkTheme> <clueTime>early</clueTime> inflammatory events in atherogenesis.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

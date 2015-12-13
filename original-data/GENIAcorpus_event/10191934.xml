@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="22/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10191934" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10191934</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">[Corticoids and allergy]</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T1" lex="inflammation">Inflammation</term> is constantly observed in <term sem="Other" id="T2" lex="allergic_reaction">allergic reactions</term>.</sentence>
+<sentence id="S3"><term sem="Lipid" id="T3" lex="corticosteroid">Corticosteroids</term> are most effective in preventing the late phase of <term sem="Other" id="T4" lex="allergic_reaction">allergic reaction</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="T4" />
+<cause idref="T3" />
+<clue>Corticosteroids are most effective in <clueType>preventing</clueType> the <clueTime>late phase</clueTime> of allergic reaction.</clue>
+</event>
+<sentence id="S4">The action of <term sem="Lipid" id="T5" lex="glucocorticosteroid">glucocorticosteroids</term> is mediated through <term sem="Protein_family_or_group" id="T6" lex="glucocorticoid_receptor">glucocorticoid receptors</term> present in the <term sem="Cell_component" id="T7" lex="cellular_cytoplasm">cellular cytoplasm</term>.</sentence>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T6" />
+<clue><corefTheme>The action of glucocorticosteroids</corefTheme> is <clueType>mediated</clueType> <linkCause>through</linkCause> glucocorticoid receptors present <clueLoc>in the cellular cytoplasm</clueLoc>.</clue>
+</event>
+<sentence id="S5">When activated, <term sem="Protein_complex" id="A2"><term sem="Protein_family_or_group" id="T8" lex="glucocorticoid_receptor">glucocorticoid receptors</term></term> form a <term sem="Protein_complex" id="T9" lex="dimer">dimer</term> and bind to <term sem="DNA_domain_or_region" id="A3">DNA</term> after migration into the <term sem="Cell_component" id="T10" lex="nucleus">nucleus</term>.</sentence>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<clue>When <clueType>activated</clueType>, glucocorticoid receptors form a dimer and bind to DNA after migration into the nucleus.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E3" />
+<clue><linkCause>When</linkCause> activated, glucocorticoid receptors form a dimer and bind to DNA after migration into the nucleus.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T8" />
+<clue>When activated, glucocorticoid receptors <clueType>form a dimer</clueType> and bind to DNA after migration into the nucleus.</clue>
+</event>
+<event id="E6">
+<type class="Binding" />
+<theme idref1="T9" idref="A2" />
+<theme idref="A3" />
+<clue>When activated, glucocorticoid receptors form a dimer and <clueType>bind</clueType> <linkTheme>to</linkTheme> DNA <clueTime>after migration into the nucleus</clueTime>.</clue>
+</event>
+<event id="E7">
+<type class="Localization" />
+<theme idref1="T9" idref="A2" />
+<clue>When activated, glucocorticoid receptors form a dimer and bind to DNA after <clueType>migration</clueType> <clueLoc>into the nucleus</clueLoc>.</clue>
+</event>
+<sentence id="S6">Interaction to <term sem="DNA_domain_or_region" id="A4">DNA</term> induces changes in the <term sem="Other" id="T11" lex="transcription_rate">transcription rate</term>, leading to either <term sem="DNA_domain_or_region" id="A6">gene</term> induction or <term sem="Other" id="T12" lex="gene_repression"><term sem="DNA_domain_or_region" id="A7">gene</term> repression</term>.</sentence>
+<event id="E8">
+<type class="Binding" />
+<theme idref1="T9" idref="A2" />
+<theme idref="A4" />
+<clue><clueType>Interaction</clueType> <linkTheme>to</linkTheme> DNA induces changes in the transcription rate, leading to either gene induction or gene repression.</clue>
+<comment>NO COREFTHEME for A2/T9</comment>
+</event>
+<event id="E9">
+<type class="Regulation" />
+<theme idref="T11" />
+<cause idref="E8" />
+<clue>Interaction to DNA <clueType>induces changes</clueType> <linkTheme>in</linkTheme> the transcription rate, leading to either gene induction or gene repression.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="E9" />
+<clue>Interaction to DNA induces changes in the transcription rate, <clueType>leading</clueType> <linkTheme>to</linkTheme> either gene <clueType>induction</clueType> or gene repression.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="A7" />
+<cause idref="E9" />
+<clue>Interaction to DNA induces changes in the transcription rate, <clueType>leading</clueType> <linkTheme>to</linkTheme> either gene induction or gene <clueType>repression</clueType>.</clue>
+</event>
+<sentence id="S7"><term sem="Protein_family_or_group" id="A8">Glucocorticoid receptors</term> are also able to interact with transcriptional factors such as <term sem="Protein_molecule" id="T13" lex="AP-1">AP-1</term> (<term sem="Protein_molecule" id="T14" lex="activator_protein-1">activator protein-1</term>) of <term sem="Protein_complex" id="T15" lex="NF-kappa_B">NF-kappa B</term> (<term sem="Protein_complex" id="T16" lex="nuclear_factor-kappa_B">nuclear factor-kappa B</term>).</sentence>
+<event id="E12">
+<type class="Binding" />
+<theme idref="A8" />
+<theme idref="T13" />
+<clue>Glucocorticoid receptors are also able to <clueType>interact</clueType> <linkTheme>with</linkTheme> <corefTheme>transcriptional factors</corefTheme> such as AP-1 (activator protein-1) of NF-kappa B (nuclear factor-kappa B).</clue>
+</event>
+<sentence id="S8">Through these actions <term sem="Lipid" id="T17" lex="glucocorticosteroid">glucocorticosteroids</term> are susceptible to modify functions of <term sem="Cell_natural" id="A9"><term sem="Cell_natural" id="A10">cells</term> involved in the <term sem="Other" id="T18" lex="allergic_inflammatory_response">allergic inflammatory response</term></term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="S4" />
+<clue><linkCause>Through</linkCause> <corefCause>these actions</corefCause> glucocorticosteroids are susceptible to modify functions of cells involved in the allergic inflammatory response.</clue>
+</event>
+<event id="E13">
+<type class="Physiological_process" />
+<theme idref="A9" />
+<cause idref="T17" />
+<clue>Through these actions glucocorticosteroids are susceptible to <clueType>modify functions</clueType> <linkTheme>of</linkTheme> cells involved in the allergic inflammatory response.</clue>
+<comment>TPS: A9; SUSCEPTIBILITY</comment>
+</event>
+<event id="E14">
+<type class="Correlation" />
+<theme idref="A10" />
+<theme idref="T18" />
+<clue>Through these actions glucocorticosteroids are susceptible to modify functions of cells <clueType>involved</clueType> <linkTheme>in</linkTheme> the allergic inflammatory response.</clue>
+</event>
+<sentence id="S9">They are in particular able to inhibit most of the <term sem="Other" id="T19" lex="pro-inflammatory_function">pro-inflammatory functions</term> of the <term sem="Cell_natural" id="T20" lex="eosinophil">eosinophils</term>.</sentence>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="T17" />
+<clue><corefCause>They</corefCause> are in particular able to <clueType>inhibit</clueType> most of the pro-inflammatory functions of the eosinophils.</clue>
+</event>
+<event id="E17">
+<type class="Physiological_process" />
+<theme idref="T20" />
+<clue>They are in particular able to inhibit most of the <clueType>pro-inflammatory functions</clueType> <linkTheme>of</linkTheme> the eosinophils.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

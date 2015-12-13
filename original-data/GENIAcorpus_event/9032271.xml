@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/04/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9032271" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9032271</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Characterization of a <term sem="Cell_cultured" id="T1" lex="mutant_cell_line">mutant cell line</term> that does not activate <term sem="Protein_complex" id="T2" lex="NF-kappaB">NF-kappaB</term> in response to <term sem="Other" id="A1">multiple stimuli</term>.</sentence>
+<event assertion="non-exist" id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<cause idref="A1" />
+<clue>Characterization of a <clueLoc>mutant cell line</clueLoc> that does not <clueType>activate</clueType> NF-kappaB <linkCause>in response to</linkCause> multiple stimuli.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="DNA_domain_or_region" id="A3">Numerous genes</term> required during the <cons sem="(OR Other Other)" id="C2" lex="(OR immune_response inflammation_response)"><frag id="F11">immune</frag> or <frag id="F12">inflammation</frag> <frag id="F13">response</frag></cons> as well as the <term sem="Other" id="A4">adhesion process</term> are regulated by <term sem="Protein_complex" id="T4" lex="nuclear_factor_kappaB">nuclear factor kappaB</term> (<term sem="Protein_complex" id="T5" lex="NF-kappaB">NF-kappaB</term>).</sentence>
+<event id="E2">
+<type class="Regulation" />
+<theme idref1="F13" idref="F11" />
+<cause idref="A3" />
+<clue>Numerous genes <clueType>required</clueType> <linkTheme>during</linkTheme> the immune or inflammation response as well as the adhesion process are regulated by nuclear factor kappaB (NF-kappaB).</clue>
+</event>
+<event id="E148">
+<type class="Regulation" />
+<theme idref1="F13" idref="F12" />
+<cause idref="A3" />
+<clue>Numerous genes <clueType>required</clueType> <linkTheme>during</linkTheme> the immune or inflammation response as well as the adhesion process are regulated by nuclear factor kappaB (NF-kappaB).</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="A4" />
+<cause idref="A3" />
+<clue>Numerous genes <clueType>required</clueType> <linkTheme>during</linkTheme> the immune or inflammation response as well as the adhesion process are regulated by nuclear factor kappaB (NF-kappaB).</clue>
+</event>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="A3" />
+<cause idref="T15" />
+<clue>Numerous genes required during the immune or inflammation response as well as the adhesion process are <clueType>regulated</clueType> <linkCause>by</linkCause> nuclear factor kappaB (NF-kappaB).</clue>
+</event>
+<sentence id="S3">Associated with its inhibitor, <term sem="Protein_molecule" id="T6" lex="I_kappaB">I kappaB</term>, <term sem="Protein_complex" id="T7" lex="NF-kappaB">NF-kappaB</term> resides as an inactive form in the <term sem="Cell_component" id="T8" lex="cytoplasm">cytoplasm</term>.</sentence>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T6" />
+<theme idref="T7" />
+<clue><clueType>Associated</clueType> <linkTheme>with</linkTheme> its inhibitor, I kappaB, NF-kappaB resides as an inactive form in the cytoplasm.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="T7" />
+<cause idref="E5" />
+<clue>Associated with its inhibitor, I kappaB, NF-kappaB <clueType>resides</clueType> as an <clueType>inactive form</clueType> <clueLoc>in the cytoplasm</clueLoc>.</clue>
+</event>
+<sentence id="S4">Upon stimulation by <term sem="Other" id="A5">various agents</term>, <term sem="Protein_molecule" id="T9" lex="I_kappaB">I kappaB</term> is proteolyzed and <term sem="Protein_complex" id="T10" lex="NF-kappaB">NF-kappaB</term> translocates to the nucleus, where it activates <term sem="DNA_domain_or_region" id="A6">its target genes</term>.</sentence>
+<event id="E7">
+<type class="Protein_catabolism" />
+<theme idref="T9" />
+<clue>Upon stimulation by various agents, I kappaB is <clueType>proteolyzed</clueType> and NF-kappaB translocates to the nucleus, where it activates its target genes.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="A5" />
+<clue><clueType>Upon stimulation</clueType> <linkCause>by</linkCause> various agents, I kappaB is proteolyzed and NF-kappaB translocates to the nucleus, where it activates its target genes.</clue>
+</event>
+<event id="E9">
+<type class="Localization" />
+<theme idref="T10" />
+<clue>Upon stimulation by various agents, I kappaB is proteolyzed and NF-kappaB <clueType>translocates</clueType> <clueLoc>to the nucleus</clueLoc>, where it activates its target genes.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="A5" />
+<clue><clueType>Upon stimulation</clueType> <linkCause>by</linkCause> various agents, I kappaB is proteolyzed and NF-kappaB translocates to the nucleus, where it activates its target genes.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="T10" />
+<clue>Upon stimulation by various agents, I kappaB is proteolyzed and NF-kappaB translocates to the <clueLoc>nucleus</clueLoc>, where <corefCause>it</corefCause> activates its target genes.</clue>
+</event>
+<sentence id="S5">The <term sem="Other" id="T11" lex="transduction_pathway">transduction pathways</term> that lead to <term sem="Protein_molecule" id="T12" lex="I_kappaB">I kappaB</term> inactivation remain poorly understood.</sentence>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="T12" />
+<clue>The transduction pathways that lead to I kappaB <clueType>inactivation</clueType> remain poorly understood.</clue>
+</event>
+<event id="E48">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T11" />
+<clue>The transduction pathways that <clueType>lead</clueType> <linkTheme>to</linkTheme> I kappaB inactivation remain poorly understood.</clue>
+</event>
+<sentence id="S6">In this study, we have characterized a cellular mutant, the <term sem="Cell_cultured" id="T13" lex="70/Z3-derived_1.3E2_murine_pre-B_cell_line">70/Z3-derived 1.3E2 murine pre-B cell line</term>, that does not activate <term sem="Protein_complex" id="T14" lex="NF-kappaB">NF-kappaB</term> in response to <term sem="Other" id="A7">several stimuli</term>.</sentence>
+<event assertion="non-exist" id="E13">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<cause idref="A7" />
+<clue>In this study, we have characterized a cellular mutant, <clueLoc>the 70/Z3-derived 1.3E2 murine pre-B cell line</clueLoc>, that does not <clueType>activate</clueType> NF-kappaB <linkCause>in response to</linkCause> several stimuli.</clue>
+</event>
+<sentence id="S7">We demonstrate that upon stimulation by <term sem="Lipid" id="T15" lex="lipopolysaccharide">lipopolysaccharide</term>, <term sem="Organic_compound_other" id="T16" lex="Taxol">Taxol</term>, <term sem="Organic_compound_other" id="T17" lex="phorbol_myristate_acetate">phorbol myristate acetate</term>, <term sem="Protein_molecule" id="T18" lex="interleukin-1">interleukin-1</term>, or <term sem="RNA_family_or_group" id="T19" lex="double-stranded_RNA">double-stranded RNA</term>, <term sem="Protein_molecule" id="T20" lex="I_kappaB_alpha"><term sem="Protein_molecule" id="T21" lex="I_kappaB">I kappaB</term> alpha</term> is not degraded, as a result of an absence of induced phosphorylation on <cons sem="(AND Amino_acid_monomer Amino_acid_monomer)" id="T22" lex="(AND serine_32 serine_36)"><frag id="F1">serines</frag> <frag id="F2">32</frag> and <frag id="F3">36</frag></cons>.</sentence>
+<event id="E14">
+<type class="Physiological_process" />
+<theme idref="T13" />
+<cause idref="T15" />
+<clue>We demonstrate that upon <clueType>stimulation</clueType> <linkCause>by</linkCause> lipopolysaccharide, Taxol, phorbol myristate acetate, interleukin-1, or double-stranded RNA, I kappaB alpha is not degraded, as a result of an absence of induced phosphorylation on serines 32 and 36.</clue>
+<comment>No coref Theme</comment>
+</event>
+<event id="E15">
+<type class="Physiological_process" />
+<theme idref="T13" />
+<cause idref="T16" />
+<clue>We demonstrate that upon <clueType>stimulation</clueType> <linkCause>by</linkCause> lipopolysaccharide, Taxol, phorbol myristate acetate, interleukin-1, or double-stranded RNA, I kappaB alpha is not degraded, as a result of an absence of induced phosphorylation on serines 32 and 36.</clue>
+<comment>No corefTheme</comment>
+</event>
+<event id="E16">
+<type class="Physiological_process" />
+<theme idref="T13" />
+<cause idref="T17" />
+<clue>We demonstrate that upon <clueType>stimulation</clueType> <linkCause>by</linkCause> lipopolysaccharide, Taxol, phorbol myristate acetate, interleukin-1, or double-stranded RNA, I kappaB alpha is not degraded, as a result of an absence of induced phosphorylation on serines 32 and 36.</clue>
+<comment>No corefTheme</comment>
+</event>
+<event id="E17">
+<type class="Physiological_process" />
+<theme idref="T13" />
+<cause idref="T18" />
+<clue>We demonstrate that upon <clueType>stimulation</clueType> <linkCause>by</linkCause> lipopolysaccharide, Taxol, phorbol myristate acetate, interleukin-1, or double-stranded RNA, I kappaB alpha is not degraded, as a result of an absence of induced phosphorylation on serines 32 and 36.</clue>
+<comment>No corefTheme</comment>
+</event>
+<event id="E18">
+<type class="Physiological_process" />
+<theme idref="T13" />
+<cause idref="T19" />
+<clue>We demonstrate that upon <clueType>stimulation</clueType> <linkCause>by</linkCause> lipopolysaccharide, Taxol, phorbol myristate acetate, interleukin-1, or double-stranded RNA, I kappaB alpha is not degraded, as a result of an absence of induced phosphorylation on serines 32 and 36.</clue>
+<comment>No corefTheme</comment>
+</event>
+<event id="E19">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T20" />
+<site idref1="F2" idref="F1" /><site idref1="F3" idref="F1" /><clue>We demonstrate that upon stimulation by lipopolysaccharide, Taxol, phorbol myristate acetate, interleukin-1, or double-stranded RNA, I kappaB alpha is not degraded, as a result of an absence of induced <clueType>phosphorylation</clueType> on serines 32 and 36.</clue>
+<comment>No corefTheme</comment>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<clue>We demonstrate that upon stimulation by lipopolysaccharide, Taxol, phorbol myristate acetate, interleukin-1, or double-stranded RNA, I kappaB alpha is not degraded, as a result of an <clueType>absence</clueType> <linkTheme>of</linkTheme> induced phosphorylation on serines 32 and 36.</clue>
+</event>
+<event assertion="non-exist" id="E21">
+<type class="Protein_catabolism" />
+<theme idref="T20" />
+<cause idref="E20" />
+<clue>We demonstrate that upon stimulation by lipopolysaccharide, Taxol, phorbol myristate acetate, interleukin-1, or double-stranded RNA, I kappaB alpha is not <clueType>degraded</clueType>, <linkCause>as a result of</linkCause> an absence of induced phosphorylation on serines 32 and 36.</clue>
+</event>
+<sentence id="S8">Neither a mutation in <term sem="Protein_molecule" id="T23" lex="I_kappaB_alpha"><term sem="Protein_molecule" id="T24" lex="I_kappaB">I kappaB</term> alpha</term> nor a mutation in <term sem="Protein_molecule" id="T25" lex="p50">p50</term> or <term sem="Protein_molecule" id="T26" lex="relA">relA</term>, the two major subunits of <term sem="Protein_complex" id="T27" lex="NF-kappaB">NF-kappaB</term> in this cell line, accounts for this <term sem="Other" id="T28" lex="phosphorylation_defect">phosphorylation defect</term>.</sentence>
+<event id="E22">
+<type class="Mutagenesis" />
+<theme idref="T23" />
+<clue>Neither a <clueType>mutation</clueType> <linkTheme>in</linkTheme> I kappaB alpha nor a mutation in p50 or relA, the two major subunits of NF-kappaB in this cell line, accounts for this phosphorylation defect.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event assertion="non-exist" id="E23">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E22" />
+<clue>Neither a mutation in I kappaB alpha nor a mutation in p50 or relA, the two major subunits of NF-kappaB in this cell line, <clueType>accounts for</clueType> <corefTheme>this phosphorylation defect</corefTheme>.</clue>
+</event>
+<event id="E24">
+<type class="Mutagenesis" />
+<theme idref="T25" />
+<clue>Neither a mutation in I kappaB alpha nor a <clueType>mutation</clueType> <linkTheme>in</linkTheme> p50 or relA, the two major subunits of NF-kappaB in this cell line, accounts for this phosphorylation defect.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event assertion="non-exist" id="E25">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E24" />
+<clue>Neither a mutation in I kappaB alpha nor a mutation in p50 or relA, the two major subunits of NF-kappaB in this cell line, <clueType>accounts for</clueType> <corefTheme>this phosphorylation defect</corefTheme>.</clue>
+</event>
+<event id="E26">
+<type class="Mutagenesis" />
+<theme idref="T26" />
+<clue>Neither a mutation in I kappaB alpha nor a <clueType>mutation</clueType> <linkTheme>in</linkTheme> p50 or relA, the two major subunits of NF-kappaB in this cell line, accounts for this phosphorylation defect.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event assertion="non-exist" id="E125">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E26" />
+<clue>Neither a mutation in I kappaB alpha nor a mutation in p50 or relA, the two major subunits of NF-kappaB in this cell line, <clueType>accounts for</clueType> <corefTheme>this phosphorylation defect</corefTheme>.</clue>
+</event>
+<sentence id="S9">As well as culminating in the <term sem="Other" id="T29" lex="inducible_phosphorylation">inducible phosphorylation</term> of <term sem="Protein_molecule" id="T30" lex="I_kappaB">I kappaB alpha</term> on <cons sem="(AND Amino_acid_monomer Amino_acid_monomer)" id="T31" lex="(AND serine_32 serine_36)"><frag id="F4"><term sem="Amino_acid_monomer" id="A68">serines</term></frag> <frag id="F5"><term sem="Amino_acid_monomer" id="A69">32</term></frag> and <frag id="F6"><term sem="Amino_acid_monomer" id="A70">36</term></frag></cons>, all the stimuli that are inactive on <term sem="Cell_cultured" id="T32" lex="1.3E2_cell">1.3E2 cells</term> exhibit a sensitivity to the <term sem="Organic_compound_other" id="T33" lex="antioxidant">antioxidant</term> <term sem="Organic_compound_other" id="T34" lex="pyrrolidine_dithiocarbamate">pyrrolidine dithiocarbamate</term> (<term sem="Organic_compound_other" id="T35" lex="PDTC">PDTC</term>).</sentence>
+<event id="E126">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="T30" />
+<site idref1="A69" idref="A68" /><site idref1="A70" idref="A68" /><clue>As well as culminating in the inducible <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> I kappaB alpha on serines 32 and 36, all the stimuli that are inactive on 1.3E2 cells exhibit a sensitivity to the antioxidant pyrrolidine dithiocarbamate (PDTC).</clue>
+<comment>NER T30 MOD</comment>
+</event>
+<event id="E326">
+<type class="Positive_regulation" />
+<theme idref="E126" />
+<clue>As well as <clueType>culminating</clueType> <linkTheme>in</linkTheme> the inducible phosphorylation of I kappaB alpha on serines 32 and 36, all the stimuli that are inactive on 1.3E2 cells exhibit a sensitivity to the antioxidant pyrrolidine dithiocarbamate (PDTC).</clue>
+</event>
+<event id="E27">
+<type class="Regulation" />
+<theme idref="E14" />
+<cause idref="T35" />
+<clue>As well as culminating in the inducible phosphorylation of I kappaB alpha on serines 32 and 36, <corefTheme>all the stimuli</corefTheme> that are inactive on 1.3E2 cells <clueType>exhibit a sensitivity</clueType> <linkCause>to</linkCause> the antioxidant pyrrolidine dithiocarbamate (PDTC).</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E28">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="T35" />
+<clue>As well as culminating in the inducible phosphorylation of I kappaB alpha on serines 32 and 36, <corefTheme>all the stimuli</corefTheme> that are inactive on 1.3E2 cells <clueType>exhibit a sensitivity</clueType> <linkCause>to</linkCause> the antioxidant pyrrolidine dithiocarbamate (PDTC).</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E29">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="T35" />
+<clue>As well as culminating in the inducible phosphorylation of I kappaB alpha on serines 32 and 36, <corefTheme>all the stimuli</corefTheme> that are inactive on 1.3E2 cells <clueType>exhibit a sensitivity</clueType> <linkCause>to</linkCause> the antioxidant pyrrolidine dithiocarbamate (PDTC).</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E30">
+<type class="Regulation" />
+<theme idref="E17" />
+<cause idref="T35" />
+<clue>As well as culminating in the inducible phosphorylation of I kappaB alpha on serines 32 and 36, <corefTheme>all the stimuli</corefTheme> that are inactive on 1.3E2 cells <clueType>exhibit a sensitivity</clueType> <linkCause>to</linkCause> the antioxidant pyrrolidine dithiocarbamate (PDTC).</clue>
+<comment>SENSITVITY</comment>
+</event>
+<event id="E31">
+<type class="Regulation" />
+<theme idref="E18" />
+<cause idref="T35" />
+<clue>As well as culminating in the inducible phosphorylation of I kappaB alpha on serines 32 and 36, <corefTheme>all the stimuli</corefTheme> that are inactive on 1.3E2 cells <clueType>exhibit a sensitivity</clueType> <linkCause>to</linkCause> the antioxidant pyrrolidine dithiocarbamate (PDTC).</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<sentence id="S10">In contrast, stimuli such as <term sem="Other" id="T36" lex="hyperosmotic_shock">hyperosmotic shock</term> or <term sem="Organic_compound_other" id="T37" lex="phosphatase_inhibitor">phosphatase inhibitors</term>, which use <term sem="Other" id="T38" lex="PDTC-insensitive_pathway"><term sem="Organic_compound_other" id="T39" lex="PDTC">PDTC</term>-insensitive pathways</term>, induce <term sem="Protein_molecule" id="T40" lex="I_kappaB">I kappaB alpha</term> degradation in <term sem="Cell_cultured" id="T41" lex="1.3E2">1.3E2</term>.</sentence>
+<event assertion="non-exist" id="E53">
+<type class="Regulation" />
+<theme idref="T39" />
+<cause idref="T36" />
+<clue>In contrast, <corefCause>stimuli</corefCause> such as hyperosmotic shock or phosphatase inhibitors, which <clueType>use</clueType> PDTC-insensitive pathways, induce I kappaB alpha degradation in 1.3E2.</clue>
+</event>
+<event assertion="non-exist" id="E54">
+<type class="Regulation" />
+<theme idref="T39" />
+<cause idref="T37" />
+<clue>In contrast, <corefCause>stimuli</corefCause> such as hyperosmotic shock or phosphatase inhibitors, which <clueType>use</clueType> PDTC-insensitive pathways, induce I kappaB alpha degradation in 1.3E2.</clue>
+</event>
+<event id="E34">
+<type class="Protein_catabolism" />
+<theme idref="T40" />
+<clue>In contrast, stimuli such as hyperosmotic shock or phosphatase inhibitors, which use PDTC-insensitive pathways, induce I kappaB alpha <clueType>degradation</clueType> in 1.3E2.</clue>
+<comment>NER T40 mod</comment>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="T36" />
+<clue>In contrast, stimuli such as hyperosmotic shock or phosphatase inhibitors, which use PDTC-insensitive pathways, <clueType>induce</clueType> I kappaB alpha degradation <clueLoc>in 1.3E2</clueLoc>.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E34" />
+<cause idref="T37" />
+<clue>In contrast, stimuli such as hyperosmotic shock or phosphatase inhibitors, which use PDTC-insensitive pathways, <clueType>induce</clueType> I kappaB alpha degradation <clueLoc>in 1.3E2</clueLoc>.</clue>
+</event>
+<sentence id="S11">Analysis of the redox status of <term sem="Cell_cultured" id="T42" lex="1.3E2">1.3E2</term> does not reveal any difference from <term sem="Cell_cultured" id="T43" lex="wild-type_70Z/3">wild-type 70Z/3</term>.</sentence>
+<sentence id="S12">We also report that the <term sem="Protein_molecule" id="T44" lex="human_T-cell_leukemia_virus_type_1_(HTLV-1)-derived_Tax_trans-activator"><term sem="Virus" id="T45" lex="human_T-cell_leukemia_virus_type_1">human T-cell leukemia virus type 1</term> (<term sem="Virus" id="T46" lex="HTLV-1">HTLV-1</term>)-derived <term sem="Protein_molecule" id="T47" lex="Tax">Tax</term> trans-activator</term> induces <term sem="Protein_complex" id="T48" lex="NF-kappaB">NF-kappaB</term> activity in <term sem="Cell_cultured" id="T49" lex="1.3E2">1.3E2</term>, suggesting that this viral protein does not operate via the <term sem="Other" id="T50" lex="defective_pathway">defective pathway</term>.</sentence>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="T48" />
+<cause idref="T47" />
+<clue>We also report that the human T-cell leukemia virus type 1 (HTLV-1)-derived Tax trans-activator <clueType>induces</clueType> NF-kappaB activity <clueLoc>in 1.3E2</clueLoc>, suggesting that this viral protein does not operate via the defective pathway.</clue>
+</event>
+<event assertion="non-exist" id="E38">
+<type class="Regulation" />
+<theme idref="E19" />
+<cause idref="T47" />
+<clue>We also report that the human T-cell leukemia virus type 1 (HTLV-1)-derived Tax trans-activator induces NF-kappaB activity in 1.3E2, suggesting that <corefCause>this viral protein</corefCause> does not <clueType>operate</clueType> <linkTheme>via</linkTheme> <corefTheme>the defective pathway</corefTheme>.</clue>
+</event>
+<sentence id="S13">Finally, we show that two other <term sem="Protein_molecule" id="T51" lex="I_kappaB_molecule"><term sem="Protein_molecule" id="T52" lex="I_kappaB">I kappaB</term> molecules</term>, <term sem="Protein_molecule" id="T53" lex="I_kappaB_beta"><term sem="Protein_molecule" id="T54" lex="I_kappaB">I kappaB</term> beta</term> and the recently identified <term sem="Protein_molecule" id="T55" lex="I_kappaB_epsilon"><term sem="Protein_molecule" id="T56" lex="I_kappaB">I kappaB</term> epsilon</term>, are not degraded in the <term sem="Cell_cultured" id="T57" lex="1.3E2">1.3E2</term> cell line following <term sem="Other" id="A8">stimulation</term>.</sentence>
+<event id="E39">
+<type class="Protein_catabolism" />
+<theme idref="T53" />
+<clue>Finally, we show that <corefTheme>two other I kappaB molecules</corefTheme>, I kappaB beta and the recently identified I kappaB epsilon, are not <clueType>degraded</clueType> in the 1.3E2 cell line following stimulation.</clue>
+</event>
+<event id="E40">
+<type class="Protein_catabolism" />
+<theme idref="T55" />
+<clue>Finally, we show that <corefTheme>two other I kappaB molecules</corefTheme>, I kappaB beta and the recently identified I kappaB epsilon, are not <clueType>degraded</clueType> in the 1.3E2 cell line following stimulation.</clue>
+</event>
+<event assertion="non-exist" id="E41">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref="A8" />
+<clue>Finally, we show that two other I kappaB molecules, I kappaB beta and the recently identified I kappaB epsilon, are not degraded <clueLoc>in the 1.3E2 cell line</clueLoc> <clueType>following</clueType> stimulation.</clue>
+</event>
+<event assertion="non-exist" id="E42">
+<type class="Positive_regulation" />
+<theme idref="E40" />
+<cause idref="A8" />
+<clue>Finally, we show that two other I kappaB molecules, I kappaB beta and the recently identified I kappaB epsilon, are not degraded <clueLoc>in the 1.3E2 cell line</clueLoc> <clueType>following</clueType> stimulation.</clue>
+</event>
+<sentence id="S14">Our results demonstrate that <term sem="Cell_cultured" id="T58" lex="1.3E2">1.3E2</term> is a <term sem="Protein_family_or_group" id="T59" lex="cellular_transduction_mutant">cellular transduction mutant</term> exhibiting a defect in a <term sem="Other" id="A9">step</term> that is required by <term sem="Other" id="A10">several different stimuli</term> to activate <term sem="Protein_complex" id="T60" lex="NF-kappaB">NF-kappaB</term>.</sentence>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="A9" />
+<cause idref="A10" />
+<clue>Our results demonstrate that 1.3E2 is a cellular transduction mutant exhibiting a defect in a step that is <clueType>required</clueType> <linkCause>by</linkCause> several different stimuli to activate NF-kappaB.</clue>
+</event>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="T60" />
+<cause idref="E43" />
+<clue>Our results demonstrate that 1.3E2 is a cellular transduction mutant exhibiting a defect in a step that is required by several different stimuli to <clueType>activate</clueType> NF-kappaB.</clue>
+</event>
+<event id="E49">
+<type class="Negative_regulation" />
+<theme idref="E44" />
+<clue>Our results demonstrate that <clueLoc>1.3E2</clueLoc> is a cellular transduction mutant exhibiting a <clueType>defect</clueType> <linkTheme>in</linkTheme> a step that is required by several different stimuli to activate NF-kappaB.</clue>
+</event>
+<sentence id="S15">In addition, this analysis suggests a common step in the <term sem="Other" id="A30">signaling pathways</term> that trigger <cons sem="(AND Other Other Other)" id="C1" lex="(AND I_kappaB_alpha_degradation I_kappaB_beta_degradation I_kappaB_epsilon_degradation)"><frag id="F7">I kappaB alpha</frag>, <frag id="F8">I kappaB beta</frag>, and <frag id="F9">I kappaB epsilon</frag> <frag id="F10">degradation</frag></cons>.</sentence>
+<event id="E45">
+<type class="Protein_catabolism" />
+<theme idref="F7" />
+<clue>In addition, this analysis suggests a common step in the signaling pathways that trigger I kappaB alpha, I kappaB beta, and I kappaB epsilon <clueType>degradation</clueType>.</clue>
+</event>
+<event id="E46">
+<type class="Protein_catabolism" />
+<theme idref="F8" />
+<clue>In addition, this analysis suggests a common step in the signaling pathways that trigger I kappaB alpha, I kappaB beta, and I kappaB epsilon <clueType>degradation</clueType>.</clue>
+</event>
+<event id="E47">
+<type class="Protein_catabolism" />
+<theme idref="F9" />
+<clue>In addition, this analysis suggests a common step in the signaling pathways that trigger I kappaB alpha, I kappaB beta, and I kappaB epsilon <clueType>degradation</clueType>.</clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="A30" />
+<clue>In addition, this analysis suggests a common step in the signaling pathways that <clueType>trigger</clueType> I kappaB alpha, I kappaB beta, and I kappaB epsilon degradation.</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation" />
+<theme idref="E46" />
+<cause idref="A30" />
+<clue>In addition, this analysis suggests a common step in the signaling pathways that <clueType>trigger</clueType> I kappaB alpha, I kappaB beta, and I kappaB epsilon degradation.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation" />
+<theme idref="E47" />
+<cause idref="A30" />
+<clue>In addition, this analysis suggests a common step in the signaling pathways that <clueType>trigger</clueType> I kappaB alpha, I kappaB beta, and I kappaB epsilon degradation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="15/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9322967" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9322967</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Cell_natural" id="T1" lex="human_neutrophil">Human <term sem="Cell_natural" id="T2" lex="neutrophil">neutrophils</term></term> express <term sem="RNA_family_or_group" id="T3" lex="GH-N_gene_transcript"><term sem="DNA_domain_or_region" id="T4" lex="GH-N_gene">GH-N gene</term> transcripts</term> and the <term sem="Protein_family_or_group" id="T5" lex="pituitary_transcription_factor">pituitary transcription factor</term> <term sem="Protein_molecule" id="T6" lex="Pit-1b">Pit-1b</term>.</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T3" />
+<clue><clueLoc>Human neutrophils</clueLoc> <clueType>express</clueType> GH-N gene transcripts and the pituitary transcription factor Pit-1b.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue><clueLoc>Human neutrophils</clueLoc> <clueType>express</clueType> GH-N gene transcripts and the pituitary transcription factor Pit-1b.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Since <term sem="Protein_molecule" id="T7" lex="GH">GH</term> stimulates the development and function of <term sem="Cell_natural" id="T8" lex="granulocyte">granulocytes</term>, we investigated the expression of <term sem="Protein_molecule" id="T9" lex="GH">GH</term> in <term sem="Cell_natural" id="T10" lex="granulocyte_subset">granulocyte subsets</term>.</sentence>
+<event id="E3">
+<type class="Cell_differentiation" />
+<theme idref="T8" />
+<clue>Since GH stimulates the <clueType>development</clueType> and function <linkTheme>of</linkTheme> granulocytes, we investigated the expression of GH in granulocyte subsets.</clue>
+</event>
+<event id="E4">
+<type class="Physiological_process" />
+<theme idref="T8" />
+<clue>Since GH stimulates the development and <clueType>function</clueType> <linkCause>of</linkCause> granulocytes, we investigated the expression of GH in granulocyte subsets.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T7" />
+<clue>Since GH <clueType>stimulates</clueType> the development and function of granulocytes, we investigated the expression of GH in granulocyte subsets.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T7" />
+<clue>Since GH <clueType>stimulates</clueType> the development and function of granulocytes, we investigated the expression of GH in granulocyte subsets.</clue>
+</event>
+<event uncertainty="doubtful" id="E7">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>Since GH stimulates the development and function of granulocytes, we investigated the <clueType>expression</clueType> <linkTheme>of</linkTheme> GH <clueLoc>in granulocyte subsets</clueLoc>.</clue>
+</event>
+<sentence id="S3">By <term sem="Other" id="T11" lex="immunocytochemistry">immunocytochemistry</term>, 25 +/- 7% of the <term sem="Cell_natural" id="T12" lex="human_neutrophil">human <term sem="Cell_natural" id="T13" lex="neutrophil">neutrophils</term></term> were shown to express <term sem="Protein_molecule" id="T14" lex="immunoreactive_GH">immunoreactive <term sem="Protein_molecule" id="T15" lex="GH">GH</term></term>, whereas <term sem="Cell_natural" id="T16" lex="eosinophil">eosinophils</term> were negative.</sentence>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue><clueExperiment>By immunocytochemistry</clueExperiment>, <clueLoc>25 +/- 7% of the human neutrophils</clueLoc> were shown to <clueType>express</clueType> immunoreactive GH, whereas eosinophils were negative.</clue>
+</event>
+<event assertion="non-exist" id="E9">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue><clueExperiment>By immunocytochemistry</clueExperiment>, 25 +/- 7% of the human neutrophils were shown to express immunoreactive GH, whereas <clueLoc>eosinophils</clueLoc> were <clueType>negative</clueType>.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<sentence id="S4"><term sem="Other" id="T17" lex="reversed_transcription_(RT)-PCR_analysis">Reversed transcription (RT)-PCR analysis</term> demonstrated <term sem="RNA_molecule" id="T18" lex="GH_mRNA"><term sem="Protein_molecule" id="T19" lex="GH">GH</term> mRNA</term> in <term sem="Cell_natural" id="T20" lex="neutrophil">neutrophils</term>.</sentence>
+<event id="E10">
+<type class="Transcription" />
+<theme idref="T18" />
+<clue><clueExperiment>Reversed transcription (RT)-PCR analysis</clueExperiment> <clueType>demonstrated</clueType> GH mRNA <clueLoc>in neutrophils</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term sem="Other" id="T21" lex="restriction_analysis">Restriction analysis</term> revealed that <term sem="Cell_natural" id="T22" lex="neutrophil">neutrophils</term> express the <term sem="DNA_domain_or_region" id="T23" lex="GH-N_gene">GH-N gene</term> but not the <term sem="DNA_domain_or_region" id="T24" lex="GH-V_gene">GH-V gene</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T23" />
+<clue><clueExperiment>Restriction analysis</clueExperiment> revealed that <clueLoc>neutrophils</clueLoc> <clueType>express</clueType> the GH-N gene but not the GH-V gene.</clue>
+</event>
+<event assertion="non-exist" id="E12">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue><clueExperiment>Restriction analysis</clueExperiment> revealed that <clueLoc>neutrophils</clueLoc> <clueType>express</clueType> the GH-N gene but not the GH-V gene.</clue>
+</event>
+<sentence id="S6">Furthermore, we demonstrated by <term sem="Other" id="T25" lex="western_blot_analysis">western blot analysis</term> that <term sem="Cell_natural" id="T26" lex="neutrophil">neutrophils</term> express an alternatively spliced variant of the <term sem="Protein_family_or_group" id="T27" lex="pituitary_transcription_factor">pituitary transcription factor</term> <term sem="Protein_molecule" id="T28" lex="Pit-1">Pit-1</term>, designated <term sem="Protein_molecule" id="T29" lex="Pit-1b">Pit-1b</term>.</sentence>
+<event id="E13">
+<type class="Gene_expression" />
+<theme idref="T29" />
+<clue>Furthermore, we demonstrated <clueExperiment>by western blot analysis</clueExperiment> that <clueLoc>neutrophils</clueLoc> <clueType>express</clueType> an alternatively spliced variant of the pituitary transcription factor Pit-1, designated Pit-1b.</clue>
+</event>
+<event id="E14">
+<type class="RNA_metabolism" />
+<theme idref="T28" />
+<clue>Furthermore, we demonstrated by western blot analysis that neutrophils express an <clueType>alternatively spliced</clueType> variant of the pituitary transcription factor Pit-1, designated Pit-1b.</clue>
+<comment>CAUTION: theme=Pit-1 mRNA</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

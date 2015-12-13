@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="05/04/06" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9616159">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9616159</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Inhibition of <term sem="Other" id="T1" lex="nuclear_factor_kappaB_activation"><term sem="Protein_complex" id="T2" lex="nuclear_factor_kappaB">nuclear factor kappaB</term> activation</term> attenuates <term sem="Other" id="T3" lex="apoptosis">apoptosis</term> resistance in <term sem="Cell_natural" id="T4" lex="lymphoid_cell">lymphoid cells</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<clue>Inhibition of nuclear factor kappaB <clueType>activation</clueType> attenuates apoptosis resistance in lymphoid cells.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> nuclear factor kappaB activation attenuates apoptosis resistance in lymphoid cells.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="E2" />
+<clue>Inhibition of nuclear factor kappaB activation <clueType>attenuates</clueType> apoptosis <clueType>resistance</clueType> <linkTheme>in</linkTheme> lymphoid cells.</clue>
+<comment>RESISTANCE</comment>
+</event>
+<event id="E36">
+<type class="Cellular_physiological_process" />
+<theme idref="T4" />
+<clue>Inhibition of nuclear factor kappaB activation attenuates <clueType>apoptosis</clueType> resistance in lymphoid cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_family_or_group" id="T5" lex="death-inducing_ligand">Death-inducing ligands</term> (<term sem="Protein_family_or_group" id="T6" lex="DIL">DILs</term>) such as <term sem="Protein_molecule" id="T7" lex="tumor_necrosis_factor_alpha">tumor necrosis factor alpha</term> (<term sem="Protein_molecule" id="T8" lex="TNFalpha">TNFalpha</term>) or the <term sem="Organic_compound_other" id="T9" lex="cytotoxic_drug">cytotoxic drug</term> <term sem="Organic_compound_other" id="T10" lex="doxorubicin">doxorubicin</term> have been shown to activate a <term sem="Other" id="T11" lex="nuclear_factor_kappaB_(NFkappaB)-dependent_program"><term sem="Protein_complex" id="T12" lex="nuclear_factor_kappaB">nuclear factor kappaB</term> (<term sem="Protein_complex" id="T13" lex="NFkappaB">NFkappaB</term>)-dependent <term sem="Other" id="A1">program</term></term> that may rescue <term sem="Cell_natural" id="A2">cells</term> from <term sem="Other" id="T14" lex="apoptosis">apoptosis</term> induction.</sentence>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="A1" />
+<cause idref="T13" />
+<clue>Death-inducing ligands (DILs) such as tumor necrosis factor alpha (TNFalpha) or the cytotoxic drug doxorubicin have been shown to activate a nuclear factor kappaB (NFkappaB)-<clueType>dependent</clueType> program that may rescue cells from apoptosis induction.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T8" />
+<clue><corefCause>Death-inducing ligands (DILs)</corefCause> such as tumor necrosis factor alpha (TNFalpha) or the cytotoxic drug doxorubicin have been shown to <clueType>activate</clueType> a nuclear factor kappaB (NFkappaB)-dependent program that may rescue cells from apoptosis induction.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T10" />
+<clue>Death-inducing ligands (DILs) such as tumor necrosis factor alpha (TNFalpha) or the <corefCause>cytotoxic drug</corefCause> doxorubicin have been shown to <clueType>activate</clueType> a nuclear factor kappaB (NFkappaB)-dependent program that may rescue cells from apoptosis induction.</clue>
+</event>
+<event uncertainty="probable" id="E8">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="E5" />
+<clue>Death-inducing ligands (DILs) such as tumor necrosis factor alpha (TNFalpha) or the cytotoxic drug doxorubicin have been shown to activate a nuclear factor kappaB (NFkappaB)-dependent program that may <clueType>rescue</clueType> cells <linkTheme>from</linkTheme> apoptosis induction.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<clue>Death-inducing ligands (DILs) such as tumor necrosis factor alpha (TNFalpha) or the cytotoxic drug doxorubicin have been shown to activate a nuclear factor kappaB (NFkappaB)-dependent program that may rescue <clueLoc>cells</clueLoc> from apoptosis <clueType>induction</clueType>.</clue>
+</event>
+<sentence id="S3">We demonstrate here that <term sem="Protein_molecule" id="T15" lex="TRAIL">TRAIL</term> (<term sem="Protein_molecule" id="T16" lex="TNF-related_apoptosis-inducing_ligand">TNF-related <term sem="Other" id="T17" lex="apoptosis">apoptosis</term>-inducing ligand</term>), a recently identified <term sem="Protein_family_or_group" id="T18" lex="DIL">DIL</term>, also activates <term sem="Protein_complex" id="T19" lex="NFkappaB">NFkappaB</term> in lymphoid cell lines in a kinetic similar to <term sem="Protein_molecule" id="T20" lex="TNFalpha">TNFalpha</term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T19" />
+<cause idref="T15" />
+<clue>We demonstrate here that TRAIL (TNF-related apoptosis-inducing ligand), <corefCause>a recently identified DIL</corefCause>, also <clueType>activates</clueType> NFkappaB <clueLoc>in lymphoid cell lines</clueLoc> in a kinetic similar to TNFalpha.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T19" />
+<cause idref="T20" />
+<clue>We demonstrate here that TRAIL (TNF-related apoptosis-inducing ligand), a recently identified DIL, also <clueType>activates</clueType> NFkappaB in lymphoid cell lines in a kinetic similar to TNFalpha.</clue>
+</event>
+<sentence id="S4"><term sem="Protein_complex" id="T21" lex="NFkappaB">NFkappaB</term> activity is independent from <term sem="Protein_molecule" id="T22" lex="FADD">FADD</term>, <term sem="Protein_family_or_group" id="T23" lex="caspases">caspases</term>, and <term sem="Other" id="T24" lex="apoptosis_induction"><term sem="Other" id="T25" lex="apoptosis">apoptosis</term> induction</term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<clue>NFkappaB activity is independent from FADD, caspases, and apoptosis <clueType>induction</clueType>.</clue>
+</event>
+<event assertion="non-exist" id="E13">
+<type class="Regulation" />
+<theme idref="T21" />
+<cause idref="T22" />
+<clue>NFkappaB activity is <clueType>independent</clueType> <linkCause>from</linkCause> FADD, caspases, and apoptosis induction.</clue>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Regulation" />
+<theme idref="T21" />
+<cause idref="T23" />
+<clue>NFkappaB activity is <clueType>independent</clueType> <linkCause>from</linkCause> FADD, caspases, and apoptosis induction.</clue>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Regulation" />
+<theme idref="T21" />
+<cause idref="E12" />
+<clue>NFkappaB activity is <clueType>independent</clueType> <linkCause>from</linkCause> FADD, caspases, and apoptosis induction.</clue>
+</event>
+<sentence id="S5">To study the influence of <term sem="Other" id="T26" lex="NFkappaB_activity"><term sem="Protein_complex" id="T27" lex="NFkappaB">NFkappaB</term> activity</term> on <term sem="Other" id="T28" lex="apoptosis">apoptosis</term> mediated by <term sem="Protein_molecule" id="T29" lex="TRAIL">TRAIL</term>, CD95, <term sem="Protein_molecule" id="T30" lex="TNFalpha">TNFalpha</term>, or <term sem="Organic_compound_other" id="T31" lex="doxorubicin">doxorubicin</term>, <term sem="Other" id="T32" lex="NFkappaB_activation"><term sem="Protein_complex" id="T33" lex="NFkappaB">NFkappaB</term> activation</term> was inhibited using the <term sem="Organic_compound_other" id="T34" lex="proteasome_inhibitor"><term sem="Protein_complex" id="T35" lex="proteasome">proteasome</term> inhibitor</term> <term sem="Organic_compound_other" id="T36" lex="N-acetyl-L-leucinyl-L-leucinyl-L-norleucinal">N-acetyl-L-leucinyl-L-leucinyl-L-norleucinal</term> or <term sem="Other" id="T37" lex="transient_overexpression">transient overexpression</term> of <term sem="Protein_molecule" id="T38" lex="mutant_IkappaBalpha">mutant IkappaBalpha</term>.</sentence>
+<event uncertainty="doubtful" id="E16">
+<type class="Regulation" />
+<theme idref="T28" />
+<cause idref="T26" />
+<clue>To study the <clueType>influence</clueType> <linkCause>of</linkCause> NFkappaB activity <linkTheme>on</linkTheme> apoptosis mediated by TRAIL, CD95, TNFalpha, or doxorubicin, NFkappaB activation was inhibited using the proteasome inhibitor N-acetyl-L-leucinyl-L-leucinyl-L-norleucinal or transient overexpression of mutant IkappaBalpha.</clue>
+</event>
+<event uncertainty="doubtful" id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T29" />
+<clue>To study the influence of NFkappaB activity on apoptosis <clueType>mediated</clueType> <linkCause>by</linkCause> TRAIL, CD95, TNFalpha, or doxorubicin, NFkappaB activation was inhibited using the proteasome inhibitor N-acetyl-L-leucinyl-L-leucinyl-L-norleucinal or transient overexpression of mutant IkappaBalpha.</clue>
+</event>
+<event uncertainty="doubtful" id="E18">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T30" />
+<clue>To study the influence of NFkappaB activity on apoptosis <clueType>mediated</clueType> <linkCause>by</linkCause> TRAIL, CD95, TNFalpha, or doxorubicin, NFkappaB activation was inhibited using the proteasome inhibitor N-acetyl-L-leucinyl-L-leucinyl-L-norleucinal or transient overexpression of mutant IkappaBalpha.</clue>
+</event>
+<event uncertainty="doubtful" id="E19">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T31" />
+<clue>To study the influence of NFkappaB activity on apoptosis <clueType>mediated</clueType> <linkCause>by</linkCause> TRAIL, CD95, TNFalpha, or doxorubicin, NFkappaB activation was inhibited using the proteasome inhibitor N-acetyl-L-leucinyl-L-leucinyl-L-norleucinal or transient overexpression of mutant IkappaBalpha.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<clue>To study the influence of NFkappaB activity on apoptosis mediated by TRAIL, CD95, TNFalpha, or doxorubicin, NFkappaB <clueType>activation</clueType> was inhibited using the proteasome inhibitor N-acetyl-L-leucinyl-L-leucinyl-L-norleucinal or transient overexpression of mutant IkappaBalpha.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="T36" />
+<clue>To study the influence of NFkappaB activity on apoptosis mediated by TRAIL, CD95, TNFalpha, or doxorubicin, NFkappaB activation was <clueType>inhibited</clueType> <linkCause>using</linkCause> the proteasome inhibitor N-acetyl-L-leucinyl-L-leucinyl-L-norleucinal or transient overexpression of mutant IkappaBalpha.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="E35" />
+<clue>To study the influence of NFkappaB activity on apoptosis mediated by TRAIL, CD95, TNFalpha, or doxorubicin, NFkappaB activation was <clueType>inhibited</clueType> <linkCause>using</linkCause> the proteasome inhibitor N-acetyl-L-leucinyl-L-leucinyl-L-norleucinal or transient overexpression of mutant IkappaBalpha.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="T38" />
+<clue>To study the influence of NFkappaB activity on apoptosis mediated by TRAIL, CD95, TNFalpha, or doxorubicin, NFkappaB activation was inhibited using the proteasome inhibitor N-acetyl-L-leucinyl-L-leucinyl-L-norleucinal or transient <clueType>overexpression</clueType> <linkTheme>of</linkTheme> mutant IkappaBalpha.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<clue>To study the influence of NFkappaB activity on apoptosis mediated by TRAIL, CD95, TNFalpha, or doxorubicin, NFkappaB activation was inhibited using the proteasome inhibitor N-acetyl-L-leucinyl-L-leucinyl-L-norleucinal or transient <clueType>overexpression</clueType> of mutant IkappaBalpha.</clue>
+</event>
+<sentence id="S6">Sensitivity for induction of <term sem="Other" id="T39" lex="apoptosis">apoptosis</term> was markedly increased by these treatments in <term sem="Other" id="T40" lex="apoptosis">apoptosis</term> sensitive <term sem="Cell_cultured" id="T41" lex="cell_line">cell lines</term>.</sentence>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<clue>Sensitivity for <clueType>induction</clueType> <linkTheme>of</linkTheme> apoptosis was markedly increased by these treatments in apoptosis sensitive cell lines.</clue>
+</event>
+<event id="E4">
+<type class="Cellular_physiological_process" />
+<theme idref="T41" />
+<clue>Sensitivity for induction of <clueType>apoptosis</clueType> was markedly increased by these treatments <linkTheme>in</linkTheme> apoptosis sensitive cell lines.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E21" />
+<clue><clueType>Sensitivity</clueType> for induction of apoptosis was markedly <clueType>increased</clueType> <linkCause>by</linkCause> <corefCause>these treatments</corefCause> in apoptosis sensitive cell lines.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E22" />
+<clue><clueType>Sensitivity</clueType> for induction of apoptosis was markedly <clueType>increased</clueType> <linkCause>by</linkCause> <corefCause>these treatments</corefCause> in apoptosis sensitive cell lines.</clue>
+</event>
+<sentence id="S7">Moreover, both in <term sem="Cell_cultured" id="A30">cell lines</term> and in <term sem="Cell_cultured" id="A31">primary leukemia cells</term> that are resistant towards induction of <term sem="Other" id="T42" lex="apoptosis">apoptosis</term> by <term sem="Protein_family_or_group" id="T43" lex="DIL">DILs</term> and <term sem="Organic_compound_other" id="T44" lex="doxorubicin">doxorubicin</term>, antagonization of <term sem="Protein_complex" id="T45" lex="NFkappaB">NFkappaB</term> activity partially restored <term sem="Other" id="T46" lex="apoptosis_sensitivity"><term sem="Other" id="T47" lex="apoptosis">apoptosis</term> sensitivity</term>.</sentence>
+<event assertion="non-exist" id="E27">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T43" />
+<clue>Moreover, both in cell lines and in primary leukemia cells that are <clueType>resistant</clueType> towards <clueType>induction</clueType> <linkTheme>of</linkTheme> apoptosis <linkCause>by</linkCause> DILs and doxorubicin, antagonization of NFkappaB activity partially restored apoptosis sensitivity.</clue>
+<comment>RESISTANCE</comment>
+</event>
+<event assertion="non-exist" id="E28">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="T44" />
+<clue>Moreover, both in cell lines and in primary leukemia cells that are <clueType>resistant</clueType> towards <clueType>induction</clueType> <linkTheme>of</linkTheme> apoptosis <linkCause>by</linkCause> DILs and doxorubicin, antagonization of NFkappaB activity partially restored apoptosis sensitivity.</clue>
+</event>
+<event id="E37">
+<type class="Cellular_physiological_process" />
+<theme idref="A30" />
+<clue>Moreover, both <linkTheme>in</linkTheme> cell lines and in primary leukemia cells that are resistant towards induction of <clueType>apoptosis</clueType> by DILs and doxorubicin, antagonization of NFkappaB activity partially restored apoptosis sensitivity.</clue>
+</event>
+<event id="E38">
+<type class="Cellular_physiological_process" />
+<theme idref="A31" />
+<clue>Moreover, both <linkTheme>in</linkTheme> cell lines and in primary leukemia cells that are resistant towards induction of <clueType>apoptosis</clueType> by DILs and doxorubicin, antagonization of NFkappaB activity partially restored apoptosis sensitivity.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="T45" />
+<clue>Moreover, both in cell lines and in primary leukemia cells that are resistant towards induction of apoptosis by DILs and doxorubicin, <clueType>antagonization</clueType> <linkTheme>of</linkTheme> NFkappaB activity partially restored apoptosis sensitivity.</clue>
+</event>
+<event assertion="non-exist" id="E30">
+<type class="Negative_regulation" />
+<theme idref="E37" />
+<cause idref="E29" />
+<clue>Moreover, both in cell lines and in primary leukemia cells that are resistant towards induction of apoptosis by DILs and doxorubicin, antagonization of NFkappaB activity partially <clueType>restored</clueType> <corefTheme>apoptosis</corefTheme> <clueType>sensitivity</clueType>.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E39">
+<type class="Negative_regulation" />
+<theme idref="E38" />
+<cause idref="E29" />
+<clue>Moreover, both in cell lines and in primary leukemia cells that are resistant towards induction of apoptosis by DILs and doxorubicin, antagonization of NFkappaB activity partially <clueType>restored</clueType> <corefTheme>apoptosis</corefTheme> <clueType>sensitivity</clueType>.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<sentence id="S8">These data suggest that inhibition of <term sem="Other" id="T48" lex="NFkappaB_activation"><term sem="Protein_complex" id="T49" lex="NFkappaB">NFkappaB</term> activation</term> may provide a molecular approach to increase <term sem="Other" id="A3"><term sem="Other" id="T50" lex="apoptosis">apoptosis</term> sensitivity</term> in <term sem="Other" id="T51" lex="anticancer_treatment">anticancer treatment</term>.</sentence>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="T49" />
+<clue>These data suggest that inhibition of NFkappaB <clueType>activation</clueType> may provide a molecular approach to increase apoptosis sensitivity in anticancer treatment.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="E31" />
+<clue>These data suggest that <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NFkappaB activation may provide a molecular approach to increase apoptosis sensitivity in anticancer treatment.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="A3" />
+<clue>These data suggest that inhibition of NFkappaB activation may provide a molecular approach to <clueType>increase</clueType> apoptosis sensitivity in anticancer treatment.</clue>
+</event>
+<event uncertainty="probable" id="E34">
+<type class="Regulation" />
+<theme idref="E33" />
+<cause idref="E31" />
+<clue>These data suggest that inhibition of NFkappaB activation may <clueType>provide a molecular approach</clueType> <linkTheme>to</linkTheme> increase apoptosis sensitivity in anticancer treatment.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

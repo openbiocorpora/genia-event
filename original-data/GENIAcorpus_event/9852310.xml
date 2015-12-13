@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="19/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9852310" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9852310</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="human_immunodeficiency_virus_type-1_transcription"><term sem="Virus" id="T2" lex="human_immunodeficiency_virus_type-1">Human immunodeficiency virus type-1</term> transcription</term>: role of the <term sem="DNA_domain_or_region" id="A1">5&apos;-untranslated leader region</term> (review).</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Human immunodeficiency virus type-1 <clueType>transcription</clueType>: role of the 5&apos;-untranslated leader region (review).</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="A1" />
+<clue>Human immunodeficiency virus type-1 transcription: <clueType>role</clueType> <linkCause>of</linkCause> the 5&apos;-untranslated leader region (review).</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T3" lex="human_immunodeficiency_virus_type-1_(HIV-1)_transcription"><term sem="Virus" id="T4" lex="human_immunodeficiency_virus_type-1">Human immunodeficiency virus type-1</term> (<term sem="Virus" id="T5" lex="HIV-1">HIV-1</term>) transcription</term> is dependent on the interaction of <term sem="Protein_family_or_group" id="T6" lex="host-cell_transcription_factor">host-cell <term sem="Protein_family_or_group" id="T7" lex="transcription_factor">transcription factors</term></term> with <term sem="DNA_family_or_group" id="T8" lex="cis-regulatory_DNA_element">cis-regulatory DNA elements</term> within the <term sem="DNA_domain_or_region" id="T9" lex="viral_long_terminal_repeat">viral long terminal repeat</term> (<term sem="DNA_domain_or_region" id="T10" lex="LTR">LTR</term>).</sentence>
+<event id="E3">
+<type class="Transcription" />
+<theme idref="T5" />
+<clue>Human immunodeficiency virus type-1 (HIV-1) <clueType>transcription</clueType> is dependent on the interaction of host-cell transcription factors with cis-regulatory DNA elements within the viral long terminal repeat (LTR).</clue>
+</event>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T7" />
+<theme idref1="T10" idref="T8" />
+<clue>Human immunodeficiency virus type-1 (HIV-1) transcription is dependent on the <clueType>interaction</clueType> <linkTheme>of</linkTheme> host-cell transcription factors <linkTheme>with</linkTheme> cis-regulatory DNA elements within the viral long terminal repeat (LTR).</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="E4" />
+<clue>Human immunodeficiency virus type-1 (HIV-1) transcription is <clueType>dependent</clueType> <linkCause>on</linkCause> the interaction of host-cell transcription factors with cis-regulatory DNA elements within the viral long terminal repeat (LTR).</clue>
+</event>
+<sentence id="S3">Much attention has focused on the series of sequence elements upstream of the <term sem="DNA_domain_or_region" id="T11" lex="transcriptional_initiation_site">transcriptional initiation site</term> in the <term sem="DNA_domain_or_region" id="T12" lex="U3_region">U3 region</term> of the <term sem="DNA_domain_or_region" id="T13" lex="LTR">LTR</term> including the <term sem="Protein_molecule" id="T14" lex="Sp1">Sp1</term> and <term sem="Protein_complex" id="T15" lex="NF-kappaB">NF-kappaB</term> <term sem="DNA_domain_or_region" id="T16" lex="binding_site">binding sites</term>.</sentence>
+<sentence id="S4">Recent studies, however, demonstrate that the transcribed <term sem="DNA_domain_or_region" id="T17" lex="5&apos;-untranslated_leader_region">5&apos;-untranslated leader region</term> (<term sem="DNA_domain_or_region" id="T18" lex="5&apos;-UTR">5&apos;-UTR</term>) also contains important <term sem="DNA_family_or_group" id="T19" lex="transcriptional_element">transcriptional elements</term>.</sentence>
+<event id="E6">
+<type class="Transcription" />
+<theme idref="T18" />
+<clue>Recent studies, however, demonstrate that the <clueType>transcribed</clueType> 5&apos;-untranslated leader region (5&apos;-UTR) also contains important transcriptional elements.</clue>
+</event>
+<sentence id="S5">These <term sem="DNA_family_or_group" id="T20" lex="regulatory_element">regulatory elements</term> situated downstream of transcription interact with constitutive and inducible <term sem="Protein_family_or_group" id="T21" lex="transcription_factor">transcription factors</term>, mediate transmission of <term sem="Other" id="T22" lex="cellular_activation_signal">cellular activation signals</term>, and are important for efficient <cons sem="(AND Other Other)" id="C1" lex="(AND HIV-1_transcription HIV-1_replication)"><frag id="F1"><term sem="Virus" id="T24" lex="HIV-1">HIV-1</term></frag> <frag id="F2">transcription</frag> and <frag id="F3">replication</frag></cons>.</sentence>
+<event id="E7">
+<type class="Binding" />
+<theme idref="T19" />
+<theme idref="T21" />
+<clue><corefTheme>These regulatory elements</corefTheme> situated <clueTime>downstream of transcription</clueTime> <clueType>interact</clueType> <linkTheme>with</linkTheme> constitutive and inducible transcription factors, mediate transmission of cellular activation signals, and are important for efficient HIV-1 transcription and replication.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<clue>These regulatory elements situated downstream of transcription interact with constitutive and <clueType>inducible</clueType> transcription factors, mediate transmission of cellular activation signals, and are important for efficient HIV-1 transcription and replication.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T19" />
+<clue><corefCause>These regulatory elements</corefCause> situated downstream of transcription interact with constitutive and inducible transcription factors, <clueType>mediate</clueType> transmission of cellular activation signals, and are important for efficient HIV-1 transcription and replication.</clue>
+</event>
+<event id="E9">
+<type class="Cell_communication" />
+<theme idref="T22" />
+<clue>These regulatory elements situated downstream of transcription interact with constitutive and inducible transcription factors, mediate <clueType>transmission</clueType> <linkTheme>of</linkTheme> cellular activation signals, and are important for efficient HIV-1 transcription and replication.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T19" />
+<clue><corefCause>These regulatory elements</corefCause> situated downstream of transcription interact with constitutive and inducible transcription factors, mediate transmission of cellular activation signals, and are <clueType>important</clueType> <linkTheme>for</linkTheme> <clueType>efficient</clueType> HIV-1 transcription and replication.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="T19" />
+<clue><corefCause>These regulatory elements</corefCause> situated downstream of transcription interact with constitutive and inducible transcription factors, mediate transmission of cellular activation signals, and are <clueType>important</clueType> <linkTheme>for</linkTheme> <clueType>efficient</clueType> HIV-1 transcription and replication.</clue>
+</event>
+<event id="E12">
+<type class="Transcription" />
+<theme idref="T24" />
+<clue>These regulatory elements situated downstream of transcription interact with constitutive and inducible transcription factors, mediate transmission of cellular activation signals, and are important for efficient HIV-1 <clueType>transcription</clueType> and replication.</clue>
+</event>
+<event id="E13">
+<type class="Viral_life_cycle" />
+<theme idref="T24" />
+<clue>These regulatory elements situated downstream of transcription interact with constitutive and inducible transcription factors, mediate transmission of cellular activation signals, and are important for efficient HIV-1 transcription and <clueType>replication</clueType>.</clue>
+</event>
+<sentence id="S6">The <term sem="DNA_domain_or_region" id="T26" lex="5&apos;-UTR">5&apos;-UTR</term> contains <term sem="DNA_domain_or_region" id="A2"><term sem="DNA_domain_or_region" id="T27" lex="binding_site">binding sites</term> for the</term> <term sem="Protein_family_or_group" id="T28" lex="transcription_factor">transcription factors</term> <term sem="DNA_domain_or_region" id="A5">AP-1</term>, <term sem="DNA_domain_or_region" id="A6"><term sem="Protein_complex" id="T29" lex="NF-kappaB">NF-kappaB</term></term>, <term sem="DNA_domain_or_region" id="A7"><term sem="Protein_molecule" id="T30" lex="NF-AT">NF-AT</term></term>, <term sem="DNA_domain_or_region" id="A8"><term sem="Protein_molecule" id="T31" lex="IRF">IRF</term></term>, and <term sem="DNA_domain_or_region" id="A9"><term sem="Protein_molecule" id="T32" lex="Sp1">Sp1</term></term>.</sentence>
+<sentence id="S7">Mutations in these <term sem="DNA_domain_or_region" id="T33" lex="binding_site">binding sites</term> can interfere with the viral response to <term sem="Other" id="T34" lex="cell_activation_signal">cell activation signals</term>, decrease <term sem="Other" id="T35" lex="LTR_transcription"><term sem="DNA_domain_or_region" id="T36" lex="LTR">LTR</term> transcription</term>, and inhibit <term sem="Other" id="T37" lex="viral_replication">viral replication</term>.</sentence>
+<event id="E14">
+<type class="Mutagenesis" />
+<theme idref1="A5" idref="A2" />
+<clue><clueType>Mutations</clueType> <linkTheme>in</linkTheme> <corefTheme>these binding sites</corefTheme> can interfere with the viral response to cell activation signals, decrease LTR transcription, and inhibit viral replication.</clue>
+<comment>TPS: A2; ARTIFICIAL</comment>
+</event>
+<event id="E34">
+<type class="Mutagenesis" />
+<theme idref1="A6" idref="A2" />
+<clue><clueType>Mutations</clueType> <linkTheme>in</linkTheme> <corefTheme>these binding sites</corefTheme> can interfere with the viral response to cell activation signals, decrease LTR transcription, and inhibit viral replication.</clue>
+<comment>TPS: A2; ARTIFICIAL</comment>
+</event>
+<event id="E35">
+<type class="Mutagenesis" />
+<theme idref1="A7" idref="A2" />
+<clue><clueType>Mutations</clueType> <linkTheme>in</linkTheme> <corefTheme>these binding sites</corefTheme> can interfere with the viral response to cell activation signals, decrease LTR transcription, and inhibit viral replication.</clue>
+<comment>TPS: A2; ARTIFICIAL</comment>
+</event>
+<event id="E36">
+<type class="Mutagenesis" />
+<theme idref1="A8" idref="A2" />
+<clue><clueType>Mutations</clueType> <linkTheme>in</linkTheme> <corefTheme>these binding sites</corefTheme> can interfere with the viral response to cell activation signals, decrease LTR transcription, and inhibit viral replication.</clue>
+<comment>TPS: A2; ARTIFICIAL</comment>
+</event>
+<event id="E37">
+<type class="Mutagenesis" />
+<theme idref1="A9" idref="A2" />
+<clue><clueType>Mutations</clueType> <linkTheme>in</linkTheme> <corefTheme>these binding sites</corefTheme> can interfere with the viral response to cell activation signals, decrease LTR transcription, and inhibit viral replication.</clue>
+<comment>TPS: A2; ARTIFICIAL</comment>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="E14" />
+<clue>Mutations in these binding sites can <clueType>interfere</clueType> <linkTheme>with</linkTheme> the viral response to cell activation signals, decrease LTR transcription, and inhibit viral replication.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="E34" />
+<clue>Mutations in these binding sites can <clueType>interfere</clueType> <linkTheme>with</linkTheme> the viral response to cell activation signals, decrease LTR transcription, and inhibit viral replication.</clue>
+</event>
+<event id="E39">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="E35" />
+<clue>Mutations in these binding sites can <clueType>interfere</clueType> <linkTheme>with</linkTheme> the viral response to cell activation signals, decrease LTR transcription, and inhibit viral replication.</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="E36" />
+<clue>Mutations in these binding sites can <clueType>interfere</clueType> <linkTheme>with</linkTheme> the viral response to cell activation signals, decrease LTR transcription, and inhibit viral replication.</clue>
+</event>
+<event id="E41">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="E37" />
+<clue>Mutations in these binding sites can <clueType>interfere</clueType> <linkTheme>with</linkTheme> the viral response to cell activation signals, decrease LTR transcription, and inhibit viral replication.</clue>
+</event>
+<event id="E16">
+<type class="Viral_life_cycle" />
+<theme idref="T24" />
+<clue>Mutations in these binding sites can interfere with the <corefTheme>viral</corefTheme> <clueType>response</clueType> to cell activation signals, decrease LTR transcription, and inhibit viral replication.</clue>
+</event>
+<event id="E50">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="T34" />
+<clue>Mutations in these binding sites can interfere with the viral response <linkCause>to</linkCause> cell activation signals, decrease LTR transcription, and inhibit viral replication.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="E14" />
+<clue>Mutations in these binding sites can interfere with the viral response to cell activation signals, <clueType>decrease</clueType> LTR transcription, and inhibit viral replication.</clue>
+</event>
+<event id="E42">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="E34" />
+<clue>Mutations in these binding sites can interfere with the viral response to cell activation signals, <clueType>decrease</clueType> LTR transcription, and inhibit viral replication.</clue>
+</event>
+<event id="E43">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="E35" />
+<clue>Mutations in these binding sites can interfere with the viral response to cell activation signals, <clueType>decrease</clueType> LTR transcription, and inhibit viral replication.</clue>
+</event>
+<event id="E44">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="E36" />
+<clue>Mutations in these binding sites can interfere with the viral response to cell activation signals, <clueType>decrease</clueType> LTR transcription, and inhibit viral replication.</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="E37" />
+<clue>Mutations in these binding sites can interfere with the viral response to cell activation signals, <clueType>decrease</clueType> LTR transcription, and inhibit viral replication.</clue>
+</event>
+<event id="E18">
+<type class="Transcription" />
+<theme idref="T36" />
+<clue>Mutations in these binding sites can interfere with the viral response to cell activation signals, decrease LTR <clueType>transcription</clueType>, and inhibit viral replication.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation" />
+<theme idref="T37" />
+<cause idref="E14" />
+<clue>Mutations in these binding sites can interfere with the viral response to cell activation signals, decrease LTR transcription, and <clueType>inhibit</clueType> viral replication.</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation" />
+<theme idref="T37" />
+<cause idref="E34" />
+<clue>Mutations in these binding sites can interfere with the viral response to cell activation signals, decrease LTR transcription, and <clueType>inhibit</clueType> viral replication.</clue>
+</event>
+<event id="E47">
+<type class="Negative_regulation" />
+<theme idref="T37" />
+<cause idref="E35" />
+<clue>Mutations in these binding sites can interfere with the viral response to cell activation signals, decrease LTR transcription, and <clueType>inhibit</clueType> viral replication.</clue>
+</event>
+<event id="E48">
+<type class="Negative_regulation" />
+<theme idref="E51" />
+<cause idref="E36" />
+<clue>Mutations in these binding sites can interfere with the viral response to cell activation signals, decrease LTR transcription, and <clueType>inhibit</clueType> viral replication.</clue>
+</event>
+<event id="E49">
+<type class="Negative_regulation" />
+<theme idref="E51" />
+<cause idref="E37" />
+<clue>Mutations in these binding sites can interfere with the viral response to cell activation signals, decrease LTR transcription, and <clueType>inhibit</clueType> viral replication.</clue>
+</event>
+<event id="E51">
+<type class="Viral_life_cycle" />
+<theme idref="T24" />
+<clue>Mutations in these binding sites can interfere with the viral response to cell activation signals, decrease LTR transcription, and inhibit <corefTheme>viral</corefTheme> <clueType>replication</clueType>.</clue>
+</event>
+<sentence id="S8">The <term sem="DNA_domain_or_region" id="T38" lex="5&apos;-UTR">5&apos;-UTR</term> also interacts with a specific <term sem="Protein_complex" id="T39" lex="nucleosome">nucleosome</term> that is rapidly displaced during <term sem="Other" id="T40" lex="transcriptional_activation">transcriptional activation</term> of the <term sem="Virus" id="T41" lex="latent_proviru">latent provirus</term>.</sentence>
+<event id="E20">
+<type class="Binding" />
+<theme idref="T38" />
+<theme idref="T39" />
+<clue>The 5&apos;-UTR also <clueType>interacts</clueType> <linkTheme>with</linkTheme> a specific nucleosome that is rapidly displaced during transcriptional activation of the latent provirus.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="T39" />
+<cause idref="E22" />
+<clue>The 5&apos;-UTR also interacts with a specific nucleosome that is rapidly <clueType>displaced</clueType> <linkCause>during</linkCause> transcriptional activation of the latent provirus.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<clue>The 5&apos;-UTR also interacts with a specific nucleosome that is rapidly displaced during <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> the latent provirus.</clue>
+</event>
+<sentence id="S9">We propose that the <term sem="DNA_domain_or_region" id="T42" lex="inducible_transcription_factor_binding_site">inducible transcription factor <term sem="DNA_domain_or_region" id="T43" lex="binding_site">binding sites</term></term> in the <term sem="DNA_domain_or_region" id="T44" lex="5&apos;-UTR">5&apos;-UTR</term> comprise a <term sem="DNA_domain_or_region" id="T45" lex="downstream_enhancer_domain">downstream enhancer domain</term> that can function independent of, or in concert with, the <term sem="DNA_domain_or_region" id="T46" lex="LTR_promoter"><term sem="DNA_domain_or_region" id="T47" lex="LTR">LTR</term> promoter</term> to rapidly increase latent <term sem="Other" id="A3"><term sem="Virus" id="A10">proviral</term> transcription</term> in response to <term sem="Other" id="T48" lex="cell_activation_signal">cell activation signals</term>.</sentence>
+<event id="E23">
+<type class="Binding" />
+<theme idref="T45" />
+<clue>We propose that the inducible transcription factor binding sites in the 5&apos;-UTR comprise a downstream enhancer domain that can <clueType>function</clueType> independent of, or in concert with, the LTR promoter to rapidly increase latent proviral transcription in response to cell activation signals.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E24">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="T46" />
+<clue>We propose that the inducible transcription factor binding sites in the 5&apos;-UTR comprise a downstream enhancer domain that can function <clueType>independent</clueType> <linkCause>of</linkCause>, or in concert with, the LTR promoter to rapidly increase latent proviral transcription in response to cell activation signals.</clue>
+</event>
+<event uncertainty="probable" id="E25">
+<type class="Correlation" />
+<theme idref="E23" />
+<theme idref="T46" />
+<clue>We propose that the inducible transcription factor binding sites in the 5&apos;-UTR comprise a downstream enhancer domain that can function independent of, or <linkTheme>in concert with</linkTheme>, the LTR promoter to rapidly increase latent proviral transcription in response to cell activation signals.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E24" />
+<clue>We propose that the inducible transcription factor binding sites in the 5&apos;-UTR comprise a downstream enhancer domain that can function independent of, or in concert with, the LTR promoter to rapidly <clueType>increase</clueType> latent proviral transcription in response to cell activation signals.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="E25" />
+<clue>We propose that the inducible transcription factor binding sites in the 5&apos;-UTR comprise a downstream enhancer domain that can function independent of, or in concert with, the LTR promoter to rapidly <clueType>increase</clueType> latent proviral transcription in response to cell activation signals.</clue>
+</event>
+<event id="E28">
+<type class="Regulation" />
+<theme idref="E52" />
+<cause idref="T48" />
+<clue>We propose that the inducible transcription factor binding sites in the 5&apos;-UTR comprise a downstream enhancer domain that can function independent of, or in concert with, the LTR promoter to rapidly increase latent proviral transcription <linkCause>in response to</linkCause> cell activation signals.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E52">
+<type class="Transcription" />
+<theme idref="A10" />
+<clue>We propose that the inducible transcription factor binding sites in the 5&apos;-UTR comprise a downstream enhancer domain that can function independent of, or in concert with, the LTR promoter to rapidly increase latent proviral <clueType>transcription</clueType> in response to cell activation signals.</clue>
+</event>
+<sentence id="S10">In this review, we describe the <term sem="Protein_family_or_group" id="T49" lex="host-cell_transcription_factor">host-cell <term sem="Protein_family_or_group" id="T50" lex="transcription_factor">transcription factors</term></term> that interact with the <term sem="DNA_domain_or_region" id="T51" lex="5&apos;-UTR">5&apos;-UTR</term> and discuss their role in the <term sem="Other" id="T52" lex="transcriptional_regulation">transcriptional regulation</term> of <term sem="Other" id="T53" lex="HIV-1_gene_expression"><term sem="DNA_domain_or_region" id="A4"><term sem="Virus" id="T54" lex="HIV-1">HIV-1</term> gene</term> expression</term>.</sentence>
+<event id="E29">
+<type class="Binding" />
+<theme idref="T50" />
+<theme idref="T51" />
+<clue>In this review, we describe the host-cell transcription factors that <clueType>interact</clueType> <linkTheme>with</linkTheme> the 5&apos;-UTR and discuss their role in the transcriptional regulation of HIV-1 gene expression.</clue>
+</event>
+<event uncertainty="doubtful" id="E30">
+<type class="Regulation" />
+<theme idref="E31" />
+<cause idref="E29" />
+<clue>In this review, we describe the host-cell transcription factors that interact with the 5&apos;-UTR and discuss <corefCause>their</corefCause> <clueType>role</clueType> <linkTheme>in</linkTheme> the transcriptional regulation of HIV-1 gene expression.</clue>
+</event>
+<event id="E31">
+<type class="Regulation" />
+<theme idref="E32" />
+<clue>In this review, we describe the host-cell transcription factors that interact with the 5&apos;-UTR and discuss their role in the <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> HIV-1 gene expression.</clue>
+</event>
+<event id="E32">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>In this review, we describe the host-cell transcription factors that interact with the 5&apos;-UTR and discuss their role in the transcriptional regulation of HIV-1 gene <clueType>expression</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

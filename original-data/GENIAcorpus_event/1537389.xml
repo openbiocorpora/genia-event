@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="17/02/2007" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1537389" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1537389</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="interleukin_6-induced_differentiation"><term sem="Protein_molecule" id="A1">Interleukin 6</term>-induced differentiation</term> of a <term sem="Cell_cultured" id="T2" lex="human_B_cell_line">human B cell line</term> into <term sem="Cell_natural" id="T3" lex="IgM-secreting_plasma_cell">IgM-secreting plasma cells</term> is mediated by <term sem="DNA_domain_or_region" id="T4" lex="c-fos">c-fos</term>.</sentence>
+<event id="E1">
+<type class="Cell_differentiation" />
+<theme idref="T2" />
+<theme idref="T3" />
+<clue>Interleukin 6-induced <clueType>differentiation</clueType> <linkTheme>of</linkTheme> a human B cell line into IgM-secreting plasma cells is mediated by c-fos.</clue>
+</event>
+<event id="E101">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="A1" />
+<clue>Interleukin 6-<clueType>induced</clueType> differentiation of a human B cell line into IgM-secreting plasma cells is mediated by c-fos.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E101" />
+<cause idref="T4" />
+<clue>Interleukin 6-induced differentiation of a human B cell line into IgM-secreting plasma cells is <clueType>mediated</clueType> <linkCause>by</linkCause> c-fos.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The role of the <term sem="DNA_domain_or_region" id="T5" lex="protooncogene_c-fos">protooncogene c-fos</term> in <term sem="Other" id="T6" lex="interleukin_(IL)_6-induced_B_cell_differentiation"><term sem="Protein_molecule" id="T7" lex="interleukin_(IL)_6">interleukin (IL) 6</term>-induced <term sem="Cell_natural" id="A2">B cell</term> differentiation</term> was assessed.</sentence>
+<event id="E3">
+<type class="Cell_differentiation" />
+<theme idref="A2" />
+<clue>The role of the protooncogene c-fos in interleukin (IL) 6-induced B cell <clueType>differentiation</clueType> was assessed.</clue>
+</event>
+<event id="E103">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T7" />
+<clue>The role of the protooncogene c-fos in interleukin (IL) 6-<clueType>induced</clueType> B cell differentiation was assessed.</clue>
+</event>
+<event uncertainty="probable" id="E4">
+<type class="Regulation" />
+<theme idref="E2" />
+<cause idref="T5" />
+<clue>The <clueType>role</clueType> <linkCause>of</linkCause> the protooncogene c-fos <linkTheme>in</linkTheme> interleukin (IL) 6-induced B cell differentiation was assessed.</clue>
+</event>
+<sentence id="S3">Treatment of <term sem="Cell_cultured" id="A3">SKW 6.4 cells</term> with <term sem="Protein_molecule" id="T8" lex="IL_6">IL 6</term> induced a transient and early stimulation of <term sem="Other" id="T9" lex="c-fos_sense_mRNA_expression"><term sem="RNA_molecule" id="T10" lex="c-fos_sense_mRNA">c-fos sense mRNA</term> expression</term>.</sentence>
+<event id="E5">
+<type class="Artificial_process" />
+<theme idref="A3" />
+<theme idref="T8" />
+<clue><clueType>Treatment</clueType> <linkTheme>of</linkTheme> SKW 6.4 cells <linkTheme>with</linkTheme> IL 6 induced a transient and early stimulation of c-fos sense mRNA expression.</clue>
+</event>
+<event id="E6">
+<type class="Transcription" />
+<theme idref="T10" />
+<clue>Treatment of SKW 6.4 cells with IL 6 induced a transient and early stimulation of c-fos sense mRNA <clueType>expression</clueType>.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="E5" />
+<clue>Treatment of SKW 6.4 cells with IL 6 induced a transient and early <clueType>stimulation</clueType> <linkTheme>of</linkTheme> c-fos sense mRNA expression.</clue>
+</event>
+<sentence id="S4">The effect appeared within 30 min and returned to basal levels after 2 h.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<clue><corefTheme>The effect</corefTheme> <clueType>appeared</clueType> <clueTime>within 30 min</clueTime> and returned to basal levels after 2 h.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="E7" />
+<clue>The effect appeared within 30 min and <clueType>returned</clueType> to basal levels <clueTime>after 2 h.</clueTime></clue>
+</event>
+<sentence id="S5">The addition of <term sem="Polynucleotide" id="A6"><term sem="Polynucleotide" id="T11" lex="antisense_oligonucleotide">antisense oligonucleotides</term> to <term sem="DNA_domain_or_region" id="T12" lex="c-fos">c-fos</term></term> significantly inhibited <term sem="Other" id="T13" lex="IL_6-induced_IgM_production"><term sem="Protein_molecule" id="T14" lex="IL_6">IL 6</term>-induced <term sem="Protein_family_or_group" id="T15" lex="IgM">IgM</term> production</term> by <term sem="Cell_cultured" id="T16" lex="SKW_6.4_cell">SKW 6.4 cells</term> (p less than 0.001), whereas <term sem="Polynucleotide" id="T17" lex="control_oligonucleotide">control oligonucleotides</term> had no inhibitory effect.</sentence>
+<event id="E10">
+<type class="Artificial_process" />
+<theme idref="A6" />
+<clue>The <clueType>addition</clueType> <linkTheme>of</linkTheme> antisense oligonucleotides to c-fos significantly inhibited IL 6-induced IgM production by SKW 6.4 cells (p less than 0.001), whereas control oligonucleotides had no inhibitory effect.</clue>
+<comment>TPS: A6</comment>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>The addition of antisense oligonucleotides to c-fos significantly inhibited IL 6-induced IgM <clueType>production</clueType> by SKW 6.4 cells (p less than 0.001), whereas control oligonucleotides had no inhibitory effect.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T15" />
+<clue>The addition of antisense oligonucleotides to c-fos significantly inhibited IL 6-<clueType>induced</clueType> IgM production <clueLoc>by SKW 6.4 cells</clueLoc> (p less than 0.001), whereas control oligonucleotides had no inhibitory effect.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="E10" />
+<clue>The addition of antisense oligonucleotides to c-fos significantly <clueType>inhibited</clueType> IL 6-induced IgM production by SKW 6.4 cells (p less than 0.001), whereas control oligonucleotides had no inhibitory effect.</clue>
+</event>
+<event id="E14">
+<type class="Artificial_process" />
+<theme idref="T17" />
+<clue>The <clueType>addition</clueType> <linkTheme>of</linkTheme> antisense oligonucleotides to c-fos significantly inhibited IL 6-induced IgM production by SKW 6.4 cells (p less than 0.001), whereas control oligonucleotides had no inhibitory effect.</clue>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="E14" />
+<clue>The addition of antisense oligonucleotides to c-fos significantly inhibited IL 6-induced IgM production by SKW 6.4 cells (p less than 0.001), whereas control oligonucleotides had no <clueType>inhibitory effect</clueType>.</clue>
+</event>
+<sentence id="S6">These results indicate that activation of <term sem="DNA_domain_or_region" id="T18" lex="c-fos">c-fos</term> is involved in <term sem="Other" id="T19" lex="IL_6-induced_differentiation"><term sem="Protein_molecule" id="T20" lex="IL_6">IL 6</term>-induced differentiation</term> of <term sem="Cell_cultured" id="T21" lex="SKW_6.4_cell">SKW 6.4 cells</term> into <term sem="Cell_cultured" id="T22" lex="IgM-secreting_cell">IgM-secreting cells</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T18" />
+<clue>These results indicate that <clueType>activation</clueType> <linkTheme>of</linkTheme> c-fos is involved in IL 6-induced differentiation of SKW 6.4 cells into IgM-secreting cells.</clue>
+</event>
+<event id="E17">
+<type class="Cell_differentiation" />
+<theme idref="T21" />
+<theme idref="T22" />
+<clue>These results indicate that activation of c-fos is involved in IL 6-induced <clueType>differentiation</clueType> <linkTheme>of</linkTheme> SKW 6.4 cells <linkTheme>into</linkTheme> IgM-secreting cells.</clue>
+</event>
+<event id="E107">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T20" />
+<clue>These results indicate that activation of c-fos is involved in IL 6-<clueType>induced</clueType> differentiation of SKW 6.4 cells into IgM-secreting cells.</clue>
+</event>
+<event id="E18">
+<type class="Correlation" />
+<theme idref="E16" />
+<theme idref="E107" />
+<clue>These results indicate that activation of c-fos is <clueType>involved</clueType> <linkTheme>in</linkTheme> IL 6-induced differentiation of SKW 6.4 cells into IgM-secreting cells.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

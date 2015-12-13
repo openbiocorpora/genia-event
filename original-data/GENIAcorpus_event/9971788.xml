@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="28/05/06" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9971788" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9971788</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">High-level replication of <term sem="Virus" id="T1" lex="human_immunodeficiency_virus">human immunodeficiency virus</term> in <term sem="Cell_natural" id="T2" lex="thymocyte">thymocytes</term> requires <term sem="Other" id="T3" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T4" lex="NF-kappaB">NF-kappaB</term> activation</term> through interaction with <term sem="Cell_natural" id="T5" lex="thymic_epithelial_cell">thymic epithelial cells</term>.</sentence>
+<event id="E1">
+<type class="Viral_life_cycle" />
+<theme idref="T1" />
+<clue>High-level <clueType>replication</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus <clueLoc>in thymocytes</clueLoc> requires NF-kappaB activation through interaction with thymic epithelial cells.</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<clue><clueType>High-level</clueType> replication of human immunodeficiency virus in thymocytes requires NF-kappaB activation through interaction with thymic epithelial cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T4" />
+<cause idref="E3" />
+<clue>High-level replication of human immunodeficiency virus in thymocytes requires NF-kappaB <clueType>activation</clueType> <linkCause>through</linkCause> interaction with thymic epithelial cells.</clue>
+</event>
+<event id="E3">
+<type class="Cell_adhesion" />
+<theme idref="T2" />
+<theme idref="T5" />
+<clue>High-level replication of human immunodeficiency virus in thymocytes requires NF-kappaB activation through <clueType>interaction</clueType> <linkTheme>with</linkTheme> thymic epithelial cells.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E47" />
+<cause idref="E2" />
+<clue>High-level replication of human immunodeficiency virus in thymocytes <clueType>requires</clueType> NF-kappaB activation through interaction with thymic epithelial cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We have previously demonstrated that interaction of <term sem="Cell_cultured" id="A6">infected <term sem="Cell_natural" id="T6" lex="thymocyte">thymocytes</term></term> with autologous <term sem="Cell_natural" id="T7" lex="thymic_epithelial_cell">thymic epithelial cells</term> (<term sem="Cell_natural" id="T8" lex="TEC">TEC</term>) is a prerequisite for a high level of <term sem="Virus" id="T9" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> (<term sem="Virus" id="A1">HIV-1</term>) replication in <term sem="Cell_natural" id="T10" lex="thymocyte">thymocytes</term> (M.Rothe, L.Chene, M.Nugeyre, F.Barre-Sinoussi, and N.Israel, J.Virol.72:5852-5861, 1998).</sentence>
+<event id="E5">
+<type class="Cell_adhesion" />
+<theme idref="A6" />
+<theme idref="T8" />
+<clue>We have previously demonstrated that <clueType>interaction</clueType> <linkTheme>of</linkTheme> infected thymocytes <linkTheme>with</linkTheme> autologous thymic epithelial cells (TEC) is a prerequisite for a high level of human immunodeficiency virus type 1 (HIV-1) replication in thymocytes (M.Rothe, L.Chene, M.Nugeyre, F.Barre-Sinoussi, and N.Israel, J.Virol.72:5852-5861, 1998).</clue>
+</event>
+<event id="E6">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T6" />
+<theme idref="A1" />
+<clue>We have previously demonstrated that interaction of <clueType>infected</clueType> thymocytes with autologous thymic epithelial cells (TEC) is a prerequisite for a high level of human immunodeficiency virus type 1 (HIV-1) replication in thymocytes (M.Rothe, L.Chene, M.Nugeyre, F.Barre-Sinoussi, and N.Israel, J.Virol.72:5852-5861, 1998).</clue>
+<comment>NO COREFTHEME for A1</comment>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E48" />
+<cause idref="E5" />
+<clue>We have previously demonstrated that interaction of infected thymocytes with autologous thymic epithelial cells (TEC) is a <clueType>prerequisite</clueType> <linkTheme>for</linkTheme> a high level of human immunodeficiency virus type 1 (HIV-1) replication in thymocytes (M.Rothe, L.Chene, M.Nugeyre, F.Barre-Sinoussi, and N.Israel, J.Virol.72:5852-5861, 1998).</clue>
+</event>
+<event id="E8">
+<type class="Viral_life_cycle" />
+<theme idref="A1" />
+<clue>We have previously demonstrated that interaction of infected thymocytes with autologous thymic epithelial cells (TEC) is a prerequisite for a high level of human immunodeficiency virus type 1 (HIV-1) <clueType>replication</clueType> <clueLoc>in thymocytes</clueLoc> (M.Rothe, L.Chene, M.Nugeyre, F.Barre-Sinoussi, and N.Israel, J.Virol.72:5852-5861, 1998).</clue>
+<comment>NER: T9 mod</comment>
+</event>
+<event id="E48">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<clue>We have previously demonstrated that interaction of infected thymocytes with autologous thymic epithelial cells (TEC) is a prerequisite for a <clueType>high level</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus type 1 (HIV-1) replication in thymocytes (M.Rothe, L.Chene, M.Nugeyre, F.Barre-Sinoussi, and N.Israel, J.Virol.72:5852-5861, 1998).</clue>
+</event>
+<sentence id="S3">We report here that this activation of <term sem="Other" id="T11" lex="HIV_replication"><term sem="Virus" id="A2">HIV</term> replication</term> takes place at the transcriptional level through activation of the <term sem="Protein_molecule" id="T12" lex="Rel/NF-kappaB">Rel/<term sem="Protein_complex" id="T13" lex="NF-kappaB">NF-kappaB</term></term> <term sem="Protein_family_or_group" id="T14" lex="transcription_factor">transcription factors</term>.</sentence>
+<event id="E9">
+<type class="Viral_life_cycle" />
+<theme idref="A2" />
+<clue>We report here that this activation of HIV <clueType>replication</clueType> takes place at the transcriptional level through activation of the Rel/NF-kappaB transcription factors.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E11" />
+<clue>We report here that this <clueType>activation</clueType> <linkTheme>of</linkTheme> HIV replication takes place <clueType>at the transcriptional level</clueType> <linkCause>through</linkCause> activation of the Rel/NF-kappaB transcription factors.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T12" />
+<clue>We report here that this activation of HIV replication takes place at the transcriptional level through <clueType>activation</clueType> <linkTheme>of</linkTheme> the Rel/NF-kappaB transcription factors.</clue>
+</event>
+<sentence id="S4">We first demonstrate that an <term sem="Virus" id="T15" lex="HIV-1_provirus">HIV-1 provirus</term> (<term sem="Virus" id="T16" lex="SF-2_strain">SF-2 strain</term>) very effectively replicates in <term sem="Cell_natural" id="T17" lex="thymocyte">thymocytes</term> cocultured with <term sem="Cell_natural" id="T18" lex="TEC">TEC</term> whereas this <term sem="Virus" id="T19" lex="provirus">provirus</term>, with <term sem="DNA_domain_or_region" id="T20" lex="kappaB_site">kappaB sites</term> deleted, fails to replicate.</sentence>
+<event id="E12">
+<type class="Viral_life_cycle" />
+<theme idref="T16" />
+<clue>We first demonstrate that an HIV-1 provirus (SF-2 strain) very effectively <clueType>replicates</clueType> <clueLoc>in thymocytes cocultured with TEC</clueLoc> whereas this provirus, with kappaB sites deleted, fails to replicate.</clue>
+</event>
+<event id="E13">
+<type class="Mutagenesis" />
+<theme idref="T15" />
+<clue>We first demonstrate that an HIV-1 provirus (SF-2 strain) very effectively replicates in thymocytes cocultured with TEC whereas this provirus, with kappaB sites <clueType>deleted</clueType>, fails to replicate.</clue>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Viral_life_cycle" />
+<theme idref="T16" />
+<clue>We first demonstrate that an HIV-1 provirus (SF-2 strain) very effectively replicates in thymocytes cocultured with TEC whereas <corefTheme>this provirus</corefTheme>, with kappaB sites deleted, fails to <clueType>replicate</clueType>.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="E13" />
+<clue>We first demonstrate that an HIV-1 provirus (SF-2 strain) very effectively replicates in thymocytes cocultured with TEC whereas this provirus, <linkCause>with</linkCause> kappaB sites deleted, fails to replicate.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E16">
+<type class="Artificial_process" />
+<theme idref="T17" />
+<theme idref="T18" />
+<clue>We first demonstrate that an HIV-1 provirus (SF-2 strain) very effectively replicates in thymocytes <clueType>cocultured</clueType> <linkTheme>with</linkTheme> TEC whereas this provirus, with kappaB sites deleted, fails to replicate.</clue>
+</event>
+<sentence id="S5">We provide evidence that several <term sem="Protein_complex" id="T21" lex="NF-kappaB_complex"><term sem="Protein_complex" id="T22" lex="NF-kappaB">NF-kappaB</term> complexes</term> are constitutively found in the <term sem="Cell_component" id="T23" lex="nucleus">nuclei</term> of <term sem="Cell_natural" id="T24" lex="thymocyte">thymocytes</term> either freshly isolated from the thymus or maintained in coculture with autologous or heterologous <term sem="Cell_natural" id="T25" lex="TEC">TEC</term>.</sentence>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>We provide evidence that several NF-kappaB complexes are constitutively <clueType>found</clueType> <clueLoc>in the nuclei of thymocytes</clueLoc> either <clueLoc>freshly isolated from the thymus</clueLoc> or maintained in coculture with autologous or heterologous TEC.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>We provide evidence that several NF-kappaB complexes are constitutively <clueType>found</clueType> <clueLoc>in the nuclei of thymocytes</clueLoc> either freshly isolated from the thymus or <clueLoc>maintained in coculture with autologous</clueLoc> or heterologous <clueLoc>TEC</clueLoc>.</clue>
+</event>
+<event id="E50">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>We provide evidence that several NF-kappaB complexes are constitutively <clueType>found</clueType> <clueLoc>in the nuclei of thymocytes</clueLoc> either freshly isolated from the thymus or <clueLoc>maintained in coculture with</clueLoc> autologous or <clueLoc>heterologous TEC</clueLoc>.</clue>
+</event>
+<event id="E19">
+<type class="Artificial_process" />
+<theme idref="T24" />
+<theme idref="T25" />
+<clue>We provide evidence that several NF-kappaB complexes are constitutively found in the nuclei of thymocytes either freshly isolated from the thymus or maintained in <clueType>coculture</clueType> <linkTheme>with</linkTheme> autologous or heterologous TEC.</clue>
+</event>
+<sentence id="S6">The prevalent complex is the <term sem="Protein_complex" id="T26" lex="heterodimer_p50-p65">heterodimer p50-p65</term>.</sentence>
+<sentence id="S7"><term sem="Other" id="T27" lex="NF-kappaB_activity"><term sem="Protein_complex" id="T63" lex="NF-kappaB">NF-kappaB</term> activity</term> is tightly correlated with the <term sem="Other" id="T61" lex="transcriptional_activity">transcriptional activity</term> of a <term sem="DNA_domain_or_region" id="T28" lex="long_terminal_repeat">long terminal repeat</term> (<term sem="DNA_domain_or_region" id="T29" lex="LTR">LTR</term>) of <term sem="Virus" id="T60" lex="HIV-1">HIV-1</term> transfected in <term sem="Cell_natural" id="T30" lex="thymocyte">thymocytes</term>.</sentence>
+<event id="E21">
+<type class="Correlation" />
+<theme idref="T27" />
+<theme idref1="T29" idref="T61" />
+<clue>NF-kappaB activity is tightly <clueType>correlated</clueType> <linkTheme>with</linkTheme> the transcriptional activity of a long terminal repeat (LTR) of HIV-1 transfected in thymocytes.</clue>
+</event>
+<event id="E22">
+<type class="Artificial_process" />
+<theme idref="T29" />
+<theme idref="T30" />
+<clue>NF-kappaB activity is tightly correlated with the transcriptional activity of a long terminal repeat (LTR) of HIV-1 <clueType>transfected</clueType> <linkTheme>in</linkTheme> thymocytes.</clue>
+</event>
+<sentence id="S8">The cotransfection of this <term sem="DNA_domain_or_region" id="T31" lex="LTR">LTR</term> with a <term sem="Protein_molecule" id="A8">mutated <term sem="Protein_molecule" id="T32" lex="IkappaBalpha_molecule">IkappaBalpha molecule</term></term> formally demonstrates that <term sem="Other" id="T33" lex="LTR_transactivation"><term sem="DNA_domain_or_region" id="T34" lex="LTR">LTR</term> transactivation</term> is regulated by members of the <term sem="Protein_family_or_group" id="T35" lex="Rel/NF-kappaB_family">Rel/<term sem="Protein_complex" id="T36" lex="NF-kappaB">NF-kappaB</term> family</term> in <term sem="Cell_natural" id="T37" lex="thymocyte">thymocytes</term>.</sentence>
+<event id="E51">
+<type class="Gene_expression" />
+<theme idref="T31" />
+<clue>The <clueType>cotransfection</clueType> <linkTheme>of</linkTheme> this LTR with a mutated IkappaBalpha molecule formally demonstrates that LTR transactivation is regulated by members of the Rel/NF-kappaB family in thymocytes.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E52">
+<type class="Gene_expression" />
+<theme idref="A8" />
+<clue>The <clueType>cotransfection</clueType> of this LTR <linkTheme>with</linkTheme> a mutated IkappaBalpha molecule formally demonstrates that LTR transactivation is regulated by members of the Rel/NF-kappaB family in thymocytes.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E53">
+<type class="Positive_regulation" />
+<theme idref="E51" />
+<clue>The <clueType>cotransfection</clueType> <linkTheme>of</linkTheme> this LTR with a mutated IkappaBalpha molecule formally demonstrates that LTR transactivation is regulated by members of the Rel/NF-kappaB family in thymocytes.</clue>
+</event>
+<event id="E54">
+<type class="Positive_regulation" />
+<theme idref="E52" />
+<clue>The <clueType>cotransfection</clueType> of this LTR <linkTheme>with</linkTheme> a mutated IkappaBalpha molecule formally demonstrates that LTR transactivation is regulated by members of the Rel/NF-kappaB family in thymocytes.</clue>
+</event>
+<event id="E24">
+<type class="Mutagenesis" />
+<theme idref="T32" />
+<clue>The cotransfection of this LTR with a <clueType>mutated</clueType> IkappaBalpha molecule formally demonstrates that LTR transactivation is regulated by members of the Rel/NF-kappaB family in thymocytes.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<clue>The <clueExperiment>cotransfection of this LTR with a mutated IkappaBalpha molecule</clueExperiment> formally demonstrates that LTR <clueType>transactivation</clueType> is regulated by members of the Rel/NF-kappaB family in thymocytes.</clue>
+</event>
+<event id="E26">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="T35" />
+<clue>The cotransfection of this LTR with a mutated IkappaBalpha molecule formally demonstrates that LTR transactivation is <clueType>regulated</clueType> <linkCause>by</linkCause> members of the Rel/NF-kappaB family <clueLoc>in thymocytes</clueLoc>.</clue>
+</event>
+<sentence id="S9">We also showed that <term sem="Protein_family_or_group" id="T38" lex="tumor_necrosis_factor">tumor necrosis factor</term> (<term sem="Protein_family_or_group" id="T39" lex="TNF">TNF</term>) and to a lesser extent <term sem="Protein_molecule" id="T40" lex="interleukin-1">interleukin-1</term> (<term sem="Protein_molecule" id="T41" lex="IL-1">IL-1</term>), secreted within the coculture, induce <term sem="Other" id="T42" lex="NF-kappaB_activity"><term sem="Protein_complex" id="T43" lex="NF-kappaB">NF-kappaB</term> activity</term> and a correlative <term sem="Other" id="T44" lex="LTR_transactivation"><term sem="DNA_domain_or_region" id="T45" lex="LTR">LTR</term> transactivation</term>.</sentence>
+<event id="E27">
+<type class="Localization" />
+<theme idref="T39" />
+<clue>We also showed that tumor necrosis factor (TNF) and to a lesser extent interleukin-1 (IL-1), <clueType>secreted</clueType> <clueLoc>within the coculture</clueLoc>, induce NF-kappaB activity and a correlative LTR transactivation.</clue>
+</event>
+<event id="E28">
+<type class="Localization" />
+<theme idref="T41" />
+<clue>We also showed that tumor necrosis factor (TNF) and to a lesser extent interleukin-1 (IL-1), <clueType>secreted</clueType> <clueLoc>within the coculture</clueLoc>, induce NF-kappaB activity and a correlative LTR transactivation.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<cause idref="E27" />
+<clue>We also showed that tumor necrosis factor (TNF) and to a lesser extent interleukin-1 (IL-1), secreted within the coculture, <clueType>induce</clueType> NF-kappaB activity and a correlative LTR transactivation.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="E27" />
+<clue>We also showed that tumor necrosis factor (TNF) and to a lesser extent interleukin-1 (IL-1), secreted within the coculture, <clueType>induce</clueType> NF-kappaB activity and a correlative LTR transactivation.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="T42" />
+<cause idref="E28" />
+<clue>We also showed that tumor necrosis factor (TNF) and to a lesser extent interleukin-1 (IL-1), secreted within the coculture, <clueType>induce</clueType> NF-kappaB activity and a correlative LTR transactivation.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="E33" />
+<cause idref="E28" />
+<clue>We also showed that tumor necrosis factor (TNF) and to a lesser extent interleukin-1 (IL-1), secreted within the coculture, <clueType>induce</clueType> NF-kappaB activity and a correlative LTR transactivation.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="T45" />
+<clue>We also showed that tumor necrosis factor (TNF) and to a lesser extent interleukin-1 (IL-1), secreted within the coculture, induce NF-kappaB activity and a correlative LTR <clueType>transactivation</clueType>.</clue>
+</event>
+<sentence id="S10">However <term sem="Protein_molecule" id="T46" lex="IL-7">IL-7</term>, a crucial factor for <term sem="Other" id="A4">thymopoiesis</term> that is secreted mainly by <term sem="Cell_natural" id="T47" lex="TEC">TEC</term>, is a necessary cofactor for <term sem="Other" id="T48" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T49" lex="NF-kappaB">NF-kappaB</term> activation</term> elicited by <term sem="Protein_family_or_group" id="T50" lex="TNF">TNF</term> or <term sem="Protein_molecule" id="T51" lex="IL-1">IL-1</term>.</sentence>
+<event id="E34">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="T46" />
+<clue>However IL-7, a <clueType>crucial</clueType> factor <linkTheme>for</linkTheme> thymopoiesis that is secreted mainly by TEC, is a necessary cofactor for NF-kappaB activation elicited by TNF or IL-1.</clue>
+</event>
+<event id="E35">
+<type class="Localization" />
+<theme idref="T46" />
+<clue>However IL-7, a crucial factor for thymopoiesis that is <clueType>secreted</clueType> mainly <clueLoc>by TEC</clueLoc>, is a necessary cofactor for NF-kappaB activation elicited by TNF or IL-1.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="T49" />
+<cause idref="T50" />
+<clue>However IL-7, a crucial factor for thymopoiesis that is secreted mainly by TEC, is a necessary cofactor for NF-kappaB <clueType>activation</clueType> <linkCause>elicited by</linkCause> TNF or IL-1.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="T59" />
+<cause idref="T51" />
+<clue>However IL-7, a crucial factor for thymopoiesis that is secreted mainly by TEC, is a necessary cofactor for NF-kappaB <clueType>activation</clueType> <linkCause>elicited by</linkCause> TNF or IL-1.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="T46" />
+<clue>However IL-7, a crucial factor for thymopoiesis that is secreted mainly by TEC, is a <clueType>necessary</clueType> cofactor <linkTheme>for</linkTheme> NF-kappaB activation elicited by TNF or IL-1.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T46" />
+<clue>However IL-7, a crucial factor for thymopoiesis that is secreted mainly by TEC, is a <clueType>necessary</clueType> cofactor <linkTheme>for</linkTheme> NF-kappaB activation elicited by TNF or IL-1.</clue>
+</event>
+<sentence id="S11">Together, these data indicate that <term sem="Other" id="T52" lex="NF-kappaB_activation"><term sem="Protein_complex" id="T53" lex="NF-kappaB">NF-kappaB</term> activation</term>, required for a high level of <term sem="Other" id="T54" lex="HIV_replication"><term sem="Virus" id="A5">HIV</term> replication</term> in <term sem="Cell_natural" id="T55" lex="thymocyte">thymocytes</term>, is regulated in a specific manner in the <term sem="Other" id="T56" lex="thymic_microenvironment">thymic microenvironment</term> which provides the necessary cytokines: <term sem="Protein_family_or_group" id="T57" lex="TNF">TNF</term>, <term sem="Protein_molecule" id="T58" lex="IL-1">IL-1</term>, and <term sem="Protein_molecule" id="T59" lex="IL-7">IL-7</term>.</sentence>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="T53" />
+<clue>Together, these data indicate that NF-kappaB <clueType>activation</clueType>, required for a high level of HIV replication in thymocytes, is regulated in a specific manner in the thymic microenvironment which provides the necessary cytokines: TNF, IL-1, and IL-7.</clue>
+</event>
+<event id="E41">
+<type class="Positive_regulation" />
+<theme idref="E49" />
+<cause idref="E40" />
+<clue>Together, these data indicate that NF-kappaB activation, <clueType>required</clueType> <linkTheme>for</linkTheme> a high level of HIV replication in thymocytes, is regulated in a specific manner in the thymic microenvironment which provides the necessary cytokines: TNF, IL-1, and IL-7.</clue>
+</event>
+<event id="E42">
+<type class="Viral_life_cycle" />
+<theme idref="A5" />
+<clue>Together, these data indicate that NF-kappaB activation, required for a high level of HIV <clueType>replication</clueType> <clueLoc>in thymocytes</clueLoc>, is regulated in a specific manner in the thymic microenvironment which provides the necessary cytokines: TNF, IL-1, and IL-7.</clue>
+</event>
+<event id="E49">
+<type class="Positive_regulation" />
+<theme idref="E42" />
+<clue>Together, these data indicate that NF-kappaB activation, required for a <clueType>high level</clueType> <linkTheme>of</linkTheme> HIV replication in thymocytes, is regulated in a specific manner in the thymic microenvironment which provides the necessary cytokines: TNF, IL-1, and IL-7.</clue>
+</event>
+<event id="E43">
+<type class="Regulation" />
+<theme idref="E40" />
+<clue>Together, these data indicate that NF-kappaB activation, required for a high level of HIV replication in thymocytes, is <clueType>regulated</clueType> in a specific manner <clueLoc>in the thymic microenvironment</clueLoc> which provides the necessary cytokines: TNF, IL-1, and IL-7.</clue>
+</event>
+<event id="E44">
+<type class="Gene_expression" />
+<theme idref="T57" />
+<clue>Together, these data indicate that NF-kappaB activation, required for a high level of HIV replication in thymocytes, is regulated in a specific manner <clueLoc>in the thymic microenvironment</clueLoc> which <clueType>provides</clueType> the necessary cytokines: TNF, IL-1, and IL-7.</clue>
+</event>
+<event id="E45">
+<type class="Gene_expression" />
+<theme idref="T58" />
+<clue>Together, these data indicate that NF-kappaB activation, required for a high level of HIV replication in thymocytes, is regulated in a specific manner <clueLoc>in the thymic microenvironment</clueLoc> which <clueType>provides</clueType> the necessary cytokines: TNF, IL-1, and IL-7.</clue>
+</event>
+<event id="E46">
+<type class="Gene_expression" />
+<theme idref="T59" />
+<clue>Together, these data indicate that NF-kappaB activation, required for a high level of HIV replication in thymocytes, is regulated in a specific manner <clueLoc>in the thymic microenvironment</clueLoc> which <clueType>provides</clueType> the necessary cytokines: TNF, IL-1, and IL-7.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

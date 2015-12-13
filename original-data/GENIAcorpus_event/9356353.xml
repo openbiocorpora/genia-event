@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="17/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9356353" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9356353</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="TNFalpha">TNFalpha</term> cooperates with the <term sem="Other" id="T2" lex="protein_kinase_A_pathway"><term sem="Protein_molecule" id="T3" lex="protein_kinase_A">protein kinase A</term> pathway</term> to synergistically increase <term sem="Other" id="T4" lex="HIV-1_LTR_transcription"><term sem="DNA_domain_or_region" id="T5" lex="HIV-1_LTR"><term sem="Virus" id="T6" lex="HIV-1">HIV-1</term> LTR</term> transcription</term> via <term sem="DNA_family_or_group" id="T7" lex="TRE-like_cAMP_response_element">downstream TRE-like cAMP response elements</term>.</sentence>
+<event id="E1">
+<type class="Correlation" />
+<theme idref="T1" />
+<theme idref="T2" />
+<clue>TNFalpha <clueType>cooperates</clueType> <linkTheme>with</linkTheme> the protein kinase A pathway to synergistically increase HIV-1 LTR transcription via downstream TRE-like cAMP response elements.</clue>
+<comment>NER T7 MOD</comment>
+</event>
+<event id="E2">
+<type class="Transcription" />
+<theme idref="T5" />
+<clue>TNFalpha cooperates with the protein kinase A pathway to synergistically increase HIV-1 LTR <clueType>transcription</clueType> via downstream TRE-like cAMP response elements.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T7" />
+<cause idref="E1" />
+<clue>TNFalpha cooperates with the protein kinase A pathway to <clueType>synergistically increase</clueType> HIV-1 LTR transcription <linkTheme>via</linkTheme> downstream TRE-like cAMP response elements.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E3" />
+<clue>TNFalpha cooperates with the protein kinase A pathway to <clueType>synergistically increase</clueType> HIV-1 LTR transcription <linkCause>via</linkCause> downstream TRE-like cAMP response elements.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T8" lex="activating_protein-1">Activating protein-1</term> (<term sem="Protein_molecule" id="T9" lex="AP-1">AP-1</term>) binding <term sem="DNA_family_or_group" id="T10" lex="TPA_responsive_element">TPA responsive elements</term> (<term sem="DNA_family_or_group" id="T11" lex="TRE">TRE</term>) are located downstream of the <term sem="DNA_domain_or_region" id="T12" lex="transcription_initiation_site">transcription initiation site</term> in the <term sem="DNA_domain_or_region" id="T13" lex="U5_region">U5 region</term> of the <term sem="DNA_domain_or_region" id="T14" lex="HIV-1_long_terminal_repeat"><term sem="Virus" id="T15" lex="HIV-1">HIV-1</term> long terminal repeat</term> (<term sem="DNA_domain_or_region" id="T16" lex="LTR">LTR</term>).</sentence>
+<event id="E5">
+<type class="Binding" />
+<theme idref="T9" />
+<theme idref="T10" />
+<clue>Activating protein-1 (AP-1) <clueType>binding</clueType> TPA responsive elements (TRE) are located downstream of the transcription initiation site in the U5 region of the HIV-1 long terminal repeat (LTR).</clue>
+</event>
+<sentence id="S3">These <term sem="DNA_family_or_group" id="T17" lex="downstream_sequence_element">downstream sequence elements</term>, termed <term sem="DNA_domain_or_region" id="T18" lex="DSE">DSE</term>, can bind both <term sem="Protein_molecule" id="T19" lex="AP-1">AP-1</term> and <term sem="Protein_molecule" id="T20" lex="CREB/ATF">CREB/ATF</term> <term sem="Protein_family_or_group" id="T21" lex="transcription_factor">transcription factors</term>.</sentence>
+<event id="E6">
+<type class="Binding" />
+<theme idref="T18" />
+<theme idref="T19" />
+<clue>These downstream sequence elements, termed DSE, can <clueType>bind</clueType> both AP-1 and CREB/ATF transcription factors.</clue>
+</event>
+<event id="E7">
+<type class="Binding" />
+<theme idref="T18" />
+<theme idref="T20" />
+<clue>These downstream sequence elements, termed DSE, can <clueType>bind</clueType> both AP-1 and CREB/ATF transcription factors.</clue>
+</event>
+<sentence id="S4">Recently, we demonstrated that the <term sem="DNA_domain_or_region" id="T22" lex="DSE">DSE</term> are also <term sem="DNA_family_or_group" id="T23" lex="cAMP-responsive_element">cAMP-responsive elements</term> (<term sem="DNA_family_or_group" id="T24" lex="CRE">CRE</term>), since they mediated activation signals elicited by <term sem="Protein_molecule" id="T25" lex="cholera_toxin">cholera toxin</term> (<term sem="Protein_molecule" id="T26" lex="Ctx">Ctx</term>), a potent activator of the <term sem="Other" id="T27" lex="cAMP-dependent_protein_kinase_A_(PKA)_signal_transduction_pathway"><term sem="Nucleotide" id="A1">cAMP</term>-dependent <term sem="Protein_molecule" id="T28" lex="protein_kinase_A">protein kinase A</term> (<term sem="Protein_molecule" id="T29" lex="PKA">PKA</term>) signal transduction pathway</term>.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<cause idref="T26" />
+<clue>Recently, we demonstrated that the DSE are also cAMP-responsive elements (CRE), since they mediated <clueType>activation signals</clueType> <linkCause>elicited by</linkCause> cholera toxin (Ctx), a potent activator of the cAMP-dependent protein kinase A (PKA) signal transduction pathway.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<cause idref="E8" />
+<clue>Recently, we demonstrated that the DSE are also cAMP-responsive elements (CRE), since <corefTheme>they</corefTheme> <clueType>mediated</clueType> activation signals elicited by cholera toxin (Ctx), a potent activator of the cAMP-dependent protein kinase A (PKA) signal transduction pathway.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T24" />
+<cause idref="E8" />
+<clue>Recently, we demonstrated that the DSE are also cAMP-responsive elements (CRE), since <corefTheme>they</corefTheme> <clueType>mediated</clueType> activation signals elicited by cholera toxin (Ctx), a potent activator of the cAMP-dependent protein kinase A (PKA) signal transduction pathway.</clue>
+</event>
+<event id="E11">
+<type class="Cell_communication" />
+<theme idref="T29" />
+<clue>Recently, we demonstrated that the DSE are also cAMP-responsive elements (CRE), since they mediated activation signals elicited by cholera toxin (Ctx), a potent activator of the cAMP-dependent protein kinase A (PKA) <clueType>signal transduction pathway</clueType>.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="A1" />
+<clue>Recently, we demonstrated that the DSE are also cAMP-responsive elements (CRE), since they mediated activation signals elicited by cholera toxin (Ctx), a potent activator of the cAMP-<clueType>dependent</clueType> protein kinase A (PKA) signal transduction pathway.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T26" />
+<clue>Recently, we demonstrated that the DSE are also cAMP-responsive elements (CRE), since they mediated activation signals elicited by cholera toxin (Ctx), a potent <clueType>activator</clueType> <linkTheme>of</linkTheme> the cAMP-dependent protein kinase A (PKA) signal transduction pathway.</clue>
+</event>
+<sentence id="S5">In the present study, we demonstrate that the <term sem="DNA_domain_or_region" id="T30" lex="HIV-1_DSE"><term sem="Virus" id="T31" lex="HIV-1">HIV-1</term> <term sem="DNA_domain_or_region" id="T32" lex="DSE">DSE</term></term> can mediate the transcriptional synergy elicited by the combination of <term sem="Protein_molecule" id="T33" lex="Ctx">Ctx</term> and <term sem="Protein_molecule" id="T34" lex="TNFalpha">TNFalpha</term>.</sentence>
+<event id="E14">
+<type class="Positive_regulation" />
+<cause idref="T33" />
+<cause idref="T34" />
+<clue>In the present study, we demonstrate that the HIV-1 DSE can mediate the <clueType>transcriptional synergy</clueType> <linkCause>elicited by the combination of</linkCause> Ctx and TNFalpha.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<cause idref="E14" />
+<clue>In the present study, we demonstrate that the HIV-1 DSE can <clueType>mediate</clueType> the transcriptional synergy elicited by the combination of Ctx and TNFalpha.</clue>
+</event>
+<sentence id="S6"><term sem="Protein_molecule" id="T35" lex="Ctx">Ctx</term> combined with <term sem="Protein_molecule" id="T36" lex="TNFalpha">TNFalpha</term> or <term sem="Protein_molecule" id="T37" lex="IL-1beta">IL-1beta</term> to produce a synergistic increase in <term sem="Other" id="T38" lex="p24_antigen_production"><term sem="Protein_molecule" id="T39" lex="p24_antigen">p24 antigen</term> production</term> in <term sem="Cell_cultured" id="T40" lex="U1_promonocytic_cell">U1 promonocytic cells</term>.</sentence>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T39" />
+<clue>Ctx combined with TNFalpha or IL-1beta to produce a synergistic increase in p24 antigen <clueType>production</clueType> <clueLoc>in U1 promonocytic cells</clueLoc>.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T35" />
+<cause idref="T36" />
+<clue>Ctx <linkCause>combined with</linkCause> TNFalpha or IL-1beta <clueType>to produce a synergistic increase</clueType> <linkTheme>in</linkTheme> p24 antigen production in U1 promonocytic cells.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T35" />
+<cause idref="T37" />
+<clue>Ctx <linkCause>combined with</linkCause> TNFalpha or IL-1beta <clueType>to produce a synergistic increase</clueType> <linkTheme>in</linkTheme> p24 antigen production in U1 promonocytic cells.</clue>
+</event>
+<sentence id="S7">Transfection studies of <term sem="DNA_family_or_group" id="T41" lex="LTR_reporter_construct">LTR reporter constructs</term> indicated that mutation of the <term sem="DNA_domain_or_region" id="T42" lex="DSE_sites"><term sem="DNA_domain_or_region" id="T43" lex="DSE">DSE</term> sites</term> abrogated the <term sem="Other" id="T44" lex="LTR-mediated_synergy"><term sem="DNA_domain_or_region" id="T45" lex="LTR">LTR</term>-mediated synergy</term> induced by <term sem="Protein_molecule" id="T46" lex="Ctx">Ctx</term> and <term sem="Protein_molecule" id="T47" lex="TNFalpha">TNFalpha</term>, whereas the synergy induced by <term sem="Protein_molecule" id="T48" lex="Ctx">Ctx</term> and <term sem="Protein_molecule" id="T49" lex="IL-1beta">IL-1beta</term> was unaffected, suggesting <term sem="Protein_molecule" id="T50" lex="TNFalpha">TNFalpha</term> and <term sem="Protein_molecule" id="T51" lex="IL-1beta">IL-1beta</term> cooperate differently with the <term sem="Other" id="T52" lex="cAMP/PKA_activation_pathway"><term sem="Nucleotide" id="T53" lex="cAMP">cAMP</term><term sem="Protein_molecule" id="T54" lex="PKA">/PKA</term> activation pathway</term> to induce <term sem="Virus" id="T55" lex="HIV-1">HIV-1</term> expression in <term sem="Cell_cultured" id="T56" lex="U1_cell">U1 cells</term>.</sentence>
+<event id="E19">
+<type class="Mutagenesis" />
+<theme idref="T42" />
+<clue>Transfection studies of LTR reporter constructs indicated that <clueType>mutation</clueType> <linkTheme>of</linkTheme> the DSE sites abrogated the LTR-mediated synergy induced by Ctx and TNFalpha, whereas the synergy induced by Ctx and IL-1beta was unaffected, suggesting TNFalpha and IL-1beta cooperate differently with the cAMP/PKA activation pathway to induce HIV-1 expression in U1 cells.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<cause idref="T46" />
+<cause idref="T47" />
+<clue>Transfection studies of LTR reporter constructs indicated that mutation of the DSE sites abrogated the LTR-mediated <clueType>synergy</clueType> <linkCause>induced by</linkCause> Ctx and TNFalpha, whereas the synergy induced by Ctx and IL-1beta was unaffected, suggesting TNFalpha and IL-1beta cooperate differently with the cAMP/PKA activation pathway to induce HIV-1 expression in U1 cells.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T45" />
+<cause idref="E20" />
+<clue>Transfection studies of LTR reporter constructs indicated that mutation of the DSE sites abrogated the LTR-<clueType>mediated</clueType> synergy induced by Ctx and TNFalpha, whereas the synergy induced by Ctx and IL-1beta was unaffected, suggesting TNFalpha and IL-1beta cooperate differently with the cAMP/PKA activation pathway to induce HIV-1 expression in U1 cells.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E21" />
+<cause idref="E19" />
+<clue><clueExperiment>Transfection studies of LTR reporter constructs</clueExperiment> indicated that mutation of the DSE sites <clueType>abrogated</clueType> the LTR-mediated synergy induced by Ctx and TNFalpha, whereas the synergy induced by Ctx and IL-1beta was unaffected, suggesting TNFalpha and IL-1beta cooperate differently with the cAMP/PKA activation pathway to induce HIV-1 expression in U1 cells.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<cause idref="T48" />
+<cause idref="T49" />
+<clue>Transfection studies of LTR reporter constructs indicated that mutation of the DSE sites abrogated the LTR-mediated synergy induced by Ctx and TNFalpha, whereas the <clueType>synergy</clueType> <linkCause>induced by</linkCause> Ctx and IL-1beta was unaffected, suggesting TNFalpha and IL-1beta cooperate differently with the cAMP/PKA activation pathway to induce HIV-1 expression in U1 cells.</clue>
+</event>
+<event assertion="non-exist" id="E24">
+<type class="Regulation" />
+<theme idref="E23" />
+<cause idref="E19" />
+<clue><clueExperiment>Transfection studies of LTR reporter constructs</clueExperiment> indicated that mutation of the DSE sites abrogated the LTR-mediated synergy induced by Ctx and TNFalpha, whereas the synergy induced by Ctx and IL-1beta was <clueType>unaffected</clueType>, suggesting TNFalpha and IL-1beta cooperate differently with the cAMP/PKA activation pathway to induce HIV-1 expression in U1 cells.</clue>
+</event>
+<event id="E25">
+<type class="Correlation" />
+<theme idref="T50" />
+<theme idref="E30" />
+<clue>Transfection studies of LTR reporter constructs indicated that mutation of the DSE sites abrogated the LTR-mediated synergy induced by Ctx and TNFalpha, whereas the synergy induced by Ctx and IL-1beta was unaffected, suggesting TNFalpha and IL-1beta <clueType>cooperate</clueType> differently <linkTheme>with</linkTheme> the cAMP/PKA activation pathway to induce HIV-1 expression in U1 cells.</clue>
+</event>
+<event id="E26">
+<type class="Correlation" />
+<theme idref="T51" />
+<theme idref="E30" />
+<clue>Transfection studies of LTR reporter constructs indicated that mutation of the DSE sites abrogated the LTR-mediated synergy induced by Ctx and TNFalpha, whereas the synergy induced by Ctx and IL-1beta was unaffected, suggesting TNFalpha and IL-1beta <clueType>cooperate</clueType> differently <linkTheme>with</linkTheme> the cAMP/PKA activation pathway to induce HIV-1 expression in U1 cells.</clue>
+</event>
+<event id="E27">
+<type class="Gene_expression" />
+<theme idref="T55" />
+<clue>Transfection studies of LTR reporter constructs indicated that mutation of the DSE sites abrogated the LTR-mediated synergy induced by Ctx and TNFalpha, whereas the synergy induced by Ctx and IL-1beta was unaffected, suggesting TNFalpha and IL-1beta cooperate differently with the cAMP/PKA activation pathway to induce HIV-1 <clueType>expression</clueType> <clueLoc>in U1 cells</clueLoc>.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="E25" />
+<clue>Transfection studies of LTR reporter constructs indicated that mutation of the DSE sites abrogated the LTR-mediated synergy induced by Ctx and TNFalpha, whereas the synergy induced by Ctx and IL-1beta was unaffected, suggesting TNFalpha and IL-1beta cooperate differently with the cAMP/PKA activation pathway <clueType>to induce</clueType> HIV-1 expression in U1 cells.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E27" />
+<cause idref="E26" />
+<clue>Transfection studies of LTR reporter constructs indicated that mutation of the DSE sites abrogated the LTR-mediated synergy induced by Ctx and TNFalpha, whereas the synergy induced by Ctx and IL-1beta was unaffected, suggesting TNFalpha and IL-1beta cooperate differently with the cAMP/PKA activation pathway <clueType>to induce</clueType> HIV-1 expression in U1 cells.</clue>
+</event>
+<event id="E30">
+<type class="Cell_communication" />
+<theme idref="T53" />
+<theme idref="T54" />
+<clue>Transfection studies of LTR reporter constructs indicated that mutation of the DSE sites abrogated the LTR-mediated synergy induced by Ctx and TNFalpha, whereas the synergy induced by Ctx and IL-1beta was unaffected, suggesting TNFalpha and IL-1beta cooperate differently with the cAMP/PKA <clueType>activation pathway</clueType> to induce HIV-1 expression in U1 cells.</clue>
+</event>
+<sentence id="S8">Because the <term sem="DNA_domain_or_region" id="T57" lex="DSE">DSE</term> are also <term sem="DNA_family_or_group" id="T58" lex="TRE">TRE sites</term>, we assessed the effect of the <term sem="Protein_family_or_group" id="A6">agonist</term> combinations on <term sem="Protein_molecule" id="T60" lex="AP-1">AP-1</term>-dependent <term sem="Other" id="A7">transcription</term>.</sentence>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="T60" />
+<clue>Because the DSE are also TRE sites, we assessed the effect of the agonist combinations on AP-1-<clueType>dependent</clueType> transcription.</clue>
+<comment>NER T58 MOD; NER: T59 del &quot;AP-1-dependent transcription&quot;</comment>
+</event>
+<event uncertainty="doubtful" id="E32">
+<type class="Regulation" />
+<theme idref="E31" />
+<cause idref="A6" />
+<clue>Because the DSE are also TRE sites, we assessed the <clueType>effect</clueType> <linkCause>of</linkCause> the agonist combinations <linkTheme>on</linkTheme> AP-1-dependent transcription.</clue>
+</event>
+<sentence id="S9"><term sem="Protein_molecule" id="T61" lex="TNFalpha">TNFalpha</term> as well as <term sem="Protein_molecule" id="T62" lex="IL-1beta">IL-1beta</term> cooperated with <term sem="Protein_molecule" id="T63" lex="Ctx">Ctx</term> to produce a synergistic activation of <term sem="Protein_molecule" id="T65" lex="AP-1">AP-1</term>-mediated <term sem="Other" id="A8">transcription</term>.</sentence>
+<event id="E33">
+<type class="Correlation" />
+<theme idref="T61" />
+<theme idref="T63" />
+<clue>TNFalpha as well as IL-1beta <clueType>cooperated</clueType> <linkTheme>with</linkTheme> Ctx to produce a synergistic activation of AP-1-mediated transcription.</clue>
+</event>
+<event id="E34">
+<type class="Correlation" />
+<theme idref="T62" />
+<theme idref="T63" />
+<clue>TNFalpha as well as IL-1beta <clueType>cooperated</clueType> <linkTheme>with</linkTheme> Ctx to produce a synergistic activation of AP-1-mediated transcription.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<cause idref="T65" />
+<clue>TNFalpha as well as IL-1beta cooperated with Ctx to produce a synergistic activation of AP-1-<clueType>mediated</clueType> transcription.</clue>
+<comment>NER: T64 del &quot;AP-1-mediated transcription&quot;</comment>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="E33" />
+<clue>TNFalpha as well as IL-1beta cooperated with Ctx <clueType>to produce a synergistic activation</clueType> <linkTheme>of</linkTheme> AP-1-mediated transcription.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="E34" />
+<clue>TNFalpha as well as IL-1beta cooperated with Ctx <clueType>to produce a synergistic activation</clueType> <linkTheme>of</linkTheme> AP-1-mediated transcription.</clue>
+</event>
+<sentence id="S10">These data indicate that the <term sem="DNA_domain_or_region" id="T66" lex="TRE-like_cAMP-responsive_DSE_sites"><term sem="DNA_family_or_group" id="T67" lex="TRE">TRE</term>-like <term sem="Nucleotide" id="A9">cAMP</term>-responsive <term sem="DNA_domain_or_region" id="T68" lex="DSE">DSE</term> sites</term> within the <term sem="DNA_domain_or_region" id="T69" lex="5&apos;-untranslated_leader">5&apos;-untranslated leader</term> can mediate the transcriptional cooperativity between <term sem="Protein_molecule" id="T70" lex="TNFalpha">TNFalpha</term> and the <term sem="Other" id="T71" lex="cAMP/PKA_pathway"><term sem="Nucleotide" id="T72" lex="cAMP">cAMP</term><term sem="Protein_molecule" id="T73" lex="PKA">/PKA</term> pathway</term>.</sentence>
+<event id="E38">
+<type class="Regulation" />
+<theme idref="T68" />
+<cause idref="A9" />
+<clue>These data indicate that the TRE-like cAMP-<clueType>responsive</clueType> DSE sites within the 5&apos;-untranslated leader can mediate the transcriptional cooperativity between TNFalpha and the cAMP/PKA pathway.</clue>
+</event>
+<event id="E39">
+<type class="Correlation" />
+<theme idref="T70" />
+<theme idref="T71" />
+<clue>These data indicate that the TRE-like cAMP-responsive DSE sites within the 5&apos;-untranslated leader can mediate the <clueType>transcriptional cooperativity</clueType> <linkTheme>between</linkTheme> TNFalpha and the cAMP/PKA pathway.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref="T66" />
+<clue>These data indicate that the TRE-like cAMP-responsive DSE sites within the 5&apos;-untranslated leader can <clueType>mediate</clueType> the transcriptional cooperativity between TNFalpha and the cAMP/PKA pathway.</clue>
+<comment>cAMP/PKA pathway=event?</comment>
+</event>
+<sentence id="S11">Since the <term sem="DNA_domain_or_region" id="T74" lex="DSE">DSE</term> and <term sem="DNA_family_or_group" id="T75" lex="TRE">TRE</term> <term sem="DNA_domain_or_region" id="A13">sites</term> cannot bind <term sem="Protein_complex" id="T76" lex="CREB/ATF_homodimer"><term sem="Protein_molecule" id="T77" lex="CREB/ATF">CREB/ATF</term> homodimers</term>, we propose a mechanism in which the <term sem="Virus" id="A14">HIV-1</term> <term sem="DNA_domain_or_region" id="T78" lex="DSE">DSE</term> bind <term sem="Protein_complex" id="A15"><term sem="Protein_complex" id="T79" lex="heterodimer">heterodimers</term> composed of both <term sem="Protein_complex" id="A10">AP-1</term> and <term sem="Protein_molecule" id="A11">CREB/ATF</term> <term sem="Protein_molecule" id="A12">proteins</term></term>.</sentence>
+<event id="E41">
+<type class="Binding" />
+<theme idref1="A13" idref="T74" />
+<theme idref="T76" />
+<clue>Since the DSE and TRE sites cannot <clueType>bind</clueType> CREB/ATF homodimers, we propose a mechanism in which the HIV-1 DSE bind heterodimers composed of both AP-1 and CREB/ATF proteins.</clue>
+<comment>NER T80 DEL, TPS A15</comment>
+</event>
+<event id="E42">
+<type class="Binding" />
+<theme idref1="A13" idref="T75" />
+<theme idref="T76" />
+<clue>Since the DSE and TRE sites cannot <clueType>bind</clueType> CREB/ATF homodimers, we propose a mechanism in which the HIV-1 DSE bind heterodimers composed of both AP-1 and CREB/ATF proteins.</clue>
+</event>
+<event id="E43">
+<type class="Binding" />
+<theme idref="T78" />
+<theme idref="A15" />
+<clue>Since the DSE and TRE sites cannot bind CREB/ATF homodimers, we propose a mechanism in which the HIV-1 DSE <clueType>bind</clueType> heterodimers composed of both AP-1 and CREB/ATF proteins.</clue>
+</event>
+<sentence id="S12">Copyright 1997 Academic Press.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

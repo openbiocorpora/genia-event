@@ -1,0 +1,159 @@
+PMID, ArticleTitle, AbstractText {display: block}
+PMID:before, ArticleTitle:before, AbstractText:before {font-style:bold}
+PMID:before			{content: "##PMID"}
+ArticleTitle:before	{content: "##TITLE"}
+AbstractText:before	{content: "##ABSTRACT"}
+
+sentence {
+	display: block;
+	border: thin solid black;
+	margin-top: 0.5em; margin-bottom: 0.5em;
+	padding-top: 0.1em; padding-bottom: 0.1em; padding-left:0.1em; padding-right:0.1em;
+}
+
+sentence:before {content: attr(id); color: white; background-color: black}
+
+term:after	{content: attr(id); font-size: 8pt; color: white; background-color: black}
+cons:after	{content: attr(id); font-size: 8pt; color: white; background-color: black}
+frag:after	{content: attr(id); font-size: 8pt; color: white; background-color: black}
+
+event {
+	display: block;
+	border: thin solid blue;
+	margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1em;
+	padding-top: 0.1em; padding-bottom: 0.1em; padding-left: 0.1em; padding-right:0.1em;
+}
+
+event:before {
+	content: "EVENT " attr(id) " (assertion: " attr(assertion) ", uncertainty: " attr(uncertainty) ")";
+	background-color: black;
+	color: white;
+}
+
+type, theme, site, product, cause, clue {display: block}
+type:before	{content: "TYPE    : " attr(class)}
+theme:after	{content: "THEME   : " attr(idref) " " attr(idref1) " " attr(idref2) " " attr(idref3) draw(arrowto(attr(idref), after, blue))}
+site:after	{content: "SITE    : " attr(idref) " " attr(idref1) " " attr(idref2) " " attr(idref3) draw(arrowto(attr(idref), after, blue))}
+product:after	{content: "PRODUCT : " attr(idref) " " attr(idref1) " " attr(idref2) " " attr(idref3) draw(arrowto(attr(idref), after, blue))}
+cause:after	{content: "CAUSE   : " attr(idref) " " attr(idref1) " " attr(idref2) " " attr(idref3) draw(arrowto(attr(idref), after, red))}
+clue > clueType {background-color: #ffaaaa}
+clue > linkTheme {background-color: #ffffb3}
+clue > linkCause {background-color: #ffb3e6}
+clue > clueTime	{background-color: #b3b3ff}
+clue > clueLoc	{background-color: #66ffff}
+clue > clueExperiment {background-color: #b3ffb3}
+
+corefTheme {background-color: #ffff00}
+corefTheme:after {content: draw(arrowto(attr(idref1), after, green)) draw(arrowto(attr(idref2), green)) draw(arrowto(attr(idref3), green))}
+
+corefSite {background-color: #ffffaa}
+corefSite:after {content: draw(arrowto(attr(idref1), after, green)) draw(arrowto(attr(idref2), green)) draw(arrowto(attr(idref3), green))}
+
+corefProduct {background-color: #eeee00}
+corefProduct:after {content: draw(arrowto(attr(idref1), after, green)) draw(arrowto(attr(idref2), green)) draw(arrowto(attr(idref3), green))}
+
+corefCause {background-color: #e6b3ff}
+corefCause:after {content: draw(arrowto(attr(idref1), after, green)) draw(arrowto(attr(idref2), green)) draw(arrowto(attr(idref3), green))}
+
+comment:before	{content: "COMMENT  : "}
+comment			{font-style: italic}
+
+
+cons								{ font-style:italic; text-decoration: underline}
+
+term								{ background-color: #F5DEB3 }
+#term[sem="Other_name"]				{ background-color: #ebebeb; }
+term[sem="Other_name"]				{ background-color: #8c8c8c; }
+
+term[sem="Amino_acid_monomer"]		{ background-color: #ccffff; }
+term[sem="Peptide"]					{ background-color: #ccffff; }
+term[sem="Protein_ETC"]				{ background-color: #BFECFF; }
+term[sem="Protein_complex"]			{ background-color: #7FDAFF; }
+term[sem="Protein_domain_or_region"]{ background-color: #00FFB6}
+term[sem="Protein_family_or_group"]	{ background-color: #19BDFF; }
+term[sem="Protein_molecule"]		{ background-color: #00B6FF; }
+term[sem="Protein_substructure"]	{ background-color: #00AAEE; }
+term[sem="Protein_subunit"]			{ background-color: #0092CD; }
+
+term[sem="Nucleotide"]				{ background-color: #99ffff; }
+term[sem="Polynucleotide"]			{ background-color: #99ffff; }
+term[sem="DNA_ETC"]					{ background-color: #7FFF7F; }
+term[sem="DNA_domain_or_region"]	{ background-color: #3FFF3F; }
+term[sem="DNA_family_or_group"]		{ background-color: #19FF19; }
+term[sem="DNA_molecule"]			{ background-color: #00FF00; }
+term[sem="DNA_substructure"]		{ background-color: #00CD00; }
+term[sem="RNA_ETC"]					{ background-color: #FFFF7F; }
+term[sem="RNA_domain_or_region"]	{ background-color: #FFFF3F; }
+term[sem="RNA_family_or_group"]		{ background-color: #FFFF00; }
+term[sem="RNA_molecule"]			{ background-color: #EEEE00; }
+term[sem="RNA_substructure"]		{ background-color: #CDCD00; }
+
+term[sem="Other_organic_compound"]	{ background-color: #c7d9d9; }
+term[sem="Organic"]					{ background-color: #c7d9d9; }
+term[sem="Inorganic"]				{ background-color: #c7d9d9; }
+term[sem="Atom"]					{ background-color: #c7d9d9; }
+term[sem="Carbohydrate"]			{ background-color: #c7d9d9; }
+term[sem="Lipid"]					{ background-color: #c7d9d9; }
+
+term[sem="Virus"]					{ background-color: #ffff99; }
+term[sem="Mono_cell"]				{ background-color: #ffff99; }
+term[sem="Multi_cell"]				{ background-color: #ffff99; }
+term[sem="Body_part"]				{ background-color: #ffff99; }
+term[sem="Tissue"]					{ background-color: #ffff99; }
+
+term[sem="Cell_type"]				{ background-color: #ccff99; }
+term[sem="Cell_component"]			{ background-color: #ccff99; }
+#background-color: #ffff00 }
+term[sem="Cell_line"]				{ background-color: #ccff99; }
+term[sem="Other_artificial_source"]	{ background-color: #ccff99; }
+term[sem="Gene_or_Gene_product"]	{ background-color: #ff9999; }
+
+term[sem="Disease"]					{ background-color: #ababab; }
+term[sem="Molecular_function"]		{ background-color: #cc99ff; }
+term[sem="Biological_process"]		{ background-color: #cc99ff; }
+term[sem="Experimental_method"]		{ background-color: #cc9966; }
+term[sem="Diagnosis"]				{ background-color: #ababab; }
+term[sem="Therapeutics"]			{ background-color: #ababab; }
+
+cons[sem="Amino_acid_monomer"]		{ background-color: #ccffff; }
+cons[sem="Peptide"]					{ background-color: #ccffff; }
+cons[sem="Protein_complex"]			{ background-color: #7FDAFF; }
+cons[sem="Protein_domain_or_region"]{ background-color: #3FC8FF; }
+cons[sem="Protein_family_or_group"]	{ background-color: #19BDFF; }
+cons[sem="Protein_molecule"]		{ background-color: #00B6FF; }
+cons[sem="Protein_substructure"]	{ background-color: #00AAEE; }
+
+cons[sem="Nucleotide"]				{ background-color: #99ffff; }
+cons[sem="Polynucleotide"]			{ background-color: #99ffff; }
+cons[sem="DNA_domain_or_region"]	{ background-color: #3FFF3F; }
+cons[sem="DNA_family_or_group"]		{ background-color: #19FF19; }
+cons[sem="DNA_molecule"]			{ background-color: #00FF00; }
+cons[sem="DNA_substructure"]		{ background-color: #00CD00; }
+cons[sem="RNA_domain_or_region"]	{ background-color: #FFFF3F; }
+cons[sem="RNA_family_or_group"]		{ background-color: #FFFF00; }
+cons[sem="RNA_molecule"]			{ background-color: #EEEE00; }
+cons[sem="RNA_substructure"]		{ background-color: #CDCD00; }
+
+cons[sem="Organic_compound"]		{ background-color: #ccffff; }
+cons[sem="Organic_compound_other"]	{ background-color: #ccffff; }
+cons[sem="Inorganic_compound"]		{ background-color: #ccffff; }
+cons[sem="Element"]					{ background-color: #ccffff; }
+cons[sem="Carbohydrate"]			{ background-color: #ccffff; }
+cons[sem="Lipid"]					{ background-color: #ccffff; }
+
+cons[sem="Virus"]					{ background-color: #ffff99; }
+cons[sem="Unicellular_organism"]	{ background-color: #ffff99; }
+cons[sem="Multicellular_organism_natural"]				{ background-color: #ffff99; }
+cons[sem="Multicellular_organism_genetically_modified"]	{ background-color: #ccff99; }
+cons[sem="Body_region"]				{ background-color: #ffff99; }
+cons[sem="Tissue_natural"]			{ background-color: #ffff99; }
+cons[sem="Tissue_cultured"]			{ background-color: #ffff99; }
+cons[sem="Cell_natural"]				{ background-color: #ccff99; }
+cons[sem="Cell_component"]			{ background-color: #ccff99; }
+cons[sem="Cell_cultured"]				{ background-color: #ccff99; }
+cons[sem="Disease"]					{ background-color: #ababab; }
+cons[sem="Molecular_function"]		{ background-color: #cc99ff; }
+cons[sem="Biological_process"]		{ background-color: #cc99ff; }
+cons[sem="Experimental_method"]		{ background-color: #cc9966; }
+cons[sem="Diagnosis"]				{ background-color: #ababab; }
+cons[sem="Therapeutics"]			{ background-color: #ababab; }

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="16/05/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8622948">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8622948</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Cell_natural" id="T1" lex="Rel-deficient_T_cell"><term sem="Protein_molecule" id="A31">Rel</term>-deficient T cells</term> exhibit defects in production of <term sem="Protein_molecule" id="T2" lex="interleukin_3">interleukin 3</term> and <term sem="Protein_molecule" id="T3" lex="granulocyte-macrophage_colony-stimulating_factor">granulocyte-macrophage colony-stimulating factor</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue>Rel-deficient T cells exhibit defects in <clueType>production</clueType> <linkTheme>of</linkTheme> interleukin 3 and granulocyte-macrophage colony-stimulating factor.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>Rel-deficient T cells exhibit defects in <clueType>production</clueType> <linkTheme>of</linkTheme> interleukin 3 and granulocyte-macrophage colony-stimulating factor.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<clue><clueLoc>Rel-deficient T cells</clueLoc> exhibit <clueType>defects</clueType> <linkTheme>in</linkTheme> production of interleukin 3 and granulocyte-macrophage colony-stimulating factor.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<clue><clueLoc>Rel-deficient T cells</clueLoc> exhibit <clueType>defects</clueType> <linkTheme>in</linkTheme> production of interleukin 3 and granulocyte-macrophage colony-stimulating factor.</clue>
+</event>
+<event id="E71">
+<type class="Negative_regulation" />
+<theme idref="A31" />
+<clue>Rel-<clueType>deficient</clueType> <clueLoc>T cells</clueLoc> exhibit defects in production of interleukin 3 and granulocyte-macrophage colony-stimulating factor.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="DNA_domain_or_region" id="T4" lex="c-rel_protooncogene">c-rel protooncogene</term> encodes a subunit of the <term sem="Protein_family_or_group" id="T5" lex="NF-kappa_B-like_family_of_transcription_factor"><term sem="Protein_complex" id="T6" lex="NF-kappa_B">NF-kappa B</term>-like family of <term sem="Protein_family_or_group" id="T7" lex="transcription_factor">transcription factors</term></term>.</sentence>
+<sentence id="S3">Mice lacking <term sem="Protein_family_or_group" id="T8" lex="Rel">Rel</term> are defective in <term sem="Protein_family_or_group" id="A20">mitogenic</term> activation of <term sem="Cell_natural" id="A1">B</term> and <term sem="Cell_natural" id="A2">T</term> <term sem="Cell_natural" id="A3">lymphocytes</term> and display impaired <term sem="Other" id="T10" lex="humoral_immunity">humoral immunity</term>.</sentence>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref1="A3" idref="A1" />
+<cause idref="A20" />
+<clue>Mice lacking Rel are defective in mitogenic <clueType>activation</clueType> <linkTheme>of</linkTheme> B and T lymphocytes and display impaired humoral immunity.</clue>
+<comment>NER: T9 DEL</comment>
+</event>
+<event id="E6">
+<type class="Physiological_process" />
+<theme idref1="A3" idref="A2" />
+<cause idref="A20" />
+<clue>Mice lacking Rel are defective in mitogenic <clueType>activation</clueType> <linkTheme>of</linkTheme> B and T lymphocytes and display impaired humoral immunity.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<clue><clueLoc>Mice lacking Rel</clueLoc> are <clueType>defective</clueType> <linkTheme>in</linkTheme> mitogenic activation of B and T lymphocytes and display impaired humoral immunity.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<clue><clueLoc>Mice lacking Rel</clueLoc> are <clueType>defective</clueType> <linkTheme>in</linkTheme> mitogenic activation of B and T lymphocytes and display impaired humoral immunity.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="T10" />
+<clue><clueLoc>Mice lacking Rel</clueLoc> are defective in mitogenic activation of B and T lymphocytes and display <clueType>impaired</clueType> humoral immunity.</clue>
+</event>
+<event id="E72">
+<type class="Negative_regulation" />
+<theme idref="T8" />
+<clue><clueLoc>Mice</clueLoc> <clueType>lacking</clueType> Rel are defective in mitogenic activation of B and T lymphocytes and display impaired humoral immunity.</clue>
+</event>
+<sentence id="S4">In an attempt to identify changes in <term sem="Other" id="T11" lex="gene_expression">gene expression</term> that accompany the <term sem="Other" id="T12" lex="T-cell_stimulation_defect"><term sem="Cell_natural" id="A32">T-cell</term> stimulation defects</term> associated with the loss of <term sem="Protein_family_or_group" id="T13" lex="Rel">Rel</term>, we have examined the expression of <term sem="Protein_family_or_group" id="T14" lex="cell_surface_activation_marker">cell surface activation markers</term> and <term sem="Protein_family_or_group" id="A4">cytokine</term> production in mitogen-stimulated <term sem="Cell_natural" id="T15" lex="Rel-/-_T_cell"><term sem="Protein_family_or_group" id="T16" lex="Rel">Rel</term>-/- T cells</term>.</sentence>
+<event uncertainty="doubtful" id="E10">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>In an attempt to identify changes in gene expression that accompany the T-cell stimulation defects associated with the loss of Rel, we have examined the <clueType>expression</clueType> <linkTheme>of</linkTheme> cell surface activation markers and cytokine production <clueLoc>in mitogen-stimulated Rel-/- T cells</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E11">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>In an attempt to identify changes in gene expression that accompany the T-cell stimulation defects associated with the loss of Rel, we have examined the expression of cell surface activation markers and cytokine <clueType>production</clueType> <clueLoc>in mitogen-stimulated Rel-/- T cells.</clueLoc></clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="T13" />
+<clue>In an attempt to identify changes in gene expression that accompany the T-cell stimulation defects associated with the <clueType>loss</clueType> <linkTheme>of</linkTheme> Rel, we have examined the expression of cell surface activation markers and cytokine production in mitogen-stimulated Rel-/- T cells.</clue>
+</event>
+<event id="E74">
+<type class="Physiological_process" />
+<theme idref="A32" />
+<clue>In an attempt to identify changes in gene expression that accompany the T-cell <clueType>stimulation</clueType> defects associated with the loss of Rel, we have examined the expression of cell surface activation markers and cytokine production in mitogen-stimulated Rel-/- T cells.</clue>
+</event>
+<event id="E75">
+<type class="Negative_regulation" />
+<theme idref="E74" />
+<clue>In an attempt to identify changes in gene expression that accompany the T-cell stimulation <clueType>defects</clueType> associated with the loss of Rel, we have examined the expression of cell surface activation markers and cytokine production in mitogen-stimulated Rel-/- T cells.</clue>
+</event>
+<event id="E76">
+<type class="Regulation" />
+<theme idref="T11" />
+<clue>In an attempt to identify <clueType>changes</clueType> <linkTheme>in</linkTheme> gene expression that accompany the T-cell stimulation defects associated with the loss of Rel, we have examined the expression of cell surface activation markers and cytokine production in mitogen-stimulated Rel-/- T cells.</clue>
+</event>
+<event id="E77">
+<type class="Positive_regulation" />
+<theme idref="E76" />
+<cause idref="E75" />
+<clue>In an attempt to identify changes in gene expression that <clueType>accompany</clueType> the T-cell stimulation defects associated with the loss of Rel, we have examined the expression of cell surface activation markers and cytokine production in mitogen-stimulated Rel-/- T cells.</clue>
+</event>
+<event uncertainty="doubtful" id="E13">
+<type class="Correlation" />
+<theme idref="E76" />
+<theme idref="E12" />
+<clue>In an attempt to identify changes in gene expression that accompany the T-cell stimulation defects <clueType>associated</clueType> <linkTheme>with</linkTheme> the loss of Rel, we have examined the expression of cell surface activation markers and cytokine production in mitogen-stimulated Rel-/- T cells.</clue>
+</event>
+<sentence id="S5">The expression of <term sem="Protein_family_or_group" id="A5">cell surface markers</term> including the <term sem="Protein_molecule" id="T17" lex="interleukin_2_receptor_alpha_(IL-2R_alpha)_chain">interleukin 2 receptor alpha (<term sem="Protein_molecule" id="T18" lex="IL-2R_alpha">IL-2R alpha</term>) chain</term> (<term sem="Protein_molecule" id="T19" lex="CD25">CD25</term>), <term sem="Protein_molecule" id="T20" lex="CD69">CD69</term> and <term sem="Protein_molecule" id="T21" lex="L-selectin">L-selectin</term> (<term sem="Protein_molecule" id="T22" lex="CD62">CD62</term>) is normal in <term sem="Cell_cultured" id="T23" lex="mitogen-activated_Rel-/-_T_cell"><term sem="Protein_family_or_group" id="A33">mitogen</term>-activated <term sem="Cell_natural" id="A34"><term sem="Protein_family_or_group" id="T24" lex="Rel">Rel</term>-/- T cells</term></term>, but <term sem="Other" id="T25" lex="cytokine_production"><term sem="Protein_family_or_group" id="T26" lex="cytokine">cytokine</term> production</term> is impaired.</sentence>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="A5" />
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> cell surface markers including the interleukin 2 receptor alpha (IL-2R alpha) chain (CD25), CD69 and L-selectin (CD62) is normal <clueLoc>in mitogen-activated Rel-/- T cells</clueLoc>, but cytokine production is impaired.</clue>
+</event>
+<event id="E16">
+<type class="Gene_expression" />
+<theme idref="T19" />
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>cell surface markers</corefTheme> including the interleukin 2 receptor alpha (IL-2R alpha) chain (CD25), CD69 and L-selectin (CD62) is normal <clueLoc>in mitogen-activated Rel-/- T cells</clueLoc>, but cytokine production is impaired.</clue>
+</event>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T20" />
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>cell surface markers</corefTheme> including the interleukin 2 receptor alpha (IL-2R alpha) chain (CD25), CD69 and L-selectin (CD62) is normal <clueLoc>in mitogen-activated Rel-/- T cells</clueLoc>, but cytokine production is impaired.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>cell surface markers</corefTheme> including the interleukin 2 receptor alpha (IL-2R alpha) chain (CD25), CD69 and L-selectin (CD62) is normal <clueLoc>in mitogen-activated Rel-/- T cells</clueLoc>, but cytokine production is impaired.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="T26" />
+<clue>The expression of cell surface markers including the interleukin 2 receptor alpha (IL-2R alpha) chain (CD25), CD69 and L-selectin (CD62) is normal in mitogen-activated Rel-/- T cells, but cytokine <clueType>production</clueType> is impaired.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<clue>The expression of cell surface markers including the interleukin 2 receptor alpha (IL-2R alpha) chain (CD25), CD69 and L-selectin (CD62) is normal <clueLoc>in mitogen-activated Rel-/- T cells</clueLoc>, but cytokine production is <clueType>impaired</clueType>.</clue>
+</event>
+<event id="E21">
+<type class="Physiological_process" />
+<theme idref="A34" />
+<cause idref="A33" />
+<clue>The expression of cell surface markers including the interleukin 2 receptor alpha (IL-2R alpha) chain (CD25), CD69 and L-selectin (CD62) is normal in mitogen-<clueType>activated</clueType> Rel-/- T cells, but cytokine production is impaired.</clue>
+</event>
+<sentence id="S6">In <term sem="Cell_cultured" id="T27" lex="Rel-/-_splenic_T_cell_culture"><term sem="Protein_family_or_group" id="T28" lex="Rel">Rel</term>-/- splenic T cell cultures</term> stimulated with <term sem="Organic_compound_other" id="T29" lex="phorbol_12-myristate_13-acetate">phorbol 12-myristate 13-acetate</term> and <term sem="Organic_compound_other" id="T30" lex="ionomycin">ionomycin</term>, the levels of <term sem="Protein_molecule" id="A6">IL-3</term>, <term sem="Protein_molecule" id="A7">IL-5</term>, <term sem="Protein_molecule" id="T31" lex="granulocyte-_macrophage_colony-stimulating_factor">granulocyte- macrophage colony-stimulating factor</term> (<term sem="Protein_molecule" id="T32" lex="GM-CSF">GM-CSF</term>), <term sem="Protein_molecule" id="T33" lex="tumor_necrosis_factor_alpha">tumor necrosis factor alpha</term> (<term sem="Protein_molecule" id="T34" lex="TNF-alpha">TNF-alpha</term>), and <term sem="Protein_molecule" id="T35" lex="gamma_interferon">gamma interferon</term> (<term sem="Protein_molecule" id="T36" lex="IFN-gamma">IFN-gamma</term>) were only 2- to 3-fold lower compared with normal T cells.</sentence>
+<event id="E26">
+<type class="Physiological_process" />
+<theme idref="T27" />
+<cause idref="T29" />
+<clue>In Rel-/- splenic T cell cultures <clueType>stimulated</clueType> <linkTheme>with</linkTheme> phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold lower compared with normal T cells.</clue>
+</event>
+<event id="E27">
+<type class="Physiological_process" />
+<theme idref="T27" />
+<cause idref="T30" />
+<clue>In Rel-/- splenic T cell cultures <clueType>stimulated</clueType> <linkTheme>with</linkTheme> phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold lower compared with normal T cells.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="A6" />
+<cause idref="E26" />
+<clue>In Rel-/- splenic T cell cultures stimulated with phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold <clueType>lower</clueType> compared with normal T cells.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="A7" />
+<cause idref="E26" />
+<clue>In Rel-/- splenic T cell cultures stimulated with phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold <clueType>lower</clueType> compared with normal T cells.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<cause idref="E26" />
+<clue>In Rel-/- splenic T cell cultures stimulated with phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold <clueType>lower</clueType> compared with normal T cells.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="T34" />
+<cause idref="E26" />
+<clue>In Rel-/- splenic T cell cultures stimulated with phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold <clueType>lower</clueType> compared with normal T cells.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="T36" />
+<cause idref="E26" />
+<clue>In Rel-/- splenic T cell cultures stimulated with phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold <clueType>lower</clueType> compared with normal T cells.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="A6" />
+<cause idref="E27" />
+<clue>In Rel-/- splenic T cell cultures stimulated with phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold <clueType>lower</clueType> compared with normal T cells.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="A7" />
+<cause idref="E27" />
+<clue>In Rel-/- splenic T cell cultures stimulated with phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold <clueType>lower</clueType> compared with normal T cells.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation" />
+<theme idref="T32" />
+<cause idref="E27" />
+<clue>In Rel-/- splenic T cell cultures stimulated with phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold <clueType>lower</clueType> compared with normal T cells.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation" />
+<theme idref="T34" />
+<cause idref="E27" />
+<clue>In Rel-/- splenic T cell cultures stimulated with phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold <clueType>lower</clueType> compared with normal T cells.</clue>
+</event>
+<event id="E37">
+<type class="Negative_regulation" />
+<theme idref="T36" />
+<cause idref="E27" />
+<clue>In Rel-/- splenic T cell cultures stimulated with phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold <clueType>lower</clueType> compared with normal T cells.</clue>
+</event>
+<sentence id="S7">In contrast, <term sem="Protein_family_or_group" id="T37" lex="anti-CD3">anti-CD3</term> and <term sem="Protein_family_or_group" id="T38" lex="anti-CD28">anti-CD28</term> stimulated <term sem="Cell_cultured" id="T39" lex="Rel-/-_T_cell"><term sem="Protein_family_or_group" id="T40" lex="Rel">Rel</term>-/- T cells</term>, which fail to proliferate, make little or no detectable <term sem="Protein_family_or_group" id="T41" lex="cytokine">cytokines</term>.</sentence>
+<event id="E38">
+<type class="Physiological_process" />
+<theme idref="T39" />
+<cause idref="T37" />
+<clue>In contrast, anti-CD3 and anti-CD28 <clueType>stimulated</clueType> Rel-/- T cells, which fail to proliferate, make little or no detectable cytokines.</clue>
+</event>
+<event id="E39">
+<type class="Physiological_process" />
+<theme idref="T39" />
+<cause idref="T38" />
+<clue>In contrast, anti-CD3 and anti-CD28 <clueType>stimulated</clueType> Rel-/- T cells, which fail to proliferate, make little or no detectable cytokines.</clue>
+</event>
+<event assertion="non-exist" id="E300">
+<type class="Cellular_physiological_process" />
+<theme idref="T39" />
+<clue>In contrast, <clueLoc>anti-CD3</clueLoc> and anti-CD28 <clueLoc>stimulated Rel-/- T cells</clueLoc>, which fail to <clueType>proliferate</clueType>, make little or no detectable cytokines.</clue>
+</event>
+<event assertion="non-exist" id="E301">
+<type class="Cellular_physiological_process" />
+<theme idref="T39" />
+<clue>In contrast, anti-CD3 and <clueLoc>anti-CD28 stimulated Rel-/- T cells</clueLoc>, which fail to <clueType>proliferate</clueType>, make little or no detectable cytokines.</clue>
+</event>
+<event id="E302">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>In contrast, <clueLoc>anti-CD3</clueLoc> and anti-CD28 <clueLoc>stimulated Rel-/- T cells</clueLoc>, which fail to proliferate, make little or no <clueType>detectable</clueType> cytokines.</clue>
+</event>
+<event id="E303">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>In contrast, anti-CD3 and <clueLoc>anti-CD28 stimulated Rel-/- T cells</clueLoc>, which fail to proliferate, make little or no <clueType>detectable</clueType> cytokines.</clue>
+</event>
+<event assertion="non-exist" id="E304">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>In contrast, <clueLoc>anti-CD3</clueLoc> and anti-CD28 <clueLoc>stimulated Rel-/- T cells</clueLoc>, which fail to proliferate, make little or no <clueType>detectable</clueType> cytokines.</clue>
+</event>
+<event assertion="non-exist" id="E305">
+<type class="Gene_expression" />
+<theme idref="T41" />
+<clue>In contrast, anti-CD3 and <clueLoc>anti-CD28 stimulated Rel-/- T cells</clueLoc>, which fail to proliferate, make little or no <clueType>detectable</clueType> cytokines.</clue>
+</event>
+<sentence id="S8">Exogenous <term sem="Protein_molecule" id="T42" lex="IL-2">IL-2</term>, which restitutes the proliferative response of the <term sem="Cell_natural" id="A22">anti-CD3-</term> and <term sem="Cell_natural" id="A23">anti-CD28-</term><term sem="Cell_natural" id="A24">treated <term sem="Cell_natural" id="A35">Rel-/- T cells</term></term>, restores production of <term sem="Protein_molecule" id="A21">IL-5</term>, <term sem="Protein_molecule" id="T44" lex="TNF-alpha">TNF-alpha</term>, and <term sem="Protein_molecule" id="T45" lex="IFN-gamma">IFN-gamma</term>, but not <term sem="Protein_molecule" id="T46" lex="IL-3">IL-3</term> and <term sem="Other" id="T47" lex="GM-CSF_expression"><term sem="Protein_molecule" id="T48" lex="GM-CSF">GM-CSF</term> expression</term> to approximately normal levels.</sentence>
+<event id="E51">
+<type class="Gene_expression" />
+<theme idref="A21" />
+<clue>Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, restores <clueType>production</clueType> <linkTheme>of</linkTheme> IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<event id="E52">
+<type class="Gene_expression" />
+<theme idref="T44" />
+<clue>Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, restores <clueType>production</clueType> <linkTheme>of</linkTheme> IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<event id="E53">
+<type class="Gene_expression" />
+<theme idref="T45" />
+<clue>Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, restores <clueType>production</clueType> <linkTheme>of</linkTheme> IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<event id="E54">
+<type class="Gene_expression" />
+<theme idref="T46" />
+<clue>Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, restores production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF <clueType>expression</clueType> to approximately normal levels.</clue>
+</event>
+<event id="E55">
+<type class="Gene_expression" />
+<theme idref="T48" />
+<clue>Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, restores production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF <clueType>expression</clueType> to approximately normal levels.</clue>
+</event>
+<event id="E56">
+<type class="Cellular_physiological_process" />
+<theme idref1="A24" idref="A22" />
+<clue>Exogenous IL-2, which restitutes the <clueType>proliferative response</clueType> <linkTheme>of</linkTheme> the anti-CD3- and anti-CD28-treated Rel-/- T cells, restores production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+<comment>NER T43 DEL</comment>
+</event>
+<event id="E57">
+<type class="Cellular_physiological_process" />
+<theme idref1="A24" idref="A23" />
+<clue>Exogenous IL-2, which restitutes the <clueType>proliferative response</clueType> <linkTheme>of</linkTheme> the anti-CD3- and anti-CD28-treated Rel-/- T cells, restores production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<event id="E58">
+<type class="Positive_regulation" />
+<theme idref="E56" />
+<cause idref="T42" />
+<clue>Exogenous IL-2, which <clueType>restitutes</clueType> the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, restores production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<event id="E59">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref="T42" />
+<clue>Exogenous IL-2, which <clueType>restitutes</clueType> the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, restores production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<event id="E60">
+<type class="Positive_regulation" />
+<theme idref="E51" />
+<cause idref="T42" />
+<clue>Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, <clueType>restores</clueType> production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<event id="E61">
+<type class="Positive_regulation" />
+<theme idref="E52" />
+<cause idref="T42" />
+<clue>Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, <clueType>restores</clueType> production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<event id="E62">
+<type class="Positive_regulation" />
+<theme idref="E53" />
+<cause idref="T42" />
+<clue>Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, <clueType>restores</clueType> production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<event assertion="non-exist" id="E63">
+<type class="Positive_regulation" />
+<theme idref="E54" />
+<cause idref="T42" />
+<clue>Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, <clueType>restores</clueType> production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<event assertion="non-exist" id="E64">
+<type class="Positive_regulation" />
+<theme idref="E55" />
+<cause idref="T42" />
+<clue>Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, <clueType>restores</clueType> production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<event id="E65">
+<type class="Artificial_process" />
+<theme idref="A22" />
+<theme idref="A24" />
+<clue>Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-<clueType>treated</clueType> Rel-/- T cells, restores production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<event id="E66">
+<type class="Artificial_process" />
+<theme idref="A23" />
+<theme idref="A24" />
+<clue>Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-<clueType>treated</clueType> Rel-/- T cells, restores production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.</clue>
+</event>
+<sentence id="S9">In contrast to <term sem="Cell_cultured" id="T49" lex="mitogen-activated_Rel-/-_T_cell"><term sem="Protein_family_or_group" id="A36">mitogen</term>-activated <term sem="Cell_natural" id="A37"><term sem="Protein_family_or_group" id="T50" lex="Rel">Rel</term>-/- T cells</term></term>, <term sem="Lipid" id="A38">lipopolysaccharide</term>-stimulated <term sem="Cell_cultured" id="T51" lex="Rel-/-_macrophage"><term sem="Protein_family_or_group" id="T52" lex="Rel">Rel</term>-/- macrophages</term> produce higher than normal levels of <term sem="Protein_molecule" id="T53" lex="GM-CSF">GM-CSF</term>.</sentence>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="T53" />
+<clue>In contrast to mitogen-activated Rel-/- T cells, <clueLoc>lipopolysaccharide-stimulated Rel-/- macrophages</clueLoc> <clueType>produce higher</clueType> than normal levels of GM-CSF.</clue>
+</event>
+<event id="E81">
+<type class="Physiological_process" />
+<theme idref="A37" />
+<cause idref="A36" />
+<clue>In contrast to mitogen-<clueType>activated</clueType> Rel-/- T cells, lipopolysaccharide-stimulated Rel-/- macrophages produce higher than normal levels of GM-CSF.</clue>
+</event>
+<event id="E82">
+<type class="Physiological_process" />
+<theme idref="T51" />
+<cause idref="A38" />
+<clue>In contrast to mitogen-activated Rel-/- T cells, lipopolysaccharide-<clueType>stimulated</clueType> Rel-/- macrophages produce higher than normal levels of GM-CSF.</clue>
+</event>
+<sentence id="S10">These findings establish that <term sem="Protein_family_or_group" id="T54" lex="Rel">Rel</term> can function as an activator or repressor of <term sem="Other" id="A8">gene expression</term> and is required by <term sem="Cell_natural" id="T55" lex="T_lymphocyte">T lymphocytes</term> for production of <term sem="Protein_molecule" id="T56" lex="IL-3">IL-3</term> and <term sem="Protein_molecule" id="T57" lex="GM-CSF">GM-CSF</term>.</sentence>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="A8" />
+<cause idref="T54" />
+<clue>These findings establish that Rel can function as an <clueType>activator</clueType> or repressor <linkTheme>of</linkTheme> gene expression and is required by T lymphocytes for production of IL-3 and GM-CSF.</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation" />
+<theme idref="A8" />
+<cause idref="T54" />
+<clue>These findings establish that Rel can function as an activator or <clueType>repressor</clueType> <linkTheme>of</linkTheme> gene expression and is required by T lymphocytes for production of IL-3 and GM-CSF.</clue>
+</event>
+<event id="E47">
+<type class="Gene_expression" />
+<theme idref="T56" />
+<clue>These findings establish that Rel can function as an activator or repressor of gene expression and is required by T lymphocytes for <clueType>production</clueType> <linkTheme>of</linkTheme> IL-3 and GM-CSF.</clue>
+</event>
+<event id="E48">
+<type class="Gene_expression" />
+<theme idref="T57" />
+<clue>These findings establish that Rel can function as an activator or repressor of gene expression and is required by T lymphocytes for <clueType>production</clueType> <linkTheme>of</linkTheme> IL-3 and GM-CSF.</clue>
+</event>
+<event id="E49">
+<type class="Positive_regulation" />
+<theme idref="E47" />
+<cause idref="T54" />
+<clue>These findings establish that Rel can function as an activator or repressor of gene expression and is <clueType>required</clueType> <clueLoc>by T lymphocytes</clueLoc> <linkTheme>for</linkTheme> production of IL-3 and GM-CSF.</clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation" />
+<theme idref="E48" />
+<cause idref="T54" />
+<clue>These findings establish that Rel can function as an activator or repressor of gene expression and is <clueType>required</clueType> <clueLoc>by T lymphocytes</clueLoc> <linkTheme>for</linkTheme> production of IL-3 and GM-CSF.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

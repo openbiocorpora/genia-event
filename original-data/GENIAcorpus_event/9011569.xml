@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="02/12/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9011569" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9011569</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="A2">Glycation</term>-dependent, <term sem="Element" id="A1">reactive oxygen species</term>-mediated suppression of the <term sem="Other" id="T3" lex="insulin_gene_promoter_activity">insulin gene promoter activity</term> in <term sem="Cell_natural" id="T4" lex="HIT_cell">HIT cells</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation" />
+<theme idref="T3" />
+<cause idref="A1" />
+<clue>Glycation-dependent, reactive oxygen species-<linkCause>mediated</linkCause> <clueType>suppression</clueType> <linkTheme>of</linkTheme> the insulin gene promoter activity <clueLoc>in HIT cells</clueLoc>.</clue>
+<comment>NER: T1, T2 DEL</comment>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="T3" />
+<cause idref="A2" />
+<clue>Glycation-<clueType>dependent</clueType>, reactive oxygen species-mediated suppression of the insulin gene promoter activity <clueLoc>in HIT cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Prolonged poor <term sem="Other" id="T5" lex="glycemic_control">glycemic control</term> in <term sem="Multicellular_organism_natural" id="T6" lex="non-insulin-dependent_diabetes_mellitus_patient">non-insulin-dependent diabetes mellitus patients</term> often leads to a decline in <term sem="Other" id="T7" lex="insulin_secretion"><term sem="Peptide" id="A3">insulin</term> secretion</term> from <term sem="Cell_natural" id="T8" lex="pancreatic_beta_cell">pancreatic beta cells</term>, accompanied by a decrease in the <term sem="Peptide" id="T9" lex="insulin">insulin</term> content of the cells.</sentence>
+<event id="E3">
+<type class="Negative_regulation" />
+<theme idref="T5" />
+<clue>Prolonged <clueType>poor</clueType> glycemic control <clueLoc>in non-insulin-dependent diabetes mellitus patients</clueLoc> often leads to a decline in insulin secretion from pancreatic beta cells, accompanied by a decrease in the insulin content of the cells.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<clue><clueType>Prolonged</clueType> poor glycemic control in non-insulin-dependent diabetes mellitus patients often leads to a decline in insulin secretion from pancreatic beta cells, accompanied by a decrease in the insulin content of the cells.</clue>
+</event>
+<event id="E5">
+<type class="Localization" />
+<theme idref="A3" />
+<clue>Prolonged poor glycemic control in non-insulin-dependent diabetes mellitus patients often leads to a decline in insulin <clueType>secretion</clueType> <clueLoc>from pancreatic beta cells</clueLoc>, accompanied by a decrease in the insulin content of the cells.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation" />
+<theme idref="E5" />
+<cause idref="E4" />
+<clue>Prolonged poor glycemic control in non-insulin-dependent diabetes mellitus patients often leads to a <clueType>decline</clueType> <linkTheme>in</linkTheme> insulin secretion from pancreatic beta cells, accompanied by a decrease in the insulin content of the cells.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="T9" />
+<clue>Prolonged poor glycemic control in non-insulin-dependent diabetes mellitus patients often leads to a decline in insulin secretion from <clueLoc>pancreatic beta cells</clueLoc>, accompanied by a <clueType>decrease</clueType> <linkTheme>in</linkTheme> the insulin content of the cells.</clue>
+<comment>NER: T9 MOD</comment>
+</event>
+<event id="E8">
+<type class="Correlation" />
+<theme idref="E6" />
+<theme idref="E7" />
+<clue>Prolonged poor glycemic control in non-insulin-dependent diabetes mellitus patients often leads to a decline in insulin secretion from pancreatic beta cells, <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a decrease in the insulin content of the cells.</clue>
+</event>
+<sentence id="S3">As a step toward elucidating the <term sem="Other" id="T10" lex="pathophysiological_background">pathophysiological background</term> of the so-called <term sem="Other" id="T11" lex="glucose_toxicity"><term sem="Carbohydrate" id="T12" lex="glucose">glucose</term> toxicity</term> to <term sem="Cell_natural" id="T13" lex="pancreatic_beta_cell">pancreatic beta cells</term>, we induced <term sem="Other" id="A4">glycation</term> in <term sem="Cell_natural" id="T14" lex="HIT-T15_cell">HIT-T15 cells</term> using a sugar with strong deoxidizing activity, <term sem="Carbohydrate" id="T15" lex="D-ribose">D-ribose</term>, and examined the effects on <term sem="Other" id="T16" lex="insulin_gene_transcription"><term sem="DNA_domain_or_region" id="T17" lex="insulin">insulin</term> gene transcription</term>.</sentence>
+<event id="E9">
+<type class="Positive_regulation" />
+<cause idref="T15" />
+<clue>As a step toward elucidating the pathophysiological background of the so-called glucose toxicity to pancreatic beta cells, we induced glycation in HIT-T15 cells using a sugar with strong <clueType>deoxidizing activity</clueType>, D-ribose, and examined the effects on insulin gene transcription.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<clue>As a step toward elucidating the pathophysiological background of the so-called glucose toxicity to pancreatic beta cells, we <clueType>induced</clueType> glycation <clueLoc>in HIT-T15 cells</clueLoc> using a sugar with strong deoxidizing activity, D-ribose, and examined the effects on insulin gene transcription.</clue>
+</event>
+<event id="E11">
+<type class="Transcription" />
+<theme idref="T17" />
+<clue>As a step toward elucidating the pathophysiological background of the so-called glucose toxicity to pancreatic beta cells, we induced glycation in HIT-T15 cells using a sugar with strong deoxidizing activity, D-ribose, and examined the effects on insulin gene <clueType>transcription</clueType>.</clue>
+<comment>NER: T17 MOD</comment>
+</event>
+<event uncertainty="probable" id="E12">
+<type class="Regulation" />
+<theme idref="E11" />
+<cause idref="E10" />
+<clue>As a step toward elucidating the pathophysiological background of the so-called glucose toxicity to pancreatic beta cells, we induced glycation in HIT-T15 cells using a sugar with strong deoxidizing activity, D-ribose, and examined the <clueType>effects</clueType> <linkTheme>on</linkTheme> insulin gene transcription.</clue>
+</event>
+<sentence id="S4">The results of <term sem="Other" id="T18" lex="reporter_gene_analysis"><term sem="DNA_family_or_group" id="T19" lex="reporter_gene">reporter gene</term> analyses</term> revealed that the <term sem="DNA_domain_or_region" id="T20" lex="insulin_gene_promoter"><term sem="Lipid" id="T21" lex="insulin">insulin</term> gene promoter</term> is more sensitive to <term sem="Other" id="A5">glycation</term> than the control <term sem="DNA_domain_or_region" id="T22" lex="beta-actin_gene_promoter">beta-actin gene promoter</term>; approximately 50 and 80% of the <term sem="Other" id="T23" lex="insulin_gene_promoter_activity"><term sem="DNA_domain_or_region" id="T24" lex="insulin_gene_promoter"><term sem="Lipid" id="T25" lex="insulin">insulin</term> gene promoter</term> activity</term> was lost when the cells were kept for 3 d in the presence of 40 and 60 mM <term sem="Carbohydrate" id="T26" lex="D-ribose">D-ribose</term>, respectively.</sentence>
+<event id="E13">
+<type />
+<theme idref="T20" />
+<cause idref="A5" />
+<clue>The results of reporter gene analyses revealed that the insulin gene promoter is more <clueType>sensitive</clueType> <linkCause>to</linkCause> glycation than the control beta-actin gene promoter; approximately 50 and 80% of the insulin gene promoter activity was lost when the cells were kept for 3 d in the presence of 40 and 60 mM D-ribose, respectively.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E14">
+<type />
+<theme idref="T22" />
+<cause idref="A5" />
+<clue>The results of reporter gene analyses revealed that the insulin gene promoter is more <clueType>sensitive</clueType> <linkCause>to</linkCause> glycation than the control beta-actin gene promoter; approximately 50 and 80% of the insulin gene promoter activity was lost when the cells were kept for 3 d in the presence of 40 and 60 mM D-ribose, respectively.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<event id="E15">
+<type class="Artificial_process" />
+<theme idref="T14" />
+<theme idref="T26" />
+<clue>The results of reporter gene analyses revealed that the insulin gene promoter is more sensitive to glycation than the control beta-actin gene promoter; approximately 50 and 80% of the insulin gene promoter activity was lost when <corefTheme idref1="T14">the cells</corefTheme> were <clueType>kept</clueType> <clueTime>for 3 d</clueTime> <linkCause>in the presence of</linkCause> 40 and 60 mM D-ribose, respectively.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation" />
+<theme idref="T24" />
+<cause idref="E15" />
+<clue>The results of reporter gene analyses revealed that the insulin gene promoter is more sensitive to glycation than the control beta-actin gene promoter; approximately 50 and 80% of the insulin gene promoter activity was <clueType>lost</clueType> when the cells were kept for 3 d in the presence of 40 and 60 mM D-ribose, respectively.</clue>
+</event>
+<sentence id="S5">In agreement with this, decrease in the <term sem="RNA_molecule" id="T27" lex="insulin_mRNA"><term sem="Lipid" id="T28" lex="insulin">insulin</term> mRNA</term> and <term sem="Lipid" id="T29" lex="insulin">insulin</term> content was observed in the <term sem="Cell_natural" id="T30" lex="glycation-induced_cell">glycation-induced cells</term>.</sentence>
+<event id="E17">
+<type class="Negative_regulation" />
+<theme idref="T27" />
+<cause idref="E15" />
+<clue>In agreement with this, <clueType>decrease</clueType> <linkTheme>in</linkTheme> the insulin mRNA and insulin content was observed <clueLoc>in the glycation-induced cells.</clueLoc></clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<event id="E18">
+<type class="Negative_regulation" />
+<theme idref="T29" />
+<cause idref="E15" />
+<clue>In agreement with this, <clueType>decrease</clueType> <linkTheme>in</linkTheme> the insulin mRNA and insulin content was observed <clueLoc>in the glycation-induced cells.</clueLoc></clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<sentence id="S6">Also, <term sem="Other" id="T31" lex="gel_mobility_shift_analysis">gel mobility shift analyses</term> using specific <term sem="Protein_family_or_group" id="T32" lex="antiserum">antiserum</term> revealed decrease in the <term sem="Other" id="T33" lex="DNA-binding_activity">DNA-binding activity</term> of an <term sem="Protein_molecule" id="T34" lex="insulin_gene_transcription_factor"><term sem="Lipid" id="T35" lex="insulin">insulin</term> gene transcription factor</term>, <term sem="Protein_molecule" id="T36" lex="PDX-1/IPF1/STF-1">PDX-1/IPF1/STF-1</term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T24" />
+<theme idref="T36" />
+<clue>Also, gel mobility shift analyses using specific antiserum revealed decrease in the <corefTheme idref1="T24">DNA</corefTheme>-<clueType>binding activity</clueType> <linkTheme>of</linkTheme> an insulin gene transcription factor, PDX-1/IPF1/STF-1.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation" />
+<theme idref="E19" />
+<cause idref="E15" />
+<clue>Also, <clueExperiment>gel mobility shift analyses using specific antiserum</clueExperiment> revealed <clueType>decrease</clueType> in the DNA-binding activity of an insulin gene transcription factor, PDX-1/IPF1/STF-1.</clue>
+<comment>NO COREFCAUSE</comment>
+</event>
+<sentence id="S7">These effects of <term sem="Carbohydrate" id="T37" lex="D-ribose">D-ribose</term> seemed almost irreversible but could be prevented by addition of 1 mM <term sem="Organic_compound_other" id="T38" lex="aminoguanidine">aminoguanidine</term> or 10 mM <term sem="Amino_acid_monomer" id="T39" lex="N-acetylcysteine">N-acetylcysteine</term>, thus suggesting that <term sem="Other" id="T40" lex="glycation">glycation</term> and <term sem="Organic_compound_other" id="T41" lex="reactive_oxygen_species">reactive oxygen species</term>, generated through the <term sem="Other" id="T42" lex="glycation_reaction"><term sem="Other" id="T43" lex="glycation">glycation</term> reaction</term>, serve as mediators of the phenomena.</sentence>
+<event id="E21">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T38" />
+<clue><corefTheme>These effects of D-ribose</corefTheme> seemed almost irreversible but could be <clueType>prevented</clueType> <linkCause>by</linkCause> addition of 1 mM aminoguanidine or 10 mM N-acetylcysteine, thus suggesting that glycation and reactive oxygen species, generated through the glycation reaction, serve as mediators of the phenomena.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="T38" />
+<clue><corefTheme>These effects of D-ribose</corefTheme> seemed almost irreversible but could be <clueType>prevented</clueType> <linkCause>by</linkCause> addition of 1 mM aminoguanidine or 10 mM N-acetylcysteine, thus suggesting that glycation and reactive oxygen species, generated through the glycation reaction, serve as mediators of the phenomena.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="T38" />
+<clue><corefTheme>These effects of D-ribose</corefTheme> seemed almost irreversible but could be <clueType>prevented</clueType> <linkCause>by</linkCause> addition of 1 mM aminoguanidine or 10 mM N-acetylcysteine, thus suggesting that glycation and reactive oxygen species, generated through the glycation reaction, serve as mediators of the phenomena.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="T38" />
+<clue><corefTheme>These effects of D-ribose</corefTheme> seemed almost irreversible but could be <clueType>prevented</clueType> <linkCause>by</linkCause> addition of 1 mM aminoguanidine or 10 mM N-acetylcysteine, thus suggesting that glycation and reactive oxygen species, generated through the glycation reaction, serve as mediators of the phenomena.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E16" />
+<cause idref="T39" />
+<clue><corefTheme>These effects of D-ribose</corefTheme> seemed almost irreversible but could be <clueType>prevented</clueType> <linkCause>by</linkCause> addition of 1 mM aminoguanidine or 10 mM N-acetylcysteine, thus suggesting that glycation and reactive oxygen species, generated through the glycation reaction, serve as mediators of the phenomena.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="T39" />
+<clue><corefTheme>These effects of D-ribose</corefTheme> seemed almost irreversible but could be <clueType>prevented</clueType> <linkCause>by</linkCause> addition of 1 mM aminoguanidine or 10 mM N-acetylcysteine, thus suggesting that glycation and reactive oxygen species, generated through the glycation reaction, serve as mediators of the phenomena.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="E18" />
+<cause idref="T39" />
+<clue><corefTheme>These effects of D-ribose</corefTheme> seemed almost irreversible but could be <clueType>prevented</clueType> <linkCause>by</linkCause> addition of 1 mM aminoguanidine or 10 mM N-acetylcysteine, thus suggesting that glycation and reactive oxygen species, generated through the glycation reaction, serve as mediators of the phenomena.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="T39" />
+<clue><corefTheme>These effects of D-ribose</corefTheme> seemed almost irreversible but could be <clueType>prevented</clueType> <linkCause>by</linkCause> addition of 1 mM aminoguanidine or 10 mM N-acetylcysteine, thus suggesting that glycation and reactive oxygen species, generated through the glycation reaction, serve as mediators of the phenomena.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<cause idref="T43" />
+<clue>These effects of D-ribose seemed almost irreversible but could be prevented by addition of 1 mM aminoguanidine or 10 mM N-acetylcysteine, thus suggesting that glycation and reactive oxygen species, <clueType>generated</clueType> <linkCause>through</linkCause> the glycation reaction, serve as mediators of the phenomena.</clue>
+</event>
+<event uncertainty="probable" id="E30">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T40" />
+<clue>These effects of D-ribose seemed almost irreversible but could be prevented by addition of 1 mM aminoguanidine or 10 mM N-acetylcysteine, thus suggesting that glycation and reactive oxygen species, generated through the glycation reaction, <clueType>serve as mediators</clueType> <linkTheme>of</linkTheme> <corefTheme>the phenomena</corefTheme>.</clue>
+</event>
+<event uncertainty="probable" id="E31">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="T41" />
+<clue>These effects of D-ribose seemed almost irreversible but could be prevented by addition of 1 mM aminoguanidine or 10 mM N-acetylcysteine, thus suggesting that glycation and reactive oxygen species, generated through the glycation reaction, <clueType>serve as mediators</clueType> <linkTheme>of</linkTheme> <corefTheme>the phenomena</corefTheme>.</clue>
+</event>
+<sentence id="S8">These observations suggest that <term sem="Other" id="T44" lex="protein_glycation">protein glycation</term> in <term sem="Cell_natural" id="T46" lex="pancreatic_beta_cell">pancreatic beta cells</term>, which occurs in vivo under <term sem="Other" id="T47" lex="chronic_hyperglycemia">chronic hyperglycemia</term>, suppresses <term sem="Other" id="T48" lex="insulin_gene_transcription"><term sem="DNA_domain_or_region" id="T49">insulin gene</term> transcription</term> and thus can explain part of the <term sem="Other" id="T50" lex="beta_cell_glucose_toxicity">beta cell <term sem="Carbohydrate" id="T52" lex="glucose">glucose</term> toxicity</term>.</sentence>
+<event id="E32">
+<type class="Transcription" />
+<theme idref="T49" />
+<clue>These observations suggest that protein glycation in pancreatic beta cells, which occurs in vivo under chronic hyperglycemia, suppresses insulin gene <clueType>transcription</clueType> and thus can explain part of the beta cell glucose toxicity.</clue>
+<comment>NER: T49 MOD; NER: T45 del &quot;glycation&quot;</comment>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="T44" />
+<clue>These observations suggest that protein glycation <clueLoc>in pancreatic beta cells,</clueLoc> which occurs in vivo <clueLoc>under chronic hyperglycemia</clueLoc>, <clueType>suppresses</clueType> insulin gene transcription and thus can explain part of the beta cell glucose toxicity.</clue>
+<comment>NER: T51 del &quot;glucose toxicity&quot;</comment>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

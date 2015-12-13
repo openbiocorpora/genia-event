@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="2006/10/25" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2105528" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2105528</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Two distinct <term sem="Protein_family_or_group" id="T1" lex="transcription_factor">transcription factors</term> that bind the <term sem="DNA_domain_or_region" id="T2" lex="immunoglobulin_enhancer">immunoglobulin enhancer</term> <term sem="DNA_domain_or_region" id="T3" lex="microE5/kappa_2_motif">microE5/kappa 2 motif</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T1" />
+<theme idref="T3" />
+<clue>Two distinct transcription factors that <clueType>bind</clueType> the immunoglobulin enhancer microE5/kappa 2 motif.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Activity of the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T4" lex="(AND immunoglobulin_heavy_chain_gene_enhancer immunoglobulin_kappa_light_chain_gene_enhancer)"><term sem="DNA_domain_or_region" id="A2"><frag id="F1">immunoglobulin</frag> <frag id="F2">heavy</frag></term> and <frag id="F3"><term sem="DNA_domain_or_region" id="A3">kappa light</term></frag> <frag id="F4"><term sem="DNA_domain_or_region" id="A4">chain gene enhancers</term></frag></cons> depends on a complex interplay of <term sem="Protein_family_or_group" id="T5" lex="ubiquitous_and_developmentally_regulated_protein"><term sem="Protein_family_or_group" id="T6" lex="ubiquitous_protein"><term sem="Protein_family_or_group" id="A20">ubiquitous</term></term> and <term sem="Protein_family_or_group" id="T7" lex="developmentally_regulated_protein"><term sem="Protein_family_or_group" id="A21">developmentally</term> <term sem="Protein_family_or_group" id="A22">regulated proteins</term></term></term>.</sentence>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref1="A4" idref="A2" />
+<cause idref="E3" />
+<clue>Activity of the immunoglobulin heavy and kappa light chain gene enhancers <clueType>depends</clueType> <linkCause>on</linkCause> a complex interplay of ubiquitous and developmentally regulated proteins.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref1="A4" idref="A3" />
+<cause idref="E3" />
+<clue>Activity of the immunoglobulin heavy and kappa light chain gene enhancers <clueType>depends</clueType> <linkCause>on</linkCause> a complex interplay of ubiquitous and developmentally regulated proteins.</clue>
+</event>
+<event id="E200">
+<type class="Positive_regulation" />
+<theme idref1="A4" idref="A2" />
+<cause idref="E300" />
+<clue>Activity of the immunoglobulin heavy and kappa light chain gene enhancers <clueType>depends</clueType> <linkCause>on</linkCause> a complex interplay of ubiquitous and developmentally regulated proteins.</clue>
+</event>
+<event id="E400">
+<type class="Positive_regulation" />
+<theme idref1="A4" idref="A3" />
+<cause idref="E300" />
+<clue>Activity of the immunoglobulin heavy and kappa light chain gene enhancers <clueType>depends</clueType> <linkCause>on</linkCause> a complex interplay of ubiquitous and developmentally regulated proteins.</clue>
+</event>
+<event id="E3">
+<type class="Correlation" />
+<theme idref1="A22" idref="A20" />
+<clue>Activity of the immunoglobulin heavy and kappa light chain gene enhancers depends on a <clueType>complex interplay</clueType> <linkTheme>of</linkTheme> ubiquitous and developmentally regulated proteins.</clue>
+</event>
+<event id="E300">
+<type class="Correlation" />
+<theme idref1="A22" idref="A21" />
+<clue>Activity of the immunoglobulin heavy and kappa light chain gene enhancers depends on a <clueType>complex interplay</clueType> <linkTheme>of</linkTheme> ubiquitous and developmentally regulated proteins.</clue>
+</event>
+<sentence id="S3">Two <term sem="DNA_molecule" id="T8" lex="complementary_DNA">complementary DNAs</term> were isolated that encode proteins, denoted <term sem="Protein_molecule" id="T9" lex="ITF-1">ITF-1</term> and <term sem="Protein_molecule" id="T10" lex="ITF-2">ITF-2</term>, that are expressed in a variety of cell types and bind the <term sem="DNA_domain_or_region" id="T11" lex="microE5/kappa_2_motif">microE5/kappa 2 motif</term> found in both <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T12" lex="(AND heavy_chain_enhancer kappa_light_chain_enhancer)"><frag id="F5">heavy</frag> and <frag id="F6">kappa light</frag> <frag id="F7">chain enhancers</frag></cons>.</sentence>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T9" />
+<clue>Two complementary DNAs were isolated that encode proteins, denoted ITF-1 and ITF-2, that are <clueType>expressed</clueType> <clueLoc>in a variety of cell types</clueLoc> and bind the microE5/kappa 2 motif found in both heavy and kappa light chain enhancers.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T10" />
+<clue>Two complementary DNAs were isolated that encode proteins, denoted ITF-1 and ITF-2, that are <clueType>expressed</clueType> <clueLoc>in a variety of cell types</clueLoc> and bind the microE5/kappa 2 motif found in both heavy and kappa light chain enhancers.</clue>
+</event>
+<event id="E9">
+<type class="Binding" />
+<theme idref="T9" />
+<theme idref="T11" />
+<clue>Two complementary DNAs were isolated that encode proteins, denoted ITF-1 and ITF-2, that are expressed in a variety of cell types and <clueType>bind</clueType> the microE5/kappa 2 motif found in both heavy and kappa light chain enhancers.</clue>
+</event>
+<event id="E10">
+<type class="Binding" />
+<theme idref="T10" />
+<theme idref="T11" />
+<clue>Two complementary DNAs were isolated that encode proteins, denoted ITF-1 and ITF-2, that are expressed in a variety of cell types and <clueType>bind</clueType> the microE5/kappa 2 motif found in both heavy and kappa light chain enhancers.</clue>
+</event>
+<sentence id="S4">The <term sem="DNA_family_or_group" id="T13" lex="complementary_DNA">complementary DNAs</term> are the products of <term sem="DNA_domain_or_region" id="A5">distinct genes</term>, yet both <term sem="Protein_molecule" id="T14" lex="ITF-1">ITF-1</term> and <term sem="Protein_molecule" id="T15" lex="ITF-2">ITF-2</term> are structurally and functionally similar.</sentence>
+<sentence id="S5">The two proteins interact with one another through their putative <term sem="Protein_substructure" id="T16" lex="helix-loop-helix_motif">helix-loop-helix motifs</term> and each possesses a <term sem="DNA_domain_or_region" id="A6">distinct domain</term> that dictates <term sem="Other" id="T17" lex="transcription_activation"><term sem="Other" id="A50" lex="transcription">transcription</term> activation</term>.</sentence>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T14" />
+<theme idref="T15" />
+<clue><corefTheme idref1="T14">The two proteins</corefTheme> <clueType>interact</clueType> <linkTheme>with</linkTheme> <corefTheme idref1="T15">one another</corefTheme> through their putative helix-loop-helix motifs and each possesses a distinct domain that dictates transcription activation.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<cause idref="A6" />
+<clue>The two proteins interact with one another through their putative helix-loop-helix motifs and each possesses a distinct domain that <clueType>dictates</clueType> transcription activation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

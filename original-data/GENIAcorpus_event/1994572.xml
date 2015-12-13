@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="20/03/2006" creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1994572">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1994572</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A <term sem="Virus" id="T1" lex="novel_HIV-1_isolate">novel <term sem="Virus" id="T2" lex="HIV-1">HIV-1</term> isolate</term> containing alterations affecting the <term sem="DNA_domain_or_region" id="T3" lex="NF-kappa_B_element"><term sem="Protein_molecule" id="T4" lex="NF-kappa_B">NF-kappa B</term> element</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Three molecular clones of <term sem="Virus" id="T5" lex="HIV-1">HIV-1</term>, derived from a single isolate (<term sem="Virus" id="T6" lex="AL1">AL1</term>), exhibited distinct replicative and cytopathic properties during propagation in a <term sem="Cell_cultured" id="T7" lex="human_T_cell_line">human T cell line</term>.</sentence>
+<sentence id="S3">The <term sem="Other" id="A2">phenotypic</term> differences observed were attributable, in large part, to <term sem="Other" id="A1">changes</term> affecting the <term sem="DNA_domain_or_region" id="T8" lex="viral_LTR">viral LTR</term>.</sentence>
+<event id="E1">
+<type class="Correlation" />
+<theme idref="A1" />
+<theme idref="T8" />
+<clue>The phenotypic differences observed were attributable, in large part, to changes <clueType>affecting</clueType> the viral LTR.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="A2" />
+<cause idref="E1" />
+<clue>The phenotypic <clueType>differences</clueType> observed were <linkCause>attributable</linkCause>, in large part, <linkCause>to</linkCause> changes affecting the viral LTR.</clue>
+</event>
+<sentence id="S4"><term sem="Other" id="T9" lex="nucleotide_sequence">Nucleotide sequence</term> and <term sem="Other" id="T10" lex="PCR_analysis">PCR analyses</term> demonstrated the presence of novel duplications or deletions involving the <term sem="DNA_domain_or_region" id="T11" lex="NF-kappa_B_motif"><term sem="Protein_molecule" id="T12" lex="NF-kappa_B">NF-kappa B</term> motif</term>.</sentence>
+<sentence id="S5">These changes in the <term sem="DNA_domain_or_region" id="T13" lex="enhancer_element">enhancer element</term> were identified in the original <term sem="Virus" id="T14" lex="AL1_virus_stock">AL1 virus stock</term>.</sentence>
+<sentence id="S6">Subcloning of the <term sem="DNA_domain_or_region" id="T15" lex="variant_NF-kappa_B_segment">variant <term sem="Protein_molecule" id="T16" lex="NF-kappa_B">NF-kappa B</term> segments</term> into <term sem="DNA_family_or_group" id="T17" lex="LTR-driven_CAT_expression_vector">LTR-driven <term sem="Protein_molecule" id="T18" lex="CAT">CAT</term> expression vectors</term> confirmed a correlation between <term sem="Other" id="T19" lex="promoter_activity">promoter activity</term> and <term sem="Other" id="T20" lex="replicative/cytopathic_capacity"><term sem="Other" id="A3">replicative</term>/<term sem="Other" id="A5">cytopathic <term sem="Other" id="A4">capacity</term></term></term>.</sentence>
+<event id="E3">
+<type class="Correlation" />
+<theme idref="T19" />
+<theme idref1="A4" idref="A3" />
+<clue><clueExperiment>Subcloning of the variant NF-kappa B segments into LTR-driven CAT expression vectors</clueExperiment> confirmed a <clueType>correlation</clueType> <linkTheme>between</linkTheme> promoter activity <linkTheme>and</linkTheme> replicative/cytopathic capacity.</clue>
+</event>
+<event id="E4">
+<type class="Correlation" />
+<theme idref="T19" />
+<theme idref="A5" />
+<clue><clueExperiment>Subcloning of the variant NF-kappa B segments into LTR-driven CAT expression vectors</clueExperiment> confirmed a <clueType>correlation</clueType> <linkTheme>between</linkTheme> promoter activity <linkTheme>and</linkTheme> replicative/cytopathic capacity.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

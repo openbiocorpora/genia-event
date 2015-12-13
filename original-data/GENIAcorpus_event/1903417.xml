@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="01/03/2006" creator="Hitomi MASUDA" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1903417"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1903417</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="transforming_growth_factor-beta">Transforming growth factor-beta</term> suppresses <term sem="Other" id="T2" lex="human_B_lymphocyte_Ig_production"><term sem="Protein_molecule" id="T3" lex="human_B_lymphocyte_Ig">human B lymphocyte <term sem="Protein_family_or_group" id="A100">Ig</term></term> production</term> by inhibiting synthesis and the switch from the <term sem="RNA_family_or_group" id="T4" lex="membrane_form">membrane form</term> to the <term sem="RNA_family_or_group" id="T5" lex="secreted_form">secreted form</term> <term sem="RNA_family_or_group" id="A13">of <term sem="RNA_family_or_group" id="T6" lex="Ig_mRNA">Ig mRNA</term></term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Transcription" />
+<theme idref="T6" />
+<clue>Transforming growth factor-beta suppresses human B lymphocyte Ig production by inhibiting <clueType>synthesis</clueType> and the switch from the membrane form to the secreted form <linkTheme>of</linkTheme> Ig mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="Negative_regulation" />
+<theme idref1="A13" idref="T4" />
+<clue>Transforming growth factor-beta suppresses human B lymphocyte Ig production by inhibiting synthesis and the <clueType>switch</clueType> <linkTheme>from</linkTheme> the membrane form to the secreted form of Ig mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E102">
+<type class="Positive_regulation" />
+<theme idref1="A13" idref="T5" />
+<clue>Transforming growth factor-beta suppresses human B lymphocyte Ig production by inhibiting synthesis and the <clueType>switch</clueType> from the membrane form <linkTheme>to</linkTheme> the secreted form of Ig mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="Negative_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Transforming growth factor-beta suppresses human B lymphocyte Ig production by <clueType>inhibiting</clueType> synthesis and the switch from the membrane form to the secreted form of Ig mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E52">
+<type class="Negative_regulation" />
+<theme idref="E2" />
+<cause idref="T1" />
+<clue>Transforming growth factor-beta suppresses human B lymphocyte Ig production by <clueType>inhibiting</clueType> synthesis and the switch from the membrane form to the secreted form of Ig mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E4">
+<type class="Gene_expression" />
+<theme idref="A100" />
+<clue>Transforming growth factor-beta suppresses <clueLoc>human B lymphocyte</clueLoc> Ig <clueType>production</clueType> by inhibiting synthesis and the switch from the membrane form to the secreted form of Ig mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E5">
+<type class="Negative_regulation" />
+<theme idref="E4" />
+<cause idref="E3" />
+<clue>Transforming growth factor-beta <clueType>suppresses</clueType> human B lymphocyte Ig production <linkCause>by</linkCause> inhibiting synthesis and the switch from the membrane form to the secreted form of Ig mRNA.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T7" lex="transforming_growth_factor-beta">Transforming growth factor-beta</term> (<term sem="Protein_molecule" id="T8" lex="TGF-beta">TGF-beta</term>) inhibits <term sem="Other" id="T9" lex="B_cell_Ig_secretion"><term sem="Cell_natural" id="T10" lex="B_cell">B cell</term> <term sem="Protein_family_or_group" id="T11" lex="Ig">Ig</term> secretion</term> and reduces <term sem="Other" id="T12" lex="B_cell_membrane_Ig_expression"><term sem="Cell_component" id="A1"><term sem="Cell_natural" id="T13" lex="B_cell">B cell</term> membrane</term> <term sem="Protein_family_or_group" id="T14" lex="Ig">Ig</term> expression</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E6">
+<type class="Localization" />
+<theme idref="T11" />
+<clue>Transforming growth factor-beta (TGF-beta) inhibits <clueLoc>B cell</clueLoc> Ig <clueType>secretion</clueType> and reduces B cell membrane Ig expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E7">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>Transforming growth factor-beta (TGF-beta) inhibits B cell Ig secretion and reduces <clueLoc>B cell membrane</clueLoc> Ig <clueType>expression</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E8">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="T8" />
+<clue>Transforming growth factor-beta (TGF-beta) <clueType>inhibits</clueType> B cell Ig secretion and reduces B cell membrane Ig expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E9">
+<type class="Negative_regulation" />
+<theme idref="E7" />
+<cause idref="T8" />
+<clue>Transforming growth factor-beta (TGF-beta) inhibits B cell Ig secretion and <clueType>reduces</clueType> B cell membrane Ig expression.</clue>
+</event>
+<sentence id="S3">The addition of <term sem="Protein_molecule" id="T15" lex="TGF-beta">TGF-beta</term> to <term sem="Cell_cultured" id="T16" lex="human_B_lymphocyte_culture">human B lymphocyte cultures</term> stimulated with <term sem="Unicellular_organism" id="T17" lex="Staphylococcus_aureus_Cowan_strain_I">Staphylococcus aureus Cowan strain I</term> and <term sem="Protein_molecule" id="T18" lex="IL-2">IL-2</term> completely inhibited <term sem="Other" id="T19" lex="B_cell_Ig_secretion"><term sem="Cell_natural" id="T20" lex="B_cell">B cell</term> <term sem="Protein_family_or_group" id="T21" lex="Ig">Ig</term> secretion</term> (greater than 90%) and decreased <term sem="Cell_component" id="T22" lex="B_cell_surface"><term sem="Cell_natural" id="T23" lex="B_cell">B cell</term> surface</term> <cons sem="(AND Other Other Other Other)" id="T24" lex="(AND IgM_expression IgD_expression kappa_L_chain_expression lambda_L_chain_expression)"><frag id="F1"><term sem="Protein_molecule" id="A2">IgM</term></frag>, <frag id="F2"><term sem="Protein_molecule" id="A3">IgD</term></frag>, <frag id="F3"><term sem="Protein_molecule" id="A4">kappa L chain</term></frag>, and <frag id="F4"><term sem="Protein_molecule" id="A5">lambda L chain</term></frag> <frag id="F5">expression</frag></cons>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E10">
+<type class="Localization" />
+<theme idref="T21" />
+<clue>The addition of TGF-beta to human B lymphocyte cultures stimulated with Staphylococcus aureus Cowan strain I and IL-2 completely inhibited <clueLoc>B cell</clueLoc> Ig <clueType>secretion</clueType> (greater than 90%) and decreased B cell surface IgM, IgD, kappa L chain, and lambda L chain expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E11">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>The addition of TGF-beta to human B lymphocyte cultures stimulated with Staphylococcus aureus Cowan strain I and IL-2 completely inhibited B cell Ig secretion (greater than 90%) and decreased <clueLoc>B cell surface</clueLoc> IgM, IgD, kappa L chain, and lambda L chain <clueType>expression</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E53">
+<type class="Gene_expression" />
+<theme idref="A3" />
+<clue>The addition of TGF-beta to human B lymphocyte cultures stimulated with Staphylococcus aureus Cowan strain I and IL-2 completely inhibited B cell Ig secretion (greater than 90%) and decreased <clueLoc>B cell surface</clueLoc> IgM, IgD, kappa L chain, and lambda L chain <clueType>expression</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E54">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>The addition of TGF-beta to human B lymphocyte cultures stimulated with Staphylococcus aureus Cowan strain I and IL-2 completely inhibited B cell Ig secretion (greater than 90%) and decreased <clueLoc>B cell surface</clueLoc> IgM, IgD, kappa L chain, and lambda L chain <clueType>expression</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E55">
+<type class="Gene_expression" />
+<theme idref="A5" />
+<clue>The addition of TGF-beta to human B lymphocyte cultures stimulated with Staphylococcus aureus Cowan strain I and IL-2 completely inhibited B cell Ig secretion (greater than 90%) and decreased <clueLoc>B cell surface</clueLoc> IgM, IgD, kappa L chain, and lambda L chain <clueType>expression</clueType>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="Negative_regulation" />
+<theme idref="E10" />
+<cause idref="T15" />
+<clue>The addition of TGF-beta to <clueLoc>human B lymphocyte cultures stimulated with Staphylococcus aureus Cowan strain I</clueLoc> and IL-2 completely <clueType>inhibited</clueType> B cell Ig secretion (greater than 90%) and decreased B cell surface IgM, IgD, kappa L chain, and lambda L chain expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E112">
+<type class="Negative_regulation" />
+<theme idref="E10" />
+<cause idref="T15" />
+<clue>The addition of TGF-beta to <clueLoc>human B lymphocyte cultures stimulated with</clueLoc> Staphylococcus aureus Cowan strain I and <clueLoc>IL-2</clueLoc> completely <clueType>inhibited</clueType> B cell Ig secretion (greater than 90%) and decreased B cell surface IgM, IgD, kappa L chain, and lambda L chain expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Negative_regulation" />
+<theme idref="E11" />
+<cause idref="T15" />
+<clue>The addition of TGF-beta to human B lymphocyte cultures stimulated with Staphylococcus aureus Cowan strain I and IL-2 completely inhibited B cell Ig secretion (greater than 90%) and <clueType>decreased</clueType> B cell surface IgM, IgD, kappa L chain, and lambda L chain expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E101">
+<type class="Negative_regulation" />
+<theme idref="E53" />
+<cause idref="T15" />
+<clue>The addition of TGF-beta to human B lymphocyte cultures stimulated with Staphylococcus aureus Cowan strain I and IL-2 completely inhibited B cell Ig secretion (greater than 90%) and <clueType>decreased</clueType> B cell surface IgM, IgD, kappa L chain, and lambda L chain expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E202">
+<type class="Negative_regulation" />
+<theme idref="E54" />
+<cause idref="T15" />
+<clue>The addition of TGF-beta to human B lymphocyte cultures stimulated with Staphylococcus aureus Cowan strain I and IL-2 completely inhibited B cell Ig secretion (greater than 90%) and <clueType>decreased</clueType> B cell surface IgM, IgD, kappa L chain, and lambda L chain expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E103">
+<type class="Negative_regulation" />
+<theme idref="E55" />
+<cause idref="T15" />
+<clue>The addition of TGF-beta to human B lymphocyte cultures stimulated with Staphylococcus aureus Cowan strain I and IL-2 completely inhibited B cell Ig secretion (greater than 90%) and <clueType>decreased</clueType> B cell surface IgM, IgD, kappa L chain, and lambda L chain expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E203">
+<type class="Physiological_process" />
+<theme idref="T16" />
+<cause idref="T17" />
+<clue>The addition of TGF-beta to human B lymphocyte cultures <clueType>stimulated</clueType> <linkCause>with</linkCause> Staphylococcus aureus Cowan strain I and IL-2 completely inhibited B cell Ig secretion (greater than 90%) and decreased B cell surface IgM, IgD, kappa L chain, and lambda L chain expression.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E303">
+<type class="Physiological_process" />
+<theme idref="T16" />
+<cause idref="T18" />
+<clue>The addition of TGF-beta to human B lymphocyte cultures <clueType>stimulated</clueType> <linkCause>with</linkCause> Staphylococcus aureus Cowan strain I and IL-2 completely inhibited B cell Ig secretion (greater than 90%) and decreased B cell surface IgM, IgD, kappa L chain, and lambda L chain expression.</clue>
+</event>
+<sentence id="S4">In contrast, <term sem="Protein_molecule" id="T25" lex="TGF-beta">TGF-beta</term> had only minimal effects on two other <term sem="Protein_family_or_group" id="T26" lex="B_cell_membrane_protein"><term sem="Cell_natural" id="T27" lex="B_cell">B cell</term> membrane proteins</term>, <term sem="Protein_molecule" id="T28" lex="HLA-DR">HLA-DR</term> and <term sem="Protein_molecule" id="T29" lex="CD20">CD20</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E14">
+<type class="Regulation" />
+<theme idref="T28" />
+<cause idref="T25" />
+<clue>In contrast, TGF-beta <clueType>had</clueType> only minimal <clueType>effects</clueType> <linkTheme>on</linkTheme> two other B cell membrane proteins, HLA-DR and CD20.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E56">
+<type class="Regulation" />
+<theme idref="T29" />
+<cause idref="T25" />
+<clue>In contrast, TGF-beta <clueType>had</clueType> only minimal <clueType>effects</clueType> <linkTheme>on</linkTheme> two other B cell membrane proteins, HLA-DR and CD20.</clue>
+</event>
+<sentence id="S5">Internal labeling with <term sem="Peptide" id="T30" lex="[35S]methionine">[35S]methionine</term> and immunoprecipitation with <term sem="Protein_molecule" id="T31" lex="anti-IgM">anti-IgM</term>, <term sem="Protein_molecule" id="T32" lex="anti-kappa">anti-kappa</term>, and <term sem="Protein_molecule" id="T33" lex="anti-lambda_antibody">anti-lambda antibodies</term> revealed a striking reduction in <term sem="Protein_molecule" id="T34" lex="kappa_L_chain">kappa L chain</term> in the presence of <term sem="Protein_molecule" id="T35" lex="TGF-beta">TGF-beta</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E15">
+<type class="Negative_regulation" />
+<theme idref="T34" />
+<cause idref="T35" />
+<clue><clueExperiment>Internal labeling with [35S]methionine and immunoprecipitation with anti-IgM, anti-kappa, and anti-lambda antibodies</clueExperiment> revealed a striking <clueType>reduction</clueType> <linkTheme>in</linkTheme> kappa L chain <linkCause>in the presence of</linkCause> TGF-beta.</clue>
+</event>
+<sentence id="S6">A less pronounced reduction in <term sem="Protein_molecule" id="T36" lex="lambda_L_chain">lambda L chain</term> and <term sem="Protein_molecule" id="T37" lex="microH_chain">microH chain</term> was also noted.</sentence>
+<event assertion="exist" uncertainty="certain" id="E17">
+<type class="Negative_regulation" />
+<theme idref="T36" />
+<clue>A less pronounced <clueType>reduction</clueType> <linkTheme>in</linkTheme> lambda L chain and microH chain was also noted.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E57">
+<type class="Negative_regulation" />
+<theme idref="T37" />
+<clue>A less pronounced <clueType>reduction</clueType> <linkTheme>in</linkTheme> lambda L chain and microH chain was also noted.</clue>
+</event>
+<sentence id="S7"><term sem="Other" id="T38" lex="northern_blot_analysis">Northern blot analysis</term> of RNA purified from <term sem="Cell_natural" id="T39" lex="B_cell">B cells</term> treated with <term sem="Protein_molecule" id="T40" lex="TGF-beta">TGF-beta</term> for varying time intervals revealed a significant decrease in steady state <cons sem="(AND Other Other)" id="T41" lex="(AND kappa__L_chain_mRNA_level lambda_L_chain_mRNA_level)"><frag id="F6"><term sem="RNA_molecule" id="A101">kappa</term></frag> and <frag id="F7"><term sem="RNA_molecule" id="A102">lambda</term></frag> <frag id="F8"><term sem="RNA_molecule" id="A103">L chain mRNA</term> levels</frag></cons>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E18">
+<type class="Artificial_process" />
+<theme idref="T39" />
+<theme idref="T40" />
+<clue>Northern blot analysis of RNA purified from B cells <clueType>treated</clueType> <linkTheme>with</linkTheme> TGF-beta for varying time intervals revealed a significant decrease in steady state kappa and lambda L chain mRNA levels.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E19">
+<type class="Negative_regulation" />
+<theme idref1="A103" idref="A101" />
+<cause idref="E18" />
+<clue>Northern blot analysis of RNA purified from B cells treated with TGF-beta for varying time intervals <linkCause>revealed</linkCause> a significant <clueType>decrease</clueType> <linkTheme>in</linkTheme> steady state kappa and lambda L chain mRNA levels.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E200">
+<type class="Negative_regulation" />
+<theme idref1="A103" idref="A102" />
+<cause idref="E18" />
+<clue>Northern blot analysis of RNA purified from B cells treated with TGF-beta for varying time intervals <linkCause>revealed</linkCause> a significant <clueType>decrease</clueType> <linkTheme>in</linkTheme> steady state kappa and lambda L chain mRNA levels.</clue>
+</event>
+<sentence id="S8">Furthermore, a significant decrease in the switch from the <term sem="RNA_family_or_group" id="T42" lex="membrane_form">membrane forms</term> <term sem="RNA_molecule" id="A104">of</term> <term sem="RNA_molecule" id="T43" lex="mu">mu</term> and <term sem="RNA_molecule" id="T44" lex="gamma">gamma</term> to their respective <term sem="RNA_family_or_group" id="T45" lex="secreted_form">secreted forms</term> was noted in the presence of <term sem="Protein_molecule" id="T46" lex="TGF-beta">TGF-beta</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E20">
+<type class="Negative_regulation" />
+<theme idref1="A104" idref2="T44" idref="T42" />
+<clue>Furthermore, a significant decrease in the <clueType>switch</clueType> <linkTheme>from</linkTheme> the membrane forms of mu and gamma to their respective secreted forms was noted in the presence of TGF-beta.</clue>
+<comment>TPS: A104</comment></event>
+<event assertion="exist" uncertainty="certain" id="E121">
+<type class="Positive_regulation" />
+<theme idref1="A104" idref2="T44" idref="T45" />
+<clue>Furthermore, a significant decrease in the <clueType>switch</clueType> from the membrane forms of mu and gamma <linkTheme>to</linkTheme> their respective secreted forms was noted in the presence of TGF-beta.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E22">
+<type class="Negative_regulation" />
+<theme idref="E20" />
+<cause idref="T46" />
+<clue>Furthermore, a significant <clueType>decrease</clueType> <linkTheme>in</linkTheme> the switch from the membrane forms of mu and gamma to their respective secreted forms was noted <linkCause>in the presence of</linkCause> TGF-beta.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E123">
+<type class="Negative_regulation" />
+<theme idref="E121" />
+<cause idref="T46" />
+<clue>Furthermore, a significant <clueType>decrease</clueType> <linkTheme>in</linkTheme> the switch from the membrane forms of mu and gamma to their respective secreted forms was noted <linkCause>in the presence of</linkCause> TGF-beta.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E220">
+<type class="Negative_regulation" />
+<theme idref1="A104" idref2="T43" idref="T42" />
+<clue>Furthermore, a significant decrease in the <clueType>switch</clueType> <linkTheme>from</linkTheme> the membrane forms of mu and gamma to their respective secreted forms was noted in the presence of TGF-beta.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E221">
+<type class="Positive_regulation" />
+<theme idref1="A104" idref2="T43" idref="T45" />
+<clue>Furthermore, a significant decrease in the <clueType>switch</clueType> from the membrane forms of mu and gamma <linkTheme>to</linkTheme> their respective secreted forms was noted in the presence of TGF-beta.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E222">
+<type class="Negative_regulation" />
+<theme idref="E220" />
+<cause idref="T46" />
+<clue>Furthermore, a significant <clueType>decrease</clueType> <linkTheme>in</linkTheme> the switch from the membrane forms of mu and gamma to their respective secreted forms was noted <linkCause>in the presence of</linkCause> TGF-beta.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E223">
+<type class="Negative_regulation" />
+<theme idref="E221" />
+<cause idref="T46" />
+<clue>Furthermore, a significant <clueType>decrease</clueType> <linkTheme>in</linkTheme> the switch from the membrane forms of mu and gamma to their respective secreted forms was noted <linkCause>in the presence of</linkCause> TGF-beta.</clue>
+</event>
+<sentence id="S9"><term sem="Other" id="T47" lex="nuclear_run-on_experiment">Nuclear run-on experiments</term> demonstrated decreased transcription of <term sem="Protein_molecule" id="T48" lex="kappa_L_chain">kappa L chain</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E24">
+<type class="Transcription" />
+<theme idref="T48" />
+<clue>Nuclear run-on experiments demonstrated decreased <clueType>transcription</clueType> <linkTheme>of</linkTheme> kappa L chain.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E25">
+<type class="Negative_regulation" />
+<theme idref="E24" />
+<cause idref="T46" />
+<clue><clueExperiment>Nuclear run-on experiments</clueExperiment> demonstrated <clueType>decreased</clueType> transcription of kappa L chain.</clue>
+<comment>No corefCause</comment></event>
+<sentence id="S10">The effects of <term sem="Protein_molecule" id="T49" lex="TGF-beta">TGF-beta</term> on two <term sem="Protein_family_or_group" id="T50" lex="transcriptional_regulatory_factor">transcriptional regulatory factors</term>, <term sem="Protein_molecule" id="T51" lex="Oct-2">Oct-2</term> and <term sem="Protein_molecule" id="T52" lex="nuclear_factor_(NF)_kappa_B">nuclear factor (NF) kappa B</term>, known to be important in <term sem="Other" id="T53" lex="Ig_gene_transcription"><term sem="DNA_family_or_group" id="A106"><term sem="Protein_family_or_group" id="T54" lex="Ig">Ig</term> gene</term> transcription</term> were examined.</sentence>
+<event assertion="exist" uncertainty="certain" id="E26">
+<type class="Regulation" />
+<theme idref="T51" />
+<cause idref="T49" />
+<clue>The <clueType>effects</clueType> <linkCause>of</linkCause> TGF-beta <linkTheme>on</linkTheme> two transcriptional regulatory factors, Oct-2 and nuclear factor (NF) kappa B, known to be important in Ig gene transcription were examined.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E27">
+<type class="Regulation" />
+<theme idref="T52" />
+<cause idref="T49" />
+<clue>The <clueType>effects</clueType> <linkCause>of</linkCause> TGF-beta <linkTheme>on</linkTheme> two transcriptional regulatory factors, Oct-2 and nuclear factor (NF) kappa B, known to be important in Ig gene transcription were examined.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E28">
+<type class="Transcription" />
+<theme idref="A106" />
+<clue>The effects of TGF-beta on two transcriptional regulatory factors, Oct-2 and nuclear factor (NF) kappa B, known to be important in Ig gene <clueType>transcription</clueType> were examined.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E29">
+<type class="Regulation" />
+<theme idref="E28" />
+<cause idref="E26" />
+<clue>The effects of TGF-beta on two transcriptional regulatory factors, Oct-2 and nuclear factor (NF) kappa B, known to be <clueType>important</clueType> <linkTheme>in</linkTheme> Ig gene transcription were examined.</clue>
+</event>
+<sentence id="S11"><term sem="Other" id="T55" lex="Oct-2_mRNA_level"><term sem="RNA_family_or_group" id="T56" lex="Oct-2_mRNA"><term sem="Protein_molecule" id="T57" lex="Oct-2">Oct-2</term> mRNA</term> levels</term> and both <term sem="Protein_molecule" id="T58" lex="Oct-2">Oct-2</term> and <term sem="Protein_family_or_group" id="T59" lex="NF-kappa_B_protein">NF-kappa B proteins</term> in <term sem="Cell_component" id="T60" lex="nuclear_extract">nuclear extracts</term> were not altered by treatment with <term sem="Protein_molecule" id="T61" lex="TGF-beta">TGF-beta</term>.</sentence>
+<event assertion="non-exist" uncertainty="certain" id="E30">
+<type class="Regulation" />
+<theme idref="T55" />
+<cause idref="T61" />
+<clue>Oct-2 mRNA levels and both Oct-2 and NF-kappa B proteins <clueLoc>in nuclear extracts</clueLoc> were not <clueType>altered</clueType> <linkCause>by</linkCause> treatment with TGF-beta.</clue>
+</event>
+<event assertion="non-exist" uncertainty="certain" id="E50">
+<type class="Regulation" />
+<theme idref="T58" />
+<cause idref="T61" />
+<clue>Oct-2 mRNA levels and both Oct-2 and NF-kappa B proteins <clueLoc>in nuclear extracts</clueLoc> were not <clueType>altered</clueType> <linkCause>by</linkCause> treatment with TGF-beta.</clue>
+</event>
+<event assertion="non-exist" uncertainty="certain" id="E51">
+<type class="Regulation" />
+<theme idref="T59" />
+<cause idref="T61" />
+<clue>Oct-2 mRNA levels and both Oct-2 and NF-kappa B proteins <clueLoc>in nuclear extracts</clueLoc> were not <clueType>altered</clueType> <linkCause>by</linkCause> treatment with TGF-beta.</clue>
+</event>
+<sentence id="S12">In contrast, levels of the <term sem="Protein_molecule" id="T62" lex="transcriptional_factor_AP-1">transcriptional factor <term sem="Protein_molecule" id="A6">AP-1</term></term>, which is not known to be important in <term sem="Cell_natural" id="T63" lex="B_cell">B cell</term> <term sem="Other" id="T64" lex="Ig_production"><term sem="Protein_family_or_group" id="T65" lex="Ig">Ig</term> production</term>, were reduced by <term sem="Protein_molecule" id="T66" lex="TGF-beta">TGF-beta</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E31">
+<type class="Negative_regulation" />
+<theme idref="A6" />
+<cause idref="T66" />
+<clue>In contrast, levels of the transcriptional factor AP-1, which is not known to be important in B cell Ig production, were <clueType>reduced</clueType> <linkCause>by</linkCause> TGF-beta.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E300">
+<type class="Gene_expression" />
+<theme idref="T65" />
+<clue>In contrast, levels of the transcriptional factor AP-1, which is not known to be important in <clueLoc>B cell</clueLoc> Ig <clueType>production</clueType>, were reduced by TGF-beta.</clue>
+</event>
+<event assertion="non-exist" uncertainty="certain" id="E301">
+<type class="Correlation" />
+<theme idref="A6" />
+<theme idref="E300" />
+<clue>In contrast, levels of the transcriptional factor AP-1, which is not known to be <clueType>important</clueType> <linkTheme>in</linkTheme> B cell Ig production, were reduced by TGF-beta.</clue>
+</event>
+<sentence id="S13">These findings demonstrate that <term sem="Protein_molecule" id="T67" lex="TGF-beta">TGF-beta</term> decreases <term sem="Other" id="T68" lex="B_lymphocyte_Ig_secretion"><term sem="Cell_natural" id="A7">B lymphocyte</term> <term sem="Protein_family_or_group" id="T69" lex="Ig">Ig</term> secretion</term> by inhibiting the synthesis of <term sem="RNA_family_or_group" id="T70" lex="Ig_mRNA">Ig mRNA</term> and inhibiting the switch from the <term sem="RNA_family_or_group" id="T71" lex="membrane_form">membrane form</term> to the <term sem="RNA_family_or_group" id="T72" lex="secreted_form">secreted forms</term> <term sem="RNA_molecule" id="A14">of</term> <cons sem="(AND RNA_molecule RNA_molecule)" id="T73" lex="(AND mu_mRNA gamma_mRNA)"><frag id="F9"><term sem="RNA_molecule" id="A8">mu</term></frag> and <frag id="F10"><term sem="RNA_molecule" id="A9">gamma</term></frag> <frag id="F11"><term sem="RNA_molecule" id="A10">mRNA</term></frag></cons>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E32">
+<type class="Localization" />
+<theme idref="T69" />
+<clue>These findings demonstrate that TGF-beta decreases <clueLoc>B lymphocyte</clueLoc> Ig <clueType>secretion</clueType> by inhibiting the synthesis of Ig mRNA and inhibiting the switch from the membrane form to the secreted forms of mu and gamma mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E33">
+<type class="Transcription" />
+<theme idref="T70" />
+<clue>These findings demonstrate that TGF-beta decreases B lymphocyte Ig secretion by inhibiting the <clueType>synthesis</clueType> <linkTheme>of</linkTheme> Ig mRNA and inhibiting the switch from the membrane form to the secreted forms of mu and gamma mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E34">
+<type class="Negative_regulation" />
+<theme idref="E33" />
+<cause idref="T67" />
+<clue>These findings demonstrate that TGF-beta decreases B lymphocyte Ig secretion by <clueType>inhibiting</clueType> the synthesis of Ig mRNA and inhibiting the switch from the membrane form to the secreted forms of mu and gamma mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E35">
+<type class="Negative_regulation" />
+<theme idref1="A14" idref3="A10" idref2="A8" idref="T71" />
+<clue>These findings demonstrate that TGF-beta decreases B lymphocyte Ig secretion by inhibiting the synthesis of Ig mRNA and inhibiting the <clueType>switch</clueType> <linkTheme>from</linkTheme> the membrane form to the secreted forms of mu and gamma mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E135">
+<type class="Positive_regulation" />
+<theme idref1="A14" idref3="A10" idref2="A8" idref="T72" />
+<clue>These findings demonstrate that TGF-beta decreases B lymphocyte Ig secretion by inhibiting the synthesis of Ig mRNA and inhibiting the <clueType>switch</clueType> from the membrane form <linkTheme>to</linkTheme> the secreted forms of mu and gamma mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E36">
+<type class="Negative_regulation" />
+<theme idref1="A14" idref3="A10" idref2="A9" idref="T71" />
+<clue>These findings demonstrate that TGF-beta decreases B lymphocyte Ig secretion by inhibiting the synthesis of Ig mRNA and inhibiting the <clueType>switch</clueType> <linkTheme>from</linkTheme> the membrane form to the secreted forms of mu and gamma mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E136">
+<type class="Positive_regulation" />
+<theme idref1="A14" idref3="A10" idref2="A9" idref="T72" />
+<clue>These findings demonstrate that TGF-beta decreases B lymphocyte Ig secretion by inhibiting the synthesis of Ig mRNA and inhibiting the <clueType>switch</clueType> from the membrane form <linkTheme>to</linkTheme> the secreted forms of mu and gamma mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E37">
+<type class="Negative_regulation" />
+<theme idref="E35" />
+<cause idref="T67" />
+<clue>These findings demonstrate that TGF-beta decreases B lymphocyte Ig secretion by inhibiting the synthesis of Ig mRNA and <clueType>inhibiting</clueType> the switch from the membrane form to the secreted forms of mu and gamma mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E38">
+<type class="Negative_regulation" />
+<theme idref="E36" />
+<cause idref="T67" />
+<clue>These findings demonstrate that TGF-beta decreases B lymphocyte Ig secretion by inhibiting the synthesis of Ig mRNA and <clueType>inhibiting</clueType> the switch from the membrane form to the secreted forms of mu and gamma mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E39">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E34" />
+<clue>These findings demonstrate that TGF-beta <clueType>decreases</clueType> B lymphocyte Ig secretion <linkCause>by</linkCause> inhibiting the synthesis of Ig mRNA and inhibiting the switch from the membrane form to the secreted forms of mu and gamma mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E40">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E37" />
+<clue>These findings demonstrate that TGF-beta <clueType>decreases</clueType> B lymphocyte Ig secretion <linkCause>by</linkCause> inhibiting the synthesis of Ig mRNA and inhibiting the switch from the membrane form to the secreted forms of mu and gamma mRNA.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E41">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="E38" />
+<clue>These findings demonstrate that TGF-beta <clueType>decreases</clueType> B lymphocyte Ig secretion <linkCause>by</linkCause> inhibiting the synthesis of Ig mRNA and inhibiting the switch from the membrane form to the secreted forms of mu and gamma mRNA.</clue>
+</event>
+<sentence id="S14">The mechanism by which <term sem="Protein_molecule" id="T74" lex="TGF-beta">TGF-beta</term> inhibits <term sem="Other" id="T75" lex="Ig_chain_synthesis"><term sem="Protein_molecule" id="A12">Ig chain</term> synthesis</term> is unclear although it does not involve inhibition of the binding of <term sem="Protein_molecule" id="T76" lex="NF-kappa_B">NF-kappa B</term> or <term sem="Protein_molecule" id="T77" lex="Oct-2">Oct-2</term> to their respective <term sem="DNA_domain_or_region" id="A11">target sequences</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E42">
+<type class="Binding" />
+<theme idref="T76" />
+<theme idref="A11" />
+<clue>The mechanism by which TGF-beta inhibits Ig chain synthesis is unclear although it does not involve inhibition of the <clueType>binding</clueType> <linkTheme>of</linkTheme> NF-kappa B or Oct-2 <linkTheme>to</linkTheme> their respective target sequences.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E43">
+<type class="Binding" />
+<theme idref="T77" />
+<theme idref="A11" />
+<clue>The mechanism by which TGF-beta inhibits Ig chain synthesis is unclear although it does not involve inhibition of the <clueType>binding</clueType> <linkTheme>of</linkTheme> NF-kappa B or Oct-2 <linkTheme>to</linkTheme> their respective target sequences.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E44">
+<type class="Negative_regulation" />
+<theme idref="E42" />
+<clue>The mechanism by which TGF-beta inhibits Ig chain synthesis is unclear although it does not involve <clueType>inhibition</clueType> <linkTheme>of</linkTheme> the binding of NF-kappa B or Oct-2 to their respective target sequences.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E45">
+<type class="Negative_regulation" />
+<theme idref="E43" />
+<clue>The mechanism by which TGF-beta inhibits Ig chain synthesis is unclear although it does not involve <clueType>inhibition</clueType> <linkTheme>of</linkTheme> the binding of NF-kappa B or Oct-2 to their respective target sequences.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E46">
+<type class="Gene_expression" />
+<theme idref="A12" />
+<clue>The mechanism by which TGF-beta inhibits Ig chain <clueType>synthesis</clueType> is unclear although it does not involve inhibition of the binding of NF-kappa B or Oct-2 to their respective target sequences.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E47">
+<type class="Negative_regulation" />
+<theme idref="E46" />
+<cause idref="T74" />
+<clue>The mechanism by which TGF-beta <clueType>inhibits</clueType> Ig chain synthesis is unclear although it does not involve inhibition of the binding of NF-kappa B or Oct-2 to their respective target sequences.</clue>
+</event>
+<event assertion="non-exist" uncertainty="certain" id="E48">
+<type class="Correlation" />
+<theme idref="E47" />
+<theme idref="E44" />
+<clue>The mechanism by which TGF-beta inhibits Ig chain synthesis is unclear although it does not <clueType>involve</clueType> inhibition of the binding of NF-kappa B or Oct-2 to their respective target sequences.</clue>
+</event>
+<event assertion="non-exist" uncertainty="certain" id="E49">
+<type class="Correlation" />
+<theme idref="E47" />
+<theme idref="E45" />
+<clue>The mechanism by which TGF-beta inhibits Ig chain synthesis is unclear although it does not <clueType>involve</clueType> inhibition of the binding of NF-kappa B or Oct-2 to their respective target sequences.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="22/05/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9874515" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9874515</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="X-ray">X-rays</term>-induced secretion of <term sem="Protein_family_or_group" id="T2" lex="cellular_factor">cellular factor</term>(s) that enhance(s) <term sem="Other" id="T3" lex="HIV-1_promoter_transcription"><term sem="DNA_domain_or_region" id="T4" lex="HIV-1_promoter"><term sem="Virus" id="T5" lex="HIV-1">HIV-1</term> promoter</term> transcription</term> in various <term sem="Cell_cultured" id="T6" lex="non-irradiated_transfected_cell_line">non-irradiated transfected <term sem="Cell_cultured" id="A1">cell lines</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="T1" />
+<clue>X-rays-<clueType>induced</clueType> secretion of cellular factor(s) that enhance(s) HIV-1 promoter transcription in various non-irradiated transfected cell lines.</clue>
+</event>
+<event id="E28">
+<type class="Localization" />
+<theme idref="T2" />
+<clue>X-rays-induced <clueType>secretion</clueType> <linkTheme>of</linkTheme> cellular factor(s) that enhance(s) HIV-1 promoter transcription in various non-irradiated transfected cell lines.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T2" />
+<clue>X-rays-induced secretion of cellular factor(s) that <clueType>enhance(s)</clueType> HIV-1 promoter transcription in various non-irradiated transfected cell lines.</clue>
+</event>
+<event id="E3">
+<type class="Transcription" />
+<theme idref="T4" />
+<clue>X-rays-induced secretion of cellular factor(s) that enhance(s) HIV-1 promoter <clueType>transcription</clueType> <clueLoc>in various non-irradiated transfected cell lines</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E4">
+<type class="Artificial_process" />
+<theme idref="A1" />
+<clue>X-rays-induced secretion of cellular factor(s) that enhance(s) HIV-1 promoter transcription in various <clueType>non-irradiated</clueType> transfected cell lines.</clue>
+</event>
+<event id="E5">
+<type class="Artificial_process" />
+<theme idref="A1" />
+<theme idref="T4" />
+<clue>X-rays-induced secretion of cellular factor(s) that enhance(s) HIV-1 promoter transcription in various non-irradiated <clueType>transfected</clueType> cell lines.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Various <term sem="Other" id="T7" lex="cellular_stress_agent">cellular stress agents</term> like <term sem="Other" id="T8" lex="ionizing_radiation">ionizing radiation</term> exposure could activate <term sem="Other" id="T9" lex="human_immunodeficiency_virus_type_1_(HIV-_1)_replication"><term sem="Virus" id="T10" lex="human_immunodeficiency_virus_type_1">human immunodeficiency virus type 1</term> (<term sem="Virus" id="T11" lex="HIV-_1">HIV- 1</term>) replication</term> or <term sem="Other" id="T12" lex="reporter_gene_expression"><term sem="DNA_family_or_group" id="T13" lex="reporter_gene">reporter gene</term> expression</term>.</sentence>
+<event id="E6">
+<type class="Artificial_process" />
+<theme idref="T8" />
+<theme idref="T11" />
+<clue><corefTheme>Various cellular stress agents</corefTheme> like ionizing radiation <clueType>exposure</clueType> could activate human immunodeficiency virus type 1 (HIV- 1) replication or reporter gene expression.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="E6" />
+<clue>Various cellular stress agents like ionizing radiation exposure could <clueType>activate</clueType> human immunodeficiency virus type 1 (HIV- 1) replication or reporter gene expression.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E10" />
+<cause idref="E6" />
+<clue>Various cellular stress agents like ionizing radiation exposure could <clueType>activate</clueType> human immunodeficiency virus type 1 (HIV- 1) replication or reporter gene expression.</clue>
+</event>
+<event id="E9">
+<type class="Viral_life_cycle" />
+<theme idref="T11" />
+<clue>Various cellular stress agents like ionizing radiation exposure could activate human immunodeficiency virus type 1 (HIV- 1) <clueType>replication</clueType> or reporter gene expression.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>Various cellular stress agents like ionizing radiation exposure could activate human immunodeficiency virus type 1 (HIV- 1) replication or reporter gene <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S3">In addition, <term sem="Protein_family_or_group" id="T14" lex="extracellular_factor">extracellular factor</term>(s) released by <term sem="Cell_cultured" id="T15" lex="X-ray-treated_human_colonic_carcinoma_cell_line"><term sem="Other" id="A2">X-ray</term>-treated human colonic carcinoma cell line</term> (<term sem="Cell_cultured" id="T16" lex="HT29">HT29</term>) might activate the <term sem="DNA_domain_or_region" id="T17" lex="long_terminal_repeat">long terminal repeat</term> (<term sem="DNA_domain_or_region" id="T18" lex="LTR">LTR</term>) of <term sem="Virus" id="T19" lex="HIV-1">HIV-1</term> in <term sem="Cell_cultured" id="T20" lex="non-irradiated_HT29_cell">non-irradiated <term sem="Cell_cultured" id="A3">HT29</term> cells</term>.</sentence>
+<event id="E11">
+<type class="Localization" />
+<theme idref="T14" />
+<clue>In addition, extracellular factor(s) <clueType>released</clueType> <clueLoc>by X-ray-treated human colonic carcinoma cell line (HT29)</clueLoc> might activate the long terminal repeat (LTR) of HIV-1 in non-irradiated HT29 cells.</clue>
+</event>
+<event id="E12">
+<type class="Artificial_process" />
+<theme idref="T16" />
+<theme idref="A2" />
+<clue>In addition, extracellular factor(s) released by X-ray-<clueType>treated</clueType> human colonic carcinoma cell line (HT29) might activate the long terminal repeat (LTR) of HIV-1 in non-irradiated HT29 cells.</clue>
+</event>
+<event uncertainty="probable" id="E13">
+<type class="Positive_regulation" />
+<theme idref1="T19" idref="T18" />
+<cause idref="E11" />
+<clue>In addition, extracellular factor(s) released by X-ray-treated human colonic carcinoma cell line (HT29) might <clueType>activate</clueType> the long terminal repeat (LTR) of HIV-1 <clueLoc>in non-irradiated HT29 cells</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Artificial_process" />
+<theme idref="A3" />
+<clue>In addition, extracellular factor(s) released by X-ray-treated human colonic carcinoma cell line (HT29) might activate the long terminal repeat (LTR) of HIV-1 in <clueType>non-irradiated</clueType> HT29 cells.</clue>
+</event>
+<sentence id="S4">In the present report we show that in various transiently or <term sem="Cell_cultured" id="T21" lex="stably_transfected_cell_line">stably transfected <term sem="Cell_cultured" id="A4">cell lines</term></term>, <term sem="Other" id="T22" lex="X-ray_irradiation">X-ray irradiation</term> up-regulates <term sem="Other" id="T23" lex="HIV-1_LTR_transcription"><term sem="DNA_domain_or_region" id="T24" lex="HIV-1_LTR">HIV-1 LTR</term> transcription</term> through the <term sem="Protein_family_or_group" id="T25" lex="kappaB_regulatory_element">kappaB regulatory elements</term>.</sentence>
+<event id="E15">
+<type class="Artificial_process" />
+<theme idref="A4" />
+<theme idref="T24" />
+<clue>In the present report we show that in various <clueType>transiently</clueType> or stably <clueType>transfected</clueType> cell lines, X-ray irradiation up-regulates HIV-1 LTR transcription through the kappaB regulatory elements.</clue>
+</event>
+<event id="E34">
+<type class="Artificial_process" />
+<theme idref="A4" />
+<theme idref="T24" />
+<clue>In the present report we show that in various transiently or <clueType>stably transfected</clueType> cell lines, X-ray irradiation up-regulates HIV-1 LTR transcription through the kappaB regulatory elements.</clue>
+</event>
+<event id="E17">
+<type class="Transcription" />
+<theme idref="T24" />
+<clue>In the present report we show that in various transiently or stably transfected cell lines, X-ray irradiation up-regulates HIV-1 LTR <clueType>transcription</clueType> through the kappaB regulatory elements.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E16" />
+<clue>In the present report we show that <clueLoc>in various transiently</clueLoc> or stably <clueLoc>transfected cell lines</clueLoc>, X-ray irradiation up-regulates HIV-1 LTR transcription <linkCause>through</linkCause> the kappaB regulatory elements.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E16" />
+<clue>In the present report we show that <clueLoc>in various</clueLoc> transiently or <clueLoc>stably transfected cell lines</clueLoc>, X-ray irradiation up-regulates HIV-1 LTR transcription <linkCause>through</linkCause> the kappaB regulatory elements.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T25" />
+<cause idref="T22" />
+<clue>In the present report we show that in various transiently or stably transfected cell lines, X-ray irradiation <clueType>up-regulates</clueType> HIV-1 LTR transcription through the kappaB regulatory elements.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_family_or_group" id="A5">A factor(s), which is processed by and acts upon a variety of cell types</term>, was detected by addition to <term sem="Cell_natural" id="T26" lex="non-irradiated_cell">non-irradiated cells</term> of either <term sem="Cell_cultured" id="T27" lex="X-ray-treated_cell"><term sem="Other" id="T28" lex="X-ray">X-ray</term>-treated cells</term> or a <term sem="Multicellular_organism_genetically_modified" id="A6">conditioned medium taken from <term sem="Cell_cultured" id="T29" lex="irradiated_culture">irradiated cultures</term></term>.</sentence>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="E21" />
+<clue>A factor(s), which is processed by and acts upon a variety of cell types, was <clueType>detected</clueType> <linkCause>by</linkCause> addition to non-irradiated cells of either X-ray-treated cells or a conditioned medium taken from irradiated cultures.</clue>
+<comment>TPS: A5</comment>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="A5" />
+<cause idref="E22" />
+<clue>A factor(s), which is processed by and acts upon a variety of cell types, was <clueType>detected</clueType> <linkCause>by</linkCause> addition to non-irradiated cells of either X-ray-treated cells or a conditioned medium taken from irradiated cultures.</clue>
+<comment>TPS: A5</comment>
+</event>
+<event id="E21">
+<type class="Artificial_process" />
+<theme idref="T26" />
+<theme idref="T27" />
+<clue>A factor(s), which is processed by and acts upon a variety of cell types, was detected by <clueType>addition</clueType> <linkTheme>to</linkTheme> non-irradiated cells <linkTheme>of</linkTheme> either X-ray-treated cells or a conditioned medium taken from irradiated cultures.</clue>
+</event>
+<event id="E22">
+<type class="Artificial_process" />
+<theme idref="T26" />
+<theme idref="A6" />
+<clue>A factor(s), which is processed by and acts upon a variety of cell types, was detected by <clueType>addition</clueType> <linkTheme>to</linkTheme> non-irradiated cells <linkTheme>of</linkTheme> either X-ray-treated cells or a conditioned medium taken from irradiated cultures.</clue>
+<comment>TPS: A6</comment>
+</event>
+<sentence id="S6">The magnitude of responsiveness is cell type dependent.</sentence>
+<sentence id="S7">In addition, <term sem="Other" id="T30" lex="X-ray_activation"><term sem="Other" id="T31" lex="X-ray">X-ray</term> activation</term> of <term sem="DNA_domain_or_region" id="T32" lex="HIV-1_LTR">HIV-1 LTR</term> in transiently or stably transfected <term sem="Cell_cultured" id="T33" lex="cell_line">cell lines</term> is inhibited by a potent antioxidant drug, <term sem="Organic_compound_other" id="T34" lex="pyrrolidine_dithiocarbamate">pyrrolidine dithiocarbamate</term> and by another drug, known for its role in the trapping of <term sem="Protein_family_or_group" id="T35" lex="growth_factor">growth factors</term>, <term sem="Organic_compound_other" id="T36" lex="suramin">suramin</term>.</sentence>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<cause idref="T31" />
+<clue>In addition, X-ray <clueType>activation</clueType> <linkTheme>of</linkTheme> HIV-1 LTR <clueLoc>in transiently</clueLoc> or stably <clueLoc>transfected cell lines</clueLoc> is inhibited by a potent antioxidant drug, pyrrolidine dithiocarbamate and by another drug, known for its role in the trapping of growth factors, suramin.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<cause idref="T31" />
+<clue>In addition, X-ray <clueType>activation</clueType> <linkTheme>of</linkTheme> HIV-1 LTR <clueLoc>in</clueLoc> transiently or <clueLoc>stably transfected cell lines</clueLoc> is inhibited by a potent antioxidant drug, pyrrolidine dithiocarbamate and by another drug, known for its role in the trapping of growth factors, suramin.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="T34" />
+<clue>In addition, X-ray activation of HIV-1 LTR in transiently or stably transfected cell lines is <clueType>inhibited</clueType> <linkCause>by</linkCause> a potent antioxidant drug, pyrrolidine dithiocarbamate and by another drug, known for its role in the trapping of growth factors, suramin.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation" />
+<theme idref="E30" />
+<cause idref="T34" />
+<clue>In addition, X-ray activation of HIV-1 LTR in transiently or stably transfected cell lines is <clueType>inhibited</clueType> <linkCause>by</linkCause> a potent antioxidant drug, pyrrolidine dithiocarbamate and by another drug, known for its role in the trapping of growth factors, suramin.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E23" />
+<cause idref="T36" />
+<clue>In addition, X-ray activation of HIV-1 LTR in transiently or stably transfected cell lines is <clueType>inhibited</clueType> by a potent antioxidant drug, pyrrolidine dithiocarbamate and <linkCause>by</linkCause> another drug, <corefCause>known for its role in the trapping of growth factors</corefCause>, suramin.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="E30" />
+<cause idref="T36" />
+<clue>In addition, X-ray activation of HIV-1 LTR in transiently or stably transfected cell lines is <clueType>inhibited</clueType> by a potent antioxidant drug, pyrrolidine dithiocarbamate and <linkCause>by</linkCause> another drug, <corefCause>known for its role in the trapping of growth factors</corefCause>, suramin.</clue>
+</event>
+<event id="E26">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="T32" />
+<clue>In addition, X-ray activation of HIV-1 LTR in <clueType>transiently</clueType> or stably <clueType>transfected</clueType> cell lines is inhibited by a potent antioxidant drug, pyrrolidine dithiocarbamate and by another drug, known for its role in the trapping of growth factors, suramin.</clue>
+</event>
+<event id="E33">
+<type class="Artificial_process" />
+<theme idref="T33" />
+<theme idref="T32" />
+<clue>In addition, X-ray activation of HIV-1 LTR in transiently or <clueType>stably transfected</clueType> cell lines is inhibited by a potent antioxidant drug, pyrrolidine dithiocarbamate and by another drug, known for its role in the trapping of growth factors, suramin.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation" />
+<theme idref="T35" />
+<cause idref="T36" />
+<clue>In addition, X-ray activation of HIV-1 LTR in transiently or stably transfected cell lines is inhibited by a potent antioxidant drug, pyrrolidine dithiocarbamate and by another drug, known for its role in the <clueType>trapping</clueType> <linkTheme>of</linkTheme> growth factors, suramin.</clue>
+</event>
+<sentence id="S8">The importance of these observations in the <term sem="Other" id="T37" lex="pathophysiology">pathophysiology</term> of <term sem="Multicellular_organism_natural" id="T38" lex="patient">patients</term> with <term sem="Other" id="T39" lex="AIDS-related_cancer">AIDS-related cancers</term> treated by <term sem="Other" id="T40" lex="radiotherapy">radiotherapy</term> remains to be established.</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="28/05/2006" creator="Hitomi Masuda" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7843251">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7843251</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="protein_kinase_C">Protein kinase C</term> is not a downstream effector of <term sem="DNA_domain_or_region" id="T2" lex="p21ras">p21ras</term> in <term sem="Cell_natural" id="T3" lex="activated_T_cell">activated T cells</term>.</sentence>
+<event assertion="non-exist" id="E1">
+<type class="Regulation" />
+<theme idref="T1" />
+<cause idref="T2" />
+<clue>Protein kinase C is not a <clueType>downstream effector</clueType> <linkTheme>of</linkTheme> p21ras <clueLoc>in activated T cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The aim of this present study was to investigate the role of <term sem="Protein_molecule" id="T4" lex="protein_kinase_C">protein kinase C</term> (<term sem="Protein_molecule" id="T5" lex="PKC">PKC</term>), downstream of <term sem="DNA_domain_or_region" id="T6" lex="p21ras">p21ras</term>, in activating <term sem="Other" id="T7" lex="interleukin-2_(IL-2)_gene_expression"><term sem="DNA_domain_or_region" id="T8" lex="interleukin-2_(IL-2)_gene">interleukin-2 (<term sem="DNA_domain_or_region" id="A1">IL-2</term>) <term sem="DNA_domain_or_region" id="A2">gene</term></term> expression</term>.</sentence>
+<event id="E2">
+<type class="Gene_expression" />
+<theme idref1="A2" idref="A1" />
+<clue>The aim of this present study was to investigate the role of protein kinase C (PKC), downstream of p21ras, in activating interleukin-2 (IL-2) gene <clueType>expression</clueType>.</clue>
+</event>
+<event id="E100">
+<type class="Regulation" />
+<theme idref="T5" />
+<cause idref="T6" />
+<clue>The aim of this present study was to investigate the role of protein kinase C (PKC), <clueType>downstream</clueType> <linkCause>of</linkCause> p21ras, in activating interleukin-2 (IL-2) gene expression.</clue>
+</event>
+<event uncertainty="doubtful" id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="T5" />
+<clue>The aim of this present study was to investigate the role of protein kinase C (PKC), downstream of p21ras, <linkCause>in</linkCause> <clueType>activating</clueType> interleukin-2 (IL-2) gene expression.</clue>
+</event>
+<sentence id="S3">It has been reported that <term sem="Protein_molecule" id="T9" lex="PKC">PKC</term> is an <term sem="Protein_family_or_group" id="T10" lex="effector">effector</term> of <term sem="DNA_domain_or_region" id="T11" lex="p21ras">p21ras</term> in <term sem="Cell_natural" id="T12" lex="T_cell">T cells</term>.</sentence>
+<event id="E4">
+<type class="Correlation" />
+<theme idref="T9" />
+<theme idref="T11" />
+<clue>It has been reported that PKC is an <clueType>effector</clueType> <linkTheme>of</linkTheme> p21ras <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">Data is presented, using the potent and selective <term sem="Organic_compound_other" id="T13" lex="PKC_inhibitor"><term sem="Protein_molecule" id="T14" lex="PKC">PKC</term> inhibitor</term> <term sem="Organic_compound_other" id="T15" lex="Ro_31-8425">Ro 31-8425</term> and transient expression of a constitutively active ras mutant, which clearly shows that <term sem="Protein_molecule" id="T16" lex="PKC">PKC</term> is not downstream of <term sem="DNA_domain_or_region" id="T17" lex="p21ras">p21ras</term> in the induction of <term sem="Protein_molecule" id="T18" lex="NF-AT">NF-AT</term> and <term sem="Other" id="T19" lex="AP-1_transcriptional_activity"><term sem="Protein_molecule" id="T20" lex="AP-1">AP-1</term> transcriptional activity</term> and in the expression of <term sem="Protein_molecule" id="T21" lex="IL-2">IL-2</term> in <term sem="Cell_cultured" id="T22" lex="human_Jurkat_T_cell">human Jurkat T cells</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<cause idref="T18" />
+<clue>Data is presented, using the potent and selective PKC inhibitor Ro 31-8425 and transient expression of a constitutively active ras mutant, which clearly shows that PKC is not downstream of p21ras in the induction of NF-AT and AP-1 <clueType>transcriptional activity</clueType> and in the expression of IL-2 in human Jurkat T cells.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<cause idref="T20" />
+<clue>Data is presented, using the potent and selective PKC inhibitor Ro 31-8425 and transient expression of a constitutively active ras mutant, which clearly shows that PKC is not downstream of p21ras in the induction of NF-AT and AP-1 <clueType>transcriptional activity</clueType> and in the expression of IL-2 in human Jurkat T cells.</clue>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>Data is presented, using the potent and selective PKC inhibitor Ro 31-8425 and transient expression of a constitutively active ras mutant, which clearly shows that PKC is not downstream of p21ras in the induction of NF-AT and AP-1 transcriptional activity and in the <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-2 <clueLoc>in human Jurkat T cells</clueLoc>.</clue>
+</event>
+<event id="E400">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="T17" />
+<clue>Data is presented, using the potent and selective PKC inhibitor Ro 31-8425 and transient expression of a constitutively active ras mutant, which clearly shows that PKC is not downstream of p21ras in the induction of NF-AT and AP-1 transcriptional activity and <linkCause>in</linkCause> the expression of IL-2 in human Jurkat T cells.</clue>
+<comment>No clueType</comment>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T17" />
+<clue>Data is presented, using the potent and selective PKC inhibitor Ro 31-8425 and transient expression of a constitutively active ras mutant, which clearly shows that PKC is not downstream of p21ras in the <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-AT and AP-1 transcriptional activity and <linkCause>in</linkCause> the expression of IL-2 <clueLoc>in human Jurkat T cells</clueLoc>.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T17" />
+<clue>Data is presented, using the potent and selective PKC inhibitor Ro 31-8425 and transient expression of a constitutively active ras mutant, which clearly shows that PKC is not downstream of p21ras <linkCause>in</linkCause> the <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-AT and AP-1 transcriptional activity and in the expression of IL-2 <clueLoc>in human Jurkat T cells</clueLoc>.</clue>
+</event>
+<event assertion="non-exist" id="E10">
+<type class="Regulation" />
+<theme idref="T16" />
+<cause idref="E400" />
+<clue>Data is presented, using the potent and selective PKC inhibitor Ro 31-8425 and transient expression of a constitutively active ras mutant, which clearly shows that PKC is not <clueType>downstream</clueType> <linkTheme>of</linkTheme> p21ras in the induction of NF-AT and AP-1 transcriptional activity and in the expression of IL-2 in human Jurkat T cells.</clue>
+</event>
+<event assertion="non-exist" id="E11">
+<type class="Regulation" />
+<theme idref="T16" />
+<cause idref="E8" />
+<clue>Data is presented, using the potent and selective PKC inhibitor Ro 31-8425 and transient expression of a constitutively active ras mutant, which clearly shows that PKC is not <clueType>downstream</clueType> <linkTheme>of</linkTheme> p21ras in the induction of NF-AT and AP-1 transcriptional activity and in the expression of IL-2 in human Jurkat T cells.</clue>
+</event>
+<event assertion="non-exist" id="E12">
+<type class="Regulation" />
+<theme idref="T16" />
+<cause idref="E9" />
+<clue>Data is presented, using the potent and selective PKC inhibitor Ro 31-8425 and transient expression of a constitutively active ras mutant, which clearly shows that PKC is not <clueType>downstream</clueType> <linkTheme>of</linkTheme> p21ras in the induction of NF-AT and AP-1 transcriptional activity and in the expression of IL-2 in human Jurkat T cells.</clue>
+</event>
+<sentence id="S5"><term sem="Other" id="T23" lex="reporter_gene_experiment">Reporter gene experiments</term> demonstrated that <term sem="Other" id="T24" lex="NF-kappa_B_transcriptional_activity"><term sem="Protein_molecule" id="T25" lex="NF-kappa_B">NF-kappa B</term> transcriptional activity</term> is not affected by expression of activated <term sem="DNA_domain_or_region" id="T26" lex="p21ras">p21ras</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="T26" />
+<clue>Reporter gene experiments demonstrated that NF-kappa B transcriptional activity is not affected by expression of <clueType>activated</clueType> p21ras.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<cause idref="T25" />
+<clue>Reporter gene experiments demonstrated that NF-kappa B <clueType>transcriptional activity</clueType> is not affected by expression of activated p21ras.</clue>
+<comment>No corefTheme</comment>
+</event>
+<event assertion="non-exist" id="E15">
+<type class="Correlation" />
+<theme idref="E13" />
+<theme idref="E14" />
+<clue><clueExperiment>Reporter gene experiments</clueExperiment> demonstrated that NF-kappa B transcriptional activity is not <clueType>affected</clueType> <linkCause>by</linkCause> expression of activated p21ras.</clue>
+</event>
+<sentence id="S6">The signaling pathways involving <term sem="Other" id="T27" lex="PKC_activation"><term sem="Protein_molecule" id="T28" lex="PKC">PKC</term> activation</term>, <term sem="Other" id="T29" lex="calcium_mobilization"><term sem="Element" id="T30" lex="calcium">calcium</term> mobilization</term> and <term sem="Other" id="T31" lex="ras_activation"><term sem="Protein_molecule" id="T32" lex="ras">ras</term> activation</term> combine to provide the necessary components for production of <term sem="Protein_molecule" id="T33" lex="IL-2">IL-2</term> during <term sem="Other" id="T34" lex="T_cell_activation"><term sem="Cell_natural" id="A3">T cell</term> activation</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T28" />
+<clue>The signaling pathways involving PKC <clueType>activation</clueType>, calcium mobilization and ras activation combine to provide the necessary components for production of IL-2 during T cell activation.</clue>
+</event>
+<event id="E17">
+<type class="Localization" />
+<theme idref="T30" />
+<clue>The signaling pathways involving PKC activation, calcium <clueType>mobilization</clueType> and ras activation combine to provide the necessary components for production of IL-2 during T cell activation.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<clue>The signaling pathways involving PKC activation, calcium mobilization and ras <clueType>activation</clueType> combine to provide the necessary components for production of IL-2 during T cell activation.</clue>
+</event>
+<event id="E19">
+<type class="Physiological_process" />
+<theme idref="A3" />
+<clue>The signaling pathways involving PKC activation, calcium mobilization and ras activation combine to provide the necessary components for production of IL-2 during T cell <clueType>activation</clueType>.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>The signaling pathways involving PKC activation, calcium mobilization and ras activation combine to provide the necessary components for <clueType>production</clueType> <linkTheme>of</linkTheme> IL-2 during T cell activation.</clue>
+</event>
+<event id="E200">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E19" />
+<clue>The signaling pathways involving PKC activation, calcium mobilization and ras activation combine to provide the necessary components for production of IL-2 <linkCause>during</linkCause> T cell activation.</clue>
+<comment>No clueType</comment>
+</event>
+<event id="E121">
+<type class="Correlation" />
+<theme idref="E16" />
+<theme idref="E200" />
+<clue>The signaling pathways involving PKC activation, calcium mobilization and ras activation <clueType>combine</clueType> <linkTheme>to</linkTheme> provide the necessary components for production of IL-2 during T cell activation.</clue>
+</event>
+<event id="E221">
+<type class="Correlation" />
+<theme idref="E17" />
+<theme idref="E200" />
+<clue>The signaling pathways involving PKC activation, calcium mobilization and ras activation <clueType>combine</clueType> <linkTheme>to</linkTheme> provide the necessary components for production of IL-2 during T cell activation.</clue>
+</event>
+<event id="E21">
+<type class="Correlation" />
+<theme idref="E18" />
+<theme idref="E200" />
+<clue>The signaling pathways involving PKC activation, calcium mobilization and ras activation <clueType>combine</clueType> <linkTheme>to</linkTheme> provide the necessary components for production of IL-2 during T cell activation.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

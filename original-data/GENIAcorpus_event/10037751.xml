@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="19/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10037751" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10037751</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="T-cell_expression">T-cell expression</term> of the <term sem="DNA_domain_or_region" id="T2" lex="human_GATA-3_gene">human <term sem="DNA_domain_or_region" id="A1">GATA-3 gene</term></term> is regulated by a <term sem="DNA_domain_or_region" id="T3" lex="non-lineage-specific_silencer">non-lineage-specific silencer</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="A1" />
+<clue><clueLoc>T-cell</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> the human GATA-3 gene is regulated by a non-lineage-specific silencer.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T3" />
+<clue>T-cell expression of the human GATA-3 gene is <clueType>regulated</clueType> <linkCause>by</linkCause> a non-lineage-specific silencer.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_molecule" id="T4" lex="GATA-3_transcription_factor">GATA-3 transcription factor</term> is required for development of the <term sem="Cell_natural" id="T5" lex="T-cell_lineage">T-cell lineage</term> and <term sem="Other" id="T6" lex="Th2_cytokine_gene_expression"><term sem="DNA_domain_or_region" id="T7" lex="Th2_cytokine_gene">Th2 cytokine gene</term> expression</term> in <term sem="Cell_natural" id="T8" lex="CD4_T-cell">CD4 T-cells</term>.</sentence>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="T4" />
+<clue>The GATA-3 transcription factor is <clueType>required</clueType> <linkTheme>for</linkTheme> development of the T-cell lineage and Th2 cytokine gene expression in CD4 T-cells.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E6" />
+<cause idref="T4" />
+<clue>The GATA-3 transcription factor is <clueType>required</clueType> <linkTheme>for</linkTheme> development of the T-cell lineage and Th2 cytokine gene expression in CD4 T-cells.</clue>
+</event>
+<event id="E5">
+<type class="Cell_differentiation" />
+<theme idref="T5" />
+<clue>The GATA-3 transcription factor is required for <clueType>development</clueType> <linkTheme>of</linkTheme> the T-cell lineage and Th2 cytokine gene expression in CD4 T-cells.</clue>
+<comment>NER: T5 sem mod, Cell_line -&gt; Cell_type</comment>
+</event>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T7" />
+<clue>The GATA-3 transcription factor is required for development of the T-cell lineage and Th2 cytokine gene <clueType>expression</clueType> <clueLoc>in CD4 T-cells</clueLoc>.</clue>
+</event>
+<sentence id="S3">We have mapped the <term sem="DNA_domain_or_region" id="T9" lex="DNase-I-hypersensitive_(HS)_regions">DNase-I-hypersensitive (HS) regions</term> of the <term sem="DNA_domain_or_region" id="T10" lex="human_GATA-3_gene">human GATA-3 gene</term> in <term sem="Cell_natural" id="T11" lex="T-cell">T-cells</term> and <term sem="Cell_natural" id="T12" lex="non-T-cell">non-T-cells</term> and studied their <term sem="Other" id="T13" lex="transcriptional_activity">transcriptional activities</term>.</sentence>
+<event uncertainty="doubtful" id="E7">
+<type class="Positive_regulation" />
+<cause idref="T9" />
+<clue>We have mapped the DNase-I-hypersensitive (HS) regions of the human GATA-3 gene in <clueLoc>T-cells</clueLoc> and non-T-cells and studied <corefCause>their</corefCause> <clueType>transcriptional activities</clueType>.</clue>
+<comment>NO THEME</comment>
+</event>
+<event uncertainty="doubtful" id="E19">
+<type class="Positive_regulation" />
+<cause idref="T9" />
+<clue>We have mapped the DNase-I-hypersensitive (HS) regions of the human GATA-3 gene in T-cells and <clueLoc>non-T-cells</clueLoc> and studied <corefCause>their</corefCause> <clueType>transcriptional activities</clueType>.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S4"><term sem="DNA_domain_or_region" id="T14" lex="HS_I-III">HS I-III</term>, located 5&apos; from the <term sem="DNA_domain_or_region" id="T15" lex="transcriptional_initiation_site">transcriptional initiation site</term>, were found in <cons sem="(AND Cell_natural Cell_natural)" id="T16" lex="(AND hematopoietic_cell non-hematopoietic_cell)"><frag id="F1">hematopoietic</frag> and <frag id="F2">non-hematopoietic</frag> <frag id="F3">cells</frag></cons>, whereas <term sem="DNA_domain_or_region" id="T17" lex="HS_IV-VII">HS IV-VII</term>, located 3&apos; from the <term sem="DNA_domain_or_region" id="T18" lex="transcriptional_start_site">transcriptional start site</term>, were exclusively observed in <term sem="Cell_natural" id="T19" lex="T-cell">T-cells</term>.</sentence>
+<sentence id="S5">Among these <term sem="DNA_domain_or_region" id="T20" lex="hypersensitive_site">hypersensitive sites</term>, two <term sem="DNA_domain_or_region" id="T21" lex="transcriptional_control_element">transcriptional control elements</term> were found, one in the <term sem="DNA_domain_or_region" id="T22" lex="first_intron">first intron</term> of the <term sem="DNA_domain_or_region" id="T23" lex="GATA-3_gene">GATA-3 gene</term> and the other <term sem="DNA_domain_or_region" id="T24" lex="between_8.3_and_5.9_kilobases">between 8.3 and 5.9 kilobases</term> 5&apos; from the <term sem="DNA_domain_or_region" id="T25" lex="GATA-3_transcriptional_initiation_site">GATA-3 <term sem="DNA_domain_or_region" id="T26" lex="transcriptional_initiation_site">transcriptional initiation site</term></term>.</sentence>
+<sentence id="S6">The <term sem="DNA_domain_or_region" id="T27" lex="first_intron">first intron</term> acted as a strong <term sem="Other" id="T28" lex="transcriptional_activator">transcriptional activator</term> in a position-dependent manner and with no <term sem="Other" id="T29" lex="cell-type_specificity">cell-type specificity</term>.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<cause idref="T27" />
+<clue>The first intron <clueType>acted as</clueType> a strong <clueType>transcriptional activator</clueType> in a position-dependent manner and with <clueLoc>no cell-type specificity</clueLoc>.</clue>
+<comment>NO THEME</comment>
+</event>
+<sentence id="S7">The <term sem="DNA_domain_or_region" id="T30" lex="upstream_regulatory_element">upstream regulatory element</term> could confer <term sem="Other" id="T31" lex="T-cell_specificity">T-cell specificity</term> to the <term sem="Other" id="T32" lex="GATA-3_promoter_activity"><term sem="DNA_domain_or_region" id="T33" lex="GATA-3_promoter">GATA-3 promoter</term> activity</term>, and analysis of this region revealed a <term sem="DNA_domain_or_region" id="T34" lex="707-base_pair_silencer">707-base pair silencer</term> that drastically inhibited <term sem="Other" id="T35" lex="GATA-3_promoter_activity"><term sem="DNA_domain_or_region" id="T36" lex="GATA-3_promoter">GATA-3 promoter</term> activity</term> in <term sem="Cell_natural" id="T37" lex="non-T-cell">non-<term sem="Cell_natural" id="T38" lex="T-cell">T-cells</term></term>.</sentence>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="T30" />
+<clue>The upstream regulatory element could <clueType>confer</clueType> <clueLoc>T-cell</clueLoc> specificity <linkTheme>to</linkTheme> the GATA-3 promoter activity, and analysis of this region revealed a 707-base pair silencer that drastically inhibited GATA-3 promoter activity in non-T-cells.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation" />
+<theme idref="T36" />
+<cause idref="T34" />
+<clue>The upstream regulatory element could confer T-cell specificity to the GATA-3 promoter activity, and analysis of this region revealed a 707-base pair silencer that drastically <clueType>inhibited</clueType> GATA-3 promoter activity <clueLoc>in non-T-cells</clueLoc>.</clue>
+</event>
+<sentence id="S8">Two <term sem="DNA_substructure" id="T39" lex="CAGGTG_E-box">CAGGTG E-boxes</term>, located at the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T40" lex="(AND 5&apos;-end 3&apos;-end)"><frag id="F4">5&apos;-</frag> and <frag id="F5">3&apos;-</frag><frag id="F6">ends</frag></cons> of the silencer, were necessary for this <term sem="Other" id="T41" lex="silencer_activity">silencer activity</term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E9" />
+<cause idref="T39" />
+<clue>Two CAGGTG E-boxes, located at the 5&apos;- and 3&apos;-ends of the silencer, were <clueType>necessary</clueType> <linkTheme>for</linkTheme> <corefTheme>this silencer activity</corefTheme>.</clue>
+</event>
+<sentence id="S9">The <term sem="DNA_domain_or_region" id="T42" lex="3&apos;-CAGGTG_E-box">3&apos;-CAGGTG E-box</term> could bind <term sem="Protein_molecule" id="T43" lex="USF_protein">USF proteins</term>, the <term sem="Protein_family_or_group" id="T44" lex="ubiquitous_repressor">ubiquitous repressor</term> <term sem="Protein_molecule" id="T45" lex="ZEB">ZEB</term>, or the <term sem="Protein_family_or_group" id="T46" lex="basic_helix-loop-helix_protein">basic helix-loop-helix proteins</term> <term sem="Protein_molecule" id="T47" lex="E2A">E2A</term> and <term sem="Protein_molecule" id="T48" lex="HEB">HEB</term>, and we showed that a competition between <term sem="Protein_molecule" id="T49" lex="ZEB">ZEB</term> and <term sem="Protein_molecule" id="T50" lex="E2A/HEB_protein"><term sem="Protein_molecule" id="T51" lex="E2A">E2A</term>/HEB proteins</term> is involved in the <term sem="Other" id="T52" lex="silencer_activity">silencer activity</term>.</sentence>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T42" />
+<theme idref="T45" />
+<clue>The 3&apos;-CAGGTG E-box could <clueType>bind</clueType> <corefTheme>USF proteins</corefTheme>, the ubiquitous repressor ZEB, or the basic helix-loop-helix proteins E2A and HEB, and we showed that a competition between ZEB and E2A/HEB proteins is involved in the silencer activity.</clue>
+</event>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T42" />
+<theme idref="T47" />
+<clue>The 3&apos;-CAGGTG E-box could <clueType>bind</clueType> <corefTheme>USF proteins</corefTheme>, the ubiquitous repressor ZEB, or the basic helix-loop-helix proteins E2A and HEB, and we showed that a competition between ZEB and E2A/HEB proteins is involved in the silencer activity.</clue>
+</event>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T42" />
+<theme idref="T48" />
+<clue>The 3&apos;-CAGGTG E-box could <clueType>bind</clueType> <corefTheme>USF proteins</corefTheme>, the ubiquitous repressor ZEB, or the basic helix-loop-helix proteins E2A and HEB, and we showed that a competition between ZEB and E2A/HEB proteins is involved in the silencer activity.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation" />
+<theme idref="E12" />
+<cause idref="T45" />
+<clue>The 3&apos;-CAGGTG E-box could bind USF proteins, the ubiquitous repressor ZEB, or the basic helix-loop-helix proteins E2A and HEB, and we showed that a <clueType>competition</clueType> <linkTheme>between</linkTheme> ZEB and E2A/HEB proteins is involved in the silencer activity.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation" />
+<theme idref="E13" />
+<cause idref="T45" />
+<clue>The 3&apos;-CAGGTG E-box could bind USF proteins, the ubiquitous repressor ZEB, or the basic helix-loop-helix proteins E2A and HEB, and we showed that a <clueType>competition</clueType> <linkTheme>between</linkTheme> ZEB and E2A/HEB proteins is involved in the silencer activity.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="E14" />
+<clue>The 3&apos;-CAGGTG E-box could bind USF proteins, the ubiquitous repressor ZEB, or the basic helix-loop-helix proteins E2A and HEB, and we showed that a competition between ZEB and E2A/HEB proteins is <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme>the silencer activity</corefTheme>.</clue>
+</event>
+<event id="E17">
+<type class="Regulation" />
+<theme idref="E9" />
+<cause idref="E15" />
+<clue>The 3&apos;-CAGGTG E-box could bind USF proteins, the ubiquitous repressor ZEB, or the basic helix-loop-helix proteins E2A and HEB, and we showed that a competition between ZEB and E2A/HEB proteins is <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme>the silencer activity</corefTheme>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

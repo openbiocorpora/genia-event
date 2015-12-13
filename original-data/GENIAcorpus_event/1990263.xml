@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="19/03/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1990263" creator="Hitomi MASUDA">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>1990263</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="nuclear_factor_kappa_B">Nuclear factor kappa B</term> activates <term sem="Other" id="T2" lex="proenkephalin_transcription"><term sem="DNA_domain_or_region" id="T3" lex="proenkephalin">proenkephalin</term> <term sem="Other" id="T4" lex="transcription">transcription</term></term> in <term sem="Cell_natural" id="T5" lex="T_lymphocyte">T lymphocytes</term>.</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T3" />
+<clue>Nuclear factor kappa B activates proenkephalin <clueType>transcription</clueType> <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Nuclear factor kappa B <clueType>activates</clueType> proenkephalin transcription in T lymphocytes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Upon activation, <term sem="Cell_natural" id="T6" lex="T_lymphocyte">T lymphocytes</term> accumulate high levels of the <term sem="Peptide" id="T7" lex="neuropeptide_enkephalin">neuropeptide enkephalin</term> which correlate with high levels of <term sem="RNA_family_or_group" id="T8" lex="proenkephalin_mRNA"><term sem="Peptide" id="T9" lex="proenkephalin">proenkephalin</term> mRNA</term> in the cells.</sentence>
+<event id="E3">
+<type class="Physiological_process" />
+<theme idref="T6" />
+<clue>Upon <clueType>activation</clueType>, T lymphocytes accumulate high levels of the neuropeptide enkephalin which correlate with high levels of proenkephalin mRNA in the cells.</clue>
+</event>
+<event id="E4">
+<type class="Protein_processing" />
+<theme idref="T7" />
+<clue>Upon activation, <clueLoc>T lymphocytes</clueLoc> <clueType>accumulate</clueType> high levels of the neuropeptide enkephalin which correlate with high levels of proenkephalin mRNA in the cells.</clue>
+</event>
+<event id="E400">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E3" />
+<clue><linkCause>Upon</linkCause> activation, T lymphocytes accumulate high levels of the neuropeptide enkephalin which correlate with high levels of proenkephalin mRNA in the cells.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E5">
+<type class="Correlation" />
+<theme idref="E4" />
+<theme idref="T8" />
+<clue>Upon activation, T lymphocytes accumulate high levels of the neuropeptide enkephalin which <clueType>correlate</clueType> <linkTheme>with</linkTheme> high levels of proenkephalin mRNA in the cells.</clue>
+</event>
+<sentence id="S3">Here we investigated the <term sem="Other" id="T10" lex="transcriptional_basis">transcriptional basis</term> for these changes.</sentence>
+<sentence id="S4">The <term sem="Peptide" id="T11" lex="proenkephalin">proenkephalin</term> promoter contains a sequence <term sem="Polynucleotide" id="T12" lex="GGGGACGTCCCC">GGGGACGTCCCC</term>, named <term sem="DNA_domain_or_region" id="T13" lex="B2">B2</term>, which is similar to the <term sem="DNA_domain_or_region" id="T14" lex="kappa_B_sequence">kappa B sequence</term> <term sem="Polynucleotide" id="T15" lex="GGGGACTTTCC">GGGGACTTTCC</term>, the binding site of the <term sem="Protein_family_or_group" id="T16" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T18" lex="nuclear_factor_(NF)-kappa_B">nuclear factor (NF)-kappa B</term>.</sentence>
+<sentence id="S5">Activation of <term sem="Cell_natural" id="T19" lex="T_lymphocyte">T lymphocytes</term> induces an <term sem="Other" id="T20" lex="NF-kappa_B-like_binding_activity"><term sem="Protein_molecule" id="T21" lex="NF-kappa_B">NF-kappa B</term>-like binding activity</term> to the <term sem="DNA_domain_or_region" id="T22" lex="B2_site">B2 site</term>, concomitant with activation of the <term sem="DNA_domain_or_region" id="T23" lex="proenkephalin_promoter"><term sem="Peptide" id="T24" lex="proenkephalin">proenkephalin</term> promoter</term>.</sentence>
+<event id="E6">
+<type class="Physiological_process" />
+<theme idref="T19" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> T lymphocytes induces an NF-kappa B-like binding activity to the B2 site, concomitant with activation of the proenkephalin promoter.</clue>
+<comment>NER, S4, T17 del</comment>
+</event>
+<event id="E7">
+<type class="Binding" />
+<theme idref="T22" />
+<clue>Activation of T lymphocytes induces an <clueType>NF-kappa B-like binding activity</clueType> <linkTheme>to</linkTheme> the B2 site, concomitant with activation of the proenkephalin promoter.</clue>
+<comment>OKAP &quot;another THEME is not mentioned&quot;</comment>
+</event>
+<event id="E100">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E6" />
+<clue>Activation of T lymphocytes <clueType>induces</clueType> an NF-kappa B-like binding activity to the B2 site, concomitant with activation of the proenkephalin promoter.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<cause idref="E6" />
+<clue>Activation of T lymphocytes induces an NF-kappa B-like binding activity to the B2 site, concomitant with <clueType>activation</clueType> <linkTheme>of</linkTheme> the proenkephalin promoter.</clue>
+</event>
+<event id="E9">
+<type class="Correlation" />
+<theme idref="E8" />
+<theme idref="E100" />
+<clue>Activation of T lymphocytes induces an NF-kappa B-like binding activity to the B2 site, <clueType>concomitant</clueType> <linkTheme>with</linkTheme> activation of the proenkephalin promoter.</clue>
+</event>
+<sentence id="S6">Mutations at the <term sem="DNA_domain_or_region" id="T25" lex="B2">B2</term> site abolish this <term sem="Other" id="T26" lex="transcriptional_activation">transcriptional activation</term>.</sentence>
+<event id="E10">
+<type class="Mutagenesis" />
+<theme idref="T25" />
+<clue><clueType>Mutations</clueType> <linkTheme>at</linkTheme> the B2 site abolish this transcriptional activation.</clue>
+<comment>ARITIFICIAL</comment>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="E8" />
+<cause idref="E10" />
+<clue>Mutations at the B2 site <clueType>abolish</clueType> <corefTheme>this transcriptional activation</corefTheme>.</clue>
+</event>
+<sentence id="S7">The purified <term sem="Protein_complex" id="T27" lex="homodimer">homodimer</term> (two <term sem="Protein_molecule" id="T28" lex="p50">p50s</term>) of the <term sem="Protein_domain_or_region" id="T29" lex="DNA-binding_subunit">DNA-binding subunit</term> of <term sem="Protein_molecule" id="T30" lex="NF-kappa_B">NF-kappa B</term> binds the <term sem="DNA_domain_or_region" id="T31" lex="B2">B2</term> site of <term sem="Peptide" id="T32" lex="proenkephalin">proenkephalin</term> relatively better than does the <term sem="Protein_complex" id="T33" lex="heterotetramer">heterotetramer</term> (two <term sem="Protein_molecule" id="T34" lex="p65">p65s</term> plus two <term sem="Protein_molecule" id="T35" lex="p50">p50s</term>) form of the factor.</sentence>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T28" />
+<theme idref="T28" />
+<clue>The purified <clueType>homodimer</clueType> (two p50s) of the DNA-binding subunit of NF-kappa B binds the B2 site of proenkephalin relatively better than does the heterotetramer (two p65s plus two p50s) form of the factor.</clue>
+</event>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T34" />
+<theme idref="T34" />
+<theme idref="T35" />
+<theme idref="T35" />
+<clue>The purified homodimer (two p50s) of the DNA-binding subunit of NF-kappa B binds the B2 site of proenkephalin relatively better than does the <clueType>heterotetramer</clueType> (two p65s <linkTheme>plus</linkTheme> two p50s) form of the factor.</clue>
+</event>
+<event id="E14">
+<type class="Binding" />
+<theme idref="T33" />
+<theme idref="T31" />
+<clue>The purified homodimer (two p50s) of the DNA-binding subunit of NF-kappa B <clueType>binds</clueType> the B2 site of proenkephalin relatively better than does the heterotetramer (two p65s plus two p50s) form of the factor.</clue>
+</event>
+<sentence id="S8">Thus, it appears that the <term sem="Other" id="T36" lex="T-cell-specific_activation">T-cell-specific activation</term> of the <term sem="DNA_domain_or_region" id="T37" lex="proenkephalin_promoter"><term sem="Peptide" id="T38" lex="proenkephalin">proenkephalin</term> promoter</term> is mediated by <term sem="Protein_molecule" id="T39" lex="NF-kappa_B">NF-kappa B</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T37" />
+<clue>Thus, it appears that the <clueLoc>T-cell</clueLoc>-specific <clueType>activation</clueType> <linkTheme>of</linkTheme> the proenkephalin promoter is mediated by NF-kappa B.</clue>
+</event>
+<event uncertainty="probable" id="E17">
+<type class="Positive_regulation" />
+<theme idref="E16" />
+<cause idref="T39" />
+<clue>Thus, it appears that the T-cell-specific activation of the proenkephalin promoter is <clueType>mediated</clueType> <linkCause>by</linkCause> NF-kappa B.</clue>
+</event>
+<sentence id="S9">However, as <term sem="Protein_molecule" id="T40" lex="NF-kappa_B">NF-kappa B</term> is ubiquitous and the <term sem="Other" id="T41" lex="transcriptional_activation">transcriptional activation</term> through the <term sem="DNA_domain_or_region" id="T42" lex="B2">B2</term> site is <term sem="Other" id="T43" lex="T_cell_specific">T cell specific</term>, yet another <term sem="Protein_molecule" id="T44" lex="T-cell-specific_factor">T-cell-specific factor</term> which synergizes with <term sem="Protein_molecule" id="T45" lex="NF-kappa_B">NF-kappa B</term> should be considered.</sentence>
+<event uncertainty="doubtful" id="E18">
+<type class="Correlation" />
+<theme idref="T44" />
+<theme idref="T45" />
+<clue>However, as NF-kappa B is ubiquitous and the transcriptional activation through the B2 site is T cell specific, yet another T-cell-specific factor which <clueType>synergizes</clueType> <linkTheme>with</linkTheme> NF-kappa B should be considered.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

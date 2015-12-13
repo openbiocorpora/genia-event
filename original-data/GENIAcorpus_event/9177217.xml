@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="14/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9177217" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>9177217</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Specific complex formation between the <term sem="Protein_family_or_group" id="T1" lex="type_II_bare_lymphocyte_syndrome-associated_transactivators">type II bare lymphocyte syndrome-associated transactivators</term> <term sem="Protein_molecule" id="T2" lex="CIITA">CIITA</term> and <term sem="Protein_molecule" id="T3" lex="RFX5">RFX5</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T2" />
+<theme idref="T3" />
+<clue>Specific <clueType>complex formation</clueType> <linkTheme>between</linkTheme> the type II bare lymphocyte syndrome-associated transactivators CIITA <linkTheme>and</linkTheme> RFX5.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Two of the genes defective in the five complementation groups identified in the <term sem="Other" id="T4" lex="class_II-negative_bare_lymphocyte_syndrome">class II-negative bare lymphocyte syndrome</term> or corresponding laboratory mutants have been cloned.</sentence>
+<event id="E2">
+<type class="Negative_regulation" />
+<theme idref="T2" />
+<clue><corefTheme>Two of the genes</corefTheme> <clueType>defective</clueType> <clueLoc>in the five complementation groups identified in the class II-negative bare lymphocyte syndrome</clueLoc> or corresponding laboratory mutants have been cloned.</clue>
+</event>
+<event id="E102">
+<type class="Negative_regulation" />
+<theme idref="T2" />
+<clue><corefTheme>Two of the genes</corefTheme> <clueType>defective</clueType> <clueLoc>in</clueLoc> the five complementation groups identified in the class II-negative bare lymphocyte syndrome or <clueLoc>corresponding laboratory mutants</clueLoc> have been cloned.</clue>
+</event>
+<event id="E103">
+<type class="Negative_regulation" />
+<theme idref="T3" />
+<clue><corefTheme>Two of the genes</corefTheme> <clueType>defective</clueType> <clueLoc>in the five complementation groups identified in the class II-negative bare lymphocyte syndrome</clueLoc> or corresponding laboratory mutants have been cloned.</clue>
+</event>
+<event id="E104">
+<type class="Negative_regulation" />
+<theme idref="T3" />
+<clue><corefTheme>Two of the genes</corefTheme> <clueType>defective</clueType> <clueLoc>in</clueLoc> the five complementation groups identified in the class II-negative bare lymphocyte syndrome or <clueLoc>corresponding laboratory mutants</clueLoc> have been cloned.</clue>
+</event>
+<sentence id="S3">One gene encodes a protein, <term sem="Protein_molecule" id="T5" lex="RFX5">RFX5</term>, that is a member of the <term sem="Protein_family_or_group" id="T6" lex="RFX_family_of_DNA_binding_protein">RFX family of DNA binding proteins</term>.</sentence>
+<sentence id="S4">The other, <term sem="Protein_molecule" id="T7" lex="CIITA">CIITA</term>, encodes a large protein with a defined <term sem="Protein_domain_or_region" id="T8" lex="acidic_transcriptional_activation_domain">acidic <term sem="Other" id="T9" lex="transcriptional_activation">transcriptional activation</term> domain</term>; this protein does not interact with <term sem="DNA_domain_or_region" id="A2">DNA</term>.</sentence>
+<event assertion="non-exist" id="E3">
+<type class="Binding" />
+<theme idref="T7" />
+<theme idref="A2" />
+<clue>The other, CIITA, encodes a large protein with a defined acidic transcriptional activation domain; <corefTheme>this protein</corefTheme> does not <clueType>interact</clueType> <linkTheme>with</linkTheme> DNA.</clue>
+</event>
+<sentence id="S5"><term sem="DNA_molecule" id="A6"><term sem="DNA_molecule" id="T10" lex="expression_plasmid">Expression <term sem="DNA_molecule" id="T11" lex="plasmid">plasmids</term></term> encoding regions of <term sem="Protein_molecule" id="T12" lex="RFX5">RFX5</term> fused to the <term sem="Protein_domain_or_region" id="T13" lex="GAL4_DNA_binding_domain">GAL4 DNA binding domain</term></term> activated transcription from a <term sem="DNA_domain_or_region" id="A3">reporter construct containing <term sem="DNA_domain_or_region" id="T14" lex="GAL4_site">GAL4 sites</term></term> in a <term sem="Other" id="T15" lex="cotransfection_assay">cotransfection assay</term> in the <term sem="Cell_cultured" id="T16" lex="Raji_human_B_cell_line">Raji human B cell line</term>.</sentence>
+<event id="E4">
+<type class="Transcription" />
+<theme idref="A3" />
+<clue>Expression plasmids encoding regions of RFX5 fused to the GAL4 DNA binding domain activated <clueType>transcription</clueType> <linkTheme>from</linkTheme> a reporter construct containing GAL4 sites in a cotransfection assay in the Raji human B cell line.</clue>
+<comment>, NER T10,T11 MOD, TPS A3,A6</comment>
+</event>
+<event id="E105">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="A6" />
+<clue>Expression plasmids encoding regions of RFX5 fused to the GAL4 DNA binding domain <clueType>activated</clueType> transcription from a reporter construct containing GAL4 sites <clueExperiment>in a cotransfection assay</clueExperiment> <clueLoc>in the Raji human B cell line</clueLoc>.</clue>
+</event>
+<event id="E205">
+<type class="DNA_recombination" />
+<theme idref="T12" />
+<theme idref="T13" />
+<clue>Expression plasmids encoding regions of RFX5 <clueType>fused</clueType> <linkTheme>to</linkTheme> the GAL4 DNA binding domain activated transcription from a reporter construct containing GAL4 sites in a cotransfection assay in the Raji human B cell line.</clue>
+</event>
+<sentence id="S6">However, these <term sem="DNA_family_or_group" id="T17" lex="plasmid">plasmids</term> produced <term sem="Other" id="A4">transcriptional activity</term> in <term sem="Cell_cultured" id="T18" lex="HeLa_cell">HeLa cells</term> only in conjunction with <term sem="Other" id="T19" lex="interferon_gamma_stimulation"><term sem="Protein_molecule" id="T20" lex="interferon_gamma">interferon gamma</term> stimulation</term>, a condition in which expression of both <term sem="Protein_molecule" id="T21" lex="CIITA">CIITA</term> and <term sem="Protein_family_or_group" id="T22" lex="class_II_major_histocompatibility_complex_surface_protein">class II major histocompatibility complex <term sem="Protein_family_or_group" id="T23" lex="surface_protein">surface proteins</term></term> are induced.</sentence>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="A6" />
+<cause idref="E6" />
+<clue>However, <corefCause>these plasmids</corefCause> <clueType>produced</clueType> transcriptional activity <clueLoc>in HeLa cells</clueLoc> only <linkCause>in conjunction with</linkCause> interferon gamma stimulation, a condition in which expression of both CIITA and class II major histocompatibility complex surface proteins are induced.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<cause idref="T20" />
+<clue>However, these plasmids produced transcriptional activity in HeLa cells only in conjunction with interferon gamma <clueType>stimulation</clueType>, a condition in which expression of both CIITA and class II major histocompatibility complex surface proteins are induced.</clue>
+</event>
+<event id="E7">
+<type class="Gene_expression" />
+<theme idref="T21" />
+<clue>However, these plasmids produced transcriptional activity in HeLa cells only in conjunction with interferon gamma stimulation, a condition in which <clueType>expression</clueType> <linkTheme>of</linkTheme> both CIITA and class II major histocompatibility complex surface proteins are induced.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="T22" />
+<clue>However, these plasmids produced transcriptional activity in HeLa cells only in conjunction with interferon gamma stimulation, a condition in which <clueType>expression</clueType> <linkTheme>of</linkTheme> both CIITA and class II major histocompatibility complex surface proteins are induced.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="E7" />
+<cause idref="E6" />
+<clue>However, these plasmids produced transcriptional activity in HeLa cells only in conjunction with interferon gamma stimulation, <corefCause>a condition in which</corefCause> expression of both CIITA and class II major histocompatibility complex surface proteins are <clueType>induced</clueType>.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="E8" />
+<cause idref="E6" />
+<clue>However, these plasmids produced transcriptional activity in HeLa cells only in conjunction with interferon gamma stimulation, <corefCause>a condition in which</corefCause> expression of both CIITA and class II major histocompatibility complex surface proteins are <clueType>induced</clueType>.</clue>
+</event>
+<sentence id="S7">Furthermore, these <term sem="DNA_family_or_group" id="T24" lex="plasmid">plasmids</term> were not active in <term sem="Cell_cultured" id="T25" lex="RJ2.2.5">RJ2.2.5</term>, an in vitro mutagenized derivative of <term sem="Cell_cultured" id="T26" lex="Raji">Raji</term> in which both copies of <term sem="Protein_molecule" id="T27" lex="CIITA">CIITA</term> are defective.</sentence>
+<event assertion="non-exist" id="E11">
+<type class="Positive_regulation" />
+<cause idref="A6" />
+<clue>Furthermore, <corefCause>these plasmids</corefCause> were not <clueType>active</clueType> <clueLoc>in RJ2.2.5, an in vitro mutagenized derivative of Raji in which both copies of CIITA are defective</clueLoc>.</clue>
+<comment>CAUTION: active=produce transcription activity</comment>
+</event>
+<event id="E12">
+<type class="Negative_regulation" />
+<theme idref="T27" />
+<clue>Furthermore, these plasmids were not active <clueLoc>in RJ2.2.5, an in vitro mutagenized derivative of Raji</clueLoc> in which both copies of CIITA are <clueType>defective</clueType>.</clue>
+</event>
+<sentence id="S8">Transcriptional activation by the <term sem="Protein_molecule" id="T28" lex="RFX5_fusion_protein"><term sem="Protein_molecule" id="T29" lex="RFX5">RFX5</term> fusion protein</term> could be restored in <term sem="Cell_cultured" id="T30" lex="RJ2.2.5">RJ2.2.5</term> by cotransfection with a <term sem="DNA_molecule" id="T31" lex="CIITA_expression_plasmid"><term sem="Protein_molecule" id="T32" lex="CIITA">CIITA</term> expression plasmid</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation" />
+<cause idref="T28" />
+<clue><clueType>Transcriptional activation</clueType> <linkCause>by</linkCause> the RFX5 fusion protein could be restored in RJ2.2.5 by cotransfection with a CIITA expression plasmid.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>Transcriptional activation by the RFX5 fusion protein could be restored in RJ2.2.5 by cotransfection with a CIITA <clueType>expression</clueType> <clueLoc>plasmid</clueLoc>.</clue>
+<comment>ARTIFICAIL</comment>
+</event>
+<event id="E114">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<clue>Transcriptional activation by the RFX5 fusion protein could be restored in <clueLoc>RJ2.2.5</clueLoc> by <clueType>cotransfection</clueType> with a CIITA expression plasmid.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E13" />
+<cause idref="E114" />
+<clue>Transcriptional activation by the RFX5 fusion protein could be <clueType>restored</clueType> <clueLoc>in RJ2.2.5</clueLoc> <linkCause>by</linkCause> cotransfection with a CIITA expression plasmid.</clue>
+</event>
+<sentence id="S9">Finally, a direct interaction between <term sem="Protein_molecule" id="T33" lex="RFX5">RFX5</term> and <term sem="Protein_molecule" id="T34" lex="CIITA">CIITA</term> was detected with the <term sem="Other" id="T35" lex="yeast_two-hybrid">yeast two-hybrid</term> and <term sem="Other" id="T36" lex="far-Western_blot_assay">far-Western blot assays</term>.</sentence>
+<event id="E17">
+<type class="Binding" />
+<theme idref="T33" />
+<theme idref="T34" />
+<clue>Finally, a direct <clueType>interaction</clueType> <linkTheme>between</linkTheme> RFX5 <linkTheme>and</linkTheme> CIITA was detected with <clueExperiment>the yeast two-hybrid and far-Western blot assays</clueExperiment>.</clue>
+<comment>NER T35 MOD</comment>
+</event>
+<sentence id="S10">Thus, <term sem="Protein_molecule" id="T37" lex="RFX5">RFX5</term> can activate <term sem="Other" id="A7">transcription</term> only in cooperation with <term sem="Protein_molecule" id="T38" lex="CIITA">CIITA</term>.</sentence>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="T37" />
+<cause idref="T39" />
+<clue>Thus, RFX5 can <clueType>activate</clueType> transcription only <linkCause>in cooperation with</linkCause> CIITA.</clue>
+</event>
+<sentence id="S11"><term sem="Protein_molecule" id="T39" lex="RFX5">RFX5</term> and <term sem="Protein_molecule" id="T40" lex="CIITA">CIITA</term> associate to form a complex capable of activating transcription from <term sem="DNA_domain_or_region" id="T41" lex="class_II_major_histocompatibility_complex_promoter">class II major histocompatibility complex promoters</term>.</sentence>
+<event id="E19">
+<type class="Binding" />
+<theme idref="T39" />
+<theme idref="T40" />
+<clue>RFX5 and CIITA <clueType>associate to form a complex</clueType> capable of activating transcription from class II major histocompatibility complex promoters.</clue>
+</event>
+<event id="E20">
+<type class="Transcription" />
+<theme idref="T41" />
+<clue>RFX5 and CIITA associate to form a complex capable of activating <clueType>transcription</clueType> <linkTheme>from</linkTheme> class II major histocompatibility complex promoters.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="E19" />
+<clue>RFX5 and CIITA associate to form a complex capable of <clueType>activating</clueType> transcription from class II major histocompatibility complex promoters.</clue>
+</event>
+<sentence id="S12">In this complex, <term sem="Other" id="T42" lex="promoter_specificity"><term sem="DNA_domain_or_region" id="A8">promoter</term> specificity</term> is determined by the <term sem="Protein_domain_or_region" id="A9">DNA binding domain of <term sem="Protein_molecule" id="T43" lex="RFX5">RFX5</term></term> and the <term sem="Protein_family_or_group" id="T44" lex="general_transcription_apparatu"><term sem="Other" id="A11">general transcription</term> apparatus</term> is recruited by the <term sem="Protein_domain_or_region" id="A10"><term sem="Protein_domain_or_region" id="T45" lex="acidic_activation_domain">acidic activation domain</term> of <term sem="Protein_molecule" id="T46" lex="CIITA">CIITA</term></term>.</sentence>
+<event id="E22">
+<type class="Binding" />
+<theme idref="A8" />
+<theme idref="A9" />
+<clue>In this complex, promoter <clueType>specificity</clueType> is <linkTheme>determined by</linkTheme> the DNA binding domain of RFX5 and the general transcription apparatus is recruited by the acidic activation domain of CIITA.</clue>
+<comment>TPS A9,A10</comment>
+</event>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="A11" />
+<cause idref="A10" />
+<clue>In this complex, promoter specificity is determined by the DNA binding domain of RFX5 and the general transcription apparatus is <clueType>recruited</clueType> <linkTheme>by</linkTheme> the acidic activation domain of CIITA.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

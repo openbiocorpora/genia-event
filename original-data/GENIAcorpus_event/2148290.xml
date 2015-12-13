@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/04/2006" creator="Noriko Katsu" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2148290">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2148290</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="lymphoid_specific_gene_expression">Lymphoid specific gene expression</term> of the <term sem="DNA_domain_or_region" id="T2" lex="adenovirus_early_region_3_promoter">adenovirus early region 3 promoter</term> is mediated by <term sem="DNA_domain_or_region" id="T3" lex="NF-kappa_B_binding_motif">NF-kappa B binding motifs</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T2" />
+<clue><clueLoc>Lymphoid</clueLoc> specific <clueType>gene expression</clueType> <linkTheme>of</linkTheme> the adenovirus early region 3 promoter is mediated by NF-kappa B binding motifs.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T3" />
+<clue>Lymphoid specific gene expression of the adenovirus early region 3 promoter is <clueType>mediated</clueType> <linkCause>by</linkCause> NF-kappa B binding motifs.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A <term sem="Other" id="T4" lex="primary_site_of_infection">primary site of infection</term> by <term sem="Virus" id="T5" lex="human_adenovirus">human adenoviruses</term> is <term sem="Cell_natural" id="T6" lex="lymphoid_cell">lymphoid cells</term>.</sentence>
+<event id="E3">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T5" />
+<theme idref="T6" />
+<clue>A <clueTime>primary</clueTime> site of <clueType>infection</clueType> <linkCause>by</linkCause> human adenoviruses is lymphoid cells.</clue>
+</event>
+<sentence id="S3">However, analysis of the <term sem="DNA_family_or_group" id="T7" lex="viral_control_element">viral control elements</term> and the <term sem="Protein_family_or_group" id="T8" lex="cellular_factor">cellular factors</term> that regulate <term sem="Other" id="T9" lex="adenoviral_gene_expression">adenoviral gene expression</term> in <term sem="Cell_natural" id="T10" lex="lymphocyte">lymphocytes</term> has not been reported.</sentence>
+<event id="E4">
+<type class="Regulation" />
+<theme idref="T9" />
+<cause idref="T7" />
+<clue>However, analysis of the viral control elements and the cellular factors that <clueType>regulate</clueType> adenoviral gene expression <clueLoc>in lymphocytes</clueLoc> has not been reported.</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="T9" />
+<cause idref="T8" />
+<clue>However, analysis of the viral control elements and the cellular factors that <clueType>regulate</clueType> adenoviral gene expression <clueLoc>in lymphocytes</clueLoc> has not been reported.</clue>
+</event>
+<sentence id="S4">The <term sem="Protein_family_or_group" id="T11" lex="adenovirus_early_region_3_(ES)_gene_product"><term sem="DNA_domain_or_region" id="T12" lex="adenovirus_early_region_3">adenovirus early region 3</term> (<term sem="Protein_family_or_group" id="A20"><term sem="DNA_domain_or_region" id="T13" lex="ES">ES</term>) gene products</term></term> are involved in the maintenance of <term sem="Other" id="T14" lex="viral_persistence">viral persistence</term> by complexing with the <term sem="Protein_family_or_group" id="T15" lex="class_I_MHC_antigen">class I MHC antigens</term>, thus preventing their <term sem="Other" id="T16" lex="cell_surface_expression">cell surface expression</term> with a resultant decrease in <term sem="Other" id="T17" lex="host_immunologic_destruction">host immunologic destruction</term>.</sentence>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref="T13" />
+<clue>The adenovirus early region 3 (ES) <clueType>gene products</clueType> are involved in the maintenance of viral persistence by complexing with the class I MHC antigens, thus preventing their cell surface expression with a resultant decrease in host immunologic destruction.</clue>
+<comment>CAUTION, correctly "E3"</comment>
+</event>
+<event id="E7">
+<type class="Binding" />
+<theme idref="A20" />
+<theme idref="T15" />
+<clue>The adenovirus early region 3 (ES) gene products are involved in the maintenance of viral persistence by <clueType>complexing</clueType> <linkTheme>with</linkTheme> the class I MHC antigens, thus preventing their cell surface expression with a resultant decrease in host immunologic destruction.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<cause idref="E7" />
+<clue>The adenovirus early region 3 (ES) gene products are <clueType>involved in the maintenance</clueType> <linkTheme>of</linkTheme> viral persistence <linkCause>by</linkCause> complexing with the class I MHC antigens, thus preventing their cell surface expression with a resultant decrease in host immunologic destruction.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="T15" />
+<clue>The adenovirus early region 3 (ES) gene products are involved in the maintenance of viral persistence by complexing with the class I MHC antigens, thus preventing their <clueLoc>cell surface</clueLoc> <clueType>expression</clueType> with a resultant decrease in host immunologic destruction.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation" />
+<theme idref="E9" />
+<cause idref="E7" />
+<clue>The adenovirus early region 3 (ES) gene products are involved in the maintenance of viral persistence by complexing with the class I MHC antigens, thus <clueType>preventing</clueType> their cell surface expression with a resultant decrease in host immunologic destruction.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation" />
+<theme idref="T17" />
+<cause idref="E10" />
+<clue>The adenovirus early region 3 (ES) gene products are involved in the maintenance of viral persistence by complexing with the class I MHC antigens, thus preventing their cell surface expression with a resultant <clueType>decrease</clueType> <linkTheme>in</linkTheme> host immunologic destruction.</clue>
+</event>
+<sentence id="S5">To determine whether different <term sem="Protein_family_or_group" id="T18" lex="cellular_factor">cellular factors</term> were involved in <term sem="Other" id="T19" lex="E3_regulation">E3 regulation</term> in <term sem="Cell_natural" id="T20" lex="lymphocyte">lymphocytes</term> as compared with <term sem="Cell_cultured" id="T21" lex="HeLa_cell">HeLa cells</term>, both <term sem="Other" id="T22" lex="DNA_binding">DNA binding</term> and <term sem="Other" id="T23" lex="transfection_analysis">transfection analysis</term> with the <term sem="DNA_domain_or_region" id="T24" lex="E3_promoter">E3 promoter</term> in both cell types were performed.</sentence>
+<event uncertainty="doubtful" id="E12">
+<type class="Regulation" />
+<theme idref="T19" />
+<cause idref="T18" />
+<clue>To determine whether different cellular factors were <clueType>involved</clueType> <linkTheme>in</linkTheme> E3 regulation <clueLoc>in lymphocytes</clueLoc> as compared with HeLa cells, both DNA binding and transfection analysis with the E3 promoter in both cell types were performed.</clue>
+</event>
+<event uncertainty="doubtful" id="E13">
+<type class="Regulation" />
+<theme idref="T19" />
+<cause idref="T18" />
+<clue>To determine whether different cellular factors were <clueType>involved</clueType> <linkTheme>in</linkTheme> E3 regulation <clueLoc>in</clueLoc> lymphocytes as compared with <clueLoc>HeLa cells</clueLoc>, both <clueExperiment>DNA binding and transfection analysis with the E3 promoter in both cell types</clueExperiment> were performed.</clue>
+</event>
+<sentence id="S6">These studies detected two <term sem="DNA_domain_or_region" id="T25" lex="novel_domain">novel domains</term> referred to as <term sem="DNA_domain_or_region" id="T26" lex="L1">L1</term> and <term sem="DNA_domain_or_region" id="T27" lex="L2">L2</term> with a variety of <term sem="Cell_component" id="T28" lex="lymphoid_extract">lymphoid</term> but not <term sem="Cell_component" id="T29" lex="HeLa_extract">HeLa extracts</term>.</sentence>
+<sentence id="S7">Each of these domains possessed strong homology to <term sem="DNA_domain_or_region" id="A1">motifs</term> previously found to bind the <term sem="Protein_molecule" id="T30" lex="cellular_factor_NF-kappa_B">cellular factor <term sem="Protein_molecule" id="T31" lex="NF-kappa_B">NF-kappa B</term></term>.</sentence>
+<event id="E20">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T31" />
+<clue>Each of these domains possessed strong homology to motifs previously found to <clueType>bind</clueType> the cellular factor NF-kappa B.</clue>
+</event>
+<sentence id="S8">Transfections of <term sem="DNA_molecule" id="A2"><term sem="DNA_molecule" id="T32" lex="E3_construct">E3 constructs</term> linked to the <term sem="DNA_domain_or_region" id="T33" lex="chloramphenicol_acetyltransferase_gene">chloramphenicol acetyltransferase gene</term></term> revealed that mutagenesis of the <term sem="DNA_domain_or_region" id="T34" lex="distal_NF-kappa_B_motif">distal <term sem="Protein_molecule" id="T35" lex="NF-kappa_B">NF-kappa B</term> motif</term> (<term sem="DNA_domain_or_region" id="T36" lex="L2">L2</term>) had minimal effects on <term sem="Other" id="T37" lex="promoter_expression">promoter expression</term> in <term sem="Cell_cultured" id="T38" lex="HeLa_cell">HeLa cells</term>, but resulted in dramatic decreases in <term sem="Other" id="T39" lex="expression">expression</term> by <term sem="Cell_natural" id="T40" lex="lymphoid_cell">lymphoid cells</term>.</sentence>
+<event id="E21">
+<type class="DNA_metabolism" />
+<theme idref="T32" />
+<theme idref="T33" />
+<clue>Transfections of E3 constructs <clueType>linked</clueType> <linkTheme>to</linkTheme> the chloramphenicol acetyltransferase gene revealed that mutagenesis of the distal NF-kappa B motif (L2) had minimal effects on promoter expression in HeLa cells, but resulted in dramatic decreases in expression by lymphoid cells.</clue>
+<comment>ERROR "Type is not Binding but DNA_metabolism"</comment>
+</event>
+<event id="E15">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue><clueType>Transfections</clueType> <linkTheme>of</linkTheme> E3 constructs linked to the chloramphenicol acetyltransferase gene revealed that mutagenesis of the distal NF-kappa B motif (L2) had minimal effects on promoter expression in HeLa cells, but resulted in dramatic decreases in expression by lymphoid cells.</clue>
+<comment>TPS: A2; ARTIFICIAL</comment>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E15" />
+<clue><clueType>Transfections</clueType> <linkTheme>of</linkTheme> E3 constructs linked to the chloramphenicol acetyltransferase gene revealed that mutagenesis of the distal NF-kappa B motif (L2) had minimal effects on promoter expression in HeLa cells, but resulted in dramatic decreases in expression by lymphoid cells.</clue>
+</event>
+<event id="E23">
+<type class="Mutagenesis" />
+<theme idref="T36" />
+<clue><clueExperiment>Transfections of E3 constructs linked to the chloramphenicol acetyltransferase gene</clueExperiment> revealed that <clueType>mutagenesis</clueType> <linkTheme>of</linkTheme> the distal NF-kappa B motif (L2) had minimal effects on promoter expression in HeLa cells, but resulted in dramatic decreases in expression by lymphoid cells.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E24">
+<type class="Regulation" />
+<theme idref="E17" />
+<cause idref="E23" />
+<clue>Transfections of E3 constructs linked to the chloramphenicol acetyltransferase gene revealed that mutagenesis of the distal NF-kappa B motif (L2) had minimal <clueType>effects</clueType> <linkTheme>on</linkTheme> promoter expression <clueLoc>in HeLa cells</clueLoc>, but resulted in dramatic decreases in expression by lymphoid cells.</clue>
+</event>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T24" />
+<clue>Transfections of E3 constructs linked to the chloramphenicol acetyltransferase gene revealed that mutagenesis of the distal NF-kappa B motif (L2) had minimal effects on <corefTheme>promoter</corefTheme> <clueType>expression</clueType> in HeLa cells, but resulted in dramatic decreases in expression by lymphoid cells.</clue>
+<comment>ERROR "THEME is not T37 but T24"</comment>
+</event>
+<event id="E25">
+<type class="Negative_regulation" />
+<theme idref="E17" />
+<cause idref="E23" />
+<clue>Transfections of E3 constructs linked to the chloramphenicol acetyltransferase gene revealed that mutagenesis of the distal NF-kappa B motif (L2) had minimal effects on promoter expression in HeLa cells, but resulted in dramatic <clueType>decreases</clueType> <linkTheme>in</linkTheme> <corefTheme>expression</corefTheme> <clueLoc>by lymphoid cells</clueLoc>.</clue>
+</event>
+<sentence id="S9">In contrast, mutagenesis of <term sem="DNA_domain_or_region" id="T41" lex="proximal_NF-kappa_B_motif">proximal NF-kappa B motif</term> (<term sem="DNA_domain_or_region" id="T42" lex="L1">L1</term>) had minimal effects on <term sem="Other" id="T43" lex="gene_expression">gene <term sem="Other" id="T44" lex="expression">expression</term></term> in both <term sem="Cell_cultured" id="T45" lex="HeLa_cell">HeLa cells</term> and <term sem="Cell_natural" id="T46" lex="lymphoid_cell">lymphoid cells</term> but resulted in a small, but reproducible, increase in <term sem="Other" id="T47" lex="gene_expression">gene <term sem="Other" id="T48" lex="expression">expression</term></term> in <term sem="Cell_natural" id="T49" lex="lymphoid_cell">lymphoid cells</term> when coupled to the <term sem="Other" id="T50" lex="L2_mutation"><term sem="DNA_domain_or_region" id="T51" lex="L2">L2</term> mutation</term>.</sentence>
+<event id="E26">
+<type class="Mutagenesis" />
+<theme idref="T42" />
+<clue>In contrast, <clueType>mutagenesis</clueType> <linkTheme>of</linkTheme> proximal NF-kappa B motif (L1) had minimal effects on gene expression in both HeLa cells and lymphoid cells but resulted in a small, but reproducible, increase in gene expression in lymphoid cells when coupled to the L2 mutation.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event assertion="non-exist" id="E27">
+<type class="Regulation" />
+<theme idref="T43" />
+<cause idref="E26" />
+<clue>In contrast, mutagenesis of proximal NF-kappa B motif (L1) had <clueType>minimal effects</clueType> <linkTheme>on</linkTheme> gene expression <clueLoc>in</clueLoc> both <clueLoc>HeLa cells</clueLoc> and lymphoid cells but resulted in a small, but reproducible, increase in gene expression in lymphoid cells when coupled to the L2 mutation.</clue>
+</event>
+<event assertion="non-exist" id="E14">
+<type class="Regulation" />
+<theme idref="T43" />
+<cause idref="E26" />
+<clue>In contrast, mutagenesis of proximal NF-kappa B motif (L1) had <clueType>minimal effects</clueType> <linkTheme>on</linkTheme> gene expression <clueLoc>in</clueLoc> both HeLa cells and <clueLoc>lymphoid cells</clueLoc> but resulted in a small, but reproducible, increase in gene expression in lymphoid cells when coupled to the L2 mutation.</clue>
+</event>
+<event id="E28">
+<type class="Mutagenesis" />
+<theme idref="T51" />
+<clue>In contrast, mutagenesis of proximal NF-kappa B motif (L1) had minimal effects on gene expression in both HeLa cells and lymphoid cells but resulted in a small, but reproducible, increase in gene expression in lymphoid cells when coupled to the L2 <clueType>mutation</clueType>.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T47" />
+<cause idref="E30" />
+<clue>In contrast, mutagenesis of proximal NF-kappa B motif (L1) had minimal effects on gene expression in both HeLa cells and lymphoid cells but resulted in a small, but reproducible, <clueType>increase</clueType> <linkTheme>in</linkTheme> gene expression <clueLoc>in lymphoid cells</clueLoc> when coupled to the L2 mutation.</clue>
+</event>
+<event id="E30">
+<type class="Correlation" />
+<theme idref="E26" />
+<theme idref="E28" />
+<clue>In contrast, mutagenesis of proximal NF-kappa B motif (L1) had minimal effects on gene expression in both HeLa cells and lymphoid cells but resulted in a small, but reproducible, increase in gene expression in lymphoid cells when <clueType>coupled</clueType> <linkTheme>to</linkTheme> the L2 mutation.</clue>
+</event>
+<sentence id="S10">Reversing the position and subsequent <term sem="Other" id="T52" lex="mutagenesis">mutagenesis</term> of the <term sem="DNA_domain_or_region" id="T53" lex="L1">L1</term> and <term sem="DNA_domain_or_region" id="T54" lex="L2_domain"><term sem="DNA_domain_or_region" id="T55" lex="L2">L2</term> domains</term> indicated that the <term sem="DNA_domain_or_region" id="T56" lex="primary_sequence">primary sequence</term> of these motifs rather than their position in the <term sem="DNA_domain_or_region" id="T57" lex="E3_promoter">E3 promoter</term> was critical for regulating <term sem="Other" id="T58" lex="gene_expression">gene <term sem="Other" id="T59" lex="expression">expression</term></term>.</sentence>
+<event id="E31">
+<type class="DNA_metabolism" />
+<theme idref="T53" />
+<theme idref="T55" />
+<clue><clueType>Reversing the position</clueType> and subsequent mutagenesis <linkTheme>of</linkTheme> the L1 and L2 domains indicated that the primary sequence of these motifs rather than their position in the E3 promoter was critical for regulating gene expression.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E32">
+<type class="Mutagenesis" />
+<theme idref="T53" />
+<clue>Reversing the position and <clueTime>subsequent</clueTime> <clueType>mutagenesis</clueType> <linkTheme>of</linkTheme> the L1 and L2 domains indicated that the primary sequence of these motifs rather than their position in the E3 promoter was critical for regulating gene expression.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E35">
+<type class="Mutagenesis" />
+<theme idref="T55" />
+<clue>Reversing the position and <clueTime>subsequent</clueTime> <clueType>mutagenesis</clueType> <linkTheme>of</linkTheme> the L1 and L2 domains indicated that the primary sequence of these motifs rather than their position in the E3 promoter was critical for regulating gene expression.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event uncertainty="probable" id="E33">
+<type class="Regulation" />
+<theme idref="T58" />
+<cause idref1="T53" idref="T56" />
+<clue><clueExperiment>Reversing the position and subsequent mutagenesis of the L1 and L2 domains</clueExperiment> indicated that the primary sequence of these motifs rather than their position in the E3 promoter was critical for <clueType>regulating</clueType> gene expression.</clue>
+</event>
+<event uncertainty="probable" id="E34">
+<type class="Regulation" />
+<theme idref="T58" />
+<cause idref1="T55" idref="T56" />
+<clue><clueExperiment>Reversing the position and subsequent mutagenesis of the L1 and L2 domains</clueExperiment> indicated that the primary sequence of these motifs rather than their position in the E3 promoter was critical for <clueType>regulating</clueType> gene expression.</clue>
+</event>
+<sentence id="S11">(ABSTRACT TRUNCATED AT 250 WORDS)</sentence>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

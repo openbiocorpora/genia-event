@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="05/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8670269" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8670269</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">An alternatively spliced isoform of the <term sem="Protein_molecule" id="T1" lex="Spi-B">Spi-B</term> <term sem="Protein_family_or_group" id="T2" lex="transcription_factor">transcription factor</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Protein_molecule" id="T3" lex="Spi-B">Spi-B</term> is an <term sem="Protein_family_or_group" id="T4" lex="Ets_transcription_factor">Ets <term sem="Protein_family_or_group" id="T5" lex="transcription_factor">transcription factor</term></term> related to the <term sem="Protein_family_or_group" id="T6" lex="oncoprotein">oncoprotein</term> <term sem="Protein_molecule" id="T7" lex="Spi-1/PU.1">Spi-1/PU.1</term> and highly expressed in <term sem="Cell_natural" id="T8" lex="B_lymphoid_cell">B lymphoid cells</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T3" />
+<clue>Spi-B is an Ets transcription factor related to the oncoprotein Spi-1/PU.1 and highly <clueType>expressed</clueType> <clueLoc>in B lymphoid cells</clueLoc>.</clue>
+</event>
+<sentence id="S3">The <term sem="Protein_family_or_group" id="T9" lex="Ets_protein">Ets proteins</term> share a conserved <term sem="Protein_domain_or_region" id="T10" lex="Ets_domain">Ets domain</term> that mediates specific <term sem="Other" id="T11" lex="DNA_binding"><term sem="DNA_domain_or_region" id="A1">DNA</term> binding</term>.</sentence>
+<event id="E2">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T10" />
+<clue>The Ets proteins share a conserved Ets domain <linkTheme>that mediates</linkTheme> specific DNA <clueType>binding</clueType>.</clue>
+</event>
+<sentence id="S4"><term sem="Protein_molecule" id="T12" lex="Spi-B">Spi-B</term> binds <term sem="DNA_domain_or_region" id="A3"><term sem="DNA_domain_or_region" id="T13" lex="DNA_sequence">DNA sequences</term> containing a core <term sem="Polynucleotide" id="T14" lex="5&apos;-GGAA-3&apos;">5&apos;-GGAA-3&apos;</term></term> and activates <term sem="Other" id="A2">transcription</term> through this motif.</sentence>
+<event id="E3">
+<type class="Binding" />
+<theme idref="T12" />
+<theme idref="A3" />
+<clue>Spi-B <clueType>binds</clueType> DNA sequences containing a core 5&apos;-GGAA-3&apos; and activates transcription through this motif.</clue>
+<comment>NER T13 MOD, TPS A3</comment>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="A2" />
+<cause idref="E3" />
+<clue>Spi-B binds DNA sequences containing a core 5&apos;-GGAA-3&apos; and <clueType>activates</clueType> transcription through this motif.</clue>
+</event>
+<sentence id="S5">Up to date, the biological function of <term sem="Protein_molecule" id="T15" lex="Spi-B">Spi-B</term> remains unknown.</sentence>
+<sentence id="S6">Here, we describe the characterization of an alternatively spliced variant of <term sem="Protein_molecule" id="T16" lex="Spi-B">Spi-B</term>, named <term sem="Protein_molecule" id="T17" lex="deltaSpi-B">deltaSpi-B</term>, which has lost the <term sem="Protein_domain_or_region" id="T18" lex="Ets_domain">Ets domain</term>.</sentence>
+<sentence id="S7">In <term sem="Cell_natural" id="T19" lex="B_lymphoid_cell">B lymphoid cells</term>, <cons sem="(AND RNA_molecule RNA_molecule)" id="T20" lex="(AND deltaspi-B_mRNA spi-B_mRNA)"><frag id="F1"><term sem="RNA_molecule" id="A4">deltaspi-B</term></frag> and <frag id="F2"><term sem="RNA_molecule" id="A5">spi-B</term></frag> <frag id="F3"><term sem="RNA_molecule" id="A6">mRNAs</term></frag></cons> were present simultaneously in a ratio of around 10%.</sentence>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref1="A6" idref="A4" />
+<clue><clueLoc>In B lymphoid cells</clueLoc>, deltaspi-B and spi-B mRNAs were <clueType>present</clueType> simultaneously in a ratio of around 10%.</clue>
+</event>
+<event id="E6">
+<type class="Gene_expression" />
+<theme idref1="A6" idref="A5" />
+<clue><clueLoc>In B lymphoid cells</clueLoc>, deltaspi-B and spi-B mRNAs were <clueType>present</clueType> simultaneously in a ratio of around 10%.</clue>
+</event>
+<sentence id="S8"><term sem="Protein_molecule" id="T21" lex="deltaSpi-B">DeltaSpi-B</term> product was not able to bind <term sem="DNA_domain_or_region" id="A7">DNA</term> and was recovered in <term sem="Cell_component" id="T22" lex="cytoplasmic_cellular_extract">cytoplasmic cellular extracts</term>.</sentence>
+<event assertion="non-exist" id="E7">
+<type class="Binding" />
+<theme idref="T21" />
+<theme idref="A7" />
+<clue>DeltaSpi-B product was not able to <clueType>bind</clueType> DNA and was recovered in cytoplasmic cellular extracts.</clue>
+</event>
+<event id="E8">
+<type class="Localization" />
+<theme idref="T21" />
+<clue>DeltaSpi-B product was not able to bind DNA and was <clueType>recovered</clueType> <clueLoc>in cytoplasmic cellular extracts</clueLoc>.</clue>
+</event>
+<sentence id="S9">We raise the hypothesis that <term sem="Protein_molecule" id="T23" lex="delta_Spi-B">delta <term sem="Protein_molecule" id="T24" lex="Spi-B">Spi-B</term></term> might affect <term sem="Protein_molecule" id="T25" lex="Spi-B">Spi-B</term> function by recruiting <term sem="Protein_family_or_group" id="A8">factors</term> involved in <term sem="Other" id="T26" lex="Spi-B_activity"><term sem="Protein_molecule" id="T27" lex="Spi-B">Spi-B</term> activity</term>.</sentence>
+<event id="E9">
+<type class="Correlation" />
+<theme idref="A8" />
+<theme idref="T26" />
+<clue>We raise the hypothesis that delta Spi-B might affect Spi-B function by recruiting factors <clueType>involved</clueType> <linkTheme>in</linkTheme> Spi-B activity.</clue>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Correlation" />
+<theme idref="T23" />
+<theme idref="A8" />
+<clue>We raise the hypothesis that delta Spi-B might affect Spi-B function by <clueType>recruiting</clueType> factors involved in Spi-B activity.</clue>
+</event>
+<event uncertainty="probable" id="E11">
+<type class="Regulation" />
+<theme idref="T25" />
+<cause idref="E10" />
+<clue>We raise the hypothesis that delta Spi-B might <clueType>affect</clueType> Spi-B function <linkCause>by</linkCause> recruiting factors involved in Spi-B activity.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

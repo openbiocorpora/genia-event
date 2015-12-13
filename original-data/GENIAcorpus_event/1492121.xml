@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="16/03/2007" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1492121"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1492121</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Activation of <term sem="DNA_family_or_group" id="T1" lex="lymphokine_gene">lymphokine genes</term> in <term sem="Cell_natural" id="T2" lex="T_cell">T cells</term>: role of <term sem="DNA_domain_or_region" id="T3" lex="cis-acting_DNA_element">cis-acting DNA elements</term> that respond to <term sem="Other" id="T4" lex="T_cell_activation_signal"><term sem="Cell_natural" id="A1">T cell</term> activation <term sem="Other" id="A2">signals</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T1" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> lymphokine genes <clueLoc>in T cells</clueLoc>: role of cis-acting DNA elements that respond to T cell activation signals.</clue>
+</event>
+<event uncertainty="doubtful" id="E2">
+<type class="Regulation" />
+<theme idref="T1" />
+<cause idref="T3" />
+<clue>Activation of lymphokine genes in T cells: <clueType>role</clueType> <linkCause>of</linkCause> cis-acting DNA elements that respond to T cell activation signals.</clue>
+</event>
+<event id="E3">
+<type class="Regulation" />
+<theme idref="T3" />
+<cause idref="T4" />
+<clue>Activation of lymphokine genes in T cells: role of cis-acting DNA elements that <clueType>respond</clueType> <linkCause>to</linkCause> T cell activation signals.</clue>
+</event>
+<event id="E4">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<cause idref="A1" />
+<clue>Activation of lymphokine genes in T cells: role of cis-acting DNA elements that respond to T cell <clueType>activation</clueType> signals.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Activation of <term sem="Cell_natural" id="T5" lex="T_cell">T cells</term> is initiated by the recognition of <term sem="Peptide" id="T6" lex="antigen">antigen</term> on <term sem="Cell_natural" id="T7" lex="antigen_presenting_cell">antigen presenting cells</term> to exert the <term sem="Other" id="T8" lex="effector_function">effector functions</term> in <term sem="Other" id="T9" lex="immune_response">immune</term> and <term sem="Other" id="T10" lex="inflammatory_response">inflammatory <term sem="Other" id="A3">responses</term></term>.</sentence>
+<event id="E5">
+<type class="Physiological_process" />
+<theme idref="T5" />
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> T cells is initiated by the recognition of antigen on antigen presenting cells to exert the effector functions in immune and inflammatory responses.</clue>
+</event>
+<event id="E6">
+<type class="Cell_recognition" />
+<theme idref="T6" />
+<theme idref="T7" />
+<clue>Activation of T cells is initiated by the <clueType>recognition</clueType> <linkTheme>of</linkTheme> antigen <linkTheme>on</linkTheme> antigen presenting cells to exert the effector functions in immune and inflammatory responses.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E6" />
+<clue>Activation of T cells is <clueType>initiated</clueType> <linkCause>by</linkCause> the recognition of antigen on antigen presenting cells to exert the effector functions in immune and inflammatory responses.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref1="A3" idref="T9" />
+<cause idref="E7" />
+<clue>Activation of T cells is initiated by the recognition of antigen on antigen presenting cells to <clueType>exert the effector functions</clueType> <linkTheme>in</linkTheme> immune and inflammatory responses.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="E7" />
+<clue>Activation of T cells is initiated by the recognition of antigen on antigen presenting cells to <clueType>exert the effector functions</clueType> <linkTheme>in</linkTheme> immune and inflammatory responses.</clue>
+</event>
+<sentence id="S3">Two types of <term sem="Cell_cultured" id="T11" lex="helper_T_cell_(Th)_clones">helper T cell (Th) clones</term> (<term sem="Cell_cultured" id="T12" lex="Th1">Th1</term> and <term sem="Cell_cultured" id="T13" lex="Th2">Th2</term>) are defined on the basis of different patterns of <term sem="Protein_family_or_group" id="T14" lex="cytokine">cytokine</term> (<term sem="Protein_family_or_group" id="T15" lex="lymphokine">lymphokine</term>) secretion.</sentence>
+<event id="E10">
+<type class="Localization" />
+<theme idref="T15" />
+<clue>Two types of helper T cell (Th) clones (Th1 and Th2) are defined on the basis of different patterns of cytokine (lymphokine) <clueType>secretion</clueType>.</clue>
+</event>
+<sentence id="S4">They determine the outcome of an <term sem="Protein_family_or_group" id="A7">antigenic</term> response toward <cons sem="(OR Other Other)" id="T16" lex="(OR humoral_immunity cell-mediated_immunity)"><frag id="F1"><term sem="Tissue_natural" id="A4">humoral</term></frag> or <frag id="F2"><term sem="Unicellular_organism" id="A5">cell</term>-mediated</frag> <frag id="F3"><term sem="Other" id="A6">immunity</term></frag></cons>.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="A4" />
+<clue>They determine the outcome of an antigenic response toward humoral or cell-<clueType>mediated</clueType> immunity.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="A5" />
+<clue>They determine the outcome of an antigenic response toward humoral or cell-<clueType>mediated</clueType> immunity.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="A7" />
+<clue>They determine the outcome of an antigenic <clueType>response</clueType> <linkTheme>toward</linkTheme> humoral or cell-mediated immunity.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="A7" />
+<clue>They determine the outcome of an antigenic <clueType>response</clueType> <linkTheme>toward</linkTheme> humoral or cell-mediated immunity.</clue>
+</event>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="E13" />
+<cause idref="T12" />
+<clue><corefCause>They</corefCause> <clueType>determine</clueType> the outcome of an antigenic response toward humoral or cell-mediated immunity.</clue>
+</event>
+<event id="E16">
+<type class="Regulation" />
+<theme idref="E13" />
+<cause idref="T13" />
+<clue><corefCause>They</corefCause> <clueType>determine</clueType> the outcome of an antigenic response toward humoral or cell-mediated immunity.</clue>
+</event>
+<event id="E17">
+<type class="Regulation" />
+<theme idref="E14" />
+<cause idref="T12" />
+<clue><corefCause>They</corefCause> <clueType>determine</clueType> the outcome of an antigenic response toward humoral or cell-mediated immunity.</clue>
+</event>
+<event id="E18">
+<type class="Regulation" />
+<theme idref="E14" />
+<cause idref="T13" />
+<clue><corefCause>They</corefCause> <clueType>determine</clueType> the outcome of an antigenic response toward humoral or cell-mediated immunity.</clue>
+</event>
+<sentence id="S5">Although <term sem="DNA_family_or_group" id="T17" lex="lymphokine_gene"><term sem="Protein_family_or_group" id="T18" lex="lymphokine">lymphokine</term> genes</term> are coordinately regulated upon <term sem="Other" id="T19" lex="antigen_stimulation"><term sem="Protein_family_or_group" id="A8">antigen</term> stimulation</term>, they are regulated by the mechanisms common to all as well as those which are unique to each gene.</sentence>
+<event id="E19">
+<type class="Positive_regulation" />
+<cause idref="A8" />
+<clue>Although lymphokine genes are coordinately regulated upon antigen <clueType>stimulation</clueType>, they are regulated by the mechanisms common to all as well as those which are unique to each gene.</clue>
+</event>
+<event id="E20">
+<type class="Regulation" />
+<theme idref="T17" />
+<cause idref="E19" />
+<clue>Although lymphokine genes are coordinately <clueType>regulated</clueType> <linkCause>upon</linkCause> antigen stimulation, they are regulated by the mechanisms common to all as well as those which are unique to each gene.</clue>
+</event>
+<sentence id="S6">For most <term sem="DNA_family_or_group" id="T20" lex="lymphokine_gene">lymphokine genes</term>, a combination of <term sem="Organic_compound_other" id="T21" lex="phorbol_ester">phorbol esters</term> (<term sem="Organic_compound_other" id="T22" lex="phorbol_12-myristate_13_acetate">phorbol 12-myristate 13 acetate</term>, <term sem="Organic_compound_other" id="T23" lex="PMA">PMA</term>) and <term sem="Organic_compound_other" id="T24" lex="calcium_ionophore">calcium ionophores</term> (<term sem="Organic_compound_other" id="T25" lex="A23187">A23187</term>) is required for their maximal induction.</sentence>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<clue>For most lymphokine genes, a combination of phorbol esters (phorbol 12-myristate 13 acetate, PMA) and calcium ionophores (A23187) is required for their maximal <clueType>induction</clueType>.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation" />
+<theme idref="E21" />
+<cause idref="T23" />
+<cause idref="T25" />
+<clue>For most lymphokine genes, a combination of phorbol esters (phorbol 12-myristate 13 acetate, PMA) and calcium ionophores (A23187) is <clueType>required</clueType> <linkTheme>for</linkTheme> their maximal induction.</clue>
+</event>
+<sentence id="S7">Yet <term sem="Organic_compound_other" id="T26" lex="phorbol_ester">phorbol ester</term> alone or <term sem="Organic_compound_other" id="T27" lex="calcium_ionophore">calcium ionophore</term> alone produce several <term sem="Protein_family_or_group" id="T28" lex="lymphokine">lymphokines</term>.</sentence>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="T28" />
+<clue>Yet phorbol ester alone or calcium ionophore alone <clueType>produce</clueType> several lymphokines.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T26" />
+<clue>Yet phorbol ester alone or calcium ionophore alone <clueType>produce</clueType> several lymphokines.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="E23" />
+<cause idref="T27" />
+<clue>Yet phorbol ester alone or calcium ionophore alone <clueType>produce</clueType> several lymphokines.</clue>
+</event>
+<sentence id="S8">The production of the <term sem="Protein_molecule" id="T29" lex="granulocyte-macrophage_colony_stimulating_factor">granulocyte-macrophage colony stimulating factor</term> (<term sem="Protein_molecule" id="T30" lex="GM-CSF">GM-CSF</term>) is completely dependent on the two signals.</sentence>
+<event id="E26">
+<type class="Gene_expression" />
+<theme idref="T30" />
+<clue>The <clueType>production</clueType> <linkTheme>of</linkTheme> the granulocyte-macrophage colony stimulating factor (GM-CSF) is completely dependent on the two signals.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="T26" />
+<cause idref="T27" />
+<clue>The production of the granulocyte-macrophage colony stimulating factor (GM-CSF) is completely <clueType>dependent</clueType> <linkTheme>on</linkTheme> <corefCause>the two signals</corefCause>.</clue>
+</event>
+<sentence id="S9">We have previously found a <term sem="DNA_domain_or_region" id="A10"><term sem="DNA_domain_or_region" id="T31" lex="cis-acting_region">cis-acting region</term> spanning the <term sem="DNA_domain_or_region" id="T32" lex="GM-CSF_promoter_region"><term sem="Protein_molecule" id="T33" lex="GM-CSF">GM-CSF</term> promoter region</term></term> (positions -95 to +27) that confers inducibility to <term sem="DNA_family_or_group" id="T34" lex="reporter_gene">reporter genes</term> in <term sem="Other" id="T35" lex="transient_transfection_assay">transient transfection assays</term>.</sentence>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<cause idref="A5" />
+<clue>We have previously found a cis-acting region spanning the GM-CSF promoter region (positions -95 to +27) that confers <clueType>inducibility</clueType> <linkTheme>to</linkTheme> reporter genes <clueExperiment>in transient transfection assays</clueExperiment>.</clue>
+</event>
+<sentence id="S10">Further analysis identified three elements required for efficient induction, referred to as <term sem="DNA_domain_or_region" id="T36" lex="GM2">GM2</term>, <term sem="DNA_domain_or_region" id="T37" lex="GC-box">GC-box</term> and <term sem="DNA_domain_or_region" id="T38" lex="conserved_lymphokine_element">conserved <term sem="Protein_family_or_group" id="T39" lex="lymphokine">lymphokine</term> element</term> (<term sem="DNA_domain_or_region" id="T40" lex="CLE0">CLE0</term>).</sentence>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="T36" />
+<clue>Further analysis identified three elements <clueType>required</clueType> <linkTheme>for</linkTheme> <corefTheme>efficient induction</corefTheme>, referred to as GM2, GC-box and conserved lymphokine element (CLE0).</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="T37" />
+<clue>Further analysis identified three elements <clueType>required</clueType> <linkTheme>for</linkTheme> <corefTheme>efficient induction</corefTheme>, referred to as GM2, GC-box and conserved lymphokine element (CLE0).</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<cause idref="T40" />
+<clue>Further analysis identified three elements <clueType>required</clueType> <linkTheme>for</linkTheme> <corefTheme>efficient induction</corefTheme>, referred to as GM2, GC-box and conserved lymphokine element (CLE0).</clue>
+</event>
+<sentence id="S11"><term sem="DNA_domain_or_region" id="T41" lex="GM2">GM2</term> defines a <term sem="DNA_domain_or_region" id="T42" lex="binding_site">binding site</term> for <term sem="Protein_family_or_group" id="A11">protein(s)</term> whose binding is inducible by <term sem="Organic_compound_other" id="T43" lex="PMA">PMA</term>.</sentence>
+<event id="E32">
+<type class="Binding" />
+<theme idref="T41" />
+<theme idref="A11" />
+<clue>GM2 defines a <clueType>binding site</clueType> <linkTheme>for</linkTheme> protein(s) whose binding is inducible by PMA.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation" />
+<theme idref="E32" />
+<cause idref="T43" />
+<clue>GM2 defines a binding site for protein(s) whose binding is <clueType>inducible</clueType> <linkCause>by</linkCause> PMA.</clue>
+</event>
+<sentence id="S12">One protein, <term sem="Protein_molecule" id="T44" lex="NF-GM2">NF-GM2</term> is similar to the <term sem="Protein_family_or_group" id="T45" lex="transcription_factor">transcription factor</term> <term sem="Protein_molecule" id="T46" lex="NF-kB">NF-kB</term>.</sentence>
+<sentence id="S13"><term sem="DNA_domain_or_region" id="T47" lex="GC-box">GC-box</term> is a <term sem="DNA_domain_or_region" id="T48" lex="binding_site">binding site</term> for <term sem="Protein_family_or_group" id="T49" lex="constitutively_bound_protein">constitutively bound proteins</term>.</sentence>
+<event id="E34">
+<type class="Binding" />
+<theme idref="T47" />
+<theme idref="T49" />
+<clue>GC-box is a <clueType>binding site</clueType> <linkTheme>for</linkTheme> constitutively bound proteins.</clue>
+</event>
+<sentence id="S14"><term sem="DNA_domain_or_region" id="A12">CLEO</term> defines a <term sem="DNA_domain_or_region" id="T50" lex="binding_site">binding site</term> for <term sem="Protein_family_or_group" id="A13">protein(s)</term> whose optimum binding is stimulated by <term sem="Organic_compound_other" id="T51" lex="PMA">PMA</term> and <term sem="Organic_compound_other" id="T52" lex="A23187">A23187</term>.</sentence>
+<event id="E35">
+<type class="Binding" />
+<theme idref="A12" />
+<theme idref="A13" />
+<clue>CLEO defines a <clueType>binding site</clueType> <linkTheme>for</linkTheme> protein(s) whose optimum binding is stimulated by PMA and A23187.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="T51" />
+<clue>CLEO defines a binding site for protein(s) whose optimum binding is <clueType>stimulated</clueType> <linkCause>by</linkCause> PMA and A23187.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="T52" />
+<clue>CLEO defines a binding site for protein(s) whose optimum binding is <clueType>stimulated</clueType> <linkCause>by</linkCause> PMA and A23187.</clue>
+</event>
+<sentence id="S15"><term sem="Protein_family_or_group" id="T53" lex="viral_trans-activator">Viral trans-activators</term> such as <term sem="Protein_family_or_group" id="T54" lex="Tax">Tax</term> (<term sem="Virus" id="T55" lex="human_T_cell_leukemia_virus-1">human T cell leukemia virus-1</term>, <term sem="Virus" id="T56" lex="HTLV-1">HTLV-1</term>) and <term sem="Protein_molecule" id="T57" lex="E2">E2</term> (<term sem="Virus" id="T58" lex="bovine_papilloma_virus">bovine papilloma virus</term>, <term sem="Virus" id="T59" lex="BPV">BPV</term>) proteins are other agents which activate <term sem="Other" id="T60" lex="lymphokine_gene_expression"><term sem="DNA_domain_or_region" id="T61" lex="lymphokine_gene">lymphokine gene</term> expression</term> by bypassing <term sem="Other" id="T62" lex="T_cell_receptor_(TCR)_mediated_signaling"><term sem="Protein_family_or_group" id="T63" lex="T_cell_receptor">T cell receptor</term> (<term sem="Protein_family_or_group" id="T64" lex="TCR">TCR</term>) mediated signaling</term>.</sentence>
+<event id="E38">
+<type class="Gene_expression" />
+<theme idref="T61" />
+<clue>Viral trans-activators such as Tax (human T cell leukemia virus-1, HTLV-1) and E2 (bovine papilloma virus, BPV) proteins are other agents which activate lymphokine gene <clueType>expression</clueType> by bypassing T cell receptor (TCR) mediated signaling.</clue>
+</event>
+<event id="E39">
+<type class="Cell_communication" />
+<theme idref="T64" />
+<clue>Viral trans-activators such as Tax (human T cell leukemia virus-1, HTLV-1) and E2 (bovine papilloma virus, BPV) proteins are other agents which activate lymphokine gene expression by bypassing T cell receptor (TCR) mediated <clueType>signaling</clueType>.</clue>
+</event>
+<event id="E40">
+<type />
+<theme idref="E39" />
+<clue>Viral trans-activators such as Tax (human T cell leukemia virus-1, HTLV-1) and E2 (bovine papilloma virus, BPV) proteins are other agents which activate lymphokine gene expression by <clueType>bypassing</clueType> T cell receptor (TCR) mediated signaling.</clue>
+<comment>SOO</comment></event>
+<event id="E41">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="T53" />
+<clue>Viral trans-activators such as Tax (human T cell leukemia virus-1, HTLV-1) and E2 (bovine papilloma virus, BPV) proteins are other agents which <clueType>activate</clueType> lymphokine gene expression by bypassing T cell receptor (TCR) mediated signaling.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="T54" />
+<clue><corefCause>Viral trans-activators</corefCause> such as Tax (human T cell leukemia virus-1, HTLV-1) and E2 (bovine papilloma virus, BPV) proteins are other agents which <clueType>activate</clueType> lymphokine gene expression by bypassing T cell receptor (TCR) mediated signaling.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation" />
+<theme idref="E38" />
+<cause idref="T57" />
+<clue><corefCause>Viral trans-activators</corefCause> such as Tax (human T cell leukemia virus-1, HTLV-1) and E2 (bovine papilloma virus, BPV) proteins are other agents which <clueType>activate</clueType> lymphokine gene expression by bypassing T cell receptor (TCR) mediated signaling.</clue>
+</event>
+<event id="E44">
+<type class="Positive_regulation" />
+<theme idref="E41" />
+<cause idref="E40" />
+<clue>Viral trans-activators such as Tax (human T cell leukemia virus-1, HTLV-1) and E2 (bovine papilloma virus, BPV) proteins are other agents which activate lymphokine gene expression <linkCause>by</linkCause> bypassing T cell receptor (TCR) mediated signaling.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E45">
+<type class="Positive_regulation" />
+<theme idref="E42" />
+<cause idref="E40" />
+<clue>Viral trans-activators such as Tax (human T cell leukemia virus-1, HTLV-1) and E2 (bovine papilloma virus, BPV) proteins are other agents which activate lymphokine gene expression <linkCause>by</linkCause> bypassing T cell receptor (TCR) mediated signaling.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E46">
+<type class="Positive_regulation" />
+<theme idref="E43" />
+<cause idref="E40" />
+<clue>Viral trans-activators such as Tax (human T cell leukemia virus-1, HTLV-1) and E2 (bovine papilloma virus, BPV) proteins are other agents which activate lymphokine gene expression <linkCause>by</linkCause> bypassing T cell receptor (TCR) mediated signaling.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S16">The trans-activation domain of <term sem="Protein_molecule" id="T65" lex="E2">E2</term> and <term sem="Protein_family_or_group" id="T66" lex="Tax">Tax</term> is interchangeable although they have no obvious sequence homology between them.</sentence>
+<sentence id="S17">The <term sem="Protein_family_or_group" id="T67" lex="viral_trans-activator">viral trans-activators</term> appear to target specific <term sem="Protein_family_or_group" id="T68" lex="DNA_binding_protein">DNA binding protein</term> such as <term sem="Protein_family_or_group" id="T69" lex="NF-kB">NF-kB</term> and <term sem="Protein_molecule" id="T70" lex="Sp1">Sp1</term> to <term sem="DNA_domain_or_region" id="T71" lex="cis-acting_DNA_site">cis-acting DNA site</term> and promote <term sem="Other" id="T72" lex="lymphokine_gene_expression"><term sem="DNA_domain_or_region" id="T73" lex="lymphokine_gene">lymphokine gene</term> expression</term> without <term sem="Other" id="T74" lex="TCR-mediated_stimulation"><term sem="Protein_family_or_group" id="T75" lex="TCR">TCR</term>-mediated stimulation</term>.</sentence>
+<event id="E47">
+<type class="Binding" />
+<theme idref="T71" />
+<theme idref="T68" />
+<clue>The viral trans-activators appear to <clueType>target</clueType> specific DNA binding protein such as NF-kB and Sp1 <linkTheme>to</linkTheme> cis-acting DNA site and promote lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event id="E48">
+<type class="Binding" />
+<theme idref="T71" />
+<theme idref="T69" />
+<clue>The viral trans-activators appear to <clueType>target</clueType> specific <corefTheme idref1="T69">DNA binding protein</corefTheme> such as NF-kB and Sp1 <linkTheme>to</linkTheme> cis-acting DNA site and promote lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event id="E49">
+<type class="Binding" />
+<theme idref="T71" />
+<theme idref="T70" />
+<clue>The viral trans-activators appear to <clueType>target</clueType> specific <corefTheme idref1="T70">DNA binding protein</corefTheme> such as NF-kB and Sp1 <linkTheme>to</linkTheme> cis-acting DNA site and promote lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E50">
+<type class="Positive_regulation" />
+<theme idref="E47" />
+<cause idref="T54" />
+<clue><corefCause>The viral trans-activators</corefCause> appear to <clueType>target</clueType> specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E51">
+<type class="Positive_regulation" />
+<theme idref="E47" />
+<cause idref="T57" />
+<clue><corefCause>The viral trans-activators</corefCause> appear to <clueType>target</clueType> specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E52">
+<type class="Positive_regulation" />
+<theme idref="E48" />
+<cause idref="T54" />
+<clue><corefCause>The viral trans-activators</corefCause> appear to <clueType>target</clueType> specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E53">
+<type class="Positive_regulation" />
+<theme idref="E48" />
+<cause idref="T57" />
+<clue><corefCause>The viral trans-activators</corefCause> appear to <clueType>target</clueType> specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E54">
+<type class="Positive_regulation" />
+<theme idref="E49" />
+<cause idref="T54" />
+<clue><corefCause>The viral trans-activators</corefCause> appear to <clueType>target</clueType> specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E55">
+<type class="Positive_regulation" />
+<theme idref="E49" />
+<cause idref="T57" />
+<clue><corefCause>The viral trans-activators</corefCause> appear to <clueType>target</clueType> specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event id="E56">
+<type class="Gene_expression" />
+<theme idref="T73" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene <clueType>expression</clueType> without TCR-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E57">
+<type class="Positive_regulation" />
+<theme idref="E56" />
+<cause idref="E50" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and <clueType>promote</clueType> lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E58">
+<type class="Positive_regulation" />
+<theme idref="E56" />
+<cause idref="E51" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and <clueType>promote</clueType> lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E59">
+<type class="Positive_regulation" />
+<theme idref="E56" />
+<cause idref="E52" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and <clueType>promote</clueType> lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E60">
+<type class="Positive_regulation" />
+<theme idref="E56" />
+<cause idref="E53" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and <clueType>promote</clueType> lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E61">
+<type class="Positive_regulation" />
+<theme idref="E56" />
+<cause idref="E54" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and <clueType>promote</clueType> lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event uncertainty="probable" id="E62">
+<type class="Positive_regulation" />
+<theme idref="E56" />
+<cause idref="E55" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and <clueType>promote</clueType> lymphokine gene expression without TCR-mediated stimulation.</clue>
+</event>
+<event id="E63">
+<type class="Positive_regulation" />
+<cause idref="T75" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression without TCR-<linkCause>mediated</linkCause> <clueType>stimulation</clueType>.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E64">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref="E63" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression <clueType>without</clueType> TCR-mediated stimulation.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E65">
+<type class="Positive_regulation" />
+<theme idref="E58" />
+<cause idref="E63" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression <clueType>without</clueType> TCR-mediated stimulation.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E66">
+<type class="Positive_regulation" />
+<theme idref="E59" />
+<cause idref="E63" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression <clueType>without</clueType> TCR-mediated stimulation.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E67">
+<type class="Positive_regulation" />
+<theme idref="E60" />
+<cause idref="E63" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression <clueType>without</clueType> TCR-mediated stimulation.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E68">
+<type class="Positive_regulation" />
+<theme idref="E61" />
+<cause idref="E63" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression <clueType>without</clueType> TCR-mediated stimulation.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E69">
+<type class="Positive_regulation" />
+<theme idref="E62" />
+<cause idref="E63" />
+<clue>The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression <clueType>without</clueType> TCR-mediated stimulation.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

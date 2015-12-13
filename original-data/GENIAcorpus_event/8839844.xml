@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="07/01/26" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8839844" creator="Yumiko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8839844</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_molecule" id="T1" lex="E3">E3</term>, a <term sem="Protein_family_or_group" id="T2" lex="hematopoietic-specific_transcript">hematopoietic-specific transcript</term> directly regulated by the <term sem="Protein_molecule" id="T3" lex="retinoic_acid_receptor_alpha">retinoic acid receptor alpha</term>.</sentence>
+<event id="E1">
+<type class="Transcription" />
+<theme idref="T1" />
+<clue>E3, a <clueLoc>hematopoietic</clueLoc>-specific <clueType>transcript</clueType> directly regulated by the retinoic acid receptor alpha.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="E1" />
+<cause idref="T3" />
+<clue>E3, a <clueLoc>hematopoietic</clueLoc>-specific transcript directly <clueType>regulated</clueType> <linkCause>by</linkCause> the retinoic acid receptor alpha.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="T4" lex="retinoic_acid_(RA)-induced_maturation"><term sem="Organic_compound_other" id="T5" lex="retinoic_acid">Retinoic acid</term> (<term sem="Organic_compound_other" id="T6" lex="RA">RA</term>)-induced maturation</term> mediated by the <term sem="Protein_molecule" id="T7" lex="retinoic_acid_receptor_alpha">retinoic acid receptor alpha</term> (<term sem="Protein_molecule" id="T8" lex="RAR_alpha">RAR alpha</term>) has been implicated in <term sem="Other" id="T9" lex="myeloid_development"><term sem="Cell_natural" id="A1">myeloid</term> development</term>.</sentence>
+<event id="E3">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>Retinoic acid (RA)-induced <clueType>maturation</clueType> mediated by the retinoic acid receptor alpha (RAR alpha) has been implicated in myeloid development.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T6" />
+<clue>Retinoic acid (RA)-<clueType>induced</clueType> maturation mediated by the retinoic acid receptor alpha (RAR alpha) has been implicated <clueTime>in myeloid development</clueTime>.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="T8" />
+<clue>Retinoic acid (RA)-induced maturation <clueType>mediated</clueType> <linkCause>by</linkCause> the retinoic acid receptor alpha (RAR alpha) has been implicated <clueTime>in myeloid development</clueTime>.</clue>
+</event>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>Retinoic acid (RA)-induced maturation mediated by the retinoic acid receptor alpha (RAR alpha) has been implicated in myeloid <clueType>development</clueType>.</clue>
+</event>
+<event id="E7">
+<type class="Correlation" />
+<theme idref="E3" />
+<theme idref="E6" />
+<clue>Retinoic acid (RA)-induced maturation mediated by the retinoic acid receptor alpha (RAR alpha) has been <clueType>implicated</clueType> <linkTheme>in</linkTheme> myeloid development.</clue>
+</event>
+<sentence id="S3">We have used <term sem="Other" id="T10" lex="differential_hybridization_analysis">differential hybridization analysis</term> of a <term sem="DNA_family_or_group" id="T11" lex="cDNA_library">cDNA library</term> constructed from the murine <term sem="Cell_cultured" id="T12" lex="RA-inducible_MPRO_promyelocyte_cell_line"><term sem="Organic_compound_other" id="T13" lex="RA">RA</term>-inducible <term sem="Cell_cultured" id="A2">MPRO promyelocyte cell line</term></term> to identify <term sem="DNA_family_or_group" id="T14" lex="immediate-early_gene">immediate-early genes</term> induced by <term sem="Organic_compound_other" id="T15" lex="RA">RA</term> during <term sem="Other" id="T16" lex="granulocytic_differentiation"><term sem="Cell_natural" id="A3">granulocytic</term> differentiation</term>.</sentence>
+<event id="E8">
+<type class="Physiological_process" />
+<theme idref="A2" />
+<cause idref="T13" />
+<clue>We have used differential hybridization analysis of a cDNA library constructed from the murine RA-<clueType>inducible</clueType> MPRO promyelocyte cell line to identify immediate-early genes induced by RA during granulocytic differentiation.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<cause idref="T15" />
+<clue>We have used <clueExperiment>differential hybridization analysis of a cDNA library constructed from the murine RA-inducible MPRO promyelocyte cell line</clueExperiment> to identify immediate-early genes <clueType>induced</clueType> <linkCause>by</linkCause> RA <clueTime>during granulocytic differentiation</clueTime>.</clue>
+</event>
+<event id="E10">
+<type class="Cell_differentiation" />
+<theme idref="A3" />
+<clue>We have used differential hybridization analysis of a cDNA library constructed from the murine RA-inducible MPRO promyelocyte cell line to identify immediate-early genes induced by RA during granulocytic <clueType>differentiation</clueType>.</clue>
+</event>
+<sentence id="S4"><term sem="Protein_molecule" id="T17" lex="E3">E3</term>, one of nine sequences identified, was upregulated in an <term sem="Other" id="T18" lex="immediate-early_manner">immediate-early manner</term>, with transcript levels peaking after 60 minutes exposure to <term sem="Organic_compound_other" id="T19" lex="RA">RA</term>.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T17" />
+<clue>E3, one of nine sequences identified, was <clueType>upregulated</clueType> in an immediate-early manner, with transcript levels peaking after 60 minutes exposure to RA.</clue>
+</event>
+<event id="E12">
+<type class="Transcription" />
+<theme idref="T17" />
+<clue>E3, one of nine sequences identified, was upregulated in an immediate-early manner, with <clueType>transcript</clueType> levels peaking after 60 minutes exposure to RA.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T19" />
+<clue>E3, one of nine sequences identified, was upregulated in an immediate-early manner, with transcript <clueType>levels peaking</clueType> <clueTime>after 60 minutes</clueTime> <linkCause>exposure to</linkCause> RA.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T20" lex="E3_transcript"><term sem="Protein_molecule" id="T21" lex="E3">E3</term> transcripts</term> were <term sem="Other" id="T22" lex="RA-inducible"><term sem="Organic_compound_other" id="T23" lex="RA">RA</term>-inducible</term> in <term sem="Cell_cultured" id="T24" lex="HL60_cell">HL60 cells</term>, but not in an <term sem="Cell_cultured" id="T25" lex="RA-resistant_subclone"><term sem="Organic_compound_other" id="T26" lex="RA">RA</term>-resistant subclone</term>, <term sem="Cell_cultured" id="T27" lex="HL60R">HL60R</term>, that harbors a mutated <term sem="DNA_domain_or_region" id="T28" lex="RAR_alpha_gene"><term sem="Protein_molecule" id="T29" lex="RAR_alpha">RAR alpha</term> gene</term>.</sentence>
+<event id="E14">
+<type class="Transcription" />
+<theme idref="T21" />
+<clue>E3 <clueType>transcripts</clueType> were RA-inducible in HL60 cells, but not in an RA-resistant subclone, HL60R, that harbors a mutated RAR alpha gene.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T23" />
+<clue>E3 transcripts were RA-<clueType>inducible</clueType> <clueLoc>in HL60 cells</clueLoc>, but not in an RA-resistant subclone, HL60R, that harbors a mutated RAR alpha gene.</clue>
+</event>
+<event assertion="non-exist" id="E16">
+<type class="Positive_regulation" />
+<theme idref="E14" />
+<cause idref="T23" />
+<clue>E3 transcripts were RA-<clueType>inducible</clueType> in HL60 cells, but not <clueLoc>in an RA-resistant subclone, HL60R</clueLoc>, that harbors a mutated RAR alpha gene.</clue>
+</event>
+<event id="E17">
+<type class="Mutagenesis" />
+<theme idref="T28" />
+<clue>E3 transcripts were RA-inducible in HL60 cells, but not <clueLoc>in an RA-resistant subclone, HL60R</clueLoc>, that harbors a <clueType>mutated</clueType> RAR alpha gene.</clue>
+</event>
+<sentence id="S6">However, when <term sem="Cell_cultured" id="T30" lex="HL60R_cell">HL60R cells</term> were transduced with a functional copy of the <term sem="DNA_domain_or_region" id="T31" lex="RAR_alpha_gene"><term sem="Protein_molecule" id="T32" lex="RAR_alpha">RAR alpha</term> gene</term>, <term sem="Organic_compound_other" id="T33" lex="RA">RA</term> induced a 10-fold increase in <term sem="Other" id="T34" lex="E3_mRNA_level"><term sem="Protein_molecule" id="T35" lex="E3">E3</term> mRNA levels</term>.</sentence>
+<event id="E18">
+<type class="Mutagenesis" />
+<theme idref="T31" />
+<clue>However, when <clueLoc>HL60R cells</clueLoc> were <clueType>transduced</clueType> <linkTheme>with</linkTheme> a functional copy of the RAR alpha gene, RA induced a 10-fold increase in E3 mRNA levels.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E19">
+<type class="Transcription" />
+<theme idref="T35" />
+<clue>However, <clueExperiment>when HL60R cells were transduced with a functional copy of the RAR alpha gene</clueExperiment>, RA induced a 10-fold increase in E3 <clueType>mRNA levels</clueType>.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<clue>However, <clueExperiment>when HL60R cells were transduced with a functional copy of the RAR alpha gene</clueExperiment>, RA induced a 10-fold <clueType>increase</clueType> <linkTheme>in</linkTheme> E3 mRNA levels.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E20" />
+<cause idref="T33" />
+<clue>However, <clueExperiment>when HL60R cells were transduced with a functional copy of the RAR alpha gene</clueExperiment>, RA <clueType>induced</clueType> a 10-fold increase in E3 mRNA levels.</clue>
+</event>
+<sentence id="S7"><term sem="Protein_molecule" id="T36" lex="E3_transcripts"><term sem="Protein_molecule" id="T37" lex="E3">E3</term> transcripts</term> are present in the <cons sem="(AND Cell_natural Cell_natural Cell_natural)" id="T38" lex="(AND myeloid_lineage B-lymphoid_lineage erythroid_lineage)"><frag id="F1">myeloid</frag>, <frag id="F2">B-lymphoid</frag>, and <frag id="F3">erythroid</frag> <frag id="F4">lineages</frag></cons>, absent in <term sem="Cell_natural" id="T39" lex="nonhematopoietic_cell">nonhematopoietic cells</term>, and encode a highly <term sem="Peptide" id="T40" lex="hydrophobic,_potentially_phosphorylated_polypeptide">hydrophobic, potentially phosphorylated <term sem="Peptide" id="A5">polypeptide</term></term> of unknown function with significant homology to a <term sem="Protein_molecule" id="A4">putative protein</term> expressed in <term sem="Cell_natural" id="T41" lex="myeloid_cell">myeloid cells</term>.</sentence>
+<event id="E22">
+<type class="Transcription" />
+<theme idref="T37" />
+<clue>E3 <clueType>transcripts</clueType> are present <clueLoc>in the myeloid</clueLoc>, B-lymphoid, and erythroid lineages, absent in nonhematopoietic cells, and encode a highly hydrophobic, potentially phosphorylated polypeptide of unknown function with significant homology to a putative protein expressed in myeloid cells.</clue>
+</event>
+<event id="E220">
+<type class="Transcription" />
+<theme idref="T37" />
+<clue>E3 <clueType>transcripts</clueType> are present <clueLoc>in</clueLoc> the myeloid, <clueLoc>B-lymphoid</clueLoc>, and erythroid lineages, absent in nonhematopoietic cells, and encode a highly hydrophobic, potentially phosphorylated polypeptide of unknown function with significant homology to a putative protein expressed in myeloid cells.</clue>
+</event>
+<event id="E221">
+<type class="Transcription" />
+<theme idref="T37" />
+<clue>E3 <clueType>transcripts</clueType> are present <clueLoc>in</clueLoc> the myeloid, B-lymphoid, and <clueLoc>erythroid lineages</clueLoc>, absent in nonhematopoietic cells, and encode a highly hydrophobic, potentially phosphorylated polypeptide of unknown function with significant homology to a putative protein expressed in myeloid cells.</clue>
+</event>
+<event assertion="non-exist" id="E23">
+<type class="Transcription" />
+<theme idref="T37" />
+<clue>E3 <clueType>transcripts</clueType> are present in the myeloid, B-lymphoid, and erythroid lineages, absent <clueLoc>in nonhematopoietic cells</clueLoc>, and encode a highly hydrophobic, potentially phosphorylated polypeptide of unknown function with significant homology to a putative protein expressed in myeloid cells.</clue>
+</event>
+<event id="E24">
+<type class="Protein_amino_acid_phosphorylation" />
+<theme idref="A5" />
+<clue>E3 transcripts are present in the myeloid, B-lymphoid, and erythroid lineages, absent in nonhematopoietic cells, and encode a highly hydrophobic, potentially <clueType>phosphorylated</clueType> polypeptide of unknown function with significant homology to a putative protein expressed in myeloid cells.</clue>
+</event>
+<event id="E25">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>E3 transcripts are present in the myeloid, B-lymphoid, and erythroid lineages, absent in nonhematopoietic cells, and encode a highly hydrophobic, potentially phosphorylated polypeptide of unknown function with significant homology to a putative protein <clueType>expressed</clueType> <clueLoc>in myeloid cells</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E26">
+<type class="Correlation" />
+<theme idref="T37" />
+<theme idref="A4" />
+<clue>E3 transcripts are present in the myeloid, B-lymphoid, and erythroid lineages, absent in nonhematopoietic cells, and encode a highly hydrophobic, potentially phosphorylated polypeptide of unknown <clueType>function</clueType> <linkTheme>with</linkTheme> significant homology to a putative protein expressed in myeloid cells.</clue>
+</event>
+<sentence id="S8">The murine <term sem="DNA_domain_or_region" id="T42" lex="E3_promoter"><term sem="Protein_molecule" id="T43" lex="E3">E3</term> promoter</term> harbors a single <term sem="DNA_domain_or_region" id="T44" lex="bipartite_retinoic_acid_response_element">bipartite retinoic acid response element</term> which in <term sem="Other" id="T45" lex="transient_transfection_assay">transient transfection assays</term> conferred <term sem="Other" id="T46" lex="RA_sensitivity"><term sem="Organic_compound_other" id="T47" lex="RA">RA</term> sensitivity</term>.</sentence>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T46" />
+<cause idref="T44" />
+<clue>The murine E3 promoter harbors a single bipartite retinoic acid response element which <clueExperiment>in transient transfection assays</clueExperiment> <clueType>conferred</clueType> RA sensitivity.</clue>
+</event>
+<event id="E30">
+<type class="Regulation" />
+<theme idref="T42" />
+<cause idref="T47" />
+<clue>The murine E3 promoter harbors a single bipartite retinoic acid response element which in transient transfection assays conferred RA <clueType>sensitivity</clueType>.</clue>
+<comment>SENSITIVITY</comment>
+</event>
+<sentence id="S9">These results indicate that <term sem="Protein_molecule" id="T48" lex="E3">E3</term> is a <term sem="DNA_family_or_group" id="T49" lex="hematopoietic-specific_gene">hematopoietic-specific gene</term> that is an immediate target for the activated <term sem="Protein_molecule" id="T50" lex="RAR_alpha">RAR alpha</term> during <term sem="Other" id="T51" lex="myelopoiesis">myelopoiesis</term>.</sentence>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T50" />
+<clue>These results indicate that E3 is a hematopoietic-specific gene that is an immediate target for the <clueType>activated</clueType> RAR alpha during myelopoiesis.</clue>
+</event>
+<event id="E29">
+<type class="Regulation" />
+<theme idref="T50" />
+<cause idref="T49" />
+<clue>These results indicate that E3 is a hematopoietic-specific gene that is an immediate <clueType>target</clueType> <linkTheme>for</linkTheme> the activated RAR alpha <clueTime>during myelopoiesis</clueTime>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="04/07/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10425262" creator="Noriko Katsu">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>10425262</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="reactive_oxygen_intermediate-release"><term sem="Inorganic_compound" id="T2" lex="reactive_oxygen_intermediate">Reactive oxygen intermediate</term>-release</term> of <term sem="Cell_cultured" id="T3" lex="fibre-exposed_monocyte"><term sem="Inorganic_compound" id="T4" lex="fibre">fibre</term>-exposed <term sem="Cell_natural" id="A1">monocytes</term></term> increases inflammatory <term sem="Other" id="T5" lex="cytokine-mRNA_level"><term sem="RNA_family_or_group" id="T6" lex="cytokine-mRNA"><term sem="Protein_family_or_group" id="T7" lex="cytokine">cytokine</term>-mRNA</term> level</term>, <term sem="Protein_family_or_group" id="T8" lex="protein_tyrosine_kinase">protein <term sem="Amino_acid_monomer" id="T9" lex="tyrosine">tyrosine</term> kinase</term> and <term sem="Protein_complex" id="T10" lex="NF-kappaB">NF-kappaB</term> activity in <term sem="Cell_cultured" id="T11" lex="co-cultured_bronchial_epithelial_cell">co-cultured bronchial epithelial cells</term> (<term sem="Cell_cultured" id="T12" lex="BEAS-2B">BEAS-2B</term>).</sentence>
+<event id="E1">
+<type class="Artificial_process" />
+<theme idref="A1" />
+<theme idref="T4" />
+<clue>Reactive oxygen intermediate-release of fibre-<clueType>exposed</clueType> monocytes increases inflammatory cytokine-mRNA level, protein tyrosine kinase and NF-kappaB activity in co-cultured bronchial epithelial cells (BEAS-2B).</clue>
+<comment>NER: T4 sem mod, Carbohydrate -&gt; Inorganic</comment>
+</event>
+<event id="E2">
+<type class="Localization" />
+<theme idref="T2" />
+<clue>Reactive oxygen intermediate-<clueType>release</clueType> <clueLoc>of fibre-exposed monocytes</clueLoc> increases inflammatory cytokine-mRNA level, protein tyrosine kinase and NF-kappaB activity in co-cultured bronchial epithelial cells (BEAS-2B).</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<cause idref="E2" />
+<clue>Reactive oxygen intermediate-release of fibre-exposed monocytes <clueType>increases</clueType> inflammatory cytokine-mRNA level, protein tyrosine kinase and NF-kappaB activity <clueLoc>in co-cultured bronchial epithelial cells (BEAS-2B)</clueLoc>.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T8" />
+<cause idref="E2" />
+<clue>Reactive oxygen intermediate-release of fibre-exposed monocytes <clueType>increases</clueType> inflammatory cytokine-mRNA level, protein tyrosine kinase and NF-kappaB activity <clueLoc>in co-cultured bronchial epithelial cells (BEAS-2B)</clueLoc>.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T10" />
+<cause idref="E2" />
+<clue>Reactive oxygen intermediate-release of fibre-exposed monocytes <clueType>increases</clueType> inflammatory cytokine-mRNA level, protein tyrosine kinase and NF-kappaB activity <clueLoc>in co-cultured bronchial epithelial cells (BEAS-2B)</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Some <term sem="Other" id="T13" lex="pulmonary_disease">pulmonary diseases</term> like <term sem="Other" id="T14" lex="bronchitis">bronchitis</term> or <term sem="Other" id="T15" lex="asthma_bronchiale">asthma bronchiale</term> are mediated by <term sem="Other" id="A2">inflammatory mechanisms</term> in <term sem="Cell_natural" id="T17" lex="bronchial_epithelial_cell">bronchial epithelial cells</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<cause idref="A2" />
+<clue>Some <corefTheme>pulmonary diseases</corefTheme> like bronchitis or asthma bronchiale are <clueType>mediated</clueType> <linkCause>by</linkCause> inflammatory mechanisms <clueLoc>in bronchial epithelial cells</clueLoc>.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<cause idref="A2" />
+<clue>Some <corefTheme>pulmonary diseases</corefTheme> like bronchitis or asthma bronchiale are <clueType>mediated</clueType> <linkCause>by</linkCause> inflammatory mechanisms <clueLoc>in bronchial epithelial cells</clueLoc>.</clue>
+<comment>NER: T16 del &quot;asthma&quot;</comment>
+</event>
+<sentence id="S3"><term sem="Cell_natural" id="T18" lex="alveolar_macrophage">Alveolar macrophages</term> are located directly in the surrounding of these cells, so that we suppose an interaction between <term sem="Cell_natural" id="T19" lex="epithelial_cell">epithelial cells</term> and <term sem="Cell_natural" id="T20" lex="macrophage">macrophages</term> regarding to the release of <term sem="Protein_family_or_group" id="T21" lex="inflammatory_mediator">inflammatory mediators</term>.</sentence>
+<event id="E9">
+<type class="Cellular_physiological_process" />
+<theme idref="T18" />
+<clue>Alveolar macrophages are <clueType>located</clueType> directly <clueLoc>in the surrounding of these cells</clueLoc>, so that we suppose an interaction between epithelial cells and macrophages regarding to the release of inflammatory mediators.</clue>
+</event>
+<event uncertainty="probable" id="E10">
+<type class="Cell_communication" />
+<theme idref="T19" />
+<theme idref="T20" />
+<clue>Alveolar macrophages are located directly in the surrounding of these cells, so that we suppose an <clueType>interaction</clueType> <linkTheme>between</linkTheme> epithelial cells and macrophages regarding to the release of inflammatory mediators.</clue>
+</event>
+<event id="E11">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="E10" />
+<clue>Alveolar macrophages are located directly in the surrounding of these cells, so that we suppose an interaction between epithelial cells and macrophages <clueType>regarding</clueType> <linkTheme>to</linkTheme> the release of inflammatory mediators.</clue>
+</event>
+<event id="E12">
+<type class="Localization" />
+<theme idref="T21" />
+<clue>Alveolar macrophages are located directly in the surrounding of these cells, so that we suppose an interaction between epithelial cells and macrophages regarding to the <clueType>release</clueType> <linkTheme>of</linkTheme> inflammatory mediators.</clue>
+</event>
+<sentence id="S4">For measuring the contribution of <term sem="Cell_natural" id="T22" lex="macrophage">macrophages</term> to the release of <term sem="Protein_family_or_group" id="T23" lex="inflammatory_mediator">inflammatory mediators</term> by <term sem="Cell_natural" id="T24" lex="bronchial_epithelial_cell">bronchial <term sem="Cell_natural" id="T25" lex="epithelial_cell">epithelial cells</term></term>, we established an in vitro model of <term sem="Cell_natural" id="T26" lex="co-cultured_blood_monocyte">co-cultured blood monocytes</term> (<term sem="Cell_natural" id="T27" lex="BM">BM</term>) and <term sem="Cell_cultured" id="T28" lex="BEAS-2B_cell">BEAS-2B cells</term> in a <term sem="Other" id="T29" lex="transwell_system">transwell system</term> (Costar).</sentence>
+<event uncertainty="doubtful" id="E13">
+<type class="Regulation" />
+<theme idref="E14" />
+<cause idref="T22" />
+<clue>For measuring the <clueType>contribution</clueType> <linkCause>of</linkCause> macrophages <linkTheme>to</linkTheme> the release of inflammatory mediators by bronchial epithelial cells, we established an in vitro model of co-cultured blood monocytes (BM) and BEAS-2B cells in a transwell system (Costar).</clue>
+</event>
+<event id="E14">
+<type class="Localization" />
+<theme idref="T23" />
+<clue>For measuring the contribution of macrophages to the <clueType>release</clueType> <linkTheme>of</linkTheme> inflammatory mediators <clueLoc>by bronchial epithelial cells</clueLoc>, we established an in vitro model of co-cultured blood monocytes (BM) and BEAS-2B cells in a transwell system (Costar).</clue>
+</event>
+<event id="E15">
+<type class="Artificial_process" />
+<theme idref="T27" />
+<theme idref="T28" />
+<clue>For measuring the contribution of macrophages to the release of inflammatory mediators by bronchial epithelial cells, we established an in vitro model of <clueType>co-cultured</clueType> blood monocytes (BM) and BEAS-2B cells <clueExperiment>in a transwell system (Costar)</clueExperiment>.</clue>
+</event>
+<sentence id="S5"><term sem="Cell_natural" id="T30" lex="BM">BM</term> were exposed to <term sem="Inorganic_compound" id="T31" lex="Chrysotile_B">Chrysotile B</term> and <term sem="Inorganic_compound" id="T32" lex="soot_particle_FR_101">soot particle FR 101</term> in a concentration of 100 microg/10(6) cells.</sentence>
+<event id="E16">
+<type class="Artificial_process" />
+<theme idref="T30" />
+<theme idref="T31" />
+<clue>BM were <clueType>exposed</clueType> <linkTheme>to</linkTheme> Chrysotile B and soot particle FR 101 in a concentration of 100 microg/10(6) cells.</clue>
+<comment>NER: T31 sem mod, Other_organic_compound -&gt; Inorganic</comment>
+</event>
+<event id="E17">
+<type class="Artificial_process" />
+<theme idref="T30" />
+<theme idref="T32" />
+<clue>BM were <clueType>exposed</clueType> <linkTheme>to</linkTheme> Chrysotile B and soot particle FR 101 in a concentration of 100 microg/10(6) cells.</clue>
+<comment>NER: T32 sem mod, Other_organic_compound -&gt; Inorganic</comment>
+</event>
+<sentence id="S6">After up to 90 min exposure time <term sem="Other" id="T33" lex="ELISA">ELISA</term>, <term sem="Other" id="T34" lex="EMSA">EMSA</term> (<term sem="Other" id="T35" lex="electromobility_shift_assay">electromobility shift assay</term>) and RT-<term sem="Other" id="T36" lex="PCR">PCR</term> were used to measure <term sem="Other" id="T37" lex="protein_tyrosine_kinase_activity"><term sem="Protein_family_or_group" id="T38" lex="protein_tyrosine_kinase">protein <term sem="Amino_acid_monomer" id="T39" lex="tyrosine">tyrosine</term> kinase</term> activity</term>, <term sem="Other" id="T40" lex="protein_activity">protein activity</term> of <term sem="Protein_complex" id="T41" lex="NF-kappaB">NF-kappaB</term> and <term sem="Protein_family_or_group" id="T42" lex="cytokine">cytokine</term> (<term sem="Protein_molecule" id="T43" lex="IL-1beta">IL-1beta</term>, <term sem="Protein_molecule" id="T44" lex="IL-6">IL-6</term>, <term sem="Protein_molecule" id="T45" lex="TNF-alpha">TNF-alpha</term>) specific <term sem="Other" id="T46" lex="mRNA_level"><term sem="RNA_family_or_group" id="T47" lex="mRNA">mRNA</term> levels</term> in <term sem="Cell_natural" id="T48" lex="BEAS-2B_cell">BEAS-2B cells</term>.</sentence>
+<event uncertainty="doubtful" id="E18">
+<type class="Positive_regulation" />
+<theme idref="T38" />
+<clue><clueExperiment>After up to 90 min exposure time ELISA, EMSA (electromobility shift assay) and RT-PCR</clueExperiment> were used to measure protein tyrosine kinase <clueType>activity</clueType>, protein activity of NF-kappaB and cytokine (IL-1beta, IL-6, TNF-alpha) specific mRNA levels <clueLoc>in BEAS-2B cells</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E19">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<clue><clueExperiment>After up to 90 min exposure time ELISA, EMSA (electromobility shift assay) and RT-PCR</clueExperiment> were used to measure protein tyrosine kinase activity, protein <clueType>activity</clueType> <linkTheme>of</linkTheme> NF-kappaB and cytokine (IL-1beta, IL-6, TNF-alpha) specific mRNA levels <clueLoc>in BEAS-2B cells</clueLoc>.</clue>
+</event>
+<event uncertainty="doubtful" id="E20">
+<type class="Transcription" />
+<theme idref1="T47" idref="T43" />
+<clue><clueExperiment>After up to 90 min exposure time ELISA, EMSA (electromobility shift assay) and RT-PCR</clueExperiment> were used to measure protein tyrosine kinase activity, protein activity of NF-kappaB and cytokine (IL-1beta, IL-6, TNF-alpha) specific mRNA <clueType>levels</clueType> <clueLoc>in BEAS-2B cells</clueLoc>.</clue>
+<comment>CAUTION</comment>
+</event>
+<event uncertainty="doubtful" id="E21">
+<type class="Transcription" />
+<theme idref1="T47" idref="T44" />
+<clue><clueExperiment>After up to 90 min exposure time ELISA, EMSA (electromobility shift assay) and RT-PCR</clueExperiment> were used to measure protein tyrosine kinase activity, protein activity of NF-kappaB and cytokine (IL-1beta, IL-6, TNF-alpha) specific mRNA <clueType>levels</clueType> <clueLoc>in BEAS-2B cells</clueLoc>.</clue>
+<comment>CAUTION</comment>
+</event>
+<event uncertainty="doubtful" id="E22">
+<type class="Transcription" />
+<theme idref1="T47" idref="T45" />
+<clue><clueExperiment>After up to 90 min exposure time ELISA, EMSA (electromobility shift assay) and RT-PCR</clueExperiment> were used to measure protein tyrosine kinase activity, protein activity of NF-kappaB and cytokine (IL-1beta, IL-6, TNF-alpha) specific mRNA <clueType>levels</clueType> <clueLoc>in BEAS-2B cells</clueLoc>.</clue>
+<comment>CAUTION</comment>
+</event>
+<sentence id="S7">We observed an increase in <term sem="Other" id="T49" lex="protein_tyrosine_kinase_activity"><term sem="Protein_family_or_group" id="T50" lex="protein_tyrosine_kinase">protein <term sem="Amino_acid_monomer" id="T51" lex="tyrosine">tyrosine</term> kinase</term> activity</term> (up to 1.8 +/- 0.5-fold) and <term sem="Other" id="T52" lex="NF-kappaB_protein_activity"><term sem="Protein_complex" id="T53" lex="NF-kappaB">NF-kappaB</term> protein activity</term> in <term sem="Cell_natural" id="T54" lex="BEAS-2B_cell">BEAS-2B cells</term> after <cons sem="(OR Other Other)" id="C1" lex="(OR particle_exposure fibre_exposure)"><frag id="F5"><term sem="Inorganic_compound" id="A3">particle</term></frag> or <frag id="F6"><term sem="Carbohydrate" id="T56" lex="fibre">fibre</term></frag> <frag id="F7">exposure</frag></cons> of <term sem="Cell_cultured" id="T57" lex="co-cultured_BM">co-cultured <term sem="Cell_natural" id="T58" lex="BM">BM</term></term>.</sentence>
+<event id="E23">
+<type class="Positive_regulation" />
+<theme idref="T50" />
+<cause idref="E27" />
+<clue>We observed an <clueType>increase</clueType> <linkTheme>in</linkTheme> protein tyrosine kinase <clueType>activity</clueType> (up to 1.8 +/- 0.5-fold) and NF-kappaB protein activity <clueLoc>in BEAS-2B cells</clueLoc> <linkCause>after</linkCause> particle or fibre exposure of co-cultured BM.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T50" />
+<cause idref="E28" />
+<clue>We observed an <clueType>increase</clueType> <linkTheme>in</linkTheme> protein tyrosine kinase <clueType>activity</clueType> (up to 1.8 +/- 0.5-fold) and NF-kappaB protein activity <clueLoc>in BEAS-2B cells</clueLoc> <linkCause>after</linkCause> particle or fibre exposure of co-cultured BM.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation" />
+<theme idref="T53" />
+<cause idref="E27" />
+<clue>We observed an <clueType>increase</clueType> in protein tyrosine kinase activity (up to 1.8 +/- 0.5-fold) and NF-kappaB protein <clueType>activity</clueType> <clueLoc>in BEAS-2B cells</clueLoc> <linkCause>after</linkCause> particle or fibre exposure of co-cultured BM.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation" />
+<theme idref="T53" />
+<cause idref="E28" />
+<clue>We observed an <clueType>increase</clueType> in protein tyrosine kinase activity (up to 1.8 +/- 0.5-fold) and NF-kappaB protein <clueType>activity</clueType> <clueLoc>in BEAS-2B cells</clueLoc> <linkCause>after</linkCause> particle or fibre exposure of co-cultured BM.</clue>
+</event>
+<event id="E27">
+<type class="Artificial_process" />
+<theme idref="A3" />
+<theme idref="T57" />
+<clue>We observed an increase in protein tyrosine kinase activity (up to 1.8 +/- 0.5-fold) and NF-kappaB protein activity in BEAS-2B cells after particle or fibre <clueType>exposure</clueType> <linkTheme>of</linkTheme> co-cultured BM.</clue>
+</event>
+<event id="E28">
+<type class="Artificial_process" />
+<theme idref="T56" />
+<theme idref="T57" />
+<clue>We observed an increase in protein tyrosine kinase activity (up to 1.8 +/- 0.5-fold) and NF-kappaB protein activity in BEAS-2B cells after particle or fibre <clueType>exposure</clueType> <linkTheme>of</linkTheme> co-cultured BM.</clue>
+<comment>NER: T56 sem mod, Carbohydrate -&gt; Inorganic</comment>
+</event>
+<sentence id="S8">Consecutive <cons sem="(AND RNA_molecule RNA_molecule RNA_molecule)" id="T59" lex="(AND IL-1beta-mRNA IL-6-mRNA TNF-alpha-mRNA)"><frag id="F1">IL-1beta-</frag>, <frag id="F2">IL-6-</frag> and <frag id="F3">TNF-alpha-</frag><frag id="F4">mRNA</frag></cons> were elevated (up to 1.9 +/- 0.58-fold).</sentence>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref1="F4" idref="F1" />
+<clue><clueTime>Consecutive</clueTime> IL-1beta-, IL-6- and TNF-alpha-mRNA were <clueType>elevated</clueType> (up to 1.9 +/- 0.58-fold).</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref1="F4" idref="F2" />
+<clue><clueTime>Consecutive</clueTime> IL-1beta-, IL-6- and TNF-alpha-mRNA were <clueType>elevated</clueType> (up to 1.9 +/- 0.58-fold).</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation" />
+<theme idref1="F4" idref="F3" />
+<clue><clueTime>Consecutive</clueTime> IL-1beta-, IL-6- and TNF-alpha-mRNA were <clueType>elevated</clueType> (up to 1.9 +/- 0.58-fold).</clue>
+</event>
+<sentence id="S9"><term sem="Other" id="T60" lex="protein_tyrosine_kinase_activity"><term sem="Protein_molecule" id="T61" lex="protein_tyrosine_kinase">Protein <term sem="Amino_acid_monomer" id="T62" lex="tyrosine">tyrosine</term> kinase</term> activity</term>, <term sem="Other" id="T63" lex="NF-kappaB_activity"><term sem="Protein_complex" id="T64" lex="NF-kappaB">NF-kappaB</term> activity</term>, and the synthesis of <term sem="RNA_molecule" id="T65" lex="cytokine-specific_mRNA"><term sem="Protein_family_or_group" id="T66" lex="cytokine">cytokine</term>-specific mRNA</term> were inhibited by <term sem="Organic_compound_other" id="T67" lex="antioxidant">antioxidants</term>.</sentence>
+<event id="E32">
+<type class="Negative_regulation" />
+<theme idref="T61" />
+<cause idref="T67" />
+<clue>Protein tyrosine kinase activity, NF-kappaB activity, and the synthesis of cytokine-specific mRNA were <clueType>inhibited</clueType> <linkCause>by</linkCause> antioxidants.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="T64" />
+<cause idref="T67" />
+<clue>Protein tyrosine kinase activity, NF-kappaB activity, and the synthesis of cytokine-specific mRNA were <clueType>inhibited</clueType> <linkCause>by</linkCause> antioxidants.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation" />
+<theme idref="T65" />
+<cause idref="T67" />
+<clue>Protein tyrosine kinase activity, NF-kappaB activity, and the synthesis of cytokine-specific mRNA were <clueType>inhibited</clueType> <linkCause>by</linkCause> antioxidants.</clue>
+</event>
+<sentence id="S10">These data suggest a <term sem="Other" id="T68" lex="ROI-dependent_NF-kappaB_mediated_transcription"><term sem="Inorganic_compound" id="A8" lex="ROI">ROI</term>-dependent <term sem="Protein_complex" id="T69" lex="NF-kappaB">NF-kappaB</term> mediated transcription</term> of <term sem="Protein_family_or_group" id="T70" lex="inflammatory_cytokine">inflammatory <term sem="Protein_family_or_group" id="T71" lex="cytokine"><term sem="DNA_domain_or_region" id="A9">cytokines</term></term></term> in <term sem="Cell_natural" id="T72" lex="bronchial_epithelial_cell">bronchial <term sem="Cell_natural" id="T73" lex="epithelial_cell">epithelial cells</term></term>.</sentence>
+<event uncertainty="probable" id="E35">
+<type class="Regulation" />
+<theme idref="E37" />
+<cause idref="A8" />
+<clue>These data suggest a ROI-<clueType>dependent</clueType> NF-kappaB mediated transcription of inflammatory cytokines in bronchial epithelial cells.</clue>
+</event>
+<event uncertainty="probable" id="E36">
+<type class="Positive_regulation" />
+<theme idref="E37" />
+<cause idref="T69" />
+<clue>These data suggest a ROI-dependent NF-kappaB <clueType>mediated</clueType> transcription of inflammatory cytokines in bronchial epithelial cells.</clue>
+</event>
+<event uncertainty="probable" id="E37">
+<type class="Transcription" />
+<theme idref="A9" />
+<clue>These data suggest a ROI-dependent NF-kappaB mediated <clueType>transcription</clueType> <linkTheme>of</linkTheme> inflammatory cytokines <clueLoc>in bronchial epithelial cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

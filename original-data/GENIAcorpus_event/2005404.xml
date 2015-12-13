@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="20/03/2006" creator="Hitomi Masuda" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2005404">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>2005404</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Protein_family_or_group" id="T1" lex="kappa_B_binding_protein">Kappa B binding proteins</term> are constitutively expressed in an <term sem="Cell_cultured" id="T2" lex="IL-2_autocrine_human_T_cell_line">IL-2 autocrine human T cell line</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression" />
+<theme idref="T1" />
+<clue>Kappa B binding proteins are constitutively <clueType>expressed</clueType> <clueLoc>in an IL-2 autocrine human T cell line</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T3" lex="(AND IL-2_gene IL-2-R_alpha_gene)"><frag id="F1"><term sem="DNA_molecule" id="A3">IL-2</term></frag> and the <frag id="F2"><term sem="DNA_molecule" id="A4">IL-2-R alpha</term></frag> <frag id="F3">genes</frag></cons> are both expressed transiently in <term sem="Cell_natural" id="T4" lex="normal_T_lymphocyte">normal T lymphocytes</term> after <cons sem="(OR Other Other)" id="T5" lex="(OR Ag_activation mitogen_activation)"><frag id="F4"><term sem="Inorganic_compound" id="A1">Ag</term></frag> or <frag id="F5"><term sem="Protein_molecule" id="A2">mitogen</term></frag> <frag id="F6">activation</frag></cons>.</sentence>
+<event id="E2">
+<type class="Physiological_process" />
+<theme idref="T4" />
+<cause idref="A1" />
+<clue>The IL-2 and the IL-2-R alpha genes are both expressed transiently in normal T lymphocytes after Ag or mitogen <clueType>activation</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Physiological_process" />
+<theme idref="T4" />
+<cause idref="A2" />
+<clue>The IL-2 and the IL-2-R alpha genes are both expressed transiently in normal T lymphocytes after Ag or mitogen <clueType>activation</clueType>.</clue>
+</event>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="A3" />
+<clue>The IL-2 and the IL-2-R alpha genes are both <clueType>expressed</clueType> transiently in normal T lymphocytes after Ag or mitogen activation.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>The IL-2 and the IL-2-R alpha genes are both <clueType>expressed</clueType> transiently in normal T lymphocytes after Ag or mitogen activation.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E2" />
+<clue>The IL-2 and the IL-2-R alpha genes are both expressed transiently <clueLoc>in normal T lymphocytes</clueLoc> <linkCause>after</linkCause> Ag or mitogen activation.</clue>
+<comment>No clueType</comment>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E3" />
+<clue>The IL-2 and the IL-2-R alpha genes are both expressed transiently <clueLoc>in normal T lymphocytes</clueLoc> <linkCause>after</linkCause> Ag or mitogen activation.</clue>
+<comment>No clueType</comment>
+</event>
+<event id="E100">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E2" />
+<clue>The IL-2 and the IL-2-R alpha genes are both expressed transiently <clueLoc>in normal T lymphocytes</clueLoc> <linkCause>after</linkCause> Ag or mitogen activation.</clue>
+<comment>No clueType</comment>
+</event>
+<event id="E101">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E3" />
+<clue>The IL-2 and the IL-2-R alpha genes are both expressed transiently <clueLoc>in normal T lymphocytes</clueLoc> <linkCause>after</linkCause> Ag or mitogen activation.</clue>
+<comment>No clueType</comment>
+</event>
+<sentence id="S3">In contrast, the <term sem="Cell_cultured" id="T6" lex="human_T_cell_line">human T cell line</term>, <term sem="Cell_cultured" id="T7" lex="IARC_301">IARC 301</term>, expresses these two genes constitutively and we have previously demonstrated that its <term sem="Other" id="T8" lex="growth">growth</term> depends on the <term sem="Other" id="T9" lex="autocrine_production">autocrine production</term> of this <term sem="Protein_family_or_group" id="T10" lex="T_cell_growth_factor">T cell growth factor</term> and <term sem="Protein_family_or_group" id="T11" lex="high_affinity_IL-2R">high affinity IL-2R</term>.</sentence>
+<event id="E8">
+<type class="Gene_expression" />
+<theme idref="A3" />
+<clue>In contrast, the human T cell line, <clueLoc>IARC 301</clueLoc>, <clueType>expresses</clueType> <corefTheme>these two genes</corefTheme> constitutively and we have previously demonstrated that its growth depends on the autocrine production of this T cell growth factor and high affinity IL-2R.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>In contrast, the human T cell line, <clueLoc>IARC 301</clueLoc>, <clueType>expresses</clueType> <corefTheme>these two genes</corefTheme> constitutively and we have previously demonstrated that its growth depends on the autocrine production of this T cell growth factor and high affinity IL-2R.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression" />
+<theme idref="A3" />
+<clue>In contrast, the human T cell line, <clueLoc>IARC 301</clueLoc>, expresses these two genes constitutively and we have previously demonstrated that its growth depends on the <clueType>autocrine production</clueType> <linkCause>of</linkCause> <corefTheme>this T cell growth factor</corefTheme> and high affinity IL-2R.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>In contrast, the human T cell line, <clueLoc>IARC 301</clueLoc>, expresses these two genes constitutively and we have previously demonstrated that its growth depends on the <clueType>autocrine production</clueType> <linkCause>of</linkCause> this T cell growth factor and high affinity IL-2R.</clue>
+</event>
+<event id="E12">
+<type class="Cellular_physiological_process" />
+<theme idref="T7" />
+<clue>In contrast, the human T cell line, IARC 301, expresses these two genes constitutively and we have previously demonstrated that <corefTheme>its</corefTheme> <clueType>growth</clueType> depends on the autocrine production of this T cell growth factor and high affinity IL-2R.</clue>
+</event>
+<event id="E13">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="E10" />
+<clue>In contrast, the human T cell line, IARC 301, expresses these two genes constitutively and we have previously demonstrated that its growth <clueType>depends</clueType> <linkCause>on</linkCause> the autocrine production of this T cell growth factor and high affinity IL-2R.</clue>
+</event>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="E11" />
+<clue>In contrast, the human T cell line, IARC 301, expresses these two genes constitutively and we have previously demonstrated that its growth <clueType>depends</clueType> <linkCause>on</linkCause> the autocrine production of this T cell growth factor and high affinity IL-2R.</clue>
+</event>
+<sentence id="S4">To dissect the molecular basis for the unusual persistent expression of the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T12" lex="(AND IL-2_gene IL-2-R_alpha_gene)"><frag id="F7">IL-2</frag> and <frag id="F8">IL-2-R alpha</frag> <frag id="F9">genes</frag></cons> in these <term sem="Cell_cultured" id="T13" lex="IARC_301">IARC 301</term> <term sem="Cell_natural" id="T14" lex="T_cell">T cells</term>, we have analyzed the interactions of <term sem="Protein_family_or_group" id="T15" lex="constitutively_expressed_nuclear_protein">constitutively expressed nuclear proteins</term> with the <term sem="DNA_domain_or_region" id="T16" lex="5&apos;_flanking_region">5' flanking regions</term> <term sem="DNA_domain_or_region" id="A7">of</term> the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T17" lex="(AND IL-2_gene IL-2-R_alpha_gene)"><frag id="F10"><term sem="DNA_molecule" id="A5">IL-2</term></frag> and <frag id="F11"><term sem="DNA_molecule" id="A6">IL-2-R alpha</term></frag> <frag id="F12">genes</frag></cons> using both <term sem="Other" id="T18" lex="DNase_I_footprinting"><term sem="Protein_molecule" id="T19" lex="DNase_I">DNase I</term> footprinting</term> and gel retardation techniques.</sentence>
+<event uncertainty="doubtful" id="E15">
+<type class="Binding" />
+<theme idref1="A7" idref2="A5" idref="T16" />
+<theme idref="T15" />
+<clue>To dissect the molecular basis for the unusual persistent expression of the IL-2 and IL-2-R alpha genes in these IARC 301 T cells, we have analyzed the <clueType>interactions</clueType> <linkTheme>of</linkTheme> constitutively expressed nuclear proteins <linkTheme>with</linkTheme> the 5' flanking regions of the IL-2 and IL-2-R alpha genes <clueExperiment>using both DNase I footprinting and gel retardation techniques.</clueExperiment></clue>
+</event>
+<event uncertainty="doubtful" id="E16">
+<type class="Binding" />
+<theme idref1="A7" idref2="A6" idref="T16" />
+<theme idref="T15" />
+<clue>To dissect the molecular basis for the unusual persistent expression of the IL-2 and IL-2-R alpha genes in these IARC 301 T cells, we have analyzed the <clueType>interactions</clueType> <linkTheme>of</linkTheme> constitutively expressed nuclear proteins <linkTheme>with</linkTheme> the 5' flanking regions of the IL-2 and IL-2-R alpha genes <clueExperiment>using both DNase I footprinting and gel retardation techniques.</clueExperiment></clue>
+</event>
+<sentence id="S5">We have found that a region in both genes (<term sem="DNA_domain_or_region" id="A8">-276 to -250 for <term sem="DNA_domain_or_region" id="T20" lex="IL-2-R_alpha">IL-2-R alpha</term></term> and <term sem="DNA_domain_or_region" id="A9">-203 to -183 for <term sem="DNA_domain_or_region" id="T21" lex="IL-2">IL-2</term></term>), which corresponds to a <term sem="DNA_domain_or_region" id="T22" lex="kappa_B_enhancer_element">kappa B enhancer element,</term> is specifically protected by <term sem="Protein_family_or_group" id="A10"><term sem="Protein_family_or_group" id="T23" lex="nuclear_protein">nuclear proteins</term> from <term sem="Cell_cultured" id="T24" lex="IARC_301">IARC 301</term></term>.</sentence>
+<event id="E17">
+<type class="Binding" />
+<theme idref="A8" />
+<theme idref="A10" />
+<clue>We have found that a region in both genes (-276 to -250 for IL-2-R alpha and -203 to -183 for IL-2), which corresponds to a kappa B enhancer element, is specifically <clueType>protected</clueType> <linkCause>by</linkCause> nuclear proteins from IARC 301.</clue>
+<comment>TPS: A8&amp;A10</comment>
+</event>
+<event id="E18">
+<type class="Binding" />
+<theme idref="A9" />
+<theme idref="A10" />
+<clue>We have found that a region in both genes (-276 to -250 for IL-2-R alpha and -203 to -183 for IL-2), which corresponds to a kappa B enhancer element, is specifically <clueType>protected</clueType> <linkCause>by</linkCause> nuclear proteins from IARC 301.</clue>
+<comment>TPS: A9&amp;A10</comment>
+</event>
+<sentence id="S6">In agreement with this finding, both the <cons sem="(AND DNA_domain_or_region DNA_domain_or_region)" id="T25" lex="(AND IL-2_promoter IL-2-R_alpha_promoter)"><frag id="F13"><term sem="DNA_domain_or_region" id="A11">IL-2</term></frag> and <frag id="F14">I<term sem="DNA_domain_or_region" id="A12">L-2-R alpha</term></frag> <frag id="F15"><term sem="DNA_domain_or_region" id="A13">promoters</term></frag></cons> are active in <term sem="Other" id="T26" lex="transient_transfection_assay">transient transfection assays</term> in <term sem="Cell_cultured" id="T27" lex="IARC_301_cell"><term sem="Cell_cultured" id="T28" lex="IARC_301">IARC 301</term> cells</term>.</sentence>
+<sentence id="S7">In contrast, mutation of the <term sem="Protein_domain_or_region" id="T29" lex="kappa_B_enhancer">kappa B enhancer</term> results in markedly attenuated activities of both <term sem="DNA_domain_or_region" id="T30" lex="promoter">promoters</term>.</sentence>
+<event id="E21">
+<type class="Mutagenesis" />
+<theme idref="T29" />
+<clue>In contrast, <clueType>mutation</clueType> <linkTheme>of</linkTheme> the kappa B enhancer results in markedly attenuated activities of both promoters.</clue>
+<comment>ARTIFICIAL</comment>
+</event>
+<event id="E22">
+<type class="Negative_regulation" />
+<theme idref1="A13" idref="A11" />
+<cause idref="E21" />
+<clue>In contrast, mutation of the kappa B enhancer <linkCause>results in</linkCause> markedly <clueType>attenuated</clueType> activities of <corefTheme>both promoters</corefTheme>.</clue>
+</event>
+<event id="E102">
+<type class="Negative_regulation" />
+<theme idref1="A13" idref="A12" />
+<cause idref="E21" />
+<clue>In contrast, mutation of the kappa B enhancer <linkCause>results in</linkCause> markedly <clueType>attenuated</clueType> activities of <corefTheme>both promoters</corefTheme>.</clue>
+</event>
+<sentence id="S8">Two proteins binding the <term sem="DNA_domain_or_region" id="T31" lex="kappa_B_sequence">kappa B sequence</term>, <term sem="Protein_molecule" id="T32" lex="NF-kappa_B">NF-kappa B</term> and <term sem="Protein_molecule" id="T33" lex="KBF1">KBF1</term>, are constitutively expressed in <term sem="Cell_cultured" id="T34" lex="IARC_301">IARC 301</term> nuclei and induced by <term sem="Organic_compound_other" id="T35" lex="PMA">PMA</term> and <term sem="Protein_molecule" id="T36" lex="PHA">PHA</term> in <term sem="Cell_cultured" id="T37" lex="Jurkat">Jurkat</term>.</sentence>
+<event id="E23">
+<type class="Gene_expression" />
+<theme idref="T32" />
+<clue>Two proteins binding the kappa B sequence, NF-kappa B and KBF1, are constitutively <clueType>expressed</clueType> <clueLoc>in IARC 301 nuclei</clueLoc> and induced by PMA and PHA in Jurkat.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression" />
+<theme idref="T33" />
+<clue>Two proteins binding the kappa B sequence, NF-kappa B and KBF1, are constitutively <clueType>expressed</clueType> <clueLoc>in IARC 301 nuclei</clueLoc> and induced by PMA and PHA in Jurkat.</clue>
+</event>
+<event id="E25">
+<type class="Binding" />
+<theme idref="T31" />
+<theme idref="T32" />
+<clue>Two proteins <clueType>binding</clueType> the kappa B sequence, NF-kappa B and KBF1, are constitutively expressed in IARC 301 nuclei and induced by PMA and PHA in Jurkat.</clue>
+</event>
+<event id="E26">
+<type class="Binding" />
+<theme idref="T31" />
+<theme idref="T33" />
+<clue>Two proteins <clueType>binding</clueType> the kappa B sequence, NF-kappa B and KBF1, are constitutively expressed in IARC 301 nuclei and induced by PMA and PHA in Jurkat.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<cause idref="T35" />
+<clue>Two proteins binding the kappa B sequence, NF-kappa B and KBF1, are constitutively expressed in IARC 301 nuclei and <clueType>induced</clueType> <linkCause>by</linkCause> PMA and PHA <clueLoc>in Jurkat</clueLoc>.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<cause idref="T36" />
+<clue>Two proteins binding the kappa B sequence, NF-kappa B and KBF1, are constitutively expressed in IARC 301 nuclei and <clueType>induced</clueType> <linkCause>by</linkCause> PMA and PHA <clueLoc>in Jurkat</clueLoc>.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="T35" />
+<clue>Two proteins binding the kappa B sequence, NF-kappa B and KBF1, are constitutively expressed in IARC 301 nuclei and <clueType>induced</clueType> <linkCause>by</linkCause> PMA and PHA <clueLoc>in Jurkat</clueLoc>.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation" />
+<theme idref="T33" />
+<cause idref="T36" />
+<clue>Two proteins binding the kappa B sequence, NF-kappa B and KBF1, are constitutively expressed in IARC 301 nuclei and <clueType>induced</clueType> <linkCause>by</linkCause> PMA and PHA <clueLoc>in Jurkat</clueLoc>.</clue>
+</event>
+<sentence id="S9">They bind to the <term sem="DNA_domain_or_region" id="T38" lex="kappa_B_motif">kappa B motifs</term> with different relative affinities that may reflect their different contribution in the <term sem="Other" id="T39" lex="expression">expression</term> of various <term sem="DNA_domain_or_region" id="T40" lex="promoter">promoters</term>.</sentence>
+<event id="E31">
+<type class="Binding" />
+<theme idref="T32" />
+<theme idref="T38" />
+<clue><corefTheme>They</corefTheme> <clueType>bind</clueType> <linkTheme>to</linkTheme> the kappa B motifs with different relative affinities that may reflect their different contribution in the expression of various promoters.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<clue>They bind to the kappa B motifs with different relative affinities that may reflect their different contribution in the <clueType>expression</clueType> <linkTheme>of</linkTheme> various promoters.</clue>
+</event>
+<event uncertainty="probable" id="E33">
+<type class="Correlation" />
+<theme idref="E31" />
+<theme idref="E32" />
+<clue>They bind to the kappa B motifs with different relative affinities that may <clueType>reflect</clueType> their different contribution in the expression of various promoters.</clue>
+</event>
+<event id="E34">
+<type class="Binding" />
+<theme idref="T33" />
+<theme idref="T38" />
+<clue><corefTheme>They</corefTheme> <clueType>bind</clueType> <linkTheme>to</linkTheme> the kappa B motifs with different relative affinities that may reflect their different contribution in the expression of various promoters.</clue>
+</event>
+<event uncertainty="probable" id="E35">
+<type class="Correlation" />
+<theme idref="E34" />
+<theme idref="E32" />
+<clue>They bind to the kappa B motifs with different relative affinities that may <clueType>reflect</clueType> their different contribution in the expression of various promoters.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

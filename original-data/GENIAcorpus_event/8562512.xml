@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="06/07/2006" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8562512"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8562512</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Cross-linking of <term sem="Protein_family_or_group" id="T1" lex="Fc_gamma_receptor">Fc gamma receptors</term> activates <term sem="DNA_domain_or_region" id="T3" lex="HIV-1_long_terminal_repeat"><term sem="Virus" id="T4" lex="HIV-1">HIV-1</term> long terminal repeat</term>-driven <term sem="Other" id="A1">transcription</term> in <term sem="Cell_natural" id="T5" lex="human_monocyte">human monocytes</term>.</sentence>
+<event id="E1">
+<type class="Binding" />
+<theme idref="T1" />
+<clue><clueType>Cross-linking</clueType> <linkTheme>of</linkTheme> Fc gamma receptors activates HIV-1 long terminal repeat-driven transcription in human monocytes.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation" />
+<theme idref="A1" />
+<cause idref="T3" />
+<clue>Cross-linking of Fc gamma receptors activates HIV-1 long terminal repeat-<clueType>driven</clueType> transcription <clueLoc>in human monocytes</clueLoc>.</clue>
+<comment>NER: T2 del &quot;HIV-1 long terminal repeat-driven transcription&quot;</comment></event>
+<event id="E3">
+<type class="Positive_regulation" />
+<theme idref="E2" />
+<cause idref="E1" />
+<clue>Cross-linking of Fc gamma receptors <clueType>activates</clueType> HIV-1 long terminal repeat-driven transcription in human monocytes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Elevation of the levels of <term sem="Protein_complex" id="T6" lex="circulating_immune_complex">circulating immune complexes</term> frequently accompanies <term sem="Other" id="T7" lex="HIV-1_infection"><term sem="Virus" id="T8" lex="HIV-1">HIV-1</term> infection</term> and is a prognostic indicator of clinical progression from <term sem="Other" id="T9" lex="asymptomatic_infection">asymptomatic infection</term> to <term sem="Other" id="T10" lex="AIDS">AIDS</term>.</sentence>
+<event id="E4">
+<type class="Positive_regulation" />
+<theme idref="T6" />
+<clue><clueType>Elevation</clueType> <linkTheme>of</linkTheme> the levels of circulating immune complexes frequently accompanies HIV-1 infection and is a prognostic indicator of clinical progression from asymptomatic infection to AIDS.</clue>
+</event>
+<event id="E5">
+<type class="Initiation_of_viral_infection" />
+<theme idref="T8" />
+<clue>Elevation of the levels of circulating immune complexes frequently accompanies HIV-1 <clueType>infection</clueType> and is a prognostic indicator of clinical progression from asymptomatic infection to AIDS.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="E4" />
+<cause idref="E5" />
+<clue>Elevation of the levels of circulating immune complexes frequently <clueType>accompanies</clueType> HIV-1 infection and is a prognostic indicator of clinical progression from asymptomatic infection to AIDS.</clue>
+</event>
+<event id="E7">
+<type class="Viral_life_cycle" />
+<theme idref="T8" />
+<clue>Elevation of the levels of circulating immune complexes frequently accompanies HIV-1 infection and is a prognostic indicator of clinical progression from <clueType>asymptomatic infection</clueType> to AIDS.</clue>
+</event>
+<sentence id="S3">Here we report that cross-linking of <term sem="Protein_molecule" id="T11" lex="Fc_gamma_RI">Fc gamma RI</term> or <term sem="Protein_molecule" id="T12" lex="Fc_gamma_RII">Fc gamma RII</term> by <term sem="Protein_family_or_group" id="T13" lex="adherent_human_IgG">adherent human IgG</term> or by specific <term sem="Protein_family_or_group" id="T14" lex="anti-Fc_gamma_R_mAb">anti-Fc gamma R mAb</term> activates <term sem="Other" id="T15" lex="HIV-1_gene_expression"><term sem="Virus" id="T16" lex="HIV-1">HIV-1</term> gene expression</term> in the <term sem="Cell_cultured" id="T17" lex="human_monocytic_cell_line">human monocytic cell line</term> <term sem="Cell_cultured" id="T18" lex="BF24">BF24</term> and increased <term sem="Other" id="T19" lex="HIV_RNA_expression"><term sem="RNA_family_or_group" id="T20" lex="HIV_RNA">HIV RNA</term> expression</term> in <term sem="Cell_natural" id="T21" lex="monocyte">monocytes</term> from <term sem="Multicellular_organism_natural" id="T22" lex="HIV_infected_patient"><term sem="Virus" id="A3">HIV</term> infected <term sem="Multicellular_organism_natural" id="T23" lex="patient">patients</term></term> as assayed by <term sem="Other" id="T24" lex="reverse_transcription-PCR">reverse transcription-PCR</term>.</sentence>
+<event id="E8">
+<type class="Binding" />
+<theme idref="T11" />
+<theme idref="T13" />
+<clue>Here we report that <clueType>cross-linking</clueType> <linkTheme>of</linkTheme> Fc gamma RI or Fc gamma RII <linkTheme>by</linkTheme> adherent human IgG or by specific anti-Fc gamma R mAb activates HIV-1 gene expression in the human monocytic cell line BF24 and increased HIV RNA expression in monocytes from HIV infected patients as assayed by reverse transcription-PCR.</clue>
+</event>
+<event id="E9">
+<type class="Binding" />
+<theme idref="T12" />
+<theme idref="T13" />
+<clue>Here we report that <clueType>cross-linking</clueType> <linkTheme>of</linkTheme> Fc gamma RI or Fc gamma RII <linkTheme>by</linkTheme> adherent human IgG or by specific anti-Fc gamma R mAb activates HIV-1 gene expression in the human monocytic cell line BF24 and increased HIV RNA expression in monocytes from HIV infected patients as assayed by reverse transcription-PCR.</clue>
+</event>
+<event id="E10">
+<type class="Binding" />
+<theme idref="T11" />
+<theme idref="T14" />
+<clue>Here we report that <clueType>cross-linking</clueType> <linkTheme>of</linkTheme> Fc gamma RI or Fc gamma RII by adherent human IgG or <linkTheme>by</linkTheme> specific anti-Fc gamma R mAb activates HIV-1 gene expression in the human monocytic cell line BF24 and increased HIV RNA expression in monocytes from HIV infected patients as assayed by reverse transcription-PCR.</clue>
+</event>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T12" />
+<theme idref="T14" />
+<clue>Here we report that <clueType>cross-linking</clueType> <linkTheme>of</linkTheme> Fc gamma RI or Fc gamma RII by adherent human IgG or <linkTheme>by</linkTheme> specific anti-Fc gamma R mAb activates HIV-1 gene expression in the human monocytic cell line BF24 and increased HIV RNA expression in monocytes from HIV infected patients as assayed by reverse transcription-PCR.</clue>
+</event>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T16" />
+<clue>Here we report that cross-linking of Fc gamma RI or Fc gamma RII by adherent human IgG or by specific anti-Fc gamma R mAb activates HIV-1 gene <clueType>expression</clueType> in the human monocytic cell line BF24 and increased HIV RNA expression in monocytes from HIV infected patients as assayed by reverse transcription-PCR.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E8" />
+<clue>Here we report that cross-linking of Fc gamma RI or Fc gamma RII by adherent human IgG or by specific anti-Fc gamma R mAb <clueType>activates</clueType> HIV-1 gene expression <clueLoc>in the human monocytic cell line BF24</clueLoc> and increased HIV RNA expression in monocytes from HIV infected patients as assayed by reverse transcription-PCR.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E9" />
+<clue>Here we report that cross-linking of Fc gamma RI or Fc gamma RII by adherent human IgG or by specific anti-Fc gamma R mAb <clueType>activates</clueType> HIV-1 gene expression <clueLoc>in the human monocytic cell line BF24</clueLoc> and increased HIV RNA expression in monocytes from HIV infected patients as assayed by reverse transcription-PCR.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E10" />
+<clue>Here we report that cross-linking of Fc gamma RI or Fc gamma RII by adherent human IgG or by specific anti-Fc gamma R mAb <clueType>activates</clueType> HIV-1 gene expression <clueLoc>in the human monocytic cell line BF24</clueLoc> and increased HIV RNA expression in monocytes from HIV infected patients as assayed by reverse transcription-PCR.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E11" />
+<clue>Here we report that cross-linking of Fc gamma RI or Fc gamma RII by adherent human IgG or by specific anti-Fc gamma R mAb <clueType>activates</clueType> HIV-1 gene expression <clueLoc>in the human monocytic cell line BF24</clueLoc> and increased HIV RNA expression in monocytes from HIV infected patients as assayed by reverse transcription-PCR.</clue>
+</event>
+<event id="E17">
+<type class="Transcription" />
+<theme idref="T20" />
+<clue>Here we report that cross-linking of Fc gamma RI or Fc gamma RII by adherent human IgG or by specific anti-Fc gamma R mAb activates HIV-1 gene expression in the human monocytic cell line BF24 and increased HIV RNA <clueType>expression</clueType> in monocytes from HIV infected patients as assayed by reverse transcription-PCR.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E8" />
+<clue>Here we report that cross-linking of Fc gamma RI or Fc gamma RII by adherent human IgG or by specific anti-Fc gamma R mAb activates HIV-1 gene expression in the human monocytic cell line BF24 and <clueType>increased</clueType> HIV RNA expression <clueLoc>in monocytes from HIV infected patients</clueLoc> as assayed <clueExperiment>by reverse transcription-PCR.</clueExperiment></clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E9" />
+<clue>Here we report that cross-linking of Fc gamma RI or Fc gamma RII by adherent human IgG or by specific anti-Fc gamma R mAb activates HIV-1 gene expression in the human monocytic cell line BF24 and <clueType>increased</clueType> HIV RNA expression <clueLoc>in monocytes from HIV infected patients</clueLoc> as assayed <clueExperiment>by reverse transcription-PCR.</clueExperiment></clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E10" />
+<clue>Here we report that cross-linking of Fc gamma RI or Fc gamma RII by adherent human IgG or by specific anti-Fc gamma R mAb activates HIV-1 gene expression in the human monocytic cell line BF24 and <clueType>increased</clueType> HIV RNA expression <clueLoc>in monocytes from HIV infected patients</clueLoc> as assayed <clueExperiment>by reverse transcription-PCR.</clueExperiment></clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="E11" />
+<clue>Here we report that cross-linking of Fc gamma RI or Fc gamma RII by adherent human IgG or by specific anti-Fc gamma R mAb activates HIV-1 gene expression in the human monocytic cell line BF24 and <clueType>increased</clueType> HIV RNA expression <clueLoc>in monocytes from HIV infected patients</clueLoc> as assayed <clueExperiment>by reverse transcription-PCR.</clueExperiment></clue>
+</event>
+<event id="E22">
+<type class="Viral_life_cycle" />
+<theme idref="A3" />
+<theme idref="T23" />
+<clue>Here we report that cross-linking of Fc gamma RI or Fc gamma RII by adherent human IgG or by specific anti-Fc gamma R mAb activates HIV-1 gene expression in the human monocytic cell line BF24 and increased HIV RNA expression in monocytes from HIV <clueType>infected</clueType> patients as assayed by reverse transcription-PCR.</clue>
+</event>
+<sentence id="S4">In <term sem="Cell_cultured" id="T25" lex="THP-1_cell"><term sem="Cell_cultured" id="T26" lex="THP-1">THP-1</term> cells</term>, <term sem="Other" id="T27" lex="Fc_gamma_R_cross-linking"><term sem="Protein_molecule" id="T28" lex="Fc_gamma_R">Fc gamma R</term> cross-linking</term> induced <term sem="Protein_molecule" id="T29" lex="NF-kappa_B">NF-kappa B</term>, which is known to bind to the <term sem="DNA_domain_or_region" id="T30" lex="regulatory_region">regulatory region</term> of the <term sem="DNA_domain_or_region" id="T31" lex="long_terminal_repeat">long terminal repeat</term> (<term sem="DNA_domain_or_region" id="T32" lex="LTR">LTR</term>) of <term sem="Virus" id="T33" lex="HIV-1">HIV-1</term> and to activate <term sem="Other" id="T34" lex="HIV-1_transcription"><term sem="Virus" id="T35" lex="HIV-1">HIV-1</term> transcription</term>.</sentence>
+<event id="E23">
+<type class="Binding" />
+<theme idref="T28" />
+<clue>In THP-1 cells, Fc gamma R <clueType>cross-linking</clueType> induced NF-kappa B, which is known to bind to the regulatory region of the long terminal repeat (LTR) of HIV-1 and to activate HIV-1 transcription.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation" />
+<theme idref="T29" />
+<cause idref="E22" />
+<clue><clueLoc>In THP-1 cells</clueLoc>, Fc gamma R cross-linking <clueType>induced</clueType> NF-kappa B, which is known to bind to the regulatory region of the long terminal repeat (LTR) of HIV-1 and to activate HIV-1 transcription.</clue>
+</event>
+<event id="E25">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="T32" />
+<clue>In THP-1 cells, Fc gamma R cross-linking induced NF-kappa B, which is known to <clueType>bind</clueType> <linkTheme>to</linkTheme> the regulatory region of the long terminal repeat (LTR) of HIV-1 and to activate HIV-1 transcription.</clue>
+</event>
+<event id="E26">
+<type class="Transcription" />
+<theme idref="T35" />
+<clue>In THP-1 cells, Fc gamma R cross-linking induced NF-kappa B, which is known to bind to the regulatory region of the long terminal repeat (LTR) of HIV-1 and to activate HIV-1 <clueType>transcription</clueType>.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation" />
+<theme idref="E26" />
+<cause idref="E25" />
+<clue>In THP-1 cells, Fc gamma R cross-linking induced NF-kappa B, which is known to bind to the regulatory region of the long terminal repeat (LTR) of HIV-1 and to <clueType>activate</clueType> HIV-1 transcription.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T36" lex="Anti-TNF-alpha_antibody">Anti-TNF-alpha antibody</term> but not <term sem="Protein_molecule" id="T37" lex="anti-IL-1_beta_antibody">anti-IL-1 beta antibody</term> strongly inhibited both the induction of <term sem="Virus" id="T39" lex="HIV-1">HIV-1</term>-<term sem="DNA_domain_or_region" id="T40" lex="LTR">LTR</term>-driven <term sem="Other" id="A4">transcription</term> and the induction of <term sem="Protein_molecule" id="T41" lex="NF-kappa_B">NF-kappa B</term> by <term sem="Other" id="T42" lex="Fc_gamma_R_cross-linking"><term sem="Protein_molecule" id="T43" lex="Fc_gamma_R">Fc gamma R</term> cross-linking</term>.</sentence>
+<event id="E28">
+<type class="Positive_regulation" />
+<theme idref="A4" />
+<cause idref="T40" />
+<clue>Anti-TNF-alpha antibody but not anti-IL-1 beta antibody strongly inhibited both the induction of HIV-1-LTR-<clueType>driven</clueType> transcription and the induction of NF-kappa B by Fc gamma R cross-linking.</clue>
+<comment>NER: T38 del &quot;HIV-1-LTR-driven transcription&quot;</comment></event>
+<event id="E61">
+<type class="Positive_regulation" />
+<theme idref="E28" />
+<clue>Anti-TNF-alpha antibody but not anti-IL-1 beta antibody strongly inhibited both the <clueType>induction</clueType> <linkTheme>of</linkTheme> HIV-1-LTR-driven transcription and the induction of NF-kappa B by Fc gamma R cross-linking.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation" />
+<theme idref="E61" />
+<cause idref="T36" />
+<clue>Anti-TNF-alpha antibody but not anti-IL-1 beta antibody strongly <clueType>inhibited</clueType> both the induction of HIV-1-LTR-driven transcription and the induction of NF-kappa B by Fc gamma R cross-linking.</clue>
+</event>
+<event assertion="non-exist" id="E30">
+<type class="Negative_regulation" />
+<theme idref="E61" />
+<cause idref="T37" />
+<clue>Anti-TNF-alpha antibody but not anti-IL-1 beta antibody strongly <clueType>inhibited</clueType> both the induction of HIV-1-LTR-driven transcription and the induction of NF-kappa B by Fc gamma R cross-linking.</clue>
+</event>
+<event id="E31">
+<type class="Binding" />
+<theme idref="T43" />
+<clue>Anti-TNF-alpha antibody but not anti-IL-1 beta antibody strongly inhibited both the induction of HIV-1-LTR-driven transcription and the induction of NF-kappa B by Fc gamma R <clueType>cross-linking</clueType>.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation" />
+<theme idref="T41" />
+<cause idref="E31" />
+<clue>Anti-TNF-alpha antibody but not anti-IL-1 beta antibody strongly inhibited both the induction of HIV-1-LTR-driven transcription and the <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-kappa B <linkCause>by</linkCause> Fc gamma R cross-linking.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="T36" />
+<clue>Anti-TNF-alpha antibody but not anti-IL-1 beta antibody strongly <clueType>inhibited</clueType> both the induction of HIV-1-LTR-driven transcription and the induction of NF-kappa B by Fc gamma R cross-linking.</clue>
+</event>
+<event assertion="non-exist" id="E34">
+<type class="Negative_regulation" />
+<theme idref="E32" />
+<cause idref="T37" />
+<clue>Anti-TNF-alpha antibody but not anti-IL-1 beta antibody strongly <clueType>inhibited</clueType> both the induction of HIV-1-LTR-driven transcription and the induction of NF-kappa B by Fc gamma R cross-linking.</clue>
+</event>
+<sentence id="S6">These results indicate that <term sem="Protein_molecule" id="T44" lex="Fc_gamma_R">Fc gamma R</term> can mediate a <term sem="Other" id="T45" lex="TNF-alpha-dependent_induction"><term sem="Protein_molecule" id="T46" lex="TNF-alpha">TNF-alpha</term>-dependent induction</term> of <term sem="Other" id="T47" lex="HIV-1_gene_transcription"><term sem="DNA_family_or_group" id="T48" lex="HIV-1_gene"><term sem="Virus" id="T49" lex="HIV-1">HIV-1</term> gene</term> transcription</term> and suggest that <term sem="Protein_complex" id="T50" lex="immune_complex">immune complexes</term> may contribute to the <term sem="Other" id="A5">pathophysiology of <term sem="Other" id="T51" lex="HIV-1_infection"><term sem="Virus" id="T52" lex="HIV-1">HIV-1</term> infection</term></term> by augmenting <term sem="Other" id="T53" lex="viral_replication">viral replication</term> in <term sem="Cell_natural" id="T54" lex="monocyte">monocytes</term>.</sentence>
+<event id="E35">
+<type class="Transcription" />
+<theme idref="T48" />
+<clue>These results indicate that Fc gamma R can mediate a TNF-alpha-dependent induction of HIV-1 gene <clueType>transcription</clueType> and suggest that immune complexes may contribute to the pathophysiology of HIV-1 infection by augmenting viral replication in monocytes.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation" />
+<theme idref="E35" />
+<cause idref="T46" />
+<clue>These results indicate that Fc gamma R can mediate a TNF-alpha-<linkCause>dependent</linkCause> <clueType>induction</clueType> <linkTheme>of</linkTheme> HIV-1 gene transcription and suggest that immune complexes may contribute to the pathophysiology of HIV-1 infection by augmenting viral replication in monocytes.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation" />
+<theme idref="E36" />
+<cause idref="T44" />
+<clue>These results indicate that Fc gamma R can <clueType>mediate</clueType> a TNF-alpha-dependent induction of HIV-1 gene transcription and suggest that immune complexes may contribute to the pathophysiology of HIV-1 infection by augmenting viral replication in monocytes.</clue>
+</event>
+<event id="E38">
+<type class="Viral_life_cycle" />
+<theme idref="T52" />
+<clue>These results indicate that Fc gamma R can mediate a TNF-alpha-dependent induction of HIV-1 gene transcription and suggest that immune complexes may contribute to the pathophysiology of HIV-1 <clueType>infection</clueType> by augmenting viral replication in monocytes.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation" />
+<theme idref="T53" />
+<clue>These results indicate that Fc gamma R can mediate a TNF-alpha-dependent induction of HIV-1 gene transcription and suggest that immune complexes may contribute to the pathophysiology of HIV-1 infection by <clueType>augmenting</clueType> viral replication <clueLoc>in monocytes</clueLoc>.</clue>
+</event>
+<event id="E40">
+<type class="Regulation" />
+<theme idref="A5" />
+<cause idref="E39" />
+<clue>These results indicate that Fc gamma R can mediate a TNF-alpha-dependent induction of HIV-1 gene transcription and suggest that immune complexes may contribute to the pathophysiology of HIV-1 infection <linkCause>by</linkCause> augmenting viral replication in monocytes.</clue>
+<comment>TPS: A5, NO CLUETYPE</comment></event>
+<event uncertainty="probable" id="E41">
+<type class="Positive_regulation" />
+<theme idref="E40" />
+<cause idref="T50" />
+<clue>These results indicate that Fc gamma R can mediate a TNF-alpha-dependent induction of HIV-1 gene transcription and suggest that immune complexes may <clueType>contribute</clueType> <linkTheme>to</linkTheme> the pathophysiology of HIV-1 infection by augmenting viral replication in monocytes.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="26/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7964616" creator="Yo Shidahara">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7964616</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="DNA_domain_or_region" id="A1">DNA</term>-binding studies of the <term sem="Protein_molecule" id="T1" lex="Epstein-Barr_virus_nuclear_antigen_2"><term sem="Virus" id="T2" lex="epstein-Barr_virus">Epstein-Barr virus</term> nuclear antigen 2</term> (<term sem="Protein_molecule" id="T3" lex="EBNA-2">EBNA-2</term>): evidence for complex formation by <term sem="Protein_family_or_group" id="T4" lex="latent_membrane_protein_gene_promoter-binding_protein">latent membrane protein gene promoter-binding proteins</term> in <term sem="Cell_cultured" id="T5" lex="EBNA-2-positive_cell_line"><term sem="Protein_molecule" id="T6" lex="EBNA-2">EBNA-2</term>-positive cell lines</term>.</sentence>
+<event uncertainty="doubtful" id="E1">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T1" />
+<clue>DNA-<clueType>binding studies</clueType> <linkTheme>of</linkTheme> the Epstein-Barr virus nuclear antigen 2 (EBNA-2): evidence for complex formation by latent membrane protein gene promoter-binding proteins in EBNA-2-positive cell lines.</clue>
+</event>
+<event id="E2">
+<type class="Binding" />
+<theme idref="T4" />
+<clue>DNA-binding studies of the Epstein-Barr virus nuclear antigen 2 (EBNA-2): evidence for <clueType>complex formation</clueType> <linkTheme>by</linkTheme> latent membrane protein gene promoter-binding proteins <clueLoc>in EBNA-2-positive cell lines</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_molecule" id="T7" lex="Epstein-Barr_virus_(EBV)_nuclear_antigen_2"><term sem="Virus" id="T8" lex="epstein-Barr_virus">Epstein-Barr virus</term> (<term sem="Virus" id="T9" lex="EBV">EBV</term>) nuclear antigen 2</term> (<term sem="Protein_molecule" id="T10" lex="EBNA-2">EBNA-2</term>) protein is essential for the immortalization of <term sem="Cell_natural" id="T11" lex="human_primary_B_cell">human primary B cells</term> by <term sem="Virus" id="T12" lex="EBV">EBV</term>.</sentence>
+<event id="E3">
+<type class="Cellular_physiological_process" />
+<theme idref="T11" />
+<clue>The Epstein-Barr virus (EBV) nuclear antigen 2 (EBNA-2) protein is essential for the <clueType>immortalization</clueType> <linkTheme>of</linkTheme> human primary B cells by EBV.</clue>
+</event>
+<event id="E103">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T12" />
+<clue>The Epstein-Barr virus (EBV) nuclear antigen 2 (EBNA-2) protein is essential for the <clueType>immortalization</clueType> of human primary B cells <linkCause>by</linkCause> EBV.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T10" />
+<clue>The Epstein-Barr virus (EBV) nuclear antigen 2 (EBNA-2) protein is <clueType>essential</clueType> <linkTheme>for</linkTheme> the immortalization of human primary B cells by EBV.</clue>
+</event>
+<sentence id="S3"><term sem="Protein_molecule" id="T13" lex="EBNA-2">EBNA-2</term> trans-activates <cons sem="(AND DNA_family_or_group DNA_family_or_group)" id="T14" lex="(AND cellular_gene viral_gene)"><frag id="F1"><term sem="DNA_domain_or_region" id="A2">cellular</term></frag> and <frag id="F2"><term sem="DNA_domain_or_region" id="A3">viral</term></frag> <frag id="F3"><term sem="DNA_domain_or_region" id="A4">genes</term></frag></cons> like <term sem="DNA_domain_or_region" id="T15" lex="CD23">CD23</term>, <term sem="DNA_domain_or_region" id="T16" lex="c-fgr">c-fgr</term>, <term sem="Protein_molecule" id="T17" lex="latent_membrane_protein_1">latent membrane protein 1</term> (<term sem="Protein_molecule" id="T18" lex="LMP1">LMP1</term>) and <term sem="Protein_molecule" id="T19" lex="terminal_protein_1">terminal protein 1</term> (<term sem="Protein_molecule" id="T20" lex="TP1">TP1</term>).</sentence>
+<event id="E106">
+<type class="Positive_regulation" />
+<theme idref1="A4" idref="A2" />
+<cause idref="T13" />
+<clue>EBNA-2 <clueType>trans-activates</clueType> cellular and viral genes like CD23, c-fgr, latent membrane protein 1 (LMP1) and terminal protein 1 (TP1).</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref1="A4" idref="A3" />
+<cause idref="T13" />
+<clue>EBNA-2 <clueType>trans-activates</clueType> cellular and viral genes like CD23, c-fgr, latent membrane protein 1 (LMP1) and terminal protein 1 (TP1).</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T15" />
+<cause idref="T13" />
+<clue>EBNA-2 <clueType>trans-activates</clueType> <corefTheme idref1="T15">cellular</corefTheme> and viral <corefTheme idref1="T15">genes</corefTheme> like CD23, c-fgr, latent membrane protein 1 (LMP1) and terminal protein 1 (TP1).</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<cause idref="T13" />
+<clue>EBNA-2 <clueType>trans-activates</clueType> <corefTheme idref1="T16">cellular</corefTheme> and viral <corefTheme idref1="T16">genes</corefTheme> like CD23, c-fgr, latent membrane protein 1 (LMP1) and terminal protein 1 (TP1).</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="T18" />
+<cause idref="T13" />
+<clue>EBNA-2 <clueType>trans-activates</clueType> cellular and <corefTheme>viral genes</corefTheme> like CD23, c-fgr, latent membrane protein 1 (LMP1) and terminal protein 1 (TP1).</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T20" />
+<cause idref="T13" />
+<clue>EBNA-2 <clueType>trans-activates</clueType> cellular and <corefTheme>viral genes</corefTheme> like CD23, c-fgr, latent membrane protein 1 (LMP1) and terminal protein 1 (TP1).</clue>
+</event>
+<sentence id="S4">Trans-activation of the <term sem="DNA_domain_or_region" id="T21" lex="TP1_promoter">TP1 promoter</term> and of the <term sem="DNA_domain_or_region" id="T22" lex="BamHI_C_promoter">BamHI C promoter</term> has already been investigated in detail and appears to be mediated via <term sem="Other" id="T23" lex="protein-protein_interaction">protein-protein interactions</term> and not by direct binding of <term sem="Protein_molecule" id="T24" lex="EBNA-2_type_A"><term sem="Protein_molecule" id="T25" lex="EBNA-2">EBNA-2</term> type A</term> (of <term sem="Virus" id="T26" lex="EBV_type_1">EBV type 1</term>) to the <term sem="DNA_domain_or_region" id="A5">DNA</term>.</sentence>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="T21" />
+<clue><clueType>Trans-activation</clueType> <linkTheme>of</linkTheme> the TP1 promoter and of the BamHI C promoter has already been investigated in detail and appears to be mediated via protein-protein interactions and not by direct binding of EBNA-2 type A (of EBV type 1) to the DNA.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation" />
+<theme idref="T22" />
+<clue><clueType>Trans-activation</clueType> of the TP1 promoter and <linkTheme>of</linkTheme> the BamHI C promoter has already been investigated in detail and appears to be mediated via protein-protein interactions and not by direct binding of EBNA-2 type A (of EBV type 1) to the DNA.</clue>
+</event>
+<event uncertainty="probable" id="E13">
+<type class="Positive_regulation" />
+<theme idref="E11" />
+<cause idref="T23" />
+<clue>Trans-activation of the TP1 promoter and of the BamHI C promoter has already been investigated in detail and appears to be <clueType>mediated</clueType> <linkCause>via</linkCause> protein-protein interactions and not by direct binding of EBNA-2 type A (of EBV type 1) to the DNA.</clue>
+</event>
+<event uncertainty="probable" id="E14">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="T23" />
+<clue>Trans-activation of the TP1 promoter and of the BamHI C promoter has already been investigated in detail and appears to be <clueType>mediated</clueType> <linkCause>via</linkCause> protein-protein interactions and not by direct binding of EBNA-2 type A (of EBV type 1) to the DNA.</clue>
+</event>
+<event id="E15">
+<type class="Binding" />
+<theme idref="T24" />
+<theme idref="A5" />
+<clue>Trans-activation of the TP1 promoter and of the BamHI C promoter has already been investigated in detail and appears to be mediated via protein-protein interactions and not by direct <clueType>binding</clueType> <linkTheme>of</linkTheme> EBNA-2 type A (of EBV type 1) <linkTheme>to</linkTheme> the DNA.</clue>
+</event>
+<event assertion="non-exist" uncertainty="probable" id="E16">
+<type class="Positive_regulation" />
+<theme idref="E12" />
+<cause idref="E15" />
+<clue>Trans-activation of the TP1 promoter and of the BamHI C promoter has already been investigated in detail and appears to be <clueType>mediated</clueType> via protein-protein interactions and not <linkCause>by</linkCause> direct binding of EBNA-2 type A (of EBV type 1) to the DNA.</clue>
+</event>
+<sentence id="S5"><term sem="Protein_molecule" id="T27" lex="EBNA-2">EBNA-2</term> is able to trans-activate the expression of the <term sem="DNA_domain_or_region" id="T28" lex="LMP_gene">LMP gene</term> in several cell lines.</sentence>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T28" />
+<clue>EBNA-2 is able to trans-activate the <clueType>expression</clueType> <linkTheme>of</linkTheme> the LMP gene <clueLoc>in several cell lines</clueLoc>.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation" />
+<theme idref="E17" />
+<cause idref="T27" />
+<clue>EBNA-2 is able to <clueType>trans-activate</clueType> the expression of the LMP gene in several cell lines.</clue>
+</event>
+<sentence id="S6">Various reports have delineated the <term sem="DNA_domain_or_region" id="A6"><term sem="DNA_domain_or_region" id="T29" lex="cis-acting_element">cis-acting elements</term> of the <term sem="DNA_domain_or_region" id="T30" lex="LMP_promoter">LMP promoter</term></term> through which <term sem="Protein_molecule" id="T31" lex="EBNA-2">EBNA-2</term> mediates <term sem="Other" id="T32" lex="trans-activation">trans-activation</term>.</sentence>
+<event id="E19">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="T31" />
+<clue>Various reports have delineated the cis-acting elements of the LMP promoter <linkTheme>through which</linkTheme> EBNA-2 <clueType>mediates</clueType> trans-activation.</clue>
+<comment>TPS A6</comment>
+</event>
+<event id="E20">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<cause idref="E19" />
+<clue>Various reports have delineated the cis-acting elements of the LMP promoter <linkCause>through which</linkCause> EBNA-2 <clueType>mediates</clueType> trans-activation.</clue>
+</event>
+<sentence id="S7">To determine whether <term sem="Protein_molecule" id="T33" lex="EBNA-2">EBNA-2</term> also trans-activates the <term sem="DNA_domain_or_region" id="T34" lex="LMP_promoter">LMP promoter</term> by <term sem="Other" id="T35" lex="protein-protein_interaction">protein-<term sem="Protein_family_or_group" id="A103">protein</term> interactions</term>, we performed a series of <term sem="Other" id="T36" lex="gel_retardation_assay">gel retardation assays</term> and competition experiments with <term sem="DNA_molecule" id="T37" lex="LMP_promoter_fragment"><term sem="DNA_domain_or_region" id="T38" lex="LMP_promoter">LMP promoter</term> fragments</term> of different sizes.</sentence>
+<event id="E21">
+<type class="Binding" />
+<theme idref="T33" />
+<theme idref="A103" />
+<clue>To determine whether EBNA-2 also trans-activates the LMP promoter by <corefTheme>protein</corefTheme>-protein <clueType>interactions</clueType>, we performed a series of gel retardation assays and competition experiments with LMP promoter fragments of different sizes.</clue>
+</event>
+<event uncertainty="doubtful" id="E22">
+<type class="Positive_regulation" />
+<theme idref="T34" />
+<cause idref="E21" />
+<clue>To determine whether EBNA-2 also <clueType>trans-activates</clueType> the LMP promoter <linkCause>by</linkCause> protein-protein interactions, we performed a series of gel retardation assays and competition experiments with LMP promoter fragments of different sizes.</clue>
+<comment>CAUTION: E21=EBNA-2-protein complex</comment>
+</event>
+<sentence id="S8">We determined that the <term sem="DNA_domain_or_region" id="T39" lex="protein-binding_region"><term sem="Protein_family_or_group" id="A7">protein</term>-binding region</term> on the <term sem="DNA_domain_or_region" id="T40" lex="LMP_promoter">LMP promoter</term> was within a <term sem="DNA_domain_or_region" id="T41" lex="42_bp_fragment">42 bp fragment</term> encompassing <term sem="DNA_substructure" id="T42" lex="nucleotides_-135_to_-176">nucleotides -135 to -176</term> relative to the <term sem="DNA_domain_or_region" id="T43" lex="LMP_transcriptional_start_site">LMP transcriptional start site</term>.</sentence>
+<event id="E23">
+<type class="Binding" />
+<theme idref="T40" />
+<theme idref="A7" />
+<clue>We determined that the protein-<clueType>binding</clueType> region <linkTheme>on</linkTheme> the LMP promoter was within a 42 bp fragment encompassing nucleotides -135 to -176 relative to the LMP transcriptional start site.</clue>
+</event>
+<sentence id="S9">None of the <term sem="DNA_family_or_group" id="A102">DNA fragments investigated</term> indicated interaction of <term sem="Protein_molecule" id="T44" lex="EBNA-2">EBNA-2</term> with the <term sem="DNA_domain_or_region" id="A8">DNA</term> via <term sem="Other" id="T45" lex="protein-protein_interaction">protein-<term sem="Protein_family_or_group" id="A101">protein</term> interactions</term>.</sentence>
+<event id="E124">
+<type class="Binding" />
+<theme idref="T44" />
+<theme idref="A101" />
+<clue>None of the DNA fragments investigated indicated interaction of EBNA-2 with the DNA via <corefTheme>protein</corefTheme>-protein <clueType>interactions</clueType>.</clue>
+<comment>TPS A102</comment>
+</event>
+<event assertion="non-exist" id="E224">
+<type class="Positive_regulation" />
+<theme idref="E24" />
+<cause idref="E124" />
+<clue>None of the DNA fragments investigated indicated interaction of EBNA-2 with the DNA <linkTheme>via</linkTheme> protein-protein interactions.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<event id="E24">
+<type class="Binding" />
+<theme idref="T44" />
+<theme idref="A102" />
+<clue>None of the DNA fragments investigated indicated <clueType>interaction</clueType> <linkTheme>of</linkTheme> EBNA-2 <linkTheme>with</linkTheme> <corefTheme>the DNA</corefTheme> via protein-protein interactions.</clue>
+</event>
+<sentence id="S10">No significant differences between <term sem="Protein_molecule" id="T46" lex="EBNA-2">EBNA-2</term>-positive and <term sem="Protein_molecule" id="T47" lex="EBNA-2">EBNA-2</term>-negative <term sem="Cell_component" id="T48" lex="nuclear_extract">nuclear extracts</term> could be seen in the <term sem="Other" id="T49" lex="gel_retardation_assay">gel retardation assay</term> under conditions that clearly showed binding of <term sem="Protein_molecule" id="T50" lex="EBNA-2A">EBNA-2A</term> to the <term sem="DNA_domain_or_region" id="T51" lex="TP1_promoter">TP1 promoter</term>.</sentence>
+<event id="E26">
+<type class="Binding" />
+<theme idref="T50" />
+<theme idref="T51" />
+<clue>No significant differences between <clueLoc>EBNA-2-positive</clueLoc> and EBNA-2-negative <clueLoc>nuclear extracts</clueLoc> could be seen <clueExperiment>in the gel retardation assay under conditions</clueExperiment> that clearly showed <clueType>binding</clueType> <linkTheme>of</linkTheme> EBNA-2A <linkTheme>to</linkTheme> the TP1 promoter.</clue>
+</event>
+<event id="E126">
+<type class="Binding" />
+<theme idref="T50" />
+<theme idref="T51" />
+<clue>No significant differences between EBNA-2-positive and <clueLoc>EBNA-2-negative nuclear extracts</clueLoc> could be seen <clueExperiment>in the gel retardation assay under conditions</clueExperiment> that clearly showed <clueType>binding</clueType> <linkTheme>of</linkTheme> EBNA-2A <linkTheme>to</linkTheme> the TP1 promoter.</clue>
+</event>
+<sentence id="S11">However, analysis of <term sem="Other" id="T52" lex="sucrose_gradient_fraction">sucrose gradient fractions</term> in the <term sem="Other" id="T53" lex="gel_retardation_assay">gel retardation assay</term> provided evidence that the <term sem="Protein_family_or_group" id="T54" lex="LMP_promoter-binding_protein"><term sem="DNA_domain_or_region" id="T55" lex="LMP_promoter">LMP promoter</term>-binding <term sem="Protein_family_or_group" id="A9">proteins</term></term> form a complex of higher M(r) in <term sem="Other" id="T56" lex="EBNA-2-positive_cell_extract"><term sem="Cell_natural" id="T57" lex="EBNA-2-positive_cell"><term sem="Protein_molecule" id="T58" lex="EBNA-2">EBNA-2</term>-positive cell</term> extracts</term>.</sentence>
+<event id="E27">
+<type class="Binding" />
+<theme idref="T54" />
+<clue>However, <clueExperiment>analysis of sucrose gradient fractions in the gel retardation assay</clueExperiment> provided evidence that the LMP promoter-binding proteins <clueType>form a complex</clueType> of higher M(r) <clueLoc>in EBNA-2-positive cell extracts</clueLoc>.</clue>
+</event>
+<event id="E28">
+<type class="Binding" />
+<theme idref="T55" />
+<theme idref="A9" />
+<clue>However, analysis of sucrose gradient fractions in the gel retardation assay provided evidence that the LMP promoter-<clueType>binding</clueType> proteins form a complex of higher M(r) in EBNA-2-positive cell extracts.</clue>
+</event>
+<sentence id="S12">These complexes were destroyed by <term sem="Inorganic_compound" id="A10">detergent</term>.</sentence>
+<event id="E29">
+<type />
+<theme idref="E27" />
+<cause idref="A10" />
+<clue><corefTheme>These complexes</corefTheme> were <clueType>destroyed</clueType> <linkCause>by</linkCause> detergent.</clue>
+<comment>SOO</comment>
+</event>
+<sentence id="S13">We deduce from these results that <term sem="Cell_cultured" id="T59" lex="EBNA-2-positive_cell"><term sem="Protein_molecule" id="T60" lex="EBNA-2">EBNA-2</term>-positive cells</term> might indeed contain <term sem="Protein_complex" id="T61" lex="specific_complex">specific complexes</term> bound to the <term sem="DNA_domain_or_region" id="T62" lex="LMP_promoter">LMP promoter</term> which are, however, too labile to be detected in a standard <term sem="Other" id="T63" lex="gel_retardation_assay">gel retardation assay</term>.</sentence>
+<event uncertainty="probable" id="E30">
+<type class="Binding" />
+<theme idref="T61" />
+<theme idref="T62" />
+<clue>We deduce from these results that <clueLoc>EBNA-2-positive cells</clueLoc> might indeed contain specific complexes <clueType>bound</clueType> <linkTheme>to</linkTheme> the LMP promoter which are, however, too labile to be detected in a standard gel retardation assay.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

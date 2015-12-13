@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="18/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8663230" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8663230</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Mapping of the <term sem="Protein_domain_or_region" id="T1" lex="transcriptional_repression_domain">transcriptional repression domain</term> of the <term sem="Protein_family_or_group" id="T2" lex="lymphoid-specific_transcription_factor">lymphoid-specific transcription factor</term> <term sem="Protein_molecule" id="T3" lex="oct-2A">oct-2A</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_family_or_group" id="T4" lex="lymphoid-specific_transcription_factor">lymphoid-specific transcription factor</term> <term sem="Protein_molecule" id="T5" lex="Oct-2a">Oct-2a</term> is implicated in <term sem="Other" id="T6" lex="B_cell-specific_transcriptional_activity">B cell-specific transcriptional activity</term> via the <term sem="Polynucleotide" id="T7" lex="octamer_motif">octamer motif</term>.</sentence>
+<event uncertainty="probable" id="E1">
+<type class="Correlation" />
+<theme idref="T5" />
+<theme idref="T6" />
+<clue>The lymphoid-specific transcription factor Oct-2a is <clueType>implicated</clueType> <linkTheme>in</linkTheme> B cell-specific transcriptional activity via the octamer motif.</clue>
+</event>
+<event id="E2">
+<type class="Correlation" />
+<theme idref="E1" />
+<theme idref="T7" />
+<clue>The lymphoid-specific transcription factor Oct-2a is implicated in B cell-specific transcriptional activity <linkTheme>via</linkTheme> the octamer motif.</clue>
+<comment>NO CLUETYPE</comment>
+</event>
+<sentence id="S3">Structure/function analysis of various <term sem="Protein_domain_or_region" id="T8" lex="Oct-2a_effector_region"><term sem="Protein_molecule" id="T9" lex="Oct-2a">Oct-2a</term> effector regions</term> in the context of the <term sem="Protein_domain_or_region" id="T10" lex="GAL4_DNA-binding_domain">GAL4 DNA-binding domain</term> revealed that <term sem="Protein_molecule" id="T11" lex="Oct-2a">Oct-2a</term> contains two functionally different <term sem="Protein_domain_or_region" id="T12" lex="activation_domain">activation domains</term> at the <cons sem="(AND Protein_domain_or_region Protein_domain_or_region)" id="T13" lex="(AND N_terminus the_C_terminus)"><frag id="F1"><term sem="Protein_domain_or_region" id="A1">N</term></frag> and the <frag id="F2"><term sem="Protein_domain_or_region" id="A2">C</term></frag> <frag id="F3"><term sem="Protein_domain_or_region" id="A3">termini</term></frag></cons>.</sentence>
+<sentence id="S4">The <term sem="Other" id="T14" lex="transcriptional_activity">transcriptional activity</term> of both domains is strongly potentiated by interactions with distinct <term sem="Protein_family_or_group" id="T15" lex="B_cell-specific_coactivator">B cell-specific coactivators</term>.</sentence>
+<event id="E3">
+<type class="Binding" />
+<theme idref="T15" />
+<theme idref1="A3" idref="A1" />
+<clue>The transcriptional activity of both domains is strongly potentiated by <clueType>interactions</clueType> <linkTheme>with</linkTheme> distinct B cell-specific coactivators.</clue>
+</event>
+<event id="E4">
+<type class="Binding" />
+<theme idref="T15" />
+<theme idref1="A3" idref="A2" />
+<clue>The transcriptional activity of both domains is strongly potentiated by <clueType>interactions</clueType> <linkTheme>with</linkTheme> distinct B cell-specific coactivators.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref1="A3" idref="A1" />
+<cause idref="E3" />
+<clue>The transcriptional activity of <corefTheme>both domains</corefTheme> is strongly <clueType>potentiated</clueType> <linkCause>by</linkCause> interactions with distinct B cell-specific coactivators.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref1="A3" idref="A2" />
+<cause idref="E4" />
+<clue>The transcriptional activity of <corefTheme>both domains</corefTheme> is strongly <clueType>potentiated</clueType> <linkCause>by</linkCause> interactions with distinct B cell-specific coactivators.</clue>
+</event>
+<sentence id="S5">Recently, we have identified a <term sem="Protein_domain_or_region" id="T16" lex="repression_domain">repression domain</term> located within the <term sem="Protein_domain_or_region" id="T17" lex="N_terminus">N terminus</term> of <term sem="Protein_molecule" id="T18" lex="Oct-2a">Oct-2a</term> (<term sem="Protein_domain_or_region" id="T19" lex="amino_acids_2-99">amino acids 2-99</term>).</sentence>
+<sentence id="S6">When this domain was transferred to a <term sem="Protein_molecule" id="A5">potent activator</term>, <term sem="Other" id="T20" lex="transcription">transcription</term> was strongly inhibited.</sentence>
+<event id="E7">
+<type class="Artificial_process" />
+<theme idref="T16" />
+<theme idref="A5" />
+<clue>When <corefTheme idref1="T16">this domain</corefTheme> was <clueType>transferred</clueType> <linkTheme>to</linkTheme> a potent activator, transcription was strongly inhibited.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation" />
+<theme idref="T20" />
+<cause idref="E7" />
+<clue>When this domain was transferred to a potent activator, transcription was strongly <clueType>inhibited</clueType>.</clue>
+</event>
+<sentence id="S7">In this study we present a <term sem="Other" id="T21" lex="deletion_analysis">deletion analysis</term> of the <term sem="Protein_domain_or_region" id="T22" lex="N-terminal_region">N-terminal region</term> of <term sem="Protein_molecule" id="T23" lex="Oct-2a">Oct-2a</term> to determine the <term sem="Protein_domain_or_region" id="T24" lex="minimal_repression_domain">minimal repression domain</term>.</sentence>
+<sentence id="S8">We identified a stretch of <term sem="Peptide" id="T25" lex="23_amino_acid">23 amino acids</term>, rich in <term sem="Amino_acid_monomer" id="T26" lex="serine">serine</term> and <term sem="Amino_acid_monomer" id="T27" lex="threonine_residue"><term sem="Amino_acid_monomer" id="T28" lex="threonine">threonine</term> residues</term>, which was responsible for most of the <term sem="Other" id="A6">repression activity</term>.</sentence>
+<event id="E9">
+<type class="Positive_regulation" />
+<theme idref="A6" />
+<cause idref="T25" />
+<clue>We identified a stretch of 23 amino acids, rich in serine and threonine residues, which was <clueType>responsible</clueType> <linkTheme>for</linkTheme> most of the repression activity.</clue>
+</event>
+<sentence id="S9">We show that <term sem="Other" id="A7">repression</term> is strongly dependent on the type of <term sem="DNA_domain_or_region" id="T29" lex="enhancer">enhancer</term> present in the <term sem="DNA_molecule" id="T30" lex="reporter_plasmid">reporter plasmid</term> as well as on the <term sem="Cell_cultured" id="T31" lex="cell_line">cell line</term> tested.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="T29" />
+<clue>We show that repression is strongly <clueType>dependent</clueType> <linkTheme>on</linkTheme> the type of enhancer present in the reporter plasmid as well as on the cell line tested.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation" />
+<theme idref="A7" />
+<cause idref="T31" />
+<clue>We show that repression is strongly <clueType>dependent</clueType> on the type of enhancer present in the reporter plasmid as well as <linkTheme>on</linkTheme> the cell line tested.</clue>
+</event>
+<sentence id="S10">The possibility that <term sem="Protein_molecule" id="T32" lex="Oct-2a">Oct-2a</term> can act as an activator and/or a repressor may have important consequences for the function of <term sem="Protein_molecule" id="T33" lex="Oct-2a">Oct-2a</term> in <term sem="Other" id="T34" lex="B_cell_differentiation"><term sem="Cell_natural" id="A8">B cell</term> differentiation</term> and other developmental processes.</sentence>
+<event id="E12">
+<type class="Cell_differentiation" />
+<theme idref="A8" />
+<clue>The possibility that Oct-2a can act as an activator and/or a repressor may have important consequences for the function of Oct-2a in B cell <clueType>differentiation</clueType> and other developmental processes.</clue>
+</event>
+<event id="E13">
+<type class="Cellular_physiological_process" />
+<theme idref="A8" />
+<clue>The possibility that Oct-2a can act as an activator and/or a repressor may have important consequences for the function of Oct-2a in B cell differentiation and other <clueType>developmental processes</clueType>.</clue>
+</event>
+<event id="E14">
+<type class="Regulation" />
+<theme idref="E12" />
+<cause idref="T33" />
+<clue>The possibility that Oct-2a can act as an activator and/or a repressor may have important consequences for the <clueType>function</clueType> <linkCause>of</linkCause> Oct-2a <linkTheme>in</linkTheme> B cell differentiation and other developmental processes.</clue>
+</event>
+<event id="E15">
+<type class="Regulation" />
+<theme idref="E13" />
+<cause idref="T33" />
+<clue>The possibility that Oct-2a can act as an activator and/or a repressor may have important consequences for the <clueType>function</clueType> <linkCause>of</linkCause> Oct-2a <linkTheme>in</linkTheme> B cell differentiation and other developmental processes.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

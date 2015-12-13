@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="12/10/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7969146" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>7969146</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification of a <term sem="DNA_domain_or_region" id="A1">region</term> which directs the <term sem="Other" id="T1" lex="monocytic_activity">monocytic activity</term> of the <term sem="DNA_domain_or_region" id="T2" lex="colony-stimulating_factor_1_(macrophage_colony-stimulating_factor)_receptor_promoter"><term sem="Protein_molecule" id="T3" lex="colony-stimulating_factor_1">colony-stimulating factor 1</term> (<term sem="Protein_molecule" id="T4" lex="macrophage_colony-stimulating_factor">macrophage colony-stimulating factor</term>) <term sem="DNA_domain_or_region" id="T5" lex="receptor_promoter">receptor promoter</term></term> and binds <term sem="Protein_molecule" id="T6" lex="PEBP2/CBF">PEBP2/CBF</term> (<term sem="Protein_molecule" id="T7" lex="AML1">AML1</term>).</sentence>
+<event uncertainty="doubtful" id="E1">
+<type class="Regulation" />
+<theme idref="T2" />
+<cause idref="A1" />
+<clue>Identification of a region which <clueType>directs</clueType> the <clueLoc>monocytic</clueLoc> activity of the colony-stimulating factor 1 (macrophage colony-stimulating factor) receptor promoter and binds PEBP2/CBF (AML1).</clue>
+</event>
+<event uncertainty="doubtful" id="E2">
+<type class="Binding" />
+<theme idref="A1" />
+<theme idref="T7" />
+<clue>Identification of a region which directs the monocytic activity of the colony-stimulating factor 1 (macrophage colony-stimulating factor) receptor promoter and <clueType>binds</clueType> PEBP2/CBF (AML1).</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_molecule" id="A2">receptor for the <term sem="Protein_molecule" id="T8" lex="macrophage_colony-stimulating_factor">macrophage colony-stimulating factor</term></term> (or <term sem="Protein_molecule" id="T9" lex="colony-stimulating_factor_1">colony-stimulating factor 1</term> [<term sem="Protein_molecule" id="T10" lex="CSF-1">CSF-1</term>]) is expressed from different promoters in <term sem="Cell_natural" id="T11" lex="monocytic_cell">monocytic cells</term> and <term sem="Cell_natural" id="T12" lex="placental_trophoblast">placental trophoblasts</term>.</sentence>
+<event id="E300">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>The receptor for the macrophage colony-stimulating factor (or colony-stimulating factor 1 [CSF-1]) is <clueType>expressed</clueType> from different promoters <clueLoc>in monocytic cells</clueLoc> and placental trophoblasts.</clue>
+<comment>TPS: A2</comment>
+</event>
+<event id="E301">
+<type class="Gene_expression" />
+<theme idref="A2" />
+<clue>The receptor for the macrophage colony-stimulating factor (or colony-stimulating factor 1 [CSF-1]) is <clueType>expressed</clueType> from different promoters <clueLoc>in</clueLoc> monocytic cells and <clueLoc>placental trophoblasts</clueLoc>.</clue>
+<comment>TPS: A2</comment>
+</event>
+<sentence id="S3">We have demonstrated that the <term sem="Other" id="T13" lex="monocyte-specific_expression">monocyte-specific expression</term> of the <term sem="Protein_molecule" id="T14" lex="CSF-1_receptor"><term sem="Protein_molecule" id="T15" lex="CSF-1">CSF-1</term> receptor</term> is regulated at the level of transcription by a <term sem="DNA_domain_or_region" id="T16" lex="tissue-specific_promoter">tissue-specific promoter</term> whose activity is stimulated by the <term sem="Protein_family_or_group" id="T17" lex="monocyte/B-cell-specific_transcription_factor">monocyte/B-cell-specific transcription factor</term> <term sem="Protein_molecule" id="T18" lex="PU.1">PU.1</term> (D.-E.Zhang, C.J.Hetherington, H.-M.Chen, and D.G.Tenen, Mol.Cell. Biol.14:373-381, 1994).</sentence>
+<event id="E4">
+<type class="Gene_expression" />
+<theme idref="T14" />
+<clue>We have demonstrated that the <clueLoc>monocyte-specific</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> the CSF-1 receptor is regulated at the level of transcription by a tissue-specific promoter whose activity is stimulated by the monocyte/B-cell-specific transcription factor PU.1 (D.-E.Zhang, C.J.Hetherington, H.-M.Chen, and D.G.Tenen, Mol.Cell. Biol.14:373-381, 1994).</clue>
+</event>
+<event id="E5">
+<type class="Regulation" />
+<theme idref="E4" />
+<cause idref="T16" />
+<clue>We have demonstrated that the monocyte-specific expression of the CSF-1 receptor is <clueType>regulated</clueType> at the level of transcription <linkCause>by</linkCause> a tissue-specific promoter whose activity is stimulated by the monocyte/B-cell-specific transcription factor PU.1 (D.-E.Zhang, C.J.Hetherington, H.-M.Chen, and D.G.Tenen, Mol.Cell. Biol.14:373-381, 1994).</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<cause idref="T18" />
+<clue>We have demonstrated that the monocyte-specific expression of the CSF-1 receptor is regulated at the level of transcription by a tissue-specific promoter whose activity is <clueType>stimulated</clueType> <linkCause>by</linkCause> the monocyte/B-cell-specific transcription factor PU.1 (D.-E.Zhang, C.J.Hetherington, H.-M.Chen, and D.G.Tenen, Mol.Cell. Biol.14:373-381, 1994).</clue>
+</event>
+<sentence id="S4">Here we report that the tissue specificity of this <term sem="DNA_domain_or_region" id="T19" lex="promoter">promoter</term> is also mediated by sequences in a <term sem="DNA_domain_or_region" id="T20" lex="region_II">region II</term> (bp -88 to - 59), which lies <term sem="DNA_domain_or_region" id="T21" lex="10_bp_upstream">10 bp upstream</term> from the <term sem="DNA_domain_or_region" id="T22" lex="PU.1-binding_site"><term sem="Protein_molecule" id="T23" lex="PU.1">PU.1</term>-binding site</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation" />
+<theme idref="T16" />
+<cause idref="T20" />
+<clue>Here we report that the tissue specificity of <corefTheme>this promoter</corefTheme> is also <clueType>mediated</clueType> <linkCause>by</linkCause> sequences in a region II (bp -88 to - 59), which lies 10 bp upstream from the PU.1-binding site.</clue>
+</event>
+<sentence id="S5">When analyzed by <term sem="Other" id="T24" lex="DNase_footprinting"><term sem="Protein_molecule" id="T25" lex="DNase">DNase</term> footprinting</term>, <term sem="DNA_domain_or_region" id="T26" lex="region_II">region II</term> was protected preferentially in <term sem="Cell_natural" id="T27" lex="monocytic_cell">monocytic cells</term>.</sentence>
+<event id="E8">
+<type class="Binding" />
+<theme idref="T26" />
+<clue>When analyzed by <clueExperiment>DNase footprinting</clueExperiment>, region II was <clueType>protected</clueType> preferentially <clueLoc>in monocytic cells.</clueLoc></clue>
+<comment>CAUTION : protect</comment>
+</event>
+<sentence id="S6"><term sem="Other" id="T28" lex="electrophoretic_mobility_shift_assay">Electrophoretic mobility shift assays</term> confirmed that <term sem="DNA_domain_or_region" id="T29" lex="region_II">region II</term> interacts specifically with <term sem="Protein_family_or_group" id="T30" lex="nuclear_protein">nuclear proteins</term> from <term sem="Cell_natural" id="T31" lex="monocytic_cell">monocytic cells</term>.</sentence>
+<event id="E9">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="T30" />
+<clue><clueExperiment>Electrophoretic mobility shift assays</clueExperiment> confirmed that region II <clueType>interacts</clueType> specifically <linkTheme>with</linkTheme> nuclear proteins from monocytic cells.</clue>
+</event>
+<sentence id="S7">Two <term sem="Protein_complex" id="T32" lex="gel_shift_complex">gel shift complexes</term> (<term sem="Protein_complex" id="T33" lex="Mono_A">Mono A</term> and <term sem="Protein_complex" id="T34" lex="Mono_B">Mono B</term>) were formed with separate <term sem="DNA_domain_or_region" id="A20">sequence elements</term> within this region.</sentence>
+<event id="E60">
+<type class="Binding" />
+<theme idref="A20" />
+<theme idref="T30" />
+<clue>Two gel shift <clueType>complexes</clueType> (Mono A and Mono B) were <clueType>formed</clueType> <linkTheme>with</linkTheme> separate sequence elements within this region.</clue>
+<comment>NO COREFTHEME</comment>
+</event>
+<sentence id="S8"><term sem="Other" id="T35" lex="competition_experiment">Competition</term> and <term sem="Other" id="T36" lex="supershift_experiment">supershift experiments</term> indicate that <term sem="Protein_complex" id="T37" lex="Mono_B">Mono B</term> contains a member of the <term sem="Protein_family_or_group" id="T38" lex="polyomavirus_enhancer-binding_protein_2/core-binding_factor_(PEBP2/CBF)_family">polyomavirus enhancer-binding protein 2/core-binding factor (<term sem="Protein_molecule" id="T39" lex="PEBP2/CBF">PEBP2/CBF</term>) family,</term> which includes the <term sem="Protein_molecule" id="A3">AML1 gene product</term>, while <term sem="Protein_molecule" id="T40" lex="Mono_A">Mono A</term> is a distinct complex preferentially expressed in <term sem="Cell_natural" id="T41" lex="monocytic_cell">monocytic cells</term>.</sentence>
+<event id="E10">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="T38" />
+<clue><clueExperiment>Competition and supershift experiments</clueExperiment> indicate that <clueLoc>Mono B</clueLoc> <clueType>contains</clueType> a member of the polyomavirus enhancer-binding protein 2/core-binding factor (PEBP2/CBF) family, which includes the AML1 gene product, while Mono A is a distinct complex preferentially expressed in monocytic cells.</clue>
+<comment>CAUTION: CLUETYPE , NO COREFTHEME</comment>
+</event>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T29" />
+<theme idref="A3" />
+<clue><clueExperiment>Competition and supershift experiments</clueExperiment> indicate that <clueLoc>Mono B</clueLoc> <clueType>contains</clueType> <corefTheme idref1="A3">a member of the polyomavirus enhancer-binding protein 2/core-binding factor (PEBP2/CBF) family</corefTheme>, which includes the AML1 gene product, while Mono A is a distinct complex preferentially expressed in monocytic cells.</clue>
+<comment>CAUTION: CLUETYPE , NO COREFTHEME</comment>
+</event>
+<event id="E12">
+<type class="Gene_expression" />
+<theme idref="T40" />
+<clue>Competition and supershift experiments indicate that Mono B contains a member of the polyomavirus enhancer-binding protein 2/core-binding factor (PEBP2/CBF) family, which includes the AML1 gene product, while Mono A is a distinct complex preferentially <clueType>expressed</clueType> <clueLoc>in monocytic cells.</clueLoc></clue>
+</event>
+<sentence id="S9"><term sem="DNA_domain_or_region" id="A4"><term sem="DNA_molecule" id="T42" lex="promoter_construct">Promoter constructs</term> with mutations in these sequence elements</term> were no longer expressed specifically in <term sem="Cell_natural" id="T43" lex="monocyte">monocytes</term>.</sentence>
+<event id="E13">
+<type class="Mutagenesis" />
+<theme idref="T29" />
+<clue>Promoter constructs with <clueType>mutations</clueType> <linkTheme>in</linkTheme> <corefTheme>these sequence elements</corefTheme> were no longer expressed specifically in monocytes.</clue>
+<comment>Artificial</comment>
+</event>
+<event id="E14">
+<type class="Gene_expression" />
+<theme idref="A4" />
+<clue>Promoter constructs with mutations in these sequence elements were no longer <clueType>expressed</clueType> specifically in monocytes.</clue>
+<comment>TPS: A4</comment>
+</event>
+<sentence id="S10">Furthermore, <term sem="DNA_domain_or_region" id="T44" lex="multimerized_region_II_sequence_element">multimerized <term sem="DNA_domain_or_region" id="T45" lex="region_II">region II</term> sequence elements</term> enhanced the activity of a <term sem="DNA_substructure" id="T46" lex="heterologous_thymidine_kinase_promoter">heterologous thymidine kinase promoter</term> in <term sem="Cell_natural" id="T47" lex="monocytic_cell">monocytic cells</term> but not other cell types tested.</sentence>
+<event id="E15">
+<type class="Binding" />
+<theme idref="T45" />
+<clue>Furthermore, <clueType>multimerized</clueType> region II sequence elements enhanced the activity of a heterologous thymidine kinase promoter in monocytic cells but not other cell types tested.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T46" />
+<cause idref="E15" />
+<clue>Furthermore, multimerized region II sequence elements <clueType>enhanced</clueType> the activity of a heterologous thymidine kinase promoter <clueLoc>in monocytic cells</clueLoc> but not other cell types tested.</clue>
+</event>
+<event assertion="non-exist" id="E17">
+<type class="Positive_regulation" />
+<theme idref="T46" />
+<cause idref="E15" />
+<clue>Furthermore, multimerized region II sequence elements <clueType>enhanced</clueType> the activity of a heterologous thymidine kinase promoter in monocytic cells but not <clueLoc>other cell types</clueLoc> tested.</clue>
+</event>
+<sentence id="S11">These results indicate that the <term sem="Protein_family_or_group" id="T48" lex="monocyte/B-cell-specific_transcription_factor">monocyte/B-cell-specific transcription factor</term> <term sem="Protein_molecule" id="T49" lex="PU.1">PU.1</term> and the <cons sem="(AND Protein_complex Protein_complex)" id="T50" lex="(AND Mono_A_protein_complex Mono_B_protein_complex)"><frag id="F1"><term sem="Protein_complex" id="A5">Mono A</term></frag> and <frag id="F2"><term sem="Protein_complex" id="A6">Mono B</term></frag> <frag id="F3"><term sem="Protein_complex" id="A7">protein complexes</term></frag></cons> act in concert to regulate <term sem="Other" id="T51" lex="monocyte-specific_transcription">monocyte-specific transcription</term> of the <term sem="Protein_molecule" id="T52" lex="CSF-1_receptor"><term sem="Protein_molecule" id="T53" lex="CSF-1">CSF-1</term> receptor</term>.</sentence>
+<event id="E18">
+<type class="Transcription" />
+<theme idref="T52" />
+<clue>These results indicate that the monocyte/B-cell-specific transcription factor PU.1 and the Mono A and Mono B protein complexes act in concert to regulate <clueLoc>monocyte-specific</clueLoc> <clueType>transcription</clueType> <linkTheme>of</linkTheme> the CSF-1 receptor.</clue>
+</event>
+<event id="E19">
+<type class="Regulation" />
+<theme idref="E18" />
+<cause idref="T49" />
+<cause idref1="A7" idref="A5" />
+<cause idref1="A7" idref="A6" />
+<clue>These results indicate that the monocyte/B-cell-specific transcription factor PU.1 and the Mono A and Mono B protein complexes act <clueType>in concert to regulate</clueType> monocyte-specific transcription of the CSF-1 receptor.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

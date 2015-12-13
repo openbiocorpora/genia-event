@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="17/11/2006" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8663060" creator="Junko Matsuura">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation>
+<PMID>8663060</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Other" id="T1" lex="tissue-specific_activity">Tissue-specific activity</term> of the <term sem="DNA_domain_or_region" id="T2" lex="gammac_chain_gene_promoter"><term sem="DNA_domain_or_region" id="T3" lex="gammac_chain_gene">gammac chain gene</term> promoter</term> depends upon an <term sem="DNA_domain_or_region" id="T4" lex="Ets_binding_site">Ets binding site</term> and is regulated by <term sem="Protein_family_or_group" id="T5" lex="GA-binding_protein">GA-binding protein</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation" />
+<theme idref="T2" />
+<cause idref="T4" />
+<clue>Tissue-specific activity of the gammac chain gene promoter <clueType>depends</clueType> <linkCause>upon</linkCause> an Ets binding site and is regulated by GA-binding protein.</clue>
+</event>
+<event id="E2">
+<type class="Regulation" />
+<theme idref="T2" />
+<cause idref="T5" />
+<clue>Tissue-specific activity of the gammac chain gene promoter depends upon an Ets binding site and is <clueType>regulated</clueType> <linkCause>by</linkCause> GA-binding protein.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term sem="Protein_molecule" id="T6" lex="gammac_chain">gammac chain</term> is a subunit of multiple <term sem="Protein_family_or_group" id="T7" lex="cytokine_receptor">cytokine receptors</term> (<term sem="Protein_molecule" id="T8" lex="interleukin_(IL)-2">interleukin (IL)-2</term>, <term sem="Protein_molecule" id="T9" lex="IL-4">IL-4</term>, <term sem="Protein_molecule" id="T10" lex="IL-7">IL-7</term>, <term sem="Protein_molecule" id="T11" lex="IL-9">IL-9</term>, and <term sem="Protein_molecule" id="T12" lex="IL-15">IL-15</term>), the expression of which is restricted to <term sem="Cell_natural" id="T13" lex="hematopoietic_lineage">hematopoietic lineages</term>.</sentence>
+<event id="E3">
+<type class="Gene_expression" />
+<theme idref="T6" />
+<clue>The gammac chain is a subunit of multiple cytokine receptors (interleukin (IL)-2, IL-4, IL-7, IL-9, and IL-15), the <clueType>expression</clueType> of which is restricted to <clueLoc>hematopoietic lineages</clueLoc>.</clue>
+</event>
+<sentence id="S3">A defect in <term sem="Protein_molecule" id="A1">gammac</term> leads to the <term sem="Other" id="T14" lex="X-linked_severe_combined_immunodeficiency">X-linked severe combined immunodeficiency</term> characterized by a block in <term sem="Other" id="T15" lex="T_cell_differentiation"><term sem="Cell_natural" id="A2">T cell</term> differentiation</term>.</sentence>
+<event id="E4">
+<type class="Negative_regulation" />
+<theme idref="A1" />
+<clue>A <clueType>defect</clueType> <linkTheme>in</linkTheme> gammac leads to the X-linked severe combined immunodeficiency characterized by a block in T cell differentiation.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation" />
+<theme idref="T14" />
+<cause idref="E4" />
+<clue>A defect in gammac <clueType>leads</clueType> <linkTheme>to</linkTheme> the X-linked severe combined immunodeficiency characterized by a block in T cell differentiation.</clue>
+</event>
+<event id="E6">
+<type class="Cell_differentiation" />
+<theme idref="A2" />
+<clue>A defect in gammac leads to the X-linked severe combined immunodeficiency characterized by a block in T cell <clueType>differentiation</clueType>.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation" />
+<theme idref="E6" />
+<cause idref="E4" />
+<clue>A defect in gammac leads to the X-linked severe combined immunodeficiency characterized by a <clueType>block</clueType> <linkTheme>in</linkTheme> T cell differentiation.</clue>
+</event>
+<sentence id="S4">In order to better characterize the <term sem="DNA_domain_or_region" id="T16" lex="human_gammac_promoter">human gammac promoter</term> and define the <term sem="DNA_domain_or_region" id="T17" lex="minimal_tissue-specific_promoter_region">minimal tissue-specific promoter region</term>, progressive <term sem="DNA_family_or_group" id="T18" lex="5&apos;-deletion_construct">5&apos;-deletion constructs</term> of a segment extending <term sem="DNA_domain_or_region" id="T19" lex="1053_base_pairs_upstream">1053 base pairs upstream</term> of the <term sem="DNA_domain_or_region" id="T20" lex="major_transcription_start_site">major transcription start site</term> were generated and tested for <term sem="Other" id="T21" lex="promoter_activity">promoter activity</term> in various <cons sem="(AND Cell_natural Cell_natural)" id="T22" lex="(AND hematopoietic_cell_type nonhematopoietic_cell_type)"><frag id="F1">hematopoietic</frag> and <frag id="F2">nonhematopoietic</frag> <frag id="F3">cell types</frag></cons>.</sentence>
+<sentence id="S5">The <term sem="DNA_molecule" id="T23" lex="-1053/+34_construct">-1053/+34 construct</term> allowed <term sem="Other" id="T24" lex="promoter_activity">promoter activity</term> only in cells of <term sem="Cell_natural" id="T25" lex="hematopoietic_origin">hematopoietic origin</term>, and <term sem="Other" id="T26" lex="tissue_specificity">tissue specificity</term> was conserved in all other constructs tested.</sentence>
+<event id="E8">
+<type class="Positive_regulation" />
+<theme idref="T23" />
+<clue>The -1053/+34 construct <clueType>allowed promoter activity</clueType> only <clueLoc>in cells of hematopoietic origin</clueLoc>, and tissue specificity was conserved in all other constructs tested.</clue>
+</event>
+<sentence id="S6">The <term sem="DNA_domain_or_region" id="A5">region downstream of -90</term> appeared critical for basal <term sem="Other" id="T27" lex="promoter_activity">promoter activity</term>.</sentence>
+<event uncertainty="probable" id="E9">
+<type class="Positive_regulation" />
+<theme idref="T27" />
+<cause idref="A5" />
+<clue>The region downstream of -90 appeared <clueType>critical</clueType> <linkTheme>for</linkTheme> basal promoter activity.</clue>
+<comment>TPS: A5</comment>
+</event>
+<sentence id="S7">It contains two potential <term sem="DNA_domain_or_region" id="T28" lex="Ets_binding_site">Ets binding sites</term> conserved in the <term sem="DNA_domain_or_region" id="T29" lex="murine_gammac_promoter_gene">murine gammac promoter gene</term>, one of which was found essential for functional <term sem="Other" id="T30" lex="promoter_activity">promoter activity</term> as determined by <term sem="Other" id="T31" lex="mutational_analysis">mutational analysis</term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation" />
+<theme idref="T30" />
+<cause idref="T28" />
+<clue>It contains two potential Ets binding sites conserved in the murine gammac promoter gene, one of which was found <clueType>essential</clueType> <linkTheme>for</linkTheme> functional promoter activity as determined <clueExperiment>by mutational analysis.</clueExperiment></clue>
+</event>
+<sentence id="S8">The functional <term sem="DNA_domain_or_region" id="T32" lex="Ets_binding_site">Ets binding site</term> was found to bind <term sem="Protein_family_or_group" id="T33" lex="Ets_family_protein">Ets family proteins</term>, principally <term sem="Protein_family_or_group" id="T34" lex="GA-binding_protein">GA-binding protein</term> and <term sem="Protein_molecule" id="T35" lex="Elf-1">Elf-1</term> and could be transactivated by <term sem="Protein_molecule" id="T36" lex="GABPalpha"><term sem="Protein_molecule" id="A6">GABP</term>alpha</term> and <term sem="Protein_molecule" id="T37" lex="GABP-beta">-beta</term> synergistically.</sentence>
+<event id="E11">
+<type class="Binding" />
+<theme idref="T32" />
+<theme idref="T33" />
+<clue>The functional Ets binding site was found to <clueType>bind</clueType> Ets family proteins, principally GA-binding protein and Elf-1 and could be transactivated by GABPalpha and -beta synergistically.</clue>
+</event>
+<event id="E12">
+<type class="Binding" />
+<theme idref="T32" />
+<theme idref="T34" />
+<clue>The functional Ets binding site was found to <clueType>bind</clueType> <corefTheme idref1="T34">Ets family proteins</corefTheme>, principally GA-binding protein and Elf-1 and could be transactivated by GABPalpha and -beta synergistically.</clue>
+</event>
+<event id="E13">
+<type class="Binding" />
+<theme idref="T32" />
+<theme idref="T35" />
+<clue>The functional Ets binding site was found to <clueType>bind</clueType> <corefTheme idref1="T35">Ets family proteins</corefTheme>, principally GA-binding protein and Elf-1 and could be transactivated by GABPalpha and -beta synergistically.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<cause idref="T36" />
+<clue>The functional Ets binding site was found to bind Ets family proteins, principally GA-binding protein and Elf-1 and could be <clueType>transactivated</clueType> <linkCause>by</linkCause> GABPalpha and -beta <clueType>synergistically</clueType>.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation" />
+<theme idref="T32" />
+<cause idref1="T37" idref="A6" />
+<clue>The functional Ets binding site was found to bind Ets family proteins, principally GA-binding protein and Elf-1 and could be <clueType>transactivated</clueType> <linkCause>by</linkCause> GABPalpha and -beta <clueType>synergistically</clueType>.</clue>
+</event>
+<sentence id="S9">These results indicate that, as already reported for the <term sem="DNA_domain_or_region" id="T38" lex="IL2Rbeta_promoter">IL2Rbeta promoter</term>, <term sem="Protein_family_or_group" id="T39" lex="GA-binding_protein">GA-binding protein</term> is an essential component of <term sem="Other" id="T40" lex="gammac_basal_promoter_activity">gammac basal promoter activity</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation" />
+<theme idref="T40" />
+<cause idref="T39" />
+<clue>These results indicate that, as already reported for the IL2Rbeta promoter, GA-binding protein is an <clueType>essential</clueType> component <linkTheme>of</linkTheme> gammac basal promoter activity.</clue>
+<comment>NER: T41 del &quot;promoter activity&quot;</comment>
+</event>
+<sentence id="S10">Although <term sem="Other" id="T42" lex="GABP_expression"><term sem="Protein_molecule" id="T43" lex="GABP">GABP</term> expression</term> is not restricted to the <term sem="Cell_natural" id="T44" lex="hematopoietic_lineage">hematopoietic lineage</term>, its interaction with other <term sem="Protein_family_or_group" id="T45" lex="specific_factor">specific factors</term> may contribute to the <term sem="Other" id="T46" lex="tissue-specific_expression">tissue-specific expression</term> of the <term sem="DNA_domain_or_region" id="T47" lex="gammac_gene">gammac gene</term>.</sentence>
+<event id="E17">
+<type class="Gene_expression" />
+<theme idref="T43" />
+<clue>Although GABP <clueType>expression</clueType> is not restricted to the hematopoietic lineage, its interaction with other specific factors may contribute to the tissue-specific expression of the gammac gene.</clue>
+</event>
+<event id="E18">
+<type class="Binding" />
+<theme idref="T43" />
+<theme idref="T45" />
+<clue>Although GABP expression is not restricted to the hematopoietic lineage, <corefTheme idref1="T43">its</corefTheme> <clueType>interaction</clueType> <linkTheme>with</linkTheme> other specific factors may contribute to the tissue-specific expression of the gammac gene.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression" />
+<theme idref="T47" />
+<clue>Although GABP expression is not restricted to the hematopoietic lineage, its interaction with other specific factors may contribute to the tissue-specific <clueType>expression</clueType> <linkTheme>of</linkTheme> the gammac gene.</clue>
+</event>
+<event uncertainty="probable" id="E20">
+<type class="Positive_regulation" />
+<theme idref="E19" />
+<cause idref="E18" />
+<clue>Although GABP expression is not restricted to the hematopoietic lineage, its interaction with other specific factors may <clueType>contribute</clueType> <linkTheme>to</linkTheme> the tissue-specific expression of the gammac gene.</clue>
+</event>
+</AbstractText>
+</Abstract>
+</Article>
+</MedlineCitation>
+</PubmedArticle>
+</PubmedArticleSet>
+</Annotation>

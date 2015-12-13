@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Annotation PUBLIC "-//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN" "../GENIAtypes/GENIA_event_20.dtd">
+<Annotation created="18/01/2007" creator="Junko Matsuura" annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10089907"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10089907</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term sem="Lipid" id="T1" lex="estrone">Estrone</term> potentiates <term sem="Other" id="T2" lex="myeloid_cell_differentiation"><term sem="Cell_natural" id="A1">myeloid cell</term> differentiation</term>: a role for <term sem="Protein_molecule" id="T3" lex="17_beta-hydroxysteroid_dehydrogenase">17 beta-hydroxysteroid dehydrogenase</term> in modulating <term sem="Other" id="A2">hemopoiesis</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E1">
+<type class="Cell_differentiation" />
+<theme idref="A1" />
+<clue>Estrone potentiates myeloid cell <clueType>differentiation</clueType>: a role for 17 beta-hydroxysteroid dehydrogenase in modulating hemopoiesis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E2">
+<type class="Positive_regulation" />
+<theme idref="E1" />
+<cause idref="T1" />
+<clue>Estrone <clueType>potentiates</clueType> myeloid cell differentiation: a role for 17 beta-hydroxysteroid dehydrogenase in modulating hemopoiesis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E3">
+<type class="Regulation" />
+<theme idref="A2" />
+<clue>Estrone potentiates myeloid cell differentiation: a role for 17 beta-hydroxysteroid dehydrogenase in <clueType>modulating</clueType> hemopoiesis.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E4">
+<type class="Positive_regulation" />
+<theme idref="E3" />
+<cause idref="T3" />
+<clue>Estrone potentiates myeloid cell differentiation: a <clueType>role</clueType> <linkCause>for</linkCause> 17 beta-hydroxysteroid dehydrogenase <linkTheme>in</linkTheme> modulating hemopoiesis.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term sem="Other" id="A4">Hormones</term> such as <term sem="Lipid" id="T4" lex="1_alpha,_25-dihydroxy_vitamin_D3">1 alpha, 25-dihydroxy vitamin D3</term> (<term sem="Lipid" id="T5" lex="D3">D3</term>), <term sem="Organic_compound_other" id="T6" lex="all-trans_retinoic_acid">all-trans <term sem="Organic_compound_other" id="T7" lex="retinoic_acid">retinoic acid</term></term>, and <term sem="Organic_compound_other" id="T8" lex="9-cis_retinoic_acid">9-cis <term sem="Organic_compound_other" id="T9" lex="retinoic_acid">retinoic acid</term></term> stimulate differentiation of <term sem="Cell_natural" id="T10" lex="myeloid_progenitor_cell">myeloid progenitor cells</term> via their interaction with specific <term sem="Protein_family_or_group" id="T11" lex="hormone_receptor">hormone receptors</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E5">
+<type class="Cell_differentiation" />
+<theme idref="T10" />
+<clue>Hormones such as 1 alpha, 25-dihydroxy vitamin D3 (D3), all-trans retinoic acid, and 9-cis retinoic acid stimulate <clueType>differentiation</clueType> <linkTheme>of</linkTheme> myeloid progenitor cells via their interaction with specific hormone receptors.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E6">
+<type class="Binding" />
+<theme idref="A4" />
+<theme idref="T11" />
+<clue>Hormones such as 1 alpha, 25-dihydroxy vitamin D3 (D3), all-trans retinoic acid, and 9-cis retinoic acid stimulate differentiation of myeloid progenitor cells via <corefTheme idref1="A4">their</corefTheme> <clueType>interaction</clueType> <linkTheme>with</linkTheme> specific hormone receptors.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E7">
+<type class="Binding" />
+<theme idref="T5" />
+<theme idref="T11" />
+<clue><corefTheme idref1="T5">Hormones</corefTheme> such as 1 alpha, 25-dihydroxy vitamin D3 (D3), all-trans retinoic acid, and 9-cis retinoic acid stimulate differentiation of myeloid progenitor cells via <corefTheme idref1="T5">their</corefTheme> <clueType>interaction</clueType> <linkTheme>with</linkTheme> specific hormone receptors.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E8">
+<type class="Binding" />
+<theme idref="T6" />
+<theme idref="T11" />
+<clue><corefTheme idref1="T6">Hormones</corefTheme> such as 1 alpha, 25-dihydroxy vitamin D3 (D3), all-trans retinoic acid, and 9-cis retinoic acid stimulate differentiation of myeloid progenitor cells via <corefTheme idref1="T6">their</corefTheme> <clueType>interaction</clueType> <linkTheme>with</linkTheme> specific hormone receptors.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E9">
+<type class="Binding" />
+<theme idref="T8" />
+<theme idref="T11" />
+<clue><corefTheme idref1="T8">Hormones</corefTheme> such as 1 alpha, 25-dihydroxy vitamin D3 (D3), all-trans retinoic acid, and 9-cis retinoic acid stimulate differentiation of myeloid progenitor cells via <corefTheme idref1="T8">their</corefTheme> <clueType>interaction</clueType> <linkTheme>with</linkTheme> specific hormone receptors.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E10">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E6" />
+<clue>Hormones such as 1 alpha, 25-dihydroxy vitamin D3 (D3), all-trans retinoic acid, and 9-cis retinoic acid <clueType>stimulate</clueType> differentiation of myeloid progenitor cells <linkCause>via</linkCause> their interaction with specific hormone receptors.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E11">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E7" />
+<clue>Hormones such as 1 alpha, 25-dihydroxy vitamin D3 (D3), all-trans retinoic acid, and 9-cis retinoic acid <clueType>stimulate</clueType> differentiation of myeloid progenitor cells <linkCause>via</linkCause> their interaction with specific hormone receptors.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E12">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E8" />
+<clue>Hormones such as 1 alpha, 25-dihydroxy vitamin D3 (D3), all-trans retinoic acid, and 9-cis retinoic acid <clueType>stimulate</clueType> differentiation of myeloid progenitor cells <linkCause>via</linkCause> their interaction with specific hormone receptors.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E13">
+<type class="Positive_regulation" />
+<theme idref="E5" />
+<cause idref="E9" />
+<clue>Hormones such as 1 alpha, 25-dihydroxy vitamin D3 (D3), all-trans retinoic acid, and 9-cis retinoic acid <clueType>stimulate</clueType> differentiation of myeloid progenitor cells <linkCause>via</linkCause> their interaction with specific hormone receptors.</clue>
+</event>
+<sentence id="S3">However, the sensitivity of <term sem="Unicellular_organism" id="A5">cells</term> to these agents is not merely governed by the expression of their receptors and the <term sem="Other" id="A7">availability of <term sem="Other" id="A6">ligand</term></term> to bind them.</sentence>
+<event assertion="exist" uncertainty="certain" id="E14">
+<type class="Regulation" />
+<theme idref="A5" />
+<cause idref="T5" />
+<clue>However, the sensitivity <linkTheme>of</linkTheme> cells <linkCause>to</linkCause> <corefCause>these agents</corefCause> is not merely governed by the expression of their receptors and the availability of ligand to bind them.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E15">
+<type class="Regulation" />
+<theme idref="A5" />
+<cause idref="T6" />
+<clue>However, the sensitivity <linkTheme>of</linkTheme> cells <linkCause>to</linkCause> <corefCause>these agents</corefCause> is not merely governed by the expression of their receptors and the availability of ligand to bind them.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E16">
+<type class="Regulation" />
+<theme idref="A5" />
+<cause idref="T8" />
+<clue>However, the sensitivity <linkTheme>of</linkTheme> cells <linkCause>to</linkCause> <corefCause>these agents</corefCause> is not merely governed by the expression of their receptors and the availability of ligand to bind them.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E17">
+<type class="Gene_expression" />
+<theme idref="T11" />
+<clue>However, the sensitivity of cells to these agents is not merely governed by the <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>their receptors</corefTheme> and the availability of ligand to bind them.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E18">
+<type class="Binding" />
+<theme idref="A6" />
+<theme idref="T11" />
+<clue>However, the sensitivity of cells to these agents is not merely governed by the expression of their receptors and the availability of ligand to <clueType>bind</clueType> <corefTheme idref1="T11">them</corefTheme>.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E19">
+<type class="Regulation" />
+<theme idref="E14" />
+<cause idref="E17" />
+<clue>However, the sensitivity of cells to these agents is not merely <clueType>governed</clueType> <linkCause>by</linkCause> the expression of their receptors and the availability of ligand to bind them.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E20">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="E17" />
+<clue>However, the sensitivity of cells to these agents is not merely <clueType>governed</clueType> <linkCause>by</linkCause> the expression of their receptors and the availability of ligand to bind them.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E21">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="E17" />
+<clue>However, the sensitivity of cells to these agents is not merely <clueType>governed</clueType> <linkCause>by</linkCause> the expression of their receptors and the availability of ligand to bind them.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E22">
+<type class="Regulation" />
+<theme idref="E14" />
+<cause idref="E18" />
+<clue>However, the sensitivity of cells to these agents is not merely <clueType>governed</clueType> <linkCause>by</linkCause> the expression of their receptors and the availability of ligand to bind them.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E23">
+<type class="Regulation" />
+<theme idref="E15" />
+<cause idref="E18" />
+<clue>However, the sensitivity of cells to these agents is not merely <clueType>governed</clueType> <linkCause>by</linkCause> the expression of their receptors and the availability of ligand to bind them.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E24">
+<type class="Regulation" />
+<theme idref="E16" />
+<cause idref="E18" />
+<clue>However, the sensitivity of cells to these agents is not merely <clueType>governed</clueType> <linkCause>by</linkCause> the expression of their receptors and the availability of ligand to bind them.</clue>
+</event>
+<sentence id="S4">Recent studies from our group suggested that the actions of <term sem="Lipid" id="T12" lex="D3">D3</term> and <term sem="Organic_compound_other" id="T13" lex="retinoid">retinoids</term> on <term sem="Other" id="T14" lex="myelopoiesis">myelopoiesis</term> also are influenced by <term sem="Other" id="A10">endogenous mechanisms</term> involving other <term sem="Lipid" id="T15" lex="steroid_hormone">steroid hormones</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E25">
+<type class="Regulation" />
+<theme idref="T14" />
+<cause idref="T12" />
+<clue>Recent studies from our group suggested that the <clueType>actions</clueType> <linkCause>of</linkCause> D3 and retinoids <linkTheme>on</linkTheme> myelopoiesis also are influenced by endogenous mechanisms involving other steroid hormones.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E26">
+<type class="Regulation" />
+<theme idref="T14" />
+<cause idref="T13" />
+<clue>Recent studies from our group suggested that the <clueType>actions</clueType> <linkCause>of</linkCause> D3 and retinoids <linkTheme>on</linkTheme> myelopoiesis also are influenced by endogenous mechanisms involving other steroid hormones.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E27">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="A10" />
+<clue>Recent studies from our group suggested that the actions of D3 and retinoids on myelopoiesis also are <clueType>influenced</clueType> <linkCause>by</linkCause> endogenous mechanisms involving other steroid hormones.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E28">
+<type class="Regulation" />
+<theme idref="E26" />
+<cause idref="A10" />
+<clue>Recent studies from our group suggested that the actions of D3 and retinoids on myelopoiesis also are <clueType>influenced</clueType> <linkCause>by</linkCause> endogenous mechanisms involving other steroid hormones.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E29">
+<type class="Regulation" />
+<theme idref="E25" />
+<cause idref="T15" />
+<clue>Recent studies from our group suggested that the actions of D3 and retinoids on myelopoiesis also are <clueType>influenced</clueType> <linkCause>by</linkCause> <corefCause>endogenous mechanisms</corefCause> involving other steroid hormones.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E30">
+<type class="Regulation" />
+<theme idref="E26" />
+<cause idref="T15" />
+<clue>Recent studies from our group suggested that the actions of D3 and retinoids on myelopoiesis also are <clueType>influenced</clueType> <linkCause>by</linkCause> <corefCause>endogenous mechanisms</corefCause> involving other steroid hormones.</clue>
+</event>
+<sentence id="S5">In this study we examined the influence of <term sem="Other" id="A11">local estrogen metabolism</term> on the differentiation of <term sem="Cell_cultured" id="T16" lex="HL60_cell">HL60 cells</term> and normal primitive <term sem="Cell_natural" id="T17" lex="myeloid_progenitor_cell">myeloid progenitor cells</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E31">
+<type class="Cell_differentiation" />
+<theme idref="T16" />
+<clue>In this study we examined the influence of local estrogen metabolism on the <clueType>differentiation</clueType> <linkTheme>of</linkTheme> HL60 cells and normal primitive myeloid progenitor cells.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E32">
+<type class="Cell_differentiation" />
+<theme idref="T17" />
+<clue>In this study we examined the influence of local estrogen metabolism on the <clueType>differentiation</clueType> <linkTheme>of</linkTheme> HL60 cells and normal primitive myeloid progenitor cells.</clue>
+</event>
+<event assertion="exist" uncertainty="doubtful" id="E33">
+<type class="Regulation" />
+<theme idref="E31" />
+<cause idref="A11" />
+<clue>In this study we examined the <clueType>influence</clueType> <linkCause>of</linkCause> local estrogen metabolism <linkTheme>on</linkTheme> the differentiation of HL60 cells and normal primitive myeloid progenitor cells.</clue>
+</event>
+<event assertion="exist" uncertainty="doubtful" id="E34">
+<type class="Regulation" />
+<theme idref="E32" />
+<cause idref="A11" />
+<clue>In this study we examined the <clueType>influence</clueType> <linkCause>of</linkCause> local estrogen metabolism <linkTheme>on</linkTheme> the differentiation of HL60 cells and normal primitive myeloid progenitor cells.</clue>
+</event>
+<sentence id="S6">Quantitative <term sem="Other" id="T18" lex="thin-layer_chromatography_(TLC)_analysis">thin-layer chromatography (<term sem="Other" id="T19" lex="TLC">TLC</term>) analyses</term> showed that <term sem="Cell_cultured" id="T20" lex="HL60">HL60</term> and <term sem="Cell_natural" id="T21" lex="normal_cell">normal cells</term> are able to generate <term sem="Lipid" id="T22" lex="estrone">estrone</term> (<term sem="Lipid" id="T23" lex="E1">E1</term>) from <term sem="Lipid" id="T24" lex="estradiol">estradiol</term> (<term sem="Lipid" id="T25" lex="E2">E2</term>).</sentence>
+<event assertion="exist" uncertainty="certain" id="E300">
+<type class="Metabolism" />
+<theme idref="T25" />
+<theme idref="T23" />
+<clue><clueExperiment>Quantitative thin-layer chromatography (TLC) analyses</clueExperiment> showed that <clueLoc>HL60</clueLoc> and <clueLoc>normal cells</clueLoc> are able to generate estrone (E1) <linkTheme>from</linkTheme> estradiol (E2).</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E301">
+<type class="Metabolism" />
+<theme idref="T25" />
+<theme idref="T23" />
+<clue><clueExperiment>Quantitative thin-layer chromatography (TLC) analyses</clueExperiment> showed that HL60 and <clueLoc>normal cells</clueLoc> are able to generate estrone (E1) <linkTheme>from</linkTheme> estradiol (E2).</clue>
+</event>
+<sentence id="S7">Neither cell population generated significant amounts of <term sem="Lipid" id="T26" lex="E2">E2</term> from <term sem="Lipid" id="T27" lex="E1">E1</term>.</sentence>
+<event assertion="non-exist" uncertainty="certain" id="E36">
+<type class="Metabolism" />
+<theme idref="T27" />
+<theme idref="T6" />
+<clue>Neither cell population <clueType>generated</clueType> significant amounts of E2 <linkTheme>from</linkTheme> E1.</clue>
+</event>
+<sentence id="S8"><term sem="Other" id="T28" lex="reverse_transcriptase_polymerase_chain_reaction">Reverse transcriptase polymerase chain reaction</term> and <term sem="Other" id="T29" lex="Northern_analysis">Northern analyses</term> confirmed that normal and leukemic <term sem="Cell_natural" id="T30" lex="myeloid_progenitor_cell">myeloid progenitor cells</term> expressed <term sem="RNA_family_or_group" id="T31" lex="mRNA">mRNA</term> for the <term sem="RNA_molecule" id="A12">type</term> <term sem="RNA_molecule" id="A13">I</term> and <term sem="RNA_molecule" id="A14">IV</term> <term sem="RNA_molecule" id="A15">isoforms of</term> <term sem="Protein_molecule" id="T32" lex="17_beta-hydroxysteroid_dehydrogenase">17 beta-hydroxysteroid dehydrogenase</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E310">
+<type class="Transcription" />
+<theme idref1="A13" idref3="T32" idref2="A15" idref="A12" />
+<clue><clueExperiment>Reverse transcriptase polymerase chain reaction and Northern analyses</clueExperiment> confirmed that <clueLoc>normal</clueLoc> and leukemic <clueLoc>myeloid progenitor cells</clueLoc> <clueType>expressed</clueType> mRNA for the type I and IV isoforms of 17 beta-hydroxysteroid dehydrogenase.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E311">
+<type class="Transcription" />
+<theme idref1="A13" idref3="T32" idref2="A15" idref="A12" />
+<clue><clueExperiment>Reverse transcriptase polymerase chain reaction and Northern analyses</clueExperiment> confirmed that normal and <clueLoc>leukemic myeloid progenitor cells</clueLoc> <clueType>expressed</clueType> mRNA for the type I and IV isoforms of 17 beta-hydroxysteroid dehydrogenase.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E312">
+<type class="Transcription" />
+<theme idref1="A14" idref3="T32" idref2="A15" idref="A12" />
+<clue><clueExperiment>Reverse transcriptase polymerase chain reaction and Northern analyses</clueExperiment> confirmed that <clueLoc>normal</clueLoc> and leukemic <clueLoc>myeloid progenitor cells</clueLoc> <clueType>expressed</clueType> mRNA for the type I and IV isoforms of 17 beta-hydroxysteroid dehydrogenase.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E313">
+<type class="Transcription" />
+<theme idref1="A14" idref3="T32" idref2="A15" idref="A12" />
+<clue><clueExperiment>Reverse transcriptase polymerase chain reaction and Northern analyses</clueExperiment> confirmed that normal and <clueLoc>leukemic myeloid progenitor cells</clueLoc> <clueType>expressed</clueType> mRNA for the type I and IV isoforms of 17 beta-hydroxysteroid dehydrogenase.</clue>
+</event>
+<sentence id="S9">Conversion of <term sem="Lipid" id="T33" lex="E2">E2</term> to <term sem="Lipid" id="T34" lex="E1">E1</term> was upregulated within 24 hours when <term sem="Cell_cultured" id="T35" lex="HL60_cell">HL60 cells</term> were treated with either <term sem="Organic_compound_other" id="T36" lex="all-trans_retinoic_acid">all-trans <term sem="Organic_compound_other" id="T37" lex="retinoic_acid">retinoic acid</term></term> or <term sem="Lipid" id="T38" lex="D3">D3</term> at doses that induce their differentiation toward <term sem="Cell_natural" id="T39" lex="neutrophil">neutrophils</term> or <term sem="Cell_natural" id="T40" lex="monocyte">monocytes</term>, respectively.</sentence>
+<event assertion="exist" uncertainty="certain" id="E39">
+<type class="Metabolism" />
+<theme idref="T33" />
+<theme idref="T34" />
+<clue><clueType>Conversion</clueType> <linkTheme>of</linkTheme> E2 <linkTheme>to</linkTheme> E1 was upregulated within 24 hours when HL60 cells were treated with either all-trans retinoic acid or D3 at doses that induce their differentiation toward neutrophils or monocytes, respectively.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E40">
+<type class="Artificial_process" />
+<theme idref="T35" />
+<theme idref="T36" />
+<clue>Conversion of E2 to E1 was upregulated within 24 hours when HL60 cells were <clueType>treated</clueType> <linkTheme>with</linkTheme> either all-trans retinoic acid or D3 at doses that induce their differentiation toward neutrophils or monocytes, respectively.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E41">
+<type class="Artificial_process" />
+<theme idref="T35" />
+<theme idref="T38" />
+<clue>Conversion of E2 to E1 was upregulated within 24 hours when HL60 cells were <clueType>treated</clueType> <linkTheme>with</linkTheme> either all-trans retinoic acid or D3 at doses that induce their differentiation toward neutrophils or monocytes, respectively.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E42">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref="E40" />
+<clue>Conversion of E2 to E1 was <clueType>upregulated</clueType> <clueTime>within 24 hours</clueTime> when HL60 cells were treated with either all-trans retinoic acid or D3 at doses that induce their differentiation toward neutrophils or monocytes, respectively.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E43">
+<type class="Positive_regulation" />
+<theme idref="E39" />
+<cause idref="E41" />
+<clue>Conversion of E2 to E1 was <clueType>upregulated</clueType> <clueTime>within 24 hours</clueTime> when HL60 cells were treated with either all-trans retinoic acid or D3 at doses that induce their differentiation toward neutrophils or monocytes, respectively.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E44">
+<type class="Cell_differentiation" />
+<theme idref="T35" />
+<theme idref="T39" />
+<clue>Conversion of E2 to E1 was upregulated within 24 hours when HL60 cells were treated with either all-trans retinoic acid or D3 at doses that induce <corefTheme idref1="T35">their</corefTheme> <clueType>differentiation</clueType> <linkTheme>toward</linkTheme> neutrophils or monocytes, respectively.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E45">
+<type class="Cell_differentiation" />
+<theme idref="T35" />
+<theme idref="T40" />
+<clue>Conversion of E2 to E1 was upregulated within 24 hours when HL60 cells were treated with either all-trans retinoic acid or D3 at doses that induce <corefTheme idref1="T35">their</corefTheme> <clueType>differentiation</clueType> <linkTheme>toward</linkTheme> neutrophils or monocytes, respectively.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E46">
+<type class="Positive_regulation" />
+<theme idref="E44" />
+<cause idref="T37" />
+<clue>Conversion of E2 to E1 was upregulated within 24 hours when HL60 cells were treated with either all-trans retinoic acid or D3 at doses that <clueType>induce</clueType> their differentiation toward neutrophils or monocytes, respectively.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E47">
+<type class="Positive_regulation" />
+<theme idref="E45" />
+<cause idref="T38" />
+<clue>Conversion of E2 to E1 was upregulated within 24 hours when HL60 cells were treated with either all-trans retinoic acid or D3 at doses that <clueType>induce</clueType> their differentiation toward neutrophils or monocytes, respectively.</clue>
+</event>
+<sentence id="S10">Similarly, <term sem="Other" id="T41" lex="D3-induced_monocyte_differentiation"><term sem="Lipid" id="T42" lex="D3">D3</term>-induced <term sem="Cell_natural" id="A20">monocyte</term> differentiation</term> of normal <term sem="Cell_natural" id="T43" lex="myeloid_progenitor_cell">myeloid progenitor cells</term> was associated with increased capacity to generate <term sem="Organic_compound_other" id="T44" lex="E1"><term sem="Lipid" id="T45" lex="E1">E1</term></term> from <term sem="Lipid" id="T46" lex="E2">E2</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E48">
+<type class="Cell_differentiation" />
+<theme idref="T43" />
+<theme idref="A20" />
+<clue>Similarly, D3-induced monocyte <clueType>differentiation</clueType> <linkTheme>of</linkTheme> normal myeloid progenitor cells was associated with increased capacity to generate E1 from E2.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E49">
+<type class="Positive_regulation" />
+<theme idref="E48" />
+<cause idref="T42" />
+<clue>Similarly, D3-<clueType>induced</clueType> monocyte differentiation of normal myeloid progenitor cells was associated with increased capacity to generate E1 from E2.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E50">
+<type class="Metabolism" />
+<theme idref="T45" />
+<theme idref="T46" />
+<clue>Similarly, D3-induced monocyte differentiation of normal myeloid progenitor cells was associated with increased capacity to <clueType>generate</clueType> E1 <linkTheme>from</linkTheme> E2.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E51">
+<type class="Positive_regulation" />
+<theme idref="E50" />
+<clue>Similarly, D3-induced monocyte differentiation of normal myeloid progenitor cells was associated with <clueType>increased</clueType> capacity to generate E1 from E2.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E52">
+<type class="Correlation" />
+<theme idref="E49" />
+<theme idref="E51" />
+<clue>Similarly, D3-induced monocyte differentiation of normal myeloid progenitor cells was <clueType>associated</clueType> <linkTheme>with</linkTheme> increased capacity to generate E1 from E2.</clue>
+</event>
+<sentence id="S11">When <term sem="Cell_cultured" id="T47" lex="HL60_cell">HL60 cells</term> or normal <term sem="Cell_natural" id="T48" lex="myeloid_progenitor_cell">myeloid progenitor cells</term> were exposed to exogenous <term sem="Lipid" id="T49" lex="E1">E1</term> they became more sensitive to the <term sem="Other" id="T50" lex="differentiation-inducing_effect">differentiation-inducing effects</term> of <term sem="Lipid" id="T51" lex="D3">D3</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E53">
+<type class="Artificial_process" />
+<theme idref="T47" />
+<theme idref="T49" />
+<clue>When HL60 cells or normal myeloid progenitor cells were <clueType>exposed</clueType> <linkTheme>to</linkTheme> exogenous E1 they became more sensitive to the differentiation-inducing effects of D3.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E54">
+<type class="Artificial_process" />
+<theme idref="T48" />
+<theme idref="T49" />
+<clue>When HL60 cells or normal myeloid progenitor cells were <clueType>exposed</clueType> <linkTheme>to</linkTheme> exogenous E1 they became more sensitive to the differentiation-inducing effects of D3.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E55">
+<type class="Cell_differentiation" />
+<theme idref="T47" />
+<clue>When HL60 cells or normal myeloid progenitor cells were exposed to exogenous E1 they became more sensitive to the <clueType>differentiation</clueType>-inducing effects of D3.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E56">
+<type class="Cell_differentiation" />
+<theme idref="T48" />
+<clue>When HL60 cells or normal myeloid progenitor cells were exposed to exogenous E1 they became more sensitive to the <clueType>differentiation</clueType>-inducing effects of D3.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E57">
+<type class="Positive_regulation" />
+<theme idref="E55" />
+<cause idref="T51" />
+<clue>When HL60 cells or normal myeloid progenitor cells were exposed to exogenous E1 they became more sensitive to the differentiation-<clueType>inducing</clueType> effects <linkCause>of</linkCause> D3.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E58">
+<type class="Positive_regulation" />
+<theme idref="E56" />
+<cause idref="T51" />
+<clue>When HL60 cells or normal myeloid progenitor cells were exposed to exogenous E1 they became more sensitive to the differentiation-<clueType>inducing</clueType> effects <linkCause>of</linkCause> D3.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E59">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref="E53" />
+<clue>When HL60 cells or normal myeloid progenitor cells were exposed to exogenous E1 they became <clueType>more sensitive</clueType> <linkTheme>to</linkTheme> the differentiation-inducing effects of D3.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E60">
+<type class="Positive_regulation" />
+<theme idref="E57" />
+<cause idref="E54" />
+<clue>When HL60 cells or normal myeloid progenitor cells were exposed to exogenous E1 they became <clueType>more sensitive</clueType> <linkTheme>to</linkTheme> the differentiation-inducing effects of D3.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E61">
+<type class="Positive_regulation" />
+<theme idref="E58" />
+<cause idref="E53" />
+<clue>When HL60 cells or normal myeloid progenitor cells were exposed to exogenous E1 they became <clueType>more sensitive</clueType> <linkTheme>to</linkTheme> the differentiation-inducing effects of D3.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E62">
+<type class="Positive_regulation" />
+<theme idref="E58" />
+<cause idref="E54" />
+<clue>When HL60 cells or normal myeloid progenitor cells were exposed to exogenous E1 they became <clueType>more sensitive</clueType> <linkTheme>to</linkTheme> the differentiation-inducing effects of D3.</clue>
+</event>
+<sentence id="S12">Data presented provide further evidence for the local modulation of <term sem="Other" id="T52" lex="myelopoiesis">myelopoiesis</term> by <term sem="Other" id="T53" lex="intracrine_mechanism">intracrine mechanisms</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E63">
+<type class="Regulation" />
+<theme idref="T52" />
+<cause idref="T50" />
+<clue>Data presented provide further evidence for the local <clueType>modulation</clueType> <linkTheme>of</linkTheme> myelopoiesis <linkCause>by</linkCause> intracrine mechanisms.</clue>
+</event>
+<sentence id="S13">In particular, our findings suggest that local metabolism of <term sem="Lipid" id="A21">steroids</term> by <term sem="Cell_natural" id="A22">normal</term> as well as <term sem="Cell_natural" id="T54" lex="leukemic_myeloid_cell">leukemic myeloid <term sem="Cell_natural" id="A23">cells</term></term> influences their responsiveness to <term sem="Lipid" id="T55" lex="D3">D3</term> and <term sem="Organic_compound_other" id="T56" lex="retinoid">retinoids</term>.</sentence>
+<event assertion="exist" uncertainty="certain" id="E320">
+<type class="Metabolism" />
+<theme idref="A21" />
+<clue>In particular, our findings suggest that local <clueType>metabolism</clueType> <linkTheme>of</linkTheme> steroids <clueLoc>by normal</clueLoc> as well as leukemic <clueLoc>myeloid cells</clueLoc> influences their responsiveness to D3 and retinoids.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E321">
+<type class="Metabolism" />
+<theme idref="A21" />
+<clue>In particular, our findings suggest that local <clueType>metabolism</clueType> <linkTheme>of</linkTheme> steroids <clueLoc>by</clueLoc> normal as well as <clueLoc>leukemic myeloid cells</clueLoc> influences their responsiveness to D3 and retinoids.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E65">
+<type class="Regulation" />
+<theme idref1="A23" idref="A22" />
+<cause idref="T55" />
+<clue>In particular, our findings suggest that local metabolism of steroids by normal as well as leukemic myeloid cells influences <corefTheme>their</corefTheme> <clueType>responsiveness</clueType> <linkCause>to</linkCause> D3 and retinoids.</clue>
+</event>
+<event assertion="exist" uncertainty="certain" id="E66">
+<type class="Regulation" />
+<theme idref="T54" />
+<cause idref="T55" />
+<clue>In particular, our findings suggest that local metabolism of steroids by normal as well as leukemic myeloid cells influences <corefTheme>their</corefTheme> <clueType>responsiveness</clueType> <linkCause>to</linkCause> D3 and retinoids.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E67">
+<type class="Regulation" />
+<theme idref="E65" />
+<cause idref="E65" />
+<clue>In particular, our findings suggest that local metabolism of steroids by normal as well as leukemic myeloid cells <clueType>influences</clueType> their responsiveness to D3 and retinoids.</clue>
+</event>
+<event assertion="exist" uncertainty="probable" id="E68">
+<type class="Regulation" />
+<theme idref="E65" />
+<cause idref="E65" />
+<clue>In particular, our findings suggest that local metabolism of steroids by normal as well as leukemic myeloid cells <clueType>influences</clueType> their responsiveness to D3 and retinoids.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>
